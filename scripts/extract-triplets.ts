@@ -3,12 +3,13 @@ import fs from "fs-extra";
 import path from "path";
 import "dotenv/config";
 
-interface ConceptRelation {
-  conceptA: string;        // 起始概念
-  relation: string;        // 关系类型
-  conceptB: string;        // 目标概念
+interface KnowledgeTriple {
+  subject: string;         // 主体（知识三元组的主语）
+  predicate: string;       // 谓语（知识三元组的关系谓词）
+  object: string;          // 客体（知识三元组的宾语）
   context?: string;        // 关系上下文说明
   direction?: 'bidirectional' | 'unidirectional'; // 关系方向性
+  confidence?: number;     // 置信度（0.0-1.0，表示关系提取的准确性）
 }
 
 // 添加警告接口
@@ -20,13 +21,12 @@ interface Warning {
   timestamp: string;
 }
 
-interface DocumentConceptRelations {
+interface DocumentKnowledgeTriples {
   filename: string;
   sourceFile: string;
-  relations: ConceptRelation[];
+  triples: KnowledgeTriple[];  // 改为知识三元组
   timestamp: string;
   warnings?: Warning[];  // 添加警告字段
-  excludedFiles?: string[]; // 添加被排除的文件列表
   metadata?: {
     fileSize: number;
     contentLength: number;
@@ -40,6 +40,7 @@ interface ExtractConfig {
   description: string;
   excludeFiles: string[];
   excludePatterns: string[];
+  includePatterns?: string[];  // 添加包含模式
   warnings: {
     largeSizeThreshold: number;
     largeSizeWarningMessage: string;
@@ -63,7 +64,7 @@ interface ProcessResult {
   filename: string;
   sourceFile: string;
   success: boolean;
-  relationsCount: number;
+  triplesCount: number;  // 改为三元组数量
   warnings?: Warning[];  // 添加警告字段
   error?: string;
 }
@@ -127,6 +128,7 @@ function getDefaultConfig(): ExtractConfig {
     description: "默认配置",
     excludeFiles: [],
     excludePatterns: [],
+    includePatterns: [],  // 默认为空，表示包含所有文件
     warnings: {
       largeSizeThreshold: 8000,
       largeSizeWarningMessage: "文档内容较长，可能增加API调用成本",
@@ -147,21 +149,36 @@ function getDefaultConfig(): ExtractConfig {
 }
 
 // 添加文件过滤函数
-function shouldExcludeFile(filename: string, config: ExtractConfig): boolean {
-  // 检查完全匹配的文件名
-  if (config.excludeFiles.includes(filename)) {
-    return true;
-  }
-  
-  // 检查模式匹配
-  for (const pattern of config.excludePatterns) {
-    const regex = new RegExp(pattern.replace(/\*\*/g, '.*').replace(/\*/g, '[^/]*'));
-    if (regex.test(filename)) {
-      return true;
+function shouldIncludeFile(filename: string, config: ExtractConfig): boolean {
+  // 如果有includePatterns，先检查是否匹配包含模式
+  if (config.includePatterns && config.includePatterns.length > 0) {
+    let matched = false;
+    for (const pattern of config.includePatterns) {
+      const regex = new RegExp(pattern.replace(/\*\*/g, '.*').replace(/\*/g, '[^/]*'));
+      if (regex.test(filename)) {
+        matched = true;
+        break;
+      }
+    }
+    if (!matched) {
+      return false; // 如果不匹配任何包含模式，则排除
     }
   }
   
-  return false;
+  // 检查是否在排除列表中
+  if (config.excludeFiles.includes(filename)) {
+    return false;
+  }
+  
+  // 检查排除模式匹配
+  for (const pattern of config.excludePatterns) {
+    const regex = new RegExp(pattern.replace(/\*\*/g, '.*').replace(/\*/g, '[^/]*'));
+    if (regex.test(filename)) {
+      return false;
+    }
+  }
+  
+  return true;
 }
 
 // 添加警告创建函数
@@ -288,8 +305,8 @@ function analyzeProgress(progressData: ProgressData | null, files: string[]): {
   };
 }
 
-async function extractConceptRelations(content: string, config: ExtractConfig): Promise<{
-  relations: ConceptRelation[];
+async function extractKnowledgeTriples(content: string, config: ExtractConfig): Promise<{
+  triples: KnowledgeTriple[];
   warnings: Warning[];
 }> {
   const warnings: Warning[] = [];
@@ -305,31 +322,37 @@ async function extractConceptRelations(content: string, config: ExtractConfig): 
   }
 
   const prompt = `
-你是一个专业的知识图谱构建专家。请分析以下虚幻引擎文档内容，提取概念与概念之间的关系，构建学习导向的知识图谱。
+你是一个专业的知识图谱构建专家。请分析以下虚幻引擎文档内容，提取标准知识图谱三元组，构建学习导向的知识图谱。
 
 核心目标：帮助学习者通过一个概念发现相关联的其他概念，形成概念关系网络。
 
 请遵循以下原则：
 1. **概念识别**：识别文档中的核心技术概念、功能模块、系统组件、开发概念等
-2. **概念关系**：重点提取概念与概念之间的学习相关性，包括：
-   - 依赖关系：概念A需要先理解概念B
-   - 关联关系：概念A与概念B在使用中经常配合
-   - 层级关系：概念A是概念B的上级/下级概念
-   - 替代关系：概念A可以替代概念B或者是概念B的升级版
-   - 应用关系：概念A在概念B中被应用
+2. **三元组构建**：重点提取概念与概念之间的学习相关性，构建标准的知识三元组（主体-谓语-客体）：
+   - **自然语义关系**：根据概念间的实际关系，使用最自然、最准确的动词或动词短语作为谓词
+   - **关系发现**：不局限于预设关系类型，自主发现文档中体现的各种概念关系
+   - **谓词标准化**：使用简洁、准确的动词作为关系谓词，避免冗长表述
 3. **学习导向**：关系应该有助于学习路径规划和概念扩展
 4. **概念表述**：使用清晰、标准的概念名称，保持一致性
 5. **上下文价值**：上下文应该说明为什么这两个概念相关，对学习者的意义
 
+**关系谓词建议**：
+- 优先使用动词：包含、支持、依赖、实现、扩展、替代、生成、控制、管理等
+- 功能关系：用于、适用于、专门用于、主要用于等
+- 结构关系：属于、组成、继承、基于等
+- 时序关系：前置、后续、升级、替换等
+- 让文档内容自然地引导关系的发现，不强制套用固定模式
+
 请严格按照以下JSON格式返回结果：
 {
-  "relations": [
+  "triples": [
     {
-      "conceptA": "起始概念",
-      "relation": "关系类型",
-      "conceptB": "目标概念",
+      "subject": "主体概念",
+      "predicate": "关系谓词",
+      "object": "客体概念",
       "context": "学习相关性说明",
-      "direction": "bidirectional"
+      "direction": "bidirectional",
+      "confidence": 0.9
     }
   ]
 }
@@ -337,16 +360,22 @@ async function extractConceptRelations(content: string, config: ExtractConfig): 
 文档内容：
 ${content}
 
-请提取有助于学习和概念理解的关系，重点关注概念间的学习关联性。
+请提取有助于学习和概念理解的知识三元组，重点关注概念间的学习关联性。
 注意：
 - direction字段：如果是双向关系（如"A关联B"同时"B关联A"），设为"bidirectional"
-- direction字段：如果是单向关系（如"A依赖B"但"B不依赖A"），设为"unidirectional"：
+- direction字段：如果是单向关系（如"A依赖B"但"B不依赖A"），设为"unidirectional"
+- confidence字段：根据以下标准评估置信度（0.0-1.0）：
+  * 0.9-1.0：明确的技术关系，文档中有直接、清晰的说明
+  * 0.7-0.9：较为明确的关系，基于上下文推断但证据充分
+  * 0.5-0.7：中等置信度，关系存在但需要一定推理
+  * 0.3-0.5：较弱的关系，主要基于语义相似性
+  * 0.1-0.3：非常弱的关系，仅基于概念共现
 `;
 
   try {
     const completion = await openai.chat.completions.create({
       messages: [
-        { role: "system", content: "你是一个专业的知识图谱构建专家，专注于构建学习导向的概念关系网络。" },
+        { role: "system", content: "你是一个专业的知识图谱构建专家，专注于构建学习导向的标准知识三元组网络。" },
         { role: "user", content: prompt }
       ],
       model: "deepseek-chat",
@@ -358,7 +387,7 @@ ${content}
       const warning = createWarning('api_error', '模型返回空内容');
       warnings.push(warning);
       console.error('模型返回空内容');
-      return { relations: [], warnings };
+      return { triples: [], warnings };
     }
 
     // 尝试解析JSON响应
@@ -367,11 +396,11 @@ ${content}
       const warning = createWarning('api_error', '无法从响应中提取JSON');
       warnings.push(warning);
       console.error('无法从响应中提取JSON');
-      return { relations: [], warnings };
+      return { triples: [], warnings };
     }
 
     const result = JSON.parse(jsonMatch[0]);
-    return { relations: result.relations || [], warnings };
+    return { triples: result.triples || [], warnings };
   } catch (error) {
     const warning = createWarning('api_error', `调用DeepSeek API失败: ${(error as Error).message}`);
     warnings.push(warning);
@@ -397,37 +426,36 @@ async function processMarkdownFile(filePath: string, index: number, total: numbe
         filename,
         sourceFile: filePath,
         success: false,
-        relationsCount: 0,
+        triplesCount: 0,
         warnings,
         error: '文件内容过短'
       };
     }
 
-    const { relations, warnings: extractWarnings } = await extractConceptRelations(content, config);
+    const { triples, warnings: extractWarnings } = await extractKnowledgeTriples(content, config);
     warnings.push(...extractWarnings);
     
-    if (relations.length === 0) {
-      console.log(`[${index}/${total}] 未能从文件提取到概念关系: ${filePath}`);
-      const warning = createWarning('content_warning', '未能提取到概念关系', filename);
+    if (triples.length === 0) {
+      console.log(`[${index}/${total}] 未能从文件提取到知识三元组: ${filePath}`);
+      const warning = createWarning('content_warning', '未能提取到知识三元组', filename);
       warnings.push(warning);
       return {
         filename,
         sourceFile: filePath,
         success: false,
-        relationsCount: 0,
+        triplesCount: 0,
         warnings,
-        error: '未能提取到概念关系'
+        error: '未能提取到知识三元组'
       };
     }
 
     const processingTime = Date.now() - startTime;
-    const documentRelations: DocumentConceptRelations = {
+    const documentTriples: DocumentKnowledgeTriples = {
       filename,
       sourceFile: filePath,
-      relations,
+      triples,
       timestamp: new Date().toISOString(),
       warnings: config.output.includeWarnings ? warnings : undefined,
-      excludedFiles: excludedFiles.length > 0 ? excludedFiles : undefined,
       metadata: config.output.includeMetadata ? {
         fileSize: fileStat.size,
         contentLength: content.length,
@@ -437,9 +465,9 @@ async function processMarkdownFile(filePath: string, index: number, total: numbe
 
     // 保存到文件
     const outputPath = path.join(TRIPLETS_DIR, `${filename}.json`);
-    await fs.writeFile(outputPath, JSON.stringify(documentRelations, null, 2), 'utf-8');
+    await fs.writeFile(outputPath, JSON.stringify(documentTriples, null, 2), 'utf-8');
     
-    console.log(`[${index}/${total}] ✅ 成功提取 ${relations.length} 个概念关系，已保存到: ${outputPath}`);
+    console.log(`[${index}/${total}] ✅ 成功提取 ${triples.length} 个知识三元组，已保存到: ${outputPath}`);
     if (warnings.length > 0) {
       console.log(`[${index}/${total}] ⚠️  生成了 ${warnings.length} 个警告`);
     }
@@ -448,7 +476,7 @@ async function processMarkdownFile(filePath: string, index: number, total: numbe
       filename,
       sourceFile: filePath,
       success: true,
-      relationsCount: relations.length,
+      triplesCount: triples.length,
       warnings
     };
   } catch (error) {
@@ -461,7 +489,7 @@ async function processMarkdownFile(filePath: string, index: number, total: numbe
       filename,
       sourceFile: filePath,
       success: false,
-      relationsCount: 0,
+      triplesCount: 0,
       warnings,
       error: (error as Error).message
     };
@@ -495,7 +523,7 @@ async function main() {
   // 过滤文件
   const excludedFiles: string[] = [];
   const filteredFiles = mdFiles.filter(file => {
-    if (shouldExcludeFile(file, config)) {
+    if (!shouldIncludeFile(file, config)) {
       excludedFiles.push(file);
       return false;
     }
@@ -630,7 +658,7 @@ async function main() {
         filename,
         sourceFile: filePath,
         success: false,
-        relationsCount: 0,
+        triplesCount: 0,
         warnings: [createWarning('processing_error', `处理失败: ${(error as Error).message}`, filename)],
         error: (error as Error).message
       };
@@ -674,8 +702,8 @@ async function main() {
   
   const totalRelations = progressData.results
     .filter(r => r.success)
-    .reduce((sum, r) => sum + r.relationsCount, 0);
-  console.log(`   - 总概念关系数: ${totalRelations}`);
+    .reduce((sum, r) => sum + r.triplesCount, 0);
+  console.log(`   - 总知识三元组数: ${totalRelations}`);
   
   if (progressData.totalWarnings > 0) {
     console.log(`   - 总警告数: ${progressData.totalWarnings}`);

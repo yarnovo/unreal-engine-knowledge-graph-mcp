@@ -89,6 +89,18 @@
 
 搜索指定概念的相关概念和关系。
 
+**使用场景:**
+- 🎯 **概念学习扩展**: "我想学习蓝图系统，相关的概念还有哪些？"
+- 🔍 **技术关联探索**: "虚幻引擎包含哪些核心功能模块？"
+- 🧭 **学习路径规划**: "从材质编辑器出发，我还需要了解什么？"
+
+**提示词示例:**
+```
+帮我搜索"蓝图系统"的相关概念，我想了解它与其他功能的关系
+查找"虚幻引擎"包含哪些核心功能
+搜索"材质编辑器"相关的学习内容
+```
+
 **参数:**
 - `concept` (必需): 要查询的概念名称
 - `limit` (可选): 返回的最大关系数量，默认20
@@ -102,7 +114,7 @@
   "relatedConcepts": [
     {
       "concept": "蓝图系统",
-      "relation": "包含",
+      "predicate": "包含",
       "context": "虚幻引擎的可视化脚本编程系统",
       "direction": "outgoing"
     }
@@ -114,6 +126,18 @@
 ### search_concepts
 
 模糊搜索概念名称。
+
+**使用场景:**
+- 🔍 **快速查找概念**: "我记得有个关于'粒子'的功能，叫什么名字来着？"
+- 📝 **概念名称确认**: "虚幻引擎中2D相关的功能都有哪些？"
+- 🎯 **关键词探索**: "搜索包含'编辑器'的所有概念"
+
+**提示词示例:**
+```
+搜索包含"粒子"的所有概念
+查找与"2D"相关的功能
+搜索"编辑器"相关的工具
+```
 
 **参数:**
 - `searchTerm` (必需): 搜索关键词
@@ -133,28 +157,53 @@
 
 获取所有可用概念列表。
 
+**使用场景:**
+- 📋 **概念大纲浏览**: "虚幻引擎知识图谱中都包含哪些概念？"
+- 🎯 **学习计划制定**: "我想看看都有哪些功能可以学习"
+- 📊 **内容范围了解**: "这个知识库覆盖了哪些方面的内容？"
+
+**提示词示例:**
+```
+显示所有可用的虚幻引擎概念
+列出前50个概念，我想了解知识库的覆盖范围
+获取概念列表，帮我制定学习计划
+```
+
 **参数:**
 - `limit` (可选): 返回的最大概念数量，默认100
 
-### search_by_relation_type
+### search_by_predicate
 
-根据关系类型搜索概念关系。
+根据关系谓词搜索知识三元组。
+
+**使用场景:**
+- 🔗 **关系类型探索**: "哪些功能'支持'其他功能？"
+- 🏗️ **依赖关系分析**: "查看所有'依赖'关系，了解功能间的依赖"
+- 📦 **包含关系查询**: "哪些组件'包含'其他子组件？"
+
+**提示词示例:**
+```
+查找所有"支持"关系，我想了解功能的支持情况
+搜索"依赖"关系，分析功能间的依赖结构
+显示"包含"关系，了解组件的组成结构
+```
 
 **参数:**
-- `relationType` (必需): 关系类型（如：包含、支持、依赖等）
-- `limit` (可选): 返回的最大关系数量，默认20
+- `predicate` (必需): 关系谓词（如：包含、支持、依赖等）
+- `limit` (可选): 返回的最大三元组数量，默认20
 
 **返回数据格式:**
 ```json
 {
-  "relationType": "支持",
-  "relations": [
+  "predicate": "支持",
+  "triples": [
     {
-      "conceptA": "蓝图系统",
-      "relation": "支持",
-      "conceptB": "事件驱动编程",
+      "subject": "蓝图系统",
+      "predicate": "支持",
+      "object": "事件驱动编程",
       "context": "蓝图可以响应各种游戏事件",
-      "direction": "unidirectional"
+      "direction": "unidirectional",
+      "confidence": 0.85
     }
   ],
   "count": 5,
@@ -163,9 +212,98 @@
 }
 ```
 
+### search_by_confidence
+
+根据置信度搜索知识三元组，返回高质量的概念关系。
+
+**使用场景:**
+- ⭐ **高质量关系筛选**: "给我最可靠的概念关系，置信度要高"
+- 🎯 **精准学习内容**: "我只想看置信度0.8以上的核心关系"
+- 📚 **优质资源优先**: "筛选出最可信的学习材料"
+
+**提示词示例:**
+```
+显示置信度0.9以上的高质量关系
+查找置信度大于0.8的核心概念关系
+筛选最可靠的学习内容，置信度要高
+```
+
+**参数:**
+- `minConfidence` (可选): 最小置信度阈值（0.0-1.0），默认0.5
+- `limit` (可选): 返回的最大三元组数量，默认20
+
+**返回数据格式:**
+```json
+{
+  "minConfidence": 0.7,
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "包含",
+      "object": "蓝图系统",
+      "context": "虚幻引擎内置的可视化脚本编程系统",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    }
+  ],
+  "count": 8,
+  "totalCount": 25,
+  "limit": 20
+}
+```
+
+### get_confidence_stats
+
+获取知识图谱中置信度的统计信息。
+
+**使用场景:**
+- 📊 **数据质量评估**: "这个知识库的数据质量如何？"
+- 🔍 **置信度分布分析**: "高置信度的关系有多少？"
+- 📈 **质量监控**: "了解知识图谱的整体可信度"
+
+**提示词示例:**
+```
+分析知识图谱的数据质量和置信度分布
+显示高中低置信度的关系数量统计
+评估这个知识库的可信度如何
+```
+
+**返回数据格式:**
+```json
+{
+  "confidenceStats": {
+    "avgConfidence": 0.742,
+    "highConfidenceCount": 45,
+    "mediumConfidenceCount": 38,
+    "lowConfidenceCount": 12,
+    "confidenceDistribution": [
+      {"range": "0.9-1.0", "count": 15},
+      {"range": "0.8-0.9", "count": 30},
+      {"range": "0.7-0.8", "count": 25},
+      {"range": "0.6-0.7", "count": 13},
+      {"range": "0.5-0.6", "count": 10},
+      {"range": "0.0-0.5", "count": 2}
+    ]
+  },
+  "neo4jAvailable": true
+}
+```
+
 ### get_knowledge_graph_stats
 
 获取知识图谱统计信息。
+
+**使用场景:**
+- 📊 **整体数据概览**: "这个知识图谱有多大规模？"
+- 🔍 **内容结构分析**: "都有哪些类型的关系？"
+- 📈 **数据库状态检查**: "Neo4j连接正常吗？"
+
+**提示词示例:**
+```
+显示知识图谱的整体统计信息
+查看数据库中有多少实体和关系
+分析关系谓词的分布情况
+```
 
 **返回数据格式:**
 ```json
@@ -173,10 +311,10 @@
   "statistics": {
     "entityCount": 14,
     "documentCount": 1,
-    "relationCount": 12,
-    "relationTypes": [
-      {"type": "支持", "count": 3},
-      {"type": "包含", "count": 2}
+    "tripleCount": 12,
+    "predicateTypes": [
+      {"predicate": "支持", "count": 3},
+      {"predicate": "包含", "count": 2}
     ]
   },
   "neo4jAvailable": true
@@ -252,19 +390,19 @@ npm run extract-triplets:test-mode
 npm run import-to-neo4j
 ```
 
-## 概念关系数据结构
+## 知识三元组数据结构
 
-系统使用以下数据结构存储概念关系：
+系统使用标准的知识图谱三元组结构存储概念关系：
 
 ```json
 {
   "filename": "文档名称",
   "sourceFile": "源文件路径",
-  "relations": [
+  "triples": [
     {
-      "conceptA": "起始概念",
-      "relation": "关系类型",
-      "conceptB": "目标概念",
+      "subject": "主体概念",
+      "predicate": "关系谓词",
+      "object": "客体概念",
       "context": "上下文说明",
       "direction": "bidirectional"
     }
@@ -274,13 +412,19 @@ npm run import-to-neo4j
 ```
 
 **字段说明：**
-- `conceptA`: 起始概念名称
-- `relation`: 关系类型（如：包含、支持、依赖、关联等）
-- `conceptB`: 目标概念名称
+- `subject`: 主体概念名称（知识三元组的主语）
+- `predicate`: 关系谓词（如：包含、支持、依赖、关联等）
+- `object`: 客体概念名称（知识三元组的宾语）
 - `context`: 关系的上下文说明，帮助理解关系的具体含义
 - `direction`: 关系方向性
-  - `"unidirectional"`: 单向关系（A→B，但B不一定→A）
-  - `"bidirectional"`: 双向关系（A↔B，相互关联）
+  - `"unidirectional"`: 单向关系（主体→客体，但客体不一定→主体）
+  - `"bidirectional"`: 双向关系（主体↔客体，相互关联）
+- `confidence`: 置信度（0.0-1.0），表示关系提取的准确性和可靠性
+  - `0.9-1.0`: 明确的技术关系，文档中有直接、清晰的说明
+  - `0.7-0.9`: 较为明确的关系，基于上下文推断但证据充分
+  - `0.5-0.7`: 中等置信度，关系存在但需要一定推理
+  - `0.3-0.5`: 较弱的关系，主要基于语义相似性
+  - `0.1-0.3`: 非常弱的关系，仅基于概念共现
 
 ## 开发指南
 
@@ -288,7 +432,7 @@ npm run import-to-neo4j
 
 ```
 ├── scripts/                    # 脚本文件
-│   ├── extract-triplets.ts     # 概念关系提取
+│   ├── extract-triplets.ts     # 知识三元组提取
 │   ├── import-to-neo4j.ts      # 数据导入Neo4j
 │   └── test-connection.ts      # 数据库连接测试
 ├── src/                        # 源代码
@@ -296,7 +440,7 @@ npm run import-to-neo4j
 │   └── neo4j-search.ts         # Neo4j搜索引擎
 ├── sources/                    # 数据文件
 │   ├── docs/                   # Markdown文档
-│   └── triplets/               # 概念关系JSON文件
+│   └── triplets/               # 知识三元组JSON文件
 ├── tests/                      # 测试文件
 │   └── mcp-client.test.ts      # MCP客户端测试
 ├── docker-compose.yml          # Neo4j Docker配置
@@ -315,7 +459,7 @@ npm run test-connection
 # 生成演示数据
 npm run extract-triplets:test-mode
 
-# 提取概念关系（需要DeepSeek API）
+# 提取知识三元组（需要DeepSeek API）
 npm run extract-triplets
 
 # 导入数据到Neo4j
@@ -334,20 +478,20 @@ npm test
 2. 运行概念关系提取：`npm run extract-triplets`
 3. 导入到Neo4j：`npm run import-to-neo4j`
 
-### 自定义概念关系
+### 自定义知识三元组
 
-你可以手动创建概念关系JSON文件：
+你可以手动创建知识三元组JSON文件：
 
 ```json
 {
-  "filename": "custom-relations",
-  "sourceFile": "custom/relations.md",
-  "relations": [
+  "filename": "custom-triples",
+  "sourceFile": "custom/triples.md",
+  "triples": [
     {
-      "conceptA": "自定义概念A",
-      "relation": "关联",
-      "conceptB": "自定义概念B",
-      "context": "这是一个自定义的概念关系",
+      "subject": "自定义概念A",
+      "predicate": "关联",
+      "object": "自定义概念B",
+      "context": "这是一个自定义的知识三元组",
       "direction": "bidirectional"
     }
   ],

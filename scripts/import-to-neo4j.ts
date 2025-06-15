@@ -3,18 +3,19 @@ import fs from "fs-extra";
 import path from "path";
 import "dotenv/config";
 
-interface ConceptRelation {
-  conceptA: string;
-  relation: string;
-  conceptB: string;
+interface KnowledgeTriple {
+  subject: string;
+  predicate: string;
+  object: string;
   context?: string;
   direction?: 'bidirectional' | 'unidirectional';
+  confidence?: number;     // 置信度（0.0-1.0）
 }
 
-interface DocumentConceptRelations {
+interface DocumentKnowledgeTriples {
   filename: string;
   sourceFile: string;
-  relations: ConceptRelation[];
+  triples: KnowledgeTriple[];
   timestamp: string;
 }
 
@@ -81,7 +82,7 @@ class Neo4jImporter {
     }
   }
 
-  async importConceptRelations(documentRelations: DocumentConceptRelations): Promise<void> {
+  async importKnowledgeTriples(documentTriples: DocumentKnowledgeTriples): Promise<void> {
     const session = this.driver.session();
     
     try {
@@ -90,47 +91,48 @@ class Neo4jImporter {
         MERGE (d:Document {filename: $filename})
         SET d.sourceFile = $sourceFile,
             d.timestamp = $timestamp,
-            d.relationsCount = $relationsCount
+            d.triplesCount = $triplesCount
       `, {
-        filename: documentRelations.filename,
-        sourceFile: documentRelations.sourceFile,
-        timestamp: documentRelations.timestamp,
-        relationsCount: documentRelations.relations.length
+        filename: documentTriples.filename,
+        sourceFile: documentTriples.sourceFile,
+        timestamp: documentTriples.timestamp,
+        triplesCount: documentTriples.triples.length
       });
 
-      // 批量处理概念关系
+      // 批量处理知识三元组
       const batchSize = 100;
-      for (let i = 0; i < documentRelations.relations.length; i += batchSize) {
-        const batch = documentRelations.relations.slice(i, i + batchSize);
+      for (let i = 0; i < documentTriples.triples.length; i += batchSize) {
+        const batch = documentTriples.triples.slice(i, i + batchSize);
         
         await session.run(`
-          UNWIND $relations AS relation
-          MERGE (ca:Entity {name: relation.conceptA})
-          MERGE (cb:Entity {name: relation.conceptB})
+          UNWIND $triples AS triple
+          MERGE (s:Entity {name: triple.subject})
+          MERGE (o:Entity {name: triple.object})
           MERGE (d:Document {filename: $filename})
           
-          // 创建概念A到文档的关系
-          MERGE (ca)-[:MENTIONED_IN]->(d)
+          // 创建主体到文档的关系
+          MERGE (s)-[:MENTIONED_IN]->(d)
           
-          // 创建概念B到文档的关系
-          MERGE (cb)-[:MENTIONED_IN]->(d)
+          // 创建客体到文档的关系
+          MERGE (o)-[:MENTIONED_IN]->(d)
           
-          // 创建概念间的关系
-          MERGE (ca)-[r:RELATES_TO {type: relation.relation}]->(cb)
-          SET r.context = relation.context,
-              r.direction = relation.direction,
+          // 创建知识三元组关系
+          MERGE (s)-[r:RELATES_TO {predicate: triple.predicate}]->(o)
+          SET r.context = triple.context,
+              r.direction = triple.direction,
               r.document = $filename,
-              r.timestamp = $timestamp
+              r.timestamp = $timestamp,
+              r.confidence = triple.confidence
         `, {
-          relations: batch,
-          filename: documentRelations.filename,
-          timestamp: documentRelations.timestamp
+          triples: batch,
+          filename: documentTriples.filename,
+          timestamp: documentTriples.timestamp
         });
       }
 
-      console.log(`成功导入文档 ${documentRelations.filename} 的 ${documentRelations.relations.length} 个概念关系`);
+      console.log(`成功导入文档 ${documentTriples.filename} 的 ${documentTriples.triples.length} 个知识三元组`);
     } catch (error) {
-      console.error(`导入文档 ${documentRelations.filename} 失败:`, error);
+      console.error(`导入文档 ${documentTriples.filename} 失败:`, error);
       throw error;
     } finally {
       await session.close();
@@ -149,19 +151,19 @@ class Neo4jImporter {
       console.log('\n=== Neo4j图数据库统计 ===');
       console.log(`实体节点数量: ${entityCount.records[0].get('count').toNumber()}`);
       console.log(`文档节点数量: ${documentCount.records[0].get('count').toNumber()}`);
-      console.log(`关系数量: ${relationshipCount.records[0].get('count').toNumber()}`);
+      console.log(`知识三元组数量: ${relationshipCount.records[0].get('count').toNumber()}`);
       
-      // 获取关系类型统计
-      const relationTypes = await session.run(`
+      // 获取关系谓词统计
+      const predicateTypes = await session.run(`
         MATCH ()-[r:RELATES_TO]->()
-        RETURN r.type as relationType, count(r) as count
+        RETURN r.predicate as predicate, count(r) as count
         ORDER BY count DESC
         LIMIT 10
       `);
       
-      console.log('\n=== 前10个关系类型 ===');
-      relationTypes.records.forEach((record: any) => {
-        console.log(`${record.get('relationType')}: ${record.get('count').toNumber()}`);
+      console.log('\n=== 前10个关系谓词 ===');
+      predicateTypes.records.forEach((record: any) => {
+        console.log(`${record.get('predicate')}: ${record.get('count').toNumber()}`);
       });
       
     } catch (error) {
@@ -187,13 +189,13 @@ class Neo4jImporter {
   }
 }
 
-async function loadConceptRelationsFromFile(filePath: string): Promise<DocumentConceptRelations> {
+async function loadKnowledgeTriplesFromFile(filePath: string): Promise<DocumentKnowledgeTriples> {
   const content = await fs.readFile(filePath, 'utf-8');
   return JSON.parse(content);
 }
 
 async function main() {
-  console.log('开始导入概念关系数据到Neo4j...');
+  console.log('开始导入知识三元组数据到Neo4j...');
   
   const importer = new Neo4jImporter();
   
@@ -209,19 +211,19 @@ async function main() {
     // 创建约束和索引
     await importer.createConstraints();
     
-    // 读取所有概念关系文件
-    const relationFiles = await fs.readdir(TRIPLETS_DIR);
-    const jsonFiles = relationFiles.filter(file => file.endsWith('.json'));
+    // 读取所有知识三元组文件
+    const tripletFiles = await fs.readdir(TRIPLETS_DIR);
+    const jsonFiles = tripletFiles.filter(file => file.endsWith('.json'));
     
-    console.log(`找到 ${jsonFiles.length} 个概念关系文件`);
+    console.log(`找到 ${jsonFiles.length} 个知识三元组文件`);
     
     // 导入每个文件的数据
     for (const jsonFile of jsonFiles) {
       const filePath = path.join(TRIPLETS_DIR, jsonFile);
       
       try {
-        const documentRelations = await loadConceptRelationsFromFile(filePath);
-        await importer.importConceptRelations(documentRelations);
+        const documentTriples = await loadKnowledgeTriplesFromFile(filePath);
+        await importer.importKnowledgeTriples(documentTriples);
       } catch (error) {
         console.error(`导入文件失败: ${jsonFile}`, error);
         continue;
@@ -231,7 +233,7 @@ async function main() {
     // 显示统计信息
     await importer.getStatistics();
     
-    console.log('\n概念关系数据导入完成！');
+    console.log('\n知识三元组数据导入完成！');
     console.log('您可以通过以下方式访问Neo4j Browser:');
     console.log('URL: http://localhost:7474');
     console.log(`用户名: ${NEO4J_USER}`);

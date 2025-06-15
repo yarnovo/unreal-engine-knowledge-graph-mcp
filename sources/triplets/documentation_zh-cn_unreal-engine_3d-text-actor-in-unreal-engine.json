@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_3d-text-actor-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_3d-text-actor-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "3D文本Actor",
+      "predicate": "属于",
+      "object": "虚幻引擎",
+      "context": "3D文本Actor是虚幻引擎中的一个功能模块，用于在关卡中添加3D文本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3D文本Actor",
+      "predicate": "依赖",
+      "object": "文本3D插件",
+      "context": "使用3D文本Actor前需要先启用文本3D插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3D文本Actor",
+      "predicate": "支持",
+      "object": "Sequencer编辑器",
+      "context": "3D文本Actor可以与Sequencer编辑器结合使用，制作动态图形和动画",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3D文本Actor",
+      "predicate": "包含",
+      "object": "Text3DCharacterTransform组件",
+      "context": "Text3DCharacterTransform组件用于控制3D文本Actor的逐字母动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3D文本Actor",
+      "predicate": "使用",
+      "object": "材质",
+      "context": "3D文本Actor可以应用不同的材质到文本的不同部分（正面、斜面、挤压面、背面）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3D文本Actor",
+      "predicate": "支持",
+      "object": "字体导入",
+      "context": "3D文本Actor支持使用导入的True Type(TTF)或Open Type(OTF)字体资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Text3DCharacterTransform组件",
+      "predicate": "控制",
+      "object": "逐字母动画",
+      "context": "Text3DCharacterTransform组件用于控制3D文本Actor中字母的位置、旋转和缩放动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "逐字母动画",
+      "predicate": "实现方式",
+      "object": "进度设置",
+      "context": "通过调整进度(Progress)值可以在0到100之间控制动画的播放进度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3D文本Actor",
+      "predicate": "适用于",
+      "object": "虚拟场景",
+      "context": "3D文本Actor特别适合用于直播和虚拟场景中需要显示高品质3D文本的情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3D文本Actor",
+      "predicate": "支持",
+      "object": "多种对齐方式",
+      "context": "3D文本Actor支持水平和垂直方向上的多种对齐方式，便于在3D空间中布局文本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3D文本Actor",
+      "predicate": "支持",
+      "object": "间距调整",
+      "context": "可以调整字符间距(字距调整)、行间距和词间距，优化文本显示效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3D文本Actor",
+      "predicate": "支持",
+      "object": "比例缩放",
+      "direction": "unidirectional",
+      "context": "启用按比例缩放(Scale Proportionally)可以保持字母高度和宽度的比例关系",
+      "confidence": 0.9
+    },
+    {
+      "subject": "文本3D插件",
+      "predicate": "属于",
+      "object": "实验性功能",
+      "context": "文档提到文本3D插件目前处于实验阶段，使用时会有警告提示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3D文本Actor",
+      "predicate": "支持",
+      "object": "多种斜面类型",
+      "context": "可以选择线性或半圆形斜面类型，并设置半圆分段数，控制文本边缘效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3D文本Actor",
+      "predicate": "支持",
+      "object": "动画顺序控制",
+      "context": "可以设置动画播放顺序（从左到右、从右到左、从中心向外或从外向中心）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3D文本Actor",
+      "predicate": "支持",
+      "object": "动画重叠控制",
+      "context": "通过范围(Range)设置可以控制相邻字母动画之间的重叠程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T07:58:59.643Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10458,
+    "contentLength": 6314,
+    "processingTimeMs": 46449
+  }
+}

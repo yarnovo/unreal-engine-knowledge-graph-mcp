@@ -89,6 +89,18 @@ Create or edit `.vscode/mcp.json` configuration file in project root:
 
 Search related concepts and relationships for a specified concept.
 
+**Use Cases:**
+- 🎯 **Concept Learning Expansion**: "I want to learn about Blueprint System, what related concepts exist?"
+- 🔍 **Technology Association Exploration**: "What core functional modules does Unreal Engine contain?"
+- 🧭 **Learning Path Planning**: "Starting from Material Editor, what else should I learn?"
+
+**Example Prompts:**
+```
+Help me search for "Blueprint System" related concepts, I want to understand its relationships with other features
+Find what core features "Unreal Engine" contains
+Search for "Material Editor" related learning content
+```
+
 **Parameters:**
 - `concept` (required): The concept name to query
 - `limit` (optional): Maximum number of relationships to return, default 20
@@ -102,7 +114,7 @@ Search related concepts and relationships for a specified concept.
   "relatedConcepts": [
     {
       "concept": "Blueprint System",
-      "relation": "contains",
+      "predicate": "contains",
       "context": "Visual scripting programming system of Unreal Engine",
       "direction": "outgoing"
     }
@@ -114,6 +126,18 @@ Search related concepts and relationships for a specified concept.
 ### search_concepts
 
 Fuzzy search for concept names.
+
+**Use Cases:**
+- 🔍 **Quick Concept Lookup**: "I remember there was a 'particle' related feature, what was it called?"
+- 📝 **Concept Name Confirmation**: "What 2D-related features exist in Unreal Engine?"
+- 🎯 **Keyword Exploration**: "Search for all concepts containing 'editor'"
+
+**Example Prompts:**
+```
+Search for all concepts containing "particle"
+Find features related to "2D"
+Search for "editor" related tools
+```
 
 **Parameters:**
 - `searchTerm` (required): Search keyword
@@ -136,30 +160,96 @@ Get list of all available concepts.
 **Parameters:**
 - `limit` (optional): Maximum number of concepts to return, default 100
 
-### search_by_relation_type
+### search_by_predicate
 
-Search concept relationships by relationship type.
+Search knowledge triples by relationship predicate.
 
 **Parameters:**
-- `relationType` (required): Relationship type (e.g., contains, supports, depends)
-- `limit` (optional): Maximum number of relationships to return, default 20
+- `predicate` (required): Relationship predicate (e.g., contains, supports, depends)
+- `limit` (optional): Maximum number of triples to return, default 20
 
 **Return Data Format:**
 ```json
 {
-  "relationType": "supports",
-  "relations": [
+  "predicate": "supports",
+  "triples": [
     {
-      "conceptA": "Blueprint System",
-      "relation": "supports",
-      "conceptB": "Event-Driven Programming",
+      "subject": "Blueprint System",
+      "predicate": "supports",
+      "object": "Event-Driven Programming",
       "context": "Blueprints can respond to various game events",
-      "direction": "unidirectional"
+      "direction": "unidirectional",
+      "confidence": 0.85
     }
   ],
   "count": 5,
   "totalCount": 15,
   "limit": 20
+}
+```
+
+### search_by_confidence
+
+Search knowledge triples by confidence score, returning high-quality concept relationships.
+
+**Use Cases:**
+- ⭐ **High-Quality Relationship Filtering**: "Give me the most reliable concept relationships with high confidence"
+- 🎯 **Precise Learning Content**: "I only want to see core relationships with confidence above 0.8"
+- 📚 **Premium Resource Priority**: "Filter out the most trustworthy learning materials"
+
+**Example Prompts:**
+```
+Show high-quality relationships with confidence above 0.9
+Find core concept relationships with confidence greater than 0.8
+Filter the most reliable learning content with high confidence
+```
+
+**Parameters:**
+- `minConfidence` (optional): Minimum confidence threshold (0.0-1.0), default 0.5
+- `limit` (optional): Maximum number of triples to return, default 20
+
+**Return Data Format:**
+```json
+{
+  "minConfidence": 0.7,
+  "triples": [
+    {
+      "subject": "Unreal Engine",
+      "predicate": "contains",
+      "object": "Blueprint System",
+      "context": "Built-in visual scripting system of Unreal Engine",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    }
+  ],
+  "count": 8,
+  "totalCount": 25,
+  "limit": 20
+}
+```
+
+### get_confidence_stats
+
+Get confidence statistics from the knowledge graph.
+
+**Return Data Format:**
+```json
+{
+  "confidenceStats": {
+    "avgConfidence": 0.742,
+    "highConfidenceCount": 45,
+    "mediumConfidenceCount": 38,
+    "lowConfidenceCount": 12,
+    "confidenceDistribution": [
+      {"range": "0.9-1.0", "count": 15},
+      {"range": "0.8-0.9", "count": 30},
+      {"range": "0.7-0.8", "count": 25},
+      {"range": "0.6-0.7", "count": 13},
+      {"range": "0.5-0.6", "count": 10},
+      {"range": "0.0-0.5", "count": 2}
+    ]
+  },
+  "neo4jAvailable": true
 }
 ```
 
@@ -173,10 +263,10 @@ Get knowledge graph statistics.
   "statistics": {
     "entityCount": 14,
     "documentCount": 1,
-    "relationCount": 12,
-    "relationTypes": [
-      {"type": "supports", "count": 3},
-      {"type": "contains", "count": 2}
+    "tripleCount": 12,
+    "predicateTypes": [
+      {"predicate": "supports", "count": 3},
+      {"predicate": "contains", "count": 2}
     ]
   },
   "neo4jAvailable": true
@@ -252,19 +342,19 @@ npm run extract-triplets:test-mode
 npm run import-to-neo4j
 ```
 
-## Concept Relationship Data Structure
+## Knowledge Triple Data Structure
 
-The system uses the following data structure to store concept relationships:
+The system uses standard knowledge graph triple structure to store concept relationships:
 
 ```json
 {
   "filename": "document name",
   "sourceFile": "source file path",
-  "relations": [
+  "triples": [
     {
-      "conceptA": "source concept",
-      "relation": "relationship type",
-      "conceptB": "target concept",
+      "subject": "subject concept",
+      "predicate": "relationship predicate",
+      "object": "object concept",
       "context": "context description",
       "direction": "bidirectional"
     }
@@ -274,13 +364,19 @@ The system uses the following data structure to store concept relationships:
 ```
 
 **Field Descriptions:**
-- `conceptA`: Source concept name
-- `relation`: Relationship type (e.g., contains, supports, depends, associates)
-- `conceptB`: Target concept name
+- `subject`: Subject concept name (subject of the knowledge triple)
+- `predicate`: Relationship predicate (e.g., contains, supports, depends, associates)
+- `object`: Object concept name (object of the knowledge triple)
 - `context`: Context description to help understand the specific meaning of the relationship
 - `direction`: Relationship directionality
-  - `"unidirectional"`: One-way relationship (A→B, but B doesn't necessarily→A)
-  - `"bidirectional"`: Two-way relationship (A↔B, mutually associated)
+  - `"unidirectional"`: One-way relationship (subject→object, but object doesn't necessarily→subject)
+  - `"bidirectional"`: Two-way relationship (subject↔object, mutually associated)
+- `confidence`: Confidence score (0.0-1.0) indicating relationship extraction accuracy and reliability
+  - `0.9-1.0`: Clear technical relationships with direct, explicit documentation
+  - `0.7-0.9`: Reasonably clear relationships inferred from context with sufficient evidence
+  - `0.5-0.7`: Medium confidence, relationships exist but require some reasoning
+  - `0.3-0.5`: Weak relationships, mainly based on semantic similarity
+  - `0.1-0.3`: Very weak relationships, based only on concept co-occurrence
 
 ## Development Guide
 

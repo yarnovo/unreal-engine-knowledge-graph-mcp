@@ -1,0 +1,189 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_2d-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_2d-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Paper 2D",
+      "predicate": "是",
+      "object": "虚幻引擎插件",
+      "context": "Paper 2D是虚幻引擎的一个插件，用于创建2D和2D/3D混合的游戏玩法和动画系统。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Paper 2D",
+      "predicate": "支持",
+      "object": "Sprites",
+      "context": "Paper 2D插件支持Sprites，用于创建2D角色和对象。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Paper 2D",
+      "predicate": "支持",
+      "object": "Flipbooks",
+      "context": "Paper 2D插件支持Flipbooks，用于制作Sprites动画。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Paper 2D",
+      "predicate": "支持",
+      "object": "TileSets和TileMaps",
+      "context": "Paper 2D插件支持TileSets和TileMaps，用于创建2D关卡和环境。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Paper 2D",
+      "predicate": "兼容",
+      "object": "3D渲染功能",
+      "context": "Paper 2D插件与UE的3D渲染功能完全兼容，2D元素能够与3D角色、对象或环境无缝集成。",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sprites",
+      "predicate": "用于",
+      "object": "2D角色和对象",
+      "context": "Sprites是用于创建2D角色和对象的主要资产。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Flipbooks",
+      "predicate": "用于",
+      "object": "Sprite动画",
+      "context": "Flipbooks用于为Sprite Actor制作动作，存储一系列不同的Sprite资产的线性顺序播放内容。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TileSets",
+      "predicate": "用于",
+      "object": "创建2D关卡和环境",
+      "context": "TileSets用于导入包含关卡中所有背景资产的大型资产文件，提取每个图块，并定义碰撞设置。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TileMaps",
+      "predicate": "用于",
+      "object": "构建2D关卡",
+      "context": "TileMaps用于将TileSets中的图块组合起来构建2D关卡。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sprite组件",
+      "predicate": "添加到",
+      "object": "Actor或Paper 2D角色Actor",
+      "context": "Sprite可以以Sprite组件的形式添加到任何UE Actor或Paper 2D角色Actor。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unity",
+      "predicate": "迁移到",
+      "object": "虚幻引擎",
+      "context": "文档提供了从Unity迁移2D项目到虚幻引擎的步骤，包括导入2D图像文件并转换为Paper 2D资产。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图像文件",
+      "predicate": "导入为",
+      "object": "纹理资产",
+      "context": "导入到UE的图像文件会以纹理资产的形式导入，用于创建Paper 2D资产如Sprites、Flipbooks和TileMaps。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sprite操作",
+      "predicate": "应用",
+      "object": "Paper 2D导入设置",
+      "context": "在导入低分辨率图像时，可以应用Sprite特有的设置以锐化和增强像素原画的外观。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Paper 2D角色Actor",
+      "predicate": "使用",
+      "object": "Sprite组件",
+      "context": "Paper 2D角色Actor可以使用Sprite组件来显示2D角色。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Flipbooks",
+      "predicate": "独立于",
+      "object": "Sprite资产",
+      "context": "Flipbooks是一种独特的资产，可以独立于单个Sprite资产甚或Actor对象使用，使动画更加灵活且可重复使用。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TileSets",
+      "predicate": "包含",
+      "object": "图块",
+      "context": "TileSets包含多个图块，可以用于构建TileMaps。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TileMaps",
+      "predicate": "使用",
+      "object": "TileSets",
+      "context": "TileMaps使用TileSets中的图块来构建2D关卡和环境。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Paper 2D",
+      "predicate": "提供",
+      "object": "编辑器功能",
+      "context": "Paper 2D插件提供了创建和编辑2D资产所需的所有相关编辑器功能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sprite编辑器",
+      "predicate": "用于",
+      "object": "编辑Sprites",
+      "context": "Sprite编辑器用于设置和编辑Sprite资产。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Flipbook编辑器",
+      "predicate": "用于",
+      "object": "编辑Flipbooks",
+      "context": "Flipbook编辑器用于创建、使用和编辑Flipbooks。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TileSet编辑器",
+      "predicate": "用于",
+      "object": "编辑TileSets",
+      "context": "TileSet编辑器用于导入和编辑TileSets。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TileMap编辑器",
+      "predicate": "用于",
+      "object": "编辑TileMaps",
+      "context": "TileMap编辑器用于构建和编辑TileMaps。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T07:57:38.919Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8577,
+    "contentLength": 6003,
+    "processingTimeMs": 62507
+  }
+}
