@@ -1,0 +1,75 @@
+{
+  "name": "unreal-engine-knowledge-graph-mcp",
+  "version": "0.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Yarnovo <yarnb@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yarnovo/unreal-engine-knowledge-graph-mcp"
+  },
+  "homepage": "https://github.com/yarnovo/unreal-engine-knowledge-graph-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/yarnovo/unreal-engine-knowledge-graph-mcp/issues"
+  },
+  "type": "module",
+  "main": "dist/src/index.js",
+  "bin": "dist/src/index.js",
+  "files": [
+    "dist/**/*",
+    "sources/**/*",
+    "README.md"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "unreal-engine",
+    "documentation",
+    "ai"
+  ],
+  "scripts": {
+    "build": "rimraf dist && tsc --project tsconfig.build.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "crawl-to-markdown": "node dist/scripts/crawl-to-markdown.js",
+    "crawl-to-markdown:test-mode": "cross-env TEST_MODE=true node dist/scripts/crawl-to-markdown.js",
+    "extract-triplets": "node dist/scripts/extract-triplets.js",
+    "extract-triplets:test-mode": "cross-env TEST_MODE=true node dist/scripts/extract-triplets.js",
+    "import-to-neo4j": "node dist/scripts/import-to-neo4j.js",
+    "import-to-neo4j:clear": "node dist/scripts/import-to-neo4j.js -- --clear",
+    "test-connection": "node dist/scripts/test-connection.js",
+    "install-browsers": "npx playwright install chromium",
+    "postversion": "git push origin --follow-tags",
+    "prepublishOnly": "npm run build",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/fs-extra": "^11.0.4",
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^20.0.0",
+    "cross-env": "^7.0.3",
+    "husky": "^9.1.7",
+    "jsdom": "^26.1.0",
+    "playwright": "^1.53.0",
+    "puppeteer": "^22.0.0",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.3"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "@types/turndown": "^5.0.5",
+    "apache-arrow": "^16.1.0",
+    "dotenv": "^16.5.0",
+    "fs-extra": "^11.3.0",
+    "neo4j-driver": "^5.28.1",
+    "openai": "^5.3.0",
+    "turndown": "^7.2.0",
+    "unreal-engine-docs-mcp": "^0.3.4",
+    "zod": "^3.25.63"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
