@@ -1,0 +1,227 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-vcam-virtual-camera-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-vcam-virtual-camera-settings.md",
+  "triples": [
+    {
+      "subject": "虚拟摄像机（VCam）",
+      "predicate": "包含",
+      "object": "镜头设置",
+      "context": "镜头设置是虚拟摄像机的重要组成部分，控制镜头参数如焦距和光圈",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟摄像机（VCam）",
+      "predicate": "包含",
+      "object": "焦点设置",
+      "context": "焦点设置决定了虚拟摄像机如何对焦场景中的对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟摄像机（VCam）",
+      "predicate": "包含",
+      "object": "胶片背板设置",
+      "context": "胶片背板设置决定了虚拟摄像机的图像传感器参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟摄像机（VCam）",
+      "predicate": "包含",
+      "object": "ISO和曝光补偿设置",
+      "context": "这些设置控制虚拟摄像机的曝光参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟摄像机（VCam）",
+      "predicate": "包含",
+      "object": "近裁剪平面设置",
+      "context": "控制摄像机近距离内不再渲染的多边形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟摄像机（VCam）",
+      "predicate": "包含",
+      "object": "遮罩/覆层/准星设置",
+      "context": "这些设置提供虚拟摄像机的视觉参考和辅助",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头设置",
+      "predicate": "包含",
+      "object": "镜头预设",
+      "context": "镜头预设提供常见的焦距和光圈配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头设置",
+      "predicate": "包含",
+      "object": "焦距",
+      "context": "焦距决定镜头的放大倍数和视角",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头设置",
+      "predicate": "包含",
+      "object": "光圈",
+      "context": "光圈控制通过镜头的光线量并影响景深",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "焦点设置",
+      "predicate": "支持",
+      "object": "手动对焦",
+      "context": "允许手动设置对焦距离",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "焦点设置",
+      "predicate": "支持",
+      "object": "追踪对焦",
+      "context": "允许锁定焦点到特定Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "焦点设置",
+      "predicate": "支持",
+      "object": "对焦峰值",
+      "context": "提供视觉参考显示当前对焦区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "胶片背板设置",
+      "predicate": "影响",
+      "object": "景深",
+      "context": "胶片背板尺寸会影响景深效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "胶片背板设置",
+      "predicate": "影响",
+      "object": "分辨率",
+      "context": "胶片背板尺寸会影响图像分辨率",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "ISO和曝光补偿设置",
+      "predicate": "控制",
+      "object": "图像亮度",
+      "context": "这些参数直接影响最终图像的明暗程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "遮罩/覆层/准星设置",
+      "predicate": "包含",
+      "object": "覆层网格",
+      "context": "提供构图辅助的视觉参考线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "遮罩/覆层/准星设置",
+      "predicate": "包含",
+      "object": "准星",
+      "context": "帮助瞄准和对准拍摄对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "遮罩/覆层/准星设置",
+      "predicate": "包含",
+      "object": "纵横比遮罩",
+      "context": "显示不同输出格式的裁剪区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头预设",
+      "predicate": "配置于",
+      "object": "项目设置",
+      "context": "镜头预设可在项目设置的过场动画摄像机部分配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "胶片背板预设",
+      "predicate": "配置于",
+      "object": "项目设置",
+      "context": "胶片背板预设可在项目设置的过场动画摄像机部分配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光圈",
+      "predicate": "影响",
+      "object": "景深",
+      "context": "光圈大小直接影响景深效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "焦距",
+      "predicate": "影响",
+      "object": "视角",
+      "context": "焦距长短决定镜头的视角宽窄",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "追踪对焦",
+      "predicate": "依赖",
+      "object": "Actor",
+      "context": "追踪对焦需要选择场景中的Actor作为焦点目标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "点击对焦",
+      "predicate": "实现",
+      "object": "快速对焦",
+      "context": "通过双击场景中的Actor快速设置焦点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "斑马条纹",
+      "predicate": "指示",
+      "object": "过度曝光区域",
+      "context": "斑马条纹标记图像中过度曝光的区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "近裁剪平面",
+      "predicate": "控制",
+      "object": "渲染距离",
+      "context": "设置摄像机近距离内不再渲染的几何体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:12:31.957Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13692 字符)",
+      "timestamp": "2025-06-15T21:11:27.538Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19979,
+    "contentLength": 13692,
+    "processingTimeMs": 64428
+  }
+}

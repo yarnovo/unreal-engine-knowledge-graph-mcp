@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_horde-leases-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_horde-leases-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Horde",
+      "predicate": "基于",
+      "object": "Remote Worker API",
+      "context": "Horde与代理通信的机制基于Google的Remote Worker API，理解这一基础有助于掌握Horde的工作原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "使用",
+      "object": "gRPC",
+      "context": "代理与服务器之间的通信通过gRPC实现，这是理解Horde通信机制的关键技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "租赁",
+      "predicate": "是",
+      "object": "工作项",
+      "context": "租赁是Horde分配给代理的工作项，这是Horde任务分配的核心概念",
+      "direction": "bidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "ITaskSource",
+      "predicate": "用于",
+      "object": "分配租赁",
+      "context": "ITaskSource是实现租赁分配的关键接口，理解它有助于掌握Horde的任务分配机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "租赁类型",
+      "predicate": "包含",
+      "object": "JobTask",
+      "context": "JobTask是Horde的一种租赁类型，用于执行批处理作业，了解不同类型有助于选择合适的工作方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "租赁类型",
+      "predicate": "包含",
+      "object": "UpgradeTask",
+      "context": "UpgradeTask用于升级Horde代理软件，这是系统维护的重要功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "租赁类型",
+      "predicate": "包含",
+      "object": "ConformTask",
+      "context": "ConformTask用于同步工作空间状态，理解它有助于掌握环境一致性管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "租赁类型",
+      "predicate": "包含",
+      "object": "RestartTask",
+      "context": "RestartTask用于机器重启，这是系统管理的基本功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "租赁类型",
+      "predicate": "包含",
+      "object": "ShutdownTask",
+      "context": "ShutdownTask用于关闭机器电源，这是系统管理的重要功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "添加新租赁类型",
+      "predicate": "需要",
+      "object": "实现ITaskSource",
+      "context": "添加新租赁类型需要在服务器端实现ITaskSource接口，这是扩展Horde功能的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "添加新租赁类型",
+      "predicate": "需要",
+      "object": "实现LeaseHandler",
+      "context": "添加新租赁类型需要在代理端实现LeaseHandler，这是完整功能扩展的必要条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "JobTaskSource",
+      "predicate": "实现",
+      "object": "ITaskSource",
+      "context": "JobTaskSource是ITaskSource的具体实现，理解这种关系有助于掌握接口实现模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "JobHandler",
+      "predicate": "实现",
+      "object": "LeaseHandler",
+      "context": "JobHandler是LeaseHandler的具体实现，理解这种关系有助于掌握代理端处理机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde服务器",
+      "predicate": "管理",
+      "object": "租赁状态",
+      "context": "Horde服务器负责管理租赁状态，这是理解分布式任务协调的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde代理",
+      "predicate": "执行",
+      "object": "租赁任务",
+      "context": "Horde代理负责执行具体的租赁任务，这是理解分布式执行的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:20:48.746Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3041,
+    "contentLength": 1931,
+    "processingTimeMs": 54031
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_creating-remote-builds-of-unreal-engine-projects-for-ios",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_creating-remote-builds-of-unreal-engine-projects-for-ios.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "iOS远程构建",
+      "context": "虚幻引擎允许Windows PC通过SSH连接远程构建iOS项目，帮助开发者跨平台工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS远程构建",
+      "predicate": "依赖",
+      "object": "SSH连接",
+      "context": "远程构建需要建立Windows PC与Mac之间的SSH连接，这是实现跨平台构建的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主远程Mac",
+      "predicate": "用于",
+      "object": "大型构建",
+      "context": "主远程Mac通常配置为高性能设备，专门用于处理需要Xcode的大型构建过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "备用远程Mac",
+      "predicate": "用于",
+      "object": "调试构建",
+      "context": "备用远程Mac主要用于下载主Mac构建的缓存数据并进行调试，不需要完整构建能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "准备调试",
+      "predicate": "简化",
+      "object": "远程构建",
+      "context": "准备调试功能自动处理调试版本的创建，简化了远程构建流程，特别是在使用备用Mac时",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Windows PC",
+      "predicate": "需要",
+      "object": "iTunes",
+      "context": "Windows计算机需要安装iTunes以获取iOS项目必要的二进制文件，这是远程构建的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mac",
+      "predicate": "需要",
+      "object": "iOS开发证书",
+      "context": "Mac必须安装iOS开发证书到系统密钥链，这是项目签名和构建的必要条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程构建",
+      "predicate": "依赖",
+      "object": "项目设置",
+      "context": "远程构建需要在项目设置的iOS平台中配置远程服务器名称和用户名，这是建立连接的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SSH密钥",
+      "predicate": "存储于",
+      "object": "Engine/Build/SSHKeys",
+      "context": "生成的SSH密钥存储在特定目录中，可以签入源代码控制系统与团队共享",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "备用远程Mac",
+      "predicate": "依赖",
+      "object": "主远程Mac",
+      "context": "备用Mac依赖主Mac生成的构建数据，必须至少在主Mac上完成一次构建后才能使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Xcode",
+      "predicate": "用于",
+      "object": "调试iOS项目",
+      "context": "在备用Mac上，Xcode用于配置和运行调试构建，而不需要重新构建项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "打包项目",
+      "predicate": "生成",
+      "object": "iOS构建",
+      "context": "在Windows计算机上通过虚幻编辑器发起打包项目命令，可以远程生成iOS构建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程构建选项",
+      "predicate": "配置于",
+      "object": "项目设置",
+      "context": "远程构建的主备Mac选项都在项目设置的iOS平台部分进行配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iTunes",
+      "predicate": "提供",
+      "object": "必要二进制文件",
+      "context": "从Apple网站下载的iTunes版本包含iOS项目所需的额外二进制文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "系统密钥链",
+      "predicate": "存储",
+      "object": "iOS开发证书",
+      "context": "iOS开发证书必须安装到Mac的系统密钥链中才能用于项目签名",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:42:43.841Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9899 字符)",
+      "timestamp": "2025-06-15T18:41:38.517Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15041,
+    "contentLength": 9899,
+    "processingTimeMs": 65332
+  }
+}

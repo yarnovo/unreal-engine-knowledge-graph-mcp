@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_multicast-analytics-provider-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_multicast-analytics-provider-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "多播分析服务商",
+      "predicate": "发送",
+      "object": "分析事件",
+      "context": "多播分析服务商的核心功能是向多个服务商发送分析事件，这是其存在的主要目的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多播分析服务商",
+      "predicate": "包含",
+      "object": "多个分析服务商",
+      "context": "多播分析服务商通过包含多个分析服务商来实现事件分发功能，这是其架构设计的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多播分析服务商",
+      "predicate": "替代",
+      "object": "手动分派",
+      "context": "使用多播分析服务商可以避免开发者手动执行事件分派工作，提高了开发效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多播分析服务商",
+      "predicate": "配置于",
+      "object": "DefaultEngine.ini",
+      "context": "多播分析服务商和其他分析服务商一样，其配置数据保存在DefaultEngine.ini文件中，这是虚幻引擎的标准配置方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多播分析服务商",
+      "predicate": "使用",
+      "object": "逗号分隔列表",
+      "context": "多播分析服务商通过逗号分隔的列表形式来指定目标服务商，这是其配置语法的重要特征",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多播分析服务商",
+      "predicate": "适用于",
+      "object": "需要多服务商分析的场景",
+      "context": "当应用需要同时利用多个分析服务商的不同优势时，多播分析服务商是最佳选择",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "分析服务商",
+      "predicate": "具有",
+      "object": "不同优势和劣势",
+      "context": "理解不同分析服务商的优缺点有助于合理配置多播分析服务商的目标服务商列表",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "ProviderModuleName",
+      "predicate": "指定",
+      "object": "默认分析服务商",
+      "context": "ProviderModuleName参数用于指定默认分析服务商，在多播场景下应设为AnalyticsMulticast",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ProviderModuleNames",
+      "predicate": "列出",
+      "object": "目标分析服务商",
+      "context": "ProviderModuleNames参数以逗号分隔形式列出多播分析服务商需要转发事件的目标服务商",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FileLogging",
+      "predicate": "是",
+      "object": "分析服务商类型",
+      "context": "FileLogging是文档中举例的一种分析服务商实现，理解具体服务商类型有助于实际配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IOSFlurry",
+      "predicate": "是",
+      "object": "分析服务商类型",
+      "context": "IOSFlurry是文档中举例的一种面向iOS平台的分析服务商实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IOSApsalar",
+      "predicate": "是",
+      "object": "分析服务商类型",
+      "context": "IOSApsalar是文档中举例的另一种面向iOS平台的分析服务商实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:01:23.328Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2143,
+    "contentLength": 1449,
+    "processingTimeMs": 44971
+  }
+}

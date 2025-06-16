@@ -1,0 +1,213 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_reference-guide-for-physics-field-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_reference-guide-for-physics-field-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "物理场系统",
+      "predicate": "包含",
+      "object": "瞬态场",
+      "context": "物理场系统由三种主要类型的场组成，瞬态场是其中之一，了解这种分类有助于理解物理场系统的整体架构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理场系统",
+      "predicate": "包含",
+      "object": "构造场",
+      "context": "构造场是物理场系统的核心组成部分之一，用于在蓝图构造脚本中创建和存储场",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理场系统",
+      "predicate": "包含",
+      "object": "持久场",
+      "context": "持久场是物理场系统的三种主要类型之一，了解其特性有助于掌握物理场的生命周期管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "瞬态场",
+      "predicate": "用于",
+      "object": "临时物理效果",
+      "context": "瞬态场专门用于运行时创建临时物理效果，这对理解何时使用这种场类型很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "构造场",
+      "predicate": "用于",
+      "object": "固定几何体集合破裂件",
+      "context": "构造场的典型应用是锚点场，了解这个用例有助于掌握构造场的实际应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "持久场",
+      "predicate": "用于",
+      "object": "持续物理效果",
+      "context": "持久场保持活动直到显式删除，适用于需要持续作用的物理效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理场",
+      "predicate": "应用",
+      "object": "物理类型",
+      "context": "物理场通过在Chaos粒子上应用特定物理类型来产生效果，这是理解物理场工作机制的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理类型",
+      "predicate": "分类为",
+      "object": "整数类型",
+      "context": "物理类型按数据类型分类，整数类型是其中一类，包含动态状态等具体类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理类型",
+      "predicate": "分类为",
+      "object": "标量类型",
+      "context": "标量类型物理类型如外部张力、内部张力等，是物理效果实现的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理类型",
+      "predicate": "分类为",
+      "object": "向量类型",
+      "context": "向量类型物理类型如线性力、角速度等，用于处理方向性物理效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "场节点",
+      "predicate": "定义",
+      "object": "场范围和属性",
+      "context": "场节点通过蓝图图表定义场的具体行为和特性，这是实现自定义物理效果的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理场系统",
+      "predicate": "使用",
+      "object": "元数据",
+      "context": "元数据为场求值提供附加信息，理解元数据类型有助于精确控制物理场行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "元数据",
+      "predicate": "包含",
+      "object": "状态元数据",
+      "context": "状态元数据用于筛选不同状态的Chaos粒子，是控制物理场作用对象的重要方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "元数据",
+      "predicate": "包含",
+      "object": "对象元数据",
+      "context": "对象元数据指定场作用的物理对象类型，如刚体、布料等，这对目标选择很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "元数据",
+      "predicate": "包含",
+      "object": "位置元数据",
+      "context": "位置元数据决定场在物体上的作用点位置，影响物理效果的表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "统一整数场",
+      "predicate": "属于",
+      "object": "整数场节点",
+      "context": "统一整数场是整数类型场节点的具体实现之一，了解具体场节点类型有助于构建物理场蓝图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "径向衰减场",
+      "predicate": "属于",
+      "object": "标量场节点",
+      "context": "径向衰减场是标量场节点的典型代表，掌握这类节点可以实现基于距离的物理效果渐变",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "随机向量场",
+      "predicate": "属于",
+      "object": "向量场节点",
+      "context": "随机向量场是向量场节点的一种，可用于创建随机方向的物理力效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运算符场",
+      "predicate": "属于",
+      "object": "运算符节点",
+      "context": "运算符场允许对多个场进行数学运算，是创建复杂物理效果的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理场系统",
+      "predicate": "作用于",
+      "object": "Chaos粒子",
+      "context": "理解物理场系统最终作用于Chaos粒子这一基本单位，是掌握物理模拟的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos粒子",
+      "predicate": "具有",
+      "object": "物理属性",
+      "context": "Chaos粒子的位置、速度、质量等属性是物理场作用的基础，理解这些属性有助于精确控制物理效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理场系统",
+      "predicate": "基于",
+      "object": "Chaos物理系统",
+      "context": "物理场系统是构建在Chaos物理系统之上的高级功能，了解这一关系有助于理解系统架构",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "构造场",
+      "predicate": "通过",
+      "object": "RemoveConstructionFields节点删除",
+      "context": "了解如何管理构造场的生命周期对于资源管理很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "持久场",
+      "predicate": "通过",
+      "object": "RemovePersistentFields节点删除",
+      "context": "掌握持久场的删除方法对于场景资源管理至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理场",
+      "predicate": "连接",
+      "object": "场节点",
+      "context": "物理场通过连接场节点来定义其行为，这是构建物理场蓝图的基本操作",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:35:08.968Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8535,
+    "contentLength": 4727,
+    "processingTimeMs": 80875
+  }
+}

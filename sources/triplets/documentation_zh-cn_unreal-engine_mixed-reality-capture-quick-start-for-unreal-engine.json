@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_mixed-reality-capture-quick-start-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_mixed-reality-capture-quick-start-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "混合现实捕捉",
+      "predicate": "需要",
+      "object": "绿幕",
+      "context": "绿幕是混合现实捕捉的基础设备之一，用于色度键控，帮助分离前景和背景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合现实捕捉",
+      "predicate": "需要",
+      "object": "视频摄像机",
+      "context": "视频摄像机用于捕捉现实世界的画面，是混合现实捕捉的核心设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合现实捕捉",
+      "predicate": "依赖",
+      "object": "混合现实捕捉框架插件",
+      "context": "混合现实捕捉功能需要通过启用混合现实捕捉框架插件来实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合现实捕捉",
+      "predicate": "使用",
+      "object": "MRCalibration.exe",
+      "context": "MRCalibration.exe是用于校准物理和虚拟摄像机的独立工具，确保两者位置同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合现实捕捉",
+      "predicate": "生成",
+      "object": "MrcCalibration.sav",
+      "context": "校准过程完成后会生成MrcCalibration.sav文件，用于后续的混合现实捕捉",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合现实捕捉",
+      "predicate": "需要",
+      "object": "第三方录制软件",
+      "context": "混合现实捕捉框架本身不负责录制视频，需要使用如OBS或Nvidia ShadowPlay等第三方软件进行录制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视频摄像机",
+      "predicate": "支持",
+      "object": "特定设备列表",
+      "context": "UE5仅支持特定的视频捕捉设备，需要参考官方支持的设备列表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "色度背景",
+      "predicate": "建议使用",
+      "object": "绿幕",
+      "context": "色度键控通常使用绿幕作为背景，确保颜色平滑单一以提高合成效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机架设",
+      "predicate": "可选",
+      "object": "三脚架",
+      "context": "摄像机可以固定在三脚架上以保持静止，便于校准过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机架设",
+      "predicate": "可选",
+      "object": "追踪器",
+      "context": "如果需要在拍摄期间移动摄像机，可以使用追踪器（如HTC Vive Tracker）来跟踪摄像机位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MRCalibration.exe",
+      "predicate": "生成",
+      "object": "MrcCalibration.sav",
+      "context": "校准工具MRCalibration.exe会生成MrcCalibration.sav文件，存储校准数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MrcCalibration.sav",
+      "predicate": "用于",
+      "object": "混合现实捕捉",
+      "context": "校准文件MrcCalibration.sav是混合现实捕捉的必要文件，确保物理和虚拟摄像机的同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合现实捕捉框架插件",
+      "predicate": "检查",
+      "object": "MrcCalibration.sav",
+      "context": "启用插件后，游戏会在启动时检查MrcCalibration.sav文件，以确定是否在MRC模式下启动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合现实捕捉",
+      "predicate": "显示",
+      "object": "VR观众画面",
+      "context": "默认情况下，混合现实捕捉使用VR观众画面来显示合成的场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合现实捕捉",
+      "predicate": "支持",
+      "object": "编辑器模式",
+      "context": "混合现实捕捉在编辑器（VR PIE）和打包的游戏中都受支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合现实捕捉",
+      "predicate": "支持",
+      "object": "打包游戏",
+      "context": "混合现实捕捉在编辑器（VR PIE）和打包的游戏中都受支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:57:26.607Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9910,
+    "contentLength": 6583,
+    "processingTimeMs": 57164
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_online-subsystem-session-interface-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_online-subsystem-session-interface-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "会话接口",
+      "predicate": "属于",
+      "object": "在线子系统",
+      "context": "会话接口由在线子系统创建和所有，帮助学习者理解在线子系统的组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏会话",
+      "predicate": "封装",
+      "object": "会话接口",
+      "context": "游戏会话作为会话接口周围的游戏特定封装，帮助学习者理解游戏会话与底层接口的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏模式",
+      "predicate": "创建",
+      "object": "游戏会话",
+      "context": "游戏会话由游戏模式创建和拥有，帮助学习者理解游戏会话的生命周期管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "会话设置",
+      "predicate": "决定",
+      "object": "会话特性",
+      "context": "会话设置是决定会话特性的属性集，帮助学习者理解如何配置会话",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "创建会话",
+      "predicate": "使用",
+      "object": "IOnlineSession::CreateSession()",
+      "context": "创建会话需要使用特定的API函数，帮助学习者掌握会话创建的技术实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "更新会话",
+      "predicate": "使用",
+      "object": "IOnlineSession::UpdateSession()",
+      "context": "更新会话需要使用特定的API函数，帮助学习者掌握会话更新的技术实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "退出会话",
+      "predicate": "使用",
+      "object": "IOnlineSession::DestroySession()",
+      "context": "退出会话需要使用特定的API函数，帮助学习者掌握会话终止的技术实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "搜索会话",
+      "predicate": "使用",
+      "object": "IOnlineSession::FindSessions()",
+      "context": "搜索会话需要使用特定的API函数，帮助学习者掌握会话搜索的技术实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基于云端的玩家匹配",
+      "predicate": "使用",
+      "object": "IOnlineSession::StartMatchmaking()",
+      "context": "基于云端的玩家匹配需要使用特定的API函数，帮助学习者掌握高级匹配功能的技术实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "跟随好友",
+      "predicate": "使用",
+      "object": "IOnlineSession::FindFriendSession()",
+      "context": "跟随好友进入会话需要使用特定的API函数，帮助学习者掌握社交功能的技术实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "邀请好友",
+      "predicate": "使用",
+      "object": "IOnlineSession::SendSessionInviteToFriend()",
+      "context": "邀请好友加入会话需要使用特定的API函数，帮助学习者掌握社交邀请功能的技术实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "加入会话",
+      "predicate": "使用",
+      "object": "IOnlineSession::JoinSession()",
+      "context": "加入会话需要使用特定的API函数，帮助学习者掌握会话加入的技术实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "会话生命周期",
+      "predicate": "包含",
+      "object": "创建会话",
+      "context": "创建会话是会话生命周期的第一个阶段，帮助学习者理解会话的完整生命周期",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "会话生命周期",
+      "predicate": "包含",
+      "object": "更新会话",
+      "context": "更新会话是会话生命周期中的可选阶段，帮助学习者理解会话的动态配置能力",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "会话生命周期",
+      "predicate": "包含",
+      "object": "退出会话",
+      "context": "退出会话是会话生命周期的最后阶段，帮助学习者理解会话的清理过程",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "玩家匹配",
+      "predicate": "包含",
+      "object": "搜索会话",
+      "context": "搜索会话是玩家匹配的一种方式，帮助学习者理解不同的匹配机制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "玩家匹配",
+      "predicate": "包含",
+      "object": "基于云端的玩家匹配",
+      "context": "基于云端的玩家匹配是高级匹配方式，帮助学习者理解平台特定的匹配服务",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "玩家匹配",
+      "predicate": "包含",
+      "object": "跟随并邀请好友",
+      "context": "社交功能是玩家匹配的组成部分，帮助学习者理解社交驱动的匹配方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "会话接口",
+      "predicate": "提供",
+      "object": "会话管理功能",
+      "context": "会话接口提供核心的会话管理功能，帮助学习者理解接口的主要职责",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "会话接口",
+      "predicate": "提供",
+      "object": "玩家匹配功能",
+      "context": "会话接口提供玩家匹配的基础构建块，帮助学习者理解多人在线游戏的核心机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FOnlineSessionSettings",
+      "predicate": "定义",
+      "object": "会话属性",
+      "context": "FOnlineSessionSettings类定义了会话的各种属性，帮助学习者理解如何配置会话参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FOnlineSessionSearch",
+      "predicate": "存储",
+      "object": "搜索结果",
+      "context": "FOnlineSessionSearch对象存储会话搜索结果，帮助学习者理解会话搜索的技术实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnJoinSessionComplete",
+      "predicate": "触发于",
+      "object": "加入会话完成",
+      "context": "加入会话完成后会触发代理，帮助学习者理解异步操作的事件处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetResolvedConnectString",
+      "predicate": "提供",
+      "object": "连接信息",
+      "context": "该函数提供加入游戏所需的连接信息，帮助学习者理解玩家加入游戏的技术流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:12:09.168Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10470,
+    "contentLength": 5784,
+    "processingTimeMs": 98482
+  }
+}

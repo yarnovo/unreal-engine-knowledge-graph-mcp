@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-use-buildgraph-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-use-buildgraph-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "BuildGraph",
+      "predicate": "属于",
+      "object": "虚幻自动工具",
+      "context": "BuildGraph是虚幻自动工具的一部分，用于创建可扩展的构建进程脚本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "支持",
+      "object": "命令行运行",
+      "context": "BuildGraph可以通过RunUAT批处理文件或shell脚本在命令行中运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "包含",
+      "object": "示例脚本",
+      "context": "引擎源中包含多个BuildGraph XML示例脚本，帮助开发者学习如何使用BuildGraph",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "示例脚本",
+      "predicate": "包括",
+      "object": "AllExamples.xml",
+      "context": "AllExamples.xml是多个示例脚本的组合，展示BuildGraph的不同功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "示例脚本",
+      "predicate": "包括",
+      "object": "BuildEditorAndTools.xml",
+      "context": "BuildEditorAndTools.xml展示如何编译引擎工具和编辑器二进制文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "示例脚本",
+      "predicate": "包括",
+      "object": "Building.xml",
+      "context": "Building.xml展示如何编译UnrealPak",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "依赖",
+      "object": "XML模式文件",
+      "context": "BuildGraph使用的XML模式文件Schema.xsd定义了脚本的合法结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "支持",
+      "object": "自定义命令行选项",
+      "context": "BuildGraph允许开发者通过XML脚本定义自定义命令行选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "用于",
+      "object": "创建安装构建版本",
+      "context": "BuildGraph可以通过InstalledEngineBuild.xml脚本创建Windows系统的UE安装构建版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "支持",
+      "object": "控制流程",
+      "context": "Properties.xml脚本展示了BuildGraph中控制流程的运作方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "包含",
+      "object": "命令行参数",
+      "context": "BuildGraph支持多种命令行参数，如-Script、-Target等，用于控制构建过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RunUAT",
+      "predicate": "执行",
+      "object": "BuildGraph",
+      "context": "RunUAT是用于执行BuildGraph脚本的批处理文件或shell脚本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "基于",
+      "object": "XML",
+      "context": "BuildGraph脚本使用XML格式定义构建流程和任务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:27:43.793Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9158,
+    "contentLength": 6280,
+    "processingTimeMs": 40090
+  }
+}

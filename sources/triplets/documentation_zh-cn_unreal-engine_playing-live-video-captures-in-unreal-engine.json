@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_playing-live-video-captures-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_playing-live-video-captures-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎媒体框架",
+      "predicate": "支持",
+      "object": "实时视频采集",
+      "context": "媒体框架是虚幻引擎中处理视频和音频的核心系统，了解其支持实时视频采集有助于开发者实现摄像头画面播放功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体播放器",
+      "predicate": "播放",
+      "object": "媒体纹理",
+      "context": "媒体播放器需要与媒体纹理配合使用才能显示视频内容，这是实现视频播放的基础技术组合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件蓝图",
+      "predicate": "包含",
+      "object": "媒体纹理",
+      "context": "控件蓝图作为UI容器，通过包含媒体纹理实现视频画面的HUD显示，这是UI与媒体系统集成的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡蓝图",
+      "predicate": "控制",
+      "object": "媒体播放器",
+      "context": "关卡蓝图通过事件和变量控制媒体播放器的生命周期和行为，展示蓝图系统与媒体系统的交互方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "列举视频采集设备",
+      "predicate": "获取",
+      "object": "媒体URL",
+      "context": "该功能动态获取可用采集设备信息，是处理多设备环境的核心方法，对移动端开发尤为重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "创建位掩码",
+      "predicate": "过滤",
+      "object": "视频采集设备",
+      "context": "位掩码技术用于精确筛选设备类型（如前后摄像头），是设备管理的高级技术实现",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "媒体框架",
+      "predicate": "不兼容",
+      "object": "Electra媒体播放器",
+      "context": "明确技术限制有助于开发者避免实现方案选择错误，这是系统选型的重要知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件开始播放",
+      "predicate": "触发",
+      "object": "视频播放流程",
+      "context": "游戏事件与媒体播放的时序关系，展示如何将媒体功能集成到游戏逻辑流中",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "HUD控件",
+      "predicate": "使用",
+      "object": "画中画风格",
+      "context": "展示媒体纹理在UI中的典型应用场景，帮助理解游戏HUD设计模式",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "移动设备开发",
+      "predicate": "需要",
+      "object": "EMediaWebcamCaptureDeviceFilter",
+      "context": "特定平台开发需要使用的专门过滤器，体现平台差异化处理知识",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:25:21.850Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11023,
+    "contentLength": 7435,
+    "processingTimeMs": 45825
+  }
+}

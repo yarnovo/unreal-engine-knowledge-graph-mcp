@@ -1,0 +1,237 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-use-ushell-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-use-ushell-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Ushell",
+      "predicate": "是",
+      "object": "命令行界面",
+      "context": "Ushell是虚幻引擎项目的命令行界面，帮助开发者通过命令行执行各种引擎操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Ushell",
+      "predicate": "支持",
+      "object": "Tab补全功能",
+      "context": "Ushell提供丰富的Tab补全功能，帮助开发者快速输入命令和参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Ushell",
+      "predicate": "包含",
+      "object": "持久命令历史记录",
+      "context": "Ushell保留命令历史记录，方便开发者调用之前的命令",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Ushell",
+      "predicate": "用于",
+      "object": "编译代码",
+      "context": "Ushell可以用于编译虚幻引擎项目的代码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Ushell",
+      "predicate": "用于",
+      "object": "烘焙并暂存数据",
+      "context": "Ushell可以用于烘焙和暂存项目数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Ushell",
+      "predicate": "用于",
+      "object": "运行产品",
+      "context": "Ushell可以用于运行编译后的产品",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Ushell",
+      "predicate": "用于",
+      "object": "执行命令",
+      "context": "Ushell可以用于执行各种命令",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Ushell",
+      "predicate": "用于",
+      "object": "运行Unreal Insights追踪会话",
+      "context": "Ushell可以用于启动Unreal Insights的追踪会话",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Ushell",
+      "predicate": "依赖",
+      "object": "源代码构建",
+      "context": "在虚幻引擎5.4中，Ushell需要源代码构建才能使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Ushell",
+      "predicate": "扩展",
+      "object": "自定义命令",
+      "context": "Ushell支持通过自定义命令扩展其功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Ushell",
+      "predicate": "支持",
+      "object": "脚本编写",
+      "context": "Ushell可以用于编写脚本，自动化任务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Ushell",
+      "predicate": "支持",
+      "object": "POSIX平台",
+      "context": "Ushell可以在基于POSIX的平台上运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Ushell",
+      "predicate": "集成",
+      "object": "其他Shell",
+      "context": "Ushell可以与其他Shell集成使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": ".build命令",
+      "predicate": "用于",
+      "object": "编译项目",
+      "context": ".build命令用于以不同配置编译项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": ".cook命令",
+      "predicate": "用于",
+      "object": "烘焙数据",
+      "context": ".cook命令用于为特定平台烘焙数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": ".stage命令",
+      "predicate": "用于",
+      "object": "暂存数据",
+      "context": ".stage命令用于暂存编译后的可执行文件和烘焙数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": ".run命令",
+      "predicate": "用于",
+      "object": "运行二进制文件",
+      "context": ".run命令用于运行编译后的二进制文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": ".sln命令",
+      "predicate": "用于",
+      "object": "生成Visual Studio解决方案",
+      "context": ".sln命令用于为活动项目生成Visual Studio解决方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": ".info命令",
+      "predicate": "用于",
+      "object": "显示会话信息",
+      "context": ".info命令用于显示当前会话的信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "help命令",
+      "predicate": "用于",
+      "object": "查看命令列表",
+      "context": "help命令用于查看所有可用命令的列表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "--help参数",
+      "predicate": "用于",
+      "object": "获取命令文档",
+      "context": "--help参数用于获取特定命令的使用指南和选项说明",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Ushell",
+      "predicate": "包含",
+      "object": "Readme文件",
+      "context": "Ushell包含详细的Readme文件，涵盖多种主题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Readme文件",
+      "predicate": "涵盖",
+      "object": "扩展Ushell",
+      "context": "Readme文件包含如何用自定义命令扩展Ushell的信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Readme文件",
+      "predicate": "涵盖",
+      "object": "脚本编写",
+      "context": "Readme文件包含用Ushell编写脚本的信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Readme文件",
+      "predicate": "涵盖",
+      "object": "POSIX平台",
+      "context": "Readme文件包含在基于POSIX的平台上运行Ushell的信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Readme文件",
+      "predicate": "涵盖",
+      "object": "Shell集成",
+      "context": "Readme文件包含如何将Ushell与其他Shell集成的信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Ushell",
+      "predicate": "支持",
+      "object": "上下文敏感Tab补全",
+      "context": "Ushell提供上下文敏感的Tab补全功能，帮助开发者快速输入命令和参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Ushell",
+      "predicate": "支持",
+      "object": "命令历史搜索",
+      "context": "Ushell支持通过PgUp和Ctrl-R等方式搜索和调用之前的命令",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:30:36.054Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5425,
+    "contentLength": 3401,
+    "processingTimeMs": 212349
+  }
+}

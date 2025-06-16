@@ -1,0 +1,181 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_buildgraph-script-types-reference-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_buildgraph-script-types-reference-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "BuildGraph",
+      "predicate": "支持",
+      "object": "字符串",
+      "context": "BuildGraph脚本支持字符串类型作为其属性数据类型，这是构建脚本的基础数据类型之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "支持",
+      "object": "字符串列表",
+      "context": "BuildGraph脚本支持字符串列表类型，用于处理多个字符串值的情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "支持",
+      "object": "布尔",
+      "context": "布尔类型是BuildGraph脚本中的基本数据类型，用于条件判断",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "支持",
+      "object": "整数",
+      "context": "整数类型是BuildGraph脚本中的数值数据类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "支持",
+      "object": "正则表达式",
+      "context": "BuildGraph支持C#语法的正则表达式，用于复杂的字符串匹配",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "支持",
+      "object": "命名",
+      "context": "命名类型是BuildGraph中用于标识实体的特殊字符串类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "支持",
+      "object": "命名列表",
+      "context": "命名列表用于处理多个命名实体的集合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "支持",
+      "object": "标记",
+      "context": "标记类型用于标识文件列表，是BuildGraph中的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "支持",
+      "object": "标记列表",
+      "context": "标记列表扩展了标记功能，允许处理多个标记集合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "支持",
+      "object": "目标",
+      "context": "目标类型用于指定需要执行的节点序列，是构建流程的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "支持",
+      "object": "目标列表",
+      "context": "目标列表扩展了目标功能，允许指定多个构建目标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "支持",
+      "object": "文件规范",
+      "context": "文件规范用于指定文件集合，支持通配符匹配",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "支持",
+      "object": "文件名",
+      "context": "文件名类型用于引用单个文件路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "支持",
+      "object": "目录名",
+      "context": "目录名类型用于引用目录路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "支持",
+      "object": "Unreal目标配置",
+      "context": "Unreal目标配置类型指定了构建目标的编译配置选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "支持",
+      "object": "Unreal目标平台",
+      "context": "Unreal目标平台类型指定了构建目标的平台",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "支持",
+      "object": "条件",
+      "context": "条件类型用于构建脚本中的条件判断",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "依赖",
+      "object": "UnrealBuildTool",
+      "context": "BuildGraph中的目标概念与UnrealBuildTool中的目标概念有重叠，表明两者在构建流程中的关联性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "正则表达式",
+      "predicate": "基于",
+      "object": "C#语法",
+      "context": "BuildGraph中使用的正则表达式遵循C#语法规范",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal目标平台",
+      "predicate": "关联",
+      "object": "共享和发布项目",
+      "context": "文档指出支持的平台可以在共享和发布项目文档中查看，建立了概念间的学习路径",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "条件",
+      "predicate": "关联",
+      "object": "BuildGraph条件表达式",
+      "context": "条件类型与BuildGraph条件表达式文档相关联，为学习者提供进一步学习的资源",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:16:34.747Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3180,
+    "contentLength": 2070,
+    "processingTimeMs": 63613
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_mutable-texture-streaming-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_mutable-texture-streaming-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Mutable纹理流送",
+      "predicate": "是",
+      "object": "Beta功能",
+      "context": "文档明确指出Mutable纹理流送是一个Beta功能，学习者需要了解其测试性质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mutable纹理流送",
+      "predicate": "影响",
+      "object": "渲染准备时间",
+      "context": "使用Mutable纹理流送可以使对象更快准备渲染但质量较低，这是重要的性能权衡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mutable纹理流送",
+      "predicate": "影响",
+      "object": "内存占用",
+      "context": "该技术可以减少内存占用，因为不会生成不需要的较大纹理mipmap",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mutable纹理流送",
+      "predicate": "影响",
+      "object": "生成总时间",
+      "context": "文档说明使用该技术会增加对象生成总时间，这是学习者需要权衡的重要因素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mutable纹理流送",
+      "predicate": "导致",
+      "object": "纹理闪烁",
+      "context": "更新纹理mipmap时会有明显过渡，这是学习者需要特别注意的视觉影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mutable纹理流送",
+      "predicate": "影响",
+      "object": "Mutable运行时状态",
+      "context": "该技术会使Mutable运行时更频繁处于忙碌状态，可能延迟其他对象更新",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理压缩策略",
+      "predicate": "被设置为",
+      "object": "无",
+      "context": "Mutable会将纹理压缩策略设置为无，这是学习者需要了解的重要配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理压缩策略",
+      "predicate": "基于",
+      "object": "状态切换",
+      "context": "纹理压缩策略的设置是基于状态切换的启发法，学习者需要理解这一决策逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "mutable.EnableMutableProgressiveMipStreaming",
+      "predicate": "控制",
+      "object": "Mutable纹理流送",
+      "context": "该控制台变量可用于全局切换Mutable纹理流送功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCustomizableObjectSystem::SetProgressiveMipStreamingEnabled",
+      "predicate": "控制",
+      "object": "Mutable纹理流送",
+      "context": "该方法可在运行时控制Mutable纹理流送功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mutable纹理流送",
+      "predicate": "适用于",
+      "object": "可自定义对象",
+      "context": "文档提到该技术特别适用于优先考虑低更新延迟的可自定义对象",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Mutable纹理流送",
+      "predicate": "类似于",
+      "object": "标准纹理流送",
+      "context": "文档指出其更新纹理mipmap时的过渡类似于标准纹理流送，帮助学习者理解其行为",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "游戏进行时",
+      "predicate": "建议开启",
+      "object": "Mutable纹理流送",
+      "context": "文档建议在游戏进行时开启该功能，这是重要的使用场景说明",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家自定义对象时",
+      "predicate": "建议关闭",
+      "object": "Mutable纹理流送",
+      "context": "文档建议在玩家自定义对象时关闭该功能以防止纹理闪烁",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:02:57.966Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2567,
+    "contentLength": 1691,
+    "processingTimeMs": 48481
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_welding-physics-bodies-in-unreal-engine-by-using-the-physics-asset-editor",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_welding-physics-bodies-in-unreal-engine-by-using-the-physics-asset-editor.md",
+  "triples": [
+    {
+      "subject": "物理资产编辑器",
+      "predicate": "用于",
+      "object": "焊接物理形体",
+      "context": "物理资产编辑器是专门用于编辑和操作物理形体的工具，焊接是其核心功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "焊接",
+      "predicate": "作用于",
+      "object": "物理形体",
+      "context": "焊接操作可以将多个物理形体连接成一个整体，改变它们的物理交互方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "焊接后的物理形体",
+      "predicate": "表现为",
+      "object": "单一物理实体",
+      "context": "焊接后的物理形体会作为一个整体进行物理交互，这对模拟刚性连接结构很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "焊接",
+      "predicate": "影响",
+      "object": "骨架网格体连接点",
+      "context": "焊接物理形体会将它们关联的骨架网格体连接点锁定在一起，这对角色动画和物理模拟的协调很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理形体",
+      "predicate": "关联",
+      "object": "骨架网格体",
+      "context": "物理形体通常与骨架网格体相关联，用于实现物理模拟和动画的协同工作",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "物理资产编辑器",
+      "predicate": "提供",
+      "object": "上下文菜单",
+      "context": "物理资产编辑器通过上下文菜单提供焊接等操作功能，这是用户与工具交互的主要方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "焊接操作",
+      "predicate": "需要",
+      "object": "选择多个物理形体",
+      "context": "执行焊接操作前需要先选择多个物理形体，这是操作的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "焊接后的物理形体",
+      "predicate": "显示为",
+      "object": "黄色",
+      "context": "编辑器会用黄色高亮显示焊接后的物理形体，这是重要的视觉反馈",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:32:22.595Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 1807,
+    "contentLength": 1291,
+    "processingTimeMs": 23325
+  }
+}

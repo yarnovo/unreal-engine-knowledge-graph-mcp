@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_hosting-and-networking-guide-for-pixel-streaming-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_hosting-and-networking-guide-for-pixel-streaming-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "像素流送",
+      "predicate": "包含",
+      "object": "信令服务器",
+      "context": "像素流送系统包含信令服务器作为其核心组件之一，用于协调UE应用和浏览器之间的连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送",
+      "predicate": "包含",
+      "object": "网络服务器",
+      "context": "网络服务器是像素流送系统的必要组成部分，负责处理HTTP连接和流媒体传输",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送",
+      "predicate": "包含",
+      "object": "匹配服务器",
+      "context": "匹配服务器用于在多用户场景中分配信令服务器资源，是像素流送系统的可选组件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "STUN服务器",
+      "predicate": "实现",
+      "object": "NAT穿透",
+      "context": "STUN服务器帮助实现NAT穿透，使得UE应用和浏览器能够发现各自的公开IP地址",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TURN服务器",
+      "predicate": "中继",
+      "object": "媒体流",
+      "context": "当直接连接不可行时，TURN服务器作为中继节点传输UE应用和浏览器之间的媒体流",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "STUN服务器",
+      "predicate": "与",
+      "object": "TURN服务器",
+      "context": "STUN和TURN服务器共同组成ICE框架，提供从直接连接到中继连接的回退机制",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CoTURN",
+      "predicate": "实现",
+      "object": "STUN/TURN服务器",
+      "context": "CoTURN是开源的STUN/TURN服务器实现，被推荐用于像素流送生产环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户端点",
+      "predicate": "使用",
+      "object": "自定义HTML页面",
+      "context": "在多用户共享同一UE会话的场景中，可以通过不同的HTML页面实现差异化的控制权限",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "配对服务器",
+      "predicate": "管理",
+      "object": "信令服务器分配",
+      "context": "配对服务器负责跟踪可用的信令服务器资源，并将客户端请求路由到合适的服务器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SFU",
+      "predicate": "优化",
+      "object": "流媒体传输",
+      "context": "选择性转发单元(SFU)可以根据接收方的网络条件智能选择流媒体质量，优化传输效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SFU",
+      "predicate": "支持",
+      "object": "联播策略",
+      "context": "SFU支持联播策略，允许UE实例生成多个分辨率的流以适应不同网络条件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "主机硬件性能",
+      "predicate": "影响",
+      "object": "流送质量",
+      "context": "托管服务器的GPU和内存性能直接影响像素流送的视频质量和用户体验",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送基础设施",
+      "predicate": "提供",
+      "object": "参考实现",
+      "context": "像素流送基础设施项目提供了信令服务器、Web服务器和配对器的参考实现，方便开发者定制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WebRTC",
+      "predicate": "是",
+      "object": "基础协议",
+      "context": "像素流送基于WebRTC协议实现实时媒体传输，这是理解其网络连接机制的基础",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "NVIDIA编码器限制",
+      "predicate": "影响",
+      "object": "多实例部署",
+      "context": "消费级NVIDIA显卡的编码器数量限制会影响在同一主机上运行多个UE像素流送实例的能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:22:28.240Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8664 字符)",
+      "timestamp": "2025-06-15T19:21:32.851Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15394,
+    "contentLength": 8664,
+    "processingTimeMs": 55397
+  }
+}

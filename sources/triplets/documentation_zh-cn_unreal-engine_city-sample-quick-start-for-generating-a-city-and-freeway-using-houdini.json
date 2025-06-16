@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_city-sample-quick-start-for-generating-a-city-and-freeway-using-houdini",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_city-sample-quick-start-for-generating-a-city-and-freeway-using-houdini.md",
+  "triples": [
+    {
+      "subject": "城市示例项目",
+      "predicate": "使用",
+      "object": "Houdini Engine",
+      "context": "城市示例项目利用Houdini Engine的程序化生成能力创建城市环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Houdini Engine",
+      "predicate": "生成",
+      "object": "程序化数据",
+      "context": "Houdini Engine用于生成驱动城市模拟的程序化数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "程序化数据",
+      "predicate": "驱动",
+      "object": "AI模拟",
+      "context": "生成的数据用于驱动城市中的AI行为模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "程序化数据",
+      "predicate": "驱动",
+      "object": "交通模拟",
+      "context": "生成的数据用于驱动城市交通系统模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "程序化数据",
+      "predicate": "驱动",
+      "object": "音效模拟",
+      "context": "生成的数据用于驱动城市环境音效模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "城市创建流程",
+      "predicate": "包含",
+      "object": "城市形状定义",
+      "context": "城市创建的第一步是定义城市的基本形状和布局",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "城市创建流程",
+      "predicate": "包含",
+      "object": "道路网络创建",
+      "context": "道路网络是城市基础设施的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "城市创建流程",
+      "predicate": "包含",
+      "object": "高速公路系统创建",
+      "context": "高速公路系统是城市交通网络的关键部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "City Layout运算符",
+      "predicate": "用于",
+      "object": "定义城市形状",
+      "context": "City Layout运算符是创建城市基础形状的主要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Curve节点",
+      "predicate": "输入到",
+      "object": "City Layout运算符",
+      "context": "Curve节点用于定义城市形状并输入到City Layout运算符",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "道路网络",
+      "predicate": "依赖",
+      "object": "干线样条线",
+      "context": "道路网络的创建需要先定义干线样条线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "City Zone运算符",
+      "predicate": "用于",
+      "object": "定义城市区域",
+      "context": "City Zone运算符用于定义城市中不同功能区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Freeway Util Curve Attribute运算符",
+      "predicate": "用于",
+      "object": "创建高速公路系统",
+      "context": "该运算符专门用于设置高速公路通道属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "City Processor",
+      "predicate": "组装",
+      "object": "城市组件",
+      "context": "City Processor用于整合城市的所有组件和数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "City Processor",
+      "predicate": "生成",
+      "object": "城市缓存",
+      "context": "最终步骤是通过City Processor生成可导出的城市缓存",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "城市缓存",
+      "predicate": "导出为",
+      "object": "几何体和Point Cloud Alembic",
+      "context": "生成的城市数据需要导出为特定格式供虚幻引擎使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Houdini",
+      "predicate": "需要",
+      "object": "特定版本设置",
+      "context": "城市示例项目需要特定版本的Houdini才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "城市创建",
+      "predicate": "需要",
+      "object": "houdini.env配置",
+      "context": "正确配置houdini.env文件是使用Houdini源文件的前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "City Lot Processor",
+      "predicate": "控制",
+      "object": "建筑物生成",
+      "context": "City Lot Processor属性控制建筑物生成的各个方面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PDG",
+      "predicate": "加速",
+      "object": "城市处理",
+      "context": "使用程序化依赖性图表可以加速大型城市的处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:24:50.259Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (29633 字符)",
+      "timestamp": "2025-06-15T18:23:33.502Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 44471,
+    "contentLength": 29633,
+    "processingTimeMs": 76763
+  }
+}

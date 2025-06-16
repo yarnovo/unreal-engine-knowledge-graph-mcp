@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_decal-materials-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_decal-materials-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "贴花材质",
+      "predicate": "属于",
+      "object": "材质",
+      "context": "贴花材质是一种特殊类型的材质，用于投射到几何体表面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "贴花材质",
+      "predicate": "投射到",
+      "object": "几何体",
+      "context": "贴花材质可以将颜色、粗糙度和法线等特征投射到关卡中的几何体上",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "贴花材质",
+      "predicate": "使用",
+      "object": "DBuffer",
+      "context": "DBuffer是贴花材质默认的投射方法，存储BasePass之前的基础颜色、法线和粗糙度信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "贴花材质",
+      "predicate": "使用",
+      "object": "GBuffer",
+      "context": "贴花材质也可以直接混合到GBuffer中，在BasePass之后但在光照之前应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "贴花材质",
+      "predicate": "需要设置",
+      "object": "材质域",
+      "context": "贴花材质需要设置材质域为'延迟贴花'才能正确工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "贴花材质",
+      "predicate": "支持",
+      "object": "混合模式",
+      "context": "贴花材质支持半透明或Alpha复合混合模式，但不支持调制混合模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "贴花Actor",
+      "predicate": "使用",
+      "object": "贴花材质",
+      "context": "贴花Actor用于在场景中放置和投射贴花材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "贴花Actor",
+      "predicate": "控制",
+      "object": "贴花投射",
+      "context": "贴花Actor的线框盒体决定了贴花材质投射的边界和方向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体贴花",
+      "predicate": "替代",
+      "object": "贴花Actor",
+      "context": "网格体贴花可以直接应用于静态和骨骼网格体，适用于贴花Actor无法实现的特定形状和投射",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "接收贴花",
+      "predicate": "是属性",
+      "object": "静态/骨骼网格体",
+      "context": "'接收贴花'属性决定网格体是否接受投射到其表面上的贴花",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "贴花响应",
+      "predicate": "决定",
+      "object": "贴花显示属性",
+      "context": "贴花响应属性决定在接收表面上显示哪些贴花投射属性（颜色、法线、粗糙度等）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "排序",
+      "predicate": "控制",
+      "object": "贴花渲染顺序",
+      "context": "排序属性控制多个重叠贴花的渲染顺序，值更大的贴花显示在上层",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DBuffer材质表达式",
+      "predicate": "提供",
+      "object": "自定义混合",
+      "context": "DBuffer材质表达式允许在接收材质中自定义贴花混合逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DBuffer材质表达式",
+      "predicate": "访问",
+      "object": "DBuffer纹理",
+      "context": "DBuffer材质表达式可以访问BaseColor、WorldNormal和Roughness三种DBuffer纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Substrate",
+      "predicate": "依赖",
+      "object": "DBuffer贴花",
+      "context": "Substrate材质需要启用DBuffer贴花才能正确渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动平台",
+      "predicate": "不支持",
+      "object": "DBuffer贴花",
+      "context": "移动平台不支持DBuffer贴花渲染，而是通过模拟方式实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "法线重新投射",
+      "predicate": "解决",
+      "object": "DBuffer贴花瑕疵",
+      "context": "法线重新投射可以解决DBuffer贴花因法线缺失导致的面片瑕疵问题",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "贴花性能",
+      "predicate": "受限于",
+      "object": "屏幕覆盖范围",
+      "context": "贴花的渲染性能主要受屏幕覆盖范围和材质复杂性影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体贴花",
+      "predicate": "影响",
+      "object": "路径追踪性能",
+      "context": "在使用路径追踪器渲染时，网格体贴花会产生较大的性能开销",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:49:53.235Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (14971 字符)",
+      "timestamp": "2025-06-15T18:48:40.533Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 24447,
+    "contentLength": 14971,
+    "processingTimeMs": 72709
+  }
+}

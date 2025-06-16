@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_cinematic-rendering-export-formats-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_cinematic-rendering-export-formats-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "影片渲染队列",
+      "predicate": "支持",
+      "object": "命令行编码器",
+      "context": "影片渲染队列支持使用命令行编码器创建自定义输出格式，这对于需要特定编码需求的开发者非常有用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "命令行编码器",
+      "predicate": "依赖",
+      "object": "FFmpeg",
+      "context": "命令行编码器通常依赖第三方软件如FFmpeg来实现自定义输出格式的编码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "命令行编码器",
+      "predicate": "需要",
+      "object": "图像序列导出格式",
+      "context": "使用命令行编码器时必须同时使用一种图像序列导出格式，以便能够从这些图像创建影片帧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "命令行编码器",
+      "predicate": "需要",
+      "object": "WAV音频",
+      "context": "如果要包含音频，必须包含WAV音频导出设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EXR序列",
+      "predicate": "支持",
+      "object": "多层输出",
+      "context": "EXR序列支持多层输出，可以将多个不同的渲染通道嵌入到.exr序列中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Apple ProRes视频编码解码器",
+      "predicate": "需要",
+      "object": "Apple ProRes Media插件",
+      "context": "使用Apple ProRes视频编码解码器需要启用Apple ProRes Media插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Avid DNx视频编码解码器",
+      "predicate": "需要",
+      "object": "Avid DNxHR/DNxMXF Media插件",
+      "context": "使用Avid DNx视频编码解码器需要启用Avid DNxHR/DNxMXF Media插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Final Cut Pro XML",
+      "predicate": "需要",
+      "object": "图像序列或视频文件输出",
+      "context": "Final Cut Pro XML格式需要伴随一个图像序列或视频文件输出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预流送录制器",
+      "predicate": "用于",
+      "object": "虚拟纹理",
+      "context": "预流送录制器可以使用虚拟纹理为过场动画创建渲染缓存",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预流送录制器",
+      "predicate": "用于",
+      "object": "Nanite",
+      "context": "预流送录制器可以使用Nanite为过场动画创建渲染缓存",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预流送录制器",
+      "predicate": "依赖",
+      "object": "过场动画预流送插件",
+      "context": "使用预流送录制器需要启用过场动画预流送插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染队列",
+      "predicate": "支持",
+      "object": "自定义输入格式",
+      "context": "影片渲染队列支持通过实现UMoviePipelineOutputBase类来创建自定义输入格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WAV音频",
+      "predicate": "用于",
+      "object": "后期制作",
+      "context": "WAV音频导出可以用于在后期制作中将音频与图像序列结合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EXR序列",
+      "predicate": "兼容",
+      "object": "视觉效果包",
+      "context": "EXR序列与各种视觉效果包兼容，包括Nuke、Tweak RV等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Apple ProRes视频编码解码器",
+      "predicate": "支持",
+      "object": "alpha通道",
+      "context": "Apple ProRes 4444和4444 XQ编码解码器支持alpha通道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Avid DNx视频编码解码器",
+      "predicate": "支持",
+      "object": "高清视频",
+      "context": "Avid DNxHR和DNxMXF编码解码器适用于高清视频的后期制作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Final Cut Pro XML",
+      "predicate": "兼容",
+      "object": "Final Cut Pro",
+      "context": "Final Cut Pro XML格式可由Final Cut Pro和支持此格式的其他视频编辑器读取",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预流送录制器",
+      "predicate": "提高",
+      "object": "渲染效率",
+      "context": "预流送录制器通过构建缓存提高虚拟纹理和Nanite系统的渲染效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "命令行编码器",
+      "predicate": "支持",
+      "object": "多种编码设置",
+      "context": "命令行编码器支持多种编码设置（低、中、高、史诗），以适应不同的质量需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EXR序列",
+      "predicate": "保留",
+      "object": "HDR值",
+      "context": "EXR序列可以保留HDR值，适用于高质量的图像输出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:23:19.377Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (16017 字符)",
+      "timestamp": "2025-06-15T18:22:17.778Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 27107,
+    "contentLength": 16017,
+    "processingTimeMs": 61607
+  }
+}

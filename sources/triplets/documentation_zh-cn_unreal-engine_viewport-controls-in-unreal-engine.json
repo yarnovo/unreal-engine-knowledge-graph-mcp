@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_viewport-controls-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_viewport-controls-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "视口功能按钮",
+      "predicate": "包含",
+      "object": "导航功能按钮",
+      "context": "视口功能按钮是导航功能按钮的上级概念，了解导航功能按钮有助于掌握视口的基本操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视口功能按钮",
+      "predicate": "包含",
+      "object": "选择功能按钮",
+      "context": "选择功能按钮是视口功能按钮的一部分，用于在视口中选择Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视口功能按钮",
+      "predicate": "包含",
+      "object": "变换功能按钮",
+      "context": "变换功能按钮用于移动、旋转和缩放Actor，是视口功能按钮的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视口功能按钮",
+      "predicate": "包含",
+      "object": "显示功能按钮",
+      "context": "显示功能按钮影响视口的显示方式，是视口功能按钮的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导航功能按钮",
+      "predicate": "包含",
+      "object": "标准导航",
+      "context": "标准导航是导航功能按钮的基础操作，适用于透视和正交视口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导航功能按钮",
+      "predicate": "包含",
+      "object": "游戏风格导航",
+      "context": "游戏风格导航为习惯PC射击游戏的用户提供了WASD导航方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导航功能按钮",
+      "predicate": "包含",
+      "object": "Maya风格导航",
+      "context": "Maya风格导航提供了Alt键组合的平移、环绕和缩放操作，适合Maya美术师",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "标准导航",
+      "predicate": "支持",
+      "object": "正交视口",
+      "context": "标准导航是唯一可用于正交视口的导航方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏风格导航",
+      "predicate": "适用于",
+      "object": "透视视口",
+      "context": "游戏风格导航仅在透视视口中有效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换功能按钮",
+      "predicate": "包含",
+      "object": "移动工具",
+      "context": "移动工具是变换功能按钮的一部分，用于移动Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换功能按钮",
+      "predicate": "包含",
+      "object": "旋转工具",
+      "context": "旋转工具是变换功能按钮的一部分，用于旋转Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换功能按钮",
+      "predicate": "包含",
+      "object": "缩放工具",
+      "context": "缩放工具是变换功能按钮的一部分，用于缩放Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动工具",
+      "predicate": "支持",
+      "object": "顶点对齐",
+      "context": "移动工具支持顶点对齐功能，可以对齐到场景中其他几何体的顶点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "显示功能按钮",
+      "predicate": "控制",
+      "object": "游戏模式",
+      "context": "显示功能按钮可以切换游戏模式，影响视口的渲染内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "显示功能按钮",
+      "predicate": "控制",
+      "object": "实时播放",
+      "context": "显示功能按钮可以切换视口的实时播放状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "显示功能按钮",
+      "predicate": "控制",
+      "object": "浸入模式",
+      "context": "显示功能按钮可以切换视口的浸入模式，实现全屏显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机按比例缩放和平移",
+      "predicate": "依赖",
+      "object": "编辑器偏好设置",
+      "context": "摄像机按比例缩放和平移功能需要在编辑器偏好设置中启用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "围绕选择环绕",
+      "predicate": "依赖",
+      "object": "编辑器偏好设置",
+      "context": "围绕选择环绕功能需要在编辑器偏好设置中启用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视口功能按钮",
+      "predicate": "用于",
+      "object": "场景导航",
+      "context": "视口功能按钮的主要用途之一是进行场景导航",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "视口功能按钮",
+      "predicate": "用于",
+      "object": "Actor操作",
+      "context": "视口功能按钮用于选择和操作场景中的Actor",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:29:06.568Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8525 字符)",
+      "timestamp": "2025-06-15T21:28:14.746Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13503,
+    "contentLength": 8525,
+    "processingTimeMs": 51827
+  }
+}

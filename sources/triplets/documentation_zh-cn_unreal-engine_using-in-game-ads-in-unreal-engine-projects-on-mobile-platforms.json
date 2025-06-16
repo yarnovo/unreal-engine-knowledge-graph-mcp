@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-in-game-ads-in-unreal-engine-projects-on-mobile-platforms",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-in-game-ads-in-unreal-engine-projects-on-mobile-platforms.md",
+  "triples": [
+    {
+      "subject": "移动平台游戏内置广告",
+      "predicate": "用于",
+      "object": "免费游戏盈利",
+      "context": "内置广告是实现免费游戏盈利的一种方式，帮助开发者在不收费的情况下获得收益",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Show Ad Banner函数",
+      "predicate": "用于",
+      "object": "展示广告横幅",
+      "context": "该函数专门用于在游戏界面中显示广告横幅，是广告展示的核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Hide Ad Banner函数",
+      "predicate": "用于",
+      "object": "隐藏广告横幅",
+      "context": "该函数专门用于隐藏已显示的广告横幅，是广告管理的核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Match 3示例游戏",
+      "predicate": "使用",
+      "object": "Show Ad Banner函数",
+      "context": "示例游戏展示了如何在特定场景（胜利/失败画面）中调用广告展示功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Unreal Match 3示例游戏",
+      "predicate": "使用",
+      "object": "Hide Ad Banner函数",
+      "context": "示例游戏展示了如何在特定场景（退出胜利/失败画面）中调用广告隐藏功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "控件蓝图",
+      "predicate": "包含",
+      "object": "Construct事件",
+      "context": "Construct事件是控件蓝图的重要组成部分，用于初始化时执行操作",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "控件蓝图",
+      "predicate": "包含",
+      "object": "Destruct事件",
+      "context": "Destruct事件是控件蓝图的重要组成部分，用于销毁时执行操作",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Construct事件",
+      "predicate": "调用",
+      "object": "Show Ad Banner函数",
+      "context": "示例展示了如何在控件初始化时触发广告展示",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Destruct事件",
+      "predicate": "调用",
+      "object": "Hide Ad Banner函数",
+      "context": "示例展示了如何在控件销毁时触发广告隐藏",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "安卓平台",
+      "predicate": "使用",
+      "object": "Ad Mob",
+      "context": "安卓平台使用Ad Mob作为广告服务提供商，需要特定配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动平台游戏内置广告",
+      "predicate": "包含",
+      "object": "广告横幅",
+      "context": "广告横幅是移动平台内置广告的主要展示形式之一",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "广告横幅",
+      "predicate": "通过",
+      "object": "Show Ad Banner函数控制",
+      "context": "广告横幅的显示由特定函数控制，这是广告系统的核心交互方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "广告横幅",
+      "predicate": "通过",
+      "object": "Hide Ad Banner函数控制",
+      "context": "广告横幅的隐藏由特定函数控制，这是广告系统的核心交互方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:17:42.436Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3573,
+    "contentLength": 2777,
+    "processingTimeMs": 37006
+  }
+}

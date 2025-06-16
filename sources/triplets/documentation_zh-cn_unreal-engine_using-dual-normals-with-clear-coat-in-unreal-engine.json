@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-dual-normals-with-clear-coat-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-dual-normals-with-clear-coat-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "透明涂层着色模型",
+      "predicate": "支持",
+      "object": "双法线贴图",
+      "context": "透明涂层着色模型支持使用第二法线贴图来模拟透明涂层下的表面细节，这对于碳纤维等复杂材质的真实渲染非常重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "透明涂层底部法线",
+      "predicate": "影响",
+      "object": "光照交互",
+      "context": "启用透明涂层底部法线后，光源会与透明涂层下的表面（如碳纤维）进行更真实的交互，产生方向性的明暗效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "透明涂层第二法线",
+      "predicate": "需要启用",
+      "object": "项目设置",
+      "context": "要在项目中使用透明涂层第二法线功能，必须先在项目设置的渲染>材质中启用'透明涂层启用第二法线'选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "透明涂层材质",
+      "predicate": "包含",
+      "object": "ClearCoatBottomNormal节点",
+      "context": "创建使用双法线的透明涂层材质时，必须包含ClearCoatBottomNormal材质表达式节点来连接第二法线贴图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碳纤维材质",
+      "predicate": "适用于",
+      "object": "双法线技术",
+      "context": "碳纤维材质由于其编织图案特性，特别适合使用双法线技术来分别表现透明涂层和底层纤维的表面特性",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质编辑器",
+      "predicate": "用于创建",
+      "object": "透明涂层双法线材质",
+      "context": "材质编辑器是创建和配置透明涂层双法线材质的主要工具，可以设置各种参数和连接不同的法线贴图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "法线贴图",
+      "predicate": "控制",
+      "object": "表面细节表现",
+      "context": "在透明涂层材质中，两个独立的法线贴图分别控制透明涂层表面和底层表面的细节表现，实现更复杂的材质效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "透明涂层着色模型",
+      "predicate": "替代",
+      "object": "默认光照模型",
+      "context": "当需要表现透明涂层效果时，应将材质的着色模型从默认光照改为透明涂层着色模型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理导入指南",
+      "predicate": "前置知识",
+      "object": "使用双法线技术",
+      "context": "在使用双法线技术前，需要了解如何导入纹理文件，这是准备必要素材的基础步骤",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "标量参数",
+      "predicate": "用于配置",
+      "object": "材质属性",
+      "context": "在创建透明涂层双法线材质时，需要使用多个标量参数节点来配置基础颜色、金属感、透明涂层强度等关键属性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:16:28.471Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10727,
+    "contentLength": 7217,
+    "processingTimeMs": 33343
+  }
+}

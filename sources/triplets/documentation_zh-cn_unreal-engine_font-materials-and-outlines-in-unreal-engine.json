@@ -1,0 +1,85 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_font-materials-and-outlines-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_font-materials-and-outlines-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "字体",
+      "predicate": "支持",
+      "object": "颜色和不透明度设置",
+      "context": "字体可以通过颜色和不透明度设置来改变其外观，这是字体设计的基础功能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字体",
+      "predicate": "支持",
+      "object": "字体材质",
+      "context": "字体可以应用材质来实现更复杂的视觉效果，这是字体设计的进阶功能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字体材质",
+      "predicate": "依赖",
+      "object": "顶点颜色节点",
+      "context": "字体材质可以使用顶点颜色节点在着色器中执行计算，实现更丰富的视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字体材质",
+      "predicate": "属于",
+      "object": "User Interface域",
+      "context": "用作字体材质的材质必须在User Interface域中，这是字体材质的基本要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字体",
+      "predicate": "支持",
+      "object": "字体外框",
+      "context": "字体可以添加外框来增强视觉效果，这是字体设计的另一个重要功能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字体外框",
+      "predicate": "支持",
+      "object": "外框颜色",
+      "context": "字体外框可以设置不同的颜色，这是外框设计的基本功能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字体外框",
+      "predicate": "支持",
+      "object": "Separate Fill Alpha",
+      "context": "字体外框可以启用Separate Fill Alpha来单独调整字体透明度和外框透明度，这是外框设计的进阶功能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG",
+      "predicate": "支持",
+      "object": "字体设计",
+      "context": "UMG是虚幻引擎的UI设计工具，支持字体颜色、材质和外框等设计功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Slate单位",
+      "predicate": "等价于",
+      "object": "像素",
+      "context": "当字体大小为1.0时，1个Slate单位等于1像素，这是字体尺寸的基本单位转换关系",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:07:26.599Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5786,
+    "contentLength": 4824,
+    "processingTimeMs": 28727
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_blendables-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_blendables-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "可混合物",
+      "predicate": "实现",
+      "object": "IBlendableInterface",
+      "context": "可混合物是拥有IBlendableInterface的对象，理解这一接口对于创建自定义可混合物至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可混合物",
+      "predicate": "包含",
+      "object": "PostprocessMaterials",
+      "context": "PostprocessMaterials是可混合物的一种实现类型，学习可混合物需要了解其具体实现形式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可混合物",
+      "predicate": "包含",
+      "object": "PostprocessMaterialInstances",
+      "context": "PostprocessMaterialInstances是可混合物的一种实现类型，与PostprocessMaterials共同构成可混合物的主要应用形式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可混合物",
+      "predicate": "包含",
+      "object": "LightPropagationVolumeBlendable",
+      "context": "LightPropagationVolumeBlendable是可混合物的示范实现，展示了如何创建新可混合物类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可混合物容器",
+      "predicate": "位于",
+      "object": "PostProcessSettings",
+      "context": "理解可混合物容器在PostProcessSettings中的位置对于配置后期处理效果很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PostProcessSettings",
+      "predicate": "内置在",
+      "object": "PostProcessVolume",
+      "context": "PostProcessVolume包含PostProcessSettings，是可混合物应用的主要场景之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PostProcessSettings",
+      "predicate": "内置在",
+      "object": "PostProcessComponent",
+      "context": "PostProcessComponent是另一个包含PostProcessSettings的组件，扩展了可混合物的应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PostProcessSettings",
+      "predicate": "内置在",
+      "object": "SceneCaptureActor",
+      "context": "SceneCaptureActor使用PostProcessSettings，展示了可混合物在场景捕捉中的应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PostProcessSettings",
+      "predicate": "内置在",
+      "object": "CameraComponent",
+      "context": "CameraComponent包含PostProcessSettings，是可混合物影响摄像机效果的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LightPropagationVolumeBlendable",
+      "predicate": "展示",
+      "object": "创建新可混合物",
+      "context": "LightPropagationVolumeBlendable作为示例，展示了如何创建新的可混合物类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可混合物",
+      "predicate": "替代",
+      "object": "PostProcessSettings",
+      "context": "未来计划将所有PostProcessSettings分割为类似LightPropagationVolumeBlendable的对象，理解这一趋势对长期学习很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "可混合物",
+      "predicate": "用于",
+      "object": "后期处理效果",
+      "context": "可混合物最常用于后期处理材质，这是其最核心的应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可混合物",
+      "predicate": "支持",
+      "object": "分屏渲染",
+      "context": "可混合物支持每个画面拥有不同的混合设置，这对分屏游戏开发很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "AddOrUpdateBlendable",
+      "predicate": "操作",
+      "object": "可混合物容器",
+      "context": "AddOrUpdateBlendable蓝图函数提供了操作可混合物容器的便捷方式，是蓝图编程中的重要功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ConstructObjectFromClass",
+      "predicate": "创建",
+      "object": "可混合物",
+      "context": "ConstructObjectFromClass函数可用于在蓝图中动态创建可混合物，扩展了可混合物的使用方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可混合物",
+      "predicate": "基于",
+      "object": "权重系统",
+      "context": "可混合物的效果基于权重系统，理解权重对控制混合效果至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可混合物",
+      "predicate": "适用于",
+      "object": "渲染效果调整",
+      "context": "可混合物主要用于调整渲染效果，这是其核心价值所在",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可混合物",
+      "predicate": "扩展",
+      "object": "蓝图功能",
+      "context": "可混合物系统与蓝图深度集成，扩展了蓝图在渲染控制方面的能力",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "可混合物",
+      "predicate": "依赖",
+      "object": "GetSingleFinalDataConst",
+      "context": "GetSingleFinalDataConst方法是获取可混合物最终数据的关键，性能优化时需要特别注意",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:13:01.702Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9585,
+    "contentLength": 5597,
+    "processingTimeMs": 64396
+  }
+}

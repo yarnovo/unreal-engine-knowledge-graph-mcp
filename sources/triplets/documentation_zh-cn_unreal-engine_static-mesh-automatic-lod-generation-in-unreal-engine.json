@@ -1,0 +1,123 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_static-mesh-automatic-lod-generation-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_static-mesh-automatic-lod-generation-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "自动LOD生成系统",
+      "predicate": "使用",
+      "object": "二次网格体简化",
+      "context": "自动LOD生成系统通过二次网格体简化算法来减少静态网格体的多边形计数，帮助学习者理解LOD生成的核心技术原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "二次网格体简化",
+      "predicate": "基于",
+      "object": "边折叠算法",
+      "context": "二次网格体简化通过计算边折叠的视觉差异量并选择影响最小的边进行操作，这是LOD生成的关键技术细节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD组",
+      "predicate": "包含",
+      "object": "预设配置",
+      "context": "LOD组提供预设配置（如SmallProp/LargeProp等），帮助开发者快速应用标准化LOD设置，减少手动配置工作量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BaseEngine.ini",
+      "predicate": "存储",
+      "object": "LOD组配置",
+      "context": "BaseEngine.ini文件的[StaticMeshLODSettings]部分定义了LOD组的预设参数，是项目级LOD管理的核心配置文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体编辑器",
+      "predicate": "支持",
+      "object": "手动LOD配置",
+      "context": "除了LOD组预设，开发者可通过静态网格体编辑器的Details面板手动调整每个LOD的三角形百分比等参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动计算LOD距离",
+      "predicate": "优化",
+      "object": "LOD切换效果",
+      "context": "启用该功能后，系统会根据视觉差异量自动计算最佳LOD切换距离，避免手动设置可能导致的视觉误差",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD0-LOD3",
+      "predicate": "代表",
+      "object": "细节层级序列",
+      "context": "数字编号表示从高精度（LOD0）到低精度（LOD3）的渐进式细节层级，帮助理解LOD的层次结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "三角形百分比",
+      "predicate": "控制",
+      "object": "模型简化程度",
+      "context": "通过设置不同LOD层级的三角形百分比（如LOD1=75%），开发者可以精确控制每个层级的模型精度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "适用于",
+      "object": "LOD生成系统",
+      "context": "文档明确说明该系统专门用于静态网格体的LOD生成，区别于骨骼网格体等其他资源类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "初学者内容包",
+      "predicate": "提供",
+      "object": "SM_Rock示例资源",
+      "context": "使用内置的SM_Rock作为示例，帮助学习者快速实践LOD生成流程而无需准备额外资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD组配置",
+      "predicate": "优于",
+      "object": "手动LOD配置",
+      "context": "文档多次强调LOD组是Epic推荐的方法，因其能保持项目一致性并减少配置错误",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "像素误差值(PixelError)",
+      "predicate": "影响",
+      "object": "视觉精度阈值",
+      "context": "LOD组预设中定义的PixelError参数决定了系统可接受的视觉差异量，是平衡性能与质量的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "摄像机距离",
+      "predicate": "触发",
+      "object": "LOD切换",
+      "context": "系统根据摄像机与对象的距离自动选择显示的LOD层级，这是实时渲染中常用的优化技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:54:34.871Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9001 字符)",
+      "timestamp": "2025-06-15T20:53:44.004Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12935,
+    "contentLength": 9001,
+    "processingTimeMs": 50876
+  }
+}

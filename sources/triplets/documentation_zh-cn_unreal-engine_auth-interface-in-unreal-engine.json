@@ -1,0 +1,147 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_auth-interface-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_auth-interface-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Online Services Auth Interface",
+      "predicate": "提供",
+      "object": "API",
+      "context": "身份验证接口为开发者提供了用于验证用户身份的API，这是学习在线服务功能的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Login",
+      "predicate": "返回",
+      "object": "FAccountInfo",
+      "context": "Login函数成功执行后会返回FAccountInfo结构体，这是理解用户身份验证流程的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FAccountInfo",
+      "predicate": "包含",
+      "object": "FAccountId",
+      "context": "FAccountInfo结构体包含FAccountId，这是使用其他身份验证功能的前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "QueryExternalServerAuthTicket",
+      "predicate": "用于",
+      "object": "外部服务器身份验证",
+      "context": "该函数专门用于获取与外部服务器进行身份验证的工单，是学习服务器间通信的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "QueryExternalAuthToken",
+      "predicate": "关联",
+      "object": "多个在线服务",
+      "context": "该函数用于将已验证用户与其他在线服务关联，是理解多服务集成的重要环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "QueryVerifiedAuthTicket",
+      "predicate": "前置",
+      "object": "BeginVerifiedAuthSession",
+      "context": "客户端必须先获取验证工单，服务器才能开始验证会话，这是理解P2P/服务器验证流程的关键顺序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ELoginStatus",
+      "predicate": "表示",
+      "object": "用户登录状态",
+      "context": "该枚举类定义了用户的不同登录状态，是理解身份验证状态管理的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ModifyAccountAttributes",
+      "predicate": "修改",
+      "object": "FAccountInfo属性",
+      "context": "该函数允许修改用户账号属性，是学习用户数据管理的重要功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Logout",
+      "predicate": "清除",
+      "object": "身份验证会话",
+      "context": "Logout函数会结束会话并清除资源，与Login形成完整的身份验证生命周期",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Online Services Auth Interface",
+      "predicate": "替代",
+      "object": "在线子系统身份接口",
+      "context": "新身份验证接口取代了旧的在线子系统身份接口，这是引擎功能演进的重要知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FAccountInfo",
+      "predicate": "依赖",
+      "object": "ELoginStatus",
+      "context": "FAccountInfo结构体使用ELoginStatus表示用户状态，展示了两者的紧密关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "BeginVerifiedAuthSession",
+      "predicate": "对应",
+      "object": "EndVerifiedAuthSession",
+      "context": "这两个函数分别开始和结束验证会话，是理解会话管理的配对概念",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "QueryVerifiedAuthTicket",
+      "predicate": "对应",
+      "object": "CancelVerifiedAuthTicket",
+      "context": "这两个函数分别获取和取消验证工单，是工单管理的配对操作",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetLocalOnlineUserByOnlineAccountId",
+      "predicate": "使用",
+      "object": "FAccountId",
+      "context": "该函数使用FAccountId检索用户，展示了FAccountId的实际用途",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "OnLoginStatusChanged",
+      "predicate": "监听",
+      "object": "ELoginStatus变化",
+      "context": "该事件监听登录状态变化，是学习事件驱动编程的典型示例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Auth.h",
+      "predicate": "定义",
+      "object": "身份验证接口",
+      "context": "头文件包含接口的完整定义，是深入学习接口实现的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:10:36.532Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12410 字符)",
+      "timestamp": "2025-06-15T18:09:41.599Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17304,
+    "contentLength": 12410,
+    "processingTimeMs": 54939
+  }
+}

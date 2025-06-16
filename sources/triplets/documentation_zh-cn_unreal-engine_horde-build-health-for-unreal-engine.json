@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_horde-build-health-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_horde-build-health-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Horde构建健康状况系统",
+      "predicate": "包含",
+      "object": "预检系统",
+      "context": "预检系统是Horde构建健康状况系统的一部分，用于在构建场运行预提交测试套件，帮助开发者提前发现问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde构建健康状况系统",
+      "predicate": "依赖",
+      "object": "结构化日志事件",
+      "context": "构建健康状况系统通过结构化日志事件获取错误信息并生成指纹，是系统正常运行的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "构建健康状况问题",
+      "predicate": "包含",
+      "object": "区间",
+      "context": "每个构建健康状况问题包含多个区间，每个区间对应观察到问题的一个分支流，帮助追踪问题的分布范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "区间",
+      "predicate": "标识",
+      "object": "提交范围",
+      "context": "区间会标识出最后一次成功构建和第一次失败构建的提交，帮助定位问题引入的时间点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "指纹",
+      "predicate": "用于",
+      "object": "错误匹配与分组",
+      "context": "指纹提供对错误的程序化描述，用于将相似错误进行匹配和分组，提高问题处理的效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "指纹",
+      "predicate": "包含",
+      "object": "Type",
+      "context": "Type是指纹的关键组成部分，用于标识问题类型（如Compile），决定指纹的匹配范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "指纹",
+      "predicate": "包含",
+      "object": "SummaryTemplate",
+      "context": "SummaryTemplate用于生成问题描述，包含占位符变量，帮助开发者快速理解问题特征",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "指纹",
+      "predicate": "包含",
+      "object": "Keys",
+      "context": "Keys是用于指纹匹配和分组的关键标识数据（如文件名），直接影响问题的归类准确性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "指纹匹配逻辑",
+      "predicate": "实现于",
+      "object": "IIssueFingerprint.cs",
+      "context": "指纹的匹配和合并逻辑在IIssueFingerprint.cs中实现，是构建健康状况系统的核心算法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工作流程",
+      "predicate": "配置",
+      "object": "Slack通知",
+      "context": "工作流程通过流配置文件定义Slack通知的发送规则，确保开发者及时收到问题警报",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "节点注解",
+      "predicate": "影响",
+      "object": "问题处理方式",
+      "context": "通过BuildGraph脚本中的节点注解可以定制问题处理方式（如分配责任人、设置构建阻碍标记等）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基于主干的开发模型",
+      "predicate": "需要",
+      "object": "构建健康状况系统",
+      "context": "在大型团队采用基于主干的开发时，构建健康状况系统对维护代码库稳定性至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "摘要模板",
+      "predicate": "使用",
+      "object": "占位符变量",
+      "context": "摘要模板通过占位符变量（如{Files}）动态生成问题描述，提高信息的可读性和实用性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EpicGames.Horde库",
+      "predicate": "提供",
+      "object": "指纹创建接口",
+      "context": "该库提供了通过ILogger接口创建指纹的扩展方法，方便开发者将错误信息集成到构建健康状况系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IssueHandler",
+      "predicate": "处理",
+      "object": "日志事件后处理",
+      "context": "IssueHandler派生类负责对结构化日志事件进行后处理，补充生成指纹信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:19:43.032Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 12898,
+    "contentLength": 7298,
+    "processingTimeMs": 64136
+  }
+}

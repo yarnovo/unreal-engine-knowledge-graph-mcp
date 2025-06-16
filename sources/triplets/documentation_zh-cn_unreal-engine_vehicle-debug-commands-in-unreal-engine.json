@@ -1,0 +1,181 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_vehicle-debug-commands-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_vehicle-debug-commands-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Chaos载具",
+      "predicate": "包含",
+      "object": "调试命令",
+      "context": "Chaos载具系统提供了一系列调试命令，帮助开发者可视化载具模拟过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试命令",
+      "predicate": "以...开头",
+      "object": "p.vehicle",
+      "context": "所有特定于载具的调试命令均以p.vehicle开头，便于开发者识别和使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试命令",
+      "predicate": "启用方式",
+      "object": "添加1",
+      "context": "调试命令通过在命令后添加1进行启用，这是统一的启用方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试命令",
+      "predicate": "禁用方式",
+      "object": "添加0",
+      "context": "调试命令通过在命令后添加0进行禁用，这是统一的禁用方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试渲染命令",
+      "predicate": "依赖",
+      "object": "p.chaos.debugdraw.enabled 1",
+      "context": "许多调试渲染命令需要先启用p.chaos.debugdraw.enabled 1才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "p.Vehicle.ShowCOM",
+      "predicate": "用于",
+      "object": "质心可视化",
+      "context": "该命令专门用于启用或禁用载具质心的可视化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "p.Vehicle.ShowAllForces",
+      "predicate": "用于",
+      "object": "力可视化",
+      "context": "该命令用于启用或禁用所有力的可视化，帮助开发者全面了解力的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "p.Vehicle.SetForceDebugScaling",
+      "predicate": "控制",
+      "object": "力可视化刻度",
+      "context": "该命令用于调整力可视化的刻度大小，优化可视化效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "p.Vehicle.DisableSuspensionForces",
+      "predicate": "禁用",
+      "object": "悬挂系统力",
+      "context": "该命令用于禁用悬挂系统力，帮助开发者隔离分析其他力的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "p.Vehicle.ShowWheelCollisionNormal",
+      "predicate": "显示",
+      "object": "车轮碰撞法线",
+      "context": "该命令用于显示车轮碰撞的法线信息，帮助分析碰撞物理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "p.Vehicle.ShowSuspensionRaycasts",
+      "predicate": "显示",
+      "object": "悬挂系统光线投射",
+      "context": "该命令可视化悬挂系统的光线投射，绿色表示命中，红色表示未命中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "p.Vehicle.ControlInputWakeTolerance",
+      "predicate": "设置",
+      "object": "唤醒阈值",
+      "context": "该命令设置控制输入唤醒休眠载具的阈值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "p.Vehicle.TraceTypeOverride",
+      "predicate": "重载",
+      "object": "光线追踪类型",
+      "context": "该命令全局重载光线追踪类型，1为简单碰撞，2为复杂碰撞",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "p.Vehicle.SetMaxMPH",
+      "predicate": "设置",
+      "object": "最高速度",
+      "context": "该命令设置所有载具的最高速度重载，单位为英里/小时",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "p.Vehicle.ThrottleOverride",
+      "predicate": "重载",
+      "object": "节流控制",
+      "context": "该命令全局重载节流控制输入，范围为0到1",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "stat ChaosVehicle",
+      "predicate": "显示",
+      "object": "载具模拟计时",
+      "context": "该统计命令显示载具模拟不同部件的计时信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "质心",
+      "predicate": "影响",
+      "object": "载具处理",
+      "context": "质心位置对载具的操控性能有重要影响，包括转弯稳定性和加速/刹车表现",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "质心偏移",
+      "predicate": "调整",
+      "object": "质心位置",
+      "context": "质心偏移可以根据碰撞模型计算出的初始位置来移动质心",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "p.Vehicle.ShowCOM",
+      "predicate": "显示",
+      "object": "质心位置",
+      "context": "该命令显示应用偏移后的质心当前位置，是调试载具行为的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos载具",
+      "predicate": "基于",
+      "object": "物理模拟",
+      "context": "Chaos载具系统基于物理模拟实现真实的载具行为",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "调试命令",
+      "predicate": "分为",
+      "object": "通用命令和专用命令",
+      "context": "调试命令分为适用于所有载具的通用命令和特定于轮式载具的专用命令",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:28:12.452Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7276,
+    "contentLength": 4586,
+    "processingTimeMs": 60218
+  }
+}

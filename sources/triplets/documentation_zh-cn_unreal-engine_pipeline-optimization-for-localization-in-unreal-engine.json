@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_pipeline-optimization-for-localization-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_pipeline-optimization-for-localization-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "资产收集",
+      "predicate": "是",
+      "object": "本地化管线的一部分",
+      "context": "资产收集是本地化管线中使用最多资源的环节，帮助学习者理解本地化流程中的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "添加",
+      "object": "收集缓存",
+      "context": "UE在资产文件标头中添加收集缓存以减少加载资产数量，帮助学习者理解性能优化机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "收集缓存",
+      "predicate": "生成于",
+      "object": "资产保存时",
+      "context": "收集缓存在保存资产时生成，帮助学习者掌握缓存生成时机",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "无法生成",
+      "object": "收集缓存",
+      "context": "蓝图等使用字节码的资产无法生成收集缓存，帮助学习者识别性能瓶颈",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字符串表",
+      "predicate": "替代",
+      "object": "蓝图文本",
+      "context": "将蓝图文本移动到字符串表可提高收集性能，帮助学习者掌握优化技巧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FText::ShouldGatherForLocalization",
+      "predicate": "过滤",
+      "object": "序列化文本值",
+      "context": "该函数决定哪些文本需要收集，帮助学习者理解文本收集条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ReportStaleGatherCache",
+      "predicate": "生成",
+      "object": "陈旧缓存报告",
+      "context": "该参数生成陈旧缓存报告，帮助学习者掌握缓存验证工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FixStaleGatherCache",
+      "predicate": "修复",
+      "object": "陈旧收集缓存",
+      "context": "该参数自动修复陈旧缓存，帮助学习者掌握维护工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FixMissingGatherCache",
+      "predicate": "修复",
+      "object": "缺失收集缓存",
+      "context": "该参数修复缺失缓存的旧资产，帮助学习者处理历史项目问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "本地化Commandlet",
+      "predicate": "运行",
+      "object": "缓存验证工具",
+      "context": "缓存验证工具通过Commandlet运行，帮助学习者掌握工具调用方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产本地化菜单",
+      "predicate": "查看",
+      "object": "收集缓存状态",
+      "context": "通过内容浏览器的资产本地化菜单可查看缓存状态，帮助学习者掌握可视化工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字节码",
+      "predicate": "导致",
+      "object": "收集性能下降",
+      "context": "字节码的不稳定性导致相关资产收集性能下降，帮助学习者理解技术限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字符串表引用",
+      "predicate": "不通过",
+      "object": "FText::ShouldGatherForLocalization检查",
+      "context": "字符串表引用不需要收集检查，帮助学习者理解性能优化原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE 4.20以下版本",
+      "predicate": "需要",
+      "object": "缓存验证",
+      "context": "旧版本项目升级时需要验证缓存，帮助学习者掌握版本迁移要点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:24:12.741Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4075,
+    "contentLength": 2387,
+    "processingTimeMs": 50585
+  }
+}

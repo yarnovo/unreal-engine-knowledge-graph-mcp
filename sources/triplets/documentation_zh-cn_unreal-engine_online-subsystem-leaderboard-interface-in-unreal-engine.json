@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_online-subsystem-leaderboard-interface-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_online-subsystem-leaderboard-interface-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "排行榜接口",
+      "predicate": "用于",
+      "object": "记录游戏最高分",
+      "context": "排行榜接口的主要功能是记录和展示游戏中的最高分，帮助玩家进行竞争",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "排行榜接口",
+      "predicate": "支持",
+      "object": "多个计分模式",
+      "context": "游戏可以拥有多个计分模式，每个模式都可以有自己的排行榜",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ELeaderboardSort",
+      "predicate": "定义",
+      "object": "积分排序方式",
+      "context": "ELeaderboardSort枚举类型用于指定积分的排序方式（升序或降序）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ELeaderboardFormat",
+      "predicate": "控制",
+      "object": "积分格式",
+      "context": "ELeaderboardFormat枚举类型控制积分的格式调整，可以是原始数或时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ELeaderboardUpdateMethod",
+      "predicate": "说明",
+      "object": "排行榜更新方式",
+      "context": "ELeaderboardUpdateMethod枚举类型说明排行榜是保持玩家最近分数还是最高分数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FOnlineLeaderboardRead",
+      "predicate": "存储",
+      "object": "排行榜数据",
+      "context": "FOnlineLeaderboardRead数据类型用于存储从在线服务获取的排行榜数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ReadLeaderboards",
+      "predicate": "查询",
+      "object": "指定用户积分",
+      "context": "ReadLeaderboards函数用于查询指定用户的排行榜积分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ReadLeaderboardsForFriends",
+      "predicate": "查询",
+      "object": "好友积分",
+      "context": "ReadLeaderboardsForFriends函数用于查询本地用户好友的排行榜积分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ReadLeaderboardsAroundRank",
+      "predicate": "查询",
+      "object": "指定排名范围积分",
+      "context": "ReadLeaderboardsAroundRank函数用于查询指定排名范围内的排行榜积分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ReadLeaderboardsAroundUser",
+      "predicate": "查询",
+      "object": "用户周围排名积分",
+      "context": "ReadLeaderboardsAroundUser函数用于查询指定用户周围排名范围内的排行榜积分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WriteLeaderboards",
+      "predicate": "缓存",
+      "object": "玩家得分更新",
+      "context": "WriteLeaderboards函数用于缓存单个玩家的得分更新",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FlushLeaderboards",
+      "predicate": "提交",
+      "object": "缓存数据到在线服务",
+      "context": "FlushLeaderboards函数用于将缓存的排行榜数据提交到在线服务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FOnlineLeaderboardWrite",
+      "predicate": "关联",
+      "object": "会话命名和玩家",
+      "context": "FOnlineLeaderboardWrite对象与一个会话命名和一个玩家相关联",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "排行榜接口",
+      "predicate": "依赖",
+      "object": "在线子系统",
+      "context": "排行榜接口是虚幻引擎在线子系统的一部分，依赖在线子系统功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "排行榜接口",
+      "predicate": "使用",
+      "object": "FUniqueNetId",
+      "context": "排行榜接口使用FUniqueNetId来识别玩家",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:09:24.126Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5025,
+    "contentLength": 3215,
+    "processingTimeMs": 44766
+  }
+}

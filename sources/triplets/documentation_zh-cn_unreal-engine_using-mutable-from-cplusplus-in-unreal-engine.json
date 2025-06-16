@@ -1,0 +1,101 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-mutable-from-cplusplus-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-mutable-from-cplusplus-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "CustomizableObjectInstance",
+      "predicate": "包含",
+      "object": "可自定义对象",
+      "context": "CustomizableObjectInstance包含一组参数值，这些值用于创建游戏内的网格体和材质，帮助学习者理解实例如何存储和管理自定义对象的参数。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CustomizableObjectInstance",
+      "predicate": "关联",
+      "object": "Actor",
+      "context": "CustomizableObjectInstance可以通过CustomizableSkeletalComponent与Actor关联，帮助学习者理解如何在游戏中使用自定义对象实例。",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CustomizableSkeletalComponent",
+      "predicate": "附加到",
+      "object": "SkeletalMeshComponent",
+      "context": "CustomizableSkeletalComponent可以附加到Actor的SkeletalMeshComponent上，帮助学习者理解如何将自定义骨骼网格体集成到现有Actor中。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CustomizableSkeletalComponent",
+      "predicate": "更新",
+      "object": "骨骼网格体",
+      "context": "调用UpdateSkeletalMeshAsync方法可以更新实例并替换骨骼网格体，帮助学习者理解如何动态更新自定义对象。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CustomizableObjectInstance",
+      "predicate": "设置参数",
+      "object": "参数类型",
+      "context": "CustomizableObjectInstance提供多种API函数来设置不同类型的参数（如布尔、整型、浮点、颜色等），帮助学习者理解如何灵活配置自定义对象。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CustomizableObjectInstance",
+      "predicate": "更改状态",
+      "object": "状态",
+      "context": "Mutable具有状态的概念，可以通过API函数查询和更改状态，帮助学习者理解如何根据用例优化自定义对象。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UpdatedDelegate",
+      "predicate": "注册回调",
+      "object": "网格体更新",
+      "context": "UpdatedDelegate允许在网格体更新后运行特定方法，帮助学习者理解如何响应自定义对象的动态变化。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mutable",
+      "predicate": "基于",
+      "object": "Beta功能",
+      "context": "Mutable是一个Beta功能，学习者在发布产品中需要谨慎使用，帮助理解其当前开发状态和使用限制。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CustomizableObject",
+      "predicate": "加载",
+      "object": "资产路径",
+      "context": "可以通过资产的路径加载CustomizableObject，帮助学习者理解如何在运行时动态加载自定义对象。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mesh Component节点",
+      "predicate": "生成",
+      "object": "骨骼网格体",
+      "context": "使用Mesh Component节点可以生成Mutable的骨骼网格体，帮助学习者理解不同节点类型的功能差异。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Passthrough Mesh Component节点",
+      "predicate": "使用",
+      "object": "标准骨骼网格体",
+      "context": "使用Passthrough Mesh Component节点可以使用标准的虚幻引擎骨骼网格体，帮助学习者理解不同节点类型的功能差异。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:20:30.016Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7810,
+    "contentLength": 5874,
+    "processingTimeMs": 35229
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_paper-2d-tile-sets-and-tile-maps-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_paper-2d-tile-sets-and-tile-maps-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Paper 2D",
+      "predicate": "包含",
+      "object": "图块集",
+      "context": "Paper 2D是虚幻引擎中处理2D内容的系统，图块集是其核心组件之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Paper 2D",
+      "predicate": "包含",
+      "object": "图块地图",
+      "context": "图块地图是Paper 2D系统中用于构建2D关卡布局的核心工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图块集",
+      "predicate": "用于创建",
+      "object": "图块地图",
+      "context": "图块地图需要使用图块集中的图块进行构建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图块集",
+      "predicate": "基于",
+      "object": "纹理",
+      "context": "图块集可以从纹理资源创建，纹理是图块的视觉来源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图块集编辑器",
+      "predicate": "用于编辑",
+      "object": "图块集",
+      "context": "图块集编辑器是配置图块集参数和属性的专用工具",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图块地图编辑器",
+      "predicate": "用于编辑",
+      "object": "图块地图",
+      "context": "图块地图编辑器是设计和布局图块地图的主要工作环境",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图块集",
+      "predicate": "定义",
+      "object": "图块碰撞",
+      "context": "在图块集中可以指定哪些图块具有碰撞属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图块地图",
+      "predicate": "启用",
+      "object": "图块碰撞",
+      "context": "图块地图需要单独启用碰撞才能使图块集中的碰撞设置生效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "用于创建",
+      "object": "图块集",
+      "context": "内容浏览器是创建和管理图块集资源的入口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "用于创建",
+      "object": "图块地图",
+      "context": "内容浏览器也是创建图块地图资源的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图块地图",
+      "predicate": "由...组成",
+      "object": "多层",
+      "context": "图块地图可以包含多个层级，用于组织不同层次的视觉元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图块集编辑器",
+      "predicate": "配置",
+      "object": "图块参数",
+      "context": "在图块集编辑器中可以设置图块宽度、高度、间距等关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图块地图编辑器",
+      "predicate": "使用",
+      "object": "活动图块集",
+      "context": "图块地图编辑器需要指定一个活动图块集才能进行地图绘制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图块地图",
+      "predicate": "应用于",
+      "object": "2D关卡布局",
+      "context": "图块地图的主要用途是快速构建2D游戏关卡的视觉布局",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图块集",
+      "predicate": "包含",
+      "object": "图块表单",
+      "context": "图块集由纹理生成的图块表单组成，包含多个可用的图块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图块地图",
+      "predicate": "可拖入",
+      "object": "关卡",
+      "context": "创建好的图块地图资源可以拖入游戏关卡中使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Details面板",
+      "predicate": "用于配置",
+      "object": "图块集属性",
+      "context": "Details面板是设置图块集各项参数的主要界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Details面板",
+      "predicate": "用于配置",
+      "object": "图块地图属性",
+      "context": "Details面板也是设置图块地图尺寸、层级等属性的界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具箱",
+      "predicate": "提供",
+      "object": "图块绘制工具",
+      "context": "图块地图编辑器中的工具箱提供了绘制、填充等编辑工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视口",
+      "predicate": "显示",
+      "object": "图块地图布局",
+      "context": "视口窗口是编辑和预览图块地图布局的主要区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:19:20.526Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11227 字符)",
+      "timestamp": "2025-06-15T20:18:21.647Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16443,
+    "contentLength": 11227,
+    "processingTimeMs": 58890
+  }
+}

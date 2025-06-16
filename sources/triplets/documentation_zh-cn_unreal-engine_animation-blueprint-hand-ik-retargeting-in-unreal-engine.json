@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-blueprint-hand-ik-retargeting-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-blueprint-hand-ik-retargeting-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Hand IK Retargeting节点",
+      "predicate": "属于",
+      "object": "动画蓝图",
+      "context": "Hand IK Retargeting是动画蓝图中的一个功能节点，用于处理手部IK重定向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Hand IK Retargeting节点",
+      "predicate": "用于",
+      "object": "修正FK手部位置",
+      "context": "该节点的主要功能是重定向IK骨骼链以修正不同比例角色动画中的手部位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Hand IK Retargeting节点",
+      "predicate": "依赖",
+      "object": "两个骨骼IK节点",
+      "context": "文档中提到实现效果时同时使用了两个骨骼IK节点和Hand IK Retargeting节点",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "手部FK权重",
+      "predicate": "控制",
+      "object": "FK骨骼优先级",
+      "context": "通过调整手部FK权重可以改变FK骨骼的优先级权重，解决过度拉伸问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Hand IK Retargeting节点",
+      "predicate": "包含",
+      "object": "要移动的IK骨骼属性",
+      "context": "节点属性中可以指定需要移动的其他骨骼，如武器骨骼",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "右手FK属性",
+      "predicate": "指定",
+      "object": "右手骨骼",
+      "context": "该属性用于从角色骨架中选择右手骨骼进行设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "左手FK属性",
+      "predicate": "指定",
+      "object": "左手骨骼",
+      "context": "该属性用于从角色骨架中选择左手骨骼进行设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "支持",
+      "object": "角色动画重定向",
+      "context": "动画蓝图系统提供了Hand IK Retargeting等功能来支持不同比例角色的动画适配",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Hand IK Retargeting",
+      "predicate": "解决",
+      "object": "角色比例差异问题",
+      "context": "该技术专门用于处理将动画应用于不同比例角色时产生的手部位置不匹配问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "手部FK权重",
+      "predicate": "影响",
+      "object": "关节弹出和拉伸",
+      "context": "调整手部FK权重可以控制关节弹出和拉伸的程度，实现更自然的动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T17:58:42.683Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4008,
+    "contentLength": 2778,
+    "processingTimeMs": 41260
+  }
+}

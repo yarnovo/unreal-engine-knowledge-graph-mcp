@@ -1,0 +1,131 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-slots-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-slots-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "动画插槽",
+      "predicate": "用于",
+      "object": "动画蓝图",
+      "context": "动画插槽是动画蓝图中的节点，用于插入和播放一次性动画",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画插槽",
+      "predicate": "搭配使用",
+      "object": "动画蒙太奇",
+      "context": "动画插槽通常与动画蒙太奇一起使用，用于插入单次动画如射击和互动动作",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画插槽",
+      "predicate": "搭配使用",
+      "object": "Sequencer",
+      "context": "动画插槽也可以与Sequencer一起使用，用于在过场动画中插入动画",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画插槽",
+      "predicate": "管理工具",
+      "object": "动画插槽管理器",
+      "context": "动画插槽管理器用于创建和管理动画插槽，可以在多个编辑器中使用",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画插槽",
+      "predicate": "包含",
+      "object": "DefaultSlot",
+      "context": "默认情况下，所有骨骼都有一个初始的插槽DefaultSlot",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画插槽",
+      "predicate": "支持",
+      "object": "混合节点",
+      "context": "动画插槽可以与混合节点一起使用，实现特定骨骼的动画播放",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画插槽",
+      "predicate": "属于",
+      "object": "插槽组",
+      "context": "动画插槽可以组织到插槽组中，用于控制动画蒙太奇的播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插槽组",
+      "predicate": "用于",
+      "object": "动画蒙太奇",
+      "context": "插槽组用于组织和控制动画蒙太奇中插槽动画的播放",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蒙太奇",
+      "predicate": "需要",
+      "object": "动画插槽",
+      "context": "动画蒙太奇需要动画图表中有插槽才能运行，因为它们只使用插槽播放动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "使用",
+      "object": "动画插槽",
+      "context": "Sequencer可以使用动画插槽将过场动画插入动画蓝图，添加更多逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画插槽",
+      "predicate": "前置知识",
+      "object": "动画蓝图绘制",
+      "context": "使用动画插槽前需要熟悉如何在动画蓝图中绘制动画图表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全身插槽",
+      "predicate": "用于",
+      "object": "全身互动动作",
+      "context": "全身插槽可以用于全身的互动动作或者表情动作",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "上半身插槽",
+      "predicate": "用于",
+      "object": "上半身动作",
+      "context": "上半身插槽可以用于武器重装填、射击等不受角色运动状态影响的动画",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画插槽",
+      "predicate": "保存于",
+      "object": "骨骼资产",
+      "context": "动画插槽保存在骨骼资产中，创建和修改插槽时是对骨骼进行更改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:04:54.962Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8215 字符)",
+      "timestamp": "2025-06-15T18:04:08.435Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12275,
+    "contentLength": 8215,
+    "processingTimeMs": 46534
+  }
+}

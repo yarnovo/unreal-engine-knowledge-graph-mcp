@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-the-unreal-frontend-tool",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-the-unreal-frontend-tool.md",
+  "triples": [
+    {
+      "subject": "虚幻前端工具",
+      "predicate": "包含",
+      "object": "启动器",
+      "context": "启动器是虚幻前端工具的核心功能模块之一，用于编译、烘焙、部署和启动游戏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻前端工具",
+      "predicate": "包含",
+      "object": "会话浏览器",
+      "context": "会话浏览器用于监控和管理网络上的游戏会话，是UFE的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻前端工具",
+      "predicate": "包含",
+      "object": "自动化",
+      "context": "自动化功能用于执行代码和内容的自动测试，是UFE的重要测试工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻前端工具",
+      "predicate": "包含",
+      "object": "设备浏览器",
+      "context": "设备浏览器用于管理和共享网络上的目标设备，是UFE的设备管理模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻前端工具",
+      "predicate": "包含",
+      "object": "会话控制台",
+      "context": "会话控制台用于收集和过滤游戏实例的输出日志，是UFE的日志管理工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启动器",
+      "predicate": "支持",
+      "object": "多设备部署",
+      "context": "启动器可以同时部署到多个目标设备，支持跨平台测试工作流",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启动器",
+      "predicate": "生成",
+      "object": "会话",
+      "context": "启动游戏时会创建新的会话，这些会话可以在会话浏览器中管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "会话浏览器",
+      "predicate": "控制",
+      "object": "会话控制台",
+      "context": "会话浏览器中选择的会话决定了会话控制台显示哪些游戏实例的日志",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化",
+      "predicate": "依赖",
+      "object": "会话浏览器",
+      "context": "自动化测试需要在会话浏览器中选择目标实例后才能执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设备浏览器",
+      "predicate": "管理",
+      "object": "目标设备",
+      "context": "设备浏览器用于检测和管理本地及网络上的目标设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻前端工具",
+      "predicate": "集成",
+      "object": "虚幻远程代理",
+      "context": "虚幻远程代理(URA)是UFE的配套程序，用于远程设备连接",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "启动器",
+      "predicate": "使用",
+      "object": "描述文件",
+      "context": "启动器的所有设置都保存在描述文件中，便于管理不同的测试配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化",
+      "predicate": "支持",
+      "object": "并行测试",
+      "context": "自动化功能支持在多个实例上并行运行测试，提高测试效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻前端工具",
+      "predicate": "提供",
+      "object": "两种使用模式",
+      "context": "UFE可以作为编辑器选项卡或独立应用程序使用，满足不同用户需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "会话控制台",
+      "predicate": "支持",
+      "object": "日志过滤",
+      "context": "会话控制台提供搜索和过滤功能，便于开发者分析日志信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化",
+      "predicate": "包含",
+      "object": "测试列表",
+      "context": "自动化面板显示可用的测试列表，开发者可以选择要运行的测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启动器",
+      "predicate": "包含",
+      "object": "编译设置",
+      "context": "启动器提供编译配置选项，开发者可以指定游戏项目和构建配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启动器",
+      "predicate": "包含",
+      "object": "烘焙设置",
+      "context": "启动器提供内容烘焙选项，包括平台、语言和地图选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻前端工具",
+      "predicate": "用于",
+      "object": "游戏测试",
+      "context": "UFE的主要目的是简化和加速游戏的日常开发和测试任务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻前端工具",
+      "predicate": "替代",
+      "object": "旧版分析工具",
+      "context": "UFE正在集成UE3中的旧版分析工具，提供统一的用户体验",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:26:00.464Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11648,
+    "contentLength": 6656,
+    "processingTimeMs": 53424
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_camera-color-calibration-for-in-camera-vfx-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_camera-color-calibration-for-in-camera-vfx-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "ICVFX颜色校准",
+      "predicate": "用于",
+      "object": "虚拟制片",
+      "context": "ICVFX颜色校准是虚拟制片中确保LED墙内容与摄像机拍摄匹配的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OpenColorIO (OCIO)",
+      "predicate": "支持",
+      "object": "颜色空间转换",
+      "context": "OCIO是虚幻引擎中实现颜色空间转换的核心工具，支持从工作颜色空间到目标信号空间的转换",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工作颜色空间",
+      "predicate": "基于",
+      "object": "线性Rec709",
+      "context": "虚幻引擎的默认工作颜色空间是隐式的线性Rec709，这是颜色处理的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机校准矩阵",
+      "predicate": "用于",
+      "object": "颜色匹配",
+      "context": "摄像机校准矩阵确保虚拟场景的线性颜色与摄像机拍摄的线性化颜色匹配",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理材质(PPM)",
+      "predicate": "操作于",
+      "object": "线性值",
+      "context": "在色调映射前使用PPM可以确保材质操作的是线性值，避免信号空间中的非预期结果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "场景曝光",
+      "predicate": "影响",
+      "object": "LED墙亮度",
+      "context": "调整场景曝光可以在虚拟场景亮度和LED墙最终亮度之间建立对应关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Brompton处理器",
+      "predicate": "支持",
+      "object": "PQ编码",
+      "context": "Brompton处理器需要设置为接收PQ编码的RGB信号以实现颜色校准",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OCIO配置资产",
+      "predicate": "引用",
+      "object": "本地OCIO配置文件",
+      "context": "OCIO转换需要配置资产来引用本地OCIO配置文件，定义可用的颜色空间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "泛光强度",
+      "predicate": "应设置为",
+      "object": "0.0",
+      "context": "在LED墙输出中，泛光强度通常不适用，应禁用以避免干扰",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "暗角效果强度",
+      "predicate": "应设置为",
+      "object": "0.0",
+      "context": "在LED墙输出中，暗角效果通常不适用，应禁用以避免干扰",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "色调曲线",
+      "predicate": "应设置为",
+      "object": "0.0",
+      "context": "在OCIO激活时，色调曲线应禁用以确保颜色处理的准确性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "扩展色域",
+      "predicate": "应设置为",
+      "object": "0.0",
+      "context": "在LED墙输出中，扩展色域应禁用以避免颜色失真",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "线性化供应商的画面",
+      "predicate": "需要",
+      "object": "标准方法",
+      "context": "将供应商的画面线性化需要使用特定标准方法，确保结果的准确性和一致性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "校准验证",
+      "predicate": "使用",
+      "object": "已知色块",
+      "context": "验证校准矩阵的有效性需要使用已知色块来确认颜色匹配",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "ACEScg",
+      "predicate": "替代",
+      "object": "工作颜色空间",
+      "context": "ACEScg是许多视觉特效工作室使用的替代工作颜色空间，适用于特定需求",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "PQ编码",
+      "predicate": "用于",
+      "object": "HDR颜色",
+      "context": "PQ编码是HDR颜色的标准编码方式，适用于LED墙输出",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "摄像机校准颜色空间",
+      "predicate": "可能不同于",
+      "object": "工作颜色空间",
+      "context": "摄像机校准颜色空间可能与工作颜色空间不同，提供了校准的灵活性",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "颜色矩阵",
+      "predicate": "派生自",
+      "object": "校准过程",
+      "context": "颜色矩阵是通过校准过程派生的，确保LED墙颜色与摄像机匹配",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "线性到PQ转换",
+      "predicate": "包含",
+      "object": "标准转换",
+      "context": "线性到PQ转换包含标准的值映射，确保HDR颜色的准确表示",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "nDisplay",
+      "predicate": "关联",
+      "object": "OCIO输出视口",
+      "context": "nDisplay输出视口可以与OCIO配置的特定颜色空间关联，实现多显示器颜色管理",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T18:19:31.254Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8777 字符)",
+      "timestamp": "2025-06-15T18:18:19.828Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16176,
+    "contentLength": 8777,
+    "processingTimeMs": 71430
+  }
+}

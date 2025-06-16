@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_audio-console-commands-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_audio-console-commands-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "命令控制台",
+      "predicate": "用于",
+      "object": "音频调试",
+      "context": "命令控制台是调试音频功能的主要工具，可以直接发送命令实时调整音频参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "au.Debug.SoundMixes",
+      "predicate": "调试",
+      "object": "音效类混音",
+      "context": "该命令专门用于显示当前活动音效类混音的信息，帮助调试混音相关问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "au.DumpActiveSounds",
+      "predicate": "列出",
+      "object": "活动音效",
+      "context": "该命令可以输出当前正在播放的所有音效列表，帮助诊断音效播放问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "au.Debug.AudioMemReport",
+      "predicate": "生成",
+      "object": "内存使用报告",
+      "context": "该命令生成音频系统内存使用情况的详细报告，用于优化和调试内存问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频可视化",
+      "predicate": "包含",
+      "object": "au.3dVisualize系列命令",
+      "context": "音频可视化功能由多个au.3dVisualize开头的命令控制，可以可视化不同音频元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频调试",
+      "predicate": "依赖",
+      "object": "输出日志",
+      "context": "进行音频调试时通常需要查看输出日志来获取命令执行结果和调试信息",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "控制台变量(CVar)",
+      "predicate": "控制",
+      "object": "音频系统行为",
+      "context": "通过设置不同的CVar值可以实时调整音频系统的各种行为和参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频混合器",
+      "predicate": "影响",
+      "object": "au.IsUsingAudioMixer",
+      "context": "au.IsUsingAudioMixer命令控制是否使用音频混合器，这会显著影响音频处理方式",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "空间化音频",
+      "predicate": "关联",
+      "object": "au.spatialization系列命令",
+      "context": "空间化音频功能可以通过au.spatialization开头的命令进行配置和调试",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频流送缓存",
+      "predicate": "管理",
+      "object": "au.streamcaching系列命令",
+      "context": "音频流送缓存的行为和性能可以通过au.streamcaching开头的命令进行控制和优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSounds",
+      "predicate": "配置",
+      "object": "au.MetaSound系列命令",
+      "context": "MetaSounds音频系统的各种参数可以通过au.MetaSound开头的命令进行调整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频调试",
+      "predicate": "使用",
+      "object": "波浪号键(~)",
+      "context": "在虚幻引擎中，波浪号键是快速打开命令控制台进行音频调试的快捷键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "包含",
+      "object": "控制台键绑定",
+      "context": "控制台的快捷键可以在项目设置的输入部分进行配置和修改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频子系统",
+      "predicate": "支持",
+      "object": "实时参数调整",
+      "context": "通过控制台命令可以实时调整音频子系统的各种参数，无需重启应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频优化",
+      "predicate": "依赖",
+      "object": "au.Debug.AudioMemReport",
+      "context": "内存使用报告是进行音频优化的重要工具，可以识别内存使用问题",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:07:41.891Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (18695 字符)",
+      "timestamp": "2025-06-15T18:06:50.281Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 33097,
+    "contentLength": 18695,
+    "processingTimeMs": 51621
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_handheld-ar-template-quickstart-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_handheld-ar-template-quickstart-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "手持AR模板",
+      "predicate": "基于",
+      "object": "虚幻引擎",
+      "context": "手持AR模板是虚幻引擎中的一个项目模板，用于快速开发AR应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "手持AR模板",
+      "predicate": "支持",
+      "object": "Android和iOS设备",
+      "context": "模板专门为Android和iOS设备的AR开发设计",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "手持AR模板",
+      "predicate": "依赖",
+      "object": "ARKit/ARCore",
+      "context": "模板需要设备支持ARKit(iOS)或ARCore(Android)才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "手持AR模板",
+      "predicate": "包含",
+      "object": "状态机",
+      "context": "模板使用状态机来控制应用程序流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "手持AR模板",
+      "predicate": "使用",
+      "object": "UMG控件",
+      "context": "模板使用UMG控件来显示从摄像机捕获的环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "手持AR模板",
+      "predicate": "实现",
+      "object": "触摸屏交互",
+      "context": "模板支持基于触摸屏的交互来操控虚拟对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_ARGameMode",
+      "predicate": "初始化",
+      "object": "BP_ARPawn",
+      "context": "游戏模式负责初始化AR Pawn",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_ARPawn",
+      "predicate": "处理",
+      "object": "用户输入",
+      "context": "AR Pawn负责处理用户的输入交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_ARPawn",
+      "predicate": "初始化",
+      "object": "HUD",
+      "context": "AR Pawn负责初始化HUD界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_Placeable",
+      "predicate": "继承自",
+      "object": "可放置对象基类",
+      "context": "BP_Placeable是所有可交互虚拟对象的基类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android设置",
+      "predicate": "需要",
+      "object": "Android Studio",
+      "context": "为Android打包项目需要安装Android Studio",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS设置",
+      "predicate": "需要",
+      "object": "Xcode",
+      "context": "为iOS打包项目需要安装Xcode",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AR场景",
+      "predicate": "由",
+      "object": "环境扫描生成",
+      "context": "AR场景是通过扫描用户环境并识别平面来构建的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟对象",
+      "predicate": "可进行",
+      "object": "平移/缩放/旋转",
+      "context": "模板支持对虚拟对象进行平移、缩放和旋转操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "手持AR模板",
+      "predicate": "提供",
+      "object": "三种UI样式",
+      "context": "模板提供明亮、黑暗和游戏三种UI样式选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "手持AR模板",
+      "predicate": "支持",
+      "object": "场景快照",
+      "context": "模板可以将AR场景截图保存到设备相册",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_MainMenu",
+      "predicate": "控制",
+      "object": "其他菜单",
+      "context": "主UI负责控制其他子菜单的显示和功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_Plane",
+      "predicate": "用于",
+      "object": "放置虚拟对象",
+      "context": "平面是放置和交互虚拟对象的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "手持AR模板",
+      "predicate": "适用于",
+      "object": "多行业应用",
+      "context": "模板可应用于建筑、工程、制造等多个行业",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "环境扫描",
+      "predicate": "提供",
+      "object": "光照和深度信息",
+      "context": "扫描环境时收集的数据包含光照和场景深度信息",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:18:31.563Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9714 字符)",
+      "timestamp": "2025-06-15T19:17:27.476Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15926,
+    "contentLength": 9714,
+    "processingTimeMs": 64094
+  }
+}

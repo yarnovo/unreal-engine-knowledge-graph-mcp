@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_level-streaming-using-volumes-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_level-streaming-using-volumes-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "关卡流送体积",
+      "predicate": "控制",
+      "object": "流送关卡",
+      "context": "关卡流送体积用于控制何时加载和显示流送关卡，帮助学习者理解关卡流送的核心机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SunTemple_Persistent",
+      "predicate": "包含",
+      "object": "玩家出生点",
+      "context": "持久关卡包含玩家出生点，这是游戏初始化的关键概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流送体积",
+      "predicate": "追踪",
+      "object": "摄像机位置",
+      "context": "关卡流送体积的逻辑会追踪摄像机位置，这对理解体积触发机制很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流送关卡",
+      "predicate": "关联",
+      "object": "Level Details面板",
+      "context": "通过Level Details面板可以配置流送关卡的属性，这是关卡流送工作流的重要组成部分",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "SVB Visibility Blocking on Load",
+      "predicate": "是",
+      "object": "Streaming Usage属性选项",
+      "context": "这是关卡流送体积的关键配置选项，影响关卡加载行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流送",
+      "predicate": "依赖",
+      "object": "Level Streaming Volume",
+      "context": "使用体积进行关卡流送是虚幻引擎的核心技术之一",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "持久关卡",
+      "predicate": "关联",
+      "object": "流送关卡",
+      "context": "理解持久关卡和流送关卡的关系是掌握关卡流送技术的基础",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Editor Pre Vis Only",
+      "predicate": "影响",
+      "object": "关卡流送行为",
+      "context": "这个属性的设置会影响关卡流送在编辑器中的预览行为",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Initially Loaded",
+      "predicate": "控制",
+      "object": "关卡初始加载状态",
+      "context": "这个复选框控制关卡是否在游戏开始时自动加载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Initially Visible",
+      "predicate": "控制",
+      "object": "关卡初始可见状态",
+      "context": "这个复选框控制关卡是否在游戏开始时自动可见",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Levels窗口",
+      "predicate": "用于",
+      "object": "管理关卡",
+      "context": "Levels窗口是管理持久关卡和流送关卡的主要界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Play in Editor",
+      "predicate": "用于",
+      "object": "测试流送关卡",
+      "context": "这是验证关卡流送设置是否正确的关键测试方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:44:11.797Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4275,
+    "contentLength": 3351,
+    "processingTimeMs": 48320
+  }
+}

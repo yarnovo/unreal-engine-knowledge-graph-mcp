@@ -1,0 +1,101 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_screen-space-global-illumination-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_screen-space-global-illumination-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "屏幕空间全局光照",
+      "predicate": "是",
+      "object": "虚幻引擎的功能",
+      "context": "SSGI是虚幻引擎的一项功能，用于为屏幕视图可见的对象添加动态间接光照",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕空间全局光照",
+      "predicate": "补充",
+      "object": "预计算光照",
+      "context": "SSGI作为一种补充性质的间接光照方法，适合配合Lightmass中的预计算光照方法一起使用",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕空间全局光照",
+      "predicate": "用于",
+      "object": "动态间接光照",
+      "context": "SSGI的作用是为屏幕视图可见的对象添加动态间接光照，创建自然的光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕空间全局光照",
+      "predicate": "支持",
+      "object": "自发光表面",
+      "context": "借助SSGI，可以从自发光表面（例如霓虹灯或其他明亮表面）获得动态光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕空间全局光照",
+      "predicate": "通过",
+      "object": "项目设置启用",
+      "context": "从项目设置 > 引擎 > 渲染中的光照类别下，可以启用屏幕空间全局光照",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕空间全局光照",
+      "predicate": "控制",
+      "object": "质量设置",
+      "context": "SSGI有多个质量设置，可通过r.SSGI.Quality命令调整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕空间全局光照",
+      "predicate": "使用",
+      "object": "控制台命令",
+      "context": "可以使用HalfRes和MinimumLuminance等控制台命令来控制SSGI",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕空间全局光照",
+      "predicate": "结合",
+      "object": "其他间接光照技术",
+      "context": "SSGI最好与其他间接光照技术结合使用，例如全局光照中的预计算光照",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕空间全局光照",
+      "predicate": "改善",
+      "object": "场景中的间接光照",
+      "context": "建议将SSGI用来改善场景中的间接光照，而不是用作唯一的间接光照",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕空间全局光照",
+      "predicate": "依赖",
+      "object": "屏幕视图",
+      "context": "SSGI的作用是为屏幕视图可见的对象添加动态间接光照",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "屏幕空间全局光照",
+      "predicate": "受限于",
+      "object": "大型遮挡物",
+      "context": "有大型物体遮挡部分屏幕时，SSGI作为唯一间接光照时会出现明显瑕疵",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:40:25.248Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4951,
+    "contentLength": 3563,
+    "processingTimeMs": 42123
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_gauntlet-controller-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_gauntlet-controller-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Gauntlet控制器",
+      "predicate": "是",
+      "object": "C++对象",
+      "context": "Gauntlet控制器是用于驱动自动化任务的C++对象，帮助学习者理解其技术实现基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gauntlet控制器",
+      "predicate": "用于",
+      "object": "自动化测试",
+      "context": "明确说明控制器适用于运行时的功能测试，特别是网络相关测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGauntletTestController",
+      "predicate": "是基类",
+      "object": "Gauntlet控制器",
+      "context": "自定义控制器需要继承此基类，是学习控制器开发的关键起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGauntletTestController",
+      "predicate": "提供方法",
+      "object": "测试流程控制",
+      "context": "列举了OnInit/OnTick等关键重写方法，说明如何实现测试控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EndTest",
+      "predicate": "传递状态",
+      "object": "虚幻自动化工具(UAT)",
+      "context": "说明测试结果如何通过控制器传递给上层测试框架",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gauntlet角色",
+      "predicate": "关联",
+      "object": "Gauntlet控制器",
+      "context": "必须将控制器附加到角色才能使测试生效，展示关键配置关系",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealTestRole",
+      "predicate": "配置",
+      "object": "控制器绑定",
+      "context": "通过RequireRole和Controllers.Add展示代码级绑定方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "OnPostMapChange",
+      "predicate": "使用",
+      "object": "GetCurrentMap",
+      "context": "方法调用关系说明地图变更后的处理逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Gauntlet控制器",
+      "predicate": "适用于",
+      "object": "网络功能测试",
+      "context": "特别强调控制器在网络测试场景的应用价值",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T19:10:42.538Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2545,
+    "contentLength": 1829,
+    "processingTimeMs": 35523
+  }
+}

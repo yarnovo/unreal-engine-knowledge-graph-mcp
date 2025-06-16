@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_plugins-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_plugins-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "插件",
+      "predicate": "扩展",
+      "object": "虚幻引擎",
+      "context": "插件可以扩展虚幻引擎的功能，添加新的运行时gameplay功能或修改内置引擎功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插件",
+      "predicate": "包含",
+      "object": "Source文件夹",
+      "context": "含有代码的插件包含Source文件夹，其中包含插件的模块源代码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插件",
+      "predicate": "包含",
+      "object": "Binaries文件夹",
+      "context": "含代码的插件拥有包含该插件编译后代码的Binaries文件夹",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插件",
+      "predicate": "包含",
+      "object": "Content文件夹",
+      "context": "插件可以拥有自己的Content文件夹，其中包含特定于该插件的资源文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插件",
+      "predicate": "依赖",
+      "object": "UnrealBuildTool",
+      "context": "插件在编译时依赖UnrealBuildTool（UBT）来编译代码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插件",
+      "predicate": "基于",
+      "object": "插件描述文件",
+      "context": "插件通过.uplugin文件（插件描述文件）提供基本信息，引擎通过该文件发现和加载插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插件描述文件",
+      "predicate": "使用",
+      "object": "JSON格式",
+      "context": "插件描述文件使用JSON格式存储插件的基本信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插件",
+      "predicate": "分类",
+      "object": "引擎插件",
+      "context": "引擎插件位于引擎目录下，可用于所有项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插件",
+      "predicate": "分类",
+      "object": "游戏插件",
+      "context": "游戏插件位于项目目录下，仅用于特定项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插件",
+      "predicate": "支持",
+      "object": "模块化开发",
+      "context": "插件可以包含多个模块，支持模块化开发，例如分离运行时和编辑器功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插件",
+      "predicate": "用于",
+      "object": "扩展编辑器功能",
+      "context": "插件可以通过新菜单、工具栏命令和子模式扩展编辑器的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插件",
+      "predicate": "用于",
+      "object": "添加运行时功能",
+      "context": "插件可以添加运行时gameplay功能，增强游戏的交互性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插件",
+      "predicate": "用于",
+      "object": "修改内置引擎功能",
+      "context": "插件可以修改虚幻引擎的内置功能，提供定制化的解决方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插件",
+      "predicate": "用于",
+      "object": "创建新文件类型",
+      "context": "插件可以创建新的文件类型，扩展引擎的数据处理能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插件",
+      "predicate": "依赖",
+      "object": "模块依赖层级",
+      "context": "插件和模块的依赖关系遵循层级规则，只能依赖同一级或更高级的模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插件",
+      "predicate": "包含",
+      "object": "图标文件",
+      "context": "插件需要在Resources目录中包含128x128的.png图标文件，用于在插件浏览器中显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插件",
+      "predicate": "通过",
+      "object": "插件编辑器管理",
+      "context": "插件可以通过编辑器中的插件编辑器界面进行启用、禁用和管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插件",
+      "predicate": "支持",
+      "object": "Epic商城分布",
+      "context": "插件可以通过Epic商城进行打包和分布，方便开发者共享和获取插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插件",
+      "predicate": "需要",
+      "object": "重启编辑器",
+      "context": "启用或禁用插件后可能需要重启编辑器才能使变更生效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插件",
+      "predicate": "支持",
+      "object": "预编译",
+      "context": "插件可以预编译，确保兼容性，例如使用Visual Studio 2019编译以确保兼容UE 5.2",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:26:44.175Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8701 字符)",
+      "timestamp": "2025-06-15T20:25:44.952Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14493,
+    "contentLength": 8701,
+    "processingTimeMs": 59226
+  }
+}

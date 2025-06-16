@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_customizing-virtual-scouting-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_customizing-virtual-scouting-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "蓝图",
+      "predicate": "用于扩展",
+      "object": "XR创意框架",
+      "context": "蓝图可用于扩展XR创意框架定义的类和Actor，帮助学习者理解如何通过可视化脚本自定义虚拟堪景工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "XR创意框架",
+      "predicate": "共享设计模式",
+      "object": "Gameplay框架",
+      "context": "XR创意框架与虚幻引擎Gameplay框架共享设计模式，帮助学习者理解两者之间的关联性和设计理念",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "XRCreativeMode",
+      "predicate": "包含",
+      "object": "XRCreativeToolset",
+      "context": "XRCreativeMode包含一套工具集和重载事件，帮助学习者理解XR创意体验的核心类结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "XRCreativeToolset",
+      "predicate": "包含",
+      "object": "XRCreativeAvatar",
+      "context": "工具集数据资产包含指向XRCreativeAvatar类的指针，帮助学习者理解工具集如何管理游戏化身",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "XRCreativeToolset",
+      "predicate": "包含",
+      "object": "输入映射上下文",
+      "context": "工具集数据资产包含左右手输入映射上下文，帮助学习者理解如何配置游戏化身的输入操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "XRCreativeToolset",
+      "predicate": "包含",
+      "object": "XRCreativePalette",
+      "context": "工具集数据资产包含指向XRCreativePalette类的指针，帮助学习者理解如何管理控制板用户界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具对象",
+      "predicate": "包含",
+      "object": "工具Actor",
+      "context": "工具对象是创建工具所需的所有其他类的容器，包含工具Actor，帮助学习者理解工具的基本组成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具对象",
+      "predicate": "包含",
+      "object": "工具Viewmodel",
+      "context": "工具对象包含工具Viewmodel，帮助学习者理解如何在工具和用户界面之间传递数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具对象",
+      "predicate": "包含",
+      "object": "控制板",
+      "context": "工具对象包含控制板，帮助学习者理解如何为工具配置用户界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "XRCreativeToolActor",
+      "predicate": "继承自",
+      "object": "Actor",
+      "context": "XRCreativeToolActor继承自Actor类，帮助学习者理解工具Actor的基本性质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "XRCreativeEditorUtilityToolActor",
+      "predicate": "继承自",
+      "object": "XRCreativeToolActor",
+      "context": "XRCreativeEditorUtilityToolActor继承自XRCreativeToolActor，帮助学习者理解编辑器专用工具的实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "XRCreativeToolActor",
+      "predicate": "实现",
+      "object": "BPI_SequencerControls",
+      "context": "工具Actor中的组件实现BPI_SequencerControls接口，帮助学习者理解如何创建对编辑器和运行时通用的工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "增强输入",
+      "predicate": "用于",
+      "object": "XRCreativeAvatar",
+      "context": "增强输入系统用于配置XRCreativeAvatar的输入操作，帮助学习者理解如何实现VR交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG Viewmodel",
+      "predicate": "用于",
+      "object": "工具数据传递",
+      "context": "UMG Viewmodel用于在工具Actor和控制板菜单之间传递数据，帮助学习者理解MVVM模式在VR工具中的应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MVVMViewmodelResolver_Base",
+      "predicate": "用于解析",
+      "object": "Viewmodel",
+      "context": "MVVMViewmodelResolver_Base用于解析Viewmodel，帮助学习者理解如何在编辑器中使用控制板UMG控件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "XRCreativePalette",
+      "predicate": "继承自",
+      "object": "UMG控件",
+      "context": "XRCreativePalette继承自UMG控件，帮助学习者理解控制板系统的基本实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "XRCreativeGameMode",
+      "predicate": "继承自",
+      "object": "GameModeBase",
+      "context": "XRCreativeGameMode继承自GameModeBase并增加了工具集功能，帮助学习者理解如何为XR创意体验配置游戏模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_VscoutGameMode",
+      "predicate": "继承自",
+      "object": "XRCreativeGameMode",
+      "context": "BP_VscoutGameMode继承自XRCreativeGameMode，帮助学习者理解如何在VRPie中运行虚拟堪景工具集",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "XRCreativeAvatar",
+      "predicate": "包含",
+      "object": "专用移动组件",
+      "context": "XRCreativeAvatar类包含专用移动组件，帮助学习者理解如何实现VR游戏化身的移动功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:45:24.017Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10364 字符)",
+      "timestamp": "2025-06-15T18:44:12.828Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15472,
+    "contentLength": 10364,
+    "processingTimeMs": 71196
+  }
+}

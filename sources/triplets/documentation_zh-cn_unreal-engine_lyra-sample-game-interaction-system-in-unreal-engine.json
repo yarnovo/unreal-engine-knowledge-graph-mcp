@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_lyra-sample-game-interaction-system-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_lyra-sample-game-interaction-system-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Lyra交互系统",
+      "predicate": "基于",
+      "object": "Gameplay技能系统",
+      "context": "Lyra交互系统通过Gameplay技能系统实现交互功能，理解这一关系有助于掌握交互系统的底层机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ULyraGameplayAbility_Interact",
+      "predicate": "继承自",
+      "object": "ULyraGameplayAbility",
+      "context": "交互技能类继承自Lyra基础GameplayAbility类，这是理解技能类层级结构的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ULyraGameplayAbility_Interact",
+      "predicate": "实现",
+      "object": "交互逻辑",
+      "context": "该类负责管理交互的核心调用逻辑，是理解交互系统如何运作的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AbilityTask_WaitForInteractableTargets_SingleLineTrace",
+      "predicate": "属于",
+      "object": "Gameplay技能任务",
+      "context": "该任务类型是Gameplay技能系统的重要组成部分，理解其分类有助于定位其在架构中的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AbilityTask_WaitForInteractableTargets_SingleLineTrace",
+      "predicate": "执行",
+      "object": "线路追踪",
+      "context": "该任务通过线路追踪检测可交互对象，这是理解交互检测机制的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IInteractableTarget",
+      "predicate": "定义",
+      "object": "可交互对象接口",
+      "context": "该接口决定了哪些对象可以被交互，是理解交互系统扩展性的核心",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FInteractionQuery",
+      "predicate": "包含",
+      "object": "交互请求数据",
+      "context": "该结构体存储交互请求的相关信息，理解其组成有助于处理交互上下文",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UAbilityTask_WaitForInteractableTargets",
+      "predicate": "使用",
+      "object": "FInteractionQuery",
+      "context": "交互任务使用查询结构体来获取可交互目标，这一关系展示了数据流动的关键路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IInteractableTarget::GatherInteractionOptions",
+      "predicate": "提供",
+      "object": "交互选项",
+      "context": "该方法负责收集特定对象的交互选项，是理解交互选项动态生成机制的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FInteractionOption",
+      "predicate": "表示",
+      "object": "交互选项",
+      "context": "该结构体封装了单个交互选项的所有数据，是理解交互选项如何传递的核心",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ULyraGameplayAbility_Interact",
+      "predicate": "调用",
+      "object": "TriggerInteraction",
+      "context": "该方法触发实际的交互行为，连接了交互检测和交互执行的流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交互系统",
+      "predicate": "支持",
+      "object": "两种交互方式",
+      "context": "系统支持通过授予技能或调用目标技能两种交互方式，这一设计决策影响交互实现的选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FInteractionOption::InteractionEventTag",
+      "predicate": "匹配",
+      "object": "Gameplay标签",
+      "context": "事件标签需要与技能触发器匹配，这是理解交互事件如何路由的关键机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InteractableTarget",
+      "predicate": "实现",
+      "object": "IInteractableTarget接口",
+      "context": "可交互目标必须实现该接口，这是理解如何创建新交互对象的基础要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InteractionOption",
+      "predicate": "表示",
+      "object": "交互可供性",
+      "context": "每个选项代表对象提供的一个交互可能性，理解这一概念有助于设计复杂的交互场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InteractionInstigator",
+      "predicate": "发起",
+      "object": "交互行为",
+      "context": "理解交互发起者的角色有助于设计交互权限和条件检查逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GA_Collect_Interaction",
+      "predicate": "是",
+      "object": "交互技能示例",
+      "context": "该技能展示了如何实现收集物品的交互，可作为学习交互技能实现的模板",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交互系统",
+      "predicate": "依赖",
+      "object": "Gameplay标签系统",
+      "context": "系统使用Gameplay标签来匹配交互事件，这一依赖关系影响系统集成方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "AbilityTask_GrantNearbyInteraction",
+      "predicate": "扩展",
+      "object": "交互范围检测",
+      "context": "该任务扩展了基础交互功能，增加了附近交互的检测能力，理解这一关系有助于实现区域交互",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:49:48.966Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10270 字符)",
+      "timestamp": "2025-06-15T19:48:31.834Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12764,
+    "contentLength": 10270,
+    "processingTimeMs": 77142
+  }
+}

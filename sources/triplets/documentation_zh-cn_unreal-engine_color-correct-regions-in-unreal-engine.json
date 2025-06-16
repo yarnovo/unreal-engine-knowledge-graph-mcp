@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_color-correct-regions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_color-correct-regions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "色彩校正区域",
+      "predicate": "用于",
+      "object": "色彩校正",
+      "context": "色彩校正区域是虚幻引擎中专门用于调整和校正场景色彩的工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "色彩校正区域",
+      "predicate": "包含",
+      "object": "类型属性",
+      "context": "类型属性定义了色彩校正区域的形状，是色彩校正区域的核心设置之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "类型属性",
+      "predicate": "包含选项",
+      "object": "球体",
+      "context": "球体是色彩校正区域可选的形状类型之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "类型属性",
+      "predicate": "包含选项",
+      "object": "盒体",
+      "context": "盒体是色彩校正区域可选的形状类型之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "类型属性",
+      "predicate": "包含选项",
+      "object": "圆柱体",
+      "context": "圆柱体是色彩校正区域可选的形状类型之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "类型属性",
+      "predicate": "包含选项",
+      "object": "椎体",
+      "context": "椎体是色彩校正区域可选的形状类型之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "色彩校正区域",
+      "predicate": "包含",
+      "object": "优先级属性",
+      "context": "优先级属性决定了多个重叠色彩校正区域的色彩分级应用顺序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "色彩校正区域",
+      "predicate": "包含",
+      "object": "强度属性",
+      "context": "强度属性控制色彩分级设置的强度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "色彩校正区域",
+      "predicate": "包含",
+      "object": "内外区域属性",
+      "context": "内外区域属性控制区域的衰减区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "色彩校正区域",
+      "predicate": "包含",
+      "object": "衰减属性",
+      "context": "衰减属性使用内外区域控制衰减强度和区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "色彩校正区域",
+      "predicate": "包含",
+      "object": "温度类型属性",
+      "context": "温度类型属性提供了不同类型的色温控制选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "温度类型属性",
+      "predicate": "包含选项",
+      "object": "温度（旧版）",
+      "context": "温度（旧版）是色彩校正区域最初用来调整区域温度的方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "温度类型属性",
+      "predicate": "包含选项",
+      "object": "白平衡",
+      "context": "白平衡是传统的温度控制选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "温度类型属性",
+      "predicate": "包含选项",
+      "object": "色温",
+      "context": "色温是白平衡的反向处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "色彩校正区域",
+      "predicate": "包含",
+      "object": "色彩分级设置",
+      "context": "色彩分级设置包括Gamma、高光、中间色调和阴影等参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "色彩校正区域",
+      "predicate": "属于",
+      "object": "体积类别",
+      "context": "色彩校正区域在虚幻引擎中被归类为体积类别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "色彩校正区域",
+      "predicate": "依赖",
+      "object": "插件系统",
+      "context": "使用色彩校正区域需要先在插件窗口中启用对应的插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "色彩校正区域",
+      "predicate": "适用于",
+      "object": "ICVFX场景",
+      "context": "色彩校正区域特别适用于ICVFX场景中校准现场实景和LED墙场景之间的光照和阴影",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "色彩校正区域",
+      "predicate": "关联",
+      "object": "自定义模板",
+      "context": "色彩校正区域可以排除或包含自定义模板的场景模板纹理",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:27:54.571Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3788,
+    "contentLength": 2276,
+    "processingTimeMs": 69197
+  }
+}

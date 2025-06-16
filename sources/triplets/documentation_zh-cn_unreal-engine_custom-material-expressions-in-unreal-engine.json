@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_custom-material-expressions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_custom-material-expressions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "自定义材质表达式",
+      "predicate": "支持",
+      "object": "HLSL着色器代码",
+      "context": "自定义材质表达式允许开发者编写自定义HLSL代码，实现特定着色效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义材质表达式",
+      "predicate": "包含",
+      "object": "输入参数",
+      "context": "开发者可以定义多个输入参数，这些参数在HLSL代码中被引用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义材质表达式",
+      "predicate": "影响",
+      "object": "着色器性能",
+      "context": "使用自定义节点会阻止常量折叠，可能导致着色器指令数增加",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义材质表达式",
+      "predicate": "属于",
+      "object": "材质编辑器功能",
+      "context": "自定义表达式是材质编辑器提供的扩展功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义材质表达式",
+      "predicate": "需要",
+      "object": "输出类型定义",
+      "context": "开发者必须明确指定自定义表达式的输出数据类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HLSLcc编译器",
+      "predicate": "可能导致",
+      "object": "语法错误",
+      "context": "旧版HLSLcc编译器在处理某些HLSL类型时可能报告语法错误",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义材质表达式",
+      "predicate": "替代",
+      "object": "内置材质节点",
+      "context": "当内置节点无法实现特定功能时，可以使用自定义表达式替代",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "自定义材质表达式",
+      "predicate": "依赖",
+      "object": "DirectXShaderCompiler",
+      "context": "文档建议优先使用新的DXC编译器而非HLSLcc",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "自定义材质表达式",
+      "predicate": "支持",
+      "object": "外部着色器文件包含",
+      "context": "可以通过Include File Paths属性包含外部着色器代码文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义材质表达式",
+      "predicate": "用于",
+      "object": "高级材质效果实现",
+      "context": "当需要实现超出内置节点能力范围的效果时使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "常量折叠",
+      "predicate": "优化",
+      "object": "着色器指令",
+      "context": "常量折叠可以减少不必要的着色器指令，但自定义表达式会阻止此优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义材质表达式",
+      "predicate": "包含",
+      "object": "附加输出定义",
+      "context": "可以定义额外的输出引脚来扩展表达式功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义材质表达式",
+      "predicate": "支持",
+      "object": "预处理定义",
+      "context": "可以通过Additional Defines属性添加HLSL预处理定义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Texture2DSample",
+      "predicate": "用于",
+      "object": "纹理采样",
+      "context": "是HLSL中常用的纹理采样函数，在自定义表达式示例中使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义材质表达式",
+      "predicate": "需要",
+      "object": "返回值定义",
+      "context": "所有自定义表达式都必须有返回值，因为它们被封装在函数中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:43:53.589Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7520,
+    "contentLength": 4648,
+    "processingTimeMs": 68229
+  }
+}

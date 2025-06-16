@@ -1,0 +1,203 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_in-camera-vfx-overview-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_in-camera-vfx-overview-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "镜头内视效",
+      "predicate": "依赖",
+      "object": "LED光照",
+      "context": "镜头内视效技术需要LED光照来实现前台演员和虚拟后台的无缝整合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头内视效",
+      "predicate": "依赖",
+      "object": "实时摄像机追踪",
+      "context": "实时摄像机追踪是镜头内视效实现无缝整合的关键技术之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头内视效",
+      "predicate": "依赖",
+      "object": "实时渲染离轴投影",
+      "context": "实时渲染离轴投影是实现虚拟环境与现实拍摄同步的重要技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "镜头内视效",
+      "context": "虚幻引擎通过多种系统如nDisplay、Live Link等支持镜头内视效技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内视锥",
+      "predicate": "属于",
+      "object": "LED摄影棚",
+      "context": "内视锥是LED摄影棚中从摄像机视角进行渲染的部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "外视锥",
+      "predicate": "属于",
+      "object": "LED摄影棚",
+      "context": "外视锥是LED摄影棚中摄像机视场外的部分，用于提供动态光源和反射",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LED摄影棚",
+      "predicate": "组成",
+      "object": "LED面板",
+      "context": "LED摄影棚由多个LED面板组成，用于显示虚拟环境和提供光照",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LED面板",
+      "predicate": "包含",
+      "object": "箱体",
+      "context": "LED面板由多个箱体组成，每个箱体具有固定的分辨率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LED处理器",
+      "predicate": "控制",
+      "object": "箱体",
+      "context": "LED处理器是将多个箱体组合成数组并显示单一图像的硬件及软件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素间距",
+      "predicate": "影响",
+      "object": "图像质量",
+      "context": "像素间距决定了LED面板的像素密度，直接影响图像质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "云纹图",
+      "predicate": "由...引起",
+      "object": "像素偏移",
+      "context": "云纹图是由于显示系统和摄像机传感器像素发生轻微偏移而产生的光学瑕疵",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主时钟",
+      "predicate": "同步",
+      "object": "设备",
+      "context": "主时钟确保所有设备在拍摄过程中保持同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay渲染节点",
+      "predicate": "驱动",
+      "object": "LED摄影棚",
+      "context": "每个nDisplay渲染节点驱动LED摄影棚的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link",
+      "predicate": "分发",
+      "object": "摄像机追踪信息",
+      "context": "Live Link用于分发被追踪的摄像机信息到nDisplay的每个群集节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机校准插件",
+      "predicate": "用于",
+      "object": "虚拟摄像机对齐",
+      "context": "摄像机校准插件用于校准虚拟摄像机与物理摄像机的位置和镜头畸变",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户编辑",
+      "predicate": "支持",
+      "object": "协作场景修改",
+      "context": "多用户编辑系统实现了可靠的协作，支持多设备实时修改场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Composure",
+      "predicate": "用于",
+      "object": "实时合成",
+      "context": "Composure是用于实时合成的虚幻引擎框架，支持视频源、AR合成等功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Web Remote Control",
+      "predicate": "用于",
+      "object": "远程控制场景",
+      "context": "Web Remote Control允许通过网页应用程序实时控制场景参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OpenColorIO",
+      "predicate": "管理",
+      "object": "颜色一致性",
+      "context": "OpenColorIO确保拍摄到的视频颜色在整个制片管线中保持一致",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "舞台监视器",
+      "predicate": "用于",
+      "object": "故障排除",
+      "context": "舞台监视器用于接收来自多个UE4实例的事件报告并进行故障排除",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定时数据监视器",
+      "predicate": "显示",
+      "object": "时间数据关系",
+      "context": "定时数据监视器用于配置和显示各种时间数据的相互关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡快照",
+      "predicate": "保存",
+      "object": "Actor状态",
+      "context": "关卡快照用于保存和恢复关卡中Actor的状态信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头内视效示例项目",
+      "predicate": "包含",
+      "object": "示例场景",
+      "context": "镜头内视效示例项目包含示例场景和基本关卡，帮助快速搭建项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:34:56.046Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (14317 字符)",
+      "timestamp": "2025-06-15T19:33:45.424Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 26180,
+    "contentLength": 14317,
+    "processingTimeMs": 70630
+  }
+}

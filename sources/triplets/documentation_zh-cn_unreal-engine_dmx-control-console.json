@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_dmx-control-console",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_dmx-control-console.md",
+  "triples": [
+    {
+      "subject": "DMX控制控制台",
+      "predicate": "用于",
+      "object": "DMX调试",
+      "context": "控制控制台的主要目的是简化DMX调试过程，帮助开发者快速控制灯具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX控制控制台",
+      "predicate": "生成",
+      "object": "DMX数据",
+      "context": "控制台能够根据用户操作生成并发送DMX数据，这是其核心功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX控制控制台",
+      "predicate": "依赖",
+      "object": "DMX库",
+      "context": "控制台需要基于DMX库中的配接和灯具数据库来自动生成滑块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX库",
+      "predicate": "包含",
+      "object": "灯具配接",
+      "context": "DMX库资产中存储了灯具配接信息，这是控制台工作的基础数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "灯具配接",
+      "predicate": "生成",
+      "object": "调节器组",
+      "context": "当添加灯具配接到控制台时，会为其功能自动创建对应的调节器组",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调节器组",
+      "predicate": "包含",
+      "object": "调节器",
+      "context": "每个调节器组由多个调节器组成，对应灯具配接的各个功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "原始调节器",
+      "predicate": "不同于",
+      "object": "灯具配接调节器",
+      "context": "原始调节器是独立于灯具配接的DMX调节器，需要手动配置参数",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调节器",
+      "predicate": "可配置",
+      "object": "精度参数",
+      "context": "调节器可以设置8位、16位或24位精度，这是DMX控制的重要属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX控制控制台",
+      "predicate": "支持",
+      "object": "全局搜索",
+      "context": "全局搜索功能帮助用户快速筛选控制滑块，提高调试效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "振荡器",
+      "predicate": "用于",
+      "object": "滑块动画化",
+      "context": "振荡器可以使滑块产生动画效果，提供默认波形也支持自定义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节视图",
+      "predicate": "显示",
+      "object": "调节器组属性",
+      "context": "细节视图面板展示并允许编辑调节器组的详细参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX控制控制台",
+      "predicate": "适用于",
+      "object": "虚拟和实体灯具控制",
+      "context": "控制台可以同时用于虚拟和实体灯具的调试和控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:52:53.085Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4999,
+    "contentLength": 3529,
+    "processingTimeMs": 37729
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_running-gauntlet-tests-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_running-gauntlet-tests-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Gauntlet",
+      "predicate": "提供",
+      "object": "RunUnreal命令",
+      "context": "Gauntlet是虚幻引擎的测试框架，RunUnreal是其核心命令，用于触发各类引擎测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RunUnreal命令",
+      "predicate": "支持",
+      "object": "UE.BootTest",
+      "context": "RunUnreal命令可以执行UE.BootTest测试，该测试用于验证项目客户端的基本启动功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RunUnreal命令",
+      "predicate": "支持",
+      "object": "UE.EditorBootTest",
+      "context": "RunUnreal命令可以执行UE.EditorBootTest测试，该测试用于验证编辑器启动功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE.Automation测试",
+      "predicate": "包含",
+      "object": "UE.EditorAutomation",
+      "context": "UE.Automation测试框架包含编辑器自动化测试模块，用于在编辑器中运行功能测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE.Automation测试",
+      "predicate": "包含",
+      "object": "UE.TargetAutomation",
+      "context": "UE.Automation测试框架包含客户端自动化测试模块，用于在打包游戏中运行功能测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gauntlet",
+      "predicate": "支持",
+      "object": "命令行参数传递",
+      "context": "Gauntlet框架支持通过命令行传递自定义参数，这些参数可以在测试类中被解析和使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lyra示例游戏",
+      "predicate": "包含",
+      "object": "BootTest测试",
+      "context": "Lyra示例游戏提供了BootTest测试实现，展示了如何创建自定义Gauntlet测试节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BootTest测试",
+      "predicate": "继承自",
+      "object": "UnrealTestNode",
+      "context": "BootTest测试类继承自UnrealTestNode基类，这是创建自定义Gauntlet测试的标准方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RunUAT.bat",
+      "predicate": "用于执行",
+      "object": "Gauntlet测试",
+      "context": "RunUAT.bat是虚幻自动化工具的命令行接口，用于启动和执行Gauntlet测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gauntlet测试",
+      "predicate": "依赖",
+      "object": "ITargetDevice接口",
+      "context": "在主机和移动设备上运行Gauntlet测试需要实现ITargetDevice等相关接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE.Automation测试",
+      "predicate": "支持",
+      "object": "测试恢复功能",
+      "context": "UE.Automation测试可以在崩溃等严重故障后恢复测试，这是通过-ResumeOnCriticalFailure参数启用的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildCookRun",
+      "predicate": "生成",
+      "object": "StagedBuilds",
+      "context": "BuildCookRun命令用于构建、烹饪和打包项目，生成的内容存储在Saved/StagedBuilds目录中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gauntlet",
+      "predicate": "监控",
+      "object": "运行问题",
+      "context": "Gauntlet在测试执行过程中会监控崩溃、断言和致命错误等问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealTestConfiguration",
+      "predicate": "配置",
+      "object": "测试角色",
+      "context": "UnrealTestConfiguration类用于配置测试所需的角色(如客户端)及其参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gauntlet",
+      "predicate": "生成",
+      "object": "摘要报告",
+      "context": "测试完成后，Gauntlet会生成包含测试结果的摘要报告",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:39:26.350Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8504,
+    "contentLength": 6462,
+    "processingTimeMs": 46777
+  }
+}

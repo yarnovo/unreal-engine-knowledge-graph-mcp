@@ -1,0 +1,147 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_camera-jibs-and-dollies-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_camera-jibs-and-dollies-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "摄像机绑定",
+      "predicate": "包含",
+      "object": "摄像机绑定导轨",
+      "context": "摄像机绑定导轨是摄像机绑定的一种类型，用于模仿摄像机推车系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机绑定",
+      "predicate": "包含",
+      "object": "摄像机绑定升降机",
+      "context": "摄像机绑定升降机是摄像机绑定的一种类型，用于模仿摄像机吊臂系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机绑定导轨",
+      "predicate": "用于",
+      "object": "跟随镜头",
+      "context": "摄像机绑定导轨专门用于创建跟随镜头，模仿现实中的摄像机推车系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机绑定升降机",
+      "predicate": "用于",
+      "object": "升降镜头",
+      "context": "摄像机绑定升降机专门用于创建升降镜头，模仿现实中的摄像机吊臂系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机绑定导轨",
+      "predicate": "基于",
+      "object": "蓝图样条",
+      "context": "摄像机绑定导轨使用蓝图样条来确定轨道长度和形状，这是其核心实现技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机绑定导轨",
+      "predicate": "依赖",
+      "object": "过场动画摄像机Actor",
+      "context": "使用摄像机绑定导轨前需要了解过场动画摄像机Actor，这是其使用前提",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "摄像机绑定升降机",
+      "predicate": "依赖",
+      "object": "过场动画摄像机Actor",
+      "context": "使用摄像机绑定升降机前需要了解过场动画摄像机Actor，这是其使用前提",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "摄像机绑定导轨",
+      "predicate": "通过",
+      "object": "Sequencer",
+      "context": "在Sequencer中可以为摄像机绑定导轨添加动画，这是主要的操作方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机绑定升降机",
+      "predicate": "通过",
+      "object": "Sequencer",
+      "context": "在Sequencer中可以为摄像机绑定升降机添加动画，这是主要的操作方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机绑定导轨",
+      "predicate": "可结合",
+      "object": "摄像机绑定升降机",
+      "context": "可以将导轨固定到升降机上，创建推车和升降机系统，增加镜头自由度",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机绑定导轨",
+      "predicate": "控制",
+      "object": "当前在导轨上位置",
+      "context": "当前在导轨上位置属性控制推车沿着轨道的运动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机绑定升降机",
+      "predicate": "控制",
+      "object": "升降机臂长",
+      "context": "升降机臂长属性控制升降机臂的长度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机绑定升降机",
+      "predicate": "控制",
+      "object": "升降机俯仰",
+      "context": "升降机俯仰属性控制升降机装置的俯仰运动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机绑定升降机",
+      "predicate": "控制",
+      "object": "升降机偏转",
+      "context": "升降机偏转属性控制升降机装置的偏转运动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机绑定导轨",
+      "predicate": "关联",
+      "object": "将朝向锁定至导轨",
+      "context": "将朝向锁定至导轨属性可以将摄像机旋转设为和推车旋转相关联",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机绑定升降机",
+      "predicate": "关联",
+      "object": "锁定挂载俯仰/偏转",
+      "context": "锁定挂载俯仰/偏转属性可以将摄像机旋转设为与升降机俯仰或偏转旋转相关",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:19:17.392Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9561 字符)",
+      "timestamp": "2025-06-15T18:18:19.826Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12817,
+    "contentLength": 9561,
+    "processingTimeMs": 57568
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_rectangular-area-lights-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_rectangular-area-lights-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "矩形光源",
+      "predicate": "属于",
+      "object": "光源类型",
+      "context": "矩形光源是虚幻引擎中一种特定的光源类型，用于模拟矩形面积的光源效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "矩形光源",
+      "predicate": "包含",
+      "object": "源宽度",
+      "context": "源宽度是矩形光源的关键属性之一，用于定义光源沿局部Y轴的长度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "矩形光源",
+      "predicate": "包含",
+      "object": "源高度",
+      "context": "源高度是矩形光源的关键属性之一，用于定义光源沿局部Z轴的长度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "矩形光源",
+      "predicate": "支持",
+      "object": "移动性设置",
+      "context": "矩形光源支持静态、固定和可移动三种移动性设置，影响光源的渲染方式和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "矩形光源",
+      "predicate": "依赖",
+      "object": "衰减半径",
+      "context": "矩形光源的可见影响范围由衰减半径控制，类似于点光源和聚光源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "矩形光源",
+      "predicate": "用于",
+      "object": "模拟矩形面积光源",
+      "context": "矩形光源专门用于模拟电视、显示器屏幕、吊顶灯具等矩形面积的光源效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "矩形光源",
+      "predicate": "不支持",
+      "object": "向前渲染",
+      "context": "向前渲染不支持矩形光源，需要使用聚光源或点光源替代",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态移动性",
+      "predicate": "实现",
+      "object": "烘焙照明",
+      "context": "静态移动性设置会将光源的直接和间接照明烘焙到光照贴图，提供最快的渲染方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "固定移动性",
+      "predicate": "实现",
+      "object": "混合照明",
+      "context": "固定移动性设置会烘焙间接照明，同时动态计算直接光线投射，平衡质量和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可移动移动性",
+      "predicate": "实现",
+      "object": "完全动态照明",
+      "context": "可移动移动性设置使光源完全动态，适合需要实时变化的光源效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "矩形光源",
+      "predicate": "包含",
+      "object": "光源属性",
+      "context": "矩形光源的属性分为光源、Lightmass、光照函数和光源描述文件四个类别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "矩形光源",
+      "predicate": "包含",
+      "object": "源纹理",
+      "context": "源纹理属性允许为矩形光源指定纹理，影响发出的光色和高光反射",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "矩形光源",
+      "predicate": "包含",
+      "object": "挡光板角度",
+      "context": "挡光板角度属性用于控制矩形光源附带的挡光板角度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "矩形光源",
+      "predicate": "包含",
+      "object": "挡光板长度",
+      "context": "挡光板长度属性用于控制矩形光源附带的挡光板长度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "固定移动性",
+      "predicate": "支持",
+      "object": "面积阴影",
+      "context": "固定移动性设置支持使用面积阴影选项，可提高阴影质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "矩形光源",
+      "predicate": "基于",
+      "object": "球形衰减",
+      "context": "矩形光源使用球形衰减半径控制光线影响范围，类似于点光源和聚光源",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "矩形光源",
+      "predicate": "影响",
+      "object": "渲染性能",
+      "context": "矩形光源的移动性设置和阴影选项会显著影响渲染性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "矩形光源",
+      "predicate": "关联",
+      "object": "Lightmass",
+      "context": "Lightmass全局光照系统处理矩形光源的间接照明和阴影计算",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "矩形光源",
+      "predicate": "关联",
+      "object": "光照函数",
+      "context": "光照函数可以应用于矩形光源，实现特殊的光照效果",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "矩形光源",
+      "predicate": "关联",
+      "object": "光源描述文件",
+      "context": "IES光源描述文件可以应用于矩形光源，但投影方式可能产生意外结果",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:34:51.557Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 13013,
+    "contentLength": 7138,
+    "processingTimeMs": 63464
+  }
+}

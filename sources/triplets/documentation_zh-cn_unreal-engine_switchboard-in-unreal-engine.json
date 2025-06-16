@@ -1,0 +1,131 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_switchboard-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_switchboard-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Switchboard",
+      "predicate": "依赖",
+      "object": "SwitchboardListener",
+      "context": "Switchboard作为控制中心需要SwitchboardListener在每个设备上运行以实现通信",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "支持",
+      "object": "多用户会话",
+      "context": "Switchboard可在多用户编辑场景中远程启动虚幻引擎实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "控制",
+      "object": "nDisplay集群",
+      "context": "Switchboard可解析nDisplay配置文件并管理群集节点设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "集成",
+      "object": "镜头试拍录制器",
+      "context": "通过内置的TakeRecorder功能按钮实现录制控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "连接",
+      "object": "外部设备",
+      "context": "支持KiPro/Live Link Face等专业设备的直接控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "扩展",
+      "object": "自定义插件",
+      "context": "允许开发者通过插件系统添加新设备支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟制片插件",
+      "predicate": "管理",
+      "object": "设备角色",
+      "context": "通过Gameplay标签系统定义和分配设备功能角色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设备角色",
+      "predicate": "存储于",
+      "object": "VPRoles.ini",
+      "context": "角色配置默认保存在特定配置文件中供Switchboard读取",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OSC协议",
+      "predicate": "用于",
+      "object": "录制控制",
+      "context": "Switchboard通过OSC与虚幻实例通信控制TakeRecorder",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay监视器",
+      "predicate": "显示",
+      "object": "集群状态",
+      "context": "实时展示节点连接状态/GPU同步等关键指标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "源控制集成",
+      "predicate": "支持",
+      "object": "变更列表同步",
+      "context": "可跨设备同步特定变更列表并触发编译",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SwitchboardListener",
+      "predicate": "运行",
+      "object": "TCP服务器",
+      "context": "作为设备端服务端处理JSON消息通信",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay配置",
+      "predicate": "转换为",
+      "object": "Switchboard设备",
+      "context": "配置文件中的群集节点会被自动识别为可管理设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟制片编辑器",
+      "predicate": "包含",
+      "object": "OSC服务器设置",
+      "context": "需要启用OSC服务器才能与Switchboard建立录制控制连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:57:19.554Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11643 字符)",
+      "timestamp": "2025-06-15T20:56:39.004Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16613,
+    "contentLength": 11643,
+    "processingTimeMs": 40555
+  }
+}

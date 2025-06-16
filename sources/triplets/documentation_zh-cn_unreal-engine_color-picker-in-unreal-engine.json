@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_color-picker-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_color-picker-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Color Picker",
+      "predicate": "支持",
+      "object": "RGBA",
+      "context": "取色器允许用户通过RGBA模式调整颜色值，这是颜色表示的基本方式之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Color Picker",
+      "predicate": "支持",
+      "object": "HSV",
+      "context": "取色器支持HSV颜色模式，提供更直观的颜色选择方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Color Picker",
+      "predicate": "支持",
+      "object": "十六进制颜色码",
+      "context": "取色器允许直接输入十六进制颜色码，方便开发者使用标准颜色表示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Color Picker",
+      "predicate": "包含",
+      "object": "色环",
+      "context": "色环是取色器的主要交互组件，用于直观选择颜色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Color Picker",
+      "predicate": "包含",
+      "object": "滴管工具",
+      "context": "滴管工具是取色器的重要功能，可以从屏幕任意位置采集颜色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Color Picker",
+      "predicate": "支持",
+      "object": "主题",
+      "context": "取色器支持主题功能，可以保存和管理颜色集合",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主题",
+      "predicate": "包含",
+      "object": "色卡",
+      "context": "主题由色卡组成，色卡保存了具体的颜色值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主题",
+      "predicate": "支持",
+      "object": "颜色标签",
+      "context": "可以为主题中的颜色添加标签，方便识别和管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Color Picker",
+      "predicate": "支持",
+      "object": "sRGB预览",
+      "context": "取色器提供sRGB预览选项，影响颜色在不同空间的表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FColor",
+      "predicate": "关联",
+      "object": "sRGB",
+      "context": "FColor可以使用UPROPERTY标签控制sRGB空间默认设置",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FLinearColor",
+      "predicate": "关联",
+      "object": "sRGB",
+      "context": "FLinearColor可以使用UPROPERTY标签控制sRGB空间默认设置",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UMG",
+      "predicate": "强制实施",
+      "object": "sRGB默认设置",
+      "context": "UMG界面强制实施sRGB默认设置，因为这是PC上渲染UMG的空间",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "主题",
+      "predicate": "用于",
+      "object": "颜色管理",
+      "context": "主题功能主要用于管理和复用颜色集合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "色环",
+      "predicate": "替代",
+      "object": "色谱",
+      "context": "色环可以替代色谱作为颜色选择的主要界面，取决于用户设置",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "滴管工具",
+      "predicate": "实现",
+      "object": "屏幕取色",
+      "context": "滴管工具实现了从屏幕任意位置采集颜色的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "颜色标签",
+      "predicate": "扩展",
+      "object": "主题功能",
+      "context": "颜色标签功能扩展了主题的管理能力，使颜色更易识别",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:29:17.568Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9854,
+    "contentLength": 7128,
+    "processingTimeMs": 58183
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_slate-editor-window-quickstart-guide-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_slate-editor-window-quickstart-guide-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Slate",
+      "predicate": "是",
+      "object": "虚幻引擎的UI框架",
+      "context": "Slate是虚幻引擎中用于创建用户界面的框架，帮助开发者构建编辑器窗口和UI元素",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Slate",
+      "predicate": "用于",
+      "object": "创建编辑器窗口",
+      "context": "Slate框架专门用于创建和定制虚幻引擎的编辑器窗口，支持复杂的UI布局和交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SlateQuickstartWindow插件",
+      "predicate": "基于",
+      "object": "Slate",
+      "context": "SlateQuickstartWindow插件是使用Slate框架创建的，用于快速生成自定义编辑器窗口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SDockTab",
+      "predicate": "是",
+      "object": "可停靠的窗口控件",
+      "context": "SDockTab是Slate中的一种控件，表示可以停靠的窗口，用于构建编辑器界面",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "SVerticalBox",
+      "predicate": "用于",
+      "object": "垂直布局",
+      "context": "SVerticalBox是Slate中的布局控件，用于垂直排列子控件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SHorizontalBox",
+      "predicate": "用于",
+      "object": "水平布局",
+      "context": "SHorizontalBox是Slate中的布局控件，用于水平排列子控件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "STextBlock",
+      "predicate": "用于",
+      "object": "显示文本",
+      "context": "STextBlock是Slate中的文本显示控件，用于在UI中展示静态或动态文本",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "SButton",
+      "predicate": "用于",
+      "object": "创建按钮",
+      "context": "SButton是Slate中的交互式控件，用于创建可点击的按钮",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "SCheckBox",
+      "predicate": "用于",
+      "object": "创建复选框",
+      "context": "SCheckBox是Slate中的交互式控件，用于创建可勾选的复选框",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "FText",
+      "predicate": "用于",
+      "object": "文本本地化",
+      "context": "FText是虚幻引擎中用于处理本地化文本的类，支持多语言显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SQuickStartWindowMenu",
+      "predicate": "包含",
+      "object": "SVerticalBox和SHorizontalBox",
+      "context": "SQuickStartWindowMenu控件通过嵌套SVerticalBox和SHorizontalBox实现复杂的UI布局",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate",
+      "predicate": "支持",
+      "object": "事件绑定",
+      "context": "Slate框架支持将事件（如点击、状态变更）绑定到交互式控件，实现用户交互逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnTestButtonClicked",
+      "predicate": "响应",
+      "object": "SButton点击事件",
+      "context": "OnTestButtonClicked函数是SButton点击事件的回调，用于处理按钮点击逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "OnTestCheckboxStateChanged",
+      "predicate": "响应",
+      "object": "SCheckBox状态变更",
+      "context": "OnTestCheckboxStateChanged函数是SCheckBox状态变更的回调，用于处理复选框状态变化",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Slate",
+      "predicate": "与",
+      "object": "UMG",
+      "relation": "互补",
+      "context": "Slate和UMG都是虚幻引擎的UI框架，Slate更适用于编辑器扩展，而UMG更适用于游戏内UI",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "SlateQuickstartWindowModule",
+      "predicate": "管理",
+      "object": "SQuickStartWindowMenu",
+      "context": "SlateQuickstartWindowModule类负责创建和管理SQuickStartWindowMenu控件的生命周期",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器独立窗口插件",
+      "predicate": "生成",
+      "object": "基本编辑器窗口代码",
+      "context": "选择编辑器独立窗口插件类型时，虚幻引擎会自动生成支持基本编辑器窗口所需的C++类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:49:44.948Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (14215 字符)",
+      "timestamp": "2025-06-15T20:48:52.127Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 18955,
+    "contentLength": 14215,
+    "processingTimeMs": 52824
+  }
+}

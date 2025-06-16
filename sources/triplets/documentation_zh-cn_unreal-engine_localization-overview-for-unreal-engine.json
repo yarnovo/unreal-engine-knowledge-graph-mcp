@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_localization-overview-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_localization-overview-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "本地化",
+      "predicate": "包含",
+      "object": "国际化",
+      "context": "本地化和国际化是本地化大概念下的两个相关但不同的概念，理解它们的区别有助于正确实施多语言支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "国际化",
+      "predicate": "依赖",
+      "object": "ICU库",
+      "context": "虚幻引擎使用ICU库处理国际化相关的语言数据和处理，这是实现国际化的技术基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "本地化",
+      "predicate": "依赖",
+      "object": "国际化",
+      "context": "在虚幻引擎中，如果没有适当的国际化支持，就无法在运行时进行本地化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICU库",
+      "predicate": "支持",
+      "object": "文化正确的数据处理",
+      "context": "ICU库负责处理包括数字、日期、时间、文本转换等多种与文化相关的数据处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "文化",
+      "predicate": "包含",
+      "object": "语言代码",
+      "context": "文化由语言代码、脚本代码和国家代码组成，理解这些组成部分有助于正确配置本地化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "本地化目标",
+      "predicate": "包含",
+      "object": "本地化数据",
+      "context": "本地化目标是本地化数据的自含式模块，理解其结构有助于管理项目的本地化资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "本地化管道",
+      "predicate": "处理",
+      "object": "本地化目标",
+      "context": "本地化管道负责处理本地化目标的配置和数据，是实现本地化流程的核心机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PO文件",
+      "predicate": "用于",
+      "object": "翻译管理",
+      "context": "PO文件是常见的翻译文件格式，了解其格式有助于与翻译工具和平台协作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "打包本地化数据",
+      "predicate": "依赖",
+      "object": "项目设置",
+      "context": "正确打包本地化数据需要在项目设置中配置要打包的文化和国际化支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "文化重映射",
+      "predicate": "用于",
+      "object": "处理区域语言差异",
+      "context": "文化重映射功能可以解决某些语言（如西班牙语）的区域差异问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字符串表",
+      "predicate": "替代",
+      "object": "旧本地化方法",
+      "context": "字符串表提供了更现代的本地化方法，取代了旧的支持ID的本地化方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LocRes文件",
+      "predicate": "用于",
+      "object": "运行时加载",
+      "context": "LocRes是项目在运行时加载本地化数据的唯一文件类型，理解其作用至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "中文本地化",
+      "predicate": "区分",
+      "object": "简体和繁体",
+      "context": "中文本地化需要特别注意简体和繁体的区别，分别使用不同的脚本代码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "西班牙语本地化",
+      "predicate": "区分",
+      "object": "欧洲和拉丁美洲变体",
+      "context": "西班牙语有欧洲和拉丁美洲两种主要变体，需要不同的处理方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "原生语言",
+      "predicate": "作为",
+      "object": "翻译基础",
+      "context": "外国语言的翻译基于原生语言的文本，更改原生文本会使翻译变为旧状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:46:49.207Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8360 字符)",
+      "timestamp": "2025-06-15T19:45:51.850Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14370,
+    "contentLength": 8360,
+    "processingTimeMs": 57368
+  }
+}

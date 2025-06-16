@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_implementing-chunkdownloader-in-your-gameplay-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_implementing-chunkdownloader-in-your-gameplay-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "ChunkDownloader",
+      "predicate": "是",
+      "object": "补丁解决方案",
+      "context": "ChunkDownloader是虚幻引擎的补丁解决方案，用于下载和挂载远程资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ChunkDownloader",
+      "predicate": "实现",
+      "object": "FPlatformChunkInstall接口",
+      "context": "ChunkDownloader实现了FPlatformChunkInstall接口，用于跨平台加载模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ChunkDownloader",
+      "predicate": "依赖",
+      "object": "GameInstance",
+      "context": "ChunkDownloader需要通过GameInstance进行初始化和关闭操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GameInstance",
+      "predicate": "包含",
+      "object": "Init和Shutdown函数",
+      "context": "GameInstance包含Init和Shutdown函数，用于管理ChunkDownloader的生命周期",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ChunkDownloader",
+      "predicate": "使用",
+      "object": "打包文件",
+      "context": "ChunkDownloader下载并挂载打包文件中的资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "打包文件",
+      "predicate": "生成自",
+      "object": "资产分块",
+      "context": "打包文件是通过对资产进行分块处理后生成的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ChunkDownloader",
+      "predicate": "需要",
+      "object": "清单文件",
+      "context": "ChunkDownloader需要清单文件来追踪和管理下载的资产版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PatchingGameMode",
+      "predicate": "调用",
+      "object": "PatchGame函数",
+      "context": "PatchingGameMode调用PatchGame函数来启动补丁过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PatchGame函数",
+      "predicate": "触发",
+      "object": "下载和挂载过程",
+      "context": "PatchGame函数触发ChunkDownloader的下载和挂载过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ChunkDownloader",
+      "predicate": "提供",
+      "object": "下载进度统计",
+      "context": "ChunkDownloader提供下载和挂载的进度统计，可用于UI显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PatchingDemoGameInstance",
+      "predicate": "继承自",
+      "object": "UGameInstance",
+      "context": "PatchingDemoGameInstance继承自UGameInstance，用于管理ChunkDownloader",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ChunkDownloader",
+      "predicate": "支持",
+      "object": "多平台",
+      "context": "ChunkDownloader支持多种平台，通过平台名称初始化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PrimaryAssetLabel",
+      "predicate": "用于",
+      "object": "资产分组",
+      "context": "PrimaryAssetLabel用于对资产进行分组和管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ChunkDownloader",
+      "predicate": "需要",
+      "object": "启用插件",
+      "context": "使用ChunkDownloader前需要在插件菜单中启用它",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "打包设置",
+      "predicate": "需要",
+      "object": "启用Use Pak File和Generate Chunks",
+      "context": "使用ChunkDownloader需要在项目打包设置中启用Use Pak File和Generate Chunks选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ChunkDownloader",
+      "predicate": "使用",
+      "object": "异步回调",
+      "context": "ChunkDownloader使用异步回调来处理下载和挂载完成事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PatchingGameMode",
+      "predicate": "显示",
+      "object": "下载进度",
+      "context": "PatchingGameMode可以显示下载和挂载的进度信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ChunkDownloader",
+      "predicate": "允许",
+      "object": "本地测试",
+      "context": "ChunkDownloader允许在本地机器上测试补丁系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产",
+      "predicate": "通过",
+      "object": "PrimaryAssetLabel管理",
+      "context": "资产可以通过PrimaryAssetLabel进行分组和管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ChunkDownloader",
+      "predicate": "需要",
+      "object": "托管网站",
+      "context": "ChunkDownloader需要将打包文件托管在网站上以供下载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:31:44.305Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (25919 字符)",
+      "timestamp": "2025-06-15T19:30:37.584Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 35425,
+    "contentLength": 25919,
+    "processingTimeMs": 66731
+  }
+}

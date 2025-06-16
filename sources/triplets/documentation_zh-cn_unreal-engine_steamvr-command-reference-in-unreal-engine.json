@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_steamvr-command-reference-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_steamvr-command-reference-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "SteamVR",
+      "predicate": "支持",
+      "object": "虚幻引擎",
+      "context": "SteamVR提供了与虚幻引擎交互的控制台命令，帮助开发者调节VR体验",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "vr.SteamVR.AdaptiveDebugGPUTime",
+      "predicate": "用于",
+      "object": "测试GPU帧时间",
+      "context": "该命令用于测试时人为增加GPU帧时间，帮助开发者调试性能问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "vr.SteamVR.AdaptiveGPUTimeThreshold",
+      "predicate": "设置",
+      "object": "目标GPU帧时间",
+      "context": "该命令设置稳定的GPU帧时间目标，帮助优化VR性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "vr.SteamVR.PixelDensityAdaptiveDebugCycle",
+      "predicate": "控制",
+      "object": "自适应像素密度循环",
+      "context": "该命令控制像素密度在最大值和最小值之间循环，用于测试自适应像素密度功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "vr.SteamVR.PixelDensityAdaptiveDebugOutput",
+      "predicate": "生成",
+      "object": "调试日志",
+      "context": "该命令将自适应像素密度的调试信息输出到日志，帮助开发者分析问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "vr.SteamVR.PixelDensityAdaptivePostProcess",
+      "predicate": "影响",
+      "object": "时空抗锯齿(TAA)",
+      "context": "该命令在更改像素密度时临时禁用TAA以清除缓冲区，影响图像处理流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "vr.SteamVR.PixelDensityMax",
+      "predicate": "定义",
+      "object": "最大像素密度",
+      "context": "该命令设置VR渲染的最大像素密度，影响图像质量和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "vr.SteamVR.PixelDensityMin",
+      "predicate": "定义",
+      "object": "最小像素密度",
+      "context": "该命令设置VR渲染的最小像素密度，影响图像质量和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "vr.SteamVR.ShowDebug",
+      "predicate": "显示",
+      "object": "调试信息",
+      "context": "该命令控制是否在画布上绘制调试信息，帮助开发者诊断问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "vr.SteamVR.UsePostPresentHandoff",
+      "predicate": "影响",
+      "object": "异步重投影",
+      "context": "该命令控制是否使用PostPresentHandoff，影响GPU时间分配和异步重投影功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "vr.SteamVR.UseVisibleAreaMesh",
+      "predicate": "使用",
+      "object": "可见区域网格体",
+      "context": "该命令控制是否使用可见区域网格体进行优化，可能影响Beta平台的稳定性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自适应像素密度",
+      "predicate": "依赖",
+      "object": "像素密度设置",
+      "context": "自适应像素密度功能依赖于最大和最小像素密度设置来工作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "PostPresentHandoff",
+      "predicate": "影响",
+      "object": "SceneCaptureComponent2D",
+      "context": "使用PostPresentHandoff时，如果场景中有活动的SceneCaptureComponent2D，会影响GPU时间分配",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "PostPresentHandoff",
+      "predicate": "影响",
+      "object": "WidgetComponents",
+      "context": "使用PostPresentHandoff时，如果场景中有活动的WidgetComponents，会影响GPU时间分配",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "SteamVR调试",
+      "predicate": "包含",
+      "object": "vr.SteamVR.ShowDebug",
+      "context": "SteamVR的调试功能包含通过ShowDebug命令在画布上显示调试信息",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:55:32.058Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2504,
+    "contentLength": 1690,
+    "processingTimeMs": 44748
+  }
+}

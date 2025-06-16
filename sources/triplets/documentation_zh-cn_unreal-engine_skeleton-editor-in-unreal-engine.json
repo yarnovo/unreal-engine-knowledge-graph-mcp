@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_skeleton-editor-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_skeleton-editor-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "骨架资产",
+      "predicate": "是基础",
+      "object": "骨架网格体动画",
+      "context": "骨架资产是制作骨架网格体动画的基础，理解这一点有助于学习者掌握动画制作的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架编辑器",
+      "predicate": "包含",
+      "object": "骨架编辑模式",
+      "context": "骨架编辑器提供了骨架编辑模式，这是进行骨架修改的主要工作环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架编辑器",
+      "predicate": "支持",
+      "object": "骨架网格体插槽对接",
+      "context": "在编辑器中可以对接骨架网格体插槽，这是附加游戏物体的重要功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架编辑器",
+      "predicate": "提供",
+      "object": "动画曲线预览",
+      "context": "预览动画曲线功能帮助开发者调试和优化动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架编辑器",
+      "predicate": "提供",
+      "object": "动画通知管理",
+      "context": "动画通知管理是添加动画事件的关键功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架编辑器",
+      "predicate": "包含",
+      "object": "重定向管理器",
+      "context": "重定向管理器是处理不同比例角色动画的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架树",
+      "predicate": "显示",
+      "object": "骨架层级",
+      "context": "骨架树面板直观展示骨架层级结构，是理解角色骨骼关系的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架树",
+      "predicate": "支持创建",
+      "object": "骨架插槽",
+      "context": "创建骨架插槽是附加物品到角色骨骼的关键操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架树",
+      "predicate": "支持创建",
+      "object": "虚拟骨架",
+      "context": "虚拟骨架可以创建额外的骨骼控制点，扩展动画控制能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架操作",
+      "predicate": "用于",
+      "object": "动画预览调整",
+      "context": "骨架操作工具可以直接调整骨骼位置来预览动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重定向源",
+      "predicate": "用于",
+      "object": "动画重定向",
+      "context": "重定向源是实现不同比例角色间动画转换的基础配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画曲线",
+      "predicate": "控制",
+      "object": "变形目标",
+      "context": "动画曲线可以驱动变形目标，实现面部表情等细节动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画通知",
+      "predicate": "用于",
+      "object": "添加动画事件",
+      "context": "动画通知可以在特定动画时间点触发游戏事件，如脚步声",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架编辑器",
+      "predicate": "包含",
+      "object": "工具栏",
+      "context": "工具栏提供编辑器的主要功能入口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架编辑器",
+      "predicate": "包含",
+      "object": "视口",
+      "context": "视口是实时预览编辑效果的主要区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架编辑器",
+      "predicate": "包含",
+      "object": "细节面板",
+      "context": "细节面板用于调整选中元素的各项属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画重定向",
+      "predicate": "依赖",
+      "object": "重定向源",
+      "context": "实现动画重定向需要正确配置重定向源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架插槽",
+      "predicate": "附加到",
+      "object": "骨架",
+      "context": "插槽必须附加到特定骨骼才能发挥作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟骨架",
+      "predicate": "继承自",
+      "object": "骨架",
+      "context": "虚拟骨架基于现有骨骼创建但受其他骨骼控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架编辑器",
+      "predicate": "关联",
+      "object": "动画编辑器",
+      "context": "骨架编辑器与动画编辑器协同工作，共同完成动画制作",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:48:29.426Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10566 字符)",
+      "timestamp": "2025-06-15T20:47:35.969Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15878,
+    "contentLength": 10566,
+    "processingTimeMs": 53466
+  }
+}

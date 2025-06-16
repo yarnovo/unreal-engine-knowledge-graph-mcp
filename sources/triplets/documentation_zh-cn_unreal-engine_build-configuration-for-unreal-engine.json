@@ -1,0 +1,235 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_build-configuration-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_build-configuration-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Unreal Build Tool (UBT)",
+      "predicate": "读取",
+      "object": "BuildConfiguration.xml",
+      "context": "UBT从多个位置的XML配置文件中读取设置，这些设置影响编译过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildConfiguration",
+      "predicate": "包含",
+      "object": "bUseUnityBuild",
+      "context": "BuildConfiguration包含bUseUnityBuild属性，用于控制是否将C++代码统一到更大的文件中以加快编译",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildConfiguration",
+      "predicate": "包含",
+      "object": "bUsePCHFiles",
+      "context": "BuildConfiguration包含bUsePCHFiles属性，用于控制是否使用预编译头文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildConfiguration",
+      "predicate": "包含",
+      "object": "bUseSharedPCHs",
+      "context": "BuildConfiguration包含bUseSharedPCHs属性，用于控制是否启用共享PCH以加快编译",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UEBuildConfiguration",
+      "predicate": "包含",
+      "object": "bForceHeaderGeneration",
+      "context": "UEBuildConfiguration包含bForceHeaderGeneration属性，用于强制重新生成头文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WindowsPlatform",
+      "predicate": "包含",
+      "object": "Compiler",
+      "context": "WindowsPlatform包含Compiler属性，用于指定在Windows平台上使用的编译器工具链版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TargetRules",
+      "predicate": "包含",
+      "object": "bCompileChaosVisualDebuggerSupport",
+      "context": "TargetRules包含bCompileChaosVisualDebuggerSupport属性，用于控制是否编译Chaos视觉调试器支持功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ModuleConfiguration",
+      "predicate": "包含",
+      "object": "DisableUnityBuild",
+      "context": "ModuleConfiguration包含DisableUnityBuild属性，用于列出需要禁用Unity构建的模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealBuildAccelerator",
+      "predicate": "包含",
+      "object": "bStoreObjFilesCompressed",
+      "context": "UnrealBuildAccelerator包含bStoreObjFilesCompressed属性，用于控制是否将压缩的对象文件存储在磁盘上",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FASTBuild",
+      "predicate": "包含",
+      "object": "bEnableDistribution",
+      "context": "FASTBuild包含bEnableDistribution属性，用于控制是否启用网络构建的分布",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ParallelExecutor",
+      "predicate": "包含",
+      "object": "MaxProcessorCount",
+      "context": "ParallelExecutor包含MaxProcessorCount属性，用于指定本地执行的最大处理器数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SNDBS",
+      "predicate": "包含",
+      "object": "bAllowOverVpn",
+      "context": "SNDBS包含bAllowOverVpn属性，用于控制是否允许通过VPN连接到协调器运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "XGE",
+      "predicate": "包含",
+      "object": "bAllowRemoteLinking",
+      "context": "XGE包含bAllowRemoteLinking属性，用于控制是否允许远程连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ProjectFileGenerator",
+      "predicate": "包含",
+      "object": "bIncludeEngineSource",
+      "context": "ProjectFileGenerator包含bIncludeEngineSource属性，用于控制生成的解决方案中是否包含引擎源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IOSToolChain",
+      "predicate": "包含",
+      "object": "bUseDangerouslyFastMode",
+      "context": "IOSToolChain包含bUseDangerouslyFastMode属性，用于控制是否跳过编译后步骤以加快编译",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WindowsTargetRules",
+      "predicate": "包含",
+      "object": "ObjSrcMapFile",
+      "context": "WindowsTargetRules包含ObjSrcMapFile属性，用于控制是否将包含.obj的文件导出到源文件映射",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SourceFileWorkingSet",
+      "predicate": "包含",
+      "object": "Provider",
+      "context": "SourceFileWorkingSet包含Provider属性，用于设置确定工作集的提供程序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RemoteMac",
+      "predicate": "包含",
+      "object": "ServerName",
+      "context": "RemoteMac包含ServerName属性，用于指定远程服务器的名称",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "日志",
+      "predicate": "包含",
+      "object": "bBackupLogFiles",
+      "context": "日志包含bBackupLogFiles属性，用于控制是否备份现有日志文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "遥测",
+      "predicate": "包含",
+      "object": "Providers",
+      "context": "遥测包含Providers属性，用于指定遥测连接信息的提供者",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildConfiguration",
+      "predicate": "影响",
+      "object": "编译性能",
+      "context": "BuildConfiguration中的多个属性（如bUseUnityBuild、bUsePCHFiles等）直接影响编译性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UEBuildConfiguration",
+      "predicate": "影响",
+      "object": "头文件生成",
+      "context": "UEBuildConfiguration中的bForceHeaderGeneration属性控制是否强制重新生成头文件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "WindowsPlatform",
+      "predicate": "影响",
+      "object": "编译器选择",
+      "context": "WindowsPlatform中的Compiler属性决定在Windows平台上使用的编译器工具链版本",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UnrealBuildAccelerator",
+      "predicate": "优化",
+      "object": "编译速度",
+      "context": "UnrealBuildAccelerator通过多种机制（如压缩存储、远程执行等）优化编译速度",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FASTBuild",
+      "predicate": "支持",
+      "object": "分布式编译",
+      "context": "FASTBuild通过bEnableDistribution属性支持网络构建的分布",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "ParallelExecutor",
+      "predicate": "控制",
+      "object": "并行操作",
+      "context": "ParallelExecutor通过MaxProcessorCount等属性控制并行执行的操作数量",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "ProjectFileGenerator",
+      "predicate": "生成",
+      "object": "IDE项目文件",
+      "context": "ProjectFileGenerator负责生成各种IDE（如Visual Studio、Xcode等）的项目文件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:17:04.970Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (34975 字符)",
+      "timestamp": "2025-06-15T18:15:31.139Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 60399,
+    "contentLength": 34975,
+    "processingTimeMs": 93837
+  }
+}

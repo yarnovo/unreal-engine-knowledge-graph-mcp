@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_virtual-bones-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_virtual-bones-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚拟骨骼",
+      "predicate": "用于",
+      "object": "纠正游泳现象",
+      "context": "虚拟骨骼与IK节点一起使用可以纠正动画中的非预期移动（游泳现象），帮助学习者理解虚拟骨骼的核心应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟骨骼",
+      "predicate": "基于",
+      "object": "骨架",
+      "context": "虚拟骨骼需要在骨架中创建，学习者需要先理解骨架的概念才能创建虚拟骨骼",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟骨骼",
+      "predicate": "与",
+      "object": "IK节点",
+      "context": "虚拟骨骼通常与IK节点配合使用，学习者需要同时掌握这两个概念才能实现完整的动画效果",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟骨骼",
+      "predicate": "优于",
+      "object": "传统IK系统",
+      "context": "文档明确比较了虚拟骨骼与传统IK系统的差异，帮助学习者理解为什么在某些情况下虚拟骨骼是更好的选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟骨骼",
+      "predicate": "创建于",
+      "object": "骨架树",
+      "context": "学习者需要知道虚拟骨骼是在骨架树中创建的，这是实际操作的重要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟骨骼",
+      "predicate": "应用于",
+      "object": "动画蓝图",
+      "context": "创建虚拟骨骼后需要在动画蓝图中设置逻辑，这是学习路径中的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "插槽节点",
+      "context": "插槽节点是动画蓝图中的重要组件，用于区分基础和累加动画层",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "使用",
+      "object": "混合遮罩",
+      "context": "混合遮罩用于排除虚拟骨骼在累加插槽中的求值，是动画蓝图设置的关键技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "Two Bone IK节点",
+      "context": "Two Bone IK节点用于使手足跟随虚拟骨骼位置，是动画蓝图中的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合遮罩",
+      "predicate": "排除",
+      "object": "虚拟骨骼",
+      "context": "混合遮罩可以设置虚拟骨骼的混合值为0，从而在累加动画中排除其影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Two Bone IK节点",
+      "predicate": "控制",
+      "object": "末端目标骨骼",
+      "context": "Two Bone IK节点通过设置IKBone来控制末端目标骨骼的位置和旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Two Bone IK节点",
+      "predicate": "连接",
+      "object": "虚拟骨骼",
+      "context": "Two Bone IK节点需要将执行器目标设置为虚拟骨骼，使骨骼跟随虚拟骨骼移动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插槽节点",
+      "predicate": "连接到",
+      "object": "Apply Additive节点",
+      "context": "插槽节点需要连接到Apply Additive节点来组合基础和累加动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Layered Blend per Bone节点",
+      "predicate": "使用",
+      "object": "混合遮罩",
+      "context": "Layered Blend per Bone节点使用混合遮罩来控制哪些骨骼受累加动画影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟骨骼",
+      "predicate": "解决",
+      "object": "手足摆动问题",
+      "context": "虚拟骨骼的主要用途之一是解决复杂动画系统中的手足摆动问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟骨骼",
+      "predicate": "跟随",
+      "object": "目标骨骼",
+      "context": "虚拟骨骼会跟随目标骨骼的变换，这是其核心行为特征",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟骨骼",
+      "predicate": "命名规范",
+      "object": "VB <Parent>_<Target>",
+      "context": "了解虚拟骨骼的自动命名规范有助于识别和管理虚拟骨骼",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画序列",
+      "predicate": "用于",
+      "object": "预览虚拟骨骼",
+      "context": "可以在动画序列中预览虚拟骨骼如何跟随目标骨骼移动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "根骨骼",
+      "predicate": "作为",
+      "object": "虚拟骨骼的父节点",
+      "context": "虚拟骨骼通常作为根骨骼的子节点创建，这是常见的设置方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "末端骨骼",
+      "predicate": "作为",
+      "object": "虚拟骨骼的目标",
+      "context": "虚拟骨骼通常以手或脚等末端骨骼为目标，这是典型应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:29:10.128Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8107 字符)",
+      "timestamp": "2025-06-15T21:28:14.749Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12099,
+    "contentLength": 8107,
+    "processingTimeMs": 55386
+  }
+}

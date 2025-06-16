@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-optimization-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-optimization-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "事件图表",
+      "context": "事件图表是动画蓝图的核心组成部分，用于处理动画逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "AnimGraph",
+      "context": "AnimGraph是动画蓝图的另一核心组件，用于定义动画状态机和混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画优化",
+      "predicate": "涉及",
+      "object": "多线程动画更新",
+      "context": "多线程动画更新是提高动画系统性能的关键技术",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多线程动画更新",
+      "predicate": "依赖",
+      "object": "线程安全函数",
+      "context": "线程安全函数是实现多线程动画更新的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "线程安全函数",
+      "predicate": "使用",
+      "object": "属性访问",
+      "context": "属性访问是线程安全函数安全访问非线程安全数据的机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画快速路径",
+      "predicate": "优化",
+      "object": "AnimGraph",
+      "context": "动画快速路径通过优化变量访问来提高AnimGraph性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画快速路径",
+      "predicate": "支持",
+      "object": "直接访问成员变量",
+      "context": "直接访问成员变量是实现动画快速路径的方法之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画快速路径",
+      "predicate": "支持",
+      "object": "访问嵌套结构体的成员",
+      "context": "访问嵌套结构体成员是实现动画快速路径的另一种方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画优化工具",
+      "predicate": "包含",
+      "object": "倒回调试器",
+      "context": "倒回调试器是分析动画系统性能的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画优化",
+      "predicate": "建议使用",
+      "object": "更新速率优化(URO)",
+      "context": "URO通过降低动画更新频率来优化性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画优化",
+      "predicate": "替代方案",
+      "object": "动画预算分配器插件",
+      "context": "动画预算分配器插件提供了比URO更精细的动画更新控制",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "游戏线程",
+      "predicate": "执行",
+      "object": "事件图表",
+      "context": "事件图表默认在游戏线程上顺序执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工作线程",
+      "predicate": "执行",
+      "object": "线程安全函数",
+      "context": "线程安全函数可以在工作线程上并行执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "可以迁移到",
+      "object": "线程安全函数",
+      "context": "将事件图表逻辑迁移到线程安全函数可以提高性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画系统性能",
+      "predicate": "取决于",
+      "object": "游戏线程和工作线程",
+      "context": "动画系统性能受游戏线程和工作线程处理时间的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画优化",
+      "predicate": "涉及",
+      "object": "组件使用固定骨骼边界",
+      "context": "启用固定骨骼边界可以跳过物理资产计算，提高性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "可以启用",
+      "object": "就蓝图使用发出警告",
+      "context": "该功能帮助开发者识别未使用快速路径的变量访问",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AnimGraph",
+      "predicate": "生成",
+      "object": "输出姿势",
+      "context": "AnimGraph的最终输出是角色的输出姿势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "可以包含",
+      "object": "混合空间",
+      "context": "混合空间是动画蓝图中常用的动画混合技术",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画优化",
+      "predicate": "可以使用",
+      "object": "Animation Insights",
+      "context": "Animation Insights是分析动画系统性能的专业工具",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:03:35.897Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12124 字符)",
+      "timestamp": "2025-06-15T18:02:30.405Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19036,
+    "contentLength": 12124,
+    "processingTimeMs": 65498
+  }
+}

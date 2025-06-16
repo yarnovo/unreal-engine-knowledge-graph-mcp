@@ -1,0 +1,147 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_common-ui-quickstart-guide-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_common-ui-quickstart-guide-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Common UI",
+      "predicate": "依赖",
+      "object": "视口",
+      "context": "Common UI的输入路由功能依赖于视口作为基础，视口负责将输入发送至顶部的节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Common UI",
+      "predicate": "使用",
+      "object": "输入动作数据表",
+      "context": "Common UI使用输入动作数据表来管理UI输入，将控制器按键映射到UI中的动作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入动作数据表",
+      "predicate": "基于",
+      "object": "CommonInputActionDataBase",
+      "context": "输入动作数据表的行结构基于CommonInputActionDataBase，用于定义输入动作的参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Common UI",
+      "predicate": "使用",
+      "object": "CommonUIInputData",
+      "context": "Common UI使用CommonUIInputData资产来定义所有平台通用的点击和返回输入动作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Common UI",
+      "predicate": "使用",
+      "object": "控制器数据资产",
+      "context": "Common UI使用控制器数据资产将按键动作与UI元素关联，支持特定平台的UI元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制器数据资产",
+      "predicate": "基于",
+      "object": "CommonInputBaseControllerData",
+      "context": "控制器数据资产基于CommonInputBaseControllerData，用于定义输入类型和游戏手柄的映射",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Common UI",
+      "predicate": "包含",
+      "object": "控件库",
+      "context": "Common UI包含一个控件库，提供多种常见的UI功能控件，如按钮、文本等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Common UI控件",
+      "predicate": "依赖",
+      "object": "Common样式资产",
+      "context": "Common UI控件的样式依赖于Common样式资产，样式资产用于统一调整所有控件的风格",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Common样式资产",
+      "predicate": "应用于",
+      "object": "Common UI控件",
+      "context": "Common样式资产应用于Common UI控件，确保所有菜单和HUD具有一致的风格",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Common UI",
+      "predicate": "支持",
+      "object": "多平台输入",
+      "context": "Common UI支持多平台输入，通过控制器数据资产和输入动作数据表实现跨平台输入管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Common UI",
+      "predicate": "提供",
+      "object": "默认导航动作",
+      "context": "Common UI提供默认导航动作，如点击和返回按钮功能，简化导航逻辑的实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Common UI",
+      "predicate": "支持",
+      "object": "动态输入切换",
+      "context": "Common UI支持动态输入切换，根据当前平台和输入类型自动使用正确的UI元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Common UI控件",
+      "predicate": "继承",
+      "object": "UMG控件",
+      "context": "Common UI控件继承自UMG控件，但增加了对Common样式资产和多平台输入的支持",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Common UI",
+      "predicate": "使用",
+      "object": "模板样式",
+      "context": "Common UI使用模板样式作为全局默认样式，确保未手动分配样式的控件具有一致的风格",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Common UI",
+      "predicate": "提供",
+      "object": "加载防护",
+      "context": "Common UI提供加载防护功能，防止在加载过程中用户误操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Common UI",
+      "predicate": "提供",
+      "object": "硬件可视性边界",
+      "context": "Common UI提供硬件可视性边界功能，确保UI元素在不同硬件上的正确显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:29:19.148Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9642 字符)",
+      "timestamp": "2025-06-15T18:28:19.393Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14480,
+    "contentLength": 9642,
+    "processingTimeMs": 59762
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-engine-material-expressions-reference",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-engine-material-expressions-reference.md",
+  "triples": [
+    {
+      "subject": "材质表达式",
+      "predicate": "是",
+      "object": "材质编辑器的基本构建单元",
+      "context": "材质表达式是构建虚幻引擎材质的基础元素，理解这一点是学习材质编辑的第一步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质表达式",
+      "predicate": "包含",
+      "object": "参数类表达式",
+      "context": "参数类表达式是材质表达式的重要子类，可以在材质实例中被修改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "参数类表达式",
+      "predicate": "需要",
+      "object": "参数命名",
+      "context": "为参数指定唯一名称是使用参数类表达式的必要条件，这对材质实例编辑至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质表达式",
+      "predicate": "具有",
+      "object": "通用属性",
+      "context": "所有材质表达式都共享一些通用属性，如描述、输入、输出等，这是理解表达式功能的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质表达式",
+      "predicate": "分为",
+      "object": "多种类型",
+      "context": "材质表达式按功能分为大气、颜色、常量、坐标等多种类型，了解分类有助于快速定位所需表达式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质函数表达式",
+      "predicate": "用于",
+      "object": "创建和执行材质函数",
+      "context": "材质函数表达式是构建可重用材质功能模块的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质属性表达式",
+      "predicate": "特别适用于",
+      "object": "创建分层材质",
+      "context": "材质属性表达式可以分隔或组合各种材质属性，是构建复杂分层材质的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子材质表达式",
+      "predicate": "专门用于",
+      "object": "粒子系统",
+      "context": "粒子材质表达式提供了粒子系统特有的属性和功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形材质表达式",
+      "predicate": "专门用于",
+      "object": "地形地貌",
+      "context": "地形材质表达式提供了处理地形材质的特殊功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质参数表达式",
+      "predicate": "允许",
+      "object": "运行时修改材质属性",
+      "context": "材质参数表达式是创建动态可调材质的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理材质表达式",
+      "predicate": "用于",
+      "object": "纹理取样和输出",
+      "context": "纹理材质表达式是处理纹理的基础工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "向量类材质表达式",
+      "predicate": "处理",
+      "object": "向量值",
+      "context": "向量类表达式专门处理位置、法线等向量数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "向量操作类材质表达式",
+      "predicate": "对",
+      "object": "向量输入值执行操作",
+      "context": "向量操作类表达式提供了各种向量运算功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具类材质表达式",
+      "predicate": "执行",
+      "object": "各种运算",
+      "context": "工具类表达式提供了多种实用运算功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质编辑器",
+      "predicate": "依赖",
+      "object": "材质表达式",
+      "context": "材质编辑器通过组合各种材质表达式来构建完整功能的材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质实例",
+      "predicate": "修改",
+      "object": "参数类表达式",
+      "context": "材质实例可以修改父材质中的参数类表达式值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质表达式",
+      "predicate": "输出",
+      "object": "特定值或运算结果",
+      "context": "理解表达式的输出是正确连接表达式节点的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质表达式预览",
+      "predicate": "显示",
+      "object": "输出值",
+      "context": "预览功能帮助开发者直观理解表达式的效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质表达式描述",
+      "predicate": "解释",
+      "object": "表达式功能",
+      "context": "描述属性是理解表达式用途的重要参考",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质表达式",
+      "predicate": "可以",
+      "object": "组合使用",
+      "context": "通过组合不同表达式可以创建复杂的材质效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:09:28.037Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (25113 字符)",
+      "timestamp": "2025-06-15T21:08:33.783Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 29199,
+    "contentLength": 25113,
+    "processingTimeMs": 54262
+  }
+}

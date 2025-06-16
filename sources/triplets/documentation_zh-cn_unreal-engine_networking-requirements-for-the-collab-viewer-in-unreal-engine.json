@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_networking-requirements-for-the-collab-viewer-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_networking-requirements-for-the-collab-viewer-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "协作查看器（Collab Viewer）",
+      "predicate": "依赖",
+      "object": "局域网连接",
+      "context": "协作查看器在局域网环境下需要满足特定网络条件才能正常运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "协作查看器（Collab Viewer）",
+      "predicate": "使用",
+      "object": "端口7777",
+      "context": "协作查看器默认使用虚幻引擎标准网络端口7777进行通信",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "协作查看器（Collab Viewer）",
+      "predicate": "适用于",
+      "object": "设计查阅会话",
+      "context": "协作查看器专门用于多台计算机接入同一运行时设计查阅会话",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "协作查看器（Collab Viewer）",
+      "predicate": "需要",
+      "object": "NAT遍历规则",
+      "context": "跨网络连接时需要配置NAT遍历规则才能实现服务器可见性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "协作查看器（Collab Viewer）",
+      "predicate": "生成",
+      "object": "轻量级网络数据",
+      "context": "协作查看器仅复制轻量级数据如用户3D变换和激光笔信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "协作查看器（Collab Viewer）",
+      "predicate": "关联",
+      "object": "网络分析器",
+      "context": "可使用网络分析器来测量协作查看器的网络带宽使用情况",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "协作查看器（Collab Viewer）",
+      "predicate": "属于",
+      "object": "虚幻引擎模板",
+      "context": "协作查看器是虚幻引擎提供的一个专门模板",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "协作查看器（Collab Viewer）",
+      "predicate": "扩展",
+      "object": "虚幻引擎联网功能",
+      "context": "协作查看器基于虚幻引擎的联网功能实现多人协作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "局域网连接",
+      "predicate": "要求",
+      "object": "同一网络",
+      "context": "局域网连接要求所有计算机连接到同一网络",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "跨网络连接",
+      "predicate": "需要",
+      "object": "手动指定IP",
+      "context": "跨网络连接时客户端需要手动指定服务器IP地址",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "协作查看器（Collab Viewer）",
+      "predicate": "关联",
+      "object": "虚幻引擎多人游戏",
+      "context": "协作查看器使用了虚幻引擎的多人游戏网络架构",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "协作查看器（Collab Viewer）",
+      "predicate": "推荐",
+      "object": "本地网络使用",
+      "context": "为避免延迟问题，推荐在同一网络内本地使用协作查看器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:05:36.462Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3701,
+    "contentLength": 2463,
+    "processingTimeMs": 45947
+  }
+}

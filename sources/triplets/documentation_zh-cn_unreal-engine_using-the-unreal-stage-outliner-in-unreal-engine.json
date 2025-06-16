@@ -1,0 +1,149 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-the-unreal-stage-outliner-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-the-unreal-stage-outliner-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Unreal Stage大纲视图",
+      "predicate": "属于",
+      "object": "虚幻引擎",
+      "context": "Unreal Stage大纲视图是虚幻引擎中的一个功能模块，帮助开发者管理场景内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Stage大纲视图",
+      "predicate": "支持",
+      "object": "ICVFX内容管理",
+      "context": "大纲视图专门用于列出和管理场景中的所有ICVFX内容，是虚拟制作工作流的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Stage大纲视图",
+      "predicate": "包含",
+      "object": "大纲视图工具",
+      "context": "大纲视图提供了一系列工具来帮助开发者高效管理场景内容，这些工具是视图的核心功能组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大纲视图工具",
+      "predicate": "包含",
+      "object": "筛选功能",
+      "context": "筛选功能是大纲视图的基础工具之一，帮助开发者在复杂场景中快速定位特定类型的Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大纲视图工具",
+      "predicate": "包含",
+      "object": "可视性控制",
+      "context": "可视性控制允许开发者临时隐藏场景中的Actor，这是调试和优化工作流的重要功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大纲视图工具",
+      "predicate": "包含",
+      "object": "多选模式",
+      "context": "多选模式支持同时操作多个Actor，提高批量编辑效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大纲视图工具",
+      "predicate": "包含",
+      "object": "省略号菜单",
+      "context": "省略号菜单提供聚焦、复制、删除和重命名等高级操作，扩展了大纲视图的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大纲视图工具",
+      "predicate": "包含",
+      "object": "滑动操作",
+      "context": "滑动操作提供了快速访问关键功能的快捷方式，优化移动端工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可视性控制",
+      "predicate": "影响",
+      "object": "nDisplay可见性",
+      "context": "通过可视性控制隐藏的Actor将不再通过LED体积的nDisplay可见，这是虚拟制作工作流的关键特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Stage大纲视图",
+      "predicate": "适用于",
+      "object": "虚拟制作",
+      "context": "该功能特别针对虚拟制作工作流设计，与ICVFX和nDisplay等技术紧密相关",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "筛选功能",
+      "predicate": "支持",
+      "object": "按类型筛选",
+      "context": "开发者可以按Actor类型进行筛选，这是在复杂场景中组织内容的基础方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "筛选功能",
+      "predicate": "支持",
+      "object": "按名称搜索",
+      "context": "按名称搜索功能帮助开发者快速定位特定命名的内容，提高工作效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多选模式",
+      "predicate": "创建",
+      "object": "选择集",
+      "context": "在多选模式下选择多个Actor会创建选择集，这是批量操作的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "省略号菜单",
+      "predicate": "提供",
+      "object": "聚焦功能",
+      "context": "聚焦功能帮助开发者快速定位到选中的Actor，在复杂场景中特别有用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "滑动操作",
+      "predicate": "实现",
+      "object": "快速可视性切换",
+      "context": "向右滑动可以直接切换Actor的可视性状态，这是移动端优化的交互方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "滑动操作",
+      "predicate": "实现",
+      "object": "快速删除",
+      "context": "向左滑动可以快速删除选中的Actor，简化编辑工作流",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Stage大纲视图",
+      "predicate": "标记为",
+      "object": "Experimental功能",
+      "context": "该功能目前处于实验阶段，开发者需要了解其状态并在生产环境中谨慎使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:26:52.116Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4928,
+    "contentLength": 3612,
+    "processingTimeMs": 49364
+  }
+}

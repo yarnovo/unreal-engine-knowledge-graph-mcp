@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_cinematic-level-visibility-track-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_cinematic-level-visibility-track-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "关卡可视性轨道",
+      "predicate": "用于",
+      "object": "切换关卡可见性",
+      "context": "关卡可视性轨道是Sequencer中的一种轨道，专门用于在过场动画中控制关卡的可见性状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡可视性轨道",
+      "predicate": "属于",
+      "object": "Sequencer",
+      "context": "关卡可视性轨道是Sequencer工具的一个功能组件，用于管理关卡在过场动画中的可见性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡可视性轨道",
+      "predicate": "控制",
+      "object": "关卡流式加载",
+      "context": "虽然关卡可视性轨道可以控制关卡的可见性，但它不会影响关卡的流式加载状态，关卡仍然驻留在内存中",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "关卡",
+      "predicate": "包含",
+      "object": "资产",
+      "context": "关卡中可以放置各种资产（如SM_AssetPlatform、SM_Chair等），这些资产构成了关卡的内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡可视性轨道",
+      "predicate": "影响",
+      "object": "关卡中的资产",
+      "context": "通过关卡可视性轨道切换关卡的可见性时，关卡中的所有资产也会相应地变为可见或隐藏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流式方法",
+      "predicate": "决定",
+      "object": "关卡加载方式",
+      "context": "关卡流式方法（如总是加载）决定了关卡在运行时如何被加载和卸载，影响关卡可视性轨道的使用效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "支持",
+      "object": "关卡可视性轨道",
+      "context": "Sequencer作为虚幻引擎的过场动画工具，支持添加和管理关卡可视性轨道，用于控制关卡的可见性",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡可视性轨道",
+      "predicate": "使用",
+      "object": "可见性触发器",
+      "context": "关卡可视性轨道通过可见性触发器来设置关卡在特定时间点的可见或隐藏状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "持久关卡",
+      "predicate": "作为",
+      "object": "当前关卡",
+      "context": "在设置关卡可视性轨道时，需要将持久关卡设为当前关卡，以确保正确的关卡可见性控制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "关卡可视性轨道",
+      "predicate": "适用于",
+      "object": "过场动画",
+      "context": "关卡可视性轨道主要用于过场动画中，用于动态切换不同关卡的可见性，创造丰富的视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:22:52.632Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8609,
+    "contentLength": 6055,
+    "processingTimeMs": 34862
+  }
+}

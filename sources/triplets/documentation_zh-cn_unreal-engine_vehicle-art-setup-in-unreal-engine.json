@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_vehicle-art-setup-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_vehicle-art-setup-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "载具美术设置",
+      "predicate": "基于",
+      "object": "骨骼网格体",
+      "context": "载具最基础、最少量的美术设置即为骨骼网格体，这是构建载具视觉表现的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "导出为",
+      "object": "FBX格式",
+      "context": "载具作为骨骼网格体被导出，使用标准的FBX导出流程，这是3D模型在虚幻引擎中的通用交换格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX导入",
+      "predicate": "需要",
+      "object": "创建物理资产",
+      "context": "导入载具时需要启用'创建物理资产'选项，这是实现载具物理模拟的必要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理资产",
+      "predicate": "使用",
+      "object": "Physics Asset工具(PhAT)",
+      "context": "物理资产的创建和编辑主要通过PhAT工具完成，这是虚幻引擎专门用于处理物理模拟的工具",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理资产",
+      "predicate": "包含",
+      "object": "物理形体",
+      "context": "物理资产由多个物理形体组成，这些形体定义了碰撞检测和物理交互的边界",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理形体",
+      "predicate": "可以是",
+      "object": "盒体或球体",
+      "context": "根据载具不同部位的需求，物理形体可以选择盒体或球体等基本形状，这是物理模拟的基础元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "车轮物理形体",
+      "predicate": "应设置为",
+      "object": "动力学类型",
+      "context": "车轮物理形体需要设置为动力学类型，这样才能正确实现阴影、剔除和防止车轮松脱",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "载具连接点",
+      "predicate": "需要",
+      "object": "精确居中",
+      "context": "轮子的连接点必须精确居中，否则会导致视觉上的异常和动态模糊问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "四轮载具",
+      "predicate": "最少需要",
+      "object": "5个连接点",
+      "context": "四轮载具至少需要1个根连接点和4个轮子连接点，这是实现基本载具功能的最低要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "轮子蒙皮",
+      "predicate": "应仅绑定到",
+      "object": "单个连接点",
+      "context": "轮子应只在一个连接点拥有权重，确保旋转时不产生变形，这是保持轮子视觉正确性的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理形体创建",
+      "predicate": "需要考虑",
+      "object": "最小骨骼尺寸",
+      "context": "创建物理形体时需要设置合适的最小骨骼尺寸，这决定了哪些骨骼会被创建物理形体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理形体创建",
+      "predicate": "需要选择",
+      "object": "图元类型",
+      "context": "根据物理形体的用途，需要选择合适的图元类型(盒体或球体)，这影响物理模拟的效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "载具物理资产",
+      "predicate": "可以防止",
+      "object": "轮子卡住",
+      "context": "合理的物理资产设置可以防止轮子被场景对象卡住，这是实现流畅载具交互的重要方面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "载具物理资产",
+      "predicate": "可以防止",
+      "object": "轮胎穿插",
+      "context": "良好的物理资产配置能防止轮胎与墙壁等场景对象发生穿插，提升视觉真实性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Vehicle Game示例",
+      "predicate": "展示了",
+      "object": "高级物理资产配置",
+      "context": "Vehicle Game示例中的载具展示了更复杂的物理资产配置，可以作为学习参考",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "悬挂系统",
+      "predicate": "复杂度取决于",
+      "object": "载具类型",
+      "context": "坦克等载具不需要精细悬挂设置，而越野车等则需要更复杂的悬挂表现，这是载具美术设置的重要考量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "轮子半径",
+      "predicate": "需要",
+      "object": "精确测量",
+      "context": "在虚幻引擎中使用前需要精确测量轮子半径(以厘米为单位)，这是确保物理模拟准确性的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Maya",
+      "predicate": "可用于",
+      "object": "测量轮子直径",
+      "context": "可以使用Maya的距离测量工具来获取轮子直径，这是3D建模软件在载具制作流程中的应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3D Studio Max",
+      "predicate": "提供类似",
+      "object": "测量工具",
+      "context": "3DS Max的Helpers部分也提供类似的测量工具，说明不同3D软件都可以支持载具制作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "假定",
+      "object": "X轴向前",
+      "context": "动画蓝图中的Look At节点等资产会假定X轴向前，这是载具连接点设置需要考虑的因素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:28:13.227Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9543,
+    "contentLength": 6131,
+    "processingTimeMs": 60993
+  }
+}

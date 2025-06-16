@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_system-spawn-group-reference-for-niagara-effects-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_system-spawn-group-reference-for-niagara-effects-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Niagara系统",
+      "predicate": "包含",
+      "object": "系统生成模块",
+      "context": "每个Niagara系统创建时都会自动生成系统生成模块，这是理解系统初始设置的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "系统生成模块",
+      "predicate": "控制",
+      "object": "粒子生成参数",
+      "context": "系统生成模块负责设置粒子系统的初始值，是学习粒子行为控制的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成即时迸发模块",
+      "predicate": "属于",
+      "object": "系统生成模块",
+      "context": "这是系统生成模块的具体实现类型，学习特定生成模式时需要了解",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "暂存区模块",
+      "predicate": "扩展",
+      "object": "系统生成功能",
+      "context": "暂存区模块允许创建自定义生成逻辑，是系统生成模块的扩展机制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "设置参数模块",
+      "predicate": "修改",
+      "object": "系统参数",
+      "context": "这是学习如何动态调整系统行为的关键模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "System.Age参数",
+      "predicate": "记录",
+      "object": "系统存在时间",
+      "context": "理解系统生命周期管理的基础参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "System.LocalSpace参数",
+      "predicate": "决定",
+      "object": "粒子坐标系",
+      "context": "这是学习粒子空间定位的关键概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ENiagaraCoordinateSpace枚举",
+      "predicate": "定义",
+      "object": "坐标空间类型",
+      "context": "学习粒子空间变换时需要理解的不同坐标系选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子属性读取器",
+      "predicate": "查询",
+      "object": "跨发射器数据",
+      "context": "学习复杂粒子系统交互时的重要数据接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Grid2D集合",
+      "predicate": "用于",
+      "object": "2D数据模拟",
+      "context": "学习基于网格的粒子模拟时需要掌握的数据接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara ID",
+      "predicate": "追踪",
+      "object": "粒子生命周期",
+      "context": "理解粒子唯一标识和状态管理的关键结构体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频频谱模块",
+      "predicate": "基于",
+      "object": "频率响应",
+      "context": "学习音频驱动粒子效果时需要了解的特殊模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ENiagaraExecutionState枚举",
+      "predicate": "管理",
+      "object": "系统执行状态",
+      "context": "学习系统状态控制时必须掌握的核心枚举类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成信息结构体",
+      "predicate": "指定",
+      "object": "粒子生成参数",
+      "context": "学习精确控制粒子生成时序和分组的关键数据结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "向量场接口",
+      "predicate": "影响",
+      "object": "粒子运动方向",
+      "context": "学习复杂粒子运动控制时的重要数据源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "系统生成模块",
+      "predicate": "执行顺序",
+      "object": "堆栈顺序",
+      "context": "理解模块执行优先级的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ENiagaraRandomnessMode枚举",
+      "predicate": "控制",
+      "object": "随机数生成",
+      "context": "学习确定性/非确定性粒子效果时需要配置的参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "遮挡查询模块",
+      "predicate": "需要",
+      "object": "GPU发射器",
+      "context": "学习高级粒子遮挡效果时的硬件要求限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简单计数器模块",
+      "predicate": "限制",
+      "object": "CPU发射器",
+      "context": "理解线程安全计数器的使用限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "System.NormalizedLoopAge参数",
+      "predicate": "关联",
+      "object": "System.LoopedAge参数",
+      "context": "理解系统循环时间计算的关联参数对",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:57:32.035Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 12422,
+    "contentLength": 7221,
+    "processingTimeMs": 53035
+  }
+}

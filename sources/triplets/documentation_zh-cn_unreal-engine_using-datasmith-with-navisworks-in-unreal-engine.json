@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-datasmith-with-navisworks-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-datasmith-with-navisworks-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Datasmith",
+      "predicate": "支持",
+      "object": "Navisworks",
+      "context": "Datasmith提供了将Navisworks内容导入虚幻引擎的功能，帮助用户实现跨平台工作流",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith Exporter for Navisworks",
+      "predicate": "属于",
+      "object": "Datasmith插件",
+      "context": "该插件是Datasmith工具集的一部分，专门用于处理Navisworks内容导出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导入流程",
+      "predicate": "包含",
+      "object": "Navisworks工作流",
+      "context": "Navisworks导入流程是Datasmith标准导入流程的特殊实现，学习者需要理解标准流程才能掌握Navisworks的特殊处理",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Navisworks几何体",
+      "predicate": "转换为",
+      "object": "静态网格体",
+      "context": "这是Datasmith处理Navisworks内容的核心转换过程，理解这一转换有助于处理导入后的资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合并层级",
+      "predicate": "优化",
+      "object": "性能",
+      "context": "合并操作是Datasmith保持场景性能的关键技术，学习者需要掌握合并策略对最终场景的影响",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Navisworks元数据",
+      "predicate": "存储为",
+      "object": "选项卡",
+      "context": "理解元数据转换格式有助于在虚幻引擎中访问和使用原始Navisworks数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主材质",
+      "predicate": "控制",
+      "object": "材质实例",
+      "context": "掌握主材质与实例的关系是修改导入材质的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "双精度坐标系",
+      "predicate": "需要转换为",
+      "object": "单精度坐标系",
+      "context": "这是Navisworks与虚幻引擎的重要技术差异，理解这一点可以避免导入时的精度问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith主材质",
+      "predicate": "可被",
+      "object": "修改",
+      "context": "这是高级材质定制的基础，学习者需要掌握修改主材质的工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Navisworks导出器",
+      "predicate": "类似于",
+      "object": "Revit/3ds Max导出器",
+      "context": "理解这些导出器的相似性可以帮助学习者快速掌握不同软件的工作流程",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "继承",
+      "object": "Navisworks几何体名称",
+      "context": "了解命名保留机制有助于在虚幻引擎中识别原始模型组件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质文件夹",
+      "predicate": "包含",
+      "object": "材质实例",
+      "context": "理解资产组织结构是导航内容浏览器的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "原点设置",
+      "predicate": "解决",
+      "object": "坐标精度问题",
+      "context": "这是处理大型Navisworks场景的关键技术点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "三角形数量",
+      "predicate": "影响",
+      "object": "合并策略",
+      "context": "理解性能优化标准有助于合理设置导出参数",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:15:20.290Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9179,
+    "contentLength": 6111,
+    "processingTimeMs": 40194
+  }
+}

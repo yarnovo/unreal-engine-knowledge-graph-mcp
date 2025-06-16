@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_asserts-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_asserts-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "assert",
+      "predicate": "用于",
+      "object": "检测和诊断不正常或无效的运行时条件",
+      "context": "assert是C/C++中用于开发期间检测和诊断不正常或无效的运行时条件的工具，帮助学习者理解其在调试中的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "assert",
+      "predicate": "不包含于",
+      "object": "发布代码",
+      "context": "assert的关键特性是不存在于发布代码中，不影响发布产品的性能，帮助学习者理解其使用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Check族系",
+      "predicate": "最接近",
+      "object": "assert",
+      "context": "Check族系最接近基础assert，帮助学习者理解其在虚幻引擎中的替代品",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Check族系",
+      "predicate": "包含",
+      "object": "check",
+      "context": "check是Check族系中的基本宏，帮助学习者理解其功能和使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Check族系",
+      "predicate": "包含",
+      "object": "checkf",
+      "context": "checkf是Check族系中带格式化文本输出的宏，帮助学习者理解其扩展功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Check族系",
+      "predicate": "包含",
+      "object": "checkNoEntry",
+      "context": "checkNoEntry用于标记不应到达的代码路径，帮助学习者理解其特殊用途",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Verify族系",
+      "predicate": "行为类似",
+      "object": "Check族系",
+      "context": "Verify族系在大部分版本中行为与Check族系相同，帮助学习者理解其相似性和区别",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Verify族系",
+      "predicate": "计算表达式",
+      "object": "发布版本",
+      "context": "Verify族系在发布版本中仍计算表达式，帮助学习者理解其与Check的区别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Ensure族系",
+      "predicate": "用于",
+      "object": "非致命错误",
+      "context": "Ensure族系用于处理非致命错误，帮助学习者理解其适用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Ensure族系",
+      "predicate": "通知",
+      "object": "崩溃报告器",
+      "context": "Ensure族系在表达式为false时通知崩溃报告器，帮助学习者理解其工作机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ensure",
+      "predicate": "属于",
+      "object": "Ensure族系",
+      "context": "ensure是Ensure族系中的基本宏，帮助学习者理解其分类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ensureAlways",
+      "predicate": "扩展",
+      "object": "ensure",
+      "context": "ensureAlways是ensure的扩展版本，每次表达式为false时都报告，帮助学习者理解其增强功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "checkSlow",
+      "predicate": "仅在",
+      "object": "调试版本中运行",
+      "context": "checkSlow仅在调试版本中运行，帮助学习者理解其性能考虑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "verifySlow",
+      "predicate": "仅在",
+      "object": "调试版本中运行",
+      "context": "verifySlow仅在调试版本中运行，帮助学习者理解其与verify的区别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USE_CHECKS_IN_SHIPPING",
+      "predicate": "控制",
+      "object": "Check宏在发布版本中的启用",
+      "context": "USE_CHECKS_IN_SHIPPING设置控制Check宏是否在发布版本中运行，帮助学习者理解其配置作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AssertionMacros.h",
+      "predicate": "包含",
+      "object": "Check、Verify、Ensure宏的实现",
+      "context": "AssertionMacros.h文件包含Check、Verify、Ensure宏的实现代码，帮助学习者定位相关源码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "checkCode",
+      "predicate": "用于",
+      "object": "准备另一个Check所需的信息",
+      "context": "checkCode用于执行准备另一个Check所需信息的代码块，帮助学习者理解其特殊用途",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "unimplemented",
+      "predicate": "用于",
+      "object": "应被覆盖的虚拟函数",
+      "context": "unimplemented宏用于标记应被覆盖而不会被调用的虚拟函数，帮助学习者理解其使用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "checkNoReentry",
+      "predicate": "防止",
+      "object": "代码重复进入",
+      "context": "checkNoReentry防止代码被重复进入，帮助学习者理解其保护机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "checkNoRecursion",
+      "predicate": "防止",
+      "object": "递归调用",
+      "context": "checkNoRecursion防止递归调用，帮助学习者理解其防止栈溢出的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:06:27.342Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8822,
+    "contentLength": 5386,
+    "processingTimeMs": 66880
+  }
+}

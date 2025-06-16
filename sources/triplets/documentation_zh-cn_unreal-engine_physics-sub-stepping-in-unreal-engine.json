@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_physics-sub-stepping-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_physics-sub-stepping-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "物理子步",
+      "predicate": "提高",
+      "object": "物理模拟精度",
+      "context": "物理子步通过将帧时间划分为更小的子步来提高物理模拟的精度和稳定性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理子步",
+      "predicate": "增加",
+      "object": "CPU开销",
+      "context": "使用物理子步会增加CPU的计算负担，需要在模拟精度和性能之间进行权衡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理子步",
+      "predicate": "适用于",
+      "object": "复杂物理资源",
+      "context": "物理子步特别适用于提高布偶等复杂物理资源的模拟质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理子步",
+      "predicate": "依赖",
+      "object": "最大子步差量时间",
+      "context": "物理子步的划分数量取决于最大子步差量时间的设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理子步",
+      "predicate": "受限于",
+      "object": "最大子步数",
+      "context": "物理子步的划分数量不能超过最大子步数的限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理子步",
+      "predicate": "影响",
+      "object": "碰撞回调行为",
+      "context": "物理子步会影响碰撞回调的行为，可能导致同一帧内多次回调",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "物理子步",
+      "predicate": "执行于",
+      "object": "物理线程",
+      "context": "物理子步在一个单独的物理线程中执行，与游戏线程并行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理子步",
+      "predicate": "不适用于",
+      "object": "移动设备",
+      "context": "当前物理子步功能在移动设备上不受支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理子步",
+      "predicate": "需要",
+      "object": "内插处理",
+      "context": "使用物理子步需要对目标位置等进行内插处理以维持理想速度",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "物理子步",
+      "predicate": "基于",
+      "object": "可变帧率",
+      "context": "物理子步是为了解决虚幻引擎5可变帧率与物理引擎固定时间步之间的矛盾",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "最大子步差量时间",
+      "predicate": "决定",
+      "object": "子步数量",
+      "context": "最大子步差量时间越小，划分的子步数量越多，模拟越稳定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "最大子步数",
+      "predicate": "限制",
+      "object": "子步数量",
+      "context": "最大子步数限制了单个整步可以划分的最大子步数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理子步",
+      "predicate": "需要权衡",
+      "object": "模拟质量与性能",
+      "context": "开发者需要根据游戏实际需求在物理模拟质量和CPU性能消耗之间进行权衡",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:24:04.774Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4241,
+    "contentLength": 2293,
+    "processingTimeMs": 42619
+  }
+}

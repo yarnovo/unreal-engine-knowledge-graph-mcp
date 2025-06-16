@@ -1,0 +1,149 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_detailed-actor-replication-flow-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_detailed-actor-replication-flow-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Actor复制",
+      "predicate": "由",
+      "object": "网络驱动程序",
+      "context": "网络驱动程序决定哪些Actor需要复制以及复制的顺序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UNetDriver::ServerReplicateActors",
+      "predicate": "处理",
+      "object": "Actor复制",
+      "context": "ServerReplicateActors函数负责收集相关Actor并发送变化属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UActorChannel::ReplicateActor",
+      "predicate": "处理",
+      "object": "Actor复制细节",
+      "context": "ReplicateActor函数负责将Actor复制到特定通道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor::NetUpdateFrequency",
+      "predicate": "决定",
+      "object": "Actor复制频率",
+      "context": "NetUpdateFrequency属性控制Actor的更新频率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor::PreReplication",
+      "predicate": "调用于",
+      "object": "复制前",
+      "context": "PreReplication在所有复制发生前被调用，用于决定是否复制属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor::bOnlyRelevantToOwner",
+      "predicate": "控制",
+      "object": "Actor复制范围",
+      "context": "bOnlyRelevantToOwner为true时，Actor只复制给其所有者",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor::IsRelevancyOwnerFor",
+      "predicate": "用于",
+      "object": "确定相关性",
+      "context": "当bOnlyRelevantToOwner为true时，IsRelevancyOwnerFor用于确定Actor的相关性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor::IsNetRelevantFor",
+      "predicate": "用于",
+      "object": "确定相关性",
+      "context": "当bOnlyRelevantToOwner为false时，IsNetRelevantFor用于确定Actor的相关性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor::NetDormancy",
+      "predicate": "决定",
+      "object": "Actor休眠状态",
+      "context": "NetDormancy属性决定Actor是处于休眠还是苏醒状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor复制流程",
+      "predicate": "包含",
+      "object": "将Actor添加到考虑复制列表",
+      "context": "复制流程的第一步是确定哪些Actor需要复制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor复制流程",
+      "predicate": "包含",
+      "object": "循环遍历所有连接",
+      "context": "复制流程的第二步是处理所有连接并确定相关Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor复制流程",
+      "predicate": "包含",
+      "object": "循环遍历已排序的Actor列表",
+      "context": "复制流程的第三步是按优先级处理Actor列表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor复制流程",
+      "predicate": "包含",
+      "object": "将Actor复制到连接",
+      "context": "复制流程的最后一步是将Actor及其属性复制到连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UActorChannel::ReplicateActor",
+      "predicate": "负责",
+      "object": "复制Actor属性",
+      "context": "ReplicateActor函数负责复制Actor及其组件的已更改属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ENetRole::ROLE_AutonomousProxy",
+      "predicate": "可降级为",
+      "object": "ENetRole::ROLE_SimulatedProxy",
+      "context": "当连接不拥有Actor时，AutonomousProxy角色会降级为SimulatedProxy",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UNetDriver::ServerReplicateActors_PrepConnections",
+      "predicate": "控制",
+      "object": "客户端tick数量",
+      "context": "PrepConnections方法用于控制每次调用时复制的客户端数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "net.MaxConnectionsToTickPerServerFrame",
+      "predicate": "影响",
+      "object": "复制性能",
+      "context": "该控制台变量影响服务器帧中处理的连接数量，从而影响复制性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:51:03.245Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10297,
+    "contentLength": 6869,
+    "processingTimeMs": 68492
+  }
+}

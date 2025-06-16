@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_scripting-the-unreal-editor-using-python",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_scripting-the-unreal-editor-using-python.md",
+  "triples": [
+    {
+      "subject": "Python编辑器脚本插件",
+      "predicate": "提供",
+      "object": "虚幻编辑器Python支持",
+      "context": "Python编辑器脚本插件是启用虚幻编辑器Python功能的基础组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python编辑器脚本插件",
+      "predicate": "包含",
+      "object": "Python 3.11.8",
+      "context": "插件内置了Python 3.11.8解释器，无需单独安装Python环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器脚本实用程序插件",
+      "predicate": "扩展",
+      "object": "Python编辑器脚本插件",
+      "context": "编辑器脚本实用程序插件为Python脚本提供了简化的API接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python控制台",
+      "predicate": "位于",
+      "object": "输出日志面板",
+      "context": "Python控制台集成在输出日志面板中，可切换为Python代码输入模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "py控制台命令",
+      "predicate": "等同于",
+      "object": "Python控制台输入",
+      "context": "py命令可以直接在标准控制台中执行Python代码，功能与Python控制台相同",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "文件菜单",
+      "predicate": "提供",
+      "object": "Python脚本执行选项",
+      "context": "文件菜单包含执行Python脚本和最近使用脚本的选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "命令行参数",
+      "predicate": "支持",
+      "object": "Python脚本执行",
+      "context": "可以通过ExecutePythonScript和-run=pythonscript参数从命令行运行Python脚本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "init_unreal.py",
+      "predicate": "用于",
+      "object": "Python环境初始化",
+      "context": "该脚本在编辑器启动时自动执行，适合项目或插件所需的初始化代码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启动脚本",
+      "predicate": "配置于",
+      "object": "项目设置",
+      "context": "可以在项目设置中指定启动时自动运行的Python脚本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纯编辑器蓝图",
+      "predicate": "集成",
+      "object": "Python执行节点",
+      "context": "蓝图可视化脚本中可以使用Python执行节点运行Python代码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python环境",
+      "predicate": "包含",
+      "object": "sys.path路径",
+      "context": "Python环境自动包含多个预设路径，如Content/Python等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "unreal模块",
+      "predicate": "提供",
+      "object": "Python API",
+      "context": "unreal模块是访问虚幻编辑器Python API的主要入口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python API",
+      "predicate": "映射",
+      "object": "蓝图功能",
+      "context": "Python API几乎可以访问所有暴露给蓝图的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EditorAssetLibrary",
+      "predicate": "用于",
+      "object": "资源管理",
+      "context": "推荐使用EditorAssetLibrary API而不是Python内置文件操作来管理资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "set_editor_property",
+      "predicate": "优于",
+      "object": "直接属性赋值",
+      "context": "设置编辑器属性时应该使用set_editor_property而不是直接赋值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ScopedEditorTransaction",
+      "predicate": "支持",
+      "object": "撤销/重复操作",
+      "context": "使用ScopedEditorTransaction可以将多个操作打包为一个可撤销单元",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ScopedSlowTask",
+      "predicate": "提供",
+      "object": "进度反馈",
+      "context": "长时间运行的脚本可以使用ScopedSlowTask显示进度对话框",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python脚本",
+      "predicate": "适用于",
+      "object": "编辑器自动化",
+      "context": "Python特别适合用于编辑器自动化任务和工作流程构建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python",
+      "predicate": "不适合",
+      "object": "游戏性脚本",
+      "context": "Python脚本仅在编辑器中可用，不能用于运行时游戏逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:40:40.579Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (20402 字符)",
+      "timestamp": "2025-06-15T20:39:43.135Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 34015,
+    "contentLength": 20402,
+    "processingTimeMs": 57453
+  }
+}

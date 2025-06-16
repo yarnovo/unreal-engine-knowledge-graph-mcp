@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_coding-in-unreal-engine-blueprint-vs.-cplusplus",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_coding-in-unreal-engine-blueprint-vs.-cplusplus.md",
+  "triples": [
+    {
+      "subject": "蓝图",
+      "predicate": "是",
+      "object": "脚本语言",
+      "context": "文档明确指出蓝图是一种脚本语言，用于与现有系统交互定义行为",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "C++",
+      "predicate": "是",
+      "object": "编程语言",
+      "context": "文档明确指出C++是一种编程语言，用于定义系统",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "对比",
+      "object": "C++",
+      "context": "文档详细对比了蓝图和C++的优势和适用场景，帮助学习者理解两者的区别和选择依据",
+      "direction": "bidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "优势包括",
+      "object": "迭代更快",
+      "context": "蓝图适合原型开发，创建、修改、编译和测试更加快捷",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "优势包括",
+      "object": "可用性更广泛",
+      "context": "蓝图的可视化流程展示更易于理解和使用，适合非程序员",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "C++",
+      "predicate": "优势包括",
+      "object": "运行时性能更快",
+      "context": "C++编译成机器代码，性能高于蓝图的字节码",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "C++",
+      "predicate": "优势包括",
+      "object": "可访问性更广",
+      "context": "C++可以访问较低级别的虚幻引擎功能",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "结合",
+      "object": "C++",
+      "context": "最佳方法是以C++为基础，在其上编译蓝图类，将C++公开以便从蓝图中使用",
+      "direction": "bidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "UBlueprintFunctionLibrary",
+      "predicate": "用于",
+      "object": "公开C++静态函数给蓝图",
+      "context": "通过扩展UBlueprintFunctionLibrary类，可以将C++静态函数公开给蓝图使用",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "蓝图头文件视图",
+      "predicate": "用于",
+      "object": "将蓝图转换为C++",
+      "context": "生成蓝图类的C++头文件，便于手动实现函数转换为C++",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "用于",
+      "object": "分析蓝图性能问题",
+      "context": "文档建议使用Unreal Insights对蓝图项目进行分析，优化性能瓶颈",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "蓝图调试器",
+      "predicate": "对比",
+      "object": "C++调试工具",
+      "context": "C++的调试工具比蓝图调试器更强大",
+      "direction": "bidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "UPROPERTY(BlueprintReadWrite)",
+      "predicate": "用于",
+      "object": "将C++变量公开给蓝图",
+      "context": "通过元数据说明符将C++变量公开，便于蓝图访问",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "UFUNCTION(BlueprintCallable)",
+      "predicate": "用于",
+      "object": "将C++函数公开给蓝图",
+      "context": "通过元数据说明符将C++函数公开，便于蓝图调用",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "UFUNCTION(BlueprintImplementableEvent)",
+      "predicate": "用于",
+      "object": "定义必须在蓝图中实现的纯虚拟函数",
+      "context": "通过该说明符定义必须在蓝图中实现的函数，便于C++调用蓝图逻辑",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "核心重定向",
+      "predicate": "用于",
+      "object": "自动更新蓝图到C++的引用",
+      "context": "在将蓝图转换为C++后，可以使用核心重定向自动重新映射引用",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "适用于",
+      "object": "原型开发",
+      "context": "蓝图迭代更快，适合快速原型开发",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "C++",
+      "predicate": "适用于",
+      "object": "核心系统开发",
+      "context": "C++性能更高，适合开发底层核心系统",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "依赖",
+      "object": "虚拟机执行",
+      "context": "蓝图编译成字节码，在虚拟机上执行，存在额外开销",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "C++",
+      "predicate": "依赖",
+      "object": "直接CPU执行",
+      "context": "C++编译成机器代码，直接在CPU上执行，性能更高",
+      "direction": "unidirectional",
+      "confidence": 1
+    }
+  ],
+  "timestamp": "2025-06-15T18:27:55.330Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8718,
+    "contentLength": 5256,
+    "processingTimeMs": 69957
+  }
+}

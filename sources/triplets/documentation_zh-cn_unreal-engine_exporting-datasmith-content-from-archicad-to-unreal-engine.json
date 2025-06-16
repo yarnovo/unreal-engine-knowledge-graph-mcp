@@ -1,0 +1,69 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_exporting-datasmith-content-from-archicad-to-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_exporting-datasmith-content-from-archicad-to-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Archicad",
+      "predicate": "支持",
+      "object": "Datasmith导出程序",
+      "context": "Archicad通过安装Datasmith导出程序，可以导出内容到虚幻引擎，帮助学习者理解Archicad与虚幻引擎的集成方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导出程序",
+      "predicate": "生成",
+      "object": ".udatasmith文件",
+      "context": "Datasmith导出程序将Archicad内容导出为.udatasmith文件，这是导入虚幻引擎的中间格式，学习者需要了解这一转换过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": ".udatasmith文件",
+      "predicate": "用于",
+      "object": "虚幻引擎导入",
+      "context": ".udatasmith文件是导入到虚幻引擎的源文件，学习者需要掌握这一文件格式在数据转换中的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith工具栏",
+      "predicate": "包含",
+      "object": "导出至Datasmith按钮",
+      "context": "Datasmith工具栏提供了导出功能，学习者需要熟悉工具栏的操作界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导出至Datasmith按钮",
+      "predicate": "打开",
+      "object": "导出至Datasmith文件窗口",
+      "context": "点击该按钮会打开导出窗口，学习者需要了解这一操作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Dataprep导入自定义",
+      "predicate": "用于",
+      "object": "数据清理和修改",
+      "context": "Dataprep工具可以对导入的数据进行额外处理，学习者需要了解这一高级功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Archicad",
+      "predicate": "与",
+      "object": "虚幻引擎",
+      "context": "两者通过Datasmith技术实现数据交换，学习者需要理解这一工作流程的整体架构",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:01:28.969Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2263,
+    "contentLength": 1723,
+    "processingTimeMs": 31842
+  }
+}

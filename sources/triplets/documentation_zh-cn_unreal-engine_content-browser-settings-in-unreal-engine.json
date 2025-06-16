@@ -1,0 +1,157 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_content-browser-settings-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_content-browser-settings-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "内容浏览器",
+      "predicate": "包含",
+      "object": "设置按钮",
+      "context": "设置按钮位于内容浏览器的右上角，用于调整内容浏览器的各种设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设置按钮",
+      "predicate": "控制",
+      "object": "视图类型",
+      "context": "通过设置按钮可以调整内容浏览器的视图类型，如图块、列表或列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视图类型",
+      "predicate": "包含",
+      "object": "图块视图",
+      "context": "图块视图是内容浏览器中资产显示的一种方式，将所有资产布局为图块网格",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视图类型",
+      "predicate": "包含",
+      "object": "列表视图",
+      "context": "列表视图是内容浏览器中资产显示的一种方式，将所有资产布局为带有名称和文件类型的缩略图列表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视图类型",
+      "predicate": "包含",
+      "object": "列视图",
+      "context": "列视图是内容浏览器中资产显示的一种方式，使用属性的电子表格式排列来布局所有资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "列视图",
+      "predicate": "支持",
+      "object": "导出为CSV",
+      "context": "在列视图中，可以将所有资产细节导出为CSV文件，便于数据分析和处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "包含",
+      "object": "锁定功能",
+      "context": "锁定功能允许内容浏览器实例忽略“在内容浏览器中查找”的请求，便于专注于当前工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "包含",
+      "object": "视图设置",
+      "context": "视图设置用于切换内容浏览器中显示的内容和筛选行为，如显示文件夹、显示空文件夹等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视图设置",
+      "predicate": "控制",
+      "object": "显示文件夹",
+      "context": "显示文件夹选项用于控制内容浏览器是否显示文件夹视图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视图设置",
+      "predicate": "控制",
+      "object": "显示收藏夹",
+      "context": "显示收藏夹选项用于在源面板顶部添加收藏夹类别，便于快速访问常用文件夹或资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "包含",
+      "object": "内容设置",
+      "context": "内容设置用于控制特定类型的资产是否显示在资产视图中，如显示C++类、显示引擎内容等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "包含",
+      "object": "搜索选项",
+      "context": "搜索选项用于控制在内容浏览器中执行的搜索中包含或排除哪些内容，如资产类名、资产路径等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "包含",
+      "object": "缩略图选项",
+      "context": "缩略图选项用于控制生成和显示缩略图的方式，如缩略图大小、缩略图编辑模式等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缩略图选项",
+      "predicate": "控制",
+      "object": "缩略图大小",
+      "context": "缩略图大小选项允许用户选择五种可能的缩略图大小，以适应不同的查看需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缩略图选项",
+      "predicate": "控制",
+      "object": "缩略图编辑模式",
+      "context": "缩略图编辑模式允许用户在3D资产的缩略图内调整视图，便于更好地展示资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "关联",
+      "object": "编辑器偏好设置",
+      "context": "编辑器偏好设置中包含影响内容浏览器的更多设置，如默认打开源面板、启用实时材质实例缩略图等",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器偏好设置",
+      "predicate": "控制",
+      "object": "默认打开源面板",
+      "context": "默认打开源面板选项用于控制内容浏览器是否默认显示源面板",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器偏好设置",
+      "predicate": "控制",
+      "object": "启用实时材质实例缩略图",
+      "context": "启用实时材质实例缩略图选项用于控制材质实例缩略图是否实时渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:33:22.553Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9167,
+    "contentLength": 5553,
+    "processingTimeMs": 63544
+  }
+}

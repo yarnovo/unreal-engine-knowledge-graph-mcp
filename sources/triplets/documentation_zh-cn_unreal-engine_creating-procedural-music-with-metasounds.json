@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_creating-procedural-music-with-metasounds",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_creating-procedural-music-with-metasounds.md",
+  "triples": [
+    {
+      "subject": "MetaSound",
+      "predicate": "是",
+      "object": "高性能音频系统",
+      "context": "MetaSound被描述为一种高性能的音频系统，使音频设计师能够完全控制数字信号处理图表",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "MetaSound",
+      "predicate": "用于",
+      "object": "创建程序化音乐",
+      "context": "文档主要介绍如何使用MetaSound创建Gameplay驱动的程序化音乐系统",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "MetaSound源",
+      "predicate": "属于",
+      "object": "MetaSound",
+      "context": "MetaSound源是MetaSound系统中的一个具体实现类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSound编辑器",
+      "predicate": "用于",
+      "object": "编辑MetaSound源",
+      "context": "MetaSound编辑器是创建和修改MetaSound源的主要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trigger Repeat节点",
+      "predicate": "控制",
+      "object": "音乐计时",
+      "context": "在节奏和韵律部分，Trigger Repeat节点用于控制音乐的计时",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BPM To Seconds节点",
+      "predicate": "转换",
+      "object": "BPM值为时间间隔",
+      "context": "BPM To Seconds节点将BPM值转换为时间间隔，用于Trigger Repeat节点的周期输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Random Get (Float:Array)节点",
+      "predicate": "生成",
+      "object": "随机旋律",
+      "context": "在旋律生成部分，Random Get节点用于从音阶数组中随机选择音符",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Scale to Note Array节点",
+      "predicate": "提供",
+      "object": "音阶音符数组",
+      "context": "Scale to Note Array节点为Random Get节点提供可选择的音阶音符数组",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sine节点",
+      "predicate": "生成",
+      "object": "正弦波",
+      "context": "在合成(正弦)部分，Sine节点根据输入音符的频率生成正弦波",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Saw节点",
+      "predicate": "生成",
+      "object": "锯齿波",
+      "context": "在合成(锯齿)部分，Saw节点根据输入音符的频率生成锯齿波",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Crossfade (Audio, 2)节点",
+      "predicate": "混合",
+      "object": "正弦和锯齿波",
+      "context": "交叉过渡节点控制正弦和锯齿合成的混合比例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Ladder Filter节点",
+      "predicate": "处理",
+      "object": "音频滤波",
+      "context": "滤波部分使用Ladder Filter节点平滑声音",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AD Envelope (Audio)节点",
+      "predicate": "控制",
+      "object": "音符包络",
+      "context": "波封部分使用AD Envelope节点去除旋律中音符的延持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Stereo Delay节点",
+      "predicate": "创建",
+      "object": "立体声效果",
+      "context": "效果处理部分使用Stereo Delay节点生成立体声范围扩大效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图Actor",
+      "predicate": "控制",
+      "object": "MetaSound参数",
+      "context": "蓝图Actor通过碰撞触发器控制MetaSound的BPM、交叉过渡等参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "盒体碰撞组件",
+      "predicate": "检测",
+      "object": "玩家交互",
+      "context": "蓝图Actor使用盒体碰撞组件检测玩家进入/离开触发区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Set Float Parameter节点",
+      "predicate": "修改",
+      "object": "MetaSound参数",
+      "context": "蓝图使用Set Float Parameter节点动态修改MetaSound的BPM和交叉过渡值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Execute Trigger Parameter节点",
+      "predicate": "触发",
+      "object": "新旋律生成",
+      "context": "蓝图使用Execute Trigger Parameter节点触发MetaSound生成新旋律",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSound源",
+      "predicate": "包含",
+      "object": "多个处理分段",
+      "context": "MetaSound源由节奏和韵律、旋律生成、合成、滤波等多个分段组成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "程序化音乐系统",
+      "predicate": "由...组成",
+      "object": "MetaSound和蓝图",
+      "context": "完整的程序化音乐系统需要MetaSound处理音频和蓝图控制参数两部分配合",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:42:38.506Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (16329 字符)",
+      "timestamp": "2025-06-15T18:41:38.515Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 24001,
+    "contentLength": 16329,
+    "processingTimeMs": 59997
+  }
+}

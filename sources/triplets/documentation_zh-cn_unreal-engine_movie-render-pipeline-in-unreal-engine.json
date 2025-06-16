@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_movie-render-pipeline-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_movie-render-pipeline-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "影片渲染管线",
+      "predicate": "是",
+      "object": "虚幻引擎的离线图像序列和影片渲染解决方案",
+      "context": "明确说明影片渲染管线的核心功能定位",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "影片渲染管线",
+      "predicate": "支持",
+      "object": "光线追踪全局光照",
+      "context": "文档明确说明管线可提升光线追踪功能的质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染管线",
+      "predicate": "包含",
+      "object": "影片渲染图表",
+      "context": "MRG是管线的三大交互工具之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染管线",
+      "predicate": "包含",
+      "object": "影片渲染队列",
+      "context": "MRQ是管线的核心组件之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染管线",
+      "predicate": "包含",
+      "object": "快速渲染",
+      "context": "快速渲染是管线的三大工具之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染图表",
+      "predicate": "基于",
+      "object": "节点图形界面",
+      "context": "MRG采用基于节点的可视化编程方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染图表",
+      "predicate": "可替换",
+      "object": "影片渲染队列预设系统",
+      "context": "文档说明新旧系统可以互换使用",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "影片渲染队列",
+      "predicate": "用于",
+      "object": "批量渲染管理",
+      "context": "MRQ的核心功能是批量处理渲染作业",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染队列",
+      "predicate": "支持",
+      "object": "时间子采样",
+      "context": "MRQ支持高质量动态模糊渲染",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "快速渲染",
+      "predicate": "适用于",
+      "object": "实时预览渲染",
+      "context": "快速渲染专为快速查看和审查设计",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Alpha通道支持",
+      "predicate": "影响",
+      "object": "影片渲染管线输出",
+      "context": "项目设置中的Alpha选项直接影响渲染结果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "关卡序列",
+      "predicate": "是",
+      "object": "影片渲染的必要输入",
+      "context": "所有渲染工具都需要关卡序列作为输入源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染队列插件",
+      "predicate": "需要",
+      "object": "手动启用",
+      "context": "使用前需在插件管理中显式启用",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "可控制",
+      "object": "影片渲染队列",
+      "context": "支持通过蓝图编程控制渲染流程",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "延迟渲染",
+      "predicate": "是",
+      "object": "默认渲染模式",
+      "context": "基础渲染必须包含延迟渲染设置项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染预览窗口",
+      "predicate": "显示",
+      "object": "实时渲染进度",
+      "context": "提供渲染过程中的实时视觉反馈",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输出格式设置",
+      "predicate": "决定",
+      "object": "渲染结果类型",
+      "context": "可选择PNG/JPG等不同输出格式",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "编辑器视口设置",
+      "predicate": "影响",
+      "object": "快速渲染结果",
+      "context": "快速渲染会继承视口的显示标记等设置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "远程渲染",
+      "predicate": "需要",
+      "object": "项目保存",
+      "context": "远程进程只能读取已保存的磁盘文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Meerkat演示",
+      "predicate": "作为",
+      "object": "学习示例项目",
+      "context": "文档推荐使用该示例进行管线学习",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:01:34.515Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (24308 字符)",
+      "timestamp": "2025-06-15T20:00:38.369Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 38002,
+    "contentLength": 24308,
+    "processingTimeMs": 56162
+  }
+}

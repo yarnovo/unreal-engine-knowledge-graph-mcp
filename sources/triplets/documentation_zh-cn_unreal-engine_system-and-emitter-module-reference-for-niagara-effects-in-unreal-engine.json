@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_system-and-emitter-module-reference-for-niagara-effects-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_system-and-emitter-module-reference-for-niagara-effects-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Niagara系统",
+      "predicate": "包含",
+      "object": "发射器",
+      "context": "Niagara系统由多个发射器组成，理解这种包含关系有助于学习者掌握系统的层级结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara选择堆栈模型",
+      "predicate": "控制",
+      "object": "模块执行顺序",
+      "context": "堆栈模型决定了模块的执行顺序，这是理解Niagara效果如何生成的关键概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块",
+      "predicate": "属于",
+      "object": "组",
+      "context": "模块必须属于特定的组（系统组、发射器组、粒子组或渲染器组），这决定了它们的执行时机",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "系统组",
+      "predicate": "先于",
+      "object": "发射器组",
+      "context": "系统组模块先于发射器组执行，这种时序关系对理解Niagara的模拟流程至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器组",
+      "predicate": "先于",
+      "object": "粒子组",
+      "context": "发射器组模块执行后才处理粒子组，这种层级执行顺序是Niagara模拟的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子组",
+      "predicate": "先于",
+      "object": "渲染器组",
+      "context": "粒子模拟完成后才进行渲染，理解这个流程有助于调试视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块",
+      "predicate": "是",
+      "object": "项目",
+      "context": "所有模块都是项目，但项目不一定是模块，这种类属关系帮助理解Niagara的可编辑元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "执行状态",
+      "predicate": "控制",
+      "object": "粒子生成",
+      "context": "不同的执行状态（活跃/非活跃/InactiveClear/完成）直接影响粒子生成行为，这是效果控制的核心机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器",
+      "predicate": "拥有",
+      "object": "独立执行状态",
+      "context": "发射器可以独立于系统设置执行状态，这种独立性允许更复杂的效果控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara系统",
+      "predicate": "使用",
+      "object": "堆栈模型",
+      "context": "堆栈模型是Niagara系统的核心执行机制，理解这一点是掌握Niagara的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染器",
+      "predicate": "转换",
+      "object": "粒子数据到屏幕",
+      "context": "渲染器负责将模拟的粒子数据转换为可视效果，这是从数据到视觉呈现的关键环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "活跃状态",
+      "predicate": "允许",
+      "object": "粒子生成",
+      "context": "活跃状态是粒子能够生成的必要条件，理解状态管理对效果控制很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InactiveClear状态",
+      "predicate": "先执行",
+      "object": "销毁粒子",
+      "context": "InactiveClear状态会先销毁所有粒子再转为非活跃，这是重要的状态转换行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "完成状态",
+      "predicate": "停止",
+      "object": "模拟和渲染",
+      "context": "完成状态会完全停止效果，这是效果生命周期的最终阶段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:57:22.119Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4080,
+    "contentLength": 2730,
+    "processingTimeMs": 43119
+  }
+}

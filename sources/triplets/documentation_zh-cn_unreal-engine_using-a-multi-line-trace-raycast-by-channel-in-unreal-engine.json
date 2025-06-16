@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-a-multi-line-trace-raycast-by-channel-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-a-multi-line-trace-raycast-by-channel-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Multi Line Trace By Channel",
+      "predicate": "替代",
+      "object": "Line Trace By Channel",
+      "context": "Multi Line Trace By Channel 可以替代 Line Trace By Channel 来实现多物体碰撞检测",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Multi Line Trace By Channel",
+      "predicate": "返回",
+      "object": "命中Actor",
+      "context": "Multi Line Trace By Channel 会返回所有与特定追踪通道发生重叠的Actor和组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Multi Line Trace By Channel",
+      "predicate": "依赖",
+      "object": "追踪通道",
+      "context": "Multi Line Trace By Channel 的功能依赖于特定的追踪通道设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Multi Line Trace By Channel",
+      "predicate": "区别于",
+      "object": "Multi Line Trace By Object",
+      "context": "Multi Line Trace By Channel 只返回对特定追踪通道响应的对象，而 Multi Line Trace By Object 会返回所有对象",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ForEachLoop",
+      "predicate": "处理",
+      "object": "Out Hits",
+      "context": "ForEachLoop 用于处理 Multi Line Trace By Channel 返回的多个命中结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Break Hit Result",
+      "predicate": "解析",
+      "object": "Hit Actor",
+      "context": "Break Hit Result 用于解析命中结果中的 Actor 信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Display Name (Object)",
+      "predicate": "获取",
+      "object": "Actor名称",
+      "context": "Get Display Name (Object) 用于获取命中 Actor 的显示名称",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Print String",
+      "predicate": "显示",
+      "object": "Actor名称",
+      "context": "Print String 用于将命中 Actor 的名称显示到屏幕上",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可破坏网格体",
+      "predicate": "设置",
+      "object": "Trace Response",
+      "context": "可破坏网格体可以通过设置 Trace Response 来控制其对追踪的响应方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Visibility",
+      "predicate": "控制",
+      "object": "追踪响应",
+      "context": "Visibility 通道的设置可以控制物体对追踪的响应方式（Overlap 或 Block）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Multi Line Trace By Channel",
+      "predicate": "适用于",
+      "object": "游戏物理",
+      "context": "Multi Line Trace By Channel 常用于游戏物理中的碰撞检测",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Multi Line Trace By Channel",
+      "predicate": "用于",
+      "object": "射击游戏",
+      "context": "Multi Line Trace By Channel 可以用于射击游戏中检测子弹命中",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:13:07.151Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3813,
+    "contentLength": 2927,
+    "processingTimeMs": 33664
+  }
+}

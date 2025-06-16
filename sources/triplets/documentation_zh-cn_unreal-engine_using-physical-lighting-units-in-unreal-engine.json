@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-physical-lighting-units-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-physical-lighting-units-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "使用",
+      "object": "物理光照单位",
+      "context": "虚幻引擎中的光源使用基于物理的光照单位定义，帮助实现真实的光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理光照单位",
+      "predicate": "支持",
+      "object": "眼部适应",
+      "context": "物理光照单位与眼部适应（自动曝光）的后期处理配合使用，扩展了值的范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定向光源",
+      "predicate": "使用",
+      "object": "勒克斯",
+      "context": "定向光源使用勒克斯作为光照强度的单位，表示定向法线照度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空光照",
+      "predicate": "使用",
+      "object": "每平方米烛光",
+      "context": "天空光照使用每平方米烛光作为照度的单位，用于计算总照度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自发光材质",
+      "predicate": "使用",
+      "object": "每平方米烛光",
+      "context": "自发光材质使用每平方米烛光表示像素照度，用于静态光照烘焙",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "点光源",
+      "predicate": "可选择",
+      "object": "烛光",
+      "context": "点光源可以选择烛光作为光照强度的单位，用于测量发光强度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "点光源",
+      "predicate": "可选择",
+      "object": "流明",
+      "context": "点光源可以选择流明作为光照强度的单位，用于测量光通量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "点光源",
+      "predicate": "可选择",
+      "object": "无单位",
+      "context": "点光源可以选择无单位的光照强度值，保持与旧版本引擎的兼容性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "聚光源",
+      "predicate": "可选择",
+      "object": "烛光",
+      "context": "聚光源可以选择烛光作为光照强度的单位，用于测量发光强度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "聚光源",
+      "predicate": "可选择",
+      "object": "流明",
+      "context": "聚光源可以选择流明作为光照强度的单位，用于测量光通量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "聚光源",
+      "predicate": "可选择",
+      "object": "无单位",
+      "context": "聚光源可以选择无单位的光照强度值，保持与旧版本引擎的兼容性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "矩形光源",
+      "predicate": "可选择",
+      "object": "烛光",
+      "context": "矩形光源可以选择烛光作为光照强度的单位，用于测量发光强度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "矩形光源",
+      "predicate": "可选择",
+      "object": "流明",
+      "context": "矩形光源可以选择流明作为光照强度的单位，用于测量光通量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "矩形光源",
+      "predicate": "可选择",
+      "object": "无单位",
+      "context": "矩形光源可以选择无单位的光照强度值，保持与旧版本引擎的兼容性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "逆平方衰减",
+      "predicate": "基于",
+      "object": "物理距离衰减",
+      "context": "逆平方衰减是基于物理的距离衰减，用于控制光源的影响范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "包含",
+      "object": "默认光照单位",
+      "context": "项目设置中可以设置点光源、聚光源和矩形光源的默认光照单位",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动曝光",
+      "predicate": "受控于",
+      "object": "柱状图范围",
+      "context": "自动曝光的柱状图范围可以调整以解决曝光稳定性问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "场景颜色缓冲",
+      "predicate": "可能溢出",
+      "object": "反光表面瑕疵",
+      "context": "场景颜色缓冲溢出可能导致反光表面出现黑斑等瑕疵",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理体积",
+      "predicate": "用于",
+      "object": "调整默认设置",
+      "context": "后期处理体积可以用于调整默认的后期处理设置，避免对摄像机产生意想不到的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:21:45.478Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9812,
+    "contentLength": 5838,
+    "processingTimeMs": 50709
+  }
+}

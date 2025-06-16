@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_rift-command-reference-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_rift-command-reference-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "vr.oculus.bHQBuffer",
+      "predicate": "控制",
+      "object": "浮点纹理格式",
+      "context": "该命令用于启用或禁用将浮点纹理格式用于眼睛层，帮助学习者理解渲染质量控制的底层机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "vr.oculus.bHQBuffer",
+      "predicate": "控制",
+      "object": "mipmap等级",
+      "context": "该命令同时控制是否使用多个mipmap等级，展示渲染优化技术的关联性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "vr.oculus.PixelDensity",
+      "predicate": "影响",
+      "object": "渲染目标纹理尺寸",
+      "context": "像素密度参数直接决定渲染目标纹理尺寸与推荐纹理尺寸的比例关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "vr.oculus.PixelDensity.adaptive",
+      "predicate": "扩展",
+      "object": "vr.oculus.PixelDensity",
+      "context": "自适应像素密度是基础像素密度功能的增强实现，体现功能演进关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "vr.oculus.PixelDensity.max",
+      "predicate": "约束",
+      "object": "vr.oculus.PixelDensity.adaptive",
+      "context": "最大像素密度参数限定自适应功能的上限值，展示参数间的约束关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "vr.oculus.PixelDensity.min",
+      "predicate": "约束",
+      "object": "vr.oculus.PixelDensity.adaptive",
+      "context": "最小像素密度参数限定自适应功能的下限值，形成完整的参数控制体系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "vr.oculus.Debug.Show",
+      "predicate": "依赖",
+      "object": "立体渲染参数",
+      "context": "该调试命令需要读取立体渲染参数的当前值，展示调试工具与核心参数的依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "vr.oculus.Stress.CPU",
+      "predicate": "对应",
+      "object": "vr.oculus.Stress.GPU",
+      "context": "CPU与GPU压力测试命令形成对比组，帮助学习者理解不同硬件组件的性能测试方法",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "vr.oculus.Debug.Reset",
+      "predicate": "影响",
+      "object": "立体渲染参数",
+      "context": "重置命令会恢复立体渲染参数的原始设置，体现参数管理机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "vr.oculus.Debug.CaptureCubemap",
+      "predicate": "生成",
+      "object": "立方体贴图",
+      "context": "该命令专门用于生成Oculus Home环境的立方体贴图，展示特定功能的实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "vr.oculus.Debug.EnforceHeadTracking",
+      "predicate": "强制",
+      "object": "头部追踪",
+      "context": "该调试命令可以强制启用头部追踪功能，即使不在立体模式下，展示功能测试手段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "vr.oculus.Debug.IPD",
+      "predicate": "调整",
+      "object": "瞳孔间距",
+      "context": "该命令直接操作VR设备的核心参数——瞳孔间距（以米为单位），展示硬件参数调节方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "vr.oculus.Stress.PD",
+      "predicate": "测试",
+      "object": "vr.oculus.PixelDensity",
+      "context": "像素密度压力测试专门针对像素密度功能进行极限测试，体现质量保证手段",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:38:38.058Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3198,
+    "contentLength": 2134,
+    "processingTimeMs": 54471
+  }
+}

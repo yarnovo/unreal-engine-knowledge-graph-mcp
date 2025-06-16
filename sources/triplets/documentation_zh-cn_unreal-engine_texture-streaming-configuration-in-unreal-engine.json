@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_texture-streaming-configuration-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_texture-streaming-configuration-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "纹理流送",
+      "predicate": "控制",
+      "object": "r.TextureStreaming",
+      "context": "r.TextureStreaming命令用于启用或禁用纹理流送器，是控制纹理流送的核心开关",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理流送",
+      "predicate": "依赖",
+      "object": "纹理池",
+      "context": "纹理流送需要依赖纹理池来管理内存中的纹理资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理池",
+      "predicate": "配置",
+      "object": "r.Streaming.PoolSize",
+      "context": "r.Streaming.PoolSize参数用于配置纹理池的大小，直接影响纹理流送的资源可用性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理流送",
+      "predicate": "影响",
+      "object": "CPU使用率",
+      "context": "纹理流送的更新频率会影响CPU使用率，如r.Streaming.FramesForFullUpdate参数所示",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "纹理流送",
+      "predicate": "替代",
+      "object": "完全禁用纹理流送",
+      "context": "r.Streaming.FullyLoadUsedTextures命令可以作为完全禁用纹理流送的替代方案，更节省内存",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理流送",
+      "predicate": "包含",
+      "object": "mip加载策略",
+      "context": "纹理流送包含多种mip加载策略，如r.Streaming.HLODStrategy参数所示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理流送",
+      "predicate": "影响",
+      "object": "视觉质量",
+      "context": "纹理流送的配置如r.Streaming.MinMipForSplitRequest可以影响视觉质量",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "纹理流送",
+      "predicate": "关联",
+      "object": "GPU内存",
+      "context": "r.Streaming.LimitPoolSizeToVRAM参数表明纹理流送可以与GPU内存相关联",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "纹理流送",
+      "predicate": "使用",
+      "object": "材质数据",
+      "context": "r.Streaming.UseMaterialData参数表明纹理流送可以使用材质纹理缩放和坐标数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理流送",
+      "predicate": "影响",
+      "object": "性能优化",
+      "context": "纹理流送的多种配置参数如r.Streaming.FramesForFullUpdate直接影响性能优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理流送",
+      "predicate": "关联",
+      "object": "渲染",
+      "context": "纹理流送直接影响渲染质量和效率，是渲染管线的重要组成部分",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理流送",
+      "predicate": "包含",
+      "object": "调试选项",
+      "context": "纹理流送包含多种调试选项如r.Streaming.DropMips用于开发调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理流送",
+      "predicate": "依赖",
+      "object": "纹理组设置",
+      "context": "r.Streaming.UseAllMips参数表明纹理流送可以依赖或忽略纹理组设置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "纹理流送",
+      "predicate": "关联",
+      "object": "层级LOD",
+      "context": "r.Streaming.HLODStrategy参数专门控制层级LOD纹理的加载策略",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理流送",
+      "predicate": "影响",
+      "object": "内存使用",
+      "context": "纹理流送的各种配置如r.Streaming.PoolSize直接影响内存使用效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:00:01.932Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6431,
+    "contentLength": 3447,
+    "processingTimeMs": 45373
+  }
+}

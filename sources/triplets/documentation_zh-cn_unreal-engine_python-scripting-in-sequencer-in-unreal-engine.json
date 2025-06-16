@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_python-scripting-in-sequencer-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_python-scripting-in-sequencer-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Python脚本",
+      "predicate": "用于",
+      "object": "Sequencer",
+      "context": "Python脚本可以用于自动执行和控制Sequencer的各个部分，帮助开发者高效管理动画和过场动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LevelSequence",
+      "predicate": "包含",
+      "object": "MovieSceneBindingProxy",
+      "context": "LevelSequence作为过场动画场景的容器，包含绑定到不同对象的Actor或组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MovieSceneBindingProxy",
+      "predicate": "定义",
+      "object": "Actor或组件",
+      "context": "MovieSceneBindingProxy结构体定义了关卡序列绑定的Actor或组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可持有对象",
+      "predicate": "描述",
+      "object": "Actor或组件",
+      "context": "可持有对象绑定类型描述关卡中存在的Actor或组件，可以拥有任意可制作动画的属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可生成对象",
+      "predicate": "描述",
+      "object": "Actor或组件",
+      "context": "可生成对象绑定类型描述仅当序列在播放时存在的Actor或组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MovieSceneTrack",
+      "predicate": "位于",
+      "object": "MovieSceneBindingProxy",
+      "context": "MovieSceneTrack位于绑定下，包含特定类型属性的编辑内容的所有分段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MovieSceneSection",
+      "predicate": "位于",
+      "object": "MovieSceneTrack",
+      "context": "MovieSceneSection位于轨道下，包含特定类型属性的所有通道、长度和参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MovieSceneScriptingChannel",
+      "predicate": "位于",
+      "object": "MovieSceneSection",
+      "context": "MovieSceneScriptingChannel位于分段下，包含对特定类型属性或子属性制作动画的所有关键帧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MovieSceneScriptingKey",
+      "predicate": "表示",
+      "object": "关键帧",
+      "context": "MovieSceneScriptingKey表示特定类型通道中的关键帧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LevelSequence",
+      "predicate": "依赖",
+      "object": "FrameRate",
+      "context": "LevelSequence的播放速率依赖于FrameRate的设置，影响动画的时间控制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "LevelSequenceEditorSubsystem",
+      "predicate": "支持",
+      "object": "添加Actor",
+      "context": "LevelSequenceEditorSubsystem支持通过Python脚本添加Actor到Sequencer，便于动画制作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "MovieScene3DTransformTrack",
+      "predicate": "包含",
+      "object": "MovieScene3DTransformSection",
+      "context": "变换轨道包含变换分段，用于控制Actor或组件的变换属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MovieSceneSkeletalAnimationTrack",
+      "predicate": "包含",
+      "object": "MovieSceneSkeletalAnimationSection",
+      "context": "骨骼网格体动画轨道包含动画分段，用于控制骨骼网格体的动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LevelSequenceEditorBlueprintLibrary",
+      "predicate": "提供",
+      "object": "访问关卡序列",
+      "context": "LevelSequenceEditorBlueprintLibrary提供多种方法访问当前或新建的关卡序列，便于脚本操作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "支持",
+      "object": "轨道筛选",
+      "context": "Sequencer支持轨道筛选功能，便于开发者快速定位和管理特定类型的轨道",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Python脚本",
+      "predicate": "扩展",
+      "object": "Sequencer功能",
+      "context": "通过Python脚本可以扩展Sequencer的功能，实现自动化操作和复杂动画控制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "LevelSequence",
+      "predicate": "用于",
+      "object": "过场动画制作",
+      "context": "LevelSequence是虚幻引擎中制作过场动画的核心资产，包含动画数据和轨道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MovieSceneTrack",
+      "predicate": "控制",
+      "object": "属性动画",
+      "context": "MovieSceneTrack用于控制特定类型属性的动画，如变换、动画等",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "MovieSceneSection",
+      "predicate": "管理",
+      "object": "动画参数",
+      "context": "MovieSceneSection管理动画的范围、参数和属性，是动画控制的基本单元",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:32:15.114Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (14322 字符)",
+      "timestamp": "2025-06-15T20:31:15.923Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19074,
+    "contentLength": 14322,
+    "processingTimeMs": 59194
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_contact-shadows-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_contact-shadows-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "接触阴影",
+      "predicate": "用于",
+      "object": "点光源",
+      "context": "接触阴影可以用于点光源，以增强场景的视觉深度和细节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "接触阴影",
+      "predicate": "实现",
+      "object": "逐像素屏幕空间算法",
+      "context": "接触阴影通过逐像素屏幕空间算法实现，执行场景深度渲染光线行进",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "接触阴影",
+      "predicate": "增强",
+      "object": "视觉深度",
+      "context": "接触阴影能够增强场景的视觉深度和保真度，提供更准确的阴影近似",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "接触阴影",
+      "predicate": "替代",
+      "object": "视差遮蔽映射阴影",
+      "context": "在材质的像素着色器只支持一个灯光时，接触阴影可以替代视差遮蔽映射阴影",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "点光源",
+      "predicate": "包含",
+      "object": "Contact Shadow Length",
+      "context": "点光源的Details面板中包含Contact Shadow Length参数，用于控制接触阴影的长度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Contact Shadow Length",
+      "predicate": "控制",
+      "object": "光线追踪范围",
+      "context": "Contact Shadow Length参数控制光线从像素位置到光源的追踪范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "接触阴影",
+      "predicate": "生成",
+      "object": "噪点",
+      "context": "增加接触阴影的长度会导致更多的噪点（穿帮）出现",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "视差遮蔽映射材质",
+      "predicate": "输出",
+      "object": "像素深度偏移",
+      "context": "视差遮蔽映射材质应输出像素深度偏移，以便与接触阴影交互",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "接触阴影",
+      "predicate": "适用于",
+      "object": "角色细节增强",
+      "context": "接触阴影适用于为角色渲染额外的细节级别（LOD），提升角色视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "接触阴影",
+      "predicate": "基于",
+      "object": "场景深度缓存",
+      "context": "接触阴影的实现基于场景的深度缓存，进行光线追踪",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:32:58.303Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5138,
+    "contentLength": 3458,
+    "processingTimeMs": 39295
+  }
+}

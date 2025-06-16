@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_custom-navigation-areas-and-query-filters-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_custom-navigation-areas-and-query-filters-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "寻路系统",
+      "predicate": "包含",
+      "object": "寻路网格体",
+      "context": "寻路系统使用寻路网格体来实现代理的寻路功能，理解这一关系有助于掌握寻路系统的基本工作原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "组成",
+      "object": "寻路多边形",
+      "context": "寻路网格体由多个寻路多边形组成，了解这一结构关系有助于理解寻路计算的细节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理",
+      "predicate": "使用",
+      "object": "寻路网格体",
+      "context": "代理通过寻路网格体进行寻路，这一关系是理解代理移动行为的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理",
+      "predicate": "比较",
+      "object": "寻路多边形成本",
+      "context": "代理通过比较寻路多边形的成本来选择最优路线，这一关系解释了代理的决策机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路调整器体积",
+      "predicate": "修改",
+      "object": "寻路多边形成本",
+      "context": "寻路调整器体积可以改变寻路多边形的成本，理解这一关系有助于掌握如何影响代理的寻路行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路查询筛选器",
+      "predicate": "修改",
+      "object": "寻路多边形成本",
+      "context": "寻路查询筛选器用于调整寻路多边形的成本，这一关系是自定义寻路行为的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义寻路区域",
+      "predicate": "扩展",
+      "object": "寻路系统",
+      "context": "自定义寻路区域扩展了寻路系统的功能，理解这一关系有助于掌握系统的高级用法",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "自定义查询筛选器",
+      "predicate": "扩展",
+      "object": "寻路系统",
+      "context": "自定义查询筛选器提供了更灵活的寻路控制方式，这一关系对高级寻路定制很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "寻路系统",
+      "predicate": "支持",
+      "object": "代理寻路",
+      "context": "寻路系统的主要功能是支持代理寻路，这是系统的核心价值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路多边形成本",
+      "predicate": "影响",
+      "object": "代理路线选择",
+      "context": "寻路多边形成本直接影响代理的路线选择决策，理解这一关系对设计寻路行为很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路调整器体积",
+      "predicate": "与",
+      "object": "寻路查询筛选器",
+      "context": "两者都是修改寻路多边形成本的方法，理解它们的区别和适用场景对寻路系统定制很重要",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "示例项目",
+      "predicate": "包含",
+      "object": "LevelCustomZones关卡",
+      "context": "示例项目中的LevelCustomZones关卡展示了自定义寻路区域的实现，这对学习具体应用很有帮助",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:43:36.211Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2662,
+    "contentLength": 1840,
+    "processingTimeMs": 50851
+  }
+}

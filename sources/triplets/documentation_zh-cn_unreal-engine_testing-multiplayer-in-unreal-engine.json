@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_testing-multiplayer-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_testing-multiplayer-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "多人游戏测试",
+      "predicate": "包含",
+      "object": "设置玩家数量",
+      "context": "设置玩家数量是多人游戏测试的基本配置步骤，帮助开发者模拟不同玩家数量的场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多人游戏测试",
+      "predicate": "包含",
+      "object": "调整运行窗口",
+      "context": "调整运行窗口是多人游戏测试的重要环节，帮助开发者更清晰地观察不同玩家的游戏状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多人游戏测试",
+      "predicate": "包含",
+      "object": "高级设置",
+      "context": "高级设置提供了多人游戏测试的更多配置选项，帮助开发者进行更精细的测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高级设置",
+      "predicate": "包含",
+      "object": "多人选项",
+      "context": "多人选项是高级设置中的核心部分，提供了多人游戏测试的关键配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多人选项",
+      "predicate": "包含",
+      "object": "玩家数量",
+      "context": "玩家数量是多人选项中的基本配置，决定了测试时模拟的玩家数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多人选项",
+      "predicate": "包含",
+      "object": "运行专用服务器",
+      "context": "运行专用服务器是多人选项中的重要配置，决定了是否使用专用服务器进行测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多人选项",
+      "predicate": "包含",
+      "object": "使用单个进程",
+      "context": "使用单个进程是多人选项中的性能配置，影响测试时的进程管理方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "监听服务器",
+      "predicate": "对比",
+      "object": "专用服务器",
+      "context": "监听服务器和专用服务器是多人游戏测试的两种不同托管方式，理解它们的区别有助于选择适合的测试方案",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "监听服务器",
+      "predicate": "用于",
+      "object": "本地玩家托管",
+      "context": "监听服务器适用于本地玩家同时托管游戏的场景，是默认的服务器类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "专用服务器",
+      "predicate": "用于",
+      "object": "独立游戏托管",
+      "context": "专用服务器专门用于游戏托管，不参与本地游戏，能更充分利用资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行专用服务器",
+      "predicate": "实现",
+      "object": "专用服务器",
+      "context": "通过运行专用服务器选项可以启用专用服务器进行测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调整运行窗口",
+      "predicate": "涉及",
+      "object": "新建编辑器窗口",
+      "context": "调整运行窗口可以通过新建编辑器窗口选项实现，为服务器和客户端创建独立窗口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高级设置",
+      "predicate": "包含",
+      "object": "多人游戏视口大小",
+      "context": "多人游戏视口大小是高级设置中的重要参数，控制测试窗口的尺寸",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "使用单个进程",
+      "predicate": "影响",
+      "object": "性能与稳定性",
+      "context": "使用单个进程选项会影响测试的性能和稳定性，开发者需要根据需求权衡",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "多人游戏测试",
+      "predicate": "前置",
+      "object": "了解网络模式",
+      "context": "进行多人游戏测试前需要了解不同的网络模式（如监听服务器、专用服务器）",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:58:46.907Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8897,
+    "contentLength": 5443,
+    "processingTimeMs": 44169
+  }
+}

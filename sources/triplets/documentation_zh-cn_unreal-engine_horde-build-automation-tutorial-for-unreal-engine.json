@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_horde-build-automation-tutorial-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_horde-build-automation-tutorial-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Horde",
+      "predicate": "使用",
+      "object": "BuildGraph",
+      "context": "Horde使用BuildGraph作为脚本语言来实现构建自动化系统，这是学习Horde构建自动化的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "支持",
+      "object": "Windows、Mac和Linux",
+      "context": "Horde构建自动化系统支持多平台，这对跨平台开发者很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "集成",
+      "object": "UnrealGameSync",
+      "context": "Horde与UnrealGameSync紧密集成，这是虚幻引擎生态系统协作的重要部分",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "构建自动化",
+      "predicate": "实现",
+      "object": "持续集成(CI)和持续交付(CD)",
+      "context": "理解构建自动化与CI/CD的关系对现代开发流程至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "依赖",
+      "object": "Perforce服务器",
+      "context": "Horde目前主要依赖Perforce作为版本控制系统，这是设置Horde的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "globals.json",
+      "predicate": "配置",
+      "object": "Perforce集群",
+      "context": "globals.json文件用于配置Perforce服务器连接，是Horde设置的核心步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde项目",
+      "predicate": "对应",
+      "object": "Perforce流送仓库",
+      "context": "理解Horde项目与Perforce流送的对应关系对配置工作流很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "作业模板",
+      "predicate": "定义",
+      "object": "BuildGraph命令行参数",
+      "context": "作业模板是连接Horde界面与BuildGraph脚本的关键概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理类型",
+      "predicate": "映射",
+      "object": "机器池",
+      "context": "代理类型定义了脚本执行环境与实际硬件资源的映射关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "增量构建",
+      "predicate": "使用",
+      "object": "增量工作区",
+      "context": "增量构建的特点在于重用中间构件，这是提高构建效率的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "已打包构建",
+      "predicate": "运行于",
+      "object": "非增量工作区",
+      "context": "已打包构建需要干净环境确保一致性，与增量构建形成对比",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预提交测试",
+      "predicate": "关联",
+      "object": "P4VUtils工具",
+      "context": "预提交测试与Perforce工具链集成，是代码质量控制的重要环节",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "已安装引擎构建",
+      "predicate": "适用于",
+      "object": "小型团队",
+      "context": "了解不同构建类型的适用场景有助于选择合适的开发流程",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "远程执行测试",
+      "predicate": "使用",
+      "object": "UnrealBuildAccelerator",
+      "context": "远程执行展示了Horde与虚幻编译加速器的集成能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "属于",
+      "object": "虚幻引擎生态系统",
+      "context": "理解Horde在虚幻引擎工具链中的定位有助于系统学习",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:19:30.170Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8306,
+    "contentLength": 5222,
+    "processingTimeMs": 51274
+  }
+}

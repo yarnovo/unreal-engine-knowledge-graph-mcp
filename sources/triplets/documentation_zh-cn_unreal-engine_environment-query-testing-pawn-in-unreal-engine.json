@@ -1,0 +1,101 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_environment-query-testing-pawn-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_environment-query-testing-pawn-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "EQSTestingPawn",
+      "predicate": "属于",
+      "object": "Pawn类",
+      "context": "EQSTestingPawn是Pawn类的一种特殊类型，用于场景查询系统的测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EQSTestingPawn",
+      "predicate": "用于",
+      "object": "场景查询系统",
+      "context": "EQSTestingPawn专门用于测试和可视化场景查询系统的执行情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EQSTestingPawn",
+      "predicate": "依赖",
+      "object": "EQS查询",
+      "context": "EQSTestingPawn需要指定EQS查询模板才能进行测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EQSTestingPawn",
+      "predicate": "生成",
+      "object": "调试球体",
+      "context": "EQSTestingPawn在关卡中生成带颜色的调试球体，表示场景查询的匹配程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试球体",
+      "predicate": "表示",
+      "object": "匹配程度",
+      "context": "绿色到红色的球体表示匹配程度，蓝色球体表示测试失败",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EQSTestingPawn",
+      "predicate": "包含",
+      "object": "查询配置",
+      "context": "EQSTestingPawn的查询配置属性允许快速调节场景查询的设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EQSTestingPawn",
+      "predicate": "支持",
+      "object": "导航代理属性",
+      "context": "EQSTestingPawn包含导航代理属性，用于确定Pawn如何导航",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EQSTestingPawn",
+      "predicate": "用于",
+      "object": "AI调试",
+      "context": "EQSTestingPawn是AI调试工具的一部分，帮助开发者可视化AI决策过程",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "EQSTestingPawn",
+      "predicate": "实现",
+      "object": "结果求值",
+      "context": "通过EQSTestingPawn可以对场景查询的结果进行可视化求值",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "EQSTestingPawn",
+      "predicate": "控制",
+      "object": "调试可视化",
+      "context": "EQSTestingPawn的属性可以控制调试可视化的显示方式和内容",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "EQSTestingPawn",
+      "predicate": "扩展",
+      "object": "场景查询系统功能",
+      "context": "EQSTestingPawn扩展了场景查询系统的功能，提供了测试和调试的能力",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T18:59:13.798Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8670,
+    "contentLength": 5318,
+    "processingTimeMs": 42741
+  }
+}

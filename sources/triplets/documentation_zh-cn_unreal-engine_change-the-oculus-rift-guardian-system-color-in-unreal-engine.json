@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_change-the-oculus-rift-guardian-system-color-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_change-the-oculus-rift-guardian-system-color-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Oculus Guardian 系统",
+      "predicate": "用于",
+      "object": "显示 VR 交互区域的边界",
+      "context": "帮助学习者理解 Guardian 系统的核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Oculus Runtime",
+      "predicate": "控制",
+      "object": "Guardian 系统的可视提示",
+      "context": "说明运行时环境对边界提示的管理机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OculusRiftBoundary",
+      "predicate": "属于",
+      "object": "Pawn 组件",
+      "context": "明确组件归属关系，指导正确配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Set Outer Boundary Color 节点",
+      "predicate": "修改",
+      "object": "Guardian 系统颜色",
+      "context": "展示蓝图节点与系统属性的直接操作关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Linear Color 变量",
+      "predicate": "存储",
+      "object": "边界颜色值",
+      "context": "说明数据类型与功能实现的关联",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Set Tracking Origin 节点",
+      "predicate": "设置",
+      "object": "VR 追踪基准面",
+      "context": "解释空间定位的基础配置步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Floor Level 原点",
+      "predicate": "影响",
+      "object": "Guardian 系统定位",
+      "context": "说明空间坐标系对边界系统的重要性",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Event Begin Play",
+      "predicate": "触发",
+      "object": "边界颜色初始化",
+      "context": "展示游戏逻辑与VR系统的时序关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Oculus 应用程序",
+      "predicate": "前置条件",
+      "object": "Guardian 系统功能",
+      "context": "强调外部依赖关系对功能实现的影响",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "蓝图事件图表",
+      "predicate": "包含",
+      "object": "VR 边界控制逻辑",
+      "context": "说明开发工具与功能实现的载体关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:20:07.768Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5160,
+    "contentLength": 4188,
+    "processingTimeMs": 35001
+  }
+}

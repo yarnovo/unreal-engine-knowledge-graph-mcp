@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_gameplay-attributes-and-attribute-sets-for-the-gameplay-ability-system-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_gameplay-attributes-and-attribute-sets-for-the-gameplay-ability-system-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "游戏技能系统",
+      "predicate": "使用",
+      "object": "游戏属性",
+      "context": "游戏技能系统使用游戏属性来保存、计算和修改与游戏相关的浮点值，帮助学习者理解系统的基本数据单元",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏属性",
+      "predicate": "存储于",
+      "object": "属性集",
+      "context": "游戏属性需要存储在属性集中以便管理交互和注册到技能系统组件，这是理解属性管理的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性集",
+      "predicate": "注册到",
+      "object": "技能系统组件",
+      "context": "属性集需要注册到技能系统组件才能发挥作用，这是系统集成的核心步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏属性",
+      "predicate": "包含",
+      "object": "当前值和基础值",
+      "context": "理解游戏属性的双值结构（当前值和基础值）对掌握属性计算机制至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏效果",
+      "predicate": "影响",
+      "object": "游戏属性的当前值",
+      "context": "游戏效果会动态修改游戏属性的当前值，这是游戏状态变化的核心机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性集",
+      "predicate": "继承自",
+      "object": "UAttributeSet",
+      "context": "了解属性集的基类有助于开发者正确扩展和实现自定义属性集",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏属性",
+      "predicate": "实现为",
+      "object": "FGameplayAttributeData",
+      "context": "明确游戏属性的具体实现类型对开发过程中的属性定义和操作很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性集",
+      "predicate": "支持",
+      "object": "多个游戏属性",
+      "context": "一个属性集可以包含多个游戏属性，这是设计复杂角色属性的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据表",
+      "predicate": "用于初始化",
+      "object": "属性集",
+      "context": "使用数据表初始化属性集是推荐的工作流程，帮助理解数据驱动的属性配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AttributeMetaData",
+      "predicate": "作为",
+      "object": "数据表行类",
+      "context": "了解特定的数据表行类对正确配置属性初始化数据很关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PostGameplayEffectExecute",
+      "predicate": "处理",
+      "object": "游戏属性修改",
+      "context": "这个函数是控制游戏属性修改后行为的关键覆盖点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏属性",
+      "predicate": "可复制",
+      "object": "网络同步",
+      "context": "了解游戏属性的复制机制对开发多人游戏至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetLifetimeReplicatedProps",
+      "predicate": "控制",
+      "object": "属性复制",
+      "context": "这个函数是管理属性网络复制的关键方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GAMEPLAYATTRIBUTE_REPNOTIFY",
+      "predicate": "用于",
+      "object": "属性复制回调",
+      "context": "这个宏简化了属性复制回调的实现，是标准做法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "技能系统组件",
+      "predicate": "管理",
+      "object": "多个属性集",
+      "context": "理解一个组件可以管理多个属性集对设计复杂系统很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏属性",
+      "predicate": "通过",
+      "object": "游戏效果修改",
+      "context": "这是游戏属性动态变化的主要途径，理解这个关系对设计游戏机制很关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性集",
+      "predicate": "提供",
+      "object": "访问控制",
+      "context": "属性集可以实现对游戏属性的访问控制，这是设计健壮系统的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FGameplayAttributeData",
+      "predicate": "存储",
+      "object": "属性数据",
+      "context": "了解这个结构体的作用是操作游戏属性的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏属性",
+      "predicate": "可被",
+      "object": "蓝图访问",
+      "context": "了解游戏属性在蓝图中的可访问性对可视化编程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:09:52.979Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11099 字符)",
+      "timestamp": "2025-06-15T19:08:49.375Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16743,
+    "contentLength": 11099,
+    "processingTimeMs": 63615
+  }
+}

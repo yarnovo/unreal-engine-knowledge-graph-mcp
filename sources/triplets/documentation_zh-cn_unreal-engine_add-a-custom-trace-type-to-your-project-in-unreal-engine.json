@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_add-a-custom-trace-type-to-your-project-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_add-a-custom-trace-type-to-your-project-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "追踪响应通道",
+      "predicate": "包含",
+      "object": "可视性",
+      "context": "可视性是追踪响应通道的默认类型之一，理解这一包含关系有助于学习者掌握追踪通道的分类体系",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "追踪响应通道",
+      "predicate": "包含",
+      "object": "摄像机",
+      "context": "摄像机是追踪响应通道的另一个默认类型，了解这一包含关系有助于学习者理解基础追踪通道的组成",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义追踪通道",
+      "predicate": "扩展",
+      "object": "追踪响应通道",
+      "context": "自定义追踪通道扩展了默认的追踪响应通道功能，这一关系对理解系统可扩展性很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "包含",
+      "object": "碰撞设置",
+      "context": "碰撞设置位于项目设置的引擎部分，这一结构关系帮助学习者导航编辑器界面",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞设置",
+      "predicate": "支持",
+      "object": "自定义追踪通道",
+      "context": "碰撞设置界面支持创建自定义追踪通道，这一功能关系对实现特定追踪需求很关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认响应",
+      "predicate": "包含",
+      "object": "阻挡",
+      "context": "阻挡是默认响应的三种选项之一，理解这些选项对正确配置追踪通道至关重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认响应",
+      "predicate": "包含",
+      "object": "重叠",
+      "context": "重叠是默认响应的基本行为选项之一，学习者需要理解这些基础交互类型",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认响应",
+      "predicate": "包含",
+      "object": "忽略",
+      "context": "忽略是默认响应的第三种选项，完整理解这三种选项有助于正确配置碰撞行为",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图编辑器",
+      "predicate": "需要",
+      "object": "刷新",
+      "context": "创建新追踪通道后需要刷新蓝图编辑器才能使更改生效，这一时序关系对调试工作流程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "需要配置",
+      "object": "自定义追踪通道",
+      "context": "要使自定义追踪通道生效，需要配置相关Actor的碰撞响应，这对实现预期游戏行为很关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "组件",
+      "predicate": "需要配置",
+      "object": "自定义追踪通道",
+      "context": "组件也需要配置才能响应自定义追踪通道，这一关系与Actor配置同样重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义追踪通道",
+      "predicate": "用于",
+      "object": "特殊碰撞检测",
+      "context": "自定义追踪通道主要用于实现默认通道无法满足的特殊碰撞检测需求，理解这一用途有助于设计决策",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "追踪通道",
+      "predicate": "关联",
+      "object": "物理系统",
+      "context": "追踪通道与物理系统密切相关，这一关联关系帮助学习者理解其在引擎中的整体作用",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T17:53:58.562Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2725,
+    "contentLength": 1861,
+    "processingTimeMs": 69718
+  }
+}

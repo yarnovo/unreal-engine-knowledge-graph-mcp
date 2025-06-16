@@ -1,0 +1,131 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_root-motion-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_root-motion-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "根运动",
+      "predicate": "驱动",
+      "object": "角色动作",
+      "context": "根运动通过动画数据驱动角色的动作，使角色在关卡中的动作更加真实",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "根运动",
+      "predicate": "依赖",
+      "object": "根骨骼",
+      "context": "根运动需要根骨骼上的动画数据才能生效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "根骨骼",
+      "predicate": "属于",
+      "object": "骨架",
+      "context": "根骨骼是骨架的基础骨骼，作为整个骨架结构的参考点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架",
+      "predicate": "驱动",
+      "object": "骨骼网格体",
+      "context": "骨架用于驱动骨骼网格体的动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "根运动",
+      "predicate": "启用",
+      "object": "动画序列",
+      "context": "根运动需要在动画序列编辑器中启用才能生效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画序列",
+      "predicate": "包含",
+      "object": "根骨骼动画数据",
+      "context": "动画序列需要包含根骨骼上的动画数据才能启用根运动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "控制",
+      "object": "根运动提取",
+      "context": "动画蓝图中的根运动模式决定了如何提取和应用根运动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "根运动",
+      "predicate": "影响",
+      "object": "角色物理状态",
+      "context": "根运动会根据角色的物理状态（如行走、坠落、飞行）调整运动效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画序列编辑器",
+      "predicate": "用于",
+      "object": "调试根运动",
+      "context": "动画序列编辑器提供了多种功能用于调试根运动，如显示骨骼层级和根运动轨迹",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "控制台指令",
+      "predicate": "用于",
+      "object": "显示碰撞组件",
+      "context": "控制台指令可以显示角色的胶囊体组件，帮助调试根运动",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "角色",
+      "predicate": "包含",
+      "object": "动作组件",
+      "context": "角色的动作通常由动作组件驱动，根运动可以影响动作组件的行为",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画蒙太奇",
+      "predicate": "支持",
+      "object": "根运动",
+      "context": "动画蒙太奇可以启用根运动，并在动画蓝图中选择仅从蒙太奇提取根运动",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "根运动",
+      "predicate": "适用于",
+      "object": "循环动画",
+      "context": "启用根运动后，动画可以反复循环，从上一个循环的最终位置开始下一个循环",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "移动模式节点",
+      "predicate": "调整",
+      "object": "根运动",
+      "context": "移动模式节点可以调整根运动在不同移动模式（如行走、飞行）下的行为",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T20:38:21.470Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8194 字符)",
+      "timestamp": "2025-06-15T20:37:43.595Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12988,
+    "contentLength": 8194,
+    "processingTimeMs": 37883
+  }
+}

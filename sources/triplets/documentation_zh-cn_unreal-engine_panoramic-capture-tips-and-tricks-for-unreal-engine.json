@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_panoramic-capture-tips-and-tricks-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_panoramic-capture-tips-and-tricks-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "全景采集插件",
+      "predicate": "属于",
+      "object": "虚幻引擎",
+      "context": "全景采集插件是虚幻引擎的一个功能模块，了解其归属有助于理解其在引擎中的位置和作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全景采集插件",
+      "predicate": "状态为",
+      "object": "Deprecated",
+      "context": "了解插件状态为Deprecated，帮助开发者决定是否使用该功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SP.StepCaptureWidth",
+      "predicate": "控制",
+      "object": "采集分辨率",
+      "context": "调整SP.StepCaptureWidth参数可以控制采集分辨率，这对优化性能很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_Capture",
+      "predicate": "包含",
+      "object": "SP.StepCaptureWidth",
+      "context": "BP_Capture蓝图中包含SP.StepCaptureWidth参数，这是调整采集设置的关键位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "立体图像采集",
+      "predicate": "导致",
+      "object": "图像失真",
+      "context": "理解立体图像采集原理有助于解释为什么会出现顶部和底部失真",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "梯度淡出",
+      "predicate": "缓解",
+      "object": "图像失真",
+      "context": "学习使用梯度淡出技术可以最小化图像失真问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机距离",
+      "predicate": "影响",
+      "object": "图像发散",
+      "context": "理解摄像机与对象距离对图像发散的影响有助于优化采集设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕空间效果",
+      "predicate": "不兼容",
+      "object": "全景采集工具",
+      "context": "了解哪些效果与全景采集不兼容可以避免采集错误",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光束效果",
+      "predicate": "属于",
+      "object": "屏幕空间效果",
+      "context": "分类理解效果类型有助于判断其与全景采集的兼容性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全景采集",
+      "predicate": "适用于",
+      "object": "虚拟现实",
+      "context": "了解全景采集在VR领域的应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "采集分辨率",
+      "predicate": "影响",
+      "object": "资源消耗",
+      "context": "理解分辨率与资源消耗的关系有助于性能优化",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全景采集插件",
+      "predicate": "参考用于",
+      "object": "自定义解决方案开发",
+      "context": "虽然插件已废弃，但仍可作为开发自定义采集方案的参考",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:17:29.103Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5447,
+    "contentLength": 3617,
+    "processingTimeMs": 35125
+  }
+}

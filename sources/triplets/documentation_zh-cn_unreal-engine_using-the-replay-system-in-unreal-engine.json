@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-the-replay-system-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-the-replay-system-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "重播系统",
+      "predicate": "使用",
+      "object": "DemoNetDriver",
+      "context": "重播系统通过DemoNetDriver读取复制数据，这是理解重播系统工作原理的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DemoNetDriver",
+      "predicate": "传送数据到",
+      "object": "流送器",
+      "context": "DemoNetDriver负责将网络数据传递给流送器进行录制，这是重播系统数据流的关键环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重播系统",
+      "predicate": "支持",
+      "object": "向后兼容性",
+      "context": "了解重播系统支持到4.13版本的兼容性特性，对处理不同版本录制文件很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGameInstance",
+      "predicate": "控制",
+      "object": "重播录制",
+      "context": "通过UGameInstance类的方法可以控制重播的录制和播放，是开发者操作重播系统的主要接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UWorld",
+      "predicate": "包含",
+      "object": "DemoNetDriver",
+      "context": "UWorld类包含DemoNetDriver实例，这是理解引擎架构的重要关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "重播系统",
+      "predicate": "适用于",
+      "object": "所有游戏类型",
+      "context": "明确重播系统的适用范围，包括多人游戏、单人游戏和编辑器会话",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FArchive",
+      "predicate": "提供",
+      "object": "版本控制功能",
+      "context": "FArchive提供的EngineNetVer和GameNetVer函数对处理重播数据版本兼容性很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FNetworkVersion",
+      "predicate": "支持",
+      "object": "兼容性检查",
+      "context": "通过FNetworkVersion的委托可以实现自定义的版本兼容性检查逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "重播系统",
+      "predicate": "基于",
+      "object": "复制系统",
+      "context": "理解重播系统基于引擎的复制系统工作，这是其核心实现原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DemoNetDriver",
+      "predicate": "类似于",
+      "object": "NetDriver",
+      "context": "DemoNetDriver与实时联网游戏中的NetDriver工作方式相似，有助于理解其角色",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AGameMode",
+      "predicate": "控制",
+      "object": "专用服务器重播",
+      "context": "通过AGameMode的bHandleDedicatedServerReplays变量可以控制专用服务器的自动录制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UDemoNetDriver",
+      "predicate": "支持",
+      "object": "时间跳转",
+      "context": "通过GotoTimeInSeconds方法可以实现重播的时间跳转功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WorldSettings",
+      "predicate": "控制",
+      "object": "回放速度",
+      "context": "通过DemoPlayTimeDilation变量可以控制重播的播放速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:25:45.308Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5139,
+    "contentLength": 3011,
+    "processingTimeMs": 38269
+  }
+}

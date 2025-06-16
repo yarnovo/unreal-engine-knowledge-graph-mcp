@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_remote-control-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_remote-control-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎远程控制系统",
+      "predicate": "实现",
+      "object": "网络服务器",
+      "context": "远程控制系统通过在虚幻引擎中运行网络服务器来实现远程控制功能，学习者需要理解这是系统的核心实现机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制系统",
+      "predicate": "支持",
+      "object": "WebSocket消息和HTTP请求",
+      "context": "系统通过这两种网络通信协议提供服务，学习者需要了解不同通信方式的适用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制API",
+      "predicate": "提供",
+      "object": "对虚幻编辑器和项目内容的控制",
+      "context": "API提供的控制能力与蓝图和Python类似，帮助学习者理解API的功能定位",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制预设",
+      "predicate": "暴露",
+      "object": "属性和函数",
+      "context": "预设是将项目内容暴露给API的关键机制，学习者需要掌握预设的配置和使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制预设",
+      "predicate": "连接",
+      "object": "配套Web应用",
+      "context": "预设与Web应用的连接是构建自定义控制界面的基础，这对理解完整工作流很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制系统",
+      "predicate": "适用于",
+      "object": "虚拟制片工作流",
+      "context": "系统特别适合广播电视和电影制片场景，帮助学习者理解典型应用领域",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "远程控制快速入门",
+      "predicate": "前置",
+      "object": "远程控制系统基础概念",
+      "context": "快速入门教程需要先理解系统的基本原理，这对学习路径规划很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "远程控制C++ API",
+      "predicate": "扩展",
+      "object": "远程控制系统功能",
+      "context": "C++ API提供了更底层的控制能力，适合需要深度定制的学习者",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WebSocket参考",
+      "predicate": "详细说明",
+      "object": "远程控制API",
+      "context": "参考文档提供了API的技术细节，是深入学习的必要资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HTTP参考",
+      "predicate": "详细说明",
+      "object": "远程控制预设API",
+      "context": "区分不同API参考文档的侧重点，帮助学习者准确查找所需信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制系统",
+      "predicate": "依赖",
+      "object": "网络连接",
+      "context": "系统功能依赖于网络环境，这是学习者部署时需要考虑的重要因素",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "类比",
+      "object": "远程控制API",
+      "context": "理解API与蓝图的相似性有助于快速掌握API的功能范围",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Python",
+      "predicate": "类比",
+      "object": "远程控制API",
+      "context": "Python脚本与API控制方式的比较，帮助有Python经验的学习者迁移知识",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T20:35:52.409Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5250,
+    "contentLength": 3486,
+    "processingTimeMs": 41920
+  }
+}

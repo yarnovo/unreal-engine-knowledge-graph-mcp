@@ -1,0 +1,85 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_shaders-in-plugins-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_shaders-in-plugins-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎插件",
+      "predicate": "包含",
+      "object": "Shader",
+      "context": "插件中可以创建和使用Shader，这是插件功能的一部分",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Shader",
+      "predicate": "用于",
+      "object": "渲染",
+      "context": "Shader是渲染过程中的核心组件，用于处理图形渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Shader",
+      "predicate": "关联",
+      "object": "Materials",
+      "context": "Shader与Materials密切相关，Materials通常依赖于Shader来实现其视觉效果",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Shader",
+      "predicate": "关联",
+      "object": "Lighting",
+      "context": "Shader在光照计算中扮演重要角色，影响场景的光照效果",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "全局着色器",
+      "predicate": "属于",
+      "object": "Shader",
+      "context": "全局着色器是Shader的一种特殊类型，用于处理全局的渲染效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插件",
+      "predicate": "支持",
+      "object": "全局着色器",
+      "context": "插件可以用于创建和设置全局着色器，扩展引擎的渲染能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Shader",
+      "predicate": "涉及",
+      "object": "Graphics",
+      "context": "Shader是图形编程的核心概念，直接影响图形渲染的质量和效果",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Shader",
+      "predicate": "涉及",
+      "object": "Programming",
+      "context": "Shader的编写和优化需要编程知识，是图形编程的重要组成部分",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎插件",
+      "predicate": "扩展",
+      "object": "虚幻引擎功能",
+      "context": "通过插件可以扩展虚幻引擎的功能，包括Shader的创建和使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:47:07.817Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2244,
+    "contentLength": 1922,
+    "processingTimeMs": 28915
+  }
+}

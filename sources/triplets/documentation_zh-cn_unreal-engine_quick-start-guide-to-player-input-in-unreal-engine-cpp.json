@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_quick-start-guide-to-player-input-in-unreal-engine-cpp",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_quick-start-guide-to-player-input-in-unreal-engine-cpp.md",
+  "triples": [
+    {
+      "subject": "Pawn",
+      "predicate": "继承",
+      "object": "Actor",
+      "context": "Pawn是一种由真实玩家或AI控制的Actor，理解继承关系有助于掌握虚幻引擎的类层次结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MyPawn",
+      "predicate": "扩展",
+      "object": "Pawn",
+      "context": "MyPawn是自定义的Pawn类，通过扩展基础Pawn类实现特定功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AutoPossessPlayer",
+      "predicate": "控制",
+      "object": "MyPawn",
+      "context": "AutoPossessPlayer变量决定哪个玩家控制器自动控制该Pawn",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UPROPERTY",
+      "predicate": "标记",
+      "object": "OurVisibleComponent",
+      "context": "UPROPERTY宏使变量对虚幻引擎可见，防止游戏重启时变量被重置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RootComponent",
+      "predicate": "包含",
+      "object": "USceneComponent",
+      "context": "RootComponent作为虚拟根组件，可以附加其他组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCameraComponent",
+      "predicate": "附加到",
+      "object": "RootComponent",
+      "context": "相机组件需要附加到根组件才能成为场景的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UStaticMeshComponent",
+      "predicate": "附加到",
+      "object": "RootComponent",
+      "context": "可见组件需要附加到根组件才能在场景中显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "操作映射",
+      "predicate": "区别于",
+      "object": "轴映射",
+      "context": "操作映射处理离散输入(如按钮)，轴映射处理连续输入(如摇杆)，理解区别对输入系统设计很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InputComponent",
+      "predicate": "绑定",
+      "object": "输入函数",
+      "context": "InputComponent将输入事件绑定到Pawn的成员函数，实现输入响应",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Tick函数",
+      "predicate": "处理",
+      "object": "持续行为",
+      "context": "Tick函数每帧调用，适合处理持续行为如移动和缩放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FMath::Clamp",
+      "predicate": "限制",
+      "object": "输入值",
+      "context": "Clamp函数确保输入值在合理范围内，防止意外行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SetupAttachment",
+      "predicate": "建立",
+      "object": "组件层级",
+      "context": "SetupAttachment方法建立组件间的父子关系，影响变换的传递",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "赋予",
+      "object": "OurVisibleComponent",
+      "context": "静态网格体资源赋予可见组件实际形状和外观",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DeltaTime",
+      "predicate": "用于",
+      "object": "帧率无关行为",
+      "context": "使用DeltaTime确保行为速度不受帧率影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "配置",
+      "object": "输入映射",
+      "context": "在项目设置中配置输入映射是常见的输入系统设置方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BeginPlay",
+      "predicate": "初始化",
+      "object": "游戏逻辑",
+      "context": "BeginPlay在游戏开始时调用，适合初始化逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SetupPlayerInputComponent",
+      "predicate": "设置",
+      "object": "输入绑定",
+      "context": "此函数是设置输入绑定的标准位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FVector",
+      "predicate": "表示",
+      "object": "3D位置/方向",
+      "context": "FVector是表示3D空间位置和方向的基础数据结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FRotator",
+      "predicate": "表示",
+      "object": "旋转",
+      "context": "FRotator表示3D空间中的旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:32:13.230Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (14371 字符)",
+      "timestamp": "2025-06-15T20:31:15.929Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 18942,
+    "contentLength": 14371,
+    "processingTimeMs": 57309
+  }
+}

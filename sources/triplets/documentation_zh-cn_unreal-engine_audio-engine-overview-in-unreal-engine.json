@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_audio-engine-overview-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_audio-engine-overview-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻音频引擎",
+      "predicate": "包含",
+      "object": "音频混合器",
+      "context": "音频混合器是虚幻音频引擎的核心组件之一，用于多平台音频处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻音频引擎",
+      "predicate": "支持",
+      "object": "蓝图",
+      "context": "音频引擎与蓝图系统集成，允许通过可视化脚本控制音频行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USoundWave",
+      "predicate": "存储",
+      "object": "导入的音频文件",
+      "context": "所有导入的音频资产最终都会封装为USoundWave对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sound Cue",
+      "predicate": "组合",
+      "object": "多个音频资产",
+      "context": "Sound Cue是抽象的音效对象，可以动态组合多个声音资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sound Cue编辑器",
+      "predicate": "用于",
+      "object": "创建复杂音效设计",
+      "context": "专门的可视化工具用于构建复杂的音效逻辑拓扑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效衰减设置",
+      "predicate": "控制",
+      "object": "空间化行为",
+      "context": "衰减设置资产是配置3D音效空间化的主要方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效衰减设置",
+      "predicate": "控制",
+      "object": "距离衰减",
+      "context": "通过衰减设置可以定义音效随距离变化的衰减曲线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频组件",
+      "predicate": "实现",
+      "object": "动态音效控制",
+      "context": "通过音频组件可以在运行时动态调整音效参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效类",
+      "predicate": "分组管理",
+      "object": "相关音效",
+      "context": "音效类用于对具有相同语义的音效进行统一控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效混合",
+      "predicate": "实现",
+      "object": "音量压低效果",
+      "context": "通过音效混合可以动态调整不同音效类的相对音量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效并发",
+      "predicate": "限制",
+      "object": "同时播放音效数量",
+      "context": "并发管理防止同类型音效过多导致的混音问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子混音图表",
+      "predicate": "应用",
+      "object": "DSP效果处理",
+      "context": "子混音系统允许构建复杂的音频处理管线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频调制插件",
+      "predicate": "扩展",
+      "object": "参数控制能力",
+      "context": "该插件提供了更灵活的音效参数动态调制方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻音频引擎",
+      "predicate": "支持",
+      "object": "第三方空间化插件",
+      "context": "引擎架构允许集成HRTF等高级空间化解决方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频引擎调试",
+      "predicate": "使用",
+      "object": "Unreal Insights工具",
+      "context": "音频性能分析集成在引擎的统一调试工具链中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产烘焙",
+      "predicate": "依赖",
+      "object": "目标平台编解码器",
+      "context": "音频资产最终格式根据目标平台特性自动优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sound Cue",
+      "predicate": "支持",
+      "object": "Gameplay参数映射",
+      "context": "音效设计可以与游戏逻辑参数动态绑定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频混合器",
+      "predicate": "包含",
+      "object": "子混音系统",
+      "context": "子混音是构建复杂音频处理管线的核心模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "空间化音效",
+      "predicate": "支持",
+      "object": "平移模式配置",
+      "context": "开发者可以选择线性或等功率等不同空间化算法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频引擎API",
+      "predicate": "分为",
+      "object": "PlaySound和SpawnSound",
+      "context": "两种API类型分别对应不同的音效控制需求层级",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:07:59.546Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13560 字符)",
+      "timestamp": "2025-06-15T18:06:50.282Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 24098,
+    "contentLength": 13560,
+    "processingTimeMs": 69275
+  }
+}

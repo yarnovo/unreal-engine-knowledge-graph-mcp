@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_streaming-virtual-texturing-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_streaming-virtual-texturing-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "流送虚拟纹理",
+      "predicate": "替代",
+      "object": "基于mip的纹理流送",
+      "context": "流送虚拟纹理是传统基于mip纹理流送的替代方案，具有不同的优缺点",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流送虚拟纹理",
+      "predicate": "基于",
+      "object": "图块",
+      "context": "流送虚拟纹理将所有mip级别拆分为固定尺寸的小图块进行流送",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流送虚拟纹理",
+      "predicate": "依赖",
+      "object": "GPU",
+      "context": "流送虚拟纹理由GPU决定需要加载的可见图块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流送虚拟纹理",
+      "predicate": "支持",
+      "object": "UDIM",
+      "context": "流送虚拟纹理支持UDIM命名规范的纹理，可以导入多个纹理图像作为单个虚拟纹理资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流送虚拟纹理",
+      "predicate": "需要",
+      "object": "虚拟纹理流送",
+      "context": "使用流送虚拟纹理需要纹理资源启用虚拟纹理流送功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟纹理流送",
+      "predicate": "启用",
+      "object": "项目设置",
+      "context": "虚拟纹理流送功能需要在项目设置的引擎>渲染>虚拟纹理中启用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质",
+      "predicate": "使用",
+      "object": "虚拟采样器类型",
+      "context": "使用流送虚拟纹理的材质需要将纹理取样节点设置为虚拟采样器类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UDIM",
+      "predicate": "是",
+      "object": "纹理命名规范",
+      "context": "UDIM是一种纹理命名规范，可以将多个纹理图像映射到单独UV区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟纹理",
+      "predicate": "具有",
+      "object": "性能开销",
+      "context": "虚拟纹理采样比传统纹理采样有更大的性能开销，包括查找和堆栈开销",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟纹理",
+      "predicate": "有",
+      "object": "限制",
+      "context": "虚拟纹理存在一些限制，如纹理大小必须是2的幂次方，各向异性过滤支持受限等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "stat virtualtexturing",
+      "predicate": "用于",
+      "object": "测量虚拟纹理性能",
+      "context": "stat virtualtexturing命令可以查看虚拟纹理场景的开销详情和页面表计数器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "stat virtualtexturememory",
+      "predicate": "用于",
+      "object": "测量虚拟纹理内存",
+      "context": "stat virtualtexturememory命令可以显示与虚拟纹理使用相关的内存计数器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.VT.Borders",
+      "predicate": "用于",
+      "object": "可视化虚拟纹理",
+      "context": "r.VT.Borders命令可以在使用流送虚拟纹理的材质上绘制mip可视化网格",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟纹理",
+      "predicate": "影响",
+      "object": "材质性能",
+      "context": "虚拟纹理采样会增加材质性能开销，特别是使用不同UV时",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟纹理",
+      "predicate": "可能导致",
+      "object": "失真或摩尔纹",
+      "context": "由于缺乏低分辨率mip，高细节虚拟纹理可能会出现失真或摩尔纹效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:56:25.472Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8411 字符)",
+      "timestamp": "2025-06-15T20:55:43.556Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14145,
+    "contentLength": 8411,
+    "processingTimeMs": 41923
+  }
+}

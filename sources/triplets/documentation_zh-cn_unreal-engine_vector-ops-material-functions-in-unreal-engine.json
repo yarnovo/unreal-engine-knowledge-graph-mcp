@@ -1,0 +1,101 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_vector-ops-material-functions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_vector-ops-material-functions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Fresnel材质函数",
+      "predicate": "扩展",
+      "object": "Fresnel材质表达式节点",
+      "context": "Fresnel材质函数提供了比普通Fresnel材质表达式节点更多的自定义选项，如指定计算向量和调整混合效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Fresnel材质函数",
+      "predicate": "包含",
+      "object": "法线向量输入",
+      "context": "法线向量是Fresnel计算中的关键输入参数，通常代表表面向量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Fresnel材质函数",
+      "predicate": "包含",
+      "object": "摄像机向量输入",
+      "context": "摄像机向量是Fresnel计算中另一个关键输入参数，代表摄像机方向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Fresnel材质函数",
+      "predicate": "支持",
+      "object": "反转菲涅尔效果",
+      "context": "通过静态布尔值输入可以反转菲涅尔效果的计算方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Fresnel材质函数",
+      "predicate": "控制",
+      "object": "颜色衰减速度",
+      "context": "幂参数控制菲涅尔效果中颜色在核心与边缘之间衰减的速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Fresnel材质函数",
+      "predicate": "支持",
+      "object": "低成本对比度功能",
+      "context": "可以通过静态布尔值激活低成本对比度功能来提升菲涅尔效果的对比度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "低成本对比度功能",
+      "predicate": "包含",
+      "object": "暗值控制参数",
+      "context": "当启用低成本对比度时，暗值参数控制结果中显示的暗值数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "低成本对比度功能",
+      "predicate": "包含",
+      "object": "亮值控制参数",
+      "context": "当启用低成本对比度时，亮值参数控制结果中显示的亮值数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Fresnel材质函数",
+      "predicate": "支持",
+      "object": "菲涅尔点积限制",
+      "context": "默认限制菲涅尔点积结果在0到1之间，但可以通过静态布尔值重载此行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "向量运算材质函数",
+      "predicate": "属于",
+      "object": "虚幻引擎材质系统",
+      "context": "向量运算材质函数是虚幻引擎材质系统的一部分，用于处理基于向量的数学运算",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Fresnel材质函数",
+      "predicate": "适用于",
+      "object": "材质和着色器开发",
+      "context": "Fresnel材质函数主要用于材质和着色器开发，实现基于视角的表面效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:27:45.248Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3081,
+    "contentLength": 2054,
+    "processingTimeMs": 33014
+  }
+}

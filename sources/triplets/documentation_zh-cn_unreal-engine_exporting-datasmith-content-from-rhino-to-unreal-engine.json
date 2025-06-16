@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_exporting-datasmith-content-from-rhino-to-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_exporting-datasmith-content-from-rhino-to-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Rhino",
+      "predicate": "支持导出",
+      "object": "Datasmith内容",
+      "context": "Rhino通过安装Datasmith导出器插件，可以将场景导出为Datasmith格式，便于后续导入虚幻引擎",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导出器插件",
+      "predicate": "生成",
+      "object": ".udatasmith文件",
+      "context": "插件安装后会在Rhino的导出选项中添加虚幻Datasmith文件类型，用于生成包含场景数据的.udatasmith文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "另存为(Save As)",
+      "predicate": "用于",
+      "object": "导出所有可见元素",
+      "context": "该选项可以导出Rhino场景中所有可见元素到.udatasmith文件，是完整的场景导出方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导出选中项",
+      "predicate": "用于",
+      "object": "导出选定元素",
+      "context": "该选项允许选择性导出场景中被选中的元素，未选中的层不会被导出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导出并设定原点",
+      "predicate": "用于",
+      "object": "带位置偏移的导出",
+      "context": "该选项在导出所有可见元素的同时，可以设置场景的位置偏移，适用于需要调整场景位置的导出需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith工具栏",
+      "predicate": "包含",
+      "object": "导出3D视图按钮",
+      "context": "工具栏提供了快速导出3D视图的功能按钮，方便用户快速导出当前可视元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": ".udatasmith文件",
+      "predicate": "可导入到",
+      "object": "虚幻引擎",
+      "context": "导出的.udatasmith文件是专门用于导入到虚幻引擎的中间格式，实现了从Rhino到虚幻引擎的工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Dataprep",
+      "predicate": "用于",
+      "object": "数据清理和修改",
+      "context": "在将Datasmith内容导入虚幻引擎时，可以使用Dataprep工具对数据进行清理、合并等修改操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Rhino导出流程",
+      "predicate": "前置步骤",
+      "object": "虚幻引擎导入流程",
+      "context": "从Rhino导出Datasmith内容是后续在虚幻引擎中导入和使用这些内容的前提条件，形成了完整的工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导出器插件",
+      "predicate": "扩展",
+      "object": "Rhino功能",
+      "context": "该插件为Rhino增加了导出为虚幻引擎专用格式的功能，扩展了Rhino在游戏开发流程中的应用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:01:43.159Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3439,
+    "contentLength": 2491,
+    "processingTimeMs": 46031
+  }
+}

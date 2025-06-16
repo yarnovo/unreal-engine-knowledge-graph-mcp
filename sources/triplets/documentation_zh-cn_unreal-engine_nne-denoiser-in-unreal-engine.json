@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_nne-denoiser-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_nne-denoiser-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "NNE降噪器",
+      "predicate": "是",
+      "object": "路径追踪降噪器",
+      "context": "NNE降噪器是一种专门用于路径追踪的降噪器，帮助学习者理解其核心功能定位",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "NNE降噪器",
+      "predicate": "支持",
+      "object": "自定义神经降噪器网络",
+      "context": "该功能允许开发者导入自定义神经网络模型，扩展了降噪器的应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NNE降噪器",
+      "predicate": "包含",
+      "object": "英特尔Open Image降噪器",
+      "context": "内置多种预设降噪器版本，为学习者提供开箱即用的解决方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UNNEModelData",
+      "predicate": "用于存储",
+      "object": "神经网络模型",
+      "context": "作为模型数据的标准容器资产，是理解模型导入流程的关键概念",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "NNEDenoiser插件",
+      "predicate": "控制",
+      "object": "降噪器运行时选择",
+      "context": "插件设置决定降噪计算在CPU/GPU/RDG上的执行位置，影响性能表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RDG运行时",
+      "predicate": "优于",
+      "object": "GPU运行时",
+      "context": "RDG避免了设备间数据复制，是性能最优的运行时选择",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "输入/输出映射",
+      "predicate": "连接",
+      "object": "路径追踪器数据与神经网络",
+      "context": "映射定义是理解如何将渲染数据适配到神经网络输入的关键环节",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NNEDenoiser资产",
+      "predicate": "整合",
+      "object": "模型与映射配置",
+      "context": "作为完整降噪方案的载体，是实际工作流程中的核心配置单元",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平铺配置",
+      "predicate": "影响",
+      "object": "降噪计算效率",
+      "context": "尺寸对齐/重叠等参数优化对神经网络推理性能有直接影响",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "r.PathTracing.Denoiser.Name",
+      "predicate": "启用",
+      "object": "NNE降噪器",
+      "context": "关键控制台变量，学习者需要掌握如何激活降噪功能",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "神经网络模型",
+      "predicate": "需要",
+      "object": "运行时支持",
+      "context": "不同运行时支持不同文件格式，这是模型导入的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "路径追踪器",
+      "predicate": "提供",
+      "object": "降噪输入数据",
+      "context": "理解降噪器如何获取颜色/法线等原始数据的重要关联",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:08:07.127Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9251,
+    "contentLength": 5581,
+    "processingTimeMs": 36032
+  }
+}

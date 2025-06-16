@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_ndisplay-configuration-file-reference-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_ndisplay-configuration-file-reference-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "nDisplay配置文件",
+      "predicate": "包含",
+      "object": "群集节点配置",
+      "context": "nDisplay配置文件定义了群集节点的配置，包括计算机的主机名、IP地址和窗口属性，是构建nDisplay系统的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "群集节点配置",
+      "predicate": "引用",
+      "object": "窗口配置",
+      "context": "每个群集节点配置必须引用一个窗口配置，以定义主应用程序窗口的属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "窗口配置",
+      "predicate": "包含",
+      "object": "视口配置",
+      "context": "窗口配置可以包含一个或多个视口配置，用于指定主应用程序窗口中的特定渲染区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视口配置",
+      "predicate": "引用",
+      "object": "投影配置",
+      "context": "视口配置必须引用一个投影配置，以定义需要在视口中绘制的渲染图像",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "投影配置",
+      "predicate": "引用",
+      "object": "屏幕配置",
+      "context": "当使用简单投影类型时，投影配置需要引用屏幕配置来定义3D空间中的视锥",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕配置",
+      "predicate": "继承",
+      "object": "场景节点",
+      "context": "屏幕配置可以继承场景节点的位置和旋转属性，以简化屏幕在虚拟空间中的布局",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "摄像机配置",
+      "predicate": "继承",
+      "object": "场景节点",
+      "context": "摄像机配置可以继承场景节点的位置和旋转属性，以简化摄像机在虚拟空间中的布局",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "输入配置",
+      "predicate": "驱动",
+      "object": "摄像机配置",
+      "context": "输入配置可以驱动摄像机的位置和旋转，实现动态视角控制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "输入配置",
+      "predicate": "驱动",
+      "object": "场景节点",
+      "context": "输入配置可以驱动场景节点的位置和旋转，实现动态空间变换",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "后期处理配置",
+      "predicate": "应用于",
+      "object": "窗口配置",
+      "context": "后期处理配置可以应用于窗口配置，用于在渲染前对图像进行后期处理",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "nDisplay系统",
+      "predicate": "基于",
+      "object": "群集节点",
+      "context": "nDisplay系统基于多个群集节点协同工作，实现分布式渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay系统",
+      "predicate": "支持",
+      "object": "多GPU渲染",
+      "context": "nDisplay系统支持多GPU渲染，可以指定GPU设备渲染特定视口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay系统",
+      "predicate": "支持",
+      "object": "纹理共享",
+      "context": "nDisplay系统支持纹理共享，可以从其他应用程序接收纹理并在指定视口中显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay系统",
+      "predicate": "支持",
+      "object": "多种投影类型",
+      "context": "nDisplay系统支持多种投影类型，包括简单投影、MPCDI、EasyBlend、VIOSO和DomeProjection等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay系统",
+      "predicate": "支持",
+      "object": "动态追踪",
+      "context": "nDisplay系统支持通过输入设备动态追踪摄像机、屏幕和场景节点的位置和旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay系统",
+      "predicate": "支持",
+      "object": "网络同步",
+      "context": "nDisplay系统支持通过网络同步群集节点之间的渲染和输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay系统",
+      "predicate": "支持",
+      "object": "自定义配置",
+      "context": "nDisplay系统支持自定义配置参数，可以在运行时通过蓝图或C++ API获取",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay系统",
+      "predicate": "支持",
+      "object": "多种输入设备",
+      "context": "nDisplay系统支持多种输入设备，包括追踪器、模拟设备、按钮设备和键盘",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay系统",
+      "predicate": "支持",
+      "object": "输入事件绑定",
+      "context": "nDisplay系统支持将输入设备的通道或按键绑定到通用的nDisplay蓝图输入节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay系统",
+      "predicate": "支持",
+      "object": "多种同步策略",
+      "context": "nDisplay系统支持多种同步策略，包括无同步、软件交换同步和NVIDIA交换锁定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:04:37.422Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (30931 字符)",
+      "timestamp": "2025-06-15T20:03:27.280Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 51235,
+    "contentLength": 30931,
+    "processingTimeMs": 70154
+  }
+}

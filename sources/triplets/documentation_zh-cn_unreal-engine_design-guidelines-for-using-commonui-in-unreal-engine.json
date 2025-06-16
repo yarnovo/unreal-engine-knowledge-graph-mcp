@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_design-guidelines-for-using-commonui-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_design-guidelines-for-using-commonui-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "CommonUI",
+      "predicate": "扩展",
+      "object": "UMG",
+      "context": "CommonUI是对UMG的广泛补充，包含更多系统和工具，帮助开发者创建更复杂的用户界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CommonUI",
+      "predicate": "适用于",
+      "object": "复杂的多层界面",
+      "context": "CommonUI特别适合处理需要多层结构的复杂用户界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CommonUI",
+      "predicate": "适用于",
+      "object": "跨平台支持",
+      "context": "CommonUI设计用于支持跨平台UI开发，帮助统一不同平台的用户界面体验",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CommonUI",
+      "predicate": "不推荐用于",
+      "object": "WidgetComponents",
+      "context": "由于CommonUI依赖特定的输入和绘制机制，不适合用于游戏世界中放置的控件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CommonActivatableWidget",
+      "predicate": "用于",
+      "object": "需要输入路由的控件",
+      "context": "当控件需要根据状态影响输入路由时，应使用CommonActivatableWidget",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CommonUserWidget",
+      "predicate": "用于",
+      "object": "基础UI控件",
+      "context": "CommonUserWidget适合不需要复杂输入处理的常规UI控件，是许多CommonUI类的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CommonUI",
+      "predicate": "支持",
+      "object": "游戏手柄浏览",
+      "context": "CommonUI提供了对游戏手柄输入的良好支持，适合需要手柄控制的游戏UI",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CommonUI",
+      "predicate": "不支持",
+      "object": "同时键盘和鼠标浏览",
+      "context": "CommonUI不支持键盘和鼠标同时作为独立输入设备进行UI浏览，以避免视觉和逻辑冲突",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CommonUI",
+      "predicate": "包含",
+      "object": "输入路由系统",
+      "context": "CommonUI包含强大的输入路由系统，用于管理复杂的UI输入处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CommonUI",
+      "predicate": "基于",
+      "object": "UMG",
+      "context": "CommonUI建立在UMG的基础上，扩展了其功能以适应更复杂的UI需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:49:27.455Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5352,
+    "contentLength": 3160,
+    "processingTimeMs": 46925
+  }
+}

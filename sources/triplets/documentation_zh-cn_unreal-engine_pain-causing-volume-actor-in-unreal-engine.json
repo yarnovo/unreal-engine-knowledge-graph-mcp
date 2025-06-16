@@ -1,0 +1,85 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_pain-causing-volume-actor-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_pain-causing-volume-actor-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "伤害施加体积Actor",
+      "predicate": "包含",
+      "object": "施加伤害属性",
+      "context": "伤害施加体积Actor的核心功能是通过施加伤害属性来控制伤害效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "施加伤害属性",
+      "predicate": "控制",
+      "object": "每秒钟伤害量",
+      "context": "施加伤害属性启用时，会控制每秒钟伤害量的数值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "施加伤害属性",
+      "predicate": "决定",
+      "object": "伤害类型",
+      "context": "施加伤害属性决定了施加的伤害类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "施加伤害属性",
+      "predicate": "影响",
+      "object": "伤害时间间隔",
+      "context": "施加伤害属性启用时会影响伤害施加的时间间隔",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "施加伤害属性",
+      "predicate": "关联",
+      "object": "进入时伤害",
+      "context": "进入时伤害是基于施加伤害属性的额外伤害效果",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "伤害时间间隔",
+      "predicate": "影响",
+      "object": "进入时伤害",
+      "context": "进入时伤害是基于伤害时间间隔之外的额外伤害",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "伤害施加体积Actor",
+      "predicate": "扩展",
+      "object": "物理体积",
+      "context": "伤害施加体积Actor在物理体积的基础上增加了伤害施加功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "每秒钟伤害量",
+      "predicate": "作用于",
+      "object": "进入体积的Actor",
+      "context": "每秒钟伤害量会对进入体积的Actor产生持续伤害效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "进入时伤害",
+      "predicate": "补充",
+      "object": "每秒钟伤害量",
+      "context": "进入时伤害是对持续伤害的补充，提供立即伤害效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:16:06.335Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 1475,
+    "contentLength": 913,
+    "processingTimeMs": 35802
+  }
+}

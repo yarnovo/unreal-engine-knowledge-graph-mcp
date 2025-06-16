@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_saving-and-restoring-session-archives-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_saving-and-restoring-session-archives-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "多用户编辑服务器",
+      "predicate": "保存",
+      "object": "会话档案",
+      "context": "多用户编辑服务器可以将会话中的所有事务保存到磁盘上的档案中，便于后续恢复和继续编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "会话档案",
+      "predicate": "恢复为",
+      "object": "活跃会话",
+      "context": "会话档案可以恢复到活跃会话中，使开发者能够继续之前的编辑工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户浏览器",
+      "predicate": "用于",
+      "object": "会话管理",
+      "context": "多用户浏览器提供了保存和恢复会话档案的功能按钮，是管理多用户编辑会话的主要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户浏览器",
+      "predicate": "包含",
+      "object": "档案图标",
+      "context": "多用户浏览器中的档案图标用于触发会话保存操作，是核心功能按钮之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户浏览器",
+      "predicate": "包含",
+      "object": "恢复图标",
+      "context": "多用户浏览器中的恢复图标用于触发会话恢复操作，是核心功能按钮之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "会话档案",
+      "predicate": "存储在",
+      "object": "UnrealMultiUserServer/Saved/MultiUser",
+      "context": "会话档案默认保存在引擎安装目录的特定路径下，了解存储位置有助于文件管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "恢复会话",
+      "predicate": "要求",
+      "object": "原始项目状态",
+      "context": "恢复已存档会话时需要确保项目内容状态与存档时一致，这是重要的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "恢复会话",
+      "predicate": "要求",
+      "object": "原始服务器",
+      "context": "只能使用创建会话的同一台服务器来恢复会话，这是重要的技术限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户编辑",
+      "predicate": "基于",
+      "object": "事务记录",
+      "context": "多用户编辑系统通过事务记录来跟踪所有更改，这是实现会话保存和恢复的基础",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "会话保存",
+      "predicate": "是",
+      "object": "Beta功能",
+      "context": "文档明确指出会话保存功能目前处于Beta阶段，在产品发布中需要谨慎使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户编辑",
+      "predicate": "关联",
+      "object": "开发者协作",
+      "context": "会话保存和恢复功能支持多用户协作编辑工作流，是团队开发的重要工具",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "历史记录",
+      "predicate": "显示",
+      "object": "事务记录",
+      "context": "恢复的会话会显示完整的事务历史记录，帮助开发者了解之前的编辑过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:39:19.701Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5871,
+    "contentLength": 4117,
+    "processingTimeMs": 40126
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_gameplay-targeting-system-debugging-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_gameplay-targeting-system-debugging-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Gameplay Targeting System",
+      "predicate": "支持",
+      "object": "Debugging",
+      "context": "游戏目标系统提供了调试功能，帮助开发者理解和排查问题",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Debugging",
+      "predicate": "使用",
+      "object": "Console Commands",
+      "context": "调试功能通过控制台命令实现，这些命令提供了不同的调试选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ts.debug.EnableTargetingDebugging",
+      "predicate": "控制",
+      "object": "Targeting System Debugging Mode",
+      "context": "该命令用于开启或关闭目标系统的调试模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ts.debug.PrintTargetingDebugToLog",
+      "predicate": "控制",
+      "object": "Debug Text Logging",
+      "context": "该命令决定是否将调试文本输出到日志中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ts.debug.TotalDebugRecentRequestsTracked",
+      "predicate": "设置",
+      "object": "Tracked Targeting Requests",
+      "context": "该命令设置调试模式下跟踪的目标请求数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ts.debug.ClearTrackedTargetRequests",
+      "predicate": "清除",
+      "object": "Tracked Targeting Handles",
+      "context": "该命令清除所有在调试模式下跟踪的目标句柄",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ShowDebug TargetingSystem",
+      "predicate": "显示",
+      "object": "Targeting Tasks Visualization",
+      "context": "该命令在调试模式下显示目标任务的视觉化效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay Targeting System",
+      "predicate": "包含",
+      "object": "Targeting Requests",
+      "context": "目标系统处理目标请求，这些请求可以在调试模式下被跟踪",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Debugging",
+      "predicate": "依赖",
+      "object": "Client",
+      "context": "调试可视化目前仅在客户端的目标请求上运行",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Gameplay Targeting System",
+      "predicate": "关联",
+      "object": "Gameplay Targeting Plugin",
+      "context": "目标系统的深入工程参考指南可以在游戏目标插件参考文档中找到",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Debugging",
+      "predicate": "适用于",
+      "object": "Troubleshooting",
+      "context": "调试功能主要用于故障排除，帮助开发者解决问题",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:10:43.778Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2432,
+    "contentLength": 2248,
+    "processingTimeMs": 36764
+  }
+}

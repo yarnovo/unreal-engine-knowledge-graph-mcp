@@ -1,0 +1,157 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_gameplay-camera-system-overview",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_gameplay-camera-system-overview.md",
+  "triples": [
+    {
+      "subject": "Gameplay摄像机系统",
+      "predicate": "替代",
+      "object": "蓝图摄像机组件的传统工作流程",
+      "context": "Gameplay摄像机系统提供了比传统蓝图组件更高效和模块化的摄像机行为创建方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay摄像机系统",
+      "predicate": "包含",
+      "object": "摄像机资产",
+      "context": "摄像机资产是Gameplay摄像机系统的核心组成部分，包含摄像机绑定和过渡数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay摄像机系统",
+      "predicate": "支持",
+      "object": "模块化设计",
+      "context": "系统采用模块化设计，允许摄像机资产被多个Actor和组件复用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机资产",
+      "predicate": "包含",
+      "object": "摄像机绑定",
+      "context": "摄像机绑定通过节点网络定义摄像机的具体行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机资产",
+      "predicate": "包含",
+      "object": "摄像机过渡",
+      "context": "摄像机过渡定义不同摄像机绑定之间的切换行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机资产",
+      "predicate": "包含",
+      "object": "摄像机共享过渡",
+      "context": "共享过渡为未指定过渡的摄像机绑定提供默认过渡行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay摄像机Actor",
+      "predicate": "使用",
+      "object": "Gameplay摄像机组件",
+      "context": "Gameplay摄像机Actor通过包含Gameplay摄像机组件来实现摄像机功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay摄像机组件",
+      "predicate": "摄取",
+      "object": "摄像机资产",
+      "context": "组件通过摄取摄像机资产来获取摄像机行为和过渡数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机指示器",
+      "predicate": "管理",
+      "object": "摄像机绑定",
+      "context": "摄像机指示器负责在运行时确定哪个摄像机绑定处于活动状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图摄像机指示器",
+      "predicate": "继承",
+      "object": "摄像机指示器",
+      "context": "蓝图摄像机指示器是摄像机指示器的一种实现方式，允许通过蓝图自定义逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单个摄像机指示器",
+      "predicate": "继承",
+      "object": "摄像机指示器",
+      "context": "单个摄像机指示器是摄像机指示器的简化版本，直接激活指定绑定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "状态树摄像机指示器",
+      "predicate": "继承",
+      "object": "摄像机指示器",
+      "context": "状态树摄像机指示器使用状态树来选择活动摄像机绑定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay摄像机系统",
+      "predicate": "提供",
+      "object": "摄像机调试器工具",
+      "context": "系统内置调试工具帮助开发者调试摄像机行为和过渡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机变量集合",
+      "predicate": "用于",
+      "object": "修改摄像机资产属性",
+      "context": "变量集合提供了动态调整摄像机行为的参数控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay摄像机系统",
+      "predicate": "适用于",
+      "object": "复杂摄像机行为创建",
+      "context": "系统特别适合需要创建复杂摄像机行为的场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay摄像机系统",
+      "predicate": "降低",
+      "object": "编程需求",
+      "context": "系统减少了编写蓝图脚本的需求，使设计师更容易使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机绑定",
+      "predicate": "通过",
+      "object": "节点网络定义行为",
+      "context": "摄像机绑定的行为是通过可视化节点网络配置的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机过渡",
+      "predicate": "定义",
+      "object": "摄像机绑定切换",
+      "context": "过渡控制不同摄像机绑定之间的切换方式和效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:09:50.677Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4189,
+    "contentLength": 2383,
+    "processingTimeMs": 61313
+  }
+}

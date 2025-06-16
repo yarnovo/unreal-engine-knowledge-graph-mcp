@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_input-overview-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_input-overview-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "PlayerInput",
+      "predicate": "转换",
+      "object": "硬件输入",
+      "context": "PlayerInput负责将玩家的硬件输入转换为Actor能够理解的数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PlayerInput",
+      "predicate": "包含",
+      "object": "FInputActionKeyMapping",
+      "context": "PlayerInput中定义了FInputActionKeyMapping结构体，用于操作映射",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PlayerInput",
+      "predicate": "包含",
+      "object": "FInputAxisKeyMapping",
+      "context": "PlayerInput中定义了FInputAxisKeyMapping结构体，用于轴映射",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FInputActionKeyMapping",
+      "predicate": "映射到",
+      "object": "操作映射",
+      "context": "FInputActionKeyMapping将离散按钮或按键映射到友好的名称，用于事件驱动型行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FInputAxisKeyMapping",
+      "predicate": "映射到",
+      "object": "轴映射",
+      "context": "FInputAxisKeyMapping将键盘、控制器或鼠标输入映射到友好的名称，用于连续游戏行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InputComponent",
+      "predicate": "链接",
+      "object": "操作映射",
+      "context": "InputComponent将项目中的操作映射链接到游戏操作",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InputComponent",
+      "predicate": "链接",
+      "object": "轴映射",
+      "context": "InputComponent将项目中的轴映射链接到游戏操作",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InputComponent",
+      "predicate": "优先级",
+      "object": "Actor",
+      "context": "InputComponent的优先级堆栈中，Actor的输入处理优先级最高",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InputComponent",
+      "predicate": "优先级",
+      "object": "控制器",
+      "context": "InputComponent的优先级堆栈中，控制器的输入处理优先级次于Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InputComponent",
+      "predicate": "优先级",
+      "object": "Pawn",
+      "context": "InputComponent的优先级堆栈中，Pawn的输入处理优先级最低",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "增强输入插件",
+      "predicate": "扩展",
+      "object": "PlayerInput",
+      "context": "增强输入插件提供了更高级的输入功能，并向后兼容默认输入系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "增强输入插件",
+      "predicate": "包含",
+      "object": "输入操作",
+      "context": "增强输入系统的核心概念之一是输入操作，用于连接系统和项目代码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "增强输入插件",
+      "predicate": "包含",
+      "object": "输入映射上下文",
+      "context": "增强输入系统的核心概念之一是输入映射上下文，用于将用户输入映射到操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "增强输入插件",
+      "predicate": "包含",
+      "object": "输入修饰符",
+      "context": "增强输入系统的核心概念之一是输入修饰符，用于调整原始输入的值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "增强输入插件",
+      "predicate": "包含",
+      "object": "输入触发器",
+      "context": "增强输入系统的核心概念之一是输入触发器，用于确定是否激活输入操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入映射上下文",
+      "predicate": "动态管理",
+      "object": "输入操作",
+      "context": "输入映射上下文可以动态地为每个用户添加、移除或安排输入操作的优先级",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入修饰符",
+      "predicate": "处理",
+      "object": "原始输入",
+      "context": "输入修饰符用于修改原始输入值，然后再将其发送到输入触发器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入触发器",
+      "predicate": "激活",
+      "object": "输入操作",
+      "context": "输入触发器确定用户输入是否应该激活相应的输入操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "触摸界面",
+      "predicate": "提供",
+      "object": "虚拟操纵杆",
+      "context": "在触控设备上运行的游戏默认拥有两个虚拟操纵杆",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "配置",
+      "object": "输入映射",
+      "context": "输入映射存储在配置文件中，可以在项目设置的输入部分进行编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:36:01.838Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (17089 字符)",
+      "timestamp": "2025-06-15T19:34:57.579Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 27695,
+    "contentLength": 17089,
+    "processingTimeMs": 64267
+  }
+}

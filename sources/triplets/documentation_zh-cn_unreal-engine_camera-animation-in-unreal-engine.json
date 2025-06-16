@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_camera-animation-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_camera-animation-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "摄像机动画",
+      "predicate": "应用于",
+      "object": "游戏摄像机",
+      "context": "摄像机动画可以添加到游戏摄像机上，影响其位置、旋转、视野及后期处理设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机动画",
+      "predicate": "包含",
+      "object": "关键帧",
+      "context": "摄像机动画通过关键帧来控制摄像机的位置、旋转、视野等属性的变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机动画",
+      "predicate": "使用",
+      "object": "Matinee轨道",
+      "context": "摄像机动画的后期处理设置可以通过Matinee轨道进行动画设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机动画",
+      "predicate": "创建方式",
+      "object": "内容浏览器",
+      "context": "可以通过内容浏览器创建空白摄像机动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机动画",
+      "predicate": "创建方式",
+      "object": "Matinee中的摄像机轨迹",
+      "context": "可以将Matinee中的摄像机轨迹导出为摄像机动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机动画",
+      "predicate": "编辑工具",
+      "object": "摄像机动画编辑器",
+      "context": "摄像机动画编辑器是一个定制版本的Matinee，用于编辑摄像机动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PlayerCameraManager",
+      "predicate": "控制",
+      "object": "摄像机动画",
+      "context": "PlayerCameraManager包含函数，允许从C++代码或蓝图脚本控制摄像机动画的播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机动画",
+      "predicate": "生成",
+      "object": "CameraAnimInst",
+      "context": "播放摄像机动画时会创建CameraAnimInst实例，用于管理动画的播放信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CameraAnimInst",
+      "predicate": "控制",
+      "object": "摄像机动画播放参数",
+      "context": "CameraAnimInst可以用于手动停止动画或修改其播放参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机动画",
+      "predicate": "播放空间",
+      "object": "摄像机空间",
+      "context": "摄像机动画最常见的播放空间是摄像机空间，适用于大多数动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机动画",
+      "predicate": "播放空间",
+      "object": "场景空间",
+      "context": "摄像机动画也可以在场景空间中播放，适用于模拟特定环境效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机动画",
+      "predicate": "播放空间",
+      "object": "任意空间",
+      "context": "摄像机动画可以在任意空间中播放，适用于需要自定义空间的应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机动画",
+      "predicate": "支持",
+      "object": "后期处理设置",
+      "context": "摄像机动画可以控制后期处理设置，影响场景的视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机动画",
+      "predicate": "预览工具",
+      "object": "临时摄像机",
+      "context": "编辑摄像机动画时会放置临时摄像机，用于预览动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机动画",
+      "predicate": "导入来源",
+      "object": "Maya",
+      "context": "可以从Maya等工具导入摄像机关键帧到Matinee，进而转换为摄像机动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:18:05.415Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4669,
+    "contentLength": 2447,
+    "processingTimeMs": 58932
+  }
+}

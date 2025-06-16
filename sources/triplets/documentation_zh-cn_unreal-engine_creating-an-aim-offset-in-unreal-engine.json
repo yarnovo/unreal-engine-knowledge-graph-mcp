@@ -1,0 +1,147 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_creating-an-aim-offset-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_creating-an-aim-offset-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "瞄准偏移",
+      "predicate": "基于",
+      "object": "混合空间",
+      "context": "瞄准偏移的工作原理类似于混合空间，用于基于参数混合姿势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "瞄准偏移",
+      "predicate": "包含",
+      "object": "瞄准姿势",
+      "context": "瞄准偏移资源存储了一系列可混合的瞄准姿势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "瞄准姿势",
+      "predicate": "生成自",
+      "object": "动画序列",
+      "context": "瞄准姿势通过从动画序列中提取关键帧创建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "使用",
+      "object": "瞄准偏移",
+      "context": "动画蓝图通过连接瞄准偏移资源实现角色瞄准功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "控制",
+      "object": "角色动画",
+      "context": "动画蓝图驱动角色的动画状态和混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "瞄准偏移",
+      "predicate": "依赖",
+      "object": "模型空间附加动画",
+      "context": "瞄准偏移要求所有使用的动画设置为模型空间附加类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色控制器",
+      "predicate": "驱动",
+      "object": "瞄准偏移参数",
+      "context": "角色的控制器旋转数据用于驱动瞄准偏移的Yaw和Pitch参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画初学者包",
+      "predicate": "提供",
+      "object": "基础动画资源",
+      "context": "动画初学者包包含创建瞄准偏移所需的基础动画资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体",
+      "predicate": "用于创建",
+      "object": "瞄准偏移",
+      "context": "瞄准偏移资源需要基于特定骨架网格体创建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色蓝图",
+      "predicate": "配置",
+      "object": "控制器旋转设置",
+      "context": "角色蓝图需要正确配置控制器旋转设置才能使瞄准偏移正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "叠加动画",
+      "predicate": "扩展",
+      "object": "瞄准系统",
+      "context": "文档建议可以使用叠加动画进一步扩展瞄准系统功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "骨架网格体套接字",
+      "predicate": "配合",
+      "object": "瞄准系统",
+      "context": "骨架网格体套接字可用于在瞄准系统中附加武器",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画序列",
+      "predicate": "分解为",
+      "object": "关键帧",
+      "context": "创建瞄准姿势需要将动画序列分解为单独的关键帧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性矩阵",
+      "predicate": "用于批量编辑",
+      "object": "动画属性",
+      "context": "属性矩阵工具用于批量修改多个动画资源的附加设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RInterp To节点",
+      "predicate": "平滑过渡",
+      "object": "旋转值",
+      "context": "RInterp To节点用于平滑过渡角色的旋转值，避免突兀的动画变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "夹角限制",
+      "predicate": "防止",
+      "object": "不自然旋转",
+      "context": "对Pitch和Yaw值进行夹角限制可以防止角色出现不自然的旋转姿势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:39:19.636Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15262 字符)",
+      "timestamp": "2025-06-15T18:38:17.888Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 21304,
+    "contentLength": 15262,
+    "processingTimeMs": 61757
+  }
+}

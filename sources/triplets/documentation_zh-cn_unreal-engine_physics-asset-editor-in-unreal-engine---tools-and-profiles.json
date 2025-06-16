@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_physics-asset-editor-in-unreal-engine---tools-and-profiles",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_physics-asset-editor-in-unreal-engine---tools-and-profiles.md",
+  "triples": [
+    {
+      "subject": "物理资产编辑器",
+      "predicate": "包含",
+      "object": "工具选项卡",
+      "context": "工具选项卡是物理资产编辑器的一部分，用于对物理资产进行批量编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理资产编辑器",
+      "predicate": "包含",
+      "object": "配置文件选项卡",
+      "context": "配置文件选项卡是物理资产编辑器的一部分，用于管理物理动画和约束的配置文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具选项卡",
+      "predicate": "支持",
+      "object": "形体创建设置",
+      "context": "工具选项卡提供形体创建设置，用于定义形体的生成方式和属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具选项卡",
+      "predicate": "支持",
+      "object": "约束创建设置",
+      "context": "工具选项卡提供约束创建设置，用于定义约束的生成方式和属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "形体创建设置",
+      "predicate": "包含",
+      "object": "图元类型",
+      "context": "图元类型是形体创建设置中的一个属性，用于定义形体的几何体类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "形体创建设置",
+      "predicate": "包含",
+      "object": "顶点加权类型",
+      "context": "顶点加权类型是形体创建设置中的一个属性，用于定义顶点映射到骨骼的方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "约束创建设置",
+      "predicate": "包含",
+      "object": "角度约束模式",
+      "context": "角度约束模式是约束创建设置中的一个属性，用于定义角度约束的类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "配置文件选项卡",
+      "predicate": "支持",
+      "object": "物理动画配置文件",
+      "context": "配置文件选项卡允许创建和管理物理动画配置文件，用于定义形体的物理动画属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "配置文件选项卡",
+      "predicate": "支持",
+      "object": "约束配置文件",
+      "context": "配置文件选项卡允许创建和管理约束配置文件，用于定义约束的属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理动画配置文件",
+      "predicate": "包含",
+      "object": "方向强度",
+      "context": "方向强度是物理动画配置文件中的一个属性，用于定义更正方向误差的力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理动画配置文件",
+      "predicate": "包含",
+      "object": "角速度强度",
+      "context": "角速度强度是物理动画配置文件中的一个属性，用于定义更正角速度误差的力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "约束配置文件",
+      "predicate": "包含",
+      "object": "最大线性力",
+      "context": "最大线性力是约束配置文件中的一个属性，用于定义更正线性误差的最大力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "约束配置文件",
+      "predicate": "包含",
+      "object": "最大角向力",
+      "context": "最大角向力是约束配置文件中的一个属性，用于定义更正角度误差的最大力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理资产编辑器",
+      "predicate": "支持",
+      "object": "缩略图设置",
+      "context": "物理资产编辑器提供缩略图设置，用于控制物理资产在内容浏览器中的显示方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理资产编辑器",
+      "predicate": "支持",
+      "object": "物理设置",
+      "context": "物理资产编辑器提供物理设置，用于定义物理资产的全局属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具选项卡",
+      "predicate": "依赖",
+      "object": "骨架树",
+      "context": "工具选项卡的功能依赖于骨架树，用于选择和操作骨架中的形体",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "配置文件选项卡",
+      "predicate": "依赖",
+      "object": "约束图",
+      "context": "配置文件选项卡的功能依赖于约束图，用于查看和管理形体和约束的配置文件指定状态",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "形体创建设置",
+      "predicate": "影响",
+      "object": "形体生成选项",
+      "context": "形体创建设置的属性直接影响形体生成选项的行为和结果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "约束创建设置",
+      "predicate": "影响",
+      "object": "约束生成选项",
+      "context": "约束创建设置的属性直接影响约束生成选项的行为和结果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:23:06.839Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10347 字符)",
+      "timestamp": "2025-06-15T20:22:08.895Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14411,
+    "contentLength": 10347,
+    "processingTimeMs": 57948
+  }
+}

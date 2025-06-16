@@ -1,0 +1,101 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_shading-material-functions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_shading-material-functions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "FuzzyShading",
+      "predicate": "模仿",
+      "object": "天鹅绒或苔藓的表面",
+      "context": "FuzzyShading函数通过特定的明暗处理操作模仿类似天鹅绒或苔藓的表面效果，帮助学习者理解如何实现特定材质效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FuzzyShading",
+      "predicate": "适用于",
+      "object": "扫描电子显微镜效果",
+      "context": "文档提到FuzzyShading也适合用于着色器效果，如扫描电子显微镜，扩展了学习者的应用场景理解。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FuzzyShading",
+      "predicate": "依赖",
+      "object": "菲涅耳计算",
+      "context": "FuzzyShading与菲涅耳计算类似，学习者需要理解菲涅耳效应以更好地掌握FuzzyShading的工作原理。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FuzzyShadingGrass",
+      "predicate": "扩展",
+      "object": "FuzzyShading",
+      "context": "FuzzyShadingGrass基于FuzzyShading的功能，增加了对草地明暗处理的特定支持，帮助学习者理解功能的继承与扩展。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FuzzyShadingGrass",
+      "predicate": "支持",
+      "object": "边缘颜色混合",
+      "context": "FuzzyShadingGrass允许在边缘混入新颜色，学习者可以通过此功能实现更复杂的材质效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "明暗处理材质",
+      "predicate": "包含",
+      "object": "FuzzyShading",
+      "context": "FuzzyShading是明暗处理材质中的一个具体函数，学习者需要了解其在材质系统中的位置和作用。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "明暗处理材质",
+      "predicate": "包含",
+      "object": "FuzzyShadingGrass",
+      "context": "FuzzyShadingGrass是明暗处理材质中的另一个函数，专门用于草地效果，帮助学习者区分不同功能的用途。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FuzzyShading",
+      "predicate": "使用",
+      "object": "法线贴图",
+      "context": "FuzzyShading通过法线贴图扰乱模糊结果的表面，学习者需要理解法线贴图在材质中的作用。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FuzzyShadingGrass",
+      "predicate": "使用",
+      "object": "法线贴图",
+      "context": "与FuzzyShading类似，FuzzyShadingGrass也使用法线贴图来实现表面效果，强化学习者对法线贴图应用的理解。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FuzzyShading",
+      "predicate": "控制",
+      "object": "核心暗度",
+      "context": "核心暗度参数影响对象中心区域的明暗，学习者可以通过调整此参数实现不同的视觉效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FuzzyShadingGrass",
+      "predicate": "控制",
+      "object": "边缘去饱和度",
+      "context": "边缘去饱和度参数控制边缘颜色的混合程度，帮助学习者精确调整草地材质的外观。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:47:17.878Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3690,
+    "contentLength": 2266,
+    "processingTimeMs": 38976
+  }
+}

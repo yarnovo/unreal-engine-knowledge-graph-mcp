@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_widget-type-reference-for-umg-ui-designer-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_widget-type-reference-for-umg-ui-designer-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "背景模糊控件",
+      "predicate": "用于",
+      "object": "UI设计",
+      "context": "背景模糊控件专门用于UI设计中，用于模糊单个子控件下面的物体，增强视觉层次感",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "无效化方框",
+      "predicate": "优化",
+      "object": "UI性能",
+      "context": "无效化方框通过减少不必要的重绘来优化UI控件的性能，是UI性能调优的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "菜单锚点",
+      "predicate": "控制",
+      "object": "弹出菜单位置",
+      "context": "菜单锚点用于精确控制弹出菜单的显示位置，是创建上下文菜单和下拉菜单的基础组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "命名槽",
+      "predicate": "支持",
+      "object": "UI模板",
+      "context": "命名槽允许在用户创建的控件中定义可外部访问的槽位，是实现UI模板系统的关键功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动换行框",
+      "predicate": "实现",
+      "object": "文本自动布局",
+      "context": "自动换行框自动处理控件超出宽度时的换行问题，是实现自适应文本布局的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG",
+      "predicate": "包含",
+      "object": "背景模糊控件",
+      "context": "背景模糊控件是UMG UI设计器提供的标准控件之一，属于UI构建基础元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG",
+      "predicate": "包含",
+      "object": "无效化方框",
+      "context": "无效化方框是UMG提供的性能优化控件，开发者需要了解其使用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG",
+      "predicate": "包含",
+      "object": "菜单锚点",
+      "context": "菜单锚点是UMG中处理菜单定位的标准解决方案，属于高级UI功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UI模板",
+      "predicate": "依赖",
+      "object": "命名槽",
+      "context": "创建可复用的UI模板需要理解命名槽的使用方法，这是模板系统的核心技术",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "自适应布局",
+      "predicate": "需要",
+      "object": "自动换行框",
+      "context": "实现响应式UI布局时，自动换行框是处理文本内容自适应的关键组件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:32:29.615Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2377,
+    "contentLength": 1905,
+    "processingTimeMs": 30344
+  }
+}

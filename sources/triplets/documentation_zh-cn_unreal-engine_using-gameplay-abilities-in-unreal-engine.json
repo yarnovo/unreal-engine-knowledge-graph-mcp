@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-gameplay-abilities-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-gameplay-abilities-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Gameplay Ability",
+      "predicate": "继承自",
+      "object": "UGameplayAbility",
+      "context": "Gameplay Ability是UGameplayAbility类的子类，理解继承关系有助于掌握其基本特性和功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay Ability",
+      "predicate": "包含",
+      "object": "技能效果",
+      "context": "Gameplay Ability定义了技能的效果，这是其核心功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay Ability",
+      "predicate": "包含",
+      "object": "使用代价",
+      "context": "Gameplay Ability可以定义使用技能需要付出的代价，如资源消耗",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay Ability",
+      "predicate": "包含",
+      "object": "使用条件",
+      "context": "Gameplay Ability定义了何时或在何情况下可以使用技能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay Ability",
+      "predicate": "支持",
+      "object": "网络复制",
+      "context": "Gameplay Ability可以在整个网络中自我复制，支持多人游戏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay Ability",
+      "predicate": "支持",
+      "object": "客户端预测",
+      "context": "Gameplay Ability支持客户端预测，提高响应速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay Ability",
+      "predicate": "支持",
+      "object": "远程过程调用",
+      "context": "Gameplay Ability支持RPC，实现跨网络通信",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay Ability",
+      "predicate": "依赖",
+      "object": "技能系统组件",
+      "context": "Gameplay Ability需要通过技能系统组件授予和撤销",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "技能系统组件",
+      "predicate": "提供",
+      "object": "GiveAbility",
+      "context": "技能系统组件提供GiveAbility函数来授予技能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "技能系统组件",
+      "predicate": "提供",
+      "object": "ClearAbility",
+      "context": "技能系统组件提供ClearAbility函数来撤销技能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay Ability",
+      "predicate": "包含",
+      "object": "生命周期函数",
+      "context": "Gameplay Ability有一系列生命周期函数如CanActivateAbility、CallActivateAbility等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay Ability",
+      "predicate": "使用",
+      "object": "Gameplay标记",
+      "context": "Gameplay Ability使用标记系统来确定技能间的交互方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay Ability",
+      "predicate": "支持",
+      "object": "多种复制策略",
+      "context": "Gameplay Ability支持不同的复制策略以适应不同网络需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay Ability",
+      "predicate": "支持",
+      "object": "多种实例化策略",
+      "context": "Gameplay Ability支持不同的实例化策略以平衡性能和功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay Ability",
+      "predicate": "响应",
+      "object": "玩法事件",
+      "context": "Gameplay Ability可以响应玩法事件来触发技能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay Ability",
+      "predicate": "包含",
+      "object": "CancelAbility",
+      "context": "Gameplay Ability提供取消技能的机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay Ability",
+      "predicate": "包含",
+      "object": "EndAbility",
+      "context": "Gameplay Ability需要正确结束以避免系统状态异常",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay Ability",
+      "predicate": "包含",
+      "object": "CommitAbility",
+      "context": "Gameplay Ability使用CommitAbility来应用技能消耗",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay Ability",
+      "predicate": "支持",
+      "object": "异步任务",
+      "context": "Gameplay Ability可以启动异步任务来完成复杂操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay Ability",
+      "predicate": "支持",
+      "object": "动画蒙太奇",
+      "context": "Gameplay Ability可以与动画蒙太奇集成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:16:50.121Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 15240,
+    "contentLength": 7588,
+    "processingTimeMs": 54993
+  }
+}

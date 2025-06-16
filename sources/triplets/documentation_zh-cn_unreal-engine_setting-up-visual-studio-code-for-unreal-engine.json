@@ -1,0 +1,99 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_setting-up-visual-studio-code-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_setting-up-visual-studio-code-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "Visual Studio Code",
+      "context": "虚幻引擎支持VS Code作为轻量级的开发工具替代方案，帮助开发者在多平台环境中工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Visual Studio Code",
+      "predicate": "需要",
+      "object": "C/C++扩展包",
+      "context": "VS Code需要安装C/C++扩展包才能读取虚幻引擎的源代码，这是开发C++项目的必备工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Visual Studio Code",
+      "predicate": "需要",
+      "object": "C#扩展",
+      "context": "VS Code需要安装C#扩展以支持虚幻引擎的编译工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Visual Studio Code",
+      "predicate": "依赖",
+      "object": "编译器工具集",
+      "context": "VS Code在不同操作系统上依赖不同的编译器工具集（如MSVC、LLVM/Clang）来编译项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "使用",
+      "object": "IntelliSense",
+      "context": "虚幻引擎在VS Code中利用IntelliSense提供代码提示和自动完成功能，提升开发效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IntelliSense",
+      "predicate": "需要",
+      "object": "c_cpp_properties.json配置",
+      "context": "IntelliSense需要通过c_cpp_properties.json文件配置项目路径和编译选项，以便正确解析代码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Visual Studio Code",
+      "predicate": "支持",
+      "object": "多平台开发",
+      "context": "VS Code支持Windows、MacOS和Linux平台，为跨平台开发虚幻引擎项目提供统一工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编辑器",
+      "predicate": "配置",
+      "object": "默认源代码编辑器",
+      "context": "虚幻编辑器允许开发者配置默认源代码编辑器为VS Code，方便项目管理和开发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VS Code工作区",
+      "predicate": "生成方式",
+      "object": "刷新项目文件",
+      "context": "VS Code工作区可以通过虚幻编辑器中的“刷新Visual Studio Code项目”选项生成，简化项目设置流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VS Code",
+      "predicate": "提供",
+      "object": "运行和调试功能",
+      "context": "VS Code提供运行和调试面板，支持开发者编译和调试虚幻引擎项目，提升开发体验",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:46:10.910Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9672 字符)",
+      "timestamp": "2025-06-15T20:45:40.704Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12978,
+    "contentLength": 9672,
+    "processingTimeMs": 30211
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_the-datasmith-3ds-max-ui-for-exporting-to-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_the-datasmith-3ds-max-ui-for-exporting-to-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Datasmith 3ds Max导出器插件",
+      "predicate": "扩展",
+      "object": "3ds Max功能区",
+      "context": "插件安装后会在3ds Max功能区新增Datasmith选项卡，提供专用工具和设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith选项卡",
+      "predicate": "包含",
+      "object": "Direct Link面板",
+      "context": "Direct Link面板是Datasmith选项卡的核心功能模块之一，用于实时同步场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Direct Link",
+      "predicate": "同步",
+      "object": "3ds Max场景",
+      "context": "通过Direct Link可将3ds Max场景内容推送到缓存目录，实现与虚幻引擎的实时同步",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "自动同步",
+      "predicate": "依赖",
+      "object": "Direct Link",
+      "context": "自动同步功能需要Direct Link机制作为基础技术支撑",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": ".udatasmith文件",
+      "predicate": "用于",
+      "object": "虚幻引擎导入",
+      "context": "导出的.udatasmith文件是虚幻引擎可识定的标准交换格式",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "动画变换设置",
+      "predicate": "影响",
+      "object": "关卡序列生成",
+      "context": "3ds Max中的动画变换设置决定了导入虚幻引擎后如何转换为关卡序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "限制纹理分辨率",
+      "predicate": "控制",
+      "object": "程序性纹理烘焙",
+      "context": "该设置专门用于控制程序性纹理在烘焙为图片时的最大像素数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith属性修改器",
+      "predicate": "定制",
+      "object": "物体导出方式",
+      "context": "通过属性修改器可以针对单个物体自定义导出行为，是高级控制手段",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "Datasmith消息窗口",
+      "predicate": "提供",
+      "object": "导出诊断信息",
+      "context": "消息窗口是重要的调试工具，显示导出过程中的警告和统计数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Direct Link连接状态窗口",
+      "predicate": "监控",
+      "object": "3ds Max与虚幻引擎连接",
+      "context": "该窗口可视化显示实时连接状态，是工作流监控的重要界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "XRef场景",
+      "predicate": "可包含于",
+      "object": ".udatasmith文件",
+      "context": "设置面板控制是否将外部引用场景包含在导出文件中",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "Twinmotion",
+      "predicate": "兼容",
+      "object": "Datasmith导出格式",
+      "context": "作为基于虚幻引擎的应用程序，同样支持Datasmith导出文件的导入",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:01:24.386Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9028,
+    "contentLength": 6578,
+    "processingTimeMs": 36094
+  }
+}

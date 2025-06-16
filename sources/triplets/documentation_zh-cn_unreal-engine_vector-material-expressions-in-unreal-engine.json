@@ -1,0 +1,195 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_vector-material-expressions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_vector-material-expressions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "ActorPositionWS",
+      "predicate": "输出",
+      "object": "世界场景空间位置",
+      "context": "ActorPositionWS输出对象在世界场景空间中的位置，用于材质响应",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CameraPositionWS",
+      "predicate": "输出",
+      "object": "摄像机世界场景空间位置",
+      "context": "CameraPositionWS输出摄像机在世界场景空间中的位置，影响材质颜色变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CameraVectorWS",
+      "predicate": "输出",
+      "object": "摄像机方向向量",
+      "context": "CameraVectorWS输出摄像机相对于表面的方向，用于环境贴图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Constant2Vector",
+      "predicate": "用于",
+      "object": "UV坐标调整",
+      "context": "Constant2Vector输出双通道矢量值，常用于修改纹理缩放或偏移",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Constant3Vector",
+      "predicate": "用于",
+      "object": "RGB颜色定义",
+      "context": "Constant3Vector输出三通道矢量值，常用于定义实心RGB颜色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Constant4Vector",
+      "predicate": "用于",
+      "object": "RGBA颜色定义",
+      "context": "Constant4Vector输出四通道矢量值，用于定义RGBA颜色和不透明度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LightVector",
+      "predicate": "用于",
+      "object": "延迟贴花和LightFunction材质",
+      "context": "LightVector专门用于延迟贴花和LightFunction材质，输出像素在贴花坐标空间中的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ObjectBounds",
+      "predicate": "输出",
+      "object": "对象轴大小",
+      "context": "ObjectBounds输出对象在每个轴上的大小，用于材质颜色变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ObjectOrientation",
+      "predicate": "输出",
+      "object": "对象向上空间向量",
+      "context": "ObjectOrientation输出对象的局部正Z轴方向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ObjectPositionWS",
+      "predicate": "输出",
+      "object": "对象边界中心位置",
+      "context": "ObjectPositionWS输出对象边界的世界场景空间中心位置，用于球形照明",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ParticlePositionWS",
+      "predicate": "输出",
+      "object": "粒子世界场景空间位置",
+      "context": "ParticlePositionWS输出每个粒子在世界场景空间中的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PixelNormalWS",
+      "predicate": "输出",
+      "object": "像素法线方向",
+      "context": "PixelNormalWS输出像素所面对的方向，用于材质效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PreSkinnedLocalNormal",
+      "predicate": "输出",
+      "object": "局部表面法线",
+      "context": "PreSkinnedLocalNormal输出骨架网格体和静态网格体的局部表面法线，用于三平面材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PreSkinnedLocalPosition",
+      "predicate": "输出",
+      "object": "默认姿势位置",
+      "context": "PreSkinnedLocalPosition输出骨架网格体的默认姿势位置，用于局部化效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ReflectionVectorWS",
+      "predicate": "输出",
+      "object": "反射摄像机方向",
+      "context": "ReflectionVectorWS输出通过表面法线反射的摄像机方向，用于环境贴图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VertexNormalWS",
+      "predicate": "输出",
+      "object": "世界场景空间顶点法线",
+      "context": "VertexNormalWS输出世界场景空间顶点法线，用于网格体增大或缩小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VectorNoise",
+      "predicate": "包含",
+      "object": "多种噪点类型",
+      "context": "VectorNoise包含多种噪点类型，如Cellnoise、Perlin3DNoise等，用于程序生成纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VectorNoise",
+      "predicate": "用于",
+      "object": "材质效果开发",
+      "context": "VectorNoise用于在材质中开发程序外观，提供随机性和复杂效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CameraVectorWS",
+      "predicate": "类似",
+      "object": "ReflectionVectorWS",
+      "context": "CameraVectorWS和ReflectionVectorWS都涉及摄像机方向，但后者通过表面法线反射",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Constant2Vector",
+      "predicate": "扩展",
+      "object": "Constant3Vector",
+      "context": "Constant2Vector和Constant3Vector都是常量矢量表达式，后者增加了一个通道",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Constant3Vector",
+      "predicate": "扩展",
+      "object": "Constant4Vector",
+      "context": "Constant3Vector和Constant4Vector都是常量矢量表达式，后者增加了一个alpha通道",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "PreSkinnedLocalNormal",
+      "predicate": "关联",
+      "object": "PreSkinnedLocalPosition",
+      "context": "两者都用于骨架网格体的局部效果，分别处理法线和位置",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T21:28:12.721Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (14082 字符)",
+      "timestamp": "2025-06-15T21:27:12.237Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 21940,
+    "contentLength": 14082,
+    "processingTimeMs": 60488
+  }
+}

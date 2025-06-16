@@ -1,0 +1,69 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_assign-a-physical-material-to-a-material-instance-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_assign-a-physical-material-to-a-material-instance-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "材质实例",
+      "predicate": "包含",
+      "object": "物理材质",
+      "context": "材质实例可以包含物理材质属性，这是实现物理交互效果的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "用于",
+      "object": "编辑材质实例属性",
+      "context": "细节面板是编辑材质实例属性的主要界面，包括物理材质的指定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理材质",
+      "predicate": "控制",
+      "object": "物理交互效果",
+      "context": "物理材质定义了物体在物理模拟中的行为特性，如摩擦力和弹性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质实例",
+      "predicate": "继承自",
+      "object": "基础材质",
+      "context": "材质实例是基于基础材质创建的，可以覆盖或扩展基础材质的属性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "物理材质下拉菜单",
+      "predicate": "属于",
+      "object": "细节面板",
+      "context": "物理材质下拉菜单是细节面板中用于指定物理材质的专用控件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理材质",
+      "predicate": "影响",
+      "object": "碰撞响应",
+      "context": "物理材质的属性直接影响物体在碰撞时的行为表现",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "保存操作",
+      "predicate": "应用于",
+      "object": "材质实例修改",
+      "context": "保存操作是将对材质实例的修改（包括物理材质指定）持久化的必要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:05:55.700Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 1548,
+    "contentLength": 1276,
+    "processingTimeMs": 35237
+  }
+}

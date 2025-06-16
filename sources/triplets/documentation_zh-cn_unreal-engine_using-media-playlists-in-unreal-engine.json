@@ -1,0 +1,123 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-media-playlists-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-media-playlists-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "媒体播放列表",
+      "predicate": "包含",
+      "object": "媒体源",
+      "context": "媒体播放列表资源指向按预定义顺序指定的媒体源资源，帮助学习者理解播放列表的组成结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体播放器",
+      "predicate": "控制",
+      "object": "媒体播放列表",
+      "context": "媒体播放器资源通过Open Playlist Index等节点控制播放列表的播放行为，是播放逻辑的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体纹理",
+      "predicate": "基于",
+      "object": "媒体播放器",
+      "context": "媒体纹理资源需要关联媒体播放器才能实现视频渲染，展示媒体播放器的输出功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体声音",
+      "predicate": "关联",
+      "object": "媒体播放器",
+      "context": "媒体声音组件必须指定媒体播放器资源才能同步播放音频，体现音视频协同工作机制",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图第三人称模板",
+      "predicate": "适用于",
+      "object": "媒体播放列表教程",
+      "context": "文档使用该模板作为基础项目框架，说明这是学习媒体功能的典型环境",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "文件媒体源",
+      "predicate": "引用",
+      "object": "视频文件",
+      "context": "文件媒体源资源通过文件路径引用具体视频文件，展示资源引用关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡蓝图",
+      "predicate": "实现",
+      "object": "播放控制逻辑",
+      "context": "通过键盘事件和媒体播放器节点的组合实现播放控制，展示蓝图编程与媒体系统的集成方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平面Actor",
+      "predicate": "承载",
+      "object": "媒体纹理",
+      "context": "平面作为视频播放的载体表面，帮助理解3D场景中媒体呈现的基础方法",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "循环选项",
+      "predicate": "配置",
+      "object": "播放行为",
+      "context": "媒体播放器和播放列表的循环选项控制播放模式，是重要的播放参数配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容/电影文件夹",
+      "predicate": "专门用于",
+      "object": "视频资源存储",
+      "context": "该文件夹是视频文件的规范存储位置，涉及项目打包部署的路径要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Open Playlist Index节点",
+      "predicate": "对应",
+      "object": "播放列表顺序",
+      "context": "该节点的索引参数与播放列表中的媒体源顺序直接对应，揭示播放列表的索引机制",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换工具",
+      "predicate": "调整",
+      "object": "播放平面",
+      "context": "使用变换工具调整平面大小和位置是视频播放器场景搭建的基础操作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "随机播放选项",
+      "predicate": "影响",
+      "object": "播放顺序",
+      "context": "该选项提供了除顺序播放外的另一种播放模式选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:19:19.070Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8296 字符)",
+      "timestamp": "2025-06-15T21:18:41.316Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12794,
+    "contentLength": 8296,
+    "processingTimeMs": 37764
+  }
+}

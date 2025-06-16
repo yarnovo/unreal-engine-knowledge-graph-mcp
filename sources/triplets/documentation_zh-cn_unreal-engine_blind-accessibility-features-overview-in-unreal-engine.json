@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_blind-accessibility-features-overview-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_blind-accessibility-features-overview-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "文本转语音插件",
+      "predicate": "支持",
+      "object": "视觉障碍用户",
+      "context": "文本转语音插件通过合成语音帮助视觉障碍用户获取界面信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕阅读器插件",
+      "predicate": "扩展",
+      "object": "文本转语音插件",
+      "context": "屏幕阅读器插件基于文本转语音功能提供更丰富的交互功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate屏幕阅读器插件",
+      "predicate": "基于",
+      "object": "屏幕阅读器插件",
+      "context": "Slate屏幕阅读器插件是屏幕阅读器插件的具体实现，专门用于Slate UI",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate屏幕阅读器插件",
+      "predicate": "支持",
+      "object": "Slate UI元素",
+      "context": "该插件专门为Slate实现的UI元素提供即插即用的辅助功能支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕阅读器插件",
+      "predicate": "用于",
+      "object": "自定义UI解决方案",
+      "context": "屏幕阅读器插件提供基础框架，可用于开发自定义UI的辅助功能解决方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "文本转语音插件",
+      "predicate": "适用于",
+      "object": "简易UI",
+      "context": "文本转语音插件适合不需要复杂交互的简单UI场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate屏幕阅读器插件",
+      "predicate": "自动启用",
+      "object": "文本转语音插件",
+      "context": "启用Slate屏幕阅读器时会自动启用其依赖的文本转语音插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕阅读器插件",
+      "predicate": "自动启用",
+      "object": "文本转语音插件",
+      "context": "屏幕阅读器插件依赖文本转语音功能，启用时会自动启用后者",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视觉障碍辅助功能",
+      "predicate": "满足",
+      "object": "CVAA要求",
+      "context": "虚幻引擎的视觉障碍辅助功能插件帮助游戏满足CVAA无障碍立法要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "文本转语音功能",
+      "predicate": "应用于",
+      "object": "游戏行业",
+      "context": "文本转语音技术从传统行业扩展到游戏行业，用于辅助功能实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate屏幕阅读器插件",
+      "predicate": "支持",
+      "object": "多种控件类型",
+      "context": "该插件支持按钮、复选框等常见Slate控件的辅助功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启用辅助功能",
+      "predicate": "需要配置",
+      "object": ".ini文件",
+      "context": "启用屏幕阅读器插件前需要在配置文件中设置Accessibility.Enable=1",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate屏幕阅读器插件",
+      "predicate": "作为",
+      "object": "开发样板",
+      "context": "开发者可以参考该插件的实现方式开发自定义屏幕阅读器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:13:56.661Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7613,
+    "contentLength": 4239,
+    "processingTimeMs": 43665
+  }
+}

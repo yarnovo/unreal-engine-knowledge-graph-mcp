@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-the-invalidation-box-for-umg-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-the-invalidation-box-for-umg-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "无效化方框",
+      "predicate": "优化",
+      "object": "UMG UI",
+      "context": "无效化方框通过缓存子控件的几何体来提升Slate渲染性能，特别适用于移动端或复杂UI界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "无效化方框",
+      "predicate": "包含",
+      "object": "子控件",
+      "context": "无效化方框围绕的控件子控件的几何体会被缓存，这是其核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "无效化方框",
+      "predicate": "支持",
+      "object": "手动无效化",
+      "context": "当子控件发生变动时，需要手动调用Invalidate函数使缓存失效，强制重新绘制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "无效化方框",
+      "predicate": "提供",
+      "object": "缓存相对变换选项",
+      "context": "细节面板中的'缓存相对变换'选项可以优化动态位置变化的无效化方框性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "无效化方框",
+      "predicate": "支持",
+      "object": "易变控件",
+      "context": "通过'易变'选项可以处理逐帧变化的控件，避免完全禁用缓存",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "无效化方框",
+      "predicate": "用于",
+      "object": "性能调试",
+      "context": "可以使用控件反映器和SlateDebugger工具调试无效化行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件反映器",
+      "predicate": "支持",
+      "object": "无效化调试",
+      "context": "开发者可以通过控件反映器可视化不同类别的无效化操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SlateDebugger",
+      "predicate": "提供",
+      "object": "无效化调试命令",
+      "context": "SlateDebugger.Invalidate系列命令用于深入分析无效化行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "无效化方框",
+      "predicate": "基于",
+      "object": "Slate渲染系统",
+      "context": "无效化方框是Slate UI框架的性能优化组件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "无效化方框",
+      "predicate": "适用于",
+      "object": "不频繁变化的UI元素",
+      "context": "文档建议将偶尔变动的控件放入无效化方框以获得最佳性能收益",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "无效化方框",
+      "predicate": "不适用于",
+      "object": "材质参数变化",
+      "context": "更改材质参数不会自动触发无效化，因为不存储在顶点缓冲区中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "无效化方框",
+      "predicate": "前置知识",
+      "object": "控件类型",
+      "context": "理解无效化方框需要先掌握基本的UMG控件知识",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "易变属性",
+      "predicate": "替代",
+      "object": "完全无效化",
+      "context": "对于动态控件，设置易变属性比完全无效化更高效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Invalidate函数",
+      "predicate": "触发",
+      "object": "重新绘制",
+      "context": "调用Invalidate会强制控件在下个绘制通道重新生成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "无效化调试",
+      "predicate": "使用",
+      "object": "颜色编码",
+      "context": "不同无效化类型用特定颜色标识，帮助开发者快速诊断问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:24:46.146Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6291,
+    "contentLength": 4003,
+    "processingTimeMs": 42211
+  }
+}

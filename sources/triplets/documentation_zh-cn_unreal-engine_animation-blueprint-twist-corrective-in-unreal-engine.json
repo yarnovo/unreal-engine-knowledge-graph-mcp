@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-blueprint-twist-corrective-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-blueprint-twist-corrective-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Twist Corrective节点",
+      "predicate": "控制",
+      "object": "动画曲线",
+      "context": "Twist Corrective节点用于驱动动画曲线值，帮助学习者理解如何通过节点控制动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Twist Corrective节点",
+      "predicate": "用于",
+      "object": "变形目标",
+      "context": "Twist Corrective节点可以驱动变形目标，帮助学习者理解节点在角色动画中的应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Twist Corrective节点",
+      "predicate": "依赖",
+      "object": "基础帧",
+      "context": "Twist Corrective节点需要基础帧作为参考点来计算运动alpha，帮助学习者理解节点的配置过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Twist Corrective节点",
+      "predicate": "依赖",
+      "object": "扭转帧",
+      "context": "Twist Corrective节点需要扭转帧来计算相对于基础帧的运动alpha，帮助学习者理解节点的配置过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Twist Corrective节点",
+      "predicate": "基于",
+      "object": "组件空间",
+      "context": "Twist Corrective节点在组件空间中运行，帮助学习者理解节点的工作环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Twist Corrective节点",
+      "predicate": "需要",
+      "object": "空间转换",
+      "context": "Twist Corrective节点在动画蓝图中实现时需要空间转换，帮助学习者理解节点的工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基础帧",
+      "predicate": "包含",
+      "object": "骨骼属性",
+      "context": "基础帧属性包含骨骼选择，帮助学习者理解如何配置基础帧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基础帧",
+      "predicate": "包含",
+      "object": "轴属性",
+      "context": "基础帧属性包含轴设置，帮助学习者理解如何定义运动轴",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "扭转帧",
+      "predicate": "包含",
+      "object": "骨骼属性",
+      "context": "扭转帧属性包含骨骼选择，帮助学习者理解如何配置扭转帧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "扭转帧",
+      "predicate": "包含",
+      "object": "轴属性",
+      "context": "扭转帧属性包含轴设置，帮助学习者理解如何定义运动轴",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "扭转平面法线轴",
+      "predicate": "用于",
+      "object": "计算alpha",
+      "context": "扭转平面法线轴用于计算扭转帧相对于基础帧的角度alpha，帮助学习者理解其作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画曲线",
+      "predicate": "用于",
+      "object": "变形目标",
+      "context": "动画曲线可以驱动变形目标，帮助学习者理解动画曲线在角色动画中的应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Twist Corrective节点",
+      "predicate": "输出到",
+      "object": "曲线",
+      "context": "Twist Corrective节点将计算出的扭转alpha输出到曲线，帮助学习者理解节点的输出机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "最大角度度数",
+      "predicate": "限制",
+      "object": "曲线值",
+      "context": "最大角度度数设置扭转导致的最大曲线值，帮助学习者理解如何控制动画效果的范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "映射的范围下限",
+      "predicate": "应用于",
+      "object": "曲线",
+      "context": "映射的范围下限设置应用于曲线的最小值，帮助学习者理解如何调整曲线的起始点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "映射的范围上限",
+      "predicate": "应用于",
+      "object": "曲线",
+      "context": "映射的范围上限设置应用于曲线的最大值，帮助学习者理解如何调整曲线的结束点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:00:24.314Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8280,
+    "contentLength": 5466,
+    "processingTimeMs": 62260
+  }
+}

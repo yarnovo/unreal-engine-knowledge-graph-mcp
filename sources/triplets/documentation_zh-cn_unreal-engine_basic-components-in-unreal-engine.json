@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_basic-components-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_basic-components-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "组件",
+      "predicate": "属于",
+      "object": "Actor",
+      "context": "组件不能单独存在，必须绑定在Actor上，这是理解组件作用的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "组件",
+      "context": "Actor通过包含组件来获得各种功能，这是Actor功能扩展的核心机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "聚光源组件",
+      "predicate": "实现",
+      "object": "发光功能",
+      "context": "聚光源组件为Actor提供了发光的能力，展示了组件的功能实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "旋转运动组件",
+      "predicate": "实现",
+      "object": "旋转功能",
+      "context": "旋转运动组件为Actor提供了旋转的能力，展示了组件的功能实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频组件",
+      "predicate": "实现",
+      "object": "播放声音功能",
+      "context": "音频组件为Actor提供了播放声音的能力，展示了组件的功能实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "汽车Actor",
+      "predicate": "组成",
+      "object": "车轮组件",
+      "context": "汽车Actor由车轮等组件组成，展示了复杂Actor的组件构成方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家角色Actor",
+      "predicate": "包含",
+      "object": "骨骼网格体组件",
+      "context": "玩家角色Actor通常包含骨骼网格体组件来表示外观，这是角色构建的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "组件",
+      "predicate": "实例化",
+      "object": "Actor实例",
+      "context": "每个Actor实例都有独立的组件实例，这是理解组件实例化行为的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "控制",
+      "object": "组件行为",
+      "context": "蓝图可以控制组件的具体行为，如使汽车加速，展示了蓝图与组件的交互方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "组件实例化",
+      "predicate": "防止",
+      "object": "行为共享",
+      "context": "组件实例化确保不同Actor实例的组件行为不会相互影响，这是重要的设计考量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Instanced属性说明符",
+      "predicate": "替代",
+      "object": "组件实例化",
+      "context": "在没有组件实例化的情况下，需要使用Instanced属性说明符来实现类似效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "骨骼网格体组件",
+      "predicate": "表示",
+      "object": "角色外观",
+      "context": "骨骼网格体组件用于表示角色的外观，这是角色构建的重要组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机组件",
+      "predicate": "跟随",
+      "object": "玩家角色移动",
+      "context": "摄像机组件通常跟随玩家角色移动，展示了组件间的协同工作方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "输入控制器组件",
+      "predicate": "接收",
+      "object": "玩家输入",
+      "context": "输入控制器组件接收玩家输入，这是玩家交互的基础",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:11:42.183Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3042,
+    "contentLength": 1644,
+    "processingTimeMs": 46484
+  }
+}

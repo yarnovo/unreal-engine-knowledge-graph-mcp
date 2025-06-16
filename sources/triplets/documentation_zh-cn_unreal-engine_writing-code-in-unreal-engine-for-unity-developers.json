@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_writing-code-in-unreal-engine-for-unity-developers",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_writing-code-in-unreal-engine-for-unity-developers.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "C++",
+      "context": "虚幻引擎支持使用C++进行代码编写，这是其主要的编程方式之一",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "蓝图",
+      "context": "虚幻引擎内置了蓝图系统，无需额外工具即可进行可视化脚本编写",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C++",
+      "predicate": "依赖",
+      "object": "Visual Studio",
+      "context": "在Windows上使用C++开发虚幻引擎项目需要安装Visual Studio",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C++",
+      "predicate": "依赖",
+      "object": "Xcode",
+      "context": "在macOS上使用C++开发虚幻引擎项目需要安装Xcode",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor",
+      "predicate": "对应",
+      "object": "MonoBehavior",
+      "context": "AActor在虚幻引擎中的角色类似于Unity中的MonoBehavior，都是游戏对象的基础类",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "AActor",
+      "predicate": "包含",
+      "object": "BeginPlay",
+      "context": "AActor包含BeginPlay方法，类似于Unity中的Start方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor",
+      "predicate": "包含",
+      "object": "EndPlay",
+      "context": "AActor包含EndPlay方法，类似于Unity中的OnDestroy方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor",
+      "predicate": "包含",
+      "object": "Tick",
+      "context": "AActor包含Tick方法，类似于Unity中的Update方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UActorComponent",
+      "predicate": "继承",
+      "object": "UObject",
+      "context": "UActorComponent是UObject的子类，遵循虚幻引擎的对象系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UActorComponent",
+      "predicate": "包含",
+      "object": "InitializeComponent",
+      "context": "UActorComponent包含InitializeComponent方法，用于组件初始化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UActorComponent",
+      "predicate": "包含",
+      "object": "UninitializeComponent",
+      "context": "UActorComponent包含UninitializeComponent方法，用于组件销毁",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UActorComponent",
+      "predicate": "包含",
+      "object": "TickComponent",
+      "context": "UActorComponent包含TickComponent方法，用于每帧更新",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "要求",
+      "object": "显式调用父类方法",
+      "context": "在虚幻引擎中，子类必须显式调用父类的方法，这与Unity不同",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻引擎C++",
+      "predicate": "遵循",
+      "object": "代码规范",
+      "context": "虚幻引擎的C++代码需要遵循特定的命名规范，如使用U前缀表示UObject子类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "用于",
+      "object": "访问C++类",
+      "context": "内容浏览器可以用于双击C++类来在Visual Studio中打开",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "需要",
+      "object": "刷新Visual Studio项目",
+      "context": "在某些情况下需要手动刷新Visual Studio项目文件以保证同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:36:07.079Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5832,
+    "contentLength": 4476,
+    "processingTimeMs": 43324
+  }
+}

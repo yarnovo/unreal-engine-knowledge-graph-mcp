@@ -1,0 +1,149 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_skeletal-mesh-actors-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_skeletal-mesh-actors-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "骨骼网格体Actor",
+      "predicate": "包含",
+      "object": "骨骼",
+      "context": "骨骼网格体包含由多个骨骼组成的骨架，用于动画过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体Actor",
+      "predicate": "包含",
+      "object": "骨架",
+      "context": "骨骼网格体包含由多个骨骼组成的骨架，用于动画过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体Actor",
+      "predicate": "用于",
+      "object": "玩家角色",
+      "context": "骨骼网格体Actor常用于表示玩家角色、NPC、其他动画生物和复杂的机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体Actor",
+      "predicate": "用于",
+      "object": "NPC",
+      "context": "骨骼网格体Actor常用于表示玩家角色、NPC、其他动画生物和复杂的机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体Actor",
+      "predicate": "用于",
+      "object": "动画生物",
+      "context": "骨骼网格体Actor常用于表示玩家角色、NPC、其他动画生物和复杂的机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体Actor",
+      "predicate": "用于",
+      "object": "复杂机制",
+      "context": "骨骼网格体Actor常用于表示玩家角色、NPC、其他动画生物和复杂的机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体Actor",
+      "predicate": "基于",
+      "object": "骨骼网格体",
+      "context": "骨骼网格体Actor显示动画网格体，其几何体可以变形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体Actor",
+      "predicate": "支持",
+      "object": "动画序列",
+      "context": "骨骼网格体Actor可以通过动画序列进行动画制作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体Actor",
+      "predicate": "支持",
+      "object": "动画蓝图",
+      "context": "骨骼网格体Actor可以通过动画蓝图播放和混合多个动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体Actor",
+      "predicate": "依赖",
+      "object": "物理资产",
+      "context": "骨骼网格体Actor需要有专门为其创建的物理资产来实现碰撞",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体Actor",
+      "predicate": "使用",
+      "object": "材质",
+      "context": "可以单独覆盖骨骼网格体Actor的材质以更改其外观",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质",
+      "predicate": "需要",
+      "object": "用于骨骼网格体选项",
+      "context": "要将材质用于骨骼网格体Actor，需要启用用于骨骼网格体选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体Actor",
+      "predicate": "放置方式",
+      "object": "内容浏览器",
+      "context": "要放置骨骼网格体Actor，最快的方式是从内容浏览器将其拖入关卡视口中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体Actor",
+      "predicate": "关联",
+      "object": "第三人称模板",
+      "context": "第三人称模板中显示的虚幻引擎人体模型是骨骼网格体Actor的示例",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体Actor",
+      "predicate": "关联",
+      "object": "骨骼网格体动画系统",
+      "context": "骨骼网格体Actor的动画制作与骨骼网格体动画系统密切相关",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体Actor",
+      "predicate": "关联",
+      "object": "物理资产编辑器",
+      "context": "骨骼网格体Actor的碰撞功能需要物理资产编辑器创建物理资产",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体Actor",
+      "predicate": "关联",
+      "object": "Actor和几何体",
+      "context": "骨骼网格体Actor是虚幻引擎中Actor和几何体的一部分",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:48:23.062Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6499,
+    "contentLength": 4435,
+    "processingTimeMs": 47104
+  }
+}

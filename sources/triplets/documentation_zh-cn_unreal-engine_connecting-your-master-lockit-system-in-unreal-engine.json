@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_connecting-your-master-lockit-system-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_connecting-your-master-lockit-system-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Live Link",
+      "predicate": "支持",
+      "object": "Master Lockit Plus",
+      "context": "Live Link是虚幻引擎中用于实时数据传输的系统，支持连接Master Lockit Plus设备进行数据流送",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Master Lockit Plus",
+      "predicate": "连接",
+      "object": "智能镜头",
+      "context": "Master Lockit Plus设备可以连接制片摄像机上的智能镜头，用于传输镜头数据",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiveLinkMasterLockit插件",
+      "predicate": "属于",
+      "object": "虚拟制片类别",
+      "context": "LiveLinkMasterLockit插件属于虚幻引擎的虚拟制片插件类别，专门用于虚拟制片工作流",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "电影摄像机Actor",
+      "predicate": "使用",
+      "object": "Live Link控制器",
+      "context": "电影摄像机Actor通过Live Link控制器组件接收来自Master Lockit设备的数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link控制器",
+      "predicate": "控制",
+      "object": "电影摄像机Actor",
+      "context": "Live Link控制器组件可以控制电影摄像机Actor的参数，如焦点和光圈设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理摄像机",
+      "predicate": "影响",
+      "object": "电影摄像机Actor",
+      "context": "物理摄像机上的焦点和光圈设置变化会实时更新到虚幻引擎中的电影摄像机Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "聚焦方法",
+      "predicate": "决定",
+      "object": "焦点控制方式",
+      "context": "聚焦方法设置决定电影摄像机Actor的焦点是由物理摄像机控制还是手动控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟制片",
+      "predicate": "包含",
+      "object": "Live Link技术",
+      "context": "Live Link是虚拟制片工作流中的核心技术之一，用于实时同步物理和虚拟摄像机数据",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Master Lockit设备",
+      "predicate": "传输",
+      "object": "帧数据",
+      "context": "Master Lockit设备可以通过Live Link向虚幻引擎传输帧数据，用于虚拟制片中的同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "智能镜头",
+      "predicate": "提供",
+      "object": "聚焦/光圈/变焦数据",
+      "context": "连接在制片摄像机上的智能镜头可以提供聚焦、光圈和变焦数据，这些数据通过Master Lockit传输到虚幻引擎",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:31:49.773Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4195,
+    "contentLength": 3103,
+    "processingTimeMs": 46916
+  }
+}

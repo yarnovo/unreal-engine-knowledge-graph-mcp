@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_math-material-functions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_math-material-functions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "AddComponents函数",
+      "predicate": "接收",
+      "object": "矢量2/3/4",
+      "context": "AddComponents函数需要接收矢量输入才能进行分量相加操作，理解输入类型是使用该函数的前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AddComponents函数",
+      "predicate": "输出",
+      "object": "组合值",
+      "context": "函数的核心功能是将输入矢量的分量相加并输出组合结果，这是数学材质处理的基本操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pi函数",
+      "predicate": "提供",
+      "object": "π常量",
+      "context": "Pi函数是材质数学计算中常用的圆周率常量来源，精度达6位小数",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Pi函数",
+      "predicate": "支持",
+      "object": "乘数输入",
+      "context": "通过乘数输入可以扩展Pi函数的使用场景，实现比例缩放功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LinearSine函数",
+      "predicate": "处理",
+      "object": "标量值",
+      "context": "理解标量值输入是使用LinearSine函数创建波形动画的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LinearSine函数",
+      "predicate": "控制",
+      "object": "波形特性",
+      "context": "通过周期、相位等参数可以精细控制输出波形的形态和动态特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VectorToRadialValue函数",
+      "predicate": "转换",
+      "object": "矢量2/UV坐标",
+      "context": "该函数实现了笛卡尔坐标到极坐标的关键转换，是空间数据处理的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "VectorToRadialValue函数",
+      "predicate": "输出",
+      "object": "径向坐标",
+      "context": "理解径向坐标输出对于处理环形渐变、角度计算等特效至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数学材质函数",
+      "predicate": "属于",
+      "object": "材质系统",
+      "context": "这些数学函数是虚幻引擎材质编辑系统的基础组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数学材质函数",
+      "predicate": "用于",
+      "object": "着色器开发",
+      "context": "掌握这些数学函数是编写复杂着色器效果的必要技能",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "LinearSine函数",
+      "predicate": "可替代",
+      "object": "正弦波动画",
+      "context": "相比传统正弦函数，LinearSine提供了更灵活的波形控制选项",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "矢量分量相加",
+      "predicate": "前置知识",
+      "object": "矢量数学",
+      "context": "理解矢量分量操作需要先掌握基本的矢量数学概念",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "径向坐标转换",
+      "predicate": "应用于",
+      "object": "UV映射",
+      "context": "VectorToRadialValue函数在UV空间处理中特别有用，可以创建环形渐变效果",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:53:00.099Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5624,
+    "contentLength": 3433,
+    "processingTimeMs": 48509
+  }
+}

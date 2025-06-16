@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_include-what-you-use-iwyu-for-unreal-engine-programming",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_include-what-you-use-iwyu-for-unreal-engine-programming.md",
+  "triples": [
+    {
+      "subject": "IWYU",
+      "predicate": "用于",
+      "object": "虚幻引擎编程",
+      "context": "IWYU是一种编程实践，旨在优化虚幻引擎的编译过程，减少不必要的依赖",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IWYU",
+      "predicate": "替代",
+      "object": "单块头文件",
+      "context": "IWYU模式避免使用如Engine.h或UnrealEd.h这样的单块头文件，以减少编译依赖",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IWYU",
+      "predicate": "依赖",
+      "object": "预编译头文件(PCH)",
+      "context": "IWYU模式下，PCH文件作为编译优化的层，由UBT自动管理",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "IWYU",
+      "predicate": "包含",
+      "object": "CoreMinimal.h",
+      "context": "IWYU要求每个头文件包含其所需的依赖，CoreMinimal.h是多数引擎头文件的基础包含",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IWYU",
+      "predicate": "要求",
+      "object": "匹配的头文件包含",
+      "context": "在IWYU模式下，.cpp文件必须首先包含其对应的.h文件，以确保依赖完整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编译工具(UBT)",
+      "predicate": "管理",
+      "object": "PCH文件",
+      "context": "UBT负责在IWYU模式下自动包含PCH文件，开发者无需显式包含",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编译工具(UBT)",
+      "predicate": "验证",
+      "object": "IWYU合规性",
+      "context": "UBT会检查源文件是否遵循IWYU规则，如未包含匹配的头文件会发出警告",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "CoreMinimal.h",
+      "predicate": "包含",
+      "object": "UE核心编程环境类型",
+      "context": "CoreMinimal.h提供了如FString、FName、TArray等基础类型定义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CoreTypes.h",
+      "predicate": "包含",
+      "object": "基元C++类型",
+      "context": "CoreTypes.h定义了基本的C++类型typedefs和编译环境指令",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IncludeTool",
+      "predicate": "辅助",
+      "object": "IWYU转换",
+      "context": "IncludeTool是Epic提供的工具，帮助开发者将现有项目转换为IWYU格式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "PCHUsageMode.UseExplicitOrSharedPCHs",
+      "predicate": "启用",
+      "object": "IWYU模式",
+      "context": "在模块的.build.cs文件中设置此模式，表示该模块遵循IWYU规则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PCHUsageMode.UseSharedPCHs",
+      "predicate": "禁用",
+      "object": "IWYU规则",
+      "context": "此模式允许模块不遵循IWYU规则，共享PCH文件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "bEnforceIWYU",
+      "predicate": "控制",
+      "object": "IWYU警告",
+      "context": "设置为false可以禁用UBT对IWYU合规性的检查警告",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IWYU",
+      "predicate": "提升",
+      "object": "编译时间",
+      "context": "遵循IWYU规则可以显著减少虚幻引擎的编译时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:35:46.548Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8199,
+    "contentLength": 5123,
+    "processingTimeMs": 48978
+  }
+}

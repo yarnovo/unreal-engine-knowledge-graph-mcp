@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_rendering-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_rendering-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "移动渲染器",
+      "predicate": "支持",
+      "object": "CSM级联",
+      "context": "移动渲染器使用CSM级联来渲染动态定向光源阴影",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动抗锯齿方法",
+      "predicate": "包含",
+      "object": "FXAA",
+      "context": "FXAA是移动抗锯齿方法的一种选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动抗锯齿方法",
+      "predicate": "包含",
+      "object": "TAA",
+      "context": "TAA是移动抗锯齿方法的一种选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动抗锯齿方法",
+      "predicate": "包含",
+      "object": "MSAA",
+      "context": "MSAA是移动抗锯齿方法的一种选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟纹理系统",
+      "predicate": "依赖",
+      "object": "通用虚拟纹理选项",
+      "context": "启用虚拟纹理支持需要同时启用通用虚拟纹理选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen全局光照",
+      "predicate": "依赖",
+      "object": "网格体距离场",
+      "context": "Lumen全局光照需要生成网格体距离场以实现软件光线追踪",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen全局光照",
+      "predicate": "依赖",
+      "object": "硬件光线追踪支持",
+      "context": "Lumen全局光照需要启用硬件光线追踪支持以实现硬件光线追踪",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟阴影贴图",
+      "predicate": "适用于",
+      "object": "Nanite",
+      "context": "虚拟阴影贴图特别适用于Nanite，可进行高效率剔除",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬件光线追踪",
+      "predicate": "需要",
+      "object": "计算皮肤缓存支持",
+      "context": "启用硬件光线追踪需要同时支持计算皮肤缓存",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "正向渲染器",
+      "predicate": "支持",
+      "object": "MSAA",
+      "context": "正向渲染器支持MSAA，这是其优势之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "半透明排序策略",
+      "predicate": "影响",
+      "object": "半透明渲染顺序",
+      "context": "半透明排序策略决定了半透明图元的渲染顺序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理流送",
+      "predicate": "基于",
+      "object": "屏幕可见性",
+      "context": "纹理流送根据屏幕上可见的内容动态调整纹理分辨率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态全局光照方法",
+      "predicate": "包含",
+      "object": "Lumen",
+      "context": "Lumen是动态全局光照方法的一种高级选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态全局光照方法",
+      "predicate": "包含",
+      "object": "屏幕空间全局光照",
+      "context": "屏幕空间全局光照是动态全局光照的低成本选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "反射方法",
+      "predicate": "包含",
+      "object": "Lumen反射",
+      "context": "Lumen反射是反射方法的一种高级选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "反射方法",
+      "predicate": "包含",
+      "object": "屏幕空间反射",
+      "context": "屏幕空间反射是反射方法的低成本选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "阴影贴图方法",
+      "predicate": "包含",
+      "object": "虚拟阴影贴图",
+      "context": "虚拟阴影贴图是阴影贴图方法的新一代选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理链",
+      "predicate": "支持",
+      "object": "Alpha通道",
+      "context": "后期处理链可以配置Alpha通道支持，用于特殊行业需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "抗锯齿方法",
+      "predicate": "包含",
+      "object": "TSR",
+      "context": "时间超级分辨率(TSR)是最新的抗锯齿方法选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动HDR",
+      "predicate": "影响",
+      "object": "色调映射",
+      "context": "移动HDR启用后会包含完整的色调映射后期处理通道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:37:20.182Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (23316 字符)",
+      "timestamp": "2025-06-15T20:36:27.532Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 43498,
+    "contentLength": 23316,
+    "processingTimeMs": 52657
+  }
+}

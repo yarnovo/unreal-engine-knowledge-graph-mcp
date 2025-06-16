@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_tcp-messaging-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_tcp-messaging-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "TCP消息传递",
+      "predicate": "包含",
+      "object": "传输",
+      "context": "TCP消息传递功能模块包含传输设置，这是理解消息传递机制的基础组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "传输",
+      "predicate": "包含",
+      "object": "启用传输",
+      "context": "传输设置中的核心开关，控制整个TCP传输通道的激活状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "传输",
+      "predicate": "包含",
+      "object": "监听端点",
+      "context": "监听端点是传输配置的关键参数，决定引擎接收消息的网络接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "传输",
+      "predicate": "包含",
+      "object": "连接到端点",
+      "context": "连接到端点是传输配置的主动连接参数，与监听端点形成完整的双向通信能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "传输",
+      "predicate": "包含",
+      "object": "连接重试延迟",
+      "context": "连接重试延迟是传输稳定性的重要参数，影响网络异常时的自动恢复行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "监听端点",
+      "predicate": "依赖",
+      "object": "IP端点格式",
+      "context": "监听端点的配置需要遵循标准的IP:PORT格式，这是网络编程的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "连接到端点",
+      "predicate": "依赖",
+      "object": "IP端点格式",
+      "context": "与监听端点类似，连接到端点也需要遵循相同格式规范，保持配置一致性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "监听端点",
+      "predicate": "对应",
+      "object": "连接到端点",
+      "context": "这两个端点配置共同构成了完整的TCP通信能力，理解它们的对称性对网络编程很重要",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "TCP消息传递",
+      "predicate": "属于",
+      "object": "虚幻引擎网络模块",
+      "context": "TCP消息传递是虚幻引擎网络通信体系的核心组成部分，需要放在更大的网络架构中理解",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "连接重试延迟",
+      "predicate": "影响",
+      "object": "网络稳定性",
+      "context": "合理的重试延迟设置可以平衡网络恢复速度和系统负载，是网络调优的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T20:58:35.724Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 1799,
+    "contentLength": 1331,
+    "processingTimeMs": 32987
+  }
+}

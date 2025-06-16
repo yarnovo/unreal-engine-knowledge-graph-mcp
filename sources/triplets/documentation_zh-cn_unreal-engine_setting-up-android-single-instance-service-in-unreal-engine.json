@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_setting-up-android-single-instance-service-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_setting-up-android-single-instance-service-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Android Single Instance Service (ASIS)",
+      "predicate": "requires",
+      "object": "Android SDK",
+      "context": "ASIS setup requires prior installation of Android SDK for Android project development",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android Single Instance Service (ASIS)",
+      "predicate": "requires",
+      "object": "Android NDK",
+      "context": "ASIS setup requires prior installation of Android NDK for native code development",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Engine",
+      "predicate": "uses",
+      "object": "Android Studio",
+      "context": "Unreal Engine uses Android Studio for Android SDK components management",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ASIS Template Plugin",
+      "predicate": "extends",
+      "object": "Unreal Engine",
+      "context": "The ASIS template plugin extends Unreal Engine functionality for automotive HMI development",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ASIS Project",
+      "predicate": "generates",
+      "object": "APK",
+      "context": "Packaging an ASIS project generates an Android APK with service capabilities",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ASIS Project",
+      "predicate": "produces",
+      "object": "ASIS helper libraries",
+      "context": "Building an ASIS project produces helper libraries for client applications",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android Application",
+      "predicate": "communicates with",
+      "object": "Unreal Engine APK",
+      "context": "Client applications communicate with the Unreal Engine APK through ASIS",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ASIS Plugin",
+      "predicate": "enables",
+      "object": "Multi-window support",
+      "context": "The ASIS plugin enables multi-window functionality for Android applications",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Unreal Engine Project",
+      "predicate": "depends on",
+      "object": "AndroidSingleInstanceService Plugin",
+      "context": "Projects using ASIS functionality must enable the AndroidSingleInstanceService plugin",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ASIS Setup",
+      "predicate": "involves",
+      "object": "Source Code Modification",
+      "context": "Setting up ASIS requires modifying Unreal Engine source code and configuration files",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android SDK",
+      "predicate": "includes",
+      "object": "Android SDK Build-Tools",
+      "context": "Android SDK setup requires specific Build-Tools versions for ASIS compatibility",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android SDK",
+      "predicate": "includes",
+      "object": "NDK (Side by side)",
+      "context": "Proper ASIS setup requires specific NDK versions alongside the Android SDK",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ASIS Project Packaging",
+      "predicate": "requires",
+      "object": "Android Platform Tools",
+      "context": "Packaging ASIS projects requires Android platform tools in Unreal Engine",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "ASIS Client Application",
+      "predicate": "uses",
+      "object": "ASIS Client Library",
+      "context": "Client applications use ASIS client libraries to communicate with the service",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Engine APK",
+      "predicate": "contains",
+      "object": "Android Service",
+      "context": "The packaged APK contains an Android service component for ASIS functionality",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:44:15.587Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13532 字符)",
+      "timestamp": "2025-06-15T20:43:31.773Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13882,
+    "contentLength": 13532,
+    "processingTimeMs": 43820
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_summary-quick-start-guide",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_summary-quick-start-guide.md",
+  "triples": [
+    {
+      "subject": "Niagara系统",
+      "predicate": "包含",
+      "object": "发射器",
+      "context": "Niagara系统由多个发射器组成，每个发射器可以独立控制粒子效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器",
+      "predicate": "支持",
+      "object": "摘要视图",
+      "context": "每个发射器可以创建一个摘要视图来简化参数管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摘要视图",
+      "predicate": "用于",
+      "object": "参数管理",
+      "context": "摘要视图允许用户创建发射器参数的子集，便于非技术用户使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摘要视图",
+      "predicate": "包含",
+      "object": "分段",
+      "context": "摘要视图由分段组成，分段用于过滤和分类参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摘要视图",
+      "predicate": "包含",
+      "object": "参数",
+      "context": "摘要视图可以包含单独的变量、模块或渲染器属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分段",
+      "predicate": "包含",
+      "object": "类别",
+      "context": "分段可以包含类别，用于进一步组织参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑摘要视图窗口",
+      "predicate": "用于",
+      "object": "创建摘要视图",
+      "context": "编辑摘要视图窗口提供了创建和管理摘要视图的工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑摘要视图窗口",
+      "predicate": "包含",
+      "object": "源列表区域",
+      "context": "源列表区域用于搜索和选择要添加到摘要视图的参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑摘要视图窗口",
+      "predicate": "包含",
+      "object": "分段和类别区域",
+      "context": "分段和类别区域用于组织摘要视图中的参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑摘要视图窗口",
+      "predicate": "包含",
+      "object": "细节区域",
+      "context": "细节区域显示选定元素的详细信息，如显示名覆盖和提示覆盖",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NiagaraFluids插件",
+      "predicate": "用于",
+      "object": "创建流体效果",
+      "context": "NiagaraFluids插件提供了创建流体效果所需的工具和模板",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格3D气体彩色烟雾",
+      "predicate": "属于",
+      "object": "Niagara系统模板",
+      "context": "网格3D气体彩色烟雾是Niagara系统的一个预定义模板，用于快速创建烟雾效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子更新",
+      "predicate": "包含",
+      "object": "旋度噪点力模块",
+      "context": "粒子更新阶段包含旋度噪点力模块，用于控制粒子的运动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "旋度噪点力模块",
+      "predicate": "包含",
+      "object": "噪点质量/成本参数",
+      "context": "旋度噪点力模块包含噪点质量/成本参数，用于调整噪点的细节和性能消耗",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子更新",
+      "predicate": "包含",
+      "object": "旋转位置模块",
+      "context": "粒子更新阶段包含旋转位置模块，用于控制粒子的旋转行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摘要视图",
+      "predicate": "支持",
+      "object": "显示名覆盖",
+      "context": "摘要视图允许用户覆盖参数的显示名，便于理解和识别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摘要视图",
+      "predicate": "支持",
+      "object": "提示覆盖",
+      "context": "摘要视图允许用户覆盖参数的提示信息，提供更多上下文帮助",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:56:28.762Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8872 字符)",
+      "timestamp": "2025-06-15T20:55:43.556Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13312,
+    "contentLength": 8872,
+    "processingTimeMs": 45212
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_horde-build-automation-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_horde-build-automation-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Horde构建自动化",
+      "predicate": "支持",
+      "object": "BuildGraph",
+      "context": "Horde构建自动化将BuildGraph作为第一类支持对象，允许高效的分布式并行化构建管线进行脚本化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde构建自动化",
+      "predicate": "包含",
+      "object": "构建健康状况",
+      "context": "Horde构建自动化支持构建健康状况功能，帮助开发者监控构建状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde构建自动化",
+      "predicate": "包含",
+      "object": "Perforce元数据缓存",
+      "context": "Horde构建自动化支持Perforce元数据缓存和工作空间管理，提高构建效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde构建自动化",
+      "predicate": "支持",
+      "object": "作业队列自动伸缩",
+      "context": "Horde构建自动化支持基于作业队列进行自动伸缩，优化资源利用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde构建自动化",
+      "predicate": "包含",
+      "object": "结构化日志记录",
+      "context": "Horde构建自动化支持结构化日志记录，自动附带额外元数据注释",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde构建自动化",
+      "predicate": "包含",
+      "object": "分析与遥测功能",
+      "context": "Horde构建自动化提供分析与遥测功能，帮助开发者优化构建流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "描述",
+      "object": "构建管线",
+      "context": "BuildGraph将构建管线描述为一个参数化的图表，帮助开发者理解和优化构建流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "生成",
+      "object": "文件输出",
+      "context": "BuildGraph中的每个节点生成一组输出文件，供后续节点使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启用CI功能",
+      "predicate": "依赖",
+      "object": "BuildGraph脚本",
+      "context": "启用CI功能需要编写并提交BuildGraph脚本到源代码控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启用CI功能",
+      "predicate": "依赖",
+      "object": "Globals.json文件",
+      "context": "启用CI功能需要在Globals.json文件中定义项目配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启用CI功能",
+      "predicate": "依赖",
+      "object": ".project.json文件",
+      "context": "启用CI功能需要在.project.json文件中定义流配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理类型",
+      "predicate": "定义",
+      "object": "机器需求",
+      "context": "代理类型明确执行特定类型工作所需的机器配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理类型",
+      "predicate": "引用",
+      "object": "工作空间",
+      "context": "代理类型可以引用工作空间来指定需要同步的文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "作业模板",
+      "predicate": "描述",
+      "object": "作业参数",
+      "context": "作业模板描述了运行作业所需的参数和默认参数值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "作业模板",
+      "predicate": "包含",
+      "object": "文本参数",
+      "context": "作业模板可以包含文本参数，允许输入任意文本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "作业模板",
+      "predicate": "包含",
+      "object": "列表参数",
+      "context": "作业模板可以包含列表参数，允许从预定义列表中选择选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "作业模板",
+      "predicate": "包含",
+      "object": "布尔参数",
+      "context": "作业模板可以包含布尔参数，允许切换是否启用某个选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工作空间",
+      "predicate": "定义",
+      "object": "同步数据",
+      "context": "工作空间定义了代理需要从源代码控制同步的数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AutoSDK",
+      "predicate": "提供",
+      "object": "SDK分发机制",
+      "context": "AutoSDK系统提供分发目标平台SDK的机制，简化构建代理配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AutoSDK",
+      "predicate": "配置于",
+      "object": "Globals.json文件",
+      "context": "AutoSDK可以在Globals.json文件的perforceClusters部分进行配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:19:53.190Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10820 字符)",
+      "timestamp": "2025-06-15T19:18:38.903Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14326,
+    "contentLength": 10820,
+    "processingTimeMs": 74294
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_dataflow-for-destruction-quickstart",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_dataflow-for-destruction-quickstart.md",
+  "triples": [
+    {
+      "subject": "数据流图表系统",
+      "predicate": "替代",
+      "object": "编辑器破裂模式",
+      "context": "数据流图表系统提供了一种新的工作流程来破坏静态网格体，替代了传统的编辑器破裂模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体集合",
+      "predicate": "基于",
+      "object": "静态网格体",
+      "context": "几何体集合是通过转换静态网格体创建的，是破坏系统的基础元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据流资产",
+      "predicate": "控制",
+      "object": "几何体集合",
+      "context": "数据流资产包含节点图表，用于控制几何体集合的破裂行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Static Mesh To Collection节点",
+      "predicate": "转换",
+      "object": "静态网格体",
+      "context": "该节点将静态网格体转换为几何体集合，是数据流处理的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Voronoi Fracture节点",
+      "predicate": "实现",
+      "object": "几何体破裂",
+      "context": "该节点使用Voronoi算法实现几何体的破裂效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Uniform Scatter Points节点",
+      "predicate": "生成",
+      "object": "破裂点",
+      "context": "该节点在边界盒体内均匀生成破裂点，影响最终的破裂效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Auto Cluster节点",
+      "predicate": "优化",
+      "object": "破裂结果",
+      "context": "该节点自动聚类破裂后的几何体，优化物理模拟性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Geometry Collection Terminal节点",
+      "predicate": "终结",
+      "object": "数据流处理",
+      "context": "该节点是数据流图表的终点，输出最终的几何体集合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Apply External Strain节点",
+      "predicate": "触发",
+      "object": "几何体破裂",
+      "context": "该节点在发射物命中时施加外部张力，触发几何体的破裂",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_FirstPersonProjectile蓝图",
+      "predicate": "包含",
+      "object": "Apply External Strain逻辑",
+      "context": "该蓝图包含施加外部张力的逻辑，用于射击时破坏几何体集合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据流图表",
+      "predicate": "支持",
+      "object": "多种破裂模式",
+      "context": "数据流图表支持通过替换节点来尝试不同的破裂模式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "破坏系统",
+      "predicate": "依赖",
+      "object": "Chaos物理系统",
+      "context": "破坏系统的实现依赖于虚幻引擎的Chaos物理系统",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "几何体集合",
+      "predicate": "包含",
+      "object": "伤害阈值",
+      "context": "几何体集合可以设置伤害阈值，控制不同伤害量下的破裂行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据流工作流",
+      "predicate": "扩展",
+      "object": "破坏系统功能",
+      "context": "数据流工作流扩展了传统破坏系统的功能，提供了更灵活的配置方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "第一人称模板",
+      "predicate": "提供",
+      "object": "射击测试环境",
+      "context": "第一人称模板提供了现成的射击机制，便于测试几何体集合的破坏效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:44:59.479Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (14782 字符)",
+      "timestamp": "2025-06-15T18:44:12.833Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19862,
+    "contentLength": 14782,
+    "processingTimeMs": 46656
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_ai-perception-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_ai-perception-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "AI感知系统",
+      "predicate": "包含",
+      "object": "AI感知组件",
+      "context": "AI感知系统通过AI感知组件实现感知功能，这是学习AI感知的基础组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI感知组件",
+      "predicate": "监听",
+      "object": "刺激源",
+      "context": "AI感知组件作为刺激监听器，负责收集环境中已注册的刺激源数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI感知组件",
+      "predicate": "触发",
+      "object": "On Perception Updated事件",
+      "context": "当感知系统更新时，会触发该事件用于启动蓝图脚本或更新行为树变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI感知组件",
+      "predicate": "配置",
+      "object": "感官类型",
+      "context": "组件可配置多种感官类型（如视觉、听觉等），这是实现不同感知能力的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI伤害感知",
+      "predicate": "基于",
+      "object": "AISense_Damage类",
+      "context": "伤害感知默认使用AISense_Damage类实现，开发者也可通过C++创建自定义类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI听觉感知",
+      "predicate": "检测",
+      "object": "报告噪点事件",
+      "context": "听觉感知专门用于检测游戏中通过Report Noise Event生成的声音",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI视觉感知",
+      "predicate": "使用",
+      "object": "视觉锥体参数",
+      "context": "视觉感知通过视觉半径、周边视觉角度等参数定义可视范围，是AI视觉的核心配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI感知系统",
+      "predicate": "关联",
+      "object": "行为树",
+      "context": "感知系统与行为树协同工作，感知数据可用于驱动行为树决策",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "AI感知系统",
+      "predicate": "关联",
+      "object": "场景查询系统(EQS)",
+      "context": "感知系统与EQS都是AI获取环境信息的工具，共同构成AI决策的数据来源",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "AI感知刺激源组件",
+      "predicate": "注册",
+      "object": "感官源",
+      "context": "该组件使Actor能将自己注册为特定感官的刺激源，是感知系统数据来源的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI感知调试",
+      "predicate": "使用",
+      "object": "AI调试工具",
+      "context": "通过专用调试工具可以可视化感知系统的运行状态，是开发调试的重要方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主导感官",
+      "predicate": "优先于",
+      "object": "其他感官",
+      "context": "设置主导感官后，当多个感官同时检测到目标时，系统会优先采用主导感官的数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "按归属检测",
+      "predicate": "控制",
+      "object": "团队感知",
+      "context": "该属性用于设置AI只对特定团队关系（敌/友/中立）的Actor作出反应",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Get Currently Perceived Actors",
+      "predicate": "返回",
+      "object": "被感知Actor",
+      "context": "该函数是获取感知系统当前检测结果的主要接口，对AI决策逻辑至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Set Sense Enabled",
+      "predicate": "控制",
+      "object": "感官状态",
+      "context": "通过该函数可以动态启用/禁用特定感官，实现AI感知能力的运行时调整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:56:17.679Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11833 字符)",
+      "timestamp": "2025-06-15T17:55:28.072Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 18975,
+    "contentLength": 11833,
+    "processingTimeMs": 49616
+  }
+}

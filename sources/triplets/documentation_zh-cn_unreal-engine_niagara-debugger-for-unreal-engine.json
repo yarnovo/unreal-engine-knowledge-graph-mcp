@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_niagara-debugger-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_niagara-debugger-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Niagara调试器",
+      "predicate": "包含",
+      "object": "调试HUD",
+      "context": "调试HUD是Niagara调试器中的一个重要工具，用于在视口中直接显示模拟数据，帮助开发者实时监控和调试效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara调试器",
+      "predicate": "包含",
+      "object": "FX大纲视图",
+      "context": "FX大纲视图是Niagara调试器的核心功能之一，用于捕获和分析关卡中的Niagara模拟数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara调试器",
+      "predicate": "包含",
+      "object": "性能工具",
+      "context": "性能选项卡提供了Niagara模拟的性能分析工具，帮助开发者优化效果性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara调试器",
+      "predicate": "包含",
+      "object": "会话浏览器",
+      "context": "会话浏览器用于管理调试会话，是连接调试工具与目标设备/会话的桥梁",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试HUD",
+      "predicate": "支持",
+      "object": "调试概述",
+      "context": "调试概述是调试HUD的功能模块，提供系统总数、粒子总数等关键指标的概览信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试HUD",
+      "predicate": "支持",
+      "object": "调试筛选器",
+      "context": "调试筛选器允许开发者过滤显示特定Actor、组件或系统的信息，是调试HUD的核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试HUD",
+      "predicate": "支持",
+      "object": "调试系统",
+      "context": "调试系统功能显示每个系统的详细信息，包括边界、位置、状态等关键调试数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试HUD",
+      "predicate": "支持",
+      "object": "调试粒子",
+      "context": "调试粒子功能允许开发者查看单个粒子的属性信息，是粒子效果调试的关键工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FX大纲视图",
+      "predicate": "提供",
+      "object": "状态视图",
+      "context": "状态视图显示系统、发射器的执行状态等关键信息，是分析模拟行为的重要界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FX大纲视图",
+      "predicate": "提供",
+      "object": "性能视图",
+      "context": "性能视图展示模拟的性能数据，帮助开发者识别性能瓶颈",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara系统",
+      "predicate": "由...组成",
+      "object": "发射器",
+      "context": "Niagara系统由一个或多个发射器组成，理解这种组成关系对系统设计和调试很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器",
+      "predicate": "具有",
+      "object": "Sim目标",
+      "context": "发射器的Sim目标(CPU/GPU)决定了其运行方式和性能特征，是重要的调试参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台命令",
+      "predicate": "控制",
+      "object": "调试HUD设置",
+      "context": "通过控制台命令可以动态调整调试HUD的各项参数，是高级调试的重要手段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通配符搜索",
+      "predicate": "用于",
+      "object": "调试筛选",
+      "context": "通配符搜索语法是设置调试筛选器的基础，掌握它可提高调试效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "系统调试冗长度",
+      "predicate": "影响",
+      "object": "调试信息详细程度",
+      "context": "系统调试冗长度设置决定了在视口中显示的系统调试信息的详细程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU回读",
+      "predicate": "启用",
+      "object": "GPU粒子调试",
+      "context": "启用GPU回读功能后可以查看GPU发射器的粒子属性，是调试GPU粒子的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "性能工具",
+      "predicate": "提供",
+      "object": "性能测试",
+      "context": "性能工具可以运行专门的性能测试并输出.csv格式的结果，用于系统性能分析",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "会话浏览器",
+      "predicate": "连接",
+      "object": "调试会话",
+      "context": "通过会话浏览器可以选择将调试信息输出到不同的设备或会话，支持多平台调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara调试器",
+      "predicate": "支持",
+      "object": "三种打开方式",
+      "context": "了解从菜单、发射器或参数打开调试器的不同方式，可以提高工作流程效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试生成",
+      "predicate": "属于",
+      "object": "试验性功能",
+      "context": "调试生成是Niagara调试器中的试验性功能，未来可能会发生变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:07:17.571Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (23355 字符)",
+      "timestamp": "2025-06-15T20:06:17.036Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 36553,
+    "contentLength": 23355,
+    "processingTimeMs": 60548
+  }
+}

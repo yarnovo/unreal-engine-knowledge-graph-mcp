@@ -1,0 +1,237 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_panel-cloth-editor-overview",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_panel-cloth-editor-overview.md",
+  "triples": [
+    {
+      "subject": "Chaos布料面板节点编辑器",
+      "predicate": "引入",
+      "object": "虚幻引擎5.3",
+      "context": "Chaos布料面板节点编辑器是虚幻引擎5.3引入的新功能，用于布料创作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos布料面板节点编辑器",
+      "predicate": "使用",
+      "object": "Chaos解算器",
+      "context": "Chaos布料面板节点编辑器使用Chaos解算器进行物理模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos布料面板节点编辑器",
+      "predicate": "扩展",
+      "object": "XPBD约束类型",
+      "context": "Chaos布料面板节点编辑器扩展了可选XPBD约束类型的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "布料资产",
+      "predicate": "包含",
+      "object": "运行时生成和模拟所需信息",
+      "context": "布料资产保存了运行时生成和模拟所需的所有信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "布料资产",
+      "predicate": "构建",
+      "object": "Chaos布料面板节点编辑器",
+      "context": "布料资产通过Chaos布料面板节点编辑器构建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "布料资产",
+      "predicate": "使用",
+      "object": "数据流图表",
+      "context": "布料资产使用数据流图表生成逼真的布料物理现象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "布料资产",
+      "predicate": "导入",
+      "object": "外部DCC包",
+      "context": "布料资产可以从外部DCC包中导入静态网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "布料资产",
+      "predicate": "转移",
+      "object": "皮肤权重和遮罩",
+      "context": "布料资产可以转移皮肤权重和遮罩",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "布料资产",
+      "predicate": "添加",
+      "object": "XPBD布料约束",
+      "context": "布料资产可以添加XPBD布料约束",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "布料资产",
+      "predicate": "使用",
+      "object": "LSV碰撞",
+      "context": "布料资产可以使用LSV（关卡设定体积）碰撞进行模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "布料资产",
+      "predicate": "配合使用",
+      "object": "Chaos布料组件",
+      "context": "布料资产可以通过Chaos布料组件与骨骼或静态网格体配合使用",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos布料面板节点编辑器",
+      "predicate": "提供",
+      "object": "更精细的控制",
+      "context": "Chaos布料面板节点编辑器提供更精细的布料资产设置控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos布料面板节点编辑器",
+      "predicate": "支持",
+      "object": "实时工作流程",
+      "context": "Chaos布料面板节点编辑器旨在支持实时工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos布料面板节点编辑器",
+      "predicate": "支持",
+      "object": "VFX工作流程",
+      "context": "Chaos布料面板节点编辑器旨在支持VFX工作流程（通过使用缓存）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据流图表",
+      "predicate": "决定",
+      "object": "模拟的速度和精度",
+      "context": "数据流图表的设置决定了模拟的速度和精度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "布料资产工作流程",
+      "predicate": "使用",
+      "object": "独立布料资产",
+      "context": "布料资产工作流程使用独立于骨骼网格体的单独布料资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "布料资产",
+      "predicate": "渲染",
+      "object": "单独组件",
+      "context": "布料资产由组件单独渲染，增加了渲染成本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "外部DCC包",
+      "predicate": "用于",
+      "object": "创建布料资产",
+      "context": "外部DCC包用于创建和准备布料资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX格式",
+      "predicate": "用于",
+      "object": "导出静态网格体",
+      "context": "FBX格式用于导出静态网格体到虚幻引擎",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "导入",
+      "object": "静态网格体",
+      "context": "虚幻引擎用于导入静态网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "布料资产",
+      "predicate": "创建",
+      "object": "新数据流图表",
+      "context": "布料资产从每个具有新数据流图表的新静态网格体中创建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "节点图表",
+      "predicate": "用于",
+      "object": "非破坏性生成布料资产",
+      "context": "节点图表用于以非破坏性的方式生成布料资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "皮肤权重",
+      "predicate": "转移",
+      "object": "布料静态网格体",
+      "context": "皮肤权重从骨骼网格体转移到布料静态网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "权重贴图",
+      "predicate": "添加",
+      "object": "布料网格体",
+      "context": "权重贴图可以添加到布料网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理资产",
+      "predicate": "用于",
+      "object": "碰撞设置",
+      "context": "物理资产用于设置碰撞",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos布料组件",
+      "predicate": "添加",
+      "object": "角色蓝图",
+      "context": "Chaos布料组件可以添加到角色蓝图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos布料组件",
+      "predicate": "添加",
+      "object": "布料资产",
+      "context": "Chaos布料组件可以添加布料资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏测试",
+      "predicate": "用于",
+      "object": "布料模拟",
+      "context": "游戏测试用于验证布料模拟效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:18:20.107Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4612,
+    "contentLength": 2474,
+    "processingTimeMs": 86129
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_quick-start-for-niagara-effects-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_quick-start-for-niagara-effects-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Niagara系统",
+      "predicate": "用于",
+      "object": "创建视觉效果(VFX)",
+      "context": "Niagara是虚幻引擎中专门用于创建复杂粒子效果和视觉特效的系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara系统",
+      "predicate": "包含",
+      "object": "发射器",
+      "context": "Niagara系统由一个或多个发射器组成，每个发射器控制粒子的生成和行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器",
+      "predicate": "分为",
+      "object": "发射器组",
+      "context": "每个发射器包含多个功能组，如发射器生成、发射器更新、粒子生成、粒子更新和渲染组",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体渲染器",
+      "predicate": "替代",
+      "object": "Sprite渲染器",
+      "context": "当使用3D模型作为粒子时，需要用网格体渲染器替代默认的Sprite渲染器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质",
+      "predicate": "连接",
+      "object": "粒子颜色",
+      "context": "材质需要连接粒子颜色节点，以便Niagara系统可以动态控制粒子颜色",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态材质参数",
+      "predicate": "控制",
+      "object": "材质侵蚀效果",
+      "context": "通过动态材质参数模块可以控制材质随时间变化的侵蚀效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画通知",
+      "predicate": "触发",
+      "object": "Niagara效果",
+      "context": "可以在动画时间轴上添加通知来在特定时刻触发Niagara粒子效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "初始化粒子模块",
+      "predicate": "设置",
+      "object": "粒子生命周期",
+      "context": "可以在粒子生成时设置粒子的生命周期模式为随机，使效果更自然",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "形状位置模块",
+      "predicate": "定义",
+      "object": "粒子生成区域",
+      "context": "形状位置模块可以定义粒子生成的区域形状，如圆柱体区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "添加速度模块",
+      "predicate": "控制",
+      "object": "粒子初始速度",
+      "context": "可以在粒子生成时为粒子添加初始速度，控制粒子的运动方向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "阻力模块",
+      "predicate": "影响",
+      "object": "粒子运动",
+      "context": "阻力模块可以减缓粒子运动速度，使效果更真实",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara插件",
+      "predicate": "前置",
+      "object": "使用Niagara系统",
+      "context": "在使用Niagara系统前需要先启用Niagara插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "初学者内容包",
+      "predicate": "包含",
+      "object": "基础纹理资源",
+      "context": "初学者内容包提供了基础纹理资源，如Perlin噪点纹理，可用于材质制作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "建模模式",
+      "predicate": "用于",
+      "object": "创建基础网格体",
+      "context": "可以直接在虚幻引擎中使用建模模式工具创建简单的3D模型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "扩展",
+      "object": "角色特效系统",
+      "context": "可以通过动画蓝图为角色添加更复杂的特效控制逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Niagara系统",
+      "predicate": "支持",
+      "object": "条带效果",
+      "context": "Niagara可以创建条带效果，用于制作角色移动时的尾迹",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "粒子更新组",
+      "predicate": "包含",
+      "object": "动态材质参数模块",
+      "context": "粒子更新阶段可以添加动态材质参数模块，控制材质随时间变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "值步节点",
+      "predicate": "处理",
+      "object": "材质透明度",
+      "context": "材质编辑器中的值步节点可用于处理基于噪点纹理的透明度变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第三人称模板",
+      "predicate": "提供",
+      "object": "基础角色动画",
+      "context": "第三人称模板项目提供了基础角色和动画，可用于特效测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX文件",
+      "predicate": "用于",
+      "object": "导入3D模型",
+      "context": "FBX是通用的3D模型交换格式，可用于将模型导入虚幻引擎",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:32:23.571Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (33750 字符)",
+      "timestamp": "2025-06-15T20:31:15.926Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 45332,
+    "contentLength": 33750,
+    "processingTimeMs": 67650
+  }
+}

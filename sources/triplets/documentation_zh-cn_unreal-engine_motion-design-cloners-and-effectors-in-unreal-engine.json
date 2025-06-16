@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_motion-design-cloners-and-effectors-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_motion-design-cloners-and-effectors-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "动态设计克隆器",
+      "predicate": "基于",
+      "object": "Niagara粒子系统",
+      "context": "克隆器扩展了Niagara的核心功能，为创建动态图形提供了更简化的工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "克隆器Actor",
+      "predicate": "包含",
+      "object": "布局设置",
+      "context": "布局是克隆器的核心功能，决定了克隆体的排列方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "效果器Actor",
+      "predicate": "作用于",
+      "object": "克隆器Actor",
+      "context": "效果器用于修改克隆体的变换属性，如位置、旋转和缩放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格布局",
+      "predicate": "支持",
+      "object": "约束设置",
+      "context": "网格布局可以通过约束将克隆体限制在特定形状轮廓内",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "球体均匀布局",
+      "predicate": "继承自",
+      "object": "基本布局",
+      "context": "球体均匀布局是基础布局的一种特殊形式，用于均匀分布克隆体",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "物理系统",
+      "predicate": "控制",
+      "object": "克隆体碰撞",
+      "context": "物理属性决定了克隆体与表面和其他克隆体的碰撞行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "散射系统",
+      "predicate": "管理",
+      "object": "克隆体生命周期",
+      "context": "散射设置控制克隆体的生成、持续时间和消失",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染设置",
+      "predicate": "影响",
+      "object": "克隆体外观",
+      "context": "渲染属性控制克隆体的可见性、朝向和材质应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "效果器力设置",
+      "predicate": "包含",
+      "object": "多种力类型",
+      "context": "效果器提供多种力选项如朝向力、涡旋力等来制作克隆体动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "噪点场模式",
+      "predicate": "替代",
+      "object": "简单变换",
+      "context": "噪点场模式提供了比基本偏移更复杂的变换控制方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动态设计模式",
+      "predicate": "需要",
+      "object": "ClonerEffector插件",
+      "context": "使用克隆器和效果器前需要先启用相应插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "克隆器工具",
+      "predicate": "支持",
+      "object": "转换为静态网格体",
+      "context": "克隆器内容可以转换为静态网格体供其他用途使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "效果器形状",
+      "predicate": "决定",
+      "object": "影响范围",
+      "context": "不同形状的效果器决定了其对克隆体的影响区域和方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态设计",
+      "predicate": "扩展",
+      "object": "虚幻引擎视觉效果",
+      "context": "动态设计功能为虚幻引擎添加了专业的动态图形创建能力",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "克隆器布局",
+      "predicate": "包含",
+      "object": "多种排列方式",
+      "context": "提供网格、线条、圆形等多种布局选项满足不同需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "效果器模式",
+      "predicate": "提供",
+      "object": "不同控制方式",
+      "context": "偏移、目标、噪点场等模式提供了多样化的克隆体控制方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态设计材质设计器",
+      "predicate": "用于",
+      "object": "编辑重载材质",
+      "context": "专门工具用于为克隆体创建和编辑自定义材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "克隆器",
+      "predicate": "关联",
+      "object": "效果器",
+      "context": "两者协同工作创建完整的动态设计效果",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态设计快速入门",
+      "predicate": "是",
+      "object": "前置知识",
+      "context": "理解克隆器和效果器需要先掌握动态设计基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:00:31.623Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (65459 字符)",
+      "timestamp": "2025-06-15T19:59:32.882Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 99619,
+    "contentLength": 65459,
+    "processingTimeMs": 58750
+  }
+}

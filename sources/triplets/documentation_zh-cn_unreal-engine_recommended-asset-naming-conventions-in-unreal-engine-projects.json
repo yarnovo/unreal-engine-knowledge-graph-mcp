@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_recommended-asset-naming-conventions-in-unreal-engine-projects",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_recommended-asset-naming-conventions-in-unreal-engine-projects.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎项目",
+      "predicate": "包含",
+      "object": "资产",
+      "context": "虚幻引擎项目中包含多种资产类型，理解资产的组织方式对项目开发至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产命名规范",
+      "predicate": "适用于",
+      "object": "虚幻引擎项目",
+      "context": "命名规范是组织虚幻引擎项目中资产的重要方法，有助于提高开发效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "管理",
+      "object": "资产",
+      "context": "内容浏览器是虚幻引擎中用于管理和浏览资产的主要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产命名规范",
+      "predicate": "包含",
+      "object": "资产类型前缀",
+      "context": "命名规范中包含资产类型前缀，这是识别资产类型的关键部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质",
+      "predicate": "使用前缀",
+      "object": "M_",
+      "context": "材质资产在命名时使用M_前缀，这是命名规范的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "使用前缀",
+      "object": "BP_",
+      "context": "蓝图资产在命名时使用BP_前缀，这是命名规范的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "使用前缀",
+      "object": "SM_",
+      "context": "静态网格体资产在命名时使用SM_前缀，这是命名规范的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理",
+      "predicate": "使用前缀",
+      "object": "T_",
+      "context": "纹理资产在命名时使用T_前缀，这是命名规范的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "使用前缀",
+      "object": "ABP_",
+      "context": "动画蓝图资产在命名时使用ABP_前缀，这是命名规范的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "命名规范",
+      "predicate": "帮助",
+      "object": "团队协作",
+      "context": "统一的命名规范有助于团队成员更好地协作和查找资产",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "资产命名规范",
+      "predicate": "基于",
+      "object": "ICVFX制片测试",
+      "context": "文档中提到的命名规范是基于ICVFX制片测试项目的实践",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质实例",
+      "predicate": "继承自",
+      "object": "材质",
+      "context": "材质实例是基于材质创建的，理解这种关系有助于资产组织",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Niagara系统",
+      "predicate": "包含",
+      "object": "Niagara发射器",
+      "context": "Niagara系统由Niagara发射器组成，理解这种层级关系对特效制作很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "关联",
+      "object": "动画序列",
+      "context": "骨骼网格体与动画序列密切相关，这是角色动画的基础",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "物理资产",
+      "predicate": "用于",
+      "object": "骨骼网格体",
+      "context": "物理资产通常用于骨骼网格体，为其提供物理模拟能力",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "命名规范",
+      "predicate": "防止",
+      "object": "资产混淆",
+      "context": "良好的命名规范可以防止项目中资产名称过于相似造成的混淆",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "资产类型前缀",
+      "predicate": "标识",
+      "object": "资产类型",
+      "context": "资产类型前缀是快速识别资产类型的重要标识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "命名规范",
+      "predicate": "支持",
+      "object": "资产搜索",
+      "context": "一致的命名规范支持在内容浏览器中更有效地搜索资产",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻引擎项目",
+      "predicate": "随着",
+      "object": "复杂度增加",
+      "context": "理解项目复杂度增加对资产管理的需求是采用命名规范的重要原因",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "命名规范",
+      "predicate": "是",
+      "object": "建议",
+      "context": "文档明确指出命名规范是建议而非强制要求，项目需求应优先",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:33:29.546Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5351,
+    "contentLength": 3919,
+    "processingTimeMs": 57917
+  }
+}

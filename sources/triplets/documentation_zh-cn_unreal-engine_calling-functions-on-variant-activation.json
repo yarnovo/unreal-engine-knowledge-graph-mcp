@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_calling-functions-on-variant-activation",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_calling-functions-on-variant-activation.md",
+  "triples": [
+    {
+      "subject": "变体管理器",
+      "predicate": "调用",
+      "object": "蓝图函数",
+      "context": "变体管理器可以在激活变体时调用绑定Actor上的蓝图函数，这是变体功能的核心机制之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LevelVariantSetDirector",
+      "predicate": "存储",
+      "object": "变体激活逻辑",
+      "context": "LevelVariantSetDirector蓝图专门用于存储变体激活时需要运行的逻辑，是变体系统的关键组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变体",
+      "predicate": "包含",
+      "object": "绑定Actor",
+      "context": "变体可以包含多个绑定Actor，这些Actor的属性或函数会在变体激活时被修改或调用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "函数调用方",
+      "predicate": "关联",
+      "object": "LevelVariantSetDirector",
+      "context": "函数调用方设置会关联到LevelVariantSetDirector蓝图中的函数，形成变体激活时的调用链",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图函数",
+      "predicate": "接收",
+      "object": "变体上下文参数",
+      "context": "变体管理器调用的蓝图函数会自动接收目标Actor、变体集、变体等上下文参数，这对理解变体系统的工作机制很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变体管理器",
+      "predicate": "支持",
+      "object": "编辑器内调用",
+      "context": "通过设置'在编辑器中调用'选项，可以在编辑器内测试变体激活效果，这对开发调试很有帮助",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "绑定到",
+      "object": "变体",
+      "context": "Actor需要先绑定到变体才能设置其属性修改或函数调用，这是使用变体系统的第一步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡变体集",
+      "predicate": "拥有",
+      "object": "LevelVariantSetDirector",
+      "context": "每个关卡变体集资产都拥有自己的LevelVariantSetDirector蓝图，用于管理该资产的变体逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变体激活",
+      "predicate": "触发",
+      "object": "函数调用链",
+      "context": "变体激活会触发一系列预定义的函数调用，这是理解变体系统行为的关键概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "快速绑定",
+      "predicate": "简化",
+      "object": "函数调用设置",
+      "context": "快速绑定功能可以简化现有函数的调用设置流程，提高开发效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:17:51.806Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8521,
+    "contentLength": 5963,
+    "processingTimeMs": 45323
+  }
+}

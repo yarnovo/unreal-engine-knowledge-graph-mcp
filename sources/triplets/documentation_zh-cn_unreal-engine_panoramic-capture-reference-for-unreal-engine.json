@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_panoramic-capture-reference-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_panoramic-capture-reference-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "全景采集插件",
+      "predicate": "包含",
+      "object": "BP_Capture",
+      "context": "BP_Capture是全景采集插件中的一个蓝图，用于设置所有必要参数进行6K精度的采集",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全景采集插件",
+      "predicate": "包含",
+      "object": "渲染通道",
+      "context": "渲染通道是全景采集插件的一部分，用于采集不同的渲染效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_Capture",
+      "predicate": "生成",
+      "object": "立体图像",
+      "context": "BP_Capture蓝图在默认配置下会输出一帧立体图像",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "消息日志",
+      "predicate": "显示",
+      "object": "全景采集日志",
+      "context": "消息日志用于显示全景采集插件的日志信息，包括错误信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插件内容",
+      "predicate": "包含",
+      "object": "材质",
+      "context": "插件内容中包含材质，用于采集不同的渲染通道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插件内容",
+      "predicate": "包含",
+      "object": "查看器",
+      "context": "插件内容中包含查看器蓝图，用于查看立体静帧和视频",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染通道",
+      "predicate": "包括",
+      "object": "环境光遮蔽",
+      "context": "环境光遮蔽是渲染通道之一，用于采集场景中的环境光遮蔽效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染通道",
+      "predicate": "包括",
+      "object": "底色",
+      "context": "底色是渲染通道之一，用于采集场景的底色信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染通道",
+      "predicate": "包括",
+      "object": "金属感",
+      "context": "金属感是渲染通道之一，用于采集场景中的金属感效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染通道",
+      "predicate": "包括",
+      "object": "粗糙度",
+      "context": "粗糙度是渲染通道之一，用于采集场景中的粗糙度信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染通道",
+      "predicate": "包括",
+      "object": "场景深度",
+      "context": "场景深度是渲染通道之一，用于采集场景的深度信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染通道",
+      "predicate": "包括",
+      "object": "场景法线",
+      "context": "场景法线是渲染通道之一，用于采集场景的法线信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "切片控制",
+      "predicate": "控制",
+      "object": "水平切片数量",
+      "context": "切片控制选项用于控制每个图像采集的水平切片数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "切片控制",
+      "predicate": "控制",
+      "object": "垂直切片数量",
+      "context": "切片控制选项用于控制每个图像采集的垂直切片数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图谱控制",
+      "predicate": "控制",
+      "object": "镜头图谱",
+      "context": "图谱控制用于控制从切片收集的镜头图谱，重构360度图像",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "采样控制",
+      "predicate": "影响",
+      "object": "图像过滤",
+      "context": "采样控制选项影响图像的过滤方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试控制",
+      "predicate": "用于",
+      "object": "追踪问题",
+      "context": "调试控制选项用于查看并调整图像的采集方式，便于追踪最终输出图像中可能出现的问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输出",
+      "predicate": "控制",
+      "object": "位深度",
+      "context": "输出选项用于控制位深度和不同的渲染通道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输出",
+      "predicate": "控制",
+      "object": "渲染通道",
+      "context": "输出选项用于启用或禁用不同的渲染通道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单视场",
+      "predicate": "指定",
+      "object": "输出类型",
+      "context": "单视场选项用于指定输出为单视场或立体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:17:55.939Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8855,
+    "contentLength": 6185,
+    "processingTimeMs": 61961
+  }
+}

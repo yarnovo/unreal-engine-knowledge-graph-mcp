@@ -1,0 +1,149 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_virtual-texturing-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_virtual-texturing-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚拟纹理",
+      "predicate": "包含",
+      "object": "运行时虚拟纹理",
+      "context": "虚拟纹理是总概念，运行时虚拟纹理是其具体实现方式之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟纹理",
+      "predicate": "包含",
+      "object": "流送虚拟纹理",
+      "context": "虚拟纹理是总概念，流送虚拟纹理是其具体实现方式之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行时虚拟纹理",
+      "predicate": "适用于",
+      "object": "地形材质",
+      "context": "运行时虚拟纹理特别适合渲染复杂的地形材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行时虚拟纹理",
+      "predicate": "改善",
+      "object": "地形样条",
+      "context": "运行时虚拟纹理能改善地形样条的渲染性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "运行时虚拟纹理",
+      "predicate": "改善",
+      "object": "网格体",
+      "context": "运行时虚拟纹理能改善网格体的渲染性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "运行时虚拟纹理",
+      "predicate": "改善",
+      "object": "材质贴花",
+      "context": "运行时虚拟纹理能改善材质贴花的渲染性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "流送虚拟纹理",
+      "predicate": "替代",
+      "object": "mip纹理流送",
+      "context": "流送虚拟纹理是传统mip纹理流送方法的替代方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流送虚拟纹理",
+      "predicate": "支持",
+      "object": "虚拟纹理光照贴图",
+      "context": "流送虚拟纹理技术支持虚拟纹理光照贴图功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流送虚拟纹理",
+      "predicate": "支持",
+      "object": "UDIM",
+      "context": "流送虚拟纹理技术支持UDIM(U维度)功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟纹理光照贴图",
+      "predicate": "提高",
+      "object": "流送性能",
+      "context": "虚拟纹理光照贴图能提高光照贴图的流送性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚拟纹理光照贴图",
+      "predicate": "提高",
+      "object": "质量",
+      "context": "虚拟纹理光照贴图能提高光照贴图的质量",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚拟纹理",
+      "predicate": "降低",
+      "object": "内存占用",
+      "context": "虚拟纹理的主要优势是降低运行时内存占用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟纹理",
+      "predicate": "支持",
+      "object": "超高纹理分辨率",
+      "context": "虚拟纹理技术支持超高分辨率的纹理处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行时虚拟纹理",
+      "predicate": "生成方式",
+      "object": "GPU生成",
+      "context": "运行时虚拟纹理的纹素数据由GPU在运行时生成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流送虚拟纹理",
+      "predicate": "生成方式",
+      "object": "硬盘加载",
+      "context": "流送虚拟纹理的纹素数据从硬盘中烘焙和加载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟纹理内存池",
+      "predicate": "管理",
+      "object": "GPU内存分配",
+      "context": "虚拟纹理内存池负责管理虚拟纹理的GPU内存分配",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "控制",
+      "object": "虚拟纹理光照贴图",
+      "context": "在项目设置中可以启用或配置虚拟纹理光照贴图功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:30:25.681Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5707,
+    "contentLength": 3963,
+    "processingTimeMs": 43103
+  }
+}

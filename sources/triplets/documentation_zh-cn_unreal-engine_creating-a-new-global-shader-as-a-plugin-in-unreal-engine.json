@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_creating-a-new-global-shader-as-a-plugin-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_creating-a-new-global-shader-as-a-plugin-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎插件系统",
+      "predicate": "扩展",
+      "object": "引擎功能",
+      "context": "插件系统允许添加新功能而无需重新编译整个引擎，这对学习引擎扩展机制至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全局着色器",
+      "predicate": "实现",
+      "object": "光学变形效果",
+      "context": "文档演示了如何通过全局着色器实现Lens Distortion效果，这是学习着色器编程的关键案例",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Foo插件",
+      "predicate": "基于",
+      "object": "LensDistortion插件",
+      "context": "教程通过修改现有插件来创建新插件，展示了插件开发的学习路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Visual Studio",
+      "predicate": "用于",
+      "object": "插件开发",
+      "context": "文档强调需要VS进行插件代码编译，这是开发环境配置的重要知识点",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "MyShader.USF",
+      "predicate": "包含",
+      "object": "HLSL代码",
+      "context": "着色器文件使用HLSL语言编写，是学习着色器开发的基础资源",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "FFooCameraModel",
+      "predicate": "替换",
+      "object": "FLensDistortionCameraModel",
+      "context": "代码修改过程展示了如何重构相机模型结构体，这对学习代码迁移很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Foo.Build.cs",
+      "predicate": "配置",
+      "object": "模块依赖",
+      "context": "文件配置了RenderCore等关键模块依赖，是学习插件构建系统的典型案例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "控制",
+      "object": "全局着色器参数",
+      "context": "文档展示了如何通过蓝图控制着色器参数，这是学习引擎可视化编程的重要部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染目标",
+      "predicate": "用于",
+      "object": "着色器输出",
+      "context": "教程使用渲染目标作为着色器输出载体，这是学习渲染管线的关键概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Kismet渲染库",
+      "predicate": "提供",
+      "object": "ClearRenderTarget2D函数",
+      "context": "展示了引擎内置函数的使用方法，对学习引擎API很重要",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "UV置换贴图",
+      "predicate": "生成",
+      "object": "变形效果",
+      "context": "解释了UV置换贴图如何产生光学变形效果，这是学习渲染技术的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "相机矩阵",
+      "predicate": "影响",
+      "object": "变形计算",
+      "context": "文档详细说明了相机矩阵在变形计算中的作用，是学习计算机图形学的重要知识点",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格细分",
+      "predicate": "决定",
+      "object": "变形精度",
+      "context": "kGridSubdivision参数控制变形网格精度，这是学习图形优化的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "径向变形系数",
+      "predicate": "控制",
+      "object": "桶形畸变",
+      "context": "K1/K2/K3参数演示了如何控制径向变形，是学习镜头效果的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "切向变形系数",
+      "predicate": "控制",
+      "object": "枕形畸变",
+      "context": "P1/P2参数展示了切向变形控制，完善了对变形效果的学习理解",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染线程",
+      "predicate": "执行",
+      "object": "着色器绘制",
+      "context": "DrawUVDisplacementToRenderTarget_RenderThread函数展示了渲染线程操作，对学习多线程渲染很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图函数库",
+      "predicate": "封装",
+      "object": "着色器功能",
+      "context": "UFooBlueprintLibrary展示了如何将底层着色器功能暴露给蓝图，这是学习引擎架构的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视口UV",
+      "predicate": "转换",
+      "object": "视图空间坐标",
+      "context": "UndistortNormalizedViewPosition函数展示了坐标空间转换，是学习图形编程的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "过扫描因子",
+      "predicate": "补偿",
+      "object": "变形边界",
+      "context": "解释了过扫描因子如何解决变形导致的边界问题，这是学习实际应用的重要细节",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "顶点着色器",
+      "predicate": "准备",
+      "object": "网格数据",
+      "context": "MainVS函数展示了顶点着色器的基本结构，是学习着色器编程的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:39:36.204Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (157120 字符)",
+      "timestamp": "2025-06-15T18:38:17.885Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 165656,
+    "contentLength": 157120,
+    "processingTimeMs": 78327
+  }
+}

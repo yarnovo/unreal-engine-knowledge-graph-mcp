@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-cinematics-and-sequencer-in-unreal-engine-for-maya-users",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-cinematics-and-sequencer-in-unreal-engine-for-maya-users.md",
+  "triples": [
+    {
+      "subject": "Sequencer",
+      "predicate": "是",
+      "object": "非线性编辑套件",
+      "context": "Sequencer是虚幻引擎中用于创建动画和过场动画内容的主要工具，作为非线性编辑套件，它支持对动画、音频、事件和镜头切换进行分层与混合。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "支持",
+      "object": "实时过场动画",
+      "context": "Sequencer支持实时预览动画、光照及特效效果，与传统离线渲染工作流程相比，能大幅缩短迭代周期。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "集成",
+      "object": "虚幻引擎功能",
+      "context": "Sequencer与虚幻引擎功能完全集成，可以对关卡中任何Actor的任意属性进行动画设置。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "包含",
+      "object": "摄像机系统",
+      "context": "Sequencer支持对过场动画摄像机及其属性进行全面控制，例如视野、景深、镜头效果和后期处理设置。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "支持",
+      "object": "事件轨道",
+      "context": "Sequencer通过事件轨道可以直接触发Gameplay逻辑，例如在过场动画中播放音频或执行蓝图。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "支持",
+      "object": "音频集成",
+      "context": "Sequencer支持直接添加、预览音频轨道，并将其与关卡中的场景事件同步。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "支持",
+      "object": "导出选项",
+      "context": "Sequencer可以使用影片渲染队列或影片渲染图表渲染序列，以获得高质量离线输出。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "包含",
+      "object": "Sequencer编辑器",
+      "context": "Sequencer编辑器是用于编辑关卡序列资产的主要界面，用于创建过场动画、镜头切换、动画和脚本化事件等。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "使用",
+      "object": "关卡序列资产",
+      "context": "关卡序列资产是用于在虚幻引擎中创建过场动画内容的基础资产，与特定关卡及其内部的Actor相关联。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡序列资产",
+      "predicate": "包含",
+      "object": "镜头",
+      "context": "关卡序列资产可以包含子序列和镜头，用于创建动态性更强、结构更复杂的过场动画。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "包含",
+      "object": "曲线编辑器",
+      "context": "曲线编辑器用于通过修改和微调关键帧来控制对象的动画方式。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "包含",
+      "object": "轨道",
+      "context": "轨道是时间轴组件，用于表示对象的特定属性或行为，可以通过关键帧进行动画制作和控制。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "支持",
+      "object": "渲染输出",
+      "context": "Sequencer可以输出渲染质量更高的图像和视频，通过额外的设置提升画质和视觉效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "约束",
+      "predicate": "用于",
+      "object": "控制绑定",
+      "context": "约束用于在动画过程中将元素附加到一起，而不在大纲视图或控制点层级中造成更改。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器",
+      "predicate": "用于",
+      "object": "调整骨骼网格体",
+      "context": "变形器可用于调整和扭曲骨骼网格体的表面，动画师工具包插件提供了一组面向动画师的变形器。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换轨道",
+      "predicate": "用于",
+      "object": "动画制作",
+      "context": "变换轨道用于对场景中的对象、摄像机和角色进行动画制作和移动。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可停靠的媒体查看器",
+      "predicate": "用于",
+      "object": "动画调整",
+      "context": "媒体查看器允许动画师根据现有的引用画面来调整动画，可以在引擎界面的任何位置停靠媒体资产。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡",
+      "predicate": "配合使用",
+      "object": "关卡序列",
+      "context": "关卡和关卡序列在过场动画和Gameplay工作流程中需配合使用，关卡是容器，关卡序列用于创建动画和过场动画。",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染管线",
+      "predicate": "包含",
+      "object": "影片渲染队列",
+      "context": "影片渲染管线包含影片渲染队列，用于创建预设和脚本，对渲染流程进行队列化，导出高质量的视频与图像。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染管线",
+      "predicate": "包含",
+      "object": "影片渲染图表",
+      "context": "影片渲染管线包含影片渲染图表，基于图表的界面可以编译逻辑来执行渲染操作。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:14:27.749Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10515 字符)",
+      "timestamp": "2025-06-15T21:13:29.198Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17733,
+    "contentLength": 10515,
+    "processingTimeMs": 58561
+  }
+}

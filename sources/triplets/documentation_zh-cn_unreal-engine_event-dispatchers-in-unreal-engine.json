@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_event-dispatchers-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_event-dispatchers-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "事件分发器",
+      "predicate": "用于",
+      "object": "蓝图Actor通信",
+      "context": "事件分发器是蓝图Actor通信的重要工具，帮助实现不同蓝图之间的交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件分发器",
+      "predicate": "包含",
+      "object": "事件列表",
+      "context": "事件分发器维护一个事件列表，调用时会触发列表中所有绑定的事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件分发器",
+      "predicate": "支持",
+      "object": "数据流传递",
+      "context": "通过设置输入参数，事件分发器可以在蓝图类和关卡蓝图之间传递数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件分发器",
+      "predicate": "创建于",
+      "object": "蓝图编辑器",
+      "context": "事件分发器在蓝图编辑器的'我的蓝图'面板中创建，是蓝图开发的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件分发器",
+      "predicate": "关联",
+      "object": "关卡蓝图",
+      "context": "事件分发器可以在关卡蓝图中触发事件，实现关卡逻辑与蓝图对象的交互",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绑定事件",
+      "predicate": "操作",
+      "object": "事件分发器",
+      "context": "绑定事件是将自定义事件添加到事件分发器事件列表的操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调用事件分发器",
+      "predicate": "触发",
+      "object": "绑定事件",
+      "context": "调用事件分发器会执行所有已绑定的事件，是事件分发器的核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件分发器",
+      "predicate": "继承",
+      "object": "蓝图通信机制",
+      "context": "事件分发器是虚幻引擎蓝图通信系统的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "事件分发器输入参数",
+      "predicate": "决定",
+      "object": "事件数据传递",
+      "context": "输入参数的设置决定了事件分发器能够传递的数据类型和方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图类",
+      "predicate": "使用",
+      "object": "事件分发器",
+      "context": "蓝图类通过事件分发器实现实例间的通信和交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:59:14.661Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6333,
+    "contentLength": 3993,
+    "processingTimeMs": 43600
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animating-umg-widgets-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animating-umg-widgets-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "控件蓝图编辑器",
+      "predicate": "包含",
+      "object": "动画窗口",
+      "context": "控件蓝图编辑器是创建和编辑UMG控件的主要工具，动画窗口是其重要组成部分，用于创建基础动画轨",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件蓝图编辑器",
+      "predicate": "包含",
+      "object": "时间轴窗口",
+      "context": "时间轴窗口是控件蓝图编辑器的核心功能之一，用于控制动画随时间变化的应用方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画窗口",
+      "predicate": "用于",
+      "object": "创建动画轨",
+      "context": "动画窗口专门用于创建驱动控件动画的基础动画轨，是动画制作的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间轴窗口",
+      "predicate": "用于",
+      "object": "添加关键帧",
+      "context": "时间轴窗口是定义动画随时间变化的核心工具，通过添加关键帧来控制动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "定义",
+      "object": "控件属性变化",
+      "context": "关键帧记录了控件在特定时间点的属性值（如位置、颜色等），是动画实现的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动关键帧",
+      "predicate": "简化",
+      "object": "关键帧添加流程",
+      "context": "自动关键帧功能可以自动记录控件属性的变化，大大简化了动画制作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画轨",
+      "predicate": "生成",
+      "object": "动画变量",
+      "context": "创建动画轨时会自动生成对应的动画变量，可以在蓝图图表中调用控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画变量",
+      "predicate": "支持",
+      "object": "动画控制命令",
+      "context": "通过动画变量可以执行播放、停止等控制命令，实现动画的交互控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "垂直框",
+      "predicate": "适用于",
+      "object": "UI布局",
+      "context": "垂直框是UMG中常用的布局控件，特别适合主菜单等垂直排列的UI元素",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "用于",
+      "object": "精确调整关键帧",
+      "context": "细节面板允许开发者精确设置关键帧的属性值，实现更精准的动画控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Set Timer节点",
+      "predicate": "实现",
+      "object": "循环动画",
+      "context": "Set Timer节点可以定时触发动画播放，是实现循环动画效果的关键技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG动画",
+      "predicate": "依赖",
+      "object": "控件蓝图",
+      "context": "UMG动画必须在控件蓝图中创建和实现，是UI动画的基础环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主菜单动画",
+      "predicate": "组合使用",
+      "object": "多个动画轨",
+      "context": "复杂的主菜单动画通常需要组合使用多个动画轨来实现不同的动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "背景颜色",
+      "predicate": "可作为",
+      "object": "动画属性",
+      "context": "背景颜色是可以设置关键帧的动画属性之一，常用于创建颜色过渡效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "锚点设置",
+      "predicate": "影响",
+      "object": "控件动画位置",
+      "context": "控件的锚点设置决定了动画移动的参考基准点，是位置动画的重要设置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T17:59:00.377Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10317,
+    "contentLength": 6787,
+    "processingTimeMs": 58958
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_actor-role-and-remote-role-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_actor-role-and-remote-role-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "Role属性",
+      "context": "Role属性是Actor在复制过程中的重要属性之一，用于确定Actor的主控权",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "RemoteRole属性",
+      "context": "RemoteRole属性是Actor在复制过程中的重要属性之一，用于确定Actor的复制模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Role属性",
+      "predicate": "决定",
+      "object": "Actor主控权",
+      "context": "通过检查Role属性是否为ROLE_Authority，可以确定当前引擎实例是否拥有Actor的主控权",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RemoteRole属性",
+      "predicate": "决定",
+      "object": "Actor复制模式",
+      "context": "RemoteRole属性的值（ROLE_SimulatedProxy或ROLE_AutonomousProxy）决定了Actor的复制模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "服务器",
+      "predicate": "控制",
+      "object": "Actor复制",
+      "context": "只有服务器能够向已连接的客户端同步Actor，客户端不能向服务器同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Role属性",
+      "predicate": "对调",
+      "object": "RemoteRole属性",
+      "context": "在服务器和客户端之间，Role和RemoteRole的值会发生对调，这是复制过程中的正常现象",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor::NetUpdateFrequency",
+      "predicate": "控制",
+      "object": "Actor复制频率",
+      "context": "服务器按照NetUpdateFrequency属性指定的频度来复制Actor，以优化带宽和CPU资源使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ROLE_SimulatedProxy",
+      "predicate": "用于",
+      "object": "标准模拟",
+      "context": "ROLE_SimulatedProxy是标准的模拟途径，通常根据上次获得的速率对移动进行推算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ROLE_AutonomousProxy",
+      "predicate": "用于",
+      "object": "玩家控制Actor模拟",
+      "context": "ROLE_AutonomousProxy通常用于PlayerController所拥有的Actor，利用真人输入来补足缺失的信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "客户端",
+      "predicate": "模拟",
+      "object": "Actor移动",
+      "context": "客户端在服务器更新的间歇中模拟Actor的移动，以弥补断续、不连贯的移动现象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:53:32.367Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4073,
+    "contentLength": 2497,
+    "processingTimeMs": 43523
+  }
+}

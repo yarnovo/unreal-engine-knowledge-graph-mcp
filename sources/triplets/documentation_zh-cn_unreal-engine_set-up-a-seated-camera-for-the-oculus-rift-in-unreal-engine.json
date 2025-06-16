@@ -1,0 +1,123 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_set-up-a-seated-camera-for-the-oculus-rift-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_set-up-a-seated-camera-for-the-oculus-rift-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "坐立式VR体验",
+      "predicate": "需要设置",
+      "object": "VR相机",
+      "context": "文档明确指出开发Oculus Rift上的VR项目时，首先需要考虑设置坐立式或站立式体验的VR相机",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR相机",
+      "predicate": "由",
+      "object": "Pawn蓝图",
+      "context": "VR相机的设置需要在Pawn蓝图中进行配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pawn蓝图",
+      "predicate": "包含",
+      "object": "VRCameraRoot",
+      "context": "在Pawn蓝图中需要添加VRCameraRoot组件作为VR相机的根组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pawn蓝图",
+      "predicate": "包含",
+      "object": "VRCamera",
+      "context": "在Pawn蓝图中需要添加VRCamera组件，并将其设为VRCameraRoot的子项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VRCamera",
+      "predicate": "是子项",
+      "object": "VRCameraRoot",
+      "context": "VRCamera需要作为VRCameraRoot的子项以实现相机位置的偏移",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "坐立式VR体验",
+      "predicate": "需要设置",
+      "object": "Set Tracking Origin节点",
+      "context": "针对坐立式体验，需要在Pawn蓝图的事件图表中设置Set Tracking Origin节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Set Tracking Origin节点",
+      "predicate": "拥有选项",
+      "object": "视线平面",
+      "context": "Set Tracking Origin节点有地面平面和视线平面两个选项，坐立式体验需要选择视线平面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "坐立式VR体验",
+      "predicate": "需要设置",
+      "object": "RiftCameraHeight变量",
+      "context": "需要创建一个名为RiftCameraHeight的矢量变量，并将其Z轴值设为用户的坐立高度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RiftCameraHeight变量",
+      "predicate": "用于",
+      "object": "SetRelativeLocation节点",
+      "context": "RiftCameraHeight变量需要连接到SetRelativeLocation节点的New Location输入，以设置相机的高度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SetRelativeLocation节点",
+      "predicate": "作用于",
+      "object": "VRCameraRoot",
+      "context": "SetRelativeLocation节点用于设置VRCameraRoot的相对位置，从而移动Rift相机",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pawn蓝图",
+      "predicate": "需要放置",
+      "object": "关卡",
+      "context": "完成设置后，需要将Pawn蓝图拖入关卡并放置在0,0,0处",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pawn蓝图",
+      "predicate": "需要设置",
+      "object": "自动拥有玩家",
+      "context": "在Pawn蓝图的细节面板中，需要将自动拥有玩家设置为Player 0",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR预览",
+      "predicate": "用于",
+      "object": "测试坐立式VR体验",
+      "context": "最后需要在主工具栏中将播放模式改为VR预览，以测试坐立式VR体验",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:43:12.103Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (33534 字符)",
+      "timestamp": "2025-06-15T20:42:28.153Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 36174,
+    "contentLength": 33534,
+    "processingTimeMs": 43957
+  }
+}

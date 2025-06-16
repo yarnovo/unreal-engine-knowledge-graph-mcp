@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_opening-doors-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_opening-doors-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "DoorActor",
+      "predicate": "继承",
+      "object": "Actor",
+      "context": "DoorActor是继承自Actor类的C++类，用于实现门的交互功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DoorActor",
+      "predicate": "包含",
+      "object": "UStaticMeshComponent",
+      "context": "DoorActor包含DoorFrame和Door两个静态网格体组件用于视觉表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DoorActor",
+      "predicate": "包含",
+      "object": "UTimelineComponent",
+      "context": "DoorActor包含时间轴组件用于控制门的动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UTimelineComponent",
+      "predicate": "使用",
+      "object": "UCurveFloat",
+      "context": "时间轴组件使用浮点曲线来控制动画的插值过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DoorActor",
+      "predicate": "响应",
+      "object": "碰撞事件",
+      "context": "DoorActor通过盒体碰撞组件的重叠事件来触发门的开关动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Bp_DoorActor",
+      "predicate": "基于",
+      "object": "DoorActor",
+      "context": "Bp_DoorActor是基于DoorActor类创建的蓝图类，用于可视化配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间轴动画",
+      "predicate": "控制",
+      "object": "门旋转",
+      "context": "时间轴动画通过输出值控制门的相对旋转角度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCurveFloat",
+      "predicate": "定义",
+      "object": "动画曲线",
+      "context": "浮点曲线定义了门从关闭到打开的旋转角度随时间变化的曲线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "初学者内容包",
+      "predicate": "提供",
+      "object": "静态网格体",
+      "context": "初学者内容包提供了SM_DoorFrame和SM_Door等静态网格体资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图系统",
+      "predicate": "扩展",
+      "object": "C++类",
+      "context": "蓝图系统可以基于C++类创建可视化配置的蓝图类",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FAttachmentTransformRules",
+      "predicate": "影响",
+      "object": "组件附加",
+      "context": "FAttachmentTransformRules定义了组件附加时的变换规则",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "碰撞检测",
+      "predicate": "触发",
+      "object": "时间轴播放",
+      "context": "当玩家进入碰撞边界时触发时间轴的正向播放，离开时触发反向播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间轴编辑器",
+      "predicate": "用于",
+      "object": "曲线编辑",
+      "context": "时间轴编辑器用于创建和编辑浮点曲线上的关键点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FRotator",
+      "predicate": "表示",
+      "object": "旋转状态",
+      "context": "FRotator用于表示和设置门的旋转状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UPROPERTY",
+      "predicate": "暴露",
+      "object": "蓝图可访问",
+      "context": "UPROPERTY宏用于将C++变量暴露给蓝图系统访问",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:12:52.477Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (16893 字符)",
+      "timestamp": "2025-06-15T20:12:10.684Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19766,
+    "contentLength": 16893,
+    "processingTimeMs": 41796
+  }
+}

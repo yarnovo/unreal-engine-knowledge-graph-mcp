@@ -1,0 +1,157 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_setting-up-an-automation-test-report-server",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_setting-up-an-automation-test-report-server.md",
+  "triples": [
+    {
+      "subject": "自动化测试报告服务器",
+      "predicate": "扩展",
+      "object": "自动化系统",
+      "context": "自动化测试报告服务器扩展了自动化系统的功能，提供了更好的测试结果可视化和共享能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化测试报告服务器",
+      "predicate": "依赖",
+      "object": "Node.js",
+      "context": "自动化测试报告服务器的设置和运行需要Node.js环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化测试报告服务器",
+      "predicate": "依赖",
+      "object": "Bower",
+      "context": "自动化测试报告服务器需要Bower来管理前端依赖",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化测试报告服务器",
+      "predicate": "依赖",
+      "object": "Git",
+      "context": "自动化测试报告服务器的设置过程需要Git",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化测试报告服务器",
+      "predicate": "基于",
+      "object": "HTTP服务器",
+      "context": "自动化测试报告服务器是基于HTTP服务器构建的",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "自动化测试报告服务器",
+      "predicate": "用于",
+      "object": "测试结果可视化",
+      "context": "自动化测试报告服务器的主要用途是提供测试结果的可视化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化测试报告服务器",
+      "predicate": "支持",
+      "object": "分布式测试",
+      "context": "自动化测试报告服务器支持分布式测试环境中的结果共享",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "自动化测试报告服务器",
+      "predicate": "生成",
+      "object": "HTML报告",
+      "context": "自动化测试报告服务器可以生成HTML格式的测试报告",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化测试报告服务器",
+      "predicate": "包含",
+      "object": "测试会话",
+      "context": "自动化测试报告服务器支持将不同的测试组织为独立的测试会话",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "自动化测试报告服务器",
+      "predicate": "使用",
+      "object": "会话名称",
+      "context": "自动化测试报告服务器使用会话名称来组织和识别不同的测试集",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "自动化测试报告服务器",
+      "predicate": "需要",
+      "object": "DNS和IP地址",
+      "context": "自动化测试报告服务器需要有效的DNS和IP地址才能实现远程访问",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化测试报告服务器",
+      "predicate": "存储",
+      "object": "测试结果",
+      "context": "自动化测试报告服务器用于存储和组织自动化测试的结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化测试报告服务器",
+      "predicate": "提供",
+      "object": "文件列表",
+      "context": "自动化测试报告服务器提供测试结果文件的列表展示功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化系统",
+      "predicate": "生成",
+      "object": "HTML报告",
+      "context": "自动化系统可以生成HTML报告作为测试输出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化系统",
+      "predicate": "限制",
+      "object": "数据可视性",
+      "context": "自动化系统在数据可视性方面存在限制，这是自动化测试报告服务器要解决的问题",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Bower",
+      "predicate": "管理",
+      "object": "javascript库",
+      "context": "Bower用于管理自动化测试报告服务器所需的前端javascript库",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HTTP服务器",
+      "predicate": "运行于",
+      "object": "命令提示符",
+      "context": "HTTP服务器通过命令提示符运行，关闭命令提示符会终止服务器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "测试会话",
+      "predicate": "防止",
+      "object": "结果覆盖",
+      "context": "通过设置不同的测试会话可以防止测试结果被覆盖",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:44:20.648Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7056,
+    "contentLength": 4432,
+    "processingTimeMs": 48881
+  }
+}

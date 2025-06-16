@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-trigger-cinematic-particle-effects-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-trigger-cinematic-particle-effects-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Sequencer",
+      "predicate": "用于",
+      "object": "触发过场动画粒子效果",
+      "context": "Sequencer是虚幻引擎中用于创建和控制过场动画的核心工具，学习如何在Sequencer中触发粒子效果是制作电影级动画的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara系统",
+      "predicate": "用于",
+      "object": "创建视觉效果",
+      "context": "Niagara是虚幻引擎中创建粒子效果和视觉特效的主要系统，理解Niagara系统是学习粒子效果制作的前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡序列",
+      "predicate": "包含",
+      "object": "Niagara系统轨道",
+      "context": "在Sequencer中，Niagara系统可以通过添加轨道的方式被控制，这是将粒子效果集成到过场动画的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FX系统开关轨道",
+      "predicate": "控制",
+      "object": "Niagara系统激活状态",
+      "context": "FX系统开关轨道专门用于控制Niagara系统的激活、停用和触发，是时序控制粒子效果的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "持续效果",
+      "predicate": "使用",
+      "object": "激活/停用关键帧",
+      "context": "对于需要持续显示的粒子效果，使用激活和停用关键帧来控制其生命周期是标准做法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "触发效果",
+      "predicate": "使用",
+      "object": "触发关键帧",
+      "context": "单次播放的粒子效果适合使用触发关键帧，这种控制方式更简洁高效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "参数轨道",
+      "predicate": "用于",
+      "object": "动画化Niagara参数",
+      "context": "参数轨道允许在Sequencer中动态调整Niagara系统的参数，实现更复杂的粒子动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "用于",
+      "object": "添加Niagara系统到关卡",
+      "context": "内容浏览器是管理项目资产的核心工具，通过它可以方便地将Niagara系统添加到场景中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动激活属性",
+      "predicate": "影响",
+      "object": "Sequencer控制",
+      "context": "禁用自动激活属性可以确保粒子效果完全由Sequencer控制，避免干扰",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Sequencer基础",
+      "predicate": "是",
+      "object": "先决条件",
+      "context": "理解Sequencer基础是学习触发粒子效果的前提，这体现了学习路径的递进关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NiagaraComponent0",
+      "predicate": "包含",
+      "object": "FX系统开关轨道",
+      "context": "NiagaraComponent0是Niagara系统在Sequencer中的表示，通过它可以添加控制轨道",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "属性轨道",
+      "predicate": "扩展",
+      "object": "Sequencer功能",
+      "context": "属性轨道扩展了Sequencer的动画控制能力，使其能够控制更多类型的参数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "触发关键帧",
+      "predicate": "适用于",
+      "object": "单次播放效果",
+      "context": "理解何时使用触发关键帧而不是激活/停用关键帧是粒子效果控制的重要知识",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "用户公开的参数",
+      "predicate": "支持",
+      "object": "参数动画化",
+      "context": "只有被用户公开的Niagara参数才能在Sequencer中被动画化，这是参数控制的重要限制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:27:51.138Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7965,
+    "contentLength": 5809,
+    "processingTimeMs": 47436
+  }
+}

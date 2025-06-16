@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_widget-components-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_widget-components-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "控件组件",
+      "predicate": "基于",
+      "object": "UMG",
+      "context": "控件组件使用UMG来创建3D UI元素，理解这一关系有助于学习者掌握UI开发的基础技术栈",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件组件",
+      "predicate": "实例化",
+      "object": "控件蓝图",
+      "context": "控件组件是控件蓝图的3D实例，这一关系是理解如何在3D场景中复用UI设计的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件组件",
+      "predicate": "支持",
+      "object": "世界空间渲染",
+      "context": "控件组件支持在世界场景中渲染控件，这种模式下的UI可以被场景物体遮挡，是理解3D UI空间关系的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件组件",
+      "predicate": "支持",
+      "object": "屏幕空间渲染",
+      "context": "控件组件也支持在屏幕空间渲染，这种模式下的UI不会被遮挡，是传统2D UI的实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件组件",
+      "predicate": "包含属性",
+      "object": "绘制大小",
+      "context": "绘制大小属性控制控件在场景中的显示尺寸，是UI视觉表现的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件组件",
+      "predicate": "包含属性",
+      "object": "手动重绘",
+      "context": "手动重绘属性允许开发者控制UI更新频率，是性能优化的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "手动重绘",
+      "predicate": "关联",
+      "object": "重绘时间",
+      "context": "重绘时间属性与手动重绘配合使用，共同控制UI的更新策略，理解这种关联对性能调优很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件组件",
+      "predicate": "包含属性",
+      "object": "按要求大小绘制",
+      "context": "该属性使渲染目标自动匹配控件类指定的所需大小，但可能带来性能开销，是UI质量与性能权衡的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件组件",
+      "predicate": "属于",
+      "object": "Actor组件",
+      "context": "控件组件需要添加到Actor蓝图中使用，这一关系是理解虚幻引擎组件化架构的关键",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UMG",
+      "predicate": "用于创建",
+      "object": "3D UI元素",
+      "context": "UMG是创建3D UI的核心工具，这一关系是学习虚幻引擎UI开发的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界空间渲染",
+      "predicate": "对比",
+      "object": "屏幕空间渲染",
+      "context": "理解两种渲染模式的区别和适用场景是设计3D UI的重要知识",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件蓝图",
+      "predicate": "定义",
+      "object": "UI逻辑与布局",
+      "context": "控件蓝图定义了UI的结构和行为，是学习UI开发必须掌握的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:32:34.822Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2996,
+    "contentLength": 1910,
+    "processingTimeMs": 35552
+  }
+}

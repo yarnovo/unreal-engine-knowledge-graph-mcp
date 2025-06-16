@@ -1,0 +1,219 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_quick-start-guide-to-components-and-collision-in-unreal-engine-cpp",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_quick-start-guide-to-components-and-collision-in-unreal-engine-cpp.md",
+  "triples": [
+    {
+      "subject": "CollidingPawn",
+      "predicate": "包含",
+      "object": "USphereComponent",
+      "context": "CollidingPawn使用球体组件作为根组件，用于物理碰撞",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CollidingPawn",
+      "predicate": "包含",
+      "object": "UStaticMeshComponent",
+      "context": "CollidingPawn包含静态网格体组件用于视觉表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CollidingPawn",
+      "predicate": "包含",
+      "object": "UParticleSystemComponent",
+      "context": "CollidingPawn包含粒子系统组件用于特效表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CollidingPawn",
+      "predicate": "包含",
+      "object": "USpringArmComponent",
+      "context": "CollidingPawn包含弹簧臂组件用于平滑摄像机移动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CollidingPawn",
+      "predicate": "包含",
+      "object": "UCameraComponent",
+      "context": "CollidingPawn包含摄像机组件用于玩家视角",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CollidingPawn",
+      "predicate": "使用",
+      "object": "UCollidingPawnMovementComponent",
+      "context": "CollidingPawn使用自定义移动组件处理移动逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USphereComponent",
+      "predicate": "作为根组件",
+      "object": "CollidingPawn",
+      "context": "球体组件被设置为CollidingPawn的根组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UStaticMeshComponent",
+      "predicate": "附加到",
+      "object": "USphereComponent",
+      "context": "静态网格体组件附加到球体组件上，形成层级关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UParticleSystemComponent",
+      "predicate": "附加到",
+      "object": "UStaticMeshComponent",
+      "context": "粒子系统组件附加到静态网格体组件上",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USpringArmComponent",
+      "predicate": "附加到",
+      "object": "USphereComponent",
+      "context": "弹簧臂组件附加到根球体组件上",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCameraComponent",
+      "predicate": "附加到",
+      "object": "USpringArmComponent",
+      "context": "摄像机组件附加到弹簧臂组件上",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCollidingPawnMovementComponent",
+      "predicate": "继承自",
+      "object": "UPawnMovementComponent",
+      "context": "自定义移动组件继承自虚幻引擎的基础Pawn移动组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCollidingPawnMovementComponent",
+      "predicate": "控制",
+      "object": "CollidingPawn",
+      "context": "自定义移动组件控制CollidingPawn的移动行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCollidingPawnMovementComponent",
+      "predicate": "实现",
+      "object": "物理碰撞响应",
+      "context": "移动组件实现了物理碰撞检测和响应逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UCollidingPawnMovementComponent",
+      "predicate": "使用",
+      "object": "SafeMoveUpdatedComponent",
+      "context": "移动组件使用引擎提供的SafeMoveUpdatedComponent函数进行安全移动",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UCollidingPawnMovementComponent",
+      "predicate": "使用",
+      "object": "SlideAlongSurface",
+      "context": "移动组件使用SlideAlongSurface函数处理碰撞滑动",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "提供",
+      "object": "组件系统",
+      "context": "虚幻引擎提供了灵活的组件系统用于构建游戏对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "组件系统",
+      "predicate": "支持",
+      "object": "层级结构",
+      "context": "虚幻引擎的组件系统支持组件间的层级结构",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Pawn",
+      "predicate": "是",
+      "object": "可控制游戏实体",
+      "context": "Pawn是虚幻引擎中可被玩家或AI控制的游戏实体",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USpringArmComponent",
+      "predicate": "提供",
+      "object": "平滑摄像机移动",
+      "context": "弹簧臂组件提供了平滑的摄像机跟随效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UParticleSystemComponent",
+      "predicate": "支持",
+      "object": "动态激活/停用",
+      "context": "粒子系统组件支持在运行时动态激活或停用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UStaticMeshComponent",
+      "predicate": "用于",
+      "object": "视觉表现",
+      "context": "静态网格体组件用于3D模型的视觉表现",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USphereComponent",
+      "predicate": "用于",
+      "object": "物理碰撞",
+      "context": "球体组件用于物理碰撞检测",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入系统",
+      "predicate": "控制",
+      "object": "CollidingPawn",
+      "context": "虚幻引擎的输入系统用于控制Pawn的行为",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "组件",
+      "predicate": "提高",
+      "object": "代码复用性",
+      "context": "使用组件可以提高代码的模块化和复用性",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T20:32:30.113Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (30775 字符)",
+      "timestamp": "2025-06-15T20:31:15.927Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 37876,
+    "contentLength": 30775,
+    "processingTimeMs": 74192
+  }
+}

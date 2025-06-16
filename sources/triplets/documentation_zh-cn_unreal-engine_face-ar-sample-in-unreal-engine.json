@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_face-ar-sample-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_face-ar-sample-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "ARKit面部追踪",
+      "context": "虚幻引擎通过集成ARKit SDK支持面部追踪功能，为开发者提供面部动画解决方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ARKit面部追踪",
+      "predicate": "依赖",
+      "object": "TrueDepth相机",
+      "context": "ARKit面部追踪需要配备TrueDepth相机的iOS设备才能运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ARKit面部追踪",
+      "predicate": "生成",
+      "object": "51个混合形状值",
+      "context": "ARKit SDK分析面部运动并生成51个混合形状值，用于驱动数字角色面部动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link插件",
+      "predicate": "传输",
+      "object": "面部追踪数据",
+      "context": "Live Link插件用于将ARKit的面部追踪数据传输到虚幻引擎中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合形状",
+      "predicate": "驱动",
+      "object": "面部动画",
+      "context": "51个混合形状值可以直接驱动角色面部动画，实现表情捕捉",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiveLinkRemap资产",
+      "predicate": "重新映射",
+      "object": "混合形状名称",
+      "context": "当角色混合形状名称与ARKit标准名称不一致时，需要使用LiveLinkRemap资产进行名称重新映射",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AppleARKitFaceMesh组件",
+      "predicate": "可视化",
+      "object": "ARKit面部网格",
+      "context": "AppleARKitFaceMesh组件用于可视化ARKit生成的面部网格，帮助调试面部追踪效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "校正性混合形状",
+      "predicate": "补充",
+      "object": "关节动画",
+      "context": "校正性混合形状用于补充关节动画的不足，使面部表情更加自然",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "姿势资产",
+      "predicate": "驱动",
+      "object": "面部关节",
+      "context": "通过创建姿势资产，可以将ARKit数据转换为驱动面部关节的动画",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "头部旋转数据",
+      "predicate": "控制",
+      "object": "颈部和头部关节",
+      "context": "ARKit提供的头部旋转数据可以通过Modify Bone节点应用于角色的颈部和头部关节",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "面部AR示例项目",
+      "predicate": "展示",
+      "object": "ARKit面部追踪功能",
+      "context": "面部AR示例项目完整展示了如何在虚幻引擎中使用ARKit面部追踪功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "校准系统",
+      "predicate": "修正",
+      "object": "面部捕捉偏差",
+      "context": "校准系统用于修正SDK捕捉数据与角色表现之间的细微偏差",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Live Link广播",
+      "predicate": "实现",
+      "object": "远程动作捕捉",
+      "context": "通过Live Link广播功能，可以将iPhone作为远程动作捕捉设备使用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "处理",
+      "object": "面部捕捉数据",
+      "context": "动画蓝图用于处理和转换来自ARKit的面部捕捉数据，驱动角色动画",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "ARSessionConfig",
+      "predicate": "配置",
+      "object": "面部追踪会话",
+      "context": "ARSessionConfig数据资产用于配置面部追踪会话的各种参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:03:28.689Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (16124 字符)",
+      "timestamp": "2025-06-15T19:02:36.169Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 27003,
+    "contentLength": 16124,
+    "processingTimeMs": 52531
+  }
+}

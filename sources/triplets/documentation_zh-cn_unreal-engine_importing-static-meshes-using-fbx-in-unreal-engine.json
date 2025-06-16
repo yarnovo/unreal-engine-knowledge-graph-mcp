@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_importing-static-meshes-using-fbx-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_importing-static-meshes-using-fbx-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "FBX导入",
+      "context": "虚幻引擎支持通过FBX格式导入静态网格体，这是3D建模程序与引擎之间的桥梁",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX导入",
+      "predicate": "依赖",
+      "object": "FBX 2020.2版本",
+      "context": "FBX导入管线依赖特定版本（FBX 2020.2），使用其他版本可能导致兼容性问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "通过",
+      "object": "FBX文件导入",
+      "context": "静态网格体通过FBX文件从外部3D建模程序导入到虚幻引擎中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3D建模程序",
+      "predicate": "生成",
+      "object": "FBX文件",
+      "context": "3D建模程序（如Maya、3DS Max、Blender）可以生成包含静态网格体的FBX文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体编辑器",
+      "predicate": "用于",
+      "object": "验证静态网格体",
+      "context": "静态网格体编辑器用于验证导入的静态网格体是否正常",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Maya",
+      "predicate": "支持",
+      "object": "导出静态网格体",
+      "context": "Maya支持通过导出功能将静态网格体保存为FBX文件",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3DS Max",
+      "predicate": "支持",
+      "object": "导出静态网格体",
+      "context": "3DS Max支持通过导出功能将静态网格体保存为FBX文件",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blender",
+      "predicate": "支持",
+      "object": "导出静态网格体",
+      "context": "Blender支持通过导出功能将静态网格体保存为FBX文件",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX导入",
+      "predicate": "前置",
+      "object": "静态网格体验证",
+      "context": "FBX导入完成后需要进行静态网格体验证，确保资源导入正常",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "属于",
+      "object": "3D资源",
+      "context": "静态网格体是3D资源的一种类型，常用于构建场景中的静态物体",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:34:20.009Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6501,
+    "contentLength": 4953,
+    "processingTimeMs": 34594
+  }
+}

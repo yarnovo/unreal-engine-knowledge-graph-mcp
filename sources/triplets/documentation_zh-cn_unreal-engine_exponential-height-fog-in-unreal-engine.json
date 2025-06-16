@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_exponential-height-fog-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_exponential-height-fog-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Exponential Height Fog",
+      "predicate": "属于",
+      "object": "Visual Effects",
+      "context": "Exponential Height Fog是虚幻引擎中视觉特效的一种，用于创建高度相关的雾效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Exponential Height Fog",
+      "predicate": "包含",
+      "object": "Exponential Height Fog Component",
+      "context": "Exponential Height Fog由多个组件构成，其中Exponential Height Fog Component是核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Exponential Height Fog Component",
+      "predicate": "包含",
+      "object": "Fog Density",
+      "context": "Fog Density是Exponential Height Fog Component的一个属性，控制雾的全局密度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Exponential Height Fog Component",
+      "predicate": "包含",
+      "object": "Fog Height Falloff",
+      "context": "Fog Height Falloff控制雾密度随高度变化的速率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Exponential Height Fog Component",
+      "predicate": "包含",
+      "object": "Second Fog Data",
+      "context": "Second Fog Data允许添加第二层雾效，增强场景的层次感",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Second Fog Data",
+      "predicate": "包含",
+      "object": "Fog Density",
+      "context": "第二层雾效也有自己的密度属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Second Fog Data",
+      "predicate": "包含",
+      "object": "Fog Height Falloff",
+      "context": "第二层雾效的高度衰减属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Second Fog Data",
+      "predicate": "包含",
+      "object": "Fog Height Offset",
+      "context": "第二层雾效的高度偏移属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Exponential Height Fog Component",
+      "predicate": "包含",
+      "object": "Fog Inscattering Color",
+      "context": "控制雾的主要颜色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Exponential Height Fog Component",
+      "predicate": "包含",
+      "object": "Volumetric Fog",
+      "context": "Volumetric Fog是Exponential Height Fog的一个高级特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Volumetric Fog",
+      "predicate": "不支持",
+      "object": "Start Distance",
+      "context": "Volumetric Fog不支持Start Distance属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Volumetric Fog",
+      "predicate": "不支持",
+      "object": "Fog Max Opacity",
+      "context": "Volumetric Fog不支持Fog Max Opacity属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Volumetric Fog",
+      "predicate": "不支持",
+      "object": "Fog Cutoff Distance",
+      "context": "Volumetric Fog不支持Fog Cutoff Distance属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Exponential Height Fog",
+      "predicate": "影响",
+      "object": "Performance",
+      "context": "Exponential Height Fog的渲染性能受多种因素影响",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Fog Start Distance",
+      "predicate": "优化",
+      "object": "Performance",
+      "context": "合理设置Fog Start Distance可以显著提升性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Volumetric Fog",
+      "predicate": "依赖",
+      "object": "Directional Light",
+      "context": "Volumetric Fog需要Directional Light来产生光散射效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Exponential Height Fog",
+      "predicate": "关联",
+      "object": "Sky Atmosphere",
+      "context": "Exponential Height Fog可以与Sky Atmosphere组件交互",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Exponential Height Fog",
+      "predicate": "关联",
+      "object": "Volumetric Cloud",
+      "context": "当启用某些特性时，Exponential Height Fog会影响Volumetric Cloud的渲染性能",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Inscattering Color Cubemap",
+      "predicate": "替代",
+      "object": "Fog Inscattering Color",
+      "context": "当指定了Inscattering Color Cubemap时，会忽略Fog Inscattering Color",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Volumetric Fog",
+      "predicate": "使用",
+      "object": "Scattering Distribution",
+      "context": "Scattering Distribution控制Volumetric Fog的光散射行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:01:59.893Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11905 字符)",
+      "timestamp": "2025-06-15T19:00:57.137Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12097,
+    "contentLength": 11905,
+    "processingTimeMs": 62766
+  }
+}

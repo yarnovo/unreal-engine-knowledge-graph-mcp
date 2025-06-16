@@ -1,0 +1,157 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_switchboard-quick-start-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_switchboard-quick-start-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Switchboard",
+      "predicate": "依赖",
+      "object": "Switchboard插件",
+      "context": "使用Switchboard功能前需要先启用Switchboard插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "控制",
+      "object": "SwitchboardListener",
+      "context": "Switchboard通过SwitchboardListener连接到远程设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SwitchboardListener",
+      "predicate": "运行于",
+      "object": "设备",
+      "context": "每个要连接到Switchboard的设备都需要运行SwitchboardListener",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "支持",
+      "object": "设备插件",
+      "context": "Switchboard通过插件支持多种类型的设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "用于",
+      "object": "nDisplay群集",
+      "context": "Switchboard可以用于启动和监控nDisplay群集",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "用于",
+      "object": "远程录制镜头试拍",
+      "context": "Switchboard可以用于远程录制镜头试拍",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "用于",
+      "object": "远程同步和编译",
+      "context": "Switchboard可以用于远程同步和编译项目和引擎",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard配置",
+      "predicate": "包含",
+      "object": "uProject路径",
+      "context": "Switchboard配置需要指定要控制的uProject路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard配置",
+      "predicate": "包含",
+      "object": "引擎目录",
+      "context": "Switchboard配置需要指定引擎目录路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "支持",
+      "object": "Perforce集成",
+      "context": "Switchboard支持与Perforce版本控制系统集成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻设备",
+      "predicate": "是",
+      "object": "Switchboard设备类型",
+      "context": "虚幻设备是Switchboard支持的一种设备类型",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "通过",
+      "object": "OSC连接",
+      "context": "Switchboard通过OSC与虚幻实例通信，实现镜头试拍录制功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SwitchboardListener",
+      "predicate": "监听",
+      "object": "默认端口2980",
+      "context": "SwitchboardListener默认监听0.0.0.0:2980地址",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "可通过",
+      "object": "多种方式启动",
+      "context": "Switchboard可以通过编辑器工具栏、桌面快捷方式或直接运行.bat文件启动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SwitchboardListener",
+      "predicate": "可配置为",
+      "object": "登录时启动",
+      "context": "SwitchboardListener可以配置为在用户登录时自动启动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "需要",
+      "object": "安装依赖项",
+      "context": "使用Switchboard前需要先安装其依赖项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "属于",
+      "object": "虚拟制作工具集",
+      "context": "Switchboard是虚幻引擎虚拟制作工具的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "适用于",
+      "object": "多设备管理",
+      "context": "Switchboard专门用于管理连接到虚幻引擎的多个设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:57:27.660Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9777,
+    "contentLength": 6983,
+    "processingTimeMs": 48661
+  }
+}

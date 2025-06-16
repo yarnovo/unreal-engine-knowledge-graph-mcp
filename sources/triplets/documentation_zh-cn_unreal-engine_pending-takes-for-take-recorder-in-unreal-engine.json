@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_pending-takes-for-take-recorder-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_pending-takes-for-take-recorder-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Pending Takes",
+      "predicate": "用于",
+      "object": "记录游戏、模拟、PIE事件",
+      "context": "Pending Takes是虚幻引擎中用于记录游戏、模拟和PIE事件的功能模块，学习者需要理解其基本用途才能正确使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pending Takes",
+      "predicate": "支持",
+      "object": "添加到现有序列",
+      "context": "Pending Takes支持将记录的数据添加到现有序列中，这是其核心功能之一，学习者需要掌握这一操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pending Takes",
+      "predicate": "支持",
+      "object": "覆盖现有序列数据",
+      "context": "Pending Takes也支持覆盖现有序列数据，但会破坏原有数据，这是学习者需要注意的重要特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Recorder",
+      "predicate": "包含",
+      "object": "Pending Takes",
+      "context": "Pending Takes是Take Recorder功能的一部分，理解这一包含关系有助于学习者定位功能位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Recorder",
+      "predicate": "依赖",
+      "object": "Sequencer",
+      "context": "Take Recorder需要与Sequencer配合使用，学习者需要同时掌握这两个工具",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Take Recorder",
+      "predicate": "控制",
+      "object": "录制过程",
+      "context": "Take Recorder控制着整个录制过程，包括开始、停止和查看录制，这是学习者需要掌握的基本操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Recorder",
+      "predicate": "添加",
+      "object": "玩家Actor",
+      "context": "学习者需要了解如何在Take Recorder中添加玩家Actor来记录互动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "显示",
+      "object": "待处理镜头",
+      "context": "Sequencer会显示待处理镜头作为其序列，这一视觉反馈帮助学习者确认录制状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PIE",
+      "predicate": "用于",
+      "object": "Take Recorder录制",
+      "context": "PIE(编辑器内运行)是Take Recorder录制的前提条件，学习者需要先启动PIE才能开始录制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "用户设置",
+      "predicate": "包含",
+      "object": "倒计时设置",
+      "context": "倒计时设置影响录制开始时间，学习者可能需要根据项目需求调整这一参数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "覆盖序列数据",
+      "predicate": "破坏",
+      "object": "原有序列数据",
+      "context": "学习者需要特别注意覆盖序列数据会破坏原有数据，这是一个重要的操作警示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "录制长度",
+      "predicate": "取决于",
+      "object": "所选序列长度",
+      "context": "理解录制长度与所选序列长度的关系有助于学习者规划录制过程",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "创建摄像机剪切",
+      "predicate": "前置",
+      "object": "使用Pending Takes",
+      "context": "创建摄像机剪切教程是使用Pending Takes的前置知识，学习者可能需要先掌握这部分内容",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T20:21:43.940Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5418,
+    "contentLength": 3594,
+    "processingTimeMs": 42706
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-datasmith-with-3ds-max-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-datasmith-with-3ds-max-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Datasmith 3ds Max导出器插件",
+      "predicate": "用于",
+      "object": "3ds Max内容导出",
+      "context": "插件专门用于将3ds Max内容导出为.udatasmith文件，便于后续导入虚幻引擎",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith 3ds Max导出器插件",
+      "predicate": "支持",
+      "object": "Direct Link功能",
+      "context": "插件支持通过Direct Link建立3ds Max与虚幻引擎的实时连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导入器插件",
+      "predicate": "依赖",
+      "object": "Datasmith 3ds Max导出器插件",
+      "context": "要在虚幻引擎中导入.udatasmith文件，必须先安装并启用Datasmith导入器插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3ds Max",
+      "predicate": "通过",
+      "object": "Datasmith",
+      "context": "3ds Max通过Datasmith工具链与虚幻引擎进行内容交互",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": ".udatasmith文件",
+      "predicate": "作为",
+      "object": "中间格式",
+      "context": ".udatasmith文件是3ds Max内容导入虚幻引擎的中间交换格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Direct Link",
+      "predicate": "实现",
+      "object": "实时同步",
+      "context": "Direct Link功能实现3ds Max与虚幻引擎之间的实时内容同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "建筑业模板项目",
+      "predicate": "默认包含",
+      "object": "Datasmith导入器插件",
+      "context": "使用建筑业模板创建的虚幻引擎项目默认已启用Datasmith导入器插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith 3ds Max导出器插件",
+      "predicate": "需要",
+      "object": "版本匹配",
+      "context": "导出器插件版本必须与目标虚幻引擎版本相匹配才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3ds Max内容导入",
+      "predicate": "涉及",
+      "object": "内容转换过程",
+      "context": "Datasmith在导入过程中会对3ds Max内容进行特定转换以适应虚幻引擎",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Datasmith工作流",
+      "predicate": "提供",
+      "object": "两种导入方式",
+      "context": "提供文件导出导入和Direct Link实时同步两种主要工作流",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插件安装",
+      "predicate": "需要",
+      "object": "预安装检查",
+      "context": "安装Datasmith插件前需要关闭3ds Max并卸载旧版本，这是重要的准备工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "V-Ray",
+      "predicate": "与",
+      "object": "Datasmith",
+      "context": "文档展示了V-Ray渲染内容通过Datasmith导入虚幻引擎的效果对比",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T21:15:16.331Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5194,
+    "contentLength": 3870,
+    "processingTimeMs": 36236
+  }
+}

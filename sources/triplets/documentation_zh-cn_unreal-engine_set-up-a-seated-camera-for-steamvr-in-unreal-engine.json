@@ -1,0 +1,123 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_set-up-a-seated-camera-for-steamvr-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_set-up-a-seated-camera-for-steamvr-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "SteamVR",
+      "predicate": "支持",
+      "object": "坐立式体验",
+      "context": "文档明确指出SteamVR支持坐立式和站立式两种VR体验模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pawn蓝图",
+      "predicate": "包含",
+      "object": "VRCameraRoot",
+      "context": "设置坐立式体验需要在Pawn蓝图中添加VRCameraRoot组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pawn蓝图",
+      "predicate": "包含",
+      "object": "VRCamera",
+      "context": "设置坐立式体验需要在Pawn蓝图中添加VRCamera组件，并作为VRCameraRoot的子项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VRCameraRoot",
+      "predicate": "父级",
+      "object": "VRCamera",
+      "context": "VRCamera需要设置为VRCameraRoot的子组件，这是VR相机设置的推荐方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Set Tracking Origin节点",
+      "predicate": "控制",
+      "object": "VR相机追踪原点",
+      "context": "该节点用于设置VR相机的追踪原点，坐立式体验需要设为Eye Level",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "坐立式体验",
+      "predicate": "需要",
+      "object": "Eye Level追踪原点",
+      "context": "文档明确指出坐立式体验需要将追踪原点设为Eye Level",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ViveCameraHeight变量",
+      "predicate": "表示",
+      "object": "用户坐立高度",
+      "context": "该向量变量的Z轴值需要设为真实世界中用户的坐立高度（厘米）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SetRelativeLocation节点",
+      "predicate": "设置",
+      "object": "VRCameraRoot位置",
+      "context": "该节点用于根据ViveCameraHeight变量设置VRCameraRoot的相对位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR预览模式",
+      "predicate": "用于",
+      "object": "测试VR体验",
+      "context": "最终需要通过VR预览模式来测试坐立式VR体验效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Auto Possess Player设置",
+      "predicate": "控制",
+      "object": "Pawn自动拥有",
+      "context": "需要将Pawn的Auto Possess Player设为Player 0才能使VR相机正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Event Begin Play",
+      "predicate": "触发",
+      "object": "VR相机初始化",
+      "context": "VR相机的初始化设置（包括设置追踪原点和位置）需要在Event Begin Play事件中执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HTC Vive",
+      "predicate": "适用于",
+      "object": "坐立式VR体验",
+      "context": "文档专门针对HTC Vive头戴显示器说明坐立式体验的设置方法",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "VR相机设置",
+      "predicate": "基于",
+      "object": "物理世界高度",
+      "context": "VR相机的高度设置需要对应真实世界中用户的坐立高度",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:43:09.987Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (33264 字符)",
+      "timestamp": "2025-06-15T20:42:28.151Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 35732,
+    "contentLength": 33264,
+    "processingTimeMs": 41841
+  }
+}

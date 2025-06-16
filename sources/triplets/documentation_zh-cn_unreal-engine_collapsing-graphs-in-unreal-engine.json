@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_collapsing-graphs-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_collapsing-graphs-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "折叠节点",
+      "predicate": "用于",
+      "object": "组织图表",
+      "context": "折叠节点主要用于组织事件图表中的内容，使其整齐清楚，便于管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "折叠节点",
+      "predicate": "可转换为",
+      "object": "Collapsed Graph节点",
+      "context": "通过右键菜单选择Collapse Nodes，可以将选中的节点折叠为一个Collapsed Graph节点",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Collapsed Graph节点",
+      "predicate": "可预览",
+      "object": "节点网络",
+      "context": "鼠标悬停在Collapsed Graph节点上可以预览节点网络，帮助理解折叠后的逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Collapsed Graph节点",
+      "predicate": "可扩展",
+      "object": "原始节点",
+      "context": "通过右键菜单选择Expand Node可以将Collapsed Graph节点恢复为原始节点状态",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "折叠为函数",
+      "predicate": "优于",
+      "object": "折叠节点",
+      "context": "将节点折叠为函数可以在脚本的其他区域调用，甚至在其他蓝图中调用，提供了更高的复用性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "函数",
+      "predicate": "可调用",
+      "object": "其他蓝图",
+      "context": "通过为包含函数的蓝图添加引用，可以在其他蓝图中调用该函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "折叠为宏",
+      "predicate": "适用于",
+      "object": "高频率操作",
+      "context": "宏特别适合用于执行高频率操作，如复杂的数学方程式，可以提高效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "宏",
+      "predicate": "可添加",
+      "object": "输入输出引脚",
+      "context": "在宏中可以随意添加输入或输出引脚，增加灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "折叠节点",
+      "predicate": "前置步骤",
+      "object": "选择节点",
+      "context": "在折叠节点之前，需要先选择需要折叠的所有节点，这是折叠操作的必要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "折叠为函数",
+      "predicate": "前置步骤",
+      "object": "选择节点",
+      "context": "在将节点折叠为函数之前，同样需要先选择需要折叠的所有节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "折叠为宏",
+      "predicate": "前置步骤",
+      "object": "选择节点",
+      "context": "在将节点折叠为宏之前，也需要先选择需要折叠的所有节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "函数",
+      "predicate": "可重命名",
+      "object": "MyBlueprint窗口",
+      "context": "在MyBlueprint窗口中可以按F2键对函数进行重命名，便于管理和识别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "宏",
+      "predicate": "可重命名",
+      "object": "MyBlueprint窗口",
+      "context": "在MyBlueprint窗口中可以按F2键对宏进行重命名，便于管理和识别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "折叠节点",
+      "predicate": "可命名",
+      "object": "Collapsed Graph节点",
+      "context": "折叠后的Collapsed Graph节点可以命名，便于识别和管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:27:33.611Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7285,
+    "contentLength": 5255,
+    "processingTimeMs": 48238
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_setting-up-ios-launch-storyboards-in-unreal-engine-projects",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_setting-up-ios-launch-storyboards-in-unreal-engine-projects.md",
+  "triples": [
+    {
+      "subject": "启动故事板",
+      "predicate": "替代",
+      "object": "静态启动画面",
+      "context": "Apple强制要求使用启动故事板替代静态启动画面，因为故事板支持动画和自适应缩放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启动故事板",
+      "predicate": "支持",
+      "object": "动画",
+      "context": "故事板相比静态图像的优势在于支持动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启动故事板",
+      "predicate": "自适应",
+      "object": "设备分辨率",
+      "context": "故事板能够根据用户设备的分辨率和DPI进行自动适配",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "包含",
+      "object": "iOS启动画面配置",
+      "context": "在项目设置的Platforms > iOS > Launch Screen分段中可以配置启动故事板",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简约启动故事板",
+      "predicate": "用于",
+      "object": "测试目的",
+      "context": "简约启动故事板可用作临时启动画面或测试目的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启动画面图像",
+      "predicate": "要求",
+      "object": "PNG格式",
+      "context": "启动画面图像必须是没有透明度通道的PNG文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Xcode",
+      "predicate": "用于",
+      "object": "创建自定义故事板",
+      "context": "创建自定义故事板需要Xcode工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单视图应用程序",
+      "predicate": "用于",
+      "object": "创建故事板项目",
+      "context": "在Xcode中创建单视图应用程序项目来制作故事板",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图像视图",
+      "predicate": "用于",
+      "object": "显示启动图像",
+      "context": "在故事板中添加图像视图来显示启动画面图像",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "等比填充",
+      "predicate": "用于",
+      "object": "图像适配",
+      "context": "设置图像视图的内容模式为等比填充以确保图像适配不同设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义启动故事板",
+      "predicate": "需要",
+      "object": "特定目录结构",
+      "context": "虚幻引擎项目要求自定义故事板文件必须放在特定目录中才能被识别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS开发",
+      "predicate": "要求",
+      "object": "启动故事板",
+      "context": "App Store和Apple Arcade强制要求使用启动故事板",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "iOS故事板集成",
+      "context": "虚幻引擎提供了完整的iOS故事板集成工作流",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启动故事板",
+      "predicate": "包含",
+      "object": "视图控制器",
+      "context": "故事板需要配置视图控制器才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视图控制器",
+      "predicate": "需要",
+      "object": "故事板ID",
+      "context": "必须为视图控制器设置故事板ID和恢复ID才能正确显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图像资源",
+      "predicate": "存放于",
+      "object": "Assets文件夹",
+      "context": "Xcode项目中的图像资源建议存放在Assets文件夹中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动调整大小",
+      "predicate": "确保",
+      "object": "图像适配",
+      "context": "设置图像视图的自动调整大小约束确保图像适配不同设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎项目",
+      "predicate": "需要",
+      "object": "特定资源路径",
+      "context": "自定义故事板必须放在Project/Build/IOS/Resources/Interface目录中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启动故事板",
+      "predicate": "优于",
+      "object": "静态启动画面",
+      "context": "故事板相比静态启动画面具有动画支持和自适应缩放的优势",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Xcode项目",
+      "predicate": "可以独立于",
+      "object": "虚幻引擎C++项目",
+      "context": "创建启动故事板的Xcode项目可以独立于虚幻引擎C++项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:45:31.927Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11314 字符)",
+      "timestamp": "2025-06-15T20:44:34.027Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15826,
+    "contentLength": 11314,
+    "processingTimeMs": 57907
+  }
+}

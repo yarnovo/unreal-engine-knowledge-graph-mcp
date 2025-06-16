@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-control-rig-with-usd-files-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-control-rig-with-usd-files-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "USD导入器",
+      "predicate": "支持",
+      "object": "Control Rig",
+      "context": "USD导入器可以使用Control Rig从USD舞台烘焙并直接操控骨骼动画，帮助学习者理解两者如何协同工作",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD舞台",
+      "predicate": "包含",
+      "object": "SkelRoot图元",
+      "context": "USD舞台中的SkelRoot图元是绑定Control Rig的基础，理解这一关系有助于学习动画编辑流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "控制",
+      "object": "Control Rig轨道",
+      "context": "Sequencer通过Control Rig轨道管理动画关键帧，这是动画编辑的核心工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Control Rig",
+      "predicate": "生成",
+      "object": "关键帧",
+      "context": "Control Rig会为每帧动画生成关键帧，这是理解动画控制机制的重要知识点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第三人称模板",
+      "predicate": "提供",
+      "object": "CR_Mannequin_Body",
+      "context": "第三人称模板提供了现成的Control Rig资产，帮助学习者快速开始动画编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD导出选项",
+      "predicate": "配置",
+      "object": "USD文件导出",
+      "context": "理解USD导出选项对话框的设置对成功导出动画文件至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "正向运动学Control Rig",
+      "predicate": "替代",
+      "object": "自定义Control Rig",
+      "context": "当没有自定义Control Rig时，可以使用正向运动学Rig作为替代方案",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Control Rig关键帧缩减",
+      "predicate": "优化",
+      "object": "动画数据量",
+      "context": "关键帧缩减功能可以优化动画数据量，是提高性能的重要技术",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "USD舞台Actor",
+      "predicate": "关联",
+      "object": "关卡序列",
+      "context": "USD舞台Actor与关卡序列的关联是动画编辑工作流的重要组成部分",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚拟制片菜单",
+      "predicate": "访问",
+      "object": "USD舞台编辑器",
+      "context": "了解如何通过虚拟制片菜单访问USD舞台编辑器是开始工作的第一步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "集成面板",
+      "predicate": "设置",
+      "object": "Control Rig资产",
+      "context": "集成面板是配置Control Rig资产的主要界面，掌握这一操作是动画编辑的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "需要",
+      "object": "Control Rig",
+      "context": "理解骨骼网格体必须配备Control Rig才能进行动画编辑这一前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD文件",
+      "predicate": "保存",
+      "object": "动画更改",
+      "context": "USD文件可以保存动画更改，这是理解数据持久化的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:15:16.904Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10580,
+    "contentLength": 7734,
+    "processingTimeMs": 36809
+  }
+}

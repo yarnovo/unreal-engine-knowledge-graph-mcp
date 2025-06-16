@@ -1,0 +1,157 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_horde-logs-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_horde-logs-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Horde Logs",
+      "predicate": "包含",
+      "object": "LogNode",
+      "context": "LogNode是Horde Logs的主要入口点，包含日志的元数据和数据引用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde Logs",
+      "predicate": "包含",
+      "object": "LogChunkNode",
+      "context": "LogChunkNode包含原始日志数据和行偏移量，是Horde Logs的组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde Logs",
+      "predicate": "包含",
+      "object": "LogIndexNode",
+      "context": "LogIndexNode包含搜索索引和纯文本渲染，是Horde Logs的组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LogNode",
+      "predicate": "引用",
+      "object": "LogChunkNode",
+      "context": "LogNode通过引用LogChunkNode来访问日志数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LogNode",
+      "predicate": "引用",
+      "object": "LogIndexNode",
+      "context": "LogNode通过引用LogIndexNode来访问搜索索引",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LogChunkNode",
+      "predicate": "存储",
+      "object": "UTF-8编码日志数据",
+      "context": "LogChunkNode负责存储原始日志数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LogIndexNode",
+      "predicate": "支持",
+      "object": "索引搜索",
+      "context": "LogIndexNode提供搜索功能所需的数据结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "索引搜索",
+      "predicate": "基于",
+      "object": "NgramSet",
+      "context": "搜索功能使用NgramSet数据结构来实现高效索引",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NgramSet",
+      "predicate": "实现",
+      "object": "稀疏trie",
+      "context": "NgramSet是基于稀疏trie实现的64位整数空间数据结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "索引搜索",
+      "predicate": "使用",
+      "object": "Knuth-Morris-Pratt算法",
+      "context": "精确匹配搜索时使用KMP算法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde Logs",
+      "predicate": "支持",
+      "object": "日志追踪",
+      "context": "Horde提供实时日志追踪功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "日志追踪",
+      "predicate": "依赖",
+      "object": "Redis",
+      "context": "日志追踪功能使用Redis存储临时状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde日志格式",
+      "predicate": "基于",
+      "object": "JSON",
+      "context": "Horde日志采用每行一个JSON对象的格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde日志格式",
+      "predicate": "包含",
+      "object": "LogValueType",
+      "context": "日志中的特殊类型通过LogValueType定义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LogValueType",
+      "predicate": "定义",
+      "object": "Asset类型",
+      "context": "LogValueType定义了资产路径的特殊类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LogValueType",
+      "predicate": "定义",
+      "object": "SourceFile类型",
+      "context": "LogValueType定义了源代码文件的特殊类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde Logs",
+      "predicate": "优化",
+      "object": "CI系统日志处理",
+      "context": "Horde Logs专门为解决CI系统中大型日志文件处理问题而设计",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde Logs",
+      "predicate": "支持",
+      "object": "上下文感知功能",
+      "context": "Horde Logs可以将日志事件与构建健康问题、Perforce历史等关联",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:20:57.382Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7932,
+    "contentLength": 7820,
+    "processingTimeMs": 62667
+  }
+}

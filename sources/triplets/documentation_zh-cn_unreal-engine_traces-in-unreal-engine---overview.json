@@ -1,0 +1,149 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_traces-in-unreal-engine---overview",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_traces-in-unreal-engine---overview.md",
+  "triples": [
+    {
+      "subject": "追踪",
+      "predicate": "等同于",
+      "object": "光线投射",
+      "context": "追踪在虚幻引擎中的功能与其他软件中的光线投射或光线追踪相同，帮助学习者理解其基本原理和应用场景",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "追踪",
+      "predicate": "用于",
+      "object": "物理系统",
+      "context": "追踪使用物理系统来检测线段上的碰撞，帮助学习者理解追踪的技术实现基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "追踪",
+      "predicate": "支持",
+      "object": "按信道追踪",
+      "context": "追踪可以根据信道进行设置，适用于可视性和摄像机等特定场景，帮助学习者掌握追踪的多样化应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "追踪",
+      "predicate": "支持",
+      "object": "按对象类型追踪",
+      "context": "追踪可以根据对象类型进行设置，适用于Pawn、载具等特定Actor类型，帮助学习者理解追踪的灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "按信道追踪",
+      "predicate": "区别于",
+      "object": "按对象类型追踪",
+      "context": "按信道追踪和按对象类型追踪在返回结果和应用场景上有所不同，帮助学习者区分两者的使用场景",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "追踪",
+      "predicate": "返回",
+      "object": "命中结果",
+      "context": "追踪命中后会返回包含详细信息的命中结果结构体，帮助学习者理解如何获取和处理追踪结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "命中结果",
+      "predicate": "包含",
+      "object": "阻挡命中",
+      "context": "命中结果结构体包含阻挡命中信息，帮助学习者理解如何判断碰撞是否阻挡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "命中结果",
+      "predicate": "包含",
+      "object": "物理材质",
+      "context": "命中结果结构体包含物理材质信息，帮助学习者理解如何获取碰撞表面的物理属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "追踪",
+      "predicate": "支持",
+      "object": "形状追踪",
+      "context": "追踪不仅限于线迹追踪，还支持盒体、胶囊体和球体等形状追踪，帮助学习者扩展追踪的应用范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "形状追踪",
+      "predicate": "包括",
+      "object": "盒体追踪",
+      "context": "形状追踪包括盒体追踪，适用于需要检测体积内碰撞的场景，帮助学习者选择合适的追踪类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "形状追踪",
+      "predicate": "包括",
+      "object": "胶囊体追踪",
+      "context": "形状追踪包括胶囊体追踪，适用于需要检测圆柱形区域内碰撞的场景，帮助学习者选择合适的追踪类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "形状追踪",
+      "predicate": "包括",
+      "object": "球体追踪",
+      "context": "形状追踪包括球体追踪，适用于需要检测球形区域内碰撞的场景，帮助学习者选择合适的追踪类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "追踪",
+      "predicate": "支持",
+      "object": "获取UV坐标",
+      "context": "追踪可以返回命中Actor的UV坐标，帮助学习者理解如何在追踪中获取纹理坐标信息",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "获取UV坐标",
+      "predicate": "依赖",
+      "object": "Trace Complex",
+      "context": "获取UV坐标功能需要启用Trace Complex，帮助学习者理解功能依赖条件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "获取UV坐标",
+      "predicate": "适用于",
+      "object": "静态网格体组件",
+      "context": "获取UV坐标功能在静态网格体组件上有效，帮助学习者理解功能适用范围",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "获取UV坐标",
+      "predicate": "不适用于",
+      "object": "骨架网格体组件",
+      "context": "获取UV坐标功能在骨架网格体组件上无效，帮助学习者避免错误使用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "追踪",
+      "predicate": "支持",
+      "object": "调试功能",
+      "context": "追踪提供调试功能，如可视化追踪线条和命中框，帮助学习者调试和验证追踪结果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:03:09.762Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9660,
+    "contentLength": 5883,
+    "processingTimeMs": 48438
+  }
+}

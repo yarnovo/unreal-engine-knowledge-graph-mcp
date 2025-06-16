@@ -1,0 +1,149 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_recording-animation-using-take-recorder-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_recording-animation-using-take-recorder-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Take Recorder",
+      "predicate": "用于",
+      "object": "录制动画",
+      "context": "Take Recorder是虚幻引擎中专门用于录制动画的工具，帮助学习者理解其核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Recorder",
+      "predicate": "支持",
+      "object": "视口Actor操控录制",
+      "context": "文档明确说明Take Recorder可以录制视口中的Actor操控，这是其核心功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Recorder",
+      "predicate": "支持",
+      "object": "物理模拟录制",
+      "context": "Take Recorder可以捕获物理模拟作为动画数据，扩展了其应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Recorder",
+      "predicate": "支持",
+      "object": "Gameplay录制",
+      "context": "Take Recorder能够录制Gameplay操作如玩家移动和动画，这是游戏开发中的重要功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Recorder",
+      "predicate": "生成",
+      "object": "Sequencer序列",
+      "context": "Take Recorder录制的动画会在Sequencer中生成序列，这是工作流程的关键环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视口",
+      "predicate": "用于",
+      "object": "Actor操控",
+      "context": "视口是用户与Actor交互的主要界面，理解视口功能对动画录制至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "源列表",
+      "predicate": "包含",
+      "object": "录制对象",
+      "context": "源列表是Take Recorder中管理录制对象的容器，理解其作用有助于掌握录制流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可生成对象Actor",
+      "predicate": "替代",
+      "object": "原始Actor",
+      "context": "录制时可选择生成新Actor替代原始Actor，这是动画录制的重要选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "录制到可持有对象",
+      "predicate": "控制",
+      "object": "Actor录制类型",
+      "context": "该属性决定是录制到新Actor还是原始Actor，影响录制结果的表现形式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模拟物理",
+      "predicate": "生成",
+      "object": "物理动画",
+      "context": "启用物理模拟可以产生基于物理的动画效果，这是录制物理动画的前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "倒计时设置",
+      "predicate": "影响",
+      "object": "物理录制时机",
+      "context": "调整倒计时设置可以精确控制物理录制的开始时间，这对捕捉瞬间物理效果很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家Actor",
+      "predicate": "用于",
+      "object": "Gameplay录制",
+      "context": "玩家Actor是录制Gameplay操作的主要对象，理解这个概念对游戏动画录制很关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在编辑器中播放",
+      "predicate": "前置",
+      "object": "Gameplay录制",
+      "context": "开始PIE会话是录制Gameplay的前提步骤，理解这个工作流程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "用于",
+      "object": "预览录制动画",
+      "context": "Sequencer是查看和编辑录制动画的主要工具，这是工作流程的最后环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Recorder",
+      "predicate": "依赖",
+      "object": "用户/项目设置",
+      "context": "Take Recorder的行为可以通过用户和项目设置进行配置，理解这些设置对掌握工具很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "物理模拟录制",
+      "predicate": "需要",
+      "object": "精确时机控制",
+      "context": "相比其他录制类型，物理模拟录制对时机控制要求更高，这是其特殊之处",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Gameplay录制",
+      "predicate": "包含",
+      "object": "玩家移动和动画",
+      "context": "Gameplay录制主要捕获玩家的移动和动画数据，明确其录制内容有助于针对性使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:34:37.769Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6809,
+    "contentLength": 4865,
+    "processingTimeMs": 49676
+  }
+}

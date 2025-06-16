@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_pawn-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_pawn-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Pawn",
+      "predicate": "是基类",
+      "object": "Actor",
+      "context": "Pawn是所有由玩家或AI控制的Actor的基类，理解这一关系有助于掌握游戏实体的继承体系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Character",
+      "predicate": "继承自",
+      "object": "Pawn",
+      "context": "Character是一种特殊的Pawn，具有行走能力，这一关系对理解角色移动系统很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Controller",
+      "predicate": "控制",
+      "object": "Pawn",
+      "context": "控制器与Pawn之间是一对一控制关系，这是游戏控制逻辑的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DefaultPawn",
+      "predicate": "继承自",
+      "object": "Pawn",
+      "context": "DefaultPawn是Pawn的子类，提供了额外组件和功能，这是基础Pawn功能的扩展",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DefaultPawn",
+      "predicate": "包含",
+      "object": "DefaultPawnMovementComponent",
+      "context": "DefaultPawn原生包含移动组件，这是理解其移动能力的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DefaultPawn",
+      "predicate": "包含",
+      "object": "CollisionComponent",
+      "context": "球形碰撞组件是DefaultPawn的标准组成部分，影响物理交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DefaultPawn",
+      "predicate": "包含",
+      "object": "StaticMeshComponent",
+      "context": "静态网格组件提供DefaultPawn的视觉表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DefaultPawnMovementComponent",
+      "predicate": "具有属性",
+      "object": "MaxSpeed",
+      "context": "移动速度是移动组件的重要参数，影响游戏体验设计",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SpectatorPawn",
+      "predicate": "继承自",
+      "object": "DefaultPawn",
+      "context": "观察者Pawn是DefaultPawn的特殊化，用于实现观看功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SpectatorPawn",
+      "predicate": "使用",
+      "object": "SpectatorPawnMovementComponent",
+      "context": "特殊的移动组件处理观察者的移动逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GameMode",
+      "predicate": "指定",
+      "object": "SpectatorPawn",
+      "context": "游戏模式可以配置观察者Pawn类，这是游戏规则设置的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "SetActorLocation",
+      "predicate": "用于",
+      "object": "Pawn移动",
+      "context": "这是蓝图中最常用的Pawn移动方法，对游戏编程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pawn",
+      "predicate": "代表",
+      "object": "玩家实体",
+      "context": "理解Pawn作为玩家在游戏世界中的物理表现这一核心概念",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DefaultPawnMovementComponent",
+      "predicate": "实现",
+      "object": "无重力飞行",
+      "context": "这是DefaultPawn的默认移动方式，影响游戏物理设计",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SpectatorPawnMovementComponent",
+      "predicate": "处理",
+      "object": "时间膨胀",
+      "context": "观察者移动组件需要特殊处理时间膨胀效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:21:49.891Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4443,
+    "contentLength": 3061,
+    "processingTimeMs": 48658
+  }
+}

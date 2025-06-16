@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_material-data-types-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_material-data-types-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "材质编辑器",
+      "predicate": "包含",
+      "object": "数据类型",
+      "context": "材质编辑器中的数据类型决定了如何表示和操作数据，是材质创建的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主材质节点",
+      "predicate": "接受",
+      "object": "数据类型",
+      "context": "主材质节点的输入需要特定类型的数据来定义材质的物理属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "浮点",
+      "predicate": "是",
+      "object": "数据类型",
+      "context": "浮点是材质编辑器中最基本的数据类型，存储单一数值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "常量材质表达式",
+      "predicate": "存储",
+      "object": "浮点",
+      "context": "常量材质表达式节点用于存储单个常量浮点值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "标量参数",
+      "predicate": "存储",
+      "object": "浮点",
+      "context": "标量参数也存储浮点值，但可以在材质实例中修改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "金属感",
+      "predicate": "接受",
+      "object": "浮点",
+      "context": "金属感输入接受0到1之间的浮点值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粗糙度",
+      "predicate": "接受",
+      "object": "浮点",
+      "context": "粗糙度输入接受0到1之间的浮点值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高光度",
+      "predicate": "接受",
+      "object": "浮点",
+      "context": "高光度输入接受0到1之间的浮点值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Float2",
+      "predicate": "存储",
+      "object": "两个浮点值",
+      "context": "Float2存储两个不连续的浮点值，如(1.0, 0.5)",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "常量2Vector",
+      "predicate": "定义",
+      "object": "Float2",
+      "context": "常量2Vector材质表达式用于定义Float2",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Float3",
+      "predicate": "存储",
+      "object": "三个浮点值",
+      "context": "Float3存储三个数字值，常用于定义颜色或3D坐标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Constant3Vector",
+      "predicate": "定义",
+      "object": "Float3",
+      "context": "Constant3Vector节点用于定义Float3",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基础颜色",
+      "predicate": "接受",
+      "object": "Float3",
+      "context": "基础颜色输入接受Float3值来定义颜色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界位置偏移",
+      "predicate": "接受",
+      "object": "Float3",
+      "context": "世界位置偏移输入接受三个值来定义材质在世界空间中的偏移",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Float4",
+      "predicate": "存储",
+      "object": "四个浮点值",
+      "context": "Float4存储四个浮点值，常用于带alpha通道的颜色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Constant4Vector",
+      "predicate": "定义",
+      "object": "Float4",
+      "context": "Constant4Vector用于定义Float4，常用于表示RGBA颜色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "向量参数",
+      "predicate": "存储",
+      "object": "Float4",
+      "context": "向量参数是参数化的Float4，常用于创建颜色参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质实例",
+      "predicate": "修改",
+      "object": "向量参数",
+      "context": "美术师可以在材质实例中修改向量参数的值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据类型",
+      "predicate": "可转换",
+      "object": "其他数据类型",
+      "context": "数据类型可以相互转换，如将两个浮点数合并成Float2",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质图表",
+      "predicate": "操作",
+      "object": "数据类型",
+      "context": "在材质图表中可以对数据类型进行各种操作和运算",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:51:02.244Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9569 字符)",
+      "timestamp": "2025-06-15T19:49:50.486Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14961,
+    "contentLength": 9569,
+    "processingTimeMs": 71763
+  }
+}

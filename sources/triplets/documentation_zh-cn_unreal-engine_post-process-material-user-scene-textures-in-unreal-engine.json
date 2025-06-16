@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_post-process-material-user-scene-textures-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_post-process-material-user-scene-textures-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "User Scene Textures",
+      "predicate": "用于",
+      "object": "Post Process Materials",
+      "context": "User Scene Textures是用户定义的临时渲染目标，可以在后处理材质中读写，支持多通道后处理效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Downsample Material",
+      "predicate": "生成",
+      "object": "HalfA User Scene Texture",
+      "context": "Downsample Material用于创建降采样的用户场景纹理，作为后续模糊处理的输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BlurHoriz Material",
+      "predicate": "实现",
+      "object": "水平高斯模糊",
+      "context": "BlurHoriz Material通过自定义HLSL代码实现水平方向的高斯模糊效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BlurVert Material",
+      "predicate": "实现",
+      "object": "垂直高斯模糊",
+      "context": "BlurVert Material通过修改BlurHoriz的HLSL代码实现垂直方向的高斯模糊",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HalfA Material Instance",
+      "predicate": "依赖",
+      "object": "SceneColor",
+      "context": "HalfA Material Instance使用SceneColor作为输入源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HalfB Material Instance",
+      "predicate": "依赖",
+      "object": "HalfA User Scene Texture",
+      "context": "HalfB Material Instance使用HalfA的输出作为输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TripleBilinearLerp Material Function",
+      "predicate": "组合",
+      "object": "多级模糊纹理",
+      "context": "该函数通过插值组合不同分辨率的模糊纹理，实现可变模糊效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BlurApply Material",
+      "predicate": "使用",
+      "object": "TripleBilinearLerp Material Function",
+      "context": "最终应用材质使用该函数混合不同模糊程度的纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Post Process Volume",
+      "predicate": "包含",
+      "object": "多级后处理材质链",
+      "context": "后处理体积按特定顺序包含所有后处理材质实例，形成完整效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Disable Pre Exposure Scale",
+      "predicate": "推荐用于",
+      "object": "User Scene Textures和自定义HLSL",
+      "context": "该设置可以简化自定义HLSL代码并提高性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "User Texture Divisor",
+      "predicate": "控制",
+      "object": "降采样比例",
+      "context": "该参数决定纹理降采样的程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blendable Priority",
+      "predicate": "影响",
+      "object": "材质执行顺序",
+      "context": "设置优先级确保材质按正确顺序执行，解决依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "r.PostProcessing.UserSceneTextureDebug",
+      "predicate": "用于",
+      "object": "调试User Scene Textures",
+      "context": "该控制台命令可显示User Scene Textures的输入输出关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可变模糊效果",
+      "predicate": "基于",
+      "object": "多级模糊纹理插值",
+      "context": "通过在不同屏幕区域混合不同模糊程度的纹理实现可变效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Screen Position节点",
+      "predicate": "用于",
+      "object": "控制模糊区域分布",
+      "context": "结合数学运算控制模糊效果在屏幕上的分布",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "调试颜色",
+      "predicate": "可视化",
+      "object": "模糊区域分布",
+      "context": "通过为不同模糊级别添加颜色便于调试效果分布",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "两通道可分离高斯模糊",
+      "predicate": "比",
+      "object": "单通道模糊更高效",
+      "context": "文档指出这种方法比单通道模糊效率更高",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Material Domain",
+      "predicate": "设置为",
+      "object": "Post Process",
+      "context": "所有相关材质都需要设置为后处理域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blendable Location",
+      "predicate": "设置为",
+      "object": "Scene Color Before Bloom",
+      "context": "指定材质在渲染管线中的执行位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PostProcessInput0",
+      "predicate": "等同于",
+      "object": "SceneColor",
+      "context": "在后处理材质中，这两个标识符指向相同的输入",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:26:50.972Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (138848 字符)",
+      "timestamp": "2025-06-15T20:25:44.965Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 139072,
+    "contentLength": 138848,
+    "processingTimeMs": 66021
+  }
+}

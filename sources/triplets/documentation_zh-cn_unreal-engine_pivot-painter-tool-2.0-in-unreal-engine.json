@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_pivot-painter-tool-2.0-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_pivot-painter-tool-2.0-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "枢轴点绘制器2.0",
+      "predicate": "存储",
+      "object": "枢轴点和旋转信息",
+      "context": "枢轴点绘制器2.0通过MAXScript将枢轴点和旋转信息存储在模型的纹理中，这些信息随后可以在Unreal的着色器系统中引用，用于创建交互效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "枢轴点绘制器2.0",
+      "predicate": "生成",
+      "object": "动作继承信息",
+      "context": "枢轴点绘制器材质函数为模型的每个树叶和树枝生成动作继承信息，用于实现流畅且真实的动画效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "枢轴点绘制器2.0",
+      "predicate": "支持",
+      "object": "层级和模型元素",
+      "context": "枢轴点绘制器2.0支持深达4层的层级和30,000个模型元素，适用于复杂植物的动画处理。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "枢轴点绘制器2.0",
+      "predicate": "优于",
+      "object": "骨架动画",
+      "context": "使用枢轴点绘制器2.0处理的模型在动画成本上远低于骨架动画，因为动画是实时计算的。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "枢轴点绘制器2.0",
+      "predicate": "依赖",
+      "object": "3D Studio Max",
+      "context": "枢轴点绘制器2.0需要在3D Studio Max中使用脚本处理网格体，然后导入到Unreal Engine中。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "枢轴点绘制器2.0",
+      "predicate": "扩展",
+      "object": "枢轴点绘制器1.0",
+      "context": "枢轴点绘制器2.0在1.0版本的基础上进行了改进和扩展，提供了更多的功能和更好的效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "枢轴点绘制器2.0",
+      "predicate": "使用",
+      "object": "纹理坐标控制",
+      "context": "枢轴点绘制器2.0允许控制写入的UV集，便于与其他系统（如顶点动画工具）结合使用。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "枢轴点绘制器2.0",
+      "predicate": "支持",
+      "object": "新渲染选项",
+      "context": "枢轴点绘制器2.0引入了新的渲染选项，如16位RGB和Alpha通道，用于存储更多信息。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "枢轴点绘制器2.0",
+      "predicate": "需要",
+      "object": "3ds Max单位设置",
+      "context": "使用枢轴点绘制器2.0前，需要确保3ds Max的单位设置为厘米，以匹配Unreal Engine的默认单位。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "枢轴点绘制器2.0",
+      "predicate": "生成",
+      "object": "纹理",
+      "context": "枢轴点绘制器2.0生成的纹理需要特定的导入设置，如禁用MipMaps和sRGB，以确保正确使用。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "枢轴点绘制器2.0",
+      "predicate": "用于",
+      "object": "编写着色器",
+      "context": "枢轴点绘制器2.0生成的纹理信息可以用于编写自定义着色器，实现复杂的动画效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "枢轴点绘制器2.0",
+      "predicate": "提供",
+      "object": "PivotPainter2FoliageShader",
+      "context": "枢轴点绘制器2.0提供了PivotPainter2FoliageShader材质函数，简化了植物动画的实现过程。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PivotPainter2FoliageShader",
+      "predicate": "依赖",
+      "object": "风吹设置",
+      "context": "PivotPainter2FoliageShader材质函数依赖风吹设置来控制不同层级深度的动画效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PivotPainter2FoliageShader",
+      "predicate": "优化",
+      "object": "材质实例",
+      "context": "通过禁用不需要的风吹设置群组，可以优化PivotPainter2FoliageShader的性能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "枢轴点绘制器2.0",
+      "predicate": "适用于",
+      "object": "复杂植物动画",
+      "context": "枢轴点绘制器2.0特别适用于复杂植物的动画处理，如树木和草地。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "枢轴点绘制器2.0",
+      "predicate": "需要",
+      "object": "重新创建边界框",
+      "context": "在使用枢轴点绘制器2.0时，可能需要重新创建边界框以确保数据收集的准确性。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "枢轴点绘制器2.0",
+      "predicate": "解决",
+      "object": "法线接缝问题",
+      "context": "枢轴点绘制器2.0提供了合并所选模型法线的功能，用于解决法线接缝问题。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "枢轴点绘制器2.0",
+      "predicate": "支持",
+      "object": "单个和链接元素",
+      "context": "枢轴点绘制器2.0支持对单个元素和链接元素进行处理，适用于不同类型的模型。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "枢轴点绘制器2.0",
+      "predicate": "提供",
+      "object": "故障排除建议",
+      "context": "文档提供了针对枢轴点绘制器2.0使用过程中可能出现问题的故障排除建议。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:24:34.510Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15066 字符)",
+      "timestamp": "2025-06-15T20:23:22.159Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 25310,
+    "contentLength": 15066,
+    "processingTimeMs": 72354
+  }
+}

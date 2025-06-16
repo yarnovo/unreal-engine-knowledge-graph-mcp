@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_hardware-and-software-requirements-for-wine-containers-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_hardware-and-software-requirements-for-wine-containers-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Wine容器",
+      "predicate": "运行于",
+      "object": "Linux容器",
+      "context": "Wine容器可以在Linux容器环境中运行，帮助学习者理解容器化技术的跨平台特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Wine容器",
+      "predicate": "需要",
+      "object": "硬件虚拟化支持",
+      "context": "运行Wine容器需要硬件虚拟化支持，这是理解容器技术底层依赖的重要知识点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Wine容器",
+      "predicate": "需要",
+      "object": "SLAT支持",
+      "context": "运行Wine容器需要CPU支持二级地址转换(SLAT)，这是硬件要求的关键概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Wine容器",
+      "predicate": "需要",
+      "object": "Docker",
+      "context": "构建和运行Wine容器需要Docker工具，这是容器化开发的核心工具链",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Docker",
+      "predicate": "有不同版本",
+      "object": "操作系统平台",
+      "context": "Docker在不同操作系统上有不同版本(Desktop/Engine)，帮助学习者理解跨平台开发工具差异",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Windows平台",
+      "predicate": "需要",
+      "object": "Docker Desktop",
+      "context": "在Windows上运行Wine容器需要Docker Desktop，这是Windows平台特定的依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "macOS平台",
+      "predicate": "需要",
+      "object": "Docker Desktop",
+      "context": "在macOS上运行Wine容器需要Docker Desktop，这是macOS平台特定的依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Linux平台",
+      "predicate": "需要",
+      "object": "Docker Engine",
+      "context": "在Linux上运行Wine容器需要Docker Engine，这是Linux平台特定的依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Linux容器",
+      "predicate": "支持",
+      "object": "多种发行版",
+      "context": "Linux容器支持多种Linux发行版，帮助学习者理解容器技术的兼容性范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Wine容器",
+      "predicate": "需要",
+      "object": "最低4GB内存",
+      "context": "运行Wine容器有最低内存要求，这是性能调优的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Docker安装",
+      "predicate": "依赖",
+      "object": "操作系统版本",
+      "context": "Docker安装对操作系统版本有特定要求，这是环境配置的重要前置知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "Wine容器",
+      "context": "虚幻引擎支持通过Wine容器运行，这是跨平台开发的重要能力",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:18:10.636Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4067,
+    "contentLength": 3179,
+    "processingTimeMs": 43167
+  }
+}

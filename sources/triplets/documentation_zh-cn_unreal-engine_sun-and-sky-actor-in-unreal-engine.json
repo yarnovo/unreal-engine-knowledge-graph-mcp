@@ -1,0 +1,163 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_sun-and-sky-actor-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_sun-and-sky-actor-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "太阳位置计算器插件",
+      "predicate": "包含",
+      "object": "SunSky Actor",
+      "context": "SunSky Actor是太阳位置计算器插件的一部分，用于控制太阳在天空中的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SunSky Actor",
+      "predicate": "包含",
+      "object": "定向光源",
+      "context": "SunSky Actor包含定向光源组件，用于产生逼真的阳光和阴影",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SunSky Actor",
+      "predicate": "包含",
+      "object": "天空光照",
+      "context": "SunSky Actor包含天空光照组件，用于模拟天空的光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SunSky Actor",
+      "predicate": "包含",
+      "object": "SkyAtmosphere",
+      "context": "SunSky Actor包含SkyAtmosphere组件，用于模拟大气效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SunSky Actor",
+      "predicate": "用于",
+      "object": "建筑可视化",
+      "context": "SunSky Actor常用于建筑可视化项目，用于模拟真实的光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "SunSky Actor",
+      "predicate": "用于",
+      "object": "汽车设计",
+      "context": "SunSky Actor也可用于汽车设计行业，模拟真实的光照环境",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "SunSky Actor",
+      "predicate": "支持",
+      "object": "光线追踪",
+      "context": "SunSky Actor的定向光源和天空光照默认支持光线追踪功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SunSky Actor",
+      "predicate": "依赖",
+      "object": "太阳位置计算器插件",
+      "context": "SunSky Actor依赖太阳位置计算器插件来启用和运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "建筑可视化模板",
+      "predicate": "包含",
+      "object": "SunSky Actor",
+      "context": "建筑可视化模板默认包含SunSky Actor，用于演示物理准确的光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "建筑可视化模板",
+      "predicate": "支持",
+      "object": "Datasmith插件",
+      "context": "建筑可视化模板支持Datasmith插件，用于导入3D场景和资源",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "SunSky Actor",
+      "predicate": "控制",
+      "object": "太阳位置",
+      "context": "SunSky Actor通过数学方程控制太阳在天空中的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SunSky Actor",
+      "predicate": "设置",
+      "object": "日期和时间",
+      "context": "SunSky Actor可以设置日期、时间和地理位置，以模拟不同时间的光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SunSky Actor",
+      "predicate": "替换",
+      "object": "定向光源",
+      "context": "使用SunSky Actor时，建议删除已有的定向光源以避免冲突",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "SunSky Actor",
+      "predicate": "替换",
+      "object": "天空光照",
+      "context": "使用SunSky Actor时，建议删除已有的天空光照以避免冲突",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "SunSky Actor",
+      "predicate": "替换",
+      "object": "SkyAtmosphere",
+      "context": "使用SunSky Actor时，建议删除已有的SkyAtmosphere以避免冲突",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "自动曝光设置",
+      "predicate": "影响",
+      "object": "SunSky Actor",
+      "context": "启用自动曝光设置中的延伸默认亮度范围可以正确显示SunSky Actor",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "SunSky Actor",
+      "predicate": "用于",
+      "object": "动态时间转换",
+      "context": "SunSky Actor可以用于动态时间转换，模拟不同时间的光照变化",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "SunSky Actor",
+      "predicate": "支持",
+      "object": "实时采集模式",
+      "context": "SunSky Actor的天空光照组件默认启用实时采集模式，用于捕获SkyAtmosphere等效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:56:31.897Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8799 字符)",
+      "timestamp": "2025-06-15T20:55:43.559Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13062,
+    "contentLength": 8799,
+    "processingTimeMs": 48347
+  }
+}

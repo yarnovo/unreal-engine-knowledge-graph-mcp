@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_creating-a-fence-generator-using-shape-grammar-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_creating-a-fence-generator-using-shape-grammar-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "形状语法",
+      "predicate": "用于",
+      "object": "栅栏生成器",
+      "context": "形状语法是栅栏生成器的核心技术，用于定义栅栏的生成规则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "栅栏生成器",
+      "predicate": "基于",
+      "object": "程序化内容生成框架(PCG)",
+      "context": "栅栏生成器是PCG框架的具体应用实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PCG图表",
+      "predicate": "包含",
+      "object": "语法参数",
+      "context": "PCG图表通过语法参数存储形状语法规则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FenceSpline蓝图",
+      "predicate": "包含",
+      "object": "PCG组件",
+      "context": "FenceSpline蓝图需要PCG组件来执行生成逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FenceSpline蓝图",
+      "predicate": "包含",
+      "object": "样条线组件",
+      "context": "样条线组件定义了栅栏的生成路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Subdivide Spline节点",
+      "predicate": "处理",
+      "object": "语法规则",
+      "context": "该节点负责解析语法规则并沿样条线分配控制点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PCG_ExtractInfo子图表",
+      "predicate": "提取",
+      "object": "网格体边界信息",
+      "context": "子图表专门用于获取网格体的尺寸和枢轴点信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Static Mesh Spawner节点",
+      "predicate": "生成",
+      "object": "最终栅栏网格体",
+      "context": "该节点根据所有处理后的数据生成实际的栅栏模型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块信息(Module Info)",
+      "predicate": "定义",
+      "object": "语法符号属性",
+      "context": "模块信息配置了语法中每个符号的具体参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体信息(Mesh Info)",
+      "predicate": "关联",
+      "object": "静态网格体资产",
+      "context": "网格体信息将语法符号与实际网格体资产关联",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "参数重载(Parameter Overrides)",
+      "predicate": "允许",
+      "object": "实例级自定义",
+      "context": "通过参数重载可以在不同实例上自定义栅栏生成规则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PCGGeometry Script Interop插件",
+      "predicate": "扩展",
+      "object": "PCG功能",
+      "context": "该插件为PCG提供了额外的几何体处理能力",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Match and Set Attributes节点",
+      "predicate": "匹配",
+      "object": "符号与网格体",
+      "context": "该节点确保语法符号正确对应到指定的网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Vector: Transform Direction节点",
+      "predicate": "调整",
+      "object": "枢轴点方向",
+      "context": "该节点确保网格体枢轴点正确对齐样条线方向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "语法规则",
+      "predicate": "控制",
+      "object": "栅栏分段分布",
+      "context": "通过修改语法字符串可以改变栅栏分段的数量和类型分布",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:39:20.849Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (18158 字符)",
+      "timestamp": "2025-06-15T18:38:17.886Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 24268,
+    "contentLength": 18158,
+    "processingTimeMs": 62973
+  }
+}

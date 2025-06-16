@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_edit-tools-user-guide-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_edit-tools-user-guide-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "破碎模式",
+      "predicate": "包含",
+      "object": "编辑工具",
+      "context": "破碎模式提供了多种编辑工具，用于处理几何体集合的破碎效果，这是学习破碎效果制作的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑工具",
+      "predicate": "包含",
+      "object": "削减工具",
+      "context": "编辑工具集中包含削减工具，用于移除不需要的骨骼，这是编辑工具的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑工具",
+      "predicate": "包含",
+      "object": "可视性工具",
+      "context": "编辑工具集中包含可视性工具，用于控制骨骼的显示/隐藏，这是编辑工具的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "削减工具",
+      "predicate": "用于",
+      "object": "移除骨骼",
+      "context": "削减工具专门用于从破碎层级中移除选中的骨骼，这是处理破碎效果的关键操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可视性工具",
+      "predicate": "用于",
+      "object": "隐藏骨骼",
+      "context": "可视性工具用于临时隐藏选中的骨骼，便于聚焦特定部分的编辑工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体集合",
+      "predicate": "前置知识",
+      "object": "破碎模式",
+      "context": "在使用破碎模式前需要先了解几何体集合的创建和基本操作，这是学习路径上的必要前置知识",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "静态网格体Actor",
+      "predicate": "转换为",
+      "object": "几何体集合",
+      "context": "几何体集合可以从静态网格体Actor创建，这是制作破碎效果的起点",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "切片工具",
+      "predicate": "用于",
+      "object": "几何体集合破碎",
+      "context": "切片工具是使几何体集合破碎的多种方法之一，展示了破碎效果的制作方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "破碎层级",
+      "predicate": "管理",
+      "object": "骨骼",
+      "context": "破碎层级用于组织和控制所有骨骼，是理解破碎效果结构的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "编辑面板",
+      "predicate": "包含",
+      "object": "编辑工具",
+      "context": "编辑工具位于编辑面板中，这是工具的组织结构信息",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T18:55:40.112Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5570,
+    "contentLength": 4210,
+    "processingTimeMs": 34791
+  }
+}

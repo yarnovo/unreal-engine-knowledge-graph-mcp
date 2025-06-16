@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-pcg-with-gpu-processing-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-pcg-with-gpu-processing-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Procedural Content Generation Framework (PCG)",
+      "predicate": "包含",
+      "object": "PCG GPU Processing",
+      "context": "PCG GPU Processing是PCG框架中的一个功能模块，用于将处理任务转移到GPU执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PCG GPU Processing",
+      "predicate": "支持",
+      "object": "Runtime Generation",
+      "context": "GPU处理适用于运行时生成任务，帮助学习者理解GPU加速的应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PCG GPU Processing",
+      "predicate": "支持",
+      "object": "static mesh spawning",
+      "context": "静态网格生成是GPU处理的高效应用场景之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Compute Graph",
+      "predicate": "组成",
+      "object": "GPU execution nodes",
+      "context": "计算图由一组连接的GPU节点组成，帮助理解GPU处理的执行单元结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Custom HLSL Node",
+      "predicate": "基于",
+      "object": "HLSL language",
+      "context": "自定义HLSL节点使用HLSL语言编写着色器代码，是高级用户扩展功能的入口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Custom HLSL Node",
+      "predicate": "包含",
+      "object": "Point Processor",
+      "context": "点处理器是自定义HLSL节点的预设内核类型之一，用于修改点数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Custom HLSL Node",
+      "predicate": "包含",
+      "object": "Point Generator",
+      "context": "点生成器是自定义HLSL节点的预设内核类型之一，用于创建点集",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Custom HLSL Node",
+      "predicate": "包含",
+      "object": "Custom kernel type",
+      "context": "自定义内核类型提供高级控制选项，帮助理解节点可扩展性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HLSL Source Editor",
+      "predicate": "用于",
+      "object": "Custom HLSL node authoring",
+      "context": "HLSL源代码编辑器是编写自定义HLSL节点的主要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Static Mesh Spawner Node",
+      "predicate": "实现",
+      "object": "Procedural Instancing",
+      "context": "静态网格生成器节点在GPU模式下使用程序化实例化技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Compute Sources",
+      "predicate": "扩展",
+      "object": "Custom HLSL node functionality",
+      "context": "计算源资产可以扩展自定义HLSL节点的功能并减少代码重复",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Generate Grass Maps",
+      "predicate": "依赖",
+      "object": "Landscape Grass Layers",
+      "context": "生成草地地图功能依赖于景观草地层的设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Virtual Textures",
+      "predicate": "用于",
+      "object": "Landscape Data sampling",
+      "context": "虚拟纹理可用于提高景观数据采样的性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PCG Graph",
+      "predicate": "包含",
+      "object": "GPU-enabled nodes",
+      "context": "PCG图中可以包含支持GPU执行的节点，这是GPU处理的工作基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Point Processor",
+      "predicate": "用于",
+      "object": "modifying points",
+      "context": "点处理器内核专门用于修改点数据，帮助理解不同内核的用途差异",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Point Generator",
+      "predicate": "用于",
+      "object": "creating points",
+      "context": "点生成器内核专门用于创建点集，与点处理器形成对比学习",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Data Labels",
+      "predicate": "用于",
+      "object": "referencing data in HLSL",
+      "context": "数据标签系统帮助在HLSL代码中引用数据，是重要的数据访问机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Debug Display",
+      "predicate": "用于",
+      "object": "inspecting GPU node data",
+      "context": "调试显示功能帮助检查GPU节点数据流，是重要的调试工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Virtual Texture Priming",
+      "predicate": "前置",
+      "object": "Virtual Texture sampling",
+      "context": "虚拟纹理预加载是确保采样准确性的必要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PCG GPU Processing",
+      "predicate": "替代",
+      "object": "CPU execution",
+      "context": "GPU处理可以替代某些CPU执行任务，但需要考虑数据传输成本",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:21:49.584Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (31843 字符)",
+      "timestamp": "2025-06-15T21:20:54.781Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 32261,
+    "contentLength": 31843,
+    "processingTimeMs": 54815
+  }
+}

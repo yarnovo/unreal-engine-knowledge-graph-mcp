@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_screenshot-comparison-tool-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_screenshot-comparison-tool-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "屏幕截图比较工具",
+      "predicate": "用于",
+      "object": "渲染错误检测",
+      "context": "屏幕截图比较工具的主要功能是帮助识别不同构建版本中的渲染错误",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "功能性屏幕截图测试Actor",
+      "predicate": "属于",
+      "object": "屏幕截图捕获方法",
+      "context": "功能性屏幕截图测试Actor是实现屏幕截图捕获的主要方法之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "功能性屏幕截图测试Actor",
+      "predicate": "使用",
+      "object": "摄像机捕获",
+      "context": "功能性屏幕截图测试Actor通过摄像机捕获屏幕截图，可以共享后期处理和摄像机设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "功能性UI屏幕截图测试Actor",
+      "predicate": "扩展",
+      "object": "功能性屏幕截图测试Actor",
+      "context": "功能性UI屏幕截图测试Actor是功能性屏幕截图测试Actor的特化版本，专门用于捕获UI截图",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "编辑器首选项",
+      "predicate": "控制",
+      "object": "默认屏幕截图分辨率",
+      "context": "编辑器首选项中可以设置所有功能性屏幕截图测试Actor的默认分辨率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕截图浏览器",
+      "predicate": "显示",
+      "object": "屏幕截图比较结果",
+      "context": "屏幕截图浏览器是查看和管理屏幕截图比较结果的主要界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基准截图",
+      "predicate": "作为",
+      "object": "比较标准",
+      "context": "基准截图是已知正确的版本，用于与后续截图进行比较",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕截图比较视图",
+      "predicate": "提供",
+      "object": "差异可视化",
+      "context": "屏幕截图比较视图通过滑块等方式直观展示基准截图与传入截图的差异",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "功能性测试",
+      "predicate": "包含",
+      "object": "屏幕截图捕获",
+      "context": "可以在功能性测试中集成屏幕截图捕获功能，实现更复杂的测试场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "屏幕截图工作流",
+      "predicate": "包含",
+      "object": "基准截图批准",
+      "context": "屏幕截图工作流中的重要步骤包括初始基准截图的批准过程",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "容差设置",
+      "predicate": "影响",
+      "object": "屏幕截图比较结果",
+      "context": "容差设置决定了屏幕截图比较时允许的差异程度，直接影响测试结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "会话前端",
+      "predicate": "包含",
+      "object": "屏幕截图浏览器",
+      "context": "屏幕截图浏览器需要通过会话前端访问，是开发者工具的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "源代码控制",
+      "predicate": "管理",
+      "object": "基准截图版本",
+      "context": "源代码控制系统用于管理基准截图的版本和变更历史",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "屏幕截图比较工具",
+      "predicate": "支持",
+      "object": "自动化测试",
+      "context": "屏幕截图比较工具是自动化测试流程中的重要组成部分",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "禁用产生噪点的渲染功能",
+      "predicate": "提高",
+      "object": "比较准确性",
+      "context": "禁用抗锯齿等噪点渲染功能可以减少无关差异，提高比较的准确性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:40:27.937Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11166 字符)",
+      "timestamp": "2025-06-15T20:39:43.130Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17936,
+    "contentLength": 11166,
+    "processingTimeMs": 44812
+  }
+}

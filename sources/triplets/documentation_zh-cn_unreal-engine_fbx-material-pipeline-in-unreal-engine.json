@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_fbx-material-pipeline-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_fbx-material-pipeline-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "FBX材质管道",
+      "predicate": "支持",
+      "object": "基本材质",
+      "context": "FBX材质管道仅支持导入基本材质，帮助学习者理解其功能限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX材质管道",
+      "predicate": "传输",
+      "object": "材质和纹理",
+      "context": "FBX管道将应用于网格体的材质和纹理从3D应用程序传输到虚幻引擎，是学习材质导入的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX材质管道",
+      "predicate": "简化",
+      "object": "网格体导入流程",
+      "context": "FBX管道简化了网格体导入流程，自动完成过去需要人工完成的复杂流程，对学习工作流优化很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX材质管道",
+      "predicate": "使用",
+      "object": "FBX 2020.2",
+      "context": "了解FBX版本兼容性对避免导入问题很关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX材质管道",
+      "predicate": "支持",
+      "object": "多种材质",
+      "context": "支持处理包含多个材质的网格体导入，是复杂材质管理的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Maya",
+      "predicate": "处理方式不同于",
+      "object": "3dsMax",
+      "context": "Maya和3dsMax处理多种材质的方式不同，理解差异对跨软件工作很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Multi/Sub-Object材质",
+      "predicate": "用于",
+      "object": "3dsMax多材质处理",
+      "context": "3dsMax通过Multi/Sub-Object材质处理多个材质，这是3dsMax特有的工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质命名",
+      "predicate": "来源于",
+      "object": "3D应用程序",
+      "context": "材质名称来源于3D应用程序，Maya和3dsMax的命名规则不同，影响资产组织",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质插槽",
+      "predicate": "对应",
+      "object": "网格体多边形",
+      "context": "每个材质插槽对应网格体的特定多边形，理解这种映射关系对材质分配很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质顺序",
+      "predicate": "不再需要",
+      "object": "Skin##命名约定",
+      "context": "4.14版本后不再需要Skin##命名约定，了解版本变化对工作流程的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插槽名称",
+      "predicate": "匹配",
+      "object": "材质名称",
+      "context": "插槽名称匹配材质名称，这是重新导入时材质正确匹配的关键机制",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "按名称设置材质",
+      "predicate": "优于",
+      "object": "硬编码元素索引",
+      "context": "按名称设置材质比硬编码索引更可靠，是良好的编程实践",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理导入",
+      "predicate": "依赖",
+      "object": "FBX导入属性设置",
+      "context": "纹理导入需要启用FBX导入属性中的'导入纹理'选项，是常见问题的排查点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理取样表达式",
+      "predicate": "自动创建于",
+      "object": "新材质",
+      "context": "导入纹理时会自动创建纹理取样表达式，理解自动化流程可提高工作效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "不兼容纹理格式",
+      "predicate": "导致",
+      "object": "纹理无法导入",
+      "context": "了解纹理格式兼容性问题可避免导入失败",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:04:49.787Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9026,
+    "contentLength": 5636,
+    "processingTimeMs": 49999
+  }
+}

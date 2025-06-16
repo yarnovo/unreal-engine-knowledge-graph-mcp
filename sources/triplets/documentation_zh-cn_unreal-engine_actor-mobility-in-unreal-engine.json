@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_actor-mobility-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_actor-mobility-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Actor移动性",
+      "predicate": "控制",
+      "object": "Actor移动和变化",
+      "context": "移动性设置决定了Actor在Gameplay期间的行为方式，是理解Actor动态特性的基础概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor移动性",
+      "predicate": "适用于",
+      "object": "静态网格Actor和光源Actor",
+      "context": "移动性设置主要影响这两类Actor的行为表现，是学习光照和网格交互的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态移动性",
+      "predicate": "用于",
+      "object": "永不移动的Actor",
+      "context": "静态移动性是优化性能的关键设置，适用于场景中固定的结构元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格Actor",
+      "predicate": "使用",
+      "object": "预计算光照贴图",
+      "context": "静态网格Actor的阴影参与光照贴图计算，是理解静态光照的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态光源",
+      "predicate": "生成",
+      "object": "预计算光照贴图",
+      "context": "静态光源与Lightmass的交互方式，是学习全局光照的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "固定移动性",
+      "predicate": "允许",
+      "object": "属性变化但不移动",
+      "context": "固定移动性提供了静态和可移动之间的折衷方案，理解它对性能优化很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "固定光源",
+      "predicate": "支持",
+      "object": "动态阴影",
+      "context": "固定光源既能使用预计算光照又能投射动态阴影，是混合光照方案的核心",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可移动移动性",
+      "predicate": "用于",
+      "object": "需要动态变化的Actor",
+      "context": "可移动性是实现交互式元素的基础，理解它对Gameplay编程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可移动静态网格体",
+      "predicate": "投射",
+      "object": "完全动态阴影",
+      "context": "可移动网格体的阴影处理方式直接影响渲染性能，是优化的重要考虑因素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可移动光源",
+      "predicate": "支持",
+      "object": "Lumen系统",
+      "context": "可移动光源与Lumen的集成关系，是学习动态全局光照的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态移动性",
+      "predicate": "对比",
+      "object": "固定移动性",
+      "context": "理解这两种移动性的区别有助于做出正确的技术选择",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "固定移动性",
+      "predicate": "对比",
+      "object": "可移动移动性",
+      "context": "比较这两种移动性有助于理解性能与灵活性的权衡",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Lightmass",
+      "predicate": "处理",
+      "object": "静态和固定Actor的光照",
+      "context": "理解Lightmass的作用范围是掌握光照烘焙的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积光照贴图",
+      "predicate": "用于",
+      "object": "可移动Actor的间接光照",
+      "context": "体积光照贴图是可移动对象接收间接光照的主要方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缓存阴影贴图",
+      "predicate": "提高",
+      "object": "固定Actor的性能",
+      "context": "理解阴影缓存机制对优化动态光照场景很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "延迟渲染系统",
+      "predicate": "影响",
+      "object": "可移动光源的性能",
+      "context": "了解渲染管线如何影响光源性能是高级优化的基础",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T17:54:04.405Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5946,
+    "contentLength": 3764,
+    "processingTimeMs": 75561
+  }
+}

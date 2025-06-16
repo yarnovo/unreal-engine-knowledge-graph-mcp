@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-datasmith-with-cinema-4d-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-datasmith-with-cinema-4d-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Datasmith",
+      "predicate": "导入",
+      "object": "Cinema 4D场景",
+      "context": "Datasmith是虚幻引擎中用于将Cinema 4D场景导入的工具，了解这一关系有助于学习如何将外部3D内容整合到虚幻引擎中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith C4D导入器插件",
+      "predicate": "依赖",
+      "object": "虚幻引擎项目",
+      "context": "要使用Datasmith导入Cinema 4D场景，必须在虚幻引擎项目中启用此插件，这对学习插件管理和项目配置很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Cinema 4D几何体",
+      "predicate": "转换为",
+      "object": "静态网格体资产",
+      "context": "了解这一转换关系有助于学习如何在虚幻引擎中处理导入的3D模型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Cinema 4D光源",
+      "predicate": "映射为",
+      "object": "虚幻引擎光源类型",
+      "context": "学习光源类型的映射关系有助于理解不同3D软件间的光照系统兼容性",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Cinema 4D摄像机",
+      "predicate": "转换为",
+      "object": "CineCamera Actor",
+      "context": "这一关系对学习如何在虚幻引擎中处理导入的摄像机动画很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Cinema 4D材质",
+      "predicate": "转换为",
+      "object": "虚幻引擎材质实例",
+      "context": "理解材质转换流程对学习如何在虚幻引擎中重现原始3D软件的视觉效果很关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C4DMaster材质",
+      "predicate": "作为父项",
+      "object": "导入的材质实例",
+      "context": "了解父材质关系有助于学习如何修改和扩展导入的材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Cinema 4D动画",
+      "predicate": "导入为",
+      "object": "关卡序列资源",
+      "context": "这一关系对学习如何在虚幻引擎中处理导入的3D动画很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Cinema 4D用户数据",
+      "predicate": "转换为",
+      "object": "Datasmith元数据",
+      "context": "了解这一转换关系有助于学习如何在虚幻引擎中访问和使用原始3D软件中的自定义数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Cinema 4D生成器",
+      "predicate": "烘焙为",
+      "object": "三角形网格体",
+      "context": "理解程序化元素的烘焙过程对学习如何处理复杂的3D场景很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Cinema 4D实例",
+      "predicate": "转换为",
+      "object": "静态网格体实例",
+      "context": "这一关系对学习如何在虚幻引擎中高效处理重复的3D元素很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Cinema 4D层",
+      "predicate": "导入为",
+      "object": "虚幻引擎层",
+      "context": "了解层系统的转换有助于学习如何在虚幻引擎中组织复杂的3D场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Cinema 4D场景层级",
+      "predicate": "保留为",
+      "object": "Actor层级",
+      "context": "这一关系对学习如何在虚幻引擎中保持原始3D软件的场景结构很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Cinema 4D法线朝向",
+      "predicate": "影响",
+      "object": "虚幻引擎渲染结果",
+      "context": "理解法线朝向的影响有助于学习如何解决3D模型导入后的渲染问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导入流程",
+      "predicate": "基于",
+      "object": "基本Datasmith流程",
+      "context": "了解这一基础关系有助于学习Datasmith系统的工作原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:15:26.100Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (14907 字符)",
+      "timestamp": "2025-06-15T21:14:40.104Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 23269,
+    "contentLength": 14907,
+    "processingTimeMs": 46005
+  }
+}

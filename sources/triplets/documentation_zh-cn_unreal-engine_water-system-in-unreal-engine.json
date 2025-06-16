@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_water-system-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_water-system-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "水体系统",
+      "predicate": "基于",
+      "object": "样条线",
+      "context": "水体系统允许基于样条线创建河流、湖泊和海洋，这是水体系统的基础构建方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水体系统",
+      "predicate": "集成",
+      "object": "着色和渲染管线",
+      "context": "水体系统集成了着色和渲染管线，这是实现水体视觉效果的关键技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水体系统",
+      "predicate": "支持",
+      "object": "物理交互",
+      "context": "水体表面支持物理交互，这是实现真实感水体效果的重要特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水体系统",
+      "predicate": "支持",
+      "object": "动态流体模拟",
+      "context": "水体系统支持动态流体模拟，如脚本涟漪和船尾迹，这是高级水体效果的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水体系统",
+      "predicate": "属于",
+      "object": "插件",
+      "context": "水体系统是一个独立插件，可以根据项目需求启用或停用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水体插件",
+      "predicate": "提供",
+      "object": "范例和默认内容",
+      "context": "水体插件提供了范例和默认内容，帮助开发者快速上手",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水体插件",
+      "predicate": "包含",
+      "object": "默认材质",
+      "context": "水体插件包含默认材质，可以直接在项目中使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水体内容",
+      "predicate": "包含",
+      "object": "水波生成",
+      "context": "水体内容包含水波生成示例，展示高级水体效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水体内容",
+      "predicate": "包含",
+      "object": "流体模拟",
+      "context": "水体内容包含流体模拟示例，展示动态水体效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水体内容",
+      "predicate": "包含",
+      "object": "浮力模拟蓝图",
+      "context": "水体内容包含浮力模拟蓝图，展示物理交互实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水体Actor",
+      "predicate": "用于",
+      "object": "创建各种水体",
+      "context": "水体Actor用于创建不同类型的水体，是水体系统的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水浮力组件",
+      "predicate": "实现",
+      "object": "物体漂浮",
+      "context": "水浮力组件用于实现物体在水面上的漂浮效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单层水着色模型",
+      "predicate": "用于",
+      "object": "渲染水面效果",
+      "context": "单层水着色模型专门用于渲染基于物理的水面效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水调试选项",
+      "predicate": "用于",
+      "object": "优化水体效果",
+      "context": "水调试选项帮助开发者根据项目需求优化和调整水体效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水体系统",
+      "predicate": "依赖",
+      "object": "插件系统",
+      "context": "水体系统作为插件，依赖虚幻引擎的插件管理系统",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "水体渲染",
+      "predicate": "基于",
+      "object": "单层水着色模型",
+      "context": "水体渲染效果基于单层水着色模型实现",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "流体模拟",
+      "predicate": "生成",
+      "object": "动态涟漪",
+      "context": "流体模拟可以生成动态涟漪效果，增强水体真实感",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "浮力模拟",
+      "predicate": "控制",
+      "object": "物体浮沉",
+      "context": "浮力模拟控制物体在水中的浮沉行为",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "水体系统",
+      "predicate": "适用于",
+      "object": "开放世界",
+      "context": "水体系统特别适用于开放世界游戏中的水域创建",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T21:31:31.214Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5712,
+    "contentLength": 4354,
+    "processingTimeMs": 47901
+  }
+}

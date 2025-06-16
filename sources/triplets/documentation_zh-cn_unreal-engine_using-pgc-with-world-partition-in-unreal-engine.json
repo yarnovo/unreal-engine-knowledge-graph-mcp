@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-pgc-with-world-partition-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-pgc-with-world-partition-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "PCG Graph",
+      "predicate": "生成",
+      "object": "Actor",
+      "context": "PCG Graph通过其节点生成Actor，这是PCG系统的核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PCG Graph",
+      "predicate": "分配",
+      "object": "Data Layer",
+      "context": "PCG Graph可以将生成的Actor分配到指定的Data Layer，实现内容的分层管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PCG Graph",
+      "predicate": "分配",
+      "object": "HLOD Layer",
+      "context": "PCG Graph可以将生成的组件和Actor分配到指定的HLOD Layer，支持层次化细节管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Spawn Actor Node",
+      "predicate": "支持",
+      "object": "Data Layer分配",
+      "context": "Spawn Actor节点通过Data Layer Source Type设置控制如何将生成的Actor分配到Data Layer",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Create Target Actor Node",
+      "predicate": "支持",
+      "object": "Data Layer分配",
+      "context": "Create Target Actor节点与Spawn Actor节点类似，支持通过多种方式分配Data Layer",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Actor Data Layers Node",
+      "predicate": "读取",
+      "object": "ActorReference属性",
+      "context": "该节点从输入中读取ActorReference属性，输出这些Actor使用的所有Data Layer",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Partition By Actor Data Layers Node",
+      "predicate": "分区",
+      "object": "Point Data",
+      "context": "该节点根据输入Point Data中的Data Layer信息，将其分区为多个Point Data集合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Data Layer",
+      "predicate": "用于",
+      "object": "内容组织",
+      "context": "Data Layer是组织和管理世界内容的重要机制，可以控制不同内容的加载和可见性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "HLOD Layer",
+      "predicate": "用于",
+      "object": "层次化细节管理",
+      "context": "HLOD Layer用于管理不同细节层次的模型，优化渲染性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Surface Sampler",
+      "predicate": "生成",
+      "object": "岩石网格",
+      "context": "Surface Sampler是PCG Graph中的节点，可以生成特定类型的网格如岩石",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Data Layer Source Type",
+      "predicate": "控制",
+      "object": "Actor分配方式",
+      "context": "该设置决定Spawn Actor和Create Target Actor节点如何将生成的Actor分配到Data Layer",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HLODSource Type",
+      "predicate": "控制",
+      "object": "HLOD分配方式",
+      "context": "该设置决定Spawn Actor和Create Target Actor节点如何将生成的Actor分配到HLOD Layer",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PCG Volume",
+      "predicate": "包含",
+      "object": "PCG Graph",
+      "context": "PCG Volume是放置PCG Graph的容器，用于在特定空间内生成内容",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "World Partition",
+      "predicate": "与",
+      "object": "PCG集成",
+      "context": "PCG系统可以与World Partition系统协同工作，实现大规模场景的高效管理",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Data Layer",
+      "predicate": "与",
+      "object": "HLOD Layer",
+      "context": "这两种分层机制可以同时应用于PCG生成的内容，分别管理不同方面的特性",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T21:21:37.204Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10174 字符)",
+      "timestamp": "2025-06-15T21:20:54.773Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 10397,
+    "contentLength": 10174,
+    "processingTimeMs": 42435
+  }
+}

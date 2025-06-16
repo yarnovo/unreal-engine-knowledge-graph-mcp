@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_per-platform-lods",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_per-platform-lods.md",
+  "triples": [
+    {
+      "subject": "骨骼网格体资产",
+      "predicate": "包含",
+      "object": "细节级别（LOD）资产",
+      "context": "骨骼网格体资产可以包含多个不同细节级别的LOD资产，用于优化性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节级别（LOD）资产",
+      "predicate": "用于",
+      "object": "性能优化",
+      "context": "LOD资产通过降低远离摄像机时的网格体细节来减少性能消耗",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD编号",
+      "predicate": "表示",
+      "object": "细节级别",
+      "context": "LOD编号从0开始递增，编号越大表示细节级别越低",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体缩减工具",
+      "predicate": "生成",
+      "object": "LOD资产",
+      "context": "可以在引擎中使用骨骼网格体缩减工具自动生成LOD资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DCC软件",
+      "predicate": "创作",
+      "object": "LOD资产",
+      "context": "也可以在外部数字内容创作软件中手动创建LOD资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "每个平台的LOD设置",
+      "predicate": "适用于",
+      "object": "跨平台项目",
+      "context": "可以为不同平台设置不同的默认LOD级别，优化跨平台项目的性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体编辑器",
+      "predicate": "用于",
+      "object": "配置LOD设置",
+      "context": "可以在骨骼网格体编辑器中配置每个平台的LOD设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD设置资产",
+      "predicate": "驱动",
+      "object": "多个骨骼网格体的LOD设置",
+      "context": "可以创建LOD设置资产来统一管理多个骨骼网格体的LOD配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平台发布插件",
+      "predicate": "决定",
+      "object": "可用的目标平台",
+      "context": "可配置的发布平台列表取决于已安装的平台发布插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "显示",
+      "object": "LOD数量信息",
+      "context": "在内容浏览器中悬停骨骼网格体资产可以查看其包含的LOD数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD设置",
+      "predicate": "影响",
+      "object": "内存使用",
+      "context": "合理配置LOD设置可以在不同平台上平衡视觉效果和内存使用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "可以包含",
+      "object": "多个LOD级别",
+      "context": "一个骨骼网格体可以包含从LOD0到LODn的多个细节级别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD设置资产",
+      "predicate": "简化",
+      "object": "LOD管理",
+      "context": "使用LOD设置资产可以简化多个角色的LOD配置工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:21:52.392Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7563,
+    "contentLength": 4929,
+    "processingTimeMs": 51158
+  }
+}

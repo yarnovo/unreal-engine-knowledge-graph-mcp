@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-datasmith-with-archicad-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-datasmith-with-archicad-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Datasmith",
+      "predicate": "支持",
+      "object": "Archicad",
+      "context": "Datasmith可以将Archicad中的场景导入到虚幻引擎中，帮助学习者理解如何将建筑模型转换为实时渲染场景",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith DirectLink",
+      "predicate": "实现",
+      "object": "实时同步",
+      "context": "DirectLink工作流允许Archicad和虚幻引擎之间实时更新场景，无需重复导出文件，这对学习实时协作流程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导出工作流",
+      "predicate": "生成",
+      "object": ".udatasmith文件",
+      "context": "导出工作流产生.udatasmith文件供后续导入使用，这是学习数据转换流程的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith工具栏",
+      "predicate": "包含",
+      "object": "DirectLink管理功能",
+      "context": "工具栏提供DirectLink连接管理，帮助学习者掌握实时数据同步的操作界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Archicad几何体",
+      "predicate": "转换为",
+      "object": "静态网格体Actor",
+      "context": "理解建筑模型如何转换为游戏引擎可识别的格式是学习3D数据转换的核心知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HotLinks模块",
+      "predicate": "保留为",
+      "object": "嵌套静态网格体Actor",
+      "context": "外部引用在导入时保持为独立实体，这对学习模块化场景构建很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Archicad材质",
+      "predicate": "转换为",
+      "object": "PBR材质",
+      "context": "材质系统的转换过程是学习物理渲染管线的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GDL材质",
+      "predicate": "标记为",
+      "object": "双面材质",
+      "context": "特殊材质类型的处理方式帮助学习者理解引擎如何区分不同渲染需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Archicad光源",
+      "predicate": "映射为",
+      "object": "虚幻引擎光源类型",
+      "context": "光源类型的转换对照表对学习跨平台光照系统兼容性很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Archicad摄像机",
+      "predicate": "保留",
+      "object": "摄影参数",
+      "context": "摄像机属性的完整保留帮助学习者理解可视化工作流的连续性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Metadata系统",
+      "predicate": "携带",
+      "object": "建筑元素属性",
+      "context": "元数据的转换机制是学习BIM数据与实时引擎结合的关键知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor标签",
+      "predicate": "存储",
+      "object": "技术数据",
+      "context": "标签系统为后续数据处理提供基础，这对学习自动化场景处理很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导入流程",
+      "predicate": "依赖",
+      "object": "Archicad SDK",
+      "context": "理解SDK限制对处理导入异常情况有重要意义",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "分类管理器",
+      "predicate": "扩展",
+      "object": "Metadata系统",
+      "context": "自定义分类能力增强了数据组织的灵活性，是高级工作流的学习要点",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "路径摄像机",
+      "predicate": "实现为",
+      "object": "摄像机Actor序列",
+      "context": "动画路径的转换方式对学习建筑可视化中的漫游制作很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:15:24.279Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11487 字符)",
+      "timestamp": "2025-06-15T21:14:40.102Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15403,
+    "contentLength": 11487,
+    "processingTimeMs": 44184
+  }
+}

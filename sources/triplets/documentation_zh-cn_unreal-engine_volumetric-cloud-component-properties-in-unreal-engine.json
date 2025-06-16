@@ -1,0 +1,131 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_volumetric-cloud-component-properties-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_volumetric-cloud-component-properties-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "体积云组件",
+      "predicate": "包含",
+      "object": "云层属性",
+      "context": "体积云组件包含云层底部高度、顶部高度等属性，用于定义云的物理特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积云组件",
+      "predicate": "包含",
+      "object": "星球属性",
+      "context": "体积云组件包含星球半径和地面反射率等属性，用于定义云与星球的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积云组件",
+      "predicate": "包含",
+      "object": "云材质",
+      "context": "体积云组件需要指定材质来呈现云体积，该材质必须使用体积材质域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积云组件",
+      "predicate": "依赖",
+      "object": "天空大气组件",
+      "context": "当场景中不存在天空大气组件时，体积云组件使用星球半径属性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "体积云组件",
+      "predicate": "影响",
+      "object": "定向光源",
+      "context": "体积云组件支持最多两个定向光源，如太阳和月亮，用于提供光照和阴影",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积云组件",
+      "predicate": "影响",
+      "object": "天空光照",
+      "context": "天空光照组件提供柔和的环境光阴影支持，影响体积云的渲染",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积高级材质输出表达式",
+      "predicate": "控制",
+      "object": "云参数",
+      "context": "该表达式可以控制一系列云参数，影响体积材质的渲染效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积高级材质输出表达式",
+      "predicate": "包含",
+      "object": "相位属性",
+      "context": "该表达式包含相位G、相位G2等属性，用于描述光源散射",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积高级材质输出表达式",
+      "predicate": "包含",
+      "object": "多重散射属性",
+      "context": "该表达式包含多重散射贡献、遮蔽等属性，用于控制多重散射效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定向光源",
+      "predicate": "支持",
+      "object": "体积云阴影",
+      "context": "定向光源可以为体积云投射阴影，并控制阴影的强度、范围等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空光照",
+      "predicate": "提供",
+      "object": "环境光阴影",
+      "context": "天空光照组件提供柔和的环境光阴影支持，影响体积云的渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "云材质",
+      "predicate": "使用",
+      "object": "体积高级材质输出表达式",
+      "context": "云材质通过体积高级材质输出表达式控制云的渲染参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积云组件",
+      "predicate": "依赖",
+      "object": "材质表达式",
+      "context": "体积云组件依赖材质表达式来定义云的属性和渲染效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "体积云组件",
+      "predicate": "影响",
+      "object": "环境光照",
+      "context": "体积云组件影响环境光照的效果，如遮蔽和散射",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:30:20.667Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9054 字符)",
+      "timestamp": "2025-06-15T21:29:42.587Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15759,
+    "contentLength": 9054,
+    "processingTimeMs": 38087
+  }
+}

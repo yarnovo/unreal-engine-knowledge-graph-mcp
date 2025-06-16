@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_overview-of-online-services-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_overview-of-online-services-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "在线服务插件",
+      "predicate": "包含",
+      "object": "接口",
+      "context": "在线服务插件通过模块化接口提供对不同在线服务的访问，这些接口按功能分组，帮助开发者统一管理多平台服务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "接口",
+      "predicate": "支持",
+      "object": "功能组",
+      "context": "每个接口对应特定的功能组，如成就、身份验证等，开发者可以通过这些接口访问不同在线服务的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务插件",
+      "predicate": "处理",
+      "object": "异步通信",
+      "context": "插件设计用于处理与各种在线服务之间的异步通信，解决网络延迟和服务器响应时间不确定的问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TOnlineAsyncOpHandle",
+      "predicate": "用于",
+      "object": "异步操作",
+      "context": "TOnlineAsyncOpHandle用于管理异步操作，通过OnComplete回调通知操作完成状态，帮助开发者统一处理异步逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnComplete回调",
+      "predicate": "提供",
+      "object": "单一代码路径",
+      "context": "OnComplete回调确保开发者无需为不同成功或失败条件编写自定义代码，简化了异步操作的处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务插件",
+      "predicate": "替代",
+      "object": "在线子系统",
+      "context": "在线服务插件是UE 5.1引入的新框架，旨在替代旧的在线子系统，提供更现代的API和更好的多平台支持",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "DefaultEngine.ini",
+      "predicate": "配置",
+      "object": "在线服务插件",
+      "context": "开发者需要在DefaultEngine.ini中配置默认的在线服务模块，指定平台标识符以启用和加载相应的服务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE::Online::GetServices",
+      "predicate": "获取",
+      "object": "在线服务实例",
+      "context": "通过调用UE::Online::GetServices函数，开发者可以获取配置的在线服务实例，无需手动管理服务加载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台命令",
+      "predicate": "用于",
+      "object": "调试在线服务",
+      "context": "开发者可以使用控制台命令直接运行和调试在线服务接口，方便测试和验证功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "成就接口",
+      "predicate": "用于",
+      "object": "管理游戏成就",
+      "context": "成就接口提供列出、解锁和查询成就的功能，帮助开发者实现游戏内的成就系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "社交接口",
+      "predicate": "用于",
+      "object": "管理好友列表",
+      "context": "社交接口允许开发者实现好友列表管理、屏蔽用户等功能，增强游戏的社交体验",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "会话接口",
+      "predicate": "用于",
+      "object": "管理游戏会话",
+      "context": "会话接口提供创建、销毁和管理在线游戏会话的功能，支持多人游戏的匹配和连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TOnlineResult",
+      "predicate": "返回",
+      "object": "同步操作结果",
+      "context": "TOnlineResult用于同步函数的返回，开发者可以通过IsOk或IsError检查操作结果，并获取相应的值或错误信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TOnlineEvent",
+      "predicate": "用于",
+      "object": "事件监听",
+      "context": "TOnlineEvent允许开发者监听特定事件，通过Add函数添加回调，响应符合条件的事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务插件",
+      "predicate": "基于",
+      "object": "OnlineServices模块",
+      "context": "在线服务插件的核心是OnlineServices模块，该模块定义并注册服务专用模块，是所有在线服务访问的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:14:19.027Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10154 字符)",
+      "timestamp": "2025-06-15T20:13:27.039Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15268,
+    "contentLength": 10154,
+    "processingTimeMs": 51999
+  }
+}

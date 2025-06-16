@@ -1,0 +1,203 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-mutable-from-blueprint-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-mutable-from-blueprint-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Actor蓝图",
+      "predicate": "包含",
+      "object": "骨骼网格体组件",
+      "context": "在创建Mutable角色时，Actor蓝图中需要添加骨骼网格体组件作为基础组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体组件",
+      "predicate": "包含",
+      "object": "可自定义骨骼组件",
+      "context": "可自定义骨骼组件需要作为骨骼网格体组件的子组件添加",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可自定义骨骼组件",
+      "predicate": "关联",
+      "object": "CustomizableObjectInstance",
+      "context": "可自定义骨骼组件需要通过CustomizableObjectInstance属性设置要使用的实例",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CustomizableObjectInstance",
+      "predicate": "存储",
+      "object": "参数",
+      "context": "参数由CustomizableObjectInstance存储，可以通过API节点进行访问或修改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "参数",
+      "predicate": "包含",
+      "object": "布尔参数",
+      "context": "布尔参数是参数的一种类型，可以通过蓝图节点设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "参数",
+      "predicate": "包含",
+      "object": "整型参数",
+      "context": "整型参数是参数的一种类型，需要通过FindParameter和GetIntParameterAvailableOption节点进行操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "参数",
+      "predicate": "包含",
+      "object": "浮点参数",
+      "context": "浮点参数是参数的一种类型，可以通过蓝图节点设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "参数",
+      "predicate": "包含",
+      "object": "颜色参数",
+      "context": "颜色参数是参数的一种类型，可以通过蓝图节点设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "参数",
+      "predicate": "包含",
+      "object": "投射器参数",
+      "context": "投射器参数是参数的一种类型，可以通过蓝图节点设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UpdateSkeletalMeshAsync节点",
+      "predicate": "用于",
+      "object": "更新实例",
+      "context": "UpdateSkeletalMeshAsync节点用于应用参数的最新更改，更新实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "更新的委托",
+      "predicate": "用于",
+      "object": "事件绑定",
+      "context": "可以将事件绑定到更新的委托，在骨骼网格体更新完成后进行广播",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Parameter Count节点",
+      "predicate": "用于",
+      "object": "获取参数数量",
+      "context": "Get Parameter Count节点用于检索实例中的参数数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Parameter Name节点",
+      "predicate": "用于",
+      "object": "获取参数名称",
+      "context": "Get Parameter Name节点用于检索实例中的参数名称",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Parameter Type by Name节点",
+      "predicate": "用于",
+      "object": "获取参数类型",
+      "context": "Get Parameter Type by Name节点用于通过名称检索参数类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Find Parameter节点",
+      "predicate": "用于",
+      "object": "搜索参数",
+      "context": "Find Parameter节点用于搜索实例中的现有参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Int Parameter Num Options节点",
+      "predicate": "用于",
+      "object": "获取整型参数选项数量",
+      "context": "Get Int Parameter Num Options节点用于获取整型参数的选项数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Int Parameter Available Option节点",
+      "predicate": "用于",
+      "object": "获取整型参数可用选项",
+      "context": "Get Int Parameter Available Option节点用于获取整型参数的可用选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Current State节点",
+      "predicate": "用于",
+      "object": "查询状态",
+      "context": "Get Current State节点用于查询当前状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get State Count节点",
+      "predicate": "用于",
+      "object": "获取状态数量",
+      "context": "Get State Count节点用于检索可自定义对象所拥有的状态数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get State Name节点",
+      "predicate": "用于",
+      "object": "获取状态名称",
+      "context": "Get State Name节点用于检索可自定义对象的状态名称",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get State Parameter Count节点",
+      "predicate": "用于",
+      "object": "获取状态参数数量",
+      "context": "Get State Parameter Count节点用于检索某个状态中的参数数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get State Parameter Name节点",
+      "predicate": "用于",
+      "object": "获取状态参数名称",
+      "context": "Get State Parameter Name节点用于检索某个状态中的参数名称",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CustomizableObject",
+      "predicate": "存储",
+      "object": "状态信息",
+      "context": "状态信息按CustomizableObject存储，可通过CustomizableObjectInstance访问",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:20:53.253Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8249 字符)",
+      "timestamp": "2025-06-15T21:19:54.790Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 10713,
+    "contentLength": 8249,
+    "processingTimeMs": 58467
+  }
+}

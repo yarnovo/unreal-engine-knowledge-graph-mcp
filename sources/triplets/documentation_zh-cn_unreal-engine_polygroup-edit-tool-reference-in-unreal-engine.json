@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_polygroup-edit-tool-reference-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_polygroup-edit-tool-reference-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "多边形组编辑工具",
+      "predicate": "包含",
+      "object": "面编辑",
+      "context": "面编辑是多边形组编辑工具的核心功能模块之一，用于编辑网格体的多边形组面",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "多边形组编辑工具",
+      "predicate": "包含",
+      "object": "形状编辑",
+      "context": "形状编辑是多边形组编辑工具的核心功能模块之一，用于编辑整个网格体",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "多边形组编辑工具",
+      "predicate": "包含",
+      "object": "边缘编辑",
+      "context": "边缘编辑是多边形组编辑工具的核心功能模块之一，用于编辑网格体的多边形组边缘",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "多边形组编辑工具",
+      "predicate": "包含",
+      "object": "UV编辑",
+      "context": "UV编辑是多边形组编辑工具的功能模块，用于创建和编辑UV",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "面编辑",
+      "predicate": "包含",
+      "object": "挤压操作",
+      "context": "挤压是面编辑的核心操作之一，用于沿所选面突出几何体",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "面编辑",
+      "predicate": "包含",
+      "object": "偏移操作",
+      "context": "偏移是面编辑的核心操作之一，类似于挤压但默认沿顶点法线移动面",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "面编辑",
+      "predicate": "包含",
+      "object": "推拉操作",
+      "context": "推拉是面编辑的核心操作之一，执行类似布尔操作的网格体切割或合并",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "挤压操作",
+      "predicate": "依赖",
+      "object": "选择操作",
+      "context": "使用挤压操作前必须首先选择面，这是操作的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "挤压操作",
+      "predicate": "支持",
+      "object": "距离模式",
+      "context": "挤压操作提供视口点击和固定两种距离模式来控制挤压效果",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "挤压操作",
+      "predicate": "支持",
+      "object": "方向模式",
+      "context": "挤压操作提供三种方向模式(单个方向/所选三角形法线/均匀法线)控制顶点移动方向",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "推拉操作",
+      "predicate": "类似",
+      "object": "布尔工具",
+      "context": "推拉操作在原始网格体和受挤压项之间执行类似布尔工具的操作",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "形状编辑",
+      "predicate": "包含",
+      "object": "插入边缘循环",
+      "context": "插入边缘循环是形状编辑的核心操作，用于在类似四边形的多边形组中插入边缘链",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "插入边缘循环",
+      "predicate": "依赖",
+      "object": "四边形拓扑",
+      "context": "插入边缘循环操作要求网格体具有类似四边形的多边形组结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "边缘编辑",
+      "predicate": "包含",
+      "object": "斜边操作",
+      "context": "斜边是边缘编辑的核心操作，使选定边缘倾斜并替换为斜角面",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "边缘编辑",
+      "predicate": "包含",
+      "object": "桥接操作",
+      "context": "桥接是边缘编辑的核心操作，创建新面连接选定边缘",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "多边形组编辑工具",
+      "predicate": "关联",
+      "object": "建模模式",
+      "context": "多边形组编辑工具是建模模式中的核心工具之一，用于网格体编辑",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多边形组编辑工具",
+      "predicate": "前置学习",
+      "object": "理解多边形组",
+      "context": "使用多边形组编辑工具前需要先理解多边形组的概念和创建方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选择操作",
+      "predicate": "支持",
+      "object": "选择筛选器",
+      "context": "选择操作依赖选择筛选器来确定可选择的网格体元素类型(顶点/边缘/面)",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "UV编辑",
+      "predicate": "关联",
+      "object": "UV编辑器",
+      "context": "多边形组编辑工具中的UV操作与专门的UV编辑器功能相关",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "拓扑选项",
+      "predicate": "影响",
+      "object": "多边形组边界",
+      "context": "拓扑选项中的添加额外内角设置可以改变多边形组边界的生成方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:26:52.011Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (31525 字符)",
+      "timestamp": "2025-06-15T20:25:44.959Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 49853,
+    "contentLength": 31525,
+    "processingTimeMs": 67061
+  }
+}

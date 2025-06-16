@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_my-blueprint-panel-in-the-blueprints-visual-scripting-editor-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_my-blueprint-panel-in-the-blueprints-visual-scripting-editor-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "我的蓝图面板",
+      "predicate": "显示",
+      "object": "蓝图元素",
+      "context": "我的蓝图面板以树状列表形式展示蓝图的各类元素，帮助开发者快速浏览和定位",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "我的蓝图面板",
+      "predicate": "包含",
+      "object": "创建按钮",
+      "context": "面板提供快捷创建按钮，是开发者添加新元素的主要入口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "我的蓝图面板",
+      "predicate": "分为",
+      "object": "六个部分",
+      "context": "面板按功能划分为新增、图表、函数等六个逻辑分区，体现组织结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "创建按钮",
+      "predicate": "支持",
+      "object": "右键菜单创建",
+      "context": "除顶部按钮外，右键菜单提供相同的创建功能，体现操作方式的多样性",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "法线蓝图",
+      "predicate": "固定包含",
+      "object": "ConstructionScript",
+      "context": "特定蓝图类型具有固定元素，这是学习蓝图分类的重要特征",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡蓝图",
+      "predicate": "仅包含",
+      "object": "EventGraph",
+      "context": "不同类型蓝图包含的元素差异，是理解蓝图应用场景的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "新建函数",
+      "predicate": "关联",
+      "object": "细节选项卡",
+      "context": "创建函数后自动聚焦细节选项卡，体现工作流程的连贯性",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "宏蓝图",
+      "predicate": "专门用于",
+      "object": "宏函数",
+      "context": "特定蓝图类型与特定元素的对应关系，是蓝图知识体系的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "搜索功能",
+      "predicate": "适用于",
+      "object": "蓝图元素定位",
+      "context": "搜索功能针对面板内元素，是快速导航的重要辅助工具",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "事件调度器",
+      "predicate": "属于",
+      "object": "可创建元素类型",
+      "context": "作为独立可创建元素类型，需要理解其在事件系统中的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变量",
+      "predicate": "通过",
+      "object": "细节选项卡配置",
+      "context": "变量创建后需在细节面板配置属性，体现属性编辑的标准流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图表视图",
+      "predicate": "用于",
+      "object": "定义节点网络",
+      "context": "函数/宏创建后自动打开图表视图，展示可视化编程的核心工作界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:04:11.276Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5720,
+    "contentLength": 3832,
+    "processingTimeMs": 44011
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_editing-animation-layers",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_editing-animation-layers.md",
+  "triples": [
+    {
+      "subject": "动画层编辑功能",
+      "predicate": "修改",
+      "object": "动画序列",
+      "context": "动画层编辑功能允许修改现有的动画序列，作为附加层轨迹的一部分，帮助学习者理解如何基于现有动画创建新动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "附加层轨迹",
+      "predicate": "包含",
+      "object": "变换关键帧",
+      "context": "附加层轨迹可以包含骨骼的变换、旋转和缩放关键帧，帮助学习者理解如何通过关键帧调整动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蒙太奇",
+      "predicate": "用于",
+      "object": "播放动画",
+      "context": "动画蒙太奇用于在游戏中播放特定的动画序列，如填弹动画，帮助学习者理解如何将动画应用到游戏逻辑中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插槽节点",
+      "predicate": "控制",
+      "object": "动画播放",
+      "context": "插槽节点用于控制指定给特定插槽的动画蒙太奇的播放，帮助学习者理解如何通过动画蓝图管理动画播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色蓝图",
+      "predicate": "包含",
+      "object": "动画实例",
+      "context": "角色蓝图包含动画实例，用于控制骨架网格体的动画播放，帮助学习者理解角色与动画的关联",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画层编辑功能",
+      "predicate": "支持",
+      "object": "根运动创建",
+      "context": "动画层编辑功能支持通过关键帧创建根运动，帮助学习者理解如何实现角色的移动动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "源动画",
+      "predicate": "对比",
+      "object": "烘焙后动画",
+      "context": "可以同时显示源动画和烘焙后动画，帮助学习者理解动画编辑前后的差异",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "轨迹选项菜单",
+      "predicate": "提供",
+      "object": "禁用或移除轨迹功能",
+      "context": "轨迹选项菜单提供临时禁用或移除轨迹的功能，帮助学习者理解如何管理动画轨迹",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "使用",
+      "object": "插槽节点",
+      "context": "动画蓝图使用插槽节点来播放指定给特定插槽的动画蒙太奇，帮助学习者理解动画蓝图的工作原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FirstPersonCharacter蓝图",
+      "predicate": "控制",
+      "object": "动画播放逻辑",
+      "context": "FirstPersonCharacter蓝图控制动画播放逻辑，如填弹动画的触发，帮助学习者理解游戏逻辑与动画的结合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:55:43.407Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8931,
+    "contentLength": 5919,
+    "processingTimeMs": 38086
+  }
+}

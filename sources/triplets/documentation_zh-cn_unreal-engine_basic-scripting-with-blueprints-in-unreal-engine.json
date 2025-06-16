@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_basic-scripting-with-blueprints-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_basic-scripting-with-blueprints-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "蓝图",
+      "predicate": "是",
+      "object": "可视化脚本语言",
+      "context": "蓝图为脚本语言提供了一种可视化的方法，帮助开发者通过节点连接而非传统代码编写逻辑",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "包含",
+      "object": "变量",
+      "context": "蓝图系统支持多种变量类型，这是构建逻辑的基础元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变量",
+      "predicate": "支持",
+      "object": "数据类型",
+      "context": "变量可以采用布尔型、整数型和浮点型等数据类型，这是编程基础概念",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变量",
+      "predicate": "包含",
+      "object": "引用类型",
+      "context": "蓝图变量还可以是用于保存对象、Actor和类等内容的引用类型，扩展了变量用途",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "使用",
+      "object": "执行流",
+      "context": "执行流是蓝图逻辑运行的核心机制，理解执行流对调试至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "执行流",
+      "predicate": "基于",
+      "object": "事件",
+      "context": "执行流从事件节点开始，这是蓝图逻辑的触发点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "执行流",
+      "predicate": "可视化",
+      "object": "调试",
+      "context": "执行流可视化功能帮助开发者理解逻辑运行过程，是重要的调试工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "节点",
+      "predicate": "分为",
+      "object": "纯节点",
+      "context": "理解纯节点和非纯节点的区别对优化蓝图性能很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "节点",
+      "predicate": "分为",
+      "object": "非纯节点",
+      "context": "非纯节点有执行引脚，是控制执行流的关键元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件",
+      "predicate": "触发",
+      "object": "执行流",
+      "context": "事件是蓝图逻辑的起点，理解事件类型对构建交互系统很关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义事件",
+      "predicate": "扩展",
+      "object": "事件系统",
+      "context": "自定义事件允许开发者创建特定于项目的触发机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流程控制",
+      "predicate": "管理",
+      "object": "执行流",
+      "context": "流程控制节点是构建复杂逻辑的基础，如条件分支和循环",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "使用",
+      "object": "节点图表",
+      "context": "节点图表是构建蓝图逻辑的工作区，理解其工作原理是基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "节点图表",
+      "predicate": "包含",
+      "object": "事件",
+      "context": "事件节点是图表中的起始点，触发后续逻辑执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "节点图表",
+      "predicate": "包含",
+      "object": "函数调用",
+      "context": "函数调用是构建模块化蓝图逻辑的重要方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据类型",
+      "predicate": "影响",
+      "object": "节点连接",
+      "context": "数据类型匹配是节点间正确连接的前提，理解这点可避免常见错误",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "执行流",
+      "predicate": "遵循",
+      "object": "线性执行",
+      "context": "蓝图要求显式的线性执行，这与传统编程语言的隐式执行不同",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变量",
+      "predicate": "通过",
+      "object": "颜色编码",
+      "context": "变量的颜色编码帮助快速识别类型，提高开发效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "非纯节点",
+      "predicate": "存储",
+      "object": "输出值",
+      "context": "非纯节点在执行时存储输出值，这是理解执行效率的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纯节点",
+      "predicate": "实时计算",
+      "object": "输出值",
+      "context": "纯节点每次连接节点执行时重新计算，影响性能考量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:11:53.680Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3905,
+    "contentLength": 2613,
+    "processingTimeMs": 57981
+  }
+}

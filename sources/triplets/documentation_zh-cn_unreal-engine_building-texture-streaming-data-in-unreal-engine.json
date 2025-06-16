@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_building-texture-streaming-data-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_building-texture-streaming-data-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "纹理流送数据",
+      "predicate": "包含",
+      "object": "UV通道索引",
+      "context": "纹理流送数据中存储了用于纹理采样的UV通道索引，这是理解纹理流送机制的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理流送数据",
+      "predicate": "包含",
+      "object": "缩放因数",
+      "context": "纹理流送数据中存储了应用于被采样通道的乘法因数，影响纹理的最终显示效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质",
+      "predicate": "生成",
+      "object": "纹理流送数据",
+      "context": "修改和保存材质时会自动生成纹理流送数据，这是材质编辑的重要关联知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质实例",
+      "predicate": "依赖",
+      "object": "材质",
+      "context": "材质实例的纹理流送数据依赖于其父材质，理解这种继承关系对材质实例管理很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "构建纹理流送",
+      "predicate": "使用",
+      "object": "Primitive组件数据",
+      "context": "构建流程需要Primitive组件的边界、网格体纹理坐标大小等信息来计算纹理分辨率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质纹理缩放查看模式",
+      "predicate": "用于",
+      "object": "检测流送数据准确性",
+      "context": "该查看模式专门用于验证纹理流送数据的计算准确性，是重要的调试工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流送距离乘数",
+      "predicate": "影响",
+      "object": "Primitive距离准确度",
+      "context": "调整该参数可以优化流送器计算的视图距离准确性，是性能调优的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体UV密度准确性",
+      "predicate": "关联",
+      "object": "StreamingDistanceMultiplier",
+      "context": "在网格体编辑器中调整此参数可以修正UV密度准确性，是网格体流送优化的重要技术",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质纹理缩放准确性",
+      "predicate": "依赖",
+      "object": "纹理坐标分析",
+      "context": "该准确性取决于流送器能否正确分析材质使用的纹理坐标，理解这种依赖关系有助于问题排查",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "所需纹理分辨率视图模式",
+      "predicate": "显示",
+      "object": "流送效率",
+      "context": "该模式直观展示当前流送纹理分辨率与需求的关系，是评估流送系统效率的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "贴花材质",
+      "predicate": "不支持",
+      "object": "纹理流送分析",
+      "context": "了解哪些材质类型不受支持可以避免错误使用流送功能，是重要的限制条件知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildMaterialTextureStreamingData命令",
+      "predicate": "用于",
+      "object": "数据迁移",
+      "context": "该命令专门用于将旧版本材质数据迁移到4.15+版本，是版本升级的关键操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理流送构建",
+      "predicate": "基于",
+      "object": "最高质量级别",
+      "context": "构建过程使用最高质量级别生成数据以确保兼容性，这是理解构建行为的重要前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.Streaming.AnalysisIndex命令",
+      "predicate": "用于",
+      "object": "调查单个纹理错误",
+      "context": "该调试命令允许开发者深入分析特定纹理的流送问题，是高级调试技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理流送",
+      "predicate": "关联",
+      "object": "渲染性能",
+      "context": "理解纹理流送机制与渲染性能的关系对优化项目性能至关重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:18:00.049Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8537 字符)",
+      "timestamp": "2025-06-15T18:17:06.489Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14817,
+    "contentLength": 8537,
+    "processingTimeMs": 53570
+  }
+}

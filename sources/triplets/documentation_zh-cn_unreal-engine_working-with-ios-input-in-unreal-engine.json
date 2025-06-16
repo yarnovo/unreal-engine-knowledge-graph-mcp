@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_working-with-ios-input-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_working-with-ios-input-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "iOS输入处理",
+      "predicate": "支持",
+      "object": "游戏手柄",
+      "context": "iOS平台支持游戏手柄输入，开发者需要处理相关输入功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS输入处理",
+      "predicate": "支持",
+      "object": "键盘",
+      "context": "iOS平台支持键盘输入，开发者需要处理相关输入功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS输入处理",
+      "predicate": "支持",
+      "object": "鼠标",
+      "context": "iOS平台支持鼠标输入，开发者需要处理相关输入功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS输入处理",
+      "predicate": "支持",
+      "object": "触控板",
+      "context": "iOS平台支持触控板输入，开发者需要处理相关输入功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "实现",
+      "object": "iOS输入处理",
+      "context": "虚幻引擎提供了处理iOS输入的功能模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Gamepad Button Glyph节点",
+      "predicate": "属于",
+      "object": "蓝图系统",
+      "context": "该节点是虚幻引擎蓝图系统的一部分，用于获取游戏手柄按钮样式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Gamepad Button Glyph节点",
+      "predicate": "生成",
+      "object": "按钮样式纹理",
+      "context": "该节点返回一个包含按钮样式的2D纹理，用于UI显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "按钮样式纹理",
+      "predicate": "用于",
+      "object": "UI控件",
+      "context": "生成的按钮样式纹理将应用于游戏UI控件中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS输入处理",
+      "predicate": "需要遵守",
+      "object": "Apple UI要求",
+      "context": "开发者必须确保游戏内按钮显示与用户的操作系统级输入绑定一致",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FKey",
+      "predicate": "定义于",
+      "object": "InputCoreTypes.h",
+      "context": "按钮键参数使用InputCoreTypes.h中定义的FKey名称",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏手柄按钮映射",
+      "predicate": "影响",
+      "object": "Get Gamepad Button Glyph节点输出",
+      "context": "用户的操作系统级按钮映射会影响该节点返回的按钮样式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "App Store审核",
+      "predicate": "要求",
+      "object": "符合Apple UI要求",
+      "context": "不符合Apple的UI要求可能导致应用被拒绝上架",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图系统",
+      "predicate": "提供",
+      "object": "iOS输入处理功能",
+      "context": "开发者可以通过蓝图系统实现iOS输入处理功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "控制器索引",
+      "predicate": "标识",
+      "object": "已连接控制器",
+      "context": "控制器索引参数用于指定要获取哪个已连接控制器的按钮样式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:33:33.587Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3517,
+    "contentLength": 2189,
+    "processingTimeMs": 37235
+  }
+}

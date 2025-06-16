@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_patching-content-delivery-and-dlc-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_patching-content-delivery-and-dlc-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "补丁和DLC",
+      "context": "文档明确指出虚幻引擎可以将内容分割成.pak文件并分开交付，这是实现补丁和DLC的基础功能",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": ".pak文件",
+      "predicate": "用于",
+      "object": "内容分发",
+      "context": ".pak文件是虚幻引擎中用于打包和分发内容的标准格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ChunkDownloader插件",
+      "predicate": "实现",
+      "object": "通用修补解决方案",
+      "context": "文档说明该插件适用于需要交付大量小文件的游戏的修补需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GooglePAD插件",
+      "predicate": "基于",
+      "object": "Google Play资产交付系统",
+      "context": "该插件专门用于与Google Play商店的资产交付系统集成",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "GooglePAD插件",
+      "predicate": "配套",
+      "object": "Android App Bundle系统",
+      "context": "文档说明该插件是Android App Bundle系统的配套工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "补丁创建",
+      "predicate": "需要",
+      "object": "资产分块",
+      "context": "准备资产进行分块是创建补丁的前提步骤",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "ChunkDownloader插件",
+      "predicate": "包含",
+      "object": "清单和资产托管",
+      "context": "插件功能包括清单和资产的托管设置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "补丁",
+      "predicate": "用于",
+      "object": "项目更新",
+      "context": "补丁的主要目的是在项目发布后进行内容更新",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容分发",
+      "predicate": "涉及",
+      "object": "平台特定解决方案",
+      "context": "文档展示了针对不同平台(如Android)的特定分发解决方案",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "提供",
+      "object": "多种分发方案",
+      "context": "文档展示了引擎提供的多种内容分发方案(通用ChunkDownloader和平台特定的GooglePAD)",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:18:53.299Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4463,
+    "contentLength": 3445,
+    "processingTimeMs": 31661
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_mobile-rendering-and-shading-modes-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_mobile-rendering-and-shading-modes-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "移动前向着色",
+      "context": "虚幻引擎默认支持移动前向着色，适用于使用预计算光照的项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "移动延迟着色",
+      "context": "虚幻引擎支持移动延迟着色，适用于使用动态光照的项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "提供",
+      "object": "桌面渲染器",
+      "context": "虚幻引擎在高端移动设备上提供桌面渲染器的试验性支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动前向着色",
+      "predicate": "适用于",
+      "object": "预计算光照",
+      "context": "移动前向着色特别适合使用预计算光照的项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动延迟着色",
+      "predicate": "适用于",
+      "object": "动态光照",
+      "context": "移动延迟着色适合使用动态光照的项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动前向着色",
+      "predicate": "具有",
+      "object": "最佳抗锯齿选项",
+      "context": "移动前向着色提供最佳种类和质量的抗锯齿选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动延迟着色",
+      "predicate": "限制",
+      "object": "抗锯齿选项",
+      "context": "移动延迟着色的抗锯齿选项更加有限",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动延迟着色",
+      "predicate": "提供",
+      "object": "高级光照功能",
+      "context": "移动延迟着色提供前向着色不提供的高级光照功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动延迟着色",
+      "predicate": "需要",
+      "object": "高端移动硬件",
+      "context": "移动延迟着色需要相对高端的移动硬件支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动前向着色",
+      "predicate": "兼容",
+      "object": "多种硬件",
+      "context": "移动前向着色兼容多种硬件，基线性能最快",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动延迟着色",
+      "predicate": "使用",
+      "object": "基于图块的GPU",
+      "context": "移动延迟着色在使用基于图块的GPU的移动设备上性能更佳",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动延迟着色",
+      "predicate": "支持",
+      "object": "光源函数",
+      "context": "移动延迟着色模式支持光源函数等高级光照功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动延迟着色",
+      "predicate": "支持",
+      "object": "光照贴花",
+      "context": "移动延迟着色模式支持光照贴花等高级光照功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动延迟着色",
+      "predicate": "限制",
+      "object": "预计算光照",
+      "context": "移动延迟着色对预计算光照的支持有限，仅提供默认光照和无光照着色模型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动延迟着色",
+      "predicate": "不支持",
+      "object": "MSAA",
+      "context": "移动延迟着色不支持多重取样抗锯齿（MSAA）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动延迟着色",
+      "predicate": "限制",
+      "object": "半透明通道",
+      "context": "移动延迟着色模式下，半透明通道始终使用前向着色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动延迟着色",
+      "predicate": "限制",
+      "object": "着色模型",
+      "context": "移动延迟着色模式下，复杂着色模型的开销非常高，应限制使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动延迟着色",
+      "predicate": "依赖",
+      "object": "图块内存",
+      "context": "移动延迟着色的性能依赖于不同平台的图块内存实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android Vulkan",
+      "predicate": "限制",
+      "object": "移动延迟着色",
+      "context": "运行Android Vulkan的Mali设备对移动延迟着色有严格的颜色和输入附件限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:58:49.767Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10438,
+    "contentLength": 6530,
+    "processingTimeMs": 58269
+  }
+}

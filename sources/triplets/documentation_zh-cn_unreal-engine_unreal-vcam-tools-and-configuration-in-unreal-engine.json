@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-vcam-tools-and-configuration-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-vcam-tools-and-configuration-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻虚拟摄像机(VCam)",
+      "predicate": "包含",
+      "object": "工具菜单",
+      "context": "工具菜单是VCam的核心功能入口，包含多种配置选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具菜单",
+      "predicate": "包含",
+      "object": "镜头试拍浏览器",
+      "context": "镜头试拍浏览器是工具菜单的重要功能组件，用于管理关卡序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具菜单",
+      "predicate": "包含",
+      "object": "缩放和增益设置",
+      "context": "缩放和增益设置控制设备移动的灵敏度参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缩放和增益设置",
+      "predicate": "控制",
+      "object": "Live Link设备移动",
+      "context": "这些设置直接影响Live Link设备在虚拟场景中的移动行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头试拍浏览器",
+      "predicate": "管理",
+      "object": "关卡序列",
+      "context": "浏览器专门用于搜索、打开和审核关卡序列",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VCam",
+      "predicate": "支持",
+      "object": "多用户复制",
+      "context": "多用户复制功能允许多客户端协作使用VCam",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VCam",
+      "predicate": "依赖",
+      "object": "Live Link",
+      "context": "VCam的核心功能需要Live Link技术实现设备追踪",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VCam移动",
+      "predicate": "通过",
+      "object": "ARKit追踪",
+      "context": "ARKit提供基础的位置追踪能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VCam移动",
+      "predicate": "通过",
+      "object": "触摸屏摇杆",
+      "context": "摇杆提供额外的移动控制方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头试拍查看器",
+      "predicate": "扩展",
+      "object": "镜头试拍浏览器",
+      "context": "查看器提供更详细的序列审核功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "VCam",
+      "predicate": "支持",
+      "object": "传送功能",
+      "context": "双指拖动实现快速场景移动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VCam",
+      "predicate": "集成",
+      "object": "Sequencer",
+      "context": "VCam可以与Sequencer协同工作",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VCam",
+      "predicate": "使用",
+      "object": "书签系统",
+      "context": "书签保存摄像机位置和参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CineCameraRigRail",
+      "predicate": "用于",
+      "object": "自定义绑定导轨",
+      "context": "创建可编程的摄像机移动路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VCam",
+      "predicate": "支持",
+      "object": "三种驱动模式",
+      "context": "手动、时长和速度三种RigRail控制方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VCam",
+      "predicate": "支持",
+      "object": "自动关键帧",
+      "context": "与Sequencer配合实现动画录制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头试拍录制器",
+      "predicate": "生成",
+      "object": "Sequencer剪辑片段",
+      "context": "录制结果保存为可编辑的序列资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VCam稳定性",
+      "predicate": "影响",
+      "object": "摄像机移动平滑度",
+      "context": "稳定性参数决定移动的流畅程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "父项关系",
+      "predicate": "控制",
+      "object": "轴继承",
+      "context": "决定摄像机如何从父对象继承移动参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CineCameraAttachMount",
+      "predicate": "实现",
+      "object": "延迟跟随",
+      "context": "提供更自然的父对象跟随效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:12:18.505Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (36266 字符)",
+      "timestamp": "2025-06-15T21:11:27.536Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 55002,
+    "contentLength": 36266,
+    "processingTimeMs": 50976
+  }
+}

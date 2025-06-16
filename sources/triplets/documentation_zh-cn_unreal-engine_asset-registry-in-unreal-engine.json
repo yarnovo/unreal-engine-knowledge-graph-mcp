@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_asset-registry-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_asset-registry-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "资产注册表",
+      "predicate": "属于",
+      "object": "编辑器子系统",
+      "context": "资产注册表是虚幻引擎编辑器的一个子系统，负责收集和管理资产信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产注册表",
+      "predicate": "支持",
+      "object": "异步数据收集",
+      "context": "资产注册表在编辑器加载时异步收集未加载资产的信息，提高效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产注册表",
+      "predicate": "用于",
+      "object": "内容浏览器",
+      "context": "内容浏览器主要使用资产注册表来创建和管理资产列表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FAssetData",
+      "predicate": "描述",
+      "object": "资产信息",
+      "context": "FAssetData对象容纳有关资产的信息，这些信息在资产被加载前就可以确定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FAssetData",
+      "predicate": "包含",
+      "object": "TagsAndValues",
+      "context": "FAssetData包含一个TagsAndValues映射，存储标记为AssetRegistrySearchable的属性的值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FARFilter",
+      "predicate": "用于",
+      "object": "资产过滤",
+      "context": "FARFilter结构体用于创建采用多个条件过滤后的资产列表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产注册表",
+      "predicate": "提供",
+      "object": "委托回调",
+      "context": "资产注册表提供多种委托回调，用于处理资产被发现、创建、重命名或删除等情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AssetRegistrySearchable",
+      "predicate": "标记",
+      "object": "UPROPERTY",
+      "context": "使用AssetRegistrySearchable标记的UPROPERTY属性会被资产注册表收集并存储在TagsAndValues中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetAssetRegistryTags",
+      "predicate": "继承自",
+      "object": "UObject",
+      "context": "资产的类可以通过实现GetAssetRegistryTags虚函数手动添加键/值对到TagsAndValues映射",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SAssetDiscoveryIndicator",
+      "predicate": "用于",
+      "object": "UI进度显示",
+      "context": "SAssetDiscoveryIndicator控件用于在Slate UI中显示资产发现的进度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产注册表",
+      "predicate": "依赖",
+      "object": "FAssetRegistryModule",
+      "context": "要使用资产注册表的功能，需要加载FAssetRegistryModule模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FAssetData",
+      "predicate": "可转换为",
+      "object": "UObject",
+      "context": "FAssetData对象可以通过GetAsset()函数转换为UObject指针，必要时会加载资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:06:07.542Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9696,
+    "contentLength": 6164,
+    "processingTimeMs": 47080
+  }
+}

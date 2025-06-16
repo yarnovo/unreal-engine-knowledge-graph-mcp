@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_synchronization-in-ndisplay-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_synchronization-in-ndisplay-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "nDisplay",
+      "predicate": "依赖",
+      "object": "同步机制",
+      "context": "nDisplay需要同步机制来确保多显示器内容的一致性和无缝显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "同步机制",
+      "predicate": "包含",
+      "object": "确定性同步",
+      "context": "同步机制包含确定性同步方法，用于确保渲染输出的可预测性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "同步机制",
+      "predicate": "包含",
+      "object": "非确定性同步",
+      "context": "同步机制包含非确定性同步方法，用于强制复制场景中的对象变换数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "确定性同步",
+      "predicate": "对比",
+      "object": "非确定性同步",
+      "context": "确定性同步和非确定性同步在数据带宽和系统偏离方面有各自的优缺点",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬件同步",
+      "predicate": "使用",
+      "object": "Genlock",
+      "context": "硬件同步使用Genlock技术来同步物理显示设备上的帧显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Genlock",
+      "predicate": "适用于",
+      "object": "广播应用",
+      "context": "Genlock广泛应用于广播行业，用于同步摄像机、监视器等设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NVIDIA Quadro Sync II",
+      "predicate": "支持",
+      "object": "Genlock",
+      "context": "NVIDIA Quadro Sync II卡支持Genlock技术，用于锁定外部时间信号",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "显示同步",
+      "predicate": "包含",
+      "object": "仅帧锁",
+      "context": "显示同步方法包含仅帧锁技术，用于在多个GPU之间同步帧显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "显示同步",
+      "predicate": "包含",
+      "object": "仅Genlock",
+      "context": "显示同步方法包含仅Genlock技术，用于从同一主时钟源同步所有群集PC",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "显示同步",
+      "predicate": "包含",
+      "object": "Genlock + 帧锁定",
+      "context": "显示同步方法包含Genlock和帧锁定结合的技术，最适合虚拟制片",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Genlock + 帧锁定",
+      "predicate": "优于",
+      "object": "仅Genlock",
+      "context": "Genlock和帧锁定结合的方法比仅Genlock更可靠，适用于虚拟制片",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "菊花链",
+      "predicate": "替代",
+      "object": "直接Genlock",
+      "context": "菊花链是直接Genlock以外的另一种信号锁定技术，用于传播主时钟信号",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NVIDIA Mosaic",
+      "predicate": "类似",
+      "object": "AMD EyeFinity",
+      "context": "NVIDIA Mosaic和AMD EyeFinity是类似的GPU技术，用于同步多个输出",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "帧锁定",
+      "predicate": "使用",
+      "object": "内部时钟",
+      "context": "帧锁定使用内部时钟来同步多个显示器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Genlock",
+      "predicate": "使用",
+      "object": "外部时钟",
+      "context": "Genlock使用外部时钟来同步所有设备，包括显示设备和摄像机",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "线程屏障",
+      "predicate": "同步",
+      "object": "游戏线程和渲染线程",
+      "context": "线程屏障用于同步游戏线程和渲染线程，确保多台PC上的内容一致",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "同步策略",
+      "predicate": "定义",
+      "object": "渲染同步",
+      "context": "同步策略定义如何同步渲染输出，可在nDisplay 3D配置编辑器中设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NVIDIA渲染同步策略",
+      "predicate": "启用",
+      "object": "NVIDIA交换组",
+      "context": "NVIDIA渲染同步策略在群集节点上启用NVIDIA交换组，用于帧锁定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "同步测试",
+      "predicate": "用于",
+      "object": "检测显示同步效果",
+      "context": "同步测试用于检测系统是否正确同步，避免显示撕裂瑕疵",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:57:36.949Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9883 字符)",
+      "timestamp": "2025-06-15T20:56:39.005Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16945,
+    "contentLength": 9883,
+    "processingTimeMs": 57949
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-engine-build-tool-target-reference",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-engine-build-tool-target-reference.md",
+  "triples": [
+    {
+      "subject": "虚幻编译工具（UBT）",
+      "predicate": "支持",
+      "object": "目标类型",
+      "context": "UBT是虚幻引擎的核心编译工具，了解其支持的目标类型是学习引擎编译系统的第一步",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "游戏（Game）目标",
+      "predicate": "需要",
+      "object": "数据烘焙",
+      "context": "游戏目标类型需要烘焙数据才能运行，这是理解游戏打包流程的关键概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "客户端（Client）目标",
+      "predicate": "排除",
+      "object": "服务器代码",
+      "context": "客户端目标专门用于联网游戏的客户端部分，不包含服务器代码，这对网络游戏开发很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "服务器（Server）目标",
+      "predicate": "排除",
+      "object": "客户端代码",
+      "context": "服务器目标专门用于联网游戏的服务器部分，不包含客户端代码，这对网络游戏开发很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器（Editor）目标",
+      "predicate": "扩展",
+      "object": "虚幻编辑器",
+      "context": "编辑器目标用于扩展编辑器功能，是开发编辑器工具的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "程序（Program）目标",
+      "predicate": "用于",
+      "object": "独立工具开发",
+      "context": "程序目标用于基于虚幻引擎开发独立工具，是引擎工具链开发的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": ".target.cs文件",
+      "predicate": "声明",
+      "object": "TargetRules派生类",
+      "context": "理解.target.cs文件的结构和内容是配置编译目标的基础",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "TargetRules类",
+      "predicate": "控制",
+      "object": "编译设置",
+      "context": "TargetRules类是配置编译行为的核心，掌握它对高级编译配置很重要",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "bUseUnityBuild",
+      "predicate": "影响",
+      "object": "编译速度",
+      "context": "Unity构建是重要的编译优化技术，理解其开关对项目编译效率有直接影响",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "bWithLiveCoding",
+      "predicate": "启用",
+      "object": "实时编码",
+      "context": "实时编码功能对快速迭代开发很重要，需要了解其配置方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "bCompileWithPluginSupport",
+      "predicate": "决定",
+      "object": "插件编译",
+      "context": "插件系统是虚幻引擎的重要扩展机制，需要了解如何配置目标以支持插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "bUseChaos",
+      "predicate": "替代",
+      "object": "PhysX",
+      "context": "Chaos物理系统是虚幻引擎的新物理引擎，了解其与PhysX的关系对物理系统选择很重要",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "bCompileAgainstEditor",
+      "predicate": "控制",
+      "object": "编辑器代码编译",
+      "context": "区分编辑器代码和运行时代码编译是理解引擎模块化设计的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LinkType",
+      "predicate": "决定",
+      "object": "模块链接方式",
+      "context": "理解单块链接和模块化链接的区别对引擎架构设计很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "bUseSharedPCHs",
+      "predicate": "优化",
+      "object": "编译时间",
+      "context": "共享PCH是重要的编译优化技术，了解其工作原理有助于项目配置",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "bForceEnableExceptions",
+      "predicate": "影响",
+      "object": "异常处理",
+      "context": "异常处理是C++重要特性，了解其在虚幻引擎中的配置方式对跨平台开发很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "bUseFastPDBLinking",
+      "predicate": "影响",
+      "object": "调试符号生成",
+      "context": "PDB文件处理方式影响调试体验和编译速度，是开发工作流的重要配置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "bUseChecksInShipping",
+      "predicate": "控制",
+      "object": "发布版本断言",
+      "context": "理解发布版本中的断言行为对问题诊断和性能优化很重要",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "CppStandard",
+      "predicate": "指定",
+      "object": "C++语言标准",
+      "context": "C++语言标准配置影响代码兼容性和可用特性，是项目基础配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "bEnableTrace",
+      "predicate": "启用",
+      "object": "性能分析",
+      "context": "Trace系统是引擎性能分析的基础，了解其启用方式对性能优化很重要",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T21:07:55.361Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (24162 字符)",
+      "timestamp": "2025-06-15T21:06:57.641Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 40942,
+    "contentLength": 24162,
+    "processingTimeMs": 57725
+  }
+}

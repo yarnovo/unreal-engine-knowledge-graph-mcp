@@ -1,0 +1,99 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-create-audio-effects-in-niagara-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-create-audio-effects-in-niagara-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Niagara系统",
+      "predicate": "包含",
+      "object": "播放音频模块",
+      "context": "播放音频模块是Niagara系统中用于播放一次性音效的组件，帮助学习者理解系统的基本音频功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara系统",
+      "predicate": "包含",
+      "object": "播放永久性音频模块",
+      "context": "播放永久性音频模块允许在模拟过程中更新音效属性，是Niagara系统的高级音频功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "播放音频模块",
+      "predicate": "适用于",
+      "object": "一次性音效",
+      "context": "播放音频模块专门用于处理不需要持续更新的简单音效场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "播放永久性音频模块",
+      "predicate": "依赖",
+      "object": "更新永久性音频模块",
+      "context": "要实现音效属性的持续更新，必须同时使用这两个模块，这对理解复杂音频实现很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频组件渲染器",
+      "predicate": "扩展",
+      "object": "音频控制能力",
+      "context": "音频组件渲染器提供更底层的音频控制，但需要更多实现工作，帮助理解高级音频定制方案",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "导出颗粒数据接口",
+      "predicate": "支持",
+      "object": "蓝图音频逻辑",
+      "context": "该接口允许将粒子数据导出到蓝图实现自定义音频逻辑，是最高级的音频集成方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "播放音频模块",
+      "predicate": "对比",
+      "object": "播放永久性音频模块",
+      "context": "理解两种模块在性能、功能和复杂度上的差异对选择正确音频方案至关重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容示例项目",
+      "predicate": "展示",
+      "object": "音频模块实现",
+      "context": "示例项目包含各种音频模块的实际应用案例，是学习不同实现方式的最佳实践",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频组件渲染器",
+      "predicate": "属于",
+      "object": "试验性功能",
+      "context": "了解该功能的实验性质有助于学习者评估是否适合在生产中使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sound Cue参数",
+      "predicate": "控制",
+      "object": "音频属性",
+      "context": "理解Sound Cue参数控制对实现动态音效很重要，特别是在永久性音频模块中",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:26:37.135Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8356 字符)",
+      "timestamp": "2025-06-15T19:25:49.625Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12377,
+    "contentLength": 8356,
+    "processingTimeMs": 47525
+  }
+}

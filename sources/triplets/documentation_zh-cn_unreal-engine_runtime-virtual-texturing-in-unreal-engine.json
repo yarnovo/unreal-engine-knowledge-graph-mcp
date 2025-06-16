@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_runtime-virtual-texturing-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_runtime-virtual-texturing-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "运行时虚拟纹理",
+      "predicate": "用于",
+      "object": "地形和适配地形的样条",
+      "context": "RVT适用于处理大面积地形和样条的着色数据，特别适合贴花类材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行时虚拟纹理",
+      "predicate": "包含",
+      "object": "运行时虚拟纹理资产",
+      "context": "RVT资产是RVT系统的核心配置组件，连接场景中的材质和渲染组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行时虚拟纹理资产",
+      "predicate": "被引用",
+      "object": "运行时虚拟纹理体积",
+      "context": "RVT体积Actor需要指定RVT资产来定义其纹理生成范围",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行时虚拟纹理资产",
+      "predicate": "被引用",
+      "object": "材质",
+      "context": "材质需要通过RVT资产来写入或采样虚拟纹理数据",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行时虚拟纹理体积",
+      "predicate": "控制",
+      "object": "RVT渲染范围",
+      "context": "体积定义了哪些场景组件会被渲染到RVT中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行时虚拟纹理材质表达式",
+      "predicate": "实现",
+      "object": "RVT数据写入和采样",
+      "context": "专用材质表达式(如Runtime Virtual Texture Output/Sample)是操作RVT的必要节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "场景组件",
+      "predicate": "渲染至",
+      "object": "运行时虚拟纹理",
+      "context": "静态网格体、地形等组件可通过配置渲染到RVT",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流送虚拟纹理",
+      "predicate": "扩展",
+      "object": "运行时虚拟纹理",
+      "context": "SVT可烘焙RVT的低mip数据，优化大型场景性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟纹理材质类型",
+      "predicate": "决定",
+      "object": "数据存储格式",
+      "context": "不同材质类型(如Base Color/Normal组合)对应不同的压缩格式和内存占用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "YCoCg编码",
+      "predicate": "优化",
+      "object": "底色存储",
+      "context": "相比RGB编码可减少色移和色带问题，但增加25%内存开销",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界空间法线",
+      "predicate": "推荐用于",
+      "object": "RVT法线存储",
+      "context": "通用坐标系能实现更好的多图元混合效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "半透明排序优先级",
+      "predicate": "控制",
+      "object": "RVT渲染顺序",
+      "context": "解决多组件混合时的图层排序问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟纹理LOD偏差",
+      "predicate": "影响",
+      "object": "RVT渲染细节",
+      "context": "控制渲染到RVT的LOD级别，影响性能和质量平衡",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "stat virtualtexturing",
+      "predicate": "显示",
+      "object": "RVT性能数据",
+      "context": "关键调试命令，用于分析RVT场景开销",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.VT.PoolSizeScale",
+      "predicate": "控制",
+      "object": "虚拟纹理内存池",
+      "context": "重要控制台变量，可基于平台调整内存预算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:39:27.549Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (19642 字符)",
+      "timestamp": "2025-06-15T20:38:39.580Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 31784,
+    "contentLength": 19642,
+    "processingTimeMs": 47975
+  }
+}

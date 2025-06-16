@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_spot-lights-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_spot-lights-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "聚光源",
+      "predicate": "属于",
+      "object": "光源类型",
+      "context": "聚光源是虚幻引擎中的一种光源类型，学习者需要理解其在光源分类中的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "聚光源",
+      "predicate": "包含",
+      "object": "内锥角",
+      "context": "内锥角是定义聚光源光照特性的核心参数之一，理解它对掌握聚光源行为至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "聚光源",
+      "predicate": "包含",
+      "object": "外锥角",
+      "context": "外锥角与内锥角共同定义聚光源的光照衰减区域，是必须掌握的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "聚光源",
+      "predicate": "支持",
+      "object": "静态移动性",
+      "context": "了解不同移动性设置对性能的影响是光源使用的关键知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "聚光源",
+      "predicate": "支持",
+      "object": "固定移动性",
+      "context": "固定移动性提供了烘焙和动态特性的平衡，是常见的选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "聚光源",
+      "predicate": "支持",
+      "object": "可移动移动性",
+      "context": "可移动光源提供最大灵活性但性能开销最高，学习者需要权衡选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "聚光源",
+      "predicate": "具有",
+      "object": "衰减半径",
+      "context": "衰减半径控制光源影响范围，是优化场景性能的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "聚光源",
+      "predicate": "使用",
+      "object": "IES纹理",
+      "context": "IES纹理允许使用真实世界的光照数据，提升场景真实感",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "聚光源",
+      "predicate": "支持",
+      "object": "光源函数材质",
+      "context": "光源函数材质扩展了聚光源的视觉效果，是高级光照技术的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内锥角",
+      "predicate": "与",
+      "object": "外锥角",
+      "context": "内外锥角共同定义光照衰减区域，理解它们的关系对塑造光照效果很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态移动性",
+      "predicate": "对比",
+      "object": "可移动移动性",
+      "context": "理解不同移动性设置的区别有助于在性能和效果间做出合理选择",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源描述文件",
+      "predicate": "影响",
+      "object": "聚光源亮度",
+      "context": "光源描述文件设置可以覆盖默认亮度值，影响最终光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lightmass",
+      "predicate": "控制",
+      "object": "间接光照",
+      "context": "Lightmass设置影响烘焙光照的质量和特性，是全局光照的重要部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "聚光源",
+      "predicate": "类比",
+      "object": "手电筒",
+      "context": "将聚光源类比常见光源有助于直观理解其工作原理",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "衰减半径",
+      "predicate": "限制",
+      "object": "光源影响范围",
+      "context": "衰减半径是优化场景性能的关键参数，控制光源的计算范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源函数材质",
+      "predicate": "扩展",
+      "object": "聚光源功能",
+      "context": "通过材质可以创建特殊光照效果，如投影图案或动态变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "聚光源",
+      "predicate": "用于",
+      "object": "舞台照明",
+      "context": "理解聚光源的典型应用场景有助于合理使用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "IES纹理",
+      "predicate": "基于",
+      "object": "真实世界数据",
+      "context": "IES文件包含真实灯具的光照数据，提升场景真实感",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源函数",
+      "predicate": "包含",
+      "object": "淡化距离",
+      "context": "淡化距离控制特效的渐变范围，是创造自然过渡的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "聚光源",
+      "predicate": "影响",
+      "object": "半透明物体",
+      "context": "理解光源如何影响不同材质类型对场景构建很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:53:35.347Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6633,
+    "contentLength": 3929,
+    "processingTimeMs": 56966
+  }
+}

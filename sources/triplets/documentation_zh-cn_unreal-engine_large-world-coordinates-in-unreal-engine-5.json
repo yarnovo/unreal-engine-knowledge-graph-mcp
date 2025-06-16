@@ -1,0 +1,189 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_large-world-coordinates-in-unreal-engine-5",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_large-world-coordinates-in-unreal-engine-5.md",
+  "triples": [
+    {
+      "subject": "大世界坐标",
+      "predicate": "支持",
+      "object": "双精度数据变量",
+      "context": "大世界坐标引入了对双精度数据变量的支持，提高了浮点精度",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大世界坐标",
+      "predicate": "扩展",
+      "object": "虚幻引擎4",
+      "context": "大世界坐标在虚幻引擎5中扩展了虚幻引擎4的32位浮点精度限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大世界坐标",
+      "predicate": "适用于",
+      "object": "建筑可视化",
+      "context": "大世界坐标适用于建筑可视化等需要高精度的场景",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大世界坐标",
+      "predicate": "适用于",
+      "object": "模拟仿真",
+      "context": "大世界坐标适用于模拟仿真等需要高精度的场景",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大世界坐标",
+      "predicate": "适用于",
+      "object": "渲染",
+      "context": "大世界坐标适用于渲染系统，包括Niagara和HLSL代码",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大世界坐标",
+      "predicate": "依赖",
+      "object": "WorldSettings类",
+      "context": "启用大世界坐标需要设置WorldSettings类中的bEnableLargeWorlds布尔值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大世界坐标",
+      "predicate": "影响",
+      "object": "蓝图",
+      "context": "大世界坐标影响了蓝图中浮点数据的显示方式，支持单精度和双精度子类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大世界坐标",
+      "predicate": "影响",
+      "object": "源代码接口",
+      "context": "大世界坐标影响了源代码接口中浮点类型的公开方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大世界坐标",
+      "predicate": "引入",
+      "object": "HLSL类型",
+      "context": "大世界坐标引入了新的HLSL类型，用于着色器代码转换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大世界坐标",
+      "predicate": "影响",
+      "object": "Niagara",
+      "context": "大世界坐标影响了Niagara中的数据存储方式，使用网格单元和新的位置数据类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大世界坐标",
+      "predicate": "支持",
+      "object": "Chaos破坏系统物理",
+      "context": "大世界坐标支持Chaos破坏系统物理使用双精度类型",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎5",
+      "predicate": "包含",
+      "object": "大世界坐标",
+      "context": "大世界坐标是虚幻引擎5的一个核心功能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎5",
+      "predicate": "升级",
+      "object": "虚幻引擎4",
+      "context": "虚幻引擎5是虚幻引擎4的升级版本，支持更多高精度功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "包含",
+      "object": "UMG",
+      "context": "UMG是蓝图系统的一部分，受大世界坐标影响",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "包含",
+      "object": "Control Rig",
+      "context": "Control Rig是蓝图系统的一部分，受大世界坐标影响",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "包含",
+      "object": "动画蓝图",
+      "context": "动画蓝图是蓝图系统的一部分，受大世界坐标影响",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "源代码接口",
+      "predicate": "依赖",
+      "object": "Unreal Header Tool",
+      "context": "源代码接口依赖Unreal Header Tool来解析浮点类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染",
+      "predicate": "使用",
+      "object": "世界空间",
+      "context": "渲染系统使用世界空间来描述对象在场景中的位置",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染",
+      "predicate": "使用",
+      "object": "本地空间",
+      "context": "渲染系统使用本地空间来描述对象相对于特定对象的位置",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara",
+      "predicate": "引入",
+      "object": "位置数据类型",
+      "context": "Niagara引入了新的位置数据类型来支持大世界坐标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos",
+      "predicate": "使用",
+      "object": "FVector3f",
+      "context": "Chaos系统使用FVector3f进行隐式类型转换",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos",
+      "predicate": "使用",
+      "object": "Chaos::FVec3",
+      "context": "Chaos系统使用Chaos::FVec3进行显式类型转换",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:42:12.383Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8736,
+    "contentLength": 5548,
+    "processingTimeMs": 71843
+  }
+}

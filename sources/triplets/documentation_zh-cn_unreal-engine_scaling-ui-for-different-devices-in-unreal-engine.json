@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_scaling-ui-for-different-devices-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_scaling-ui-for-different-devices-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "DPI缩放",
+      "predicate": "用于",
+      "object": "多设备UI适配",
+      "context": "DPI缩放功能是虚幻引擎中实现多设备UI适配的核心技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DPI缩放规则",
+      "predicate": "决定",
+      "object": "缩放比例",
+      "context": "DPI缩放规则决定了在不同分辨率下应用的UI缩放比例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DPI曲线",
+      "predicate": "包含",
+      "object": "分辨率与缩放值映射",
+      "context": "DPI曲线存储了不同分辨率与对应缩放值的映射关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件蓝图",
+      "predicate": "用于创建",
+      "object": "DPIWidget",
+      "context": "控件蓝图是创建可缩放UI元素的基础工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "用户界面设置",
+      "predicate": "配置",
+      "object": "DPI缩放规则",
+      "context": "用户界面设置窗口是配置DPI缩放规则的主要界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "最短边规则",
+      "predicate": "是",
+      "object": "DPI缩放规则类型",
+      "context": "最短边规则是DPI缩放的一种常用策略",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "锚点系统",
+      "predicate": "辅助",
+      "object": "UI元素定位",
+      "context": "锚点系统帮助确保UI元素在不同分辨率下的正确定位",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "屏幕尺寸下拉菜单",
+      "predicate": "选择",
+      "object": "设备高宽比",
+      "context": "通过屏幕尺寸下拉菜单可以选择目标设备的高宽比",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分辨率范围",
+      "predicate": "影响",
+      "object": "UI渲染精度",
+      "context": "设置正确的分辨率范围可以确保UI元素在不同设备上精确渲染",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "First Person Template",
+      "predicate": "可作为",
+      "object": "UI缩放测试项目",
+      "context": "First Person Template可以作为实践UI缩放功能的测试项目",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "包含",
+      "object": "用户界面设置入口",
+      "context": "项目设置中提供了访问用户界面设置的入口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "安卓手机",
+      "predicate": "作为",
+      "object": "基准设备",
+      "context": "文档中使用安卓手机作为设置基准缩放比例的示例设备",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "iPhone",
+      "predicate": "需要",
+      "object": "不同DPI缩放值",
+      "context": "iPhone等不同设备需要计算特定的DPI缩放值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "最小边计算",
+      "predicate": "用于",
+      "object": "缩放值确定",
+      "context": "新设备的缩放值通过比较其最小边与基准设备最小边来确定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:40:32.404Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6821,
+    "contentLength": 4523,
+    "processingTimeMs": 49279
+  }
+}

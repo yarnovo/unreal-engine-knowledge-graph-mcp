@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_volumetric-fog-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_volumetric-fog-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "体积雾",
+      "predicate": "属于",
+      "object": "指数高度雾组件",
+      "context": "体积雾是指数高度雾组件的可选部分，学习者需要理解体积雾是作为指数高度雾的一个扩展功能存在",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积雾",
+      "predicate": "依赖",
+      "object": "光源",
+      "context": "体积雾的效果依赖于场景中的光源设置，特别是光源的散射强度和阴影投射属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积雾",
+      "predicate": "支持",
+      "object": "粒子系统",
+      "context": "体积雾可以通过粒子系统进行局部控制，这是实现复杂雾效的重要手段",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积雾",
+      "predicate": "实现",
+      "object": "体积光照贴图",
+      "context": "体积光照贴图技术实现了体积雾的预计算光照，这是理解静态光照与雾交互的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "指数高度雾组件",
+      "predicate": "包含",
+      "object": "体积雾控制参数",
+      "context": "指数高度雾组件提供了全局控制体积雾的参数集，是调整雾效的主要界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源",
+      "predicate": "影响",
+      "object": "体积雾效果",
+      "context": "不同类型光源(定向/点/聚光)的属性设置会直接影响最终的体积雾表现效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积材质",
+      "predicate": "用于",
+      "object": "粒子系统",
+      "context": "体积材质专门用于粒子系统来实现局部雾效控制，这是高级雾效制作的技术要点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积雾",
+      "predicate": "替代",
+      "object": "指数高度雾的内散射颜色",
+      "context": "在视野距离内，体积雾会替换指数高度雾的内散射颜色效果，这是两个系统交互的重要知识点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积雾",
+      "predicate": "受限于",
+      "object": "体积纹理分辨率",
+      "context": "体积雾的性能主要受体积纹理分辨率影响，这是优化雾效性能的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积雾",
+      "predicate": "不支持",
+      "object": "光线追踪距离场阴影",
+      "context": "了解体积雾当前不支持的功能对技术选型和问题排查很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "散射分布属性",
+      "predicate": "控制",
+      "object": "体积雾散射方向",
+      "context": "散射分布属性决定了雾的光散射特性，是塑造雾效视觉效果的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积散射强度",
+      "predicate": "调节",
+      "object": "光源对雾的贡献",
+      "context": "体积散射强度参数直接控制各光源对雾效的影响程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "投射体积阴影",
+      "predicate": "增加",
+      "object": "光源渲染开销",
+      "context": "启用体积阴影会显著增加点/聚光源的渲染成本，这是性能优化的关键考量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积雾",
+      "predicate": "影响",
+      "object": "半透明材质",
+      "context": "体积雾与半透明材质的交互方式可能导致视觉瑕疵，需要特殊处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积雾",
+      "predicate": "基于",
+      "object": "物理渲染",
+      "context": "体积雾采用基于物理的渲染方法，这与传统指数雾有本质区别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:31:26.730Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9610 字符)",
+      "timestamp": "2025-06-15T21:30:43.315Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15534,
+    "contentLength": 9610,
+    "processingTimeMs": 43418
+  }
+}

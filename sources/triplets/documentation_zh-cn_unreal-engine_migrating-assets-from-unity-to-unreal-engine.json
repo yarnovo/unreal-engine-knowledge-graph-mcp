@@ -1,0 +1,163 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_migrating-assets-from-unity-to-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_migrating-assets-from-unity-to-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "静态网格体",
+      "context": "静态网格体是虚幻引擎中不会改变几何形状的三维网格体，用于构建游戏场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "可导入格式",
+      "object": ".fbx/.obj",
+      "context": "静态网格体可以通过.fbx或.obj格式导入虚幻引擎，推荐使用.fbx格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "使用",
+      "object": "笛卡尔坐标系",
+      "context": "虚幻引擎使用左手笛卡尔坐标系定义三维空间，X轴表示前后，Y轴表示左右，Z轴表示上下",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "测量单位",
+      "object": "虚幻单位(UU)",
+      "context": "1虚幻单位等于1厘米，这是虚幻引擎内部的标准测量单位",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX格式",
+      "predicate": "用于",
+      "object": "资产导入",
+      "context": "FBX是虚幻引擎最流行的资产导入格式，支持静态网格体、骨骼网格体和动画的导入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "包含",
+      "object": "骨架",
+      "context": "骨骼网格体资产包含角色的视觉效果网格体和骨架数据，用于制作角色动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画序列",
+      "predicate": "应用于",
+      "object": "骨骼网格体",
+      "context": "动画序列资产需要应用于骨骼网格体才能实现角色动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质",
+      "predicate": "使用",
+      "object": "纹理",
+      "context": "材质通过纹理定义物体表面的视觉属性，如颜色、反射性等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara系统",
+      "predicate": "替代",
+      "object": "Unity粒子系统",
+      "context": "Niagara是虚幻引擎的粒子效果系统，比Unity的粒子系统功能更强大",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "对应",
+      "object": "Unity可视化脚本",
+      "context": "虚幻引擎的蓝图可视化脚本系统与Unity的Bolt可视化脚本功能类似",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Paper 2D",
+      "predicate": "用于",
+      "object": "2D游戏开发",
+      "context": "Paper 2D是虚幻引擎专门用于开发2D游戏的Sprite系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "替代",
+      "object": "Unity Timeline",
+      "context": "虚幻引擎的Sequencer工具用于创建过场动画，功能类似于Unity的Timeline",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "C++",
+      "predicate": "替代",
+      "object": "Unity C#",
+      "context": "虚幻引擎使用C++作为主要编程语言，而非Unity使用的C#",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX导入器",
+      "predicate": "支持",
+      "object": "材质自动创建",
+      "context": "FBX导入器可以自动为导入的网格体创建新材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "需要",
+      "object": "物理资产",
+      "context": "导入骨骼网格体时会自动创建物理资产用于碰撞检测",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "控制",
+      "object": "动画播放逻辑",
+      "context": "动画蓝图用于在运行时控制动画的播放、混合和分层逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体框架",
+      "predicate": "用于",
+      "object": "视频播放",
+      "context": "虚幻引擎的媒体框架提供了视频文件播放功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SpeedTree",
+      "predicate": "用于",
+      "object": "植被创建",
+      "context": "SpeedTree是专门用于创建植被的第三方工具，可与虚幻引擎集成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:57:31.169Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (41861 字符)",
+      "timestamp": "2025-06-15T19:56:29.446Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 64087,
+    "contentLength": 41861,
+    "processingTimeMs": 61727
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_saving-and-loading-a-session-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_saving-and-loading-a-session-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "协作视图",
+      "predicate": "包含",
+      "object": "注释",
+      "context": "协作视图的主讲者和其他参与者可以保存注释，帮助学习者理解协作视图的功能组成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "协作视图",
+      "predicate": "包含",
+      "object": "测量值",
+      "context": "协作视图的主讲者和其他参与者可以保存测量值，帮助学习者理解协作视图的功能组成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "协作视图",
+      "predicate": "包含",
+      "object": "X射线透明状态",
+      "context": "协作视图的主讲者和其他参与者可以保存X射线透明状态，帮助学习者理解协作视图的功能组成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "协作视图",
+      "predicate": "包含",
+      "object": "变换",
+      "context": "协作视图的主讲者和其他参与者可以保存变换所移动的项目的位置，帮助学习者理解协作视图的功能组成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "保存会话",
+      "predicate": "生成",
+      "object": ".sav文件",
+      "context": "保存会话会生成.sav文件，帮助学习者理解会话保存的输出结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "保存会话",
+      "predicate": "保存到",
+      "object": "YourProjectName/Saved/SaveGames",
+      "context": "会话保存在YourProjectName/Saved/SaveGames子文件夹中，帮助学习者理解会话保存的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "保存会话",
+      "predicate": "不支持",
+      "object": "VR模式",
+      "context": "在VR模式下无法保存和恢复会话，帮助学习者理解保存会话的限制条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "加载会话",
+      "predicate": "使用",
+      "object": ".sav文件",
+      "context": "加载会话需要使用.sav文件，帮助学习者理解会话加载的输入要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "加载会话",
+      "predicate": "包含",
+      "object": "会话列表",
+      "context": "加载会话时会显示会话列表，帮助学习者理解会话加载的界面元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Editor_CollabViewerUtility_BP",
+      "predicate": "用于",
+      "object": "加载会话",
+      "context": "Editor_CollabViewerUtility_BP用于在编辑器中加载会话，帮助学习者理解该蓝图的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Editor_CollabViewerUtility_BP",
+      "predicate": "位于",
+      "object": "CollaborativeViewer > Blueprints > Tools",
+      "context": "Editor_CollabViewerUtility_BP位于CollaborativeViewer > Blueprints > Tools文件夹中，帮助学习者定位该蓝图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MainSaveGame.sav",
+      "predicate": "需要",
+      "object": "加载会话",
+      "context": "加载会话需要MainSaveGame.sav文件，帮助学习者理解会话加载的依赖文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "保存会话",
+      "predicate": "前置",
+      "object": "加载会话",
+      "context": "必须先保存会话才能加载会话，帮助学习者理解这两个操作的时序关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:39:20.197Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3940,
+    "contentLength": 2914,
+    "processingTimeMs": 40623
+  }
+}

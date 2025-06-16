@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_hdri-backdrop-visualization-tool-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_hdri-backdrop-visualization-tool-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "HDRI背景可视化工具",
+      "predicate": "用于",
+      "object": "产品可视化",
+      "context": "HDRI背景可视化工具专门用于产品可视化，提供快速设置和精美光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HDRI背景可视化工具",
+      "predicate": "包含",
+      "object": "HDRI背景Actor",
+      "context": "HDRI背景Actor是HDRI背景可视化工具的核心组件，自动处理背景网格体和光照",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HDRI背景Actor",
+      "predicate": "依赖",
+      "object": "HDRI背景插件",
+      "context": "使用HDRI背景Actor前需要先启用HDRI背景插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HDRI背景Actor",
+      "predicate": "控制",
+      "object": "动态天空光照",
+      "context": "HDRI背景Actor自动创建并控制动态天空光照组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HDRI背景Actor",
+      "predicate": "使用",
+      "object": "立方体贴图",
+      "context": "HDRI背景Actor使用立方体贴图来投射HDR图像",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HDRI背景Actor",
+      "predicate": "支持",
+      "object": "硬件光线追踪",
+      "context": "HDRI背景Actor支持硬件光线追踪功能，包含光线追踪阴影",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HDR图像",
+      "predicate": "需要",
+      "object": "纹理编辑器设置",
+      "context": "导入的HDR图像需要在纹理编辑器中设置最大纹理尺寸和Mip生成设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HDRI背景设置",
+      "predicate": "包含",
+      "object": "投射中心",
+      "context": "投射中心是HDRI背景设置中的重要参数，影响HDR图像的投射效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HDRI背景设置",
+      "predicate": "包含",
+      "object": "光照距离系数",
+      "context": "光照距离系数控制地面区域的光照混合效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EnviroDome",
+      "predicate": "适用于",
+      "object": "大型外部环境",
+      "context": "EnviroDome网格体特别适合大型外部环境的HDR图像",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EnviroBoxSharp",
+      "predicate": "适用于",
+      "object": "室内环境",
+      "context": "EnviroBoxSharp网格体适合仓库等室内环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高精度法线",
+      "predicate": "改善",
+      "object": "反射质量",
+      "context": "启用高精度法线可以改善平滑表面的反射质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "反射采集分辨率",
+      "predicate": "影响",
+      "object": "反射精度",
+      "context": "提高反射采集分辨率可以提升反射的精度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HDRI背景可视化工具",
+      "predicate": "替代",
+      "object": "常规天空光照",
+      "context": "使用HDRI背景时应删除常规天空光照，避免性能和质量问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HDRI背景Actor",
+      "predicate": "生成",
+      "object": "阴影捕捉",
+      "context": "HDRI背景Actor自动生成阴影捕捉，创造物体与背景的一致性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:18:19.799Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11758 字符)",
+      "timestamp": "2025-06-15T19:17:27.475Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 18119,
+    "contentLength": 11758,
+    "processingTimeMs": 52329
+  }
+}

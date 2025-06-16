@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_create-a-respawning-pickup-item-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_create-a-respawning-pickup-item-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "PickupBase",
+      "predicate": "继承",
+      "object": "Actor",
+      "context": "PickupBase类继承自Actor类，是游戏中可交互物品的基础类",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "PickupBase",
+      "predicate": "包含",
+      "object": "SphereComponent",
+      "context": "PickupBase包含球体碰撞组件用于检测玩家交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PickupBase",
+      "predicate": "包含",
+      "object": "StaticMeshComponent",
+      "context": "PickupBase包含静态网格体组件用于视觉表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PickupBase",
+      "predicate": "依赖",
+      "object": "UItemDefinition",
+      "context": "PickupBase依赖UItemDefinition数据资产存储物品信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PickupBase",
+      "predicate": "使用",
+      "object": "UDataTable",
+      "context": "PickupBase使用数据表初始化物品属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InitializePickup",
+      "predicate": "实现",
+      "object": "PickupBase初始化",
+      "context": "InitializePickup函数实现PickupBase的初始化逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnSphereBeginOverlap",
+      "predicate": "处理",
+      "object": "拾取交互",
+      "context": "OnSphereBeginOverlap函数处理玩家与拾取物的碰撞交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PickupBase",
+      "predicate": "支持",
+      "object": "重新生成",
+      "context": "PickupBase支持通过定时器实现物品重新生成功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PostEditChangeProperty",
+      "predicate": "用于",
+      "object": "编辑器实时更新",
+      "context": "PostEditChangeProperty函数用于在编辑器中实时更新拾取物属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PickupBase",
+      "predicate": "基于",
+      "object": "蓝图系统",
+      "context": "PickupBase设计为可被蓝图继承和扩展",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FTimerHandle",
+      "predicate": "控制",
+      "object": "重新生成定时器",
+      "context": "FTimerHandle用于控制拾取物重新生成的定时器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSoftObjectPtr",
+      "predicate": "用于",
+      "object": "异步资源加载",
+      "context": "TSoftObjectPtr用于实现资源的异步加载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PickupBase",
+      "predicate": "关联",
+      "object": "AdventureCharacter",
+      "context": "PickupBase与玩家角色类交互实现拾取功能",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UItemDefinition",
+      "predicate": "存储",
+      "object": "物品数据",
+      "context": "UItemDefinition数据资产存储物品的基础属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FItemData",
+      "predicate": "定义",
+      "object": "物品数据结构",
+      "context": "FItemData结构体定义数据表中的物品数据结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ECollisionEnabled",
+      "predicate": "控制",
+      "object": "碰撞检测",
+      "context": "ECollisionEnabled枚举控制碰撞组件的检测行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CreateDefaultSubobject",
+      "predicate": "用于",
+      "object": "组件创建",
+      "context": "CreateDefaultSubobject模板函数用于在构造函数中创建组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SetTimer",
+      "predicate": "实现",
+      "object": "延迟回调",
+      "context": "SetTimer函数实现延迟回调功能用于物品重新生成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NewObject",
+      "predicate": "用于",
+      "object": "运行时对象创建",
+      "context": "NewObject模板函数用于在运行时动态创建UObject实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:37:44.839Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (34565 字符)",
+      "timestamp": "2025-06-15T18:36:45.875Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 46626,
+    "contentLength": 34565,
+    "processingTimeMs": 58973
+  }
+}

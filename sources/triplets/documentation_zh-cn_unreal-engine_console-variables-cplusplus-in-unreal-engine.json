@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_console-variables-cplusplus-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_console-variables-cplusplus-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "控制台变量",
+      "predicate": "属于",
+      "object": "虚幻引擎调试系统",
+      "context": "控制台变量是虚幻引擎调试系统的重要组成部分，用于实时调整引擎参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台命令",
+      "predicate": "属于",
+      "object": "虚幻引擎调试系统",
+      "context": "控制台命令是开发者与引擎交互的重要方式，用于执行特定操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台管理器",
+      "predicate": "管理",
+      "object": "控制台变量",
+      "context": "控制台管理器负责注册、查找和管理所有控制台变量",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "控制台管理器",
+      "predicate": "管理",
+      "object": "控制台命令",
+      "context": "控制台管理器提供控制台命令的注册和查找功能",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "IConsoleManager接口",
+      "predicate": "实现",
+      "object": "控制台管理器功能",
+      "context": "IConsoleManager是访问控制台管理器功能的编程接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EConsoleVariableFlags",
+      "predicate": "定义",
+      "object": "控制台变量属性",
+      "context": "EConsoleVariableFlags枚举定义了控制台变量的各种属性和行为标志",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台变量",
+      "predicate": "支持",
+      "object": "数据类型",
+      "context": "控制台变量支持多种数据类型，包括int32、float和FString等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台变量",
+      "predicate": "包含",
+      "object": "帮助文本",
+      "context": "每个控制台变量都可以包含多行帮助文本，解释其用途和有效值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ConsoleVariables.ini",
+      "predicate": "存储",
+      "object": "控制台变量初始值",
+      "context": "ConsoleVariables.ini文件用于在引擎启动时设置控制台变量的初始状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台变量",
+      "predicate": "遵循",
+      "object": "命名规范",
+      "context": "控制台变量有特定的命名规范，要求简短、描述性强且不使用否定含义",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "控制台变量",
+      "predicate": "具有",
+      "object": "优先级系统",
+      "context": "控制台变量具有优先级系统，决定不同来源设置的覆盖顺序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TAutoConsoleVariable",
+      "predicate": "是",
+      "object": "控制台变量模板类",
+      "context": "TAutoConsoleVariable是创建类型安全控制台变量的模板类",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "FAutoConsoleVariableRef",
+      "predicate": "提供",
+      "object": "变量引用",
+      "context": "FAutoConsoleVariableRef提供对现有变量的引用，但功能有限",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FAutoConsoleVariableSink",
+      "predicate": "用于",
+      "object": "变量修改追踪",
+      "context": "FAutoConsoleVariableSink用于在控制台变量修改时执行回调",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台变量",
+      "predicate": "可通过",
+      "object": "命令行设置",
+      "context": "控制台变量可以通过命令行参数在启动时设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台变量",
+      "predicate": "可来自",
+      "object": "项目设置",
+      "context": "控制台变量可以从项目设置文件中获取初始值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台变量",
+      "predicate": "可来自",
+      "object": "可延展性设置",
+      "context": "控制台变量可以从可延展性设置中获取值",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "UnregisterConsoleVariable",
+      "predicate": "用于",
+      "object": "取消注册变量",
+      "context": "UnregisterConsoleVariable方法用于取消注册控制台变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台变量",
+      "predicate": "支持",
+      "object": "线程安全访问",
+      "context": "控制台变量可以通过GetValueOnGameThread等方法实现线程安全访问",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台变量",
+      "predicate": "记录",
+      "object": "修改来源",
+      "context": "控制台变量会记录最后修改它的来源(如命令行、构造函数等)",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:32:13.802Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9950 字符)",
+      "timestamp": "2025-06-15T18:31:02.866Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15670,
+    "contentLength": 9950,
+    "processingTimeMs": 70942
+  }
+}

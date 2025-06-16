@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_blueprint-variables-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_blueprint-variables-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "蓝图变量",
+      "predicate": "属于",
+      "object": "蓝图",
+      "context": "变量是蓝图的组成部分，用于存储值和引用对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图变量",
+      "predicate": "包含",
+      "object": "变量类型",
+      "context": "变量可以创建为多种类型，包括基本数据类型和引用类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变量类型",
+      "predicate": "包括",
+      "object": "布尔",
+      "context": "布尔是变量的一种基本数据类型，表示true或false值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变量类型",
+      "predicate": "包括",
+      "object": "整数",
+      "context": "整数是变量的一种基本数据类型，表示整数值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变量类型",
+      "predicate": "包括",
+      "object": "浮点",
+      "context": "浮点是变量的一种基本数据类型，表示带小数的数值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变量类型",
+      "predicate": "包括",
+      "object": "字符串",
+      "context": "字符串是变量的一种基本数据类型，表示一组字母数字字符",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变量类型",
+      "predicate": "包括",
+      "object": "对象",
+      "context": "对象是变量的一种引用类型，用于保存蓝图对象的引用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "我的蓝图选项卡",
+      "predicate": "管理",
+      "object": "蓝图变量",
+      "context": "我的蓝图选项卡用于添加、列出和管理蓝图中的所有变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "公开变量",
+      "predicate": "允许",
+      "object": "外部修改",
+      "context": "公开变量可以在蓝图之外的细节面板中修改其值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "私有变量",
+      "predicate": "限制",
+      "object": "外部访问",
+      "context": "私有变量不能从外部蓝图修改，只能在内部访问",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成时公开",
+      "predicate": "启用",
+      "object": "生成时设置变量",
+      "context": "生成时公开的变量可以在生成蓝图实例时设置其值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "向过场动画公开",
+      "predicate": "允许",
+      "object": "Sequencer控制",
+      "context": "向过场动画公开的变量可以由Sequencer影响其值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "提升为变量",
+      "predicate": "创建",
+      "object": "新变量",
+      "context": "通过提升为变量功能可以从节点引脚创建新的变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "获取节点",
+      "predicate": "读取",
+      "object": "变量值",
+      "context": "获取节点用于读取变量的当前值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设置节点",
+      "predicate": "修改",
+      "object": "变量值",
+      "context": "设置节点用于更改变量的值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变量属性",
+      "predicate": "控制",
+      "object": "变量行为",
+      "context": "变量属性如可编辑实例、私有等控制变量的访问和修改方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变量高级属性",
+      "predicate": "扩展",
+      "object": "变量功能",
+      "context": "高级属性如配置变量、临时等扩展了变量的存储和使用方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图变量",
+      "predicate": "用于",
+      "object": "数据存储",
+      "context": "变量的主要用途是存储值和对象引用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图变量",
+      "predicate": "用于",
+      "object": "数据传递",
+      "context": "变量可以在蓝图的不同部分之间传递数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:15:19.574Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11860 字符)",
+      "timestamp": "2025-06-15T18:14:21.460Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17391,
+    "contentLength": 11860,
+    "processingTimeMs": 58122
+  }
+}

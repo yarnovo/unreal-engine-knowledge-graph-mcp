@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_large-world-coordinates-project-conversion-guidelines-in-unreal-engine-5",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_large-world-coordinates-project-conversion-guidelines-in-unreal-engine-5.md",
+  "triples": [
+    {
+      "subject": "大型世界坐标（LWC）",
+      "predicate": "扩展",
+      "object": "虚幻引擎5",
+      "context": "LWC是UE5引入的新功能，用于支持更大的世界坐标范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FVector",
+      "predicate": "包含变体",
+      "object": "FVector3f/FVector3d",
+      "context": "FVector在UE5中作为默认别名，实际包含float和double两种精度变体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FMath",
+      "predicate": "支持",
+      "object": "Double运算",
+      "context": "FMath数学库在UE5中扩展了对双精度浮点的支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WorldSettings",
+      "predicate": "控制",
+      "object": "大型世界边界检查",
+      "context": "通过设置bEnableLargeWorlds可以禁用世界边界检查",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE_DECLARE_LWC_TYPE",
+      "predicate": "用于",
+      "object": "变体类型前向声明",
+      "context": "宏指令专门用于LWC变体类型的前向声明",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FMath函数",
+      "predicate": "需要",
+      "object": "显式类型转换",
+      "context": "混合精度参数调用时需要显式转换以避免精度警告",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "GPU",
+      "predicate": "不支持",
+      "object": "double参数",
+      "context": "着色器参数必须使用浮点变体类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图浮点类型",
+      "predicate": "统一",
+      "object": "单/双精度表示",
+      "context": "UE5中蓝图浮点自动适应精度需求",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UFUNCTION",
+      "predicate": "需要审核",
+      "object": "浮点精度",
+      "context": "暴露给蓝图的浮点方法需要检查精度损失风险",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "插件开发",
+      "predicate": "需要考虑",
+      "object": "世界空间类型",
+      "context": "插件需要根据使用场景选择float/double变体",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "LWC渲染",
+      "predicate": "引入",
+      "object": "新HLSL类型",
+      "context": "大型世界坐标需要特殊的着色器类型支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FReal",
+      "predicate": "替代",
+      "object": "直接float/double",
+      "context": "推荐使用FReal别名以保证未来兼容性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "批量序列化",
+      "predicate": "需要处理",
+      "object": "变体类型转换",
+      "context": "序列化数组时需要特别注意精度转换问题",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "虚幻引擎4",
+      "predicate": "升级到",
+      "object": "虚幻引擎5",
+      "context": "LWC是UE4项目升级到UE5时需要考虑的重要变更",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "精度损失",
+      "predicate": "导致",
+      "object": "运行时错误",
+      "context": "不正确的类型转换可能引发逻辑错误",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:43:05.479Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12881 字符)",
+      "timestamp": "2025-06-15T19:42:17.279Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 20505,
+    "contentLength": 12881,
+    "processingTimeMs": 48202
+  }
+}

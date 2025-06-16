@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_visual-logger-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_visual-logger-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "可视记录器",
+      "predicate": "是",
+      "object": "调试工具",
+      "context": "可视记录器被明确描述为用于创建和录制游戏进程状态可视显示的调试工具",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "可视记录器",
+      "predicate": "支持",
+      "object": "实时调试",
+      "context": "开发者能够在游戏会话期间实时查看调试输出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可视记录器",
+      "predicate": "支持",
+      "object": "离线调试",
+      "context": "开发者可以在会话结束后在编辑器中进行查看记录的数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可视记录器",
+      "predicate": "包含",
+      "object": "可视记录器视口",
+      "context": "可视记录器视口是可视记录器的主要界面组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可视记录器视口",
+      "predicate": "包含",
+      "object": "Actor列表",
+      "context": "Actor列表是可视记录器视口的重要组成部分，显示已记录信息的Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可视记录器视口",
+      "predicate": "包含",
+      "object": "Actor快照视图",
+      "context": "Actor快照视图显示所选Actor的状态详细快照",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可视记录器视口",
+      "predicate": "包含",
+      "object": "文本窗口",
+      "context": "文本窗口显示调试信息输出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可视记录器视口",
+      "predicate": "包含",
+      "object": "时间轴",
+      "context": "时间轴用于在录制的日志数据中导航不同时间点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可视记录器",
+      "predicate": "支持",
+      "object": "三种数据类型",
+      "context": "可视记录器可以处理Actor快照、日志消息和调试形状三种数据类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor快照",
+      "predicate": "实现方式",
+      "object": "IVisualLoggerDebugSnapshotInterface",
+      "context": "要向Actor快照视图添加数据，必须实现IVisualLoggerDebugSnapshotInterface接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "日志记录文本",
+      "predicate": "使用",
+      "object": "UE_VLOG宏",
+      "context": "使用UE_VLOG宏可以在文本窗口中记录文本信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试形状",
+      "predicate": "包括",
+      "object": "多种几何形状",
+      "context": "可视记录器支持记录多种调试形状，如线段、球体、盒体、椎体等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可视记录器",
+      "predicate": "适用于",
+      "object": "AI行为调试",
+      "context": "文档示例显示可视记录器可用于调试AI路径和行为",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "可视记录器",
+      "predicate": "适用于",
+      "object": "物理模拟调试",
+      "context": "调试形状功能特别适合用于物理模拟和碰撞检测的调试",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "IVisualLoggerDebugSnapshotInterface",
+      "predicate": "需要实现",
+      "object": "GrabDebugSnapshot函数",
+      "context": "该接口要求实现GrabDebugSnapshot函数来提供Actor的快照数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE_VLOG宏",
+      "predicate": "替代",
+      "object": "UE_LOG宏",
+      "context": "UE_VLOG_UELOG宏可以替代单独使用UE_VLOG和UE_LOG的组合",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "可视记录器",
+      "predicate": "依赖",
+      "object": "ENABLE_VISUAL_LOG宏",
+      "context": "可视记录器相关代码通常需要检查ENABLE_VISUAL_LOG宏",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "时间轴",
+      "predicate": "控制",
+      "object": "数据查看点",
+      "context": "时间轴允许开发者在录制的数据中导航到特定时间点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor列表",
+      "predicate": "支持",
+      "object": "搜索功能",
+      "context": "Actor列表包含搜索栏，可以快速找到指定Actor的日志信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor快照视图",
+      "predicate": "支持",
+      "object": "数据分类",
+      "context": "快照数据可以在游戏代码中分类和自定义，条目可以展开或折叠",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:30:36.292Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11467,
+    "contentLength": 7363,
+    "processingTimeMs": 53713
+  }
+}

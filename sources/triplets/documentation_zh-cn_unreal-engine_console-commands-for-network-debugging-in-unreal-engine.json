@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_console-commands-for-network-debugging-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_console-commands-for-network-debugging-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "包含",
+      "object": "网络调试控制台命令",
+      "context": "虚幻引擎提供了专门的网络调试控制台命令和变量，用于调试网络游戏",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "网络调试控制台命令",
+      "predicate": "分为",
+      "object": "控制台变量和控制台命令",
+      "context": "网络调试功能通过控制台变量和控制台命令两种形式提供",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络连接控制台变量",
+      "predicate": "用于",
+      "object": "自定义网络连接和复制系统行为",
+      "context": "以net.或p.net.开头的变量专门用于调整网络连接和物理效果的网络行为",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "net.ActorChannelPool",
+      "predicate": "影响",
+      "object": "内存和对象创建开销",
+      "context": "启用Actor通道池可以节省内存和对象创建开销",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "net.AllowAsyncLoading",
+      "predicate": "关联",
+      "object": "net.DelayUnmappedRPCs",
+      "context": "这两个变量共同处理异步加载场景下的RPC执行策略",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "net.DormancyEnable",
+      "predicate": "控制",
+      "object": "网络休眠系统",
+      "context": "该变量启用网络休眠系统以减少不频繁更新的Actor的资源消耗",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Iris",
+      "predicate": "是",
+      "object": "下一代复制系统",
+      "context": "Iris被设计为虚幻引擎的新一代复制系统，提供更高效的网络复制",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "net.iris.UseIrisReplication",
+      "predicate": "切换",
+      "object": "Iris复制系统",
+      "context": "该变量控制是否使用Iris复制系统替代传统复制系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NetEmulation命令组",
+      "predicate": "用于",
+      "object": "网络条件模拟",
+      "context": "这组命令可以模拟各种网络条件如丢包、延迟等，用于测试网络健壮性",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "DumpCVars",
+      "predicate": "检查",
+      "object": "控制台变量状态",
+      "context": "该命令用于查看所有控制台变量的当前状态",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "网络调试",
+      "predicate": "依赖",
+      "object": "控制台命令系统",
+      "context": "网络调试功能深度集成在虚幻引擎的控制台命令系统中",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "net.VerifyMagicHeader",
+      "predicate": "验证",
+      "object": "数据包魔法标头",
+      "context": "该变量启用对数据包魔法标头的验证，增强网络安全性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "推送模型网络模式",
+      "predicate": "通过",
+      "object": "net.IsPushModelEnabled启用",
+      "context": "推送模型模式需要显式启用，改变了传统的属性复制方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "net.DebugDraw",
+      "predicate": "提供",
+      "object": "网络休眠可视化",
+      "context": "该变量启用网络休眠和相关性的可视化调试信息",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "RPC DoS防护",
+      "predicate": "通过",
+      "object": "net.RPCDoSDetectionOverride配置",
+      "context": "可以通过该变量按NetDriver配置RPC DoS检测保护",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "网络复制优化",
+      "predicate": "涉及",
+      "object": "net.ShareSerializedData",
+      "context": "该变量启用共享序列化系统，减少多个客户端需要相同数据时的CPU使用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "无缝漫游",
+      "predicate": "受控于",
+      "object": "net.AllowPIESeamlessTravel",
+      "context": "该变量控制是否允许在PIE模式下进行无缝漫游",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络带宽控制",
+      "predicate": "通过",
+      "object": "net.GenerateConstantBandwidth实现",
+      "context": "该命令可用于生成恒定的网络带宽流量，用于测试",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "IPv6支持",
+      "predicate": "通过",
+      "object": "net.DisableIPv6控制",
+      "context": "该变量决定是否禁用IPv6网络支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据包顺序校正",
+      "predicate": "由",
+      "object": "net.DoPacketOrderCorrection处理",
+      "context": "该变量启用对乱序数据包的缓存和重新排序功能",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T18:32:15.734Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (27020 字符)",
+      "timestamp": "2025-06-15T18:31:02.864Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 47278,
+    "contentLength": 27020,
+    "processingTimeMs": 72876
+  }
+}

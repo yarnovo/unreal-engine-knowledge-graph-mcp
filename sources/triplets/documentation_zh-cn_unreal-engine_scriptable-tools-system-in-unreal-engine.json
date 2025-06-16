@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_scriptable-tools-system-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_scriptable-tools-system-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "可脚本化工具系统",
+      "predicate": "基于",
+      "object": "交互式工具框架",
+      "context": "可脚本化工具系统插件将交互式工具框架公开给蓝图，这是系统的基础架构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可脚本化工具系统",
+      "predicate": "扩展",
+      "object": "蓝图",
+      "context": "系统允许通过蓝图创建自定义工具，为非C++程序员提供开发能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可脚本化工具系统",
+      "predicate": "参考",
+      "object": "建模编辑器模式",
+      "context": "交互式工具的主要参考标准是建模编辑器模式，但两者没有直接技术依赖",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UScriptableInteractiveTool",
+      "predicate": "是基类",
+      "object": "可脚本化工具",
+      "context": "所有可脚本化工具都继承自UScriptableInteractiveTool基类",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "UEditorScriptableInteractiveTool",
+      "predicate": "扩展",
+      "object": "UScriptableInteractiveTool",
+      "context": "编辑器专用工具类扩展了基础工具类的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可脚本化工具",
+      "predicate": "包含",
+      "object": "工具属性集",
+      "context": "属性集是工具向用户公开UI设置的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可脚本化工具",
+      "predicate": "支持",
+      "object": "3D小工具",
+      "context": "系统提供创建和管理3D变换小工具的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可脚本化工具",
+      "predicate": "集成",
+      "object": "蓝图Slate控件",
+      "context": "工具可以与UMG/Slate集成以提供自定义UI",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "可脚本化工具",
+      "predicate": "兼容",
+      "object": "程序化内容生成",
+      "context": "文档明确说明可与PCG等其他引擎功能搭配使用",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可脚本化工具编辑器模式",
+      "predicate": "依赖",
+      "object": "可脚本化工具系统插件",
+      "context": "必须启用插件才能使用编辑器模式",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "属性监视器",
+      "predicate": "用于",
+      "object": "响应属性变化",
+      "context": "专门用于监听属性集值变化的机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块化基础工具",
+      "predicate": "提供",
+      "object": "输入行为处理",
+      "context": "专门处理鼠标/键盘等输入行为的工具子类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具渲染API",
+      "predicate": "替代",
+      "object": "调试绘制函数",
+      "context": "文档建议优先使用工具专用渲染API而非调试绘制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "可脚本化工具",
+      "predicate": "前置学习",
+      "object": "蓝图基础",
+      "context": "文档明确建议先掌握蓝图知识再使用本系统",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "可脚本化工具",
+      "predicate": "后续学习",
+      "object": "创建可脚本化工具教程",
+      "context": "文档最后指向的实践教程是系统学习的自然延续",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:40:38.744Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (18654 字符)",
+      "timestamp": "2025-06-15T20:39:43.133Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 30998,
+    "contentLength": 18654,
+    "processingTimeMs": 55619
+  }
+}

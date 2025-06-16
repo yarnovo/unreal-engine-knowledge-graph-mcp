@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_real-time-compositing-tools-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_real-time-compositing-tools-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Composure插件",
+      "predicate": "用于",
+      "object": "实时图像合成",
+      "context": "Composure是虚幻引擎中处理实时图像合成的核心插件，帮助开发者合并不同来源的视觉元素",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "合成树面板",
+      "predicate": "管理",
+      "object": "合成元素层级",
+      "context": "合成树面板是构建和管理合成元素层级结构的主要界面，对理解合成流程的组织结构至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成元素",
+      "predicate": "包含",
+      "object": "内部通道",
+      "context": "每个合成元素都包含特有的内部通道集，这些通道定义了元素的渲染流程步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CG图层元素",
+      "predicate": "属于",
+      "object": "合成元素类型",
+      "context": "CG图层元素是合成元素的一种特定类型，用于处理计算机生成的图形内容",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "媒体板图层",
+      "predicate": "属于",
+      "object": "合成元素类型",
+      "context": "媒体板图层是另一种合成元素类型，专门用于处理视频输入",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "自定义材质通道",
+      "predicate": "扩展",
+      "object": "合成功能",
+      "context": "自定义材质通道允许开发者通过编写材质来扩展合成流程的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成材质",
+      "predicate": "引用",
+      "object": "元素和通道",
+      "context": "合成材质可以通过命名引用其他元素和通道，这是实现复杂合成效果的关键技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输出通道",
+      "predicate": "路由",
+      "object": "合成结果",
+      "context": "输出通道负责将合成结果路由到外部目标，如采集卡或视口",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "替代",
+      "object": "输出合成",
+      "context": "Sequencer提供了另一种输出合成的工作流，适合需要时间线控制的场景",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "元素预览窗格",
+      "predicate": "显示",
+      "object": "元素渲染状态",
+      "context": "元素预览窗格帮助开发者实时查看元素的渲染状态和错误信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "透明度控制",
+      "predicate": "影响",
+      "object": "元素混合效果",
+      "context": "透明度控制是决定元素如何混合在一起的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染分辨率",
+      "predicate": "决定",
+      "object": "元素输出质量",
+      "context": "渲染分辨率设置直接影响合成元素的输出质量和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "嵌套元素",
+      "predicate": "决定",
+      "object": "渲染顺序",
+      "context": "元素的嵌套结构决定了它们的渲染顺序，这是理解合成流程的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PrePass参数",
+      "predicate": "引用",
+      "object": "前序通道",
+      "context": "PrePass是特殊参数名，用于引用当前通道之前运行的通道结果",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "Over节点",
+      "predicate": "实现",
+      "object": "元素混合",
+      "context": "Over节点是专门用于将两个元素按照透明度混合的材质表达式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体采集通道",
+      "predicate": "主要用于",
+      "object": "视频输出",
+      "context": "媒体采集通道是将合成结果输出到采集卡的主要方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "元素变换",
+      "predicate": "修改",
+      "object": "渲染结果",
+      "context": "变换通道可以修改元素的渲染结果，如颜色空间转换等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "显示",
+      "object": "元素属性",
+      "context": "细节面板是查看和编辑元素属性的主要界面",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "材质参数",
+      "predicate": "公开",
+      "object": "调节控件",
+      "context": "材质参数可以公开到细节面板，便于实时调节合成效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子关卡",
+      "predicate": "组织",
+      "object": "合成元素",
+      "context": "将元素添加到子关卡可以提高场景的组织性和可移植性",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T20:33:27.564Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11500 字符)",
+      "timestamp": "2025-06-15T20:32:31.637Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19052,
+    "contentLength": 11500,
+    "processingTimeMs": 55936
+  }
+}

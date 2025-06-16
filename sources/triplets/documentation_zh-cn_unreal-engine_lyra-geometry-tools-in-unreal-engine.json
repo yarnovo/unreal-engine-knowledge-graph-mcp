@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_lyra-geometry-tools-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_lyra-geometry-tools-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "几何体脚本编写",
+      "predicate": "包含",
+      "object": "GeneratedDynamicMeshActor",
+      "context": "几何体脚本编写插件提供了GeneratedDynamicMeshActor基类，用于创建流程性网格体Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体脚本编写",
+      "predicate": "提供",
+      "object": "几何体脚本库",
+      "context": "几何体脚本编写插件提供了包含160多个函数的几何体脚本库，用于形状生成、网格体操作等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体脚本库",
+      "predicate": "包含",
+      "object": "形状生成器",
+      "context": "几何体脚本库包含各种形状生成器函数，用于创建参数化几何体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lyra",
+      "predicate": "使用",
+      "object": "蓝图Actor工具",
+      "context": "Lyra项目使用蓝图Actor工具构建参数化关卡设计元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图Actor工具",
+      "predicate": "基于",
+      "object": "GeneratedDynamicMeshActor",
+      "context": "所有工具蓝图Actor都是GeneratedDynamicMeshActor基类的子类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态网格体组件",
+      "predicate": "不支持",
+      "object": "Lumen",
+      "context": "动态网格体组件不支持Lumen等UE渲染功能，需要烘焙到静态网格体资产才能使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BakedGeneratedDynamicMeshActor",
+      "predicate": "实现",
+      "object": "非破坏性关卡设计",
+      "context": "BakedGeneratedDynamicMeshActor通过烘焙到静态网格体功能支持非破坏性关卡设计工作流",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "烘焙的静态网格体Actor",
+      "predicate": "关联",
+      "object": "源生成器密钥",
+      "context": "烘焙的静态网格体Actor通过源生成器密钥与源工具Actor保持关联，支持交换操作",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GeneratedMeshColdStorage",
+      "predicate": "管理",
+      "object": "存储的Actor",
+      "context": "GeneratedMeshColdStorage蓝图管理存储的工具Actor列表，支持交换系统的运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SwapGeneratedActor_ToSM",
+      "predicate": "替换",
+      "object": "工具Actor",
+      "context": "SwapGeneratedActor_ToSM操作将工具Actor替换为其烘焙的静态网格体资产实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SwapGeneratedActor_FromSM",
+      "predicate": "恢复",
+      "object": "工具Actor",
+      "context": "SwapGeneratedActor_FromSM操作从静态网格体实例恢复为原始工具Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "参数化工具",
+      "predicate": "用于",
+      "object": "关卡原型设计",
+      "context": "参数化工具允许关卡设计师快速创建和迭代关卡布局原型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体资产",
+      "predicate": "支持",
+      "object": "Nanite",
+      "context": "烘焙后的静态网格体资产支持Nanite等高级渲染功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具Actor",
+      "predicate": "需要",
+      "object": "GeneratedMeshColdStorage",
+      "context": "工具交换系统需要关卡中存在GeneratedMeshColdStorage实例才能正常运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体脚本编写",
+      "predicate": "是",
+      "object": "试验性插件",
+      "context": "几何体脚本编写是虚幻引擎5中的试验性功能插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "B_Tool_AdvancedWindow",
+      "predicate": "是",
+      "object": "蓝图Actor工具",
+      "context": "B_Tool_AdvancedWindow是Lyra中使用的一个具体工具蓝图示例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具交换系统",
+      "predicate": "基于",
+      "object": "Actor Action Utility",
+      "context": "工具/资产交换功能通过Actor Action Utility蓝图实现上下文菜单操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态网格体组件",
+      "predicate": "优化用于",
+      "object": "高效编辑",
+      "context": "动态网格体组件专为高效编辑而设计，适合快速参数化设计",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "烘焙到静态网格体",
+      "predicate": "实现",
+      "object": "工作流程迭代",
+      "context": "烘焙到静态网格体功能支持设计师迭代修改工具并更新所有实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "非破坏性关卡设计",
+      "predicate": "依赖",
+      "object": "工具交换系统",
+      "context": "非破坏性关卡设计工作流依赖于完整的工具/资产交换系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:48:22.789Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13878 字符)",
+      "timestamp": "2025-06-15T19:47:09.026Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 23465,
+    "contentLength": 13878,
+    "processingTimeMs": 73775
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_designing-and-building-worlds-in-unreal-engine-for-maya-users",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_designing-and-building-worlds-in-unreal-engine-for-maya-users.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "包含",
+      "object": "关卡编辑器模式",
+      "context": "关卡编辑器模式是虚幻引擎中用于不同设计领域的工具集合，帮助学习者理解引擎的核心功能模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡编辑器模式",
+      "predicate": "包含",
+      "object": "选择模式",
+      "context": "选择模式是关卡编辑器默认模式，用于放置和编辑对象，是学习虚幻引擎世界设计的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡编辑器模式",
+      "predicate": "包含",
+      "object": "地形模式",
+      "context": "地形模式用于创建和管理户外地貌，是构建开放世界的关键工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡编辑器模式",
+      "predicate": "包含",
+      "object": "植被模式",
+      "context": "植被模式用于高效绘制自然环境元素，帮助学习者理解大规模场景优化技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡编辑器模式",
+      "predicate": "包含",
+      "object": "网格体绘制模式",
+      "context": "网格体绘制模式直接在3D模型上应用纹理，是材质工作流程的重要补充",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡编辑器模式",
+      "predicate": "包含",
+      "object": "建模模式",
+      "context": "建模模式提供完整的3D几何体编辑工具，连接了传统3D建模与实时引擎工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "模块化设计",
+      "context": "模块化设计是虚幻引擎推荐的世界构建方法，直接影响场景性能和渲染效率",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块化设计",
+      "predicate": "依赖",
+      "object": "材质实例化",
+      "context": "材质实例化是实现模块化部件视觉多样性的关键技术，减少绘制调用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "模块化设计",
+      "predicate": "要求",
+      "object": "统一比例",
+      "context": "保持2的幂次单位比例是模块化部件无缝衔接的基础规范",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Maya场景",
+      "predicate": "对比",
+      "object": "虚幻引擎关卡",
+      "context": "理解两者在实时性、交互性和工作流程上的差异是从Maya过渡到虚幻的关键",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "用于",
+      "object": "资产放置",
+      "context": "内容浏览器是管理项目资产和向关卡添加内容的主要界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "放置Actor面板",
+      "predicate": "替代",
+      "object": "创建工具栏菜单",
+      "context": "两者都用于快速添加常见Actor类型，但放置Actor面板提供更持久的可停靠界面",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "初学者内容包",
+      "predicate": "包含",
+      "object": "模块化建筑部件",
+      "context": "提供预制模块化墙体/地板等资源，是学习环境构建的实践材料",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "太阳神庙示例",
+      "predicate": "展示",
+      "object": "模块化构造",
+      "context": "通过实际项目演示模块化设计在复杂结构中的应用方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Lyra初学者游戏",
+      "predicate": "展示",
+      "object": "模块化设计",
+      "context": "Epic官方示例项目展示模块化设计在完整游戏项目中的实际应用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "地形模式",
+      "predicate": "使用",
+      "object": "样条线工具",
+      "context": "样条线工具是地形模式中创建道路和线性元素的专业功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "植被模式",
+      "predicate": "支持",
+      "object": "随机化选项",
+      "context": "随机化设置帮助创建自然的植被分布，避免重复感",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "模块化设计",
+      "predicate": "要求",
+      "object": "可平铺纹理",
+      "context": "纹理平铺是保持模块化部件视觉连贯性的重要技术要求",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "动态全局光照",
+      "context": "动态光照系统与模块化设计协同工作，共同实现高质量实时渲染",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "Nanite虚拟几何体",
+      "context": "Nanite技术支持高细节几何体，与模块化设计共同优化场景复杂度",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:51:04.672Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8734 字符)",
+      "timestamp": "2025-06-15T18:49:54.754Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14688,
+    "contentLength": 8734,
+    "processingTimeMs": 69920
+  }
+}

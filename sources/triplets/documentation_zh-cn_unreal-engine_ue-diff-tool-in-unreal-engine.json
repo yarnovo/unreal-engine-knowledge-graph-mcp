@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_ue-diff-tool-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_ue-diff-tool-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "UE对比工具",
+      "predicate": "用于",
+      "object": "资产比较",
+      "context": "UE对比工具专门用于比较虚幻引擎中的资产，帮助开发者追踪差异和漏洞",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE对比工具",
+      "predicate": "支持",
+      "object": "蓝图",
+      "context": "UE对比工具支持蓝图的比较，这是其核心功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE对比工具",
+      "predicate": "支持",
+      "object": "版本控制对比",
+      "context": "工具支持将当前资产与版本控制中的历史版本进行对比",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE对比工具",
+      "predicate": "包含",
+      "object": "颜色编码系统",
+      "context": "工具使用颜色编码（红/绿/青/灰）直观展示差异类型，这是其核心可视化功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE对比工具",
+      "predicate": "集成于",
+      "object": "内容浏览器",
+      "context": "通过内容浏览器的右键菜单可直接启动资产对比功能",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UE检查工具",
+      "predicate": "扩展",
+      "object": "UE对比工具",
+      "context": "检查工具提供了对比功能的版本控制集成界面，专门用于Perforce工作流",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "蓝图编辑器",
+      "predicate": "集成",
+      "object": "UE对比工具",
+      "context": "蓝图编辑器内置了对比菜单，可直接调用版本对比功能",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "版本控制系统",
+      "predicate": "前置条件",
+      "object": "UE检查工具",
+      "context": "使用检查工具需要先登录Perforce等版本控制系统",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "资产差异可视化",
+      "predicate": "实现方式",
+      "object": "颜色编码系统",
+      "context": "通过标准化的颜色方案（红=删除/绿=新增/青=修改）实现差异的快速识别",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "图表对比导航",
+      "predicate": "依赖",
+      "object": "锁定/解锁功能",
+      "context": "同步浏览两个图表时需要锁定平移和缩放状态",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T21:04:02.666Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9712,
+    "contentLength": 6901,
+    "processingTimeMs": 28874
+  }
+}

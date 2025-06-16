@@ -1,0 +1,243 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_math-material-expressions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_math-material-expressions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Abs",
+      "predicate": "用于",
+      "object": "点积",
+      "context": "Abs表达式通常与点积配合使用，以确定两个向量之间的角度关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Add",
+      "predicate": "用于",
+      "object": "颜色调整",
+      "context": "Add表达式常用于使颜色变亮/变暗或偏移UV纹理坐标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AppendVector",
+      "predicate": "用于",
+      "object": "通道组合",
+      "context": "AppendVector表达式允许组合通道，创建比原始通道更多的向量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Arccosine",
+      "predicate": "替代",
+      "object": "ArccosineFast",
+      "context": "ArccosineFast是Arccosine的更快但不太精确的替代方案",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Arcsine",
+      "predicate": "替代",
+      "object": "ArcsineFast",
+      "context": "ArcsineFast是Arcsine的更快但不太精确的替代方案",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Arctangent",
+      "predicate": "替代",
+      "object": "ArctangentFast",
+      "context": "ArctangentFast是Arctangent的更快但不太精确的替代方案",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Arctangent2",
+      "predicate": "替代",
+      "object": "Arctangent2Fast",
+      "context": "Arctangent2Fast是Arctangent2的更快但不太精确的替代方案",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Ceil",
+      "predicate": "相关",
+      "object": "Floor",
+      "context": "Ceil和Floor都是用于数值舍入的表达式，Ceil向上舍入，Floor向下舍入",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Ceil",
+      "predicate": "相关",
+      "object": "Frac",
+      "context": "Ceil和Frac都是用于处理数值小数部分的表达式",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Clamp",
+      "predicate": "用于",
+      "object": "数值限制",
+      "context": "Clamp表达式用于将值约束到指定的范围内",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ComponentMask",
+      "predicate": "用于",
+      "object": "通道选择",
+      "context": "ComponentMask表达式允许从输入中挑选某个通道子集",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Cosine",
+      "predicate": "相关",
+      "object": "Sine",
+      "context": "Cosine和Sine都是用于生成周期性波形的表达式，Cosine的输出波形比Sine偏移四分之一周期",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CrossProduct",
+      "predicate": "用于",
+      "object": "向量垂直计算",
+      "context": "CrossProduct表达式用于计算垂直于两个输入向量的向量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Divide",
+      "predicate": "用于",
+      "object": "数值除法",
+      "context": "Divide表达式用于将第一个输入除以第二个输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DotProduct",
+      "predicate": "用于",
+      "object": "向量投影",
+      "context": "DotProduct表达式用于计算一个向量投影到另一个向量上的长度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Floor",
+      "predicate": "相关",
+      "object": "Frac",
+      "context": "Floor和Frac都是用于处理数值小数部分的表达式",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Fmod",
+      "predicate": "用于",
+      "object": "循环效果",
+      "context": "Fmod表达式可用于制作一种材质，使其亮度上升到最大值后立即下降到最小值，然后再次开始攀升",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Frac",
+      "predicate": "用于",
+      "object": "小数部分提取",
+      "context": "Frac表达式用于提取数值的小数部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "If",
+      "predicate": "用于",
+      "object": "条件判断",
+      "context": "If表达式用于根据比较结果传递不同的值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LinearInterpolate",
+      "predicate": "用于",
+      "object": "数值插值",
+      "context": "LinearInterpolate表达式用于在两个输入值之间进行插值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Multiply",
+      "predicate": "用于",
+      "object": "颜色混合",
+      "context": "Multiply表达式用于将两个输入相乘，常用于颜色混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Normalize",
+      "predicate": "用于",
+      "object": "向量归一化",
+      "context": "Normalize表达式用于计算并输出其输入的归一化值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OneMinus",
+      "predicate": "用于",
+      "object": "颜色反转",
+      "context": "OneMinus表达式用于输出1减去输入值的结果，常用于颜色反转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Power",
+      "predicate": "用于",
+      "object": "对比度调整",
+      "context": "Power表达式可用于作为一种对比度调整，其中非常亮的值会略微降低，但较暗的值会急剧下降",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Saturate",
+      "predicate": "用于",
+      "object": "数值限制",
+      "context": "Saturate节点用于将值限定在0与1之间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Step",
+      "predicate": "用于",
+      "object": "阈值切换",
+      "context": "Step表达式用于实现某种突然的切换效果，例如将灰度纹理简化成黑白遮罩",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SmoothStep",
+      "predicate": "用于",
+      "object": "平滑过渡",
+      "context": "SmoothStep表达式用于在0和1之间进行插值，并且可以设置最小和最大阈值，适合用于过渡效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Subtract",
+      "predicate": "用于",
+      "object": "颜色加深",
+      "context": "Subtract节点用于将第一个输入减去第二个输入，可以用来加深颜色和偏移UV",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:51:27.092Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (24599 字符)",
+      "timestamp": "2025-06-15T19:49:50.488Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 39171,
+    "contentLength": 24599,
+    "processingTimeMs": 96610
+  }
+}

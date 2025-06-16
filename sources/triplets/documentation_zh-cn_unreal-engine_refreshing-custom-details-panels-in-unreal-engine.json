@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_refreshing-custom-details-panels-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_refreshing-custom-details-panels-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "细节面板",
+      "predicate": "包含",
+      "object": "自定义细节面板",
+      "context": "细节面板可以包含自定义的细节面板，这是学习如何扩展和定制细节面板的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义细节面板",
+      "predicate": "依赖",
+      "object": "IDetailLayoutBuilder",
+      "context": "自定义细节面板的实现依赖于IDetailLayoutBuilder接口，这是理解自定义细节面板工作原理的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IDetailLayoutBuilder",
+      "predicate": "提供",
+      "object": "ForceRefreshDetails方法",
+      "context": "IDetailLayoutBuilder提供了ForceRefreshDetails方法，用于手动刷新细节面板，这是学习如何动态更新细节面板的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ForceRefreshDetails方法",
+      "predicate": "用于",
+      "object": "手动更新细节面板",
+      "context": "ForceRefreshDetails方法专门用于手动更新细节面板，这是理解细节面板动态更新的核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "支持",
+      "object": "编辑条件",
+      "context": "细节面板支持通过编辑条件来动态显示或隐藏字段，这是学习如何实现条件化UI的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑条件",
+      "predicate": "影响",
+      "object": "细节面板更新",
+      "context": "编辑条件的变化会影响细节面板的更新行为，这是理解细节面板响应性设计的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IPropertyHandle",
+      "predicate": "用于",
+      "object": "属性操作",
+      "context": "IPropertyHandle用于获取和操作属性，这是学习如何在细节面板中处理属性变化的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SetOnPropertyValueChanged",
+      "predicate": "触发",
+      "object": "细节面板刷新",
+      "context": "SetOnPropertyValueChanged方法可以在属性值变化时触发细节面板刷新，这是实现动态UI更新的重要机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板快速入门",
+      "predicate": "前置",
+      "object": "刷新自定义细节面板",
+      "context": "刷新自定义细节面板教程基于细节面板快速入门，这是学习路径上的逻辑顺序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "属于",
+      "object": "虚幻引擎编辑器工具",
+      "context": "细节面板是虚幻引擎编辑器工具的一部分，这是理解其在引擎架构中位置的重要背景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:34:23.232Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3086,
+    "contentLength": 2330,
+    "processingTimeMs": 35138
+  }
+}

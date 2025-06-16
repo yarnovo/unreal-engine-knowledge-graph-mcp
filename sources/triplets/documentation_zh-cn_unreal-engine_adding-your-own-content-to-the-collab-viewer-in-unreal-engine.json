@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_adding-your-own-content-to-the-collab-viewer-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_adding-your-own-content-to-the-collab-viewer-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "协作查看器(Collab Viewer)",
+      "predicate": "包含",
+      "object": "预设内容",
+      "context": "协作查看器模板自带预设内容，帮助用户快速开始使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "协作查看器(Collab Viewer)",
+      "predicate": "支持",
+      "object": "自定义3D模型",
+      "context": "用户可以用自己的3D模型替换预设内容，实现个性化协作查看体验",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3D模型",
+      "predicate": "需要",
+      "object": "碰撞网格体",
+      "context": "要让玩家能在模型表面行走或传送，模型必须设置碰撞网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3D模型",
+      "predicate": "需要",
+      "object": "导航网格体",
+      "context": "导航网格体是实现玩家传送和行走功能的关键组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导航网格体",
+      "predicate": "基于",
+      "object": "导航网格体边界体积",
+      "context": "导航网格体通过导航网格体边界体积来定义覆盖区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家出生点(Player Start)",
+      "predicate": "决定",
+      "object": "玩家初始位置",
+      "context": "新玩家加入会话时将从随机选择的玩家出生点开始",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor移动性(Mobility)",
+      "predicate": "控制",
+      "object": "运行时变换交互",
+      "context": "Actor的移动性设置决定了在运行时是否可以使用变换交互来移动对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor层级",
+      "predicate": "影响",
+      "object": "X射线交互",
+      "context": "父和子Actor的层级关系会影响X射线交互时对象的显示/隐藏行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Widget_MainMenu",
+      "predicate": "控制",
+      "object": "初始关卡加载",
+      "context": "主菜单控件蓝图中的逻辑决定了用户加入会话时加载哪个关卡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "协作查看器(Collab Viewer)",
+      "predicate": "支持",
+      "object": "Datasmith文件加载",
+      "context": "可以在运行时加载.udatasmith格式的Datasmith文件(实验性功能)",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "静态网格体编辑器",
+      "predicate": "用于",
+      "object": "设置碰撞网格体",
+      "context": "可以在静态网格体编辑器中使用碰撞菜单工具设置模型的碰撞",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "阻挡体积",
+      "predicate": "替代",
+      "object": "静态网格体碰撞",
+      "context": "当不方便修改静态网格体时，可以使用阻挡体积在关卡中添加碰撞",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "构建(Build)命令",
+      "predicate": "生成",
+      "object": "导航数据",
+      "context": "需要通过构建命令来生成或更新关卡的导航网格体数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子关卡(Sublevel)",
+      "predicate": "组织",
+      "object": "场景内容",
+      "context": "预设内容被组织在名为SampleLevel的子关卡中，便于管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模拟物理(Simulate Physics)",
+      "predicate": "影响",
+      "object": "交互能力",
+      "context": "要使用X射线或变换命令进行交互的Actor必须关闭模拟物理设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:55:01.668Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11995 字符)",
+      "timestamp": "2025-06-15T17:54:05.936Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17746,
+    "contentLength": 11995,
+    "processingTimeMs": 55744
+  }
+}

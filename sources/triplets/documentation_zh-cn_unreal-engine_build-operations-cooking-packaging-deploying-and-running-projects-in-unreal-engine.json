@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_build-operations-cooking-packaging-deploying-and-running-projects-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_build-operations-cooking-packaging-deploying-and-running-projects-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻自动化工具(UAT)",
+      "predicate": "执行",
+      "object": "BuildCookRun命令",
+      "context": "UAT通过BuildCookRun命令实现项目的打包流程，这是学习打包操作的核心工具",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "BuildCookRun命令",
+      "predicate": "包含",
+      "object": "构建阶段",
+      "context": "理解打包流程需要掌握其包含的构建阶段，这是完整发布流程的第一步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildCookRun命令",
+      "predicate": "包含",
+      "object": "烘焙阶段",
+      "context": "烘焙是打包流程的关键环节，将资产转换为目标平台格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE工具栏",
+      "predicate": "提供",
+      "object": "平台选择功能",
+      "context": "工具栏是可视化操作入口，平台选择是打包前的必要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "项目启动程序",
+      "predicate": "支持",
+      "object": "自定义启动配置文件",
+      "context": "自定义配置文件是高级打包设置的核心，支持灵活的工作流配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容烘焙",
+      "predicate": "分为",
+      "object": "按常规烘焙(CBTB)",
+      "context": "区分两种烘焙方式有助于根据开发需求选择合适的工作流",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "内容烘焙",
+      "predicate": "分为",
+      "object": "即时烘焙(COTF)",
+      "context": "即时烘焙适合快速迭代，与按常规烘焙形成互补关系",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "部署构建",
+      "predicate": "包含",
+      "object": "文件服务器部署",
+      "context": "不同部署方式对应不同的测试需求，文件服务器适合动态内容更新",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "打包流程",
+      "predicate": "依赖",
+      "object": "平台SDK",
+      "context": "理解平台SDK依赖关系是解决打包问题的关键知识",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "自定义启动配置文件",
+      "predicate": "生成",
+      "object": "命令行参数",
+      "context": "配置文件可自动生成复杂命令行，降低手动出错概率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "即时烘焙",
+      "predicate": "需要",
+      "object": "烘焙服务器",
+      "context": "理解服务器架构是实施即时烘焙方案的前提",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UE工具栏",
+      "predicate": "关联",
+      "object": "项目启动程序",
+      "context": "两者都是打包操作的入口，工具栏提供快捷方式，启动程序提供高级功能",
+      "direction": "bidirectional",
+      "confidence": 0.75
+    },
+    {
+      "subject": "BuildGraph脚本",
+      "predicate": "扩展",
+      "object": "自动化工具功能",
+      "context": "BuildGraph提供了更复杂的自动化任务编排能力",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "打包设置",
+      "predicate": "影响",
+      "object": "编译配置",
+      "context": "打包设置中的配置会决定最终产物的性能特性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "设备管理器",
+      "predicate": "管理",
+      "object": "目标设备连接",
+      "context": "设备管理是部署阶段的基础支持功能",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T18:16:27.297Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12149 字符)",
+      "timestamp": "2025-06-15T18:15:31.137Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 18761,
+    "contentLength": 12149,
+    "processingTimeMs": 56164
+  }
+}

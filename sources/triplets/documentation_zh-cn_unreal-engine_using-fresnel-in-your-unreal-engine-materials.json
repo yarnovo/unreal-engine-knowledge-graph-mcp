@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-fresnel-in-your-unreal-engine-materials",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-fresnel-in-your-unreal-engine-materials.md",
+  "triples": [
+    {
+      "subject": "菲涅尔",
+      "predicate": "用于",
+      "object": "边沿光照",
+      "context": "菲涅尔用于模拟边沿光照效果，帮助区分角色轮廓与背景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "菲涅尔",
+      "predicate": "模拟",
+      "object": "材质反射",
+      "context": "菲涅尔模拟不同视角下材质的反射强度变化，如玻璃和水的反射",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "菲涅尔材质表达式",
+      "predicate": "基于",
+      "object": "点积计算",
+      "context": "菲涅尔材质表达式通过表面法线与摄像机方向的点积计算衰减效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "菲涅尔材质表达式",
+      "predicate": "包含",
+      "object": "ExponentIn",
+      "context": "ExponentIn控制菲涅尔效果的衰减，是菲涅尔材质表达式的关键属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "菲涅尔材质表达式",
+      "predicate": "包含",
+      "object": "BaseReflectFractionIn",
+      "context": "BaseReflectFractionIn指定视线垂直于表面时的高光度反射率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "菲涅尔材质表达式",
+      "predicate": "支持",
+      "object": "法线贴图",
+      "context": "菲涅尔材质表达式支持通过法线贴图修改菲涅尔效果的渲染方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "菲涅尔材质函数",
+      "predicate": "扩展",
+      "object": "菲涅尔材质表达式",
+      "context": "菲涅尔材质函数提供更多自定义选项，是对菲涅尔材质表达式的扩展",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "菲涅尔材质函数",
+      "predicate": "包含",
+      "object": "反转菲涅尔",
+      "context": "反转菲涅尔属性允许反转菲涅尔效果，适用于特定场景需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "菲涅尔",
+      "predicate": "影响",
+      "object": "材质外观",
+      "context": "菲涅尔效果通过调整参数可以显著改变材质的外观表现",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "法线贴图",
+      "predicate": "修改",
+      "object": "菲涅尔效果",
+      "context": "法线贴图可以修改表面法线，从而影响菲涅尔效果的分布",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "菲涅尔",
+      "predicate": "用于",
+      "object": "Lerp节点",
+      "context": "菲涅尔节点可用于控制Lerp节点中的alpha混合，实现不同输入之间的过渡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "菲涅尔",
+      "predicate": "控制",
+      "object": "粗糙度",
+      "context": "菲涅尔可以控制粗糙度值的分布，模拟类似玻璃的反射效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "菲涅尔材质表达式",
+      "predicate": "推荐用于",
+      "object": "初学者",
+      "context": "菲涅尔材质表达式配置简单，推荐初学者使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "菲涅尔材质函数",
+      "predicate": "适用于",
+      "object": "高级用户",
+      "context": "菲涅尔材质函数提供更多控制选项，适用于高级用户",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TransformVector",
+      "predicate": "用于",
+      "object": "法线贴图变换",
+      "context": "TransformVector表达式用于将法线贴图从切线空间变换为世界空间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:16:42.193Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12057 字符)",
+      "timestamp": "2025-06-15T21:15:55.134Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19727,
+    "contentLength": 12057,
+    "processingTimeMs": 47065
+  }
+}

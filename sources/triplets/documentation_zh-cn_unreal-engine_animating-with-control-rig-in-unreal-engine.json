@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animating-with-control-rig-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animating-with-control-rig-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "控制绑定资产",
+      "predicate": "用于",
+      "object": "动画处理",
+      "context": "控制绑定资产是动画处理的基础，必须先创建控制绑定资产才能进行后续的动画处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "支持",
+      "object": "控制绑定动画处理",
+      "context": "Sequencer是虚幻引擎中用于动画处理的主要工具，可以直接在其中对控制绑定进行动画处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体Actor",
+      "predicate": "可添加",
+      "object": "控制绑定轨道",
+      "context": "在Sequencer中，可以为已有的骨架网格体Actor添加控制绑定轨道，从而对其进行动画处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制点",
+      "predicate": "可设为关键帧",
+      "object": "动画处理",
+      "context": "控制点是控制绑定的基本元素，可以通过设为关键帧来实现动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "支持",
+      "object": "多个控制绑定",
+      "context": "Sequencer可以同时显示和动画处理多个控制绑定，提高动画制作的效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分层的控制绑定轨道",
+      "predicate": "用于",
+      "object": "动态动画系统",
+      "context": "分层的控制绑定轨道允许将多个动画或绑定分层，创建更动态的动画系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后向解算",
+      "predicate": "必需",
+      "object": "分层控制绑定",
+      "context": "要让控制绑定按照分层方式运作，必须设置可运行的后向解算图表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "顺序属性",
+      "predicate": "控制",
+      "object": "分层轨道影响",
+      "context": "通过调整分层控制绑定轨道的顺序属性，可以控制不同轨道对最终姿势的影响行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "权重属性",
+      "predicate": "可调整",
+      "object": "分层控制绑定",
+      "context": "可以通过设置权重属性或为其设置关键帧，来调整分层控制绑定轨道的影响程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "可用于",
+      "object": "程序化动画",
+      "context": "动画蓝图提供了一种更程序化的方式来实现控制绑定动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FK控制绑定",
+      "predicate": "替代",
+      "object": "控制绑定资产",
+      "context": "FK控制绑定允许快速编辑动画，而无需使用任何控制绑定资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "约束",
+      "predicate": "用于",
+      "object": "对象附加",
+      "context": "约束工具可以将对象的位置、方向或缩放附加到其他对象，增强动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "空间切换",
+      "predicate": "用于",
+      "object": "动态重新关联",
+      "context": "空间切换功能可以在动画过程中动态地重新确定控制点的关联",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python脚本",
+      "predicate": "可用于",
+      "object": "控制绑定动画",
+      "context": "通过Python脚本可以驱动和扩展控制绑定动画制作，提供更多灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画编辑器模式",
+      "predicate": "提供",
+      "object": "易用环境",
+      "context": "动画编辑器模式为动画师提供了更加易用的环境和工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:59:10.045Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11410,
+    "contentLength": 7618,
+    "processingTimeMs": 68625
+  }
+}

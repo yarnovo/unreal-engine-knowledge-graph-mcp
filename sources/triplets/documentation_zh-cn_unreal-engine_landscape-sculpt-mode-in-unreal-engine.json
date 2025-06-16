@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_landscape-sculpt-mode-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_landscape-sculpt-mode-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "地形雕刻模式",
+      "predicate": "包含",
+      "object": "雕刻工具",
+      "context": "地形雕刻模式提供了多种雕刻工具来修改地形形状，学习这些工具是掌握地形雕刻的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形雕刻模式",
+      "predicate": "包含",
+      "object": "区域工具",
+      "context": "区域工具是地形雕刻模式的重要组成部分，用于对特定地形区域进行操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形雕刻模式",
+      "predicate": "基于",
+      "object": "高度图",
+      "context": "地形雕刻本质上是通过修改高度图来实现的，理解高度图是学习地形雕刻的前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "雕刻工具",
+      "predicate": "使用",
+      "object": "笔刷",
+      "context": "雕刻工具需要通过笔刷将效果应用到地形上，了解笔刷类型和衰减类型对工具使用很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "雕刻工具",
+      "predicate": "支持",
+      "object": "参数调整",
+      "context": "每种雕刻工具都提供一组参数来调整对地形的影响效果，掌握参数调整是精确控制雕刻效果的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形雕刻模式",
+      "predicate": "依赖",
+      "object": "地形创建",
+      "context": "使用雕刻模式前需要先创建地形，这是地形雕刻的工作前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "鼠标左键",
+      "predicate": "用于",
+      "object": "提升地形",
+      "context": "鼠标左键操作将工具效果以叠加方式添加到高度图上并提升地形，这是最基本的雕刻操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Shift+鼠标左键",
+      "predicate": "用于",
+      "object": "降低地形",
+      "context": "Shift+鼠标左键操作将工具效果以减法方式添加到高度图上并降低地形，这是与基本操作对应的反向操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Ctrl+Z",
+      "predicate": "用于",
+      "object": "撤销操作",
+      "context": "Ctrl+Z是撤销最后一次雕刻操作的标准快捷键，在雕刻过程中频繁使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Ctrl+Y",
+      "predicate": "用于",
+      "object": "恢复操作",
+      "context": "Ctrl+Y是恢复上一次撤销操作的标准快捷键，与撤销操作配合使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形雕刻模式",
+      "predicate": "关联",
+      "object": "地形笔刷",
+      "context": "地形笔刷文档提供了雕刻模式中使用的笔刷类型的详细信息，是雕刻模式的重要补充知识",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "区域工具",
+      "predicate": "专门用于",
+      "object": "特定区域操作",
+      "context": "区域工具专注于对地形的特定区域进行操作，与全局雕刻工具形成互补",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "侵蚀效果",
+      "predicate": "属于",
+      "object": "复杂算法工具",
+      "context": "侵蚀效果是通过复杂算法实现的雕刻工具之一，代表高级地形雕刻功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:41:49.924Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3233,
+    "contentLength": 2213,
+    "processingTimeMs": 49385
+  }
+}

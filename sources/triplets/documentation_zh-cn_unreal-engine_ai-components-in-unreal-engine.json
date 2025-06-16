@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_ai-components-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_ai-components-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "AI组件",
+      "predicate": "包含",
+      "object": "AIPerceptionComponent",
+      "context": "AI组件是虚幻引擎中AI系统的核心组成部分，AIPerceptionComponent作为其子组件，帮助学习者理解AI组件的具体实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI组件",
+      "predicate": "包含",
+      "object": "PawnNoiseEmitterComponent",
+      "context": "PawnNoiseEmitterComponent是AI组件的关键组成部分，理解这一关系有助于掌握AI系统的噪声感知机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI组件",
+      "predicate": "包含",
+      "object": "Pawn感应组件",
+      "context": "Pawn感应组件是AI组件的重要部分，这一关系展示了AI系统如何实现环境感知功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AIPerceptionComponent",
+      "predicate": "属于",
+      "object": "AIPerceptionSystem",
+      "context": "理解AIPerceptionComponent在AIPerceptionSystem中的角色，有助于掌握AI感知的整体架构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AIPerceptionComponent",
+      "predicate": "监听",
+      "object": "刺激源",
+      "context": "这一关系解释了AIPerceptionComponent的核心功能，帮助学习者理解AI感知的工作原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PawnNoiseEmitterComponent",
+      "predicate": "追踪",
+      "object": "噪声事件数据",
+      "context": "这一关系展示了PawnNoiseEmitterComponent的功能实现方式，是理解AI噪声感知的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PawnNoiseEmitterComponent",
+      "predicate": "被监听",
+      "object": "SensingComponents",
+      "context": "这一双向关系展示了噪声生成与感知的完整链路，对理解AI交互机制很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pawn感应组件",
+      "predicate": "封装",
+      "object": "感知设置及功能",
+      "context": "这一关系解释了Pawn感应组件的设计目的，帮助理解其架构思想",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pawn感应组件",
+      "predicate": "实现",
+      "object": "视觉感知",
+      "context": "明确Pawn感应组件的功能实现，是学习AI感知系统的重要知识点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pawn感应组件",
+      "predicate": "实现",
+      "object": "听觉感知",
+      "context": "明确Pawn感应组件的功能实现，完善对AI感知系统的理解",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AIPerceptionComponent",
+      "predicate": "调用",
+      "object": "UpdatePerception",
+      "context": "这一关系揭示了AI感知更新的机制，对理解AI系统运行流程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI组件",
+      "predicate": "应用于",
+      "object": "Pawn",
+      "context": "这一关系明确了AI组件的使用场景，帮助学习者理解其在游戏实体中的应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PawnNoiseEmitterComponent",
+      "predicate": "主要存在于",
+      "object": "Pawn",
+      "context": "明确组件与游戏实体的关联，帮助理解AI组件的部署方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PawnNoiseEmitterComponent",
+      "predicate": "主要存在于",
+      "object": "控制器",
+      "context": "展示组件的另一种存在形式，完善对AI系统架构的理解",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:56:31.375Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2156,
+    "contentLength": 1576,
+    "processingTimeMs": 63314
+  }
+}

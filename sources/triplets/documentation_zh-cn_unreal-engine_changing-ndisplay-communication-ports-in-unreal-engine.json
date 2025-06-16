@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_changing-ndisplay-communication-ports-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_changing-ndisplay-communication-ports-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "nDisplay系统",
+      "predicate": "使用",
+      "object": "TCP/IP端口",
+      "context": "nDisplay系统通过四个TCP/IP端口在主机之间进行通信，学习者需要了解这些端口的作用和配置方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay系统",
+      "predicate": "包含",
+      "object": "群集同步端口",
+      "context": "nDisplay系统使用41001端口进行群集同步，这是系统核心功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay系统",
+      "predicate": "包含",
+      "object": "渲染同步端口",
+      "context": "nDisplay系统使用41002端口进行渲染同步，这对多节点渲染协调至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay系统",
+      "predicate": "包含",
+      "object": "群集事件端口",
+      "context": "nDisplay系统使用41003和41004端口处理JSON和二进制群集事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay 3D配置编辑器",
+      "predicate": "用于配置",
+      "object": "网络设置",
+      "context": "网络配置需要在nDisplay 3D配置编辑器中设置，这是学习者必须掌握的核心工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络配置",
+      "predicate": "控制",
+      "object": "群集节点通信",
+      "context": "网络配置部分控制nDisplay群集节点之间的网络通信参数，影响系统稳定性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "连接重试次数",
+      "predicate": "协同工作",
+      "object": "连接重试延迟",
+      "context": "这两个参数共同决定群集节点尝试连接主节点的最大时间长度，学习者需要理解它们的协同关系",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏启动屏障超时",
+      "predicate": "影响",
+      "object": "群集初始化",
+      "context": "此参数决定主节点等待所有群集节点就绪的时间，影响群集启动行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "帧同步参数",
+      "predicate": "包含",
+      "object": "帧启动屏障超时",
+      "context": "帧同步参数组包含多个超时设置，学习者需要了解每个参数的具体作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "需要配置",
+      "object": "SwitchboardListener端口",
+      "context": "Switchboard和SwitchboardListener需要使用相同通信端口，这是多机协作的关键配置",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染同步屏障超时",
+      "predicate": "用于检测",
+      "object": "节点不可访问情况",
+      "context": "此参数用于在渲染线程同步时检测节点状态，对系统容错很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主节点",
+      "predicate": "协调",
+      "object": "群集节点",
+      "context": "主节点负责协调所有群集节点的同步和通信，是nDisplay架构的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:20:23.565Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6151,
+    "contentLength": 3837,
+    "processingTimeMs": 50798
+  }
+}

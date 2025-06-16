@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_creating-secondary-uvs-for-ndisplay-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_creating-secondary-uvs-for-ndisplay-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "nDisplay",
+      "predicate": "使用",
+      "object": "次级UV",
+      "context": "nDisplay使用次级UV（UV1）来实现投影网格体的特效处理，这对学习nDisplay的渲染流程至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UV信道0",
+      "predicate": "专门用于",
+      "object": "扭曲映射",
+      "context": "UV信道0在nDisplay中专门用于网格体投影策略的扭曲映射，这是理解UV信道分配的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "次级UV",
+      "predicate": "需要满足",
+      "object": "纹素密度一致",
+      "context": "次级UV需要保证所有UV外壳具有相同的纹素密度且不重叠，这对实现正确的视觉效果很关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "色键模式",
+      "predicate": "依赖",
+      "object": "正确的UV布局",
+      "context": "nDisplay的色键模式依赖正确的UV布局来避免标识截断和尺寸不统一的问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UV发光板",
+      "predicate": "受控于",
+      "object": "UV外壳布局",
+      "context": "UV发光板的正确显示受控于UV外壳的合理布局和方向，这对理解视觉反馈机制很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "平面投影",
+      "predicate": "适用于",
+      "object": "公共平面的面板组",
+      "context": "平面投影处理适用于存在突出特征（如间隙）的公共平面面板组，这对处理复杂几何体很有帮助",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "ICVFXExample项目",
+      "predicate": "包含",
+      "object": "舞台网格体示例",
+      "context": "ICVFXExample项目包含用于nDisplay的舞台网格体示例，是学习实际应用的重要参考",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX导出",
+      "predicate": "用于",
+      "object": "数字内容创建软件处理",
+      "context": "将静态网格体导出为FBX格式用于数字内容创建软件处理，是工作流程中的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UV空间特效",
+      "predicate": "依赖",
+      "object": "现实比例间隙",
+      "context": "UV空间特效的正确转换依赖现实比例的间隙处理，这对理解虚实结合很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "nDisplay预览",
+      "predicate": "用于",
+      "object": "验证UV比例",
+      "context": "视口nDisplay预览用于验证UV发光板等元素是否能保持正确比例，是重要的调试工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:42:12.981Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4626,
+    "contentLength": 2938,
+    "processingTimeMs": 34471
+  }
+}

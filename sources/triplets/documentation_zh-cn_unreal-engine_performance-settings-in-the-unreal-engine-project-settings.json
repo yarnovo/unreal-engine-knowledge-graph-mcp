@@ -1,0 +1,85 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_performance-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_performance-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "视口分辨率",
+      "predicate": "属于",
+      "object": "性能设置",
+      "context": "视口分辨率是性能设置中的一个重要子模块，了解这一关系有助于学习者在性能优化时找到相关设置选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "实时编辑器视口",
+      "predicate": "支持",
+      "object": "屏幕百分比模式",
+      "context": "实时编辑器视口支持多种屏幕百分比模式设置，这对理解编辑器性能调优至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "非实时编辑器视口",
+      "predicate": "支持",
+      "object": "屏幕百分比模式",
+      "context": "非实时编辑器视口同样支持屏幕百分比模式设置，与实时视口形成对比学习",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "手动模式",
+      "predicate": "替代",
+      "object": "自动模式",
+      "context": "手动模式和自动模式是屏幕百分比设置的两种互斥方式，理解这种替代关系有助于正确选择配置方案",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "r.ScreenPercentage",
+      "predicate": "控制",
+      "object": "手动模式屏幕百分比",
+      "context": "该控制台变量是手动模式的核心控制参数，对技术实现层面的理解很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基于显示器分辨率模式",
+      "predicate": "依赖",
+      "object": "r.ScreenPercentage.Auto*",
+      "context": "自动模式依赖特定的控制台变量实现，这种依赖关系揭示了底层实现机制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "编辑器视口",
+      "predicate": "包含",
+      "object": "渲染分辨率范围设置",
+      "context": "了解编辑器视口包含分辨率范围设置，有助于全面掌握视口配置选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "最低渲染分辨率",
+      "predicate": "限制",
+      "object": "最高渲染分辨率",
+      "context": "这两个参数共同定义了渲染分辨率的有效范围，理解这种限制关系对性能调优很重要",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "基于操作系统的DPI比例",
+      "predicate": "适用于",
+      "object": "高DPI显示器环境",
+      "context": "这种模式专门为高DPI显示器设计，了解适用场景有助于正确配置开发环境",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T20:21:36.006Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2838,
+    "contentLength": 2018,
+    "processingTimeMs": 34771
+  }
+}

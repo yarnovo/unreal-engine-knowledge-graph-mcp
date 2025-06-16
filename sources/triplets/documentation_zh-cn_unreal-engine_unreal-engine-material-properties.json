@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-engine-material-properties",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-engine-material-properties.md",
+  "triples": [
+    {
+      "subject": "主材质节点",
+      "predicate": "控制",
+      "object": "材质属性",
+      "context": "主材质节点是材质编辑的核心，选中后会在细节面板中显示所有可配置的材质属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理材质",
+      "predicate": "定义",
+      "object": "碰撞属性",
+      "context": "物理材质专门用于定义物体碰撞时的物理特性（如弹力），但不影响材质视觉表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质域",
+      "predicate": "决定",
+      "object": "材质用途",
+      "context": "材质域设置（如表面/贴花/光照函数）直接影响材质的渲染方式和适用场景",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "混合模式",
+      "predicate": "影响",
+      "object": "光照兼容性",
+      "context": "不同混合模式（如不透明/半透明）决定了材质能否与动态光照系统协同工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "着色模型",
+      "predicate": "激活",
+      "object": "特定材质输入",
+      "context": "选择次表面/透明涂层等高级着色模型会启用对应的专用输入通道（如次表面颜色）",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "双面材质",
+      "predicate": "适用于",
+      "object": "植物模型",
+      "context": "双面渲染可避免植物叶片等薄物体需要双倍多边形的问题",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "分层材质",
+      "predicate": "依赖",
+      "object": "材质属性模式",
+      "context": "使用分层材质必须启用'使用材质属性'选项来整合多个材质定义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光线追踪阴影",
+      "predicate": "需要",
+      "object": "项目设置启用",
+      "context": "材质的光追阴影功能需要先在项目设置中全局启用光线追踪",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "半透明光照模式",
+      "predicate": "影响",
+      "object": "渲染性能",
+      "context": "体积逐顶点模式比表面前向着色模式性能更高但视觉效果更简单",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "用途标记",
+      "predicate": "触发",
+      "object": "着色器编译",
+      "context": "设置用途标记（如用于粒子系统）会编译对应的专用着色器变体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "折射方法",
+      "predicate": "决定",
+      "object": "偏移计算方式",
+      "context": "折射率模式使用物理计算，而像素法线偏移模式更适合大面积水面效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界位置偏移",
+      "predicate": "需要",
+      "object": "位移限制",
+      "context": "Nanite网格体使用WPO时需要设置最大位移值防止视觉失真",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "后期处理材质",
+      "predicate": "受控于",
+      "object": "可混合位置",
+      "context": "色调映射前后的执行位置选择会影响后期处理材质的颜色调整效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "次表面轮廓",
+      "predicate": "专用于",
+      "object": "皮肤着色",
+      "context": "该着色模型需要配合单独的次表面轮廓资产实现真实皮肤渲染",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "移动平台材质",
+      "predicate": "优化",
+      "object": "精度设置",
+      "context": "全精度模式可解决渲染错误但会降低移动设备性能",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "物理材质遮罩",
+      "predicate": "映射",
+      "object": "声音/效果",
+      "context": "通过颜色通道将不同物理材质与特定音效或视觉特效关联",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "半透明自投影",
+      "predicate": "模拟",
+      "object": "体积光照",
+      "context": "通过密度比例和偏移参数控制烟雾等体积材质的自阴影效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质实例",
+      "predicate": "覆盖",
+      "object": "父材质属性",
+      "context": "实例可以覆盖如最大WPO位移等参数而不影响父材质定义",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "切线空间法线",
+      "predicate": "区别于",
+      "object": "世界空间法线",
+      "context": "切线空间法线更适合2D软件创建的法线贴图，而世界空间法线忽略表面朝向",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:09:27.112Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (20658 字符)",
+      "timestamp": "2025-06-15T21:08:33.785Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 36885,
+    "contentLength": 20658,
+    "processingTimeMs": 53337
+  }
+}

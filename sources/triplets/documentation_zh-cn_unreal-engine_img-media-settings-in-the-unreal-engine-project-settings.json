@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_img-media-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_img-media-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "IMG媒体",
+      "predicate": "包含",
+      "object": "通用设置",
+      "context": "通用设置是IMG媒体的一部分，包含默认帧率等基础配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IMG媒体",
+      "predicate": "包含",
+      "object": "缓存设置",
+      "context": "缓存设置是IMG媒体的一部分，控制媒体播放时的缓存行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IMG媒体",
+      "predicate": "包含",
+      "object": "EXR设置",
+      "context": "EXR设置是IMG媒体的一部分，专门用于配置EXR图像解码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IMG媒体",
+      "predicate": "包含",
+      "object": "代理设置",
+      "context": "代理设置是IMG媒体的一部分，用于管理媒体源代理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认帧率",
+      "predicate": "属于",
+      "object": "通用设置",
+      "context": "默认帧率是通用设置中的一个重要参数，影响媒体播放时序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缓存设置",
+      "predicate": "包含",
+      "object": "后面缓存百分比",
+      "context": "后面缓存百分比是缓存设置的一个参数，控制播放头后的缓存分配",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缓存设置",
+      "predicate": "包含",
+      "object": "缓存大小GB",
+      "context": "缓存大小GB是缓存设置的一个参数，定义预读缓存的最大容量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缓存设置",
+      "predicate": "包含",
+      "object": "缓存线程",
+      "context": "缓存线程是缓存设置的一个参数，控制图像缓存线程数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缓存设置",
+      "predicate": "包含",
+      "object": "全局缓存大小GB",
+      "context": "全局缓存大小GB是缓存设置的一个参数，必须大于或等于缓存大小GB",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缓存设置",
+      "predicate": "包含",
+      "object": "使用全局缓存",
+      "context": "使用全局缓存是缓存设置的一个选项，决定是否启用全局缓存",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缓存设置",
+      "predicate": "包含",
+      "object": "缓存线程堆栈大小KB",
+      "context": "缓存线程堆栈大小KB是缓存设置的一个参数，定义每个线程的堆栈大小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EXR设置",
+      "predicate": "包含",
+      "object": "Exr解码器线程",
+      "context": "Exr解码器线程是EXR设置的一个参数，控制解码EXR图像的工作线程数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理设置",
+      "predicate": "包含",
+      "object": "默认代理",
+      "context": "默认代理是代理设置的一个参数，定义默认媒体源代理URL的名称",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理设置",
+      "predicate": "包含",
+      "object": "使用默认代理",
+      "context": "使用默认代理是代理设置的一个选项，决定是否启用图像序列代理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认代理",
+      "predicate": "关联",
+      "object": "使用默认代理",
+      "context": "默认代理和使用默认代理共同控制媒体源代理的行为",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全局缓存大小GB",
+      "predicate": "必须大于或等于",
+      "object": "缓存大小GB",
+      "context": "全局缓存大小GB必须大于或等于缓存大小GB，确保缓存系统正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体播放器",
+      "predicate": "使用",
+      "object": "默认代理",
+      "context": "媒体播放器会尝试使用默认代理标签识别的代理内容，若无则回退到默认URL",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "媒体源",
+      "predicate": "包含",
+      "object": "媒体源代理",
+      "context": "媒体源可能包含多个媒体源代理URL，用于切换不同分辨率内容",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "图像序列媒体源",
+      "predicate": "可能包含",
+      "object": "媒体源代理",
+      "context": "图像序列媒体源可能包含多个媒体源代理URL，用于开发和测试",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:31:40.264Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4772,
+    "contentLength": 3004,
+    "processingTimeMs": 62691
+  }
+}

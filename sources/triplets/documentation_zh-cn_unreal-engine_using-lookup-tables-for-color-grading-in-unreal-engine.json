@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-lookup-tables-for-color-grading-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-lookup-tables-for-color-grading-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "查找表（LUT）",
+      "predicate": "用于",
+      "object": "颜色校正",
+      "context": "LUT是实现颜色校正的核心技术手段，学习者需要理解其基本原理才能进行有效的色彩调整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "三维（3D）查找表",
+      "predicate": "优于",
+      "object": "一维（1D）查找表",
+      "context": "3D LUT能提供更精细的色彩变换效果，这是选择LUT类型时需要掌握的关键知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理体积",
+      "predicate": "包含",
+      "object": "颜色分级LUT属性",
+      "context": "理解后期处理体积中LUT相关属性的设置位置是实际应用的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "颜色分级LUT强度",
+      "predicate": "控制",
+      "object": "色彩修正效果",
+      "context": "该参数直接影响LUT的应用强度，是调节效果的重要控制点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "中性色调LUT",
+      "predicate": "作为基础",
+      "object": "自定义LUT创建",
+      "context": "创建自定义LUT需要以中性LUT为基础进行修改，这是工作流程的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Photoshop",
+      "predicate": "用于",
+      "object": "LUT图像编辑",
+      "context": "掌握图像编辑软件的使用是创建自定义LUT的必要技能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "调整图层",
+      "predicate": "实现",
+      "object": "颜色校正效果",
+      "context": "理解调整图层的工作原理有助于在图像软件中有效修改LUT",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "纹理编辑器",
+      "predicate": "设置",
+      "object": "LUT纹理属性",
+      "context": "正确的纹理属性设置对LUT功能实现至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "颜色分级工具",
+      "predicate": "替代",
+      "object": "LUT颜色校正",
+      "context": "了解引擎发展动向，知道新版颜色分级工具是更推荐的解决方案",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "HDR显示",
+      "predicate": "不兼容",
+      "object": "LUT颜色校正",
+      "context": "理解LUT的技术局限性对选择正确的颜色校正方案很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "场景引用线性空间",
+      "predicate": "优于",
+      "object": "LUT颜色空间",
+      "context": "了解不同颜色空间特性有助于做出正确的技术选择",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Sun Temple项目",
+      "predicate": "作为示例",
+      "object": "LUT创建教程",
+      "context": "通过具体项目学习可以更好地掌握LUT创建流程",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Mip生成设置",
+      "predicate": "影响",
+      "object": "LUT性能",
+      "context": "正确的纹理设置对LUT的性能表现有直接影响",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "颜色查找表纹理组",
+      "predicate": "专门用于",
+      "object": "LUT纹理",
+      "context": "了解专门的纹理组分类有助于正确配置LUT",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理体积",
+      "predicate": "应用",
+      "object": "颜色分级效果",
+      "context": "掌握后期处理体积的使用方法是实现各种视觉效果的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:19:23.245Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8879 字符)",
+      "timestamp": "2025-06-15T21:18:41.311Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12529,
+    "contentLength": 8879,
+    "processingTimeMs": 41940
+  }
+}

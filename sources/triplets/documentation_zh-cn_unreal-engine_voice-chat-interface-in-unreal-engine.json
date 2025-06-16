@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_voice-chat-interface-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_voice-chat-interface-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "语音聊天接口",
+      "predicate": "支持",
+      "object": "跨平台语音通信",
+      "context": "语音聊天接口提供了与平台无关的API，支持在不同服务上操作语音通信",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "语音聊天接口",
+      "predicate": "包含",
+      "object": "语音聊天用户接口",
+      "context": "语音聊天接口为每个用户实例化一个语音聊天用户接口，用于识别和管理各个用户",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "语音聊天用户接口",
+      "predicate": "用于",
+      "object": "用户管理",
+      "context": "语音聊天用户接口执行特定于单个用户的所有语音聊天互动，包括登录、加入通道等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "语音聊天用户接口",
+      "predicate": "依赖",
+      "object": "IVoiceChat实例",
+      "context": "创建IVoiceChatUser实例前需要先创建和初始化IVoiceChat实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IVoiceChatUser",
+      "predicate": "实现",
+      "object": "用户登录功能",
+      "context": "通过Login函数将本地用户登录到语音聊天服务器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IVoiceChatUser",
+      "predicate": "支持",
+      "object": "多通道管理",
+      "context": "用户可以同时加入多个通道，并通过JoinChannel和LeaveChannel管理通道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "语音聊天用户接口",
+      "predicate": "包含",
+      "object": "音频设备管理",
+      "context": "提供函数用于管理输入输出设备、音量和静音设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频设备管理",
+      "predicate": "包括",
+      "object": "设备识别与选择",
+      "context": "提供GetInputDeviceInfo等函数识别和选择音频设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频设备管理",
+      "predicate": "包括",
+      "object": "音量控制",
+      "context": "提供SetAudioInputVolume等函数调整设备音量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "语音通信",
+      "predicate": "要求",
+      "object": "三层连接",
+      "context": "用户间通信需要语音聊天接口连接服务器、用户登录和加入同一通道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IVoiceChatUser",
+      "predicate": "支持",
+      "object": "传输控制",
+      "context": "提供TransmitToAllChannels等函数控制音频传输范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "语音聊天接口",
+      "predicate": "兼容",
+      "object": "EOS语音聊天插件",
+      "context": "文档建议使用EOS时参考专门插件文档进行配置",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "IVoiceChat",
+      "predicate": "前置",
+      "object": "IVoiceChatUser",
+      "context": "必须先初始化IVoiceChat实例才能创建和使用IVoiceChatUser",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "用户管理",
+      "predicate": "包含",
+      "object": "屏蔽和禁言功能",
+      "context": "提供BlockPlayers和SetPlayerMuted等函数管理用户交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:30:21.808Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10432,
+    "contentLength": 5972,
+    "processingTimeMs": 39229
+  }
+}

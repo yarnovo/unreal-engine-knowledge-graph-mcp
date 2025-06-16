@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_horde-authentication-tutorial-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_horde-authentication-tutorial-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Horde",
+      "predicate": "支持",
+      "object": "OAuth2",
+      "context": "Horde支持OAuth2身份验证协议，这是学习Horde身份验证配置的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "支持",
+      "object": "OIDC",
+      "context": "Horde支持OIDC身份验证协议，这是与第三方身份提供商集成的重要前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde身份验证",
+      "predicate": "依赖",
+      "object": "HTTPS支持",
+      "context": "启用Horde身份验证需要服务器配置有效的HTTPS证书，这是安全通信的基础要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "提供",
+      "object": "自有身份提供商",
+      "context": "当没有外部OIDC兼容身份提供商时，Horde提供内置解决方案，这是学习备用方案的要点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "server.json",
+      "predicate": "配置",
+      "object": "AuthMode",
+      "context": "通过修改server.json中的AuthMode属性来启用Horde身份验证，这是配置流程的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde账户系统",
+      "predicate": "使用",
+      "object": "声明",
+      "context": "账户系统通过声明管理用户权限，这是理解Horde权限模型的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "default.globals.json",
+      "predicate": "定义",
+      "object": "标准组",
+      "context": "配置文件预定义了View和Run两个标准组，这是学习权限分组的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AclConfig",
+      "predicate": "包含",
+      "object": "profiles元素",
+      "context": "AclConfig对象通过profiles元素定义自定义权限配置，这是高级权限管理的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde安装",
+      "predicate": "前置条件",
+      "object": "Horde身份验证配置",
+      "context": "配置身份验证前需要先完成Horde服务器安装，这是学习路径上的必要顺序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OIDC",
+      "predicate": "兼容",
+      "object": "第三方身份提供商",
+      "context": "理解OIDC标准有助于选择兼容的身份提供商（如Okta/AWS/Azure/Google）",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "default-read",
+      "predicate": "对应",
+      "object": "View组",
+      "context": "权限配置文件中default-read对应View组的权限，这是理解权限映射的基础",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "default-run",
+      "predicate": "对应",
+      "object": "Run组",
+      "context": "权限配置文件中default-run对应Run组的权限，完善权限体系理解",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:19:34.443Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3883,
+    "contentLength": 2891,
+    "processingTimeMs": 55547
+  }
+}

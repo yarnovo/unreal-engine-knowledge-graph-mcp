@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_overview-of-containers-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_overview-of-containers-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎容器",
+      "predicate": "支持",
+      "object": "基于云的开发技术",
+      "context": "容器技术是支持云开发和部署的基础设施，理解这一关系有助于学习者掌握云原生开发的核心技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎容器",
+      "predicate": "基于",
+      "object": "TensorWorks开源架构",
+      "context": "了解底层架构有助于深入理解容器技术的实现原理和扩展可能性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "容器",
+      "predicate": "打包为",
+      "object": "容器镜像",
+      "context": "这是容器技术的核心概念关系，理解打包机制是学习容器部署的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "容器镜像",
+      "predicate": "分为",
+      "object": "开发镜像和运行时镜像",
+      "context": "区分两种镜像类型对选择正确的开发部署策略至关重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "开发镜像",
+      "predicate": "包含",
+      "object": "虚幻编辑器和构建工具",
+      "context": "明确开发镜像的组成内容有助于开发者准备开发环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行时镜像",
+      "predicate": "扩展自",
+      "object": "打包的虚幻引擎项目",
+      "context": "理解如何扩展运行时镜像是云部署的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "runtime-pixel-streaming镜像",
+      "predicate": "扩展自",
+      "object": "runtime镜像",
+      "context": "理解镜像间的继承关系有助于选择适合特定功能的镜像类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "pixel-streaming-signalling-server",
+      "predicate": "用于",
+      "object": "像素流系统",
+      "context": "明确特殊镜像的用途可以帮助开发者实现特定功能需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "multi-user-server",
+      "predicate": "用于",
+      "object": "多用户编辑系统",
+      "context": "了解特殊镜像与功能的对应关系有助于系统架构设计",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎容器",
+      "predicate": "处于",
+      "object": "测试阶段",
+      "context": "了解技术成熟度对生产环境使用决策很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "容器",
+      "predicate": "不同于",
+      "object": "虚拟机",
+      "context": "理解容器与虚拟机的区别是掌握容器技术的基础",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "容器镜像",
+      "predicate": "发布在",
+      "object": "GitHub容器注册表",
+      "context": "了解镜像获取渠道是实际开发的重要信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "dev-slim镜像",
+      "predicate": "是精简版",
+      "object": "dev镜像",
+      "context": "理解不同开发镜像的区别有助于优化开发环境配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "runtime-windows镜像",
+      "predicate": "支持",
+      "object": "GPU加速",
+      "context": "了解不同平台的GPU支持情况对性能敏感应用很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎容器",
+      "predicate": "受限于",
+      "object": "EULA条款",
+      "context": "了解法律限制对商业应用开发很关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:14:11.680Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7663,
+    "contentLength": 4417,
+    "processingTimeMs": 44652
+  }
+}

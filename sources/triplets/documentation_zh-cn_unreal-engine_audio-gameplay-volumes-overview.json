@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_audio-gameplay-volumes-overview",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_audio-gameplay-volumes-overview.md",
+  "triples": [
+    {
+      "subject": "音频Gameplay体积",
+      "predicate": "替代",
+      "object": "音频体积",
+      "context": "音频Gameplay体积系统是旧版音频体积系统的替代品，解决了旧版系统的扩展性和工作流程问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频Gameplay体积",
+      "predicate": "基于",
+      "object": "组件架构",
+      "context": "音频Gameplay体积采用模块化组件方法，每个组件包含一种可配置行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频Gameplay体积",
+      "predicate": "支持",
+      "object": "蓝图集成",
+      "context": "系统加强了与蓝图的集成，允许体积作为组件添加到Actor蓝图中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频Gameplay体积",
+      "predicate": "包含",
+      "object": "衰减组件",
+      "context": "衰减组件是音频Gameplay体积的一种行为组件类型，用于调整音频响度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频Gameplay体积",
+      "predicate": "包含",
+      "object": "滤波器组件",
+      "context": "滤波器组件是音频Gameplay体积的一种行为组件类型，用于应用低通滤波器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频Gameplay体积",
+      "predicate": "包含",
+      "object": "混响组件",
+      "context": "混响组件是音频Gameplay体积的一种行为组件类型，用于添加混响效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频Gameplay体积",
+      "predicate": "包含",
+      "object": "子混合重载组件",
+      "context": "子混合重载组件是音频Gameplay体积的一种行为组件类型，用于重载声音子混合效果链",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频Gameplay体积",
+      "predicate": "包含",
+      "object": "子混合发送组件",
+      "context": "子混合发送组件是音频Gameplay体积的一种行为组件类型，用于将音频发送到声音子混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频Gameplay体积",
+      "predicate": "支持",
+      "object": "代理功能",
+      "context": "系统提供代理功能，允许在没有传统体积对象的情况下使用系统功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理功能",
+      "predicate": "包含",
+      "object": "图元代埋",
+      "context": "图元代埋是代理功能的一种类型，允许使用静态网格体作为体积",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理功能",
+      "predicate": "包含",
+      "object": "条件代理",
+      "context": "条件代理是代理功能的一种类型，在满足特定条件时无需物理体积即可使用功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频Gameplay体积",
+      "predicate": "优化",
+      "object": "性能",
+      "context": "系统将体积处理和碰撞检测从游戏线程转交给音频线程处理，提升性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频Gameplay体积",
+      "predicate": "优化",
+      "object": "工作流程",
+      "context": "系统简化了用户界面并允许将体积组件绑定到任意Actor上，优化了工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频Gameplay体积",
+      "predicate": "支持",
+      "object": "C++ API扩展",
+      "context": "系统提供了C++ API，允许开发人员通过新的效果和交互进行功能扩展",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频Gameplay体积",
+      "predicate": "支持",
+      "object": "蓝图交互接口",
+      "context": "系统提供了蓝图交互接口，允许通过蓝图进行功能扩展",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频Gameplay体积",
+      "predicate": "适用于",
+      "object": "次世代声音处理",
+      "context": "系统是基于区域的次世代声音处理方法，适用于需要精细控制音频效果的项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:07:46.009Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6513,
+    "contentLength": 3989,
+    "processingTimeMs": 55737
+  }
+}

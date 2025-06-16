@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_components-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_components-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "组件",
+      "predicate": "是",
+      "object": "对象",
+      "context": "组件是一种特殊类型的对象，可以被Actor附加为子对象，帮助学习者理解组件的基本性质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "附加",
+      "object": "组件",
+      "context": "Actor可以将组件作为子对象附加到自身，这是组件在虚幻引擎中的基本使用方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UActorComponent",
+      "predicate": "是基类",
+      "object": "所有组件",
+      "context": "UActorComponent是所有组件的基类，理解这一点有助于学习者掌握组件继承体系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USceneComponent",
+      "predicate": "继承自",
+      "object": "UActorComponent",
+      "context": "场景组件继承自Actor组件，增加了变换功能，这是组件类型的重要区分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UPrimitiveComponent",
+      "predicate": "继承自",
+      "object": "USceneComponent",
+      "context": "基元组件继承自场景组件，增加了几何表示功能，这是渲染和碰撞的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor组件",
+      "predicate": "适用于",
+      "object": "抽象行为",
+      "context": "Actor组件最适用于移动、物品栏等抽象行为，帮助学习者选择正确的组件类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "场景组件",
+      "predicate": "支持",
+      "object": "基于位置的行为",
+      "context": "场景组件支持需要位置信息但不需几何表示的功能，如摄像机和音频",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基元组件",
+      "predicate": "用于",
+      "object": "渲染和碰撞",
+      "context": "基元组件包含几何表示，是进行可视化和物理交互的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "注册组件",
+      "predicate": "启用",
+      "object": "逐帧更新",
+      "context": "注册组件是使其能够逐帧更新并影响场景的必要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TickComponent",
+      "predicate": "实现",
+      "object": "逐帧更新",
+      "context": "TickComponent函数允许组件实现逐帧更新，是动态行为的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染状态",
+      "predicate": "需要",
+      "object": "MarkRenderStateDirty",
+      "context": "渲染状态变化时需要标记为dirty，这对理解渲染更新机制很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理状态",
+      "predicate": "立即更新",
+      "object": "物理模拟",
+      "context": "物理状态会立即更新而非逐帧，这对理解物理系统的工作方式很关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视觉化组件",
+      "predicate": "仅存在于",
+      "object": "编辑器",
+      "context": "视觉化组件只在编辑器中存在，这对理解开发和生产环境的区别很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "场景组件",
+      "predicate": "形成",
+      "object": "变换树",
+      "context": "场景组件通过附加形成变换树，这是理解场景层次结构的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SetupAttachment",
+      "predicate": "用于",
+      "object": "构造函数附加",
+      "context": "SetupAttachment适用于构造函数中的组件附加，与AttachToComponent形成对比",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基元组件",
+      "predicate": "包含",
+      "object": "场景代理",
+      "context": "场景代理是基元组件与渲染系统交互的关键中间层",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FPrimitiveSceneProxy",
+      "predicate": "封装",
+      "object": "渲染数据",
+      "context": "场景代理封装渲染数据，使渲染可以与游戏逻辑并行执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体组件",
+      "predicate": "是",
+      "object": "基元组件",
+      "context": "静态网格体组件是基元组件的具体实现，用于静态几何体渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体组件",
+      "predicate": "是",
+      "object": "基元组件",
+      "context": "骨架网格体组件是基元组件的具体实现，用于动画角色渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "盒体组件",
+      "predicate": "用于",
+      "object": "碰撞检测",
+      "context": "盒体组件生成简单几何体专门用于碰撞检测",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:30:40.753Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11831,
+    "contentLength": 6903,
+    "processingTimeMs": 69420
+  }
+}

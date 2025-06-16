@@ -1,0 +1,99 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-use-unreal-insights-to-profile-android-games-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-use-unreal-insights-to-profile-android-games-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Unreal Insights",
+      "predicate": "用于",
+      "object": "性能分析",
+      "context": "Unreal Insights是虚幻引擎的性能分析工具，用于记录和查看应用程序的性能数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "依赖",
+      "object": "UECommandline.txt",
+      "context": "Unreal Insights需要通过UECommandline.txt文件接收命令行参数来启用跟踪会话",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AndroidFileServer",
+      "predicate": "用于",
+      "object": "文件管理",
+      "context": "AndroidFileServer插件用于管理Android设备上的文件，特别是推送UECommandline.txt文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealAndroidFileTool",
+      "predicate": "替代",
+      "object": "Android Debug Bridge",
+      "context": "UnrealAndroidFileTool是专为虚幻引擎项目设计的adb替代方案，提供更直接的文件访问",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Android SDK",
+      "predicate": "前置",
+      "object": "Android开发",
+      "context": "设置Android SDK是进行Android游戏开发的先决条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设备管理器",
+      "predicate": "用于",
+      "object": "设备连接",
+      "context": "设备管理器用于连接和管理Android设备，以便进行性能分析和调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Timing Insights",
+      "predicate": "属于",
+      "object": "Unreal Insights",
+      "context": "Timing Insights是Unreal Insights的一个功能模块，用于显示CPU和GPU线程处理数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UECommandline.txt",
+      "predicate": "包含",
+      "object": "跟踪参数",
+      "context": "UECommandline.txt文件包含启用Unreal Insights跟踪会话所需的命令行参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android设备",
+      "predicate": "支持",
+      "object": "实时跟踪",
+      "context": "Android设备可以通过Unreal Insights进行实时性能跟踪和分析",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "生成",
+      "object": "跟踪会话文件",
+      "context": "Unreal Insights会生成跟踪会话文件，可以用于后续分析和共享",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:27:37.439Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9800 字符)",
+      "timestamp": "2025-06-15T19:27:03.718Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13936,
+    "contentLength": 9800,
+    "processingTimeMs": 33734
+  }
+}

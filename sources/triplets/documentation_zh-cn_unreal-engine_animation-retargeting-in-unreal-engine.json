@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-retargeting-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-retargeting-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "动画重定位",
+      "predicate": "依赖",
+      "object": "骨架",
+      "context": "动画重定位功能需要依赖骨架资源来存储骨骼名称和层次结构数据，以及初始比例数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画重定位",
+      "predicate": "使用",
+      "object": "绑定(Rig)",
+      "context": "在不同骨架之间进行动画重定位时，需要使用绑定(Rig)资源来处理动画数据的传递",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绑定(Rig)",
+      "predicate": "连接",
+      "object": "骨架",
+      "context": "绑定(Rig)资源作为中介，连接不同的骨架资源，使它们能够共享动画数据",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架编辑器",
+      "predicate": "提供",
+      "object": "骨骼平移重定位设置",
+      "context": "骨架编辑器提供了三种骨骼平移重定位设置(Animation/Skeleton/AnimationScaled)，用于控制重定位行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重定位管理器",
+      "predicate": "包含于",
+      "object": "骨架编辑器",
+      "context": "重定位管理器是骨架编辑器中的一个工具，用于管理重定位源、设置绑定和管理重定位基本姿势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画重定位",
+      "predicate": "解决",
+      "object": "角色比例差异问题",
+      "context": "动画重定位的主要目的是解决在不同比例角色之间共享动画时产生的变形问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼平移重定位设置",
+      "predicate": "影响",
+      "object": "重定位效果",
+      "context": "不同的骨骼平移重定位设置(Animation/Skeleton/AnimationScaled)会直接影响最终的动画重定位效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK骨骼",
+      "predicate": "使用",
+      "object": "Animation模式",
+      "context": "在重定位设置中，IK骨骼通常使用Animation模式，使其平移数据完全来自动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨盆骨骼",
+      "predicate": "使用",
+      "object": "AnimationScaled模式",
+      "context": "骨盆骨骼通常使用AnimationScaled模式，使其平移数据按比例调整，确保正确的高度和动作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重定位管理器",
+      "predicate": "管理",
+      "object": "重定位源",
+      "context": "重定位管理器可以管理重定位源资源，用于指示动画是否来自其他来源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重定位管理器",
+      "predicate": "设置",
+      "object": "绑定(Rig)",
+      "context": "重定位管理器用于设置绑定(Rig)，这是不同骨架之间进行动画重定位的必要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画重定位",
+      "predicate": "支持",
+      "object": "IK/FK切换",
+      "context": "动画重定位系统支持IK/FK切换，可以根据需要选择使用FK位置或IK位置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "手IK骨骼",
+      "predicate": "用于",
+      "object": "保持道具操作一致性",
+      "context": "手IK骨骼可以保持不同比例角色操作相同道具时的一致性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画重定位",
+      "predicate": "减少",
+      "object": "动画制作成本",
+      "context": "使用动画重定位可以显著减少为不同比例角色制作全新动画的成本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重定位基本姿势",
+      "predicate": "影响",
+      "object": "重定位准确性",
+      "context": "管理重定位基本姿势可以提高不同骨架之间动画重定位的准确性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:03:34.911Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11471,
+    "contentLength": 6869,
+    "processingTimeMs": 64511
+  }
+}

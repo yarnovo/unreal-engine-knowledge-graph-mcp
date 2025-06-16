@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_optimizing-packaged-game-size-for-ios-projects-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_optimizing-packaged-game-size-for-ios-projects-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "发布配置",
+      "predicate": "优于",
+      "object": "开发配置",
+      "context": "发布配置通过使用较高优化配置、删除调试符号及日志代码，可以节省约31MB的空间，帮助学习者理解不同配置对包体大小的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "引用查看器",
+      "predicate": "用于",
+      "object": "追踪资源引用",
+      "context": "引用查看器可以帮助开发者识别和追踪项目中未使用但被引用的资源，从而优化包体大小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "打包项目",
+      "predicate": "包含",
+      "object": "所有内容",
+      "context": "打包项目会烘焙游戏中的所有内容，包括未引用的资源，而通过启动按钮烘焙仅包含所选地图引用的内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate",
+      "predicate": "增加",
+      "object": "可执行文件大小",
+      "context": "禁用Slate可以节省30MB以上的空间，帮助学习者理解Slate资源对包体大小的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C++项目",
+      "predicate": "支持",
+      "object": "禁用Slate",
+      "context": "在C++项目中可以通过设置bUsesSlate = false来禁用Slate，从而优化包体大小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Obj List",
+      "predicate": "用于",
+      "object": "分析内存使用",
+      "context": "Obj List命令可以帮助开发者了解项目中消耗内存最多的资源类型，从而进行针对性的优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "低级内存跟踪器",
+      "predicate": "用于",
+      "object": "追踪内存使用",
+      "context": "LLM工具可以记录虚幻引擎和操作系统分配的所有内存，帮助开发者确定内存占用情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质函数",
+      "predicate": "可能引用",
+      "object": "未用纹理",
+      "context": "材质函数中可能引用大量未使用的纹理作为默认纹理样本，这些未用资源会增加包体大小",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "可能引用",
+      "object": "未用变量",
+      "context": "蓝图中可能引用未使用的变量，这些未用资源会增加包体大小",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "EnabledPlugins",
+      "predicate": "控制",
+      "object": "插件启用状态",
+      "context": "通过EnabledPlugins文件可以禁用无用插件，从而压缩可执行文件的大小",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Project.Build.cs",
+      "predicate": "用于",
+      "object": "配置项目构建",
+      "context": "Project.Build.cs文件可以用于配置项目构建选项，包括禁用无用库",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Project.Target.cs",
+      "predicate": "用于",
+      "object": "配置目标规则",
+      "context": "Project.Target.cs文件可以用于设置目标规则，如禁用Slate",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:12:49.542Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4692,
+    "contentLength": 3121,
+    "processingTimeMs": 38860
+  }
+}

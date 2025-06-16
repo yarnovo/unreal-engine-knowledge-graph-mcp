@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_remote-control-protocols-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_remote-control-protocols-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "远程控制API",
+      "predicate": "是",
+      "object": "核心插件",
+      "context": "远程控制API是使用远程控制协议功能的前提条件，必须先启用该插件才能使用相关功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制协议DMX",
+      "predicate": "依赖",
+      "object": "远程控制API",
+      "context": "DMX协议插件需要远程控制API作为基础才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制协议MIDI",
+      "predicate": "依赖",
+      "object": "远程控制API",
+      "context": "MIDI协议插件需要远程控制API作为基础才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制协议OSC",
+      "predicate": "依赖",
+      "object": "远程控制API",
+      "context": "OSC协议插件需要远程控制API作为基础才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制预设资产",
+      "predicate": "用于",
+      "object": "属性映射",
+      "context": "远程控制预设资产是存储属性映射配置的核心资产类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IRemoteControlProtocol",
+      "predicate": "是",
+      "object": "接口",
+      "context": "这是实现自定义协议必须实现的基类接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FRemoteControlProtocolEntity",
+      "predicate": "是",
+      "object": "基类",
+      "context": "实现自定义协议实体时需要继承的结构体基类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制协议",
+      "predicate": "支持",
+      "object": "外部设备控制",
+      "context": "协议的主要功能是将外部设备输入映射到引擎属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "协议实现",
+      "predicate": "需要",
+      "object": "注册到IRemoteControlProtocolModule",
+      "context": "自定义协议实现后必须注册到协议模块才能生效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制面板",
+      "predicate": "提供",
+      "object": "属性映射界面",
+      "context": "面板是用户配置属性映射的主要操作界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX",
+      "predicate": "是",
+      "object": "协议类型",
+      "context": "DMX是支持的远程控制协议之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MIDI",
+      "predicate": "是",
+      "object": "协议类型",
+      "context": "MIDI是支持的远程控制协议之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OSC",
+      "predicate": "是",
+      "object": "协议类型",
+      "context": "OSC是支持的远程控制协议之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetProtocolScriptStruct",
+      "predicate": "是",
+      "object": "必须重载的方法",
+      "context": "实现自定义协议时必须重载此方法来提供协议实体结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Bind/Unbind",
+      "predicate": "是",
+      "object": "核心协议方法",
+      "context": "这些方法是协议实现中管理实体绑定的关键方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RemoteControlProtocol{Name}",
+      "predicate": "是",
+      "object": "命名规范",
+      "context": "自定义协议插件应遵循此命名规范",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "范围步长",
+      "predicate": "用于",
+      "object": "属性插值",
+      "context": "范围步长定义了属性在不同输入值之间的插值方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动绑定按钮",
+      "predicate": "提供",
+      "object": "快速映射功能",
+      "context": "简化属性映射流程的便捷功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制协议",
+      "predicate": "处于",
+      "object": "Beta阶段",
+      "context": "当前功能状态为Beta，生产环境需谨慎使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:36:16.266Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6955,
+    "contentLength": 4687,
+    "processingTimeMs": 65777
+  }
+}

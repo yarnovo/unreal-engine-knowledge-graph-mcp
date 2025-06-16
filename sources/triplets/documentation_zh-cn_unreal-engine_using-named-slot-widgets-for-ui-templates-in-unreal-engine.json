@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-named-slot-widgets-for-ui-templates-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-named-slot-widgets-for-ui-templates-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "命名槽",
+      "predicate": "用于",
+      "object": "UI模板",
+      "context": "命名槽控件专门用于创建可自定义的UI模板，允许其他控件填充其空间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "命名槽",
+      "predicate": "扩展",
+      "object": "控件蓝图功能",
+      "context": "通过使用命名槽，控件蓝图可以支持更灵活的UI设计，允许后期动态填充内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "命名槽",
+      "predicate": "依赖",
+      "object": "层级面板",
+      "context": "要向命名槽添加控件，必须通过层级面板进行操作，而不能直接拖放到图形界面上",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "命名槽",
+      "predicate": "需要",
+      "object": "容器控件",
+      "context": "为了能够直接拖放控件到命名槽上，必须使用如画布面板等容器控件作为中介",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水平框",
+      "predicate": "可替换为",
+      "object": "命名槽",
+      "context": "在示例中，水平框被替换为命名槽以实现更灵活的控件布局",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件蓝图",
+      "predicate": "包含",
+      "object": "命名槽",
+      "context": "命名槽是控件蓝图中的重要组件，用于创建可复用的UI模板",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "命名槽",
+      "predicate": "支持",
+      "object": "多控件填充",
+      "context": "单个命名槽可以容纳多个控件，为UI设计提供更大的灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "填充尺寸设置",
+      "predicate": "控制",
+      "object": "命名槽显示",
+      "context": "通过自定义填充尺寸可以精确控制命名槽在UI中的显示大小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "画布面板",
+      "predicate": "优于",
+      "object": "水平框",
+      "context": "当需要直接拖放控件时，使用画布面板作为容器比水平框更方便",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "命名槽",
+      "predicate": "实现",
+      "object": "UI复用",
+      "context": "命名槽是实现UI元素复用的关键技术，允许创建可定制的模板",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:20:22.998Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3862,
+    "contentLength": 2666,
+    "processingTimeMs": 28211
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_upgrading-control-rig-cplusplus-units-for-unreal-engine-5.2",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_upgrading-control-rig-cplusplus-units-for-unreal-engine-5.2.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎5.2",
+      "predicate": "升级",
+      "object": "控制绑定C++单元",
+      "context": "文档详细说明了从虚幻引擎5.1到5.2版本中控制绑定C++单元的重大变更，帮助开发者理解升级过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FRigVMStruct",
+      "predicate": "重构",
+      "object": "FRigUnit",
+      "context": "文档指出在虚幻引擎5.2中，FRigVMStruct和FRigUnit的实现方式发生了重大改变，需要开发者进行重构",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FRigVMExecuteContext",
+      "predicate": "替代",
+      "object": "RigVMExecuteContext参数",
+      "context": "在虚幻引擎5.2中，FRigVMExecuteContext取代了之前版本中的多个执行上下文参数，简化了方法签名",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ExecuteContext",
+      "predicate": "包含",
+      "object": "FRigUnitContext",
+      "context": "文档说明在5.2版本中，FRigUnitContext的功能被整合到ExecuteContext中，开发者需要更新代码以访问UnitContext",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FRigVMExecuteContext",
+      "predicate": "提供访问",
+      "object": "转换相关辅助函数",
+      "context": "文档指出所有与转换相关的辅助函数都转移到了FRigVMExecuteContext中，开发者需要调整调用方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定节点",
+      "predicate": "移除支持",
+      "object": "不透明参数",
+      "context": "文档说明在虚幻引擎5.2中移除了对不透明参数的支持，开发者需要调整之前依赖此机制的代码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FRigUnit_SendEvent",
+      "predicate": "示例展示",
+      "object": "签名变更",
+      "context": "文档使用FRigUnit_SendEvent作为示例，展示了从5.1到5.2版本的方法签名变更，帮助开发者理解具体修改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FRigVMExecuteContext",
+      "predicate": "整合",
+      "object": "FRigUnitContext成员",
+      "context": "文档提供了详细的成员迁移列表，说明哪些FRigUnitContext成员被转移到了FRigVMExecuteContext中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定",
+      "predicate": "不再区分",
+      "object": "初始状态和更新状态",
+      "context": "文档说明在5.2版本中，控制绑定不再区分初始和更新状态，开发者需要调整初始化逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎GitHub源码树",
+      "predicate": "提供参考",
+      "object": "重构示例",
+      "context": "文档建议开发者参考虚幻引擎GitHub源码树中的重构示例，帮助理解不同版本间的变更",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:13:06.862Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7266,
+    "contentLength": 5784,
+    "processingTimeMs": 33376
+  }
+}

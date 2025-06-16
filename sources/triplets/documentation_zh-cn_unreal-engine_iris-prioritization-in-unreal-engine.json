@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_iris-prioritization-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_iris-prioritization-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Iris优先级安排系统",
+      "predicate": "属于",
+      "object": "虚幻引擎",
+      "context": "Iris优先级安排系统是虚幻引擎中的一个功能模块，用于管理网络复制中的对象优先级",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris优先级安排系统",
+      "predicate": "包含",
+      "object": "静态优先级安排器",
+      "context": "静态优先级安排器是Iris优先级安排系统的一种实现方式，为对象分配固定优先级",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris优先级安排系统",
+      "predicate": "包含",
+      "object": "动态优先级安排器",
+      "context": "动态优先级安排器是Iris优先级安排系统的另一种实现方式，根据特定逻辑分配可变优先级",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态优先级安排器",
+      "predicate": "包含",
+      "object": "SphereNetObjectPrioritizer",
+      "context": "SphereNetObjectPrioritizer是虚幻引擎提供的一种动态优先级安排器实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态优先级安排器",
+      "predicate": "包含",
+      "object": "SphereWithOwnerBoostNetObjectPrioritizer",
+      "context": "SphereWithOwnerBoostNetObjectPrioritizer是SphereNetObjectPrioritizer的扩展版本，增加了所有者优先级提升功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态优先级安排器",
+      "predicate": "包含",
+      "object": "NetObjectCountLimiter",
+      "context": "NetObjectCountLimiter是另一种动态优先级安排器，用于限制每帧考虑复制的对象数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SphereWithOwnerBoostNetObjectPrioritizer",
+      "predicate": "继承",
+      "object": "SphereNetObjectPrioritizer",
+      "context": "带所有者提升的球体优先级安排器基于标准球体优先级安排器，增加了所有者优先级提升功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Iris优先级安排系统",
+      "predicate": "依赖",
+      "object": "复制系统",
+      "context": "优先级安排系统需要与复制系统协同工作，通过复制系统管理对象的复制状态",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Iris优先级安排系统",
+      "predicate": "使用",
+      "object": "FNetRefHandle",
+      "context": "系统使用FNetRefHandle作为标识符在复制系统中定位对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态优先级安排器",
+      "predicate": "实现",
+      "object": "UNetObjectPrioritizer接口",
+      "context": "创建自定义动态优先级安排器需要实现UNetObjectPrioritizer接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris优先级安排系统",
+      "predicate": "适用于",
+      "object": "网络游戏开发",
+      "context": "该系统专门用于优化网络游戏中的对象复制效率",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "静态优先级安排器",
+      "predicate": "替代",
+      "object": "动态优先级安排器",
+      "context": "当动态优先级安排器分配失败时，系统会回退使用静态优先级安排器",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Iris优先级安排系统",
+      "predicate": "前置",
+      "object": "Iris简介",
+      "context": "理解Iris优先级安排系统需要先掌握Iris的基本概念和工作原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SphereNetObjectPrioritizer",
+      "predicate": "基于",
+      "object": "空间距离",
+      "context": "球体优先级安排器根据对象与查看者的空间距离计算优先级",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态优先级安排器",
+      "predicate": "配置于",
+      "object": "DefaultEngine.ini",
+      "context": "动态优先级安排器的参数需要在引擎配置文件中进行设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:38:29.096Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11227 字符)",
+      "timestamp": "2025-06-15T19:37:32.557Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15359,
+    "contentLength": 11227,
+    "processingTimeMs": 56550
+  }
+}

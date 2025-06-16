@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_dealing-with-a-gpu-crash-when-using-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_dealing-with-a-gpu-crash-when-using-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "GPU驱动程序崩溃",
+      "predicate": "由...引起",
+      "object": "Windows保护机制",
+      "context": "Windows会杀死渲染时间过长的GPU驱动程序，导致应用程序崩溃",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU驱动程序崩溃",
+      "predicate": "影响",
+      "object": "虚幻引擎",
+      "context": "GPU崩溃会导致虚幻引擎崩溃报告器窗口出现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TdrDelay",
+      "predicate": "用于",
+      "object": "设置超时阈值",
+      "context": "TdrDelay用于设置GPU调度程序发出抢占请求时的延迟秒数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TdrDdiDelay",
+      "predicate": "用于",
+      "object": "设置线程离开驱动程序的时长",
+      "context": "TdrDdiDelay用于设置操作系统允许线程离开驱动程序的时长",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "注册表编辑器",
+      "predicate": "用于",
+      "object": "修改TdrDelay和TdrDdiDelay",
+      "context": "通过注册表编辑器可以添加或修改TdrDelay和TdrDdiDelay注册表项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TdrDelay",
+      "predicate": "影响",
+      "object": "GPU崩溃",
+      "context": "增加TdrDelay的值可以延长Windows等待渲染进程的时间，减少GPU崩溃",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TdrDdiDelay",
+      "predicate": "影响",
+      "object": "GPU崩溃",
+      "context": "增加TdrDdiDelay的值可以延长线程离开驱动程序的时间，减少GPU崩溃",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GraphicsDrivers",
+      "predicate": "包含",
+      "object": "TdrDelay和TdrDdiDelay",
+      "context": "TdrDelay和TdrDdiDelay注册表项需要添加到GraphicsDrivers文件夹中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU崩溃",
+      "predicate": "解决",
+      "object": "修改注册表项",
+      "context": "通过修改TdrDelay和TdrDdiDelay注册表项可以缓解GPU崩溃问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Windows保护机制",
+      "predicate": "限制",
+      "object": "渲染进程",
+      "context": "Windows会杀死渲染时间过长的进程，以防止应用程序使用过多内存",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "依赖",
+      "object": "GPU驱动程序",
+      "context": "虚幻引擎的渲染进程依赖于GPU驱动程序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU驱动程序",
+      "predicate": "影响",
+      "object": "渲染性能",
+      "context": "GPU驱动程序的稳定性直接影响虚幻引擎的渲染性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:48:04.261Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7482,
+    "contentLength": 5156,
+    "processingTimeMs": 38864
+  }
+}

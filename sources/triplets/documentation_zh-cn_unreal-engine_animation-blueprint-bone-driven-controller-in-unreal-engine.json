@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-blueprint-bone-driven-controller-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-blueprint-bone-driven-controller-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "骨骼驱动控制器",
+      "predicate": "属于",
+      "object": "动画蓝图",
+      "context": "骨骼驱动控制器是动画蓝图中的一个节点，用于动态影响目标对象的动作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼驱动控制器",
+      "predicate": "驱动",
+      "object": "目标对象",
+      "context": "骨骼驱动控制器通过源骨骼的运动数据来动态调整目标对象的动作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "目标对象",
+      "predicate": "包括",
+      "object": "骨骼",
+      "context": "目标对象可以是骨骼、变形对象或材质参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "目标对象",
+      "predicate": "包括",
+      "object": "变形对象",
+      "context": "目标对象可以是骨骼、变形对象或材质参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "目标对象",
+      "predicate": "包括",
+      "object": "材质参数",
+      "context": "目标对象可以是骨骼、变形对象或材质参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼驱动控制器",
+      "predicate": "使用",
+      "object": "源骨骼",
+      "context": "骨骼驱动控制器通过源骨骼的运动数据来驱动目标对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "源骨骼",
+      "predicate": "影响",
+      "object": "目标骨骼",
+      "context": "源骨骼的运动数据通过骨骼驱动控制器影响目标骨骼的动作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼驱动控制器",
+      "predicate": "运作于",
+      "object": "组件空间",
+      "context": "骨骼驱动控制器节点在组件空间中运作，需要进行空间转换才能在动画蓝图中使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼驱动控制器",
+      "predicate": "控制",
+      "object": "Alpha属性",
+      "context": "通过Alpha属性可以控制生成的输出姿势上应用动作的程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "源骨骼",
+      "predicate": "具有",
+      "object": "源组件属性",
+      "context": "源组件属性可以选择动作类型（位移、旋转或缩放）以及源骨骼的哪一个轴用作驱动目标对象的动作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼驱动控制器",
+      "predicate": "使用",
+      "object": "乘数",
+      "context": "乘数属性用于在源骨骼驱动目标对象时乘以其原来的动作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼驱动控制器",
+      "predicate": "使用",
+      "object": "驱动曲线",
+      "context": "驱动曲线可以修改源骨骼的动作，对如何驱动目标对象实施更精准的控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼驱动控制器",
+      "predicate": "支持",
+      "object": "调试",
+      "context": "在动画图表中选中骨骼驱动控制器节点后，视口中会绘制调试物体显示相关联的对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼驱动控制器",
+      "predicate": "具有",
+      "object": "目标模式",
+      "context": "目标模式属性选择源骨骼动作将要驱动的对象类型（骨骼、变形目标或材质参数）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼驱动控制器",
+      "predicate": "具有",
+      "object": "修改模式",
+      "context": "修改模式属性选择骨骼驱动控制器节点驱动目标骨骼的方法（添加至输入、替换组件或添加到参考姿势）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼驱动控制器",
+      "predicate": "用于",
+      "object": "避免几何体重叠",
+      "context": "骨骼驱动控制器可以动态调整骨骼网格体上的对象，避免几何体在动画中重叠",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:58:57.291Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9294,
+    "contentLength": 5900,
+    "processingTimeMs": 55870
+  }
+}

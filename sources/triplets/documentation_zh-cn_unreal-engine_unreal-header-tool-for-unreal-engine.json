@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-header-tool-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-header-tool-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻头文件分析工具(UHT)",
+      "predicate": "是",
+      "object": "虚幻引擎的自定义解析和代码生成工具",
+      "context": "UHT的主要功能是解析C++头文件并生成自定义代码，这是理解UHT基础定位的关键信息",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "虚幻头文件分析工具(UHT)",
+      "predicate": "服务于",
+      "object": "UObject系统",
+      "context": "UHT专门为虚幻引擎的UObject系统生成代码，这是其核心功能定位",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "虚幻编译工具(UBT)",
+      "predicate": "调用",
+      "object": "虚幻头文件分析工具(UHT)",
+      "context": "UBT在编译流程中会调用UHT进行代码生成，这是理解虚幻引擎编译流程的重要关系",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "虚幻引擎编译流程",
+      "predicate": "分为两个阶段",
+      "object": "UHT代码生成阶段和C++编译阶段",
+      "context": "理解虚幻引擎特有的两阶段编译过程对开发者调试构建问题很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UHT",
+      "predicate": "支持扩展",
+      "object": "脚本生成器",
+      "context": "UHT允许通过插件扩展其功能，这对需要自定义代码生成的开发者很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "脚本生成器扩展",
+      "predicate": "需要实现",
+      "object": "IUhtExportFactory接口",
+      "context": "了解扩展UHT需要实现的接口对开发者创建自定义生成器很关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UHT",
+      "predicate": "生成",
+      "object": "反射系统代码",
+      "context": "UHT生成的代码主要用于实现虚幻引擎的反射系统功能",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "虚幻头文件分析工具(UHT)",
+      "predicate": "依赖",
+      "object": "C#任务系统",
+      "context": "UHT内部使用C#任务系统实现并发处理，这对性能调优和调试有影响",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "UHT导出器",
+      "predicate": "包括",
+      "object": "CodeGen、Json、Stats等",
+      "context": "了解UHT内置的不同导出器类型有助于开发者选择合适的代码生成方式",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "UHT",
+      "predicate": "处理",
+      "object": "UHT关键字(如UCLASS、USTRUCT等)",
+      "context": "UHT会解析特定的宏关键字来生成反射代码，这是编写兼容头文件的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻头文件分析工具(UHT)",
+      "predicate": "关联",
+      "object": "虚幻引擎反射系统",
+      "context": "UHT生成的代码支撑了虚幻引擎的反射系统功能，理解这一关系对掌握引擎架构很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻头文件分析工具(UHT)",
+      "predicate": "关联",
+      "object": "虚幻编译工具(UBT)",
+      "context": "UHT和UBT共同构成虚幻引擎的编译系统，理解它们的协作关系对解决构建问题有帮助",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UHT开发",
+      "predicate": "使用",
+      "object": "-WriteRef和-VerifyRef选项",
+      "context": "这些选项用于验证代码生成的一致性，对修改或扩展UHT的开发者很重要",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "UHT",
+      "predicate": "可以扩展",
+      "object": "新的属性类型和关键字",
+      "context": "了解UHT的可扩展性边界对需要深度定制引擎的开发者很关键",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "仅包含委托的头文件",
+      "predicate": "需要",
+      "object": "UDELEGATE关键字",
+      "context": "这是UHT处理委托的特殊要求，开发者需要了解以避免编译问题",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T21:12:14.314Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10977 字符)",
+      "timestamp": "2025-06-15T21:11:27.533Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15977,
+    "contentLength": 10977,
+    "processingTimeMs": 46786
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_landscape-splines-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_landscape-splines-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "地形样条线",
+      "predicate": "用于",
+      "object": "创建线性特征",
+      "context": "地形样条线系统专门用于创建需要与地形相符的线性特征，如街道、小路等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形样条线",
+      "predicate": "包含",
+      "object": "控制点",
+      "context": "地形样条线由控制点组成，控制点定义了样条的形状和位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形样条线",
+      "predicate": "包含",
+      "object": "样条分段",
+      "context": "样条分段连接控制点，形成连续的样条路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制点",
+      "predicate": "控制",
+      "object": "样条分段",
+      "context": "控制点的位置和旋转决定了相连样条分段的形状和方向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形样条线",
+      "predicate": "支持",
+      "object": "静态网格体Actor",
+      "context": "可以将静态网格体附加到地形样条线上，用于创建复杂的线性结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形样条线",
+      "predicate": "影响",
+      "object": "地形高度图",
+      "context": "应用样条线会修改地形高度图，使地形升高或降低以适应样条",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形样条线",
+      "predicate": "影响",
+      "object": "图层权重图",
+      "context": "应用样条线会修改图层权重图，用于绘制混合遮罩图层",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制点",
+      "predicate": "具有",
+      "object": "宽度属性",
+      "context": "控制点的宽度属性决定了样条的视觉宽度和影响范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制点",
+      "predicate": "具有",
+      "object": "衰减属性",
+      "context": "控制点的衰减属性决定了样条边缘的平滑过渡效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "样条分段",
+      "predicate": "具有",
+      "object": "升高/降低地形选项",
+      "context": "这些选项决定了应用样条时如何修改地形高度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形样条线",
+      "predicate": "使用",
+      "object": "样条工具",
+      "context": "样条工具是创建和编辑地形样条线的主要界面工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "样条工具",
+      "predicate": "位于",
+      "object": "管理菜单",
+      "context": "样条工具可以在管理菜单下的编辑样条选项中找到",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形样条线",
+      "predicate": "适用于",
+      "object": "环境设计",
+      "context": "地形样条线特别适合用于创建游戏环境中的道路、河流等线性特征",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "附加到",
+      "object": "样条分段",
+      "context": "静态网格体可以沿着样条分段分布，创建复杂的线性结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "样条网格体",
+      "predicate": "具有",
+      "object": "缩放属性",
+      "context": "可以调整样条网格体的缩放属性以适应样条宽度或保持原始大小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形样条线",
+      "predicate": "支持",
+      "object": "合并与拆分操作",
+      "context": "可以通过特定操作合并或拆分样条线，提供更大的编辑灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制点",
+      "predicate": "响应",
+      "object": "平移和旋转工具",
+      "context": "控制点可以对平移和旋转工具做出反应，用于调整样条形状",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "样条分段",
+      "predicate": "具有",
+      "object": "切线属性",
+      "context": "切线属性控制样条分段的弯曲程度和形状",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形样条线",
+      "predicate": "关联",
+      "object": "地形系统",
+      "context": "地形样条线与虚幻引擎的地形系统紧密集成，可以修改地形高度和纹理",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形样条线",
+      "predicate": "用于",
+      "object": "道路创建",
+      "context": "文档明确指出地形样条线特别适合用于创建游戏环境中的道路",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:42:10.586Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 12493,
+    "contentLength": 7517,
+    "processingTimeMs": 70047
+  }
+}

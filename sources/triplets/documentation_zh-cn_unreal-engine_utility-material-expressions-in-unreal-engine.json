@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_utility-material-expressions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_utility-material-expressions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "AntialiasedTextureMask",
+      "predicate": "用于",
+      "object": "材质混合",
+      "context": "AntialiasedTextureMask表达式用于在两个复杂材质属性之间混合，或使alpha混合材质淡出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AntialiasedTextureMask",
+      "predicate": "依赖",
+      "object": "纹理",
+      "context": "AntialiasedTextureMask需要指定纹理作为输入，用于创建抗锯齿遮罩",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BlackBody",
+      "predicate": "模拟",
+      "object": "黑体辐射",
+      "context": "BlackBody表达式模拟黑体辐射效果，输出颜色和强度用于驱动基础颜色和自发光",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BumpOffset",
+      "predicate": "实现",
+      "object": "视差映射",
+      "context": "BumpOffset表达式通过高度图产生深度错觉，实现视差映射效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LinearInterpolate",
+      "predicate": "用于",
+      "object": "纹理混合",
+      "context": "LinearInterpolate表达式根据Alpha值在两个输入值之间混合，常用于纹理混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Fresnel",
+      "predicate": "基于",
+      "object": "表面法线与视角",
+      "context": "Fresnel表达式根据表面法线与摄像机方向的点积计算衰减效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Noise",
+      "predicate": "生成",
+      "object": "程序化噪点",
+      "context": "Noise表达式生成程序化噪点场，可用于创建各种材质效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DistanceToNearestSurface",
+      "predicate": "依赖",
+      "object": "网格体距离场",
+      "context": "DistanceToNearestSurface需要启用网格体距离场才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ThinTranslucent",
+      "predicate": "实现",
+      "object": "物理透明材质",
+      "context": "ThinTranslucent表达式精准再现基于物理的透明材质效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VectorNoise",
+      "predicate": "包含",
+      "object": "多种噪点类型",
+      "context": "VectorNoise表达式包含Cellnoise、Perlin3DNoise等多种噪点类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GIReplace",
+      "predicate": "用于",
+      "object": "全局光照优化",
+      "context": "GIReplace允许为全局光照使用简化的材质表达式链",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FeatureLevelSwitch",
+      "predicate": "支持",
+      "object": "多平台适配",
+      "context": "FeatureLevelSwitch允许为不同性能设备创建不同复杂度的材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DepthFade",
+      "predicate": "解决",
+      "object": "半透明接缝问题",
+      "context": "DepthFade表达式用于隐藏半透明对象与不透明对象相交时的接缝",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SphereMask",
+      "predicate": "基于",
+      "object": "距离计算",
+      "context": "SphereMask表达式根据距离计算结果输出遮罩值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RotateAboutAxis",
+      "predicate": "用于",
+      "object": "世界位置偏移",
+      "context": "RotateAboutAxis表达式输出旋转后的位置偏移量，适合输入到世界位置偏移",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Desaturation",
+      "predicate": "转换",
+      "object": "颜色为灰阶",
+      "context": "Desaturation表达式根据指定百分比将输入颜色转换为灰阶",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DepthOfFieldFunction",
+      "predicate": "控制",
+      "object": "景深模糊效果",
+      "context": "DepthOfFieldFunction表达式控制材质因景深而模糊时的表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PreviousFrameSwitch",
+      "predicate": "用于",
+      "object": "运动向量生成",
+      "context": "PreviousFrameSwitch帮助生成正确的运动向量，用于时间抗锯齿和动态模糊",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ConstantBiasScale",
+      "predicate": "用于",
+      "object": "数值范围转换",
+      "context": "ConstantBiasScale表达式可用于数值范围转换，如[-1,1]到[0,1]",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Distance",
+      "predicate": "计算",
+      "object": "欧氏距离",
+      "context": "Distance表达式计算两个向量之间的欧氏距离",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:26:58.446Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (25376 字符)",
+      "timestamp": "2025-06-15T21:26:02.760Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 40445,
+    "contentLength": 25376,
+    "processingTimeMs": 55693
+  }
+}

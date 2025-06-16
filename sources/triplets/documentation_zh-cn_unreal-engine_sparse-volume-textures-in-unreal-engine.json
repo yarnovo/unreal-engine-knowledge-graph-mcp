@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_sparse-volume-textures-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_sparse-volume-textures-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "稀疏体积纹理",
+      "predicate": "属于",
+      "object": "虚幻引擎",
+      "context": "稀疏体积纹理是虚幻引擎中的一种纹理类型，用于存储3D数据结构中的纹素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "稀疏体积纹理",
+      "predicate": "包含",
+      "object": "页表纹理",
+      "context": "稀疏体积纹理由页表纹理和物理图块数据纹理构成，页表纹理用于间接传递到物理图块数据纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "稀疏体积纹理",
+      "predicate": "包含",
+      "object": "物理图块数据纹理",
+      "context": "物理图块数据纹理存储体积的纹理数据，是稀疏体积纹理的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "稀疏体积纹理",
+      "predicate": "分为",
+      "object": "静态稀疏体积纹理",
+      "context": "稀疏体积纹理可以分为静态和动画两种类型，静态稀疏体积纹理是单个体积",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "稀疏体积纹理",
+      "predicate": "分为",
+      "object": "动画稀疏体积纹理",
+      "context": "动画稀疏体积纹理是可以播放的体积序列，类似于图像序列视图动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "稀疏体积纹理",
+      "predicate": "用于",
+      "object": "异类体积Actor",
+      "context": "稀疏体积纹理可以通过异类体积Actor渲染，异类体积是可放置的Actor，用于整合稀疏体积纹理材质节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "稀疏体积纹理",
+      "predicate": "用于",
+      "object": "体积雾",
+      "context": "稀疏体积纹理可以应用于体积雾，体积雾是一种指数高度雾功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "稀疏体积纹理",
+      "predicate": "用于",
+      "object": "体积云",
+      "context": "稀疏体积纹理可以应用于体积云，支持渲染云效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "稀疏体积纹理",
+      "predicate": "支持",
+      "object": "VDB文件导入",
+      "context": "稀疏体积纹理可以从VDB文件导入，VDB格式广泛用于存储稀疏体积数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "稀疏体积纹理",
+      "predicate": "使用",
+      "object": "Sparse Volume Texture Sample节点",
+      "context": "在材质中可以使用Sparse Volume Texture Sample节点对稀疏体积纹理进行采样",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "异类体积Actor",
+      "predicate": "支持",
+      "object": "动画稀疏体积纹理",
+      "context": "异类体积Actor可以播放和循环动画稀疏体积纹理，无需额外设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "异类体积Actor",
+      "predicate": "依赖",
+      "object": "路径追踪器",
+      "context": "异类体积渲染受到实时体积的延迟渲染功能限制，但路径追踪器提供了更完整的支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积雾",
+      "predicate": "支持",
+      "object": "稀疏体积纹理",
+      "context": "体积雾可以应用稀疏体积纹理的材质，但细节数量可能高于体积雾的分辨率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积云",
+      "predicate": "支持",
+      "object": "稀疏体积纹理",
+      "context": "体积云可以应用稀疏体积纹理的材质，自动支持渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "稀疏体积纹理查看器",
+      "predicate": "用于",
+      "object": "预览稀疏体积纹理",
+      "context": "稀疏体积纹理查看器可用于直接预览稀疏体积纹理，无需设置材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VDB文件",
+      "predicate": "转换为",
+      "object": "稀疏体积纹理",
+      "context": "VDB数据在被导入虚幻引擎时会转换为稀疏体积表示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质实例动态",
+      "predicate": "用于",
+      "object": "播放动画稀疏体积纹理",
+      "context": "播放动画稀疏体积纹理需要材质实例动态和蓝图，用于更新SVT参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "控制",
+      "object": "动画稀疏体积纹理",
+      "context": "可以使用Sequencer控制动画稀疏体积纹理的播放，类似于控制骨骼网格体动画蓝图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "稀疏体积纹理",
+      "predicate": "受限于",
+      "object": "页表纹理大小",
+      "context": "页表纹理的大小限制为2GB，最大虚拟SVT分辨率在X和Y轴上不得超过32K单位",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "稀疏体积纹理",
+      "predicate": "受限于",
+      "object": "平台支持",
+      "context": "稀疏体积纹理目前仅支持带使用着色器模型5和6的DX11、DX12的Windows",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:53:42.479Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (23710 字符)",
+      "timestamp": "2025-06-15T20:52:38.384Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 39836,
+    "contentLength": 23710,
+    "processingTimeMs": 64099
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-the-mobile-deferred-shading-mode-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-the-mobile-deferred-shading-mode-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "移动延迟着色模式",
+      "predicate": "替代",
+      "object": "移动正向着色模式",
+      "context": "移动延迟着色模式在特定情况下可以替代移动正向着色模式，提供更好的性能和更高级的光照功能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动延迟着色模式",
+      "predicate": "包含",
+      "object": "几何体处理阶段",
+      "context": "移动延迟着色模式包含几何体处理阶段，用于处理基础颜色、金属感和粗糙度参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动延迟着色模式",
+      "predicate": "包含",
+      "object": "光照处理阶段",
+      "context": "移动延迟着色模式包含光照处理阶段，用于从GBuffer读取材质属性并计算光照",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体处理阶段",
+      "predicate": "生成",
+      "object": "GBuffer",
+      "context": "几何体处理阶段生成GBuffer，存储基础颜色、金属感和粗糙度参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光照处理阶段",
+      "predicate": "读取",
+      "object": "GBuffer",
+      "context": "光照处理阶段从GBuffer读取材质属性，用于计算光照",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动延迟着色模式",
+      "predicate": "支持",
+      "object": "光源函数",
+      "context": "移动延迟着色模式支持光源函数，这是移动正向着色模式不提供的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动延迟着色模式",
+      "predicate": "支持",
+      "object": "光源配置文件",
+      "context": "移动延迟着色模式支持光源配置文件，这是移动正向着色模式不提供的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动延迟着色模式",
+      "predicate": "支持",
+      "object": "IES光源配置文件",
+      "context": "移动延迟着色模式支持IES光源配置文件，这是移动正向着色模式不提供的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动延迟着色模式",
+      "predicate": "支持",
+      "object": "光照贴花",
+      "context": "移动延迟着色模式支持光照贴花，这是移动正向着色模式不提供的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动延迟着色模式",
+      "predicate": "不支持",
+      "object": "多重取样抗锯齿（MSAA）",
+      "context": "移动延迟着色模式不支持多重取样抗锯齿（MSAA），因为需要在GBuffer中占用大量空间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动延迟着色模式",
+      "predicate": "基于",
+      "object": "图块内存",
+      "context": "移动延迟着色模式基于图块内存实现，利用GPU中的图块内存降低对系统内存和CPU的性能影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动延迟着色模式",
+      "predicate": "适用于",
+      "object": "大型户外环境",
+      "context": "移动延迟着色模式适用于具有大型户外环境且高度依赖动态光照的游戏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动延迟着色模式",
+      "predicate": "不适用于",
+      "object": "预计算光照",
+      "context": "移动延迟着色模式不适用于主要使用预计算光照的项目，此时正向着色模型更合适",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动延迟着色模式",
+      "predicate": "提升",
+      "object": "性能",
+      "context": "移动延迟着色模式通过减少图形状态管理和RHI线程工作来提升性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动延迟着色模式",
+      "predicate": "减少",
+      "object": "内存使用",
+      "context": "移动延迟着色模式通过利用图块内存和更简单的着色器减少内存使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动延迟着色模式",
+      "predicate": "兼容",
+      "object": "iOS",
+      "context": "移动延迟着色模式兼容iOS平台，使用类似于framebuffer_fetch的功能访问图块内存中的GBuffer",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动延迟着色模式",
+      "predicate": "兼容",
+      "object": "Android Vulkan",
+      "context": "移动延迟着色模式兼容Android Vulkan平台，使用Vulkan的子处理通道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动延迟着色模式",
+      "predicate": "兼容",
+      "object": "Android GLES",
+      "context": "移动延迟着色模式兼容Android GLES平台，需要扩展支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动延迟着色模式",
+      "predicate": "受限于",
+      "object": "硬件限制",
+      "context": "移动延迟着色模式在某些设备上受限于硬件限制，如Mali设备对颜色和输入附件的限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动延迟着色模式",
+      "predicate": "配置",
+      "object": "项目设置",
+      "context": "移动延迟着色模式通过项目设置中的引擎-渲染-移动-移动着色下拉菜单进行配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:25:00.751Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 12377,
+    "contentLength": 7637,
+    "processingTimeMs": 56815
+  }
+}

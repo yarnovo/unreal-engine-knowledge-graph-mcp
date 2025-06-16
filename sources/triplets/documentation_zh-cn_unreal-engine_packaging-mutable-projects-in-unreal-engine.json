@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_packaging-mutable-projects-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_packaging-mutable-projects-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Mutable",
+      "predicate": "处理",
+      "object": "资产",
+      "context": "Mutable在打包项目时会处理资产数据，类似于其他资产的处理方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mutable",
+      "predicate": "转换",
+      "object": "源图表",
+      "context": "Mutable在运行时将源图表转换为更高效的表示形式，并从资产中删除",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mutable",
+      "predicate": "存储",
+      "object": "批量数据文件",
+      "context": "经过处理的资源存储在批量数据文件中，并在生成实例时按需流送",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "批量数据格式",
+      "predicate": "优于",
+      "object": "Mutable格式",
+      "context": "批量数据格式是默认推荐格式，具有兼容按需内容、加载时间更快等优势",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Mutable格式",
+      "predicate": "提供",
+      "object": "更多控制",
+      "context": "Mutable格式对输出有更多控制，可以产生较好的补丁效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "嵌入式批量数据",
+      "predicate": "提升",
+      "object": "性能",
+      "context": "嵌入式批量数据会占用额外内存，但可以提升性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可自定义对象实例资产",
+      "predicate": "包含",
+      "object": "参数值",
+      "context": "实例资产只包含参数值，并以可移植方式存储",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "打包选项",
+      "predicate": "影响",
+      "object": "运行时性能",
+      "context": "打包选项中的优化级别和纹理压缩设置会影响运行时性能和纹理质量",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "批量数据格式",
+      "predicate": "集成",
+      "object": "标准UE功能",
+      "context": "批量数据格式与其他标准UE功能的集成度更高",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mutable格式",
+      "predicate": "不支持",
+      "object": "按需内容",
+      "context": "Mutable格式不支持按需内容和可选批量数据文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:16:13.044Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5686,
+    "contentLength": 3546,
+    "processingTimeMs": 42511
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-create-a-steam-effect-in-niagara-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-create-a-steam-effect-in-niagara-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Niagara",
+      "predicate": "包含",
+      "object": "发射器",
+      "context": "Niagara系统由发射器组成，发射器负责生成粒子效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara",
+      "predicate": "包含",
+      "object": "系统",
+      "context": "Niagara系统是管理发射器和粒子效果的高级容器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器",
+      "predicate": "组成",
+      "object": "Niagara系统",
+      "context": "发射器是构建Niagara系统的基本组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FX_Steam",
+      "predicate": "基于",
+      "object": "FX_Smoke",
+      "context": "蒸汽效果发射器是通过复制并修改烟雾效果发射器创建的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器",
+      "predicate": "包含",
+      "object": "发射器更新组",
+      "context": "发射器更新组控制发射器本身的行为和属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器",
+      "predicate": "包含",
+      "object": "粒子生成组",
+      "context": "粒子生成组控制粒子初始生成时的行为和属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器",
+      "predicate": "包含",
+      "object": "粒子更新组",
+      "context": "粒子更新组控制粒子生命周期中的持续行为和属性变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器更新组",
+      "predicate": "包含",
+      "object": "发射器状态模块",
+      "context": "发射器状态模块控制发射器的时间和生命周期设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器更新组",
+      "predicate": "包含",
+      "object": "生成速率模块",
+      "context": "生成速率模块控制粒子的生成频率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子生成组",
+      "predicate": "包含",
+      "object": "初始化粒子模块",
+      "context": "初始化粒子模块设置粒子的初始属性如生命周期、颜色和大小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子生成组",
+      "predicate": "包含",
+      "object": "添加速度模块",
+      "context": "添加速度模块为粒子赋予初始速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子生成组",
+      "predicate": "包含",
+      "object": "球体位置模块",
+      "context": "球体位置模块控制粒子生成的初始位置范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子更新组",
+      "predicate": "包含",
+      "object": "加速力模块",
+      "context": "加速力模块持续影响粒子的运动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子更新组",
+      "predicate": "包含",
+      "object": "缩放颜色模块",
+      "context": "缩放颜色模块控制粒子生命周期中的颜色和透明度变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子更新组",
+      "predicate": "包含",
+      "object": "阻力模块",
+      "context": "阻力模块模拟粒子运动中的阻力效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "M_smoke_subUV材质",
+      "predicate": "用于",
+      "object": "蒸汽效果",
+      "context": "该材质是创建蒸汽效果的基础材质资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "初学者内容包",
+      "predicate": "包含",
+      "object": "M_smoke_subUV材质",
+      "context": "该材质是初学者内容包中的预设资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "系统概览面板",
+      "predicate": "用于",
+      "object": "编辑Niagara系统",
+      "context": "系统概览面板是编辑Niagara系统各组件的界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生命周期模式",
+      "predicate": "控制",
+      "object": "发射器行为",
+      "context": "生命周期模式设置决定发射器是由自身还是系统控制其生命周期",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "解算力和速度模块",
+      "predicate": "依赖",
+      "object": "阻力模块",
+      "context": "阻力模块需要在解算力和速度模块之前执行才能正确计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:25:48.076Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11420 字符)",
+      "timestamp": "2025-06-15T19:24:31.749Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14799,
+    "contentLength": 11420,
+    "processingTimeMs": 76334
+  }
+}

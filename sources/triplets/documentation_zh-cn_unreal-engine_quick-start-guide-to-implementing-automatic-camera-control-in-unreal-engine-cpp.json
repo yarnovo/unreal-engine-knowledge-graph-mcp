@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_quick-start-guide-to-implementing-automatic-camera-control-in-unreal-engine-cpp",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_quick-start-guide-to-implementing-automatic-camera-control-in-unreal-engine-cpp.md",
+  "triples": [
+    {
+      "subject": "摄像机Actor",
+      "predicate": "属于",
+      "object": "Actor",
+      "context": "摄像机Actor是Actor的一种特殊类型，用于在场景中放置摄像机视角",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机组件",
+      "predicate": "属于",
+      "object": "组件",
+      "context": "摄像机组件是可以附加到任何Actor上的组件，提供更灵活的摄像机控制方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CameraDirector",
+      "predicate": "继承",
+      "object": "Actor",
+      "context": "CameraDirector类继承自Actor基类，用于实现摄像机控制逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CameraDirector",
+      "predicate": "控制",
+      "object": "摄像机Actor",
+      "context": "CameraDirector通过引用摄像机Actor实例来控制其视图切换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CameraDirector",
+      "predicate": "控制",
+      "object": "摄像机组件",
+      "context": "CameraDirector也可以通过引用包含摄像机组件的Actor来控制其视图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PlayerController",
+      "predicate": "管理",
+      "object": "视图目标",
+      "context": "PlayerController负责管理玩家的视图目标，可以通过SetViewTarget方法切换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GameplayStatics",
+      "predicate": "提供",
+      "object": "GetPlayerController",
+      "context": "GameplayStatics类提供了获取PlayerController的实用函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UPROPERTY",
+      "predicate": "使可见",
+      "object": "变量",
+      "context": "UPROPERTY宏使C++变量在虚幻编辑器中可见并可编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机组件",
+      "predicate": "支持",
+      "object": "约束高宽比",
+      "context": "摄像机组件可以设置约束高宽比属性，使视图切换更平滑",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "SetViewTargetWithBlend",
+      "predicate": "实现",
+      "object": "平滑过渡",
+      "context": "SetViewTargetWithBlend方法实现了摄像机视图之间的平滑过渡效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机控制",
+      "predicate": "适用于",
+      "object": "非玩家控制场景",
+      "context": "这种自动摄像机控制方式适用于玩家不直接控制摄像机的游戏场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "CameraDirector",
+      "predicate": "使用",
+      "object": "Tick事件",
+      "context": "CameraDirector利用Actor的Tick事件来实现定时摄像机切换逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机Actor",
+      "predicate": "对比",
+      "object": "摄像机组件",
+      "context": "摄像机Actor是独立实体，而摄像机组件需要附加到其他Actor上，两者是摄像机实现的两种主要方式",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "数组容器",
+      "predicate": "可扩展",
+      "object": "CameraDirector",
+      "context": "文档建议使用数组容器来扩展CameraDirector以支持更多摄像机",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "结构体",
+      "predicate": "可组织",
+      "object": "摄像机配置",
+      "context": "文档建议使用结构体来组织摄像机指针、切换时间和混合时间等配置",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T20:32:08.608Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (24811 字符)",
+      "timestamp": "2025-06-15T20:31:15.928Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 28697,
+    "contentLength": 24811,
+    "processingTimeMs": 52687
+  }
+}

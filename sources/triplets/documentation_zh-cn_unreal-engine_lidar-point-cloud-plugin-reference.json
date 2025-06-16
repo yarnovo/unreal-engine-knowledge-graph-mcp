@@ -1,0 +1,205 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_lidar-point-cloud-plugin-reference",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_lidar-point-cloud-plugin-reference.md",
+  "triples": [
+    {
+      "subject": "LiDAR点云插件",
+      "predicate": "包含",
+      "object": "Octree设置",
+      "context": "Octree设置是LiDAR点云插件的重要组成部分，用于控制点云数据的组织和管理方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiDAR点云插件",
+      "predicate": "包含",
+      "object": "性能设置",
+      "context": "性能设置影响LiDAR点云插件的运行效率和资源使用情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiDAR点云插件",
+      "predicate": "包含",
+      "object": "碰撞设置",
+      "context": "碰撞设置用于控制点云数据的碰撞检测行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiDAR点云插件",
+      "predicate": "包含",
+      "object": "自动化设置",
+      "context": "自动化设置可以简化点云数据的导入和处理流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiDAR点云插件",
+      "predicate": "包含",
+      "object": "导入/导出设置",
+      "context": "导入/导出设置控制点云数据在不同单位系统间的转换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiDAR点云插件",
+      "predicate": "包含",
+      "object": "细节面板",
+      "context": "细节面板提供对点云外观和渲染的精细控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "包含",
+      "object": "外观设置",
+      "context": "外观设置控制点云在场景中的视觉表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "包含",
+      "object": "渲染设置",
+      "context": "渲染设置专门控制点云的渲染行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiDAR点云插件",
+      "predicate": "支持",
+      "object": "控制台变量",
+      "context": "控制台变量提供了额外的点云参数调整方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Octree设置",
+      "predicate": "控制",
+      "object": "副本处理",
+      "context": "副本处理设置决定如何处理点云中的重复点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Octree设置",
+      "predicate": "控制",
+      "object": "最大桶大小",
+      "context": "最大桶大小影响点云数据的组织方式和LOD控制精度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "性能设置",
+      "predicate": "影响",
+      "object": "多线程插入批处理大小",
+      "context": "批处理大小影响多线程处理点云的效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "性能设置",
+      "predicate": "影响",
+      "object": "使用异步导入",
+      "context": "异步导入设置影响编辑器导入点云时的响应性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "外观设置",
+      "predicate": "控制",
+      "object": "点大小",
+      "context": "点大小设置影响点云在场景中的视觉表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "外观设置",
+      "predicate": "控制",
+      "object": "缩放方法",
+      "context": "缩放方法决定点云中点的缩放方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染设置",
+      "predicate": "控制",
+      "object": "使用视锥体剔除",
+      "context": "视锥体剔除设置影响点云的渲染效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台变量",
+      "predicate": "影响",
+      "object": "r.LidarPointBudget",
+      "context": "此变量控制屏幕上同时显示的总点数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台变量",
+      "predicate": "影响",
+      "object": "r.LidarTargetFPS",
+      "context": "此变量控制点云渲染以维持目标FPS",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化设置",
+      "predicate": "包含",
+      "object": "导入时自动居中",
+      "context": "此设置控制导入时是否自动将点云居中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化设置",
+      "predicate": "包含",
+      "object": "导入时自动计算法线",
+      "context": "此设置控制导入时是否自动计算点云法线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Octree设置",
+      "predicate": "影响",
+      "object": "节点网格分辨率",
+      "context": "此设置影响点云数据的组织精度和系统资源使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "性能设置",
+      "predicate": "影响",
+      "object": "使用快速渲染",
+      "context": "此设置显著影响运行时性能和VRAM使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "外观设置",
+      "predicate": "影响",
+      "object": "颜色源",
+      "context": "此设置决定点云的着色方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiDAR点云插件",
+      "predicate": "基于",
+      "object": "虚幻引擎",
+      "context": "LiDAR点云插件是虚幻引擎的一个功能扩展",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:44:38.144Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9745,
+    "contentLength": 5379,
+    "processingTimeMs": 74666
+  }
+}

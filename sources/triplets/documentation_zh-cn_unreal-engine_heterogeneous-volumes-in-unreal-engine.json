@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_heterogeneous-volumes-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_heterogeneous-volumes-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "异类体积Actor",
+      "predicate": "用于",
+      "object": "渲染体积域材质",
+      "context": "异类体积Actor专门用于渲染对稀疏体积纹理取样的体积域材质，帮助学习者理解其核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "异类体积Actor",
+      "predicate": "支持",
+      "object": "路径追踪器",
+      "context": "该Actor支持使用路径追踪器进行高质量体积渲染，这是学习高级渲染技术的关键关联",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "异类体积Actor",
+      "predicate": "依赖",
+      "object": "稀疏体积纹理(SVT)",
+      "context": "异类体积的功能实现依赖于稀疏体积纹理资产，这是理解其工作流程的基础依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VDB文件",
+      "predicate": "生成",
+      "object": "稀疏体积纹理",
+      "context": "VDB文件导入后生成稀疏体积纹理资产，这是创建异类体积内容的重要数据转换流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SparseVolumeTexture Sample节点",
+      "predicate": "用于",
+      "object": "体积域材质",
+      "context": "该材质节点专门用于对稀疏体积纹理进行取样，是构建体积材质的技术要点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "异类体积",
+      "predicate": "包含",
+      "object": "体积分辨率属性",
+      "context": "体积分辨率是异类体积的核心属性之一，影响渲染质量和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "路径追踪器",
+      "predicate": "需要",
+      "object": "DirectX 12",
+      "context": "使用路径追踪器渲染异类体积需要将默认RHI设置为DirectX 12，这是重要的技术前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara流体",
+      "predicate": "可替代",
+      "object": "异类体积Actor",
+      "context": "Niagara流体插件提供了另一种创建异类体积的方式，扩展了学习者的技术选择",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "异类体积渲染",
+      "predicate": "受控于",
+      "object": "控制台变量",
+      "context": "多个控制台变量(r.PathTracing.HeterogeneousVolumes等)直接影响异类体积的渲染行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积材质",
+      "predicate": "基于",
+      "object": "SparseVolumeMaterial示例",
+      "context": "引擎提供的SparseVolumeMaterial示例是创建自定义体积材质的基础模板",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画VDB",
+      "predicate": "需要",
+      "object": "播放控制属性",
+      "context": "使用动画VDB需要配置播放、循环等动画属性，这是处理动态体积的关键知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "异类体积",
+      "predicate": "可实现",
+      "object": "间接光照效果",
+      "context": "通过控制台变量可启用异类体积的间接光照支持，这是高级渲染技术的学习点",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "体积渲染",
+      "predicate": "涉及",
+      "object": "光线步进技术",
+      "context": "异类体积的延迟渲染模型使用光线步进技术，这是理解其渲染原理的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "异类体积项目设置",
+      "predicate": "控制",
+      "object": "阴影投射功能",
+      "context": "项目设置中的阴影投射选项控制异类体积是否在环境中投射阴影，这是重要的功能开关",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "异类体积",
+      "predicate": "关联",
+      "object": "体积雾和体积云",
+      "context": "异类体积与虚幻引擎中其他体积效果(如体积雾、体积云)存在技术关联性，可对比学习",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T19:18:19.728Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12491 字符)",
+      "timestamp": "2025-06-15T19:17:27.477Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 20595,
+    "contentLength": 12491,
+    "processingTimeMs": 52258
+  }
+}

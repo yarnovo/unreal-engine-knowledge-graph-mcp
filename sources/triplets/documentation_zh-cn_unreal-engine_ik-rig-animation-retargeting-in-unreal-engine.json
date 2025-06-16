@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_ik-rig-animation-retargeting-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_ik-rig-animation-retargeting-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "IK Rig",
+      "predicate": "用于",
+      "object": "动画重定向",
+      "context": "IK Rig是虚幻引擎中用于在不同骨骼网格体之间创建动画重定向的核心工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK重定向器",
+      "predicate": "基于",
+      "object": "IK Rig",
+      "context": "IK重定向器资产需要选择IK Rig作为基础来进行动画重定向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画重定向",
+      "predicate": "支持",
+      "object": "不同骨骼结构的骨架",
+      "context": "与传统重定向不同，IK Rig重定向可以在骨骼数量、名称和方向不同的骨架之间传输动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重定向链",
+      "predicate": "定义",
+      "object": "重定向肢体",
+      "context": "重定向链用于定义要在重定向过程中传输的肢体和其他附属物",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重定向链",
+      "predicate": "包含",
+      "object": "起始骨骼和末端骨骼",
+      "context": "每个重定向链需要指定起始骨骼和末端骨骼来定义肢体范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重定向姿势",
+      "predicate": "用于",
+      "object": "匹配不同引用姿势",
+      "context": "重定向姿势可以编辑以匹配源和目标角色不同的引用姿势，提高重定向准确性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK目标",
+      "predicate": "控制",
+      "object": "链的精确位置",
+      "context": "IK目标可以用于稳定肢体或链，确保重定向的精确性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重定向根骨骼",
+      "predicate": "定义",
+      "object": "根骨骼运动",
+      "context": "重定向根骨骼通常是骨盆或臀部骨骼，用于定义和传输角色的根骨骼运动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "批量重定向",
+      "predicate": "支持",
+      "object": "多动画资产处理",
+      "context": "批量重定向功能可以快速重定向多个动画序列、混合空间等动画资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "步幅扭曲",
+      "predicate": "调整",
+      "object": "动画步幅",
+      "context": "步幅扭曲功能可以操控重定向动画的步幅长度、宽度和外翻度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "快速栽植",
+      "predicate": "防止",
+      "object": "脚部滑动",
+      "context": "快速栽植功能可以防止脚部在重定向动画中出现滑动现象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK Rig编辑器",
+      "predicate": "用于",
+      "object": "创建重定向链",
+      "context": "重定向链需要在IK Rig编辑器中创建和配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画序列",
+      "predicate": "可导入为",
+      "object": "重定向姿势",
+      "context": "可以从动画序列中导入特定帧作为重定向姿势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势资产",
+      "predicate": "可导出",
+      "object": "重定向姿势",
+      "context": "编辑好的重定向姿势可以导出为姿势资产供其他项目使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "层级面板",
+      "predicate": "显示",
+      "object": "骨骼和链关系",
+      "context": "层级面板显示骨骼层级和重定向链的使用情况，帮助理解骨骼结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产浏览器",
+      "predicate": "用于",
+      "object": "预览和导出动画",
+      "context": "资产浏览器面板可以预览重定向效果并导出重定向后的动画序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "提供",
+      "object": "重定向设置调整",
+      "context": "细节面板提供各种重定向参数的精细调整选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重定向输出日志",
+      "predicate": "显示",
+      "object": "调试信息",
+      "context": "重定向输出日志显示警告和错误信息，帮助调试重定向过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "链映射面板",
+      "predicate": "管理",
+      "object": "源和目标链对应关系",
+      "context": "链映射面板用于管理和调整源链与目标链之间的映射关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视口",
+      "predicate": "提供",
+      "object": "重定向预览",
+      "context": "视口可以实时预览重定向效果，支持调试和调整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:28:16.951Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (23684 字符)",
+      "timestamp": "2025-06-15T19:27:03.720Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 38068,
+    "contentLength": 23684,
+    "processingTimeMs": 73244
+  }
+}

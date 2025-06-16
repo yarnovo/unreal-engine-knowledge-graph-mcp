@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_stereo-video-device",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_stereo-video-device.md",
+  "triples": [
+    {
+      "subject": "Stereo Video Device",
+      "predicate": "支持",
+      "object": "立体视频导入",
+      "context": "Stereo Video Device 的主要功能是导入成对的视频作为立体拍摄内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Stereo Video Device",
+      "predicate": "支持",
+      "object": "音频文件",
+      "context": "Stereo Video Device 可以同时导入与视频配套的 .wav 音频文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Stereo Video Device",
+      "predicate": "包含",
+      "object": "Display Name",
+      "context": "Display Name 是 Stereo Video Device 在设备列表中显示的名称",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Stereo Video Device",
+      "predicate": "包含",
+      "object": "Take Directory",
+      "context": "Take Directory 是 Stereo Video Device 用于查找视频文件的根文件夹路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Stereo Video Device",
+      "predicate": "包含",
+      "object": "Video Discovery Expression",
+      "context": "Video Discovery Expression 用于定义视频文件的命名约定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Stereo Video Device",
+      "predicate": "包含",
+      "object": "Audio Discovery Expression",
+      "context": "Audio Discovery Expression 用于定义音频文件的命名约定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Video Discovery Expression",
+      "predicate": "使用",
+      "object": "Discovery Expression Tokens",
+      "context": "Video Discovery Expression 使用特定的 Tokens 来识别视频文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Audio Discovery Expression",
+      "predicate": "使用",
+      "object": "Discovery Expression Tokens",
+      "context": "Audio Discovery Expression 使用特定的 Tokens 来识别音频文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Discovery Expression Tokens",
+      "predicate": "包含",
+      "object": "<Slate>",
+      "context": "<Slate> 是 Discovery Expression Tokens 中的一个标记，表示拍摄名称",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Discovery Expression Tokens",
+      "predicate": "包含",
+      "object": "<Name>",
+      "context": "<Name> 是 Discovery Expression Tokens 中的一个标记，表示立体对中相机的标识符",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Discovery Expression Tokens",
+      "predicate": "包含",
+      "object": "<Take>",
+      "context": "<Take> 是 Discovery Expression Tokens 中的一个标记，表示拍摄编号",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Discovery Expression Tokens",
+      "predicate": "包含",
+      "object": "<Any>",
+      "context": "<Any> 是 Discovery Expression Tokens 中的一个标记，表示任何有效字符串",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Discovery Expression Tokens",
+      "predicate": "包含",
+      "object": "<Auto>",
+      "context": "<Auto> 是 Discovery Expression Tokens 中的一个标记，用于自动基于目录结构识别拍摄",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Discovery Expression Tokens",
+      "predicate": "使用分隔符",
+      "object": "_-.\\",
+      "context": "Discovery Expression Tokens 可以使用特定的分隔符来分隔标记",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Video Discovery Expression",
+      "predicate": "依赖",
+      "object": "<Slate> 和 <Name>",
+      "context": "当不使用 <Auto> 标记时，Video Discovery Expression 必须包含 <Slate> 和 <Name>",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:55:29.026Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3590,
+    "contentLength": 3388,
+    "processingTimeMs": 41715
+  }
+}

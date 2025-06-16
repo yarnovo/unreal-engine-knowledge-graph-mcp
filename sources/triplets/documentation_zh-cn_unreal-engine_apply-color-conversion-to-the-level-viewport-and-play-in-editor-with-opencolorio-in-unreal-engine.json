@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_apply-color-conversion-to-the-level-viewport-and-play-in-editor-with-opencolorio-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_apply-color-conversion-to-the-level-viewport-and-play-in-editor-with-opencolorio-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "OpenColorIO配置资产",
+      "predicate": "用于",
+      "object": "视口颜色转换",
+      "context": "OpenColorIO配置资产是进行视口颜色转换的基础资源，学习者需要先创建此资产才能进行后续操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OCIO显示",
+      "predicate": "属于",
+      "object": "视口视图模式",
+      "context": "OCIO显示是视口视图模式中的一个选项，学习者需要了解这个层级关系才能找到正确的设置位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "显示配置设置",
+      "predicate": "包含",
+      "object": "OCIO配置资产选择",
+      "context": "显示配置设置中包含选择OCIO配置资产的选项，这是应用颜色转换的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Create In-Game OpenColorIO Display Extension节点",
+      "predicate": "实现",
+      "object": "PIE模式颜色转换",
+      "context": "该蓝图节点是实现游戏内视口颜色转换的核心组件，学习者需要掌握其使用方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机Actor蓝图类",
+      "predicate": "需要",
+      "object": "Create In-Game OpenColorIO Display Extension节点",
+      "context": "要在游戏内视口中实现颜色转换，必须将该节点添加到摄像机Actor的蓝图类中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OpenColorIO颜色转换",
+      "predicate": "替换",
+      "object": "色调曲线",
+      "context": "启用OpenColorIO颜色转换后，视口将禁用色调曲线，学习者需要了解这个替代关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OpenColorIO快速入门",
+      "predicate": "前置",
+      "object": "应用颜色转换",
+      "context": "学习者需要先完成OpenColorIO快速入门中的步骤创建配置资产，才能进行后续的颜色转换操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视口颜色转换",
+      "predicate": "类似",
+      "object": "PIE模式颜色转换",
+      "context": "虽然实现方式不同，但两者都使用OpenColorIO配置资产进行颜色转换，学习者可以对比学习",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "OpenColorIO Display Configuration变量",
+      "predicate": "配置",
+      "object": "颜色转换参数",
+      "context": "该变量用于配置颜色转换的具体参数，是PIE模式颜色转换的核心设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EventBeginPlay节点",
+      "predicate": "连接",
+      "object": "Create In-Game OpenColorIO Display Extension节点",
+      "context": "将颜色转换节点连接到EventBeginPlay节点是确保颜色转换在游戏开始时生效的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:04:56.527Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6129,
+    "contentLength": 4569,
+    "processingTimeMs": 48098
+  }
+}

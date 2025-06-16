@@ -1,0 +1,131 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_automatic-navigation-link-generation",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_automatic-navigation-link-generation.md",
+  "triples": [
+    {
+      "subject": "寻路链接",
+      "predicate": "用于",
+      "object": "连接可寻路区域",
+      "context": "寻路链接用于连接关卡中两个可寻路但并不直接相连的区域，帮助学习者理解其核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路链接代理Actor",
+      "predicate": "用于",
+      "object": "手动添加寻路链接",
+      "context": "开发者可以通过放置寻路链接代理Actor来手动定义可寻路区域之间的连接点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动生成寻路链接",
+      "predicate": "基于",
+      "object": "寻路网格体边界体积",
+      "context": "自动生成寻路链接功能需要先放置寻路网格体边界体积Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动生成寻路链接",
+      "predicate": "依赖",
+      "object": "RecastNavMesh-Default Actor",
+      "context": "需要在RecastNavMesh-Default Actor的细节面板中启用生成寻路链接功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路链接下跳配置",
+      "predicate": "控制",
+      "object": "寻路链接生成参数",
+      "context": "寻路链接下跳配置包含多个参数设置，如跳跃长度、边缘跳跃距离等，这些参数直接影响生成的寻路链接特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GeneratedNavLinksProxy",
+      "predicate": "用于",
+      "object": "添加自定义行为",
+      "context": "通过创建GeneratedNavLinksProxy蓝图类，可以为自动生成的寻路链接添加自定义行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI代理",
+      "predicate": "使用",
+      "object": "寻路链接",
+      "context": "AI代理可以通过寻路链接在关卡中导航，测试寻路链接的行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_ThirdPersonCharacter",
+      "predicate": "可扩展为",
+      "object": "BP_NPC",
+      "context": "可以通过复制并修改BP_ThirdPersonCharacter来创建AI代理角色BP_NPC",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路链接生成",
+      "predicate": "影响",
+      "object": "性能",
+      "context": "文档详细说明了寻路链接生成对性能的影响因素，如跳跃长度、取样分隔系数等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绘制图块构建时间",
+      "predicate": "用于",
+      "object": "监控生成性能",
+      "context": "启用绘制图块构建时间功能可以查看寻路链接生成的时间开销",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动生成寻路链接",
+      "predicate": "替代",
+      "object": "手动放置寻路链接",
+      "context": "自动生成功能可以替代手动放置寻路链接代理Actor的工作流程",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "包含",
+      "object": "寻路链接",
+      "context": "寻路链接是寻路网格体的组成部分，用于扩展导航能力",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "链接代理类",
+      "predicate": "实现",
+      "object": "自定义行为",
+      "context": "通过指定链接代理类，开发者可以实现寻路链接的自定义行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_Target",
+      "predicate": "作为",
+      "object": "导航目标",
+      "context": "BP_Target Actor可以作为AI代理的导航目的地，用于测试寻路链接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:10:36.444Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8105 字符)",
+      "timestamp": "2025-06-15T18:09:41.601Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 11865,
+    "contentLength": 8105,
+    "processingTimeMs": 54850
+  }
+}

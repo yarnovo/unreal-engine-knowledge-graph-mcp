@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_epic-cplusplus-coding-standard-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_epic-cplusplus-coding-standard-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎代码规范",
+      "predicate": "包含",
+      "object": "类组织规范",
+      "context": "代码规范文档中明确说明了类的组织方式，这对学习如何构建虚幻引擎项目结构很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎代码规范",
+      "predicate": "包含",
+      "object": "命名规范",
+      "context": "命名规范是代码规范的核心部分，直接影响代码的可读性和维护性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "命名规范",
+      "predicate": "适用于",
+      "object": "UObject派生类",
+      "context": "文档明确说明继承自UObject的类需要以U为前缀，这是虚幻引擎特有的命名规则",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "命名规范",
+      "predicate": "适用于",
+      "object": "AActor派生类",
+      "context": "文档明确说明继承自AActor的类需要以A为前缀，这是重要的虚幻引擎概念",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "命名规范",
+      "predicate": "适用于",
+      "object": "SWidget派生类",
+      "context": "Slate UI框架中的控件类需要以S为前缀，这是UI编程的重要规范",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "命名规范",
+      "predicate": "包含",
+      "object": "布尔变量命名规则",
+      "context": "布尔变量需要以b为前缀的规范是虚幻引擎特有的重要命名约定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "现代C++语法",
+      "predicate": "包含",
+      "object": "override关键字",
+      "context": "文档推荐在派生类中声明覆盖方法时使用override关键字，这是现代C++的重要特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "现代C++语法",
+      "predicate": "包含",
+      "object": "nullptr关键字",
+      "context": "文档要求使用nullptr替代NULL，这是现代C++的空指针表示方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "现代C++语法",
+      "predicate": "包含",
+      "object": "基于范围的for循环",
+      "context": "文档推荐使用基于范围的for循环替代传统迭代器，这是现代C++的语法糖",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "现代C++语法",
+      "predicate": "包含",
+      "object": "移动语义",
+      "context": "文档详细说明了虚幻引擎容器如何支持移动语义，这是性能优化的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代码格式",
+      "predicate": "包含",
+      "object": "大括号使用规范",
+      "context": "大括号必须在新行的规范是Epic Games的传统做法，影响代码风格统一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代码格式",
+      "predicate": "包含",
+      "object": "制表符和缩进",
+      "context": "使用制表符而非空格的规范影响代码的可读性和跨平台一致性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "包容性选词",
+      "predicate": "替代",
+      "object": "黑名单/白名单",
+      "context": "文档建议使用deny list/allow list等替代术语，这是现代软件开发的重要文化规范",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "注释规范",
+      "predicate": "影响",
+      "object": "代码可维护性",
+      "context": "文档强调注释是沟通的重要方式，直接影响代码的长期维护成本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "常量正确性",
+      "predicate": "提高",
+      "object": "代码安全性",
+      "context": "文档详细说明了如何正确使用const关键字，这是防止意外修改的重要技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "API设计",
+      "predicate": "建议",
+      "object": "避免布尔参数",
+      "context": "文档建议使用枚举替代布尔参数，这是提高API可读性和扩展性的重要实践",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平台特定代码",
+      "predicate": "要求",
+      "object": "平台抽象层",
+      "context": "文档说明平台特定代码应抽取到平台抽象层中，这是跨平台开发的核心原则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UObject",
+      "predicate": "派生自",
+      "object": "UCLASS",
+      "context": "文档中UObject派生类的示例展示了UCLASS宏的使用，这是虚幻反射系统的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor",
+      "predicate": "派生自",
+      "object": "UObject",
+      "context": "AActor是UObject的重要派生类，这是虚幻引擎对象模型的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模板类",
+      "predicate": "使用前缀",
+      "object": "T",
+      "context": "文档说明模板类需要以T为前缀，这是虚幻引擎模板代码的重要命名规范",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:59:51.421Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (32275 字符)",
+      "timestamp": "2025-06-15T18:58:31.068Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 53219,
+    "contentLength": 32275,
+    "processingTimeMs": 80363
+  }
+}

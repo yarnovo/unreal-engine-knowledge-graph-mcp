@@ -1,0 +1,85 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_player-start-actor-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_player-start-actor-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "玩家出生点",
+      "predicate": "属于",
+      "object": "Actor",
+      "context": "玩家出生点是虚幻引擎中的一种特殊Actor，用于定义玩家在游戏场景中的初始位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家出生点",
+      "predicate": "用于",
+      "object": "生成玩家角色",
+      "context": "玩家出生点的主要功能是确定玩家角色在游戏开始时的生成位置和朝向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家出生点",
+      "predicate": "位于",
+      "object": "Basic类目",
+      "context": "在虚幻引擎编辑器的Modes面板中，玩家出生点Actor可以在Basic类目下找到",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家出生点",
+      "predicate": "依赖",
+      "object": "蓝图系统",
+      "context": "玩家出生点可以与蓝图系统结合使用，实现更灵活的玩家生成逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "玩家出生点",
+      "predicate": "需要设置",
+      "object": "位置和旋转方向",
+      "context": "玩家出生点的位置和旋转方向决定了玩家生成时的初始位置和朝向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家出生点",
+      "predicate": "替代方案",
+      "object": "Play From Here",
+      "context": "当需要从非玩家出生点的位置开始游戏时，可以使用编辑器中的Play From Here功能",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "玩家出生点",
+      "predicate": "避免",
+      "object": "场景对象重叠",
+      "context": "当玩家出生点与场景对象重叠时，会出现BADsize图标，需要调整位置避免重叠",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家出生点",
+      "predicate": "默认位置",
+      "object": "世界坐标原点(0,0,0)",
+      "context": "如果场景中没有放置玩家出生点，玩家角色将默认在世界坐标原点生成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家出生点",
+      "predicate": "通过",
+      "object": "Modes面板放置",
+      "context": "玩家出生点Actor可以通过编辑器中的Modes面板拖拽到场景中进行放置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:25:09.760Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3191,
+    "contentLength": 1999,
+    "processingTimeMs": 33736
+  }
+}

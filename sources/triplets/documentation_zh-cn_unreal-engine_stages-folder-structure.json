@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_stages-folder-structure",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_stages-folder-structure.md",
+  "triples": [
+    {
+      "subject": "舞台文件夹",
+      "predicate": "包含",
+      "object": "nDisplay配置",
+      "context": "舞台文件夹是nDisplay配置的容器，理解这一包含关系有助于学习者定位nDisplay配置文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay配置",
+      "predicate": "描述",
+      "object": "LED体积和拓扑",
+      "context": "nDisplay配置的核心功能是描述LED体积及其拓扑结构，这对理解虚拟制片技术至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "舞台文件夹",
+      "predicate": "关联",
+      "object": "环境文件夹",
+      "context": "两个文件夹的内容会组合用于最终摄像机视觉特效处理，理解这种关联性有助于掌握虚拟制片工作流程",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "持久关卡",
+      "predicate": "属于",
+      "object": "舞台文件夹",
+      "context": "持久关卡是舞台文件夹中的重要组成部分，理解这一归属关系有助于项目结构组织",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WarpMeshes",
+      "predicate": "包含",
+      "object": "构成体积的网格体",
+      "context": "WarpMeshes文件夹专门用于存放构成LED体积的网格体资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Configs文件夹",
+      "predicate": "存储",
+      "object": "nDisplay配置文件",
+      "context": "Configs文件夹是存放nDisplay配置文件的专用位置，其中.cfg文件在内容浏览器中不可见",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "舞台文件夹结构",
+      "predicate": "适用于",
+      "object": "ICVFX工作流",
+      "context": "文档中提到的ICVFX标签表明该文件夹结构特别适合虚拟制片工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "显示",
+      "object": "舞台文件夹结构",
+      "context": "内容浏览器是查看和管理舞台文件夹结构的主要界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体资源",
+      "predicate": "组成",
+      "object": "LED体积",
+      "context": "理解网格体如何组成LED体积是掌握虚拟制片技术的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "舞台持久关卡",
+      "predicate": "用于",
+      "object": "摄像机视觉特效处理",
+      "context": "持久关卡与环境文件夹内容组合后用于最终视觉效果处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:53:12.048Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2212,
+    "contentLength": 1766,
+    "processingTimeMs": 33667
+  }
+}

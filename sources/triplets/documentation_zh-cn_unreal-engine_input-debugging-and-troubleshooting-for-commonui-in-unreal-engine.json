@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_input-debugging-and-troubleshooting-for-commonui-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_input-debugging-and-troubleshooting-for-commonui-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "条件断点",
+      "predicate": "用于",
+      "object": "输入调试",
+      "context": "条件断点是调试输入问题的有效工具，可以避免断点导致的UI状态变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "击中计数",
+      "predicate": "是",
+      "object": "条件断点的一种实现方式",
+      "context": "击中计数是创建条件断点的简单方法，帮助开发者在特定点击次数后触发断点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件反射器",
+      "predicate": "支持",
+      "object": "条件断点创建",
+      "context": "控件反射器可以获取特定控件的条件断点，帮助开发者针对特定UI元素进行调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CommonUI",
+      "predicate": "依赖",
+      "object": "LocalPlayerSubsystems",
+      "context": "CommonUI适用于LocalPlayerSubsystems，这些子系统的更新状态直接影响CommonUI的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "暂停时可更新",
+      "predicate": "解决",
+      "object": "游戏暂停导致的UI问题",
+      "context": "将相关Actor和控件设置为暂停时可更新可以解决游戏暂停时CommonUI无法正常运行的问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PlayerController",
+      "predicate": "合并",
+      "object": "InputKey和InputAxis行为",
+      "context": "在UE5中，PlayerController级别合并了InputKey和InputAxis行为，这会影响输入处理方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FCommonAnalogCursor",
+      "predicate": "是",
+      "object": "输入处理器",
+      "context": "FCommonAnalogCursor作为输入处理器，会与输入管线的早期部分交互，可能影响输入事件处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCommonUIActionRouterBase",
+      "predicate": "控制",
+      "object": "菜单模式中的游戏输入",
+      "context": "UCommonUIActionRouterBase的CanProcessNormalGameInput决定了在菜单模式中是否允许游戏输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视口鼠标捕获",
+      "predicate": "影响",
+      "object": "菜单模式中的输入行为",
+      "context": "视口鼠标捕获状态会影响菜单模式中是否允许游戏输入，这是UE5的默认行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "条件断点",
+      "predicate": "替代",
+      "object": "普通断点",
+      "context": "在UI输入调试中，条件断点可以替代普通断点以避免不必要的UI状态变化",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "CommonUI",
+      "predicate": "包含",
+      "object": "CommonBoundActionBar",
+      "context": "CommonBoundActionBar是CommonUI的一部分，其功能也受LocalPlayerSubsystems更新状态影响",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "输入调试",
+      "predicate": "需要",
+      "object": "控件反射器",
+      "context": "在UI输入调试过程中，控件反射器是获取特定控件信息的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:35:39.089Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5892,
+    "contentLength": 3940,
+    "processingTimeMs": 41518
+  }
+}

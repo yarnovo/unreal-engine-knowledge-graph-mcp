@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_instanced-static-mesh-component-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_instanced-static-mesh-component-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Instanced Static Mesh Component",
+      "predicate": "优化",
+      "object": "静态网格体Actor",
+      "context": "ISM组件通过将多个相同的静态网格体组合成一个组件来减少性能开销，替代多个独立的静态网格体Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Instanced Static Mesh Component",
+      "predicate": "包含",
+      "object": "静态网格体实例",
+      "context": "ISM组件包含多个相同静态网格体的实例，每个实例共享相同的材质和碰撞属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Instanced Static Mesh Component",
+      "predicate": "对比",
+      "object": "Static Mesh Component",
+      "context": "ISM组件与普通静态网格体组件的主要区别在于实例化能力和共享属性",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Hierarchical Instanced Static Mesh",
+      "predicate": "扩展",
+      "object": "Instanced Static Mesh Component",
+      "context": "HISM是ISM的扩展版本，增加了层级LOD支持，适用于大规模静态实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Instanced Static Mesh Component",
+      "predicate": "支持",
+      "object": "Nanite",
+      "context": "ISM组件支持使用Nanite虚拟化几何体，进一步优化渲染性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Instanced Static Mesh Component",
+      "predicate": "用于",
+      "object": "环境布置",
+      "context": "ISM组件常用于高效布置重复的环境元素，如森林植被或建筑部件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Foliage Mode",
+      "predicate": "生成",
+      "object": "Instanced Static Mesh Component",
+      "context": "植被模式工具可以自动生成ISM组件来高效布置大量植被实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blueprint",
+      "predicate": "控制",
+      "object": "Instanced Static Mesh Component",
+      "context": "蓝图系统可以通过脚本动态控制ISM组件的实例生成和属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Merge Actors Tool",
+      "predicate": "创建",
+      "object": "Instanced Static Mesh Component",
+      "context": "合并Actor工具的批处理方法可以将多个静态网格体转换为ISM组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Instanced Static Mesh Component",
+      "predicate": "依赖",
+      "object": "Static Mesh Asset",
+      "context": "ISM组件必须基于一个静态网格体资产来创建其实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Details Panel",
+      "predicate": "配置",
+      "object": "Instanced Static Mesh Component",
+      "context": "细节面板提供了ISM组件的核心配置选项，包括实例数量、材质和LOD设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Instanced Static Mesh Component",
+      "predicate": "减少",
+      "object": "Draw Calls",
+      "context": "ISM通过合并绘制调用显著减少渲染开销，提升性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pattern Tool",
+      "predicate": "输出",
+      "object": "Instanced Static Mesh Component",
+      "context": "模式工具可以生成规律排列的网格体实例并输出为ISM组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ISM Editor",
+      "predicate": "编辑",
+      "object": "Instanced Static Mesh Component",
+      "context": "ISM编辑器专门用于选择和编辑ISM组件中的各个实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Instanced Static Mesh Component",
+      "predicate": "支持",
+      "object": "Custom Data",
+      "context": "ISM组件支持为每个实例添加自定义数据，用于材质差异化等效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:37:11.092Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (22895 字符)",
+      "timestamp": "2025-06-15T19:36:09.214Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 23073,
+    "contentLength": 22895,
+    "processingTimeMs": 61881
+  }
+}

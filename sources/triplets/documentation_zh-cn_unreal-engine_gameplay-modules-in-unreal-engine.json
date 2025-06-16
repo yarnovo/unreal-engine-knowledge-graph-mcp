@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_gameplay-modules-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_gameplay-modules-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎游戏模块",
+      "predicate": "组成",
+      "object": "游戏项目",
+      "context": "游戏项目由一个或多个游戏性模块构成，理解模块是理解游戏项目结构的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏模块",
+      "predicate": "替代",
+      "object": "包文件",
+      "context": "在虚幻引擎4中，游戏模块(DLL文件)替代了UE3中的包文件(Package)，这是引擎架构的重要变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏模块",
+      "predicate": "包含",
+      "object": "头文件",
+      "context": "每个游戏模块必须包含头文件(.h)，这是模块的基本组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏模块",
+      "predicate": "包含",
+      "object": "C++文件",
+      "context": "每个游戏模块必须包含C++文件(.cpp)，用于注册和实现模块功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏模块",
+      "predicate": "包含",
+      "object": "编译文件",
+      "context": "每个游戏模块必须包含编译文件(.Build.cs)，定义模块的编译规则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IMPLEMENT_PRIMARY_GAME_MODULE",
+      "predicate": "用于",
+      "object": "主模块注册",
+      "context": "IMPLEMENT_PRIMARY_GAME_MODULE宏用于注册游戏的主模块，是模块系统的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IMPLEMENT_GAME_MODULE",
+      "predicate": "用于",
+      "object": "辅助模块注册",
+      "context": "IMPLEMENT_GAME_MODULE宏用于注册游戏的辅助模块，与主模块注册形成对比",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块编译文件",
+      "predicate": "定义",
+      "object": "模块依赖",
+      "context": "模块的.Build.cs文件定义了该模块对其他模块的依赖关系(PublicDependencyModuleNames和PrivateDependencyModuleNames)",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏模块",
+      "predicate": "需要配置",
+      "object": "INI文件",
+      "context": "新的游戏模块需要在DefaultEngine.ini文件中进行配置，这是模块使用的必要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多个游戏模块",
+      "predicate": "影响",
+      "object": "编译时间",
+      "context": "使用多个游戏模块会影响编译时间，这是架构设计时需要考虑的权衡因素",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "相互依赖模块",
+      "predicate": "可能导致",
+      "object": "初始化问题",
+      "context": "相互依赖的模块可能导致变量静态初始化相关的问题，这是模块设计时需要避免的",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "游戏模块",
+      "predicate": "基于",
+      "object": "UnrealBuildTool",
+      "context": "游戏模块的编译基于UnrealBuildTool，理解这个工具对模块开发很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主游戏模块",
+      "predicate": "关联",
+      "object": "Target.cs文件",
+      "context": "主游戏模块需要在Target.cs文件中配置(OutExtraModuleNames数组)，这是模块系统的重要组成部分",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏模块",
+      "predicate": "继承",
+      "object": "ModuleRules类",
+      "context": "每个游戏模块的编译文件都继承自ModuleRules类，这是模块编译的基础类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏模块",
+      "predicate": "包含",
+      "object": "UObject代码",
+      "context": "游戏模块通常包含UObject代码，需要在INI文件中进行特殊配置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:11:03.872Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6051,
+    "contentLength": 3883,
+    "processingTimeMs": 56858
+  }
+}

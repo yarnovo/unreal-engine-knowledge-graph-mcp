@@ -1,0 +1,197 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_state-tree-selectors-overview",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_state-tree-selectors-overview.md",
+  "triples": [
+    {
+      "subject": "StateTree",
+      "predicate": "包含",
+      "object": "状态",
+      "context": "StateTree以树状结构排列状态，包括父状态和子状态，这是理解状态树的基础结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "状态",
+      "predicate": "具有",
+      "object": "选择行为",
+      "context": "子状态的选择行为决定了StateTree运行时如何选择子状态，是状态树运行机制的核心",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "尝试进入",
+      "predicate": "是",
+      "object": "选择行为",
+      "context": "这是最基本的选择行为类型，直接选择状态而不考虑子状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "尝试按顺序选择子项",
+      "predicate": "是",
+      "object": "选择行为",
+      "context": "按列表顺序选择子状态的行为类型，是顺序逻辑的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "尝试随机选择子项",
+      "predicate": "是",
+      "object": "选择行为",
+      "context": "随机打乱顺序选择子状态的行为类型，适用于需要随机性的场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "尝试选择最高效用的子项",
+      "predicate": "是",
+      "object": "选择行为",
+      "context": "基于效用分数选择子状态的行为类型，是AI决策的重要机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "尝试按效用随机加权选择子项",
+      "predicate": "是",
+      "object": "选择行为",
+      "context": "结合随机性和效用分数的选择行为，适用于概率性AI决策",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "尝试遵循过渡",
+      "predicate": "是",
+      "object": "选择行为",
+      "context": "专门处理状态过渡的选择行为类型，是状态转换的关键机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "效用选择器",
+      "predicate": "包含",
+      "object": "考虑因素",
+      "context": "考虑因素是效用选择器的核心组件，用于计算状态分数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "效用选择器",
+      "predicate": "包含",
+      "object": "逻辑运算符",
+      "context": "逻辑运算符用于组合多个考虑因素，是复杂决策的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "效用选择器",
+      "predicate": "包含",
+      "object": "权重",
+      "context": "权重用于调整考虑因素的重要性，是微调决策的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "考虑因素",
+      "predicate": "输出",
+      "object": "规格化分数",
+      "context": "考虑因素的核心功能是输出0-1之间的分数，这是效用计算的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "逻辑运算符",
+      "predicate": "包括",
+      "object": "AND",
+      "context": "AND运算符是基本的逻辑组合方式，取输入分数中的较低值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "逻辑运算符",
+      "predicate": "包括",
+      "object": "OR",
+      "context": "OR运算符是基本的逻辑组合方式，取输入分数中的较高值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "浮点输入考虑因素",
+      "predicate": "使用",
+      "object": "响应曲线",
+      "context": "响应曲线是浮点输入考虑因素的核心计算方式，决定了输入到输出的映射关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "枚举输入考虑因素",
+      "predicate": "使用",
+      "object": "枚举分数查找表",
+      "context": "查找表是枚举输入考虑因素的核心机制，将枚举值映射到分数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "常量输入考虑因素",
+      "predicate": "输出",
+      "object": "常量分数",
+      "context": "这是最简单的考虑因素类型，直接输出固定值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "尝试选择效用最高的子项",
+      "predicate": "基于",
+      "object": "效用分数",
+      "context": "这种行为完全依赖于效用分数进行决策，是确定性AI的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "尝试按效用随机加权选择子项",
+      "predicate": "结合",
+      "object": "随机性",
+      "context": "这种行为在效用分数基础上引入随机性，适用于概率性决策场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "状态",
+      "predicate": "可以包含",
+      "object": "子状态",
+      "context": "理解状态的层级关系是构建复杂状态树的基础",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "响应曲线",
+      "predicate": "可编辑于",
+      "object": "细节面板",
+      "context": "了解响应曲线的编辑位置对实际开发很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "权重",
+      "predicate": "影响",
+      "object": "最终分数",
+      "context": "理解权重如何影响最终决策分数对调整AI行为很关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缩进",
+      "predicate": "控制",
+      "object": "运算符优先级",
+      "context": "缩进是控制复杂逻辑运算顺序的重要机制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:54:45.796Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8394,
+    "contentLength": 5286,
+    "processingTimeMs": 61801
+  }
+}

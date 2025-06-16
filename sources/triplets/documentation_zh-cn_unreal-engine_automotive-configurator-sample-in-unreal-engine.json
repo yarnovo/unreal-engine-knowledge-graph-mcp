@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_automotive-configurator-sample-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_automotive-configurator-sample-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "汽车配置器示例",
+      "predicate": "基于",
+      "object": "产品配置器模板",
+      "context": "汽车配置器是在产品配置器模板的基础上打造的，帮助学习者理解模板的扩展应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "汽车配置器示例",
+      "predicate": "使用",
+      "object": "变体管理器",
+      "context": "示例使用变体管理器保存各种资产配置，展示如何管理复杂资产变体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "汽车配置器示例",
+      "predicate": "实现",
+      "object": "商业级渲染",
+      "context": "示例演示如何通过Lumen、路径追踪等技术实现商业级渲染效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen",
+      "predicate": "提供",
+      "object": "动态全局光照",
+      "context": "Lumen系统为汽车材质提供动态光照效果，是实时渲染的核心技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "路径追踪器",
+      "predicate": "生成",
+      "object": "物理准确渲染",
+      "context": "路径追踪器用于生成物理准确的渲染效果，与Lumen形成技术对比",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积云",
+      "predicate": "增强",
+      "object": "环境反射",
+      "context": "体积云不仅提供环境美感，还影响汽车漆面的光线反射",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Chaos布料解算器",
+      "predicate": "模拟",
+      "object": "软顶物理",
+      "context": "专门用于模拟敞篷车顶的物理特性，展示物理模拟在汽车可视化中的应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定",
+      "predicate": "控制",
+      "object": "汽车动画",
+      "context": "控制绑定系统用于创建汽车骨架和动画，是交互功能的技术基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "支持",
+      "object": "商业展台模式",
+      "context": "Sequencer是商业展台动画的核心工具，展示影视级动画制作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染队列",
+      "predicate": "输出",
+      "object": "最终渲染画面",
+      "context": "与Sequencer配合输出高质量渲染结果，完成生产管线最后环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变体管理器",
+      "predicate": "管理",
+      "object": "材质变体",
+      "context": "演示如何通过变体管理器高效管理大量材质变体配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "汽车材质包",
+      "predicate": "提供",
+      "object": "基础材质",
+      "context": "作为示例的材质基础，展示专业汽车材质的创建方法",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "蓝图系统",
+      "predicate": "实现",
+      "object": "交互逻辑",
+      "context": "示例中大量使用蓝图实现用户交互功能，展示可视化编程的应用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "路径追踪器",
+      "predicate": "集成",
+      "object": "Sequencer",
+      "context": "展示如何将高级渲染技术与动画系统结合使用",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定",
+      "predicate": "配合",
+      "object": "状态机",
+      "context": "控制绑定与状态机配合实现复杂动画过渡，展示动画系统协作",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:10:35.574Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15075 字符)",
+      "timestamp": "2025-06-15T18:09:41.605Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 22057,
+    "contentLength": 15075,
+    "processingTimeMs": 53980
+  }
+}

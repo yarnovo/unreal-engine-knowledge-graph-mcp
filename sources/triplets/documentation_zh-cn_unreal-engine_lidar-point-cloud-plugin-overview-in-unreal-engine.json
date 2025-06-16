@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_lidar-point-cloud-plugin-overview-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_lidar-point-cloud-plugin-overview-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "LiDAR点云插件",
+      "predicate": "支持",
+      "object": "点云文件格式",
+      "context": "插件支持多种点云文件格式，包括ASCII、LAS/LAZ和E57，这是使用插件的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiDAR点云插件",
+      "predicate": "包含",
+      "object": "动态LOD缩放",
+      "context": "动态LOD缩放是插件的核心功能之一，帮助处理大型数据集时保持性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiDAR点云插件",
+      "predicate": "依赖",
+      "object": "内容浏览器",
+      "context": "插件通过内容浏览器进行点云资产的导入和导出操作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "点云文件格式",
+      "predicate": "包括",
+      "object": "LAS/LAZ",
+      "context": "LAS/LAZ是点云插件支持的重要二进制文件格式，广泛用于LiDAR数据交换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "点云文件格式",
+      "predicate": "包括",
+      "object": "E57",
+      "context": "E57是开源的点云文件格式，支持3D成像数据的存储和交换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiDAR点云插件",
+      "predicate": "支持",
+      "object": "按需流送",
+      "context": "插件支持按需流送机制，优化资产加载速度和内存使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiDAR点云插件",
+      "predicate": "包含",
+      "object": "LiDAR裁剪体积",
+      "context": "裁剪体积是插件提供的功能，用于选择性显示点云数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiDAR裁剪体积",
+      "predicate": "支持",
+      "object": "裁剪外部模式",
+      "context": "裁剪体积支持裁剪外部模式，隐藏体积外部的点云数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiDAR裁剪体积",
+      "predicate": "支持",
+      "object": "裁剪内部模式",
+      "context": "裁剪体积支持裁剪内部模式，隐藏体积内部的点云数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiDAR点云插件",
+      "predicate": "支持",
+      "object": "运行时数据修改",
+      "context": "插件允许在运行时插入、移除和修改点云数据，扩展了使用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiDAR点云插件",
+      "predicate": "依赖",
+      "object": "项目设置",
+      "context": "插件的导入/导出标度和最大存储桶大小等参数通过项目设置配置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "点云",
+      "predicate": "由...组成",
+      "object": "数据点",
+      "context": "点云本质上是由XYZ坐标和可选颜色定义的数据点集合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态LOD缩放",
+      "predicate": "优化",
+      "object": "性能",
+      "context": "动态LOD缩放是插件优化大型数据集性能的关键技术",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "全局点数预算",
+      "predicate": "影响",
+      "object": "渲染质量",
+      "context": "全局点数预算设置直接影响点云渲染的密度和质量",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全局点数预算",
+      "predicate": "影响",
+      "object": "性能成本",
+      "direction": "bidirectional",
+      "context": "更高的点数预算意味着更高的性能消耗，需要在质量和性能间权衡",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LAS文件",
+      "predicate": "可压缩为",
+      "object": "LAZ文件",
+      "context": "LAZ是LAS的压缩格式，文件更小但导入速度更慢",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻单位(UU)",
+      "predicate": "转换",
+      "object": "米",
+      "context": "导入导出时需要在UU和米之间转换，1UU=1厘米",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "按需流送",
+      "predicate": "减少",
+      "object": "内存占用",
+      "context": "按需流送机制通过只加载必要数据来降低内存消耗",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiDAR裁剪体积",
+      "predicate": "限制",
+      "object": "16个",
+      "context": "一个关卡中最多只能使用16个裁剪体积，这是重要的使用限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行时数据修改",
+      "predicate": "需要注意",
+      "object": "LOD系统干扰",
+      "context": "运行时修改数据可能干扰LOD系统，需要特别注意事项",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:44:27.064Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8858,
+    "contentLength": 5440,
+    "processingTimeMs": 63587
+  }
+}

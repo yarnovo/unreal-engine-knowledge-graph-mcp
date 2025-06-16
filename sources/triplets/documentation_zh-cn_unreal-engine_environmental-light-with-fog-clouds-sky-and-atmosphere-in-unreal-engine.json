@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_environmental-light-with-fog-clouds-sky-and-atmosphere-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_environmental-light-with-fog-clouds-sky-and-atmosphere-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "光源混合器",
+      "predicate": "包含",
+      "object": "定向光源",
+      "context": "光源混合器可以编辑定向光源的属性，帮助学习者理解如何集中管理不同类型的光源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源混合器",
+      "predicate": "包含",
+      "object": "点光源",
+      "context": "光源混合器支持编辑点光源属性，是学习光源管理的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源混合器",
+      "predicate": "包含",
+      "object": "聚光源",
+      "context": "聚光源作为常见光源类型，其属性可在光源混合器中统一调整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源混合器",
+      "predicate": "包含",
+      "object": "矩形区域光源",
+      "context": "矩形区域光源的高级属性可通过光源混合器进行集中控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境光源混合器",
+      "predicate": "控制",
+      "object": "天空光照",
+      "context": "环境光源混合器专门用于管理天空光照等环境光源组件，是学习环境光照的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境光源混合器",
+      "predicate": "控制",
+      "object": "体积云",
+      "context": "通过环境光源混合器可以调整体积云的渲染参数，建立云与光照的关联认知",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境光源混合器",
+      "predicate": "控制",
+      "object": "天空大气",
+      "context": "天空大气的物理属性可通过环境光源混合器统一调整，理解大气与光照的相互作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空大气",
+      "predicate": "包含",
+      "object": "高度雾",
+      "context": "天空大气组件自带高度雾模拟，学习大气效果时需要理解其雾效实现原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空大气",
+      "predicate": "兼容",
+      "object": "指数高度雾",
+      "context": "文档明确说明两者可以配合使用，是理解多层次雾效实现的关键关系",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积云",
+      "predicate": "依赖",
+      "object": "体积云材质",
+      "context": "体积云的渲染效果依赖于专门的体积材质，这是学习云渲染技术的重要前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "异类体积",
+      "predicate": "使用",
+      "object": "稀疏体积纹理",
+      "context": "异类体积组件通过稀疏体积纹理实现特殊效果，展示高级体积渲染技术路线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境光照系统",
+      "predicate": "组成",
+      "object": "天空大气",
+      "context": "天空大气是环境光照的核心组件之一，理解系统架构需要掌握这个关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境光照系统",
+      "predicate": "组成",
+      "object": "体积云",
+      "context": "体积云组件与环境光照的集成方式对学习动态天空渲染很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境光照系统",
+      "predicate": "组成",
+      "object": "天空光照",
+      "context": "天空光照作为基础环境光源，是系统的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "局部雾体积",
+      "predicate": "扩展",
+      "object": "指数高度雾",
+      "context": "局部雾体积提供了指数高度雾的区域性扩展方案，理解雾效的层级实现",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "实时捕捉",
+      "predicate": "应用于",
+      "object": "天空光照",
+      "context": "实时捕捉功能可以动态调整天空光照，展示交互式光照编辑技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "稀疏体积纹理",
+      "predicate": "用于",
+      "object": "体积介质模拟",
+      "context": "理解稀疏体积纹理在烟雾、火焰等效果中的具体应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定向光源",
+      "predicate": "模拟",
+      "object": "太阳光照",
+      "context": "定向光源常用于模拟太阳/月亮光照，是学习自然光照的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积雾",
+      "predicate": "实现",
+      "object": "光轴效果",
+      "context": "体积雾可以创建特殊的光轴视觉效果，理解雾的进阶应用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:59:39.116Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9020 字符)",
+      "timestamp": "2025-06-15T18:58:31.065Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 11856,
+    "contentLength": 9020,
+    "processingTimeMs": 68059
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_blackmagic-media-reference-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_blackmagic-media-reference-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Blackmagic媒体源",
+      "predicate": "支持",
+      "object": "DeckLink 4K Extreme 12G",
+      "context": "文档明确列出了支持的Blackmagic卡型号，帮助学习者选择兼容硬件",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Blackmagic媒体源",
+      "predicate": "支持",
+      "object": "DeckLink Duo 2",
+      "context": "文档明确列出了支持的Blackmagic卡型号，帮助学习者选择兼容硬件",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Blackmagic媒体源",
+      "predicate": "支持",
+      "object": "DeckLink 8K Pro",
+      "context": "文档明确列出了支持的Blackmagic卡型号，帮助学习者选择兼容硬件",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Blackmagic媒体源",
+      "predicate": "包含",
+      "object": "配置下拉菜单",
+      "context": "配置下拉菜单是媒体源的核心设置界面，理解其结构对掌握媒体源配置至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "配置下拉菜单",
+      "predicate": "包含",
+      "object": "设备设置",
+      "context": "设备设置是配置下拉菜单的关键选项，直接影响媒体源的硬件连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "配置下拉菜单",
+      "predicate": "包含",
+      "object": "分辨率设置",
+      "context": "分辨率设置必须与视频源匹配，是媒体源正确工作的基础参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blackmagic媒体源",
+      "predicate": "包含",
+      "object": "细节面板设置",
+      "context": "细节面板提供对媒体源配置的详细控制和状态查看",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板设置",
+      "predicate": "包含",
+      "object": "音频采集设置",
+      "context": "音频采集设置控制是否从媒体端口采集音频，是媒体处理的重要功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板设置",
+      "predicate": "包含",
+      "object": "视频采集设置",
+      "context": "视频采集设置控制是否从媒体端口采集视频，是媒体处理的核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blackmagic媒体输出",
+      "predicate": "包含",
+      "object": "输出配置下拉菜单",
+      "context": "输出配置下拉菜单是媒体输出的核心设置界面，理解其结构对掌握输出配置至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输出配置下拉菜单",
+      "predicate": "包含",
+      "object": "输出类型设置",
+      "context": "输出类型决定是输出填充图像还是同时输出填充和关键图像，影响输出信号的结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blackmagic媒体输出",
+      "predicate": "包含",
+      "object": "输出细节面板",
+      "context": "输出细节面板提供对媒体输出配置的详细控制和状态查看",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输出细节面板",
+      "predicate": "包含",
+      "object": "音频输出设置",
+      "context": "音频输出设置控制是否将引擎音频与视频信号一起发送，是完整媒体输出的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blackmagic媒体源",
+      "predicate": "关联",
+      "object": "Blackmagic媒体输出",
+      "context": "媒体源和媒体输出是Blackmagic媒体框架的两个核心组件，共同完成视频的输入输出处理",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "解交错器",
+      "predicate": "处理",
+      "object": "交错流送内容",
+      "context": "解交错器设置决定如何处理传入的交错流送内容，影响视频质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间同步",
+      "predicate": "影响",
+      "object": "帧延迟",
+      "context": "时间同步设置是帧延迟设置的前提条件，理解这种依赖关系对正确配置同步很重要",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "输出类型",
+      "predicate": "决定",
+      "object": "关键帧源设置",
+      "context": "当输出类型设置为填充和关键时，需要配置关键帧源，这种关系对理解输出配置流程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blackmagic媒体框架",
+      "predicate": "包含",
+      "object": "同步设置",
+      "context": "同步设置是媒体框架的重要组成部分，影响媒体处理的时序行为",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "OCIO配置",
+      "predicate": "用于",
+      "object": "色彩转换设置",
+      "context": "OCIO配置用于定义媒体源和输出的色彩管理，是专业视频处理的重要功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "集成",
+      "object": "Blackmagic媒体框架",
+      "context": "Blackmagic媒体框架是虚幻引擎的专业视频输入输出解决方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:13:11.481Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11296 字符)",
+      "timestamp": "2025-06-15T18:11:57.311Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19739,
+    "contentLength": 11296,
+    "processingTimeMs": 74176
+  }
+}

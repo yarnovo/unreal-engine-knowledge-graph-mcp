@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-media-plate-on-virtual-production-stage-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-media-plate-on-virtual-production-stage-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "媒体板Actor",
+      "predicate": "用于",
+      "object": "虚拟制片阶段",
+      "context": "媒体板Actor是虚拟制片阶段中处理2D板或360经纬度EXR播放的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体板Actor",
+      "predicate": "支持",
+      "object": "EXR平铺和mipmap",
+      "context": "媒体板Actor利用EXR平铺和mipmap技术来优化渲染节点负载和带宽限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EXR媒体格式",
+      "predicate": "适用于",
+      "object": "媒体板Actor",
+      "context": "文档建议使用EXR媒体格式以最大化媒体板Actor的性能表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "球体网格体",
+      "predicate": "属于",
+      "object": "媒体板Actor网格体设置",
+      "context": "球体是媒体板Actor推荐的两种优化网格体类型之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平面网格体",
+      "predicate": "属于",
+      "object": "媒体板Actor网格体设置",
+      "context": "平面是媒体板Actor推荐的两种优化网格体类型之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟制片工具插件",
+      "predicate": "扩展",
+      "object": "媒体板Actor功能",
+      "context": "启用该插件会为媒体板Actor添加动态材质创建等额外功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态材质",
+      "predicate": "实现",
+      "object": "材质参数配置",
+      "context": "动态材质可以公开根材质中的所有可用参数供配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay",
+      "predicate": "依赖",
+      "object": "多PC集群渲染",
+      "context": "在nDisplay设置中，使用多台PC可以更好地满足高分辨率EXR播放的带宽要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EXR图块请求",
+      "predicate": "影响",
+      "object": "播放性能",
+      "context": "EXR图块请求增多可能导致播放卡顿，需要通过MIP级别调整或带宽限制来优化",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SSD/NVMe Raid配置",
+      "predicate": "推荐用于",
+      "object": "高分辨率EXR播放",
+      "context": "文档建议采用高吞吐量的存储配置来处理8K+经纬度等高质量EXR播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体板Actor",
+      "predicate": "优化",
+      "object": "群集渲染性能",
+      "context": "媒体板Actor通过EXR平铺和mipmap等技术优化了群集渲染环境下的性能表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机视锥体",
+      "predicate": "决定",
+      "object": "EXR图块流送",
+      "context": "媒体板Actor只会流送对摄像机视锥体可见的图块，这是其优化机制的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:19:17.891Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3413,
+    "contentLength": 2161,
+    "processingTimeMs": 36585
+  }
+}

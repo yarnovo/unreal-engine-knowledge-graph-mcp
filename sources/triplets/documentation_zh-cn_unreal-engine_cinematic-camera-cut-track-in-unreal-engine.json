@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_cinematic-camera-cut-track-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_cinematic-camera-cut-track-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "镜头切换轨道",
+      "predicate": "属于",
+      "object": "Sequencer",
+      "context": "镜头切换轨道是Sequencer中的一个功能模块，用于控制过场动画中的摄像机切换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头切换轨道",
+      "predicate": "控制",
+      "object": "摄像机激活",
+      "context": "镜头切换轨道用于控制在序列期间需要激活的摄像机",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头切换轨道",
+      "predicate": "支持",
+      "object": "摄像机混合",
+      "context": "镜头切换轨道提供了将摄像机混合在一起的功能，用于创建平滑的过渡效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头切换轨道",
+      "predicate": "包含",
+      "object": "镜头切换分段",
+      "context": "镜头切换轨道由多个镜头切换分段组成，每个分段绑定到一个特定的摄像机",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头切换分段",
+      "predicate": "绑定",
+      "object": "摄像机Actor",
+      "context": "每个镜头切换分段需要绑定到一个特定的摄像机Actor，以控制视图的呈现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer工具栏",
+      "predicate": "提供",
+      "object": "创建镜头切换轨道",
+      "context": "通过Sequencer工具栏中的摄像机按钮可以快速创建镜头切换轨道和电影摄像机Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "电影摄像机Actor",
+      "predicate": "用于",
+      "object": "过场动画",
+      "context": "电影摄像机Actor是专门用于过场动画的摄像机类型，提供更多电影化的控制选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头切换轨道",
+      "predicate": "前置",
+      "object": "Sequencer基础知识",
+      "context": "使用镜头切换轨道前需要先了解Sequencer的基本操作和概念",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "镜头切换轨道",
+      "predicate": "替代",
+      "object": "手动摄像机切换",
+      "context": "镜头切换轨道提供了比手动切换摄像机更高效和可控的方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "镜头切换轨道",
+      "predicate": "扩展",
+      "object": "镜头(Shot)功能",
+      "context": "虽然可以使用镜头切换轨道，但文档建议使用镜头(Shot)来构建更复杂的过场动画序列",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "摄像机混合",
+      "predicate": "实现",
+      "object": "复杂镜头运动",
+      "context": "通过混合多个摄像机可以更容易地实现复杂的镜头运动效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "缩略图功能",
+      "predicate": "用于",
+      "object": "预览摄像机视图",
+      "context": "镜头切换分段会显示摄像机视图的缩略图预览，方便快速识别不同摄像机的内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机锁定",
+      "predicate": "控制",
+      "object": "视口视图",
+      "context": "启用摄像机锁定按钮可以将视口锁定到当前激活的摄像机视图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "播放头",
+      "predicate": "用于",
+      "object": "确定切换时间点",
+      "context": "通过移动播放头可以精确控制摄像机切换的时间点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可以混合选项",
+      "predicate": "启用",
+      "object": "分段重叠",
+      "context": "启用可以混合选项后，镜头切换分段可以重叠以实现平滑过渡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:21:50.585Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10031,
+    "contentLength": 6443,
+    "processingTimeMs": 63440
+  }
+}

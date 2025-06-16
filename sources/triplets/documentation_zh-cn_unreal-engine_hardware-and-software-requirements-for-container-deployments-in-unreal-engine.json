@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_hardware-and-software-requirements-for-container-deployments-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_hardware-and-software-requirements-for-container-deployments-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Linux容器",
+      "predicate": "运行于",
+      "object": "Windows",
+      "context": "Linux容器可以在Windows上运行，帮助学习者理解跨平台容器部署的可能性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Linux容器",
+      "predicate": "运行于",
+      "object": "macOS",
+      "context": "Linux容器可以在macOS上运行，展示容器技术的跨平台特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Linux容器",
+      "predicate": "运行于",
+      "object": "Linux",
+      "context": "Linux容器原生支持Linux系统，是容器技术的基础应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Windows容器",
+      "predicate": "运行于",
+      "object": "Windows",
+      "context": "Windows容器只能在Windows系统上运行，说明容器技术的平台依赖性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Linux容器",
+      "predicate": "需要",
+      "object": "64位CPU",
+      "context": "64位CPU是运行Linux容器的硬件基础，帮助学习者理解容器部署的硬件要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Linux容器",
+      "predicate": "需要",
+      "object": "SLAT支持",
+      "context": "二级地址转译(SLAT)是运行Linux容器的CPU要求，涉及硬件虚拟化技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Linux容器",
+      "predicate": "需要",
+      "object": "硬件虚拟化",
+      "context": "硬件虚拟化支持是容器运行的基础技术要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Linux容器",
+      "predicate": "需要",
+      "object": "4GB内存",
+      "context": "最小内存要求帮助学习者规划容器部署的硬件配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Windows容器",
+      "predicate": "需要",
+      "object": "Docker桌面版",
+      "context": "Docker是Windows容器运行的必要软件环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Linux容器",
+      "predicate": "需要",
+      "object": "Docker引擎",
+      "context": "Linux系统需要Docker引擎来支持容器运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎容器部署",
+      "predicate": "支持",
+      "object": "多平台",
+      "context": "展示虚幻引擎容器部署的跨平台能力，帮助学习者理解部署选项",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Docker",
+      "predicate": "用于",
+      "object": "构建容器镜像",
+      "context": "Docker是构建虚幻引擎容器镜像的主要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Docker",
+      "predicate": "用于",
+      "object": "运行容器镜像",
+      "context": "Docker是运行虚幻引擎容器镜像的必要环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Windows容器",
+      "predicate": "需要",
+      "object": "特定Windows版本",
+      "context": "Windows容器有特定的操作系统版本要求，帮助学习者避免兼容性问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Linux容器",
+      "predicate": "支持",
+      "object": "多种Linux发行版",
+      "context": "展示Linux容器的广泛兼容性，帮助学习者选择适合的Linux环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎容器部署",
+      "predicate": "处于",
+      "object": "Beta阶段",
+      "context": "说明该功能尚未完全成熟，帮助学习者评估使用风险",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:18:22.707Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4730,
+    "contentLength": 3560,
+    "processingTimeMs": 55238
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_multi-process-rendering-with-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_multi-process-rendering-with-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "多进程渲染",
+      "predicate": "是",
+      "object": "利用多个GPU的算力进行nDisplay渲染的方法",
+      "context": "定义多进程渲染的基本概念，帮助学习者理解其核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多进程渲染",
+      "predicate": "优于",
+      "object": "多GPU渲染",
+      "context": "说明多进程渲染在性能上的优势，帮助学习者选择合适的技术方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多进程渲染",
+      "predicate": "包含",
+      "object": "屏幕内节点",
+      "context": "介绍多进程渲染的组成部分，帮助学习者理解其架构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多进程渲染",
+      "predicate": "包含",
+      "object": "屏幕外节点",
+      "context": "介绍多进程渲染的组成部分，帮助学习者理解其架构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕内节点",
+      "predicate": "渲染到",
+      "object": "LED墙",
+      "context": "说明屏幕内节点的功能，帮助学习者理解其作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕外节点",
+      "predicate": "是",
+      "object": "无头实例",
+      "context": "说明屏幕外节点的特性，帮助学习者理解其与屏幕内节点的区别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕外节点",
+      "predicate": "共享",
+      "object": "渲染纹理",
+      "context": "说明屏幕外节点与屏幕内节点的交互方式，帮助学习者理解数据流",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多进程渲染",
+      "predicate": "需要",
+      "object": "至少两个GPU",
+      "context": "列出多进程渲染的硬件要求，帮助学习者准备环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多进程渲染",
+      "predicate": "需要",
+      "object": "禁用SLI",
+      "context": "列出多进程渲染的配置要求，帮助学习者正确设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多进程渲染",
+      "predicate": "需要",
+      "object": "禁用Intel超线程/AMD同步多线程",
+      "context": "列出多进程渲染的性能优化建议，帮助学习者获得最佳性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多进程渲染",
+      "predicate": "基于",
+      "object": "nDisplay",
+      "context": "说明多进程渲染的技术基础，帮助学习者理解其应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多进程渲染",
+      "predicate": "推荐用于",
+      "object": "NVIDIA ADA Lovelace GPU",
+      "context": "说明多进程渲染的适用硬件，帮助学习者选择合适的设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多进程渲染",
+      "predicate": "前置知识",
+      "object": "ICVFX快速入门",
+      "context": "列出学习多进程渲染前需要掌握的知识，帮助学习者规划学习路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多进程渲染",
+      "predicate": "相关主题",
+      "object": "多进程渲染快速入门",
+      "context": "提供进一步学习的资源，帮助学习者深入理解多进程渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多进程渲染",
+      "predicate": "相关主题",
+      "object": "从mGPU转换为多进程渲染",
+      "context": "提供技术迁移的资源，帮助学习者从多GPU转向多进程渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:01:27.452Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5790,
+    "contentLength": 4162,
+    "processingTimeMs": 49097
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_set-up-a-standing-camera-for-the-oculus-rift-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_set-up-a-standing-camera-for-the-oculus-rift-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "站立式Oculus Rift体验",
+      "predicate": "需要设置",
+      "object": "VR相机",
+      "context": "文档明确指出站立式Oculus Rift体验需要设置VR相机，这是VR开发的基础步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pawn蓝图",
+      "predicate": "包含",
+      "object": "VRCameraRoot",
+      "context": "Pawn蓝图中需要添加VRCameraRoot组件作为VR相机的父级组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pawn蓝图",
+      "predicate": "包含",
+      "object": "VRCamera",
+      "context": "Pawn蓝图中需要添加VRCamera组件作为实际的VR相机",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VRCamera",
+      "predicate": "是子项",
+      "object": "VRCameraRoot",
+      "context": "VRCamera需要设置为VRCameraRoot的子项，这是推荐的VR相机设置方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pawn蓝图",
+      "predicate": "使用",
+      "object": "Set Tracking Origin节点",
+      "context": "Pawn蓝图中需要使用Set Tracking Origin节点来设置VR体验的跟踪原点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Set Tracking Origin节点",
+      "predicate": "支持",
+      "object": "地面平面",
+      "context": "Set Tracking Origin节点支持将跟踪原点设置为地面平面，适用于站立式体验",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Set Tracking Origin节点",
+      "predicate": "支持",
+      "object": "视线平面",
+      "context": "Set Tracking Origin节点支持将跟踪原点设置为视线平面，适用于坐立式体验",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "站立式体验",
+      "predicate": "使用",
+      "object": "地面平面",
+      "context": "站立式体验需要使用地面平面作为跟踪原点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pawn蓝图",
+      "predicate": "需要设置",
+      "object": "自动拥有玩家",
+      "context": "Pawn蓝图需要设置自动拥有玩家为Player 0，以便玩家控制该Pawn",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR预览",
+      "predicate": "用于",
+      "object": "测试VR体验",
+      "context": "VR预览模式用于测试VR体验，是开发过程中的重要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Oculus Rift",
+      "predicate": "支持",
+      "object": "站立式体验",
+      "context": "Oculus Rift支持站立式VR体验，开发者可以根据需要选择体验类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Oculus Rift",
+      "predicate": "支持",
+      "object": "坐立式体验",
+      "context": "Oculus Rift也支持坐立式VR体验，开发者可以根据需要选择体验类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VRCameraRoot",
+      "predicate": "实现",
+      "object": "相机位置偏移",
+      "context": "VRCameraRoot可以在不实际移动相机的情况下实现相机位置的偏移，这是推荐的VR相机设置方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:43:06.101Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4925,
+    "contentLength": 3759,
+    "processingTimeMs": 37955
+  }
+}

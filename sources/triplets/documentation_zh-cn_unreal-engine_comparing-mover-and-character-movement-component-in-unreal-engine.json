@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_comparing-mover-and-character-movement-component-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_comparing-mover-and-character-movement-component-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Mover",
+      "predicate": "替代",
+      "object": "角色移动组件(CMC)",
+      "context": "Mover是虚幻引擎新推出的移动系统，旨在取代传统的角色移动组件(CMC)，理解这一替代关系有助于学习者把握引擎发展方向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mover",
+      "predicate": "支持",
+      "object": "更多形状",
+      "context": "Mover不再局限于胶囊体形状，支持更多几何形状，这对设计非人类角色特别重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色移动组件(CMC)",
+      "predicate": "限制于",
+      "object": "ACharacter Actor",
+      "context": "CMC只能用于ACharacter类型的Actor，这是与Mover的重要区别之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mover",
+      "predicate": "实现",
+      "object": "统一的回滚操作",
+      "context": "Mover采用统一的回滚机制，这是其网络预测模型的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mover",
+      "predicate": "基于",
+      "object": "网络预测模型",
+      "context": "Mover的复制模型基于网络预测技术，与CMC的客户端驱动模型不同",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mover",
+      "predicate": "包含",
+      "object": "移动模式",
+      "context": "Mover的移动模式概念与CMC类似，但采用了模块化设计",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mover",
+      "predicate": "引入",
+      "object": "瞬时效果",
+      "context": "瞬时效果是Mover新引入的概念，用于影响移动状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mover",
+      "predicate": "需要",
+      "object": "根SceneComponent",
+      "context": "Mover需要但不限定于特定的根组件类型，这提供了更大的灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mover",
+      "predicate": "支持",
+      "object": "联网物理",
+      "context": "Mover支持与Chaos物理引擎的联网交互，这是CMC不具备的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色移动组件(CMC)",
+      "predicate": "采用",
+      "object": "客户端RPC驱动模型",
+      "context": "CMC的移动节奏由客户端RPC驱动，这是其网络复制的基本模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mover",
+      "predicate": "对比",
+      "object": "角色移动组件(CMC)",
+      "context": "理解两者的对比关系有助于开发者根据项目需求选择合适的移动系统",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mover",
+      "predicate": "扩展",
+      "object": "自定义移动模式",
+      "context": "Mover使得添加自定义移动模式变得更加容易，包括在运行时添加",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mover",
+      "predicate": "不依赖",
+      "object": "骨骼网格体",
+      "context": "Mover不假定存在骨骼网格体作为视觉表示，这扩展了其应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mover",
+      "predicate": "实现",
+      "object": "分层移动",
+      "context": "Mover的分层移动功能类似于CMC的根运动源(RMS)，但实现方式不同",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Mover",
+      "predicate": "状态",
+      "object": "受保护",
+      "context": "Mover的状态无法直接修改，必须通过特定机制影响，这与CMC的开放状态不同",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:29:13.253Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5786,
+    "contentLength": 3582,
+    "processingTimeMs": 53867
+  }
+}

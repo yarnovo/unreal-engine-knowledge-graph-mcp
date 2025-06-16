@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_low-latency-frame-syncing-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_low-latency-frame-syncing-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "低延迟帧同步",
+      "predicate": "修改",
+      "object": "线程同步方式",
+      "context": "低延迟帧同步模式通过修改游戏、渲染及RHI线程和GPU之间的同步方式来减少输入延迟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "低延迟帧同步",
+      "predicate": "控制",
+      "object": "输入延迟",
+      "context": "该模式的主要目的是显著减少和控制输入延迟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.OneFrameThreadLag",
+      "predicate": "影响",
+      "object": "线程同步",
+      "context": "此CVar控制游戏线程是否比渲染线程提前一整帧以上",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "并行渲染",
+      "predicate": "改变",
+      "object": "Present()调用线程",
+      "context": "并行渲染引入后，Present()由RHI线程调用而非渲染线程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "rhi.SyncInterval",
+      "predicate": "影响",
+      "object": "输入延迟",
+      "context": "设置此CVar会影响输入延迟，特别是在30Hz刷新率下",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.GTSyncType",
+      "predicate": "控制",
+      "object": "帧同步机制",
+      "context": "此CVar驱动低延迟帧同步模式的工作方式，提供三种同步选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "垂直同步",
+      "predicate": "提供",
+      "object": "同步间隔",
+      "context": "启用垂直同步时，交换链提供规律、可预测的同步间隔",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "rhi.SyncSlackMS",
+      "predicate": "影响",
+      "object": "输入延迟与性能",
+      "context": "此CVar决定应用到预测的下一次垂直同步时间的偏移，影响输入延迟和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏线程",
+      "predicate": "同步于",
+      "object": "RHI线程",
+      "context": "在低延迟模式下，游戏线程可以与RHI线程同步以减少输入延迟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.GTSyncType 2",
+      "predicate": "适用于",
+      "object": "60 Hz游戏",
+      "context": "此模式也适用于60 Hz游戏，但输入延迟降低的效果不如30 Hz明显",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平台帧翻转统计数据",
+      "predicate": "用于",
+      "object": "预测帧翻转时间",
+      "context": "引擎使用这些统计数据来预测下一帧应于何时翻转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入延迟",
+      "predicate": "与",
+      "object": "性能",
+      "context": "需要在输入延迟和性能之间进行权衡",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.Vsync",
+      "predicate": "影响",
+      "object": "同步间隔",
+      "context": "启用垂直同步会影响交换链的同步间隔",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "显卡驱动程序",
+      "predicate": "暂停",
+      "object": "Present()调用线程",
+      "context": "驱动程序通常会暂停调用Present()的线程以防止游戏运行速度过快",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "交换链",
+      "predicate": "用于",
+      "object": "同步游戏线程",
+      "context": "在模式2同步中，游戏线程与交换链同步",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:48:05.548Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4274,
+    "contentLength": 2178,
+    "processingTimeMs": 56536
+  }
+}

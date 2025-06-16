@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_custom-navigation-areas-and-query-filters-quick-start-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_custom-navigation-areas-and-query-filters-quick-start-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "寻路系统",
+      "predicate": "使用",
+      "object": "寻路网格体",
+      "context": "寻路系统依赖寻路网格体来计算代理的路径，这是理解寻路机制的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路修饰体积",
+      "predicate": "应用",
+      "object": "区域类",
+      "context": "寻路修饰体积通过区域类来定义寻路成本和视觉表现，这是自定义寻路行为的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "区域类",
+      "predicate": "定义",
+      "object": "默认成本",
+      "context": "区域类包含默认成本属性，直接影响代理的路径选择决策",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "区域类",
+      "predicate": "定义",
+      "object": "固定区域进入成本",
+      "context": "固定区域进入成本是代理进入特定区域时的初始成本，影响路径计算的起始值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路查询筛选器",
+      "predicate": "包含",
+      "object": "区域类",
+      "context": "查询筛选器通过包含和重载区域类的成本值来实现更精细的寻路控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路查询筛选器",
+      "predicate": "重载",
+      "object": "移动成本",
+      "context": "查询筛选器可以重载区域类的移动成本，这是实现差异化寻路策略的核心机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_Area_Neutral",
+      "predicate": "继承自",
+      "object": "Nav Area",
+      "context": "理解自定义区域类与基础Nav Area的继承关系对创建新区域类型很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_QueryFilter1",
+      "predicate": "继承自",
+      "object": "Navigation Query Filter",
+      "context": "自定义查询筛选器基于基础Navigation Query Filter类扩展功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理",
+      "predicate": "使用",
+      "object": "寻路查询筛选器",
+      "context": "代理通过查询筛选器决定路径选择策略，这是实现不同代理行为差异化的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "由",
+      "object": "寻路多边形组成",
+      "context": "理解寻路网格体由多边形组成有助于理解路径计算的基本单位",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "默认成本",
+      "predicate": "影响",
+      "object": "路径选择",
+      "context": "默认成本值直接影响代理的路径选择算法，是寻路行为控制的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绘制颜色",
+      "predicate": "可视化",
+      "object": "区域类",
+      "context": "区域类的颜色设置帮助开发者在编辑器中直观区分不同寻路区域",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "BP_NPC",
+      "predicate": "关联",
+      "object": "BP_QueryFilter1",
+      "context": "NPC蓝图通过指定查询筛选器来决定其独特的寻路行为模式",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动成本重载",
+      "predicate": "修改",
+      "object": "路径计算",
+      "context": "移动成本重载功能允许开发者临时修改特定情况下的寻路成本计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路修饰体积",
+      "predicate": "影响",
+      "object": "寻路网格体",
+      "context": "寻路修饰体积通过修改网格体特定区域的属性来影响整体寻路行为",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "区域类",
+      "predicate": "决定",
+      "object": "代理行为",
+      "context": "不同区域类的配置会导致代理表现出不同的路径选择行为",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "BP_Area_Lane1",
+      "predicate": "对比",
+      "object": "BP_Area_Lane2",
+      "context": "比较不同车道区域类的设置可以帮助理解如何设计差异化的寻路区域",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "BP_QueryFilter1",
+      "predicate": "对比",
+      "object": "BP_QueryFilter2",
+      "context": "比较不同查询筛选器的配置展示了如何为不同代理创建独特的寻路策略",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "内容侧滑菜单",
+      "predicate": "用于创建",
+      "object": "蓝图类",
+      "context": "内容侧滑菜单是创建自定义寻路区域和筛选器蓝图的起点",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "用于配置",
+      "object": "寻路修饰体积",
+      "context": "细节面板是设置寻路修饰体积参数的主要界面",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T18:44:11.292Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10054 字符)",
+      "timestamp": "2025-06-15T18:42:45.365Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13302,
+    "contentLength": 10054,
+    "processingTimeMs": 85931
+  }
+}

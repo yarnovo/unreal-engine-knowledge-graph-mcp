@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_understanding-the-slate-ui-architecture-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_understanding-the-slate-ui-architecture-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Slate",
+      "predicate": "基于",
+      "object": "IMGUI",
+      "context": "Slate的设计初衷部分来源于对IMGUI优缺点的分析，继承了其数据访问便捷的特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate",
+      "predicate": "使用",
+      "object": "委托模式",
+      "context": "Slate通过委托机制实现控件与模型数据的双向绑定，这是其核心数据流机制",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "STextBlock",
+      "predicate": "实现",
+      "object": "文本显示",
+      "context": "STextBlock是Slate中专门用于显示文本的叶控件，通过Text委托获取数据",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "SEditableText",
+      "predicate": "扩展",
+      "object": "STextBlock",
+      "context": "SEditableText在STextBlock基础上增加了文本编辑功能，通过OnTextChanged委托实现数据回写",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TAttribute",
+      "predicate": "封装",
+      "object": "属性参数",
+      "context": "TAttribute类统一封装了常量值和委托两种参数传递方式，提高接口灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate布局",
+      "predicate": "分为",
+      "object": "CacheDesiredSize和ArrangeChildren",
+      "context": "Slate布局采用两阶段处理，先计算控件期望尺寸再执行实际排列，这是其核心布局机制",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "SWidget",
+      "predicate": "定义",
+      "object": "Slate控件行为",
+      "context": "所有Slate控件都继承自SWidget，通过实现ComputeDesiredSize等关键函数定义行为",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Slate控件",
+      "predicate": "分为",
+      "object": "叶控件/面板/合成控件",
+      "context": "Slate根据子项管理方式将控件分为三类，这种分类影响控件的使用场景和实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子槽系统",
+      "predicate": "支持",
+      "object": "控件组合",
+      "context": "子槽机制允许灵活组合不同类型的控件，这是SlateUI可组合性的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "声明式语法",
+      "predicate": "用于",
+      "object": "UI描述",
+      "context": "Slate提供基于C++的声明式语法来描述UI结构，兼具类型安全和表达力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "轮询机制",
+      "predicate": "优于",
+      "object": "失效机制",
+      "context": "Slate优先采用数据轮询而非显式失效，这是其简化状态管理的核心原则",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "OnPaint",
+      "predicate": "实现",
+      "object": "控件渲染",
+      "context": "所有可见控件通过实现OnPaint函数参与渲染管线的绘制元素生成",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "SVerticalBox",
+      "predicate": "属于",
+      "object": "面板控件",
+      "context": "SVerticalBox是典型的动态面板控件，可垂直排列任意数量子项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SButton",
+      "predicate": "属于",
+      "object": "合成控件",
+      "context": "SButton是典型的合成控件，具有固定命名的Content子槽",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate",
+      "predicate": "支持",
+      "object": "虚拟化滚动",
+      "context": "Slate支持控件虚拟化以优化性能，这对处理大量UI元素至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T21:06:44.794Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8928 字符)",
+      "timestamp": "2025-06-15T21:05:58.569Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14734,
+    "contentLength": 8928,
+    "processingTimeMs": 46229
+  }
+}

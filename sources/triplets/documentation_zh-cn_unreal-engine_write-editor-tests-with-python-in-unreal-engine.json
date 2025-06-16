@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_write-editor-tests-with-python-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_write-editor-tests-with-python-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "PythonAutomationTest插件",
+      "predicate": "包含",
+      "object": "Python脚本",
+      "context": "插件自动发现项目中的Python脚本并将其作为测试添加到测试自动化窗口中，帮助学习者理解插件如何集成Python脚本进行测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PythonAutomationTest插件",
+      "predicate": "依赖",
+      "object": "测试自动化窗口",
+      "context": "插件将Python脚本封装后添加到测试自动化窗口中，学习者需要了解两者之间的依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python脚本",
+      "predicate": "命名模式",
+      "object": "test_*.py",
+      "context": "学习者需要知道Python脚本的命名模式以便插件能够自动发现它们",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python脚本",
+      "predicate": "位于",
+      "object": "/Content/Python文件夹",
+      "context": "学习者需要将Python脚本放在特定文件夹中以便插件能够发现它们",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PythonAutomationTest插件",
+      "predicate": "支持",
+      "object": "子文件夹结构",
+      "context": "插件会解析子文件夹结构并反映在测试名称中，帮助学习者组织测试脚本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python脚本",
+      "predicate": "执行方式",
+      "object": "文件 > 执行Python脚本",
+      "context": "学习者可以通过菜单执行Python脚本，了解基本的执行方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python脚本",
+      "predicate": "报告错误",
+      "object": "assert",
+      "context": "学习者可以使用assert语句在测试中报告错误，阻止后续代码执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python脚本",
+      "predicate": "报告错误",
+      "object": "raise Exception",
+      "context": "学习者可以通过抛出异常来报告错误，阻止后续代码执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python脚本",
+      "predicate": "报告错误",
+      "object": "unreal.log_error",
+      "context": "学习者可以使用log_error函数记录错误并继续执行测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python脚本",
+      "predicate": "处理潜在命令",
+      "object": "AutomationScheduler",
+      "context": "学习者需要使用AutomationScheduler来处理非阻塞函数，确保编辑器能够tick",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AutomationScheduler",
+      "predicate": "支持",
+      "object": "生成器",
+      "context": "学习者可以使用生成器进行动态调度，理解调度程序的灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python脚本",
+      "predicate": "支持",
+      "object": "截图",
+      "context": "学习者可以使用自动化调度程序进行截图测试，了解如何集成截图功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "截图",
+      "predicate": "依赖",
+      "object": "编辑器tick",
+      "context": "截图需要额外的编辑器tick才能完成，学习者需要理解这一依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python脚本",
+      "predicate": "支持",
+      "object": "图像对比",
+      "context": "学习者可以使用AutomationLibrary进行图像对比测试，了解如何验证图像内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python脚本",
+      "predicate": "支持",
+      "object": "遥测数据",
+      "context": "学习者可以使用AutomationLibrary存储遥测数据，了解如何收集测试指标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PythonAutomationTest插件",
+      "predicate": "用于",
+      "object": "编辑器测试",
+      "context": "插件专门用于在虚幻编辑器中进行Python脚本测试，帮助学习者明确插件的用途",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器测试",
+      "predicate": "依赖",
+      "object": "PythonAutomationTest插件",
+      "context": "进行编辑器测试需要启用PythonAutomationTest插件，学习者需要了解这一前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python脚本",
+      "predicate": "使用",
+      "object": "unreal模块",
+      "context": "学习者需要在Python脚本中导入unreal模块来访问引擎功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "unreal模块",
+      "predicate": "提供",
+      "object": "AutomationLibrary",
+      "context": "unreal模块提供了AutomationLibrary等工具类，帮助学习者扩展测试功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:36:15.327Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6864,
+    "contentLength": 4972,
+    "processingTimeMs": 51572
+  }
+}

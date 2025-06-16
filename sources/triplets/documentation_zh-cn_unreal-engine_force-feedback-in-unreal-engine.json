@@ -1,0 +1,131 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_force-feedback-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_force-feedback-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "力反馈效果",
+      "predicate": "包含",
+      "object": "通道",
+      "context": "力反馈效果资产可以包含多个通道，每个通道可以独立控制不同的振动效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通道",
+      "predicate": "控制",
+      "object": "振动电机",
+      "context": "每个通道通过属性控制左侧大/小电机和右侧大/小电机的振动效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通道",
+      "predicate": "使用",
+      "object": "力反馈曲线",
+      "context": "通道的效果模式由力反馈曲线控制，曲线定义了振动随时间变化的强度模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "力反馈曲线",
+      "predicate": "编辑工具",
+      "object": "曲线编辑器",
+      "context": "力反馈曲线可以通过曲线编辑器进行编辑，添加关键帧和调整曲线形状",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "力反馈效果",
+      "predicate": "支持",
+      "object": "按设备覆盖",
+      "context": "力反馈效果支持按设备覆盖设置，可以为不同平台设备配置不同的振动参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "力反馈效果",
+      "predicate": "关联",
+      "object": "设备属性",
+      "context": "力反馈效果可以与设备属性（如颜色、扳机反馈等）结合使用，增强沉浸感",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "力反馈效果",
+      "predicate": "创建方式",
+      "object": "内容浏览器",
+      "context": "力反馈效果资产通过内容浏览器创建，属于输入类别下的特殊资产类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PlayerController",
+      "predicate": "实现",
+      "object": "力反馈播放",
+      "context": "PlayerController基类实现了力反馈播放功能，是力反馈效果的主要执行者",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "调用",
+      "object": "力反馈播放",
+      "context": "通过蓝图可以调用PlayerController的力反馈播放功能，实现游戏逻辑与力反馈的集成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C++",
+      "predicate": "调用",
+      "object": "ClientPlayForceFeedback",
+      "context": "在C++中可以通过调用ClientPlayForceFeedback函数实现力反馈播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "力反馈组件",
+      "predicate": "实现",
+      "object": "空间化力反馈",
+      "context": "力反馈组件可以实现基于空间位置的力反馈效果，强度随距离衰减",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGameplayStatics",
+      "predicate": "提供",
+      "object": "力反馈生成函数",
+      "context": "UGameplayStatics类提供了生成空间化力反馈的便捷函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PS5 DualSense",
+      "predicate": "支持",
+      "object": "基于音频的振动",
+      "context": "PS5 DualSense控制器支持特殊的基于音频的振动模式，需要特殊配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "曲线编辑器",
+      "predicate": "关联",
+      "object": "关键帧",
+      "context": "曲线编辑器通过关键帧来定义和修改曲线形状，是力反馈效果设计的基础工具",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:07:46.557Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8052 字符)",
+      "timestamp": "2025-06-15T19:06:57.879Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12816,
+    "contentLength": 8052,
+    "processingTimeMs": 48685
+  }
+}

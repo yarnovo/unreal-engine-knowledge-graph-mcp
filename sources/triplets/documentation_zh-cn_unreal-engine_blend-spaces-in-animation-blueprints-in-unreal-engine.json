@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_blend-spaces-in-animation-blueprints-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_blend-spaces-in-animation-blueprints-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "混合空间",
+      "predicate": "用于",
+      "object": "动画蓝图",
+      "context": "混合空间是动画蓝图中的重要组件，用于实现动画的平滑过渡和混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间播放器",
+      "predicate": "引用",
+      "object": "混合空间",
+      "context": "混合空间播放器节点用于引用现有的混合空间资产，在动画蓝图中使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间图表",
+      "predicate": "包含",
+      "object": "混合空间",
+      "context": "混合空间图表允许在动画蓝图中创建和管理自定义的混合空间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间求值器",
+      "predicate": "控制",
+      "object": "混合空间样本时间",
+      "context": "混合空间求值器节点允许外部控制混合空间样本的时间，实现精确的动画采样",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "AnimGraph",
+      "context": "AnimGraph是动画蓝图的核心组成部分，用于构建动画逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间播放器",
+      "predicate": "位于",
+      "object": "AnimGraph",
+      "context": "混合空间播放器节点需要放置在AnimGraph中使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间图表",
+      "predicate": "位于",
+      "object": "AnimGraph",
+      "context": "混合空间图表需要在AnimGraph中创建和管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间求值器",
+      "predicate": "位于",
+      "object": "AnimGraph",
+      "context": "混合空间求值器节点需要放置在AnimGraph中使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间",
+      "predicate": "基于",
+      "object": "轴数据",
+      "context": "混合空间通过轴数据输入来决定如何混合不同的动画样本",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "混合空间播放器",
+      "predicate": "接收",
+      "object": "轴数据输入",
+      "context": "混合空间播放器节点接收轴数据输入以驱动混合过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间图表",
+      "predicate": "允许",
+      "object": "自定义样本逻辑",
+      "context": "混合空间图表允许为每个样本创建自定义的逻辑和功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间求值器",
+      "predicate": "支持",
+      "object": "规格化时间控制",
+      "context": "混合空间求值器使用规格化的时间值来控制样本的播放位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "瞄准偏移",
+      "predicate": "可作为",
+      "object": "混合空间播放器",
+      "context": "瞄准偏移资产也可以作为混合空间播放器使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间",
+      "predicate": "支持",
+      "object": "1D和2D混合",
+      "context": "混合空间支持一维和二维的动画混合方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "依赖",
+      "object": "混合空间",
+      "context": "动画蓝图依赖混合空间来实现复杂的动画过渡和混合效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:12:47.590Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9051,
+    "contentLength": 6343,
+    "processingTimeMs": 50284
+  }
+}

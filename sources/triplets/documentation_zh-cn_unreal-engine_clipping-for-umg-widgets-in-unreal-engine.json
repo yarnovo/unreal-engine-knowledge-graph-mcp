@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_clipping-for-umg-widgets-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_clipping-for-umg-widgets-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "UMG裁剪系统",
+      "predicate": "基于",
+      "object": "Slate裁剪系统",
+      "context": "UMG裁剪系统使用Slate裁剪系统作为框架来控制控件的显示方式，理解这一关系有助于学习UMG的底层实现机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "裁剪",
+      "predicate": "实现方式",
+      "object": "边界框限制",
+      "context": "裁剪通过边界框将渲染对象限制在特定区域内，超出边界的内容不显示，这是理解裁剪工作原理的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "轴对齐裁剪",
+      "predicate": "替代",
+      "object": "布局空间裁剪",
+      "context": "轴对齐裁剪在4.17版本后替代了布局空间裁剪，解决了旋转控件的裁剪问题，这是重要的版本演进知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "画布面板",
+      "predicate": "代表",
+      "object": "游戏屏幕裁剪区",
+      "context": "画布面板的蓝色轮廓代表游戏屏幕的裁剪区，这是UI设计中的基础空间概念",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "裁剪属性",
+      "predicate": "包含",
+      "object": "继承/裁剪至边界/按需等模式",
+      "context": "裁剪属性包含多种处理模式，理解这些模式的区别是掌握UI元素裁剪控制的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "文本控件",
+      "predicate": "主要使用",
+      "object": "按需裁剪模式",
+      "context": "文本控件常使用按需裁剪模式处理长度不确定的情况，这是特定控件与裁剪模式的典型关联",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "裁剪",
+      "predicate": "影响",
+      "object": "批处理性能",
+      "context": "不同裁剪空间的元素无法一起批处理，理解这一性能影响有助于合理使用裁剪功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "滚动框",
+      "predicate": "典型应用",
+      "object": "裁剪至边界模式",
+      "context": "滚动框是裁剪至边界模式的典型应用场景，展示了特定UI组件与裁剪模式的匹配关系",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "4.16版本裁剪",
+      "predicate": "存在问题",
+      "object": "旋转控件裁剪瑕疵",
+      "context": "了解旧版本裁剪系统的问题有助于理解当前轴对齐裁剪系统的改进价值",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "裁剪至边界-总是",
+      "predicate": "适用于",
+      "object": "UI硬屏障",
+      "context": "该模式创建不可突破的裁剪区域，是特殊UI需求的解决方案",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:24:30.199Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6261,
+    "contentLength": 3619,
+    "processingTimeMs": 56703
+  }
+}

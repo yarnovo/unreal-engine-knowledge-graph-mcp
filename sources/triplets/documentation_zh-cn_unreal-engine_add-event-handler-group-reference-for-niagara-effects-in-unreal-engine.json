@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_add-event-handler-group-reference-for-niagara-effects-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_add-event-handler-group-reference-for-niagara-effects-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "事件处理器",
+      "predicate": "确定",
+      "object": "发射器对传入事件的响应方式",
+      "context": "事件处理器是Niagara特效中控制发射器如何响应事件的核心组件，理解这一关系是学习事件处理的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件处理器",
+      "predicate": "包含",
+      "object": "事件处理器属性",
+      "context": "事件处理器属性是事件处理器的组成部分，了解这些属性有助于配置事件处理行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件处理器",
+      "predicate": "包含",
+      "object": "接收事件模块",
+      "context": "接收事件模块是事件处理器的重要组成部分，用于监听特定类型的事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件处理器",
+      "predicate": "依赖",
+      "object": "事件模块",
+      "context": "要使用事件处理器，首先需要在粒子更新组中放置事件模块，这是事件处理的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件处理器",
+      "predicate": "依赖",
+      "object": "需要持久ID",
+      "context": "正确使用事件需要在发射器属性中启用需要持久ID，这是事件处理的关键配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "接收事件模块",
+      "predicate": "对应",
+      "object": "生成事件模块",
+      "context": "每种接收事件模块都有对应的生成事件模块（如接收碰撞事件对应生成碰撞事件），理解这种对应关系是事件系统设计的关键",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "接收位置事件",
+      "predicate": "包含设置",
+      "object": "继承速度",
+      "context": "接收位置事件模块包含继承速度等设置，这些设置影响粒子行为，是学习事件处理细节的重要内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件处理器属性",
+      "predicate": "包含参数",
+      "object": "执行模式",
+      "context": "执行模式是事件处理器属性的重要参数，控制事件脚本的运行方式，影响系统性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "执行模式",
+      "predicate": "包含选项",
+      "object": "生成的粒子",
+      "context": "理解执行模式的不同选项（如生成的粒子或每个粒子）有助于优化事件处理性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件处理器",
+      "predicate": "仅适用于",
+      "object": "CPU模拟",
+      "context": "事件处理器目前不适用于GPU模拟，这一限制影响特效系统的设计选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara特效系统",
+      "predicate": "包含",
+      "object": "事件处理器",
+      "context": "事件处理器是Niagara特效系统的重要组成部分，理解其在系统中的位置有助于构建完整知识框架",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "发射器A",
+      "predicate": "通过事件影响",
+      "object": "发射器B",
+      "context": "典型的事件处理案例展示了发射器间如何通过事件交互，这是学习事件系统应用的范例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:54:49.928Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5656,
+    "contentLength": 3666,
+    "processingTimeMs": 44006
+  }
+}

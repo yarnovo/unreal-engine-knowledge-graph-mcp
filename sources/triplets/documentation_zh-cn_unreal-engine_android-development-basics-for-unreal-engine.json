@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_android-development-basics-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_android-development-basics-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "Android开发",
+      "context": "文档明确说明虚幻引擎支持Android平台开发，这是学习虚幻引擎跨平台开发的基础知识",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Android开发",
+      "predicate": "依赖",
+      "object": "环境变量配置",
+      "context": "文档详细说明了Android开发需要正确配置多个环境变量，这是搭建开发环境的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境变量配置",
+      "predicate": "包含",
+      "object": "ANDROID_HOME",
+      "context": "ANDROID_HOME是Android开发必须配置的环境变量之一，指向Android SDK安装目录",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "环境变量配置",
+      "predicate": "包含",
+      "object": "JAVA_HOME",
+      "context": "JAVA_HOME指向JDK安装位置，是Android开发工具链的必要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "环境变量配置",
+      "predicate": "包含",
+      "object": "NDKROOT",
+      "context": "NDKROOT指向Android NDK位置，用于原生代码开发",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Android设备调试",
+      "predicate": "依赖",
+      "object": "USB调试",
+      "context": "文档强调USB调试连接是设备调试的前提条件，开发者需要确保正确安装驱动并启用调试模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android纹理压缩",
+      "predicate": "支持",
+      "object": "多种格式",
+      "context": "文档详细介绍了ETC1、ETC2、ATC、DXT、PVRTC和ASTC等不同纹理压缩格式及其设备支持情况",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "纹理格式选择",
+      "predicate": "基于",
+      "object": "设备GPU类型",
+      "context": "文档说明不同GPU支持不同纹理格式，选择最佳格式需要了解目标设备的GPU类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "提供",
+      "object": "纹理烘焙功能",
+      "context": "文档提到虚幻引擎在部署时会自动将纹理转换为设备支持的格式，这个过程称为烘焙",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CodeWorks for Android",
+      "predicate": "简化",
+      "object": "环境配置",
+      "context": "文档提到安装CodeWorks可以自动设置所需环境变量，简化开发环境配置过程",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "AGDE插件",
+      "predicate": "需要",
+      "object": "AGDE_JAVA_HOME",
+      "context": "使用AGDE插件进行Android调试需要单独配置AGDE_JAVA_HOME环境变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android开发",
+      "predicate": "涉及",
+      "object": "adb工具",
+      "context": "文档多次提到使用adb工具进行设备连接和调试，这是Android开发的核心工具",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理格式",
+      "predicate": "影响",
+      "object": "内存使用",
+      "context": "文档说明选择正确的纹理格式可以优化内存使用，特别是使用多格式打包时",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "开发者模式",
+      "predicate": "是",
+      "object": "设备调试前提",
+      "context": "文档强调必须在Android设备上启用开发者模式和USB调试才能进行开发调试",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    }
+  ],
+  "timestamp": "2025-06-15T17:57:49.470Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11811,
+    "contentLength": 6521,
+    "processingTimeMs": 58631
+  }
+}

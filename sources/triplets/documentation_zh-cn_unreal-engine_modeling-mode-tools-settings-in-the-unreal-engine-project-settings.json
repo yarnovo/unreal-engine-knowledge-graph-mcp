@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_modeling-mode-tools-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_modeling-mode-tools-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "建模模式工具",
+      "predicate": "包含",
+      "object": "建模工具",
+      "context": "建模工具是建模模式工具的核心功能模块，理解建模工具是掌握建模模式工具的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "建模工具",
+      "predicate": "支持",
+      "object": "光线追踪",
+      "context": "建模工具提供光线追踪支持选项，这对需要高质量实时渲染的学习者很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光线追踪",
+      "predicate": "影响",
+      "object": "性能",
+      "context": "启用光线追踪会影响3D塑造等工具的实时反馈性能，学习者需要权衡视觉效果和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "新网格体对象",
+      "predicate": "支持",
+      "object": "碰撞检测",
+      "context": "新网格体对象的碰撞设置是物理模拟的基础知识，对游戏开发学习者很关键",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞模式",
+      "predicate": "包含",
+      "object": "项目默认值",
+      "context": "理解不同碰撞模式的区别有助于学习者根据项目需求选择合适的碰撞检测方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞模式",
+      "predicate": "包含",
+      "object": "简单和复杂",
+      "context": "简单和复杂碰撞模式的选择直接影响场景查询和碰撞测试的效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞模式",
+      "predicate": "包含",
+      "object": "将简单碰撞形状用作复杂形状",
+      "context": "这种模式只使用简单形状，适合性能敏感但对碰撞精度要求不高的场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞模式",
+      "predicate": "包含",
+      "object": "将复杂碰撞形状用作简单形状",
+      "context": "这种模式只适用于静态形状模拟，学习者需要理解其限制条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DynamicMeshActors",
+      "predicate": "是",
+      "object": "新网格体对象",
+      "context": "DynamicMeshActors是建模工具创建的新网格体对象的实例，理解这个关系有助于掌握对象创建流程",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "建模工具",
+      "predicate": "生成",
+      "object": "新网格体对象",
+      "context": "建模工具的主要功能是创建和编辑新网格体对象，这是3D建模的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3D塑造工具",
+      "predicate": "依赖",
+      "object": "实时反馈",
+      "context": "3D塑造工具依赖实时反馈来提供直观的编辑体验，这对建模学习者很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "光线追踪",
+      "predicate": "增强",
+      "object": "实时反馈",
+      "context": "光线追踪可以增强3D塑造工具的实时反馈质量，但会牺牲性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "项目物理设置",
+      "predicate": "决定",
+      "object": "DefaultShapeComplexity",
+      "context": "理解项目物理设置如何影响默认碰撞形状复杂度对物理系统学习者很重要",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T19:58:35.052Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2739,
+    "contentLength": 1781,
+    "processingTimeMs": 43552
+  }
+}

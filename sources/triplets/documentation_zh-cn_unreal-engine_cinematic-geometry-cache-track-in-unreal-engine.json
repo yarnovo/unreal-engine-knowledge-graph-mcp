@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_cinematic-geometry-cache-track-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_cinematic-geometry-cache-track-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "几何体缓存轨道",
+      "predicate": "用于",
+      "object": "关卡序列",
+      "context": "几何体缓存轨道可以添加到关卡序列中，用于播放几何体缓存内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体缓存轨道",
+      "predicate": "控制",
+      "object": "几何体缓存",
+      "context": "几何体缓存轨道可以控制几何体缓存的播放，包括播放速度、偏移等属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体缓存",
+      "predicate": "基于",
+      "object": "Alembic文件",
+      "context": "几何体缓存是通过导入Alembic文件生成的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡序列",
+      "predicate": "包含",
+      "object": "几何体缓存轨道",
+      "context": "关卡序列可以包含几何体缓存轨道作为其组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体缓存轨道",
+      "predicate": "支持",
+      "object": "帧精度播放",
+      "context": "几何体缓存轨道支持以帧精度播放几何体缓存内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体缓存轨道",
+      "predicate": "具有",
+      "object": "播放属性",
+      "context": "几何体缓存轨道具有多种播放属性，如起点偏移、终点偏移、播放速度等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "管理",
+      "object": "几何体缓存轨道",
+      "context": "Sequencer用于管理几何体缓存轨道的添加和播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体缓存轨道",
+      "predicate": "属于",
+      "object": "Experimental功能",
+      "context": "几何体缓存轨道目前属于实验性功能，在产品发布中需要谨慎使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图第三人称模板项目",
+      "predicate": "适用于",
+      "object": "几何体缓存轨道教程",
+      "context": "文档中使用蓝图第三人称模板项目作为几何体缓存轨道教程的基础",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "几何体缓存",
+      "predicate": "需要",
+      "object": "Alembic文件",
+      "context": "创建几何体缓存需要先导入Alembic文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:22:50.867Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4544,
+    "contentLength": 3228,
+    "processingTimeMs": 33097
+  }
+}

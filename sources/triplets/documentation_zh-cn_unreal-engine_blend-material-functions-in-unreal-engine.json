@@ -1,0 +1,163 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_blend-material-functions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_blend-material-functions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "混合材质函数",
+      "predicate": "包含",
+      "object": "Blend_ColorBurn",
+      "context": "Blend_ColorBurn是混合材质函数的一种具体实现，学习它有助于理解颜色加深的混合方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合材质函数",
+      "predicate": "包含",
+      "object": "Blend_ColorDodge",
+      "context": "Blend_ColorDodge是混合材质函数的一种具体实现，展示了颜色减淡的混合技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合材质函数",
+      "predicate": "包含",
+      "object": "Blend_Darken",
+      "context": "Blend_Darken是混合材质函数的一种，用于实现变暗效果，是基础混合操作之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合材质函数",
+      "predicate": "包含",
+      "object": "Blend_Lighten",
+      "context": "Blend_Lighten与Blend_Darken形成对比，展示了变亮效果的实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blend_Overlay",
+      "predicate": "是基础",
+      "object": "Blend_HardLight",
+      "context": "Blend_HardLight是基于Blend_Overlay的粗糙版本，理解Overlay有助于学习HardLight",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blend_Overlay",
+      "predicate": "是基础",
+      "object": "Blend_SoftLight",
+      "context": "Blend_SoftLight是Blend_Overlay的柔和版本，两者对比学习可以理解不同强度的光效实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blend_Overlay",
+      "predicate": "是基础",
+      "object": "Blend_LinearLight",
+      "context": "Blend_LinearLight是Blend_Overlay的线性版本，展示了数学运算在混合中的不同应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合材质函数",
+      "predicate": "需要",
+      "object": "底色(Base)",
+      "context": "所有混合函数都需要底色作为输入参数，这是混合操作的基础要素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合材质函数",
+      "predicate": "需要",
+      "object": "混合(Blend)",
+      "context": "混合纹理是所有混合函数的必要输入，决定了混合的具体效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blend_Screen",
+      "predicate": "实现",
+      "object": "变亮效果",
+      "context": "Blend_Screen通过特定的数学运算实现变亮效果，是重要的混合技术之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blend_Difference",
+      "predicate": "产生",
+      "object": "反转效果",
+      "context": "Blend_Difference通过减法运算产生反转效果，是特殊的混合方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blend_ColorBurn",
+      "predicate": "对比学习",
+      "object": "Blend_ColorDodge",
+      "context": "这两个函数分别实现颜色加深和减淡效果，对比学习可以理解颜色操作的相反效果",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Blend_LinearBurn",
+      "predicate": "对比学习",
+      "object": "Blend_LinearDodge",
+      "context": "这两个线性混合函数实现相反的加深和减淡效果，是数学运算在混合中的典型应用",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Blend_PinLight",
+      "predicate": "变体",
+      "object": "Blend_Overlay",
+      "context": "PinLight是Overlay的变体，对比学习可以理解不同强度的光效实现",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "混合材质函数",
+      "predicate": "应用于",
+      "object": "材质系统",
+      "context": "这些混合函数是虚幻引擎材质系统的重要组成部分，用于创建复杂的材质效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Blend_Exclusion",
+      "predicate": "类似",
+      "object": "Blend_Difference",
+      "context": "这两种混合方式都产生反转类效果，但具体算法不同，适合对比学习",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "50%灰度",
+      "predicate": "作为阈值",
+      "object": "Blend_Overlay",
+      "context": "理解50%灰度的阈值作用对学习Overlay及其变体函数至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "矢量3(Vector3)",
+      "predicate": "作为输入类型",
+      "object": "混合材质函数",
+      "context": "所有混合函数都使用Vector3作为输入类型，这是颜色数据处理的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:12:59.398Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15211 字符)",
+      "timestamp": "2025-06-15T18:11:57.312Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 21179,
+    "contentLength": 15211,
+    "processingTimeMs": 62092
+  }
+}

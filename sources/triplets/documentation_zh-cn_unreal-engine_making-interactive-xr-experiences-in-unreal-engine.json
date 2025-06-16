@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_making-interactive-xr-experiences-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_making-interactive-xr-experiences-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "XR项目",
+      "predicate": "包含",
+      "object": "输入机制",
+      "context": "XR项目通常包含多种输入机制，如手部追踪、手柄和眼部追踪，这些是构建交互式体验的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OpenXR",
+      "predicate": "支持",
+      "object": "输入机制",
+      "context": "OpenXR运行时使用交互配置文件来支持各种硬件控制器，为连接的控制器提供按键/操作绑定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动控制器",
+      "predicate": "表示",
+      "object": "XR设备输入机制",
+      "context": "运动控制器表示参与XR设备输入机制的控制器或手，是XR交互的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动控制器组件",
+      "predicate": "继承自",
+      "object": "场景组件",
+      "context": "运动控制器组件继承自场景组件，支持基于位置的行为，并根据硬件追踪数据移动关联的Pawn",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动控制器组件",
+      "predicate": "渲染",
+      "object": "运动控制器",
+      "context": "运动控制器组件会渲染运动控制器，并将控制器暴露给Pawn定义的用户交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "手部追踪",
+      "predicate": "支持",
+      "object": "HoloLens 2和Oculus Quest",
+      "context": "目前，HoloLens 2和Oculus Quest是支持在虚幻引擎中实现手部追踪的两个主要平台",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Oculus VR插件",
+      "predicate": "实现",
+      "object": "Oculus Quest手部追踪",
+      "context": "Oculus Quest上的手部追踪可通过Oculus VR插件实现，但无法在OpenXR项目中使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "XR项目",
+      "predicate": "后续步骤",
+      "object": "设计用户界面",
+      "context": "在实现输入功能后，设计用户界面是XR项目的后续重要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "XR项目",
+      "predicate": "后续步骤",
+      "object": "共享XR体验",
+      "context": "共享XR体验是为多个用户打造沉浸式体验的重要后续步骤",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "XR项目",
+      "predicate": "后续步骤",
+      "object": "性能分析",
+      "context": "XR性能和分析是优化虚拟现实项目的关键后续步骤",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "运动控制器",
+      "predicate": "用于",
+      "object": "拾取和放置物体",
+      "context": "运动控制器可用于拾取和放置物体，这是XR交互中的常见操作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "手部追踪",
+      "predicate": "替代",
+      "object": "运动控制器",
+      "context": "在某些场景下，手部追踪可以替代运动控制器，提供更自然的交互方式",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T19:49:24.287Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5995,
+    "contentLength": 4447,
+    "processingTimeMs": 52461
+  }
+}

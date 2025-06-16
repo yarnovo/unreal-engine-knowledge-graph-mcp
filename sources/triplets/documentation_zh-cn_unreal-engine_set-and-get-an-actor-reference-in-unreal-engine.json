@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_set-and-get-an-actor-reference-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_set-and-get-an-actor-reference-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "变量",
+      "predicate": "分为",
+      "object": "基本类型和对象类型",
+      "context": "帮助学习者理解编程中变量的基本分类，这是理解对象引用的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基本类型变量",
+      "predicate": "包含",
+      "object": "整数、字符、浮点数、布尔值",
+      "context": "明确基本类型的具体组成，为后续与对象类型的对比做铺垫",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象类型变量",
+      "predicate": "包含",
+      "object": "Actor和Actor组件",
+      "context": "明确Unreal引擎中对象类型的具体实例，与基本类型形成对比",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象引用",
+      "predicate": "用于",
+      "object": "访问对象函数",
+      "context": "解释对象引用的核心用途之一，帮助理解引用存在的必要性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_TeleporterActor",
+      "predicate": "继承自",
+      "object": "TriggerBox",
+      "context": "说明示例蓝图的父类关系，帮助理解其基础功能来源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TargetActor变量",
+      "predicate": "引用",
+      "object": "被传送的Actor",
+      "context": "展示具体示例中对象引用的实际应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TeleportLocation变量",
+      "predicate": "引用",
+      "object": "传送目标位置",
+      "context": "展示对象引用在空间位置标记中的应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get节点",
+      "predicate": "获取",
+      "object": "对象引用",
+      "context": "解释蓝图编程中获取引用的标准操作方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Set节点",
+      "predicate": "设置",
+      "object": "对象引用",
+      "context": "解释蓝图编程中设置引用的标准操作方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Event ActorBeginOverlap",
+      "predicate": "触发",
+      "object": "传送逻辑",
+      "context": "展示事件驱动编程在Unreal中的典型应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Set Actor Location",
+      "predicate": "实现",
+      "object": "传送功能",
+      "context": "解释核心功能的具体实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Details面板",
+      "predicate": "用于",
+      "object": "设置对象引用",
+      "context": "展示除蓝图编程外设置引用的另一种重要方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象引用",
+      "predicate": "不同于",
+      "object": "对象实例",
+      "context": "强调引用与实例的关键区别，这是理解引用概念的核心",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Teleporter1实例",
+      "predicate": "拥有独立",
+      "object": "TeleportLocation引用",
+      "context": "说明引用在不同实例中的独立性，帮助理解实例化概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图变量",
+      "predicate": "可设置为",
+      "object": "公开可见",
+      "context": "展示通过眼睛图标控制变量可见性的重要功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:41:48.455Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11855 字符)",
+      "timestamp": "2025-06-15T20:41:02.269Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12047,
+    "contentLength": 11855,
+    "processingTimeMs": 46198
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_game-animation-sample-project-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_game-animation-sample-project-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "游戏动画示例项目",
+      "predicate": "展示",
+      "object": "现代高保真动画系统",
+      "context": "该项目用于展示和学习虚幻引擎中的现代高保真动画系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "现代高保真动画系统",
+      "predicate": "采用",
+      "object": "运动匹配",
+      "context": "动画系统采用运动匹配等动画功能驱动的动作捕捉动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动匹配",
+      "predicate": "驱动",
+      "object": "动作捕捉动画",
+      "context": "运动匹配用于驱动动作捕捉动画，为角色提供高品质响应式动画系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏动画示例项目",
+      "predicate": "包含",
+      "object": "障碍训练场",
+      "context": "项目分为几个障碍训练场，供用户导航和测试动画系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏动画示例项目",
+      "predicate": "支持",
+      "object": "角色导入",
+      "context": "项目允许导入自定义角色，测试动画系统与不同角色的配合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏动画示例项目",
+      "predicate": "支持",
+      "object": "资产迁移",
+      "context": "用户可以将动画资产和系统迁移到自己的项目中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎启动程序",
+      "predicate": "用于",
+      "object": "安装项目",
+      "context": "通过虚幻引擎启动程序的库面板可以安装和创建游戏动画示例项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PIE功能",
+      "predicate": "用于",
+      "object": "运行项目",
+      "context": "使用在编辑器中运行（PIE）功能可以运行游戏动画示例项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DefaultLevel",
+      "predicate": "包含",
+      "object": "自述文件",
+      "context": "DefaultLevel中的自述文件按钮提供项目介绍和功能概述",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏动画控件",
+      "predicate": "提供",
+      "object": "实用工具和属性",
+      "context": "游戏动画控件面板包含多种实用工具和属性，用于与动画系统交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ABP_SandboxCharacter",
+      "predicate": "是",
+      "object": "动画蓝图",
+      "context": "ABP_SandboxCharacter是驱动玩家角色动画系统的主要动画蓝图",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AnimGraph",
+      "predicate": "包含",
+      "object": "Motion Matching节点",
+      "context": "AnimGraph中的Motion Matching节点是运动匹配系统的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Motion Matching节点",
+      "predicate": "查询",
+      "object": "姿势搜索数据库",
+      "context": "Motion Matching节点查询姿势搜索数据库以选择最佳动画姿势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pose History节点",
+      "predicate": "提供",
+      "object": "轨迹数据",
+      "context": "Pose History节点提供运动匹配系统所需的轨迹数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CBP_Sandbox_Character",
+      "predicate": "是",
+      "object": "角色蓝图",
+      "context": "CBP_Sandbox_Character是控制玩家角色逻辑和功能的主要蓝图",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色蓝图",
+      "predicate": "传递",
+      "object": "游戏状态数据",
+      "context": "角色蓝图将游戏状态数据传递给动画蓝图，用于姿势搜索数据库选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "增强输入系统",
+      "predicate": "用于",
+      "object": "设置输入",
+      "context": "角色蓝图使用增强输入系统设置玩家输入控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK Rig",
+      "predicate": "用于",
+      "object": "角色重定向",
+      "context": "IK Rig资产用于将UEFN_Mannequin重定向到自定义角色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画序列资产",
+      "predicate": "位于",
+      "object": "Content/Characters/UEFN_Mannequin/Animations",
+      "context": "动画示例项目中的动画序列资产可以迁移或导出供其他项目使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:09:49.768Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (22660 字符)",
+      "timestamp": "2025-06-15T19:08:49.371Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 40319,
+    "contentLength": 22660,
+    "processingTimeMs": 60405
+  }
+}

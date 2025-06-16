@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_dmx-activity-and-channel-monitors-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_dmx-activity-and-channel-monitors-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "DMX监控器",
+      "predicate": "用于",
+      "object": "可视化DMX输入和输出",
+      "context": "DMX监控器的主要功能是可视化DMX数据流，帮助开发者调试和监控DMX信号",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX监控器",
+      "predicate": "位于",
+      "object": "DMX工具栏菜单",
+      "context": "开发者可以通过DMX工具栏菜单访问DMX监控器工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通道监控器",
+      "predicate": "属于",
+      "object": "DMX监控器",
+      "context": "通道监控器是DMX监控器的一种具体实现形式，专门用于监控特定universe的DMX输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通道监控器",
+      "predicate": "包含",
+      "object": "universe选择控件",
+      "context": "通道监控器提供universe选择控件，允许开发者选择要监控的特定universe",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "活动监控器",
+      "predicate": "属于",
+      "object": "DMX监控器",
+      "context": "活动监控器是DMX监控器的另一种形式，专注于可视化多个universe中的非零DMX值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "活动监控器",
+      "predicate": "用于",
+      "object": "调试DMX输入和输出",
+      "context": "活动监控器主要作为调试工具，帮助开发者识别DMX信号活动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX监控器",
+      "predicate": "包含",
+      "object": "清除DMX缓冲区功能",
+      "context": "DMX监控器提供清除缓冲区的功能，这是调试过程中的重要操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通道监控器",
+      "predicate": "位于",
+      "object": "灯具配接编辑器",
+      "context": "通道监控器在灯具配接编辑器中可用，方便在配置灯具时监控DMX输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "活动监控器",
+      "predicate": "支持",
+      "object": "监控多个universe",
+      "context": "活动监控器可以同时监控多个universe的DMX活动，而通道监控器通常只监控单个universe",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX监控器",
+      "predicate": "分为",
+      "object": "通道监控器和活动监控器",
+      "context": "DMX监控器包含两种主要类型：专注于单个通道的通道监控器和监控多个universe的活动监控器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "监控所有端口选项",
+      "predicate": "控制",
+      "object": "输入/输出端口监控范围",
+      "context": "该选项允许开发者选择是监控所有端口还是特定端口，影响监控范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "源属性",
+      "predicate": "用于",
+      "object": "选择监控源",
+      "context": "源属性允许开发者选择特定的输入或输出端口作为监控源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "本地universe属性",
+      "predicate": "指定",
+      "object": "监控的universe",
+      "context": "该属性用于指定要监控的具体本地universe",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:53:02.657Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3775,
+    "contentLength": 2677,
+    "processingTimeMs": 47301
+  }
+}

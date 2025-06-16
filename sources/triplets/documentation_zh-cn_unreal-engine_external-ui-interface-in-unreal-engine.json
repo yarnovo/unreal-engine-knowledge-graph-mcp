@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_external-ui-interface-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_external-ui-interface-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "在线服务外部UI接口",
+      "predicate": "提供",
+      "object": "平台在线服务外部用户接口的访问权限",
+      "context": "帮助学习者理解该接口的核心功能是提供对平台特定UI的访问",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务外部UI接口",
+      "predicate": "包含",
+      "object": "ShowLoginUI",
+      "context": "学习者需要了解该接口包含的具体功能函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务外部UI接口",
+      "predicate": "包含",
+      "object": "ShowFriendsUI",
+      "context": "学习者需要了解该接口包含的具体功能函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务外部UI接口",
+      "predicate": "包含",
+      "object": "OnExternalUIStatusChanged",
+      "context": "学习者需要了解该接口包含的事件处理功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ShowLoginUI",
+      "predicate": "用于",
+      "object": "用户登录",
+      "context": "帮助学习者明确该函数的具体应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ShowFriendsUI",
+      "predicate": "用于",
+      "object": "好友和社交互动",
+      "context": "帮助学习者明确该函数的具体应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务外部UI接口",
+      "predicate": "依赖",
+      "object": "在线服务平台实施支持",
+      "context": "学习者需要了解该接口的使用前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务外部UI接口",
+      "predicate": "基于",
+      "object": "ExternalUI.h头文件",
+      "context": "帮助学习者定位接口的技术实现位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ExternalUI.h",
+      "predicate": "位于",
+      "object": "Engine/Plugins/Online/OnlineServices/Source/OnlineServicesInterface/Public/Online",
+      "context": "为学习者提供具体的文件路径参考",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务外部UI接口",
+      "predicate": "关联",
+      "object": "在线服务概述",
+      "context": "引导学习者查阅相关文档了解函数参数和返回类型",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "在线服务外部UI接口",
+      "predicate": "是",
+      "object": "Beta功能",
+      "context": "提醒学习者该功能尚处于测试阶段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务外部UI接口",
+      "predicate": "处理",
+      "object": "标准化用户接口",
+      "context": "帮助学习者理解该接口的设计目的",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "标准化用户接口",
+      "predicate": "用于",
+      "object": "敏感交互",
+      "context": "解释为什么需要标准化接口",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:03:30.411Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4625,
+    "contentLength": 3289,
+    "processingTimeMs": 54254
+  }
+}

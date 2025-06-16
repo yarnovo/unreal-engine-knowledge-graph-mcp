@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_static-code-analysis-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_static-code-analysis-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻编译工具（UBT）",
+      "predicate": "支持",
+      "object": "静态代码分析器",
+      "context": "UBT是运行静态代码分析器的工具，了解这一关系有助于学习者知道如何启动和使用静态代码分析功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态代码分析器",
+      "predicate": "用于",
+      "object": "检测源代码漏洞",
+      "context": "静态代码分析器的主要功能是在不执行代码的情况下检查源代码并发现漏洞，这对学习者理解其核心价值至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态代码分析器",
+      "predicate": "包含",
+      "object": "VisualCpp分析器",
+      "context": "了解不同分析器的类型和特点有助于学习者根据项目需求选择合适的工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态代码分析器",
+      "predicate": "包含",
+      "object": "PVS-Studio分析器",
+      "context": "PVS-Studio是一个专业的静态分析工具，了解其存在和特点有助于高级用户选择专业工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态代码分析器",
+      "predicate": "包含",
+      "object": "Clang分析器",
+      "context": "Clang分析器是跨平台的静态分析工具，了解其特点有助于跨平台开发者",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PVS-Studio分析器",
+      "predicate": "需要",
+      "object": "许可证文件",
+      "context": "使用PVS-Studio需要额外配置许可证，这对学习者准备开发环境有实际指导意义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Clang分析器",
+      "predicate": "需要",
+      "object": "-DisableUnity标记",
+      "context": "在UE5.3中使用Clang分析器需要特殊编译标记，这对学习者解决实际问题很有帮助",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Clang分析器",
+      "predicate": "支持",
+      "object": "静态分析器检查程序",
+      "context": "了解Clang分析器支持自定义检查程序有助于高级用户进行精细化配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态代码分析",
+      "predicate": "有助于",
+      "object": "减少技术债务",
+      "context": "理解静态代码分析的价值和目的，帮助学习者认识其在整个开发流程中的重要性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UBT命令行",
+      "predicate": "包含参数",
+      "object": "TARGET",
+      "context": "了解UBT命令行的必需参数对学习者正确使用静态分析功能至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UBT命令行",
+      "predicate": "包含参数",
+      "object": "PLATFORM",
+      "context": "平台参数决定了分析的目标环境，这对跨平台开发者特别重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UBT命令行",
+      "predicate": "包含参数",
+      "object": "ANALYZER",
+      "context": "分析器参数允许选择不同的静态分析工具，了解这一点有助于工具选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Clang分析器",
+      "predicate": "支持选项",
+      "object": "-StaticAnalyzerOutputType=html",
+      "context": "了解输出类型选项有助于学习者获取更友好的分析结果展示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Clang分析器",
+      "predicate": "支持选项",
+      "object": "-StaticAnalyzerMode=shallow",
+      "context": "了解浅分析模式有助于学习者在速度与深度之间做出权衡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:54:27.587Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5632,
+    "contentLength": 3724,
+    "processingTimeMs": 43592
+  }
+}

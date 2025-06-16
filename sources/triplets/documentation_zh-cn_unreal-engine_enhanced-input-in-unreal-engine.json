@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_enhanced-input-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_enhanced-input-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "增强输入",
+      "predicate": "扩展",
+      "object": "默认输入系统",
+      "context": "增强输入为开发人员提供了更多高级输入功能，并能向上兼容虚幻引擎4的默认输入系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "增强输入",
+      "predicate": "包含",
+      "object": "输入动作",
+      "context": "输入动作是增强输入系统和项目代码之间的通信链接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "增强输入",
+      "predicate": "包含",
+      "object": "输入映射上下文",
+      "context": "输入映射上下文是输入动作的集合，表示玩家可以处于的特定上下文",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "增强输入",
+      "predicate": "包含",
+      "object": "输入修饰器",
+      "context": "输入修饰器能够修改UE接收的原始输入值，然后再将其发送给输入触发器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "增强输入",
+      "predicate": "包含",
+      "object": "输入触发器",
+      "context": "输入触发器用于确定用户输入在经过一系列可选输入修饰器的处理后，是否会激活输入映射上下文中的相应输入动作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入动作",
+      "predicate": "用于",
+      "object": "蓝图",
+      "context": "输入动作可以在蓝图中添加输入侦听器，侦听输入动作的状态何时发生变化",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入动作",
+      "predicate": "用于",
+      "object": "C++",
+      "context": "输入动作可以在C++中绑定输入动作，实现特定功能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入映射上下文",
+      "predicate": "管理",
+      "object": "输入动作",
+      "context": "输入映射上下文描述了给定输入动作的触发规则，可以动态地为每个用户添加、移除或安排优先次序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入修饰器",
+      "predicate": "处理",
+      "object": "原始输入值",
+      "context": "输入修饰器能够修改UE接收的原始输入值，然后再将其发送给输入触发器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入触发器",
+      "predicate": "决定",
+      "object": "输入动作激活",
+      "context": "输入触发器用于确定用户输入在经过一系列可选输入修饰器的处理后，是否会激活输入映射上下文中的相应输入动作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家可映射输入配置",
+      "predicate": "包含",
+      "object": "输入映射上下文",
+      "context": "可映射配置是输入映射上下文的集合，表示映射的一个'配置'或'预设'",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "增强输入平台数据",
+      "predicate": "支持",
+      "object": "平台设置",
+      "context": "增强输入提供了逐平台的映射上下文重定向，可以基于增强输入平台数据类创建蓝图，为游戏添加特定于平台的选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入动作",
+      "predicate": "具有",
+      "object": "触发状态",
+      "context": "触发状态表示动作的当前状态，例如已开始、进行中、已触发、已完成和已取消",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入修饰器",
+      "predicate": "实现",
+      "object": "方向输入",
+      "context": "使用输入修饰器可以将一组一维输入解译为单个二维输入值，实现方向输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入触发器",
+      "predicate": "分为",
+      "object": "显式类型",
+      "context": "输入触发器有三种类型：显式、隐式和阻碍",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入触发器",
+      "predicate": "分为",
+      "object": "隐式类型",
+      "context": "输入触发器有三种类型：显式、隐式和阻碍",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入触发器",
+      "predicate": "分为",
+      "object": "阻碍类型",
+      "context": "输入触发器有三种类型：显式、隐式和阻碍",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "增强输入",
+      "predicate": "支持",
+      "object": "注入输入",
+      "context": "增强输入为玩家带来了'注入输入'的概念，可以调用蓝图、C++中的函数，或使用控制台命令模拟玩家的输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "增强输入",
+      "predicate": "提供",
+      "object": "调试命令",
+      "context": "增强输入提供了多个与输入相关的调试命令，用于调试与输入相关的行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:57:53.476Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15707 字符)",
+      "timestamp": "2025-06-15T18:56:45.651Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 24867,
+    "contentLength": 15707,
+    "processingTimeMs": 67843
+  }
+}

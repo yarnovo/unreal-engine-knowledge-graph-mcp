@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_voice-chat-with-epic-online-services",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_voice-chat-with-epic-online-services.md",
+  "triples": [
+    {
+      "subject": "EOS语音聊天插件",
+      "predicate": "实现",
+      "object": "IVoiceChat接口",
+      "context": "EOS语音聊天插件实现了IVoiceChat接口，这是开发者添加语音通信功能的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EOS语音聊天插件",
+      "predicate": "实现",
+      "object": "IVoiceChatUser接口",
+      "context": "EOS语音聊天插件实现了IVoiceChatUser接口，用于管理单个用户的语音聊天功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EOS语音聊天插件",
+      "predicate": "基于",
+      "object": "Epic在线服务(EOS)",
+      "context": "插件利用EOS的语音接口功能，是EOS在虚幻引擎中的具体实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EOS语音聊天插件",
+      "predicate": "替代",
+      "object": "VivoxVoiceChat",
+      "context": "文档提到之前使用VivoxVoiceChat的开发者可以迁移到EOS后端，说明这是新旧技术的替代关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "IVoiceChat通道",
+      "predicate": "等效于",
+      "object": "EOS房间",
+      "context": "文档明确指出这两个术语应视为可互换，帮助理解概念对应关系",
+      "direction": "bidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "大厅方法",
+      "predicate": "自动管理",
+      "object": "语音通道",
+      "context": "大厅方法通过EOS自动处理语音通道的加入/离开，简化了开发流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "受信任服务器方法",
+      "predicate": "提供控制",
+      "object": "通道连接",
+      "context": "此方法允许开发者手动控制通道连接，适合需要精细管理的场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnlineSubsystemEOS插件",
+      "predicate": "依赖",
+      "object": "EOS语音聊天插件",
+      "context": "使用大厅方法时需要启用OnlineSubsystemEOS插件，两者协同工作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FEOSVoiceChatChannelCredentials",
+      "predicate": "用于",
+      "object": "加入通道",
+      "context": "该数据结构包含加入受信任服务器通道所需的凭证信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LogEOSVoiceChat",
+      "predicate": "包含",
+      "object": "插件日志",
+      "context": "该日志类别记录EOSVoiceChat插件自身的运行信息，对调试很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LogEOSSDK",
+      "predicate": "关联",
+      "object": "EOS日志记录接口",
+      "context": "修改该日志类别会同步更新EOS SDK的日志级别，两者紧密关联",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合方法",
+      "predicate": "结合优势",
+      "object": "大厅方法",
+      "context": "可以同时使用两种方法，获得自动管理和手动控制的优势",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "混合方法",
+      "predicate": "结合优势",
+      "object": "受信任服务器方法",
+      "context": "可以同时使用两种方法，获得自动管理和手动控制的优势",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FOnlineSessionSettings::bUseLobbiesVoiceChatIfAvailable",
+      "predicate": "控制",
+      "object": "自动加入语音通道",
+      "context": "设置此标志为true可启用大厅语音通道的自动加入功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FOnlineSubsystemEOS::GetVoiceChatUserInterface",
+      "predicate": "获取",
+      "object": "IVoiceChatUser实例",
+      "context": "这是获取与本地用户关联的语音聊天接口的主要方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:30:26.438Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10538 字符)",
+      "timestamp": "2025-06-15T21:29:42.591Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15918,
+    "contentLength": 10538,
+    "processingTimeMs": 43859
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_projection-policies-in-ndisplay-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_projection-policies-in-ndisplay-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "nDisplay",
+      "predicate": "包含",
+      "object": "投影策略",
+      "context": "nDisplay系统包含多种投影策略，用于处理不同显示需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简单策略",
+      "predicate": "属于",
+      "object": "投影策略",
+      "context": "简单策略是nDisplay中最基础的投影策略类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简单策略",
+      "predicate": "用于",
+      "object": "2D平面显示器",
+      "context": "简单策略专门用于常规2D平面显示器的渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机策略",
+      "predicate": "属于",
+      "object": "投影策略",
+      "context": "摄像机策略是nDisplay中处理摄像机视图的投影策略",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机策略",
+      "predicate": "支持",
+      "object": "ICVFX摄像机",
+      "context": "摄像机策略支持ICVFX摄像机类型的视图映射",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "手动策略",
+      "predicate": "属于",
+      "object": "投影策略",
+      "context": "手动策略允许用户自定义视锥设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "手动策略",
+      "predicate": "支持",
+      "object": "立体渲染",
+      "context": "手动策略可以配置为支持立体渲染需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体策略",
+      "predicate": "属于",
+      "object": "投影策略",
+      "context": "网格体策略使用静态网格体定义显示表面形状",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体策略",
+      "predicate": "替代",
+      "object": "PFM工作流",
+      "context": "网格体策略提供了比传统PFM工作流更简单的扭曲渲染方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MPCDI策略",
+      "predicate": "基于",
+      "object": "MPCDI标准",
+      "context": "MPCDI策略实现了行业标准的MPCDI协议",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EasyBlend策略",
+      "predicate": "集成",
+      "object": "Scalable SDK",
+      "context": "EasyBlend策略集成了Scalable Display Technologies的SDK",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VIOSO策略",
+      "predicate": "支持",
+      "object": "复杂表面投影",
+      "context": "VIOSO策略专门处理复杂表面上的投影器扭曲和融合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "穹顶投影策略",
+      "predicate": "用于",
+      "object": "圆顶表面",
+      "context": "穹顶投影策略专门用于大型圆顶表面的投影",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay 3D配置编辑器",
+      "predicate": "用于",
+      "object": "配置投影策略",
+      "context": "所有投影策略都需要通过nDisplay 3D配置编辑器进行设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视口",
+      "predicate": "应用",
+      "object": "投影策略",
+      "context": "每种投影策略都需要配置到具体的视口上才能生效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "投影策略",
+      "predicate": "影响",
+      "object": "渲染结果",
+      "context": "不同的投影策略会产生不同的渲染效果和视觉表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简单策略",
+      "predicate": "前置",
+      "object": "摄像机策略",
+      "context": "理解简单策略有助于学习更复杂的摄像机策略",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "手动策略",
+      "predicate": "扩展",
+      "object": "简单策略",
+      "context": "手动策略提供了比简单策略更灵活的自定义选项",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "MPCDI",
+      "predicate": "兼容",
+      "object": "行业工具",
+      "context": "MPCDI标准确保与多种行业工具的兼容性",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "立体渲染",
+      "predicate": "需要",
+      "object": "双视锥设置",
+      "context": "手动策略中的立体渲染需要配置左右两个视锥",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:30:53.358Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12565 字符)",
+      "timestamp": "2025-06-15T20:29:52.225Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 18943,
+    "contentLength": 12565,
+    "processingTimeMs": 61142
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_chaos-flesh-quickstart",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_chaos-flesh-quickstart.md",
+  "triples": [
+    {
+      "subject": "Chaos Flesh",
+      "predicate": "实现",
+      "object": "体积弹性模拟",
+      "context": "Chaos Flesh系统通过四面体支撑结构实现体积弹性模拟，帮助学习者理解其物理模拟基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "四面体网格",
+      "predicate": "用于",
+      "object": "Flesh模拟",
+      "context": "四面体网格由表面几何体创建，是Flesh模拟的基础结构，学习者需要掌握其生成方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动学约束",
+      "predicate": "控制",
+      "object": "顶点动画",
+      "context": "运动学约束允许通过动画控制顶点，是Flesh系统与动画系统交互的关键概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ML Deformer Framework",
+      "predicate": "扩展",
+      "object": "Flesh模拟",
+      "context": "ML插件用于增强Flesh模拟的高分辨率几何体处理能力，是高级工作流的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Flesh Asset",
+      "predicate": "包含",
+      "object": "数据流图",
+      "context": "Flesh资产通过数据流图配置模拟属性，学习者需要掌握GenerateSurfaceBindings等关键节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DG_FleshDeformer",
+      "predicate": "应用于",
+      "object": "骨骼网格体",
+      "context": "该变形器将四面体网格的变形应用到骨骼网格体，是渲染输出的关键组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "弱约束",
+      "predicate": "替代",
+      "object": "运动学约束",
+      "context": "当需要允许轻微滑动时，弱约束可以替代完全固定的运动学约束，提供更自然的模拟效果",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "流式碰撞",
+      "predicate": "依赖",
+      "object": "四面体求解器",
+      "context": "碰撞系统需要与四面体求解器协同工作，学习者需要理解其单向碰撞响应的特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缓存系统",
+      "predicate": "支持",
+      "object": "ML Deformer训练",
+      "context": "模拟结果缓存可转换为几何缓存，为机器学习变形器提供训练数据，是性能优化的重要环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图Actor",
+      "predicate": "类似",
+      "object": "骨骼网格体Actor",
+      "context": "Flesh组件在蓝图中的使用方式与骨骼网格体相似，便于学习者迁移现有知识",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "每粒子属性",
+      "predicate": "包括",
+      "object": "质量分布",
+      "context": "粒子级属性控制是精细调节模拟效果的关键，质量分布是典型应用案例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绑定射线检测",
+      "predicate": "要求",
+      "object": "运动学骨架约束",
+      "context": "该高级碰撞检测方法需要预先建立骨架约束，展示特定场景下的解决方案",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Electric Dreams Demo",
+      "predicate": "展示",
+      "object": "世界位置偏移应用",
+      "context": "该技术演示展示了如何采样表面变形数据用于Nanite网格渲染，是实际应用范例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "顶点属性转移",
+      "predicate": "解决",
+      "object": "拓扑变化失效",
+      "context": "当四面体网格拓扑变化时，该技术可保留绘制的顶点属性，是工作流连续性的保障",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模拟属性",
+      "predicate": "分布在",
+      "object": "多层级系统",
+      "context": "属性配置分布在求解器、Actor和数据流图等多个层级，需要系统化学习",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:20:32.810Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (16319 字符)",
+      "timestamp": "2025-06-15T18:19:32.774Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16421,
+    "contentLength": 16319,
+    "processingTimeMs": 60042
+  }
+}

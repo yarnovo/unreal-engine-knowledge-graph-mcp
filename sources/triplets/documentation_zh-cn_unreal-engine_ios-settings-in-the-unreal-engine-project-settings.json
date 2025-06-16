@@ -1,0 +1,387 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_ios-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_ios-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "iOS项目设置",
+      "predicate": "包含",
+      "object": "移动预配",
+      "context": "iOS项目设置中包含了移动预配的相关配置，用于管理预配配置文件和证书",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS项目设置",
+      "predicate": "包含",
+      "object": "程序包信息",
+      "context": "程序包信息是iOS项目设置的一部分，用于配置应用程序的显示名称、包名和标识符",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS项目设置",
+      "predicate": "包含",
+      "object": "方向设置",
+      "context": "方向设置用于配置应用程序支持的屏幕方向，是iOS项目设置的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS项目设置",
+      "predicate": "包含",
+      "object": "输入设置",
+      "context": "输入设置用于配置游戏手柄、遥控器等输入设备的支持，属于iOS项目设置的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS项目设置",
+      "predicate": "包含",
+      "object": "文件系统设置",
+      "context": "文件系统设置用于配置应用程序的文件共享功能，是iOS项目设置的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS项目设置",
+      "predicate": "包含",
+      "object": "渲染设置",
+      "context": "渲染设置用于配置Metal渲染器和着色器选项，是iOS项目设置的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS项目设置",
+      "predicate": "包含",
+      "object": "操作系统信息",
+      "context": "操作系统信息用于设置应用程序支持的最低iOS版本，属于iOS项目设置的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS项目设置",
+      "predicate": "包含",
+      "object": "功率使用情况",
+      "context": "功率使用情况设置用于配置帧率锁定等功能以节省功耗，是iOS项目设置的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS项目设置",
+      "predicate": "包含",
+      "object": "设备支持",
+      "context": "设备支持设置用于配置应用程序支持的设备类型（如iPad、iPhone），属于iOS项目设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS项目设置",
+      "predicate": "包含",
+      "object": "构建设置",
+      "context": "构建设置用于配置iOS项目的构建选项，如dSYM生成和Bitcode支持，是项目设置的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS项目设置",
+      "predicate": "包含",
+      "object": "在线功能",
+      "context": "在线功能设置用于配置Game Center、iCloud等在线服务支持，属于iOS项目设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS项目设置",
+      "predicate": "包含",
+      "object": "音频设置",
+      "context": "音频设置用于配置采样率、缓冲区大小等音频相关参数，是iOS项目设置的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动预配",
+      "predicate": "依赖",
+      "object": "预配配置文件",
+      "context": "移动预配功能需要预配配置文件来验证应用程序的身份和权限",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动预配",
+      "predicate": "依赖",
+      "object": "证书",
+      "context": "移动预配功能需要证书来验证开发者的身份和签名应用程序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "程序包信息",
+      "predicate": "包含",
+      "object": "Bundle Display Name",
+      "context": "Bundle Display Name是程序包信息的一部分，用于设置应用程序的显示名称",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "程序包信息",
+      "predicate": "包含",
+      "object": "Bundle Identifier",
+      "context": "Bundle Identifier是程序包信息的关键部分，用于唯一标识应用程序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "方向设置",
+      "predicate": "包含",
+      "object": "Supports Portrait Orientation",
+      "context": "方向设置包含纵向方向支持选项，影响应用程序的屏幕方向行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "方向设置",
+      "predicate": "包含",
+      "object": "Preferred Landscape Orientation",
+      "context": "方向设置包含横向方向偏好选项，影响应用程序的初始屏幕方向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入设置",
+      "predicate": "包含",
+      "object": "Multiple Gamepads",
+      "context": "输入设置包含多游戏手柄支持选项，影响游戏输入处理能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入设置",
+      "predicate": "包含",
+      "object": "MFi Controllers",
+      "context": "输入设置包含MFi控制器支持选项，影响蓝牙控制器的使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染设置",
+      "predicate": "包含",
+      "object": "Metal Mobile Renderer",
+      "context": "渲染设置包含Metal移动渲染器选项，影响iOS设备的图形渲染性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染设置",
+      "predicate": "包含",
+      "object": "Metal Shader Standard",
+      "context": "渲染设置包含Metal着色器标准选项，影响着色器编译兼容性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频设置",
+      "predicate": "包含",
+      "object": "Audio Mixer Sample Rate",
+      "context": "音频设置包含混音器采样率选项，影响音频质量和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频设置",
+      "predicate": "包含",
+      "object": "Spatialization Plugin",
+      "context": "音频设置包含空间化插件选项，影响3D音频效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "构建设置",
+      "predicate": "包含",
+      "object": "Generate dSYMs",
+      "context": "构建设置包含dSYM生成选项，影响调试和分析能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "构建设置",
+      "predicate": "包含",
+      "object": "Support Bitcode",
+      "context": "构建设置包含Bitcode支持选项，影响应用程序的优化和分发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线功能",
+      "predicate": "包含",
+      "object": "Game Center Support",
+      "context": "在线功能设置包含Game Center支持选项，影响游戏社交功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线功能",
+      "predicate": "包含",
+      "object": "iCloud Save",
+      "context": "在线功能设置包含iCloud保存选项，影响游戏数据的云同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Metal Mobile Renderer",
+      "predicate": "要求",
+      "object": "iOS 8+",
+      "context": "Metal移动渲染器需要iOS 8或更高版本的操作系统支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Metal Desktop Renderer",
+      "predicate": "要求",
+      "object": "iOS 10+",
+      "context": "Metal桌面渲染器需要iOS 10或更高版本的操作系统支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Bundle Identifier",
+      "predicate": "用于",
+      "object": "App Store识别",
+      "context": "Bundle Identifier用于在App Store中唯一识别应用程序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Frame Rate Lock",
+      "predicate": "影响",
+      "object": "功耗",
+      "context": "帧率锁定设置可以限制最大帧率以节省设备电量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Disable Motion Controls",
+      "predicate": "影响",
+      "object": "电池寿命",
+      "context": "禁用运动控制可以减少设备传感器使用，从而提高电池寿命",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Fast-Math Intrinsics",
+      "predicate": "影响",
+      "object": "渲染性能",
+      "context": "使用Fast-Math固有参数可以提高着色器性能，但可能牺牲精度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "32-bit Floating Point Precision",
+      "predicate": "影响",
+      "object": "渲染精度",
+      "context": "强制32位浮点精度可以提高远距离渲染的准确性，但可能降低性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Audio Mixer Sample Rate",
+      "predicate": "影响",
+      "object": "音频质量",
+      "context": "音频混音器采样率设置直接影响音频输出的质量和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Callback Buffer Size",
+      "predicate": "影响",
+      "object": "音频延迟",
+      "context": "回调缓冲区大小设置影响音频延迟，较小的值减少延迟但增加CPU负载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Support Apple A8",
+      "predicate": "影响",
+      "object": "3D纹理压缩",
+      "context": "支持Apple A8设备会禁用3D纹理压缩功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Remote Build Options",
+      "predicate": "依赖",
+      "object": "Remote Server",
+      "context": "远程构建选项需要配置远程服务器信息才能使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Launch Screen Image",
+      "predicate": "替代",
+      "object": "Custom Launchscreen Storyboard",
+      "context": "当不使用自定义启动画面故事板时，会使用启动画面图像作为替代",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Marketing Icon",
+      "predicate": "用于生成",
+      "object": "其他图标",
+      "context": "营销图标(1024x1024)可用于生成其他尺寸的应用图标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Compression Overrides",
+      "predicate": "影响",
+      "object": "音频加载",
+      "context": "压缩覆盖设置影响音频是在加载时完全解压还是实时解压",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Resampling Quality",
+      "predicate": "影响",
+      "object": "音频质量",
+      "context": "重新采样质量设置影响音频在不同质量级别下的采样率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Streaming Cache",
+      "predicate": "影响",
+      "object": "内存使用",
+      "context": "流送缓存设置影响音频流送时的内存使用和数据块大小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS项目设置",
+      "predicate": "适用于",
+      "object": "iOS应用开发",
+      "context": "iOS项目设置专门用于配置和优化iOS平台上的应用程序开发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TvOS设置",
+      "predicate": "属于",
+      "object": "iOS项目设置",
+      "context": "TvOS设置是iOS项目设置的一部分，专门用于Apple TV应用开发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:39:50.139Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (16175 字符)",
+      "timestamp": "2025-06-15T19:37:32.556Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 25656,
+    "contentLength": 16175,
+    "processingTimeMs": 137594
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_visibility-and-occlusion-culling-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_visibility-and-occlusion-culling-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "可视性剔除",
+      "predicate": "优化",
+      "object": "游戏性能",
+      "context": "可视性剔除通过减少渲染不可见对象来提升游戏性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "遮挡剔除",
+      "predicate": "优化",
+      "object": "游戏性能",
+      "context": "遮挡剔除通过避免渲染被其他对象遮挡的对象来提升性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视锥体剔除",
+      "predicate": "属于",
+      "object": "可视性剔除",
+      "context": "视锥体剔除是可视性剔除的一种方法，用于剔除摄像机视野外的对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬件遮挡查询",
+      "predicate": "属于",
+      "object": "遮挡剔除",
+      "context": "硬件遮挡查询是遮挡剔除的一种实现方式，通过GPU查询对象可视性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor边界",
+      "predicate": "用于",
+      "object": "可视性测试",
+      "context": "Actor的边界球体和箱体用于快速测试对象是否在视锥体内或被遮挡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "剔除距离体积",
+      "predicate": "实现",
+      "object": "距离剔除",
+      "context": "剔除距离体积根据对象大小和距离决定是否渲染，是距离剔除的具体实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算可视性体积",
+      "predicate": "存储",
+      "object": "静态Actor可视性数据",
+      "context": "预计算可视性体积在构建时存储静态Actor的可视性状态，运行时直接使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "层级Z缓冲遮挡",
+      "predicate": "替代",
+      "object": "硬件遮挡查询",
+      "context": "层级Z缓冲遮挡是硬件遮挡查询的替代方案，使用Mip映射深度缓冲提高效率",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "轮询遮挡",
+      "predicate": "优化",
+      "object": "VR渲染",
+      "context": "轮询遮挡通过交替处理双眼遮挡数据来优化VR立体渲染性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "stat initviews",
+      "predicate": "提供",
+      "object": "剔除性能统计",
+      "context": "stat initviews命令提供可视性和遮挡剔除的性能统计数据，用于优化分析",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FreezeRendering",
+      "predicate": "用于",
+      "object": "调试遮挡",
+      "context": "FreezeRendering命令可以冻结场景渲染状态，便于检查遮挡剔除结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏视图模式",
+      "predicate": "显示",
+      "object": "实际剔除效果",
+      "context": "游戏视图模式(G键)可以显示实际游戏中的剔除效果，包括距离剔除和预计算可视性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视锥体",
+      "predicate": "包含",
+      "object": "近端和远端裁切平面",
+      "context": "视锥体由近端和远端裁切平面定义，决定可见对象的最近和最远距离",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "边界缩放",
+      "predicate": "影响",
+      "object": "剔除效率",
+      "context": "调整Actor的边界缩放可以影响剔除效率，过大的边界可能导致过早剔除",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动态遮挡",
+      "predicate": "依赖",
+      "object": "场景深度缓冲",
+      "context": "动态遮挡系统使用场景深度缓冲来判断对象之间的遮挡关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算可视性",
+      "predicate": "适用于",
+      "object": "低端硬件",
+      "context": "预计算可视性通过离线计算可视性数据，适合内存有限的低端硬件和移动设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬件遮挡查询",
+      "predicate": "产生",
+      "object": "GPU负载",
+      "context": "硬件遮挡查询会增加GPU负载，需要合理控制每帧查询数量",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "剔除方法",
+      "predicate": "按顺序应用",
+      "object": "距离剔除→视锥体剔除→预计算可视性→动态遮挡",
+      "context": "不同剔除方法按成本从低到高顺序应用，先进行简单剔除再进行复杂计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.VisualizeOccludedPrimitives",
+      "predicate": "可视化",
+      "object": "被遮挡对象",
+      "context": "该命令用绿色边界框标记被遮挡对象，帮助调试遮挡剔除效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:30:35.629Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15597 字符)",
+      "timestamp": "2025-06-15T21:29:42.582Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 24859,
+    "contentLength": 15597,
+    "processingTimeMs": 53050
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_the-media-plate-actor-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_the-media-plate-actor-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "媒体板Actor",
+      "predicate": "用于",
+      "object": "播放视频",
+      "context": "媒体板Actor是预构建的Actor，专门用于在场景中播放视频、图像序列等媒体内容",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "媒体板Actor",
+      "predicate": "用于",
+      "object": "虚拟制片",
+      "context": "媒体板Actor特别适用于电影或广播行业的虚拟制片，可以显示与虚拟摄像机同步的视频背景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体板Actor",
+      "predicate": "支持",
+      "object": "媒体播放列表",
+      "context": "媒体板Actor支持媒体播放列表功能，可以容纳多个视频资产引用",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "媒体板Actor",
+      "predicate": "集成",
+      "object": "Sequencer",
+      "context": "媒体板Actor可以与Sequencer集成，用于精确控制视频或图像序列的开始、结束或循环时间",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体板Actor",
+      "predicate": "包含",
+      "object": "几何体设置",
+      "context": "媒体板Actor包含几何体设置，可以选择平面、球体或自定义网格体来显示媒体内容",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "媒体板Actor",
+      "predicate": "支持",
+      "object": "EXR图像序列",
+      "context": "媒体板Actor特别优化了对平铺EXR图像序列的流送，需要DX12或更高版本支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体板Actor",
+      "predicate": "使用",
+      "object": "MediaTexture",
+      "context": "媒体板Actor需要使用MediaTexture参数来绑定和访问从视频解码器接收到的像素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体板Actor",
+      "predicate": "支持",
+      "object": "覆层材质技术",
+      "context": "媒体板Actor支持覆层材质技术，可以解决播放过程中出现的时间和抗锯齿瑕疵问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体板Actor",
+      "predicate": "依赖",
+      "object": "Electra播放器",
+      "context": "为了确保同步播放，媒体板Actor推荐使用Electra播放器",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "媒体板Actor",
+      "predicate": "支持",
+      "object": "交叉过渡",
+      "context": "在Sequencer中，媒体板Actor支持在两个媒体轨道之间创建交叉过渡效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体板Actor",
+      "predicate": "包含",
+      "object": "高级设置",
+      "context": "媒体板Actor提供高级设置选项，包括音频组件、静态网格体组件等细节配置",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "媒体板Actor",
+      "predicate": "支持",
+      "object": "调试功能",
+      "context": "媒体板Actor提供多种调试命令，如Stat Media、ImgMedia.MipMapDebug等，用于调试媒体播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体板Actor",
+      "predicate": "支持",
+      "object": "多种媒体源",
+      "context": "媒体板Actor支持多种媒体源，包括视频文件、图像序列、采集卡媒体源等",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "媒体板Actor",
+      "predicate": "支持",
+      "object": "视锥体剔除",
+      "context": "媒体板Actor支持视锥体剔除功能，可以优化资源使用，特别适用于大型安装如nDisplay",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体板Actor",
+      "predicate": "包含",
+      "object": "默认材质",
+      "context": "媒体板Actor自带多种默认材质，如M_MediaPlate、M_MediaPlateCC等，适用于不同场景需求",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "媒体板Actor",
+      "predicate": "支持",
+      "object": "实时Mip贴图",
+      "context": "媒体板Actor支持实时生成Mip贴图链，可以改善视频帧的显示质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体板Actor",
+      "predicate": "支持",
+      "object": "同步锁定固定速率",
+      "context": "在nDisplay群集设置中，媒体板Actor支持同步锁定固定速率时点，优化图像播放帧精度",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "媒体板Actor",
+      "predicate": "支持",
+      "object": "控制台变量调试",
+      "context": "媒体板Actor支持多种控制台变量，如ImgMedia.FieldOfViewMultiplier等，用于调试和优化媒体播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体板Actor",
+      "predicate": "支持",
+      "object": "拖放创建",
+      "context": "媒体板Actor支持通过拖放媒体文件到视口或内容侧滑菜单来快速创建",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "媒体板Actor",
+      "predicate": "支持",
+      "object": "动态材质创建",
+      "context": "媒体板Actor支持创建动态材质，特别适用于交叉过渡等高级效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:01:46.038Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15671 字符)",
+      "timestamp": "2025-06-15T21:00:48.295Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 26589,
+    "contentLength": 15671,
+    "processingTimeMs": 57746
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_landscape-edit-layers-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_landscape-edit-layers-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "地形编辑层",
+      "predicate": "属于",
+      "object": "虚幻引擎地形系统",
+      "context": "地形编辑层是虚幻引擎中用于非破坏性编辑地形的核心功能模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形编辑层",
+      "predicate": "支持",
+      "object": "非破坏性编辑",
+      "context": "该功能允许开发者在不破坏原始地形数据的情况下进行多层编辑",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "地形编辑层",
+      "predicate": "包含",
+      "object": "基础层",
+      "context": "每个地形编辑层系统都包含一个默认的基础层作为编辑起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形编辑层",
+      "predicate": "支持",
+      "object": "样条线层",
+      "context": "可以创建专门用于样条线编辑的独立层，实现非破坏性样条编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形编辑层",
+      "predicate": "依赖",
+      "object": "管理标签页",
+      "context": "需要在管理标签页中启用编辑层功能才能使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "层管理",
+      "predicate": "包含",
+      "object": "锁定/解锁功能",
+      "context": "层管理包含锁定功能以防止意外编辑",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "层管理",
+      "predicate": "包含",
+      "object": "隐藏/显示功能",
+      "context": "可以隐藏特定层以简化编辑视图",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "层管理",
+      "predicate": "包含",
+      "object": "层贡献高亮",
+      "context": "可通过高亮显示来查看特定层对地形的贡献",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "层编辑",
+      "predicate": "包含",
+      "object": "层排序",
+      "context": "可以通过拖放改变层的叠加顺序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "层编辑",
+      "predicate": "包含",
+      "object": "透明度调整",
+      "context": "可以调整每层的透明度来控制混合效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "层编辑",
+      "predicate": "包含",
+      "object": "擦除工具",
+      "context": "提供擦除工具来恢复层到默认高度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "非破坏性样条线",
+      "predicate": "基于",
+      "object": "地形编辑层",
+      "context": "样条线功能依赖于地形编辑层系统实现非破坏性编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形编辑层",
+      "predicate": "关联",
+      "object": "地形蓝图笔刷",
+      "context": "文档提到地形编辑层可与蓝图笔刷功能配合使用",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "基础层",
+      "predicate": "作为",
+      "object": "编辑起点",
+      "context": "基础层是所有地形编辑的基础参考层",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "层透明度",
+      "predicate": "影响",
+      "object": "高度图混合",
+      "context": "透明度值直接影响高度图的混合效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "层透明度",
+      "predicate": "影响",
+      "object": "绘制层混合",
+      "context": "独立的透明度值控制绘制层的混合效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:40:42.697Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9583,
+    "contentLength": 6695,
+    "processingTimeMs": 51039
+  }
+}

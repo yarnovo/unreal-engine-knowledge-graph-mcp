@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_task-graph-insights-in-unreal-engine-5",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_task-graph-insights-in-unreal-engine-5.md",
+  "triples": [
+    {
+      "subject": "Task Graph Insights",
+      "predicate": "用于",
+      "object": "CPU任务追踪",
+      "context": "Task Graph Insights是用于分析和追踪CPU任务的工具，帮助开发者理解任务执行情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CPU任务追踪",
+      "predicate": "依赖",
+      "object": "Unreal Insights",
+      "context": "CPU任务追踪需要通过Unreal Insights工具来查看和分析追踪数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "包含",
+      "object": "时序视图",
+      "context": "Unreal Insights提供时序视图功能，用于可视化任务执行时间线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时序视图",
+      "predicate": "显示",
+      "object": "任务关键路径",
+      "context": "时序视图可以显示任务的关键路径，帮助开发者识别性能瓶颈",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "任务",
+      "predicate": "具有",
+      "object": "生命周期阶段",
+      "context": "任务具有创建、启动、计划、开始、结束和完成等多个生命周期阶段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "任务",
+      "predicate": "包含",
+      "object": "嵌套任务",
+      "context": "任务可以包含嵌套的子任务，形成任务层级结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "任务",
+      "predicate": "依赖",
+      "object": "先决条件任务",
+      "context": "任务的执行可能依赖于其他先决条件任务的完成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "任务",
+      "predicate": "影响",
+      "object": "后续任务",
+      "context": "任务的完成会影响后续任务的开始和执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键路径",
+      "predicate": "表示",
+      "object": "最长执行链",
+      "context": "关键路径表示任务图中执行时间最长的任务链，是性能优化的重点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Task Graph Insights",
+      "predicate": "支持",
+      "object": "性能优化",
+      "context": "通过分析任务图和关键路径，Task Graph Insights支持开发者进行性能优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时序视图",
+      "predicate": "提供",
+      "object": "任务依赖性可视化",
+      "context": "时序视图提供任务依赖关系的可视化，帮助理解任务间的执行顺序和关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "任务概览轨道",
+      "predicate": "显示",
+      "object": "任务详细信息",
+      "context": "任务概览轨道可以显示任务的先决条件、嵌套任务和后续任务等详细信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "包含",
+      "object": "任务次要选项卡",
+      "context": "Unreal Insights提供专门的任务次要选项卡，用于查看和分析任务数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "任务次要选项卡",
+      "predicate": "显示",
+      "object": "任务时间戳",
+      "context": "任务次要选项卡显示任务各阶段的时间戳信息，帮助分析任务执行时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:58:41.636Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7754,
+    "contentLength": 4918,
+    "processingTimeMs": 38899
+  }
+}

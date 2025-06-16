@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_paper-2d-setting-up-an-animation-state-machine-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_paper-2d-setting-up-an-animation-state-machine-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Paper 2D",
+      "predicate": "包含",
+      "object": "Flipbook动画",
+      "context": "Paper 2D是虚幻引擎中处理2D动画的模块，Flipbook动画是其核心组件之一，用于创建2D角色的帧动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画状态机",
+      "predicate": "基于",
+      "object": "Flipbook动画",
+      "context": "动画状态机通过切换不同的Flipbook动画来实现角色状态变化，这是2D动画控制的核心机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画状态机",
+      "predicate": "使用",
+      "object": "枚举变量",
+      "context": "动画状态机使用枚举变量来定义和管理角色的不同动画状态（如Idle、Run等），这是状态管理的关键技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画状态机",
+      "predicate": "依赖",
+      "object": "角色速度检测",
+      "context": "动画状态机通过检测角色速度（Vector Length）来判断是否处于移动状态，这是状态切换的重要条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UpdateAnimation事件",
+      "predicate": "调用",
+      "object": "Anim State Machine函数",
+      "context": "UpdateAnimation事件通过调用Anim State Machine函数来实现动画状态的更新和切换，这是动画更新的核心流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Anim State Machine函数",
+      "predicate": "输出",
+      "object": "Output Flipbook",
+      "context": "Anim State Machine函数根据当前状态输出对应的Flipbook动画，这是状态到动画的映射过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Paper 2D角色蓝图",
+      "predicate": "包含",
+      "object": "Sprite组件",
+      "context": "Paper 2D角色蓝图通过Sprite组件来显示Flipbook动画，这是2D角色的视觉表现基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Set Flipbook节点",
+      "predicate": "控制",
+      "object": "Sprite组件",
+      "context": "Set Flipbook节点用于动态更新Sprite组件显示的动画，这是动画切换的直接实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MoveForward事件",
+      "predicate": "触发",
+      "object": "UpdateAnimation事件",
+      "context": "角色移动时会触发MoveForward事件，进而调用UpdateAnimation事件来更新动画状态，这是动画与游戏逻辑的关联点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Flipbook动画",
+      "predicate": "对应",
+      "object": "动画状态",
+      "context": "每个Flipbook动画都对应一个特定的动画状态（如Idle、Run），这是状态机设计的基础映射关系",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Paper 2D",
+      "predicate": "需要",
+      "object": "角色蓝图",
+      "context": "使用Paper 2D功能需要先创建角色蓝图来承载2D角色和动画逻辑，这是工作流程的前置条件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画状态机",
+      "predicate": "扩展",
+      "object": "分支条件",
+      "context": "可以通过添加更多分支条件（如攻击、死亡等）来扩展动画状态机的功能，这是系统设计的可扩展性体现",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:19:02.513Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11000,
+    "contentLength": 7544,
+    "processingTimeMs": 40879
+  }
+}

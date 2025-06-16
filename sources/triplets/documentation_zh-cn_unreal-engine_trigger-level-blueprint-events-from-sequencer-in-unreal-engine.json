@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_trigger-level-blueprint-events-from-sequencer-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_trigger-level-blueprint-events-from-sequencer-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "事件轨道",
+      "predicate": "用于",
+      "object": "触发蓝图脚本",
+      "context": "事件轨道主要用于在Sequencer的导演蓝图中触发蓝图脚本，帮助学习者理解事件轨道的基本功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图接口",
+      "predicate": "提供通信",
+      "object": "Sequencer导演蓝图和关卡蓝图",
+      "context": "蓝图接口用于在Sequencer导演蓝图和关卡蓝图之间建立通信，帮助学习者理解如何在不同蓝图间传递事件",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡蓝图",
+      "predicate": "实现",
+      "object": "蓝图接口",
+      "context": "关卡蓝图通过实现蓝图接口来接收Sequencer触发的事件，帮助学习者理解接口的实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导演蓝图",
+      "predicate": "实现",
+      "object": "蓝图接口",
+      "context": "导演蓝图同样需要实现蓝图接口才能与关卡蓝图通信，帮助学习者理解接口的双向实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件关键帧",
+      "predicate": "绑定到",
+      "object": "导演蓝图事件",
+      "context": "事件关键帧需要绑定到导演蓝图中的事件才能触发相应逻辑，帮助学习者理解关键帧与事件的关联",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "包含",
+      "object": "事件轨道",
+      "context": "Sequencer中可以添加事件轨道来触发事件，帮助学习者理解Sequencer的组成结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara系统",
+      "predicate": "可被触发",
+      "object": "关卡蓝图事件",
+      "context": "文档示例中关卡蓝图事件用于触发Niagara系统，帮助学习者理解事件的实际应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "关卡序列",
+      "predicate": "前置条件",
+      "object": "创建事件轨道",
+      "context": "需要先打开关卡序列才能创建事件轨道，帮助学习者理解操作流程的先后顺序",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "蓝图接口函数",
+      "predicate": "需要匹配",
+      "object": "事件名称",
+      "context": "蓝图接口函数名称必须与事件名称匹配才能正确触发，帮助学习者理解接口调用的关键细节",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件轨道设置",
+      "predicate": "需要",
+      "object": "目标绑定",
+      "context": "事件轨道关键帧需要正确绑定目标才能触发关卡蓝图事件，帮助学习者理解完整的触发机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:04:05.029Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8768,
+    "contentLength": 6250,
+    "processingTimeMs": 31239
+  }
+}

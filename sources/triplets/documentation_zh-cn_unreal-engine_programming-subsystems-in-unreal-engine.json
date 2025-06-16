@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_programming-subsystems-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_programming-subsystems-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎子系统",
+      "predicate": "继承自",
+      "object": "UEngineSubsystem类",
+      "context": "引擎子系统是继承自UEngineSubsystem类的，了解这一点有助于理解引擎子系统的特性和生命周期管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎子系统",
+      "predicate": "继承自",
+      "object": "UEditorSubsystem类",
+      "context": "编辑器子系统是继承自UEditorSubsystem类的，这对于理解编辑器子系统的使用场景和生命周期管理非常重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎子系统",
+      "predicate": "继承自",
+      "object": "UGameInstanceSubsystem类",
+      "context": "游戏实例子系统继承自UGameInstanceSubsystem类，这有助于理解其在游戏实例中的生命周期和作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎子系统",
+      "predicate": "继承自",
+      "object": "ULocalPlayerSubsystem类",
+      "context": "本地玩家子系统继承自ULocalPlayerSubsystem类，这对于理解其在本地玩家上下文中的使用非常重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎子系统",
+      "predicate": "支持",
+      "object": "蓝图访问",
+      "context": "子系统自动公开到蓝图，使得开发者可以通过蓝图轻松访问子系统的功能，这对于非程序员开发者特别有用",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎子系统",
+      "predicate": "支持",
+      "object": "Python访问",
+      "context": "子系统可以通过Python脚本访问，这对于编写编辑器脚本或测试代码非常有用，尽管Python功能目前是实验性的",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "引擎子系统",
+      "predicate": "通过",
+      "object": "GEngine访问",
+      "context": "引擎子系统可以通过GEngine全局对象访问，了解这一点有助于在实际开发中正确使用引擎子系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器子系统",
+      "predicate": "通过",
+      "object": "GEditor访问",
+      "context": "编辑器子系统可以通过GEditor全局对象访问，这对于编辑器扩展开发非常重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GameInstance子系统",
+      "predicate": "通过",
+      "object": "UGameInstance访问",
+      "context": "GameInstance子系统可以通过UGameInstance对象访问，了解这一点有助于在游戏实例中正确使用子系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LocalPlayer子系统",
+      "predicate": "通过",
+      "object": "ULocalPlayer访问",
+      "context": "LocalPlayer子系统可以通过ULocalPlayer对象访问，这对于处理本地玩家相关的功能非常重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎子系统",
+      "predicate": "提供",
+      "object": "模块化和一致性",
+      "context": "子系统在代码库中提供模块化和一致性，这对于大型项目的开发和维护非常重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻引擎子系统",
+      "predicate": "避免",
+      "object": "覆盖引擎类",
+      "context": "使用子系统可以避免覆盖引擎类，这减少了代码的复杂性和潜在的冲突",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻引擎子系统",
+      "predicate": "适用于",
+      "object": "插件开发",
+      "context": "子系统在创建插件时尤为实用，因为它们不需要复杂的代码说明即可工作，简化了插件的集成和使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMyGamesStatsSubsystem",
+      "predicate": "实现",
+      "object": "统计数据系统",
+      "context": "UMyGamesStatsSubsystem是一个实现统计数据系统的子系统示例，展示了如何利用子系统来扩展游戏功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子系统",
+      "predicate": "生命周期管理",
+      "object": "Initialize和Deinitialize",
+      "context": "子系统的生命周期包括Initialize和Deinitialize方法，了解这些方法有助于正确管理子系统的初始化和清理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:29:27.457Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7960,
+    "contentLength": 5490,
+    "processingTimeMs": 49834
+  }
+}

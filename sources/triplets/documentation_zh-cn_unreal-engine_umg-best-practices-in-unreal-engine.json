@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_umg-best-practices-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_umg-best-practices-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "UMG",
+      "predicate": "用于",
+      "object": "创建UI元素",
+      "context": "UMG是虚幻引擎中用于创建用户界面的主要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性绑定",
+      "predicate": "适用于",
+      "object": "简单UI画面",
+      "context": "当UI包含少量变化频率较高的变量时，属性绑定是更高效的更新方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基于事件的逻辑",
+      "predicate": "适用于",
+      "object": "复杂UI画面",
+      "context": "当多个属性需要在特定时间变更时，事件驱动方式比属性绑定更高效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "目标分辨率",
+      "predicate": "影响",
+      "object": "UMG控件设计",
+      "context": "在UMG中创建控件时需要基于目标分辨率进行设计，以确保比例一致性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DPI缩放",
+      "predicate": "影响",
+      "object": "UI元素比例",
+      "context": "保持DPI缩放为1.0有助于确保UI元素在不同屏幕尺寸下保持正确比例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理填充量",
+      "predicate": "影响",
+      "object": "UI缩放效果",
+      "context": "减少纹理内置填充量有助于在UI缩放时保持正确的元素比例",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Border模式",
+      "predicate": "支持",
+      "object": "纹理平铺",
+      "context": "将纹理Draw As选项设为Border模式可以支持纹理平铺，避免拉伸",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Auto尺寸模式",
+      "predicate": "适用于",
+      "object": "固定大小控件",
+      "context": "Auto模式适合需要特定空间量的控件，让控件仅占用必要空间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Fill尺寸模式",
+      "predicate": "适用于",
+      "object": "自适应控件",
+      "context": "Fill模式适合需要填充可用空间的控件，如主菜单按钮区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染变形",
+      "predicate": "适用于",
+      "object": "临时动画效果",
+      "context": "渲染变形适合用于临时动画效果，但不适合永久性布局调整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缩放框",
+      "predicate": "适用于",
+      "object": "永久性布局缩放",
+      "context": "相比渲染变形，缩放框更适合处理永久性的布局缩放需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "用户控件",
+      "predicate": "支持",
+      "object": "UI元素复用",
+      "context": "将常用UI元素创建为用户控件可以提高开发效率，便于复用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "无效化方框",
+      "predicate": "优化",
+      "object": "UI性能",
+      "context": "使用无效化方框可以缓存不常变化的控件，提高UI性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件驱动UI",
+      "predicate": "优于",
+      "object": "属性绑定",
+      "context": "对于复杂UI，事件驱动方式比属性绑定或Tick事件更高效",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "纹理",
+      "predicate": "优于",
+      "object": "材质",
+      "context": "在UI中使用纹理通常比使用材质更高效",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "控件反射器",
+      "predicate": "用于",
+      "object": "UI调试",
+      "context": "控件反射器工具(Ctrl+Shift+W)可用于获取UI控件的调试信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "右键菜单",
+      "predicate": "支持",
+      "object": "快速控件操作",
+      "context": "在Designer标签中使用右键菜单可以快速包裹或替换控件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Ctrl拖动",
+      "predicate": "支持",
+      "object": "锚点调整",
+      "context": "按住Ctrl拖动可以同时调整控件和锚点位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预览背景",
+      "predicate": "辅助",
+      "object": "UI设计定位",
+      "context": "设置预览背景有助于准确定位UI控件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:05:28.668Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11266,
+    "contentLength": 6966,
+    "processingTimeMs": 63124
+  }
+}

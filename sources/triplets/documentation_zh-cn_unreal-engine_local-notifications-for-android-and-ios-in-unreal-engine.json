@@ -1,0 +1,163 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_local-notifications-for-android-and-ios-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_local-notifications-for-android-and-ios-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "本地通知",
+      "predicate": "用于",
+      "object": "移动应用程序",
+      "context": "本地通知用于在移动应用程序外部显示消息，告知用户更改或更新",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "本地通知",
+      "predicate": "支持",
+      "object": "Android和iOS",
+      "context": "本地通知功能支持Android和iOS平台，但实现方式略有不同",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "本地通知",
+      "predicate": "实现",
+      "object": "蓝图节点",
+      "context": "本地通知功能通过特定的蓝图节点实现，如Schedule Local Notifications from Now",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图项目",
+      "predicate": "用于",
+      "object": "本地通知设置",
+      "context": "创建蓝图项目是设置本地通知的第一步，需要选择移动平台模板",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡蓝图",
+      "predicate": "包含",
+      "object": "本地通知逻辑",
+      "context": "本地通知的设置逻辑通常放置在关卡蓝图中，但也可以放在项目其他合理位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Register for Remote Notifications",
+      "predicate": "需要",
+      "object": "Event Begin Play",
+      "context": "Register for Remote Notifications节点需要在项目首次加载时调用，通常连接Event Begin Play节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Launch Notification",
+      "predicate": "连接",
+      "object": "Branch节点",
+      "context": "Get Launch Notification节点输出连接到Branch节点，用于处理用户点击通知时的交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Schedule Local Notifications from Now",
+      "predicate": "使用",
+      "object": "文本变量",
+      "context": "Schedule Local Notifications from Now节点使用标题、正文和操作文本变量来设置通知内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Delay节点",
+      "predicate": "前置",
+      "object": "Schedule Local Notifications from Now",
+      "context": "Delay节点的Completed输出连接到Schedule Local Notifications from Now，确保通知在适当时间触发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS本地通知",
+      "predicate": "需要",
+      "object": "源代码版本",
+      "context": "iOS项目的本地通知功能目前只能通过源代码版本的虚幻引擎实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C++项目",
+      "predicate": "支持",
+      "object": "Enable Remote Notifications Support",
+      "context": "在C++项目中可以启用Enable Remote Notifications Support选项，而蓝图项目中该选项不可用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Activation Event",
+      "predicate": "关联",
+      "object": "特定通知",
+      "context": "Activation Event输入允许关联特定字符串值，用于在满足条件时调用不同通知",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "本地通知",
+      "predicate": "区别于",
+      "object": "远程通知",
+      "context": "文档明确说明本地通知系统不适用于通过远程服务器发送的通知",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动平台",
+      "predicate": "影响",
+      "object": "通知实现",
+      "context": "Android和iOS平台在本地通知的实现上有所不同，需要分别考虑",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "文本变量",
+      "predicate": "组成",
+      "object": "通知内容",
+      "context": "标题、正文和操作文本变量共同组成了本地通知显示的内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Print String节点",
+      "predicate": "用于",
+      "object": "调试通知",
+      "context": "Print String节点用于调试目的，确保Activation Event正确设置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "包含",
+      "object": "通知配置",
+      "context": "项目设置菜单中包含与通知相关的配置选项，如Enable Remote Notifications Support",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "本地通知",
+      "predicate": "属于",
+      "object": "Beta功能",
+      "context": "文档指出本地通知目前是Beta功能，在产品发布中需要谨慎使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:47:00.092Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15936 字符)",
+      "timestamp": "2025-06-15T19:45:51.848Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 21542,
+    "contentLength": 15936,
+    "processingTimeMs": 68253
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-ad-mob-for-in-game-ads-on-android-with-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-ad-mob-for-in-game-ads-on-android-with-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "AdMob",
+      "context": "虚幻引擎支持集成AdMob广告系统，帮助开发者在安卓项目中实现游戏内置广告功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AdMob",
+      "predicate": "依赖",
+      "object": "Google Play服务",
+      "context": "AdMob广告系统需要依赖Google Play服务才能正常运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Google Play服务",
+      "predicate": "需要配置",
+      "object": "Games App ID",
+      "context": "配置Google Play服务需要提供游戏的App ID",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Google Play服务",
+      "predicate": "需要配置",
+      "object": "Ad Mob Ad Unit Ids",
+      "context": "配置Google Play服务需要为每个广告单元提供Ad Mob Ad Unit Ids",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Google Play服务",
+      "predicate": "需要配置",
+      "object": "Google Play License Key",
+      "context": "配置Google Play服务需要提供Google Play授权码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C++项目",
+      "predicate": "需要添加",
+      "object": "OnlineSubsystemGooglePlay模块",
+      "context": "C++项目需要添加OnlineSubsystemGooglePlay模块以支持Google Play服务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C++项目",
+      "predicate": "需要添加",
+      "object": "AndroidAdvertising模块",
+      "context": "C++项目需要添加AndroidAdvertising模块以支持广告功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Show Ad Banner函数",
+      "predicate": "用于",
+      "object": "展示广告横幅",
+      "context": "Show Ad Banner函数用于在游戏中显示广告横幅",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Hide Ad Banner函数",
+      "predicate": "用于",
+      "object": "隐藏广告横幅",
+      "context": "Hide Ad Banner函数用于隐藏游戏中的广告横幅",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "实现",
+      "object": "广告展示逻辑",
+      "context": "开发者可以使用蓝图实现广告展示和隐藏的逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Unreal Match 3示例游戏",
+      "predicate": "演示",
+      "object": "广告集成",
+      "context": "Unreal Match 3示例游戏展示了如何在游戏中使用广告功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "安卓项目",
+      "predicate": "需要",
+      "object": "com.android.vending.BILLING权限",
+      "context": "安卓项目需要添加com.android.vending.BILLING权限以支持广告功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Project Settings",
+      "predicate": "包含",
+      "object": "Platforms:Android配置",
+      "context": "Project Settings中包含Platforms:Android配置选项，用于设置安卓相关功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Platforms:Android配置",
+      "predicate": "包含",
+      "object": "Google Play服务设置",
+      "context": "Platforms:Android配置中包含Google Play服务设置选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:14:06.757Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5929,
+    "contentLength": 4845,
+    "processingTimeMs": 37569
+  }
+}

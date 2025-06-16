@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_directional-lights-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_directional-lights-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "定向光源",
+      "predicate": "模拟",
+      "object": "太阳光",
+      "context": "定向光源通过平行阴影模拟太阳光的效果，帮助学习者理解如何利用定向光源创建自然光照效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定向光源",
+      "predicate": "包含",
+      "object": "移动性设置",
+      "context": "定向光源的移动性设置（静态、固定、可移动）决定了光源在游戏中的行为，帮助学习者理解不同设置对性能和灵活性的影响。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态光源",
+      "predicate": "用于",
+      "object": "已烘焙的光照",
+      "context": "静态光源适用于已烘焙的光照场景，帮助学习者理解静态光源在预计算光照中的应用。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "固定光源",
+      "predicate": "依赖",
+      "object": "Lightmass",
+      "context": "固定光源通过Lightmass烘焙静态几何体的投影和反射光照，帮助学习者理解Lightmass在光照烘焙中的作用。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可移动光源",
+      "predicate": "支持",
+      "object": "动态投影",
+      "context": "可移动光源支持完全动态投影，帮助学习者理解动态光源在游戏中的灵活性和性能开销。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定向光源",
+      "predicate": "包含",
+      "object": "阴影视锥体",
+      "context": "阴影视锥体展示了定向光源的平行光线，帮助学习者理解光源的阴影投射机制。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定向光源",
+      "predicate": "支持",
+      "object": "天空大气",
+      "context": "定向光源与天空大气交互生成可见的太阳圆盘，帮助学习者理解如何创建逼真的天空效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定向光源",
+      "predicate": "支持",
+      "object": "体积云",
+      "context": "定向光源与体积云交互生成云阴影和散射效果，帮助学习者理解如何实现动态云层光照。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源函数",
+      "predicate": "应用于",
+      "object": "定向光源",
+      "context": "光源函数材质可以应用于定向光源，帮助学习者理解如何通过材质自定义光源效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "级联阴影贴图",
+      "predicate": "用于",
+      "object": "动态阴影",
+      "context": "级联阴影贴图用于优化动态阴影的渲染，帮助学习者理解阴影分级管理的技术。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定向光源",
+      "predicate": "包含",
+      "object": "光源属性",
+      "context": "定向光源的光源属性（如强度、颜色、角度等）决定了光源的基本行为，帮助学习者掌握光源的核心参数。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定向光源",
+      "predicate": "包含",
+      "object": "光束属性",
+      "context": "光束属性（如遮挡、泛光等）控制光源与雾气和大气交互的效果，帮助学习者理解复杂的光照现象。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定向光源",
+      "predicate": "包含",
+      "object": "Lightmass属性",
+      "context": "Lightmass属性（如光源角度、间接光照饱和度等）影响光照烘焙的质量，帮助学习者优化预计算光照。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定向光源",
+      "predicate": "包含",
+      "object": "级联阴影贴图属性",
+      "context": "级联阴影贴图属性（如动态阴影距离、级联数等）控制阴影的分级管理，帮助学习者优化阴影渲染性能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定向光源",
+      "predicate": "包含",
+      "object": "大气和云属性",
+      "context": "大气和云属性（如大气太阳光、云阴影强度等）控制光源与天空效果的交互，帮助学习者创建逼真的环境光照。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定向光源",
+      "predicate": "支持",
+      "object": "光线追踪阴影",
+      "context": "定向光源支持光线追踪阴影，帮助学习者理解如何利用光线追踪技术提升阴影质量。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定向光源",
+      "predicate": "影响",
+      "object": "光线追踪全局光照",
+      "context": "定向光源可以影响光线追踪全局光照，帮助学习者理解全局光照系统中光源的作用。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定向光源",
+      "predicate": "影响",
+      "object": "光线追踪反射",
+      "context": "定向光源可以影响光线追踪反射，帮助学习者理解光源在反射效果中的贡献。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定向光源",
+      "predicate": "控制",
+      "object": "体积散射强度",
+      "context": "定向光源的体积散射强度属性控制光源在体积雾中的散射效果，帮助学习者实现大气光照效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定向光源",
+      "predicate": "控制",
+      "object": "阴影分辨率比例",
+      "context": "阴影分辨率比例属性控制阴影贴图的分辨率，帮助学习者平衡阴影质量和性能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:53:29.766Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8346 字符)",
+      "timestamp": "2025-06-15T18:52:15.357Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14762,
+    "contentLength": 8346,
+    "processingTimeMs": 74411
+  }
+}

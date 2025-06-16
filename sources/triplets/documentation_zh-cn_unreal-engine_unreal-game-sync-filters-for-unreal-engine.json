@@ -1,0 +1,157 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-game-sync-filters-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-game-sync-filters-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "同步过滤器",
+      "predicate": "用于",
+      "object": "UnrealGameSync (UGS)",
+      "context": "同步过滤器是UGS的核心功能之一，用于自定义更新客户端工作区的内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS",
+      "predicate": "包含",
+      "object": "同步过滤器UI",
+      "context": "UGS提供用户界面来配置和管理同步过滤器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "同步过滤器UI",
+      "predicate": "包含",
+      "object": "全局工作区选项卡",
+      "context": "全局工作区选项卡是同步过滤器UI的重要组成部分，用于设置全局同步规则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "同步过滤器UI",
+      "predicate": "包含",
+      "object": "当前工作区选项卡",
+      "context": "当前工作区选项卡允许为特定工作区设置覆盖全局的同步规则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "同步过滤器UI",
+      "predicate": "包含",
+      "object": "同步类别白名单",
+      "context": "同步类别白名单是同步过滤器UI的核心功能，用于选择要同步的平台和内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "同步过滤器UI",
+      "predicate": "包含",
+      "object": "自定义同步过滤器",
+      "context": "自定义同步过滤器允许开发人员使用特定语法创建更精细的同步规则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "同步过滤器",
+      "predicate": "基于",
+      "object": "Perforce样式通配符",
+      "context": "同步过滤器的自定义语法基于Perforce样式的通配符系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealGameSync.ini",
+      "predicate": "配置",
+      "object": "同步过滤器",
+      "context": "UnrealGameSync.ini文件用于存储和配置同步过滤器的设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "同步步骤",
+      "predicate": "执行于",
+      "object": "同步操作",
+      "context": "同步步骤是在同步操作完成后运行的额外处理步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编译步骤",
+      "predicate": "包含",
+      "object": "UniqueId",
+      "context": "UniqueId是编译步骤的必要属性，用于唯一标识每个步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编译步骤",
+      "predicate": "包含",
+      "object": "OrderIndex",
+      "context": "OrderIndex决定了编译步骤的执行顺序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编译步骤",
+      "predicate": "分为",
+      "object": "类型",
+      "context": "编译步骤分为编译、烘培和其他三种类型，每种类型有不同的属性和用途",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "安全删除文件夹",
+      "predicate": "用于",
+      "object": "清理工作区",
+      "context": "安全删除文件夹配置指定了哪些文件夹可以在清理工作区操作中被安全删除",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "压缩的二进制文件同步过滤器",
+      "predicate": "用于",
+      "object": "预编译的二进制文件",
+      "context": "压缩的二进制文件同步过滤器专门用于管理预编译二进制文件的同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "同步过滤器",
+      "predicate": "支持",
+      "object": "自定义语法",
+      "context": "同步过滤器支持开发人员使用自定义语法创建精细的同步规则",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全局工作区设置",
+      "predicate": "被覆盖于",
+      "object": "当前工作区设置",
+      "context": "当前工作区的设置会覆盖全局工作区的设置，这是同步过滤器的重要工作方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "同步类别白名单",
+      "predicate": "控制",
+      "object": "平台文件同步",
+      "context": "通过同步类别白名单可以选择性地同步特定平台的文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合并的过滤器",
+      "predicate": "显示",
+      "object": "过滤器摘要",
+      "context": "合并的过滤器功能可以显示所有过滤器的汇总信息，便于开发者检查",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:10:42.764Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8777,
+    "contentLength": 5835,
+    "processingTimeMs": 51516
+  }
+}

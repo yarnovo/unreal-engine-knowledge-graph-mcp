@@ -1,0 +1,101 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_user-interface-breakdown-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_user-interface-breakdown-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "蓝图编辑器",
+      "predicate": "包含",
+      "object": "蓝图类UI",
+      "context": "蓝图编辑器在处理类蓝图时包含特定的UI元素，帮助学习者理解不同蓝图类型的界面差异",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图编辑器",
+      "predicate": "包含",
+      "object": "仅包含数据的蓝图UI",
+      "context": "当处理仅修改父类默认值的蓝图时，编辑器会显示特定的界面元素，这对理解数据驱动开发很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图编辑器",
+      "predicate": "包含",
+      "object": "蓝图接口UI",
+      "context": "使用蓝图接口时会看到特定的编辑器界面，这对学习接口实现和多态性有帮助",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图编辑器",
+      "predicate": "包含",
+      "object": "关卡蓝图UI",
+      "context": "关卡蓝图有专门的编辑器界面，这对理解关卡逻辑和事件驱动编程很关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图编辑器",
+      "predicate": "包含",
+      "object": "宏库UI",
+      "context": "宏库有特定的编辑器界面，帮助学习者理解代码复用和模块化设计",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图类",
+      "predicate": "区别于",
+      "object": "仅包含数据的蓝图",
+      "context": "理解这两种蓝图的区别有助于选择正确的开发方式，前者包含逻辑后者只修改默认值",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "蓝图接口",
+      "predicate": "实现",
+      "object": "多态性",
+      "context": "蓝图接口是实现多态性的重要方式，这对学习面向对象编程概念很关键",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "关卡蓝图",
+      "predicate": "用于",
+      "object": "关卡逻辑",
+      "context": "关卡蓝图专门用于处理关卡级别的逻辑和事件，是学习游戏流程控制的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "宏库",
+      "predicate": "用于",
+      "object": "代码复用",
+      "context": "宏库允许创建可重用的蓝图节点，这对学习模块化开发和效率提升很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "包含",
+      "object": "蓝图系统",
+      "context": "蓝图是虚幻引擎的核心可视化脚本系统，理解其架构对引擎学习至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图系统",
+      "predicate": "包含",
+      "object": "多种蓝图类型",
+      "context": "了解不同类型的蓝图(类/接口/关卡/宏库)及其适用场景是掌握蓝图系统的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:13:06.007Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3151,
+    "contentLength": 2481,
+    "processingTimeMs": 32520
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_forward-shading-renderer-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_forward-shading-renderer-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "VR项目",
+      "predicate": "可以是",
+      "object": "蓝图或C++项目",
+      "context": "VR项目可以使用蓝图或C++进行开发，这为开发者提供了灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR模板",
+      "predicate": "提供",
+      "object": "初始内容",
+      "context": "VR模板为开发者提供了在虚幻引擎5中开发VR项目所需的初始内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "前向着色",
+      "predicate": "用于",
+      "object": "VR项目",
+      "context": "前向着色在VR项目中启用，有助于改善应用性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多重采样抗锯齿",
+      "predicate": "用于",
+      "object": "VR项目",
+      "context": "多重采样抗锯齿（MSAA）被推荐用于VR项目，以提高图像质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "实例化立体",
+      "predicate": "用于",
+      "object": "VR项目",
+      "context": "实例化立体技术可以提升VR项目的性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动多视图",
+      "predicate": "用于",
+      "object": "移动设备VR体验",
+      "context": "移动多视图技术专门用于优化移动设备上的VR体验",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "vr.PixelDensity",
+      "predicate": "影响",
+      "object": "VR图像质量",
+      "context": "vr.PixelDensity控制VR图像的分辨率，影响清晰度和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.SeparateTranslucency",
+      "predicate": "影响",
+      "object": "VR性能",
+      "context": "禁用r.SeparateTranslucency可以提升移动VR体验的性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR帧率优化",
+      "predicate": "需要",
+      "object": "禁用平滑帧率",
+      "context": "为了优化VR帧率，需要禁用平滑帧率等一般帧率设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR世界场景缩放",
+      "predicate": "影响",
+      "object": "用户体验",
+      "context": "正确的世界场景缩放对保障VR用户体验至关重要，错误的缩放可能导致晕眩",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR与模拟晕眩症",
+      "predicate": "关联",
+      "object": "帧率",
+      "context": "保持高帧率是减少VR中晕眩症状的重要因素",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR摄像机设置",
+      "predicate": "取决于",
+      "object": "坐式或站式体验",
+      "context": "VR摄像机的设置需要根据体验是坐式还是站式进行调整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态光源",
+      "predicate": "推荐用于",
+      "object": "VR项目",
+      "context": "静态光源和光照贴图是VR项目中渲染开销最低的方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DitherTemporalAA",
+      "predicate": "解决",
+      "object": "VR透明度问题",
+      "context": "DitherTemporalAA材质函数可以模拟透明效果，同时避免VR中的性能问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视差贴图",
+      "predicate": "优于",
+      "object": "法线贴图",
+      "context": "在VR中，视差贴图比法线贴图能更好地显示深度信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕空间反射",
+      "predicate": "可能产生",
+      "object": "反射匹配问题",
+      "context": "在VR中，屏幕空间反射可能导致反射与真实世界不匹配",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "反射探头",
+      "predicate": "替代",
+      "object": "屏幕空间反射",
+      "context": "反射探头可以作为屏幕空间反射的替代方案，在VR中性能更好",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光线追踪",
+      "predicate": "不适用于",
+      "object": "VR应用",
+      "context": "当前光线追踪技术无法在VR应用中保持所需的分辨率和帧率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:07:52.165Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8491 字符)",
+      "timestamp": "2025-06-15T19:06:57.877Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14913,
+    "contentLength": 8491,
+    "processingTimeMs": 54292
+  }
+}

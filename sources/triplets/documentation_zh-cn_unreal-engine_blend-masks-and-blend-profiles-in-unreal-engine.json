@@ -1,0 +1,131 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_blend-masks-and-blend-profiles-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_blend-masks-and-blend-profiles-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "混合遮罩",
+      "predicate": "用于",
+      "object": "骨骼分层混合",
+      "context": "混合遮罩用于定义骨骼在动画混合中的权重影响，帮助实现特定骨骼的动画播放控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合遮罩",
+      "predicate": "创建于",
+      "object": "骨骼树",
+      "context": "混合遮罩在骨骼树的选项中创建，便于在骨骼网格体上管理和应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合遮罩",
+      "predicate": "应用于",
+      "object": "动画蓝图",
+      "context": "混合遮罩通过动画蓝图中的分层混合节点应用，实现动画的局部控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合描述",
+      "predicate": "控制",
+      "object": "骨骼混合速度",
+      "context": "混合描述用于定义不同骨骼的混合速度，优化动画过渡效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合描述",
+      "predicate": "分为",
+      "object": "时间混合描述和权重混合描述",
+      "context": "混合描述分为两种类型，分别基于时间和权重控制混合速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间混合描述",
+      "predicate": "使用",
+      "object": "归一化因数",
+      "context": "时间混合描述使用0-1的归一化因数调整混合速度，数值越小混合越快",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "权重混合描述",
+      "predicate": "使用",
+      "object": "权重因子",
+      "context": "权重混合描述使用相对权重因子，数值越大混合速度越快",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合描述",
+      "predicate": "应用于",
+      "object": "混合姿势节点",
+      "context": "混合描述可以应用于动画蓝图中的混合姿势节点，实现骨骼的差异化混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合描述",
+      "predicate": "应用于",
+      "object": "状态机过渡",
+      "context": "混合描述可用于状态机过渡规则，优化动画状态切换时的混合效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合描述",
+      "predicate": "应用于",
+      "object": "动画蒙太奇",
+      "context": "混合描述可在动画蒙太奇中设置混入和混出效果，提升动画过渡质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合遮罩",
+      "predicate": "替代",
+      "object": "分支过滤混合模式",
+      "context": "混合遮罩提供了比分支过滤更灵活的骨骼动画控制方式，便于复用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "包含",
+      "object": "骨骼树",
+      "context": "骨骼网格体包含骨骼树结构，用于管理和编辑骨骼相关的遮罩和描述",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "依赖",
+      "object": "骨骼网格体",
+      "context": "动画蓝图需要骨骼网格体作为基础，实现动画逻辑和控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画序列",
+      "predicate": "用于",
+      "object": "动画蓝图",
+      "context": "动画序列是动画蓝图处理的基础动画数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:12:46.283Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8953 字符)",
+      "timestamp": "2025-06-15T18:11:57.312Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13189,
+    "contentLength": 8953,
+    "processingTimeMs": 48977
+  }
+}

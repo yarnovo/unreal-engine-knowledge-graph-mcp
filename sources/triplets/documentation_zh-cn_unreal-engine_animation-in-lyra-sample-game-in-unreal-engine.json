@@ -1,0 +1,155 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-in-lyra-sample-game-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-in-lyra-sample-game-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Lyra示例游戏",
+      "predicate": "使用",
+      "object": "动画蓝图",
+      "context": "Lyra的角色动画几乎完全利用虚幻引擎5的动画蓝图系统创建，这是学习动画实现的基础",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "AnimBP_Mannequin_Base",
+      "predicate": "包含",
+      "object": "AnimGraph",
+      "context": "作为基础动画蓝图，其AnimGraph窗口展示了影响角色最终姿势的动画节点架构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AnimBP_Mannequin_Base",
+      "predicate": "支持",
+      "object": "游戏技能系统",
+      "context": "该蓝图设计支持Lyra游戏中的武器和游戏技能常用方法，是技能与动画联动的关键",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "多线程动画",
+      "predicate": "替代",
+      "object": "事件图表",
+      "context": "Lyra使用多线程计算动画值而非事件图表，这是性能优化的核心实践",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画快速路径",
+      "predicate": "依赖",
+      "object": "多线程动画更新",
+      "context": "需在项目设置中启用多线程动画更新功能才能实现线程安全计算",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "动画节点函数",
+      "predicate": "用于",
+      "object": "状态特定逻辑",
+      "context": "通过将逻辑置于特定状态节点函数中（如UpdateIdleState）保持动画逻辑有序性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "状态别名",
+      "predicate": "简化",
+      "object": "过渡逻辑",
+      "context": "JumpSources等状态别名可减少状态机过渡线复杂度，是复杂动画状态管理的解决方案",
+      "direction": "unidirectional",
+      "confidence": 0.75
+    },
+    {
+      "subject": "Layered blend per bone",
+      "predicate": "实现",
+      "object": "上/下身体分层",
+      "context": "该混合节点通过骨骼遮罩实现上半身动作与全身运动的动态混合，是分层动画的核心技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图链接系统",
+      "predicate": "允许",
+      "object": "动态切换子蓝图",
+      "context": "通过链接图层系统可根据武器类型切换不同动画行为，降低资产依赖性",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "ALI_ItemAnimLayers",
+      "predicate": "定义",
+      "object": "动画覆盖点",
+      "context": "该动画层接口指定了可在子蓝图中覆盖的动画位置（如运动状态/瞄准层）",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "ABP_ItemAnimLayersBase",
+      "predicate": "继承",
+      "object": "武器子动画蓝图",
+      "context": "所有武器动画蓝图（如ABP_PistolAnimLayers）都继承此基础蓝图实现特定武器动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "距离匹配",
+      "predicate": "配合",
+      "object": "步幅适配",
+      "context": "两种技术动态调整动画播放速率和步幅长度，共同解决运动匹配问题",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "方向适配",
+      "predicate": "调整",
+      "object": "根骨骼角度",
+      "context": "通过弯曲下半身骨骼匹配移动方向，扩展有限方向动画的适用性",
+      "direction": "unidirectional",
+      "confidence": 0.75
+    },
+    {
+      "subject": "Gameplay标签绑定",
+      "predicate": "响应",
+      "object": "玩家动作事件",
+      "context": "动画蓝图通过Gameplay标签系统响应技能系统触发的事件，实现动画与游戏逻辑的通信",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "AnimBP_Mannequin_Base",
+      "predicate": "基于",
+      "object": "Paragon/Fortnite系统",
+      "context": "其架构灵感来源于Paragon和Fortnite的C++实现，是经过验证的生产方案",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "属性访问",
+      "predicate": "替代",
+      "object": "直接数据访问",
+      "context": "在多线程环境下通过属性访问安全获取数据，避免线程安全问题",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "姿势观察管理器",
+      "predicate": "用于",
+      "object": "运行时调试",
+      "context": "开发者可通过该工具检查特定节点的运行时姿势，快速定位动画问题",
+      "direction": "unidirectional",
+      "confidence": 0.75
+    }
+  ],
+  "timestamp": "2025-06-15T18:01:45.158Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (16746 字符)",
+      "timestamp": "2025-06-15T18:00:44.019Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 23164,
+    "contentLength": 16746,
+    "processingTimeMs": 61150
+  }
+}

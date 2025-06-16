@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_versioning-of-assets-and-packages-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_versioning-of-assets-and-packages-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎版本控制系统",
+      "predicate": "包含",
+      "object": "引擎版本",
+      "context": "引擎版本是虚幻引擎版本控制系统的核心组成部分，用于确保向后兼容性和防止数据丢失",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎版本控制系统",
+      "predicate": "包含",
+      "object": "序列化版本",
+      "context": "序列化版本用于管理自定义序列化和数据转换，是版本控制系统的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎版本控制系统",
+      "predicate": "包含",
+      "object": "构建ID",
+      "context": "构建ID用于标记引擎和模块的兼容性，是版本控制系统的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "引擎版本",
+      "predicate": "包含",
+      "object": "主版本",
+      "context": "主版本是引擎版本的重要组成部分，用于区分主要版本更新",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "引擎版本",
+      "predicate": "包含",
+      "object": "次要版本",
+      "context": "次要版本是引擎版本的重要组成部分，用于区分次要版本更新",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "引擎版本",
+      "predicate": "包含",
+      "object": "补丁版本",
+      "context": "补丁版本是引擎版本的重要组成部分，用于区分补丁更新",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "引擎版本",
+      "predicate": "包含",
+      "object": "更改列表号",
+      "context": "更改列表号是引擎版本的重要组成部分，用于标识具体的更改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "引擎版本",
+      "predicate": "包含",
+      "object": "分支名称",
+      "context": "分支名称是引擎版本的重要组成部分，用于显示编译构建的分支",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FEngineVersion",
+      "predicate": "继承",
+      "object": "FEngineVersionBase",
+      "context": "FEngineVersion类继承自FEngineVersionBase，用于访问引擎版本信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产",
+      "predicate": "包含",
+      "object": "引擎版本",
+      "context": "资产包含保存它们的编辑器的引擎版本信息，用于兼容性检查",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UObject",
+      "predicate": "支持",
+      "object": "自定义序列化",
+      "context": "UObject派生类可以通过覆盖Serialize函数实现自定义序列化，提高性能和兼容性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EUnrealEngineObjectUE5Version",
+      "predicate": "用于",
+      "object": "引擎级别序列化版本控制",
+      "context": "EUnrealEngineObjectUE5Version枚举类型用于引擎级别的自定义序列化版本控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EUnrealEngineObjectLicenseeUE4Version",
+      "predicate": "用于",
+      "object": "被授权者引擎级别序列化版本控制",
+      "context": "EUnrealEngineObjectLicenseeUE4Version枚举类型允许被授权者添加自己的引擎级别版本控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FGuid",
+      "predicate": "用于",
+      "object": "Object级别版本控制",
+      "context": "FGuid结构用于Object级别的版本控制，支持并行开发和分支管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FCustomVersionRegistration",
+      "predicate": "注册",
+      "object": "自定义版本",
+      "context": "FCustomVersionRegistration用于注册新的FGuid自定义版本，便于版本管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FArchive",
+      "predicate": "提供",
+      "object": "版本检查功能",
+      "context": "FArchive类提供UEVer、LicenseeUEVer和CustomVer等函数，用于版本检查",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UpdateLocalVersion",
+      "predicate": "更新",
+      "object": "Build.version文件",
+      "context": "UpdateLocalVersion命令可以自动更新Build.version文件中的版本信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "序列化",
+      "predicate": "依赖",
+      "object": "版本控制",
+      "context": "序列化过程依赖版本控制系统来确保数据兼容性和防止数据丢失",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产兼容性",
+      "predicate": "依赖",
+      "object": "引擎版本检查",
+      "context": "资产兼容性检查依赖引擎版本系统来确保正确加载和使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:28:03.323Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10132 字符)",
+      "timestamp": "2025-06-15T21:27:12.240Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17825,
+    "contentLength": 10132,
+    "processingTimeMs": 51089
+  }
+}

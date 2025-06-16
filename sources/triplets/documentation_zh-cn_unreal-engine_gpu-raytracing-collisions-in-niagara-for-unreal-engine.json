@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_gpu-raytracing-collisions-in-niagara-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_gpu-raytracing-collisions-in-niagara-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "GPU光线追踪碰撞",
+      "predicate": "属于",
+      "object": "碰撞模块",
+      "context": "GPU光线追踪碰撞是碰撞模块中的一个试验性选项，帮助学习者理解该功能在Niagara系统中的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU光线追踪碰撞",
+      "predicate": "替代",
+      "object": "深度缓冲",
+      "context": "GPU光线追踪碰撞提供了比深度缓冲更准确的碰撞检测，帮助学习者理解技术演进",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU光线追踪碰撞",
+      "predicate": "依赖",
+      "object": "DirectX 12",
+      "context": "使用GPU光线追踪碰撞需要将项目设置为DirectX 12，这是重要的前置条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU光线追踪碰撞",
+      "predicate": "依赖",
+      "object": "硬件光线追踪",
+      "context": "GPU必须启用硬件光线追踪才能使用此功能，这是核心依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU光线追踪碰撞",
+      "predicate": "支持",
+      "object": "异步计算",
+      "context": "计算是异步进行的，Niagara碰撞将落后一帧，这是重要的性能特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞模块",
+      "predicate": "包含",
+      "object": "GPU碰撞类型",
+      "context": "GPU碰撞类型是碰撞模块中的可设置选项，帮助学习者定位具体参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU碰撞类型",
+      "predicate": "可设置为",
+      "object": "GPU光线追踪(试验性)",
+      "context": "这是启用该功能的直接设置选项，对实际操作有指导意义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "追踪提供者",
+      "predicate": "默认使用",
+      "object": "项目设置",
+      "context": "理解默认行为有助于学习者进行自定义配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "追踪提供者",
+      "predicate": "可设置为",
+      "object": "硬件光线追踪",
+      "context": "这是手动配置选项，帮助学习者理解高级设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "异步GPU追踪DI",
+      "predicate": "提供",
+      "object": "退却方案",
+      "context": "当光线追踪不可用时可以退而使用全局有向距离场，这是重要的容错机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "退却方案",
+      "predicate": "包含",
+      "object": "全局有向距离场",
+      "context": "理解备选方案有助于处理兼容性问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "控制",
+      "object": "支持硬件光线追踪",
+      "context": "这是启用光线追踪的核心开关，对功能实现至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "控制",
+      "object": "光线追踪的阴影",
+      "context": "相关设置会影响光线追踪功能的完整性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara",
+      "predicate": "使用",
+      "object": "碰撞模块",
+      "context": "理解Niagara系统如何使用碰撞模块是学习粒子效果的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU光线追踪碰撞",
+      "predicate": "优于",
+      "object": "深度缓冲",
+      "context": "在准确性和屏幕外检测方面有明显优势，帮助学习者做出技术选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:15:33.240Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5638,
+    "contentLength": 4024,
+    "processingTimeMs": 49890
+  }
+}

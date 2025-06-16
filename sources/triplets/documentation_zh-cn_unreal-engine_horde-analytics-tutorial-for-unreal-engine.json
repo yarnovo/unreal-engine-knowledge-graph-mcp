@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_horde-analytics-tutorial-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_horde-analytics-tutorial-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Horde",
+      "predicate": "实现",
+      "object": "遥测收集器",
+      "context": "Horde的核心功能是作为遥测收集器，处理虚幻编辑器发送的事件，这是理解Horde功能的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "遥测收集器",
+      "predicate": "接收",
+      "object": "虚幻编辑器事件",
+      "context": "遥测收集器的主要输入来源是虚幻编辑器发送的事件，这是数据流的关键环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "聚合",
+      "object": "指标",
+      "context": "Horde将原始事件数据聚合为离散时间间隔的指标，这是数据分析的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "指标",
+      "predicate": "用于",
+      "object": "Horde操作面板",
+      "context": "聚合后的指标可以通过Horde操作面板可视化，帮助开发者理解数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde操作面板",
+      "predicate": "提供",
+      "object": "团队瓶颈洞察",
+      "context": "操作面板的可视化结果能帮助团队识别开发过程中的瓶颈",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde分析",
+      "predicate": "依赖",
+      "object": "Studio Telemetry插件",
+      "context": "启用Studio Telemetry插件是使用Horde分析功能的先决条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Studio Telemetry插件",
+      "predicate": "配置于",
+      "object": "DefaultEngine.ini",
+      "context": "插件的详细配置需要在DefaultEngine.ini文件中设置，包括服务器地址等关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde分析",
+      "predicate": "使用",
+      "object": "globals.json",
+      "context": "遥测存储和指标的定义需要通过globals.json文件进行配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "globals.json",
+      "predicate": "包含",
+      "object": "默认指标和图表",
+      "context": "Horde安装包中提供了默认的指标和图表配置，可以直接包含使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde服务器",
+      "predicate": "前置条件",
+      "object": "Horde分析",
+      "context": "必须先安装Horde服务器才能使用分析功能，这是系统依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde分析",
+      "predicate": "适用于",
+      "object": "虚幻引擎5.5+项目",
+      "context": "该功能仅支持以虚幻引擎5.5或更高版本为目标的项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "遥测事件",
+      "predicate": "转换为",
+      "object": "指标",
+      "context": "理解原始事件如何被处理为可分析的指标是学习数据分析流程的关键",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "default-metrics.telemetry.json",
+      "predicate": "定义",
+      "object": "标准指标",
+      "context": "该默认文件包含了Horde预定义的标准指标集合",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "default-analytics.dashboard.json",
+      "predicate": "配置",
+      "object": "默认操作面板",
+      "context": "该文件包含了操作面板的默认可视化配置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:19:28.116Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3814,
+    "contentLength": 2998,
+    "processingTimeMs": 49220
+  }
+}

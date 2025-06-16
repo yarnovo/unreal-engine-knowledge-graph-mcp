@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-python-to-create-and-edit-ik-rigs-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-python-to-create-and-edit-ik-rigs-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "IK Rig",
+      "predicate": "包含",
+      "object": "骨骼",
+      "context": "IK Rig由骨骼层级组成，这是其核心组成部分之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK Rig",
+      "predicate": "包含",
+      "object": "目标",
+      "context": "目标是IK Rig的重要组成部分，用于驱动解算器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK Rig",
+      "predicate": "包含",
+      "object": "IK解算器",
+      "context": "解算器是IK Rig的核心组件，负责计算逆运动学解决方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK Rig",
+      "predicate": "基于",
+      "object": "模型-视图-控制器设计模式",
+      "context": "文档明确指出IK Rig系统采用这种设计模式构建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK解算器",
+      "predicate": "控制",
+      "object": "骨骼旋转和定位",
+      "context": "解算器的主要功能是控制骨骼的运动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "目标",
+      "predicate": "驱动",
+      "object": "IK解算器",
+      "context": "目标作为执行器点，与解算器配合使用来修改姿势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK Rig控制器",
+      "predicate": "用于",
+      "object": "编辑IK Rig",
+      "context": "控制器是修改IK Rig的中心对象，提供多种编辑功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "关联",
+      "object": "IK Rig",
+      "context": "IK Rig需要分配骨骼网格体才能正常工作",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python脚本",
+      "predicate": "用于",
+      "object": "自动化IK Rig工作流程",
+      "context": "文档主要介绍如何使用Python脚本控制和自动化IK Rig操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBIK解算器",
+      "predicate": "是",
+      "object": "IK解算器类型",
+      "context": "FBIK是IK Rig支持的一种解算器类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重定向链",
+      "predicate": "用于",
+      "object": "动画重定向",
+      "context": "重定向链专门用于在不同骨骼网格体之间传输运动数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "目标设置",
+      "predicate": "定义",
+      "object": "解算器行为",
+      "context": "目标设置包含特定于解算器的参数，影响解算器如何工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼设置",
+      "predicate": "影响",
+      "object": "骨骼行为",
+      "context": "骨骼设置可以调整特定骨骼在IK解算中的表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK Rig",
+      "predicate": "支持",
+      "object": "多解算器叠加",
+      "context": "可以同时使用多个解算器来组合效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Python脚本",
+      "predicate": "可以",
+      "object": "创建IK Rig资产",
+      "context": "文档提供了使用Python创建新IK Rig资产的具体方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK Rig",
+      "predicate": "适用于",
+      "object": "角色动画",
+      "context": "IK Rig主要用于角色和对象的动画制作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重定向根骨骼",
+      "predicate": "作为",
+      "object": "运动传输基准点",
+      "context": "重定向根骨骼是动画重定向的参考基准",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "IK Rig控制器",
+      "predicate": "提供",
+      "object": "解算器管理功能",
+      "context": "控制器可以添加、删除、启用/禁用解算器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "目标",
+      "predicate": "可以",
+      "object": "连接到多个解算器",
+      "context": "一个目标可以同时驱动多个不同的解算器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK Rig",
+      "predicate": "支持",
+      "object": "骨架无关性",
+      "context": "可以在相似的骨架层级之间共享IK Rig",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:21:45.888Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11646 字符)",
+      "timestamp": "2025-06-15T21:20:54.780Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16390,
+    "contentLength": 11646,
+    "processingTimeMs": 51117
+  }
+}

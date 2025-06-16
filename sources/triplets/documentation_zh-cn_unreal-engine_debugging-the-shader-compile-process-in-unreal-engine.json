@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_debugging-the-shader-compile-process-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_debugging-the-shader-compile-process-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "ShaderCompileWorker",
+      "predicate": "用于",
+      "object": "调试着色器编译",
+      "context": "ShaderCompileWorker是专门用于调试着色器编译过程的工具，帮助开发者理解引擎如何调用平台编译器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ConsoleVariables.ini",
+      "predicate": "包含",
+      "object": "着色器调试控制台变量",
+      "context": "ConsoleVariables.ini配置文件包含多个控制台变量，用于启用着色器调试功能，如r.ShaderDevelopmentMode和r.DumpShaderDebugInfo",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.ShaderDevelopmentMode",
+      "predicate": "启用",
+      "object": "着色器编译详细日志",
+      "context": "启用r.ShaderDevelopmentMode控制台变量可以获取着色器编译的详细日志，帮助开发者诊断编译错误",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.DumpShaderDebugInfo",
+      "predicate": "生成",
+      "object": "中间着色器文件",
+      "context": "启用r.DumpShaderDebugInfo控制台变量会在Saved/ShaderDebugInfo文件夹中生成中间着色器文件，用于后续调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealBuildTool",
+      "predicate": "构建",
+      "object": "ShaderCompileWorker",
+      "context": "UnrealBuildTool(UBT)用于构建ShaderCompileWorker，开发者需要在调试模式下构建以获取调试符号",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试模式",
+      "predicate": "包含",
+      "object": "调试符号",
+      "context": "在调试模式下构建引擎和项目会包含调试符号，这对于调试着色器编译过程至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Common.usf",
+      "predicate": "触发",
+      "object": "着色器重新编译",
+      "context": "修改Engine/Shaders文件夹中的Common.usf文件可以强制重新编译所有着色器，生成调试所需的中间文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质",
+      "predicate": "使用",
+      "object": "着色器",
+      "context": "材质通过着色器实现其视觉效果，调试材质时需要理解其使用的着色器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Saved/ShaderDebugInfo",
+      "predicate": "存储",
+      "object": "转储的着色器文件",
+      "context": "转储的着色器文件存储在Saved/ShaderDebugInfo文件夹中，按平台、材质和顶点工厂等分类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "顶点工厂",
+      "predicate": "对应",
+      "object": "网格体/组件类型",
+      "context": "顶点工厂通常对应于特定的网格体或组件类型，如LocalVF表示本地顶点工厂",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "usf文件",
+      "predicate": "包含",
+      "object": "最终着色器代码",
+      "context": "usf文件包含转至平台编译器的最终着色器代码，是调试的重要资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DirectCompile.txt",
+      "predicate": "提供",
+      "object": "调试命令行",
+      "context": "DirectCompile.txt文件提供了使用ShaderCompileWorker进行调试的命令行，简化调试过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "着色器类型",
+      "predicate": "包括",
+      "object": "vs/ps/gs/hs/ds/cs",
+      "context": "着色器类型包括顶点着色器(vs)、像素着色器(ps)、几何体着色器(gs)、凸包着色器(hs)、域着色器(ds)和计算着色器(cs)",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "D3D11ShaderCompiler.cpp",
+      "predicate": "包含",
+      "object": "CompileD3D11Shader函数",
+      "context": "D3D11ShaderCompiler.cpp文件中的CompileD3D11Shader函数是调试平台编译器调用的关键点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DebugCompileArgs.txt",
+      "predicate": "重复",
+      "object": "原始编译作业",
+      "context": "使用DebugCompileArgs.txt中的命令行参数可以重复运行原始的着色器编译作业，便于复现和调试问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:48:25.086Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10539,
+    "contentLength": 7021,
+    "processingTimeMs": 59685
+  }
+}

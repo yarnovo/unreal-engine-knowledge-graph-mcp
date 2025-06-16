@@ -1,0 +1,243 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_world-settings-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_world-settings-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "World Settings",
+      "predicate": "包含",
+      "object": "Precomputed Visibility",
+      "context": "World Settings面板包含Precomputed Visibility设置组，用于优化渲染性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Settings",
+      "predicate": "包含",
+      "object": "Game Mode",
+      "context": "World Settings面板包含Game Mode设置组，用于定义游戏规则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Settings",
+      "predicate": "包含",
+      "object": "Lightmass",
+      "context": "World Settings面板包含Lightmass设置组，用于配置全局光照",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Settings",
+      "predicate": "包含",
+      "object": "World",
+      "context": "World Settings面板包含World设置组，用于配置游戏世界核心属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Settings",
+      "predicate": "包含",
+      "object": "Physics",
+      "context": "World Settings面板包含Physics设置组，用于配置物理属性如重力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Settings",
+      "predicate": "包含",
+      "object": "Broadphase",
+      "context": "World Settings面板包含Broadphase设置组，用于配置碰撞检测系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Settings",
+      "predicate": "包含",
+      "object": "HLOD System",
+      "context": "World Settings面板包含HLOD System设置组，用于优化远距离渲染性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Settings",
+      "predicate": "包含",
+      "object": "World Partition",
+      "context": "World Settings面板包含World Partition设置组，用于管理大型世界数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Settings",
+      "predicate": "包含",
+      "object": "Navigation",
+      "context": "World Settings面板包含Navigation设置组，用于配置导航网格",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Settings",
+      "predicate": "包含",
+      "object": "VR",
+      "context": "World Settings面板包含VR设置组，用于调整虚拟现实世界比例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Settings",
+      "predicate": "包含",
+      "object": "Rendering",
+      "context": "World Settings面板包含Rendering设置组，用于配置渲染相关参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Settings",
+      "predicate": "包含",
+      "object": "Audio",
+      "context": "World Settings面板包含Audio设置组，用于配置默认音频行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Settings",
+      "predicate": "包含",
+      "object": "Tick",
+      "context": "World Settings面板包含Tick设置组，用于配置Actor更新行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Settings",
+      "predicate": "包含",
+      "object": "AI",
+      "context": "World Settings面板包含AI设置组，用于启用人工智能系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Settings",
+      "predicate": "包含",
+      "object": "Cooking",
+      "context": "World Settings面板包含Cooking设置组，用于配置游戏打包过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Precomputed Visibility",
+      "predicate": "优化",
+      "object": "渲染性能",
+      "context": "Precomputed Visibility通过预计算可见性来减少渲染线程时间，优化性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Game Mode",
+      "predicate": "定义",
+      "object": "游戏规则",
+      "context": "Game Mode定义了游戏的基本规则，如玩家数量、得分和胜利条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lightmass",
+      "predicate": "控制",
+      "object": "全局光照",
+      "context": "Lightmass设置控制间接光照的细节和质量，包括环境遮挡效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World",
+      "predicate": "包含",
+      "object": "World Composition",
+      "context": "World设置组与World Composition系统相关，用于管理大型世界",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Physics",
+      "predicate": "影响",
+      "object": "重力",
+      "context": "Physics设置可以覆盖世界重力，影响角色跳跃高度和物体下落速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Broadphase",
+      "predicate": "基于",
+      "object": "PhysX系统",
+      "context": "Broadphase碰撞检测是NVIDIA PhysX系统的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HLOD System",
+      "predicate": "优化",
+      "object": "渲染性能",
+      "context": "HLOD系统通过合并远距离静态网格体来减少绘制调用，提高性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Partition",
+      "predicate": "替代",
+      "object": "子关卡系统",
+      "context": "World Partition系统替代了传统的子关卡分割方法，提供更高效的大型世界管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR",
+      "predicate": "调整",
+      "object": "世界比例",
+      "context": "VR设置中的World to Meters变量可以调整虚拟世界的比例感",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Tick",
+      "predicate": "控制",
+      "object": "Actor更新",
+      "context": "Tick设置控制Actor和组件是否在每帧执行更新逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Cooking",
+      "predicate": "属于",
+      "object": "打包过程",
+      "context": "Cooking是游戏打包和部署到平台的过程的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Settings",
+      "predicate": "位于",
+      "object": "编辑器UI",
+      "context": "World Settings面板默认停靠在编辑器UI的Details面板旁边",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Settings",
+      "predicate": "应用于",
+      "object": "Level",
+      "context": "每个Level都可以通过World Settings面板应用独特的设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:36:33.342Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10982 字符)",
+      "timestamp": "2025-06-15T21:35:23.757Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 11166,
+    "contentLength": 10982,
+    "processingTimeMs": 69588
+  }
+}

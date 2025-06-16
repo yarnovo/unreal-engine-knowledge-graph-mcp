@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_recording-face-animation-on-ios-device-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_recording-face-animation-on-ios-device-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Live Link Face",
+      "predicate": "依赖",
+      "object": "ARKit",
+      "context": "Live Link Face应用程序依赖ARKit的面部识别和运动追踪功能来实现面部动画捕捉",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link Face",
+      "predicate": "使用",
+      "object": "iOS设备",
+      "context": "Live Link Face应用程序需要搭载深度摄像头和ARKit功能的iOS设备来捕捉面部动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link Face",
+      "predicate": "连接",
+      "object": "虚幻引擎",
+      "context": "Live Link Face应用程序通过Live Link插件与虚幻引擎连接，实时传输面部动画数据",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link Face",
+      "predicate": "生成",
+      "object": "面部动画数据",
+      "context": "Live Link Face应用程序捕捉用户面部动作并生成面部动画数据，用于驱动虚幻引擎中的3D角色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "面部动画数据",
+      "predicate": "应用于",
+      "object": "动画蓝图",
+      "context": "通过动画蓝图中的Live Link Pose节点，将面部动画数据应用到角色的骨骼网格体上",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "Live Link Pose节点",
+      "context": "动画蓝图需要包含Live Link Pose节点来接收和处理来自Live Link Face的面部动画数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link Face",
+      "predicate": "支持",
+      "object": "多用户协作",
+      "context": "Live Link Face可以配置为连接到多个虚幻引擎实例，支持多用户编辑环境中的协作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Live Link Face",
+      "predicate": "支持",
+      "object": "OSC控制",
+      "context": "Live Link Face支持通过开放声音控制（OSC）协议进行远程控制和通知",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Live Link Face",
+      "predicate": "生成",
+      "object": ".csv文件",
+      "context": "Live Link Face录制面部动画时会生成包含原始动画数据的.csv文件，可用于后期处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": ".csv文件",
+      "predicate": "导入",
+      "object": "虚幻引擎",
+      "context": "通过LiveLinkFaceImporter插件，可以将Live Link Face生成的.csv文件导入虚幻引擎，创建关卡序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡序列",
+      "predicate": "包含",
+      "object": "面部混合形状关键帧",
+      "context": "导入的.csv文件会在关卡序列中生成面部混合形状的关键帧数据，用于驱动角色面部动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaHuman角色",
+      "predicate": "支持",
+      "object": "ARKit面部数据",
+      "context": "MetaHuman角色可以通过启用ARKit面部选项，使用Live Link Face捕捉的面部动画数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link Face",
+      "predicate": "支持",
+      "object": "时间码同步",
+      "context": "Live Link Face支持多种时间码源（系统定时器、NTP服务器、Tentacle同步）以确保与其他录制设备同步",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Live Link Face",
+      "predicate": "支持",
+      "object": "校准功能",
+      "context": "Live Link Face提供校准功能，可以捕捉用户面部的自然休息姿势，提升面部追踪质量",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Live Link Face",
+      "predicate": "依赖",
+      "object": "Live Link插件",
+      "context": "Live Link Face需要虚幻引擎中的Live Link插件来实现与引擎的通信和数据传输",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link Face",
+      "predicate": "依赖",
+      "object": "ARKit面部支持插件",
+      "context": "Live Link Face需要ARKit面部支持插件来处理ARKit生成的面部混合形状数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link Face",
+      "predicate": "使用",
+      "object": "镜头试拍录制器",
+      "context": "Live Link Face可以与虚幻引擎的镜头试拍录制器配合使用，记录面部动画表演",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Live Link Face",
+      "predicate": "生成",
+      "object": "参考视频",
+      "context": "Live Link Face录制时会生成.mov格式的参考视频，包含摄像头拍摄的画面和音频，用于后期参考",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link Face",
+      "predicate": "支持",
+      "object": "头部旋转数据",
+      "context": "Live Link Face可以配置为发送ARKit的头部旋转数据（偏转/俯仰/旋转），用于控制虚拟头部的动作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:34:44.709Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (22057 字符)",
+      "timestamp": "2025-06-15T20:33:48.095Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 36473,
+    "contentLength": 22057,
+    "processingTimeMs": 56616
+  }
+}

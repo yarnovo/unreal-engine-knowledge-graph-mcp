@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_temporal-super-resolution-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_temporal-super-resolution-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "时间超级分辨率(TSR)",
+      "predicate": "替代",
+      "object": "时间抗锯齿上采样(TAAU)",
+      "context": "TSR是虚幻引擎4中TAAU的升级技术，以更低的内部分辨率渲染，提供更好的图像质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间超级分辨率(TSR)",
+      "predicate": "支持",
+      "object": "Nanite",
+      "context": "TSR满足Nanite几何体对保真度和细节的要求，同时以更低分辨率渲染",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间超级分辨率(TSR)",
+      "predicate": "支持",
+      "object": "Lumen",
+      "context": "TSR的低分辨率渲染为Lumen全局光照和反射提供足够的性能空间",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间超级分辨率(TSR)",
+      "predicate": "包含",
+      "object": "历史记录算法",
+      "context": "历史记录是TSR的核心组件，负责累积、存储和复用帧间细节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间超级分辨率(TSR)",
+      "predicate": "包含",
+      "object": "视差启发法",
+      "context": "视差启发法使用运动向量重新投影历史记录，处理解除遮挡时的图像质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间超级分辨率(TSR)",
+      "predicate": "包含",
+      "object": "着色拒绝",
+      "context": "着色拒绝检测颜色变化和半透明度，平衡Nanite细节数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间超级分辨率(TSR)",
+      "predicate": "包含",
+      "object": "闪烁时间分析",
+      "context": "闪烁时间分析稳定帧，减少几何图形上的摩尔纹等瑕疵",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间超级分辨率(TSR)",
+      "predicate": "包含",
+      "object": "历史记录恢复",
+      "context": "当过去帧的数据再次出现时，历史记录恢复调用这些存储数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间超级分辨率(TSR)",
+      "predicate": "依赖",
+      "object": "屏幕百分比",
+      "context": "屏幕百分比控制每帧的渲染分辨率，影响TSR的细节累积速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间超级分辨率(TSR)",
+      "predicate": "依赖",
+      "object": "帧率",
+      "context": "TSR的细节累积速度受帧率影响，帧率越高细节累积越快",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间超级分辨率(TSR)",
+      "predicate": "用于",
+      "object": "动态模糊优化",
+      "context": "TSR可以优化动态模糊，在主机平台上带来3倍的性能改善",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间超级分辨率(TSR)",
+      "predicate": "支持",
+      "object": "半透明度材质",
+      "context": "TSR有专门处理半透明材质的机制，如半透明度通道和输出深度/速度选项",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间超级分辨率(TSR)",
+      "predicate": "支持",
+      "object": "后期处理材质",
+      "context": "TSR与后期处理材质协同工作，根据可混合位置插入到渲染管线的不同阶段",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间超级分辨率(TSR)",
+      "predicate": "支持",
+      "object": "像素动画材质",
+      "context": "TSR通过'具有像素动画'材质设置处理像素着色器动画引起的重影问题",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间超级分辨率(TSR)",
+      "predicate": "依赖",
+      "object": "运动向量",
+      "context": "TSR依赖运动向量来重新投影不透明几何体，运动向量不正确会导致重影",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间超级分辨率(TSR)",
+      "predicate": "支持",
+      "object": "动态分辨率缩放",
+      "context": "TSR在主机平台上支持动态分辨率缩放，适应不同性能需求",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间超级分辨率(TSR)",
+      "predicate": "支持",
+      "object": "多平台",
+      "context": "TSR支持D3D11、D3D12、Vulkan、Metal、PlayStation 5和Xbox Series S|X等多个平台",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间超级分辨率(TSR)",
+      "predicate": "优化",
+      "object": "AMD RDNA GPU",
+      "context": "TSR专门针对PlayStation 5和Xbox Series S|X的AMD RDNA GPU进行了优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间超级分辨率(TSR)",
+      "predicate": "关联",
+      "object": "抗锯齿伸缩性组",
+      "context": "TSR的质量和性能通过抗锯齿伸缩性组进行控制，分为低、中、高、超高和电影级",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间超级分辨率(TSR)",
+      "predicate": "关联",
+      "object": "GPU分析工具",
+      "context": "调试TSR需要使用GPU分析器、DumpGPU查看器或RenderDoc等工具",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:59:06.178Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (58034 字符)",
+      "timestamp": "2025-06-15T20:58:02.742Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 100788,
+    "contentLength": 58034,
+    "processingTimeMs": 63440
+  }
+}

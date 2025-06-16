@@ -1,0 +1,155 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-the-trace-control-tab-in-unreal-insights-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-the-trace-control-tab-in-unreal-insights-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Trace Control Tab",
+      "predicate": "属于",
+      "object": "Unreal Insights Frontend",
+      "context": "Trace Control Tab是Unreal Insights Frontend对话框中的一个选项卡，用于控制追踪会话",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace Control Tab",
+      "predicate": "用于",
+      "object": "控制追踪会话",
+      "context": "Trace Control Tab的主要功能是启动和控制Unreal Engine项目的追踪会话",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace Control Tab",
+      "predicate": "支持",
+      "object": "设置追踪通道过滤器",
+      "context": "用户可以通过Trace Control Tab设置自己的追踪通道过滤器，以控制捕获哪些追踪数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "包含",
+      "object": "Session Frontend",
+      "context": "Unreal Insights包含Session Frontend，后者是访问Trace Control Tab的入口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Session Frontend",
+      "predicate": "包含",
+      "object": "Trace Control Tab",
+      "context": "Session Frontend是Trace Control Tab的父级界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace Control Tab",
+      "predicate": "控制",
+      "object": "追踪通道",
+      "context": "通过Trace Control Tab可以启用或禁用特定的追踪通道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace Control Tab",
+      "predicate": "生成",
+      "object": "追踪数据",
+      "context": "Trace Control Tab启动追踪后，会生成追踪数据并存储在Trace Store中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace Control Tab",
+      "predicate": "支持",
+      "object": "追踪预设",
+      "context": "Trace Control Tab提供预设通道过滤器功能，方便用户快速选择常用通道组合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "追踪预设",
+      "predicate": "定义于",
+      "object": "BaseEngine.ini",
+      "context": "引擎预设的追踪通道过滤器定义在BaseEngine.ini配置文件中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "追踪预设",
+      "predicate": "保存于",
+      "object": "Engine.ini",
+      "context": "用户自定义的追踪预设保存在Engine.ini配置文件中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace Control Tab",
+      "predicate": "可从",
+      "object": "编辑器访问",
+      "context": "Trace Control Tab也可以通过编辑器的Tools > Session Frontend菜单访问",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace Control Tab",
+      "predicate": "可从",
+      "object": "Unreal Insights访问",
+      "context": "在Unreal Insights中可以通过Menu > Live Trace Control访问Trace Control Tab",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "追踪会话",
+      "predicate": "需要",
+      "object": "-messaging参数",
+      "context": "要使会话出现在Trace Control Tab中，启动时需要添加-messaging命令行参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace Control Tab",
+      "predicate": "提供",
+      "object": "追踪信息",
+      "context": "Trace Control Tab显示当前会话的追踪信息，包括端点、缓存状态、内存使用等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace Control Tab",
+      "predicate": "支持",
+      "object": "追踪书签",
+      "context": "可以在追踪运行时通过Trace Control Tab创建追踪书签，标记重要事件点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace Control Tab",
+      "predicate": "支持",
+      "object": "截图功能",
+      "context": "可以在追踪运行时通过Trace Control Tab截取会话屏幕并包含在追踪数据中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace Control Tab",
+      "predicate": "控制",
+      "object": "统计命名事件",
+      "context": "Trace Control Tab可以启用或禁用统计命名事件的追踪，这些事件提供额外的性能分析指标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:25:54.810Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10757 字符)",
+      "timestamp": "2025-06-15T21:25:07.043Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 10867,
+    "contentLength": 10757,
+    "processingTimeMs": 47771
+  }
+}

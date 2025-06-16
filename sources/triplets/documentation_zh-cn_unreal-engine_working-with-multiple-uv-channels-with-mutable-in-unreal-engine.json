@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_working-with-multiple-uv-channels-with-mutable-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_working-with-multiple-uv-channels-with-mutable-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Mutable",
+      "predicate": "支持",
+      "object": "多个UV通道",
+      "context": "Mutable支持在Mesh Section中使用多个UV通道，每个通道都有自己的布局策略，这对于纹理参数的自定义选项非常重要。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质图表",
+      "predicate": "需要",
+      "object": "纹理参数",
+      "context": "在材质图表中，纹理必须被声明为纹理参数才能被访问，这是使用多个UV通道的前提条件。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mesh Section节点",
+      "predicate": "控制",
+      "object": "纹理参数",
+      "context": "Mesh Section节点的属性选项卡中可以决定公开哪些纹理参数以及布局如何影响纹理，这对于纹理管理至关重要。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Skeletal Mesh节点",
+      "predicate": "定义",
+      "object": "UV通道行为",
+      "context": "Skeletal Mesh节点可以在布局编辑器类别中针对每个网格体分段定义每个UV通道的行为，帮助学习者理解UV通道的配置。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Table节点",
+      "predicate": "定义",
+      "object": "UV通道行为",
+      "context": "Table节点同样可以在布局编辑器类别中定义每个UV通道的行为，与Skeletal Mesh节点类似，扩展了学习者的理解范围。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Edit Mesh Section修饰符节点",
+      "predicate": "编辑",
+      "object": "纹理参数",
+      "context": "Edit Mesh Section修饰符节点允许编辑来自Mesh Section的纹理参数，并且可以指定受影响的纹理部分，这对于纹理的精细控制非常重要。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Remove Mesh Blocks修饰符节点",
+      "predicate": "删除",
+      "object": "布局块",
+      "context": "Remove Mesh Blocks修饰符节点可以从指定的UV通道中删除布局块，帮助学习者理解如何清理不需要的纹理部分。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Texture Project节点",
+      "predicate": "投影到",
+      "object": "UV通道",
+      "context": "Texture Project节点可以指定要投影到的UV通道，这对于纹理投影的实现非常关键。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Group Projector Parameter节点",
+      "predicate": "投影到",
+      "object": "UV通道",
+      "context": "Group Projector Parameter节点同样可以指定要投影到的UV通道，与Texture Project节点功能类似，扩展了学习者的选择。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多个UV通道",
+      "predicate": "用于",
+      "object": "纹理参数自定义",
+      "context": "多个UV通道允许纹理参数在每个通道上有不同的自定义选项，这对于复杂的纹理管理非常重要。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质图表",
+      "predicate": "设置",
+      "object": "UV通道",
+      "context": "材质图表中可以设置有效的UV通道，这是使用多个UV通道的必要步骤。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Edit Mesh Section修饰符节点",
+      "predicate": "限制于",
+      "object": "单个UV通道",
+      "context": "Edit Mesh Section修饰符节点只能编辑来自单个UV通道的纹理，学习者需要了解这一点以避免操作错误。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:34:53.450Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5714,
+    "contentLength": 4242,
+    "processingTimeMs": 37527
+  }
+}

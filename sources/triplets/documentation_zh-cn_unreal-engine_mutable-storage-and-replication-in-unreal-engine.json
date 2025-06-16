@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_mutable-storage-and-replication-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_mutable-storage-and-replication-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "可自定义对象资产",
+      "predicate": "包含",
+      "object": "生成对象所有可能组合的全部数据",
+      "context": "理解可自定义对象资产的基本构成，帮助学习者掌握其数据存储结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可自定义对象实例资产",
+      "predicate": "表示",
+      "object": "一个组合",
+      "context": "明确实例资产与组合之间的关系，帮助理解实例化的概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可自定义对象实例资产",
+      "predicate": "包含",
+      "object": "对可自定义对象的引用",
+      "context": "理解实例资产如何引用原始可自定义对象，掌握引用机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可自定义对象实例资产",
+      "predicate": "包含",
+      "object": "参数的值",
+      "context": "了解实例资产如何存储参数值，掌握参数化设计",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "持久存储",
+      "predicate": "用于",
+      "object": "固定NPC实例",
+      "context": "理解持久存储的实际应用场景，帮助学习者规划存储策略",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "持久存储",
+      "predicate": "用于",
+      "object": "玩家自定义角色保存",
+      "context": "了解持久存储在玩家数据管理中的作用，掌握跨会话数据保存",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "临时使用",
+      "predicate": "用于",
+      "object": "网络传输",
+      "context": "理解临时存储在网络通信中的应用，帮助优化带宽使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "紧凑描述符",
+      "predicate": "优化",
+      "object": "临时使用数据量",
+      "context": "掌握紧凑描述符如何减少数据传输量，提高网络效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "紧凑描述符",
+      "predicate": "假设",
+      "object": "参数数量不变",
+      "context": "理解使用紧凑描述符的前提条件，避免误用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "紧凑描述符",
+      "predicate": "假设",
+      "object": "参数顺序不变",
+      "context": "了解紧凑描述符的限制条件，帮助正确应用该技术",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FCustomizableObjectInstanceDescriptor::SaveDescriptor",
+      "predicate": "实现",
+      "object": "紧凑描述符序列化",
+      "context": "掌握如何通过代码实现紧凑描述符的序列化，提升编程能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UID",
+      "predicate": "用于",
+      "object": "参数名称变更匹配",
+      "context": "理解UID在参数变更时的作用，掌握版本兼容性处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UID",
+      "predicate": "用于",
+      "object": "枚举值变更匹配",
+      "context": "了解UID在枚举变更时的应用，掌握数据迁移技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可自定义对象",
+      "predicate": "设置",
+      "object": "参数默认值",
+      "context": "理解默认值在参数变更时的作用，掌握容错设计",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "持久存储",
+      "predicate": "需要",
+      "object": "数据可移植性",
+      "context": "理解持久存储的核心要求，帮助设计跨版本兼容系统",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "临时使用",
+      "predicate": "优先考虑",
+      "object": "数据量最小化",
+      "context": "掌握临时存储的设计原则，优化网络性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:03:06.209Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4011,
+    "contentLength": 2307,
+    "processingTimeMs": 56724
+  }
+}

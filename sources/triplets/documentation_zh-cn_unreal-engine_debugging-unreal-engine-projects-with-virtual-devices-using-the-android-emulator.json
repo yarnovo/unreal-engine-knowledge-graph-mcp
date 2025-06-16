@@ -1,0 +1,123 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_debugging-unreal-engine-projects-with-virtual-devices-using-the-android-emulator",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_debugging-unreal-engine-projects-with-virtual-devices-using-the-android-emulator.md",
+  "triples": [
+    {
+      "subject": "Android Emulator",
+      "predicate": "用于",
+      "object": "调试虚幻引擎项目",
+      "context": "Android Emulator可以用于在虚拟设备上调试虚幻引擎项目，帮助开发者在没有物理设备的情况下进行测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android Emulator",
+      "predicate": "依赖",
+      "object": "Android Studio",
+      "context": "Android Emulator是Android Studio的一部分，需要Android Studio来创建和管理虚拟设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟设备",
+      "predicate": "需要",
+      "object": "Android SDK和NDK",
+      "context": "创建和运行虚拟设备需要先设置Android SDK和NDK，这是开发Android应用的基础环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟设备",
+      "predicate": "需要",
+      "object": "特定硬件配置",
+      "context": "虚拟设备需要至少4GB RAM和足够的内部存储空间才能可靠运行虚幻引擎应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟设备",
+      "predicate": "支持",
+      "object": "Vulkan和硬件GPU加速",
+      "context": "为了完全支持虚幻引擎项目，虚拟设备需要启用Vulkan和GLDirectMem等图形功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎项目",
+      "predicate": "可以在",
+      "object": "虚拟设备上运行",
+      "context": "虚幻引擎项目可以打包并在虚拟设备上运行，方便开发者进行测试和调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试虚拟设备",
+      "predicate": "需要",
+      "object": "匹配的架构",
+      "context": "调试虚拟设备时，Android应用的架构必须与PC的主机架构匹配，例如x86_64或arm64",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android Studio",
+      "predicate": "包含",
+      "object": "Device Manager",
+      "context": "Device Manager是Android Studio的一部分，用于创建和管理虚拟设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟设备配置",
+      "predicate": "需要",
+      "object": "特定系统镜像",
+      "context": "虚拟设备需要选择支持API 35或更高版本的系统镜像，如Vanilla Ice Cream",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android Emulator",
+      "predicate": "可以",
+      "object": "独立运行",
+      "context": "Android Emulator可以从Android Studio中独立运行，方便开发者快速启动虚拟设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试虚拟设备",
+      "predicate": "可以使用",
+      "object": "Android Studio或Visual Studio",
+      "context": "开发者可以使用Android Studio或Visual Studio（通过AGDE插件）在虚拟设备上调试虚幻引擎项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android File Server",
+      "predicate": "用于",
+      "object": "调试和文件管理",
+      "context": "Android File Server和Unreal Android File Tool可以用于在虚拟设备上进行调试和文件管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "用于",
+      "object": "运行性能分析",
+      "context": "Unreal Insights可以用于在虚拟设备上运行性能分析，帮助开发者优化项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:48:14.026Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12355 字符)",
+      "timestamp": "2025-06-15T18:47:25.413Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12543,
+    "contentLength": 12355,
+    "processingTimeMs": 48624
+  }
+}

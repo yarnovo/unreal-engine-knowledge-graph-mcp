@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_write-editor-tests-with-utility-blueprints-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_write-editor-tests-with-utility-blueprints-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "EditorTests插件",
+      "predicate": "用于",
+      "object": "编写编辑器测试",
+      "context": "文档明确指出需要使用EditorTests插件来编写编辑器测试，这是测试功能的基础依赖",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器工具蓝图",
+      "predicate": "用于",
+      "object": "创建自动化测试脚本",
+      "context": "文档说明可以使用编辑器工具蓝图在编辑器中创建自动化测试脚本，这是其主要功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器工具蓝图",
+      "predicate": "继承自",
+      "object": "EditorUtilityTest",
+      "context": "创建编辑器工具蓝图时需要选择'EditorUtilityTest'作为父类，表明继承关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "准备测试事件",
+      "predicate": "前置条件",
+      "object": "开始测试事件",
+      "context": "文档说明如果准备测试事件失败或超时，开始测试事件将不会被调用，表明严格的执行顺序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "开始测试事件",
+      "predicate": "必须调用",
+      "object": "结束测试",
+      "context": "文档强调必须调用结束测试，否则测试将超时，这是测试流程的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器工具测试蓝图",
+      "predicate": "用于测试",
+      "object": "编辑器工具蓝图",
+      "context": "文档说明可以创建编辑器工具测试蓝图来测试编辑器工具蓝图，形成测试与被测试的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "构造节点",
+      "predicate": "用于实例化",
+      "object": "编辑器工具类",
+      "context": "在测试蓝图中使用构造节点来实例化编辑器工具类，这是测试执行的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器工具蓝图",
+      "predicate": "包含",
+      "object": "准备测试事件",
+      "context": "准备测试事件是编辑器工具蓝图的默认事件之一，属于其组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器工具蓝图",
+      "predicate": "包含",
+      "object": "开始测试事件",
+      "context": "开始测试事件是编辑器工具蓝图的默认事件之一，属于其组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器工具蓝图",
+      "predicate": "包含",
+      "object": "结束测试函数",
+      "context": "结束测试函数是编辑器工具蓝图的关键功能，必须被调用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "用于设置",
+      "object": "测试超时和元数据",
+      "context": "文档说明可以在细节面板中设置测试的超时和元数据，这是测试配置的重要方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化测试框架",
+      "predicate": "包含",
+      "object": "编辑器工具测试",
+      "context": "根据文档内容和标签，编辑器工具测试属于自动化测试框架的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:35:58.903Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4090,
+    "contentLength": 2690,
+    "processingTimeMs": 35148
+  }
+}

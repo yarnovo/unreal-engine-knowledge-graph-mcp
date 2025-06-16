@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_creating-drag-and-drop-ui-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_creating-drag-and-drop-ui-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "DragAndDropOperation",
+      "predicate": "用于",
+      "object": "创建拖放UI",
+      "context": "DragAndDropOperation是实现UI拖放功能的核心节点，学习它有助于理解虚幻引擎的交互机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HealthBar",
+      "predicate": "继承自",
+      "object": "控件蓝图",
+      "context": "HealthBar作为可拖放UI元素，是控件蓝图的子类，理解这种继承关系是学习UI开发的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WidgetDrag",
+      "predicate": "基于",
+      "object": "DragDropOperation",
+      "context": "WidgetDrag是专门用于拖放操作的蓝图类，继承自DragDropOperation，这种关系展示了功能扩展的方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DragWidget",
+      "predicate": "模拟",
+      "object": "HealthBar",
+      "context": "DragWidget在拖放过程中模拟HealthBar的外观，这种关系展示了UI交互的设计模式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "OnMouseButtonDown",
+      "predicate": "触发",
+      "object": "DetectDragIfPressed",
+      "context": "OnMouseButtonDown事件触发拖拽检测，这种时序关系是理解交互逻辑的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnDragDetected",
+      "predicate": "创建",
+      "object": "DragWidget",
+      "context": "OnDragDetected事件负责创建拖拽时的视觉控件，这种关系展示了UI反馈的实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HUD",
+      "predicate": "包含",
+      "object": "HealthBar",
+      "context": "HUD作为主界面容器包含HealthBar控件，这种结构关系是UI层级设计的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnDrop",
+      "predicate": "处理",
+      "object": "DragWidget放置",
+      "context": "OnDrop函数处理拖拽控件的放置逻辑，这种功能关系是完整拖放交互的必要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Absolute to Local",
+      "predicate": "转换",
+      "object": "坐标空间",
+      "context": "Absolute to Local节点用于坐标空间转换，这是处理UI位置关系的核心技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ThirdPersonCharacter",
+      "predicate": "初始化",
+      "object": "HUD控件",
+      "context": "角色蓝图负责初始化HUD控件并显示鼠标光标，这种关系展示了游戏逻辑与UI的交互方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG",
+      "predicate": "支持",
+      "object": "拖放交互",
+      "context": "UMG系统提供了创建拖放UI所需的各种功能和节点，这是学习UI开发的基础框架",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DragOffset",
+      "predicate": "记录",
+      "object": "拖拽起始位置",
+      "context": "DragOffset变量存储拖拽起始位置信息，这是实现精确放置功能的关键数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Remove from Parent",
+      "predicate": "与",
+      "object": "Add to Viewport",
+      "context": "这对操作组合实现了控件的位置更新，展示了UI元素动态管理的典型模式",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Progress Bar",
+      "predicate": "作为",
+      "object": "HealthBar可视化组件",
+      "context": "进度条是生命值条的视觉表现，这种组成关系是UI设计的基本概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WidgetReference",
+      "predicate": "引用",
+      "object": "被拖拽控件",
+      "context": "WidgetReference变量保持对被拖拽控件的引用，这种数据关系是拖放功能实现的核心",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:40:29.456Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12793 字符)",
+      "timestamp": "2025-06-15T18:39:37.726Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19341,
+    "contentLength": 12793,
+    "processingTimeMs": 51739
+  }
+}

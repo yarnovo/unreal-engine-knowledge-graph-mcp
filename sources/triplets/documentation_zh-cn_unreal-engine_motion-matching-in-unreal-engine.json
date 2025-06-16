@@ -1,0 +1,147 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_motion-matching-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_motion-matching-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "运动匹配",
+      "predicate": "基于",
+      "object": "姿势搜索插件",
+      "context": "运动匹配是姿势搜索插件中的一个功能模块，理解这一关系有助于学习者定位功能位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动匹配",
+      "predicate": "替代",
+      "object": "状态机",
+      "context": "运动匹配可以作为状态机的动态替代方案，这是其核心价值之一",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动匹配",
+      "predicate": "替代",
+      "object": "混合空间",
+      "context": "运动匹配可以作为混合空间的动态替代方案，这是其核心价值之一",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动匹配",
+      "predicate": "使用",
+      "object": "动画序列",
+      "context": "运动匹配基于动画序列数据做出选择，这是其工作原理的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势搜索模式资产",
+      "predicate": "定义",
+      "object": "运动匹配配置",
+      "context": "姿势搜索模式资产存储运动匹配的配置信息，是系统设置的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势搜索模式资产",
+      "predicate": "包含",
+      "object": "轨迹通道",
+      "context": "轨迹通道是姿势搜索模式资产的标准组成部分，影响运动匹配的查询方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势搜索模式资产",
+      "predicate": "包含",
+      "object": "姿势搜索通道",
+      "context": "姿势搜索通道是姿势搜索模式资产的标准组成部分，影响运动匹配的查询方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势搜索数据库资产",
+      "predicate": "存储",
+      "object": "动画数据",
+      "context": "数据库资产存储运动匹配使用的动画数据，是系统的数据基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动匹配节点",
+      "predicate": "查询",
+      "object": "姿势搜索数据库资产",
+      "context": "运动匹配节点通过查询数据库资产来选择动画姿势，这是核心工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pose History节点",
+      "predicate": "连接",
+      "object": "运动匹配节点",
+      "context": "Pose History节点通常与运动匹配节点配合使用，形成完整的工作流",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画扭曲",
+      "predicate": "补充",
+      "object": "运动匹配",
+      "context": "动画扭曲可以缓解运动匹配覆盖范围不足的问题，是互补技术",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "运动匹配",
+      "predicate": "依赖",
+      "object": "根运动",
+      "context": "运动匹配使用的动画必须包含根运动，这是重要前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势搜索规格化集",
+      "predicate": "组织",
+      "object": "姿势搜索数据库资产",
+      "context": "规格化集用于组织多个数据库资产，实现更精细的控制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "运动匹配通知",
+      "predicate": "控制",
+      "object": "动画选择行为",
+      "context": "各种运动匹配通知可以控制系统的动画选择行为",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画通知过滤",
+      "predicate": "解决",
+      "object": "重复通知问题",
+      "context": "动画通知过滤功能可以防止运动匹配导致的重复通知触发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏动画示例项目",
+      "predicate": "展示",
+      "object": "运动匹配实现",
+      "context": "示例项目提供了完整的运动匹配实现参考",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:00:28.388Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (31048 字符)",
+      "timestamp": "2025-06-15T19:59:32.881Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 57004,
+    "contentLength": 31048,
+    "processingTimeMs": 55514
+  }
+}

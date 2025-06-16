@@ -1,0 +1,149 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_gradient-material-functions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_gradient-material-functions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "渐变材质函数",
+      "predicate": "包含",
+      "object": "指数径向渐变",
+      "context": "指数径向渐变是渐变材质函数的一种具体实现，学习该函数有助于理解如何创建径向渐变效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渐变材质函数",
+      "predicate": "包含",
+      "object": "菱形渐变",
+      "context": "菱形渐变是渐变材质函数的一种具体实现，学习该函数有助于理解如何创建菱形渐变效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渐变材质函数",
+      "predicate": "包含",
+      "object": "线性渐变",
+      "context": "线性渐变是渐变材质函数的一种具体实现，学习该函数有助于理解如何创建线性渐变效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渐变材质函数",
+      "predicate": "包含",
+      "object": "平滑曲线",
+      "context": "平滑曲线是渐变材质函数的一种具体实现，学习该函数有助于理解如何控制渐变过渡效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渐变材质函数",
+      "predicate": "包含",
+      "object": "值阶",
+      "context": "值阶是渐变材质函数的一种具体实现，学习该函数有助于理解如何创建基于阈值的黑白蒙版",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "指数径向渐变",
+      "predicate": "使用",
+      "object": "UV通道0",
+      "context": "指数径向渐变使用UV通道0来产生径向渐变，理解UV通道对材质设计至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "指数径向渐变",
+      "predicate": "支持",
+      "object": "中心点偏移",
+      "context": "指数径向渐变支持调整中心点位置，这是创建自定义渐变效果的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "指数径向渐变",
+      "predicate": "支持",
+      "object": "半径调整",
+      "context": "指数径向渐变支持调整半径大小，这是控制渐变范围的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "菱形渐变",
+      "predicate": "使用",
+      "object": "UV通道0",
+      "context": "菱形渐变使用UV通道0来产生渐变，这是理解材质坐标系统的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "菱形渐变",
+      "predicate": "支持",
+      "object": "衰减率调整",
+      "context": "菱形渐变支持调整衰减率，这是控制渐变对比度的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "线性渐变",
+      "predicate": "提供",
+      "object": "U方向渐变",
+      "context": "线性渐变提供U方向渐变输出，这是创建水平渐变效果的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "线性渐变",
+      "predicate": "提供",
+      "object": "V方向渐变",
+      "context": "线性渐变提供V方向渐变输出，这是创建垂直渐变效果的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平滑曲线",
+      "predicate": "接收",
+      "object": "纹理通道或渐变",
+      "context": "平滑曲线可以接收纹理通道或渐变输入，这是理解材质函数连接性的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平滑曲线",
+      "predicate": "控制",
+      "object": "切线角度",
+      "context": "平滑曲线通过控制切线角度来调整过渡效果，这是高级渐变控制的关键技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "值阶",
+      "predicate": "生成",
+      "object": "黑白蒙版",
+      "context": "值阶函数可以生成黑白蒙版，这是材质中常用的阈值处理技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渐变材质函数",
+      "predicate": "替代",
+      "object": "基于纹理的渐变",
+      "context": "渐变材质函数可以替代基于纹理的渐变，节省内存资源，这是性能优化的关键知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渐变材质函数",
+      "predicate": "属于",
+      "object": "虚幻引擎材质系统",
+      "context": "理解渐变材质函数在虚幻引擎材质系统中的位置，有助于构建完整的材质知识体系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:15:45.837Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6111,
+    "contentLength": 4258,
+    "processingTimeMs": 62486
+  }
+}

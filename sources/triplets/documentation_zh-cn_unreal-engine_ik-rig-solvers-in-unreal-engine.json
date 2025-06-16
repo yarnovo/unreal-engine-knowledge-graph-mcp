@@ -1,0 +1,163 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_ik-rig-solvers-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_ik-rig-solvers-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "IK Rig",
+      "predicate": "包含",
+      "object": "IK解算器",
+      "context": "IK Rig支持多种IK解算器，用于创建逆向运动学解决方案",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK解算器",
+      "predicate": "作用于",
+      "object": "骨骼层级",
+      "context": "IK解算器可以作用于各种骨骼层级，旋转和定位骨骼",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK解算器",
+      "predicate": "需要",
+      "object": "根骨骼",
+      "context": "所有IK解算器都需指定一个根骨骼或IK目标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK解算器",
+      "predicate": "需要",
+      "object": "IK目标",
+      "context": "所有IK解算器都需指定一个根骨骼或IK目标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "躯体运动解算器",
+      "predicate": "用于",
+      "object": "地面对齐",
+      "context": "躯体运动解算器主要用于地面对齐，应作为第一个解算器与其他解算器配对使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "躯体运动解算器",
+      "predicate": "需要",
+      "object": "根骨骼",
+      "context": "躯体运动解算器需要一个根骨骼和至少两个IK目标相连",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "躯体运动解算器",
+      "predicate": "需要",
+      "object": "IK目标",
+      "context": "躯体运动解算器需要一个根骨骼和至少两个IK目标相连",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "手足IK解算器",
+      "predicate": "适用于",
+      "object": "四肢",
+      "context": "手足IK解算器适用于单个的四肢，如手臂和腿",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "手足IK解算器",
+      "predicate": "需要",
+      "object": "三根骨骼",
+      "context": "手足IK解算器要求链中有至少三根骨骼才能正确工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全身IK解算器",
+      "predicate": "支持",
+      "object": "多目标",
+      "context": "全身IK解算器支持多个目标，以允许骨架同时伸向多个位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全身IK解算器",
+      "predicate": "支持",
+      "object": "骨骼限制",
+      "context": "全身IK解算器支持骨骼限制、刚度和首选角度的调整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "极解算器",
+      "predicate": "提供",
+      "object": "极向量控制",
+      "context": "极解算器为单个骨骼链提供极向量控制，用于将中间关节设置为朝向IK目标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "极解算器",
+      "predicate": "需要",
+      "object": "根骨骼",
+      "context": "极解算器必须同时指定根骨骼和末端骨骼",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "极解算器",
+      "predicate": "需要",
+      "object": "末端骨骼",
+      "context": "极解算器必须同时指定根骨骼和末端骨骼",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设置变换解算器",
+      "predicate": "平移旋转",
+      "object": "骨骼",
+      "context": "设置变换解算器将平移和旋转骨骼，使其匹配目标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设置变换解算器",
+      "predicate": "需要",
+      "object": "IK目标",
+      "context": "设置变换解算器只需要连接单个IK目标，将其作为变换点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多重解算器",
+      "predicate": "影响",
+      "object": "解算顺序",
+      "context": "多重解算器的顺序很重要，因为它们会按照名称旁边数字的顺序进行求值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼",
+      "predicate": "可以",
+      "object": "排除",
+      "context": "IK链里的骨骼可以从层级中排除，让它们在全部解算器中被忽略",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:31:40.735Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15089 字符)",
+      "timestamp": "2025-06-15T19:30:37.581Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 24087,
+    "contentLength": 15089,
+    "processingTimeMs": 63163
+  }
+}

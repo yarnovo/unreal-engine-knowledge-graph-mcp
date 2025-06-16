@@ -1,0 +1,243 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_metasound-function-nodes-reference-guide-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_metasound-function-nodes-reference-guide-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "MetaSound",
+      "predicate": "包含",
+      "object": "函数节点",
+      "context": "MetaSound提供了多种函数节点用于音频处理和合成，这些节点是构建音频效果的基础组件",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "函数节点",
+      "predicate": "用于",
+      "object": "音频处理",
+      "context": "函数节点提供了播放音频文件、混合声音、应用滤波器和效果等功能，是音频处理的核心工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BPM To Seconds",
+      "predicate": "属于",
+      "object": "通用节点",
+      "context": "BPM To Seconds是MetaSound中的一个通用节点，用于将BPM转换为时间值",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "BPM To Seconds",
+      "predicate": "计算",
+      "object": "拍子时间",
+      "context": "该节点根据BPM、拍子乘数和全音划分来计算拍子时间，以秒为单位",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Envelope Follower",
+      "predicate": "生成",
+      "object": "波封",
+      "context": "Envelope Follower节点从输入音频信号输出波封，用于动态控制音频信号",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Flanger",
+      "predicate": "应用",
+      "object": "镶边效果",
+      "context": "Flanger节点将镶边器效果应用于输入音频，通过调制延迟时间创建特殊音效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Wave Player",
+      "predicate": "播放",
+      "object": "声波资产",
+      "context": "Wave Player节点用于播放声波资产，支持多种通道配置和循环播放",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Wave Player",
+      "predicate": "触发",
+      "object": "提示点事件",
+      "context": "Wave Player可以解析音频波形文件中的提示点元数据，并在特定时间点触发事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数组函数",
+      "predicate": "操控",
+      "object": "数组数据",
+      "context": "数组函数提供了在MetaSound中操控数组的选项，支持多种数据类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Concatenate",
+      "predicate": "连接",
+      "object": "数组",
+      "context": "Concatenate节点连接两个数组，生成一个新的合并数组",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Random Get",
+      "predicate": "随机选择",
+      "object": "数组元素",
+      "context": "Random Get节点从输入数组中随机检索元素，可配置权重和重复规则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "延迟节点",
+      "predicate": "实现",
+      "object": "音频延迟效果",
+      "context": "延迟节点如Delay和Stereo Delay提供了多种延迟效果，用于创建回声和空间感",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Grain Delay",
+      "predicate": "执行",
+      "object": "颗粒化延迟",
+      "context": "Grain Delay节点对音频缓冲区进行颗粒采样并在延迟后播放，创建独特的颗粒效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态范围节点",
+      "predicate": "控制",
+      "object": "音频动态",
+      "context": "动态范围节点如Compressor和Limiter用于控制音频信号的动态范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Compressor",
+      "predicate": "降低",
+      "object": "动态范围",
+      "context": "Compressor节点通过增益缩减降低输入音频信号的动态范围",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Envelope节点",
+      "predicate": "生成",
+      "object": "包络信号",
+      "context": "Envelope节点如AD Envelope和ADSR Envelope生成随时间变化的包络信号，用于控制音频参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WaveTable Envelope",
+      "predicate": "读取",
+      "object": "波表数据",
+      "context": "WaveTable Envelope节点在给定时长内通读波表数据，生成包络信号",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "滤波器节点",
+      "predicate": "处理",
+      "object": "音频频率",
+      "context": "滤波器节点如Biquad Filter和Ladder Filter用于处理音频信号的频率内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "State Variable Filter",
+      "predicate": "提供",
+      "object": "多模式滤波",
+      "context": "State Variable Filter节点提供多种滤波模式输出，包括低通、高通、带通和带阻",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发生器节点",
+      "predicate": "生成",
+      "object": "音频信号",
+      "context": "发生器节点如Sine、Saw和Square生成各种波形的基础音频信号",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "SuperOscillator",
+      "predicate": "利用",
+      "object": "多个振荡器",
+      "context": "SuperOscillator节点利用多个内部振荡器产生更丰富的音频信号，支持失谐和混合控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数学节点",
+      "predicate": "执行",
+      "object": "基本运算",
+      "context": "数学节点如Add、Multiply和Map Range执行基本数学运算，用于音频信号处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合节点",
+      "predicate": "合并",
+      "object": "音频信号",
+      "context": "混合节点如Mono Mixer和Stereo Mixer将多个音频信号合并为单个输出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音乐节点",
+      "predicate": "处理",
+      "object": "音乐数据",
+      "context": "音乐节点如MIDI To Frequency和Scale to Note Array处理音乐相关数据转换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "空间化节点",
+      "predicate": "控制",
+      "object": "音频空间定位",
+      "context": "空间化节点如ITD Panner和Stereo Panner控制音频在立体声场中的定位",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "触发器节点",
+      "predicate": "管理",
+      "object": "事件触发",
+      "context": "触发器节点如Trigger Accumulate和Trigger Sequence管理复杂的事件触发逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trigger On Threshold",
+      "predicate": "检测",
+      "object": "阈值交叉",
+      "context": "Trigger On Threshold节点检测输入信号是否跨越指定阈值，用于触发事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Value节点",
+      "predicate": "存储",
+      "object": "变量值",
+      "context": "Value节点在触发器上设置和存储变量值，用于状态管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:55:13.141Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (88651 字符)",
+      "timestamp": "2025-06-15T19:53:39.737Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 123875,
+    "contentLength": 88651,
+    "processingTimeMs": 93414
+  }
+}

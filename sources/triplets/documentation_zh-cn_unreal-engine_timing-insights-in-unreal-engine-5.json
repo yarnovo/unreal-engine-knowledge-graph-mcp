@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_timing-insights-in-unreal-engine-5",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_timing-insights-in-unreal-engine-5.md",
+  "triples": [
+    {
+      "subject": "Timing Insights",
+      "predicate": "包含",
+      "object": "CPU轨道",
+      "context": "Timing Insights窗口中可以查看CPU轨道的性能数据，帮助分析CPU任务耗时",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Timing Insights",
+      "predicate": "包含",
+      "object": "GPU轨道",
+      "context": "Timing Insights窗口中可以查看GPU轨道的性能数据，帮助分析GPU任务耗时",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Timing Insights",
+      "predicate": "包含",
+      "object": "时序视图",
+      "context": "时序视图是Timing Insights的核心组件，用于可视化性能数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时序视图",
+      "predicate": "包含",
+      "object": "工具栏",
+      "context": "时序视图有专门的工具栏用于控制数据展示和分析功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Timing Insights窗口",
+      "predicate": "包含",
+      "object": "帧面板",
+      "context": "帧面板显示每帧所用的总时间，用于识别性能趋势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Timing Insights窗口",
+      "predicate": "包含",
+      "object": "时序面板",
+      "context": "时序面板展示详细的CPU/GPU任务执行情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Timing Insights窗口",
+      "predicate": "包含",
+      "object": "日志面板",
+      "context": "日志面板显示从Trace会话生成的日志信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时序视图",
+      "predicate": "支持",
+      "object": "紧凑模式",
+      "context": "紧凑模式可以降低轨道高度，提高信息密度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时序视图",
+      "predicate": "支持",
+      "object": "自动隐藏空轨道",
+      "context": "该功能可以自动隐藏没有时序事件的轨道，减少视觉干扰",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定时器面板",
+      "predicate": "用于",
+      "object": "性能分析",
+      "context": "定时器面板列出了指定时间范围内运行的所有定时器事件，用于性能分析",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调用者面板",
+      "predicate": "关联",
+      "object": "被调用者面板",
+      "context": "这两个面板共同显示任务事件的层级关系，帮助理解函数调用链",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "计数器面板",
+      "predicate": "用于",
+      "object": "统计数据监控",
+      "context": "计数器面板列出了在时间段内递增的所有统计数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "日志视图",
+      "predicate": "支持",
+      "object": "日志筛选",
+      "context": "可以按冗长度和类别筛选日志，类似于编辑器中的输出日志窗口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产加载时间",
+      "predicate": "依赖",
+      "object": "UObject::Serialize",
+      "context": "资产加载时间通道专门用于追踪UObject::Serialize的CPU定时器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Timing Insights",
+      "predicate": "支持",
+      "object": "命令行操作",
+      "context": "可以在不打开UI的情况下直接从命令行运行Timing Insights",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导出功能",
+      "predicate": "用于",
+      "object": "数据分享",
+      "context": "可以将性能数据导出为多种格式，便于分享和分析",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "快速查找控件",
+      "predicate": "用于",
+      "object": "事件搜索",
+      "context": "可以搜索和筛选时序视图中显示的事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "元数据筛选器",
+      "predicate": "扩展",
+      "object": "快速查找功能",
+      "context": "允许根据多个元数据字段进行更精确的筛选",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "窗口性能计数器",
+      "predicate": "依赖",
+      "object": "perfcounters参数",
+      "context": "需要在命令行中添加-perfcounters参数才能显示窗口性能计数器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Timing Insights",
+      "predicate": "用于",
+      "object": "性能优化",
+      "context": "主要功能是帮助开发者分析和优化项目性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:01:39.719Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (14426 字符)",
+      "timestamp": "2025-06-15T21:00:48.301Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 24409,
+    "contentLength": 14426,
+    "processingTimeMs": 51426
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-reference-the-player-in-unreal-engine-cinematics",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-reference-the-player-in-unreal-engine-cinematics.md",
+  "triples": [
+    {
+      "subject": "Sequencer",
+      "predicate": "用于",
+      "object": "创建过场动画",
+      "context": "Sequencer是虚幻引擎中用于创建和编辑过场动画的核心工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理玩家角色",
+      "predicate": "替代",
+      "object": "实际玩家角色",
+      "context": "在Sequencer中制作动画时，使用代理玩家角色作为临时替代，便于动画制作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色蓝图",
+      "predicate": "用于创建",
+      "object": "代理玩家角色",
+      "context": "通过拖拽角色蓝图到Sequencer中，可以创建代理玩家角色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "标签",
+      "predicate": "用于标识",
+      "object": "代理玩家角色轨道",
+      "context": "为代理玩家角色轨道添加标签，便于后续在蓝图中进行绑定替换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Set Binding by Tag节点",
+      "predicate": "用于替换",
+      "object": "代理玩家角色",
+      "context": "在关卡蓝图中使用Set Binding by Tag节点，将代理玩家角色替换为实际玩家角色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Player Pawn节点",
+      "predicate": "获取",
+      "object": "实际玩家角色",
+      "context": "在运行时通过Get Player Pawn节点获取当前实际玩家角色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第三人称模板",
+      "predicate": "作为示例",
+      "object": "玩家角色",
+      "context": "文档中使用第三人称模板作为玩家角色的示例",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "骨骼网格体动画",
+      "predicate": "应用于",
+      "object": "代理玩家角色",
+      "context": "在Sequencer中可以为代理玩家角色的骨骼网格体制作动画",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "用于实现",
+      "object": "代理角色替换逻辑",
+      "context": "通过蓝图编写逻辑，实现代理玩家角色到实际玩家角色的替换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PlayerStart Actor",
+      "predicate": "不适用于",
+      "object": "Sequencer动画制作",
+      "context": "PlayerStart Actor不包含玩家网格体，不适合直接在Sequencer中使用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "关卡蓝图",
+      "predicate": "包含",
+      "object": "序列播放逻辑",
+      "context": "在关卡蓝图中编写序列播放和角色替换的逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "允许从资产绑定",
+      "predicate": "影响",
+      "object": "代理角色替换",
+      "context": "禁用'允许从资产绑定'选项确保代理角色被实际玩家角色正确替换",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:26:37.387Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6536,
+    "contentLength": 4674,
+    "processingTimeMs": 47773
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-use-zenserver-streaming-to-play-on-target-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-use-zenserver-streaming-to-play-on-target-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Zenserver",
+      "predicate": "用于",
+      "object": "流送数据",
+      "context": "Zenserver的主要功能之一是流送数据到目标设备，加快暂存和部署速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Zenserver",
+      "predicate": "作为",
+      "object": "烘焙输出存储",
+      "context": "Zenserver可以作为烘焙输出存储，用于存储烘焙阶段的数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Zenserver流送",
+      "predicate": "依赖",
+      "object": "可信网络环境",
+      "context": "Zenserver流送需要在可信的网络环境中使用，以确保数据安全",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Zenserver流送",
+      "predicate": "适用于",
+      "object": "非发布构建配置",
+      "context": "Zenserver流送主要用于调试、开发和测试等非发布构建配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Zenserver流送",
+      "predicate": "避免",
+      "object": "数据复制过程",
+      "context": "使用Zenserver流送可以避免在暂存和部署过程中的数据复制，提高效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Zenserver",
+      "predicate": "监听",
+      "object": "网络请求",
+      "context": "Zenserver默认只监听本地机器的请求，但可以配置为监听网络请求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Zenserver流送",
+      "predicate": "需要",
+      "object": "优化网络连接",
+      "context": "使用Zenserver流送时，需要优化工作站和目标平台之间的网络或USB连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Zenserver流送",
+      "predicate": "使用",
+      "object": "ue.projectstore文件",
+      "context": "Zenserver流送通过ue.projectstore文件提供连接信息，游戏可执行文件使用该文件连接Zenserver",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Zenserver流送",
+      "predicate": "验证",
+      "object": "zen.showgraphs命令",
+      "context": "可以使用zen.showgraphs命令验证Zenserver流送的使用状态和吞吐量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Zenserver流送",
+      "predicate": "替代",
+      "object": "容器文件暂存",
+      "context": "Zenserver流送可以替代传统的容器文件（.pak/.utoc/.ucas）暂存方式，提高效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编辑器",
+      "predicate": "支持",
+      "object": "Zenserver流送",
+      "context": "虚幻编辑器内置的“在设备上运行”功能支持Zenserver流送，可以通过编辑器偏好设置进行配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ushell",
+      "predicate": "支持",
+      "object": "Zenserver流送",
+      "context": "ushell命令行工具支持Zenserver流送，可以通过.stage命令配置流送选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "开发环境/调试器",
+      "predicate": "自动使用",
+      "object": "Zenserver流送",
+      "context": "在开发环境或调试器中，Zenserver流送的使用是自动的，游戏可执行文件会自动查找ue.projectstore文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Zenserver流送",
+      "predicate": "显示",
+      "object": "流送来源信息",
+      "context": "在游戏运行时，屏幕左上方会显示“Zenserver流送来源于...”文本，用于验证流送状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:27:51.179Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8678 字符)",
+      "timestamp": "2025-06-15T19:27:03.717Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13614,
+    "contentLength": 8678,
+    "processingTimeMs": 47473
+  }
+}

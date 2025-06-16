@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_shadowing-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_shadowing-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "阴影",
+      "predicate": "依赖",
+      "object": "光源类型",
+      "context": "阴影效果由光源的移动性决定，不同类型的光源支持不同的阴影方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源移动性",
+      "predicate": "决定",
+      "object": "阴影类型",
+      "context": "光源的移动性（静态、固定、可移动）决定了应如何投射阴影（预计算阴影、动态阴影或组合）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "阴影贴图",
+      "predicate": "适用于",
+      "object": "动态阴影平台",
+      "context": "阴影贴图是默认阴影方法，适用于所有支持动态阴影的平台",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟阴影贴图",
+      "predicate": "支持",
+      "object": "Nanite几何体",
+      "context": "虚拟阴影贴图与Nanite几何体一起使用时，具备高效剔除能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光线追踪阴影",
+      "predicate": "使用",
+      "object": "硬件光线追踪",
+      "context": "光线追踪阴影使用硬件光线追踪和去噪算法实时渲染高质量阴影",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "距离场阴影",
+      "predicate": "使用",
+      "object": "网格体距离场",
+      "context": "距离场阴影使用静态网格体的有向距离场生成动态柔和区域阴影",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算阴影",
+      "predicate": "使用",
+      "object": "Lightmass",
+      "context": "预计算阴影使用Lightmass生成光照贴图纹理，应用于静态几何体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预览阴影",
+      "predicate": "用于",
+      "object": "静态和固定光源",
+      "context": "预览阴影用于在编辑时了解静态和固定光源的阴影效果，但不代表最终烘焙结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源",
+      "predicate": "包含",
+      "object": "阴影属性",
+      "context": "光源包含多种阴影属性，如源角度、半径、衰减半径等，用于控制阴影效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积阴影",
+      "predicate": "影响",
+      "object": "体积雾",
+      "context": "体积阴影通过体积散射强度调整雾气强度和光源颜色，影响体积雾的效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全局光照",
+      "predicate": "提供",
+      "object": "间接光照",
+      "context": "全局光照为场景提供间接光照，填充光照和柔和区域阴影",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "阴影偏差",
+      "predicate": "调整",
+      "object": "阴影质量",
+      "context": "阴影偏差属性用于提高自阴影和接触硬化的准确性，平衡不同区域的阴影质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "接触阴影",
+      "predicate": "增强",
+      "object": "阴影准确性",
+      "context": "接触阴影是一种屏幕空间效果，可提高接触硬化和阴影的准确性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光照函数",
+      "predicate": "应用于",
+      "object": "可移动和固定光源",
+      "context": "光照函数是一种材质类型，可应用于非光照贴图光源，过滤光源强度或应用动画纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IES光源配置文件",
+      "predicate": "描述",
+      "object": "光分布",
+      "context": "IES光源配置文件使用实际测量数据描述光源的光分布，是照明行业的标准方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定向光源",
+      "predicate": "包含",
+      "object": "级联阴影贴图",
+      "context": "定向光源包含级联阴影贴图设置，用于优化远距离阴影质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "级联阴影贴图",
+      "predicate": "优化",
+      "object": "动态阴影",
+      "context": "级联阴影贴图将相机视图分割成不同级联，优化整个场景的动态阴影质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "阴影性能",
+      "predicate": "取决于",
+      "object": "阴影方法",
+      "context": "阴影性能在很大程度上取决于项目所采用的阴影方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减半径",
+      "predicate": "控制",
+      "object": "阴影范围",
+      "context": "衰减半径设置光源影响的边界区域，限制动态阴影投射光源的范围以提高性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "阴影贴图分辨率",
+      "predicate": "影响",
+      "object": "阴影质量",
+      "context": "阴影贴图分辨率属性可以增加光源的阴影贴图，以牺牲性能换取质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:47:34.435Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15467 字符)",
+      "timestamp": "2025-06-15T20:46:38.907Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 23567,
+    "contentLength": 15467,
+    "processingTimeMs": 55533
+  }
+}

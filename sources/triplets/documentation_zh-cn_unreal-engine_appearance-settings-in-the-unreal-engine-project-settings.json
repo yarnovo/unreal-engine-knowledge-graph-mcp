@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_appearance-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_appearance-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "外观设置",
+      "predicate": "包含",
+      "object": "单位设置",
+      "context": "外观设置是项目设置的一部分，单位设置是其中的一个子模块，学习者需要了解外观设置的整体结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "外观设置",
+      "predicate": "包含",
+      "object": "引用查看器设置",
+      "context": "引用查看器设置是外观设置的另一个重要组成部分，帮助学习者理解项目设置的组织结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单位设置",
+      "predicate": "支持",
+      "object": "距离/长度单位",
+      "context": "单位设置提供了多种物理量单位的配置选项，距离/长度是其中一种重要单位类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单位设置",
+      "predicate": "支持",
+      "object": "质量单位",
+      "context": "质量单位是物理模拟中重要的参数，学习者需要了解如何在项目中配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单位设置",
+      "predicate": "支持",
+      "object": "角度单位",
+      "context": "角度单位配置影响旋转和方向相关的属性显示，对3D开发特别重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角度单位",
+      "predicate": "包含选项",
+      "object": "度",
+      "context": "度是最常用的角度单位，学习者需要了解这个基本选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角度单位",
+      "predicate": "包含选项",
+      "object": "弧度",
+      "context": "弧度是数学计算中常用的角度单位，学习者需要了解何时选择这种单位",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "速度/速率单位",
+      "predicate": "包含选项",
+      "object": "厘米/秒",
+      "context": "厘米/秒是小规模物理模拟中常用的速度单位",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "速度/速率单位",
+      "predicate": "包含选项",
+      "object": "米/秒",
+      "context": "米/秒是国际单位制中的标准速度单位",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "引用查看器设置",
+      "predicate": "控制",
+      "object": "显示可搜索名称",
+      "context": "引用查看器设置可以配置是否默认显示可搜索名称，这对资源管理很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "引用查看器设置",
+      "predicate": "控制",
+      "object": "默认最大搜索广度",
+      "context": "搜索广度设置影响引用查看器的性能和行为，学习者需要合理配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "显示可搜索名称",
+      "predicate": "包含选项",
+      "object": "无偏好",
+      "context": "无偏好选项使用编辑器默认设置，是保守的选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "显示可搜索名称",
+      "predicate": "包含选项",
+      "object": "默认显示",
+      "context": "默认显示选项可以确保引用关系更直观可见",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "显示可搜索名称",
+      "predicate": "包含选项",
+      "object": "默认隐藏",
+      "context": "默认隐藏选项可以减少界面杂乱，适合熟悉项目的开发者",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单位设置",
+      "predicate": "影响",
+      "object": "编辑器属性显示",
+      "context": "单位设置决定了编辑器界面中各种物理量的显示方式，影响开发体验",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "单位设置",
+      "predicate": "影响",
+      "object": "组件变换显示",
+      "context": "组件变换是3D开发中的基础操作，其单位显示直接影响开发者的空间感知",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:05:01.551Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3277,
+    "contentLength": 2215,
+    "processingTimeMs": 53122
+  }
+}

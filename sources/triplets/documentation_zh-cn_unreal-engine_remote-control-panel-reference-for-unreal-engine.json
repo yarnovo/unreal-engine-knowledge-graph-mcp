@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_remote-control-panel-reference-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_remote-control-panel-reference-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "远程控制面板",
+      "predicate": "包含",
+      "object": "菜单",
+      "context": "菜单是远程控制面板的核心组成部分，提供了创建组、公开属性等功能入口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制面板",
+      "predicate": "包含",
+      "object": "公开的属性",
+      "context": "公开的属性区域显示所有已公开到远程控制API的属性和函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制面板",
+      "predicate": "包含",
+      "object": "远程控制实体",
+      "context": "远程控制实体区域显示选定属性的元数据信息，如标签、ID等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制面板",
+      "predicate": "支持",
+      "object": "DMX协议",
+      "context": "面板支持通过DMX协议将公开的属性映射到外部设备",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制面板",
+      "predicate": "支持",
+      "object": "MIDI协议",
+      "context": "面板支持通过MIDI协议将公开的属性映射到外部设备",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制面板",
+      "predicate": "支持",
+      "object": "OSC协议",
+      "context": "面板支持通过OSC协议将公开的属性映射到外部设备",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制面板",
+      "predicate": "关联",
+      "object": "远程控制Web应用程序",
+      "context": "面板可以通过'打开Web应用程序'菜单项启动远程控制Web应用程序",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "菜单",
+      "predicate": "提供",
+      "object": "创建组功能",
+      "context": "菜单中的'创建组'功能允许用户将相似的属性和函数整理在一起",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "菜单",
+      "predicate": "提供",
+      "object": "公开功能",
+      "context": "菜单中的'公开'功能允许用户将蓝图库函数、子系统函数等添加到面板",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "公开的属性",
+      "predicate": "支持",
+      "object": "重命名",
+      "context": "公开的属性支持重命名操作，使函数调用中的引用更加清晰",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "公开的属性",
+      "predicate": "支持",
+      "object": "重置",
+      "context": "公开的属性支持重置操作，可将属性值还原为默认值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制实体",
+      "predicate": "包含",
+      "object": "标签",
+      "context": "标签是远程控制实体的重要元数据，用于在API中唯一标识属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制实体",
+      "predicate": "包含",
+      "object": "ID",
+      "context": "ID是远程控制实体的唯一标识符，用于在API中访问公开的属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX协议",
+      "predicate": "使用",
+      "object": "通用映射",
+      "context": "DMX协议使用通用映射来连接外部设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MIDI协议",
+      "predicate": "依赖",
+      "object": "项目设置",
+      "context": "MIDI协议依赖项目设置中指定的MIDI设备配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OSC协议",
+      "predicate": "使用",
+      "object": "路径名称",
+      "context": "OSC协议使用路径名称来指定OSC设备的服务器地址和路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "协议范围",
+      "predicate": "用于",
+      "object": "属性数值映射",
+      "context": "协议范围用于将外部设备的输入范围点映射到特定的属性数值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "协议日志",
+      "predicate": "记录",
+      "object": "传入数据",
+      "context": "协议日志记录选定协议的传入数据，用于调试和监控",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制预设",
+      "predicate": "是",
+      "object": "配置集合",
+      "context": "远程控制预设是包含所有公开属性和协议映射的配置集合",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "自动绑定",
+      "predicate": "简化",
+      "object": "协议映射",
+      "context": "自动绑定功能简化了协议映射过程，可以快速捕获设备输入",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:36:06.478Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9436 字符)",
+      "timestamp": "2025-06-15T20:35:10.494Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14402,
+    "contentLength": 9436,
+    "processingTimeMs": 55989
+  }
+}

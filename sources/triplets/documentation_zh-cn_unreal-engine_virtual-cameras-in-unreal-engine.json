@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_virtual-cameras-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_virtual-cameras-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚拟摄像机",
+      "predicate": "驱动",
+      "object": "电影摄像机",
+      "context": "虚拟摄像机是虚幻引擎中控制电影摄像机的核心组件，理解这一关系是学习虚拟制片的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟摄像机组件",
+      "predicate": "属于",
+      "object": "虚拟摄像机系统",
+      "context": "VCamComponent是构建虚拟摄像机的基础模块，掌握组件与系统的包含关系有助于理解系统架构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟摄像机组件",
+      "predicate": "支持添加",
+      "object": "修饰符",
+      "context": "修饰符是扩展虚拟摄像机功能的关键元素，了解这种扩展机制对自定义开发很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟摄像机组件",
+      "predicate": "支持添加",
+      "object": "输出提供程序",
+      "context": "输出提供程序决定了虚拟摄像机的输出目标，这是学习多平台适配的必要知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "修饰符",
+      "predicate": "操控",
+      "object": "摄像机数据",
+      "context": "修饰符通过过滤、追踪等功能处理摄像机数据，这是实现高级摄像机效果的核心机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输出提供程序",
+      "predicate": "传送至",
+      "object": "Composure",
+      "context": "了解输出目标选项有助于设计完整的虚拟制片流程",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "输出提供程序",
+      "predicate": "传送至",
+      "object": "媒体框架",
+      "context": "媒体框架集成是虚拟摄像机工作流的重要输出选项",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚拟摄像机系统",
+      "predicate": "支持",
+      "object": "多用户编辑",
+      "context": "多用户协作是现代虚拟制片的核心需求，这一特性对团队工作流至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟摄像机",
+      "predicate": "集成",
+      "object": "实时链接",
+      "context": "实时链接支持使虚拟摄像机能够与外部追踪系统交互，这是实现混合制片的关键",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟摄像机",
+      "predicate": "适用于",
+      "object": "虚拟制片",
+      "context": "虚拟摄像机是虚拟制片工作流的核心工具，理解这一应用场景对学习整体流程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Remote",
+      "predicate": "接收",
+      "object": "虚拟摄像机输出",
+      "context": "移动端应用与虚拟摄像机的交互是现场拍摄的重要工作方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚拟摄像机系统",
+      "predicate": "包含",
+      "object": "UMG功能按钮",
+      "context": "自定义UI功能扩展是虚拟摄像机系统的特色功能，对界面定制开发有参考价值",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚拟摄像机",
+      "predicate": "关联",
+      "object": "Sequencer",
+      "context": "虚拟摄像机常与Sequencer配合使用创建过场动画，这是影视化内容创作的关键组合",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "虚拟摄像机",
+      "predicate": "关联",
+      "object": "Take Recorder",
+      "context": "Take Recorder可用于记录虚拟摄像机拍摄内容，两者在拍摄工作流中密切相关",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T21:28:59.793Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6052,
+    "contentLength": 4448,
+    "processingTimeMs": 45051
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_map-containers-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_map-containers-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "TMap",
+      "predicate": "属于",
+      "object": "虚幻引擎容器",
+      "context": "TMap是虚幻引擎中最常用的容器之一，用于存储键值对",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TMap",
+      "predicate": "基于",
+      "object": "哈希运算",
+      "context": "TMap的结构基于对键进行哈希运算，类似于TSet",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TMap",
+      "predicate": "存储",
+      "object": "键值对",
+      "context": "TMap将数据存储为键值对（TPair<KeyType, ValueType>）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TMap",
+      "predicate": "支持",
+      "object": "值类型",
+      "context": "TMap是值类型，支持复制、赋值和析构函数运算，拥有元素的强所有权",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TMap",
+      "predicate": "依赖",
+      "object": "GetTypeHash",
+      "context": "TMap的键类型必须支持GetTypeHash函数和operator==",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TMultiMap",
+      "predicate": "扩展",
+      "object": "TMap",
+      "context": "TMultiMap支持存储多个相同的键，是TMap的扩展",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TMap",
+      "predicate": "使用",
+      "object": "集合分配器",
+      "context": "TMap使用集合分配器（TSetAllocator）来控制内存分配行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TMap",
+      "predicate": "包含",
+      "object": "KeyFuncs",
+      "context": "KeyFuncs是TMap的模板参数，用于定义如何从元素类型获取键、比较键和哈希键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TMap",
+      "predicate": "支持",
+      "object": "Add",
+      "context": "Add函数用于向TMap添加键值对",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TMap",
+      "predicate": "支持",
+      "object": "Emplace",
+      "context": "Emplace函数用于防止插入映射时创建临时文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TMap",
+      "predicate": "支持",
+      "object": "Append",
+      "context": "Append函数用于合并映射，将一个映射的所有元素移至另一个映射",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TMap",
+      "predicate": "支持",
+      "object": "迭代",
+      "context": "TMap支持通过范围for循环或CreateIterator函数进行迭代",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TMap",
+      "predicate": "支持",
+      "object": "Find",
+      "context": "Find函数用于查找键对应的值，返回指针",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TMap",
+      "predicate": "支持",
+      "object": "Remove",
+      "context": "Remove函数用于从TMap中移除元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TMap",
+      "predicate": "支持",
+      "object": "排序",
+      "context": "TMap支持通过KeySort和ValueSort函数按键或值排序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TMap",
+      "predicate": "支持",
+      "object": "Slack管理",
+      "context": "TMap支持通过Reserve、Compact和Shrink函数管理内存slack",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TMap",
+      "predicate": "替代",
+      "object": "TArray",
+      "context": "在需要键值对存储时，TMap可以替代TArray",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "TMap",
+      "predicate": "类似",
+      "object": "TSet",
+      "context": "TMap和TSet都基于哈希运算，但TMap存储键值对而TSet只存储键",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "KeyFuncs",
+      "predicate": "定义",
+      "object": "键操作",
+      "context": "KeyFuncs定义了如何从元素获取键、比较键和哈希键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TMap",
+      "predicate": "支持",
+      "object": "UPROPERTY",
+      "context": "TMap可以用UPROPERTY宏标记，支持在编辑器中编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:50:58.246Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (22544 字符)",
+      "timestamp": "2025-06-15T19:49:50.483Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 30686,
+    "contentLength": 22544,
+    "processingTimeMs": 67765
+  }
+}

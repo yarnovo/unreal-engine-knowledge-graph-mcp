@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_neural-network-engine-overview-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_neural-network-engine-overview-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "神经网络引擎（NNE）",
+      "predicate": "提供",
+      "object": "通用API",
+      "context": "NNE通过通用API访问不同神经网络运行时，帮助学习者理解NNE的核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "神经网络引擎（NNE）",
+      "predicate": "包含",
+      "object": "运行时",
+      "context": "NNE通过运行时插件实现功能，学习者需要了解运行时是NNE的核心组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "神经网络引擎（NNE）",
+      "predicate": "支持",
+      "object": "实时推理",
+      "context": "NNE支持实时推理，帮助学习者理解其在游戏AI和编辑器功能中的应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "接口",
+      "predicate": "实现",
+      "object": "运行时",
+      "context": "运行时通过实现接口来提供功能，学习者需要理解接口与运行时的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "INNERuntimeCPU",
+      "predicate": "用于",
+      "object": "CPU推理",
+      "context": "INNERuntimeCPU专门用于CPU上的推理，帮助学习者区分不同接口的适用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "INNERuntimeGPU",
+      "predicate": "用于",
+      "object": "GPU推理",
+      "context": "INNERuntimeGPU专门用于GPU上的推理，帮助学习者区分不同接口的适用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "INNERuntimeRDG",
+      "predicate": "用于",
+      "object": "渲染依赖性图表",
+      "context": "INNERuntimeRDG与渲染依赖性图表集成，帮助学习者理解其在渲染管线中的应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UNNEModelData",
+      "predicate": "存储",
+      "object": "模型数据",
+      "context": "UNNEModelData资产存储神经网络模型数据，帮助学习者理解资产与模型的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模型",
+      "predicate": "创建",
+      "object": "模型实例",
+      "context": "模型实例由模型创建，帮助学习者理解模型与实例的层次关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模型实例",
+      "predicate": "运行",
+      "object": "推理",
+      "context": "模型实例用于运行推理，帮助学习者理解实例的实际用途",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NNE",
+      "predicate": "依赖",
+      "object": "运行时插件",
+      "context": "NNE功能依赖运行时插件，帮助学习者理解NNE的架构依赖",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NNE",
+      "predicate": "支持",
+      "object": "多种文件格式",
+      "context": "NNE支持多种神经网络模型文件格式，帮助学习者了解其兼容性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "渲染依赖性图表",
+      "predicate": "集成",
+      "object": "INNERuntimeRDG",
+      "context": "INNERuntimeRDG与渲染依赖性图表紧密集成，帮助学习者理解其在渲染管线中的作用",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NNE",
+      "predicate": "适用于",
+      "object": "游戏AI",
+      "context": "NNE适用于游戏AI开发，帮助学习者理解其应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "NNE",
+      "predicate": "适用于",
+      "object": "编辑器功能",
+      "context": "NNE适用于编辑器功能开发，帮助学习者理解其应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:07:15.615Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 13342,
+    "contentLength": 7482,
+    "processingTimeMs": 58594
+  }
+}

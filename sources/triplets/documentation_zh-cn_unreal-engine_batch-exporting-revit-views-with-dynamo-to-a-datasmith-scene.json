@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_batch-exporting-revit-views-with-dynamo-to-a-datasmith-scene",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_batch-exporting-revit-views-with-dynamo-to-a-datasmith-scene.md",
+  "triples": [
+    {
+      "subject": "Dynamo for Revit",
+      "predicate": "类似于",
+      "object": "虚幻引擎蓝图脚本系统",
+      "context": "帮助理解Dynamo for Revit的功能定位，作为可视化编程工具",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Dynamo for Revit",
+      "predicate": "访问",
+      "object": "Revit API",
+      "context": "理解Dynamo如何与Revit交互的基础能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith Revit导出器",
+      "predicate": "使用",
+      "object": "Dynamo",
+      "context": "了解导出器的工作机制依赖Dynamo实现自动化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith Revit导出器",
+      "predicate": "生成",
+      "object": ".udatasmith文件",
+      "context": "明确导出器的核心输出格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": ".udatasmith文件",
+      "predicate": "用于",
+      "object": "虚幻引擎",
+      "context": "理解文件格式的最终使用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DatasmithDynamoNode.dll",
+      "predicate": "包含",
+      "object": "Datasmith Dynamo节点",
+      "context": "掌握插件安装后新增的功能组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith Dynamo节点",
+      "predicate": "导出",
+      "object": "Revit 3D视图",
+      "context": "节点核心功能说明",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "曲面细分等级",
+      "predicate": "影响",
+      "object": "网格体分辨率",
+      "context": "理解导出质量的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "批处理导出器脚本",
+      "predicate": "依赖",
+      "object": "Python节点",
+      "context": "了解脚本实现的技术依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Get 3D Views节点",
+      "predicate": "获取",
+      "object": "Revit 3D视图列表",
+      "context": "掌握视图筛选的前置步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视图名称前缀",
+      "predicate": "用于",
+      "object": "视图筛选",
+      "context": "理解批量导出的过滤逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "网格体曲面细分量",
+      "predicate": "对应",
+      "object": "Revit FBX导出器分辨率",
+      "context": "理解参数设置的参考基准",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "批处理导出器",
+      "predicate": "支持",
+      "object": "选择性导出",
+      "context": "掌握工具的核心功能特点",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:11:40.353Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7389,
+    "contentLength": 5187,
+    "processingTimeMs": 44654
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_overview-of-submixes-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_overview-of-submixes-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Submix",
+      "predicate": "属于",
+      "object": "虚幻引擎音频系统",
+      "context": "Submix是虚幻引擎中音频渲染器的基本组件，用于音频混合和DSP效果处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Submix",
+      "predicate": "实现",
+      "object": "音频混合",
+      "context": "Submix将单个资源生成的音频混合到单个输出缓冲区中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Submix",
+      "predicate": "优化",
+      "object": "DSP效果",
+      "context": "Submix可以同时将DSP效果应用于多个声源，提高处理效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主Submix",
+      "predicate": "属于",
+      "object": "Submix",
+      "context": "主Submix是特殊的Submix类型，直接连接到硬件输出端点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主Submix",
+      "predicate": "连接",
+      "object": "硬件输出",
+      "context": "主Submix是音频混合器的第一个渲染阶段，之后音频会传递到平台音频后端",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sound Cue",
+      "predicate": "发送到",
+      "object": "Submix",
+      "context": "Sound Cue和其他USoundBase一样，可以发送到Submix进行处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "控制",
+      "object": "Submix",
+      "context": "可以使用蓝图修改Submix上的属性，动态控制Submix处理音频的方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Submix图表编辑器",
+      "predicate": "用于",
+      "object": "编辑Submix",
+      "context": "Submix图表编辑器允许用户连接和配置Submix结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Submix",
+      "predicate": "包含",
+      "object": "Submix效果链",
+      "context": "Submix效果链是一组Submix效果，通过它馈送混合的Submix音频",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Submix效果预设",
+      "predicate": "扩展",
+      "object": "Submix功能",
+      "context": "Submix效果预设可以添加到Submix效果链中，增强音频处理能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频音量",
+      "predicate": "控制",
+      "object": "Submix发送",
+      "context": "音频音量功能支持基于与音频音量几何体的相对位置将音频发送至Submix",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "包络跟踪器",
+      "predicate": "分析",
+      "object": "Submix音频",
+      "context": "包络跟踪器是一种DSP算法，用于分析Submix中音频信号的振幅",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "频谱分析",
+      "predicate": "分析",
+      "object": "Submix音频",
+      "context": "频谱分析提供Submix音频的频带分析，可用于实时音频处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主混响Submix",
+      "predicate": "处理",
+      "object": "混响效果",
+      "context": "主混响Submix专门用于处理音效的混响效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主EQSubmix",
+      "predicate": "处理",
+      "object": "均衡效果",
+      "context": "主EQSubmix用于处理音效的均衡效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Submix",
+      "predicate": "支持",
+      "object": "音频录制",
+      "context": "Submix支持将音频输出录制到.wav文件或声波资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成和DSP效果插件",
+      "predicate": "提供",
+      "object": "Submix效果",
+      "context": "该插件实现了许多Submix效果，并经常添加新的效果类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频衰减",
+      "predicate": "影响",
+      "object": "Submix发送",
+      "context": "衰减设置可以根据距离控制音频发送到Submix的量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Submix",
+      "predicate": "支持",
+      "object": "动态路由",
+      "context": "可以通过蓝图动态地将音频路由到任意Submix",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Submix",
+      "predicate": "支持",
+      "object": "实时分析",
+      "context": "Submix支持通过包络跟踪或频谱分析进行实时音频分析",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:16:42.411Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (19945 字符)",
+      "timestamp": "2025-06-15T20:15:30.536Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 28425,
+    "contentLength": 19945,
+    "processingTimeMs": 71881
+  }
+}

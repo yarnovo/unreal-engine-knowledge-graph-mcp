@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_academic-installation-of-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_academic-installation-of-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "学院环境安装",
+      "context": "文档专门介绍如何在学院环境中安装虚幻引擎，帮助教育机构批量部署",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "学院环境安装",
+      "predicate": "依赖",
+      "object": "Epic Games启动程序",
+      "context": "在学院环境中安装虚幻引擎需要通过Epic Games启动程序进行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Epic Games启动程序",
+      "predicate": "用于",
+      "object": "下载虚幻引擎",
+      "context": "启动程序是下载和安装虚幻引擎的主要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "学院环境安装",
+      "predicate": "替代方案",
+      "object": "GitHub安装",
+      "context": "当学院网络使用代理服务器时，可以通过GitHub安装虚幻引擎作为替代方案",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Lyra初学者游戏",
+      "predicate": "作为",
+      "object": "教学示例",
+      "context": "Lyra初学者游戏被推荐作为游戏设计课程的教学工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "包含",
+      "object": "学习示例",
+      "context": "虚幻引擎提供各种学习示例（如Lyra）用于教学目的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Epic Games启动程序",
+      "predicate": "支持",
+      "object": "离线模式",
+      "context": "启动程序提供离线模式，允许学生在网络中断时继续工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "学院环境安装",
+      "predicate": "涉及",
+      "object": "镜像部署",
+      "context": "在学院环境中安装后，可以通过镜像方式部署到多台计算机",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻引擎更新",
+      "predicate": "通过",
+      "object": "文件复制",
+      "context": "在学院环境中可以通过复制文件的方式更新虚幻引擎",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Epic Games启动程序",
+      "predicate": "可配置",
+      "object": "自动更新",
+      "context": "启动程序的自动更新功能可以通过命令行参数禁用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "学生最佳实践",
+      "predicate": "包括",
+      "object": "项目存储管理",
+      "context": "学生需要将项目存储在不会被定期清理的目录中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "学院环境安装",
+      "predicate": "需要",
+      "object": "网络端口配置",
+      "context": "在某些情况下需要配置网络端口（7777/7778）才能使启动程序正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻引擎安装",
+      "predicate": "关联",
+      "object": "引擎版本选择",
+      "context": "安装时需要选择特定的引擎版本（如5.0.1）",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lyra初学者游戏",
+      "predicate": "依赖",
+      "object": "特定引擎版本",
+      "context": "Lyra示例需要与支持的引擎版本一起使用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "学院环境安装",
+      "predicate": "建议",
+      "object": "删除自动创建项目",
+      "context": "在共享计算机上安装时建议删除自动创建的项目以避免冲突",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:51:42.081Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9206 字符)",
+      "timestamp": "2025-06-15T17:50:49.538Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14211,
+    "contentLength": 9206,
+    "processingTimeMs": 52590
+  }
+}

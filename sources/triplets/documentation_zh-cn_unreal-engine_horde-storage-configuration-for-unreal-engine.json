@@ -1,0 +1,157 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_horde-storage-configuration-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_horde-storage-configuration-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Horde存储系统",
+      "predicate": "实现",
+      "object": "不可变的内容可寻址存储系统",
+      "context": "Horde存储系统在功能上类似于不可变的内容可寻址存储系统，通过哈希值存储和检索项目，帮助学习者理解其核心存储机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde存储系统",
+      "predicate": "包含",
+      "object": "命名空间",
+      "context": "存储被划分为多个互不重叠的命名空间，每个命名空间可以配置不同的后端，帮助学习者理解存储系统的逻辑分区",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "命名空间",
+      "predicate": "配置",
+      "object": "后端",
+      "context": "命名空间指定用于存储实际数据的后端，帮助学习者理解命名空间与后端的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "命名空间",
+      "predicate": "控制",
+      "object": "访问权限",
+      "context": "对存储中内容的访问权限通常在命名空间级别进行控制，帮助学习者理解权限管理机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后端",
+      "predicate": "支持",
+      "object": "本地磁盘缓存",
+      "context": "Horde支持本地磁盘缓存作为后端之一，帮助学习者了解可用的存储选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后端",
+      "predicate": "支持",
+      "object": "内存缓存",
+      "context": "Horde支持内存缓存作为后端之一，帮助学习者了解可用的存储选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后端",
+      "predicate": "支持",
+      "object": "AWS S3 Object Store",
+      "context": "Horde支持AWS S3作为后端之一，帮助学习者了解可用的云存储选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后端",
+      "predicate": "支持",
+      "object": "Azure Blob Store",
+      "context": "Horde支持Azure Blob作为后端之一，帮助学习者了解可用的云存储选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde存储系统",
+      "predicate": "使用",
+      "object": "ref",
+      "context": "所有数据结构的进入点都是一个ref，它保存对树的根节点的引用，帮助学习者理解数据访问机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ref",
+      "predicate": "引用",
+      "object": "根节点",
+      "context": "ref保存对树的根节点的引用，帮助学习者理解数据结构中的引用关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde存储系统",
+      "predicate": "支持",
+      "object": "垃圾回收",
+      "context": "所有未被ref直接或间接引用的节点都将进行垃圾回收处理，帮助学习者理解存储系统的资源管理机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "命名空间",
+      "predicate": "配置",
+      "object": "垃圾回收策略",
+      "context": "命名空间配置垃圾回收策略，帮助学习者理解存储系统的资源管理配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde存储系统",
+      "predicate": "适用于",
+      "object": "大范围负载大小",
+      "context": "设计旨在通过将较大的数据块拆分成较小的数据块来支持大范围的负载大小，帮助学习者理解系统的可扩展性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde存储系统",
+      "predicate": "提供",
+      "object": "缓存优势",
+      "context": "系统在缓存方面具有优势，帮助学习者理解性能优化特性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Horde存储系统",
+      "predicate": "提供",
+      "object": "客户端数据增量补丁优势",
+      "context": "系统在客户端数据增量补丁方面具有优势，帮助学习者理解数据传输优化特性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "globals.json",
+      "predicate": "配置",
+      "object": "命名空间和后端",
+      "context": "命名空间和后端通过globals.json文件的Storage部分进行配置，帮助学习者理解配置文件的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "horde-artifacts",
+      "predicate": "属于",
+      "object": "常见命名空间",
+      "context": "horde-artifacts是Horde中定义的常见命名空间之一，用于存储CI系统中作业步骤生成的构件，帮助学习者理解预定义的命名空间用途",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "horde-logs",
+      "predicate": "属于",
+      "object": "常见命名空间",
+      "context": "horde-logs是Horde中定义的常见命名空间之一，用于存储CI系统中的步骤生成的日志，帮助学习者理解预定义的命名空间用途",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:22:31.556Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4926,
+    "contentLength": 3050,
+    "processingTimeMs": 58714
+  }
+}

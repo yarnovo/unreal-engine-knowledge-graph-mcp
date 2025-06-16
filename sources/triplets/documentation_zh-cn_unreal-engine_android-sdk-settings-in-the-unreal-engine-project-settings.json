@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_android-sdk-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_android-sdk-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "Android SDK",
+      "predicate": "依赖",
+      "object": "Android NDK",
+      "context": "在Android开发中，SDK和NDK通常需要配合使用，NDK用于编译原生代码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android SDK",
+      "predicate": "依赖",
+      "object": "Java",
+      "context": "Android开发需要Java环境支持，SDK工具链依赖Java运行环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SDK API级别",
+      "predicate": "控制",
+      "object": "Java编译版本",
+      "context": "SDK API级别决定了用于打包和编译Java的SDK版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NDK API级别",
+      "predicate": "控制",
+      "object": "原生代码编译版本",
+      "context": "NDK API级别决定了用于编译原生代码的NDK版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android SDK",
+      "predicate": "包含",
+      "object": "SDK API级别",
+      "context": "SDK API级别是Android SDK配置的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android NDK",
+      "predicate": "包含",
+      "object": "NDK API级别",
+      "context": "NDK API级别是Android NDK配置的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SDK API级别",
+      "predicate": "影响",
+      "object": "设备兼容性",
+      "context": "选择较高的SDK API级别可能导致应用无法在旧版本设备上运行",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "NDK API级别",
+      "predicate": "影响",
+      "object": "设备兼容性",
+      "context": "选择android-21或更高版本的NDK API级别会导致应用无法在5.0之前版本的设备上运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android SDK",
+      "predicate": "支持",
+      "object": "Android开发",
+      "context": "Android SDK是进行Android应用开发的基础工具包",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android NDK",
+      "predicate": "支持",
+      "object": "原生代码开发",
+      "context": "Android NDK允许开发者使用原生代码(C/C++)进行Android应用开发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Java",
+      "predicate": "支持",
+      "object": "Android SDK工具链",
+      "context": "Java是Android SDK工具链运行的必要环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SDK API级别",
+      "predicate": "可设置为",
+      "object": "matchndk",
+      "context": "SDK API级别可以设置为matchndk以匹配NDK API级别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SDK API级别",
+      "predicate": "可设置为",
+      "object": "latest",
+      "context": "SDK API级别可以设置为latest以使用磁盘上的最新版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NDK API级别",
+      "predicate": "可设置为",
+      "object": "latest",
+      "context": "NDK API级别可以设置为latest以使用磁盘上的最新版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:57:37.109Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2171,
+    "contentLength": 1583,
+    "processingTimeMs": 46269
+  }
+}

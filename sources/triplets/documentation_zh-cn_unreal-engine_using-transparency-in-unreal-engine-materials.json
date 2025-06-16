@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-transparency-in-unreal-engine-materials",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-transparency-in-unreal-engine-materials.md",
+  "triples": [
+    {
+      "subject": "透明度",
+      "predicate": "区别于",
+      "object": "不透明度",
+      "context": "在虚幻引擎中，透明度和不透明度有不同的定义和用途，理解这一区别对材质创建至关重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "透明度",
+      "predicate": "用于模拟",
+      "object": "玻璃/水/烟雾等表面",
+      "context": "透明度可以模拟现实世界中各种类型的表面效果，这是材质设计的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "不透明度",
+      "predicate": "控制",
+      "object": "光线透射程度",
+      "context": "不透明度值决定表面透射光线的程度，这是理解材质表现的关键概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质编辑器",
+      "predicate": "用于创建",
+      "object": "透明材质",
+      "context": "材质编辑器是创建和调整透明材质的主要工具，学习材质编辑必须掌握",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合模式",
+      "predicate": "需要设置为",
+      "object": "半透明",
+      "context": "创建透明材质时必须将混合模式从默认的不透明改为半透明，这是基本操作步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "向量参数",
+      "predicate": "控制",
+      "object": "基础颜色",
+      "context": "向量参数节点用于定义材质的基础颜色属性，是材质参数化的重要组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "标量参数",
+      "predicate": "控制",
+      "object": "不透明度值",
+      "context": "标量参数节点用于调整材质的不透明度值，是创建可调透明材质的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质实例",
+      "predicate": "继承自",
+      "object": "基础材质",
+      "context": "材质实例允许在不修改基础材质的情况下调整参数，这是材质工作流程的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光照模式",
+      "predicate": "影响",
+      "object": "透明材质反射",
+      "context": "更改光照模式可以控制透明材质是否显示场景反射，这是高级材质效果的关键设置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "金属感和粗糙度",
+      "predicate": "影响",
+      "object": "透明材质反射效果",
+      "context": "金属感和粗糙度参数可以调整透明材质的反射特性，这是创建逼真材质的重要技术",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "薄透明着色模型",
+      "predicate": "专门用于",
+      "object": "彩色透明材质",
+      "context": "薄透明着色模型特别适合表现彩色玻璃等材质，是高级透明效果的技术选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "半透明彩色阴影",
+      "predicate": "依赖",
+      "object": "静态光照和Lightmass",
+      "context": "理解半透明彩色阴影的技术限制对光照方案设计很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "过度绘制",
+      "predicate": "导致",
+      "object": "性能问题",
+      "context": "理解过度绘制与性能的关系对优化透明材质使用至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "着色器复杂度视图",
+      "predicate": "用于诊断",
+      "object": "过度绘制问题",
+      "context": "着色器复杂度视图是识别和解决透明材质性能问题的关键工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "半透明排序优先级",
+      "predicate": "控制",
+      "object": "透明对象渲染顺序",
+      "context": "掌握半透明排序优先级可以解决透明对象间的渲染顺序问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "透明度",
+      "predicate": "关联",
+      "object": "材质性能优化",
+      "context": "理解透明度与性能的关系是成为高级材质艺术家的关键",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "初学者内容包",
+      "predicate": "包含",
+      "object": "透明材质示例资产",
+      "context": "初学者内容包提供了学习透明材质的基础资源，是推荐的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质图表",
+      "predicate": "由...组成",
+      "object": "材质表达式节点",
+      "context": "理解材质图表的结构是学习材质编辑的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "透明材质",
+      "predicate": "可以实现",
+      "object": "多种视觉效果",
+      "context": "透明材质的多样化应用展示了其在游戏开发中的重要性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质参数",
+      "predicate": "允许",
+      "object": "实时调整材质属性",
+      "context": "材质参数系统提供了灵活调整材质的方法，是高效工作流程的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:26:57.359Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11924 字符)",
+      "timestamp": "2025-06-15T21:26:02.757Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19268,
+    "contentLength": 11924,
+    "processingTimeMs": 54607
+  }
+}

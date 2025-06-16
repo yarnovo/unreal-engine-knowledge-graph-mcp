@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_importing-skeletal-meshes-using-fbx-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_importing-skeletal-meshes-using-fbx-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "FBX导入",
+      "context": "虚幻引擎通过FBX格式支持从外部3D建模程序导入骨骼网格体，这是3D资源导入的核心功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX导入",
+      "predicate": "依赖",
+      "object": "FBX 2020.2版本",
+      "context": "虚幻引擎FBX导入管线明确要求使用FBX 2020.2版本，其他版本可能导致兼容性问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "可导出为",
+      "object": "FBX文件",
+      "context": "骨骼网格体可以从3D建模软件(如Maya、3DS Max)导出为FBX文件格式，这是导入虚幻引擎的前提步骤",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "用于",
+      "object": "导入骨骼网格体",
+      "context": "内容浏览器是虚幻编辑器中导入FBX文件和查看导入结果的主要界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Persona",
+      "predicate": "用于",
+      "object": "验证骨骼网格体",
+      "context": "Persona是虚幻引擎中专门用于查看和验证导入的骨骼网格体的工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX导入选项",
+      "predicate": "控制",
+      "object": "骨骼网格体导入设置",
+      "context": "FBX导入选项对话框提供了多种设置参数，可以控制骨骼网格体导入的具体方式和属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3D建模程序",
+      "predicate": "包含",
+      "object": "Maya",
+      "context": "Maya是支持导出骨骼网格体到虚幻引擎的主流3D建模软件之一",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "3D建模程序",
+      "predicate": "包含",
+      "object": "3DS Max",
+      "context": "3DS Max是支持导出骨骼网格体到虚幻引擎的主流3D建模软件之一",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "可以共享",
+      "object": "骨骼资源",
+      "context": "多个骨骼网格体可以共享相同的骨骼资源，这在导入时需要特别指定",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FBX导入器",
+      "predicate": "提供",
+      "object": "批量导入功能",
+      "context": "FBX导入器提供'全部导入'按钮，支持一次性导入多个FBX文件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "骨骼网格体导入",
+      "predicate": "需要",
+      "object": "3D建模应用程序",
+      "context": "导入骨骼网格体前需要先在3D建模软件中创建和导出模型",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FBX文件",
+      "predicate": "可以包含",
+      "object": "多个骨骼网格体",
+      "context": "单个FBX文件可以包含多个骨骼网格体，导入时会被拆分为多个资源",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "需要",
+      "object": "验证导入结果",
+      "context": "导入骨骼网格体后需要在Persona中验证导入是否成功和正确",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:32:48.787Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8687,
+    "contentLength": 6485,
+    "processingTimeMs": 60646
+  }
+}

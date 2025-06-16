@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_blueprint-struct-variables-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_blueprint-struct-variables-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "结构体",
+      "predicate": "包含",
+      "object": "数据类型",
+      "context": "结构体是相关联的不同数据类型的合集，便于进行访问。理解结构体的组成有助于学习如何组织和访问复杂数据。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "矢量",
+      "predicate": "属于",
+      "object": "结构体",
+      "context": "矢量是结构体的一种，保存X、Y、Z浮点变量。了解矢量作为结构体的实例有助于理解结构体的实际应用。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "旋转体",
+      "predicate": "属于",
+      "object": "结构体",
+      "context": "旋转体是结构体的一种，用于保存旋转数据。理解旋转体作为结构体的实例有助于学习3D空间中的旋转表示。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形",
+      "predicate": "属于",
+      "object": "结构体",
+      "context": "变形结构体保存Actor的位置、旋转和大小数据。理解变形结构体有助于学习3D对象的空间变换。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图变量",
+      "predicate": "支持",
+      "object": "结构体变量",
+      "context": "结构体变量可以像其他蓝图变量一样添加到蓝图中。理解这一点有助于学习如何在蓝图中使用复杂数据类型。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分离结构体引脚",
+      "predicate": "用于",
+      "object": "访问结构体成员",
+      "context": "分离结构体引脚可以将结构体中的变量公开为单独引脚，便于访问和操作。这是学习结构体数据访问的重要技术。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Break Struct节点",
+      "predicate": "用于",
+      "object": "拆分结构体",
+      "context": "Break Struct节点可以将结构体拆分为单独部分，便于在函数或宏中重复使用。这是学习结构体数据处理的关键技术。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Make Struct节点",
+      "predicate": "用于",
+      "object": "组成结构体",
+      "context": "Make Struct节点可以通过其包含的所有数据组成结构体。理解这一点有助于学习如何构建和初始化结构体。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Set Members in Struct节点",
+      "predicate": "用于",
+      "object": "修改结构体成员",
+      "context": "Set Members in Struct节点可以精确修改结构体中的特定元素。这是学习结构体数据更新的重要技术。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义结构体",
+      "predicate": "扩展",
+      "object": "结构体功能",
+      "context": "自定义结构体允许开发者定义自己的变量和数值集合。学习创建自定义结构体是掌握数据结构自定义的关键。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "用于",
+      "object": "创建自定义结构体",
+      "context": "在内容浏览器中右键选择创建高级资源可以创建自定义结构体。这是学习结构体创建流程的重要步骤。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "结构窗口",
+      "predicate": "用于",
+      "object": "定义结构体成员",
+      "context": "结构窗口用于添加变量及其默认值到自定义结构体中。理解这一点是学习结构体定义的基础。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Break Struct节点",
+      "predicate": "支持",
+      "object": "自定义结构体",
+      "context": "自定义结构体也可以使用Break Struct节点进行拆分。这表明通用结构体操作技术适用于自定义结构体。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "隐藏未连接引脚",
+      "predicate": "用于",
+      "object": "简化Break Struct节点",
+      "context": "隐藏未连接引脚功能可以简化Break Struct节点的显示。这是学习蓝图界面优化的重要技巧。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "矢量",
+      "predicate": "组成",
+      "object": "变形结构体",
+      "context": "变形结构体使用矢量结构体来保存位置和大小数据。理解这种嵌套关系有助于学习复杂数据结构的构建。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "旋转体",
+      "predicate": "组成",
+      "object": "变形结构体",
+      "context": "变形结构体使用旋转体结构体来保存旋转数据。理解这种嵌套关系有助于学习3D空间变换的表示方法。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "支持",
+      "object": "结构体操作",
+      "context": "蓝图提供了多种结构体操作节点，如Break、Make和Set Members等。全面理解这些节点是掌握蓝图编程的关键。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "结构体变量",
+      "predicate": "用于",
+      "object": "数据组织",
+      "context": "结构体变量的主要用途是组织和关联相关数据。理解这一点是学习有效数据管理的基础。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Hit Result",
+      "predicate": "是",
+      "object": "结构体",
+      "context": "Hit Result是用于碰撞检测的结构体，可以拆分为Impact Point等成员。理解这种专用结构体有助于学习物理系统交互。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:15:29.619Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8963,
+    "contentLength": 6339,
+    "processingTimeMs": 68167
+  }
+}

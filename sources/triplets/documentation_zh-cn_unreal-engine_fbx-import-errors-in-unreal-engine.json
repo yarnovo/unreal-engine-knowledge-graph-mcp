@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_fbx-import-errors-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_fbx-import-errors-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "FBX导入器",
+      "predicate": "支持",
+      "object": "多边形平滑",
+      "context": "FBX导入器支持在多边形平面上的平滑，帮助学习者理解导入器对平滑处理的支持范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX导入器",
+      "predicate": "依赖",
+      "object": "FBX导入器插件",
+      "context": "FBX导入器需要启用FBX导入器插件中的'Export Smoothing Groups'选项才能正确处理平滑组信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "受限于",
+      "object": "MAX_MESH_MATERIAL_INDEX",
+      "context": "静态网格体的材质索引受限于MAX_MESH_MATERIAL_INDEX(64)，学习者需要了解这一限制以避免导入错误",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体",
+      "predicate": "要求",
+      "object": "唯一骨骼命名",
+      "context": "骨架网格体要求每个骨骼的命名必须唯一，这是导入骨架网格体的基本要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体",
+      "predicate": "依赖",
+      "object": "绑定姿势",
+      "context": "骨架网格体导入需要有效的绑定姿势，否则可能导致导入失败",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画",
+      "predicate": "要求",
+      "object": "根骨骼轨迹",
+      "context": "动画数据必须包含根骨骼轨迹，这是动画导入的基本要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画",
+      "predicate": "匹配",
+      "object": "骨架层级",
+      "context": "动画的骨骼层级必须与目标骨架的层级匹配，否则会导致导入错误",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX文件",
+      "predicate": "包含",
+      "object": "模型物体",
+      "context": "FBX文件必须包含模型物体才能成功导入，这是导入的基本要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体LOD",
+      "predicate": "要求",
+      "object": "连续LOD索引",
+      "context": "网格体LOD要求从0到N-1的所有LOD都必须存在，这是LOD导入的基本规则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理资源",
+      "predicate": "依赖",
+      "object": "骨架网格体",
+      "context": "创建物理资源需要依赖成功的骨架网格体导入，学习者需要了解这一依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX导入错误",
+      "predicate": "关联",
+      "object": "DCC工具修复",
+      "context": "许多FBX导入错误可以通过在DCC工具中修复源内容来解决，学习者需要了解这一关联",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "平滑组",
+      "predicate": "影响",
+      "object": "顶点法线",
+      "context": "平滑组信息影响顶点法线的正确生成，这是建模和导入的重要知识点",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "骨架网格体",
+      "predicate": "限制",
+      "object": "最大骨骼数",
+      "context": "虚幻引擎对骨架网格体的最大骨骼数有限制(65536)，这是性能优化的知识点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画导入",
+      "predicate": "依赖",
+      "object": "时间选项设置",
+      "context": "动画导入的正确性依赖于适当的时间选项设置，这是动画工作流的重要知识点",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FBX导入器",
+      "predicate": "支持",
+      "object": "三角剖分",
+      "context": "FBX导入器支持将多边形网格体转换为三角形网格体，这是模型处理的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:03:30.804Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8896,
+    "contentLength": 4526,
+    "processingTimeMs": 54645
+  }
+}

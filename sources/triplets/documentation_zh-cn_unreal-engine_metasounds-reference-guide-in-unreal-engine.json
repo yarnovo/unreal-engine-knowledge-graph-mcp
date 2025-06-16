@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_metasounds-reference-guide-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_metasounds-reference-guide-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "MetaSound编辑器",
+      "predicate": "包含",
+      "object": "MetaSound图表",
+      "context": "MetaSound编辑器是创建和编辑MetaSound的主要工具，其中包含MetaSound图表作为核心设计界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSound图表",
+      "predicate": "由...组成",
+      "object": "引脚和节点",
+      "context": "MetaSound图表由各种引脚和节点构成，这些元素共同定义了音频处理逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSound源",
+      "predicate": "区别于",
+      "object": "MetaSound补丁",
+      "context": "两者都是MetaSound资产类型，但只有MetaSound源可以自行生成音频",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSound预设",
+      "predicate": "继承自",
+      "object": "父MetaSound",
+      "context": "预设从父资产继承只读图表，并可覆盖默认输入数值，实现资产复用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "引脚",
+      "predicate": "分为",
+      "object": "单独和数组类型",
+      "context": "引脚通过圆形(单独)和区块(数组)连接器区分数据类型，影响节点间数据交互方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "触发器引脚",
+      "predicate": "类似于",
+      "object": "蓝图执行引脚",
+      "context": "两者都用于控制执行流程，但触发器引脚专为音频时序设计，支持采样级精度",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "构造函数引脚",
+      "predicate": "优化",
+      "object": "MetaSound性能",
+      "context": "通过只读特性和运行时静态性减少动态计算开销，类似于C++的const声明",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "变量节点",
+      "predicate": "提供",
+      "object": "状态存储",
+      "context": "通过Get/Set Variable节点实现跨节点的状态共享，但不同于蓝图变量不可外部访问",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图表节点",
+      "predicate": "实现",
+      "object": "功能模块化",
+      "context": "允许引用其他MetaSound图表，支持复杂系统的分层设计和功能复用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Wave Player节点",
+      "predicate": "支持",
+      "object": "音频提示点",
+      "context": "通过On Cue Point触发器响应音频波形中嵌入的元数据，实现精确的音频事件同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ADSR包络",
+      "predicate": "扩展",
+      "object": "AD包络",
+      "context": "在起音-衰减基础上增加延持和释音阶段，更适合乐器音色控制",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "低频振荡器(LFO)",
+      "predicate": "用于",
+      "object": "调制效果",
+      "context": "通过周期性变化控制参数，可创建颤音、震音等动态音频效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MIDI Note Quantizer",
+      "predicate": "依赖",
+      "object": "音阶定义",
+      "context": "需要明确音级数组和根音设置才能正确量化音符到音阶",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "空间化节点",
+      "predicate": "基于",
+      "object": "声学模型",
+      "context": "如ITD Panner使用耳间时间差原理，Stereo Panner实现等功率/线性平移法则",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "触发器系统",
+      "predicate": "支持",
+      "object": "精确时序控制",
+      "context": "通过各类Trigger节点实现采样级精度的音频事件编排和条件逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频总线",
+      "predicate": "连接",
+      "object": "外部系统",
+      "context": "通过Audio Bus Reader节点实现MetaSound与引擎音频系统的数据交换",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "数学节点",
+      "predicate": "应用于",
+      "object": "信号处理",
+      "context": "如Map Range可实现音频速率参数调制，支持FM合成等高级音频技术",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "混合节点",
+      "predicate": "实现",
+      "object": "信号路由",
+      "context": "支持多路音频混合和增益控制，是复杂音频网络的基础构建块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "注释系统",
+      "predicate": "辅助",
+      "object": "图表可读性",
+      "context": "通过注释框和气泡注释帮助组织和记录复杂的音频设计逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "接口",
+      "predicate": "标准化",
+      "object": "系统交互",
+      "context": "如UE.Source.OneShot定义播放完成事件，确保MetaSound与引擎行为的兼容性",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T19:54:57.115Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (96152 字符)",
+      "timestamp": "2025-06-15T19:53:39.739Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 138153,
+    "contentLength": 96152,
+    "processingTimeMs": 77388
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_slate-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_slate-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "Slate设置",
+      "predicate": "包含",
+      "object": "约束画布",
+      "context": "Slate设置是项目设置中的一个模块，约束画布是其下的一个具体配置项，了解这种包含关系有助于学习者在项目设置中定位相关功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "约束画布",
+      "predicate": "实现",
+      "object": "SConstraintCanvas",
+      "context": "约束画布功能是通过SConstraintCanvas类实现的，了解这种实现关系有助于开发者深入理解底层实现机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "显式画布子ZOrder",
+      "predicate": "控制",
+      "object": "渲染顺序",
+      "context": "显式画布子ZOrder设置允许控制子节点的渲染顺序，这对UI开发中层级管理至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "显式画布子ZOrder",
+      "predicate": "适用于",
+      "object": "移动平台",
+      "context": "文档特别推荐为移动平台启用该设置，说明这是移动端UI优化的一个重要选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SConstraintCanvas",
+      "predicate": "依赖",
+      "object": "显式画布子ZOrder",
+      "context": "SConstraintCanvas的子节点需要依赖显式画布子ZOrder设置来实现正确的渲染层级，这是UI开发的基础知识",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Slate设置",
+      "predicate": "关联",
+      "object": "UI开发",
+      "context": "Slate设置中的各项配置都与UI开发密切相关，这是学习虚幻引擎UI系统的重要入口",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:49:24.357Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 1226,
+    "contentLength": 962,
+    "processingTimeMs": 32233
+  }
+}

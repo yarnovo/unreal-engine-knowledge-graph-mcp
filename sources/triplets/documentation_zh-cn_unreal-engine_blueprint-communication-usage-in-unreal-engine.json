@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_blueprint-communication-usage-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_blueprint-communication-usage-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "蓝图通信",
+      "predicate": "包含",
+      "object": "直接蓝图通信",
+      "context": "直接蓝图通信是蓝图通信的一种形式，用于在关卡Actor之间传递信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图通信",
+      "predicate": "包含",
+      "object": "事件分配器",
+      "context": "事件分配器是蓝图通信的一种形式，用于通知其他蓝图已发生事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图通信",
+      "predicate": "包含",
+      "object": "蓝图接口",
+      "context": "蓝图接口是蓝图通信的一种形式，用于实现与多种类型对象的互动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图通信",
+      "predicate": "包含",
+      "object": "蓝图转换",
+      "context": "蓝图转换是蓝图通信的一种形式，用于访问对象的特殊版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "直接蓝图通信",
+      "predicate": "适用于",
+      "object": "关卡Actor通信",
+      "context": "直接蓝图通信适用于关卡中存在两个Actors需要进行相互通信的场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件分配器",
+      "predicate": "用于",
+      "object": "一对多通信",
+      "context": "事件分配器适用于告知多个正在倾听的蓝图已发生事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图接口",
+      "predicate": "实现",
+      "object": "一般方法互动",
+      "context": "蓝图接口用于实现与多种类型对象形成互动的一般方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图转换",
+      "predicate": "用于",
+      "object": "访问特殊版本",
+      "context": "蓝图转换用于访问对象的特殊版本，以执行特有功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件分配器",
+      "predicate": "绑定",
+      "object": "蓝图",
+      "context": "事件分配器可以绑定到任意数量的蓝图中，以响应事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图接口",
+      "predicate": "视为",
+      "object": "合约",
+      "context": "蓝图接口可以视为一种合约，要求应用接口的蓝图承诺应用特定函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图转换",
+      "predicate": "询问",
+      "object": "对象类型",
+      "context": "蓝图转换通过询问对象是否为特殊版本，来决定是否访问其特有功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "直接蓝图通信",
+      "predicate": "依赖",
+      "object": "目标Actor引用",
+      "context": "直接蓝图通信需要获取目标Actor的引用，以便传递信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件分配器",
+      "predicate": "触发",
+      "object": "蓝图反应",
+      "context": "事件分配器触发时，正在倾听的蓝图会独立地执行预期的操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图接口",
+      "predicate": "共享",
+      "object": "特定功能",
+      "context": "蓝图接口使得多种类型对象可以共享特定功能，尽管它们的实现可能不同",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图转换",
+      "predicate": "访问",
+      "object": "特有功能",
+      "context": "蓝图转换允许访问对象的特有功能，前提是该对象是特定类型的实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:14:02.836Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8197,
+    "contentLength": 4871,
+    "processingTimeMs": 49839
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_mrg-configuration-settings-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_mrg-configuration-settings-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Lumen",
+      "predicate": "包含",
+      "object": "屏幕追踪",
+      "context": "Lumen默认启用了屏幕追踪元素，这是理解Lumen全局光照和反射功能的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕追踪",
+      "predicate": "影响",
+      "object": "图层可见性设置",
+      "context": "屏幕追踪会干扰图层的可见性设置，这是配置渲染效果时需要理解的关键关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen屏幕追踪",
+      "predicate": "可通过",
+      "object": "控制台变量禁用",
+      "context": "了解禁用屏幕追踪的方法对调试和优化渲染效果至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理体积",
+      "predicate": "包含",
+      "object": "Lumen屏幕追踪设置",
+      "context": "后期处理体积是配置Lumen屏幕追踪的重要界面，这是渲染管线配置的关键知识点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕追踪",
+      "predicate": "干扰",
+      "object": "隐藏时影响间接光照",
+      "context": "理解屏幕追踪与隐藏物体间接光照的关系对实现特定渲染效果很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "半透明Actor",
+      "predicate": "建议",
+      "object": "禁用色调曲线",
+      "context": "这是处理半透明渲染时的最佳实践，对图形编程学习者很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "色调曲线",
+      "predicate": "影响",
+      "object": "半透明渲染",
+      "context": "理解色调曲线对半透明渲染的影响有助于解决合成问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Deferred Rendering节点",
+      "predicate": "支持",
+      "object": "OCIO配置",
+      "context": "了解渲染节点对OCIO的支持对实现色彩管理工作流很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom",
+      "predicate": "可能产生",
+      "object": "动态模糊问题",
+      "context": "这是使用毛发系统时需要特别注意的渲染问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.HairStrands.HoldoutMode",
+      "predicate": "改善",
+      "object": "Groom光晕效果",
+      "context": "掌握这个控制台命令可以优化毛发系统的渲染质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MRG配置设置",
+      "predicate": "包含",
+      "object": "屏幕追踪设置",
+      "context": "这是理解MRG配置的整体知识结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MRG配置设置",
+      "predicate": "包含",
+      "object": "色调曲线设置",
+      "context": "这是理解MRG配置的整体知识结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MRG配置设置",
+      "predicate": "包含",
+      "object": "OCIO设置",
+      "context": "这是理解MRG配置的整体知识结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MRG配置设置",
+      "predicate": "包含",
+      "object": "Groom设置",
+      "context": "这是理解MRG配置的整体知识结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen全局光照",
+      "predicate": "依赖",
+      "object": "屏幕追踪",
+      "context": "理解Lumen全局光照的工作原理需要了解其与屏幕追踪的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen反射",
+      "predicate": "依赖",
+      "object": "屏幕追踪",
+      "context": "理解Lumen反射的工作原理需要了解其与屏幕追踪的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:01:30.696Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4853,
+    "contentLength": 3349,
+    "processingTimeMs": 52342
+  }
+}

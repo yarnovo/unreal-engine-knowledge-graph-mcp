@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_ndisplay-actor-replication-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_ndisplay-actor-replication-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "nDisplay系统",
+      "predicate": "依赖",
+      "object": "主节点",
+      "context": "nDisplay系统的所有输入仅能由主节点处理，主节点负责将变更复制到其他群集节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DisplayClusterSceneComponentSyncParent",
+      "predicate": "用于",
+      "object": "追踪父组件3D变换",
+      "context": "该组件专门用于追踪父组件3D变换中的变更并复制到其他群集节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DisplayClusterSceneComponentSyncThis",
+      "predicate": "用于",
+      "object": "追踪子组件3D变换",
+      "context": "该组件专门用于追踪子组件3D变换中的变更并复制到其他群集节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DisplayClusterPawn",
+      "predicate": "包含",
+      "object": "DisplayClusterSceneComponentSyncParent",
+      "context": "nDisplay系统默认的DisplayClusterPawn使用了DisplayClusterSceneComponentSyncParent组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IDisplayClusterClusterSyncObject",
+      "predicate": "支持",
+      "object": "复制自定义数据",
+      "context": "通过实现该接口可以编写自定义类来复制主节点和其他群集间的自定义数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay系统",
+      "predicate": "调用",
+      "object": "IDisplayClusterClusterSyncObject",
+      "context": "nDisplay系统会自动调用该接口中的方法来检查是否需要同步实例数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界大纲视图",
+      "predicate": "用于",
+      "object": "选择要复制的Actor",
+      "context": "开发者可以在世界大纲视图中选择需要复制的Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "用于",
+      "object": "添加同步组件",
+      "context": "开发者可以在细节面板中添加DisplayClusterSceneComponentSyncParent或DisplayClusterSceneComponentSyncThis组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DisplayClusterSceneComponentSyncParent",
+      "predicate": "替代",
+      "object": "完全复制",
+      "context": "该组件不进行完全复制，仅发送父Actor的变换到群集",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "DisplayClusterSceneComponentSyncThis",
+      "predicate": "替代",
+      "object": "完全复制",
+      "context": "该组件不进行完全复制，仅发送子组件的变换到群集",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:04:03.041Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3504,
+    "contentLength": 2458,
+    "processingTimeMs": 35773
+  }
+}

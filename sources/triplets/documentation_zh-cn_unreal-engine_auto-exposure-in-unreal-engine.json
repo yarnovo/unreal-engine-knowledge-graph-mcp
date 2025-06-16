@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_auto-exposure-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_auto-exposure-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "后期处理体积",
+      "predicate": "提供",
+      "object": "自动曝光",
+      "context": "后期处理体积是控制自动曝光的主要组件，理解这一关系有助于学习者找到调整曝光的主要入口",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "自动曝光",
+      "predicate": "模拟",
+      "object": "人眼适应",
+      "context": "自动曝光的核心功能是模拟人眼在不同光照条件下的适应过程，这是理解其工作原理的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动曝光直方图模式",
+      "predicate": "替代",
+      "object": "基本自动曝光模式",
+      "context": "直方图模式是更高级的默认模式，了解模式间的替代关系有助于选择合适的技术方案",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "自动曝光",
+      "predicate": "包含",
+      "object": "曝光测光模式",
+      "context": "曝光测光模式是自动曝光系统的核心组成部分，理解这一包含关系有助于系统学习",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "局部曝光",
+      "predicate": "扩展",
+      "object": "自动曝光",
+      "context": "局部曝光是对全局自动曝光系统的扩展，专门处理高动态范围场景的局部调整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen全局光照",
+      "predicate": "建议配合",
+      "object": "局部曝光",
+      "context": "文档明确指出在使用Lumen时应开启局部曝光，这对光照系统配置有直接指导意义",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "曝光补偿曲线",
+      "predicate": "控制",
+      "object": "曝光补偿",
+      "context": "曲线资产提供了对曝光补偿的更精细控制，是美术师调节曝光的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "曝光测光遮罩",
+      "predicate": "影响",
+      "object": "自动曝光计算",
+      "context": "遮罩纹理可以加权不同屏幕区域的像素重要性，这对稳定自动曝光有重要作用",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "预曝光",
+      "predicate": "优化",
+      "object": "HDR渲染",
+      "context": "预曝光技术通过提前应用曝光来优化HDR渲染，防止算术溢出",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "移动HDR",
+      "predicate": "依赖",
+      "object": "自动曝光",
+      "context": "在移动平台上启用HDR渲染需要依赖自动曝光系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理摄像机设置",
+      "predicate": "影响",
+      "object": "手动曝光模式",
+      "context": "在手动模式下，ISO、快门速度等物理摄像机参数会直接影响曝光计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HDR可视化模式",
+      "predicate": "用于",
+      "object": "调试曝光",
+      "context": "该可视化模式提供了曝光值的直方图表示，是调试曝光系统的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动曝光算法",
+      "predicate": "基于",
+      "object": "18%中灰原理",
+      "context": "理解摄影中的18%灰标准对掌握曝光计算原理至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "加速参数",
+      "predicate": "控制",
+      "object": "暗到亮适应速度",
+      "context": "这些参数模拟人眼适应速度，对创造自然的视觉效果很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "减速参数",
+      "predicate": "控制",
+      "object": "亮到暗适应速度",
+      "context": "这些参数模拟人眼适应速度，对创造自然的视觉效果很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器视口覆盖",
+      "predicate": "允许",
+      "object": "临时调整曝光",
+      "context": "这一功能在开发过程中可以快速测试不同曝光效果而不修改项目设置",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "直方图调试模式",
+      "predicate": "显示",
+      "object": "有效曝光范围",
+      "context": "该模式可视化显示哪些像素参与了曝光计算，对调试很有帮助",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "局部曝光设置",
+      "predicate": "包含",
+      "object": "高光对比度缩放",
+      "context": "这些参数是调节局部曝光效果的具体控制项，需要整体理解",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EV100扩展",
+      "predicate": "支持",
+      "object": "物理精确光照",
+      "context": "扩展亮度范围可以更好地支持基于物理的光照单位系统",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "自动曝光",
+      "predicate": "应用于",
+      "object": "动态光照场景",
+      "context": "自动曝光特别适合处理动态光照条件下的亮度变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:10:49.656Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (20506 字符)",
+      "timestamp": "2025-06-15T18:09:41.598Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 36117,
+    "contentLength": 20506,
+    "processingTimeMs": 68063
+  }
+}

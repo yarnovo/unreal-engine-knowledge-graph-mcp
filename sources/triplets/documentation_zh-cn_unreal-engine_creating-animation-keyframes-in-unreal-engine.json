@@ -1,0 +1,355 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_creating-animation-keyframes-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_creating-animation-keyframes-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "关键帧",
+      "predicate": "定义",
+      "object": "属性值",
+      "context": "关键帧在时间轴特定位置上定义属性值，用于动画制作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "位于",
+      "object": "分段",
+      "context": "关键帧和轨道状态位于分段内，分段是包含关键帧的组",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分段",
+      "predicate": "包含",
+      "object": "关键帧",
+      "context": "分段是包含关键帧的分组容器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "用于",
+      "object": "Sequencer",
+      "context": "关键帧用于在Sequencer中为Object添加动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "依赖",
+      "object": "关键帧",
+      "context": "Sequencer依赖关键帧来实现动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "支持",
+      "object": "插值",
+      "context": "关键帧可以插值，随时间逐渐更改属性值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "支持",
+      "object": "非插值",
+      "context": "关键帧也可以不插值，保持属性值直到下一个关键帧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "创建方法",
+      "object": "添加关键帧按钮",
+      "context": "可以通过点击轨道上的添加关键帧按钮创建关键帧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "创建方法",
+      "object": "细节面板",
+      "context": "可以通过点击细节面板中属性旁边的添加关键帧按钮创建关键帧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "创建方法",
+      "object": "Enter键",
+      "context": "按下Enter键可以在选定轨道中创建关键帧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "创建方法",
+      "object": "属性值调整",
+      "context": "调整属性值可以添加新关键帧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "创建方法",
+      "object": "鼠标中键",
+      "context": "沿轨道时间轴点击鼠标中键可以创建关键帧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "创建方法",
+      "object": "快捷键S",
+      "context": "选中Actor并按下S可以创建变换轨道和关键帧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动设置关键帧",
+      "predicate": "依赖",
+      "object": "Sequencer工具栏",
+      "context": "自动设置关键帧功能需要启用Sequencer工具栏中的自动添加关键帧按钮",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "复制方法",
+      "object": "Ctrl+D",
+      "context": "可以通过Ctrl+D复制关键帧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "复制方法",
+      "object": "Alt拖动",
+      "context": "按住Alt并拖动关键帧可以复制关键帧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "复制方法",
+      "object": "剪切/拷贝/粘贴",
+      "context": "可以通过剪切/拷贝/粘贴命令复制关键帧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "选择方法",
+      "object": "选取框",
+      "context": "可以通过拖动选取框选择多个关键帧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "移动方法",
+      "object": "拖动",
+      "context": "可以通过拖动关键帧变更其时间位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "对齐",
+      "object": "播放头",
+      "context": "关键帧可以对齐播放头位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "层条",
+      "predicate": "用于",
+      "object": "关键帧移动和缩放",
+      "context": "层条用于辅助多个关键帧的同时移动和缩放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧条",
+      "predicate": "用于",
+      "object": "重新定时",
+      "context": "关键帧条用于对相邻关键帧对重新定时",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "切线类型",
+      "object": "Cubic（自动）",
+      "context": "Cubic（自动）切线类型是默认切线类型，保持平滑曲线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "切线类型",
+      "object": "Cubic（用户）",
+      "context": "Cubic（用户）切线类型阻止自动编辑切线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "切线类型",
+      "object": "Cubic（断开）",
+      "context": "Cubic（断开）切线类型允许指定不同的进入和离开角度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "切线类型",
+      "object": "线性",
+      "context": "线性切线导致关键帧之间不存在平滑曲线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "切线类型",
+      "object": "常量",
+      "context": "常量切线的运行方式与非插值关键帧类似",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分段",
+      "predicate": "创建方法",
+      "object": "分段(+)按钮",
+      "context": "可以通过点击轨道上的分段(+)按钮添加分段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分段",
+      "predicate": "交互方法",
+      "object": "拖动",
+      "context": "可以通过拖动分段或其边缘移动和调整大小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分段",
+      "predicate": "修剪方法",
+      "object": "Alt+]和Alt+[",
+      "context": "可以使用Alt+]和Alt+[将分段修剪或循环到播放头时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分段",
+      "predicate": "时标设置",
+      "object": "Ctrl拖动",
+      "context": "按住Ctrl并拖动分段边缘可以设置时标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分段",
+      "predicate": "显示曲线",
+      "object": "曲线通道",
+      "context": "可以通过曲线通道菜单启用分段上的曲线显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分段",
+      "predicate": "混合类型",
+      "object": "绝对",
+      "context": "绝对混合类型将属性设置为分段或关键帧定义的绝对值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分段",
+      "predicate": "混合类型",
+      "object": "附加",
+      "context": "附加混合类型将分段或关键帧定义的数量添加至当前属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分段",
+      "predicate": "混合类型",
+      "object": "相对",
+      "context": "相对混合类型将该值作为添加动画之前所有其他附加值与初始值的总和",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分段",
+      "predicate": "混合类型",
+      "object": "从基础附加",
+      "context": "从基础附加混合类型将分段的第一个关键帧与当时正在添加动画的属性的值相等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分段",
+      "predicate": "属性",
+      "object": "分段范围开始",
+      "context": "分段范围开始属性定义分段的开始时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分段",
+      "predicate": "属性",
+      "object": "分段范围结束",
+      "context": "分段范围结束属性定义分段的结束时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分段",
+      "predicate": "属性",
+      "object": "完成时",
+      "context": "完成时属性确定属性在分段完成时的行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分段",
+      "predicate": "属性",
+      "object": "时间码来源",
+      "context": "时间码来源属性定义分段的时间码信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分段",
+      "predicate": "属性",
+      "object": "已激活",
+      "context": "已激活属性激活选定分段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分段",
+      "predicate": "属性",
+      "object": "已锁定",
+      "context": "已锁定属性锁定选定分段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:41:36.988Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (22550 字符)",
+      "timestamp": "2025-06-15T18:39:37.719Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 35818,
+    "contentLength": 22550,
+    "processingTimeMs": 119272
+  }
+}

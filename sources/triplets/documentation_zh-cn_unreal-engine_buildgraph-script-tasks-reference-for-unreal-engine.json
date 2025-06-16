@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_buildgraph-script-tasks-reference-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_buildgraph-script-tasks-reference-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "BuildGraph",
+      "predicate": "扩展",
+      "object": "虚幻自动化工具(UAT)",
+      "context": "BuildGraph可以扩展UAT的功能，通过自定义任务满足项目自动化需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义任务",
+      "predicate": "继承自",
+      "object": "CustomTask类",
+      "context": "创建自定义任务需要实现派生自CustomTask的类并应用TaskElement特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TaskElement特性",
+      "predicate": "包含",
+      "object": "TaskParameter特性",
+      "context": "TaskElement特性用于定义XML元素参数，TaskParameter特性用于参数验证",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "预定义任务",
+      "predicate": "包含",
+      "object": "LogTask",
+      "context": "LogTask是推荐的简单预定义任务起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildCookRun",
+      "predicate": "用于",
+      "object": "打包任务",
+      "context": "BuildCookRun是强大的常用打包工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AgeStore",
+      "predicate": "替代",
+      "object": "Microsoft调试工具SDK",
+      "context": "AgeStore是独立实现方案，使用修改时间而非访问时间",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Commandlet任务",
+      "predicate": "调用",
+      "object": "UnrealEditor",
+      "context": "Commandlet任务通过生成编辑器来运行Commandlet",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编译任务",
+      "predicate": "依赖",
+      "object": "UnrealBuildTool",
+      "context": "编译任务使用虚幻编译工具(UBT)编译目标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PakFile任务",
+      "predicate": "生成",
+      "object": "PAK文件",
+      "context": "PakFile任务根据一组文件创建PAK文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TagReceipt任务",
+      "predicate": "读取",
+      "object": "Target文件",
+      "context": "TagReceipt通过读取.target文件标记构建产品和运行时依赖项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SymStore任务",
+      "predicate": "分离",
+      "object": "调试符号",
+      "context": "SymStore用于从一组文件中分离符号",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ZenExportSnapshot",
+      "predicate": "导出",
+      "object": "Zen快照",
+      "context": "将快照从Zen导出到特定目标位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻自动化工具(UAT)",
+      "predicate": "包含",
+      "object": "BuildCommand类",
+      "context": "项目特定实用脚本通常实现为UAT的BuildCommand类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "支持",
+      "object": "自定义任务",
+      "context": "BuildGraph允许通过任意数量的自动化任务进行扩展",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Docker任务",
+      "predicate": "包含",
+      "object": "Docker-Build",
+      "context": "Docker-Build是Docker任务的一种具体实现",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Git任务",
+      "predicate": "包含",
+      "object": "Git-Clone",
+      "context": "Git-Clone是Git任务的一种具体操作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Aws任务",
+      "predicate": "包含",
+      "object": "Aws-AssumeRole",
+      "context": "Aws-AssumeRole是AWS相关任务的一种具体操作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Horde任务",
+      "predicate": "包含",
+      "object": "Horde-GetSecrets",
+      "context": "Horde-GetSecrets是Horde相关任务的一种具体操作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "包含",
+      "object": "BuildGraph",
+      "context": "BuildGraph是虚幻引擎自动化构建系统的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "包含",
+      "object": "预定义任务",
+      "context": "预定义任务为BuildGraph提供了现成的任务模板",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:16:40.692Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (28212 字符)",
+      "timestamp": "2025-06-15T18:15:31.142Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 49892,
+    "contentLength": 28212,
+    "processingTimeMs": 69558
+  }
+}

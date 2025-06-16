@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_from-material-expression-shading-model-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_from-material-expression-shading-model-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "基于材质表达式着色模型",
+      "predicate": "支持",
+      "object": "多个着色模型合并",
+      "context": "允许在单个材质中通过材质图表逻辑合并多个着色模型",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基于材质表达式着色模型",
+      "predicate": "依赖",
+      "object": "材质图表",
+      "context": "需要通过材质图表中的逻辑来实现着色模型的合并",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基于材质表达式着色模型",
+      "predicate": "使用",
+      "object": "主材质节点",
+      "context": "需要在主材质节点的细节面板中设置着色模型属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基于材质表达式着色模型",
+      "predicate": "包含",
+      "object": "着色模型材质表达式",
+      "context": "需要在材质图表中添加着色模型材质表达式来选择具体的着色模型",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基于材质表达式着色模型",
+      "predicate": "支持",
+      "object": "材质属性工作流程",
+      "context": "可以通过材质属性工作流程来定义和混合多个着色模型",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基于材质表达式着色模型",
+      "predicate": "支持",
+      "object": "条件逻辑",
+      "context": "可以使用If语句和Switch节点在着色模型之间进行条件选择",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BlendMaterialAttributes节点",
+      "predicate": "用于",
+      "object": "混合材质属性",
+      "context": "用于混合两组材质属性，实现不同着色模型的逐像素混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SetMaterialAttributes节点",
+      "predicate": "用于",
+      "object": "定义材质属性",
+      "context": "用于定义每组材质属性，包括着色模型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "If表达式",
+      "predicate": "用于",
+      "object": "条件选择着色模型",
+      "context": "可以根据条件在多个着色模型之间进行选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switch节点",
+      "predicate": "用于",
+      "object": "控制着色模型",
+      "context": "可以通过Switch节点在不同条件下选择不同的着色模型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质实例化",
+      "predicate": "支持",
+      "object": "基于材质表达式着色模型",
+      "context": "可以在材质实例中覆盖着色模型设置，但不支持覆盖为基于材质表达式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认光照着色模型",
+      "predicate": "可替换为",
+      "object": "透明涂层着色模型",
+      "context": "可以通过条件逻辑或混合材质属性在不同着色模型之间切换",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质属性工作流程",
+      "predicate": "前置",
+      "object": "混合多个着色模型",
+      "context": "需要先了解材质属性工作流程才能有效地混合多个着色模型",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "着色模型材质表达式",
+      "predicate": "连接到",
+      "object": "主材质节点",
+      "context": "需要将着色模型材质表达式连接到主材质节点的着色模型输入引脚",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基于材质表达式着色模型",
+      "predicate": "适用于",
+      "object": "高级材质开发",
+      "context": "该功能适用于需要复杂着色模型混合的高级材质开发场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:07:52.026Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9290 字符)",
+      "timestamp": "2025-06-15T19:06:57.883Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13850,
+    "contentLength": 9290,
+    "processingTimeMs": 54152
+  }
+}

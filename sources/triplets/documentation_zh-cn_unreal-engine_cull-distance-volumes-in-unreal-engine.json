@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_cull-distance-volumes-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_cull-distance-volumes-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "剔除距离体积",
+      "predicate": "包含",
+      "object": "剔除距离对",
+      "context": "剔除距离体积通过包含多个剔除距离对来定义不同大小对象的剔除距离，这是其核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "剔除距离对",
+      "predicate": "由组成",
+      "object": "大小和剔除距离",
+      "context": "每个剔除距离对由大小和剔除距离两个数值组成，共同决定对象的剔除行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "剔除距离体积",
+      "predicate": "用于优化",
+      "object": "大型室外关卡",
+      "context": "文档明确指出剔除距离体积特别适用于优化包含精细内部空间的大型室外关卡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "剔除距离体积",
+      "predicate": "通过添加",
+      "object": "放置Actor面板",
+      "context": "开发者需要通过编辑器中的放置Actor面板向关卡中添加剔除距离体积",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "用于配置",
+      "object": "剔除距离对",
+      "context": "选中体积后需要使用细节面板来配置剔除距离对数组，这是设置剔除规则的主要界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "剔除距离体积",
+      "predicate": "影响",
+      "object": "Actor绘制距离",
+      "context": "剔除距离体积的核心功能就是控制体积内Actor的绘制距离，实现优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "剔除距离对",
+      "predicate": "映射到",
+      "object": "Actor边界",
+      "context": "剔除距离对会映射到Actor的最长有效维度边界，这是其工作原理的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "最大绘制距离",
+      "predicate": "限制",
+      "object": "剔除距离对效果",
+      "context": "文档说明剔除距离对仅在低于个体Actor的最大绘制距离时才会生效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "允许剔除距离体积",
+      "predicate": "控制",
+      "object": "剔除排除",
+      "context": "可以通过禁用Actor的'允许剔除距离体积'选项来排除特定Actor的剔除效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "剔除距离体积",
+      "predicate": "属于",
+      "object": "渲染优化工具",
+      "context": "从文档内容和相关标签(performance/rendering/optimization)可以看出这是渲染优化工具",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "游戏视图",
+      "predicate": "用于测试",
+      "object": "剔除效果",
+      "context": "文档建议在游戏视图下移动以测试剔除效果，验证设置是否合理",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "缓存剔除距离",
+      "predicate": "显示",
+      "object": "剔除分组",
+      "context": "可以通过Actor的缓存剔除距离了解其所属的剔除距离对分组情况",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "剔除距离体积",
+      "predicate": "替代方案",
+      "object": "个体Actor绘制距离设置",
+      "context": "相比为每个Actor单独设置绘制距离，使用剔除距离体积可以批量管理，是更高效的替代方案",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Infinity Blades Grasslands",
+      "predicate": "作为示例",
+      "object": "剔除距离设置",
+      "context": "文档使用该项目作为示例来说明如何设置剔除距离对",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T18:43:39.144Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7744,
+    "contentLength": 4500,
+    "processingTimeMs": 53784
+  }
+}

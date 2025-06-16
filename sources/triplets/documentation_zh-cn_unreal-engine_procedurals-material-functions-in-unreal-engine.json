@@ -1,0 +1,157 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_procedurals-material-functions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_procedurals-material-functions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "程序化材质函数",
+      "predicate": "用于",
+      "object": "生成纹理和蒙版",
+      "context": "程序化材质函数提供了一种快捷的方法来建立以程序方式产生的简单纹理和蒙版，帮助学习者理解其核心用途",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "程序化材质函数",
+      "predicate": "节省",
+      "object": "内存",
+      "context": "与使用导入的纹理相比，程序化材质函数可以节省内存，这是学习者需要了解的重要优势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GeneratedBand",
+      "predicate": "属于",
+      "object": "程序化材质函数",
+      "context": "GeneratedBand是程序化材质函数的一种具体实现，帮助学习者建立分类关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GeneratedBand",
+      "predicate": "生成",
+      "object": "水平或垂直色带",
+      "context": "GeneratedBand函数根据默认的纹理坐标生成水平或垂直的色带，说明其核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GeneratedOffsetBands",
+      "predicate": "扩展",
+      "object": "GeneratedBand",
+      "context": "GeneratedOffsetBands可以生成多个色带，而GeneratedBand只能生成一个色带，展示功能扩展关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NormalFromHeightmap",
+      "predicate": "转换",
+      "object": "高度贴图到法线贴图",
+      "context": "NormalFromHeightmap函数将黑白高度贴图转换为法线贴图，展示重要转换功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NormalFromHeightmap",
+      "predicate": "避免",
+      "object": "额外纹理加载",
+      "context": "NormalFromHeightmap不需要将另一个纹理装入内存，这是学习者需要了解的性能优势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NormalFromHeightmapChaos",
+      "predicate": "基于",
+      "object": "NormalFromHeightmap",
+      "context": "NormalFromHeightmapChaos是NormalFromHeightmap的变体，增加了混乱动画效果，展示继承关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NormalFromHeightmapChaos",
+      "predicate": "消耗",
+      "object": "更高性能",
+      "context": "文档明确指出NormalFromHeightmapChaos成本较高，这是学习者需要注意的性能考量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理坐标",
+      "predicate": "用于",
+      "object": "GeneratedBand",
+      "context": "GeneratedBand使用纹理坐标生成色带，展示基础概念与应用关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UV空间",
+      "predicate": "用于",
+      "object": "GeneratedOffsetBands",
+      "context": "GeneratedOffsetBands在UV空间中创建色带，帮助学习者理解空间概念的应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高度贴图",
+      "predicate": "输入",
+      "object": "NormalFromHeightmap",
+      "context": "NormalFromHeightmap接收高度贴图作为输入，展示数据处理流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "法线贴图",
+      "predicate": "输出",
+      "object": "NormalFromHeightmap",
+      "context": "NormalFromHeightmap输出法线贴图，展示数据处理结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TextureObject",
+      "predicate": "替代",
+      "object": "TextureSample",
+      "context": "NormalFromHeightmap使用TextureObject而非TextureSample，展示技术选择差异",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "程序化材质函数",
+      "predicate": "关联",
+      "object": "材质编辑器",
+      "context": "文档提到在材质编辑器中编辑这些函数，帮助学习者理解使用环境",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "GeneratedBand",
+      "predicate": "控制参数",
+      "object": "宽度、清晰度、偏移、方向",
+      "context": "这些参数控制GeneratedBand的输出效果，是学习者需要掌握的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GeneratedOffsetBands",
+      "predicate": "特有参数",
+      "object": "色带数",
+      "context": "色带数是GeneratedOffsetBands特有的参数，区别于GeneratedBand",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NormalFromHeightmap",
+      "predicate": "控制参数",
+      "object": "高度偏差、高度",
+      "context": "这些参数影响法线贴图的生成效果，是重要的学习点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:29:50.707Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6859,
+    "contentLength": 4215,
+    "processingTimeMs": 73086
+  }
+}

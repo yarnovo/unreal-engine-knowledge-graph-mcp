@@ -1,0 +1,157 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_audio-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_audio-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "对话文件名格式",
+      "predicate": "包含",
+      "object": "DialogueGuid",
+      "context": "对话文件名格式使用DialogueGuid作为唯一标识符的一部分，帮助学习者理解如何生成唯一的对话文件名",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对话文件名格式",
+      "predicate": "包含",
+      "object": "DialogueHash",
+      "context": "对话文件名格式可以使用DialogueHash作为标识符的一部分，帮助学习者理解文件名生成的灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对话文件名格式",
+      "predicate": "包含",
+      "object": "DialogueName",
+      "context": "对话文件名格式可以使用DialogueName作为标识符的一部分，帮助学习者理解文件名生成的可读性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对话文件名格式",
+      "predicate": "包含",
+      "object": "ContextId",
+      "context": "对话文件名格式使用ContextId作为情境的唯一标识符，帮助学习者理解情境在对话中的唯一性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对话文件名格式",
+      "predicate": "包含",
+      "object": "ContextIndex",
+      "context": "对话文件名格式使用ContextIndex作为情境的索引标识符，帮助学习者理解情境在对话中的顺序性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认音效类",
+      "predicate": "分配到",
+      "object": "新建音效",
+      "context": "默认音效类用于新建音效的初始配置，帮助学习者理解音效类的默认应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认媒体音效类",
+      "predicate": "分配到",
+      "object": "媒体播放器资产",
+      "context": "默认媒体音效类用于媒体播放器资产的初始配置，帮助学习者理解媒体音效的特殊性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认音效并行",
+      "predicate": "分配到",
+      "object": "新建音效",
+      "context": "默认音效并行用于控制新建音效的并发播放行为，帮助学习者理解音效并行的管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认基础混音",
+      "predicate": "用作基础",
+      "object": "SoundMix",
+      "context": "默认基础混音在没有其他系统指定时作为SoundMix的基础，帮助学习者理解混音的默认配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VOIP音效类",
+      "predicate": "用于",
+      "object": "VOIP音频组件",
+      "context": "VOIP音效类专门用于VOIP音频组件的配置，帮助学习者理解VOIP音频的特殊处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主子混音",
+      "predicate": "路由",
+      "object": "所有音效",
+      "context": "主子混音是所有音效路由的必经节点，帮助学习者理解音频信号流的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混响子混音",
+      "predicate": "路由",
+      "object": "使用混响的音效",
+      "context": "混响子混音专门处理使用混响的音效，帮助学习者理解混响效果的应用路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基础默认子混音",
+      "predicate": "用于",
+      "object": "未指定子混音的情况",
+      "context": "基础默认子混音在子混音发送未指定时使用，帮助学习者理解音频引擎的默认行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EQ子混音（旧版）",
+      "predicate": "路由",
+      "object": "使用旧版EQ系统的音效",
+      "context": "EQ子混音（旧版）处理使用旧版EQ系统的音效，帮助学习者理解旧版系统的兼容性处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "质量级别",
+      "predicate": "控制",
+      "object": "音频质量",
+      "context": "质量级别设置直接影响音频的渲染质量，帮助学习者理解性能与质量的平衡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平移方法",
+      "predicate": "影响",
+      "object": "非双耳或基于对象的平移",
+      "context": "平移方法选择影响音频的空间化效果，帮助学习者理解不同平移算法的差异",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单声道上混法",
+      "predicate": "定义",
+      "object": "单声道到立体声的转换",
+      "context": "单声道上混法决定单声道音频如何扩展到立体声，帮助学习者理解声道转换的原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试音效",
+      "predicate": "用于",
+      "object": "非发布版本调试",
+      "context": "调试音效专门用于开发阶段的故障排查，帮助学习者理解调试工具的使用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:09:05.218Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5418,
+    "contentLength": 3354,
+    "processingTimeMs": 64158
+  }
+}

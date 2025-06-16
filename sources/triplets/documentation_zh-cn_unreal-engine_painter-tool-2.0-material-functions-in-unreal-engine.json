@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_painter-tool-2.0-material-functions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_painter-tool-2.0-material-functions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "PivotPainter2FoliageShader",
+      "predicate": "用于",
+      "object": "植被材质",
+      "context": "该材质函数专门用于简化植被模型的设置流程，利用枢轴绘制器2生成的纹理快速创建风和湍流效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PivotPainter2FoliageShader",
+      "predicate": "生成",
+      "object": "世界场景位置偏移",
+      "context": "该函数输出修改后的世界场景位置偏移值，用于实现植被的动态效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PivotPainter2FoliageShader",
+      "predicate": "修改",
+      "object": "世界场景空间法线",
+      "context": "该函数可以修改输入的世界场景空间法线，输出修改后的法线组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ms_PivotPainter2_CalculateMeshElementIndex",
+      "predicate": "提取",
+      "object": "模型元素ID",
+      "context": "该函数从模型的UV坐标中提取模型元素ID，是处理枢轴绘制器2数据的基础步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ms_PivotPainter2_Decode8BitAlphaAxisExtent",
+      "predicate": "转换",
+      "object": "世界场景空间数据",
+      "context": "该函数将8位轴扩展纹理数据从枢轴绘制器2 MAXScript重新缩放到世界场景空间数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ms_PivotPainter2_DecodeAxisVector",
+      "predicate": "转换",
+      "object": "世界场景空间矢量",
+      "context": "该函数将枢轴绘制器2的局部空间矢量信息转换为世界场景空间矢量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ms_PivotPainter2_DecodePosition",
+      "predicate": "转换",
+      "object": "世界场景位置信息",
+      "context": "该函数将枢轴绘制器2的局部空间位置信息转化为世界场景位置信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ms_PivotPainter2_ReturnParentTextureInfo",
+      "predicate": "读取",
+      "object": "父级子对象纹理数据",
+      "context": "该函数使用枢轴绘制器2的父级索引纹理数据来读取父级子对象的纹理数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ms_PivotPainter2_UnpackIntegerAsFloat",
+      "predicate": "解码",
+      "object": "整数视为浮点数纹理数据",
+      "context": "该函数对枢轴绘制器2的整数视为浮点数纹理数据进行解码，转换为可用的浮点数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PivotPainter2FoliageShader",
+      "predicate": "依赖",
+      "object": "材质实例",
+      "context": "建议为该函数创建材质实例，以便访问和调整已经设置好的风吹和湍流参数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "ms_PivotPainter2_ReturnParentTextureInfo",
+      "predicate": "依赖",
+      "object": "ms_PivotPainter2_CalculateMeshElementIndex",
+      "context": "在确定资源是否是另一个组件的子项时，需要使用CalculateMeshElementIndex函数获取当前索引",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "ms_PivotPainter2_ReturnParentTextureInfo",
+      "predicate": "依赖",
+      "object": "ms_PivotPainter2_UnpackIntegerAsFloat",
+      "context": "如果从父级索引整数存储为浮点数纹理中读取数据，需要先使用UnpackIntegerAsFloat函数进行解码",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "枢轴绘制器2材质函数",
+      "predicate": "解码",
+      "object": "枢轴绘制器2纹理数据",
+      "context": "这些材质函数的主要功能是解码枢轴绘制器2 MAXScript存储在纹理中的模型信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "枢轴绘制器2材质函数",
+      "predicate": "用于",
+      "object": "材质网络",
+      "context": "这些函数可以直接在材质中引用，用于处理枢轴绘制器2生成的纹理数据",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:17:51.099Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9616,
+    "contentLength": 6430,
+    "processingTimeMs": 57122
+  }
+}

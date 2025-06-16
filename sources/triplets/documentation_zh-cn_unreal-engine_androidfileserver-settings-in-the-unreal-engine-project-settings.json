@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_androidfileserver-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_androidfileserver-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "AndroidFileServer",
+      "predicate": "包含",
+      "object": "打包设置",
+      "context": "AndroidFileServer功能模块包含打包相关的设置选项，理解这些设置有助于掌握如何配置AndroidFileServer的打包行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AndroidFileServer",
+      "predicate": "包含",
+      "object": "部署设置",
+      "context": "AndroidFileServer功能模块包含部署相关的设置选项，这些设置影响文件传输的行为和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AndroidFileServer",
+      "predicate": "包含",
+      "object": "连接设置",
+      "context": "AndroidFileServer功能模块包含连接相关的设置选项，这些设置决定了如何连接到文件服务器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "打包设置",
+      "predicate": "包含",
+      "object": "使用AndroidFileServer",
+      "context": "打包设置中包含启用AndroidFileServer插件的选项，这是使用该功能的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "打包设置",
+      "predicate": "包含",
+      "object": "允许网络连接",
+      "context": "打包设置中包含控制是否允许网络连接的选项，这影响FileServer的连接方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "打包设置",
+      "predicate": "包含",
+      "object": "安全令牌",
+      "context": "打包设置中包含安全令牌选项，这是启动FileServer的可选安全措施",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "打包设置",
+      "predicate": "包含",
+      "object": "包含在发售中",
+      "context": "打包设置中包含控制是否在发售版本中嵌入FileServer的选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "打包设置",
+      "predicate": "包含",
+      "object": "在发售中允许外部启动",
+      "context": "打包设置中包含控制是否允许在发售版本中通过UnrealAndroidFileTool启动FileServer的选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "打包设置",
+      "predicate": "包含",
+      "object": "编译AFSProject",
+      "context": "打包设置中包含编译独立AFS项目的选项，这是高级功能配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "部署设置",
+      "predicate": "包含",
+      "object": "使用压缩",
+      "context": "部署设置中包含启用数据传输压缩的选项，这影响传输效率和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "部署设置",
+      "predicate": "包含",
+      "object": "日志文件",
+      "context": "部署设置中包含记录传输文件的选项，这对调试和监控很有帮助",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "部署设置",
+      "predicate": "包含",
+      "object": "报告统计数据",
+      "context": "部署设置中包含报告传输速率统计数据的选项，这对性能分析很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "连接设置",
+      "predicate": "包含",
+      "object": "连接类型",
+      "context": "连接设置中包含定义如何连接到文件服务器的选项，这是基础连接配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "连接设置",
+      "predicate": "包含",
+      "object": "使用手动IP地址",
+      "context": "连接设置中包含是否使用手动IP地址的选项，这适用于单设备部署场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "连接类型",
+      "predicate": "包含选项",
+      "object": "仅USB",
+      "context": "连接类型设置中包含仅通过USB连接的选项，这是基础连接方式之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "连接类型",
+      "predicate": "包含选项",
+      "object": "仅网络",
+      "context": "连接类型设置中包含仅通过网络连接的选项，这是基础连接方式之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "连接类型",
+      "predicate": "包含选项",
+      "object": "USB和网络合并",
+      "context": "连接类型设置中包含同时使用USB和网络连接的选项，这是更灵活的连接方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "使用手动IP地址",
+      "predicate": "关联",
+      "object": "手动IP地址",
+      "context": "当启用使用手动IP地址选项时，需要配置具体的手动IP地址，这两个概念密切相关",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AndroidFileServer",
+      "predicate": "依赖",
+      "object": "UnrealAndroidFileTool",
+      "context": "AndroidFileServer功能在发售版本中启动时依赖UnrealAndroidFileTool，理解这种依赖关系有助于部署配置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T17:57:51.212Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2838,
+    "contentLength": 2142,
+    "processingTimeMs": 60372
+  }
+}

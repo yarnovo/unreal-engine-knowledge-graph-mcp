@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_lumen-performance-guide-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_lumen-performance-guide-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Lumen",
+      "predicate": "实现",
+      "object": "全局光照",
+      "context": "Lumen是虚幻引擎中用于实现全局光照和反射效果的技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen",
+      "predicate": "实现",
+      "object": "反射效果",
+      "context": "Lumen是虚幻引擎中用于实现全局光照和反射效果的技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen",
+      "predicate": "依赖",
+      "object": "时间上采样",
+      "context": "Lumen依赖时间上采样来提供4k输出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen",
+      "predicate": "依赖",
+      "object": "时间超级分辨率(TSR)",
+      "context": "Lumen依赖时间超级分辨率(TSR)来提供4k输出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可扩展性设置",
+      "predicate": "控制",
+      "object": "Lumen品质",
+      "context": "Lumen的品质可以通过全局光照和反射质量组进行设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "超高(Epic)级别",
+      "predicate": "目标",
+      "object": "30 FPS",
+      "context": "超高(Epic)可扩展性级别的性能目标是在主机上实现30 FPS",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高(High)级别",
+      "predicate": "目标",
+      "object": "60 FPS",
+      "context": "高(High)可扩展性级别的性能目标是在主机上实现60 FPS",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "软件光线追踪",
+      "predicate": "用于",
+      "object": "Lumen",
+      "context": "软件光线追踪是Lumen中最快速的追踪方法，建议用于无法负担硬件光线追踪的游戏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬件光线追踪",
+      "predicate": "提升",
+      "object": "Lumen品质",
+      "context": "硬件光线追踪能提升Lumen的品质，推荐作为主机上30 fps和60 fps游戏的默认选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen反射",
+      "predicate": "受控于",
+      "object": "后期处理体积",
+      "context": "可以使用后期处理体积中的设置来控制Lumen反射的粗糙度阈值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕空间反射(SSR)",
+      "predicate": "替代",
+      "object": "Lumen反射",
+      "context": "可以用屏幕空间反射(SSR)取代Lumen反射来缩减反射开销",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen场景光照",
+      "predicate": "包含",
+      "object": "表面缓存光照",
+      "context": "Lumen场景光照用于对表面缓存光照求值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen屏幕探头采集",
+      "predicate": "用于",
+      "object": "漫反射全局光照",
+      "context": "Lumen屏幕探头采集用于对漫反射全局光照和粗糙反射以及半透明全局光照求值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "异步计算",
+      "predicate": "用于",
+      "object": "Lumen",
+      "context": "Lumen在主机平台上使用异步计算来优化性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen",
+      "predicate": "包含",
+      "object": "三个通道",
+      "context": "Lumen可分解成三个通道：Lumen场景光照、Lumen屏幕探头采集和Lumen反射",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Stat GPU",
+      "predicate": "用于",
+      "object": "分析Lumen性能",
+      "context": "Stat GPU命令可用于显示GPU各个通道的耗时，包括Lumen的几个通道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ProfileGPU",
+      "predicate": "用于",
+      "object": "详细性能分析",
+      "context": "ProfileGPU命令可用于详细了解Lumen性能明细",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BaseScalability.ini",
+      "predicate": "包含",
+      "object": "默认可扩展性设置",
+      "context": "默认的可扩展性设置位于BaseScalability.ini中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设备描述配置文件",
+      "predicate": "包含",
+      "object": "平台特定设置",
+      "context": "各平台的设备描述配置中包含单独的Lumen设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen",
+      "predicate": "支持",
+      "object": "可扩展性设置",
+      "context": "Lumen支持多种可扩展性设置以适应不同的性能需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:48:10.877Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13331 字符)",
+      "timestamp": "2025-06-15T19:47:09.025Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 22255,
+    "contentLength": 13331,
+    "processingTimeMs": 61864
+  }
+}

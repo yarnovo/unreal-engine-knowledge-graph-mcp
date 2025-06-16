@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-perform-ar-hit-testing-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-perform-ar-hit-testing-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "手持式AR项目",
+      "predicate": "基于",
+      "object": "手持式AR模板",
+      "context": "手持式AR项目是通过手持式AR模板创建的，理解模板是创建项目的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "命中检测",
+      "predicate": "分为",
+      "object": "世界对象命中检测和被追踪几何体命中检测",
+      "context": "命中检测在AR项目中分为对虚幻世界对象和对AR追踪几何体的两种检测方式，这是AR开发的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象轨迹追踪",
+      "predicate": "用于",
+      "object": "世界对象命中检测",
+      "context": "对象轨迹追踪是虚幻引擎原有功能，专门用于检测虚幻世界中的对象命中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "轨迹追踪的对象",
+      "predicate": "用于",
+      "object": "被追踪几何体命中检测",
+      "context": "轨迹追踪的对象是AR新增功能，专门用于检测AR追踪系统发现的几何体命中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_ARPawn",
+      "predicate": "包含",
+      "object": "命中检测逻辑",
+      "context": "BP_ARPawn蓝图类中包含实现命中检测的事件图表，是AR项目中的核心角色类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AR命中结果",
+      "predicate": "由",
+      "object": "命中检测生成",
+      "context": "无论是世界对象还是被追踪几何体的命中检测，成功时都会生成AR命中结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试菜单",
+      "predicate": "显示",
+      "object": "命中检测结果",
+      "context": "示例项目中通过调试菜单显示命中检测的结果，这是调试AR功能的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "手持式AR模板",
+      "predicate": "包含",
+      "object": "AR功能示例",
+      "context": "手持式AR模板项目包含多种AR功能的实现示例，是学习AR开发的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成可放置Actor BP",
+      "predicate": "由",
+      "object": "被追踪几何体命中触发",
+      "context": "当检测到被追踪几何体命中时，会生成可放置的Actor，这是AR交互的典型应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AR项目开发",
+      "predicate": "需要",
+      "object": "理解命中检测差异",
+      "context": "AR中的命中检测与传统虚幻引擎的命中检测方法不同，这是AR开发需要特别注意的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_DebugMenu",
+      "predicate": "用于",
+      "object": "AR功能调试",
+      "context": "BP_DebugMenu蓝图是查看和调试AR功能的重要工具，位于手持式AR模板项目中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "手持式AR项目",
+      "predicate": "不同于",
+      "object": "AR头显项目",
+      "context": "手持式AR设备与AR头显设备在命中检测等功能的实现方法上存在差异",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "命中检测顺序",
+      "predicate": "影响",
+      "object": "用户体验",
+      "context": "先检测世界对象再检测被追踪几何体的顺序设计，是为了优化用户的交互体验",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "AR功能探索",
+      "predicate": "通过",
+      "object": "手持式AR模板项目",
+      "context": "手持式AR模板项目包含了多种AR功能的实现，是学习AR开发的实践环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:26:38.476Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7510,
+    "contentLength": 4867,
+    "processingTimeMs": 48862
+  }
+}

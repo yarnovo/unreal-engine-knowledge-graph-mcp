@@ -1,0 +1,219 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_slate-ui-widget-examples-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_slate-ui-widget-examples-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Slate控件",
+      "predicate": "包含",
+      "object": "通用Slate参数",
+      "context": "所有Slate控件都共享一组通用参数，理解这些参数是使用任何Slate控件的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通用Slate参数",
+      "predicate": "包含",
+      "object": "可视性",
+      "context": "可视性是Slate控件的重要通用参数之一，控制控件的显示和交互状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通用Slate参数",
+      "predicate": "包含",
+      "object": "对齐",
+      "context": "对齐参数决定控件在其父容器中的位置，是布局控制的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "盒面板",
+      "predicate": "包含",
+      "object": "SHorizontalBox",
+      "context": "SHorizontalBox是盒面板的一种，用于水平布局控件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "盒面板",
+      "predicate": "包含",
+      "object": "SVerticalBox",
+      "context": "SVerticalBox是盒面板的一种，用于垂直布局控件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "盒面板",
+      "predicate": "包含",
+      "object": "SScrollBox",
+      "context": "SScrollBox是盒面板的变体，增加了滚动功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "盒面板",
+      "predicate": "包含",
+      "object": "插槽属性",
+      "context": "盒面板中的控件通过插槽属性控制其布局行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SUniformGridPanel",
+      "predicate": "扩展",
+      "object": "盒面板",
+      "context": "统一网格面板是盒面板的特殊形式，提供均匀的网格布局",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "SWrapBox",
+      "predicate": "扩展",
+      "object": "盒面板",
+      "context": "自动换行框是盒面板的特殊形式，支持内容自动换行",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "菜单和工具栏",
+      "predicate": "包含",
+      "object": "FMenuBarBuilder",
+      "context": "FMenuBarBuilder是创建菜单的核心类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "菜单和工具栏",
+      "predicate": "包含",
+      "object": "FToolBarBuilder",
+      "context": "FToolBarBuilder是创建工具栏的核心类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目视图",
+      "predicate": "包含",
+      "object": "列表视图",
+      "context": "列表视图是项目视图的一种，用于显示线性排列的数据项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目视图",
+      "predicate": "包含",
+      "object": "树状视图",
+      "context": "树状视图是项目视图的一种，支持层级数据展示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目视图",
+      "predicate": "包含",
+      "object": "平铺视图",
+      "context": "平铺视图是项目视图的一种，以网格形式展示数据项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "列表视图",
+      "predicate": "基于",
+      "object": "SListView",
+      "context": "列表视图通过SListView类实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "树状视图",
+      "predicate": "基于",
+      "object": "STreeView",
+      "context": "树状视图通过STreeView类实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平铺视图",
+      "predicate": "基于",
+      "object": "STileView",
+      "context": "平铺视图通过STileView类实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate控件",
+      "predicate": "包含",
+      "object": "单选按钮",
+      "context": "单选按钮是Slate提供的一种交互控件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate控件",
+      "predicate": "包含",
+      "object": "菜单和工具栏",
+      "context": "菜单和工具栏是Slate提供的高级UI组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate控件",
+      "predicate": "包含",
+      "object": "项目视图",
+      "context": "项目视图是Slate提供的数据展示控件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FMenuBarBuilder",
+      "predicate": "用于",
+      "object": "创建菜单",
+      "context": "FMenuBarBuilder专门用于构建菜单结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FToolBarBuilder",
+      "predicate": "用于",
+      "object": "创建工具栏",
+      "context": "FToolBarBuilder专门用于构建工具栏结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可视性",
+      "predicate": "控制",
+      "object": "控件显示状态",
+      "context": "可视性参数决定控件是否显示以及是否参与布局计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对齐",
+      "predicate": "控制",
+      "object": "控件位置",
+      "context": "对齐参数决定控件在其父容器中的位置关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插槽属性",
+      "predicate": "控制",
+      "object": "布局行为",
+      "context": "插槽属性决定控件在盒面板中的具体布局方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:49:56.861Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10793 字符)",
+      "timestamp": "2025-06-15T20:48:52.132Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14363,
+    "contentLength": 10793,
+    "processingTimeMs": 64737
+  }
+}

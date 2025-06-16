@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_multi-user-editing-overview-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_multi-user-editing-overview-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "多用户编辑",
+      "predicate": "基于",
+      "object": "客户端-服务器模型",
+      "context": "多用户编辑的工作流程依赖于客户端-服务器架构来实现协作编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "会话",
+      "predicate": "包含",
+      "object": "虚拟工作空间",
+      "context": "每个会话代表一个独立的虚拟工作空间，允许多个用户在同一项目上协作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户编辑系统",
+      "predicate": "同步",
+      "object": "事务",
+      "context": "系统通过同步事务记录来保持所有客户端的内容一致性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡编辑",
+      "predicate": "采用",
+      "object": "即时同步策略",
+      "context": "关卡内容的更改会立即同步给所有连接的客户端",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产编辑",
+      "predicate": "采用",
+      "object": "保存时同步策略",
+      "context": "大多数资产类型只在保存时才将更改同步给其他用户",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "支持",
+      "object": "播放同步",
+      "context": "Sequencer的播放操作会自动同步给所有打开相同序列的用户",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户编辑系统",
+      "predicate": "提供",
+      "object": "在线状态信息",
+      "context": "系统显示其他用户的位置、视点和操作状态，增强协作体验",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户浏览器",
+      "predicate": "显示",
+      "object": "会话更改历史记录",
+      "context": "用户可以查看会话中发生的所有编辑事务历史",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "提供",
+      "object": "资产更改历史记录",
+      "context": "用户可以查看特定资产的修改历史",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户编辑系统",
+      "predicate": "实现",
+      "object": "冲突避免机制",
+      "context": "通过锁定机制防止多个用户同时修改相同内容导致的冲突",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "拖拽选择",
+      "predicate": "触发",
+      "object": "临时独占锁定",
+      "context": "当用户拖拽选择Actor时获得对这些Actor的独占控制权",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产锁定",
+      "predicate": "防止",
+      "object": "并发修改冲突",
+      "context": "锁定资产可以防止其他用户同时修改相同资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户编辑",
+      "predicate": "依赖",
+      "object": "初始状态一致性",
+      "context": "所有用户需要从相同的项目状态开始才能确保事务同步的正确性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "会话验证",
+      "predicate": "检查",
+      "object": "项目一致性",
+      "context": "服务器验证连接用户的UE版本、项目名称和源控制状态是否匹配",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "持久存储",
+      "predicate": "将",
+      "object": "会话更改应用到本地文件",
+      "context": "用户可以选择将会话中的更改永久保存到磁盘上的项目文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户编辑",
+      "predicate": "补充",
+      "object": "源控制系统",
+      "context": "多用户编辑增强了源控制系统的工作流，但不取代它",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户编辑",
+      "predicate": "需要",
+      "object": "UDP网络连接",
+      "context": "系统通过UDP端口6666在局域网内建立连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR编辑模式",
+      "predicate": "支持",
+      "object": "多用户协作",
+      "context": "用户可以使用VR设备在多用户编辑环境中协作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚拟摄像机",
+      "predicate": "兼容",
+      "object": "多用户编辑",
+      "context": "虚拟摄像机插件可以在多用户编辑环境中使用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "事务",
+      "predicate": "记录",
+      "object": "资产更改",
+      "context": "事务系统记录对资产的修改以实现同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:01:48.329Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (14274 字符)",
+      "timestamp": "2025-06-15T20:00:38.367Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 25537,
+    "contentLength": 14274,
+    "processingTimeMs": 69973
+  }
+}

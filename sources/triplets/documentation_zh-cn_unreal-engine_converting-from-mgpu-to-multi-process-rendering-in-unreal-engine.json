@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_converting-from-mgpu-to-multi-process-rendering-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_converting-from-mgpu-to-multi-process-rendering-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "mGPU",
+      "predicate": "转换为",
+      "object": "多进程渲染",
+      "context": "文档详细描述了如何将现有的mGPU配置转换为多进程渲染配置，帮助理解两种渲染方式的转换过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay",
+      "predicate": "支持",
+      "object": "ICVFX",
+      "context": "文档提到现存的nDisplay摄像机内视觉特效处理(ICVFX)用户可能已经用上了多GPU，表明nDisplay支持ICVFX功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多进程渲染",
+      "predicate": "依赖",
+      "object": "NVIDIA控制面板设置",
+      "context": "文档详细说明了在NVIDIA控制面板中禁用SLI和调整Mosaic设置是实现多进程渲染的必要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "群集节点",
+      "predicate": "包含",
+      "object": "无头渲染",
+      "context": "在添加屏幕外节点时，需要启用无头渲染选项，这是群集节点配置的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX摄像机",
+      "predicate": "使用",
+      "object": "输出群组",
+      "context": "文档描述了如何为ICVFX摄像机设置输出群组，这是摄像机配置的关键部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "管理",
+      "object": "多进程节点",
+      "context": "文档提到在Switchboard中会有多个多进程节点需要管理，说明Switchboard在多进程渲染中的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多进程渲染",
+      "predicate": "基于",
+      "object": "快速入门页面知识",
+      "context": "文档提到本章节将借用快速入门页面的知识，说明多进程渲染的实现基于这些基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "屏幕外节点",
+      "predicate": "使用",
+      "object": "次级GPU",
+      "context": "在添加屏幕外节点时，需要将图形适配器设为次级GPU，表明屏幕外节点专门使用次级GPU",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX摄像机",
+      "predicate": "需要",
+      "object": "唯一名称",
+      "context": "文档强调为不同ICVFX摄像机设置不同的唯一名称非常重要，这是摄像机配置的关键要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多进程渲染",
+      "predicate": "替代",
+      "object": "mGPU",
+      "context": "文档整体描述了从mGPU到多进程渲染的转换过程，表明多进程渲染可以作为mGPU的替代方案",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:36:17.743Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6475,
+    "contentLength": 4437,
+    "processingTimeMs": 40606
+  }
+}

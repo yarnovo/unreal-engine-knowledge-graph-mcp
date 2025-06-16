@@ -1,0 +1,77 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_hierarchical-lod-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_hierarchical-lod-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "Hierarchical LOD",
+      "predicate": "包含",
+      "object": "HLODSystem",
+      "context": "HLODSystem是Hierarchical LOD系统的一部分，理解HLODSystem有助于掌握Hierarchical LOD的整体工作机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HLODSystem",
+      "predicate": "控制",
+      "object": "Force Settings in All Maps",
+      "context": "Force Settings in All Maps是HLODSystem的一个配置选项，控制是否在所有地图中强制使用项目范围的HLOD级别设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HLODSystem",
+      "predicate": "控制",
+      "object": "Save LODActors to HLODPackages",
+      "context": "Save LODActors to HLODPackages是HLODSystem的一个配置选项，控制是否将LOD Actor描述保存在HLOD包中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Force Settings in All Maps",
+      "predicate": "影响",
+      "object": "Default Setup",
+      "context": "当Force Settings in All Maps启用时，Default Setup决定了所有Level默认使用的HLOD配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Default Setup",
+      "predicate": "基于",
+      "object": "HierarchicalLODSetup",
+      "context": "Default Setup可以选择项目中的任何HierarchicalLODSetup类作为默认配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HLODSystem",
+      "predicate": "使用",
+      "object": "Base Material",
+      "context": "Base Material用于创建作为Proxy Material的Constant Material Instance，是HLOD系统的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HLODSystem",
+      "predicate": "依赖",
+      "object": "Directories Containing Maps Used for Building HLOD Data Through the Commandlet",
+      "context": "这些目录包含用于通过Commandlet构建HLOD数据的地图，是HLOD系统工作流程的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HLODSystem",
+      "predicate": "依赖",
+      "object": "Map UAssets Used for Building HLOD Data Through the ResavePackages Commandlet",
+      "context": "这些Map UAssets用于通过ResavePackages Commandlet构建HLOD数据，是HLOD系统工作流程的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:19:18.276Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 1959,
+    "contentLength": 1857,
+    "processingTimeMs": 39381
+  }
+}

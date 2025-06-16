@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_text-to-speech-quickstart-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_text-to-speech-quickstart-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "文本转语音（Text To Speech）",
+      "predicate": "依赖",
+      "object": "文本转语音插件",
+      "context": "使用文本转语音功能前需要先启用对应的插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "文本转语音（Text To Speech）",
+      "predicate": "使用",
+      "object": "TextToSpeechEngineSubsystem",
+      "context": "通过TextToSpeechEngineSubsystem实现文本转语音的核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件蓝图（Widget Blueprint）",
+      "predicate": "基于",
+      "object": "用户控件（User Widget）",
+      "context": "创建控件蓝图时需要选择User Widget作为基类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件蓝图（Widget Blueprint）",
+      "predicate": "包含",
+      "object": "按钮（Button）",
+      "context": "控件蓝图中可以添加按钮等UI元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡蓝图（Level Blueprint）",
+      "predicate": "控制",
+      "object": "控件蓝图（Widget Blueprint）",
+      "context": "关卡蓝图通过Create Widget和Add to Viewport节点控制UI的显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "按钮（Button）",
+      "predicate": "触发",
+      "object": "点击时（On Clicked）事件",
+      "context": "按钮点击时会触发On Clicked事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "点击时（On Clicked）事件",
+      "predicate": "连接",
+      "object": "文本转语音功能",
+      "context": "On Clicked事件可以连接到文本转语音功能实现点击说话",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TextToSpeechEngineSubsystem",
+      "predicate": "提供",
+      "object": "Add Default Channel",
+      "context": "子系统提供Add Default Channel方法创建语音通道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TextToSpeechEngineSubsystem",
+      "predicate": "提供",
+      "object": "Activate Channel",
+      "context": "子系统提供Activate Channel方法激活语音通道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TextToSpeechEngineSubsystem",
+      "predicate": "提供",
+      "object": "Speak on Channel",
+      "context": "子系统提供Speak on Channel方法实现语音输出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Set Input Mode UI Only",
+      "predicate": "控制",
+      "object": "玩家输入模式",
+      "context": "该节点设置玩家输入仅响应UI元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Player Controller",
+      "predicate": "获取",
+      "object": "玩家控制器",
+      "context": "用于获取当前玩家控制器实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG界面编辑器",
+      "predicate": "用于",
+      "object": "创建控件蓝图",
+      "context": "UMG是创建和编辑UI控件的主要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器（Content Browser）",
+      "predicate": "用于",
+      "object": "创建控件蓝图",
+      "context": "在内容浏览器中可以右键创建新的控件蓝图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Format Text节点",
+      "predicate": "用于",
+      "object": "格式化语音文本",
+      "context": "用于格式化要输出的语音文本内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "To String (Text)节点",
+      "predicate": "转换",
+      "object": "文本格式",
+      "context": "将文本转换为字符串格式供语音输出使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Set Show Mouse Cursor",
+      "predicate": "控制",
+      "object": "鼠标光标显示",
+      "context": "控制游戏中鼠标光标的显示状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编译（Compile）",
+      "predicate": "验证",
+      "object": "蓝图逻辑",
+      "context": "编译操作会验证蓝图逻辑的正确性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "播放（Play）按钮",
+      "predicate": "用于",
+      "object": "测试控件",
+      "context": "在编辑器中播放模式用于测试UI控件功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:00:11.037Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9912 字符)",
+      "timestamp": "2025-06-15T20:59:16.562Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13530,
+    "contentLength": 9912,
+    "processingTimeMs": 54479
+  }
+}

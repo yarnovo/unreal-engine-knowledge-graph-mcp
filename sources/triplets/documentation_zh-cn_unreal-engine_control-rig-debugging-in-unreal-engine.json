@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_control-rig-debugging-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_control-rig-debugging-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "控制绑定调试",
+      "predicate": "包含",
+      "object": "调试模式",
+      "context": "调试模式是控制绑定调试的核心功能之一，用于评估Rig行为和解决问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试模式",
+      "predicate": "支持",
+      "object": "断点",
+      "context": "调试模式允许用户添加断点来暂停图表评估，帮助逐步调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试模式",
+      "predicate": "支持",
+      "object": "属性监视",
+      "context": "调试模式允许用户监视节点属性的实时更新值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试模式",
+      "predicate": "支持",
+      "object": "解算方向",
+      "context": "调试模式根据正向解算、反向解算或设置事件来应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "断点",
+      "predicate": "用于",
+      "object": "单步调试",
+      "context": "断点用于在指定节点停止评估，并允许用户单步调试后续节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性监视",
+      "predicate": "用于",
+      "object": "实时更新值",
+      "context": "属性监视功能允许用户实时查看节点属性的更新值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "类设置调试",
+      "predicate": "包含",
+      "object": "显示节点运行计数",
+      "context": "类设置调试面板包含显示节点运行计数的工具，用于调试循环或集合节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "类设置调试",
+      "predicate": "包含",
+      "object": "VM分析",
+      "context": "类设置调试面板包含VM分析工具，用于调试实时图表性能和节点执行速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VM分析",
+      "predicate": "用于",
+      "object": "性能调试",
+      "context": "VM分析用于测量节点执行时间，帮助优化图表性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "执行堆栈",
+      "predicate": "用于",
+      "object": "节点操作顺序参考",
+      "context": "执行堆栈面板提供了图表中节点操作顺序的参考，帮助调试节点和评估事件顺序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "执行堆栈",
+      "predicate": "显示",
+      "object": "节点运行计数",
+      "context": "执行堆栈可以显示节点已执行的次数，帮助调试循环或集合节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "执行堆栈",
+      "predicate": "显示",
+      "object": "微秒计数",
+      "context": "执行堆栈可以显示节点执行所需的总时间，帮助性能优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定调试",
+      "predicate": "依赖",
+      "object": "控制绑定资产",
+      "context": "控制绑定调试需要先创建控制绑定资产，这是调试的先决条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试模式",
+      "predicate": "类似",
+      "object": "蓝图调试",
+      "context": "调试模式与蓝图调试类似，都支持断点和单步调试功能",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "断点",
+      "predicate": "影响",
+      "object": "累积时间节点",
+      "context": "使用断点时，累积时间节点不会更改其结果，直到评估流程到达图表末端",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "步进按钮",
+      "predicate": "包含",
+      "object": "恢复",
+      "context": "步进按钮包含恢复功能，用于在断点处停止后恢复执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "步进按钮",
+      "predicate": "包含",
+      "object": "聚焦",
+      "context": "步进按钮包含聚焦功能，用于将图表视图聚焦在当前正在调试的节点上",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "步进按钮",
+      "predicate": "包含",
+      "object": "步进下一个",
+      "context": "步进按钮包含步进下一个功能，用于跳过调试焦点到下一个评估中的节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "步进按钮",
+      "predicate": "包含",
+      "object": "步入函数",
+      "context": "步进按钮包含步入函数功能，用于进入函数或折叠组的第一个节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "步进按钮",
+      "predicate": "包含",
+      "object": "步出函数",
+      "context": "步进按钮包含步出函数功能，用于退出当前函数或组并聚焦外部节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:33:34.129Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9297,
+    "contentLength": 6237,
+    "processingTimeMs": 75120
+  }
+}

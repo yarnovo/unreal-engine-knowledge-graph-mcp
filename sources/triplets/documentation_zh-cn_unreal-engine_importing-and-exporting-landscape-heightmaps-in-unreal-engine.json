@@ -1,0 +1,315 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_importing-and-exporting-landscape-heightmaps-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_importing-and-exporting-landscape-heightmaps-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "高度图",
+      "predicate": "存储",
+      "object": "地貌高程",
+      "context": "高度图是灰阶图像，使用黑白色值来存储地貌高程，纯黑色表示最低点，纯白色表示最高点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎地形系统",
+      "predicate": "使用",
+      "object": "高度图",
+      "context": "虚幻引擎地形系统将高度数据存储在高度图中，这是创建和修改地形的核心数据格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gaea",
+      "predicate": "生成",
+      "object": "高度图",
+      "context": "Gaea是地貌生成应用程序之一，可以创建高度图供虚幻引擎使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Machine",
+      "predicate": "生成",
+      "object": "高度图",
+      "context": "World Machine是地貌生成应用程序之一，可以创建高度图供虚幻引擎使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Terragen",
+      "predicate": "生成",
+      "object": "高度图",
+      "context": "Terragen是地貌生成应用程序之一，可以创建高度图供虚幻引擎使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Houdini",
+      "predicate": "生成",
+      "object": "高度图",
+      "context": "Houdini是地貌生成应用程序之一，可以创建高度图供虚幻引擎使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高度图",
+      "predicate": "支持格式",
+      "object": "16位灰阶PNG",
+      "context": "虚幻引擎支持使用16位灰阶PNG格式的高度图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高度图",
+      "predicate": "支持格式",
+      "object": "8位灰阶r8",
+      "context": "虚幻引擎支持使用8位灰阶r8格式的高度图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高度图",
+      "predicate": "支持格式",
+      "object": "16位灰阶r16",
+      "context": "虚幻引擎支持使用16位灰阶r16格式的高度图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高度图",
+      "predicate": "支持格式",
+      "object": "RAW格式",
+      "context": "虚幻引擎支持使用JSON sidecar文件的RAW格式高度图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形",
+      "predicate": "创建方式",
+      "object": "导入高度图",
+      "context": "可以在创建地形时导入高度图，这是创建地形的关键步骤之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形",
+      "predicate": "修改方式",
+      "object": "导入高度图",
+      "context": "可以使用导入工具将高度图应用于现有地形，这是修改地形的关键方法之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区",
+      "predicate": "支持",
+      "object": "图块化高度图",
+      "context": "虚幻引擎支持使用世界分区创建大型世界，并支持导入图块化高度图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形模式",
+      "predicate": "包含工具",
+      "object": "从文件导入",
+      "context": "在地形模式中，可以使用从文件导入工具来导入高度图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Z轴刻度",
+      "predicate": "计算公式",
+      "object": "高度图最大高度",
+      "context": "Z轴刻度公式是(以米为单位的高度图最大高度) x (100，以转换为厘米) x 0.001953125",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形技术指南",
+      "predicate": "包含",
+      "object": "Z轴刻度计算",
+      "context": "地形技术指南提供了关于计算Z轴刻度的更多信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形模式",
+      "predicate": "包含工具",
+      "object": "导入工具",
+      "context": "在管理模式中，可以使用导入工具将高度图导入现有地形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导入类型",
+      "predicate": "包含选项",
+      "object": "子区域",
+      "context": "如果要使用世界分区，可以选择子区域作为导入类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形编辑层",
+      "predicate": "支持",
+      "object": "地形修改",
+      "context": "地形编辑层支持对地形进行非破坏性修改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "翻转Y轴",
+      "predicate": "解决",
+      "object": "图块化高度图吻合问题",
+      "context": "翻转Y轴选项用于解决图块化高度图在导入时不能恰当地吻合的问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区网格大小",
+      "predicate": "定义",
+      "object": "地形流送代理数量",
+      "context": "世界分区网格大小定义每个地形组件沿X轴和Y轴使用的地形流送代理数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区区域大小",
+      "predicate": "定义",
+      "object": "地形组件数量",
+      "context": "世界分区区域大小定义每个轴上每个世界分区区域的地形组件数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高度图分辨率",
+      "predicate": "自动填充",
+      "object": "高度图文件",
+      "context": "虚幻引擎会从高度图文件读取高度图分辨率信息，并自动填充正确的值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形材质",
+      "predicate": "应用于",
+      "object": "地形",
+      "context": "可以定义初始应用于地形的地形材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "层Alphamap类型",
+      "predicate": "定义",
+      "object": "地形层类型",
+      "context": "层Alphamap类型定义创建的新地形层是叠加还是分层（权重混合）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分段大小",
+      "predicate": "定义",
+      "object": "四边形数量",
+      "context": "分段大小定义地形分段中的四边形数量，一个分段是地形渲染期间LOD的过渡单位",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "每个组件的分段数",
+      "predicate": "定义",
+      "object": "地形组件大小",
+      "context": "每个组件的分段数定义每个地形组件中的分段数量，该值和分段大小将确定每个地形组件的大小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "组件数量",
+      "predicate": "确定",
+      "object": "地形总体大小",
+      "context": "组件数量确定X轴和Y轴上的组件数量，该值将确定地形的总体大小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导入类型",
+      "predicate": "包含选项",
+      "object": "重新采样",
+      "context": "导入类型中的重新采样选项会对导入的数据重新采样以吻合地形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "将小工具对齐到地形网格",
+      "predicate": "包含选项",
+      "object": "纹素",
+      "context": "将小工具对齐到地形网格中的纹素选项使用纹素大小对齐",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "将小工具对齐到地形网格",
+      "predicate": "包含选项",
+      "object": "组件",
+      "context": "将小工具对齐到地形网格中的组件选项使用地形组件大小对齐",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持导出",
+      "object": "16位灰阶.png",
+      "context": "虚幻引擎可以将高度图文件导出为16位灰阶.png格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持导出",
+      "object": "16位灰阶.r16",
+      "context": "虚幻引擎可以将高度图文件导出为16位灰阶.r16格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导出单个文件",
+      "predicate": "决定",
+      "object": "图块化高度图导出",
+      "context": "导出单个文件选项决定是将高度图导出为单个文件还是图块化高度图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导出选定编辑层",
+      "predicate": "决定",
+      "object": "编辑层导出范围",
+      "context": "导出选定编辑层选项决定是导出选定的编辑层还是所有编辑层的混合结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Landscape地形概述",
+      "predicate": "是先修主题",
+      "object": "导入和导出地形高度图",
+      "context": "理解Landscape地形概述是学习导入和导出地形高度图的先修知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "创建地形",
+      "predicate": "是先修主题",
+      "object": "导入和导出地形高度图",
+      "context": "理解如何创建地形是学习导入和导出地形高度图的先修知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:33:43.898Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9003 字符)",
+      "timestamp": "2025-06-15T19:31:48.142Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14019,
+    "contentLength": 9003,
+    "processingTimeMs": 115763
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_online-subsystem-presence-interface-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_online-subsystem-presence-interface-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "在线子系统",
+      "predicate": "包含",
+      "object": "使用者状态接口",
+      "context": "在线子系统通过使用者状态接口访问用户在线状态信息，这是学习在线子系统功能的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "使用者状态接口",
+      "predicate": "实现",
+      "object": "获取用户在线状态",
+      "context": "该接口的核心功能是获取和设置用户在线状态信息，理解这一关系有助于掌握接口的主要用途",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FOnlineUserPresence",
+      "predicate": "包含",
+      "object": "FOnlineUserPresenceStatus",
+      "context": "FOnlineUserPresence类包含状态信息，而FOnlineUserPresenceStatus保存更详细的状态数据，理解这种包含关系有助于掌握状态数据的层次结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "QueryPresence",
+      "predicate": "用于",
+      "object": "获取用户状态信息",
+      "context": "QueryPresence是获取其他用户状态信息的主要方法，理解这一关系是学习状态查询机制的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SetPresence",
+      "predicate": "用于",
+      "object": "设置本地用户状态",
+      "context": "SetPresence是设置本地用户状态的主要方法，理解这一关系是学习状态更新机制的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FUniqueNetId",
+      "predicate": "标识",
+      "object": "在线用户",
+      "context": "FUniqueNetId用于唯一标识在线用户，这是理解如何查询特定用户状态的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FOnPresenceTaskCompleteDelegate",
+      "predicate": "处理",
+      "object": "异步操作结果",
+      "context": "该委托用于处理QueryPresence和SetPresence等异步操作的结果，理解这一关系对掌握异步编程模式很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetCachedPresence",
+      "predicate": "获取",
+      "object": "缓存的状态信息",
+      "context": "该函数用于从本地缓存获取用户状态信息，理解这一关系有助于掌握状态信息的缓存机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EOnlinePresenceState",
+      "predicate": "表示",
+      "object": "基础用户状态",
+      "context": "该枚举类型表示用户的基础在线状态(如在线、离线等)，理解这一关系是掌握状态表示方式的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务",
+      "predicate": "影响",
+      "object": "获取的状态信息",
+      "context": "在线服务的隐私政策和设置会影响获取的状态信息，理解这一关系有助于处理状态信息的可见性问题",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "使用者状态接口",
+      "predicate": "支持",
+      "object": "游戏特定状态",
+      "context": "接口支持通过键值对存储游戏特定的自定义状态数据，理解这一关系有助于扩展状态功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "QueryPresence",
+      "predicate": "可选",
+      "object": "主动通知服务",
+      "context": "对于支持主动通知的服务，QueryPresence可能不是必需的，理解这一关系有助于优化状态查询逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T20:09:21.729Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4350,
+    "contentLength": 2802,
+    "processingTimeMs": 42369
+  }
+}

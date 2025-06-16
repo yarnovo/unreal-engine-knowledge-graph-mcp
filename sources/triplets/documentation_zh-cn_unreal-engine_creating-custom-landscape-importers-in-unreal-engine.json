@@ -1,0 +1,157 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_creating-custom-landscape-importers-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_creating-custom-landscape-importers-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "自定义地形导入器",
+      "predicate": "实现",
+      "object": "ILandscapeHeightmapFileFormat",
+      "context": "创建自定义地形导入器需要实现ILandscapeHeightmapFileFormat接口来处理高度图数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义地形导入器",
+      "predicate": "实现",
+      "object": "ILandscapeWeightmapFileFormat",
+      "context": "创建自定义地形导入器需要实现ILandscapeWeightmapFileFormat接口来处理权重图数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ILandscapeHeightmapFileFormat",
+      "predicate": "包含",
+      "object": "GetInfo",
+      "context": "ILandscapeHeightmapFileFormat接口包含GetInfo函数，用于返回处理文件类型的信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ILandscapeHeightmapFileFormat",
+      "predicate": "包含",
+      "object": "Validate",
+      "context": "ILandscapeHeightmapFileFormat接口包含Validate函数，用于验证高度图文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ILandscapeHeightmapFileFormat",
+      "predicate": "包含",
+      "object": "Import",
+      "context": "ILandscapeHeightmapFileFormat接口包含Import函数，用于实际导入高度图文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ILandscapeHeightmapFileFormat",
+      "predicate": "包含",
+      "object": "Export",
+      "context": "ILandscapeHeightmapFileFormat接口包含Export函数，用于导出高度图文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ILandscapeWeightmapFileFormat",
+      "predicate": "包含",
+      "object": "GetInfo",
+      "context": "ILandscapeWeightmapFileFormat接口包含GetInfo函数，用于返回处理文件类型的信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ILandscapeWeightmapFileFormat",
+      "predicate": "包含",
+      "object": "Validate",
+      "context": "ILandscapeWeightmapFileFormat接口包含Validate函数，用于验证权重图文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ILandscapeWeightmapFileFormat",
+      "predicate": "包含",
+      "object": "Import",
+      "context": "ILandscapeWeightmapFileFormat接口包含Import函数，用于实际导入权重图文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ILandscapeWeightmapFileFormat",
+      "predicate": "包含",
+      "object": "Export",
+      "context": "ILandscapeWeightmapFileFormat接口包含Export函数，用于导出权重图文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义地形导入器",
+      "predicate": "注册",
+      "object": "ILandscapeEditorModule",
+      "context": "自定义地形导入器需要通过ILandscapeEditorModule的RegisterHeightmapFileFormat和RegisterWeightmapFileFormat方法进行注册",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LandscapeFileFormatPng",
+      "predicate": "实现",
+      "object": "ILandscapeHeightmapFileFormat",
+      "context": "LandscapeFileFormatPng是ILandscapeHeightmapFileFormat接口的一个具体实现，用于处理PNG格式的高度图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LandscapeFileFormatPng",
+      "predicate": "实现",
+      "object": "ILandscapeWeightmapFileFormat",
+      "context": "LandscapeFileFormatPng是ILandscapeWeightmapFileFormat接口的一个具体实现，用于处理PNG格式的权重图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LandscapeFileFormatRaw",
+      "predicate": "实现",
+      "object": "ILandscapeHeightmapFileFormat",
+      "context": "LandscapeFileFormatRaw是ILandscapeHeightmapFileFormat接口的一个具体实现，用于处理RAW格式的高度图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LandscapeFileFormatRaw",
+      "predicate": "实现",
+      "object": "ILandscapeWeightmapFileFormat",
+      "context": "LandscapeFileFormatRaw是ILandscapeWeightmapFileFormat接口的一个具体实现，用于处理RAW格式的权重图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LandscapeEditor模块",
+      "predicate": "包含",
+      "object": "LandscapeFileFormatInterfaces.h",
+      "context": "LandscapeEditor模块包含LandscapeFileFormatInterfaces.h文件，定义了地形文件格式的接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LandscapeEditor模块",
+      "predicate": "包含",
+      "object": "LandscapeFileFormatPng",
+      "context": "LandscapeEditor模块包含LandscapeFileFormatPng实现，用于处理PNG格式的地形文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LandscapeEditor模块",
+      "predicate": "包含",
+      "object": "LandscapeFileFormatRaw",
+      "context": "LandscapeEditor模块包含LandscapeFileFormatRaw实现，用于处理RAW格式的地形文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:40:40.513Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3841,
+    "contentLength": 2647,
+    "processingTimeMs": 62796
+  }
+}

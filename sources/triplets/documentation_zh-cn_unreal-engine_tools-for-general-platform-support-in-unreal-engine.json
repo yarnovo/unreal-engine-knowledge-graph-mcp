@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_tools-for-general-platform-support-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_tools-for-general-platform-support-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "跨平台开发",
+      "context": "文档明确指出虚幻引擎包含支持跨平台开发的功能，这对学习者理解引擎的核心能力很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AutoSDK系统",
+      "predicate": "用于",
+      "object": "目标平台SDK分发",
+      "context": "AutoSDK系统专门用于分发和配置目标平台SDK，这是跨平台开发的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Device Manager",
+      "predicate": "管理",
+      "object": "连接设备",
+      "context": "Device Manager用于连接和管理设备，这是多平台测试和开发的关键工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设备描述",
+      "predicate": "配置",
+      "object": "平台特定设置",
+      "context": "设置设备描述可以帮助开发者针对不同平台进行特定配置，这对优化多平台性能很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "低延迟框架同步",
+      "predicate": "优化",
+      "object": "输入延迟",
+      "context": "该技术通过改变线程同步方式来优化输入延迟，这对实时交互应用开发很关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "电视安全区调试",
+      "predicate": "防止",
+      "object": "UI边缘裁剪",
+      "context": "帮助开发者确保UI元素不会因电视屏幕边缘而被裁剪，这对电视平台开发是必备知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平台支持工具",
+      "predicate": "包含",
+      "object": "AutoSDK系统",
+      "context": "AutoSDK是平台支持工具集的一部分，学习者需要了解这些工具的从属关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平台支持工具",
+      "predicate": "包含",
+      "object": "Device Manager",
+      "context": "Device Manager是平台支持工具集的组成部分，建立这种包含关系有助于工具定位",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "跨平台开发",
+      "predicate": "需要",
+      "object": "平台特定优化",
+      "context": "成功的跨平台开发需要理解和应用各种平台特定优化技术",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "电视平台开发",
+      "predicate": "需要",
+      "object": "电视安全区调试",
+      "context": "电视平台开发有特殊的UI安全区要求，这是该平台开发的必备知识",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:02:51.263Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2519,
+    "contentLength": 1987,
+    "processingTimeMs": 29939
+  }
+}

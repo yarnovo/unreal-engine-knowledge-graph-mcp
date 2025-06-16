@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_creating-timelines-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_creating-timelines-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "时间轴组件",
+      "predicate": "属于",
+      "object": "Actor类",
+      "context": "时间轴组件需要在Actor类中创建和实例化，这是使用时间轴的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TimelineActor",
+      "predicate": "继承自",
+      "object": "AActor",
+      "context": "TimelineActor是创建时间轴功能的专用Actor类，继承自基础AActor类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UTimelineComponent",
+      "predicate": "包含",
+      "object": "FOnTimelineEvent",
+      "context": "时间轴组件可以包含时间轴事件委托，用于处理时间轴完成等事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UProperty说明符",
+      "predicate": "用于",
+      "object": "时间轴变量",
+      "context": "UProperty说明符用于将时间轴组件暴露为蓝图可访问的变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "扩展",
+      "object": "时间轴功能",
+      "context": "通过将C++创建的时间轴变量暴露给蓝图，可以在蓝图中进一步扩展时间轴功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FOnTimelineEvent",
+      "predicate": "是",
+      "object": "动态委托",
+      "context": "时间轴事件是一种动态委托类型，用于处理时间轴相关事件",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间轴节点",
+      "predicate": "提供",
+      "object": "时间轴功能",
+      "context": "时间轴节点提供了在蓝图中操作时间轴的各种功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BeginPlay",
+      "predicate": "初始化",
+      "object": "时间轴组件",
+      "context": "通常在BeginPlay函数中初始化时间轴组件并设置相关事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CreateDefaultSubobject",
+      "predicate": "用于",
+      "object": "创建时间轴组件",
+      "context": "这是创建时间轴组件的标准方法，在Actor构造函数中调用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EditAnywhere",
+      "predicate": "修饰",
+      "object": "时间轴组件属性",
+      "context": "该属性说明符允许在编辑器中任意位置编辑时间轴组件属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BlueprintReadWrite",
+      "predicate": "允许",
+      "object": "蓝图访问时间轴",
+      "context": "该属性说明符允许蓝图读写时间轴组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间轴组件",
+      "predicate": "控制",
+      "object": "动画时间",
+      "context": "时间轴组件的主要功能是控制基于时间的动画和事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SetTimelineFinishedFunc",
+      "predicate": "绑定",
+      "object": "时间轴完成事件",
+      "context": "该方法用于将时间轴完成事件绑定到自定义处理函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PlayFromStart",
+      "predicate": "启动",
+      "object": "时间轴播放",
+      "context": "该方法从开始处播放时间轴",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间轴组件",
+      "predicate": "显示在",
+      "object": "组件选项卡",
+      "context": "创建的时间轴组件会显示在Actor的组件选项卡中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:42:29.461Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9176 字符)",
+      "timestamp": "2025-06-15T18:41:38.520Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 10823,
+    "contentLength": 9176,
+    "processingTimeMs": 50951
+  }
+}

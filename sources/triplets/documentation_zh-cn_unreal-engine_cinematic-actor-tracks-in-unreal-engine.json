@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_cinematic-actor-tracks-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_cinematic-actor-tracks-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Sequencer",
+      "predicate": "包含",
+      "object": "Object绑定轨道",
+      "context": "Sequencer使用Object绑定轨道来引用和控制添加到其中的Actor，这是制作过场动画的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Object绑定轨道",
+      "predicate": "引用",
+      "object": "Actor",
+      "context": "Object绑定轨道通过绑定机制引用特定的Actor，从而可以访问和操作该Actor的属性和组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体Actor",
+      "predicate": "自动创建",
+      "object": "变换轨道",
+      "context": "当静态网格体Actor被添加到Sequencer时，会自动创建变换轨道，便于直接控制其位置、旋转和缩放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体Actor",
+      "predicate": "自动创建",
+      "object": "动画轨道",
+      "context": "骨骼网格体Actor被添加到Sequencer时会自动创建动画轨道，这是控制角色动画的关键组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "电影摄像机Actor",
+      "predicate": "自动创建",
+      "object": "摄像机组件",
+      "context": "电影摄像机Actor在Sequencer中会自动创建带有光圈、焦距等属性的摄像机组件轨道，用于精细控制摄像机参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源Actor",
+      "predicate": "自动创建",
+      "object": "光源组件",
+      "context": "光源Actor在Sequencer中会自动创建带有强度和颜色属性的光源组件轨道，便于动态调整光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer插件项目设置",
+      "predicate": "控制",
+      "object": "自动轨道创建",
+      "context": "通过Sequencer插件项目设置中的轨道设置，开发者可以自定义不同类型Actor被添加时自动创建的轨道类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Object绑定轨道",
+      "predicate": "支持",
+      "object": "多重绑定",
+      "context": "Object绑定轨道支持将多个Actor绑定到同一轨道，便于同时控制多个相似对象的属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "组件",
+      "context": "Actor由一个或多个组件构成，这些组件可以通过Object绑定轨道在Sequencer中被访问和控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图可视化脚本",
+      "predicate": "用于",
+      "object": "变更绑定",
+      "context": "开发者可以使用蓝图函数来动态变更Object绑定轨道的绑定关系，这为运行时控制提供了灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "依赖",
+      "object": "蓝图可视化脚本",
+      "context": "要充分利用Sequencer的高级功能如动态绑定变更，需要先掌握蓝图可视化脚本的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "骨骼网格体Actor",
+      "predicate": "继承",
+      "object": "静态网格体Actor",
+      "context": "骨骼网格体Actor继承了静态网格体Actor的基本特性，但增加了骨骼动画的支持",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "变换轨道",
+      "predicate": "适用于",
+      "object": "所有Actor类型",
+      "context": "变换轨道是控制Actor位置、旋转和缩放的通用轨道，适用于所有类型的Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大纲视图",
+      "predicate": "用于",
+      "object": "添加Actor到Sequencer",
+      "context": "开发者可以从大纲视图中直接拖拽Actor到Sequencer中，这是添加Actor的便捷方式之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画轨道",
+      "predicate": "专门用于",
+      "object": "骨骼网格体Actor",
+      "context": "动画轨道是专门为骨骼网格体Actor设计的，用于控制角色的骨骼动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:21:46.567Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9050 字符)",
+      "timestamp": "2025-06-15T18:20:47.150Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12552,
+    "contentLength": 9050,
+    "processingTimeMs": 59423
+  }
+}

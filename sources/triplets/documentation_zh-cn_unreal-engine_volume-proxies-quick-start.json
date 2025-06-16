@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_volume-proxies-quick-start",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_volume-proxies-quick-start.md",
+  "triples": [
+    {
+      "subject": "音量代理组件",
+      "predicate": "替代",
+      "object": "音频游戏音量对象",
+      "context": "音量代理组件可以替代传统的音频游戏音量对象，简化开发流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "初始代理",
+      "predicate": "基于",
+      "object": "静态网格体组件",
+      "context": "初始代理使用Actor上的原始静态网格体作为碰撞的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "条件代理",
+      "predicate": "实现",
+      "object": "音频游戏条件接口",
+      "context": "条件代理通过音频游戏条件接口实现自定义条件触发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效类",
+      "predicate": "支持",
+      "object": "音频游戏音量系统",
+      "context": "音效类需要配置以支持音频游戏音量系统的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混响组件",
+      "predicate": "用于",
+      "object": "代理Actor",
+      "context": "混响组件作为代理Actor的基础组件，提供音频效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频游戏条件接口",
+      "predicate": "包含",
+      "object": "Condition Met",
+      "context": "音频游戏条件接口包含Condition Met方法用于设置布尔条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频游戏条件接口",
+      "predicate": "包含",
+      "object": "Condition Met Position",
+      "context": "音频游戏条件接口包含Condition Met Position方法用于位置相关条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡蓝图",
+      "predicate": "控制",
+      "object": "代理Actor缩放",
+      "context": "关卡蓝图可以通过鼠标滚轮输入控制代理Actor的3D缩放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频游戏音量系统",
+      "predicate": "依赖",
+      "object": "音频游戏音量插件",
+      "context": "使用音频游戏音量系统需要先启用对应的插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理Actor",
+      "predicate": "触发",
+      "object": "进入/退出事件",
+      "context": "代理Actor可以触发进入和退出事件来影响音频效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混响效果",
+      "predicate": "应用于",
+      "object": "动态调整大小的代理",
+      "context": "混响效果可以应用于动态调整大小的代理，保持音频效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Condition Met",
+      "predicate": "检测",
+      "object": "Shift键状态",
+      "context": "Condition Met接口可以检测Shift键状态作为触发条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Condition Met Position",
+      "predicate": "检测",
+      "object": "监听器高度",
+      "context": "Condition Met Position接口可以检测监听器高度作为触发条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音量代理组件",
+      "predicate": "分为",
+      "object": "初始代理",
+      "context": "音量代理组件分为初始代理和条件代理两种类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音量代理组件",
+      "predicate": "分为",
+      "object": "条件代理",
+      "context": "音量代理组件分为初始代理和条件代理两种类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理Actor",
+      "predicate": "响应",
+      "object": "代理进入/退出事件",
+      "context": "代理Actor可以响应代理进入和退出事件添加自定义行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效类",
+      "predicate": "配置",
+      "object": "应用环境音量",
+      "context": "音效类需要配置应用环境音量属性以支持音频游戏音量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混响效果",
+      "predicate": "配置",
+      "object": "后期反射增益",
+      "context": "混响效果可以通过配置后期反射增益来调整清晰度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体组件",
+      "predicate": "需要配置",
+      "object": "碰撞参数",
+      "context": "静态网格体组件需要正确配置碰撞参数才能触发代理事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频游戏音量系统",
+      "predicate": "默认使用",
+      "object": "镜头作为监听器",
+      "context": "音频游戏音量系统默认使用镜头作为监听器检测进入/退出事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:30:34.187Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10516 字符)",
+      "timestamp": "2025-06-15T21:29:42.590Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16272,
+    "contentLength": 10516,
+    "processingTimeMs": 51607
+  }
+}

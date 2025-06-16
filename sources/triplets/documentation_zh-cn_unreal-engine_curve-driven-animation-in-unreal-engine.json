@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_curve-driven-animation-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_curve-driven-animation-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "曲线驱动动画",
+      "predicate": "基于",
+      "object": "动画序列",
+      "context": "曲线驱动动画是通过从动画序列中提取姿势数据来创建的，理解这一关系有助于学习者掌握动画数据重用的方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势资产",
+      "predicate": "生成自",
+      "object": "动画序列",
+      "context": "姿势资产是从动画序列中提取的关键姿势集合，这是动画重定向和混合的基础操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "曲线驱动动画",
+      "predicate": "使用",
+      "object": "姿势资产",
+      "context": "通过混合姿势资产中的不同姿势来创建新的动画，这是曲线驱动动画的核心实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Full Body",
+      "predicate": "适用于",
+      "object": "全身动画",
+      "context": "Full Body模式专门用于处理影响角色全身的动画，与局部动画（如面部动画）形成对比",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Additive",
+      "predicate": "用于",
+      "object": "局部动画",
+      "context": "Additive模式适合处理局部动画叠加，避免全身动画使用Additive时可能出现的比例问题",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "曲线数据",
+      "predicate": "控制",
+      "object": "动作混合",
+      "context": "通过调整曲线数值可以精确控制不同动作之间的混合权重，这是实现平滑动画过渡的关键技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "实现",
+      "object": "运行时动画播放",
+      "context": "要在游戏运行时播放曲线驱动的动画，必须通过动画蓝图中的混合节点来实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动作混合节点",
+      "predicate": "属于",
+      "object": "动画蓝图",
+      "context": "动作混合节点是动画蓝图的核心组件，用于处理动画状态之间的过渡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "曲线驱动动画",
+      "predicate": "可应用于",
+      "object": "面部动画",
+      "context": "虽然示例展示的是全身动画，但相同的曲线驱动原理也可以应用于面部动画制作",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Blueprint Thirdperson Template",
+      "predicate": "包含",
+      "object": "ThirdPersonWalk动画",
+      "context": "该模板项目提供了基础的角色动画资源，是学习曲线驱动动画的理想起点",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Pose_6",
+      "predicate": "重命名为",
+      "object": "r_foot_fwd",
+      "context": "通过有意义的姿势命名可以提高动画制作的可读性和可维护性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pose_24",
+      "predicate": "重命名为",
+      "object": "l_foot_fwd",
+      "context": "规范的命名约定有助于团队协作和后期动画调整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "曲线编辑器",
+      "predicate": "用于",
+      "object": "调整动作权重",
+      "context": "通过曲线编辑器可以可视化地调整不同时间点的动作影响权重，实现精确的动画控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Preview Pose Asset",
+      "predicate": "用于",
+      "object": "动画预览",
+      "context": "在编辑器中预览姿势资产的应用效果，是迭代改进动画的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:43:40.710Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6330,
+    "contentLength": 4592,
+    "processingTimeMs": 55350
+  }
+}

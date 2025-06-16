@@ -1,0 +1,147 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_developing-for-xr-experiences-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_developing-for-xr-experiences-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "XR",
+      "predicate": "包含",
+      "object": "增强现实",
+      "context": "XR是扩展现实的统称，包含增强现实(AR)、虚拟现实(VR)和混合现实(MR)三种主要形式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "XR",
+      "predicate": "包含",
+      "object": "虚拟现实",
+      "context": "虚拟现实(VR)是XR的重要组成部分，通过完全沉浸式设备实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "XR",
+      "predicate": "包含",
+      "object": "混合现实",
+      "context": "混合现实(MR)结合了AR和VR的特性，是XR技术的高级形态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "XR开发",
+      "context": "虚幻引擎提供完整的XR开发支持，包括AR、VR和MR应用的创建",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "OpenXR",
+      "predicate": "用于",
+      "object": "头戴式XR开发",
+      "context": "OpenXR是虚幻引擎中开发头戴式XR体验的标准API",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OpenXR",
+      "predicate": "基于",
+      "object": "开放标准",
+      "context": "OpenXR是Khronos Group制定的开放标准，确保跨平台兼容性",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "手持AR开发",
+      "predicate": "区别于",
+      "object": "头戴式XR开发",
+      "context": "手持AR与头戴式XR在设备形态和交互方式上有根本性差异",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "XR输入",
+      "predicate": "包含",
+      "object": "手部跟踪",
+      "context": "XR交互系统支持多种输入方式，手部跟踪是重要交互形式之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "XR输入",
+      "predicate": "包含",
+      "object": "运动控制器",
+      "context": "运动控制器是传统VR系统的主要输入设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "XR输入",
+      "predicate": "包含",
+      "object": "眼部跟踪",
+      "context": "眼部跟踪是高级XR系统的输入方式，可用于注视点渲染等",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "XR UI",
+      "predicate": "需要",
+      "object": "3D界面",
+      "context": "与传统2D界面不同，XR体验需要专门设计的3D用户界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享XR体验",
+      "predicate": "实现",
+      "object": "多用户交互",
+      "context": "共享体验功能允许多个XR设备用户在同一虚拟空间互动",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "XR性能分析",
+      "predicate": "用于",
+      "object": "优化体验",
+      "context": "性能分析工具帮助开发者识别和解决XR应用的性能瓶颈",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiveLinkXR",
+      "predicate": "支持",
+      "object": "内容创作",
+      "context": "LiveLinkXR扩展了XR设备在内容创作管线中的应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "XR开发",
+      "predicate": "前置",
+      "object": "XR入门指南",
+      "context": "XR入门指南是开始XR开发的基础学习资源",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻引擎XR支持",
+      "predicate": "包含",
+      "object": "多平台适配",
+      "context": "虚幻引擎支持多种XR平台和设备的开发与部署",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:52:13.827Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8350 字符)",
+      "timestamp": "2025-06-15T18:51:20.832Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 10602,
+    "contentLength": 8350,
+    "processingTimeMs": 53006
+  }
+}

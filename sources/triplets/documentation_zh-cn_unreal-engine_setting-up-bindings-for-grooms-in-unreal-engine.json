@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_setting-up-bindings-for-grooms-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_setting-up-bindings-for-grooms-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Groom绑定资产",
+      "predicate": "用于",
+      "object": "将Groom组件附着并蒙皮到骨骼网格体组件",
+      "context": "理解Groom绑定资产的核心功能是学习Groom系统的基础",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Groom绑定资产",
+      "predicate": "创建方式",
+      "object": "内容浏览器右键菜单",
+      "context": "掌握资产创建流程是实际操作的必要知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom绑定类型",
+      "predicate": "包含",
+      "object": "骨骼网格体和几何体缓存",
+      "context": "了解绑定类型选项有助于选择正确的绑定方式",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "几何体缓存绑定",
+      "predicate": "依赖",
+      "object": "几何体缓存插件",
+      "context": "理解功能依赖关系可避免配置错误",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RBF插值",
+      "predicate": "控制",
+      "object": "毛发全局插值效果",
+      "context": "掌握插值原理有助于优化毛发变形效果",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "插值点数",
+      "predicate": "影响",
+      "object": "变形精度和性能开销",
+      "context": "理解参数影响可进行合理的性能权衡",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom组件",
+      "predicate": "需要",
+      "object": "Groom资产和绑定资产",
+      "context": "明确组件配置要求是实施的基础",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "绑定类型",
+      "predicate": "决定",
+      "object": "LOD级别的模拟模式",
+      "context": "理解LOD设置对性能优化至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom资产编辑器",
+      "predicate": "提供",
+      "object": "绑定预览功能",
+      "context": "掌握编辑器功能可提高工作效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "根部绑定可视化",
+      "predicate": "用于",
+      "object": "调试绑定数据",
+      "context": "可视化工具对问题排查很有帮助",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "源骨骼网格体",
+      "predicate": "可选用于",
+      "object": "非对齐曲线的变换",
+      "context": "理解可选参数的应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "匹配分段",
+      "predicate": "限制",
+      "object": "位置转换范围",
+      "context": "了解参数作用可精确控制绑定效果",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "毛发组属性",
+      "predicate": "包含",
+      "object": "曲线和导线统计信息",
+      "context": "掌握毛发数据结构有助于高级控制",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "刚体绑定类型",
+      "predicate": "区别于",
+      "object": "蒙皮绑定类型",
+      "context": "理解不同绑定类型的特性是选择合适方案的基础",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    }
+  ],
+  "timestamp": "2025-06-15T20:44:10.830Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11501,
+    "contentLength": 7639,
+    "processingTimeMs": 39062
+  }
+}

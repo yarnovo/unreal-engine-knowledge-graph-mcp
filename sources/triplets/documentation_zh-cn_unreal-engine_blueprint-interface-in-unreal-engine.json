@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_blueprint-interface-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_blueprint-interface-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "蓝图接口",
+      "predicate": "是",
+      "object": "函数集合",
+      "context": "蓝图接口由一个或多个函数组成，这些函数只有名称没有实现，帮助学习者理解接口的基本构成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图接口",
+      "predicate": "用于",
+      "object": "实现多对象交互",
+      "context": "蓝图接口提供了一种通用方法来实现与多个不同类型对象的交互，这些对象共享特定功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图接口",
+      "predicate": "不能包含",
+      "object": "变量",
+      "context": "蓝图接口不能添加新变量，这是与标准蓝图类的主要区别之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图接口",
+      "predicate": "不能包含",
+      "object": "图表",
+      "context": "蓝图接口不能编辑图表，这是与标准蓝图类的主要区别之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图接口",
+      "predicate": "不能包含",
+      "object": "组件",
+      "context": "蓝图接口不能添加组件，这是与标准蓝图类的主要区别之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图接口",
+      "predicate": "通过",
+      "object": "蓝图编辑器编辑",
+      "context": "蓝图接口在蓝图编辑器中编辑，但编辑过程与标准蓝图类不同",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图接口",
+      "predicate": "主要包含",
+      "object": "函数",
+      "context": "函数是蓝图接口的主要组件，接口函数没有实现，只是作为输入和输出的定义存在",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图接口函数",
+      "predicate": "可以",
+      "object": "定义输入输出",
+      "context": "接口函数可以定义类型化输入和输出参数，帮助学习者理解如何设计接口函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图接口函数",
+      "predicate": "可以",
+      "object": "设置默认值",
+      "context": "输入参数可以设置默认值，这是接口函数设计的重要特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图接口函数",
+      "predicate": "可以",
+      "object": "被覆盖",
+      "context": "接口函数可以在实施该接口的任何蓝图中被覆盖，这是多态性的体现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图接口",
+      "predicate": "类似于",
+      "object": "编程中的接口概念",
+      "context": "蓝图接口类似于一般编程中的接口概念，允许多个不同类型的对象通过公共接口共享和被访问",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "用于",
+      "object": "创建蓝图接口",
+      "context": "蓝图接口可以通过内容浏览器的添加功能创建，这是创建接口的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "我的蓝图选项卡",
+      "predicate": "用于",
+      "object": "添加接口函数",
+      "context": "在我的蓝图选项卡中可以添加新的接口函数，这是构建接口功能的核心操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节选项卡",
+      "predicate": "用于",
+      "object": "编辑函数签名",
+      "context": "函数签名的编辑（输入输出参数的定义）在细节选项卡中完成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图接口",
+      "predicate": "支持",
+      "object": "网络复制",
+      "context": "包含需要跨服务器复制的函数的接口可以使用复制复选框，这是网络游戏开发的重要功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:14:09.868Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6944,
+    "contentLength": 4418,
+    "processingTimeMs": 56871
+  }
+}

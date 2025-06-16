@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-engine-ik-rig",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-engine-ik-rig.md",
+  "triples": [
+    {
+      "subject": "IK Rig",
+      "predicate": "包含",
+      "object": "解算器",
+      "context": "IK Rig系统通过解算器执行骨骼网格体的姿势编辑，理解这一包含关系有助于掌握IK Rig的核心组成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK Rig",
+      "predicate": "用于",
+      "object": "动画蓝图",
+      "context": "IK Rig资产可嵌入动画蓝图实现动态姿势调整，这是实际开发中的重要应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK Rig",
+      "predicate": "支持",
+      "object": "IK重定向",
+      "context": "IK Rig作为基础平台支持动画重定向功能，理解这一关系可扩展学习到角色动画适配技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK重定向",
+      "predicate": "应用于",
+      "object": "动画序列",
+      "context": "重定向系统用于在不同比例角色间传输动画数据，这是动画资源复用的关键技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "解算器",
+      "predicate": "实现",
+      "object": "姿势编辑",
+      "context": "解算器是实际执行骨骼姿势计算的组件，掌握该关系可深入理解IK系统工作原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "控制",
+      "object": "程序化IK调整",
+      "context": "动画蓝图通过集成IK Rig实现运行时姿势控制，这是游戏动画动态调整的关键机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python脚本",
+      "predicate": "自动化",
+      "object": "IK Rig工作流程",
+      "context": "Python接口提供了批量处理IK Rig的能力，这对技术美术的自动化生产流程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "IK重定向器",
+      "predicate": "依赖",
+      "object": "IK Rig",
+      "context": "重定向功能需要基于IK Rig资产构建，理解这一依赖关系可正确规划工作流程顺序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "接收",
+      "object": "IK解算结果",
+      "context": "骨骼网格体是IK系统的最终作用对象，明确这一关系有助于理解数据流向",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画系统",
+      "predicate": "集成",
+      "object": "IK Rig资产",
+      "context": "IK Rig需要被集成到更大的动画系统中使用，这一关系展示了模块化设计思想",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:09:04.532Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4246,
+    "contentLength": 3258,
+    "processingTimeMs": 30758
+  }
+}

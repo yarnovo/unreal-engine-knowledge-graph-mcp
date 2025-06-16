@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_copy-and-paste-region-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_copy-and-paste-region-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "复制/粘贴工具",
+      "predicate": "用于",
+      "object": "地形高度数据操作",
+      "context": "复制/粘贴工具专门用于处理地形的高度数据，包括复制、粘贴、导入和导出高度图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制/粘贴工具",
+      "predicate": "包含",
+      "object": "小工具",
+      "context": "小工具是复制/粘贴工具的核心组件，用于捕捉和操作地形高度数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "小工具",
+      "predicate": "支持",
+      "object": "高度数据捕捉",
+      "context": "小工具的主要功能是捕捉地形的高度数据，便于后续的复制和粘贴操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "小工具",
+      "predicate": "支持",
+      "object": "高度数据导出",
+      "context": "小工具可以将捕捉的高度数据导出为.raw文件，供第三方软件使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制/粘贴工具",
+      "predicate": "支持",
+      "object": "高度图导入",
+      "context": "工具允许导入现有的高度图文件，将其粘贴到地形中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "区域选择",
+      "predicate": "用于",
+      "object": "绘制复制区域",
+      "context": "区域选择功能帮助用户绘制需要复制的区域，小工具会自动缩放匹配该区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制/粘贴工具",
+      "predicate": "包含",
+      "object": "工具设置",
+      "context": "工具设置提供了多种选项来调整复制和粘贴行为，如粘贴模式、工具强度等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具设置",
+      "predicate": "包含",
+      "object": "粘贴模式",
+      "context": "粘贴模式是工具设置的一部分，决定粘贴操作如何影响地形高度（升高、降低或两者）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具设置",
+      "predicate": "包含",
+      "object": "工具强度",
+      "context": "工具强度设置影响粘贴操作的强度，尤其在使用压力感应设备时",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "小工具",
+      "predicate": "支持",
+      "object": "平滑边缘",
+      "context": "使用平滑小工具刷选项可以使粘贴数据的边缘平滑过渡到地形中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制/粘贴工具",
+      "predicate": "关联",
+      "object": "World Machine",
+      "context": "工具导出的高度图文件可以在World Machine等第三方软件中使用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "小工具",
+      "predicate": "依赖",
+      "object": "地形网格",
+      "context": "小工具可以与地形网格对齐，确保采样点排列整齐，减少复制粘贴的模糊度",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "复制/粘贴工具",
+      "predicate": "扩展",
+      "object": "地形编辑功能",
+      "context": "该工具扩展了虚幻引擎的地形编辑能力，提供了更灵活的高度数据操作方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:36:21.319Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5303,
+    "contentLength": 3395,
+    "processingTimeMs": 44180
+  }
+}

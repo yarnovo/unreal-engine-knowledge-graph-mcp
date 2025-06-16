@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_traces-tutorials-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_traces-tutorials-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Multi Line Trace by Channel",
+      "predicate": "返回",
+      "object": "Visibility通道上响应的所有Actor",
+      "context": "帮助学习者理解Multi Line Trace by Channel的核心功能是检测并返回Visibility通道上的所有Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Multi Line Trace by Object",
+      "predicate": "返回",
+      "object": "命中的全部世界动态Actor",
+      "context": "说明Multi Line Trace by Object专门用于检测世界中的动态Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Single Line Trace by Channel",
+      "predicate": "返回",
+      "object": "命中的首个Visibility通道Actor",
+      "context": "展示Single Line Trace与Multi Line Trace的关键区别在于只返回第一个命中结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Single Line Trace by Object",
+      "predicate": "返回",
+      "object": "命中的首个世界动态Actor",
+      "context": "说明Single Line Trace by Object是检测动态Actor的高效方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "追踪系统",
+      "predicate": "包含",
+      "object": "Line Trace类型",
+      "context": "建立追踪系统的整体概念框架，包含多种Line Trace实现方式",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Line Trace",
+      "predicate": "分为",
+      "object": "Single/Multi Line Trace",
+      "context": "帮助学习者理解Line Trace的基础分类方式",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Line Trace",
+      "predicate": "支持",
+      "object": "Channel/Object检测模式",
+      "context": "展示Line Trace的两种主要检测机制及其应用场景",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Visibility通道",
+      "predicate": "用于",
+      "object": "视觉相关碰撞检测",
+      "context": "说明特定通道的专业用途，帮助学习者选择合适的检测方式",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "世界动态Actor",
+      "predicate": "可被",
+      "object": "Object模式检测",
+      "context": "明确Object模式检测的特定对象类型",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "追踪系统",
+      "predicate": "应用于",
+      "object": "gameplay和physics",
+      "context": "建立追踪系统与核心游戏开发领域的关联",
+      "direction": "bidirectional",
+      "confidence": 0.6
+    }
+  ],
+  "timestamp": "2025-06-15T21:02:49.696Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2989,
+    "contentLength": 2483,
+    "processingTimeMs": 28372
+  }
+}

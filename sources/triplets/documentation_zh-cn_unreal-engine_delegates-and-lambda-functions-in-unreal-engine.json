@@ -1,0 +1,157 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_delegates-and-lambda-functions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_delegates-and-lambda-functions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "委托",
+      "predicate": "包含",
+      "object": "单点委托",
+      "context": "委托是虚幻引擎中的核心概念，包含单点委托、组播委托和动态委托三种类型，理解这些子类型有助于全面掌握委托系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "委托",
+      "predicate": "包含",
+      "object": "组播委托",
+      "context": "组播委托是委托的一种类型，能够同时绑定多个函数，适合事件通知场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "委托",
+      "predicate": "包含",
+      "object": "动态委托",
+      "context": "动态委托是委托的一种类型，支持序列化和蓝图交互，适合需要跨系统通信的场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "委托",
+      "predicate": "基于",
+      "object": "C++对象",
+      "context": "委托是建立在C++对象上的机制，用于调用成员函数，理解这一点有助于掌握其底层实现原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DECLARE_DELEGATE",
+      "predicate": "用于",
+      "object": "声明委托",
+      "context": "DECLARE_DELEGATE宏是声明无参数void函数委托的基础工具，学习委托声明必须掌握这些宏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DECLARE_DELEGATE_OneParam",
+      "predicate": "扩展",
+      "object": "DECLARE_DELEGATE",
+      "context": "DECLARE_DELEGATE_OneParam是DECLARE_DELEGATE的扩展版本，支持一个参数，展示了委托系统的可扩展性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Bind",
+      "predicate": "实现",
+      "object": "委托绑定",
+      "context": "Bind函数是实现委托绑定的核心方法，理解各种绑定方法对正确使用委托至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BindSP",
+      "predicate": "专门用于",
+      "object": "共享指针成员函数",
+      "context": "BindSP专门用于绑定共享指针成员函数，展示了委托系统对不同智能指针类型的支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BindUObject",
+      "predicate": "专门用于",
+      "object": "UObject成员函数",
+      "context": "BindUObject专门用于绑定UObject成员函数，是虚幻引擎特有的绑定方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Execute",
+      "predicate": "执行",
+      "object": "绑定函数",
+      "context": "Execute函数是触发委托绑定的核心方法，但需要先检查IsBound确保安全",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ExecuteIfBound",
+      "predicate": "替代",
+      "object": "Execute",
+      "context": "ExecuteIfBound是更安全的Execute替代方案，会自动检查绑定状态，推荐优先使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "委托",
+      "predicate": "支持",
+      "object": "载荷数据",
+      "context": "委托支持绑定载荷数据，可以在调用时传递额外参数，这是委托的高级用法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UDELEGATE",
+      "predicate": "类似",
+      "object": "UFUNCTION",
+      "context": "UDELEGATE宏与UFUNCTION类似，可以添加相同的说明符，这种相似性有助于记忆",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动态委托",
+      "predicate": "支持",
+      "object": "序列化",
+      "context": "动态委托支持序列化，这是它与普通委托的主要区别，适合需要保存状态的场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "委托",
+      "predicate": "用于",
+      "object": "事件系统",
+      "context": "委托特别是组播委托常用于实现事件系统，这是虚幻引擎中重要的设计模式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Lambda函数",
+      "predicate": "通过",
+      "object": "BindLambda绑定",
+      "context": "Lambda函数可以通过BindLambda方法与委托绑定，这是现代C++与委托系统的集成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "委托",
+      "predicate": "依赖",
+      "object": "函数签名",
+      "context": "委托的声明和使用都严格依赖函数签名，理解函数签名对正确使用委托很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FLogWriter示例",
+      "predicate": "展示",
+      "object": "委托用法",
+      "context": "FLogWriter示例完整展示了从声明到绑定再到执行委托的全过程，是学习委托的典型范例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:49:49.286Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9390,
+    "contentLength": 6136,
+    "processingTimeMs": 68758
+  }
+}

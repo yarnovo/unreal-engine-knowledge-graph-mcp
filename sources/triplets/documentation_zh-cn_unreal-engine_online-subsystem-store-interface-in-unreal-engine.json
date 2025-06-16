@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_online-subsystem-store-interface-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_online-subsystem-store-interface-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "商店接口",
+      "predicate": "包含",
+      "object": "商品",
+      "context": "商店接口负责从在线服务获取商品，帮助学习者理解商店接口的核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "商店接口",
+      "predicate": "包含",
+      "object": "类型",
+      "context": "商店接口可以获取和管理商品类型，帮助学习者理解商店的组织结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "商店接口",
+      "predicate": "依赖",
+      "object": "在线服务",
+      "context": "商店接口需要从在线服务获取商品和类型数据，帮助学习者理解系统间的依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "商店接口",
+      "predicate": "使用",
+      "object": "FOnlineStoreOffer",
+      "context": "商店接口使用FOnlineStoreOffer类表示商品，帮助学习者理解数据模型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "商店接口",
+      "predicate": "使用",
+      "object": "FOnlineStoreCategory",
+      "context": "商店接口使用FOnlineStoreCategory类表示商品类型，帮助学习者理解分类系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "商店接口",
+      "predicate": "实现",
+      "object": "QueryCategories",
+      "context": "QueryCategories是商店接口获取类型列表的核心方法，帮助学习者理解API设计",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "商店接口",
+      "predicate": "实现",
+      "object": "QueryOffersByFilter",
+      "context": "QueryOffersByFilter允许基于类型过滤商品，帮助学习者理解查询机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "商店接口",
+      "predicate": "实现",
+      "object": "QueryOffersById",
+      "context": "QueryOffersById用于查询特定商品信息，帮助学习者理解精确查询方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "商店接口",
+      "predicate": "管理",
+      "object": "本地缓存",
+      "context": "商店接口维护本地缓存以提高性能，帮助学习者理解数据访问优化策略",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "QueryCategories",
+      "predicate": "触发",
+      "object": "FOnQueryOnlineStoreCategoriesComplete",
+      "context": "QueryCategories完成后会调用此委托，帮助学习者理解异步编程模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "QueryOffersByFilter",
+      "predicate": "触发",
+      "object": "FOnQueryOnlineStoreOffersComplete",
+      "context": "商品查询完成后会调用此委托，帮助学习者理解回调机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "QueryOffersById",
+      "predicate": "触发",
+      "object": "FOnQueryOnlineStoreOffersComplete",
+      "context": "特定商品查询完成后会调用此委托，帮助学习者理解统一的回调设计",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "商店接口",
+      "predicate": "提供",
+      "object": "GetCategories",
+      "context": "GetCategories用于访问缓存的类型数据，帮助学习者理解数据访问API",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "商店接口",
+      "predicate": "提供",
+      "object": "GetOffers",
+      "context": "GetOffers用于访问缓存的商品数据，帮助学习者理解批量数据获取方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "商店接口",
+      "predicate": "提供",
+      "object": "GetOffer",
+      "context": "GetOffer用于获取单个商品信息，帮助学习者理解精确数据访问方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FOnlineStoreFilter",
+      "predicate": "用于",
+      "object": "QueryOffersByFilter",
+      "context": "过滤器用于筛选特定类型的商品，帮助学习者理解查询参数设计",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "商店接口",
+      "predicate": "与",
+      "object": "购买接口",
+      "context": "商店接口和购买接口共同完成游戏内购功能，帮助学习者理解系统协作关系",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "商品",
+      "predicate": "属于",
+      "object": "类型",
+      "context": "商品可以按类型进行分类，帮助学习者理解商品组织结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "本地缓存",
+      "predicate": "存储",
+      "object": "商品数据",
+      "context": "缓存存储最近查询的商品数据，帮助学习者理解性能优化机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "本地缓存",
+      "predicate": "存储",
+      "object": "类型数据",
+      "context": "缓存存储最近查询的类型数据，帮助学习者理解数据管理策略",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:11:28.815Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4338,
+    "contentLength": 2770,
+    "processingTimeMs": 58129
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-blueprint-head-look-at-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-blueprint-head-look-at-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "Look At节点",
+      "context": "Look At节点是动画蓝图中的一个功能节点，用于控制骨骼的旋转效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Look At节点",
+      "predicate": "控制",
+      "object": "骨骼旋转",
+      "context": "Look At节点的主要功能是控制骨骼的旋转，使其对齐参考对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Look At节点",
+      "predicate": "使用",
+      "object": "查看目标",
+      "context": "Look At节点通过查看目标属性来驱动骨骼的旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Look At节点",
+      "predicate": "使用",
+      "object": "查看位置",
+      "context": "查看位置属性用于调整骨骼朝向的角度，可以作为与选定骨骼的偏移量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Look At节点",
+      "predicate": "支持",
+      "object": "插值类型",
+      "context": "Look At节点提供多种插值类型选项，用于控制骨骼运动的混合方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插值类型",
+      "predicate": "包括",
+      "object": "一次方",
+      "context": "一次方是Look At节点提供的一种插值类型，沿线性轨迹混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插值类型",
+      "predicate": "包括",
+      "object": "三次方",
+      "context": "三次方是Look At节点提供的一种插值类型，沿三次轨迹混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插值类型",
+      "predicate": "包括",
+      "object": "正弦曲线",
+      "context": "正弦曲线是Look At节点提供的一种插值类型，沿正弦波轨迹混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Look At节点",
+      "predicate": "支持",
+      "object": "局部空间",
+      "context": "Look At节点允许在局部空间或世界空间中计算轴",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Look At节点",
+      "predicate": "支持",
+      "object": "查看限制",
+      "context": "查看限制属性用于限制骨骼在X、Y和Z轴上旋转的角度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Look At节点",
+      "predicate": "支持",
+      "object": "插值时间",
+      "context": "插值时间属性用于设置执行插值的时长",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Look At节点",
+      "predicate": "支持",
+      "object": "插值触发阈值",
+      "context": "插值触发阈值属性用于设置触发插值的阈值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Look At节点",
+      "predicate": "用于",
+      "object": "头部跟随",
+      "context": "Look At节点常用于控制角色头部跟随手部或其他骨骼的运动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:00:10.077Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4834,
+    "contentLength": 3008,
+    "processingTimeMs": 48028
+  }
+}

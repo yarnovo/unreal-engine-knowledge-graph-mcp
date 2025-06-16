@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-precomputed-lighting-scenarios-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-precomputed-lighting-scenarios-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "预计算光照情景",
+      "predicate": "用于",
+      "object": "虚拟现实项目",
+      "context": "预计算光照情景特别适合需要高性能渲染的虚拟现实项目，因为它允许在不同光照设置之间高效切换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算光照情景",
+      "predicate": "用于",
+      "object": "建筑可视化项目",
+      "context": "建筑可视化项目常需要展示不同时间的光照效果，预计算光照情景提供了高效的实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算光照情景",
+      "predicate": "包含",
+      "object": "光照图数据",
+      "context": "光照情景关卡存储并应用预计算的光照图数据，这是其核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算光照情景",
+      "predicate": "依赖",
+      "object": "Levels Manager",
+      "context": "创建和管理预计算光照情景需要通过Levels Manager界面进行操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算光照情景",
+      "predicate": "使用",
+      "object": "蓝图流送方法",
+      "context": "光照情景关卡需要通过蓝图流送方法来控制加载和显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算光照情景",
+      "predicate": "限制",
+      "object": "单一可见情景",
+      "context": "在游戏中同一时间只能显示一个光照情景，这是重要的功能限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算光照情景",
+      "predicate": "影响",
+      "object": "反射捕获",
+      "context": "反射捕获的加载与光照情景密切相关，不当操作会导致错误",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Day Scenario",
+      "predicate": "包含",
+      "object": "定向光照",
+      "context": "白天情景通常包含代表太阳光的定向光照",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Day Scenario",
+      "predicate": "包含",
+      "object": "天空光照",
+      "context": "天空光照是白天情景的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Night Scenario",
+      "predicate": "包含",
+      "object": "聚光源",
+      "context": "夜间情景通常包含代表人工光源的聚光源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Load Stream Level节点",
+      "predicate": "控制",
+      "object": "光照情景加载",
+      "context": "该蓝图节点用于控制光照情景的加载和显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算光照情景",
+      "predicate": "优于",
+      "object": "完全动态光照",
+      "context": "预计算光照在性能上优于完全动态光照，同时仍能提供灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "光照构建",
+      "predicate": "前置条件",
+      "object": "使用预计算光照情景",
+      "context": "在使用光照情景前必须为每个关卡构建光照",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "用于",
+      "object": "预计算光照情景",
+      "context": "静态网格体是预计算光照情景中的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:21:32.063Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6377,
+    "contentLength": 4441,
+    "processingTimeMs": 37293
+  }
+}

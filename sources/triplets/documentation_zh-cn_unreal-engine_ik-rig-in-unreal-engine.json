@@ -1,0 +1,155 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_ik-rig-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_ik-rig-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "IK Rig编辑器",
+      "predicate": "用于",
+      "object": "角色设置和重定向",
+      "context": "IK Rig编辑器是设置IK Rig和进行角色重定向的主要工具，帮助学习者理解其核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK Rig",
+      "predicate": "依赖",
+      "object": "骨骼网格体",
+      "context": "创建IK Rig需要项目中存在骨骼网格体，这是使用IK Rig的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK Rig资产",
+      "predicate": "基于",
+      "object": "骨骼网格体",
+      "context": "IK Rig资产是通过选择特定骨骼网格体创建的，学习者需要理解两者的关联",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK目标",
+      "predicate": "用于",
+      "object": "操控IK链",
+      "context": "IK目标是IK链的操控点和执行器点，帮助学习者理解其在IK系统中的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK目标",
+      "predicate": "关联",
+      "object": "解算器",
+      "context": "IK目标需要与解算器一起使用才能修改传入姿势，学习者需要理解两者的配合关系",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "解算器",
+      "predicate": "实现",
+      "object": "IK行为",
+      "context": "解算器用于创建各种IK效果，从简单链到复杂系统，帮助学习者理解其功能范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "解算器堆栈",
+      "predicate": "包含",
+      "object": "解算器",
+      "context": "解算器堆栈显示骨骼网格体上使用的解算器，帮助学习者理解解算器的组织方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "解算器",
+      "predicate": "执行顺序",
+      "object": "解算器堆栈顺序",
+      "context": "解算器按堆栈中的顺序执行，学习者需要理解顺序对IK效果的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "肢体IK解算器",
+      "predicate": "需要",
+      "object": "根骨骼设置",
+      "context": "肢体IK解算器需要指定根骨骼（如大腿骨骼），这是设置IK系统的重要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK Rig",
+      "predicate": "应用于",
+      "object": "动画蓝图",
+      "context": "IK Rig可以通过动画蓝图节点影响动画行为，帮助学习者理解其在动画管线中的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK目标属性",
+      "predicate": "控制",
+      "object": "IK效果",
+      "context": "位置Alpha、旋转Alpha等属性直接影响IK效果，学习者需要掌握这些关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视口设置",
+      "predicate": "影响",
+      "object": "IK目标显示",
+      "context": "目标大小、厚度等视口设置影响IK目标的可视化效果，帮助调试和预览",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK重定向",
+      "predicate": "使用",
+      "object": "IK Rig",
+      "context": "IK重定向功能需要基于IK Rig设置，这是角色动画适配的重要技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设置变换解算器",
+      "predicate": "与",
+      "object": "肢体IK解算器",
+      "context": "示例中展示了两种解算器的配合使用，帮助学习者理解解算器组合应用",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "IK绑定输出日志",
+      "predicate": "提供",
+      "object": "调试信息",
+      "context": "输出日志显示IK绑定的警告和错误，是问题排查的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预览场景设置",
+      "predicate": "调整",
+      "object": "视口环境",
+      "context": "可以更改光照等视口环境设置，便于观察IK效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画序列",
+      "predicate": "用于",
+      "object": "IK效果测试",
+      "context": "资产浏览器中的动画序列可用于预览IK行为，验证设置效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:31:34.387Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10056 字符)",
+      "timestamp": "2025-06-15T19:30:37.580Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14766,
+    "contentLength": 10056,
+    "processingTimeMs": 56815
+  }
+}

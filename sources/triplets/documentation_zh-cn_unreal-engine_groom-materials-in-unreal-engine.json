@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_groom-materials-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_groom-materials-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Groom材质",
+      "predicate": "属于",
+      "object": "Groom资产编辑器",
+      "context": "Groom材质面板是Groom资产编辑器的一部分，用于管理Groom使用的所有材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom材质",
+      "predicate": "必须使用",
+      "object": "毛发着色模型",
+      "context": "为了使材质能有效用于Groom，必须选择毛发着色模型，这是Groom材质的基础要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom材质",
+      "predicate": "需要启用",
+      "object": "与发束结合使用标记",
+      "context": "材质必须启用'与发束结合使用'标记才能用于Groom，这是材质与Groom系统交互的关键设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛发属性表达式",
+      "predicate": "提供",
+      "object": "毛发属性数据",
+      "context": "毛发属性表达式是材质图表中获取各种毛发属性(如UV、长度、半径等)的关键节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom组件",
+      "predicate": "可以重载",
+      "object": "Groom材质插槽",
+      "context": "Groom组件可以重载Groom资产编辑器中设置的材质插槽，这提供了实例级别的材质控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛发着色模型",
+      "predicate": "专门用于",
+      "object": "Groom渲染",
+      "context": "毛发着色模型是专门为渲染毛发/Groom设计的着色模型，包含毛发特有的光照计算",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "毛发属性",
+      "predicate": "包含",
+      "object": "UV/长度/半径/种子等参数",
+      "context": "毛发属性提供了毛发渲染所需的各种几何和外观参数，是创建逼真毛发材质的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom材质",
+      "predicate": "应用于",
+      "object": "发片/网格体/发束",
+      "context": "Groom材质可以应用于三种不同的毛发表示形式(发片、网格体和发束)，每种形式可能有特定的属性需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质编辑器",
+      "predicate": "包含",
+      "object": "用法分段",
+      "context": "用法分段是材质编辑器中设置材质特定用途(如用于毛发)的关键区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛发属性表达式",
+      "predicate": "访问",
+      "object": "毛发几何数据",
+      "context": "通过毛发属性表达式，材质可以访问毛发的几何数据(如切线、根部UV等)，用于高级着色效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom资产编辑器",
+      "predicate": "管理",
+      "object": "材质插槽",
+      "context": "Groom资产编辑器提供了添加、删除和管理Groom材质插槽的功能，是Groom资源创建的核心工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛发材质",
+      "predicate": "依赖",
+      "object": "毛发属性数据",
+      "context": "创建逼真的毛发材质需要依赖毛发属性提供的各种几何和外观数据",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Groom系统",
+      "predicate": "支持",
+      "object": "多种毛发表示形式",
+      "context": "Groom系统支持发片、网格体和发束三种毛发表示形式，每种形式可能需要不同的材质设置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:16:42.931Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3809,
+    "contentLength": 2539,
+    "processingTimeMs": 41211
+  }
+}

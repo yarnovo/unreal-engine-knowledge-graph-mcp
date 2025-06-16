@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_level-editor-details-panel-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_level-editor-details-panel-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "细节面板",
+      "predicate": "包含",
+      "object": "转换编辑框",
+      "context": "细节面板提供用于移动、旋转和缩放Actor的转换编辑功能，这是编辑Actor的基础工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "显示",
+      "object": "Actor属性",
+      "context": "细节面板的核心功能是显示当前选定Actor的所有可编辑属性，这是了解对象特性的主要界面",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "支持",
+      "object": "FBX导出",
+      "context": "细节面板提供将选定Actor导出为FBX格式的功能，这是资产导出的重要途径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "关联",
+      "object": "材质编辑器",
+      "context": "通过细节面板可以查看并快速打开Actor使用的材质进行编辑，建立了关卡编辑与材质编辑的工作流连接",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor名称",
+      "predicate": "用于",
+      "object": "世界大纲视图搜索",
+      "context": "在细节面板设置的Actor友好名称可以直接用于世界大纲视图的搜索功能，这是场景组织的重要关联",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "搜索过滤器",
+      "predicate": "应用于",
+      "object": "属性显示",
+      "context": "搜索过滤器可以动态过滤细节面板中显示的属性，帮助开发者快速定位特定属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "收藏夹功能",
+      "predicate": "依赖",
+      "object": "编辑器偏好设置",
+      "context": "使用收藏夹功能需要先在编辑器偏好设置中启用实验性功能，展示了功能间的配置依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "默认值指示器",
+      "predicate": "标识",
+      "object": "修改过的属性",
+      "context": "默认值指示器帮助开发者识别哪些属性已被修改，这是调试和还原的重要视觉提示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑条件",
+      "predicate": "控制",
+      "object": "属性可用性",
+      "context": "编辑条件系统通过其他变量的值动态控制属性的可编辑状态，这是属性间的逻辑依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EditConst属性",
+      "predicate": "限制",
+      "object": "属性编辑",
+      "context": "EditConst属性明确标识不可编辑的属性，帮助开发者理解哪些属性是运行时确定的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性类别",
+      "predicate": "组织",
+      "object": "相关属性",
+      "context": "按类别组织的属性（如渲染、光照等）帮助开发者逻辑分组查找相关设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "转换编辑框",
+      "predicate": "包含",
+      "object": "移动/旋转/缩放控件",
+      "context": "转换编辑框集成了物体变换的三个基本操作，是场景编辑的核心工具组",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "属于",
+      "object": "关卡编辑器",
+      "context": "细节面板是关卡编辑器的重要组成部分，提供对象级别的详细编辑功能",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    }
+  ],
+  "timestamp": "2025-06-15T19:43:05.286Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10289,
+    "contentLength": 7441,
+    "processingTimeMs": 48008
+  }
+}

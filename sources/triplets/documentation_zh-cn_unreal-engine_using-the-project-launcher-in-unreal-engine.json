@@ -1,0 +1,203 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-the-project-launcher-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-the-project-launcher-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "项目启动程序",
+      "predicate": "用于",
+      "object": "项目构建版转化和部署",
+      "context": "项目启动程序的主要功能是将项目构建版转化并部署到指定平台，帮助开发者进行测试、调试和发布",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "项目启动程序",
+      "predicate": "包含",
+      "object": "默认启动配置文件",
+      "context": "默认启动配置文件是项目启动程序界面的主要组成部分之一，用于快速选择目标平台和基本设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目启动程序",
+      "predicate": "包含",
+      "object": "自定义启动配置文件",
+      "context": "自定义启动配置文件允许开发者创建针对特定平台或需求的详细部署配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义启动配置文件",
+      "predicate": "支持",
+      "object": "多平台部署",
+      "context": "自定义启动配置文件可以针对不同平台（如Nintendo Switch）创建特定的部署配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "构建配置",
+      "predicate": "包含",
+      "object": "调试游戏配置",
+      "context": "调试游戏配置是构建配置的一种选项，专门用于调试游戏模块",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "构建配置",
+      "predicate": "包含",
+      "object": "开发配置",
+      "context": "开发配置是构建配置的一种选项，等同于发布构建版，适合在编辑器中使用",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "构建配置",
+      "predicate": "包含",
+      "object": "交付配置",
+      "context": "交付配置是构建配置的一种选项，提供最佳性能，用于最终游戏发布",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "转化方法",
+      "predicate": "包含",
+      "object": "按常规转化",
+      "context": "按常规转化是两种主要转化方法之一，在启动游戏前转化所有内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "转化方法",
+      "predicate": "包含",
+      "object": "动态转化",
+      "context": "动态转化是两种主要转化方法之一，在运行时根据需要转化内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "打包方式",
+      "predicate": "包含",
+      "object": "本地存储",
+      "context": "本地存储是打包方式的一种选项，将构建版存储在本地目录",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "打包方式",
+      "predicate": "包含",
+      "object": "元库存储",
+      "context": "元库存储是打包方式的一种选项，将构建版存储在可访问的共享元库中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "部署方法",
+      "predicate": "包含",
+      "object": "文件服务器",
+      "context": "文件服务器是三种主要部署方法之一，在运行时根据需要烘焙和部署内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "部署方法",
+      "predicate": "包含",
+      "object": "复制到设备",
+      "context": "复制到设备是三种主要部署方法之一，将整个已烘焙构建复制到设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "部署方法",
+      "predicate": "包含",
+      "object": "复制元库",
+      "context": "复制元库是三种主要部署方法之一，从指定位置复制构建以部署到设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启动选项",
+      "predicate": "包含",
+      "object": "独立客户端",
+      "context": "独立客户端是启动选项之一，将实例作为独立游戏客户端启动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启动选项",
+      "predicate": "包含",
+      "object": "侦听服务器",
+      "context": "侦听服务器是启动选项之一，将实例作为可接受连接的客户端启动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启动选项",
+      "predicate": "包含",
+      "object": "专用服务器",
+      "context": "专用服务器是启动选项之一，将实例作为专用游戏服务器启动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启动选项",
+      "predicate": "包含",
+      "object": "虚幻编辑器",
+      "context": "虚幻编辑器是启动选项之一，将实例作为虚幻编辑器启动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目启动程序",
+      "predicate": "依赖",
+      "object": "虚幻自动化工具",
+      "context": "项目启动程序在构建过程中可能需要使用虚幻自动化工具(UAT)来执行自动化任务",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "按常规转化",
+      "predicate": "支持",
+      "object": "迭代转化",
+      "context": "按常规转化方法支持迭代转化选项，可以仅转化自上次转化后更改的内容",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "动态转化",
+      "predicate": "支持",
+      "object": "仅转化更改内容",
+      "context": "动态转化方法支持仅转化更改内容的选项，可以缩短转化时间",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "打包方式",
+      "predicate": "影响",
+      "object": "部署方法",
+      "context": "选择的打包方式会影响后续可用的部署方法选项",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "构建配置",
+      "predicate": "影响",
+      "object": "性能特性",
+      "context": "不同的构建配置(如调试、开发、交付)会显著影响最终构建版的性能特性",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T21:25:05.524Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12953 字符)",
+      "timestamp": "2025-06-15T21:24:03.940Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19581,
+    "contentLength": 12953,
+    "processingTimeMs": 61588
+  }
+}

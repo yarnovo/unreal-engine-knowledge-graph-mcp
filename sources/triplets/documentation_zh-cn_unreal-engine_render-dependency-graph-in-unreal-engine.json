@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_render-dependency-graph-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_render-dependency-graph-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "渲染依赖图(RDG)",
+      "predicate": "是",
+      "object": "即时模式API",
+      "context": "RDG通过图数据结构记录渲染命令，简化高级渲染代码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染依赖图(RDG)",
+      "predicate": "包含",
+      "object": "异步计算栅栏",
+      "context": "RDG功能包括安排异步计算栅栏的执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染依赖图(RDG)",
+      "predicate": "优化",
+      "object": "内存使用",
+      "context": "RDG通过遍历依赖图优化内存使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染依赖图(RDG)",
+      "predicate": "支持",
+      "object": "并行渲染",
+      "context": "RDG支持在CPU和GPU上并行渲染通道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "着色器参数结构体",
+      "predicate": "扩展",
+      "object": "RDG依赖关系",
+      "context": "RDG通过着色器参数结构体系统扩展来表达图依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "统一缓冲区",
+      "predicate": "包含",
+      "object": "着色器参数",
+      "context": "统一缓冲区将着色器参数作为一组RHI资源绑定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态绑定",
+      "predicate": "优化",
+      "object": "渲染性能",
+      "context": "静态绑定模型允许统一缓冲区以通道频率绑定，减少PSO绑定开销",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FRDGBuilder",
+      "predicate": "用于",
+      "object": "构建渲染图",
+      "context": "FRDGBuilder实例用于创建资源、添加通道并执行渲染图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RDG资源",
+      "predicate": "分为",
+      "object": "临时资源和外部资源",
+      "context": "RDG资源根据生命周期分为临时资源(限于图内)和外部资源(延伸至图外)",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通道参数",
+      "predicate": "决定",
+      "object": "资源依赖关系",
+      "context": "RDG使用通道参数推导图中通道和资源间的生命周期依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "栅格通道",
+      "predicate": "使用",
+      "object": "RENDER_TARGET_BINDING_SLOTS",
+      "context": "栅格通道通过RENDER_TARGET_BINDING_SLOTS参数公开固定功能渲染目标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "异步计算",
+      "predicate": "通过",
+      "object": "ERDGPassFlags::AsyncCompute标志启用",
+      "context": "RDG通过特定标志支持异步计算通道，平台不支持时会回退到图形管道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RDG统一缓冲区",
+      "predicate": "可能包含",
+      "object": "RDG资源",
+      "context": "RDG统一缓冲区是通道参数的扩展，可以包含RDG资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "上传缓冲区",
+      "predicate": "用于",
+      "object": "CPU数据初始化",
+      "context": "FRDGBuilder::QueueBufferUpload方法高效调度CPU数据上传到RDG缓冲区",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RDG验证层",
+      "predicate": "提供",
+      "object": "调试支持",
+      "context": "RDG验证层在使用不当时会发出明确标记的致命检查，帮助调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RDG Insights",
+      "predicate": "可视化",
+      "object": "图结构",
+      "context": "RDG Insights插件用于实时可视化RDG图结构和资源生命周期",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "临时分配器",
+      "predicate": "支持",
+      "object": "内存别名",
+      "context": "临时分配器允许生命周期不相交的资源在内存中重叠，减少GPU内存水印",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染依赖图(RDG)",
+      "predicate": "替代",
+      "object": "传统渲染管线",
+      "context": "RDG将传统渲染管线的设置和执行分离为两个时间轴，提供更优的调度和优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "着色器参数结构体",
+      "predicate": "生成",
+      "object": "编译时反射元数据",
+      "context": "着色器参数结构体宏生成编译时反射元数据，支持运行时参数遍历和RHI绑定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FRDGBuilder::AddPass",
+      "predicate": "接受",
+      "object": "通道参数和执行Lambda",
+      "context": "AddPass函数接受通道参数和执行Lambda，后者在图的执行期间记录RHI命令",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:36:13.065Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (39927 字符)",
+      "timestamp": "2025-06-15T20:35:10.501Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 57993,
+    "contentLength": 39927,
+    "processingTimeMs": 62575
+  }
+}

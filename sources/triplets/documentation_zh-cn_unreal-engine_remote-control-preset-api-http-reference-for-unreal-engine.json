@@ -1,0 +1,131 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_remote-control-preset-api-http-reference-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_remote-control-preset-api-http-reference-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "远程控制预设API",
+      "predicate": "提供",
+      "object": "HTTP端点",
+      "context": "远程控制预设API通过HTTP端点提供对预设的访问和操作功能，帮助开发者远程控制和管理预设",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制预设",
+      "predicate": "包含",
+      "object": "公开属性",
+      "context": "远程控制预设可以包含公开的属性，这些属性可以通过API进行读取和修改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制预设",
+      "predicate": "包含",
+      "object": "公开函数",
+      "context": "远程控制预设可以包含公开的函数，这些函数可以通过API进行调用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GET remote/presets",
+      "predicate": "用于",
+      "object": "获取预设列表",
+      "context": "该HTTP端点用于获取项目中所有可用的远程控制预设列表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GET remote/preset/insert_preset_name",
+      "predicate": "用于",
+      "object": "获取预设详细信息",
+      "context": "该HTTP端点用于获取特定远程控制预设的详细信息，包括公开的属性和函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GET remote/preset/insert_preset_name/metadata",
+      "predicate": "用于",
+      "object": "获取预设元数据",
+      "context": "该HTTP端点用于获取与预设关联的所有元数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PUT remote/preset/insert_preset_name/metadata/insert_metadata_key",
+      "predicate": "用于",
+      "object": "更新预设元数据",
+      "context": "该HTTP端点用于创建或更新预设的元数据键值对",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DELETE remote/preset/insert_preset_name/metadata/insert_metadata_key",
+      "predicate": "用于",
+      "object": "删除预设元数据",
+      "context": "该HTTP端点用于移除与预设关联的元数据键值对",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GET remote/preset/insert_preset_name/property/insert_property_name",
+      "predicate": "用于",
+      "object": "读取公开属性",
+      "context": "该HTTP端点用于读取预设中公开的属性的值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PUT remote/preset/insert_preset_name/property/insert_property_name",
+      "predicate": "用于",
+      "object": "更新公开属性",
+      "context": "该HTTP端点用于更新预设中公开的属性的值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PUT remote/preset/insert_preset_name/function/insert_function_name",
+      "predicate": "用于",
+      "object": "调用公开函数",
+      "context": "该HTTP端点用于调用预设中公开的函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制预设",
+      "predicate": "基于",
+      "object": "蓝图第三人称模板",
+      "context": "文档中的示例基于蓝图第三人称模板，帮助开发者理解如何使用远程控制预设API",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Kismet系统库",
+      "predicate": "提供",
+      "object": "Print Text函数",
+      "context": "Kismet系统库提供了Print Text函数，该函数可以被公开并用于远程控制预设",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "定向光源",
+      "predicate": "具有",
+      "object": "旋转属性",
+      "context": "定向光源具有旋转属性，该属性可以被公开并用于远程控制预设",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:35:59.659Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10999 字符)",
+      "timestamp": "2025-06-15T20:35:10.498Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13191,
+    "contentLength": 10999,
+    "processingTimeMs": 49170
+  }
+}

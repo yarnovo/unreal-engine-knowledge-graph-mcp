@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_texture-streaming-overview-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_texture-streaming-overview-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "纹理流送系统",
+      "predicate": "包含",
+      "object": "Mipmap",
+      "context": "Mipmap是纹理流送系统实现动态分辨率调整的核心技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mipmap",
+      "predicate": "类比为",
+      "object": "纹理LOD",
+      "context": "帮助理解Mipmap的本质是纹理的多级细节层次",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "纹理流送系统",
+      "predicate": "依赖",
+      "object": "异步工作线程",
+      "context": "异步线程机制是实现性能优化的关键技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "场景视图",
+      "predicate": "包含",
+      "object": "Primitive组件纹理列表",
+      "context": "场景视图是流送系统进行决策的基础数据结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理分辨率计算",
+      "predicate": "基于",
+      "object": "纹素场景大小",
+      "context": "理解分辨率计算的核心参数指标",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "流送内存池",
+      "predicate": "限制",
+      "object": "纹理分辨率选择",
+      "context": "内存管理是流送系统的重要约束条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "保留时间优先级",
+      "predicate": "影响",
+      "object": "mip处理顺序",
+      "context": "优先级规则是理解内存管理策略的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "加载顺序优先级",
+      "predicate": "决定",
+      "object": "纹理更新顺序",
+      "context": "理解系统如何优化资源加载过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理流送系统",
+      "predicate": "实现",
+      "object": "自动内存预算",
+      "context": "4.15版本的重要改进特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理流送调试",
+      "predicate": "包含",
+      "object": "Primitive距离准确度",
+      "context": "调试工具的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "纹理流送系统",
+      "predicate": "优化",
+      "object": "CPU使用量",
+      "context": "系统改进的主要目标之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理流送系统",
+      "predicate": "减少",
+      "object": "加载时间",
+      "context": "系统改进的主要目标之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理流送系统",
+      "predicate": "消除",
+      "object": "低分辨率瑕疵",
+      "context": "系统改进的主要目标之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理流送数据构建",
+      "predicate": "关联",
+      "object": "纹理流送指标报告",
+      "context": "这两个是深入理解系统运作的进阶学习内容",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T21:01:24.897Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4579,
+    "contentLength": 2483,
+    "processingTimeMs": 36605
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_dmx-library-reference-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_dmx-library-reference-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "DMX库资产",
+      "predicate": "包含",
+      "object": "控制器",
+      "context": "DMX库资产是DMX插件的主要数据结构，其中包含控制器信息，理解这一点有助于学习者掌握DMX库的基本组成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX库资产",
+      "predicate": "包含",
+      "object": "灯具类型",
+      "context": "灯具类型是DMX库资产的重要组成部分，了解这一点有助于学习者理解如何管理和配置不同类型的灯具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX库资产",
+      "predicate": "包含",
+      "object": "灯具配接",
+      "context": "灯具配接是DMX库资产的核心内容之一，掌握这一点有助于学习者学习如何配置和分配灯具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX插件",
+      "predicate": "依赖",
+      "object": "DMX库资产",
+      "context": "使用DMX库资产前必须先启用DMX插件，理解这一依赖关系有助于学习者正确配置开发环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "灯具类型",
+      "predicate": "包含",
+      "object": "模式",
+      "context": "灯具类型中包含模式信息，了解这一关系有助于学习者掌握灯具的多种工作模式配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "灯具类型",
+      "predicate": "包含",
+      "object": "函数",
+      "context": "灯具类型中包含函数设置，理解这一点有助于学习者配置灯具的具体功能参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "灯具配接",
+      "predicate": "基于",
+      "object": "灯具类型",
+      "context": "灯具配接是基于灯具类型创建的，理解这一关系有助于学习者正确建立配接与类型之间的关联",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "灯具配接",
+      "predicate": "使用",
+      "object": "模式",
+      "context": "灯具配接使用灯具类型的特定模式，了解这一点有助于学习者正确配置配接的工作模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导航栏",
+      "predicate": "支持",
+      "object": "导入MVR文件",
+      "context": "导航栏提供导入MVR文件的功能，理解这一功能有助于学习者掌握DMX库的数据交换方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导航栏",
+      "predicate": "支持",
+      "object": "导出MVR文件",
+      "context": "导航栏提供导出MVR文件的功能，理解这一功能有助于学习者掌握DMX库的数据共享方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "库设置",
+      "predicate": "控制",
+      "object": "输入输出端口",
+      "context": "库设置中可以启用或禁用输入输出端口，理解这一控制关系有助于学习者管理DMX通信设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "灯具列表",
+      "predicate": "显示",
+      "object": "灯具配接",
+      "context": "灯具列表显示所有灯具配接信息，理解这一关系有助于学习者快速浏览和管理配接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "配接窗口",
+      "predicate": "可视化",
+      "object": "配接位置",
+      "context": "配接窗口提供配接位置的可视化表示，理解这一功能有助于学习者直观地管理配接布局",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "配接窗口",
+      "predicate": "监视",
+      "object": "DMX输入",
+      "context": "配接窗口可以监视DMX输入，理解这一功能有助于学习者实时调试DMX信号",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "灯具配接面板",
+      "predicate": "显示",
+      "object": "配接细节",
+      "context": "灯具配接面板显示所选配接的详细信息，理解这一关系有助于学习者查看和编辑配接参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX库资产",
+      "predicate": "位于",
+      "object": "DMX菜单",
+      "context": "DMX库资产可以在DMX菜单下找到，理解这一位置关系有助于学习者快速访问库资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "灯具类型",
+      "predicate": "支持",
+      "object": "GDTF导入",
+      "context": "灯具类型支持以GDTF形式导入数据，理解这一功能有助于学习者利用标准格式配置灯具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模式",
+      "predicate": "包含",
+      "object": "属性",
+      "context": "模式包含属性和设置项，理解这一关系有助于学习者配置灯具的具体工作模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "函数",
+      "predicate": "包含",
+      "object": "协议设置",
+      "context": "函数包含协议设置如位深度和信道分配，理解这一关系有助于学习者配置灯具的具体功能参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:53:19.684Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7178,
+    "contentLength": 4680,
+    "processingTimeMs": 64328
+  }
+}

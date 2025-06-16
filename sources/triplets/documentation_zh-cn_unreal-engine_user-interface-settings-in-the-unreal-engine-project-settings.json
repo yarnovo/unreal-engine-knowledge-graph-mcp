@@ -1,0 +1,157 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_user-interface-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_user-interface-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "用户界面设置",
+      "predicate": "包含",
+      "object": "焦点设置",
+      "context": "用户界面设置是项目设置的一部分，其中包含焦点设置，帮助学习者理解UI交互的基础配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "焦点设置",
+      "predicate": "包含",
+      "object": "渲染焦点规则",
+      "context": "焦点设置中的核心配置项，决定控件获得焦点时的视觉反馈方式，对UI交互设计至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染焦点规则",
+      "predicate": "支持",
+      "object": "非指针焦点",
+      "context": "渲染焦点规则提供'非指针'选项，专门处理非鼠标交互场景（如手柄导航），这对多平台UI开发有重要意义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "用户界面设置",
+      "predicate": "包含",
+      "object": "硬件光标",
+      "context": "硬件光标设置属于UI基础配置，允许开发者替换操作系统默认光标，是自定义UI体验的重要环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "用户界面设置",
+      "predicate": "包含",
+      "object": "软件光标",
+      "context": "软件光标与硬件光标形成互补方案，使用虚幻控件系统实现更复杂的自定义光标效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬件光标",
+      "predicate": "替代",
+      "object": "操作系统默认光标",
+      "context": "硬件光标功能的核心价值在于覆盖系统默认光标，这对保持游戏视觉风格一致性很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "软件光标",
+      "predicate": "基于",
+      "object": "虚幻示意图形控件",
+      "context": "理解软件光标的实现基础，有助于开发者创建更复杂的动态光标效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "用户界面设置",
+      "predicate": "包含",
+      "object": "DPI缩放",
+      "context": "DPI缩放是多分辨率适配的核心配置模块，直接影响UI在不同设备上的显示效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DPI缩放",
+      "predicate": "包含",
+      "object": "应用程序缩放",
+      "context": "应用程序缩放是DPI缩放系统的可扩展层，允许运行时动态调整UI整体比例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DPI缩放",
+      "predicate": "包含",
+      "object": "DPI缩放规则",
+      "context": "缩放规则决定UI适配不同屏幕的基准维度，是响应式UI设计的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DPI缩放规则",
+      "predicate": "支持",
+      "object": "自定义缩放规则类",
+      "context": "当内置缩放规则不满足需求时，可通过自定义规则类实现特殊适配逻辑，展示引擎的扩展性设计",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DPI曲线",
+      "predicate": "影响",
+      "object": "UI缩放效果",
+      "context": "DPI曲线直接控制不同分辨率下的UI缩放比例，是保证UI视觉一致性的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设计屏幕大小",
+      "predicate": "决定",
+      "object": "基准DPI缩放值",
+      "context": "理解设计屏幕大小与DPI缩放1.0基准的关系，对UI美术资源制作有直接指导意义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "用户界面设置",
+      "predicate": "包含",
+      "object": "控件设置",
+      "context": "控件设置影响服务器端的UI资源处理策略，对网络游戏开发有特殊意义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在专用服务器上加载控件",
+      "predicate": "控制",
+      "object": "服务器端UI资源加载",
+      "context": "该设置直接影响服务器构建的优化策略，帮助理解客户端-服务器架构中的UI处理差异",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬件光标",
+      "predicate": "对比",
+      "object": "软件光标",
+      "context": "两种光标方案各有优劣，硬件光标性能更好，软件光标灵活性更高，这对方案选型很重要",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "DPI缩放规则",
+      "predicate": "影响",
+      "object": "设计屏幕大小的作用",
+      "context": "只有选择'Scale to Fit'规则时，设计屏幕大小才会生效，这种条件依赖关系需要特别注意",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "渲染焦点规则",
+      "predicate": "适用于",
+      "object": "控件导航系统",
+      "context": "焦点渲染规则与控件导航机制紧密相关，特别是'仅寻路'选项专门针对导航场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:13:26.971Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4566,
+    "contentLength": 2892,
+    "processingTimeMs": 53484
+  }
+}

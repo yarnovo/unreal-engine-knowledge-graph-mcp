@@ -1,0 +1,275 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_understanding-networked-movement-in-the-character-movement-component-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_understanding-networked-movement-in-the-character-movement-component-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "UCharacterMovementComponent",
+      "predicate": "属于",
+      "object": "Actor组件",
+      "context": "角色移动组件是Actor组件的一种，提供封装式运动系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCharacterMovementComponent",
+      "predicate": "支持",
+      "object": "移动模式",
+      "context": "角色移动组件支持多种移动模式，包括步行、降落、游泳和飞行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCharacterMovementComponent",
+      "predicate": "依赖",
+      "object": "ACharacter",
+      "context": "角色移动组件设计为与ACharacter结合使用，ACharacter覆盖了多个复制的变量和函数以方便角色移动组件中的复制",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ACharacter",
+      "predicate": "继承",
+      "object": "APawn",
+      "context": "ACharacter派生自APawn，但不仅仅是添加了角色移动组件的Pawn",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PerformMovement",
+      "predicate": "实现",
+      "object": "移动物理效果",
+      "context": "PerformMovement函数负责让角色在游戏世界中的移动符合物理原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PerformMovement",
+      "predicate": "调用",
+      "object": "StartNewPhysics",
+      "context": "PerformMovement调用StartNewPhysics，根据角色使用的移动模式选择Phys*函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StartNewPhysics",
+      "predicate": "选择",
+      "object": "Phys*函数",
+      "context": "StartNewPhysics根据移动模式选择相应的Phys*函数，如PhysWalking或PhysFalling",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCharacterMovementComponent",
+      "predicate": "使用",
+      "object": "网络角色",
+      "context": "角色移动组件根据其所属者的网络角色（自主代理、权限、模拟代理）来确定如何复制移动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自主代理",
+      "predicate": "生成",
+      "object": "FSavedMove_Character",
+      "context": "自主代理构建FSavedMove_Character，包含角色移动数据，然后将其排入SavedMoves队列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自主代理",
+      "predicate": "发送",
+      "object": "ServerMove RPC",
+      "context": "自主代理使用ServerMove RPC将精简版移动数据发送到服务器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "服务器",
+      "predicate": "验证",
+      "object": "客户端移动",
+      "context": "服务器接收ServerMove并使用PerformMovement再现客户端的移动，检查最终位置是否一致",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "服务器",
+      "predicate": "发送",
+      "object": "ClientAdjustPosition RPC",
+      "context": "如果服务器和客户端的最终位置不一致，服务器使用ClientAdjustPosition RPC发送校正",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "服务器",
+      "predicate": "复制",
+      "object": "ReplicatedMovement",
+      "context": "服务器复制ReplicatedMovement结构，将其位置、旋转和当前状态发送到其他已连接客户端上的模拟代理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模拟代理",
+      "predicate": "应用",
+      "object": "复制的移动信息",
+      "context": "模拟代理直接应用复制的移动信息，网络平滑为最终运动提供视觉效果清理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ClientPredictionData",
+      "predicate": "记录",
+      "object": "客户端移动",
+      "context": "ClientPredictionData用于记录动作和处理来自服务器的校正",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FSavedMove_Character",
+      "predicate": "包含",
+      "object": "移动数据",
+      "context": "FSavedMove_Character结构包含角色移动数据，如位置、旋转、输入、速度和根骨骼运动信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ServerPredictionData",
+      "predicate": "存储",
+      "object": "服务器移动信息",
+      "context": "ServerPredictionData存储供后续过程使用的信息，以再现所属客户端移动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ServerMove_Implementation",
+      "predicate": "处理",
+      "object": "客户端移动",
+      "context": "ServerMove_Implementation处理服务器端的移动，重构客户端的移动并检查不符的情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MoveAutonomous",
+      "predicate": "模拟",
+      "object": "角色移动",
+      "context": "MoveAutonomous使用PerformMovement函数模拟角色的移动物理效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ServerMoveHandleClientError",
+      "predicate": "处理",
+      "object": "客户端误差",
+      "context": "ServerMoveHandleClientError负责处理客户端误差和校正",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SendClientAdjustment",
+      "predicate": "确认",
+      "object": "客户端移动",
+      "context": "SendClientAdjustment根据预测数据的标记确认客户端的移动或发送校正",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ClientAdjustPosition",
+      "predicate": "校正",
+      "object": "客户端位置",
+      "context": "ClientAdjustPosition RPC用于校正客户端的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ReplicatedMovement",
+      "predicate": "存储",
+      "object": "移动信息",
+      "context": "ReplicatedMovement结构存储复制的移动信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SimulatedTick",
+      "predicate": "处理",
+      "object": "模拟移动",
+      "context": "SimulatedTick处理模拟代理上的移动逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SimulateMovement",
+      "predicate": "执行",
+      "object": "模拟移动",
+      "context": "SimulateMovement函数负责移动模拟代理角色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SmoothClientPosition",
+      "predicate": "提供",
+      "object": "网络平滑",
+      "context": "SmoothClientPosition执行网络平滑，为最终运动提供视觉效果清理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MOVE_Custom",
+      "predicate": "暂停",
+      "object": "移动物理效果",
+      "context": "MOVE_Custom移动模式暂停所有其他移动物理效果，允许实现自定义移动逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "根骨骼运动",
+      "predicate": "优先于",
+      "object": "标准移动物理效果",
+      "context": "根骨骼运动始终优先于标准的移动物理效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AnimMontage",
+      "predicate": "提供",
+      "object": "根骨骼运动",
+      "context": "大多数根骨骼运动来自AnimMontage，用于代码触发的一次性动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FRootMotionSource",
+      "predicate": "控制",
+      "object": "角色移动",
+      "context": "FRootMotionSource结构为程序员提供了手动控制角色根骨骼运动的途径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FSavedMove_Character",
+      "predicate": "扩展",
+      "object": "自定义移动数据",
+      "context": "可以扩展FSavedMove_Character以添加角色移动组件需要的所有信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FCharacterNetworkMoveData",
+      "predicate": "序列化",
+      "object": "移动数据",
+      "context": "FCharacterNetworkMoveData用于序列化移动数据，供网络传输之用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:05:57.047Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (23196 字符)",
+      "timestamp": "2025-06-15T21:04:25.555Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 39650,
+    "contentLength": 23196,
+    "processingTimeMs": 91502
+  }
+}

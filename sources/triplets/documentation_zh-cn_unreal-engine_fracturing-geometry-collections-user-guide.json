@@ -1,0 +1,283 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_fracturing-geometry-collections-user-guide",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_fracturing-geometry-collections-user-guide.md",
+  "triples": [
+    {
+      "subject": "破裂模式",
+      "predicate": "包含",
+      "object": "几何体集合",
+      "context": "破裂模式是编辑器模式，用于创建和操控几何体集合，帮助学习者理解两者之间的包含关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体集合",
+      "predicate": "用于",
+      "object": "Chaos破坏系统",
+      "context": "几何体集合是Chaos破坏系统用于模拟实时破裂的资产类型，帮助学习者理解其在破坏系统中的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "破裂工具",
+      "predicate": "控制",
+      "object": "破裂片段数量",
+      "context": "破裂工具可以控制几何体集合的破裂片段数量，帮助学习者理解工具的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "破裂工具",
+      "predicate": "控制",
+      "object": "破裂层级",
+      "context": "破裂工具可以控制几何体集合的破裂层级，帮助学习者理解工具的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体集合",
+      "predicate": "包含",
+      "object": "破裂层级",
+      "context": "几何体集合的破裂层级类似于树状结构，包含根骨骼和子骨骼，帮助学习者理解其内部结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "破裂层级",
+      "predicate": "组成",
+      "object": "根骨骼",
+      "context": "破裂层级包含根骨骼和子骨骼，帮助学习者理解其组成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "破裂层级",
+      "predicate": "组成",
+      "object": "子骨骼",
+      "context": "破裂层级包含根骨骼和子骨骼，帮助学习者理解其组成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "均匀破裂工具",
+      "predicate": "使用",
+      "object": "Voronoi算法",
+      "context": "均匀破裂工具使用Voronoi算法生成破裂模式，帮助学习者理解工具的工作原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "群集破裂工具",
+      "predicate": "扩展",
+      "object": "均匀破裂工具",
+      "context": "群集破裂工具是均匀破裂工具的扩展，使用Voronoi算法生成更多样化的破裂模式，帮助学习者理解工具之间的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "辐射破裂工具",
+      "predicate": "创建",
+      "object": "辐射Voronoi站点分布",
+      "context": "辐射破裂工具创建从中心点向外辐射的Voronoi站点分布，帮助学习者理解工具的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平面破裂工具",
+      "predicate": "用于",
+      "object": "平面切割",
+      "context": "平面破裂工具用于在几何体集合中创建平面切割，帮助学习者理解工具的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "切片破裂工具",
+      "predicate": "扩展",
+      "object": "平面破裂工具",
+      "context": "切片破裂工具是平面破裂工具的扩展，增加了沿每个轴设置切割次数的能力，帮助学习者理解工具之间的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "砖块破裂工具",
+      "predicate": "生成",
+      "object": "砖块模式",
+      "context": "砖块破裂工具生成可自定义的砖块模式，帮助学习者理解工具的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体破裂工具",
+      "predicate": "使用",
+      "object": "静态网格体形状",
+      "context": "网格体破裂工具使用静态网格体的形状生成破裂模式，帮助学习者理解工具的工作原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义破裂工具",
+      "predicate": "生成",
+      "object": "自定义破裂模式",
+      "context": "自定义破裂工具生成最广泛的破裂模式，帮助学习者理解工具的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "破裂工具",
+      "predicate": "包含",
+      "object": "通用破裂选项",
+      "context": "所有破裂工具都有通用破裂选项，帮助学习者理解工具的共性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通用破裂选项",
+      "predicate": "包含",
+      "object": "随机种子",
+      "context": "通用破裂选项包含随机种子，用于生成随机破裂模式，帮助学习者理解选项的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通用破裂选项",
+      "predicate": "包含",
+      "object": "破裂几率",
+      "context": "通用破裂选项包含破裂几率，设置骨骼在破裂操作期间可能破裂的几率，帮助学习者理解选项的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通用破裂选项",
+      "predicate": "包含",
+      "object": "群组破裂",
+      "context": "通用破裂选项包含群组破裂，在所有选中网格体中生成破裂模式，帮助学习者理解选项的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通用破裂选项",
+      "predicate": "包含",
+      "object": "绘制站点",
+      "context": "通用破裂选项包含绘制站点，在骨骼中心绘制要由破裂模式切割的点，帮助学习者理解选项的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通用破裂选项",
+      "predicate": "包含",
+      "object": "绘制图",
+      "context": "通用破裂选项包含绘制图，在几何体集合上绘制破裂模式图，帮助学习者理解选项的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通用破裂选项",
+      "predicate": "包含",
+      "object": "水泥浆",
+      "context": "通用破裂选项包含水泥浆，定义切割片段之间留下的空间，帮助学习者理解选项的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "破裂工具",
+      "predicate": "包含",
+      "object": "噪点选项",
+      "context": "大部分破裂工具都有噪点选项，帮助学习者理解工具的共性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "噪点选项",
+      "predicate": "包含",
+      "object": "振幅",
+      "context": "噪点选项包含振幅，定义Perlin噪点置换的大小，帮助学习者理解选项的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "噪点选项",
+      "predicate": "包含",
+      "object": "频率",
+      "context": "噪点选项包含频率，定义Perlin噪点的周期，帮助学习者理解选项的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "噪点选项",
+      "predicate": "包含",
+      "object": "持久性",
+      "context": "噪点选项包含持久性，定义Perlin噪点层的持久性，帮助学习者理解选项的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "噪点选项",
+      "predicate": "包含",
+      "object": "间隙度",
+      "context": "噪点选项包含间隙度，定义Perlin噪点层的间隙度，帮助学习者理解选项的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "噪点选项",
+      "predicate": "包含",
+      "object": "倍频数",
+      "context": "噪点选项包含倍频数，定义将应用于破裂模式的Perlin噪点分形层数量，帮助学习者理解选项的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "噪点选项",
+      "predicate": "包含",
+      "object": "点间距",
+      "context": "噪点选项包含点间距，定义切割表面上添加噪点的顶点之间的距离，帮助学习者理解选项的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视图设置",
+      "predicate": "用于",
+      "object": "直观呈现几何体集合",
+      "context": "视图设置有助于直观地呈现几何体集合在应用破裂操作后的外观，帮助学习者理解其功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视图设置",
+      "predicate": "包含",
+      "object": "爆炸数量",
+      "context": "视图设置包含爆炸数量，显示几何体集合在Gameplay期间破裂时的外观，帮助学习者理解选项的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视图设置",
+      "predicate": "包含",
+      "object": "隐藏未选择项",
+      "context": "视图设置包含隐藏未选择项，隐藏几何体集合中当前未选择的骨骼，帮助学习者理解选项的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视图设置",
+      "predicate": "包含",
+      "object": "破裂级别",
+      "context": "视图设置包含破裂级别，定义要直观呈现的破裂级别，帮助学习者理解选项的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:08:47.848Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (24418 字符)",
+      "timestamp": "2025-06-15T19:06:57.881Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 36654,
+    "contentLength": 24418,
+    "processingTimeMs": 109975
+  }
+}

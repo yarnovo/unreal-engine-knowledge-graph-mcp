@@ -13,8 +13,8 @@
     {
       "subject": "2D设置",
       "predicate": "包含",
-      "object": "层对齐设置",
-      "context": "层对齐设置是2D设置中的专门配置部分，用于控制2D元素的对齐行为",
+      "object": "层对齐",
+      "context": "层对齐是2D设置中的核心功能模块，用于处理2D元素的层级对齐",
       "direction": "unidirectional",
       "confidence": 0.9
     },
@@ -22,31 +22,31 @@
       "subject": "通用设置",
       "predicate": "包含",
       "object": "启用2D组合平移+旋转控件",
-      "context": "该选项控制是否在视口工具栏中显示组合平移和旋转工具，是2D开发的基础功能",
+      "context": "该选项控制是否在视口工具栏显示2D组合平移和旋转工具，是2D基础操作的重要组成部分",
       "direction": "unidirectional",
       "confidence": 0.9
     },
     {
-      "subject": "层对齐设置",
+      "subject": "层对齐",
       "predicate": "包含",
       "object": "启用对齐层",
-      "context": "该选项控制是否在视口工具栏中显示2D层对齐功能按钮，是2D元素对齐的基础配置",
+      "context": "该选项控制是否在视口工具栏显示2D层对齐功能按钮，是层对齐功能的基础开关",
       "direction": "unidirectional",
       "confidence": 0.9
     },
     {
-      "subject": "层对齐设置",
+      "subject": "层对齐",
       "predicate": "包含",
       "object": "对齐轴",
-      "context": "对齐轴设置决定了2D对齐层的世界空间轴方向，影响所有层对齐行为",
+      "context": "对齐轴设置决定了2D层对齐的世界空间轴方向，是层对齐功能的核心参数",
       "direction": "unidirectional",
       "confidence": 0.9
     },
     {
-      "subject": "层对齐设置",
+      "subject": "层对齐",
       "predicate": "包含",
       "object": "对齐层",
-      "context": "对齐层配置决定了哪些层会在视口工具栏中显示，是2D元素组织的重要设置",
+      "context": "对齐层定义了视口工具栏中显示的层级，是层对齐功能的具体实现",
       "direction": "unidirectional",
       "confidence": 0.9
     },
@@ -54,7 +54,7 @@
       "subject": "启用2D组合平移+旋转控件",
       "predicate": "影响",
       "object": "视口工具栏",
-      "context": "该选项的启用会直接影响视口工具栏中是否显示组合平移和旋转工具",
+      "context": "该选项的启用会直接影响视口工具栏中是否显示2D组合平移和旋转工具",
       "direction": "unidirectional",
       "confidence": 0.9
     },
@@ -68,9 +68,9 @@
     },
     {
       "subject": "对齐轴",
-      "predicate": "控制",
+      "predicate": "配置",
       "object": "2D层对齐",
-      "context": "对齐轴设置直接影响所有2D层对齐操作的空间方向",
+      "context": "对齐轴的设置直接影响2D层对齐功能在世界空间中的行为方式",
       "direction": "unidirectional",
       "confidence": 0.9
     },
@@ -78,32 +78,32 @@
       "subject": "对齐层",
       "predicate": "显示于",
       "object": "视口工具栏",
-      "context": "配置的对齐层会显示在视口工具栏中，供开发者使用",
+      "context": "对齐层定义的内容会直接显示在视口工具栏中，供开发者使用",
       "direction": "unidirectional",
       "confidence": 0.9
     },
     {
-      "subject": "2D开发",
-      "predicate": "依赖",
-      "object": "2D设置",
-      "context": "进行2D开发时需要了解和配置2D设置中的各项参数",
+      "subject": "2D组合平移+旋转控件",
+      "predicate": "用于",
+      "object": "2D元素操作",
+      "context": "该控件专门用于在2D环境中对元素进行平移和旋转操作",
       "direction": "unidirectional",
       "confidence": 0.8
     },
     {
-      "subject": "UI开发",
-      "predicate": "关联",
-      "object": "层对齐设置",
-      "context": "UI元素的排列和组织常常需要使用层对齐功能",
-      "direction": "bidirectional",
-      "confidence": 0.7
+      "subject": "2D层对齐",
+      "predicate": "用于",
+      "object": "2D元素层级管理",
+      "context": "层对齐功能主要用于管理和控制2D元素的层级关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
     }
   ],
-  "timestamp": "2025-06-15T07:58:13.191Z",
+  "timestamp": "2025-06-15T17:51:36.744Z",
   "warnings": [],
   "metadata": {
     "fileSize": 1654,
     "contentLength": 1290,
-    "processingTimeMs": 34270
+    "processingTimeMs": 47254
   }
 }

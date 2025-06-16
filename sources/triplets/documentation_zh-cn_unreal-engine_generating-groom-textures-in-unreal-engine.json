@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_generating-groom-textures-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_generating-groom-textures-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Groom资产",
+      "predicate": "生成",
+      "object": "毛囊纹理",
+      "context": "Groom资产可以根据导入的发束数据创建毛囊纹理，用于将毛发与网格体表面更好地混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom资产",
+      "predicate": "生成",
+      "object": "发束纹理",
+      "context": "Groom资产可以生成多种发束纹理，用于创建毛发网格体或毛发方块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛囊纹理",
+      "predicate": "包含",
+      "object": "根部距离场",
+      "context": "毛囊纹理包含根部的小型距离场，用于捕获底层表面材质的着色器效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛囊纹理",
+      "predicate": "存储",
+      "object": "纹理信息",
+      "context": "毛囊纹理包含多个通道用于存储纹理信息，可以同时选择多个groom填充这些通道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发束纹理",
+      "predicate": "应用于",
+      "object": "毛发网格体",
+      "context": "发束纹理是根据groom生成的多种纹理，将应用到指定的毛发网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发束纹理",
+      "predicate": "包括",
+      "object": "深度纹理",
+      "context": "发束纹理生成的结果包括深度纹理，可以应用至毛发网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发束纹理",
+      "predicate": "包括",
+      "object": "切线纹理",
+      "context": "发束纹理生成的结果包括切线纹理，可以应用至毛发网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发束纹理",
+      "predicate": "包括",
+      "object": "不透明度纹理",
+      "context": "发束纹理生成的结果包括不透明度纹理，可以应用至毛发网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发束纹理",
+      "predicate": "包括",
+      "object": "属性纹理",
+      "context": "发束纹理生成的结果包括属性纹理，可以应用至毛发网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom毛囊遮罩选项",
+      "predicate": "控制",
+      "object": "毛囊纹理生成",
+      "context": "Groom毛囊遮罩选项窗口允许用户设置分辨率、根半径等参数来控制毛囊纹理的生成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom发束纹理选项",
+      "predicate": "控制",
+      "object": "发束纹理生成",
+      "context": "Groom发束纹理选项窗口允许用户设置分辨率、追踪类型等参数来控制发束纹理的生成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "用于",
+      "object": "发束纹理生成",
+      "context": "静态网格体可以作为输入网格体用于发束纹理的生成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体",
+      "predicate": "用于",
+      "object": "发束纹理生成",
+      "context": "骨架网格体可以作为输入网格体用于发束纹理的生成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛发网格体",
+      "predicate": "使用",
+      "object": "发束纹理",
+      "context": "毛发网格体可以应用生成的发束纹理（如深度、切线等）来呈现更真实的毛发效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:12:12.545Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6650,
+    "contentLength": 4201,
+    "processingTimeMs": 54118
+  }
+}

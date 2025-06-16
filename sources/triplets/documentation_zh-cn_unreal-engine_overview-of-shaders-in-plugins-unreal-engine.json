@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_overview-of-shaders-in-plugins-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_overview-of-shaders-in-plugins-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎插件",
+      "predicate": "支持",
+      "object": "着色器开发",
+      "context": "文档说明通过插件系统可以创建新着色器并与其他用户共享",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插件精灵",
+      "predicate": "用于",
+      "object": "快速创建插件",
+      "context": "插件精灵可以快速生成插件所需的文件和文件夹",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染线程",
+      "predicate": "从属于",
+      "object": "游戏线程",
+      "context": "渲染线程由游戏线程排列命令，且需避免两者同步以保证性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻着色器标头(.USH)",
+      "predicate": "被包含于",
+      "object": "虚幻着色器格式(.USF)",
+      "context": "USH文件只能被其他USH或USF文件包含",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻着色器格式(.USF)",
+      "predicate": "包含",
+      "object": "着色器进入点",
+      "context": "USF文件应包含着色器的进入点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USF文件",
+      "predicate": "基于",
+      "object": "HLSL语言",
+      "context": "USF文件是基于HLSL的多平台着色器文件格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FGlobalShader",
+      "predicate": "继承自",
+      "object": "全局着色器",
+      "context": "全局着色器需要继承FGlobalShader类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FLensDistortionUVGenerationShader",
+      "predicate": "实现",
+      "object": "顶点着色器",
+      "context": "示例中的FLensDistortionUVGenerationShader是一个顶点着色器实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Platform.usf",
+      "predicate": "需要包含",
+      "object": "所有着色器文件",
+      "context": "Platform.usf需要被直接或间接包含在所有着色器文件中以保证多平台编译",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ConsoleVariables.ini",
+      "predicate": "用于",
+      "object": "着色器调试",
+      "context": "可以通过修改ConsoleVariables.ini中的设置来获取着色器调试信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "顶点着色器",
+      "predicate": "使用后缀",
+      "object": "VS",
+      "context": "顶点着色器在命名时需要使用VS后缀",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素着色器",
+      "predicate": "使用后缀",
+      "object": "PS",
+      "context": "像素着色器在命名时需要使用PS后缀",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "计算着色器",
+      "predicate": "使用后缀",
+      "object": "CS",
+      "context": "计算着色器在命名时需要使用CS后缀",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插件模块",
+      "predicate": "需要设置",
+      "object": "LoadingPhase为PostConfigInit",
+      "context": "包含着色器实现的插件模块需要将LoadingPhase设为PostConfigInit",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "着色器开发",
+      "predicate": "依赖",
+      "object": "插件依赖性",
+      "context": "正确设置插件依赖性是确保着色器能够编译的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:16:21.243Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10933 字符)",
+      "timestamp": "2025-06-15T20:15:30.535Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14813,
+    "contentLength": 10933,
+    "processingTimeMs": 50713
+  }
+}

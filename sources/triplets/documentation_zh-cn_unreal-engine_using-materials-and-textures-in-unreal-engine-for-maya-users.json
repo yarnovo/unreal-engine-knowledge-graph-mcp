@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-materials-and-textures-in-unreal-engine-for-maya-users",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-materials-and-textures-in-unreal-engine-for-maya-users.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎材质系统",
+      "predicate": "基于",
+      "object": "基于节点的材质编辑器",
+      "context": "虚幻引擎的材质系统使用基于节点的编辑器来创建和编辑材质，这与Maya的Hypershade类似，但针对实时渲染进行了优化。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎材质系统",
+      "predicate": "支持",
+      "object": "基于物理的渲染（PBR）",
+      "context": "材质系统通过PBR技术实现真实感渲染，强调基础颜色、金属感、粗糙度等物理属性输入。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎材质系统",
+      "predicate": "包含",
+      "object": "材质实例",
+      "context": "材质实例化是材质系统的一部分，允许通过参数重载实现多样化和自定义效果，而无需重新编译父材质。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质",
+      "predicate": "由...定义",
+      "object": "材质属性",
+      "context": "材质的渲染方式和对光照的反应由其材质属性（如材质域、混合模式、着色模型）决定。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质属性",
+      "predicate": "包括",
+      "object": "材质域",
+      "context": "材质域定义了材质的用途，如3D表面、用户界面、后期处理等。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质属性",
+      "predicate": "包括",
+      "object": "混合模式",
+      "context": "混合模式决定了材质与背景像素的混合方式，如不透明、半透明、遮罩等。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质属性",
+      "predicate": "包括",
+      "object": "着色模型",
+      "context": "着色模型定义了材质与光源的交互方式，影响表面的视觉外观和光照表现。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质图表",
+      "predicate": "用于",
+      "object": "定义材质外观",
+      "context": "材质图表是基于节点的编辑器，通过连接纹理、表达式和数学运算来定义材质的外观。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质图表",
+      "predicate": "包含",
+      "object": "纹理取样节点",
+      "context": "纹理取样节点用于引入纹理资产（如颜色贴图和法线贴图）到材质图表中。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质图表",
+      "predicate": "包含",
+      "object": "数学节点",
+      "context": "数学节点（如加法、乘法、线性插值等）用于在材质图表中执行数学运算。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质图表",
+      "predicate": "包含",
+      "object": "工具节点",
+      "context": "工具节点（如菲涅尔、摄像机向量等）用于在材质图表中建立逻辑关系。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质",
+      "predicate": "可生成",
+      "object": "材质实例",
+      "context": "材质实例基于父材质，通过重载参数实现自定义效果，而无需修改原始材质。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质实例",
+      "predicate": "继承自",
+      "object": "材质",
+      "context": "材质实例从父材质继承特性和参数，但可以重载这些参数以实现多样化效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理",
+      "predicate": "用于",
+      "object": "材质输入",
+      "context": "纹理是应用于材质输入的图像贴图，用于定义表面细节（如基础颜色、法线、粗糙度等）。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Substrate材质框架",
+      "predicate": "替代",
+      "object": "标准材质系统",
+      "context": "Substrate材质框架通过模块化方法取代了固定的着色模型和混合模式组合，允许更灵活的材质创作。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基于物理的渲染（PBR）",
+      "predicate": "用于",
+      "object": "材质渲染",
+      "context": "PBR技术通过物理准确的光源交互实现逼真渲染，适用于写实和风格化材质。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质输入",
+      "predicate": "对应",
+      "object": "Maya Hypershade输入",
+      "context": "文档提供了Maya Hypershade输入与虚幻引擎材质输入的对应关系，帮助Maya用户过渡。",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质实例",
+      "predicate": "优化",
+      "object": "性能",
+      "context": "使用材质实例可以减少材质编译次数，提高工作流程效率和运行时性能。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "纹理",
+      "predicate": "优化",
+      "object": "通道打包",
+      "context": "通过通道打包技术将多张灰度纹理合并为单张RGB纹理，可以优化性能。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "纹理",
+      "predicate": "建议使用",
+      "object": "2的幂次方尺寸",
+      "context": "使用2的幂次方尺寸的纹理（如128、512、1024）可以避免视觉瑕疵并优化性能。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:19:40.414Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10424 字符)",
+      "timestamp": "2025-06-15T21:18:41.313Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17280,
+    "contentLength": 10424,
+    "processingTimeMs": 59108
+  }
+}

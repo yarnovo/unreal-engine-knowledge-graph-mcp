@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-the-desktop-renderer-on-mobile-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-the-desktop-renderer-on-mobile-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "移动端桌面渲染器",
+      "predicate": "支持",
+      "object": "iOS设备",
+      "context": "文档明确指出移动端桌面渲染器支持iOS设备，使用Metal桌面渲染器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动端桌面渲染器",
+      "predicate": "支持",
+      "object": "Android Vulkan设备",
+      "context": "文档明确指出移动端桌面渲染器支持使用Vulkan的Android设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动端桌面渲染器",
+      "predicate": "基于",
+      "object": "着色器模型5 (SM5)",
+      "context": "文档说明桌面渲染器仅适用于可使用着色器模型5的移动设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动端桌面渲染器",
+      "predicate": "提供",
+      "object": "高保真渲染",
+      "context": "文档说明桌面渲染器提供与台式机和游戏主机一致的高保真渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动端桌面渲染器",
+      "predicate": "具有",
+      "object": "高资源开销",
+      "context": "文档说明与移动前向和移动延迟着色路径相比，桌面渲染器的资源开销较高",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动端桌面渲染器",
+      "predicate": "适用于",
+      "object": "测试和试验",
+      "context": "文档说明iOS实现方案被视为测试版，Android Vulkan实现方案被视为试验版，不建议用于已发布项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS设备",
+      "predicate": "使用",
+      "object": "Metal桌面渲染器",
+      "context": "文档说明要为iOS启用桌面渲染器，需要启用Metal桌面渲染器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android Vulkan设备",
+      "predicate": "需要",
+      "object": "支持Vulkan桌面",
+      "context": "文档说明要为Android Vulkan启用桌面渲染器，需要启用支持Vulkan桌面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android Vulkan设备",
+      "predicate": "需要",
+      "object": "着色器模型5 (SM5)",
+      "context": "文档说明需要将r.Android.DisableVulkanSM5Support设置为0以允许使用着色器模型5",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动端桌面渲染器",
+      "predicate": "配置方式",
+      "object": "与桌面应用程序相同",
+      "context": "文档说明完成设置后，可以采用与在桌面应用程序中相同的方式来配置前向和延迟渲染功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:23:32.138Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4658,
+    "contentLength": 3374,
+    "processingTimeMs": 30438
+  }
+}

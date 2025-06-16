@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-texture-masks-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-texture-masks-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "纹理遮罩",
+      "predicate": "用于",
+      "object": "材质",
+      "context": "纹理遮罩用于限制材质内的效果区域，帮助定义不同表面属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理遮罩",
+      "predicate": "包含于",
+      "object": "Alpha通道",
+      "context": "遮罩通常包含在纹理的Alpha通道中，用于存储特定信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通道打包",
+      "predicate": "提高",
+      "object": "材质性能",
+      "context": "通道打包通过减少纹理样本数来提高材质性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理遮罩",
+      "predicate": "创建于",
+      "object": "2D图像处理程序",
+      "context": "纹理遮罩可以在任何2D图像处理程序中创建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理遮罩",
+      "predicate": "用于",
+      "object": "自发光光源",
+      "context": "遮罩纹理用于控制材质的自发光部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理遮罩",
+      "predicate": "用于",
+      "object": "材质遮罩",
+      "context": "遮罩纹理用于定义网格体的金属和非金属部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理遮罩",
+      "predicate": "结合使用",
+      "object": "材质实例",
+      "context": "纹理遮罩与材质实例结合使用可以为资产添加多样性",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绿色通道",
+      "predicate": "提供",
+      "object": "最佳压缩结果",
+      "context": "绿色通道通常提供最佳压缩结果，适合存储遮罩信息",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Alpha通道",
+      "predicate": "增加",
+      "object": "内存占用",
+      "context": "使用Alpha通道存储遮罩信息会大幅增加纹理的内存占用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "sRGB",
+      "predicate": "应禁用",
+      "object": "遮罩纹理",
+      "context": "在遮罩纹理上禁用sRGB可以提高遮罩的清晰度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "采样器类型",
+      "predicate": "需要调整",
+      "object": "线性颜色",
+      "context": "禁用sRGB后，需要将采样器类型调整为线性颜色以确保材质编译",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理遮罩",
+      "predicate": "用于",
+      "object": "UV布局",
+      "context": "纹理遮罩通常基于网格体的UV布局创建",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "纹理遮罩",
+      "predicate": "存储",
+      "object": "环境光遮蔽信息",
+      "context": "红色通道通常用于存储环境光遮蔽信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理遮罩",
+      "predicate": "存储",
+      "object": "金属感遮罩",
+      "context": "绿色通道通常用于存储金属感遮罩",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理遮罩",
+      "predicate": "存储",
+      "object": "非金属感遮罩",
+      "context": "蓝色通道通常用于存储非金属感遮罩",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:23:39.723Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9397 字符)",
+      "timestamp": "2025-06-15T21:23:01.703Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15041,
+    "contentLength": 9397,
+    "processingTimeMs": 38023
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-create-particle-effects-that-emit-light-in-niagara-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-create-particle-effects-that-emit-light-in-niagara-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Niagara系统",
+      "predicate": "包含",
+      "object": "Niagara发射器",
+      "context": "Niagara系统由发射器组成，发射器负责生成和控制粒子效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara发射器",
+      "predicate": "基于",
+      "object": "发射器模板",
+      "context": "创建发射器时可以选择模板作为基础，如喷泉模板",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子效果",
+      "predicate": "实现",
+      "object": "光源效果",
+      "context": "通过配置粒子可以使其发光并照亮周围场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源渲染器",
+      "predicate": "控制",
+      "object": "粒子光源属性",
+      "context": "光源渲染器模块控制粒子发出的光的半径和颜色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "初始化粒子模块",
+      "predicate": "设置",
+      "object": "粒子初始属性",
+      "context": "该模块设置粒子生成时的初始颜色、大小和生命周期等属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞模块",
+      "predicate": "影响",
+      "object": "粒子物理行为",
+      "context": "碰撞模块使粒子能够与场景中的物体发生碰撞",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重力模块",
+      "predicate": "模拟",
+      "object": "粒子物理行为",
+      "context": "重力模块模拟重力对粒子的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "阻力模块",
+      "predicate": "影响",
+      "object": "粒子运动",
+      "context": "阻力模块减慢粒子的运动速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "M_Radial_Gradient材质",
+      "predicate": "用于",
+      "object": "粒子发光效果",
+      "context": "该材质用于创建发光粒子效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Niagara插件",
+      "predicate": "前置",
+      "object": "创建Niagara效果",
+      "context": "使用Niagara功能前需要先启用Niagara插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子生成组",
+      "predicate": "控制",
+      "object": "粒子初始行为",
+      "context": "粒子生成组中的模块控制粒子生成时的初始行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子更新组",
+      "predicate": "控制",
+      "object": "粒子持续行为",
+      "context": "粒子更新组中的模块控制粒子生成后的持续行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器更新组",
+      "predicate": "控制",
+      "object": "发射器行为",
+      "context": "发射器更新组中的模块控制发射器本身的行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "随机范围浮点",
+      "predicate": "用于",
+      "object": "参数随机化",
+      "context": "该动态输入用于为粒子属性添加随机性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "球体位置模块",
+      "predicate": "控制",
+      "object": "粒子生成位置",
+      "context": "该模块控制粒子在球体范围内的生成位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在椎体中添加速度模块",
+      "predicate": "控制",
+      "object": "粒子初始速度",
+      "context": "该模块控制粒子生成时的初始速度和方向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:26:43.018Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12882 字符)",
+      "timestamp": "2025-06-15T19:25:49.623Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17532,
+    "contentLength": 12882,
+    "processingTimeMs": 53407
+  }
+}

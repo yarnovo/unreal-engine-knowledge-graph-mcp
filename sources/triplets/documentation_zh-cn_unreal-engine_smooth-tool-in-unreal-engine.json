@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_smooth-tool-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_smooth-tool-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "平滑工具",
+      "predicate": "属于",
+      "object": "建模模式",
+      "context": "平滑工具位于建模模式的变形类别中，理解这一归属关系有助于学习者在建模模式下找到并使用该工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平滑工具",
+      "predicate": "用于",
+      "object": "柔化表面边缘",
+      "context": "平滑工具的主要功能是通过移动顶点来柔化网格体表面的边缘，这对处理锯齿状边缘特别有用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平滑工具",
+      "predicate": "依赖",
+      "object": "权重地图",
+      "context": "使用快速迭代和快速隐式平滑类型时，需要先在属性编辑工具中创建权重地图层，这对控制特定区域的平滑效果至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平滑工具",
+      "predicate": "支持",
+      "object": "多种平滑类型",
+      "context": "平滑工具提供不同的平滑类型（如快速迭代和快速隐式），每种类型有不同的调整选项，了解这些类型有助于更灵活地使用工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平滑工具",
+      "predicate": "适用于",
+      "object": "骨架编辑器",
+      "context": "平滑工具也可以在骨架编辑器中使用，这扩展了其应用场景，对动画和角色建模的学习者尤为重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平滑工具",
+      "predicate": "前置",
+      "object": "重新网格化工具",
+      "context": "当网格体因平滑而尺寸缩小时，可以使用重新网格化工具增加三角形数量来解决问题，理解这一顺序关系有助于工作流程的优化",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "平滑工具",
+      "predicate": "关联",
+      "object": "属性编辑工具",
+      "context": "在使用平滑工具前，可能需要通过属性编辑工具创建权重地图，这两个工具的配合使用对高级平滑效果至关重要",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "平滑工具",
+      "predicate": "关联",
+      "object": "绘制地图工具",
+      "context": "绘制地图工具用于创建权重地图，而权重地图是平滑工具的重要输入，理解这一关联有助于掌握完整的平滑工作流程",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "平滑工具",
+      "predicate": "控制",
+      "object": "迭代平滑选项",
+      "context": "通过调整迭代平滑选项（如逐步平滑和步数设置），可以控制平滑效果的强度，这对精细调整网格体外观很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平滑工具",
+      "predicate": "属于",
+      "object": "Beta功能",
+      "context": "平滑工具目前是Beta功能，这意味着它在产品发布中需要谨慎使用，这一信息对决定是否在生产环境中使用该工具很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:50:44.078Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4995,
+    "contentLength": 3573,
+    "processingTimeMs": 45699
+  }
+}

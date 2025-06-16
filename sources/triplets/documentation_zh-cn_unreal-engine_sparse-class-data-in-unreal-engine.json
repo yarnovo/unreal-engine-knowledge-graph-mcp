@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_sparse-class-data-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_sparse-class-data-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Sparse Class Data",
+      "predicate": "优化",
+      "object": "内存使用",
+      "context": "Sparse Class Data系统通过消除Actor类型的冗余数据来节约内存，特别适用于有大量实例的Actor类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sparse Class Data",
+      "predicate": "适用于",
+      "object": "常量属性",
+      "context": "Sparse Class Data适用于在Actor实例中保持不变或在游戏进程中保持不变的属性，这些属性实际上是常量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sparse Class Data",
+      "predicate": "不适用于",
+      "object": "EditInstanceOnly属性",
+      "context": "标记为EditInstanceOnly或EditAnywhere的属性不是Sparse Class Data的候选，因为它们可能在实例间变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sparse Class Data",
+      "predicate": "不适用于",
+      "object": "BlueprintReadWrite属性",
+      "context": "蓝图可读写属性不是Sparse Class Data的候选，因为它们的值可能在游戏过程中被修改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sparse Class Data",
+      "predicate": "需要",
+      "object": "C++实现",
+      "context": "实现Sparse Class Data功能需要本地C++代码，蓝图声明的变量必须移至C++代码才有资格",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sparse Class Data结构体",
+      "predicate": "包含",
+      "object": "EditDefaultsOnly属性",
+      "context": "Sparse Class Data结构体中的每个属性都必须包括EditDefaultsOnly说明符，确保属性在类级别而非实例级别可编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sparse Class Data",
+      "predicate": "依赖",
+      "object": "MoveDataToSparseClassDataStruct函数",
+      "context": "在编辑器编译时，需要覆盖MoveDataToSparseClassDataStruct函数来执行从原始类到Sparse Class Data结构体的一次性数据复制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sparse Class Data",
+      "predicate": "替换",
+      "object": "原始类属性",
+      "context": "原始类中的候选属性需要被标记为_DEPRECATED并移至Sparse Class Data结构体，代码中对这些属性的访问需要替换为对生成的获取函数的调用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UHT",
+      "predicate": "生成",
+      "object": "获取函数",
+      "context": "虚幻标头工具(UHT)会自动为Sparse Class Data属性生成获取函数，除非使用NoGetter元数据说明符明确禁止",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetByRef",
+      "predicate": "用于",
+      "object": "常量引用访问",
+      "context": "GetByRef元数据说明符指示UHT生成通过常量引用而非值访问属性的函数，适用于需要高效访问的大型数据结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sparse Class Data",
+      "predicate": "基于",
+      "object": "UStruct",
+      "context": "Sparse Class Data通过创建标记为BlueprintType的UStruct来实现，该结构体包含所有共享属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sparse Class Data",
+      "predicate": "影响",
+      "object": "蓝图访问",
+      "context": "使用Sparse Class Data后，蓝图对属性的访问行为保持不变，用户不会注意到差异，但底层实现已优化",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Sparse Class Data",
+      "predicate": "前置条件",
+      "object": "属性分析",
+      "context": "在实现Sparse Class Data前，必须仔细分析属性是否符合三个候选条件：大量实例、值不变、C++代码未修改",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:53:21.634Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9683,
+    "contentLength": 6287,
+    "processingTimeMs": 43254
+  }
+}

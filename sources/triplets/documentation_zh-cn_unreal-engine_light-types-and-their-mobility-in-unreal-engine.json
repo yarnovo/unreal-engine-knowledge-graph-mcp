@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_light-types-and-their-mobility-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_light-types-and-their-mobility-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "定向光源",
+      "predicate": "用于",
+      "object": "大型外景",
+      "context": "定向光源是主要的室外光源，适用于大型外景或需要远距离光照的场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空光照",
+      "predicate": "用于",
+      "object": "大型外景",
+      "context": "天空光照捕捉场景背景并应用于关卡几何体，适用于大型外景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "点光源",
+      "predicate": "用于",
+      "object": "局部区域",
+      "context": "点光源从单个点向各个方向发光，适用于照亮较小的局部区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "聚光源",
+      "predicate": "用于",
+      "object": "局部区域",
+      "context": "聚光源从单个点沿椎体方向发光，适用于照亮较小的局部区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "矩形光源",
+      "predicate": "用于",
+      "object": "局部区域",
+      "context": "矩形光源从矩形表面沿一个方向发光，适用于照亮较小的局部区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态光源",
+      "predicate": "生成",
+      "object": "光照贴图",
+      "context": "静态光源通过Lightmass生成预计算的光照贴图，适用于不移动的光源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "固定光源",
+      "predicate": "支持",
+      "object": "动态阴影",
+      "context": "固定光源可以为可移动对象投射动态阴影，同时支持预计算光照",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可移动光源",
+      "predicate": "投射",
+      "object": "动态阴影",
+      "context": "可移动光源完全动态，可以移动并投射动态阴影，但成本较高",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源移动性",
+      "predicate": "影响",
+      "object": "性能",
+      "context": "光源的移动性选择直接影响性能、外观和设计选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定向光源",
+      "predicate": "高效照亮",
+      "object": "植被",
+      "context": "定向光源在照亮浓密植被时效率较高",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "固定光源",
+      "predicate": "限制",
+      "object": "光源数量",
+      "context": "固定光源对单个对象的光源数量有限制，最多四个",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可移动光源",
+      "predicate": "计算成本",
+      "object": "较低",
+      "context": "不投影的可移动光源计算成本比静态光源更低",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "光源类型",
+      "predicate": "决定",
+      "object": "光照形状",
+      "context": "光源的类型和属性决定了其在场景中的形状和外观",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "静态光源",
+      "predicate": "不移动",
+      "object": "Gameplay",
+      "context": "静态光源在Gameplay期间不移动或更新",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "固定光源",
+      "predicate": "可改变",
+      "object": "颜色",
+      "context": "固定光源在Gameplay期间可以改变颜色或强度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可移动光源",
+      "predicate": "可改变",
+      "object": "所有属性",
+      "context": "可移动光源可以动态改变所有属性，包括位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:44:12.899Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8807,
+    "contentLength": 5909,
+    "processingTimeMs": 49421
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_eqs-node-reference-tests-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_eqs-node-reference-tests-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "EQS测试",
+      "predicate": "属于",
+      "object": "场景查询系统(EQS)",
+      "context": "EQS测试是场景查询系统的核心组成部分，用于评估生成器产生的项目",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EQS测试",
+      "predicate": "依赖",
+      "object": "情境(Context)",
+      "context": "所有测试都需要在特定情境下执行，情境提供了测试的参考框架",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EQS测试",
+      "predicate": "作用于",
+      "object": "项目(Item)",
+      "context": "测试的主要目的是评估生成器产生的项目，确定最佳选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "测试目的(Test Purpose)",
+      "predicate": "控制",
+      "object": "测试行为",
+      "context": "测试目的属性决定测试是用于过滤、计分还是两者兼有",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "距离测试",
+      "predicate": "继承",
+      "object": "EQS测试",
+      "context": "距离测试是EQS测试的一种具体实现类型",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "点测试",
+      "predicate": "计算",
+      "object": "矢量点积",
+      "context": "点测试专门用于计算两个矢量的点积，判断方向关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay标记测试",
+      "predicate": "依赖",
+      "object": "Gameplay标记系统",
+      "context": "该测试需要查询和匹配Gameplay标记，依赖标记系统功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重叠测试",
+      "predicate": "使用",
+      "object": "碰撞通道",
+      "context": "重叠测试需要指定碰撞通道来检测几何体重叠",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路测试",
+      "predicate": "依赖",
+      "object": "导航网格",
+      "context": "寻路测试需要导航网格系统来计算路径存在性、成本和长度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "投射测试",
+      "predicate": "转换",
+      "object": "项目位置",
+      "context": "投射测试将项目位置投射到导航网格上，修正位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "追踪测试",
+      "predicate": "实现",
+      "object": "可视性检测",
+      "context": "追踪测试常用于实现敌人是否能看到玩家等可视性检测",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多情境过滤运算",
+      "predicate": "影响",
+      "object": "测试结果",
+      "context": "该属性决定多个情境下如何组合测试结果，影响最终输出",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "计分公式",
+      "predicate": "转换",
+      "object": "原始测试值",
+      "context": "计分公式将原始测试值转换为更有意义的评分曲线",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "EQS测试",
+      "predicate": "可扩展",
+      "object": "自定义测试",
+      "context": "开发者可以通过C++创建自定义测试扩展EQS功能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "测试注释",
+      "predicate": "说明",
+      "object": "测试用途",
+      "context": "测试注释属性帮助开发者理解复杂测试的用途",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "追踪测试",
+      "predicate": "使用",
+      "object": "追踪形状",
+      "context": "追踪测试可以使用线形、球体、盒体或胶囊体等不同形状进行检测",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路批处理测试",
+      "predicate": "优化",
+      "object": "批量寻路",
+      "context": "该测试专门用于优化批量处理多个寻路请求的情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EQS测试",
+      "predicate": "包含",
+      "object": "通用测试属性",
+      "context": "所有EQS测试都共享一组通用属性控制基本行为",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "过滤器属性",
+      "predicate": "应用于",
+      "object": "测试过滤",
+      "context": "这些属性专门控制测试如何过滤不合格的项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "计分属性",
+      "predicate": "控制",
+      "object": "评分计算",
+      "context": "这些属性专门控制测试如何计算和调整项目评分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:59:41.702Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11492 字符)",
+      "timestamp": "2025-06-15T18:58:31.075Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19649,
+    "contentLength": 11492,
+    "processingTimeMs": 70643
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_reflection-system-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_reflection-system-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "反射系统",
+      "predicate": "基于",
+      "object": "UObject",
+      "context": "反射系统使用UObject作为基类，理解UObject是理解反射系统的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCLASS宏",
+      "predicate": "标记",
+      "object": "UObject派生类",
+      "context": "UCLASS宏用于标记从UObject派生的类，使其能被UObject处理系统识别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSubclassOf",
+      "predicate": "提供",
+      "object": "类型安全",
+      "context": "TSubclassOf模板类为UClass提供类型安全，帮助开发者在分配派生类时避免类型错误",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "类",
+      "predicate": "包含",
+      "object": "结构体",
+      "context": "类可以包含结构体，结构体帮助组织和操作相关属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USTRUCT宏",
+      "predicate": "定义",
+      "object": "结构体",
+      "context": "USTRUCT宏用于单独定义结构体，使其能够被引擎识别和处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻智能指针库",
+      "predicate": "实现",
+      "object": "共享指针",
+      "context": "智能指针库实现了共享指针等标准智能指针，帮助管理内存分配和追踪",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "接口",
+      "predicate": "提供",
+      "object": "跨类行为",
+      "context": "接口允许在不同类中实现相同函数，支持跨类的游戏行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Metadata说明符",
+      "predicate": "控制",
+      "object": "引擎交互",
+      "context": "Metadata说明符控制类、接口等与引擎和编辑器的交互方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UFUNCTION宏",
+      "predicate": "标记",
+      "object": "函数",
+      "context": "UFUNCTION宏用于标记函数，使其能被引擎识别并进行垃圾收集",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UPROPERTY宏",
+      "predicate": "标记",
+      "object": "属性",
+      "context": "UPROPERTY宏用于标记属性，使其能被引擎识别并进行垃圾收集",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "反射系统",
+      "predicate": "依赖",
+      "object": "宏系统",
+      "context": "反射系统依赖UCLASS、UFUNCTION等宏来识别和管理类和函数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "TSubclassOf",
+      "predicate": "用于",
+      "object": "蓝图变量",
+      "context": "TSubclassOf可以公开给蓝图，允许设计者指定派生类",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "智能指针",
+      "predicate": "包括",
+      "object": "弱指针",
+      "context": "智能指针实现包括弱指针，用于避免循环引用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "接口",
+      "predicate": "支持",
+      "object": "Actor互动",
+      "context": "接口支持不同Actor之间的互动，每个互动可以有不同的反应",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:34:33.551Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5930,
+    "contentLength": 4344,
+    "processingTimeMs": 45457
+  }
+}

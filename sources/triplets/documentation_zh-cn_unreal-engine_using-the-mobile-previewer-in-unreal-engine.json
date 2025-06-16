@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-the-mobile-previewer-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-the-mobile-previewer-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "移动预览器",
+      "predicate": "用于",
+      "object": "预览移动设备显示",
+      "context": "移动预览器允许开发者在编辑器视口中直接预览场景在不同移动设备上的显示效果，帮助快速验证视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动预览器",
+      "predicate": "支持",
+      "object": "多渲染关卡切换",
+      "context": "开发者可以在不同渲染关卡（如OpenGL ES2、Vulkan等）之间无缝切换，无需重启编辑器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动预览器",
+      "predicate": "依赖",
+      "object": "着色器重新编译",
+      "context": "首次切换渲染关卡时需要重新编译着色器，这对理解移动端渲染管线优化有重要意义",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "预览渲染关卡",
+      "predicate": "包含",
+      "object": "Android GLES 3.1",
+      "context": "预览渲染关卡提供多种选项对应不同移动设备配置，帮助开发者针对性优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预览渲染关卡",
+      "predicate": "包含",
+      "object": "Android Vulkan",
+      "context": "Vulkan是现代移动设备的重要图形API，预览其效果对性能优化至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动预览ES2(PIE)",
+      "predicate": "替代",
+      "object": "完整烘焙部署",
+      "context": "该功能允许快速测试移动渲染效果，显著提升开发迭代效率",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Vulkan移动预览",
+      "predicate": "基于",
+      "object": "Vulkan API",
+      "context": "理解该预览模式需要先掌握Vulkan渲染管线的相关知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平台材质质量设置",
+      "predicate": "控制",
+      "object": "材质特性启用",
+      "context": "开发者可以针对不同平台启用/禁用特定材质功能，这对跨平台优化很关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设备描述文件",
+      "predicate": "实现",
+      "object": "1:1设备配置复制",
+      "context": "通过JSON文件保存设备配置，可以在预览器中精确复现设备显示效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动预览器",
+      "predicate": "关联",
+      "object": "设备边框模拟",
+      "context": "预览器可以模拟不同设备的边框设计，帮助开发者避免UI被遮挡的问题",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Android开发",
+      "predicate": "前置",
+      "object": "Vulkan移动预览",
+      "context": "使用Vulkan预览功能需要先完成Android项目的基础配置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "预览渲染关卡",
+      "predicate": "对应",
+      "object": "材质质量设置",
+      "context": "每个预览关卡都关联特定的材质质量配置，这是理解移动端渲染分级的重要概念",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动预览器",
+      "predicate": "适用于",
+      "object": "快速原型开发",
+      "context": "该工具特别适合在开发早期阶段快速验证移动端视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "着色器编译",
+      "predicate": "影响",
+      "object": "预览切换速度",
+      "context": "理解着色器编译过程有助于优化预览工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "设备描述文件",
+      "predicate": "包含",
+      "object": "控制台变量(CVar)",
+      "context": "设备配置文件保存了重要的渲染参数，这对深入理解移动端优化很有价值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:24:49.466Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (14110 字符)",
+      "timestamp": "2025-06-15T21:24:03.937Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 20038,
+    "contentLength": 14110,
+    "processingTimeMs": 45530
+  }
+}

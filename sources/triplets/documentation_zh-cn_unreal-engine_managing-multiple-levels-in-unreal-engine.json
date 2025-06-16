@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_managing-multiple-levels-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_managing-multiple-levels-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "关卡窗口",
+      "predicate": "用于",
+      "object": "关卡管理",
+      "context": "关卡窗口是虚幻引擎中用于管理多个关卡的主要工具，帮助开发者组织和切换不同关卡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区",
+      "predicate": "替代",
+      "object": "关卡窗口",
+      "context": "在虚幻引擎5.0及更高版本中，世界分区系统取代了传统的关卡窗口管理方式，特别是在游戏开发中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "持久关卡",
+      "predicate": "包含",
+      "object": "子关卡",
+      "context": "持久关卡是基础关卡，可以包含一个或多个子关卡，这些子关卡通过流送方式加载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子关卡",
+      "predicate": "通过",
+      "object": "关卡流送体积",
+      "context": "子关卡可以通过关卡流送体积进行加载和流送，这是管理大型场景的重要机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子关卡",
+      "predicate": "通过",
+      "object": "蓝图",
+      "context": "子关卡也可以通过蓝图脚本进行动态加载和管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子关卡",
+      "predicate": "通过",
+      "object": "C++代码",
+      "context": "开发者可以使用C++代码直接控制子关卡的加载和卸载流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡窗口",
+      "predicate": "显示",
+      "object": "当前关卡",
+      "context": "关卡窗口会以粗体蓝色文本标识当前正在编辑的关卡，帮助开发者明确工作上下文",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡细节窗口",
+      "predicate": "提供",
+      "object": "高级设置",
+      "context": "关卡细节窗口提供了子关卡的偏移位置、旋转、流送体积等高级设置选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡颜色",
+      "predicate": "用于",
+      "object": "可视化调试",
+      "context": "为子关卡设置不同颜色可以帮助开发者在视口中区分不同关卡的边界和内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "拆分子关卡",
+      "predicate": "用于",
+      "object": "团队协作",
+      "context": "将大型关卡拆分为子关卡可以方便团队成员并行工作，提高开发效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor迁移",
+      "predicate": "实现",
+      "object": "关卡重组",
+      "context": "在不同关卡间迁移Actor是重组关卡结构的重要操作，可以通过右键菜单直接完成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "建筑模板",
+      "predicate": "适用于",
+      "object": "非游戏项目",
+      "context": "建筑模板特别适合建筑可视化等非游戏项目的关卡管理工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流送体积",
+      "predicate": "控制",
+      "object": "子关卡加载",
+      "context": "关卡流送体积可以根据玩家位置自动触发子关卡的加载和卸载，是优化性能的关键技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡可视性",
+      "predicate": "影响",
+      "object": "构建过程",
+      "context": "设置关卡不可见可以使其不参与构建过程，对于复杂场景可以显著减少构建时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:49:25.641Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10828,
+    "contentLength": 7350,
+    "processingTimeMs": 53812
+  }
+}

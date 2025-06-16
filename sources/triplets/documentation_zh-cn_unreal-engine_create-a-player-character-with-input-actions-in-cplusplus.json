@@ -1,0 +1,131 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_create-a-player-character-with-input-actions-in-cplusplus",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_create-a-player-character-with-input-actions-in-cplusplus.md",
+  "triples": [
+    {
+      "subject": "角色类",
+      "predicate": "继承自",
+      "object": "Pawn类",
+      "context": "角色是一类特殊的Pawn，可以充当玩家角色，理解继承关系有助于掌握游戏框架的层级结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pawn类",
+      "predicate": "继承自",
+      "object": "Actor类",
+      "context": "所有可放入关卡中的对象都是Actor，Pawn是可由玩家或AI控制的特殊Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入操作",
+      "predicate": "需要",
+      "object": "输入映射上下文",
+      "context": "输入操作需要输入映射上下文来定义触发规则，这是理解输入系统工作流程的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏模式",
+      "predicate": "指定",
+      "object": "默认Pawn类",
+      "context": "游戏模式决定了玩家控制的默认角色类，这是游戏初始化的核心配置之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C++角色类",
+      "predicate": "可扩展为",
+      "object": "蓝图角色类",
+      "context": "C++类可以通过蓝图扩展实现可视化编辑，这是Unreal的混合编程特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IA_Jump",
+      "predicate": "使用",
+      "object": "布尔值类型",
+      "context": "跳跃操作使用布尔值表示开/关状态，理解值类型对设计输入系统很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IA_Move",
+      "predicate": "使用",
+      "object": "Axis2D值类型",
+      "context": "移动操作需要二维向量值来处理WSAD控制，展示不同输入类型的应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入映射",
+      "predicate": "包含",
+      "object": "修饰符",
+      "context": "修饰符可以转换输入值（如取反、轴交换），这是实现复杂输入处理的核心机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏手柄摇杆",
+      "predicate": "应用",
+      "object": "盲区修饰符",
+      "context": "盲区过滤微小输入，防止摇杆未完全回中导致的误操作，这是控制器输入的重要优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "鼠标输入",
+      "predicate": "使用",
+      "object": "取反修饰符",
+      "context": "Y轴取反实现传统FPS视角控制，展示输入系统如何符合行业惯例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "增强输入系统",
+      "predicate": "替代",
+      "object": "旧版输入系统",
+      "context": "文档提到需要验证使用增强输入系统，暗示这是更新的技术方案",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "第一人称模板",
+      "predicate": "包含",
+      "object": "预设输入操作",
+      "context": "模板提供现成的输入配置（移动/跳跃/观察），可作为学习起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Visual Studio",
+      "predicate": "用于",
+      "object": "编辑C++类",
+      "context": "创建C++类后会自动在VS中打开，这是Unreal的C++开发工作流",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图编辑器",
+      "predicate": "用于",
+      "object": "配置游戏模式",
+      "context": "在蓝图编辑器中设置默认Pawn类等参数，展示蓝图在游戏配置中的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:37:53.196Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11224 字符)",
+      "timestamp": "2025-06-15T18:36:45.874Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16439,
+    "contentLength": 11224,
+    "processingTimeMs": 67330
+  }
+}

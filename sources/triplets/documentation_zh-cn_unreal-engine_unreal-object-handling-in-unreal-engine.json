@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-object-handling-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-object-handling-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "UObject",
+      "predicate": "包含",
+      "object": "UProperty",
+      "context": "UObject可以包含UProperty，这些属性可以通过反射系统被虚幻引擎访问和管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UObject",
+      "predicate": "支持",
+      "object": "序列化",
+      "context": "UObject支持序列化，可以自动写入或读取所有UProperty值，除非显式标记为瞬时",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UObject",
+      "predicate": "依赖",
+      "object": "垃圾回收",
+      "context": "UObject依赖垃圾回收机制来管理内存，不再被引用的对象会被定期清除",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UObject",
+      "predicate": "实现",
+      "object": "运行时类型信息",
+      "context": "UObject实现了运行时类型信息，可以在运行时做出类型决定和类型转换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor",
+      "predicate": "继承",
+      "object": "UObject",
+      "context": "AActor继承自UObject，拥有UObject的所有特性，并扩展了Actor特有的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UActorComponent",
+      "predicate": "继承",
+      "object": "UObject",
+      "context": "UActorComponent继承自UObject，拥有UObject的所有特性，并扩展了组件特有的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UProperty",
+      "predicate": "用于",
+      "object": "自动属性初始化",
+      "context": "UProperty用于自动属性初始化，在UObject初始化时自动归零",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UProperty",
+      "predicate": "用于",
+      "object": "自动更新引用",
+      "context": "UProperty用于自动更新引用，当AActor或UActorComponent被销毁时，所有对它的UProperty引用会自动清空",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UProperty",
+      "predicate": "用于",
+      "object": "网络复制",
+      "context": "UProperty可以标记为在网络游戏期间复制数据，服务器上的更改会可靠地发送到所有客户端",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UFunction",
+      "predicate": "用于",
+      "object": "网络复制",
+      "context": "UFunction可以标记为在远程机器上执行，例如服务器函数在客户端上调用时会在服务器上执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TWeakObjectPtr",
+      "predicate": "替代",
+      "object": "原始指针",
+      "context": "TWeakObjectPtr可以替代原始指针，作为弱指针不会妨碍垃圾回收，但可以查询有效性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "垃圾回收",
+      "predicate": "控制",
+      "object": "UObject生命周期",
+      "context": "垃圾回收机制控制UObject的生命周期，不再被引用的对象会被定期清除",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "垃圾回收",
+      "predicate": "包含",
+      "object": "UObject集群",
+      "context": "垃圾回收可以创建UObject集群，将相关对象分组以提高性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "类默认对象",
+      "predicate": "影响",
+      "object": "属性值更新",
+      "context": "类默认对象（CDO）的更改会影响所有类实例的属性值更新",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器",
+      "predicate": "集成",
+      "object": "UObject",
+      "context": "编辑器可以自动公开UObject和UProperty的值以供编辑，无需编写特殊代码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "集成",
+      "object": "UObject",
+      "context": "UObject可以集成到蓝图视觉脚本系统中，通过标记UProperty和UFunction",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Cast函数",
+      "predicate": "用于",
+      "object": "类型转换",
+      "context": "Cast函数用于在运行时安全地将对象从基类转换为更衍生的类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IsA函数",
+      "predicate": "用于",
+      "object": "类型查询",
+      "context": "IsA函数用于查询对象是否是特定类或其子类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Super关键字",
+      "predicate": "用于",
+      "object": "行为覆盖",
+      "context": "Super关键字用于在派生类中调用父类的函数实现，控制覆盖行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:12:19.986Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 12989,
+    "contentLength": 7243,
+    "processingTimeMs": 52457
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_camera-shakes-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_camera-shakes-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "摄像机晃动",
+      "predicate": "基于",
+      "object": "CameraShakeBase蓝图",
+      "context": "摄像机晃动效果是通过创建CameraShakeBase蓝图来实现的，这是创建摄像机晃动的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机晃动",
+      "predicate": "包含",
+      "object": "根晃动模式",
+      "context": "摄像机晃动资产的核心配置之一是选择根晃动模式类型，这决定了晃动的行为方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "根晃动模式",
+      "predicate": "分为",
+      "object": "Perlin噪声模式",
+      "context": "Perlin噪声是根晃动模式的一种类型，适用于高强度摄像机晃动效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "根晃动模式",
+      "predicate": "分为",
+      "object": "正弦波模式",
+      "context": "正弦波是根晃动模式的一种类型，适用于低强度周期性晃动效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "根晃动模式",
+      "predicate": "分为",
+      "object": "序列晃动模式",
+      "context": "序列晃动是根晃动模式的一种类型，使用摄像机动画序列实现精确控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "根晃动模式",
+      "predicate": "分为",
+      "object": "合成模式",
+      "context": "合成模式允许将多种晃动类型组合在一起创建复杂效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Perlin噪声模式",
+      "predicate": "控制",
+      "object": "振幅和频率",
+      "context": "Perlin噪声模式通过振幅和频率参数控制晃动的强度和速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "正弦波模式",
+      "predicate": "控制",
+      "object": "初始偏移类型",
+      "context": "正弦波模式特有的初始偏移类型参数可以控制波形起始点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "序列晃动模式",
+      "predicate": "依赖",
+      "object": "摄像机动画序列",
+      "context": "序列晃动模式需要指定摄像机动画序列资产作为输入源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成模式",
+      "predicate": "组合",
+      "object": "子模式",
+      "context": "合成模式通过添加子模式将不同类型的晃动效果分层组合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机晃动",
+      "predicate": "可通过",
+      "object": "Sequencer播放",
+      "context": "摄像机晃动可以添加到Sequencer中的电影摄像机Actor或摄像机组件轨道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机晃动",
+      "predicate": "可通过",
+      "object": "蓝图播放",
+      "context": "使用Start Camera Shake蓝图节点可以在游戏逻辑中触发摄像机晃动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机晃动",
+      "predicate": "可通过",
+      "object": "摄像机晃动源触发",
+      "context": "摄像机晃动源组件可以根据摄像机距离自动触发和混合晃动效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机晃动源",
+      "predicate": "包含",
+      "object": "衰减参数",
+      "context": "摄像机晃动源通过内/外衰减半径控制晃动效果的强度渐变范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机晃动预览器",
+      "predicate": "用于",
+      "object": "预览晃动效果",
+      "context": "摄像机晃动预览器工具允许在编辑器中直接预览晃动效果而无需运行游戏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "创建摄像机晃动",
+      "predicate": "需要",
+      "object": "内容浏览器",
+      "context": "创建摄像机晃动资产的第一步是通过内容浏览器添加CameraShakeBase蓝图类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "使用摄像机晃动",
+      "predicate": "建议",
+      "object": "第三人称模板",
+      "context": "文档建议使用第三人称模板项目来测试摄像机晃动效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "序列晃动模式",
+      "predicate": "相关",
+      "object": "模板序列",
+      "context": "使用序列晃动模式需要了解模板序列的相关知识",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "摄像机晃动",
+      "predicate": "影响",
+      "object": "摄像机位置/旋转/FOV",
+      "context": "所有类型的摄像机晃动都会影响摄像机的位置、旋转和视野属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Perlin噪声模式",
+      "predicate": "适用于",
+      "object": "爆炸/震动效果",
+      "context": "文档指出Perlin噪声特别适合表现爆炸或剧烈震动类效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "正弦波模式",
+      "predicate": "适用于",
+      "object": "摇摆/漂流效果",
+      "context": "文档指出正弦波适合表现船体摇摆或梦幻漂流等周期性效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:19:31.012Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11816 字符)",
+      "timestamp": "2025-06-15T18:18:19.831Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17666,
+    "contentLength": 11816,
+    "processingTimeMs": 71187
+  }
+}

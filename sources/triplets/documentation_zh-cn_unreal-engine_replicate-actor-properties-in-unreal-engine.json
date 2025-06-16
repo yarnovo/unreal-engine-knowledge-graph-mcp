@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_replicate-actor-properties-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_replicate-actor-properties-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Replicated",
+      "predicate": "是",
+      "object": "属性元数据说明符",
+      "context": "Replicated是虚幻引擎中用于标记需要网络复制的属性的元数据说明符",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ReplicatedUsing",
+      "predicate": "是",
+      "object": "属性元数据说明符",
+      "context": "ReplicatedUsing是虚幻引擎中用于标记需要网络复制并在复制时调用指定函数的属性元数据说明符",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NotReplicated",
+      "predicate": "是",
+      "object": "属性元数据说明符",
+      "context": "NotReplicated是虚幻引擎中用于标记不需要网络复制的属性的元数据说明符",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ReplicatedUsing",
+      "predicate": "需要",
+      "object": "RepNotify函数",
+      "context": "使用ReplicatedUsing说明符的属性需要指定一个RepNotify函数，在属性被复制时调用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RepNotify函数",
+      "predicate": "用于",
+      "object": "属性复制响应",
+      "context": "RepNotify函数在属性被复制到客户端时被调用，可以执行自定义逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetLifetimeReplicatedProps",
+      "predicate": "用于",
+      "object": "注册复制属性",
+      "context": "GetLifetimeReplicatedProps函数用于注册需要在对象生命周期内复制的属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DOREPLIFETIME",
+      "predicate": "用于",
+      "object": "基本属性复制",
+      "context": "DOREPLIFETIME宏用于注册基本的属性复制，不带额外条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DOREPLIFETIME_CONDITION",
+      "predicate": "用于",
+      "object": "条件属性复制",
+      "context": "DOREPLIFETIME_CONDITION宏用于注册带复制条件的属性复制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DOREPLIFETIME_CONDITION_NOTIFY",
+      "predicate": "用于",
+      "object": "带通知条件的属性复制",
+      "context": "DOREPLIFETIME_CONDITION_NOTIFY宏用于注册带复制条件和通知条件的属性复制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "COND_Custom",
+      "predicate": "用于",
+      "object": "自定义复制条件",
+      "context": "COND_Custom条件允许开发者定义自定义的属性复制逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PreReplication",
+      "predicate": "用于",
+      "object": "动态复制条件设置",
+      "context": "PreReplication函数用于在复制前动态设置自定义复制条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DOREPLIFETIME_ACTIVE_OVERRIDE",
+      "predicate": "用于",
+      "object": "动态复制条件覆盖",
+      "context": "DOREPLIFETIME_ACTIVE_OVERRIDE宏用于在PreReplication中动态覆盖复制条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "稳定命名的对象",
+      "predicate": "可以",
+      "object": "通过网络引用",
+      "context": "稳定命名的对象（在服务器和客户端上名称相同的对象）可以通过网络引用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UObject属性",
+      "predicate": "可以",
+      "object": "被复制",
+      "context": "UObject属性可以被标记为Replicated，其引用会通过网络复制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性复制",
+      "predicate": "依赖",
+      "object": "虚幻引擎反射系统",
+      "context": "属性复制功能依赖于虚幻引擎的反射系统来识别和注册需要复制的属性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "RepNotify函数",
+      "predicate": "可以",
+      "object": "接收旧值参数",
+      "context": "RepNotify函数可以接收属性复制前的旧值作为参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图RepNotify",
+      "predicate": "行为不同",
+      "object": "C++ RepNotify",
+      "context": "蓝图中的RepNotify行为与C++中的有所不同，特别是在属性设置时的调用时机",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "复制条件",
+      "predicate": "控制",
+      "object": "属性复制范围",
+      "context": "复制条件可以控制属性复制到哪些客户端连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "COND_OwnerOnly",
+      "predicate": "限制",
+      "object": "属性复制到所有者",
+      "context": "COND_OwnerOnly条件限制属性只复制到Actor的所有者客户端",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "COND_SimulatedOnly",
+      "predicate": "限制",
+      "object": "属性复制到模拟Actor",
+      "context": "COND_SimulatedOnly条件限制属性只复制到模拟的Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:37:42.075Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (24491 字符)",
+      "timestamp": "2025-06-15T20:36:27.536Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 31701,
+    "contentLength": 24491,
+    "processingTimeMs": 74549
+  }
+}

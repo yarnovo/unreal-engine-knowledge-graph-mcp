@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-use-the-mixed-reality-capture-calibration-tool-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-use-the-mixed-reality-capture-calibration-tool-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "混合现实捕捉校准工具",
+      "predicate": "用于",
+      "object": "虚拟摄像机校准",
+      "context": "校准工具的主要功能是将虚拟摄像机与物理摄像机匹配，实现混合现实场景的准确合成",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "混合现实捕捉校准工具",
+      "predicate": "生成",
+      "object": "校准设置文件",
+      "context": "工具最终会生成MrcCalibration.sav文件，可在多个项目中重复使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "校准设置文件",
+      "predicate": "用于",
+      "object": "MRC会话启动",
+      "context": "设置文件包含所有校准参数，是启动混合现实捕捉会话的必要条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HTC Vive/Oculus Rift",
+      "predicate": "用于",
+      "object": "控制器跟踪",
+      "context": "VR系统提供控制器跟踪功能，是校准过程中评估摄像机位置的关键设备",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "棋盘格模板",
+      "predicate": "用于",
+      "object": "镜头畸变校准",
+      "context": "打印的棋盘格图案是镜头校准步骤中消除图像畸变的必要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "色度背景",
+      "predicate": "影响",
+      "object": "色度键效果",
+      "context": "绿幕的质量和设置直接影响色度键抠像的准确性和最终合成效果",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "摄像机FOV",
+      "predicate": "决定",
+      "object": "虚拟摄像机视野",
+      "context": "物理摄像机的视野(FOV)必须与虚拟摄像机匹配才能实现场景的正确合成",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "重投影误差",
+      "predicate": "衡量",
+      "object": "校准精度",
+      "context": "重投影误差值是评估镜头去畸变过程准确性的重要指标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "跟踪延迟",
+      "predicate": "影响",
+      "object": "对齐准确性",
+      "context": "视频源和控制器跟踪之间的延迟需要通过mrc.TrackingLatencyOverride进行调整",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "色键设置",
+      "predicate": "控制",
+      "object": "色度键效果",
+      "context": "包括色度颜色、亮度强度等参数，直接影响背景抠像的质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "削除抠像",
+      "predicate": "用于",
+      "object": "多余区域去除",
+      "context": "当绿幕未完全覆盖画面时，需要通过3D平面蒙版去除不需要的区域",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "校准过程",
+      "predicate": "包含",
+      "object": "6个步骤",
+      "context": "完整的校准流程包括设备选择、镜头校准、对齐校准、对齐调整、合成校准和削除抠像",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "MRC Framework插件",
+      "predicate": "支持",
+      "object": "校准文件复用",
+      "context": "启用该插件后，校准文件可以在多个UE项目中使用",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "视频捕捉设备",
+      "predicate": "限制",
+      "object": "支持的设备列表",
+      "context": "UE4仅支持特定型号的视频捕捉设备，需参考官方文档确认兼容性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动对焦",
+      "predicate": "影响",
+      "object": "镜头校准",
+      "context": "在校准过程中建议禁用自动对焦功能以获得更稳定的校准结果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:27:51.968Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15011 字符)",
+      "timestamp": "2025-06-15T19:27:03.712Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 24972,
+    "contentLength": 15011,
+    "processingTimeMs": 48264
+  }
+}

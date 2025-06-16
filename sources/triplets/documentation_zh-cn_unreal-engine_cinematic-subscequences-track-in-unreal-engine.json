@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_cinematic-subscequences-track-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_cinematic-subscequences-track-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Subsequence轨道",
+      "predicate": "属于",
+      "object": "Sequencer",
+      "context": "Subsequence轨道是Sequencer中的一个功能模块，用于组织和编辑过场动画内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Subsequence轨道",
+      "predicate": "支持",
+      "object": "协作工作流",
+      "context": "Subsequence轨道允许多名美术师同时处理一个序列，避免文件冲突",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Subsequence轨道",
+      "predicate": "包含",
+      "object": "关卡序列",
+      "context": "Subsequence轨道可以包含其他关卡序列资产，用于组织复杂的过场动画内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Subsequence轨道",
+      "predicate": "依赖",
+      "object": "Sequencer界面",
+      "context": "创建和编辑Subsequence轨道需要通过Sequencer界面进行操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Subsequence轨道",
+      "predicate": "支持",
+      "object": "分段编辑",
+      "context": "Subsequence轨道支持移动、剪辑和编辑分段，类似于其他动画分段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Subsequence轨道",
+      "predicate": "具有",
+      "object": "层级偏差",
+      "context": "Subsequence轨道具有层级偏差属性，用于解决Actor引用冲突",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Subsequence轨道",
+      "predicate": "支持",
+      "object": "循环播放",
+      "context": "Subsequence轨道支持循环播放功能，可以扩展序列的播放范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Subsequence轨道",
+      "predicate": "不同于",
+      "object": "镜头轨道",
+      "context": "Subsequence轨道与镜头轨道不同，多个Subsequence会同时求值而不是覆盖",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "层级偏差",
+      "predicate": "控制",
+      "object": "Actor引用优先级",
+      "context": "层级偏差属性决定了当多个序列引用同一个Actor时的求值优先级",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Subsequence轨道",
+      "predicate": "用于",
+      "object": "内容整理",
+      "context": "Subsequence轨道可用于将重复的轨道和内容划分为各个分项，整理场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Subsequence轨道",
+      "predicate": "支持",
+      "object": "上下文预览",
+      "context": "在Subsequence中工作时可以预览父序列的内容，提供完整的场景上下文",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Subsequence轨道",
+      "predicate": "具有",
+      "object": "网络掩码属性",
+      "context": "Subsequence轨道具有网络掩码属性，可以设置仅在客户端、服务器或两者上运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Subsequence轨道",
+      "predicate": "支持",
+      "object": "颜色标记",
+      "context": "可以更改Subsequence轨道的显示颜色，便于区分不同的子序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Subsequence轨道",
+      "predicate": "依赖",
+      "object": "内容浏览器",
+      "context": "添加Subsequence需要通过内容浏览器选择或拖放序列资产",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "层级偏差",
+      "predicate": "影响",
+      "object": "序列求值结果",
+      "context": "调整层级偏差值会影响多个序列引用同一Actor时的最终求值结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:23:02.925Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8461 字符)",
+      "timestamp": "2025-06-15T18:22:17.778Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12749,
+    "contentLength": 8461,
+    "processingTimeMs": 45155
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-svn-as-source-control-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-svn-as-source-control-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "集成",
+      "object": "Subversion (SVN)",
+      "context": "虚幻引擎集成了SVN作为版本控制软件，帮助开发者在项目上协同工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Subversion (SVN)",
+      "predicate": "替代",
+      "object": "Perforce",
+      "context": "SVN可以作为Perforce的替代方案，用于虚幻引擎项目的版本控制",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "SVN服务器",
+      "predicate": "架设方式",
+      "object": "VisualSVN",
+      "context": "在Windows上可以使用VisualSVN工具方便地架设SVN服务器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SVN服务器",
+      "predicate": "支持",
+      "object": "局域网部署",
+      "context": "SVN服务器可以部署在局域网中，便于团队成员协同工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SVN",
+      "predicate": "支持",
+      "object": "HTTPS安全连接",
+      "context": "SVN支持通过HTTPS进行安全连接，需要配置受信任的证书",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Working Copy",
+      "predicate": "创建工具",
+      "object": "TortoiseSVN",
+      "context": "可以使用TortoiseSVN工具在本地创建SVN的Working Copy",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编辑器",
+      "predicate": "支持连接",
+      "object": "SVN服务器",
+      "context": "虚幻编辑器内置支持直接连接SVN服务器进行版本控制操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C++项目",
+      "predicate": "包含",
+      "object": "Source目录",
+      "context": "C++项目包含Source目录，这是需要纳入版本控制的重要目录",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "版本控制",
+      "predicate": "管理",
+      "object": "项目文件",
+      "context": "版本控制系统用于管理项目文件，包括代码和资源文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SVN",
+      "predicate": "提供",
+      "object": "文件历史记录",
+      "context": "SVN提供文件历史记录功能，可以回滚到早期版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "云服务商",
+      "predicate": "提供",
+      "object": "SVN托管服务",
+      "context": "一些云服务商提供SVN托管服务，便于远程团队协作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Mac OSX",
+      "predicate": "需要特殊配置",
+      "object": "SVN安全连接",
+      "context": "在Mac OSX上使用SVN的HTTPS连接需要进行额外的安全配置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "版本控制",
+      "predicate": "支持",
+      "object": "团队协作",
+      "context": "版本控制系统为团队协作提供了共享资源和代码的方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:23:37.547Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8693 字符)",
+      "timestamp": "2025-06-15T21:23:01.706Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12983,
+    "contentLength": 8693,
+    "processingTimeMs": 35848
+  }
+}

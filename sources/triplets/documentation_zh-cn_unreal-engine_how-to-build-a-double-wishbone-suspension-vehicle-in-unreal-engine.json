@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-build-a-double-wishbone-suspension-vehicle-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-build-a-double-wishbone-suspension-vehicle-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "高级载具模板",
+      "predicate": "包含",
+      "object": "双横臂悬架",
+      "context": "高级载具模板是构建双横臂悬架载具的基础，理解模板有助于掌握悬架实现原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "双横臂悬架",
+      "predicate": "替代",
+      "object": "标准悬架模拟",
+      "context": "双横臂悬架提供更真实的机械运动，替代默认的直线悬架移动方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WheelHandler节点",
+      "predicate": "控制",
+      "object": "模拟轮子",
+      "context": "WheelHandler节点负责更新模拟轮子的位置和旋转，是悬架系统的核心驱动组件",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "CopyBone节点",
+      "predicate": "传输",
+      "object": "变换数据",
+      "context": "CopyBone节点将模拟轮子的变换数据传递给可见轮子，实现视觉同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LookAt节点",
+      "predicate": "定向",
+      "object": "悬架组件",
+      "context": "LookAt节点通过目标对准机制确保悬架组件保持正确的空间方向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模拟轮子",
+      "predicate": "驱动",
+      "object": "可见轮子",
+      "context": "模拟轮子提供物理数据，通过动画蓝图控制可见轮子的运动和转向",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "下臂骨骼",
+      "predicate": "连接",
+      "object": "主销骨骼",
+      "context": "下臂旋转带动主销位置变化，构成悬架的基础机械联动",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "协调",
+      "object": "悬架系统",
+      "context": "动画蓝图通过节点网络协调所有悬架组件的运动逻辑和更新顺序",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "PhAT工具",
+      "predicate": "配置",
+      "object": "物理碰撞",
+      "context": "PhAT用于设置载具的物理属性和碰撞体，影响悬架的实际物理表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCX网格体",
+      "predicate": "提供",
+      "object": "自定义碰撞",
+      "context": "通过导入UCX网格体可实现更精确的载具碰撞体积定义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "层级结构",
+      "predicate": "影响",
+      "object": "组件更新顺序",
+      "context": "正确的骨骼层级结构确保悬架组件按正确顺序更新，避免运动滞后",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "枢轴点定位",
+      "predicate": "决定",
+      "object": "旋转中心",
+      "context": "组件枢轴点的准确定位直接影响悬架运动的真实性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "前轮毂",
+      "predicate": "依赖",
+      "object": "转向角数据",
+      "context": "前轮毂的转向旋转由模拟轮子的转向角数据驱动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "减震器组件",
+      "predicate": "跟随",
+      "object": "上臂运动",
+      "context": "减震器的运动状态由上臂的位置变化决定",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "FBX导入设置",
+      "predicate": "影响",
+      "object": "骨骼转换精度",
+      "context": "正确的FBX导入设置确保骨骼变换数据从DCC软件到引擎的准确传递",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:25:46.990Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10675 字符)",
+      "timestamp": "2025-06-15T19:24:31.745Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 20219,
+    "contentLength": 10675,
+    "processingTimeMs": 75248
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-game-sync-menu-reference-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-game-sync-menu-reference-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "UnrealGameSync (UGS)",
+      "predicate": "包含",
+      "object": "项目概述",
+      "context": "项目概述是UGS的核心功能之一，提供项目的基本信息和同步状态，帮助开发者快速了解项目状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealGameSync (UGS)",
+      "predicate": "包含",
+      "object": "变更列表",
+      "context": "变更列表功能允许开发者查看和管理Perforce中的变更列表，是版本控制的核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealGameSync (UGS)",
+      "predicate": "包含",
+      "object": "日志(Log)",
+      "context": "日志功能记录同步和构建操作的详细信息，帮助开发者调试和追踪问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealGameSync (UGS)",
+      "predicate": "包含",
+      "object": "筛选器菜单",
+      "context": "筛选器菜单允许开发者根据不同类型筛选变更列表，提高工作效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealGameSync (UGS)",
+      "predicate": "包含",
+      "object": "同步后选项",
+      "context": "同步后选项提供同步完成后的自动化操作，如构建、运行项目等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealGameSync (UGS)",
+      "predicate": "包含",
+      "object": "选项菜单",
+      "context": "选项菜单包含UGS的各种配置设置，是定制化工作流的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选项菜单",
+      "predicate": "包含",
+      "object": "应用设置",
+      "context": "应用设置是选项菜单的子功能，配置UGS的启动、Perforce凭证等基础设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选项菜单",
+      "predicate": "包含",
+      "object": "自定义编译步骤",
+      "context": "自定义编译步骤允许开发者添加和修改编译流程，扩展UGS的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "同步后选项",
+      "predicate": "使用",
+      "object": "Unreal Build Tool (UBT)",
+      "context": "同步后选项中的构建功能使用UBT来编译项目，是构建流程的核心工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变更列表",
+      "predicate": "关联",
+      "object": "持续集成系统(CIS)",
+      "context": "变更列表中的CIS状态显示了持续集成系统的合并状态，帮助开发者了解构建状态",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealGameSync (UGS)",
+      "predicate": "集成",
+      "object": "Perforce",
+      "context": "UGS深度集成Perforce版本控制系统，是其核心功能的基础",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealGameSync (UGS)",
+      "predicate": "集成",
+      "object": "Visual Studio",
+      "context": "UGS提供在Visual Studio中打开项目的功能，支持代码开发工作流",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealGameSync (UGS)",
+      "predicate": "支持",
+      "object": "预编译二进制文件(PCB)",
+      "context": "UGS支持同步预编译二进制文件，可以加速开发流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义编译步骤",
+      "predicate": "包含",
+      "object": "新建步骤",
+      "context": "新建步骤是自定义编译步骤的子功能，允许开发者定义新的编译任务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变更列表",
+      "predicate": "支持",
+      "object": "右键点击上下文菜单",
+      "context": "变更列表提供丰富的右键上下文菜单，方便开发者快速执行常见操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目概述",
+      "predicate": "显示",
+      "object": "同步状态",
+      "context": "项目概述区域显示最新的同步状态，是开发者了解项目状态的首要信息来源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选项菜单",
+      "predicate": "控制",
+      "object": "编辑器编译配置",
+      "context": "选项菜单中的编辑器编译配置允许开发者在调试、调试游戏或开发配置之间切换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealGameSync (UGS)",
+      "predicate": "提供",
+      "object": "诊断功能",
+      "context": "UGS的诊断功能帮助开发者排查工具本身的问题，提高开发效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "同步后选项",
+      "predicate": "执行",
+      "object": "构建步骤",
+      "context": "同步后选项可以自动执行构建步骤，简化开发工作流",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变更列表",
+      "predicate": "记录",
+      "object": "构建状态",
+      "context": "变更列表记录构建状态信息，帮助团队协作和问题追踪",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:10:57.040Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8726 字符)",
+      "timestamp": "2025-06-15T21:09:51.255Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13450,
+    "contentLength": 8726,
+    "processingTimeMs": 65792
+  }
+}

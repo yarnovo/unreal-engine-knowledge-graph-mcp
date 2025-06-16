@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-signed-distance-field-text-rendering-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-signed-distance-field-text-rendering-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Signed Distance Field Text Rendering",
+      "predicate": "包含",
+      "object": "Conventional Signed Distance Fields",
+      "context": "帮助学习者理解SDF文本渲染包含传统SDF和MSDF两种技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Signed Distance Field Text Rendering",
+      "predicate": "包含",
+      "object": "Multi-Channel Signed Distance Fields (MSDF)",
+      "context": "MSDF是SDF文本渲染的高级形式，能保留锐利边缘",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Signed Distance Field",
+      "predicate": "用于",
+      "object": "UI Text Rendering",
+      "context": "说明SDF技术的主要应用场景是用户界面文本渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Signed Distance Field",
+      "predicate": "生成",
+      "object": "Anti-Aliased Alpha Mask",
+      "context": "这是SDF的核心功能之一，帮助理解其工作原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Signed Distance Field",
+      "predicate": "支持",
+      "object": "Material Effects",
+      "context": "SDF可以输出有符号距离供材质着色器使用",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Distance Field Mode",
+      "predicate": "替代",
+      "object": "Direct Rasterization",
+      "context": "说明这是两种不同的文本渲染技术选择",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Multi-Channel Signed Distance Fields",
+      "predicate": "优于",
+      "object": "Conventional Signed Distance Fields",
+      "context": "MSDF能保留锐角而传统SDF会圆滑处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Enable Distance Field Font Rasterization",
+      "predicate": "控制",
+      "object": "SDF Text Rendering",
+      "context": "这是启用SDF文本渲染的总开关设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Distance Field Mode",
+      "predicate": "配置",
+      "object": "Quality Levels",
+      "context": "质量级别配置是SDF渲染的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Device Profiles",
+      "predicate": "决定",
+      "object": "Distance Field Type",
+      "context": "设备配置文件可以指定不同设备使用的SDF类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Font Signed Distance Node",
+      "predicate": "提供",
+      "object": "Material Effects Parameters",
+      "context": "该材质节点输出多个SDF相关参数用于特效制作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Material Is Stencil",
+      "predicate": "启用",
+      "object": "Glyph Quad Filling",
+      "context": "该选项控制材质是否填充整个字形四边形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SDF Text Rendering",
+      "predicate": "适用于",
+      "object": "Large Dynamic Text",
+      "context": "文档推荐SDF最适合大尺寸或动态缩放文本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SDF Text Rendering",
+      "predicate": "不适用于",
+      "object": "Small Font Sizes",
+      "context": "SDF在小字号时可能影响质量，这是重要限制条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UI.SlateSDFText.RasterizationMode",
+      "predicate": "指定",
+      "object": "Rasterization Method",
+      "context": "该CVar控制使用哪种SDF渲染方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UI.SlateSDFText.ResolutionLevel",
+      "predicate": "设置",
+      "object": "Quality Level",
+      "context": "该CVar控制SDF渲染的质量级别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SDFApproximation",
+      "predicate": "推荐用于",
+      "object": "Mobile Devices",
+      "context": "近似SDF适合性能较低的移动设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Signed Distance",
+      "predicate": "用于",
+      "object": "Graphical Effects",
+      "context": "有符号距离值是实现各种图形效果的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pixel Distance Factor",
+      "predicate": "转换",
+      "object": "Em to Pixel",
+      "context": "该参数帮助将em单位转换为屏幕像素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Text Outline",
+      "predicate": "扩展",
+      "object": "Distance Field Range",
+      "context": "设置文本描边可以扩大SDF的有效范围",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:22:57.912Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10070 字符)",
+      "timestamp": "2025-06-15T21:22:04.678Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 10172,
+    "contentLength": 10070,
+    "processingTimeMs": 53238
+  }
+}

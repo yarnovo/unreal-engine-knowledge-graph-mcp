@@ -1,0 +1,149 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_frame-pacing-for-mobile-devices-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_frame-pacing-for-mobile-devices-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "帧平滑",
+      "predicate": "用于",
+      "object": "限制渲染帧率",
+      "context": "帧平滑的主要功能是限制应用程序的渲染帧率不超过设备的本地刷新率，从而提供更流畅的用户体验。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "帧平滑",
+      "predicate": "实现",
+      "object": "一致性和稳定性",
+      "context": "帧平滑使应用程序能够在渲染中优先考虑一致性和稳定性，避免无止尽地提升帧率。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设备描述",
+      "predicate": "用于",
+      "object": "设置帧率",
+      "context": "在虚幻引擎4中，可以通过设备描述为每台设备单独设置帧率。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DeviceProfiles.ini",
+      "predicate": "包含",
+      "object": "目标设备信息",
+      "context": "DeviceProfiles.ini文件包含了目标设备信息，可以通过该文件控制帧平滑。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FrameRateLock",
+      "predicate": "控制",
+      "object": "帧平滑",
+      "context": "FrameRateLock参数设置为true时，允许所有帧平滑。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "bEnableDynamicMaxFPS",
+      "predicate": "控制",
+      "object": "刷新率",
+      "context": "bEnableDynamicMaxFPS参数设置为true时，刷新率最高允许为120Hz。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "rhi.synchinterval",
+      "predicate": "设置",
+      "object": "帧平滑的刷新率",
+      "context": "rhi.synchinterval参数用于设置帧平滑的刷新率，值为1时表示刷新率为60Hz。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.setframepace",
+      "predicate": "设置",
+      "object": "刷新率",
+      "context": "r.setframepace参数用于直接设置刷新率，适用于iOS和Android设备。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Swappy帧平滑器",
+      "predicate": "替代",
+      "object": "传统UE4帧平滑器",
+      "context": "Swappy帧平滑器可以替代传统的UE4帧平滑器，提供更流畅的性能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Swappy帧平滑器",
+      "predicate": "解决",
+      "object": "帧提交延迟",
+      "context": "Swappy帧平滑器专门用于解决Android设备上的帧提交延迟问题。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FPlatformRHIFramePacer",
+      "predicate": "提供",
+      "object": "帧平滑控制接口",
+      "context": "FPlatformRHIFramePacer接口提供了静态函数用于控制帧平滑。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FPlatformRHIFramePacer::SupportsFramePace",
+      "predicate": "检查",
+      "object": "帧平滑兼容性",
+      "context": "SupportsFramePace函数用于检查指定的帧平滑是否与当前设备的刷新率兼容。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FPlatformRHIFramePacer::SetFramePace",
+      "predicate": "设置",
+      "object": "帧平滑",
+      "context": "SetFramePace函数用于将帧平滑设为指定的整数值。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FPlatformRHIFramePacer::GetFramePace",
+      "predicate": "返回",
+      "object": "当前帧平滑",
+      "context": "GetFramePace函数返回当前帧平滑的整数值。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高刷新率设备",
+      "predicate": "支持",
+      "object": "60Hz以上刷新率",
+      "context": "某些移动设备支持60Hz以上的刷新率，如Samsung Galaxy S20、OnePlus 7T等。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Swappy帧平滑器",
+      "predicate": "集成自",
+      "object": "Android游戏SDK",
+      "context": "Swappy帧平滑器是从Android游戏SDK集成到虚幻引擎4.25中的。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UseSwappyForFramePacing",
+      "predicate": "启用",
+      "object": "Swappy帧平滑器",
+      "context": "将UseSwappyForFramePacing参数设置为1可以启用Swappy帧平滑器。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:07:56.963Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6545,
+    "contentLength": 4421,
+    "processingTimeMs": 59089
+  }
+}

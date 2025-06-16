@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-slate-in-a-project-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-slate-in-a-project-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Slate",
+      "predicate": "属于",
+      "object": "虚幻引擎UI框架",
+      "context": "Slate是虚幻引擎中用于构建用户界面的框架，理解这一关系有助于学习者定位Slate在引擎架构中的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate",
+      "predicate": "依赖",
+      "object": "SlateCore",
+      "context": "Slate框架的实现依赖于SlateCore模块，这是理解Slate架构的基础依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate",
+      "predicate": "依赖",
+      "object": "InputCore",
+      "context": "Slate需要InputCore模块来处理用户输入，这是构建交互式UI的必要条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate项目配置",
+      "predicate": "需要修改",
+      "object": ".build.cs文件",
+      "context": "要在项目中使用Slate，必须修改.build.cs文件添加模块依赖，这是实际开发中的重要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PublicDependencyModuleNames",
+      "predicate": "包含",
+      "object": "InputCore",
+      "context": "InputCore需要作为公有依赖项添加，这是Slate项目配置的标准做法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PrivateDependencyModuleNames",
+      "predicate": "包含",
+      "object": "Slate",
+      "context": "Slate通常作为私有依赖项添加，这种模块依赖关系对项目配置很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PrivateDependencyModuleNames",
+      "predicate": "包含",
+      "object": "SlateCore",
+      "context": "SlateCore需要作为私有依赖项添加，与Slate模块一起构成完整的UI框架支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate.h",
+      "predicate": "是",
+      "object": "Slate框架主头文件",
+      "context": "包含Slate.h是使用Slate框架的第一步，这个关系对开发者实际编码很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SlateUI开发",
+      "predicate": "前置条件",
+      "object": "模块依赖配置",
+      "context": "正确配置模块依赖是进行SlateUI开发的前提条件，这对学习路径很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Slate",
+      "predicate": "替代方案",
+      "object": "UMG",
+      "context": "虽然文档未直接提及，但Slate和UMG都是虚幻引擎的UI解决方案，了解这个关系有助于技术选型",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T21:22:36.940Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2765,
+    "contentLength": 1953,
+    "processingTimeMs": 32266
+  }
+}

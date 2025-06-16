@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_capsule-shadows-overview-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_capsule-shadows-overview-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "胶囊体阴影",
+      "predicate": "实现",
+      "object": "柔和阴影",
+      "context": "胶囊体阴影技术用于在间接光照区域为角色投射柔和阴影，这是传统阴影映射技术无法实现的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "胶囊体阴影",
+      "predicate": "依赖",
+      "object": "物理资源",
+      "context": "胶囊体阴影需要使用物理资源中的骨架网格体胶囊体作为角色代表来投射阴影",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理资源",
+      "predicate": "包含",
+      "object": "骨架网格体胶囊体",
+      "context": "物理资源用于创建角色的胶囊体代表，这些胶囊体附着在角色骨骼上",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "胶囊体阴影",
+      "predicate": "分为",
+      "object": "胶囊体直接阴影",
+      "context": "胶囊体阴影技术包含直接阴影和间接阴影两种类型，直接阴影由可移动光源产生",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "胶囊体阴影",
+      "predicate": "分为",
+      "object": "胶囊体间接阴影",
+      "context": "胶囊体阴影技术包含直接阴影和间接阴影两种类型，间接阴影由预计算光照产生",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "胶囊体间接阴影",
+      "predicate": "依赖",
+      "object": "体积光照采样",
+      "context": "间接阴影基于光照构建时放置和计算的体积光照采样来投射阴影",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "胶囊体直接阴影",
+      "predicate": "控制",
+      "object": "光源角度",
+      "context": "对于定向光源，光源角度属性用于控制阴影的柔和度",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "胶囊体直接阴影",
+      "predicate": "控制",
+      "object": "光源半径",
+      "context": "对于聚光源和点光源，光源半径属性用于控制阴影的柔和度",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "胶囊体阴影",
+      "predicate": "影响",
+      "object": "GPU性能",
+      "context": "胶囊体阴影的性能开销与使用的胶囊体数量、角色数量以及受影响的画面尺寸成正比",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "胶囊体阴影",
+      "predicate": "需要",
+      "object": "DirectX 11",
+      "context": "由于使用计算着色器实现，胶囊体阴影需要DirectX 11支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体",
+      "predicate": "配置",
+      "object": "阴影物理资源",
+      "context": "在骨架网格体的资源细节面板中，可以指定用于胶囊体阴影的物理资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "胶囊体间接阴影",
+      "predicate": "调整",
+      "object": "最小可见度",
+      "context": "美术师可以通过调整胶囊体间接阴影最小可见度来控制间接光照区域中阴影的明暗度",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "胶囊体阴影",
+      "predicate": "优于",
+      "object": "传统阴影映射",
+      "context": "在间接光照区域，胶囊体阴影能产生传统阴影映射无法实现的柔和阴影效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "胶囊体直接阴影",
+      "predicate": "适用于",
+      "object": "静止光源",
+      "context": "胶囊体直接阴影要求将光源移动性设为静止，并且需要构建场景光照",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "胶囊体阴影",
+      "predicate": "不支持",
+      "object": "可移动点光源",
+      "context": "当前技术限制不支持可移动点光源和聚光源使用胶囊体阴影",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "胶囊体阴影",
+      "predicate": "不支持",
+      "object": "可移动聚光源",
+      "context": "当前技术限制不支持可移动点光源和聚光源使用胶囊体阴影",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "胶囊体阴影",
+      "predicate": "使用",
+      "object": "半分辨率计算",
+      "context": "胶囊体阴影通过感知深度的上采样以半分辨率计算阴影来提高性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "胶囊体阴影",
+      "predicate": "使用",
+      "object": "画面平铺剔除",
+      "context": "使用画面平铺剔除技术来控制投影量，优化性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "间接光照缓存",
+      "predicate": "提供",
+      "object": "方向性和柔和性",
+      "context": "在密闭空间内，间接光照缓存为胶囊体阴影提供方向性和柔和性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "胶囊体代表",
+      "predicate": "限制为",
+      "object": "长菱体和球体",
+      "context": "胶囊体阴影技术目前仅支持使用长菱体和球体作为胶囊体代表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:19:27.266Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10594,
+    "contentLength": 7168,
+    "processingTimeMs": 67441
+  }
+}

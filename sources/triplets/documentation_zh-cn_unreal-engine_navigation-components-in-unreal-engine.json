@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_navigation-components-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_navigation-components-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "寻路修改器组件",
+      "predicate": "修改",
+      "object": "NavMesh",
+      "context": "寻路修改器组件用于修改NavMesh的生成效果，帮助学习者理解如何通过组件影响寻路系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路修改器组件",
+      "predicate": "包含",
+      "object": "Area Class",
+      "context": "Area Class是寻路修改器组件的重要属性，定义了区域的基本设置和高级设置，帮助学习者理解组件的配置方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Area Class",
+      "predicate": "定义",
+      "object": "成本",
+      "context": "Area Class定义了区域的成本，帮助学习者理解如何通过成本影响寻路行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NavMesh",
+      "predicate": "使用",
+      "object": "成本",
+      "context": "NavMesh系统使用成本来计算最优路径，帮助学习者理解寻路算法的核心机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "成本",
+      "predicate": "影响",
+      "object": "寻路行为",
+      "context": "成本的高低直接影响Pawn的寻路选择，帮助学习者理解如何通过调整成本控制AI移动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路修改器组件",
+      "predicate": "限制",
+      "object": "Actor",
+      "context": "每个Actor只能带有一个寻路修改器组件，帮助学习者理解组件的使用限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路系统",
+      "predicate": "包含",
+      "object": "NavMesh",
+      "context": "NavMesh是寻路系统的核心组成部分，帮助学习者理解系统的基本架构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路系统",
+      "predicate": "包含",
+      "object": "寻路修改器组件",
+      "context": "寻路修改器组件是寻路系统的扩展组件，帮助学习者理解系统的可扩展性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Area Class",
+      "predicate": "支持",
+      "object": "高级设置",
+      "context": "Area Class支持高级设置如蹲伏区域，帮助学习者理解如何实现复杂的寻路需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NavMesh",
+      "predicate": "生成",
+      "object": "寻路路径",
+      "context": "NavMesh生成寻路路径，帮助学习者理解寻路系统的基本功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:04:04.260Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3170,
+    "contentLength": 2028,
+    "processingTimeMs": 36993
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_level-sequence-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_level-sequence-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "关卡序列",
+      "predicate": "包含",
+      "object": "时间轴",
+      "context": "关卡序列是虚幻引擎中用于管理时间轴和动画序列的核心组件，理解时间轴是掌握关卡序列的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间轴",
+      "predicate": "包含",
+      "object": "分段",
+      "context": "时间轴由多个分段组成，了解分段有助于理解时间轴的结构和功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间轴",
+      "predicate": "包含",
+      "object": "默认锁定引擎显示速率",
+      "context": "默认锁定引擎显示速率是时间轴的重要设置之一，影响动画播放的精确性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间轴",
+      "predicate": "包含",
+      "object": "默认显示速率",
+      "context": "默认显示速率决定了新建关卡序列的帧率设置，是时间轴的基础参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间轴",
+      "predicate": "包含",
+      "object": "默认更新分辨率",
+      "context": "默认更新分辨率影响时间轴的更新频率，与动画流畅度直接相关",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间轴",
+      "predicate": "包含",
+      "object": "默认时钟来源",
+      "context": "默认时钟来源决定了时间轴的时间基准，影响动画同步和播放精度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认锁定引擎显示速率",
+      "predicate": "控制",
+      "object": "播放帧的播放",
+      "context": "默认锁定引擎显示速率设置为0时，会锁定到播放帧的播放，影响动画播放方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认锁定引擎显示速率",
+      "predicate": "控制",
+      "object": "子帧插值",
+      "context": "默认锁定引擎显示速率设置为1时，会启用带有子帧插值的未锁定播放，影响动画平滑度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认显示速率",
+      "predicate": "定义",
+      "object": "帧锁定的帧率",
+      "context": "默认显示速率不仅决定新建关卡序列的默认帧率，还定义了帧锁定的帧率，是动画时间管理的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认时钟来源",
+      "predicate": "支持",
+      "object": "多种时间基准",
+      "context": "默认时钟来源提供多种时间基准选项（如更新、平台、音频等），了解这些选项有助于选择最适合项目需求的时间同步方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认更新分辨率",
+      "predicate": "影响",
+      "object": "动画流畅度",
+      "context": "默认更新分辨率决定了时间轴的更新频率，直接影响动画的流畅度和精确度",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "默认时钟来源",
+      "predicate": "影响",
+      "object": "动画同步",
+      "context": "选择合适的时钟来源可以确保动画与其他系统（如音频、平台时间等）的正确同步",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:44:07.450Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2028,
+    "contentLength": 1490,
+    "processingTimeMs": 43974
+  }
+}

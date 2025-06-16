@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_supporting-screen-readers-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_supporting-screen-readers-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "屏幕朗读器",
+      "context": "虚幻引擎5.6版本开始支持屏幕朗读器功能，帮助视力障碍用户访问游戏UI",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕朗读器",
+      "predicate": "适用于",
+      "object": "UMG控件",
+      "context": "屏幕朗读器支持多种UMG控件如文本块、按钮等，无需定制文本转语音技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG控件",
+      "predicate": "包含",
+      "object": "访问设置",
+      "context": "UMG控件的细节面板中包含访问设置，用于配置屏幕朗读器行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "访问设置",
+      "predicate": "控制",
+      "object": "访问行为",
+      "context": "访问设置中的访问行为选项决定屏幕朗读器如何朗读控件文本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "访问行为",
+      "predicate": "包含",
+      "object": "自动模式",
+      "context": "访问行为中的自动模式选项让屏幕朗读器自动朗读控件文本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "访问行为",
+      "predicate": "包含",
+      "object": "摘要模式",
+      "context": "摘要模式会串联所有子控件的文本供屏幕朗读器朗读",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义Slate控件",
+      "predicate": "需要",
+      "object": "覆盖CreateAccessibleWidget",
+      "context": "为自定义Slate控件添加屏幕朗读器支持需要覆盖CreateAccessibleWidget方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕朗读器支持",
+      "predicate": "依赖",
+      "object": "Accessibility.Enable控制台变量",
+      "context": "启用屏幕朗读器支持需要在控制台变量配置文件中设置Accessibility.Enable=1",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "遵循",
+      "object": "CVAA标准",
+      "context": "屏幕朗读器支持帮助虚幻引擎项目符合CVAA无障碍访问标准",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FSlateAccessibleWidget",
+      "predicate": "实现",
+      "object": "屏幕朗读器接口",
+      "context": "FSlateAccessibleWidget及其子类如FSlateAccessibleButton实现了屏幕朗读器的具体功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕朗读器",
+      "predicate": "支持",
+      "object": "NVDA",
+      "context": "虚幻引擎支持Windows平台的NVDA屏幕朗读器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕朗读器",
+      "predicate": "支持",
+      "object": "VoiceOver",
+      "context": "虚幻引擎支持iOS平台的VoiceOver屏幕朗读器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "bCompileWithAccessibilitySupport",
+      "predicate": "控制",
+      "object": "屏幕朗读器代码编译",
+      "context": "该编译标志决定是否包含屏幕朗读器相关代码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:57:17.360Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4620,
+    "contentLength": 3016,
+    "processingTimeMs": 38361
+  }
+}

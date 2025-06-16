@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_chaos-destruction-key-concepts-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_chaos-destruction-key-concepts-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Chaos破坏系统",
+      "predicate": "基于",
+      "object": "几何体集合",
+      "context": "Chaos破坏系统的核心功能依赖于几何体集合作为基础数据结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体集合",
+      "predicate": "支持",
+      "object": "破裂模式",
+      "context": "几何体集合支持通过破裂模式进行破坏效果的创建和编辑",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "破裂模式",
+      "predicate": "包含",
+      "object": "选择工具",
+      "context": "破裂模式提供多种选择工具用于编辑破坏效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "破裂模式",
+      "predicate": "包含",
+      "object": "破裂工具",
+      "context": "破裂模式提供多种破裂方法用于创建破坏效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "破裂模式",
+      "predicate": "包含",
+      "object": "编辑工具",
+      "context": "破裂模式包含专门的编辑面板用于调整破坏效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体集合",
+      "predicate": "支持",
+      "object": "群集工具",
+      "context": "几何体集合支持通过群集工具创建更复杂的破坏效果",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos破坏系统",
+      "predicate": "使用",
+      "object": "Chaos场",
+      "context": "Chaos破坏系统利用物理场来增强破坏效果的真实感",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体集合",
+      "predicate": "是",
+      "object": "核心数据结构",
+      "context": "几何体集合是Chaos破坏系统中表示可破坏对象的核心数据结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "破裂工具",
+      "predicate": "用于",
+      "object": "创建破坏效果",
+      "context": "破裂工具专门用于在几何体集合上创建各种破坏效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos场",
+      "predicate": "影响",
+      "object": "破坏效果",
+      "context": "Chaos场可以影响几何体集合的破坏效果，增加物理交互的真实感",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:20:07.133Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3096,
+    "contentLength": 2556,
+    "processingTimeMs": 34366
+  }
+}

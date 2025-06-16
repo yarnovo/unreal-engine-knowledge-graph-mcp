@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-precompiled-binaries-in-unreal-game-sync-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-precompiled-binaries-in-unreal-game-sync-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "UnrealGameSync (UGS)",
+      "predicate": "支持",
+      "object": "预编译二进制文件 (PCB)",
+      "context": "UGS允许用户通过同步预编译二进制文件来运行项目的最新版本，而无需本地编译，这对无法访问IDE的团队成员特别有用。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预编译二进制文件 (PCB)",
+      "predicate": "关联",
+      "object": "Perforce",
+      "context": "PCB以.zip文件形式提交到Perforce，并与变更列表关联，UGS通过Perforce同步和解压缩这些文件。",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS",
+      "predicate": "依赖",
+      "object": "Perforce",
+      "context": "UGS使用Perforce作为源代码控制系统来同步引擎源代码、依赖项和项目文件，确保团队成员可以访问最新版本。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "生成",
+      "object": "预编译二进制文件 (PCB)",
+      "context": "BuildGraph脚本用于生成PCB并将其上传到指定的Perforce位置，是PCB生成的核心工具。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildEditorAndTools.xml",
+      "predicate": "用于",
+      "object": "生成PCB",
+      "context": "BuildEditorAndTools.xml是BuildGraph脚本的示例文件，专门用于生成PCB并上传到Perforce。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealGameSync.ini",
+      "predicate": "配置",
+      "object": "PCB同步路径",
+      "context": "UnrealGameSync.ini文件指定了PCB在Perforce中的存储路径，UGS通过该文件定位并同步PCB。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "原生项目",
+      "predicate": "要求",
+      "object": "PCB上传",
+      "context": "只有原生项目（位于虚幻引擎目录结构顶层或.uprojectdirs文件中列出的路径）才能作为PCB上传。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PCB",
+      "predicate": "替代",
+      "object": "本地编译",
+      "context": "PCB允许用户跳过本地编译过程，直接通过同步预编译的二进制文件运行项目，节省时间和资源。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Perforce流送",
+      "predicate": "包含",
+      "object": "引擎源代码",
+      "context": "Perforce流送需要包含引擎源代码、非虚幻构建过程生成的依赖项以及项目文件，以确保PCB的正确生成和使用。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PCB",
+      "predicate": "关联",
+      "object": "变更列表 (CL)",
+      "context": "PCB与特定的变更列表关联，UGS通过CL说明（格式为CL ########）识别二进制文件对应的变更。",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS",
+      "predicate": "支持",
+      "object": "分支",
+      "context": "UGS可以与Perforce分支一起使用，通过配置UnrealGameSync.ini文件实现PCB的同步，而不仅限于流送。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "PCB",
+      "predicate": "包含",
+      "object": "PDB",
+      "context": "PCB的.zip文件中包含PDB（程序数据库文件），用于从崩溃中采集调用堆栈，但调试功能有限。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "符号服务器",
+      "predicate": "扩展",
+      "object": "PCB调试功能",
+      "context": "如果团队需要更完整的调试功能，可以通过符号服务器实现更好的符号存储，补充PCB的调试能力。",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Perforce权限",
+      "predicate": "影响",
+      "object": "PCB使用",
+      "context": "Perforce中文件的可写权限必须与Epic的发布流送一致，否则可能导致构建或运行时失败。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UGS",
+      "predicate": "使用",
+      "object": "ZippedBinariesPath",
+      "context": "UGS通过ZippedBinariesPath配置项定位PCB的.zip文件路径，确保能够正确同步预编译的二进制文件。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:21:42.052Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10649,
+    "contentLength": 6363,
+    "processingTimeMs": 47282
+  }
+}

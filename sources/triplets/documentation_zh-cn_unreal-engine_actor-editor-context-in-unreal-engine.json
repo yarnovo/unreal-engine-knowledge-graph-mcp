@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_actor-editor-context-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_actor-editor-context-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Actor编辑器上下文",
+      "predicate": "用于",
+      "object": "关卡",
+      "context": "Actor编辑器上下文可以将关卡设置为当前编辑器上下文，帮助管理关卡中的Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor编辑器上下文",
+      "predicate": "用于",
+      "object": "数据层",
+      "context": "Actor编辑器上下文可以将数据层设置为当前编辑器上下文，控制Actor的加载和卸载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor编辑器上下文",
+      "predicate": "用于",
+      "object": "关卡实例",
+      "context": "Actor编辑器上下文可以将关卡实例设置为当前编辑器上下文，用于编辑预制关卡实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor编辑器上下文",
+      "predicate": "用于",
+      "object": "大纲视图Actor文件夹",
+      "context": "Actor编辑器上下文可以将大纲视图中的Actor文件夹设置为当前编辑器上下文，帮助组织Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor编辑器上下文",
+      "predicate": "显示在",
+      "object": "视口",
+      "context": "Actor编辑器上下文控件默认显示在视口右下角，展示当前活动的上下文",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据层",
+      "predicate": "控制",
+      "object": "Actor加载和卸载",
+      "context": "数据层可以在编辑器和运行时控制Actor的加载和卸载，不同于关卡，Actor可以分配到多个数据层",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡实例",
+      "predicate": "基于",
+      "object": "关卡",
+      "context": "关卡实例化是基于关卡的工作流程，用于创建预制关卡实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大纲视图",
+      "predicate": "包含",
+      "object": "Actor文件夹",
+      "context": "大纲视图中可以创建和管理Actor文件夹，用于组织Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区",
+      "predicate": "替代",
+      "object": "传统关卡系统",
+      "context": "在不使用世界分区的世界中，需要知道当前工作的关卡，而世界分区提供了更高效的管理方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "编辑器偏好设置",
+      "predicate": "控制",
+      "object": "Actor编辑器上下文显示",
+      "context": "可以在编辑器偏好设置中启用或禁用Actor编辑器上下文控件的显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据层大纲视图",
+      "predicate": "用于",
+      "object": "管理数据层",
+      "context": "数据层大纲视图用于查看和管理数据层，可以设置当前数据层",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大纲视图",
+      "predicate": "用于",
+      "object": "管理Actor文件夹",
+      "context": "大纲视图用于查看和管理Actor文件夹，可以设置当前Actor文件夹",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor编辑器上下文",
+      "predicate": "有助于",
+      "object": "世界组织",
+      "context": "使用Actor编辑器上下文可以自动将新添加的Actor分配到指定上下文，有助于保持世界的井然有序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:53:42.155Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10878,
+    "contentLength": 7910,
+    "processingTimeMs": 53312
+  }
+}

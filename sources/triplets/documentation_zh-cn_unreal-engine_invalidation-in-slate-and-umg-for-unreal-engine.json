@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_invalidation-in-slate-and-umg-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_invalidation-in-slate-and-umg-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "无效化",
+      "predicate": "用于",
+      "object": "优化UI性能",
+      "context": "无效化通过限制UI重新绘制控件的频率来减少CPU开销，是UI性能优化的重要手段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "无效框",
+      "predicate": "实现",
+      "object": "无效化",
+      "context": "无效框控件通过缓存子控件几何体并监控更改来实现局部无效化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全局无效",
+      "predicate": "实现",
+      "object": "无效化",
+      "context": "全局无效通过启用SWindow中的无效功能来实现整个UI的无效化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "限位面板",
+      "predicate": "扩展",
+      "object": "无效化",
+      "context": "限位面板通过将子控件扁平化为纹理并提供渲染配置选项来扩展无效化功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "无效框",
+      "predicate": "优先于",
+      "object": "限位面板",
+      "context": "文档建议首先尝试使用无效框进行优化，只有在需要进一步减少绘制调用时才使用限位面板",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "易变控件",
+      "predicate": "适用于",
+      "object": "频繁更新的控件",
+      "context": "易变控件标记适用于需要非常频繁更新的控件，可以避免无效化带来的额外开销",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "无效化",
+      "predicate": "包含",
+      "object": "无效类型",
+      "context": "无效化系统包含多种无效类型（易变/可视性、绘制、布局、子控件），对应不同的CPU开销",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绘制无效",
+      "predicate": "触发条件",
+      "object": "更改非布局参数",
+      "context": "当更改控件的颜色或材质等非布局参数时会触发绘制无效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "布局无效",
+      "predicate": "触发条件",
+      "object": "更改渲染变换",
+      "context": "当移动控件或调整其大小时会触发布局无效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子无效",
+      "predicate": "触发条件",
+      "object": "添加/删除子控件",
+      "context": "在控件的子控件中添加或删除子控件时会触发子无效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate",
+      "predicate": "执行",
+      "object": "UI绘制流程",
+      "context": "Slate执行UI绘制流程包括构建层级、计算布局和绘制几何体三个主要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "无效化系统",
+      "predicate": "缓存",
+      "object": "UI数据",
+      "context": "无效化系统会缓存层级、布局和绘制数据，避免不必要的重新计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "易变控件",
+      "predicate": "跳过",
+      "object": "绘制数据缓存",
+      "context": "标记为易变的控件会跳过绘制数据的缓存，每帧都重新计算几何体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "限位面板",
+      "predicate": "使用",
+      "object": "渲染目标",
+      "context": "限位面板使用单独的渲染目标来存储扁平化的子控件纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "无效框",
+      "predicate": "监控",
+      "object": "子控件更改",
+      "context": "无效框会监控其子控件的更改情况，决定是否使用缓存数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全局无效",
+      "predicate": "禁用",
+      "object": "局部无效框",
+      "context": "启用全局无效后，SWindow会接管缓存功能，局部无效框将被停用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "无效化",
+      "predicate": "适用于",
+      "object": "不常更改的控件",
+      "context": "无效化特别适合不常更改的控件，可以显著减少CPU负载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "限位面板",
+      "predicate": "配置",
+      "object": "渲染帧率",
+      "context": "限位面板可以配置为使用不同的渲染帧率，帮助分散UI绘制负载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG编辑器",
+      "predicate": "包含",
+      "object": "无效框控件",
+      "context": "无效框控件可以在UMG编辑器的优化分段中找到",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "易变控件设置",
+      "predicate": "位于",
+      "object": "细节面板",
+      "context": "控件的易变设置可以在细节面板的性能分段中找到",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:38:45.333Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9727,
+    "contentLength": 5321,
+    "processingTimeMs": 72790
+  }
+}

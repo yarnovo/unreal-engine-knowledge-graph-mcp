@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_reimporting-assets-automatically-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_reimporting-assets-automatically-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "自动重新导入功能",
+      "predicate": "属于",
+      "object": "虚幻引擎4",
+      "context": "自动重新导入功能是虚幻引擎4的一个核心功能模块，帮助开发者自动同步外部修改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动重新导入功能",
+      "predicate": "依赖",
+      "object": "监视内容目录",
+      "context": "自动重新导入功能需要配置监视目录才能正常工作，这是功能实现的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "监视内容目录",
+      "predicate": "包含",
+      "object": "要监视的目录",
+      "context": "监视内容目录的设置中包含要监视的具体目录配置，这是功能的核心参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "监视内容目录",
+      "predicate": "包含",
+      "object": "包括/排除通配符",
+      "context": "通配符设置是监视内容目录的重要组成部分，用于过滤需要监视的文件类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动重新导入功能",
+      "predicate": "包含",
+      "object": "导入阈值时间",
+      "context": "导入阈值时间是自动重新导入功能的一个可配置参数，影响功能的行为方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动重新导入功能",
+      "predicate": "支持",
+      "object": "自动创建资产",
+      "context": "自动创建资产是自动重新导入功能的一个可选特性，扩展了功能的使用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动重新导入功能",
+      "predicate": "支持",
+      "object": "自动删除资产",
+      "context": "自动删除资产是自动重新导入功能的一个可选特性，提供了完整的资产生命周期管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动重新导入功能",
+      "predicate": "包含",
+      "object": "重新启动时检测更改",
+      "context": "重新启动时检测更改是自动重新导入功能的一个配置选项，影响引擎重启时的行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动重新导入功能",
+      "predicate": "位于",
+      "object": "编辑器偏好设置>加载与保存>自动重新导入",
+      "context": "了解功能的位置设置对开发者配置和使用该功能至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动重新导入功能",
+      "predicate": "适用于",
+      "object": "资产迭代开发",
+      "context": "该功能主要应用场景是资产迭代开发，帮助开发者快速查看修改效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "要监视的目录",
+      "predicate": "可以是",
+      "object": "虚拟路径或绝对路径",
+      "context": "了解监视目录的路径类型有助于开发者正确配置项目",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "包括/排除通配符",
+      "predicate": "用于",
+      "object": "过滤文件类型",
+      "context": "通配符的主要作用是过滤需要监视的文件类型，这是功能配置的重要知识点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动创建资产",
+      "predicate": "需要",
+      "object": "虚拟路径或安装点",
+      "context": "理解自动创建资产的前提条件有助于避免配置错误",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动删除资产",
+      "predicate": "要求",
+      "object": "一对一映射关系",
+      "context": "了解自动删除资产的条件限制可以防止意外数据丢失",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重新启动时检测更改",
+      "predicate": "不推荐用于",
+      "object": "源内容控制环境",
+      "context": "在特定开发环境下了解此功能的适用性可以优化工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:35:58.727Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4032,
+    "contentLength": 2132,
+    "processingTimeMs": 48239
+  }
+}

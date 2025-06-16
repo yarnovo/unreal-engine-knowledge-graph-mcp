@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-engine-behavior-tree-node-reference-services",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-engine-behavior-tree-node-reference-services.md",
+  "triples": [
+    {
+      "subject": "服务节点",
+      "predicate": "连接至",
+      "object": "合成节点",
+      "context": "服务节点通常连接至合成节点或任务节点，帮助学习者理解行为树中节点的连接方式",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "服务节点",
+      "predicate": "连接至",
+      "object": "任务节点",
+      "context": "服务节点通常连接至合成节点或任务节点，帮助学习者理解行为树中节点的连接方式",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "服务节点",
+      "predicate": "替代",
+      "object": "传统平行节点",
+      "context": "服务节点取代了其他行为树系统中的传统平行节点，帮助学习者理解节点功能的演进",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认聚焦",
+      "predicate": "设置",
+      "object": "AI控制器聚焦",
+      "context": "默认聚焦通过设置AI控制器的聚焦来创建访问蓝图和代码中Actor的快捷方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认聚焦",
+      "predicate": "使用",
+      "object": "黑板键",
+      "context": "默认聚焦使用黑板键来引用Actor，帮助学习者理解黑板在AI行为中的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行EQS",
+      "predicate": "执行",
+      "object": "EQS模板",
+      "context": "运行EQS服务节点用于定期执行EQS模板，帮助学习者理解EQS与行为树的集成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行EQS",
+      "predicate": "更新",
+      "object": "黑板键",
+      "context": "运行EQS服务节点可以更新指定的黑板键，帮助学习者理解数据如何在行为树中传递",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行EQS",
+      "predicate": "包含",
+      "object": "查询配置",
+      "context": "运行EQS服务节点包含查询配置参数，帮助学习者理解如何定制EQS查询",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义服务节点",
+      "predicate": "创建",
+      "object": "蓝图逻辑",
+      "context": "自定义服务节点可以通过蓝图逻辑创建，帮助学习者理解如何扩展行为树功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义服务节点",
+      "predicate": "性能低于",
+      "object": "C++服务节点",
+      "context": "蓝图服务节点的性能不如C++服务节点，帮助学习者理解性能优化的选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "服务节点",
+      "predicate": "用于",
+      "object": "检查和更新黑板",
+      "context": "服务节点常用于检查和更新黑板，帮助学习者理解其在行为树中的核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行EQS",
+      "predicate": "支持",
+      "object": "多种运行模式",
+      "context": "运行EQS支持多种运行模式（如选出最佳项目、随机选择等），帮助学习者理解查询结果的多样化处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:07:32.180Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6379,
+    "contentLength": 4251,
+    "processingTimeMs": 34545
+  }
+}

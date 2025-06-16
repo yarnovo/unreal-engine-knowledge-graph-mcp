@@ -1,0 +1,211 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-engine-material-editor-ui",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-engine-material-editor-ui.md",
+  "triples": [
+    {
+      "subject": "材质编辑器UI",
+      "predicate": "包含",
+      "object": "菜单栏",
+      "context": "菜单栏是材质编辑器UI的主要组成部分之一，提供了文件操作、编辑功能等核心功能入口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质编辑器UI",
+      "predicate": "包含",
+      "object": "工具栏",
+      "context": "工具栏提供常用操作的快捷访问，如保存、查找等，是材质编辑的重要操作区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质编辑器UI",
+      "predicate": "包含",
+      "object": "视口面板",
+      "context": "视口面板用于实时预览材质效果，是材质编辑的核心可视化区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质编辑器UI",
+      "predicate": "包含",
+      "object": "细节面板",
+      "context": "细节面板显示选中材质或节点的属性，是参数调整的主要界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质编辑器UI",
+      "predicate": "包含",
+      "object": "材质图面板",
+      "context": "材质图面板是构建材质节点网络的核心工作区，所有材质逻辑都在此构建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质编辑器UI",
+      "predicate": "包含",
+      "object": "控制板面板",
+      "context": "控制板面板提供可用的材质节点库，方便用户拖拽添加节点到材质图中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质编辑器UI",
+      "predicate": "包含",
+      "object": "统计信息面板",
+      "context": "统计信息面板显示材质性能数据，帮助优化材质性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质图面板",
+      "predicate": "基于",
+      "object": "主材质节点",
+      "context": "所有材质表达式最终都需要连接到主材质节点才能生效，这是材质编辑的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制板面板",
+      "predicate": "提供",
+      "object": "材质表达式",
+      "context": "控制板面板分类展示各种材质表达式，方便用户构建材质网络",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制板面板",
+      "predicate": "提供",
+      "object": "材质函数",
+      "context": "控制板面板也提供预定义的材质函数，可以复用复杂材质逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "显示",
+      "object": "材质属性",
+      "context": "细节面板集中展示和编辑当前选中材质或节点的各项属性参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视口面板",
+      "predicate": "预览",
+      "object": "材质效果",
+      "context": "视口面板实时显示材质在网格体上的应用效果，支持多种预览方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "统计信息面板",
+      "predicate": "分析",
+      "object": "着色器指令",
+      "context": "统计信息面板计算并显示材质使用的着色器指令数量，帮助性能优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HLSL代码面板",
+      "predicate": "展示",
+      "object": "材质HLSL代码",
+      "context": "HLSL代码面板显示材质最终生成的着色器代码，帮助高级用户调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平台统计数据",
+      "predicate": "评估",
+      "object": "跨平台性能",
+      "context": "平台统计数据功能可以比较材质在不同平台上的性能表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质编辑器",
+      "predicate": "支持",
+      "object": "Mali离线编译器",
+      "context": "通过集成Mali离线编译器，可以获取Android平台的精确性能数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具栏",
+      "predicate": "包含",
+      "object": "应用修改按钮",
+      "context": "应用修改按钮将编辑器中的更改应用到实际材质，是工作流程的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具栏",
+      "predicate": "包含",
+      "object": "清理图表按钮",
+      "context": "清理图表功能可以自动移除未使用的节点，保持材质图整洁",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质编辑器",
+      "predicate": "使用",
+      "object": "热键系统",
+      "context": "热键系统可以快速放置常用材质节点，提高编辑效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质编辑器",
+      "predicate": "支持",
+      "object": "节点导航",
+      "context": "支持类似蓝图的节点导航方式，包括框选、平移、缩放等操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质编辑器",
+      "predicate": "提供",
+      "object": "撤销历史",
+      "context": "撤销历史功能可以回溯编辑步骤，是重要的错误恢复机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质编辑器",
+      "predicate": "集成",
+      "object": "内容浏览器",
+      "context": "可以直接从内容浏览器查找和打开材质资产，实现工作流整合",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质编辑器",
+      "predicate": "关联",
+      "object": "材质实例",
+      "context": "可以通过层级功能查看和编辑从当前材质派生的材质实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质编辑器",
+      "predicate": "支持",
+      "object": "实时更新",
+      "context": "实时更新选项可以控制哪些元素需要即时刷新，平衡性能与响应性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:09:38.321Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (17221 字符)",
+      "timestamp": "2025-06-15T21:08:33.780Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 25121,
+    "contentLength": 17221,
+    "processingTimeMs": 64547
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_attaching-items-to-the-hmd-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_attaching-items-to-the-hmd-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "HMD",
+      "predicate": "支持",
+      "object": "静态网格体",
+      "context": "文档说明可以对静态网格体进行设置使其跟随HMD移动，这是VR开发中常见的视觉效果实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HMD",
+      "predicate": "支持",
+      "object": "粒子效果",
+      "context": "粒子效果可以设置为跟随HMD移动，这对VR中的特效展示很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HMD",
+      "predicate": "支持",
+      "object": "UI元素",
+      "context": "UI元素可以附着在HMD上，这是VR界面设计的基础功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机Actor",
+      "predicate": "代表",
+      "object": "玩家位置",
+      "context": "在VR开发中，摄像机Actor的位置代表玩家在虚拟世界中的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pawn蓝图",
+      "predicate": "包含",
+      "object": "摄像机组件",
+      "context": "Pawn蓝图中需要添加摄像机组件来实现HMD的视角控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "附加到",
+      "object": "摄像机",
+      "context": "通过将静态网格体设为摄像机的子项，可以实现物体跟随HMD移动的效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR预览",
+      "predicate": "用于",
+      "object": "测试HMD功能",
+      "context": "VR预览功能是测试HMD相关功能的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机组件",
+      "predicate": "提供",
+      "object": "世界场景位置",
+      "context": "通过获取摄像机组件的位置可以确定玩家在虚拟世界中的精确位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HMD开发",
+      "predicate": "基于",
+      "object": "虚幻引擎VR系统",
+      "context": "文档描述的HMD开发方法是基于虚幻引擎的VR系统实现的",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "立方体网格体",
+      "predicate": "作为",
+      "object": "测试对象",
+      "context": "文档使用立方体网格体作为演示如何使物体跟随HMD移动的示例对象",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:07:26.558Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3814,
+    "contentLength": 2630,
+    "processingTimeMs": 36289
+  }
+}

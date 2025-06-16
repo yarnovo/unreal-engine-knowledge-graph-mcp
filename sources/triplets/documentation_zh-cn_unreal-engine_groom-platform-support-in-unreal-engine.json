@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_groom-platform-support-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_groom-platform-support-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Groom发片",
+      "predicate": "属于",
+      "object": "Groom几何体类型",
+      "context": "发片是Groom几何体的一种基本类型，了解不同类型的几何体有助于选择适合的毛发表现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom网格体",
+      "predicate": "属于",
+      "object": "Groom几何体类型",
+      "context": "网格体是Groom几何体的另一种基本类型，与发片共同构成基础渲染选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom发束",
+      "predicate": "属于",
+      "object": "Groom几何体类型",
+      "context": "发束是高级渲染类型，需要特定平台支持，理解其限制对跨平台开发很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom发束",
+      "predicate": "需要",
+      "object": "DirectX/Vulkan/macOS/Linux/次世代主机",
+      "context": "发束渲染有特定平台要求，这对项目目标平台选择有直接影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "刚性附件",
+      "predicate": "属于",
+      "object": "Groom绑定类型",
+      "context": "刚性附件是绑定系统的基础功能，了解其通用性有助于基础开发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蒙皮附件",
+      "predicate": "属于",
+      "object": "Groom绑定类型",
+      "context": "蒙皮附件提供更高级的绑定效果，但受平台限制，这对性能优化很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蒙皮附件",
+      "predicate": "不支持",
+      "object": "Nintendo Switch/移动端",
+      "context": "明确平台限制可避免在目标平台上使用不兼容功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全局插值(RBF)",
+      "predicate": "类似",
+      "object": "蒙皮附件",
+      "context": "RBF与蒙皮附件有相同的平台限制，这个关联帮助记忆平台兼容性",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Groom模拟",
+      "predicate": "支持",
+      "object": "所有平台",
+      "context": "模拟的全平台支持特性使其成为可靠的动态效果实现方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发束缓存",
+      "predicate": "依赖",
+      "object": "Groom发束支持",
+      "context": "缓存功能与渲染类型的关联性影响预先计算方案的选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导线缓存",
+      "predicate": "支持",
+      "object": "所有平台",
+      "context": "导线缓存的通用性使其成为跨平台项目的安全选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "路径追踪器",
+      "predicate": "影响",
+      "object": "Groom渲染效果",
+      "context": "不同渲染器对Groom的视觉影响是重要的画面一致性考量因素",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Groom性能",
+      "predicate": "取决于",
+      "object": "分辨率/硬件配置/几何体复杂度",
+      "context": "理解性能因素有助于优化和合理设置质量参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom绑定",
+      "predicate": "扩展",
+      "object": "骨架网格体功能",
+      "context": "绑定系统将Groom与角色动画系统连接，这是角色毛发实现的关键",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Groom缓存",
+      "predicate": "用于",
+      "object": "预计算模拟",
+      "context": "缓存机制与模拟系统的关系展示了性能优化途径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:16:46.837Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4419,
+    "contentLength": 3107,
+    "processingTimeMs": 45117
+  }
+}

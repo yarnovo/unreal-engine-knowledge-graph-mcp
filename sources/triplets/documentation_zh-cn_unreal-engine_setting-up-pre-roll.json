@@ -1,0 +1,85 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_setting-up-pre-roll",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_setting-up-pre-roll.md",
+  "triples": [
+    {
+      "subject": "预滚",
+      "predicate": "用于",
+      "object": "Niagara系统预热",
+      "context": "预滚是Niagara系统预热的核心目的，确保特效在序列开始时已准备就绪",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara系统预热",
+      "predicate": "包含",
+      "object": "预热时间",
+      "context": "预热时间是Niagara系统预热的关键参数，定义系统在渲染前的刷新时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara系统预热",
+      "predicate": "可配置于",
+      "object": "Niagara系统实例",
+      "context": "预热时间既可在Niagara系统中全局设置，也可在关卡内的具体实例上单独配置",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "系统生命周期轨道",
+      "predicate": "替代",
+      "object": "Niagara系统预热",
+      "context": "系统生命周期轨道通过时间偏移实现类似预热效果，且能在Sequencer中直观显示时间范围",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "MRQ",
+      "predicate": "支持",
+      "object": "使用镜头切换进行预热",
+      "context": "影片渲染队列提供专门的镜头切换预热模式，可刷新包括骨骼网格体在内的完整引擎环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染预热帧",
+      "predicate": "必需用于",
+      "object": "深度图碰撞",
+      "context": "GPU深度图碰撞必须通过渲染预热帧生成深度图数据才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "引擎预滚",
+      "predicate": "区别于",
+      "object": "Niagara预滚",
+      "context": "引擎预滚会刷新整个物理环境（如碰撞检测），而Niagara预滚仅处理粒子系统内部状态",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Gbuffer查询",
+      "predicate": "依赖",
+      "object": "渲染预热帧",
+      "context": "需要渲染预热帧才能获取有效的场景颜色等Gbuffer数据供Niagara系统查询",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "抗锯齿设置",
+      "predicate": "包含",
+      "object": "渲染预热帧选项",
+      "context": "MRQ的渲染预热帧配置位于抗锯齿设置分段中，属于高级渲染控制参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:45:08.504Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4378,
+    "contentLength": 2680,
+    "processingTimeMs": 34484
+  }
+}

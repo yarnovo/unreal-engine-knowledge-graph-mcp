@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_template-sequences-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_template-sequences-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "模板序列",
+      "predicate": "绑定",
+      "object": "绑定Actor类",
+      "context": "模板序列通过绑定Actor类指定要在其上运行的actor类型，这是模板序列的核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模板序列",
+      "predicate": "用于",
+      "object": "电影摄像机Actor",
+      "context": "文档明确说明可以将电影摄像机Actor作为绑定Actor类，简化摄像机动画的使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模板序列",
+      "predicate": "替代",
+      "object": "摄像机动画",
+      "context": "文档明确指出模板序列最终将取代使用Matinee的摄像机动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模板序列",
+      "predicate": "包含",
+      "object": "关键帧",
+      "context": "可以在模板序列中设置关键帧，这是动画制作的基本元素",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "模板序列",
+      "predicate": "导入",
+      "object": "FBX动画",
+      "context": "文档提到可以将FBX动画导入到转换轨道中",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "模板序列",
+      "predicate": "用于",
+      "object": "关卡序列",
+      "context": "模板序列可以在关卡序列中使用，作为其中的组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模板序列",
+      "predicate": "创建",
+      "object": "模板序列播放器",
+      "context": "可以通过蓝图创建模板序列播放器来独立播放模板序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模板序列播放器",
+      "predicate": "绑定",
+      "object": "电影摄像机Actor",
+      "context": "模板序列播放器需要绑定到具体的actor才能播放动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡序列",
+      "predicate": "包含",
+      "object": "模板序列",
+      "context": "模板序列可以作为关卡序列的一部分被包含和使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "电影摄像机Actor",
+      "predicate": "设置为主摄像机",
+      "object": "模板序列",
+      "context": "当绑定Actor类设置为电影摄像机Actor时，会自动将其设置为主摄像机",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模板序列",
+      "predicate": "类似于",
+      "object": "骨骼动画剪辑",
+      "context": "文档将模板序列在概念上比作角色上播放的骨骼动画剪辑，说明其可重用性和灵活性",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "模板序列",
+      "predicate": "支持",
+      "object": "动画操作",
+      "context": "模板序列支持拉伸、修剪、循环等动画操作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "模板序列",
+      "predicate": "基于",
+      "object": "Sequencer",
+      "context": "模板序列是Sequencer系统的一部分，使用类似的编辑和控制方法",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T20:58:38.426Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6583,
+    "contentLength": 3759,
+    "processingTimeMs": 35689
+  }
+}

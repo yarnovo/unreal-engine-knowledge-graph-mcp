@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_remote-control-api-http-reference-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_remote-control-api-http-reference-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "远程控制API",
+      "predicate": "包含",
+      "object": "GET remote/info",
+      "context": "GET remote/info是远程控制API提供的一个HTTP端点，用于查看所有可用的HTTP路由",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制API",
+      "predicate": "包含",
+      "object": "PUT remote/object/call",
+      "context": "PUT remote/object/call是远程控制API提供的一个HTTP端点，用于调用编辑器内存中的UObject公开的函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制API",
+      "predicate": "包含",
+      "object": "PUT remote/object/property",
+      "context": "PUT remote/object/property是远程控制API提供的一个HTTP端点，用于访问或修改编辑器内存中的UObject公开的属性值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制API",
+      "predicate": "包含",
+      "object": "PUT remote/object/thumbnail",
+      "context": "PUT remote/object/thumbnail是远程控制API提供的一个HTTP端点，用于获取内容浏览器中资产的缩略图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制API",
+      "predicate": "包含",
+      "object": "PUT remote/search/assets",
+      "context": "PUT remote/search/assets是远程控制API提供的一个HTTP端点，用于在资产注册表中搜索资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制API",
+      "predicate": "包含",
+      "object": "PUT remote/object/describe",
+      "context": "PUT remote/object/describe是远程控制API提供的一个HTTP端点，用于查看编辑器内存中UObject的所有属性、函数和元数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制API",
+      "predicate": "包含",
+      "object": "PUT remote/batch",
+      "context": "PUT remote/batch是远程控制API提供的一个HTTP端点，用于将多个HTTP请求组合成单个远程调用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制API",
+      "predicate": "包含",
+      "object": "PUT remote/object/event",
+      "context": "PUT remote/object/event是远程控制API提供的一个HTTP端点，用于接收对象的事件通知，如属性变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UObject",
+      "predicate": "公开",
+      "object": "函数",
+      "context": "UObject可以公开函数，这些函数可以通过PUT remote/object/call端点进行调用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UObject",
+      "predicate": "公开",
+      "object": "属性",
+      "context": "UObject可以公开属性，这些属性可以通过PUT remote/object/property端点进行访问或修改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PUT remote/object/call",
+      "predicate": "用于",
+      "object": "调用UObject函数",
+      "context": "PUT remote/object/call端点专门用于调用UObject公开的函数，包括蓝图和C++定义的函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PUT remote/object/property",
+      "predicate": "用于",
+      "object": "访问UObject属性",
+      "context": "PUT remote/object/property端点专门用于访问或修改UObject公开的属性值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PUT remote/batch",
+      "predicate": "组合",
+      "object": "多个HTTP请求",
+      "context": "PUT remote/batch端点可以将多个HTTP请求组合成单个远程调用，提高效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PUT remote/object/event",
+      "predicate": "监听",
+      "object": "UObject事件",
+      "context": "PUT remote/object/event端点可以监听UObject的事件，如属性变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UObject路径",
+      "predicate": "标识",
+      "object": "UObject",
+      "context": "UObject路径用于唯一标识编辑器内存中的资源和Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器脚本编辑工具",
+      "predicate": "提供",
+      "object": "UObject路径获取方法",
+      "context": "编辑器脚本编辑工具插件提供了一些实用函数，可用于获取当前关卡中Actor或内容浏览器中资源的路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BlueprintCallable",
+      "predicate": "标记",
+      "object": "可调用函数",
+      "context": "C++中用BlueprintCallable说明符定义的函数可以通过PUT remote/object/call端点调用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "generateTransaction",
+      "predicate": "控制",
+      "object": "事务记录",
+      "context": "generateTransaction属性控制是否在项目的事务历史中记录函数调用或属性修改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户编辑",
+      "predicate": "依赖",
+      "object": "事务记录",
+      "context": "在多用户编辑会话中，事务记录确保更改可以复制到其他连接的用户",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产注册表",
+      "predicate": "存储",
+      "object": "资产信息",
+      "context": "资产注册表存储了所有资产的信息，可以通过PUT remote/search/assets端点进行搜索",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:36:12.530Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (24116 字符)",
+      "timestamp": "2025-06-15T20:35:10.495Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 31954,
+    "contentLength": 24116,
+    "processingTimeMs": 62041
+  }
+}

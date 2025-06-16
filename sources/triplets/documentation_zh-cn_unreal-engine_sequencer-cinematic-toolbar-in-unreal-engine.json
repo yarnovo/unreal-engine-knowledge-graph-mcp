@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_sequencer-cinematic-toolbar-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_sequencer-cinematic-toolbar-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Sequencer",
+      "predicate": "包含",
+      "object": "世界场景工具栏",
+      "context": "世界场景工具栏是Sequencer的核心组成部分，用于管理全局上下文和会话绑定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "创建摄像机按钮",
+      "predicate": "生成",
+      "object": "过场动画摄像机Actor",
+      "context": "点击该按钮会自动创建新的摄像机Actor，这是制作过场动画的基础工具",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "创建摄像机按钮",
+      "predicate": "创建",
+      "object": "镜头切换轨道",
+      "context": "创建摄像机时会自动生成关联的镜头切换轨道，这是摄像机工作流的关键环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染按钮",
+      "predicate": "打开",
+      "object": "渲染电影设置",
+      "context": "这是将序列输出为视频/图像的重要入口，学习者需要理解渲染流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导演蓝图",
+      "predicate": "控制",
+      "object": "事件轨道",
+      "context": "导演蓝图是事件轨道的逻辑控制中心，对实现交互式过场动画至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动关键帧",
+      "predicate": "依赖",
+      "object": "关键帧选项",
+      "context": "自动关键帧的行为受关键帧选项设置的影响，这是动画工作流的核心配置",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "曲线编辑器",
+      "predicate": "用于",
+      "object": "关键帧微调",
+      "context": "曲线编辑器是精细调整动画曲线的专业工具，与关键帧编辑形成完整工作流",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对齐功能",
+      "predicate": "支持",
+      "object": "关键帧精确编辑",
+      "context": "对齐功能确保关键帧和时间标记的精确定位，是专业动画制作的必备功能",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "操作菜单",
+      "predicate": "包含",
+      "object": "FBX导入导出",
+      "context": "FBX导入导出功能使Sequencer能与外部动画工具协作，扩展了工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视图选项",
+      "predicate": "控制",
+      "object": "引导摄像机",
+      "context": "视图选项中的引导摄像机设置决定了视口与摄像机轨道的交互方式",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "播放选项",
+      "predicate": "配置",
+      "object": "异步计算",
+      "context": "播放选项中的异步计算设置影响序列运行时性能，是优化的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "过场动画摄像机Actor",
+      "predicate": "用于",
+      "object": "镜头切换轨道",
+      "context": "摄像机Actor是镜头切换轨道的控制对象，二者构成镜头语言的基础",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界场景菜单",
+      "predicate": "管理",
+      "object": "PIE/模拟会话",
+      "context": "世界场景菜单控制序列与不同运行时会话的绑定关系，影响测试流程",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "操作记录",
+      "predicate": "跟踪",
+      "object": "序列导航历史",
+      "context": "操作记录功能帮助学习者在复杂序列结构中保持方向感",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "关键帧选项",
+      "predicate": "决定",
+      "object": "切线类型",
+      "context": "关键帧选项中的切线设置直接影响动画曲线的插值方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑选项",
+      "predicate": "控制",
+      "object": "Sequencer/关卡编辑模式",
+      "context": "编辑选项决定了工作流的编辑上下文，影响动画制作方式",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "FPS设置",
+      "predicate": "影响",
+      "object": "时间显示格式",
+      "context": "FPS设置不仅控制帧率，还决定了时间轴的显示单位",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "自动关键帧",
+      "predicate": "需要",
+      "object": "已有关键帧轨道",
+      "context": "自动关键帧功能只在已有关键帧的轨道上工作，这是重要的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换工具",
+      "predicate": "属于",
+      "object": "操作菜单",
+      "context": "变换工具是操作菜单中的高级功能，用于批量处理关键帧",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "曲线编辑器",
+      "predicate": "支持",
+      "object": "值对齐",
+      "context": "曲线编辑器中的值对齐功能帮助精确调整关键帧数值",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:42:06.339Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (18965 字符)",
+      "timestamp": "2025-06-15T20:41:02.271Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 27860,
+    "contentLength": 18965,
+    "processingTimeMs": 64084
+  }
+}

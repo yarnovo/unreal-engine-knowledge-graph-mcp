@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_graphing-in-animation-blueprints-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_graphing-in-animation-blueprints-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "动画图表",
+      "context": "动画蓝图通过动画图表实现角色动画逻辑的定义和计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "事件图表",
+      "context": "事件图表用于处理动画蓝图中的事件逻辑和变量更新",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画图表",
+      "predicate": "生成",
+      "object": "Output Pose",
+      "context": "动画图表中的节点逻辑最终输出到Output Pose，决定角色的最终姿势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequence Player节点",
+      "predicate": "播放",
+      "object": "动画序列",
+      "context": "Sequence Player节点用于播放指定的动画序列资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合节点",
+      "predicate": "控制",
+      "object": "动画混合",
+      "context": "混合节点通过Alpha值控制不同动画姿势的混合比例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画节点",
+      "predicate": "支持",
+      "object": "节点函数",
+      "context": "动画节点可以绑定特定函数，在节点执行的不同阶段触发自定义逻辑",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性访问",
+      "predicate": "简化",
+      "object": "属性获取",
+      "context": "属性访问功能通过自动化函数链简化了复杂属性的获取过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AnimGraph",
+      "predicate": "运行于",
+      "object": "工作线程",
+      "context": "AnimGraph默认在工作线程执行，与游戏线程并行提高性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EventGraph",
+      "predicate": "运行于",
+      "object": "游戏线程",
+      "context": "事件图表在主游戏线程执行，与AnimGraph的工作线程形成协作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blueprint Thread Safe Update Animation",
+      "predicate": "替代",
+      "object": "Update Animation事件",
+      "context": "线程安全更新函数是事件图表Update Animation的性能优化替代方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势连接",
+      "predicate": "传递",
+      "object": "动画属性",
+      "context": "姿势连接线除了传递基础姿势数据，还能并行传递曲线、属性等附加信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "继承",
+      "object": "蓝图视觉脚本",
+      "context": "动画蓝图继承自蓝图系统，共享基础的视觉脚本接口和行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间",
+      "predicate": "用于",
+      "object": "动画混合",
+      "context": "混合空间是AnimGraph中实现复杂动画混合效果的重要资源类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "节点相关性",
+      "predicate": "影响",
+      "object": "函数执行",
+      "context": "节点函数只在节点处于相关状态时执行，这是动画蓝图的性能优化机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "惯性化节点",
+      "predicate": "处理",
+      "object": "动画过渡",
+      "context": "惯性化节点专门用于处理动画混合时的平滑过渡效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:15:31.520Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15686 字符)",
+      "timestamp": "2025-06-15T19:14:43.359Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 23800,
+    "contentLength": 15686,
+    "processingTimeMs": 48169
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_single-layer-water-shading-model-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_single-layer-water-shading-model-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "单层水着色模型",
+      "predicate": "属于",
+      "object": "材质着色模型",
+      "context": "单层水着色模型是虚幻引擎中一种特殊的材质着色模型，用于实现高效的水体渲染效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单层水着色模型",
+      "predicate": "基于",
+      "object": "物理的着色模型",
+      "context": "该模型基于物理原理实现，能够模拟真实的光散射、吸收、反射和折射效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单层水着色模型",
+      "predicate": "支持",
+      "object": "光散射",
+      "context": "该模型支持光在水中的散射效果，影响水的透明度和浑浊度",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单层水着色模型",
+      "predicate": "支持",
+      "object": "吸收",
+      "context": "该模型支持光在水中的吸收效果，影响水下物体的颜色表现",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单层水着色模型",
+      "predicate": "支持",
+      "object": "反射",
+      "context": "该模型支持水面的反射效果，包括屏幕空间反射(SSR)",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单层水着色模型",
+      "predicate": "支持",
+      "object": "折射",
+      "context": "该模型支持光在水面的折射效果，影响水下物体的视觉效果",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单层水着色模型",
+      "predicate": "使用",
+      "object": "Schlick相函数",
+      "context": "该模型使用Schlick相函数来计算光的散射方向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单层水着色模型",
+      "predicate": "包含",
+      "object": "参与介质",
+      "context": "该模型将水视为均匀的参与介质，模拟光在水中的传播",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单层水材质",
+      "predicate": "需要设置",
+      "object": "混合模式",
+      "context": "使用单层水材质时需要将混合模式设置为不透明(Opaque)或遮罩(Masked)",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单层水材质",
+      "predicate": "包含",
+      "object": "散射系数",
+      "context": "散射系数控制光在水中的散射速率，影响水的浑浊度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单层水材质",
+      "predicate": "包含",
+      "object": "吸收系数",
+      "context": "吸收系数控制光在水中的吸收速率，影响水下物体的颜色表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单层水材质",
+      "predicate": "包含",
+      "object": "PhaseG",
+      "context": "PhaseG参数控制光散射的方向性，影响水的明暗表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单层水材质",
+      "predicate": "包含",
+      "object": "水后色度",
+      "context": "水后色度控制水下表面的亮度，可用于模拟焦散效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单层水材质",
+      "predicate": "控制",
+      "object": "水不透明度",
+      "context": "主材质节点的不透明度输入控制水的可见参数，影响光线穿透水面的程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单层水渲染",
+      "predicate": "使用",
+      "object": "GBuffer",
+      "context": "所有带有SingleLayerWater的对象都渲染到GBuffer中，用于后续处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单层水渲染",
+      "predicate": "涉及",
+      "object": "屏幕空间反射(SSR)",
+      "context": "单层水渲染过程中会计算屏幕空间反射，增强水面的真实感",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单层水渲染",
+      "predicate": "支持",
+      "object": "反射捕获",
+      "context": "单层水渲染会合成反射捕获效果，提供环境反射",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单层水渲染",
+      "predicate": "支持",
+      "object": "天空反射",
+      "context": "单层水渲染会合成天空在水面的反射效果",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单层水着色模型",
+      "predicate": "有",
+      "object": "低端系统替代方案",
+      "context": "对于低端系统和移动设备，可以使用简化的半透明材质替代完整功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "散射系数",
+      "predicate": "影响",
+      "object": "水透明度",
+      "context": "散射系数越高，水看起来越浑浊，透明度越低",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "吸收系数",
+      "predicate": "影响",
+      "object": "水下物体颜色",
+      "context": "吸收系数决定不同颜色光在水中的穿透能力，影响水下物体的颜色表现",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PhaseG",
+      "predicate": "控制",
+      "object": "光散射方向",
+      "context": "PhaseG参数控制光散射是向前(正值)还是向后(负值)，影响水的明暗",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水后色度",
+      "predicate": "影响",
+      "object": "水下亮度",
+      "context": "水后色度参数可以增加水下表面的亮度，模拟焦散效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水不透明度",
+      "predicate": "控制",
+      "object": "光线穿透",
+      "context": "不透明度值控制允许进入水中的光量，影响水下可见距离",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单层水着色模型",
+      "predicate": "可以调试使用",
+      "object": "RenderDoc",
+      "context": "可以使用RenderDoc工具捕获帧来查看单层水通道的渲染位置和效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单层水着色模型",
+      "predicate": "相关于",
+      "object": "水体系统",
+      "context": "单层水着色模型是虚幻引擎水体系统的重要组成部分",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:48:50.607Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8362 字符)",
+      "timestamp": "2025-06-15T20:47:35.961Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14030,
+    "contentLength": 8362,
+    "processingTimeMs": 74649
+  }
+}

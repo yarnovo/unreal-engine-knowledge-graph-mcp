@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_play-cinematics-from-blueprints-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_play-cinematics-from-blueprints-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "蓝图",
+      "predicate": "用于",
+      "object": "播放过场动画",
+      "context": "蓝图可以用于触发和控制过场动画的播放，帮助学习者理解蓝图在游戏事件触发中的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "盒体触发器",
+      "predicate": "触发",
+      "object": "过场动画播放",
+      "context": "盒体触发器可以检测玩家进入事件并触发过场动画播放，展示游戏事件与动画播放的关联",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "控制",
+      "object": "点光源强度",
+      "context": "Sequencer可以设置和关键帧控制点光源的强度变化，帮助学习者理解动画序列对场景元素的动态控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡序列",
+      "predicate": "包含",
+      "object": "相机漫游动画",
+      "context": "关卡序列可以包含相机移动的关键帧动画，展示如何通过序列设计镜头运动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Set Playback Position节点",
+      "predicate": "重置",
+      "object": "关卡序列播放位置",
+      "context": "该节点可以将序列重置到开头以便重复播放，帮助理解动画播放控制机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "保持状态选项",
+      "predicate": "保留",
+      "object": "Sequencer修改",
+      "context": "该选项使序列播放结束后保留对场景元素的修改，展示动画系统与场景状态的持久化关联",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Go to End and Stop节点",
+      "predicate": "实现",
+      "object": "过场动画跳过",
+      "context": "该节点允许玩家跳过动画同时保留最终状态，展示用户交互与动画系统的集成方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图第三人称模板",
+      "predicate": "作为基础",
+      "object": "过场动画示例项目",
+      "context": "文档使用该模板作为示例基础，帮助学习者理解如何在实际项目中应用这些技术",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "关卡蓝图",
+      "predicate": "协调",
+      "object": "事件触发与动画播放",
+      "context": "关卡蓝图作为中枢协调触发器事件和序列播放，展示游戏逻辑与动画系统的集成",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "记录",
+      "object": "属性变化",
+      "context": "关键帧技术用于记录场景元素随时间的变化，是理解动画制作的基础概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:25:13.928Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9886,
+    "contentLength": 6568,
+    "processingTimeMs": 37905
+  }
+}

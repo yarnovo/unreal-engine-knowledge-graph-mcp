@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_chaos-flesh-overview",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_chaos-flesh-overview.md",
+  "triples": [
+    {
+      "subject": "Chaos Flesh系统",
+      "predicate": "用于",
+      "object": "可变形物体模拟",
+      "context": "Chaos Flesh系统专门用于实时模拟软体（可变形物体），帮助学习者理解其核心功能定位",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Chaos Flesh系统",
+      "predicate": "支持",
+      "object": "静态和骨骼网格体模拟",
+      "context": "该系统支持多种网格体类型模拟，学习者需要了解其适用范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos Flesh系统",
+      "predicate": "基于",
+      "object": "四面体模拟",
+      "context": "理解系统底层技术基础对掌握工作原理至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "四面体网格划分工具",
+      "predicate": "生成",
+      "object": "四面体几何体",
+      "context": "工具与几何体的生成关系是模拟流程的第一步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Dataflow资产创作系统",
+      "predicate": "管理",
+      "object": "Chaos Flesh",
+      "context": "了解工作流工具链的组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "解算器Actor",
+      "predicate": "控制",
+      "object": "模拟过程",
+      "context": "掌握模拟控制的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos Flesh系统",
+      "predicate": "使用",
+      "object": "运动学约束",
+      "context": "关键技术实现细节，理解动画绑定原理",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "Chaos Flesh系统",
+      "predicate": "支持",
+      "object": "环境交互",
+      "context": "了解系统与其他物理元素的交互能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "四面体几何体",
+      "predicate": "转换为",
+      "object": "渲染表面",
+      "context": "理解模拟结果到可视化的转换过程",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "Chaos Flesh系统",
+      "predicate": "支持",
+      "object": "缓存模拟结果",
+      "context": "性能优化关键知识点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "清理",
+      "object": "缓存几何体",
+      "context": "工作流整合的重要环节",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "TetWild算法",
+      "predicate": "属于",
+      "object": "四面体网格划分方法",
+      "context": "了解不同网格划分技术的分类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos Flesh系统",
+      "predicate": "适用于",
+      "object": "角色肌肉变形",
+      "context": "掌握主要应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "低分辨率几何体",
+      "predicate": "结合",
+      "object": "高分辨率缓存",
+      "context": "理解性能与质量平衡的关键设计",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界解算器",
+      "predicate": "检测",
+      "object": "刚体碰撞",
+      "context": "物理交互实现原理",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "Nanite置换贴图",
+      "predicate": "支持",
+      "object": "静态几何体变形",
+      "context": "高级渲染功能集成",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:20:31.533Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6276,
+    "contentLength": 3492,
+    "processingTimeMs": 58765
+  }
+}

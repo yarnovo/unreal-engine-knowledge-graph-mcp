@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_shared-references-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_shared-references-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "共享引用",
+      "predicate": "属于",
+      "object": "智能指针",
+      "context": "共享引用是智能指针的一种类型，理解这一点有助于学习者将其归类到更广泛的内存管理概念中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享引用",
+      "predicate": "用于",
+      "object": "UObject系统外的数据对象",
+      "context": "明确共享引用的使用场景，帮助学习者理解其适用领域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享引用",
+      "predicate": "不可为空",
+      "object": "有效对象",
+      "context": "这是共享引用的核心特性，理解这一点对正确使用该类型至关重要",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "共享引用",
+      "predicate": "优先于",
+      "object": "共享指针",
+      "context": "文档明确指出在不需要空对象时应优先使用共享引用，这对选择合适的内存管理工具很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享引用",
+      "predicate": "可重新指定",
+      "object": "另一对象",
+      "context": "与标准C++引用不同，共享引用可以重新绑定，这是其重要特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享引用",
+      "predicate": "隐式转换为",
+      "object": "共享指针",
+      "context": "这种转换关系是两种智能指针互操作的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享指针",
+      "predicate": "可显式转换为",
+      "object": "共享引用",
+      "context": "通过ToSharedRef方法转换，但需要确保指针非空，这对安全编程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享引用",
+      "predicate": "支持",
+      "object": "相等比较",
+      "context": "比较操作是比较对象身份的基础操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MakeShared",
+      "predicate": "用于创建",
+      "object": "共享引用",
+      "context": "这是创建共享引用的标准方法，学习者需要掌握",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享引用",
+      "predicate": "不包含",
+      "object": "IsValid方法",
+      "context": "因为共享引用不可为空，所以不需要验证方法，这是与共享指针的重要区别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享引用",
+      "predicate": "编译时检查",
+      "object": "非空性",
+      "context": "编译器会阻止创建未初始化的共享引用，这是重要的安全保障",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享引用",
+      "predicate": "运行时断言",
+      "object": "空指针赋值",
+      "context": "即使编译通过，运行时也会对空指针赋值进行断言，这是第二道防线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:47:14.682Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3486,
+    "contentLength": 2324,
+    "processingTimeMs": 35780
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_asset-metadata-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_asset-metadata-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "资产元数据",
+      "predicate": "包含",
+      "object": "键值对",
+      "context": "元数据由键值对组成，这是其基本数据结构",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产元数据",
+      "predicate": "用于",
+      "object": "资产信息记录",
+      "context": "元数据的主要用途是记录资产的相关信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产元数据",
+      "predicate": "支持",
+      "object": "内容浏览器筛选",
+      "context": "元数据可用于在内容浏览器中筛选资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产元数据",
+      "predicate": "支持",
+      "object": "脚本识别资产",
+      "context": "元数据可在蓝图或Python脚本中用于识别资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产元数据",
+      "predicate": "依赖",
+      "object": "编辑器脚本工具插件",
+      "context": "管理资产元数据需要安装编辑器脚本工具插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产元数据",
+      "predicate": "通过",
+      "object": "FBX导入流程",
+      "context": "可以通过FBX导入流程将第三方应用中的元数据导入虚幻引擎",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产元数据",
+      "predicate": "关联",
+      "object": "资产管理器",
+      "context": "资产管理器中的资产注册表设置用于配置可过滤的元数据标签",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Get Metadata Tag节点",
+      "predicate": "用于",
+      "object": "获取单个元数据标签",
+      "context": "该节点用于根据名称检索单个元数据标签的值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Metadata Tag Values节点",
+      "predicate": "用于",
+      "object": "获取所有元数据",
+      "context": "该节点用于检索资产的所有元数据作为键值对映射",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Set Metadata Tag节点",
+      "predicate": "用于",
+      "object": "设置元数据标签",
+      "context": "该节点用于添加或更新元数据标签",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Remove Metadata Tag节点",
+      "predicate": "用于",
+      "object": "移除元数据标签",
+      "context": "该节点用于移除指定的元数据标签",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EditorAssetLibrary类",
+      "predicate": "提供",
+      "object": "元数据管理函数",
+      "context": "Python脚本中管理元数据所需的函数都在EditorAssetLibrary类中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "元数据操作",
+      "predicate": "需要",
+      "object": "资产加载",
+      "context": "在进行任何元数据操作前必须先加载相关资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "元数据修改",
+      "predicate": "需要",
+      "object": "资产保存",
+      "context": "修改元数据后需要保存资产才能使更改生效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图脚本",
+      "predicate": "需要",
+      "object": "PlacedEditorUtilityBase派生类",
+      "context": "使用蓝图管理元数据需要从PlacedEditorUtilityBase等仅编辑器类派生",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:06:16.451Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8574 字符)",
+      "timestamp": "2025-06-15T18:05:20.469Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 11972,
+    "contentLength": 8574,
+    "processingTimeMs": 55989
+  }
+}

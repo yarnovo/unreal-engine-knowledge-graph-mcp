@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_spawning-actors-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_spawning-actors-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "UWorld::SpawnActor()",
+      "predicate": "用于",
+      "object": "生成Actor",
+      "context": "UWorld::SpawnActor()是虚幻引擎中用于创建Actor实例的核心函数，理解它是学习Actor生成机制的基础",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Actor",
+      "predicate": "继承于",
+      "object": "UObject",
+      "context": "所有Actor都继承自UObject，这是理解虚幻引擎对象体系的重要基础关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SpawnActor模板函数",
+      "predicate": "简化",
+      "object": "UWorld::SpawnActor()",
+      "context": "模板函数提供了更简洁的接口来生成特定类型的Actor，是实际开发中更常用的方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Class参数",
+      "predicate": "指定",
+      "object": "生成Actor的类型",
+      "context": "Class参数决定了生成的Actor类型，这是理解动态对象创建的关键概念",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "模板参数T",
+      "predicate": "限定",
+      "object": "返回类型",
+      "context": "模板函数中的T参数既决定了生成的Actor类型，也决定了返回指针的类型，展示了C++模板在引擎中的应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Owner参数",
+      "predicate": "建立",
+      "object": "Actor所有权关系",
+      "context": "Owner参数建立了Actor之间的父子关系，这对理解对象生命周期管理很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Location参数",
+      "predicate": "决定",
+      "object": "Actor初始位置",
+      "context": "Location参数控制Actor生成时的空间位置，是3D游戏编程的基础概念",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Rotation参数",
+      "predicate": "决定",
+      "object": "Actor初始朝向",
+      "context": "Rotation参数控制Actor生成时的方向，与Location共同构成空间变换基础",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "bNoCollisionFail参数",
+      "predicate": "控制",
+      "object": "碰撞检测行为",
+      "context": "该参数决定生成时是否忽略碰撞，是处理物理交互的重要选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Instigator参数",
+      "predicate": "关联",
+      "object": "伤害责任",
+      "context": "Instigator用于标识造成伤害的源头，是游戏机制设计中的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "SpawnActor",
+      "predicate": "依赖",
+      "object": "UWorld",
+      "context": "生成Actor必须通过UWorld实例进行，这是理解引擎世界管理的关键",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "模板函数",
+      "predicate": "封装",
+      "object": "类型安全接口",
+      "context": "模板函数提供了类型安全的生成方式，减少了运行时类型转换的需要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor生成",
+      "predicate": "涉及",
+      "object": "构建脚本执行",
+      "context": "bDeferConstruction参数控制是否延迟执行构建脚本，这是理解Actor初始化流程的重要方面",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "SpawnActor",
+      "predicate": "返回",
+      "object": "AActor指针",
+      "context": "理解返回值的类型转换是安全使用生成函数的关键",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "OverrideLevel参数",
+      "predicate": "指定",
+      "object": "Actor所属关卡",
+      "context": "该参数控制Actor的持久性和关卡流加载行为，是关卡设计的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T20:53:26.904Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9486,
+    "contentLength": 6870,
+    "processingTimeMs": 48523
+  }
+}

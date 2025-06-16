@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_importing-grooms-into-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_importing-grooms-into-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Groom导入",
+      "predicate": "依赖",
+      "object": "Alembic Groom导入器插件",
+      "context": "导入Groom前必须启用Alembic Groom导入器插件，这是基础依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom导入",
+      "predicate": "依赖",
+      "object": "Groom插件",
+      "context": "Groom插件提供核心功能支持，是渲染和模拟的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom导入流程",
+      "predicate": "包含",
+      "object": "Groom绑定创建",
+      "context": "绑定是将Groom附着到骨骼网格体的关键步骤，属于标准流程环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom资产",
+      "predicate": "通过",
+      "object": "Groom组件附加",
+      "context": "Groom组件是实现骨骼网格体动态附着的主要技术手段",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom导入选项",
+      "predicate": "控制",
+      "object": "全局变换参数",
+      "context": "转换分段中的旋转/缩放参数直接影响Groom的空间表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导线类型",
+      "predicate": "决定",
+      "object": "Groom模拟方式",
+      "context": "不同类型导线（导入/生成/绑定）对应不同的模拟实现方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插值质量",
+      "predicate": "影响",
+      "object": "运动插值效果",
+      "context": "质量等级直接影响发束运动的自然程度和计算耗时",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DCC应用程序",
+      "predicate": "生成",
+      "object": "Alembic文件",
+      "context": "Maya等DCC工具是Groom数据的原始创作环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom绑定",
+      "predicate": "关联",
+      "object": "骨骼网格体",
+      "context": "绑定建立Groom与角色骨骼的关联关系，实现动态附着",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛发域材质",
+      "predicate": "应用于",
+      "object": "Groom资产",
+      "context": "材质赋予Groom视觉表现特性，是渲染的必要环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom导入流程",
+      "predicate": "前置",
+      "object": "项目设置配置",
+      "context": "正确配置项目是导入Groom的先决条件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "曲线消减",
+      "predicate": "优化",
+      "object": "渲染性能",
+      "context": "通过减少发束数量可提升实时渲染效率",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Groom资产编辑器",
+      "predicate": "修改",
+      "object": "导入后参数",
+      "context": "编辑器提供对消减/插值等参数的后期调整能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Alembic规范",
+      "predicate": "标准化",
+      "object": "DCC导出格式",
+      "context": "规范确保不同DCC工具导出的Groom数据能被正确解析",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "绑定型导线",
+      "predicate": "转换为",
+      "object": "骨骼系统",
+      "context": "特殊导线类型可实现与动画系统的深度集成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:32:40.875Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8130,
+    "contentLength": 4909,
+    "processingTimeMs": 52735
+  }
+}

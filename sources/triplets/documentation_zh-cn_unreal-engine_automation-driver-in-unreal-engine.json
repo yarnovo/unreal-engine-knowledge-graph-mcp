@@ -1,0 +1,195 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_automation-driver-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_automation-driver-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "自动化驱动程序",
+      "predicate": "属于",
+      "object": "虚幻引擎",
+      "context": "自动化驱动程序是虚幻引擎的一个功能模块，用于模拟用户输入",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "自动化驱动程序",
+      "predicate": "模拟",
+      "object": "用户输入",
+      "context": "自动化驱动程序的核心功能是模拟用户输入行为，如点击、键入等",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "自动化驱动程序",
+      "predicate": "支持",
+      "object": "功能测试",
+      "context": "该功能主要用于编写模拟用户行为的功能测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化驱动程序",
+      "predicate": "基于",
+      "object": "平台输入接口",
+      "context": "通过替换平台输入接口的实现来工作",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "自动化驱动程序",
+      "predicate": "包含",
+      "object": "同步API",
+      "context": "提供同步API用于简单场景的输入模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化驱动程序",
+      "predicate": "包含",
+      "object": "异步API",
+      "context": "提供异步API用于复杂场景的输入模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化驱动程序",
+      "predicate": "使用",
+      "object": "定位器",
+      "context": "通过定位器来识别应用程序中的交互元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定位器",
+      "predicate": "包含",
+      "object": "By::Id",
+      "context": "通过元素ID定位是最理想的方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定位器",
+      "predicate": "包含",
+      "object": "By::Path",
+      "context": "通过路径定位元素是最强大但也最脆弱的方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定位器",
+      "predicate": "包含",
+      "object": "By::Cursor",
+      "context": "通过光标位置定位元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定位器",
+      "predicate": "包含",
+      "object": "By::Delegate",
+      "context": "通过自定义委托定位元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化驱动程序",
+      "predicate": "支持",
+      "object": "元素操作",
+      "context": "可以直接在元素引用上执行操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化驱动程序",
+      "predicate": "支持",
+      "object": "序列操作",
+      "context": "可以通过创建序列来执行一系列操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化驱动程序",
+      "predicate": "支持",
+      "object": "等待机制",
+      "context": "提供内置支持来等待各种事件的发生",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化驱动程序",
+      "predicate": "结合使用",
+      "object": "自动化规范测试",
+      "context": "可以与新的规范测试类型结合使用",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "自动化驱动程序",
+      "predicate": "计划支持",
+      "object": "场景/Actor交互",
+      "context": "未来计划扩展支持场景/Actor交互",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "自动化驱动程序",
+      "predicate": "计划支持",
+      "object": "控制器输入",
+      "context": "未来计划扩展支持控制器输入",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "自动化驱动程序",
+      "predicate": "计划支持",
+      "object": "触摸输入/手势",
+      "context": "未来计划扩展支持触摸输入/手势",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "自动化驱动程序",
+      "predicate": "计划支持",
+      "object": "运动检测",
+      "context": "未来计划扩展支持运动检测",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "自动化驱动程序",
+      "predicate": "依赖",
+      "object": "GameThread",
+      "context": "需要注意API不能在GameThread上执行",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "自动化驱动程序",
+      "predicate": "使用",
+      "object": "FDriverElementRef",
+      "context": "通过元素引用执行操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化驱动程序",
+      "predicate": "使用",
+      "object": "FDriverSequenceRef",
+      "context": "通过序列引用执行一系列操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:10:42.380Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11965 字符)",
+      "timestamp": "2025-06-15T18:09:41.603Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19031,
+    "contentLength": 11965,
+    "processingTimeMs": 60786
+  }
+}

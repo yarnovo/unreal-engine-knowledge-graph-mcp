@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-create-a-dark-smoke-effect-in-niagara-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-create-a-dark-smoke-effect-in-niagara-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Niagara系统",
+      "predicate": "包含",
+      "object": "发射器",
+      "context": "Niagara系统由一个或多个发射器组成，发射器负责生成和管理粒子效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FX_DarkSmoke",
+      "predicate": "基于",
+      "object": "FX_Smoke",
+      "context": "FX_DarkSmoke是通过复制并修改FX_Smoke发射器创建的，学习如何复用现有资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器",
+      "predicate": "控制",
+      "object": "粒子生成",
+      "context": "发射器通过生成速率等参数控制粒子的生成行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子生成",
+      "predicate": "包含",
+      "object": "初始化粒子模块",
+      "context": "粒子生成阶段包含初始化粒子模块，用于设置粒子的初始属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "初始化粒子模块",
+      "predicate": "设置",
+      "object": "生命周期参数",
+      "context": "初始化粒子模块可以设置粒子的生命周期参数，影响粒子存在时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "初始化粒子模块",
+      "predicate": "设置",
+      "object": "颜色参数",
+      "context": "初始化粒子模块可以设置粒子的颜色参数，包括RGB值和随机范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "初始化粒子模块",
+      "predicate": "设置",
+      "object": "Sprite大小",
+      "context": "初始化粒子模块可以设置Sprite粒子的大小参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子更新",
+      "predicate": "修改",
+      "object": "粒子行为",
+      "context": "粒子更新阶段可以修改粒子的行为，如加速度和颜色变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "加速力模块",
+      "predicate": "影响",
+      "object": "粒子运动",
+      "context": "加速力模块可以给粒子施加加速度，影响其运动轨迹",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "比例颜色模块",
+      "predicate": "控制",
+      "object": "粒子透明度",
+      "context": "比例颜色模块可以控制粒子随时间的透明度变化，实现淡入淡出效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "球体位置模块",
+      "predicate": "决定",
+      "object": "粒子生成位置",
+      "context": "球体位置模块决定了粒子在球体范围内的生成位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "M_smoke_subUV材质",
+      "predicate": "用于",
+      "object": "烟雾效果",
+      "context": "M_smoke_subUV材质专门用于创建烟雾粒子效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sprite粒子",
+      "predicate": "适用于",
+      "object": "烟雾效果",
+      "context": "Sprite粒子特别适合用于创建烟雾等体积效果",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "发射器更新",
+      "predicate": "影响",
+      "object": "发射器行为",
+      "context": "发射器更新组中的模块影响发射器整体的行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生命周期模式",
+      "predicate": "决定",
+      "object": "发射器持续时间",
+      "context": "生命周期模式设置决定了发射器是由自身还是系统控制持续时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成速率",
+      "predicate": "控制",
+      "object": "粒子数量",
+      "context": "生成速率参数控制单位时间内生成的粒子数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara编辑器",
+      "predicate": "用于",
+      "object": "编辑发射器",
+      "context": "Niagara编辑器是专门用于创建和修改Niagara发射器和系统的工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容侧滑菜单",
+      "predicate": "用于",
+      "object": "管理系统资源",
+      "context": "内容侧滑菜单是虚幻引擎中管理项目资源的主要界面",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "DarkSmoke系统",
+      "predicate": "实现",
+      "object": "黑烟效果",
+      "context": "DarkSmoke系统通过组合多个模块实现了最终的黑烟视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:25:40.966Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10864 字符)",
+      "timestamp": "2025-06-15T19:24:31.749Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14570,
+    "contentLength": 10864,
+    "processingTimeMs": 69224
+  }
+}

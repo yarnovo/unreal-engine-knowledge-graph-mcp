@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_lobbies-interface-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_lobbies-interface-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "大厅接口",
+      "predicate": "提供",
+      "object": "API",
+      "context": "大厅接口提供了创建和管理大厅的API，帮助开发者实现多人游戏中的玩家分组和状态共享。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大厅",
+      "predicate": "包含",
+      "object": "玩家",
+      "context": "大厅是一组玩家的集合，所有玩家共享某种状态，如参加同一场比赛或等待比赛开始。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大厅模式",
+      "predicate": "定义",
+      "object": "属性",
+      "context": "大厅模式定义了属性和其类型、值约束，用于创建大厅并验证属性。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "厅长",
+      "predicate": "可以更改",
+      "object": "大厅属性",
+      "context": "厅长有权限更改大厅的属性，这些更改会实时通知所有大厅成员。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大厅成员",
+      "predicate": "可以更改",
+      "object": "个人属性",
+      "context": "每个大厅成员可以随时更改自己的属性，这些更改会通知其他成员。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CreateLobby",
+      "predicate": "用于",
+      "object": "创建大厅",
+      "context": "CreateLobby函数用于创建并加入新大厅，是开发者实现多人游戏大厅功能的基础API。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FindLobbies",
+      "predicate": "用于",
+      "object": "搜索大厅",
+      "context": "FindLobbies函数允许玩家按照参数搜索适合的大厅，是加入多人游戏的关键步骤。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "JoinLobby",
+      "predicate": "用于",
+      "object": "加入大厅",
+      "context": "JoinLobby函数允许玩家通过大厅ID加入特定大厅，实现多人游戏的玩家聚集。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LeaveLobby",
+      "predicate": "用于",
+      "object": "离开大厅",
+      "context": "LeaveLobby函数允许玩家离开已加入的大厅，结束多人游戏会话。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InviteLobbyMember",
+      "predicate": "用于",
+      "object": "邀请玩家",
+      "context": "InviteLobbyMember函数允许大厅成员邀请其他玩家加入大厅，扩展多人游戏群体。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ModifyLobbyAttributes",
+      "predicate": "用于",
+      "object": "更新大厅属性",
+      "context": "ModifyLobbyAttributes函数允许厅长更新大厅属性，这些更改会通知所有成员。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ModifyLobbyMemberAttributes",
+      "predicate": "用于",
+      "object": "更新成员属性",
+      "context": "ModifyLobbyMemberAttributes函数允许成员更新自己的属性，这些更改会通知其他成员。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ELobbyJoinPolicy",
+      "predicate": "定义",
+      "object": "加入规则",
+      "context": "ELobbyJoinPolicy枚举类定义了大厅的加入规则，如公开、仅邀请等，影响玩家如何加入大厅。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FLobbyMember",
+      "predicate": "包含",
+      "object": "成员属性",
+      "context": "FLobbyMember结构体包含大厅成员的账号ID、平台信息、属性等，是管理成员数据的基础。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FLobby",
+      "predicate": "包含",
+      "object": "大厅信息",
+      "context": "FLobby结构体包含大厅ID、厅长、成员列表等，是管理大厅数据的基础。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大厅接口",
+      "predicate": "基于",
+      "object": "模式系统",
+      "context": "大厅接口使用模式系统定义大厅和成员属性，确保数据结构和验证的一致性。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LobbyBase",
+      "predicate": "继承",
+      "object": "模式定义",
+      "context": "所有大厅模式必须从LobbyBase派生，确保基础属性和搜索功能的统一性。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SchemaCompatibilityId",
+      "predicate": "用于",
+      "object": "模式兼容性",
+      "context": "SchemaCompatibilityId属性确保模式在客户端之间的兼容性，是多人游戏数据同步的关键。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务大厅接口",
+      "predicate": "替代",
+      "object": "在线子系统",
+      "context": "在线服务大厅接口是在线子系统的新接口，提供了更现代和功能丰富的多人游戏支持。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "大厅生命周期",
+      "predicate": "包括",
+      "object": "创建、查找、加入、离开",
+      "context": "大厅生命周期涵盖创建、查找、加入和离开等阶段，是理解多人游戏大厅功能的关键。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:47:07.495Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15637 字符)",
+      "timestamp": "2025-06-15T19:45:51.847Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 22585,
+    "contentLength": 15637,
+    "processingTimeMs": 75657
+  }
+}

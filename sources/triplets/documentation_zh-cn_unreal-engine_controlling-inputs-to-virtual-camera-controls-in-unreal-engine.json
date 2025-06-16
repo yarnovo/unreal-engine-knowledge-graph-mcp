@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_controlling-inputs-to-virtual-camera-controls-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_controlling-inputs-to-virtual-camera-controls-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "增强输入",
+      "predicate": "支持",
+      "object": "虚拟摄像机功能按钮",
+      "context": "增强输入功能可以管理大量操作并动态更改输入行为，适用于虚拟摄像机功能按钮的输入控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link VCAM应用",
+      "predicate": "映射",
+      "object": "硬件设备输入",
+      "context": "通过Live Link VCAM应用可以将硬件设备的输入映射到虚幻引擎中的虚拟摄像机功能按钮",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "包含",
+      "object": "VCam输入设置",
+      "context": "VCam输入设置位于项目设置的Game分类下，用于配置虚拟摄像机的全局输入设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟摄像机Actor",
+      "predicate": "包含",
+      "object": "输入配置文件",
+      "context": "每个虚拟摄像机Actor在细节面板中都包含输入配置文件设置，用于自定义该Actor的输入映射",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入配置文件",
+      "predicate": "包含",
+      "object": "可映射按键覆盖",
+      "context": "输入配置文件包含可映射按键覆盖数组，用于定义具体的硬件输入到虚拟摄像机操作的映射关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认输入配置文件",
+      "predicate": "继承",
+      "object": "输入配置文件",
+      "context": "默认输入配置文件是输入配置文件的特殊类型，可以作为自定义配置文件的起始点",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚拟摄像机Actor",
+      "predicate": "支持",
+      "object": "输入设备设置",
+      "context": "虚拟摄像机Actor支持输入设备设置，可以指定特定的输入设备ID来控制该Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏手柄",
+      "predicate": "用于",
+      "object": "虚拟摄像机控制",
+      "context": "游戏手柄可以作为输入设备用于控制虚拟摄像机Actor，每个手柄有唯一的设备ID",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "键盘和鼠标",
+      "predicate": "限制",
+      "object": "虚拟摄像机输入",
+      "context": "键盘和鼠标在虚拟摄像机输入中有特殊限制，不能分配给特定Actor且设备ID固定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入类型",
+      "predicate": "决定",
+      "object": "可映射操作",
+      "context": "输入类型(如布尔值或浮点值)决定了可以映射到哪些虚拟摄像机操作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚拟摄像机功能",
+      "predicate": "属于",
+      "object": "Beta功能",
+      "context": "文档明确指出虚拟摄像机功能目前处于Beta阶段，在产品发布中需要谨慎使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入配置文件",
+      "predicate": "应用于",
+      "object": "全局设置或单个Actor",
+      "context": "输入配置文件可以应用于项目全局设置，也可以单独应用于场景中的虚拟摄像机Actor",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设备ID",
+      "predicate": "标识",
+      "object": "输入设备",
+      "context": "每个连接的输入设备都有唯一的ID，从0开始递增，用于区分不同的输入设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:35:03.274Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11667,
+    "contentLength": 7553,
+    "processingTimeMs": 45974
+  }
+}

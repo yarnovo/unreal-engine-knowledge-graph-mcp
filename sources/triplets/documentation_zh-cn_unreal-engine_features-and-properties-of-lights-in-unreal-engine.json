@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_features-and-properties-of-lights-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_features-and-properties-of-lights-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "光源",
+      "predicate": "包含",
+      "object": "光源属性",
+      "context": "光源属性是光源的核心组成部分，了解这些属性有助于掌握光源的配置和使用",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源属性",
+      "predicate": "取决于",
+      "object": "光源的移动性和类型",
+      "context": "光源属性的可用性和效果受光源移动性和类型的直接影响，这是配置光源的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源移动性",
+      "predicate": "分为",
+      "object": "静态、固定、可移动",
+      "context": "理解这三种移动性类型是学习光源特性的基础，它们决定了光源的行为和性能",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "光源",
+      "predicate": "影响",
+      "object": "阴影",
+      "context": "光源的设置直接影响阴影的生成方式和质量，这是光照系统的重要关联",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源",
+      "predicate": "补充",
+      "object": "环境光照",
+      "context": "某些光源类型可以增强环境光照效果，理解这种关系有助于构建更真实的光照环境",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "光源",
+      "predicate": "关联",
+      "object": "全局光照",
+      "context": "光源属性会影响全局光照的效果，这是构建高质量光照场景的关键知识",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "定向光源",
+      "predicate": "具有",
+      "object": "特定属性",
+      "context": "定向光源作为特殊光源类型有其独特的属性集，需要单独学习",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空光照",
+      "predicate": "属于",
+      "object": "环境光源",
+      "context": "天空光照是环境光照系统的重要组成部分，理解这种分类有助于组织光照知识",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "光源",
+      "predicate": "支持",
+      "object": "IES光源描述文件",
+      "context": "了解IES文件支持可以帮助创建更真实的专业光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "光源",
+      "predicate": "使用",
+      "object": "光照通道",
+      "context": "光照通道是实现选择性光照的重要技术，与光源配置密切相关",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "光源属性",
+      "predicate": "包含",
+      "object": "物理光照单位",
+      "context": "物理光照单位是光源属性的重要设置项，影响光照的真实性",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源",
+      "predicate": "关联",
+      "object": "网格体距离场",
+      "context": "网格体距离场技术会影响光源的阴影和间接光照效果",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "定向光源",
+      "predicate": "关联",
+      "object": "天空大气组件",
+      "context": "定向光源常与天空大气系统配合使用，创造真实的户外光照效果",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "天空光照",
+      "predicate": "关联",
+      "object": "体积云组件",
+      "context": "天空光照与体积云系统协同工作，创造真实的天空环境",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "光源设置",
+      "predicate": "影响",
+      "object": "反射环境",
+      "context": "光源配置会影响场景中的反射效果，这是光照与材质交互的重要方面",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T19:04:44.725Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9607,
+    "contentLength": 7265,
+    "processingTimeMs": 44936
+  }
+}

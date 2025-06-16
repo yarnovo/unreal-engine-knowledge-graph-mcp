@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_virtual-camera-multi-user-quick-start-guide-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_virtual-camera-multi-user-quick-start-guide-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "多用户虚拟摄像机",
+      "predicate": "依赖",
+      "object": "多用户编辑插件",
+      "context": "多用户虚拟摄像机功能需要启用多用户编辑插件才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户虚拟摄像机",
+      "predicate": "用于",
+      "object": "虚拟制片项目",
+      "context": "多用户虚拟摄像机功能专门设计用于虚拟制片项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户虚拟摄像机",
+      "predicate": "包含",
+      "object": "VCam Actor",
+      "context": "多用户虚拟摄像机工作流程需要使用VCam Actor作为核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户虚拟摄像机",
+      "predicate": "替代",
+      "object": "旧版MU角色",
+      "context": "新版多用户虚拟摄像机工作流程替代了旧版MU角色系统",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "多用户编辑插件",
+      "predicate": "支持",
+      "object": "多用户会话",
+      "context": "多用户编辑插件支持创建和管理多用户会话",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VCam Actor",
+      "predicate": "拥有",
+      "object": "VCam组件",
+      "context": "VCam Actor包含VCam组件来实现虚拟摄像机功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VCam组件",
+      "predicate": "控制",
+      "object": "虚拟摄像机",
+      "context": "VCam组件负责控制虚拟摄像机的行为和属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard插件",
+      "predicate": "管理",
+      "object": "多用户设备连接",
+      "context": "Switchboard插件用于管理和协调多用户环境中不同设备的连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VP角色",
+      "predicate": "区分",
+      "object": "用户功能",
+      "context": "VP角色用于区分不同用户在虚拟制片环境中的功能和权限",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "远程录制",
+      "predicate": "需要",
+      "object": "录制摄像机",
+      "context": "远程录制功能需要使用专门的录制摄像机而非VCam Actor本身",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户虚拟摄像机",
+      "predicate": "基于",
+      "object": "高频率复制",
+      "context": "新版多用户虚拟摄像机工作流程基于高频率复制技术",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "旧版MU角色",
+      "predicate": "使用",
+      "object": "低频率复制",
+      "context": "旧版MU角色系统仅支持低频率复制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "多用户浏览器",
+      "predicate": "显示",
+      "object": "会话连接状态",
+      "context": "多用户浏览器用于显示和管理多用户会话的连接状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟制片项目",
+      "predicate": "可以创建",
+      "object": "模板项目",
+      "context": "虚拟制片项目可以从模板项目快速创建",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "VCam Actor",
+      "predicate": "关联",
+      "object": "VP角色",
+      "context": "VCam Actor可以与特定的VP角色关联，以确定控制权限",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:28:57.973Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10492 字符)",
+      "timestamp": "2025-06-15T21:28:14.748Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15088,
+    "contentLength": 10492,
+    "processingTimeMs": 43231
+  }
+}

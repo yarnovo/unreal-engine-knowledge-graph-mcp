@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_paint-vertex-colors-tool-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_paint-vertex-colors-tool-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Paint Vertex Colors Tool",
+      "predicate": "用于",
+      "object": "编辑导入的顶点颜色",
+      "context": "该工具可以直接编辑导入的顶点颜色数据，帮助开发者调整模型外观",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Paint Vertex Colors Tool",
+      "predicate": "生成",
+      "object": "纹理",
+      "context": "通过Vertex Color节点可以将绘制的顶点颜色转换为纹理，扩展材质创作可能性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Paint Vertex Colors Tool",
+      "predicate": "创建",
+      "object": "遮罩",
+      "context": "顶点颜色数据可用于创建材质遮罩，实现局部效果控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Paint Vertex Colors Tool",
+      "predicate": "支持",
+      "object": "Nanite网格",
+      "context": "该工具是少数能直接处理Nanite几何体顶点颜色的工具，说明其技术先进性",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Paint Vertex Colors Tool",
+      "predicate": "区别于",
+      "object": "Mesh Paint Mode",
+      "context": "两者都是顶点绘制工具，但前者修改资产级数据，后者处理实例级数据，这是关键区别点",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Asset Vertex Colors",
+      "predicate": "存储于",
+      "object": "静态网格体资产",
+      "context": "资产级顶点颜色被所有实例共享，这是优化Nanite工作流的关键设计",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Instance Vertex Colors",
+      "predicate": "不支持",
+      "object": "Nanite网格",
+      "context": "组件级顶点颜色与Nanite的虚拟化几何架构不兼容，这是重要的技术限制",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Modeling Mode",
+      "predicate": "包含",
+      "object": "Paint Vertex Colors Tool",
+      "context": "该工具集成在Modeling Mode的Deform分类下，说明其属于建模工具链的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Skeleton Editor",
+      "predicate": "包含",
+      "object": "Paint Vertex Colors Tool",
+      "context": "在骨骼编辑器的Skin分类中也可访问该工具，表明其在角色工作流中的应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Paint Vertices",
+      "predicate": "属于",
+      "object": "Action操作模式",
+      "context": "这是工具的核心绘制模式之一，采用平滑衰减方式影响顶点颜色",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Poly Lasso",
+      "predicate": "扩展",
+      "object": "绘制方式",
+      "context": "提供多边形/手绘套索选择功能，增强了复杂区域的绘制精度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Erase",
+      "predicate": "属于",
+      "object": "Secondary Brush",
+      "context": "作为辅助笔刷操作，提供颜色擦除功能，完善绘制工作流",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Channel Filters",
+      "predicate": "控制",
+      "object": "颜色通道",
+      "context": "允许单独操作RGBA通道，实现精确的颜色数据管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Bake Vertex Colors",
+      "predicate": "转换",
+      "object": "静态网格体",
+      "context": "可将顶点颜色数据烘焙到其他网格体，但精度受顶点位置差异影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Viewport",
+      "predicate": "支持",
+      "object": "Vertex Colors可视化",
+      "context": "通过视口工具栏可查看顶点颜色效果，但Nanite网格除外",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PolyGroup layers",
+      "predicate": "替代",
+      "object": "Instance Vertex Colors",
+      "context": "当需要实例级差异时，可通过PolyGroup层实现类似效果",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Quick Actions",
+      "predicate": "包含",
+      "object": "Fill black/white",
+      "context": "快速操作提供批量填充功能，显著提升工作效率",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "BlendAll",
+      "predicate": "处理",
+      "object": "分裂顶点",
+      "context": "该操作可平均分裂顶点的颜色值，消除接缝问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Shift+G",
+      "predicate": "实现",
+      "object": "颜色采样",
+      "context": "快捷键支持从现有顶点获取颜色值，便于颜色匹配",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Vertex Color节点",
+      "predicate": "使用",
+      "object": "材质编辑器",
+      "context": "将绘制的顶点颜色数据接入材质系统，建立建模-材质的桥梁",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:17:54.819Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8663 字符)",
+      "timestamp": "2025-06-15T20:16:53.983Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 8897,
+    "contentLength": 8663,
+    "processingTimeMs": 60842
+  }
+}

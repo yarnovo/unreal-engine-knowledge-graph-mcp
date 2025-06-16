@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_searching-in-blueprints-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_searching-in-blueprints-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "蓝图编辑器",
+      "predicate": "包含",
+      "object": "搜索功能",
+      "context": "蓝图编辑器内置搜索功能，帮助开发者快速定位蓝图中的元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "搜索结果窗口",
+      "predicate": "用于",
+      "object": "显示搜索匹配项",
+      "context": "搜索结果窗口专门用于展示符合搜索条件的蓝图元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "搜索功能",
+      "predicate": "支持",
+      "object": "异步搜索",
+      "context": "搜索过程是异步的，允许用户在搜索进行时继续使用编辑器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "搜索功能",
+      "predicate": "依赖",
+      "object": "资源注册表",
+      "context": "搜索功能利用资源注册表中的索引数据来提高搜索效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高级搜索语法",
+      "predicate": "扩展",
+      "object": "基本搜索功能",
+      "context": "高级搜索语法提供了更精确的搜索方式，是对基本搜索功能的扩展",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "过滤器",
+      "predicate": "属于",
+      "object": "高级搜索语法",
+      "context": "过滤器是高级搜索语法的核心组成部分，用于精确限定搜索范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "All子过滤器",
+      "predicate": "是",
+      "object": "特殊过滤器",
+      "context": "All子过滤器是一种特殊过滤器，能够测试对象的所有子类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "索引过程",
+      "predicate": "影响",
+      "object": "编辑器性能",
+      "context": "执行索引所有蓝图的操作会显著影响编辑器性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Find References功能",
+      "predicate": "用于",
+      "object": "查找元素引用",
+      "context": "通过Find References功能可以查找特定蓝图元素在项目中的引用情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PinCategory",
+      "predicate": "表示",
+      "object": "引脚类型",
+      "context": "PinCategory标记用于表示引脚的具体类型，如布尔、字符串等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图搜索",
+      "predicate": "支持",
+      "object": "多蓝图同时搜索",
+      "context": "取消'仅在当前蓝图中搜索'选项后，可以同时在多个蓝图中进行搜索",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MemberGuid",
+      "predicate": "确保",
+      "object": "搜索精确性",
+      "context": "使用MemberGuid可以确保搜索的是特定变量或函数，即使存在同名元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "索引数据",
+      "predicate": "决定",
+      "object": "搜索可用性",
+      "context": "蓝图必须被编入索引后，其内容才能被搜索功能使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:41:38.474Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5159,
+    "contentLength": 3358,
+    "processingTimeMs": 36220
+  }
+}

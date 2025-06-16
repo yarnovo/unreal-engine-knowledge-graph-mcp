@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_derived-data-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_derived-data-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "派生数据设置",
+      "predicate": "包含",
+      "object": "警告设置",
+      "context": "派生数据设置中包含警告设置选项，帮助开发者识别配置问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "警告设置",
+      "predicate": "用于",
+      "object": "DDC配置检查",
+      "context": "警告设置专门用于检查DDC配置是否正确设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DDC",
+      "predicate": "支持",
+      "object": "本地缓存",
+      "context": "DDC支持本地缓存功能，可通过环境变量或编辑器设置配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DDC",
+      "predicate": "支持",
+      "object": "共享缓存",
+      "context": "DDC支持共享缓存功能，可通过环境变量或编辑器设置配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DDC",
+      "predicate": "支持",
+      "object": "S3缓存",
+      "context": "DDC支持AWS S3缓存功能，需要专门启用和配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DDC",
+      "predicate": "支持",
+      "object": "Unreal Cloud DDC",
+      "context": "DDC支持使用Unreal Cloud DDC存储方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全局本地DDCPath",
+      "predicate": "依赖",
+      "object": "UE-LocalDataCachePath",
+      "context": "全局本地DDCPath设置依赖于UE-LocalDataCachePath环境变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全局共享DDCPath",
+      "predicate": "依赖",
+      "object": "UE-SharedDataCachePath",
+      "context": "全局共享DDCPath设置依赖于UE-SharedDataCachePath环境变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "S3DDC",
+      "predicate": "需要",
+      "object": "Enable AWS S3 Cache",
+      "context": "使用S3DDC需要先启用Enable AWS S3 Cache设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "派生数据设置",
+      "predicate": "关联",
+      "object": "Unreal Cloud DDC",
+      "context": "派生数据设置中推荐使用Unreal Cloud DDC作为存储方案",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:49:24.727Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2473,
+    "contentLength": 1813,
+    "processingTimeMs": 44198
+  }
+}

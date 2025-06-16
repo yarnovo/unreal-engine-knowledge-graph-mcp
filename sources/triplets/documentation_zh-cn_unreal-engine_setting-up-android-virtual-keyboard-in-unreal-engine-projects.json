@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_setting-up-android-virtual-keyboard-in-unreal-engine-projects",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_setting-up-android-virtual-keyboard-in-unreal-engine-projects.md",
+  "triples": [
+    {
+      "subject": "Android虚拟键盘",
+      "predicate": "支持",
+      "object": "标准弹出对话框输入框",
+      "context": "文档明确指出Android项目支持两种输入方式，帮助学习者理解输入选项",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android虚拟键盘",
+      "predicate": "支持",
+      "object": "操作系统虚拟键盘",
+      "context": "文档明确指出Android项目支持两种输入方式，帮助学习者理解输入选项",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "包含",
+      "object": "APK打包",
+      "context": "项目设置菜单中包含APK打包选项，这是配置Android虚拟键盘的关键路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "APK打包",
+      "predicate": "包含",
+      "object": "启用改进型虚拟键盘",
+      "context": "APK打包部分包含启用虚拟键盘的选项，这是实现功能的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件蓝图",
+      "predicate": "用于",
+      "object": "创建输入文本界面",
+      "context": "控件蓝图是创建用户界面的基础工具，帮助学习者理解UI构建流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "文本框",
+      "predicate": "属于",
+      "object": "UMG组件",
+      "context": "文本框是UMG的核心组件之一，理解这一点有助于UI设计",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡蓝图",
+      "predicate": "控制",
+      "object": "控件显示逻辑",
+      "context": "关卡蓝图负责控制UI控件的创建和显示，这是游戏逻辑的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "创建控件节点",
+      "predicate": "生成",
+      "object": "UI实例",
+      "context": "该节点负责实例化UI控件，是蓝图编程中的关键操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "添加视口节点",
+      "predicate": "实现",
+      "object": "UI显示",
+      "context": "该节点将UI添加到游戏视口，完成显示流程的最后一步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnVirtualKeyboardShown",
+      "predicate": "响应",
+      "object": "键盘显示事件",
+      "context": "该事件处理程序用于调整UI布局，避免键盘遮挡，是移动开发的重要知识点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnVirtualKeyboardHidden",
+      "predicate": "响应",
+      "object": "键盘隐藏事件",
+      "context": "该事件处理程序用于键盘隐藏后的UI恢复，与显示事件配套使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android.NewKeyboard",
+      "predicate": "控制",
+      "object": "键盘类型切换",
+      "context": "该控制台变量允许开发者动态切换键盘实现方式，是高级配置选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认图设置",
+      "predicate": "影响",
+      "object": "项目启动行为",
+      "context": "设置默认图决定了项目启动时加载的场景，是项目配置的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG",
+      "predicate": "基于",
+      "object": "控件蓝图系统",
+      "context": "理解UMG基于控件蓝图系统，有助于掌握虚幻引擎的UI开发体系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Android虚拟键盘",
+      "predicate": "依赖",
+      "object": "Android平台设置",
+      "context": "虚拟键盘功能需要正确配置Android平台设置才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:44:15.982Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7317,
+    "contentLength": 5505,
+    "processingTimeMs": 44214
+  }
+}

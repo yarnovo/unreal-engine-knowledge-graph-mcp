@@ -1,0 +1,147 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_implementing-projectiles-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_implementing-projectiles-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "FPSProjectile",
+      "predicate": "继承自",
+      "object": "Actor",
+      "context": "FPSProjectile是UE中Actor的子类，这是所有可放置游戏对象的基础类",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "FPSProjectile",
+      "predicate": "包含",
+      "object": "USphereComponent",
+      "context": "发射物使用球体组件处理碰撞检测",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FPSProjectile",
+      "predicate": "包含",
+      "object": "UProjectileMovementComponent",
+      "context": "专门用于控制发射物的移动行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FPSProjectile",
+      "predicate": "包含",
+      "object": "UStaticMeshComponent",
+      "context": "用于显示发射物的3D模型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FPSCharacter",
+      "predicate": "控制",
+      "object": "FPSProjectile",
+      "context": "角色通过Fire()函数生成并控制发射物",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FPSCharacter",
+      "predicate": "依赖",
+      "object": "Input系统",
+      "context": "角色通过输入映射绑定射击操作",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "FPSProjectile",
+      "predicate": "实现",
+      "object": "碰撞检测",
+      "context": "通过OnHit函数处理与其他物体的碰撞交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FPSHUD",
+      "predicate": "显示",
+      "object": "十字准星",
+      "context": "HUD负责在屏幕中央绘制瞄准准星",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ProjectileMovementComponent",
+      "predicate": "控制",
+      "object": "发射物物理特性",
+      "context": "设置速度、反弹、重力等物理参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FPSProjectile",
+      "predicate": "使用",
+      "object": "自定义碰撞通道",
+      "context": "专门为发射物创建Projectile碰撞通道",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "FPSCharacter",
+      "predicate": "前置要求",
+      "object": "角色设置",
+      "context": "实现发射物前需要先完成角色基础设置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "发射物系统",
+      "predicate": "包含步骤",
+      "object": "3.1-3.5",
+      "context": "完整实现包含从创建到交互的五个步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMaterialInstanceDynamic",
+      "predicate": "用于",
+      "object": "发射物材质",
+      "context": "动态创建并应用发射物材质实例",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "FActorSpawnParameters",
+      "predicate": "用于",
+      "object": "发射物生成",
+      "context": "控制发射物生成时的所有权等参数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "碰撞系统",
+      "predicate": "影响",
+      "object": "发射物行为",
+      "context": "碰撞设置决定了发射物如何与世界交互",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "FPSProjectile",
+      "predicate": "具有",
+      "object": "生命周期",
+      "context": "通过InitialLifeSpan设置自动销毁时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:31:30.873Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (84615 字符)",
+      "timestamp": "2025-06-15T19:30:37.585Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 102253,
+    "contentLength": 84615,
+    "processingTimeMs": 53299
+  }
+}

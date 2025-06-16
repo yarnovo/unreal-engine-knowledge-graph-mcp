@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_xgen-guidelines-for-hair-creation-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_xgen-guidelines-for-hair-creation-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "XGen毛发创建系统",
+      "predicate": "用于",
+      "object": "Maya",
+      "context": "XGen是Maya中的毛发创建工具，用于生成和编辑毛发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "XGen毛发",
+      "predicate": "导出为",
+      "object": "Alembic文件",
+      "context": "XGen毛发需要通过Alembic格式导入到虚幻引擎",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Alembic文件",
+      "predicate": "包含",
+      "object": "NURBS曲线",
+      "context": "Alembic文件存储了毛发作为NURBS曲线的数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NURBS曲线",
+      "predicate": "转换为",
+      "object": "Groom发束",
+      "context": "NURBS曲线是毛发在虚幻引擎中的基础表示形式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "XGen交互式Groom",
+      "predicate": "替代",
+      "object": "旧版XGen说明",
+      "context": "交互式Groom是新版工作流程，取代旧版XGen说明",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "导线",
+      "predicate": "用于",
+      "object": "毛发模拟",
+      "context": "导线曲线在虚幻引擎中用于驱动毛发模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "组ID属性",
+      "predicate": "关联",
+      "object": "材质指定",
+      "context": "组ID用于将不同组的毛发关联到不同材质",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "groom_root_uv属性",
+      "predicate": "映射",
+      "object": "毛发纹理",
+      "context": "根UV属性将毛发纹理映射到底层网格UV",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛发着色模型",
+      "predicate": "支持",
+      "object": "毛发属性表达式",
+      "context": "毛发材质使用特殊着色模型处理毛发属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Maya",
+      "predicate": "导出",
+      "object": "虚幻引擎",
+      "context": "毛发创建流程从Maya开始，最终导入虚幻引擎",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "XGen编辑器",
+      "predicate": "包含",
+      "object": "导线转曲线工具",
+      "context": "XGen编辑器提供将导线转换为NURBS曲线的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Alembic导出",
+      "predicate": "需要",
+      "object": "特定属性设置",
+      "context": "导出Alembic时需要正确设置groom_group_id等属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛发材质",
+      "predicate": "应用于",
+      "object": "导入的Alembic毛发",
+      "context": "创建的毛发材质需要指定给导入的毛发资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "groom_width属性",
+      "predicate": "控制",
+      "object": "毛发宽度",
+      "context": "该属性定义了毛发在渲染时的宽度表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "XGen样条说明",
+      "predicate": "导出为",
+      "object": "NURBS曲线",
+      "context": "样条说明需要通过特定流程导出为可用的曲线数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:36:04.934Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13876 字符)",
+      "timestamp": "2025-06-15T21:35:23.764Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17414,
+    "contentLength": 13876,
+    "processingTimeMs": 41179
+  }
+}

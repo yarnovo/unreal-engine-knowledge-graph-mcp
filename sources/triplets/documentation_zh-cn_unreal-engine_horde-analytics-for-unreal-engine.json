@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_horde-analytics-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_horde-analytics-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Horde",
+      "predicate": "实现",
+      "object": "HTTP端点",
+      "context": "Horde通过实现HTTP端点来收集虚幻引擎编辑器的遥测数据，这是Horde的核心功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "收集",
+      "object": "遥测数据",
+      "context": "Horde的主要功能是收集虚幻引擎编辑器发送的遥测数据，用于分析瓶颈和工作流程问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "遥测数据",
+      "predicate": "用于",
+      "object": "分析瓶颈和工作流程问题",
+      "context": "收集的遥测数据可以帮助团队识别和分析开发过程中的瓶颈和工作流程问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "支持",
+      "object": "多个正交遥测数据存储",
+      "context": "Horde支持多个遥测数据存储，允许用户根据需要将不同项目的遥测数据分组",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "遥测数据存储",
+      "predicate": "包含",
+      "object": "指标",
+      "context": "每个遥测数据存储都有一组指标，用于聚合和分析数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "聚合",
+      "object": "指标",
+      "context": "Horde会将遥测事件聚合为每个时间间隔的运行指标，以便高效分析数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "指标",
+      "predicate": "基于",
+      "object": "globals.json文件中的Telemetry.Metrics规则",
+      "context": "指标的聚合操作根据globals.json文件中的Telemetry.Metrics部分所指定的规则执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde操作面板",
+      "predicate": "提供",
+      "object": "图表",
+      "context": "Horde操作面板提供图表，用于展示收集的各项指标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图表",
+      "predicate": "配置",
+      "object": "globals.json文件中的Dashboard.Analytics部分",
+      "context": "图表的视图使用globals.json文件中的Dashboard.Analytics部分进行配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "支持",
+      "object": "遥测接收器",
+      "context": "Horde可以将原始遥测数据收集到自己的数据库中，也可以转发到其他遥测接收器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "遥测接收器",
+      "predicate": "配置",
+      "object": "Server.json文件中的Telemetry属性",
+      "context": "遥测接收器的配置通过服务器的Server.json文件中的Telemetry属性完成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "依赖",
+      "object": "DefaultEngine.ini文件",
+      "context": "Horde通过项目的DefaultEngine.ini文件中的APIEndpointET属性来指定遥测存储",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "用于",
+      "object": "团队协作和监控",
+      "context": "Horde的数据汇总和图表展示功能帮助团队监控开发过程中的改进和退步情况",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "遥测数据",
+      "predicate": "生成",
+      "object": "指标",
+      "context": "遥测数据通过聚合生成指标，用于长期分析",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Horde操作面板",
+      "predicate": "显示",
+      "object": "指标",
+      "context": "Horde操作面板通过图表显示收集的各项指标，帮助用户直观理解数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:19:30.554Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3395,
+    "contentLength": 2299,
+    "processingTimeMs": 51658
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_blueprint-spline-mesh-component-property-reference-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_blueprint-spline-mesh-component-property-reference-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "蓝图样条网格体组件",
+      "predicate": "包含",
+      "object": "变形属性",
+      "context": "变形属性是蓝图样条网格体组件的基本属性之一，用于控制组件的位置、旋转和缩放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图样条网格体组件",
+      "predicate": "包含",
+      "object": "插槽属性",
+      "context": "插槽属性允许将组件附加到骨架网格体组件或静态网格体组件的插槽上",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图样条网格体组件",
+      "predicate": "包含",
+      "object": "静态网格体属性",
+      "context": "静态网格体属性指定了组件要渲染的静态网格体资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图样条网格体组件",
+      "predicate": "包含",
+      "object": "材质属性",
+      "context": "材质属性基于静态网格体的材质ID，用于控制组件的材质表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图样条网格体组件",
+      "predicate": "包含",
+      "object": "样条网格体属性",
+      "context": "样条网格体属性控制样条的起始/结束位置、切线、方向等核心参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "样条网格体属性",
+      "predicate": "包含",
+      "object": "起始位置",
+      "context": "起始位置是样条网格体的关键参数之一，定义了样条的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "样条网格体属性",
+      "predicate": "包含",
+      "object": "结束位置",
+      "context": "结束位置是样条网格体的关键参数之一，定义了样条的终点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图样条网格体组件",
+      "predicate": "包含",
+      "object": "物理属性",
+      "context": "物理属性控制组件的物理模拟行为，如质量、阻尼、重力等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理属性",
+      "predicate": "包含",
+      "object": "物理类型",
+      "context": "物理类型决定了组件是模拟物理、运动学还是继承父组件行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图样条网格体组件",
+      "predicate": "包含",
+      "object": "碰撞属性",
+      "context": "碰撞属性控制组件与其他物体的碰撞交互行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞属性",
+      "predicate": "包含",
+      "object": "碰撞复杂度",
+      "context": "碰撞复杂度决定了使用简单(凸包)还是复杂(多边形)碰撞检测",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图样条网格体组件",
+      "predicate": "包含",
+      "object": "照明属性",
+      "context": "照明属性控制组件如何与场景光照交互，如阴影投射等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图样条网格体组件",
+      "predicate": "包含",
+      "object": "渲染属性",
+      "context": "渲染属性控制组件的可视性和渲染行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图样条网格体组件",
+      "predicate": "包含",
+      "object": "事件属性",
+      "context": "事件属性定义了组件可以响应的各种交互事件，如碰撞、点击等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体属性",
+      "predicate": "影响",
+      "object": "材质属性",
+      "context": "静态网格体决定了可用的材质ID，进而影响材质属性的表现",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "物理属性",
+      "predicate": "影响",
+      "object": "碰撞属性",
+      "context": "物理属性如质量、阻尼等会影响碰撞行为的物理表现",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "变形属性",
+      "predicate": "影响",
+      "object": "样条网格体属性",
+      "context": "组件的变形(位置/旋转/缩放)会影响样条网格体的实际表现",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "照明属性",
+      "predicate": "影响",
+      "object": "渲染属性",
+      "context": "照明设置会影响组件的渲染效果和可见性",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "事件属性",
+      "predicate": "响应",
+      "object": "物理属性",
+      "context": "物理事件(如唤醒/休眠)会触发相应的事件响应",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:15:21.602Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15030 字符)",
+      "timestamp": "2025-06-15T18:14:21.455Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 20524,
+    "contentLength": 15030,
+    "processingTimeMs": 60150
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_data-driven-gameplay-elements-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_data-driven-gameplay-elements-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "数据驱动Gameplay",
+      "predicate": "使用",
+      "object": "数据表",
+      "context": "数据驱动Gameplay通过数据表存储和管理游戏数据，帮助开发者减少工作量并直观调整数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据驱动Gameplay",
+      "predicate": "使用",
+      "object": "曲线表",
+      "context": "数据驱动Gameplay通过曲线表存储和管理二维数字数据，如伤害曲线等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据表",
+      "predicate": "导入自",
+      "object": "Excel",
+      "context": "数据表可以通过Excel文档导入到虚幻引擎，使用.csv格式作为中间数据格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "曲线表",
+      "predicate": "导入自",
+      "object": "Excel",
+      "context": "曲线表可以通过Excel文档导入到虚幻引擎，使用.csv格式作为中间数据格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据表",
+      "predicate": "基于",
+      "object": "FTableRowBase",
+      "context": "数据表的行容器必须继承自FTableRowBase，以便引擎正确解释数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FLevelUpData",
+      "predicate": "继承自",
+      "object": "FTableRowBase",
+      "context": "FLevelUpData是用于定义数据表的结构体，必须继承自FTableRowBase才能被导入程序识别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据表",
+      "predicate": "包含",
+      "object": "UObject属性",
+      "context": "数据表中的数据字段可以是任何有效的UObject属性，包括资产引用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "曲线表",
+      "predicate": "支持",
+      "object": "浮点类型",
+      "context": "曲线表仅支持浮点类型的数据，用于定义二维数字数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "曲线表",
+      "predicate": "支持",
+      "object": "插值类型",
+      "context": "曲线表支持常量、线性和三次方插值类型，用于在不同数据点之间内插值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FDataTableRowHandle",
+      "predicate": "用于",
+      "object": "数据表连接",
+      "context": "FDataTableRowHandle用于在蓝图中连接和使用数据表中的数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FCurveTableRowHandle",
+      "predicate": "用于",
+      "object": "曲线表连接",
+      "context": "FCurveTableRowHandle用于在蓝图中连接和使用曲线表中的数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FindRow",
+      "predicate": "用于",
+      "object": "检索数据表数据",
+      "context": "FindRow是FDataTableRowHandle提供的辅助函数，用于检索填充了数据的结构体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetCurve",
+      "predicate": "用于",
+      "object": "检索曲线表数据",
+      "context": "GetCurve是FCurveTableRowHandle提供的辅助函数，用于检索填充了数据的曲线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据表",
+      "predicate": "适用于",
+      "object": "游戏平衡调整",
+      "context": "数据表特别适用于需要不断根据玩家反馈调整和平衡数据的游戏",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "曲线表",
+      "predicate": "适用于",
+      "object": "数值曲线定义",
+      "context": "曲线表很适合用于定义二维数字数据，如伤害随等级变化的曲线",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "数据驱动Gameplay",
+      "predicate": "减少",
+      "object": "开发工作量",
+      "context": "基于数据驱动的游戏逻辑有助于减少开发人员的工作量，让开发者可以直观查看和调整数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:45:09.324Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8907 字符)",
+      "timestamp": "2025-06-15T18:44:12.830Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13248,
+    "contentLength": 8907,
+    "processingTimeMs": 56502
+  }
+}

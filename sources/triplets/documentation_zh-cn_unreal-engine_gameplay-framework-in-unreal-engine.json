@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_gameplay-framework-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_gameplay-framework-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Gameplay框架",
+      "predicate": "包含",
+      "object": "游戏实例",
+      "context": "Gameplay框架是一组类，游戏实例是其中的核心组件之一，用于管理游戏生命周期内的数据和系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏实例",
+      "predicate": "管理",
+      "object": "游戏实例子系统",
+      "context": "游戏实例可以管理多个游戏实例子系统，这些子系统与游戏实例具有相同的生命周期",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏实例",
+      "predicate": "存储",
+      "object": "游戏保存系统",
+      "context": "游戏实例用于存储需要在关卡加载间保持的数据，如游戏保存系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏模式",
+      "predicate": "创建",
+      "object": "游戏状态",
+      "context": "游戏模式在创建时会实例化游戏状态，用于追踪游戏的整体状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏模式",
+      "predicate": "创建",
+      "object": "玩家状态",
+      "context": "游戏模式在玩家加入游戏时会创建玩家状态，用于追踪单个玩家的状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏模式",
+      "predicate": "管理",
+      "object": "Gameplay会话",
+      "context": "游戏模式管理Gameplay会话的所有规则和结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏状态",
+      "predicate": "包含",
+      "object": "玩家状态列表",
+      "context": "游戏状态包含所有玩家及其相关玩家状态的列表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家状态",
+      "predicate": "追踪",
+      "object": "玩家数据",
+      "context": "玩家状态处理关联玩家的相关数据，如生命值、子弹数量和物品栏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制器",
+      "predicate": "控制",
+      "object": "Pawn",
+      "context": "控制器处理Pawn并指使其在游戏中执行操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家控制器",
+      "predicate": "处理",
+      "object": "人类输入",
+      "context": "玩家控制器类处理来自人类的输入，显示抬头信息并处理游戏内的物理表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI控制器",
+      "predicate": "使用",
+      "object": "行为树",
+      "context": "AI控制器使用行为树、状态树、寻路等人工智能技术来控制Pawn",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pawn",
+      "predicate": "由",
+      "object": "Actor组件组成",
+      "context": "Pawn由数种Actor组件构成，包括碰撞组件、静态网格体组件和移动组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色",
+      "predicate": "继承自",
+      "object": "Pawn",
+      "context": "角色类是派生自Pawn的子类，具有更多功能丰富的组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色",
+      "predicate": "包含",
+      "object": "角色移动组件",
+      "context": "角色类包含角色移动组件、骨架网格体组件和胶囊体组件等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "持有",
+      "object": "Actor组件",
+      "context": "Actor是一种容器，持有名为Actor组件的特定对象类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor组件",
+      "predicate": "控制",
+      "object": "Actor行为",
+      "context": "不同类型的Actor组件控制着Actor的不同方面，如移动方式、渲染方式等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏实例",
+      "predicate": "独立于",
+      "object": "关卡加载",
+      "context": "游戏实例在关卡加载间保持活跃，不受关卡切换影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏模式",
+      "predicate": "按地图设置",
+      "object": "关卡",
+      "context": "游戏模式可以按地图一一设置，在关卡加载时第一个被实例化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏状态",
+      "predicate": "复制",
+      "object": "客户端",
+      "context": "在联网多人游戏中，游戏状态会在服务器和所有客户端间复制其状态信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:11:11.507Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 13027,
+    "contentLength": 7968,
+    "processingTimeMs": 64494
+  }
+}

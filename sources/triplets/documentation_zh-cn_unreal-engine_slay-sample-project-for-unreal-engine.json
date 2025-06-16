@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_slay-sample-project-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_slay-sample-project-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "虚拟制片",
+      "context": "虚幻引擎提供多种过场动画工具、渲染功能和工作流来支持虚拟制片流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slay示例项目",
+      "predicate": "演示",
+      "object": "虚幻引擎虚拟制片技术",
+      "context": "Slay是专门用于展示虚幻引擎虚拟制片技术的演示项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "用于",
+      "object": "创建过场动画",
+      "context": "Sequencer是虚幻引擎中创建和管理过场动画的核心工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主序列",
+      "predicate": "包含",
+      "object": "多个镜头",
+      "context": "主序列可以组织和管理组成完整过场动画的多个镜头",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Quixel Megascan资产",
+      "predicate": "用于",
+      "object": "场景构建",
+      "context": "Quixel Megascan提供高质量资产用于快速构建复杂场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基于镜头的工作流",
+      "predicate": "优化",
+      "object": "团队协作",
+      "context": "将每个镜头作为独立序列处理可以减少文件冲突，便于多人协作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡可视性轨道",
+      "predicate": "控制",
+      "object": "资产加载",
+      "context": "可以按需加载和显示不同精度的场景资产，优化性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态生成对象",
+      "predicate": "用于",
+      "object": "镜头特定需求",
+      "context": "可生成物可以解决单个镜头的特殊需求，且不会影响其他镜头",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Subscene轨道",
+      "predicate": "支持",
+      "object": "并行工作流",
+      "context": "允许不同美术师同时处理灯光、特效等不同方面的工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机动画序列",
+      "predicate": "基于",
+      "object": "模板序列",
+      "context": "使用模板序列可以创建可复用的摄像机动画资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可生成光源",
+      "predicate": "提供",
+      "object": "精确灯光控制",
+      "context": "可以按镜头需求生成临时光源，实现精确的灯光效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光照通道",
+      "predicate": "实现",
+      "object": "选择性照明",
+      "context": "通过光照通道可以控制光源只影响特定对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质参数轨道",
+      "predicate": "允许",
+      "object": "逐镜头材质调整",
+      "context": "可以在Sequencer中直接调整材质参数，实现镜头特定的材质效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理体积",
+      "predicate": "控制",
+      "object": "光线追踪效果",
+      "context": "用于管理全局光照、反射等高级渲染效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染队列",
+      "predicate": "用于",
+      "object": "高质量渲染输出",
+      "context": "提供专业级的渲染设置和输出功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时序采样",
+      "predicate": "改善",
+      "object": "抗锯齿效果",
+      "context": "通过增加采样数量可以提高渲染质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台变量",
+      "predicate": "调整",
+      "object": "渲染质量",
+      "context": "通过修改各种渲染参数可以优化最终输出效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "包含",
+      "object": "音频轨道",
+      "context": "可以在Sequencer中同步处理音频和画面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "包含",
+      "object": "淡入淡出轨道",
+      "context": "提供专业的转场效果控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "用于",
+      "object": "动画门",
+      "context": "可以实现与角色动画同步的门开关效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:49:53.004Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (16025 字符)",
+      "timestamp": "2025-06-15T20:48:52.130Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 22663,
+    "contentLength": 16025,
+    "processingTimeMs": 60880
+  }
+}

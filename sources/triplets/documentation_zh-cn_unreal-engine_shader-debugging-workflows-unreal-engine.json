@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_shader-debugging-workflows-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_shader-debugging-workflows-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "着色器调试",
+      "predicate": "依赖",
+      "object": "r.Shaders.Symbols",
+      "context": "启用r.Shaders.Symbols是调试着色器的前提条件，它触发引擎准备着色器以进行平台特定的调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.Shaders.Symbols",
+      "predicate": "控制",
+      "object": "着色器符号生成",
+      "context": "该控制台变量直接控制是否生成着色器调试所需的符号数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "着色器调试",
+      "predicate": "支持",
+      "object": "RenderDoc",
+      "context": "RenderDoc是与虚幻引擎配合使用的关键着色器调试工具，需要与r.Shaders.Symbols配合使用",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平台Engine.ini",
+      "predicate": "配置",
+      "object": "着色器调试参数",
+      "context": "不同平台的调试设置需要通过修改对应的[平台]Engine.ini文件来实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.Shaders.GenerateSymbols",
+      "predicate": "替代",
+      "object": "r.Shaders.PrepareExportedDebugInfo",
+      "context": "UE5中将UE4的r.Shaders.PrepareExportedDebugInfo重命名为r.Shaders.GenerateSymbols，功能相同但更规范",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "着色器调试工作流",
+      "predicate": "包含",
+      "object": "本地调试模式",
+      "context": "本地调试是着色器调试工作流的三种典型场景之一，需要单独配置WriteSymbols参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "构建机器",
+      "predicate": "专门用于",
+      "object": "符号Zip打包",
+      "context": "通过ShaderCompiler_BuildMachine分段可配置构建机器专属的符号打包功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE5着色器调试",
+      "predicate": "改进",
+      "object": "UE4着色器调试",
+      "context": "UE5对调试变量进行了逻辑拆分（如Symbols/ExtraData分离），使发布版本可以不包含调试数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.Shaders.WriteSymbols.Zip",
+      "predicate": "优化",
+      "object": "符号文件管理",
+      "context": "该选项将分散的符号文件打包为单个zip，便于版本控制和传输",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android平台调试",
+      "predicate": "需要",
+      "object": "AndroidEngine.ini配置",
+      "context": "Android平台的着色器调试必须通过修改AndroidEngine.ini文件实现参数覆盖",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编译工具(UBT)",
+      "predicate": "用于",
+      "object": "着色器烘焙",
+      "context": "UBT是生成包含调试符号的烘焙版本的必要工具链组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU捕获",
+      "predicate": "依赖",
+      "object": "着色器符号路径",
+      "context": "进行GPU捕获时需要正确配置符号路径指向Saved/ShaderSymbols/Platform",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.Shaders.AllowUniqueSymbols",
+      "predicate": "影响",
+      "object": "符号文件大小",
+      "context": "启用此选项会显著增加符号文件体积，文档明确建议谨慎使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:47:22.796Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7539,
+    "contentLength": 4783,
+    "processingTimeMs": 43895
+  }
+}

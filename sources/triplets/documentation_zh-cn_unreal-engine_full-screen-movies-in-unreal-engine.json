@@ -1,0 +1,115 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_full-screen-movies-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_full-screen-movies-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "图像板Actor",
+      "predicate": "支持",
+      "object": "全屏视频播放",
+      "context": "图像板Actor专门用于播放全屏视频和图像序列，是虚幻引擎中实现全屏动画的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图像板Actor",
+      "predicate": "依赖",
+      "object": "过场动画摄像机Actor",
+      "context": "图像板需要附加到过场动画摄像机Actor的视锥体才能正常工作，这是实现全屏动画的前置条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图像板Actor",
+      "predicate": "包含",
+      "object": "填充屏幕属性",
+      "context": "填充屏幕属性控制图像板是否自动调整尺寸以适配摄像机视图，是学习图像板行为的关键属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图像板Actor",
+      "predicate": "使用",
+      "object": "媒体纹理",
+      "context": "图像板通过媒体纹理显示视频或图像序列内容，理解这种材质关系对实现播放功能至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体纹理",
+      "predicate": "引用",
+      "object": "媒体播放器",
+      "context": "媒体纹理必须引用媒体播放器才能正常工作，这是媒体播放流程的核心依赖关系",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图像板材质",
+      "predicate": "需要",
+      "object": "无光照着色模型",
+      "context": "图像板材质必须设置为无光照以避免受场景光照影响，这是实现正确显示的重要设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "控制",
+      "object": "媒体轨道",
+      "context": "通过Sequencer的媒体轨道可以控制图像板上的视频/图像序列播放，是动画时序管理的关键组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体轨道",
+      "predicate": "使用",
+      "object": "文件媒体源",
+      "context": "媒体轨道需要使用文件媒体源或图像媒体源来提供播放内容，这是内容输入的必要环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图像板设置",
+      "predicate": "前置",
+      "object": "启用图像板插件",
+      "context": "使用图像板功能前必须先在插件中启用图像板插件，这是系统配置的基础步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图像板Actor",
+      "predicate": "实现",
+      "object": "前景元素合成",
+      "context": "通过调整图像板与摄像机的间距可以控制前景元素的包含程度，这是实现合成效果的重要技术",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质图表",
+      "predicate": "连接",
+      "object": "自发光颜色",
+      "context": "在材质图表中将媒体纹理连接到自发光颜色是实现图像显示的关键步骤，理解这种连接对材质编辑很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "传感器维度",
+      "predicate": "影响",
+      "object": "图像板尺寸",
+      "context": "图像板默认会根据摄像机的传感器维度自动调整尺寸，理解这种自动适配机制对摄像机集成很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:07:42.065Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8206 字符)",
+      "timestamp": "2025-06-15T19:06:57.887Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 11446,
+    "contentLength": 8206,
+    "processingTimeMs": 44190
+  }
+}

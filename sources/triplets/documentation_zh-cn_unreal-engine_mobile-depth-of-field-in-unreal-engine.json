@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_mobile-depth-of-field-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_mobile-depth-of-field-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "高斯景深",
+      "predicate": "适用于",
+      "object": "移动平台",
+      "context": "高斯景深是专为移动平台优化的低成本景深效果，不适用于延迟渲染器和桌面前向渲染器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高斯景深",
+      "predicate": "基于",
+      "object": "高斯模糊",
+      "context": "高斯景深使用标准的高斯模糊函数对场景进行模糊处理，这是其核心技术原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高斯景深",
+      "predicate": "包含",
+      "object": "对焦距离",
+      "context": "对焦距离是高斯景深的核心参数之一，用于控制对焦区域和捕捉视角",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高斯景深",
+      "predicate": "包含",
+      "object": "对焦区域",
+      "context": "对焦区域是高斯景深的重要参数，用于定义开始对焦的人工区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高斯景深",
+      "predicate": "包含",
+      "object": "近过渡区",
+      "context": "近过渡区用于调整从对焦区域较近一边到摄像机之间的距离",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高斯景深",
+      "predicate": "包含",
+      "object": "远过渡区",
+      "context": "远过渡区用于调整从对焦区域较远一边到摄像机之间的距离",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高斯景深",
+      "predicate": "包含",
+      "object": "近景模糊尺寸",
+      "context": "近景模糊尺寸控制高斯景深的近景模糊的最大尺寸",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高斯景深",
+      "predicate": "包含",
+      "object": "远景模糊尺寸",
+      "context": "远景模糊尺寸控制高斯景深的远景模糊的最大尺寸",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高斯景深",
+      "predicate": "配置于",
+      "object": "后期处理体积",
+      "context": "高斯景深的设置和属性可以在后期处理体积的细节面板中找到",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "景深图层",
+      "predicate": "用于",
+      "object": "可视化景深效果",
+      "context": "景深图层显示标志可以用于使包括过渡区在内的图层可视化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对焦距离",
+      "predicate": "影响",
+      "object": "景深效果",
+      "context": "对焦距离越长，景深越浅；对焦距离越短，景深越大",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高斯景深",
+      "predicate": "属于",
+      "object": "后期处理效果",
+      "context": "高斯景深是一种后期处理效果，用于增强场景的视觉表现",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "移动预览器",
+      "predicate": "用于",
+      "object": "预览高斯景深",
+      "context": "在桌面计算机上工作时，可以使用移动预览器来启用和预览高斯景深效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "高斯景深",
+      "predicate": "优化",
+      "object": "移动设备性能",
+      "context": "高斯景深在移动设备等低端硬件上速度非常快，适合注重性能的场合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:57:24.924Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7202,
+    "contentLength": 4532,
+    "processingTimeMs": 55480
+  }
+}

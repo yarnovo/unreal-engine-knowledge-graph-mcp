@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_networked-physics-overview",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_networked-physics-overview.md",
+  "triples": [
+    {
+      "subject": "联网物理",
+      "predicate": "属于",
+      "object": "网络框架",
+      "context": "联网物理是虚幻引擎网络框架的一部分，帮助开发者在多人游戏环境中实现物理驱动型模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认复制模式",
+      "predicate": "替代",
+      "object": "旧版物理复制模式",
+      "context": "默认复制模式是虚幻引擎的旧版物理复制模式，用于复制模拟物理的Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预测性插值模式",
+      "predicate": "改进",
+      "object": "默认复制模式",
+      "context": "预测性插值模式在默认模式基础上改进，更好地处理客户端上的交互和局部物理改变",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重新模拟模式",
+      "predicate": "专用于",
+      "object": "服务器授权Pawn和Actor",
+      "context": "重新模拟模式专为服务器授权Pawn和Actor设计，支持完全的客户端物理预测",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络物理组件",
+      "predicate": "实现",
+      "object": "重新模拟功能",
+      "context": "网络物理组件负责处理网络、历史缓存、输入的重新模拟以及Pawn和Actor的自定义状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "联网物理设置",
+      "predicate": "配置于",
+      "object": "项目设置",
+      "context": "联网物理设置可以在项目设置的物理类别下修改，也可以通过控制台命令进一步配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预测性插值模式",
+      "predicate": "优于",
+      "object": "默认复制模式",
+      "context": "预测性插值模式在交互处理方面优于默认复制模式，允许客户端施加预测力",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "重新模拟模式",
+      "predicate": "消耗",
+      "object": "更多CPU和内存",
+      "context": "重新模拟模式需要缓存物理状态历史记录，消耗更多CPU和内存资源",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "预测性插值模式",
+      "predicate": "适用于",
+      "object": "服务器授权Actor",
+      "context": "预测性插值模式专为服务器授权Actor设计，处理交互和局部物理改变",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理Pawn",
+      "predicate": "驱动方式",
+      "object": "物理力",
+      "context": "物理Pawn通过物理力驱动移动，输入在重新模拟期间由网络物理组件应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:05:24.437Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7186,
+    "contentLength": 3536,
+    "processingTimeMs": 33924
+  }
+}

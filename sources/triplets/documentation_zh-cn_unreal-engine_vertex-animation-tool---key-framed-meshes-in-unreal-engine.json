@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_vertex-animation-tool---key-framed-meshes-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_vertex-animation-tool---key-framed-meshes-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "顶点动画工具",
+      "predicate": "支持",
+      "object": "关键帧网格",
+      "context": "顶点动画工具可以处理从其他3D软件包逐帧导出的关键帧网格，帮助学习者理解工具的多软件兼容性",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "顶点动画工具",
+      "predicate": "依赖",
+      "object": "可编辑多边形",
+      "context": "文档明确指出该工具只能处理可编辑多边形类型的网格，这是使用该工具的重要前提条件",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "序列描画器",
+      "predicate": "生成",
+      "object": "动画序列数据",
+      "context": "序列描画器脚本将动画数据保存到网格的UV中，这是实现顶点动画的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MS_SequencePainter_SequenceFlipbook",
+      "predicate": "控制",
+      "object": "全局位置偏移",
+      "context": "该材质函数通过控制全局位置偏移来实现网格动画，展示了材质系统与动画实现的关联",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "融化修改器",
+      "predicate": "用于",
+      "object": "创建变形动画",
+      "context": "通过调整融化量参数创建不同变形状态的网格，这是制作顶点动画的基础技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎导入设置",
+      "predicate": "影响",
+      "object": "顶点动画效果",
+      "context": "禁用自动生成碰撞等特定导入选项对正确实现顶点动画至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "使用全精度UV",
+      "predicate": "确保",
+      "object": "动画数据精度",
+      "context": "启用此选项可以保证序列描画器保存的动画数据不被压缩，影响最终动画质量",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "3Ds Max",
+      "predicate": "类比于",
+      "object": "Maya/Blender",
+      "context": "文档说明3Ds Max中的工作流程同样适用于其他3D软件，帮助学习者迁移技能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质函数",
+      "predicate": "驱动",
+      "object": "顶点动画播放",
+      "context": "通过连接材质函数到世界位置偏移，学习者可以理解材质系统如何控制网格变形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "帧数参数",
+      "predicate": "对应",
+      "object": "动画长度",
+      "context": "材质中设置的帧数需要与实际导出的网格数量匹配，这是实现正确动画播放的关键参数",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:27:43.499Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8127,
+    "contentLength": 4977,
+    "processingTimeMs": 31265
+  }
+}

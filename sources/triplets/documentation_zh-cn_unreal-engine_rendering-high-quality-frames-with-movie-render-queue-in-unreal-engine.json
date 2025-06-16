@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_rendering-high-quality-frames-with-movie-render-queue-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_rendering-high-quality-frames-with-movie-render-queue-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "影片渲染队列",
+      "predicate": "用于",
+      "object": "高质量渲染",
+      "context": "影片渲染队列是虚幻引擎中专门用于生成高质量离线渲染的工具",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "影片渲染队列",
+      "predicate": "依赖",
+      "object": "影片渲染管线插件",
+      "context": "必须启用影片渲染管线插件才能使用影片渲染队列功能",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "高质量渲染",
+      "predicate": "支持",
+      "object": "光线追踪效果",
+      "context": "高质量渲染可以极大提升光线追踪全局光照和反射等效果的质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "配合使用",
+      "object": "影片渲染队列",
+      "context": "需要将Sequencer中的序列加载到影片渲染队列中进行渲染",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "抗锯齿设置",
+      "predicate": "影响",
+      "object": "渲染质量",
+      "context": "抗锯齿设置中的空间采样和临时采样数量直接影响最终渲染质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台变量",
+      "predicate": "控制",
+      "object": "渲染效果",
+      "context": "通过控制台变量可以调整光线追踪、动态模糊等渲染效果的参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ArchViz Interior",
+      "predicate": "作为",
+      "object": "示例项目",
+      "context": "文档使用ArchViz Interior项目作为高质量渲染的示例",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "输出格式",
+      "predicate": "决定",
+      "object": "渲染结果特性",
+      "context": "不同的输出格式（如PNG、EXR）具有不同的特性，如是否支持alpha通道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "本地渲染",
+      "predicate": "对比",
+      "object": "远程渲染",
+      "context": "本地渲染适合预览，远程渲染更适合最终输出和渲染农场使用",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "TDR设置",
+      "predicate": "影响",
+      "object": "渲染稳定性",
+      "context": "调整Windows的TDR设置可以防止长时间渲染导致的GPU超时问题",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "临时采样",
+      "predicate": "优于",
+      "object": "TAA",
+      "context": "对于高质量渲染，临时采样比实时TAA能产生更好的抗锯齿效果",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "光线追踪全局光照",
+      "predicate": "支持",
+      "object": "暴力方法",
+      "context": "在高质量渲染中可以使用暴力方法(r.RayTracing.GlobalIllumination=1)获得更准确的光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染预设",
+      "predicate": "可复用",
+      "object": "不同项目",
+      "context": "保存的渲染预设可以复制到其他项目中复用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "降噪器",
+      "predicate": "可禁用",
+      "object": "高质量渲染",
+      "context": "在追求最高质量时可以禁用降噪器以获得物理上更精确的结果",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "输出分辨率",
+      "predicate": "影响",
+      "object": "渲染时间",
+      "context": "更高的输出分辨率会增加渲染时间",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:37:11.064Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (27260 字符)",
+      "timestamp": "2025-06-15T20:36:27.533Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 44666,
+    "contentLength": 27260,
+    "processingTimeMs": 43539
+  }
+}

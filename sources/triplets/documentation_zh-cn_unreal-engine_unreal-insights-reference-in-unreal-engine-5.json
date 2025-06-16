@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-insights-reference-in-unreal-engine-5",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-insights-reference-in-unreal-engine-5.md",
+  "triples": [
+    {
+      "subject": "Trace通道",
+      "predicate": "控制",
+      "object": "数据速率",
+      "context": "Trace通道用于控制追踪时的数据速率，帮助开发者管理大量数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通道预设",
+      "predicate": "分组",
+      "object": "Trace通道",
+      "context": "通道预设可以将多个Trace通道分组，提供基于场景的进入点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产加载时间通道",
+      "predicate": "依赖",
+      "object": "CPU通道",
+      "context": "资产加载时间通道需要CPU通道和-statnamedevents命令行参数来记录命名CPU计时器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调用堆栈通道",
+      "predicate": "依赖",
+      "object": "模块通道",
+      "context": "调用堆栈通道需要模块通道进行符号解析",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内存分配通道",
+      "predicate": "使用",
+      "object": "调用堆栈",
+      "context": "内存分配通道使用调用堆栈信息来关联内存分配和调用堆栈",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内存通道",
+      "predicate": "包含",
+      "object": "内存分配通道",
+      "context": "内存通道相当于同时启用内存分配、调用堆栈和内存标签通道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE_TRACE_ENABLED",
+      "predicate": "控制",
+      "object": "整个追踪系统",
+      "context": "UE_TRACE_ENABLED是整个追踪系统的中央控制宏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace.Send命令",
+      "predicate": "用于",
+      "object": "开始追踪",
+      "context": "Trace.Send命令用于开始追踪至一个追踪存储器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace.File命令",
+      "predicate": "用于",
+      "object": "文件追踪",
+      "context": "Trace.File命令用于开始将事件追踪至一个文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "计时Insights窗口",
+      "predicate": "包含",
+      "object": "帧面板",
+      "context": "计时Insights窗口包含帧面板用于选择和查看特定帧的信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "计时Insights窗口",
+      "predicate": "包含",
+      "object": "计时面板",
+      "context": "计时Insights窗口包含计时面板用于查看和分析计时事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络Insights窗口",
+      "predicate": "用于",
+      "object": "分析网络包体",
+      "context": "网络Insights窗口专门用于分析和选择网络包体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画通道",
+      "predicate": "属于",
+      "object": "GameplayInsights插件",
+      "context": "动画通道是GameplayInsights/RewindDebugger插件的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Concert通道",
+      "predicate": "属于",
+      "object": "Concert插件",
+      "context": "Concert通道是Concert插件的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara通道",
+      "predicate": "属于",
+      "object": "Niagara插件",
+      "context": "Niagara通道是Niagara插件的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CPU通道",
+      "predicate": "记录",
+      "object": "CPU计时器",
+      "context": "CPU通道用于记录有名称的CPU计时器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU通道",
+      "predicate": "记录",
+      "object": "GPU计时器",
+      "context": "GPU通道用于记录命名GPU计时器，基于GpuProfiler数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内存标签通道",
+      "predicate": "依赖",
+      "object": "LLM子系统",
+      "context": "内存标签通道依赖LLM子系统进行内存使用快照的追踪",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络通道",
+      "predicate": "需要",
+      "object": "-NetTrace=1",
+      "context": "网络通道需要-NetTrace=1命令行参数来启用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:12:16.676Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (14699 字符)",
+      "timestamp": "2025-06-15T21:11:27.532Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 21463,
+    "contentLength": 14699,
+    "processingTimeMs": 49148
+  }
+}

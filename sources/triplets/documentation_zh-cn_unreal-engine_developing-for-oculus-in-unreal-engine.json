@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_developing-for-oculus-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_developing-for-oculus-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "Oculus",
+      "context": "虚幻引擎提供对Oculus VR平台的支持，开发者可以利用虚幻引擎开发Oculus应用",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OpenXR插件",
+      "predicate": "替代",
+      "object": "OculusVR插件",
+      "context": "从虚幻引擎5.1开始，OpenXR插件成为开发Oculus应用的主要方式，取代了原有的OculusVR插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OpenXR插件",
+      "predicate": "支持",
+      "object": "Oculus设备",
+      "context": "使用OpenXR插件开发的应用程序可以在支持OpenXR API的Oculus设备上运行",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Oculus VR插件",
+      "predicate": "提供",
+      "object": "独有功能",
+      "context": "Oculus VR插件可以提供OpenXR中尚未包含的Oculus独有功能，如手部追踪和固定注视点渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Oculus OpenXR插件",
+      "predicate": "扩展",
+      "object": "OpenXR插件",
+      "context": "Oculus OpenXR插件是对OpenXR插件的扩展，专门用于支持Oculus Quest设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Oculus开发",
+      "predicate": "需要",
+      "object": "Oculus Runtime",
+      "context": "开发Oculus应用需要安装Oculus Runtime v33.0或更高版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动实例化",
+      "predicate": "优化",
+      "object": "绘制调用",
+      "context": "自动实例化功能可以优化绘制调用，将多个绘制调用组合成单个实例化绘制调用，提高渲染效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "XR开发",
+      "predicate": "包含",
+      "object": "Oculus开发",
+      "context": "Oculus开发是XR开发的一个子集，开发者可以使用XR开发的最佳实践来开发Oculus应用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Oculus Quest",
+      "predicate": "支持",
+      "object": "手部追踪",
+      "context": "Oculus Quest设备支持手部追踪功能，这一功能目前只能通过Oculus VR插件实现",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "固定注视点渲染",
+      "predicate": "提高",
+      "object": "XR性能",
+      "context": "固定注视点渲染是一种XR性能优化技术，可以提高Oculus设备的渲染效率",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "XR性能和分析",
+      "predicate": "帮助",
+      "object": "故障排除",
+      "context": "通过XR性能和分析工具，开发者可以识别和解决Oculus应用中的性能问题",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Oculus开发",
+      "predicate": "前置",
+      "object": "XR开发入门",
+      "context": "在进行Oculus开发之前，建议先了解XR开发的基础知识和最佳实践",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "交互式XR体验",
+      "predicate": "包含",
+      "object": "用户输入功能",
+      "context": "制作交互式XR体验需要为Oculus应用添加用户输入功能，这是开发过程中的重要环节",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "XR体验",
+      "predicate": "需要",
+      "object": "用户界面设计",
+      "context": "为XR体验设计专用的用户界面是Oculus开发的重要组成部分，需要考虑VR环境下的交互方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:52:09.626Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9440,
+    "contentLength": 7360,
+    "processingTimeMs": 48806
+  }
+}

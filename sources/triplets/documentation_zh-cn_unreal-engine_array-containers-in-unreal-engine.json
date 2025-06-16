@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_array-containers-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_array-containers-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "TArray",
+      "predicate": "是",
+      "object": "虚幻引擎中最简单的容器类",
+      "context": "文档明确指出TArray是虚幻引擎中最简单的容器类，帮助学习者理解其基础地位",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "TArray",
+      "predicate": "包含",
+      "object": "元素",
+      "context": "TArray负责同类型其他对象（元素）序列的所有权和组织，这是理解TArray功能的基础",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "TArray",
+      "predicate": "支持",
+      "object": "多种分配器",
+      "context": "TArray类型由元素类型和可选分配器定义，分配器决定对象在内存中的排列方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TArray",
+      "predicate": "是",
+      "object": "数值类型",
+      "context": "TArray为数值类型，意味着其与其他内置类型处理方式相同，这是理解其行为的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Add",
+      "predicate": "区别在于",
+      "object": "Emplace",
+      "context": "Add将元素实例复制或移动到数组中，而Emplace直接构建新实例，帮助学习者选择合适的方法",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TArray",
+      "predicate": "支持",
+      "object": "迭代",
+      "context": "文档详细介绍了多种迭代TArray元素的方法，包括范围for循环和基于索引的迭代",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "TArray",
+      "predicate": "支持",
+      "object": "排序",
+      "context": "TArray提供Sort、HeapSort和StableSort等多种排序方法，帮助学习者理解数据组织方式",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Sort",
+      "predicate": "不同于",
+      "object": "StableSort",
+      "context": "Sort不稳定而StableSort稳定，这对需要保持等值元素相对顺序的场景很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TArray",
+      "predicate": "提供",
+      "object": "查询功能",
+      "context": "包括Num、GetData、Contains等多种查询方法，是使用TArray的基础",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "TArray",
+      "predicate": "支持",
+      "object": "堆操作",
+      "context": "Heapify、HeapPush、HeapPop等函数支持将TArray作为堆数据结构使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TArray",
+      "predicate": "管理",
+      "object": "Slack",
+      "context": "Slack概念帮助理解TArray的内存管理机制，Empty、Reset和Shrink等函数用于控制Slack",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TArray",
+      "predicate": "支持",
+      "object": "原始内存操作",
+      "context": "AddUninitialized、InsertZeroed等函数允许低级内存操作，适合高级使用场景",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "TArray",
+      "predicate": "实现",
+      "object": "运算符重载",
+      "context": "支持复制构造函数、赋值运算符、比较运算符等，使其行为类似内置类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TArray",
+      "predicate": "用于",
+      "object": "序列化",
+      "context": "BulkSerialize函数提供高效的序列化方式，适合特定场景",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "TArray",
+      "predicate": "提供",
+      "object": "内存统计",
+      "context": "CountBytes和GetAllocatedSize函数帮助了解内存使用情况",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "元素类型",
+      "predicate": "决定",
+      "object": "TArray行为",
+      "context": "元素类型必须是可复制和销毁的数值类型，影响TArray的许多功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分配器",
+      "predicate": "控制",
+      "object": "内存分配策略",
+      "context": "分配器决定元素在内存中的排列方式和扩展行为，是高级使用的关键概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Find",
+      "predicate": "不同于",
+      "object": "FindByKey",
+      "context": "Find返回索引而FindByKey返回指针，帮助学习者选择适合的查找方法",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Remove",
+      "predicate": "不同于",
+      "object": "RemoveSwap",
+      "context": "Remove保持元素顺序而RemoveSwap不保证，这对性能敏感的应用很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:06:22.488Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (18883 字符)",
+      "timestamp": "2025-06-15T18:05:20.463Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 27859,
+    "contentLength": 18883,
+    "processingTimeMs": 62027
+  }
+}

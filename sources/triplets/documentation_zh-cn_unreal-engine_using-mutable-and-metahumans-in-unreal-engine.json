@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-mutable-and-metahumans-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-mutable-and-metahumans-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Mutable插件",
+      "predicate": "扩展",
+      "object": "MetaHuman框架",
+      "context": "Mutable插件可以增强MetaHuman框架的功能，提供实时自定义和编辑能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaHuman资产",
+      "predicate": "用于",
+      "object": "Mutable可自定义对象",
+      "context": "可以直接使用MetaHuman骨骼网格体、材质和纹理资产来设置Mutable可自定义对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mutable插件",
+      "predicate": "支持",
+      "object": "程序化网格体变形",
+      "context": "Mutable支持对网格体进行程序化变形，如将松散的裤脚塞入高筒靴中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mutable插件",
+      "predicate": "优化",
+      "object": "MetaHuman角色",
+      "context": "Mutable可以删除MetaHuman角色的LOD、部分和骨骼，生成优化后的模型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaHuman Creator",
+      "predicate": "依赖",
+      "object": "云服务",
+      "context": "MetaHuman Creator和Editor只能在云服务上使用，无法在本地进行实时编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RigLogic Extensions for Mutable插件",
+      "predicate": "实现",
+      "object": "MetaHuman面部动画",
+      "context": "必须设置MetaHuman DNA并使用RigLogic Extensions插件才能使面部动画正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaHuman动画蓝图",
+      "predicate": "应用于",
+      "object": "生成的面部骨骼网格体",
+      "context": "生成的面部骨骼网格体应使用MetaHuman提供的后期处理动画蓝图以获得正确的面部动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "实时变形",
+      "predicate": "启用",
+      "object": "面部动画",
+      "context": "启用实时变形可以确保LOD0面部动画在放大时显示完全正确",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛发Groom",
+      "predicate": "需要",
+      "object": "重新绑定",
+      "context": "如果Mutable生成的面部网格体结构与原始网格体不同，可能需要重新绑定毛发Groom",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Quixel Bridge",
+      "predicate": "用于",
+      "object": "导入MetaHuman资产",
+      "context": "可以通过Quixel Bridge将MetaHuman资产导入到虚幻引擎编辑器中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "12骨骼影响",
+      "predicate": "配置",
+      "object": "Mutable插件",
+      "context": "修改Mutable配置以启用12骨骼影响可以优化MetaHuman角色的蒙皮和动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "16位骨骼权重",
+      "predicate": "启用",
+      "object": "可自定义对象",
+      "context": "在可自定义对象的编译选项中启用16位骨骼权重可以提高动画精度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DNA Constant节点",
+      "predicate": "连接",
+      "object": "RigLogic DNA输入",
+      "context": "将DNA Constant节点的输出连接到Object节点的RigLogic DNA输入可以正确设置面部骨骼",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaHuman角色",
+      "predicate": "限制",
+      "object": "Mutable插件",
+      "context": "Mutable无法执行MetaHuman擅长的复杂面部创建和混合操作，只能进行有限的物理修改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:20:33.908Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10437,
+    "contentLength": 6487,
+    "processingTimeMs": 39122
+  }
+}

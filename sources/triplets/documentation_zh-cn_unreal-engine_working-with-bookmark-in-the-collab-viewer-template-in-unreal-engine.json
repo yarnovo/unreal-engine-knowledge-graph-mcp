@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_working-with-bookmark-in-the-collab-viewer-template-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_working-with-bookmark-in-the-collab-viewer-template-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "BP_Bookmark",
+      "predicate": "属于",
+      "object": "协作查看器（Collab Viewer）模板",
+      "context": "BP_Bookmark是协作查看器模板中内置的蓝图资源，用于设置关卡中的位置和摄像机视图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_Bookmark",
+      "predicate": "用于",
+      "object": "设置关卡位置和摄像机视图",
+      "context": "BP_Bookmark的主要功能是允许开发者在关卡中预设位置和视角",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_Bookmark",
+      "predicate": "支持",
+      "object": "热键传送",
+      "context": "BP_Bookmark可以设置热键，用户可以通过键盘数字键在不同书签位置间传送",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_Bookmark",
+      "predicate": "包含",
+      "object": "摄像机组件",
+      "context": "每个BP_Bookmark实例包含一个摄像机组件用于确定视角",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "BP_Bookmark",
+      "predicate": "依赖",
+      "object": "碰撞网格体",
+      "context": "为了确保传送安全，BP_Bookmark应放置在设有碰撞网格体的静态网格体上方",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "协作查看器（Collab Viewer）模板",
+      "predicate": "提供",
+      "object": "交互菜单",
+      "context": "协作查看器模板提供了交互菜单，用户可以通过它创建和管理书签",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交互菜单",
+      "predicate": "包含",
+      "object": "书签功能",
+      "context": "交互菜单中包含书签功能选项，用户可以创建、删除书签",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_Bookmark",
+      "predicate": "关联",
+      "object": "导航Actor",
+      "context": "导航Actor可以帮助开发者更便捷地设置BP_Bookmark的视点位置",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "协作查看器（Collab Viewer）模板",
+      "predicate": "适用于",
+      "object": "设计评审",
+      "context": "协作查看器模板特别适合用于设计评审场景，书签功能可以标记重要视角",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "BP_Bookmark",
+      "predicate": "支持",
+      "object": "会话保存",
+      "context": "在协作会话期间创建的书签会被保存并在重新加载时可用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_Bookmark",
+      "predicate": "关联",
+      "object": "世界大纲视图",
+      "context": "开发者可以在世界大纲视图中选择和编辑BP_Bookmark实例",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "BP_Bookmark",
+      "predicate": "关联",
+      "object": "细节面板",
+      "context": "开发者可以在细节面板中配置BP_Bookmark的热键等属性",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:33:30.929Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5579,
+    "contentLength": 3903,
+    "processingTimeMs": 34578
+  }
+}

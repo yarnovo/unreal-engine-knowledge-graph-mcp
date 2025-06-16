@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_stream-tuning-guide",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_stream-tuning-guide.md",
+  "triples": [
+    {
+      "subject": "像素流送",
+      "predicate": "基于",
+      "object": "WebRTC",
+      "context": "像素流送技术使用WebRTC实现图像质量、延迟和弹性的平衡，这是理解像素流送工作原理的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WebRTC",
+      "predicate": "用于",
+      "object": "实时流送",
+      "context": "WebRTC普遍用于视频会议和实时流送场景，这是学习WebRTC应用场景的重要关联",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图像质量",
+      "predicate": "受控于",
+      "object": "量化参数(QP)",
+      "context": "视频流送的图像质量主要由量化参数决定，这是理解图像质量调节机制的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送",
+      "predicate": "支持",
+      "object": "多种视频编码解码器",
+      "context": "了解支持的编码解码器类型(H264/AV1/VP8/VP9)对选择适合的流送方案很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "延迟",
+      "predicate": "影响",
+      "object": "用户体验",
+      "context": "延迟是流送体验的关键指标，理解延迟因素有助于优化应用性能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "弹性",
+      "predicate": "与",
+      "object": "网络质量",
+      "context": "流送弹性与网络条件密切相关，这是设计稳健流送系统的重要考量",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "耦合模式",
+      "predicate": "对比",
+      "object": "解耦模式",
+      "context": "理解两种帧率模式的差异对选择适合流送场景的运行模式很关键",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WebRTC优化三角形",
+      "predicate": "包含",
+      "object": "延迟/质量/稳健性",
+      "context": "这三个参数的平衡是流送优化的核心概念，帮助理解各种优化策略的取舍",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "一对一像素流送",
+      "predicate": "需要",
+      "object": "直接点对点连接",
+      "context": "这是实现最低延迟的架构模式，对部署方案设计很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视频编码器",
+      "predicate": "影响",
+      "object": "流送质量",
+      "context": "编码器的选择和配置直接影响最终用户的视觉体验",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧间隔",
+      "predicate": "影响",
+      "object": "流送弹性",
+      "context": "调整关键帧间隔是提高流送弹性的重要手段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地理位置",
+      "predicate": "影响",
+      "object": "流送延迟",
+      "context": "服务器与用户的地理距离是影响延迟的主要因素之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬件加速",
+      "predicate": "减少",
+      "object": "编码延迟",
+      "context": "使用支持硬件加速的GPU可以显著降低编码延迟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分辨率",
+      "predicate": "影响",
+      "object": "码率需求",
+      "context": "理解分辨率与码率的关系对平衡质量和性能很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络带宽",
+      "predicate": "决定",
+      "object": "最大码率",
+      "context": "可用带宽是决定可达到的流送质量上限的关键因素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送应用",
+      "predicate": "可以",
+      "object": "优化配置",
+      "context": "通过多种参数调整可以针对不同场景优化流送性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "质量参数",
+      "predicate": "替代",
+      "object": "QP参数",
+      "context": "5.5版本后使用更直观的质量参数替代了原有的QP参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流送优化",
+      "predicate": "需要",
+      "object": "平衡取舍",
+      "context": "优化流送通常需要在质量、延迟和弹性之间做出权衡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Linux系统",
+      "predicate": "适合",
+      "object": "云端部署",
+      "context": "针对Linux构建应用更适合大规模云端部署，这是部署方案选择的重要考量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态模糊",
+      "predicate": "增加",
+      "object": "编码复杂度",
+      "context": "禁用某些视觉效果可以降低编码复杂度，从而改善流送性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:55:42.025Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13685 字符)",
+      "timestamp": "2025-06-15T20:54:47.319Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 25173,
+    "contentLength": 13685,
+    "processingTimeMs": 54714
+  }
+}

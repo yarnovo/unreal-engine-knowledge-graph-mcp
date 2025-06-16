@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-insights-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-insights-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Unreal Insights",
+      "predicate": "包含",
+      "object": "Trace事件",
+      "context": "Trace事件是Unreal Insights的核心组成部分，用于定义和捕获事件数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "包含",
+      "object": "Unreal Trace Server",
+      "context": "Unreal Trace Server负责记录和保存来自应用程序的踪迹数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "包含",
+      "object": "Trace Store",
+      "context": "Trace Store用于存储和管理所有已存储的跟踪会话",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Trace Server",
+      "predicate": "包含",
+      "object": "Trace Recorder",
+      "context": "Trace Recorder监听传入的跟踪连接并记录实时跟踪流",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Trace Server",
+      "predicate": "包含",
+      "object": "Trace Store",
+      "context": "Trace Store负责存储记录的跟踪信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "支持",
+      "object": "Timing Insights",
+      "context": "Timing Insights是Unreal Insights的一个功能模块，用于收集和分析性能数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "支持",
+      "object": "Memory Insights",
+      "context": "Memory Insights允许开发者调查项目中的内存使用情况和调用堆栈追踪",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "支持",
+      "object": "Networking Insights",
+      "context": "Networking Insights用于分析和优化网络流量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "支持",
+      "object": "Slate Insights",
+      "context": "Slate Insights帮助开发者提高用户界面的性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "支持",
+      "object": "Asset Loading Insights",
+      "context": "Asset Loading Insights提供解析项目资产加载时间的方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "支持",
+      "object": "Cooking Insights",
+      "context": "Cooking Insights允许收集并显示项目中包的烘培方式信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编辑器",
+      "predicate": "集成",
+      "object": "Unreal Insights",
+      "context": "可以从虚幻编辑器中启动Unreal Insights，通过底部工具栏的Trace/Insights Status Bar Widget",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace事件",
+      "predicate": "存储为",
+      "object": ".utrace文件",
+      "context": "Trace会话被存储在.utrace文件中，任何同时生成的数据存储在.ucache文件中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "用于",
+      "object": "性能优化",
+      "context": "Unreal Insights可以帮助识别可能需要优化的数据区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Timing Insights",
+      "predicate": "显示",
+      "object": "CPU和GPU轨道数据",
+      "context": "Timing Insights窗口显示CPU和GPU轨道的数据，帮助分类和可视化处理任务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Memory Insights",
+      "predicate": "追踪",
+      "object": "内存分配事件",
+      "context": "Memory Insights对运行期间发生的每个分配、重新分配或空闲事件进行追踪",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate Insights",
+      "predicate": "扩展",
+      "object": "Unreal Insights",
+      "context": "Slate Insights是Unreal Insights的扩展，帮助调试Slate和虚幻运动图形（UMG）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Asset Loading Insights",
+      "predicate": "基于",
+      "object": "AssetLoadTime跟踪通道",
+      "context": "Asset Loading Insights基于从AssetLoadTime跟踪通道中跟踪到的数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Cooking Insights",
+      "predicate": "显示",
+      "object": "包烘培时间",
+      "context": "Cooking Insights显示每个包所需的时间，帮助优化包烘培过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "依赖",
+      "object": "Trace框架",
+      "context": "Unreal Insights依赖于Trace框架来捕获和分析事件数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:12:19.655Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (14074 字符)",
+      "timestamp": "2025-06-15T21:11:27.531Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19068,
+    "contentLength": 14074,
+    "processingTimeMs": 52127
+  }
+}

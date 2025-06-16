@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_scalability-and-the-developer-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_scalability-and-the-developer-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎可伸缩设置",
+      "predicate": "涉及",
+      "object": "目标平台选择",
+      "context": "可伸缩设置不仅包括图形设置，还涉及选择适合不同平台的硬件规格和子系统",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎可伸缩设置",
+      "predicate": "包含",
+      "object": "图形设置",
+      "context": "图形设置是可伸缩设置中最容易调整的部分，且对游戏性影响较小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图形设置",
+      "predicate": "影响",
+      "object": "图像质量",
+      "context": "玩家可以通过调整图形设置来改变图像质量，这是可伸缩设置的一部分",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图形设置",
+      "predicate": "影响",
+      "object": "帧数",
+      "context": "调整图形设置可以影响游戏的帧数，这是玩家主观选择的一部分",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "美术师和设计师",
+      "predicate": "负责",
+      "object": "内容优化",
+      "context": "美术师和设计师需要根据目标硬件优化内容数量和质量，以符合性能和内存要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容优化",
+      "predicate": "涉及",
+      "object": "伸缩性选项",
+      "context": "为与游戏性无关的内容添加伸缩性选项，并在不同设置下进行测试，是内容优化的一部分",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "QA",
+      "predicate": "测试",
+      "object": "伸缩性选项",
+      "context": "QA人员需要测试各种硬件组合下的伸缩性选项，确保游戏在不同配置下的表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "程序员",
+      "predicate": "处理",
+      "object": "多人游戏公平性",
+      "context": "程序员需要确保伸缩性设置不会在多人游戏中造成不公平优势，例如通过服务器管理员重载设置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "主管、制作人及经理",
+      "predicate": "定义",
+      "object": "硬件规格",
+      "context": "在项目早期定义最低和推荐硬件规格，有助于团队明确开发目标和测试范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "伸缩性设置",
+      "predicate": "影响",
+      "object": "玩家体验",
+      "context": "合理的伸缩性设置可以让更多玩家在不同硬件上享受游戏，同时提升高端设备的视觉效果",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "性能优化",
+      "predicate": "优先于",
+      "object": "创建更多伸缩性",
+      "context": "在任务平衡时，优先进行性能优化比创建更多伸缩性选项更为有效",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "引擎优化工具",
+      "predicate": "用于",
+      "object": "性能分析",
+      "context": "美术师和设计师需要了解引擎优化工具，以便更好地分析性能特性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Scalability.ini文件",
+      "predicate": "包含",
+      "object": "游戏机平台变量设置",
+      "context": "通过查看Scalability.ini文件，可以深入理解特定伸缩级别的问题，如阴影质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:39:19.548Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8169,
+    "contentLength": 3769,
+    "processingTimeMs": 39973
+  }
+}

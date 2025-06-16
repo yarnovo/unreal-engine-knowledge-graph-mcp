@@ -1,0 +1,275 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_editor-ui-reference-for-niagara-effects-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_editor-ui-reference-for-niagara-effects-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Niagara编辑器",
+      "predicate": "包含",
+      "object": "菜单栏",
+      "context": "菜单栏是Niagara编辑器界面的主要组成部分之一，提供了文件、编辑、资产和窗口等操作功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara编辑器",
+      "predicate": "包含",
+      "object": "工具栏",
+      "context": "工具栏提供了保存、编译、调试等常用功能的快捷访问方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara编辑器",
+      "predicate": "包含",
+      "object": "预览面板",
+      "context": "预览面板允许实时查看粒子效果的变化，是效果调试的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara编辑器",
+      "predicate": "包含",
+      "object": "参数面板",
+      "context": "参数面板列出了所有用户公开、系统和引擎提供的参数，是调整粒子效果的核心区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara编辑器",
+      "predicate": "包含",
+      "object": "系统概览面板",
+      "context": "系统概览面板提供了系统和发射器的高级视图，便于快速导航和理解整体结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara编辑器",
+      "predicate": "包含",
+      "object": "暂存区面板",
+      "context": "暂存区面板允许创建和测试可重用的模块或动态输入，是自定义功能开发的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara编辑器",
+      "predicate": "包含",
+      "object": "选择面板",
+      "context": "选择面板显示当前选中的组或模块的详细信息，是编辑粒子行为的主要工作区",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara编辑器",
+      "predicate": "包含",
+      "object": "曲线面板",
+      "context": "曲线面板提供了曲线编辑器，用于调整粒子或发射器生命周期中的值变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara编辑器",
+      "predicate": "包含",
+      "object": "Niagara日志面板",
+      "context": "日志面板显示编译时的警告和错误，帮助开发者快速定位问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara编辑器",
+      "predicate": "包含",
+      "object": "时间轴面板",
+      "context": "时间轴面板管理循环、迸发和生成速率等时间相关参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "系统概览面板",
+      "predicate": "显示",
+      "object": "系统节点",
+      "context": "系统节点展示了系统级别的模块组和参数，帮助理解系统整体结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "系统概览面板",
+      "predicate": "显示",
+      "object": "发射器节点",
+      "context": "发射器节点展示了发射器级别的模块组和参数，帮助理解单个发射器的行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选择面板",
+      "predicate": "用于编辑",
+      "object": "发射器级模块",
+      "context": "选择面板中的橙色部分专门用于编辑发射器级别的模块，如发射器设置和更新",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选择面板",
+      "predicate": "用于编辑",
+      "object": "粒子级模块",
+      "context": "选择面板中的绿色部分专门用于编辑粒子级别的模块，如粒子生成和更新",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选择面板",
+      "predicate": "用于编辑",
+      "object": "渲染项目",
+      "context": "选择面板中的红色部分专门用于编辑渲染相关的设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "暂存区面板",
+      "predicate": "支持创建",
+      "object": "可重用模块",
+      "context": "暂存区允许创建本地可重用的模块，便于快速原型设计和测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "暂存区面板",
+      "predicate": "支持创建",
+      "object": "动态输入",
+      "context": "暂存区允许创建本地动态输入，扩展了参数控制的可能性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预览面板",
+      "predicate": "支持",
+      "object": "实时渲染",
+      "context": "预览面板的实时渲染功能可以立即显示修改效果，加速开发迭代",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预览面板",
+      "predicate": "提供",
+      "object": "视图模式",
+      "context": "多种视图模式（如光照、线框等）帮助从不同角度分析粒子效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "参数面板",
+      "predicate": "列出",
+      "object": "用户公开参数",
+      "context": "参数面板集中管理所有用户可调整的参数，是效果定制的关键界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "参数面板",
+      "predicate": "列出",
+      "object": "系统参数",
+      "context": "系统参数控制着粒子效果的整体行为，参数面板提供了统一的访问点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间轴面板",
+      "predicate": "控制",
+      "object": "粒子生成速率",
+      "context": "时间轴面板可以直接调整粒子的生成速率，影响效果密度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间轴面板",
+      "predicate": "管理",
+      "object": "循环行为",
+      "context": "通过时间轴可以设置粒子效果的循环次数和方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "曲线面板",
+      "predicate": "用于调整",
+      "object": "生命周期值变化",
+      "context": "曲线编辑器专门用于定义粒子或发射器属性随时间的变化规律",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara日志面板",
+      "predicate": "显示",
+      "object": "编译错误",
+      "context": "日志面板集中显示编译过程中的错误信息，帮助快速定位问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具栏",
+      "predicate": "提供",
+      "object": "快速保存功能",
+      "context": "工具栏的保存按钮提供了快速保存当前工作的快捷方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具栏",
+      "predicate": "提供",
+      "object": "编译选项",
+      "context": "工具栏的编译按钮及其下拉菜单控制着代码编译的行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具栏",
+      "predicate": "提供",
+      "object": "调试工具",
+      "context": "工具栏集成了多种调试工具，如性能分析和属性电子表格",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "系统节点",
+      "predicate": "包含",
+      "object": "系统设置组",
+      "context": "系统节点中的蓝色部分专门用于系统级别的设置和参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器节点",
+      "predicate": "标识",
+      "object": "模拟运行位置",
+      "context": "发射器节点上的图标明确标识了模拟是在CPU还是GPU上运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性表面板",
+      "predicate": "用于",
+      "object": "调试粒子属性",
+      "context": "属性表可以查看和过滤每个粒子的属性值，是高级调试的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成代码面板",
+      "predicate": "显示",
+      "object": "HLSL代码",
+      "context": "对于高级用户，生成代码面板可以查看底层HLSL代码，便于深度优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:56:44.115Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (23139 字符)",
+      "timestamp": "2025-06-15T18:55:05.329Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 35981,
+    "contentLength": 23139,
+    "processingTimeMs": 98794
+  }
+}

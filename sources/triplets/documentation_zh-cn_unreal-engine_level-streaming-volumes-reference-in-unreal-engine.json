@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_level-streaming-volumes-reference-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_level-streaming-volumes-reference-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "关卡流送体积",
+      "predicate": "辅助",
+      "object": "关卡流送",
+      "context": "关卡流送体积用于辅助关卡流送流程，控制关卡何时在内存中加载或卸载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流送体积",
+      "predicate": "关联",
+      "object": "流送关卡",
+      "context": "每个流送关卡可以关联一组关卡流送体积，用于控制该关卡的加载和卸载",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流送体积",
+      "predicate": "存在于",
+      "object": "固定关卡",
+      "context": "所有关卡流送体积都必须存在于固定关卡中，否则无法用于关卡流送",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流送体积",
+      "predicate": "影响",
+      "object": "多个关卡",
+      "context": "一个关卡流送体积可以影响多个关卡，同时一个关卡也可以受多个关卡流送体积影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流送体积",
+      "predicate": "用于",
+      "object": "编辑器预可视化",
+      "context": "通过设置'仅限编辑器预可视化'标记，关卡流送体积可以专门用于编辑器预可视化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流送体积",
+      "predicate": "控制",
+      "object": "加载行为",
+      "context": "通过调整关卡流送体积的大小，可以修改关卡的加载行为，如更早加载或更晚卸载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流送体积",
+      "predicate": "具有",
+      "object": "禁用属性",
+      "context": "关卡流送体积具有'bDisabled'属性，可以禁用体积而不将其与关卡分离",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流送体积",
+      "predicate": "影响",
+      "object": "性能",
+      "context": "关卡流送体积的数量和复杂度会影响性能，可以通过'流送体积'和'体积流送计时'统计数据监控",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "关卡流送体积",
+      "predicate": "支持",
+      "object": "分割屏幕",
+      "context": "基于体积的流送可用于分割屏幕，所有本地玩家的视点都会被考虑",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "关卡流送体积",
+      "predicate": "关联",
+      "object": "UWorld::ProcessLevelStreamingVolumes",
+      "context": "UWorld::ProcessLevelStreamingVolumes函数用于处理关卡流送体积的逻辑，检查玩家视点是否在体积内",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流送体积",
+      "predicate": "具有",
+      "object": "卸载滞后",
+      "context": "可以向卸载请求添加滞后，避免玩家在体积边界上来回移动时产生不必要的加载/卸载请求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流送体积",
+      "predicate": "可以通过",
+      "object": "蓝图和C++控制",
+      "context": "关卡流送体积的禁用状态可以通过蓝图和C++进行切换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流送体积",
+      "predicate": "适用于",
+      "object": "目标平台测试",
+      "context": "在目标平台上测试关卡流送体积的设置至关重要，因为编辑器中的表现可能与实际游戏不同",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:44:13.608Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8877,
+    "contentLength": 5043,
+    "processingTimeMs": 50131
+  }
+}

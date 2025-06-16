@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-slate-in-game-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-slate-in-game-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Slate控件",
+      "predicate": "用于",
+      "object": "创建HUD",
+      "context": "Slate控件是构建游戏HUD的基础元素，帮助学习者理解UI开发的基本单元",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate控件",
+      "predicate": "用于",
+      "object": "创建菜单",
+      "context": "文档明确说明Slate控件可用于构建各类游戏菜单，这是UI系统的重要应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "容器控件",
+      "predicate": "包含",
+      "object": "其他控件",
+      "context": "理解容器控件的嵌套特性对构建复杂UI层级至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视口",
+      "predicate": "承载",
+      "object": "Slate控件",
+      "context": "视口是UI元素的最终显示载体，掌握此关系有助于理解UI渲染流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "前置条件",
+      "object": "使用Slate框架",
+      "context": "正确配置项目是使用Slate的必要前提，强调开发环境准备的重要性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InputCore模块",
+      "predicate": "公有依赖",
+      "object": "Slate项目",
+      "context": "模块依赖关系直接影响项目编译，这是配置Slate环境的关键知识点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate模块",
+      "predicate": "私有依赖",
+      "object": "Slate项目",
+      "context": "区分公有/私有依赖是模块化开发的核心概念，影响代码可见性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GameViewportClient",
+      "predicate": "管理",
+      "object": "视口控件",
+      "context": "掌握视口客户端类与UI控件的交互方式是动态UI开发的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AddViewportWidgetContent",
+      "predicate": "实现",
+      "object": "控件添加",
+      "context": "这是SlateUI动态显示的核心API，关联到Z-order等重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RemoveViewportWidgetContent",
+      "predicate": "实现",
+      "object": "控件移除",
+      "context": "与添加API对应，构成完整的UI生命周期管理知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SNew",
+      "predicate": "创建",
+      "object": "Slate控件",
+      "context": "Slate特有的智能指针创建语法，是内存管理的重要知识点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Z-排序",
+      "predicate": "控制",
+      "object": "控件叠加顺序",
+      "context": "理解Z-排序机制对处理UI层级重叠问题很关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HUD控件",
+      "predicate": "继承自",
+      "object": "Slate控件",
+      "context": "明确HUD与基础控件的关系有助于构建合理的UI架构",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Slate.h头文件",
+      "predicate": "包含",
+      "object": "Slate框架声明",
+      "context": "头文件包含关系是C++项目配置的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "GEngine指针",
+      "predicate": "访问",
+      "object": "GameViewport",
+      "context": "全局引擎访问模式是Unreal架构的重要特征",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态UI",
+      "predicate": "依赖",
+      "object": "视口控件管理",
+      "context": "理解动态添加/移除控件是实现响应式UI的核心能力",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:22:48.400Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7180,
+    "contentLength": 4646,
+    "processingTimeMs": 43726
+  }
+}

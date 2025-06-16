@@ -1,0 +1,115 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_in-camera-vfx-depth-of-field-compensation-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_in-camera-vfx-depth-of-field-compensation-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "ICVFX景深补偿",
+      "predicate": "解决",
+      "object": "LED墙上的景深挑战",
+      "context": "ICVFX景深补偿功能专门设计用于解决LED墙上虚拟与现实摄像机景深不匹配的问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX景深补偿",
+      "predicate": "依赖",
+      "object": "摄像机追踪",
+      "context": "该功能需要精确的摄像机位置数据来计算补偿值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX景深补偿",
+      "predicate": "依赖",
+      "object": "LED墙网格体",
+      "context": "需要与现实LED墙几何匹配的nDisplay网格体作为计算基准",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX景深补偿",
+      "predicate": "位于",
+      "object": "nDisplay Config Actor",
+      "context": "功能控制面板集成在nDisplay配置器的ICVFX摄像机组件中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX景深补偿",
+      "predicate": "控制",
+      "object": "景深增益",
+      "context": "通过增益参数可艺术化调整景深浅度，是主要创意控制手段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "电影摄像机Actor",
+      "predicate": "需要匹配",
+      "object": "实体摄像机参数",
+      "context": "必须保持焦距/光圈/变焦等参数同步才能获得准确补偿效果",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX Stage应用",
+      "predicate": "扩展",
+      "object": "ICVFX景深补偿",
+      "context": "提供移动端远程控制功能，增强拍摄现场的工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "后期处理设置",
+      "predicate": "影响",
+      "object": "ICVFX景深补偿",
+      "context": "需要将引擎伸缩性设为超高才能启用精确的物理渲染",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "变形镜头",
+      "predicate": "需要特殊处理",
+      "object": "ICVFX景深补偿",
+      "context": "需额外配置压缩系数参数以适应镜头光学特性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚拟前景对象",
+      "predicate": "限制",
+      "object": "ICVFX景深补偿",
+      "context": "位于摄像机和LED墙之间的虚拟对象无法获得补偿效果",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "T值镜头",
+      "predicate": "需要转换",
+      "object": "F值参数",
+      "context": "电影摄像机Actor要求输入F值光圈参数以获得最佳精度",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "非对称视锥过扫描",
+      "predicate": "可能影响",
+      "object": "景深效果",
+      "context": "极端情况下需要调整景深增益参数进行补偿",
+      "direction": "unidirectional",
+      "confidence": 0.6
+    }
+  ],
+  "timestamp": "2025-06-15T19:34:23.295Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8237 字符)",
+      "timestamp": "2025-06-15T19:33:45.422Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13239,
+    "contentLength": 8237,
+    "processingTimeMs": 37879
+  }
+}

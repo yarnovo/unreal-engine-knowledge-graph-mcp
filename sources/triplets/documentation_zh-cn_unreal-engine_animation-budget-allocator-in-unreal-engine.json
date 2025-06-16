@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-budget-allocator-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-budget-allocator-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "动画预算分配器",
+      "predicate": "属于",
+      "object": "虚幻引擎插件",
+      "context": "动画预算分配器是虚幻引擎中的一个插件，用于管理动画计算资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画预算分配器",
+      "predicate": "控制",
+      "object": "骨骼网格体组件动画更新",
+      "context": "预算分配器动态限制骨骼网格体组件的动画更新以控制CPU使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画预算分配器",
+      "predicate": "依赖",
+      "object": "游戏线程",
+      "context": "预算分配器在游戏线程上执行工作并管理动画更新",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画预算分配器",
+      "predicate": "支持",
+      "object": "插值",
+      "context": "预算分配器可以选择在动画更新之间进行插值以降低性能负载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画预算分配器",
+      "predicate": "实现",
+      "object": "动态负载调整",
+      "context": "预算分配器根据多项条件动态调整动画负载以适应固定预算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SkeletalMeshComponentBudgeted",
+      "predicate": "扩展",
+      "object": "骨骼网格体组件",
+      "context": "SkeletalMeshComponentBudgeted是用于预算分配器的特殊骨骼网格体组件类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画预算分配器",
+      "predicate": "使用",
+      "object": "调试覆层",
+      "context": "预算分配器提供调试覆层用于观察其操作和性能统计",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画预算分配器",
+      "predicate": "集成",
+      "object": "可扩展性设置",
+      "context": "预算分配器可以与虚幻引擎的可扩展性设置集成，支持不同平台配置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画预算分配器",
+      "predicate": "提供",
+      "object": "C++ API",
+      "context": "预算分配器提供C++ API用于高级控制和自定义实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画预算分配器",
+      "predicate": "支持",
+      "object": "控制台命令",
+      "context": "预算分配器支持多种控制台命令用于调试和运行时调整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画预算分配器",
+      "predicate": "适用于",
+      "object": "大规模角色场景",
+      "context": "预算分配器特别适用于需要同时处理大量动画角色的场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画预算分配器",
+      "predicate": "影响",
+      "object": "动画质量",
+      "context": "预算分配器在控制性能的同时会动态调整动画质量",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "模块化角色",
+      "predicate": "兼容",
+      "object": "动画预算分配器",
+      "context": "预算分配器可以处理构成模块化角色的多个骨骼网格体组件",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画预算分配器",
+      "predicate": "基于",
+      "object": "重要性计算",
+      "context": "预算分配器根据组件的重要性决定更新优先级和频率",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画预算分配器",
+      "predicate": "提供",
+      "object": "性能统计",
+      "context": "预算分配器提供详细的性能统计数据帮助开发者优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:01:36.439Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13109 字符)",
+      "timestamp": "2025-06-15T18:00:44.010Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 20997,
+    "contentLength": 13109,
+    "processingTimeMs": 52432
+  }
+}

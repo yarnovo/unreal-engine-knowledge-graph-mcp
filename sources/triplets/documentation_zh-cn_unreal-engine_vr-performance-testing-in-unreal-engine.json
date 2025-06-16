@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_vr-performance-testing-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_vr-performance-testing-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "VR性能测试",
+      "predicate": "依赖",
+      "object": "帧率稳定性",
+      "context": "VR项目需要维持稳定的帧率以避免用户体验的破坏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "帧率稳定性",
+      "predicate": "影响",
+      "object": "用户体验",
+      "context": "帧率不稳定会导致VR体验的破坏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR性能优化",
+      "predicate": "包含",
+      "object": "简化内容",
+      "context": "简化内容是提高VR性能的常见方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简化内容",
+      "predicate": "包括",
+      "object": "减少动态光照和阴影",
+      "context": "减少动态光照和阴影是简化内容的一种方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简化内容",
+      "predicate": "包括",
+      "object": "减少半透明使用",
+      "context": "减少半透明使用是简化内容的一种方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简化内容",
+      "predicate": "包括",
+      "object": "使用LOD",
+      "context": "为所有内容设置LOD是简化内容的一种方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简化内容",
+      "predicate": "包括",
+      "object": "简化材质复杂程度",
+      "context": "简化材质复杂程度是简化内容的一种方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简化内容",
+      "predicate": "包括",
+      "object": "使用预计算的可见体积域",
+      "context": "使用预计算的可见体积域是简化内容的一种方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR性能测试",
+      "predicate": "使用",
+      "object": "Oculus工具",
+      "context": "Oculus工具可用于了解VR性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR性能测试",
+      "predicate": "使用",
+      "object": "SteamVR工具",
+      "context": "SteamVR工具可用于了解VR性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "提供",
+      "object": "实时GPU分析工具",
+      "context": "虚幻引擎提供实时GPU分析工具用于性能监控",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "实时GPU分析工具",
+      "predicate": "通过",
+      "object": "stat gpu命令",
+      "context": "通过stat gpu命令可以访问实时GPU分析工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR性能优化",
+      "predicate": "涉及",
+      "object": "减少绘制调用",
+      "context": "减少绘制调用是VR性能优化的重要方面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "减少绘制调用",
+      "predicate": "通过",
+      "object": "材质组合",
+      "context": "通过将材质组合起来可以减少绘制调用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "减少绘制调用",
+      "predicate": "通过",
+      "object": "实例化静态网格体组件",
+      "context": "通过大量使用实例化静态网格体组件可以减少绘制调用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR性能测试",
+      "predicate": "使用",
+      "object": "stat unit命令",
+      "context": "stat unit命令可用于获取整体游戏线程、绘制线程和GPU时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR性能测试",
+      "predicate": "使用",
+      "object": "startfpschart/stopfpschart命令",
+      "context": "这些命令用于捕捉和聚合帧率信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "实时GPU分析工具",
+      "predicate": "显示",
+      "object": "累积式数据",
+      "context": "实时GPU分析工具显示累积式而非层级式数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR性能优化",
+      "predicate": "参考",
+      "object": "XR最佳实践指南",
+      "context": "XR最佳实践指南提供了VR性能优化的控制台变量设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR性能优化",
+      "predicate": "建议",
+      "object": "逐步增加复杂度",
+      "context": "建议逐步增加项目复杂度以维持性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:31:32.778Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6449,
+    "contentLength": 3253,
+    "processingTimeMs": 49466
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_live-link-hub-ui-reference-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_live-link-hub-ui-reference-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Live Link Hub UI",
+      "predicate": "包含",
+      "object": "源面板",
+      "context": "源面板是Live Link Hub UI的核心组成部分，用于显示和管理数据源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link Hub UI",
+      "predicate": "包含",
+      "object": "主题细节面板",
+      "context": "主题细节面板允许用户通过转换器、预处理器和重映射器修改主题数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主题细节面板",
+      "predicate": "支持",
+      "object": "转换器",
+      "context": "转换器功能允许在动画角色数据和变换角色数据之间进行转换",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "转换器",
+      "predicate": "实现",
+      "object": "动画到变换转换",
+      "context": "动画到变换转换器可以从动画角色的层级中选择骨骼并流送其变换数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "转换器",
+      "predicate": "实现",
+      "object": "变换到动画转换",
+      "context": "变换到动画转换器可以将变换数据重新格式化为骨骼层级动画数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主题细节面板",
+      "predicate": "支持",
+      "object": "预处理器",
+      "context": "预处理器可以修改流经角色的所有数据，如交换坐标轴或添加偏移",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主题细节面板",
+      "predicate": "支持",
+      "object": "Live Link重映射器",
+      "context": "重映射器允许开发者重映射数据，如骨骼名称重映射和旋转格式转换",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link Hub",
+      "predicate": "支持",
+      "object": "虚拟主题",
+      "context": "虚拟主题功能允许合并多个主题的数据为一个主题使用",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟主题",
+      "predicate": "使用",
+      "object": "附件",
+      "context": "附件功能可以在虚拟主题中重设骨骼的父级关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link Hub",
+      "predicate": "支持",
+      "object": "同步父级",
+      "context": "同步父级功能可以对源数据进行重新定时",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link Hub",
+      "predicate": "支持",
+      "object": "时间码",
+      "context": "时间码功能可以设置和管理数据流的时间同步",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link Hub",
+      "predicate": "支持",
+      "object": "插件",
+      "context": "插件系统允许扩展Live Link Hub的功能，特别是与第三方动作捕捉硬件的集成",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link Hub",
+      "predicate": "支持",
+      "object": "数据录制",
+      "context": "录制功能可以保存原始数据流以便回放，用于数据备份和QA",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据录制",
+      "predicate": "包含",
+      "object": "命名令牌",
+      "context": "命名令牌系统可以自动生成录制文件的名称",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画角色数据",
+      "predicate": "可转换为",
+      "object": "变换角色数据",
+      "context": "转换器实现了这两种数据类型之间的相互转换，扩展了数据的使用场景",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link重映射器",
+      "predicate": "继承自",
+      "object": "ULiveLinkRetarget",
+      "context": "重映射器是基于UE中的ULiveLinkRetarget资产开发的，为开发者提供了标准化的重映射功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚拟主题",
+      "predicate": "依赖",
+      "object": "兼容的骨架",
+      "context": "使用虚拟主题合并数据时需要与合并后的骨架层级兼容的骨架资源",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "同步父级",
+      "predicate": "控制",
+      "object": "数据帧率",
+      "context": "同步父级功能可以重新定义源数据的帧率，实现不同帧率数据源的同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插件",
+      "predicate": "存储在",
+      "object": "引擎插件目录",
+      "context": "了解插件存储位置有助于开发者管理和调试插件功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "录制数据",
+      "predicate": "可替换为",
+      "object": "虚拟化源",
+      "context": "播放录制内容时会用虚拟化源替换当前源，这是理解数据回放机制的关键",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:47:00.756Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8317 字符)",
+      "timestamp": "2025-06-15T19:45:51.841Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12521,
+    "contentLength": 8317,
+    "processingTimeMs": 68919
+  }
+}

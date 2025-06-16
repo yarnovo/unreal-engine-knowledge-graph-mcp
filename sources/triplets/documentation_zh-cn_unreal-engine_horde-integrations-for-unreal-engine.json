@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_horde-integrations-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_horde-integrations-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Horde",
+      "predicate": "使用",
+      "object": "Perforce",
+      "context": "Horde主要使用Perforce实现CI功能，并支持从Perforce服务器读取配置数据。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "支持",
+      "object": "Perforce群集",
+      "context": "Horde支持使用多个独立的Perforce安装，并在每个安装内的多个镜像间实现负载均衡。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Perforce群集",
+      "predicate": "包含",
+      "object": "Perforce服务器",
+      "context": "每个Perforce群集包含多个服务器，这些服务器可以配置不同的设置。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "实现",
+      "object": "负载均衡器",
+      "context": "Horde实现了一个负载均衡器，用于将构建代理连接到Perforce服务器。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "负载均衡器",
+      "predicate": "使用",
+      "object": "健康检查数据",
+      "context": "负载均衡器使用Perforce服务器提供的健康检查数据来决定是否切换到新的服务器实例。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "配置",
+      "object": "Server.json",
+      "context": "Horde的Perforce连接通过Server.json文件中的perforce属性进行配置。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "配置",
+      "object": "globals.json",
+      "context": "Perforce群集通过globals.json配置文件中的perforceClusters属性进行配置。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "使用",
+      "object": "Slack",
+      "context": "Horde使用Slack广播通知和提供用户头像。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slack",
+      "predicate": "用于",
+      "object": "通知",
+      "context": "Slack用于在出现配置错误和CI故障时广播通知。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slack",
+      "predicate": "用于",
+      "object": "用户头像",
+      "context": "Slack用于为登录到Horde的用户提供头像。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "配置",
+      "object": "SlackToken",
+      "context": "Horde需要在Server.json文件中配置SlackToken以向通道发布消息。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "配置",
+      "object": "SlackSocketToken",
+      "context": "Horde需要在Server.json文件中配置SlackSocketToken以建立WebSocket连接。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "映射",
+      "object": "Slack用户",
+      "context": "Horde用户通过OIDC配置文件中的电子邮件地址与Slack用户配置文件进行关联。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "健康检查",
+      "predicate": "返回",
+      "object": "JSON文档",
+      "context": "健康检查端点返回一个包含服务器健康状态的JSON文档。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Perforce服务器",
+      "predicate": "支持",
+      "object": "SSL",
+      "context": "Perforce服务器可以使用SSL，此时需要确保服务器的指纹或证书受到信任。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "创建",
+      "object": "p4.ini文件",
+      "context": "Horde在为CI使用而创建的工作空间的父目录中创建p4.ini文件，包含Perforce服务器设置。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:20:46.539Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8516,
+    "contentLength": 5794,
+    "processingTimeMs": 51825
+  }
+}

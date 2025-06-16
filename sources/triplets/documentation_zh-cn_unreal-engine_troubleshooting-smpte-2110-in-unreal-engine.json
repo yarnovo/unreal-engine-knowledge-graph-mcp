@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_troubleshooting-smpte-2110-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_troubleshooting-smpte-2110-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "SMPTE 2110",
+      "predicate": "使用",
+      "object": "Nvidia Rivermax",
+      "context": "文档说明SMPTE 2110标准在虚幻引擎中通过Nvidia Rivermax实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPUDirect",
+      "predicate": "依赖",
+      "object": "CUDA设备支持RDMA",
+      "context": "GPUDirect功能需要CUDA设备支持RDMA才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RivermaxMediaSource",
+      "predicate": "需要",
+      "object": "INTERNAL_CPU_MODEL设置为SEPARATED_HOST(0)",
+      "context": "正确打开RivermaxMediaSource需要特定的CPU模型设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ConnectX-6卡片",
+      "predicate": "要求",
+      "object": "时间源设为系统",
+      "context": "使用ConnectX-6卡片时需要将时间源设置为系统而非其他选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ST 2110驱动",
+      "predicate": "依赖",
+      "object": "PTP验证",
+      "context": "使用ST 2110驱动时需要验证所有节点的PTP状态以确保时间同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎5.3-5.4",
+      "predicate": "移除",
+      "object": "SMPTE 2110网络数据包大小限制",
+      "context": "文档提到这些版本将移除对SMPTE 2110网络数据包大小的限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Rivermax.Output.EnableMultiSRD",
+      "predicate": "控制",
+      "object": "数据包大小一致性",
+      "context": "该控制台变量用于控制是否允许发送大小不一的数据包",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RIVERMAX_TX_DELAY_ADAPTIVE_AUTO_CORRECTION_FACTOR",
+      "predicate": "修复",
+      "object": "长时间播放问题",
+      "context": "该环境变量用于原生修复Rivermax在长时间播放后可能出现的问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BlueField-2卡",
+      "predicate": "运行",
+      "object": "DOCA容器",
+      "context": "通过firefly_monitor.sh脚本可以验证DOCA容器是否在BlueField-2卡上运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "gmIdentity",
+      "predicate": "确保",
+      "object": "时间参考一致性",
+      "context": "所有节点的gmIdentity值必须相同才能使用相同的时间参考",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:04:04.676Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4792,
+    "contentLength": 3214,
+    "processingTimeMs": 30885
+  }
+}

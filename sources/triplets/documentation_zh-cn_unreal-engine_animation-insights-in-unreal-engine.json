@@ -1,0 +1,195 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-insights-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-insights-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Animation Insights",
+      "predicate": "是",
+      "object": "插件",
+      "context": "Animation Insights是虚幻引擎中的一个插件，用于实时剖析和观察游戏和动画系统性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Animation Insights",
+      "predicate": "依赖",
+      "object": "PIE",
+      "context": "Animation Insights通过在PIE（Play in Editor）模拟过程中记录跟踪信息来分析性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Animation Insights",
+      "predicate": "包含",
+      "object": "性能图表",
+      "context": "Animation Insights插件包含一张性能图表，用于观察游戏和动画系统的性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Animation Insights",
+      "predicate": "支持",
+      "object": "跟踪数据过滤",
+      "context": "Animation Insights支持跟踪数据过滤功能，可以筛选出特定类型的跟踪数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Animation Insights",
+      "predicate": "支持",
+      "object": "来源过滤",
+      "context": "Animation Insights支持来源过滤，可以选择只查看某一个游戏对象相关的追踪数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Animation Insights",
+      "predicate": "依赖",
+      "object": "Insights数据源过滤器",
+      "context": "使用Animation Insights需要启用Insights数据源过滤器插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Animation Insights",
+      "predicate": "依赖",
+      "object": "Trace Data过滤",
+      "context": "使用Animation Insights需要启用Trace Data过滤插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Animation Insights",
+      "predicate": "生成",
+      "object": ".utrace文件",
+      "context": "Animation Insights会将跟踪数据保存在.utrace文件中，可以使用Unreal Insights Application访问",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Animation Insights",
+      "predicate": "替代",
+      "object": "showdebug动画系统",
+      "context": "Animation Insights扩展了之前的showdebug动画功能，提供更强大的可视化和信息分析能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Animation Insights",
+      "predicate": "包含",
+      "object": "轨道",
+      "context": "Animation Insights将数据编成轨道，在面板的时间线上水平分层显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "轨道",
+      "predicate": "包含",
+      "object": "通知轨道",
+      "context": "通知轨道显示被追踪角色的动画中包含的动画通知和同步标记的存在和状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "轨道",
+      "predicate": "包含",
+      "object": "曲线轨道",
+      "context": "曲线轨道显示所有在当前帧中处于激活状态的动画曲线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "轨道",
+      "predicate": "包含",
+      "object": "姿势轨道",
+      "context": "姿势轨道显示或隐藏所选帧的激活的actor姿势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "轨道",
+      "predicate": "包含",
+      "object": "图表轨道",
+      "context": "图表轨道显示追踪图表的更新时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "轨道",
+      "predicate": "包含",
+      "object": "蒙太奇轨道",
+      "context": "蒙太奇轨道显示动画蒙太奇资产的信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "轨道",
+      "predicate": "包含",
+      "object": "混合权重轨道",
+      "context": "混合权重轨道显示在某一帧中活动的所有资产及其有效的混合权重",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "跟踪数据过滤",
+      "predicate": "包含",
+      "object": "过滤器预设",
+      "context": "跟踪数据过滤功能允许用户保存过滤器预设，方便快速启用特定的跟踪通道组合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "跟踪来源过滤",
+      "predicate": "包含",
+      "object": "类过滤器",
+      "context": "跟踪来源过滤功能包含类过滤器，可以基于项目中的蓝图类创建过滤器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "跟踪来源过滤",
+      "predicate": "包含",
+      "object": "用户过滤器",
+      "context": "跟踪来源过滤功能包含用户过滤器，可以创建自定义过滤器蓝图来记录跟踪数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "跟踪来源过滤",
+      "predicate": "包含",
+      "object": "世界过滤器",
+      "context": "跟踪来源过滤功能包含世界过滤器，可以在项目的不同关卡中设置跟踪背景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Animation Insights",
+      "predicate": "用于",
+      "object": "性能优化",
+      "context": "Animation Insights主要用于调试和优化项目的动画系统性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Animation Insights",
+      "predicate": "用于",
+      "object": "错误定位",
+      "context": "Animation Insights可以帮助用户定位并识别潜在的动画错误来源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:01:55.011Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11429 字符)",
+      "timestamp": "2025-06-15T18:00:44.019Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 18325,
+    "contentLength": 11429,
+    "processingTimeMs": 71003
+  }
+}

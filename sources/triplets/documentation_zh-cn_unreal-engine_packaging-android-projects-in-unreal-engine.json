@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_packaging-android-projects-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_packaging-android-projects-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "Android打包",
+      "context": "虚幻引擎提供了完整的Android项目打包功能，帮助开发者将项目部署到Android设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android打包",
+      "predicate": "依赖",
+      "object": "Android Studio",
+      "context": "进行Android打包前需要设置Android Studio环境，这是打包的基础依赖",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android打包",
+      "predicate": "生成",
+      "object": "APK文件",
+      "context": "打包过程会生成APK文件，这是Android应用的安装包格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "APK文件",
+      "predicate": "可替换为",
+      "object": "Android App Bundle",
+      "context": "Android App Bundle是Google推荐的替代APK的发布格式，支持更灵活的发布方式",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Android打包",
+      "predicate": "需要",
+      "object": "开发模式",
+      "context": "Android设备需要启用开发模式和USB调试才能进行应用部署和测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理压缩格式",
+      "predicate": "影响",
+      "object": "Android打包",
+      "context": "不同的纹理压缩格式(如ETC2、ASTC等)会影响打包过程和最终应用性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "打包配置",
+      "predicate": "包含",
+      "object": "开发配置",
+      "context": "打包时可以设置为开发配置用于测试，或发布配置用于最终产品",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "打包配置",
+      "predicate": "包含",
+      "object": "发布配置",
+      "context": "发布配置用于最终产品打包，与开发配置有不同的优化设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android App Bundle",
+      "predicate": "支持",
+      "object": "ABI拆分",
+      "context": "App Bundle可以基于不同CPU架构生成优化的APK，减少应用体积",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Android App Bundle",
+      "predicate": "支持",
+      "object": "语言拆分",
+      "context": "App Bundle可以按语言拆分资源，只下载用户需要的语言包",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Android打包",
+      "predicate": "前置条件",
+      "object": "Android SDK授权协议",
+      "context": "打包前需要接受Android SDK授权协议，这是法律和技术要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第三人称模板",
+      "predicate": "适用于",
+      "object": "Android开发",
+      "context": "文档建议使用第三人称模板创建项目，特别适合移动设备开发",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "移动设备平台",
+      "predicate": "需要",
+      "object": "可伸缩质量设置",
+      "context": "针对移动设备开发时，建议将质量设为可伸缩以适应不同性能设备",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Android打包",
+      "predicate": "涉及",
+      "object": "纹理格式选择",
+      "context": "打包时需要根据目标设备选择适当的纹理压缩格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ETC2格式",
+      "predicate": "兼容",
+      "object": "OpenGL 3.x设备",
+      "context": "ETC2纹理格式被所有OpenGL 3.x设备支持，是安全的选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ASTC格式",
+      "predicate": "提供",
+      "object": "更高质量控制",
+      "context": "ASTC是最新的纹理格式，通过指定块大小提供更好的质量控制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Android打包",
+      "predicate": "产生",
+      "object": "安装脚本",
+      "context": "打包过程会生成安装脚本(.bat/.command/.sh)用于部署应用到设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android App Bundle",
+      "predicate": "不支持",
+      "object": "OBB文件",
+      "context": "由于Google Play商店限制，App Bundle不能与OBB扩展文件一起使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "打包流程",
+      "predicate": "包含",
+      "object": "进度监控",
+      "context": "打包过程中编辑器会显示进度信息，帮助开发者了解打包状态",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Android开发",
+      "predicate": "需要",
+      "object": "USB调试",
+      "context": "将应用部署到设备进行测试需要启用USB调试功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:16:34.931Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10447 字符)",
+      "timestamp": "2025-06-15T20:15:30.540Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14465,
+    "contentLength": 10447,
+    "processingTimeMs": 64399
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-retargeted-animations-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-retargeted-animations-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "动画重定位",
+      "predicate": "包含",
+      "object": "相同骨架重定位",
+      "context": "动画重定位包含两种形式，其中一种是使用相同骨架的重定位",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画重定位",
+      "predicate": "包含",
+      "object": "不同骨架重定位",
+      "context": "动画重定位包含两种形式，其中一种是使用不同骨架的重定位",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "不同骨架重定位",
+      "predicate": "依赖",
+      "object": "骨架绑定",
+      "context": "不同骨架重定位需要使用骨架绑定作为中间对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架绑定",
+      "predicate": "用于",
+      "object": "传递骨骼信息",
+      "context": "骨架绑定用于将骨骼信息从一个骨架传递到另一个骨架",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "相同骨架重定位",
+      "predicate": "涉及",
+      "object": "骨架编辑器",
+      "context": "相同骨架重定位需要在骨架编辑器中进行设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架编辑器",
+      "predicate": "提供",
+      "object": "重定位选项",
+      "context": "骨架编辑器提供显示重定位选项的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "相同骨架重定位",
+      "predicate": "涉及",
+      "object": "骨骼平移重定位模式",
+      "context": "相同骨架重定位需要设置骨骼平移重定位模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼平移重定位模式",
+      "predicate": "包含",
+      "object": "比例动画",
+      "context": "骨骼平移重定位模式包含比例动画选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼平移重定位模式",
+      "predicate": "包含",
+      "object": "动画",
+      "context": "骨骼平移重定位模式包含动画选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "不同骨架重定位",
+      "predicate": "涉及",
+      "object": "重定位管理器",
+      "context": "不同骨架重定位需要使用重定位管理器进行设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重定位管理器",
+      "predicate": "提供",
+      "object": "选择骨架绑定功能",
+      "context": "重定位管理器提供选择骨架绑定的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重定位管理器",
+      "predicate": "提供",
+      "object": "自动映射功能",
+      "context": "重定位管理器提供自动映射骨骼的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "不同骨架重定位",
+      "predicate": "涉及",
+      "object": "重定位动画资源",
+      "context": "不同骨架重定位需要复制并重定位动画资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画重定位",
+      "predicate": "适用于",
+      "object": "共享动画资源",
+      "context": "动画重定位适用于在多个角色间共享动画资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画重定位",
+      "predicate": "减少",
+      "object": "创建新动画的需求",
+      "context": "动画重定位可以减少创建全新动画的需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "相同骨架重定位",
+      "predicate": "需要",
+      "object": "预览网格体",
+      "context": "相同骨架重定位需要使用不同的预览网格体进行测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "不同骨架重定位",
+      "predicate": "需要",
+      "object": "相似的基本姿势",
+      "context": "不同骨架重定位需要目标骨架具有与源骨架相似的基本姿势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重定位管理器",
+      "predicate": "支持",
+      "object": "高级配置",
+      "context": "重定位管理器支持高级配置，用于指定手指、IK骨骼等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画重定位",
+      "predicate": "基于",
+      "object": "骨骼层级",
+      "context": "动画重定位基于骨骼层级和命名规范",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "不同骨架重定位",
+      "predicate": "可能涉及",
+      "object": "重定位基本姿势",
+      "context": "不同骨架重定位可能涉及修改基本姿势",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:22:55.925Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11957,
+    "contentLength": 7715,
+    "processingTimeMs": 51252
+  }
+}

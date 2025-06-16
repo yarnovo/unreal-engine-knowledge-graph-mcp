@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_scalability-and-best-practices-for-niagara",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_scalability-and-best-practices-for-niagara.md",
+  "triples": [
+    {
+      "subject": "Niagara World Manager",
+      "predicate": "批量刷新",
+      "object": "同一系统的实例",
+      "context": "Niagara World Manager通过批量刷新同一系统的实例来优化性能，减少游戏线程上的工作量。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "实例数",
+      "predicate": "影响",
+      "object": "性能",
+      "context": "实例数越多，游戏线程上的工作量越大，性能可能越低。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "实例数",
+      "predicate": "权衡",
+      "object": "粒子的剔除粒度",
+      "context": "实例数越多，粒子的剔除粒度越高，但性能可能越低。",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "伸缩性选项",
+      "predicate": "应用于",
+      "object": "效果类型资产",
+      "context": "伸缩性选项可以应用于任何包含效果类型资产的系统，用于基于伸缩性级别进行控制。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "系统即服务",
+      "predicate": "替代",
+      "object": "实例化新系统",
+      "context": "系统即服务方法通过向现有系统添加新粒子来替代实例化新系统，减少开销。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器",
+      "predicate": "增加",
+      "object": "开销",
+      "context": "每个发射器都有固定的开销，减少发射器数可以降低性能开销。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara虚拟机",
+      "predicate": "运行",
+      "object": "脚本",
+      "context": "Niagara虚拟机用于在CPU上运行脚本，支持可扩展性和并行化。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "轻量级发射器",
+      "predicate": "减少",
+      "object": "虚拟机开销",
+      "context": "轻量级发射器没有虚拟机开销，是减少发射器数的可行替代方案。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成索引",
+      "predicate": "创建",
+      "object": "粒子分组",
+      "context": "生成索引可用于在发射器中创建具有共同行为或起始数据的粒子分组。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多个渲染器",
+      "predicate": "绑定到",
+      "object": "不同参数",
+      "context": "多个渲染器可以绑定到不同参数，从而在模拟中形成轻微变化。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "池化",
+      "predicate": "减少",
+      "object": "运行时分配",
+      "context": "池化通过复用不再使用的组件来减少运行时分配和垃圾回收的开销。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU模拟",
+      "predicate": "优于",
+      "object": "CPU模拟",
+      "context": "GPU模拟通常具有更高的性能，可以模拟更多的粒子，尤其是在粒子数量较多时。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "固定边界",
+      "predicate": "优于",
+      "object": "动态边界",
+      "context": "固定边界的性能通常比动态边界更好，因为它的工作量更少。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预热",
+      "predicate": "导致",
+      "object": "卡顿",
+      "context": "预热粒子系统需要按顺序对每一帧进行求值，容易导致卡顿。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体资产卫生",
+      "predicate": "提高",
+      "object": "性能",
+      "context": "简化静态网格体资产（如移除碰撞、关闭阴影等）可以提高生成和渲染性能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子大迸发",
+      "predicate": "分散到",
+      "object": "多个帧",
+      "context": "将大量粒子的生成过程分散到多个帧中可以避免卡顿。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "需要当前帧数据",
+      "predicate": "影响",
+      "object": "刷新时机",
+      "context": "停用“需要当前帧数据”可以让Niagara在帧中尽早开始刷新，分散工作量。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据接口",
+      "predicate": "移至",
+      "object": "堆栈中更高的位置",
+      "context": "将数据接口移至堆栈中更高的位置可以减少内存使用和提高性能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性读取器",
+      "predicate": "优于",
+      "object": "事件",
+      "context": "使用属性读取器数据接口的粒子读取通常比事件的性能更高。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "排序",
+      "predicate": "增加",
+      "object": "GPU开销",
+      "context": "启用排序会增加GPU开销并占用额外内存，可能导致绘制性能较差。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:39:34.386Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 15003,
+    "contentLength": 7347,
+    "processingTimeMs": 54811
+  }
+}

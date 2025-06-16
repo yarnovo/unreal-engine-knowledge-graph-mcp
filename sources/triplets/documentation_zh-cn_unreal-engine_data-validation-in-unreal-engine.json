@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_data-validation-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_data-validation-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "数据验证插件",
+      "predicate": "属于",
+      "object": "虚幻引擎编辑器",
+      "context": "数据验证插件是虚幻引擎编辑器的一个功能模块，用于验证资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据验证插件",
+      "predicate": "支持",
+      "object": "自定义脚本规则集",
+      "context": "数据验证插件允许开发人员使用自定义脚本规则集来验证资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据验证插件",
+      "predicate": "用于",
+      "object": "资产验证",
+      "context": "数据验证插件的主要用途是验证资产，包括检查命名规范、性能预算等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据验证插件",
+      "predicate": "支持",
+      "object": "持续集成系统",
+      "context": "数据验证插件可以通过命令行运行，适合作为持续集成系统的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "验证规则",
+      "predicate": "包含",
+      "object": "C++验证规则",
+      "context": "数据验证系统默认支持C++验证规则，并可扩展支持蓝图和Python规则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "验证规则",
+      "predicate": "包含",
+      "object": "蓝图验证规则",
+      "context": "数据验证系统可以通过扩展支持蓝图验证规则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "验证规则",
+      "predicate": "包含",
+      "object": "Python验证规则",
+      "context": "数据验证系统可以通过扩展支持Python验证规则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UEditorValidatorBase",
+      "predicate": "继承自",
+      "object": "UObject",
+      "context": "UEditorValidatorBase是创建验证规则的基础类，继承自UObject",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UEditorValidatorBase",
+      "predicate": "提供",
+      "object": "CanValidateAsset",
+      "context": "UEditorValidatorBase提供了CanValidateAsset函数，用于验证传入的Uobject指针参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UEditorValidatorBase",
+      "predicate": "提供",
+      "object": "ValidateLoadedAsset",
+      "context": "UEditorValidatorBase提供了ValidateLoadedAsset函数，用于验证传入的Uobject指针参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UEditorValidatorSubsystem",
+      "predicate": "管理",
+      "object": "Python验证器",
+      "context": "Python验证器需要通过UEditorValidatorSubsystem注册",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IsDataValid",
+      "predicate": "重载",
+      "object": "UObject",
+      "context": "可以通过重载UObject的IsDataValid方法来创建自定义验证规则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据验证插件",
+      "predicate": "生成",
+      "object": "验证错误消息",
+      "context": "验证失败时，数据验证插件会在编辑器的消息日志和控制台中显示错误消息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据验证插件",
+      "predicate": "适用于",
+      "object": "资产保存时验证",
+      "context": "数据验证插件可以在资产保存时自动运行验证规则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:45:00.155Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5730,
+    "contentLength": 3492,
+    "processingTimeMs": 47333
+  }
+}

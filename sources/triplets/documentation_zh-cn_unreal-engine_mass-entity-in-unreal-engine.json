@@ -1,0 +1,77 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_mass-entity-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_mass-entity-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "MassEntity",
+      "predicate": "包含",
+      "object": "群体避障",
+      "context": "群体避障是MassEntity系统的一部分，学习MassEntity需要理解其包含的功能模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MassEntity",
+      "predicate": "属于",
+      "object": "虚幻引擎",
+      "context": "MassEntity是虚幻引擎中的一个系统，学习虚幻引擎架构需要了解其子系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MassGameplay",
+      "predicate": "基于",
+      "object": "MassEntity",
+      "context": "MassGameplay系统建立在MassEntity之上，理解底层架构有助于掌握高级功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "群体避障",
+      "predicate": "实现",
+      "object": "基于力的避障系统",
+      "context": "了解群体避障的技术实现方式有助于正确应用该功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MassEntity",
+      "predicate": "关联",
+      "object": "AI",
+      "context": "MassEntity常用于AI相关开发，理解这种关联有助于AI系统设计",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "MassEntity概述",
+      "predicate": "描述",
+      "object": "MassEntity",
+      "context": "概述文档是学习MassEntity系统的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MassGameplay概览",
+      "predicate": "扩展",
+      "object": "MassEntity",
+      "context": "MassGameplay扩展了MassEntity的功能，学习进阶应用需要先掌握基础",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "MassEntity",
+      "predicate": "状态为",
+      "object": "Experimental",
+      "context": "了解功能状态有助于决定是否在生产环境中使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:50:31.222Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2006,
+    "contentLength": 1722,
+    "processingTimeMs": 40741
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_modifying-a-datasmith-master-material-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_modifying-a-datasmith-master-material-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Datasmith",
+      "predicate": "创建",
+      "object": "材质实例",
+      "context": "Datasmith在项目中为原始场景中的每种表面创建材质实例，这是理解Datasmith工作流程的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质实例",
+      "predicate": "基于",
+      "object": "主材质",
+      "context": "材质实例继承自主材质的属性和功能，理解这种关系对材质修改至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith_Color",
+      "predicate": "属于",
+      "object": "Datasmith预设父材质",
+      "context": "了解Datasmith提供的预设材质类型有助于选择合适的材质基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SketchUpMaster",
+      "predicate": "属于",
+      "object": "Datasmith预设父材质",
+      "context": "了解Datasmith提供的预设材质类型有助于选择合适的材质基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RevitMaster",
+      "predicate": "属于",
+      "object": "Datasmith预设父材质",
+      "context": "了解Datasmith提供的预设材质类型有助于选择合适的材质基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith预设父材质",
+      "predicate": "包含于",
+      "object": "Datasmith插件内容",
+      "context": "理解预设材质的存储位置有助于避免直接修改原始资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质实例编辑器",
+      "predicate": "用于",
+      "object": "修改材质实例",
+      "context": "掌握材质实例编辑器的使用是修改材质属性的前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "包含",
+      "object": "父代设置",
+      "context": "了解细节面板中的父代设置是修改材质继承关系的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质编辑器",
+      "predicate": "用于",
+      "object": "修改主材质",
+      "context": "掌握材质编辑器的使用是自定义材质的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "层级按钮",
+      "predicate": "用于",
+      "object": "导航材质层级",
+      "context": "了解层级按钮功能有助于在材质实例和主材质之间快速切换",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "另存为操作",
+      "predicate": "用于",
+      "object": "创建主材质副本",
+      "context": "理解另存为操作的重要性可以避免原始材质被覆盖",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主材质副本",
+      "predicate": "替代",
+      "object": "原始主材质",
+      "context": "使用副本替代原始材质是安全修改材质的标准流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导入流程",
+      "predicate": "影响",
+      "object": "材质修改持久性",
+      "context": "理解Datasmith导入流程可以避免材质修改被覆盖",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质实例",
+      "predicate": "公开",
+      "object": "预设属性列表",
+      "context": "了解材质实例公开的属性是进行自定义修改的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3ds Max",
+      "predicate": "关联",
+      "object": "Datasmith自定义材质",
+      "context": "了解3ds Max等软件与Datasmith的材质转换关系有助于导入工作",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Rhino",
+      "predicate": "关联",
+      "object": "Datasmith自定义材质",
+      "context": "了解Rhino等软件与Datasmith的材质转换关系有助于导入工作",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T19:58:49.200Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6082,
+    "contentLength": 4108,
+    "processingTimeMs": 57699
+  }
+}

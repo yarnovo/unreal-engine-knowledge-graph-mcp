@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_setting-up-rundown-server-for-motion-design-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_setting-up-rundown-server-for-motion-design-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "纲要服务器API",
+      "predicate": "结合",
+      "object": "远程控制API",
+      "context": "纲要服务器API与远程控制API结合使用，实现对动态设计播放的控制，帮助学习者理解两者如何协同工作",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纲要服务器API",
+      "predicate": "包含",
+      "object": "远程控制预设(RCP)",
+      "context": "纲要服务器API包含嵌入式远程控制预设(RCP)，学习者需要理解RCP在动态设计播放中的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WebSocket Messaging插件",
+      "predicate": "桥接",
+      "object": "UE消息总线",
+      "context": "WebSocket Messaging插件桥接UE消息总线，学习者需要理解消息总线在通信中的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纲要服务器",
+      "predicate": "依赖",
+      "object": "WebSocket Messaging插件",
+      "context": "纲要服务器依赖WebSocket Messaging插件进行通信，学习者需要理解插件在服务器功能中的重要性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制API",
+      "predicate": "用于",
+      "object": "编辑页面RCP",
+      "context": "远程控制API专门用于编辑页面RCP，学习者需要掌握如何通过API修改RCP",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetPageDetails",
+      "predicate": "加载",
+      "object": "远程控制预设(RCP)",
+      "context": "GetPageDetails命令用于加载页面的RCP，学习者需要理解命令与RCP的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UpdatePageFromRCP",
+      "predicate": "保存",
+      "object": "RC值",
+      "context": "UpdatePageFromRCP请求用于将RC值保存回页面，学习者需要掌握RC值的保存机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AvaRundownPing",
+      "predicate": "获取",
+      "object": "纲要服务器UUID",
+      "context": "AvaRundownPing消息用于获取纲要服务器UUID，学习者需要理解握手过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AvaRundownPong",
+      "predicate": "回复",
+      "object": "AvaRundownPing",
+      "context": "AvaRundownPong消息是对AvaRundownPing的回复，学习者需要理解消息总线的通信机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制API",
+      "predicate": "修改",
+      "object": "RC值",
+      "context": "远程控制API是修改RC值的唯一途径，学习者需要理解API在RC值修改中的核心作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态设计",
+      "predicate": "使用",
+      "object": "纲要服务器",
+      "context": "动态设计工作流使用纲要服务器进行播放控制，帮助学习者理解服务器在动态设计中的应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "WebSocket Messaging插件",
+      "predicate": "配置",
+      "object": "JSON序列化",
+      "context": "WebSocket Messaging插件需要配置为使用JSON序列化，学习者需要掌握插件的配置方法",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "纲要服务器",
+      "predicate": "启动",
+      "object": "控制台命令",
+      "context": "纲要服务器可以通过控制台命令启动，学习者需要掌握服务器的启动方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "远程控制API",
+      "predicate": "依赖",
+      "object": "HTTP服务器配置",
+      "context": "远程控制API依赖HTTP服务器的正确配置，学习者需要理解服务器配置对API功能的影响",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T20:45:22.586Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10576,
+    "contentLength": 7786,
+    "processingTimeMs": 48566
+  }
+}

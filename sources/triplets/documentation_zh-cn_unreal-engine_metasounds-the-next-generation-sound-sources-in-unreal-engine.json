@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_metasounds-the-next-generation-sound-sources-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_metasounds-the-next-generation-sound-sources-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "MetaSounds",
+      "predicate": "替代",
+      "object": "Sound Cues",
+      "context": "MetaSounds是虚幻引擎5中的新一代音频系统，相比Sound Cues提供了更高级的功能和控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSounds",
+      "predicate": "基于",
+      "object": "数字信号处理（DSP）",
+      "context": "MetaSounds本质上是一个数字信号处理（DSP）渲染图表，为音频设计提供底层控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSounds",
+      "predicate": "支持",
+      "object": "准确到采样级别的控制",
+      "context": "MetaSounds能够按照单个音频采样的顺序来进行计时，提供高精度音频控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSounds",
+      "predicate": "使用",
+      "object": "MetaSound编辑器",
+      "context": "MetaSounds在MetaSound编辑器中创建和编辑，提供基于节点的可视化界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSound编辑器",
+      "predicate": "提供",
+      "object": "实时预览",
+      "context": "MetaSound编辑器支持实时预览所有音频输入参数，便于调试和设计",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSounds",
+      "predicate": "支持",
+      "object": "预设系统",
+      "context": "MetaSounds通过预设系统实现图表复用和变体管理，提高工作效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSounds",
+      "predicate": "支持",
+      "object": "图表复合",
+      "context": "MetaSounds允许在其他MetaSound图表中直接使用现有MetaSound，支持模块化设计",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSounds",
+      "predicate": "支持",
+      "object": "自定义节点",
+      "context": "MetaSounds允许创建自定义节点，可在多个图表中复用，提高开发效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSounds",
+      "predicate": "集成",
+      "object": "参数调谐插件",
+      "context": "MetaSounds与参数调谐插件集成，支持从调谐总线资产读取参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSounds",
+      "predicate": "包含",
+      "object": "Wave Player节点",
+      "context": "Wave Player节点是MetaSounds核心功能之一，支持准确到采样级别的音频串联",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSounds",
+      "predicate": "包含",
+      "object": "触发器工具",
+      "context": "触发器工具是MetaSounds节点库的重要组成部分，用于处理准确到采样级别的事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSounds",
+      "predicate": "包含",
+      "object": "DSP数学运算",
+      "context": "DSP数学运算是MetaSounds节点库的基础功能，用于音频信号处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSounds",
+      "predicate": "支持",
+      "object": "C++扩展",
+      "context": "MetaSounds提供C++节点API，允许通过第三方插件扩展功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSounds",
+      "predicate": "支持",
+      "object": "Gameplay交互",
+      "context": "MetaSounds可以接收自定义用户输入参数，与Gameplay系统深度集成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSounds",
+      "predicate": "优化",
+      "object": "音频性能",
+      "context": "MetaSounds采用异步渲染和优化的C++对象，提供高性能音频处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSounds",
+      "predicate": "支持",
+      "object": "音频-速率参数调谐",
+      "context": "MetaSounds支持通过音频缓冲区进行参数调谐，实现高级声音设计技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSounds",
+      "predicate": "支持",
+      "object": "实时合成",
+      "context": "MetaSounds节点库包含实时合成生成器，支持动态音频生成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSounds",
+      "predicate": "支持",
+      "object": "空间化处理",
+      "context": "MetaSounds节点库包含空间化处理功能，支持3D音频效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSounds",
+      "predicate": "支持",
+      "object": "动态处理",
+      "context": "MetaSounds节点库包含动态处理功能，支持复杂的音频效果链",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSounds",
+      "predicate": "支持",
+      "object": "DSP筛选器",
+      "context": "MetaSounds节点库包含各种DSP筛选器，用于音频信号处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:57:37.360Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8688,
+    "contentLength": 4918,
+    "processingTimeMs": 67919
+  }
+}

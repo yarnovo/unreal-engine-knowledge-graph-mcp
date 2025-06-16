@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_locomotion-based-blending-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_locomotion-based-blending-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "混合空间",
+      "predicate": "属于",
+      "object": "动画图",
+      "context": "混合空间是动画图中用于采样的特殊资源，帮助学习者理解动画图的基本组成元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间",
+      "predicate": "基于",
+      "object": "输入值",
+      "context": "混合空间通过输入值（如速度和方向）实现动画混合，这是理解混合空间工作原理的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间",
+      "predicate": "实现",
+      "object": "动画混合",
+      "context": "混合空间的主要功能是实现多个动画之间的平滑过渡，这是动画系统的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "混合节点",
+      "context": "动画蓝图中的混合节点是实现动画混合的基础工具，学习者需要了解这些标准组件的存在",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间",
+      "predicate": "替换",
+      "object": "BS_Jog",
+      "context": "文档展示了如何用自定义混合空间替换默认混合空间，这是实际开发中常见的操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "状态机",
+      "predicate": "包含",
+      "object": "慢跑状态",
+      "context": "状态机中的状态组织方式对于理解动画状态管理很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CharacterMovement",
+      "predicate": "控制",
+      "object": "最大行走速度",
+      "context": "CharacterMovement组件控制角色的移动参数，这是角色运动系统的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "左Shift键",
+      "predicate": "触发",
+      "object": "速度切换",
+      "context": "输入事件与角色运动参数的关联是游戏交互设计的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画初学者包",
+      "predicate": "提供",
+      "object": "基础动画资源",
+      "context": "了解资源来源对项目开发很重要，初学者包是常见的学习资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间",
+      "predicate": "使用",
+      "object": "骨架资源",
+      "context": "创建混合空间需要指定骨架资源，这是资源关联的重要知识点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "轴设置",
+      "predicate": "定义",
+      "object": "混合参数",
+      "context": "理解混合空间的轴设置是创建自定义混合空间的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "行走动画",
+      "predicate": "混合到",
+      "object": "慢跑动画",
+      "context": "展示不同运动状态间的动画过渡是混合空间的典型应用场景",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "胶囊组件",
+      "predicate": "具有",
+      "object": "碰撞检测",
+      "context": "了解角色碰撞组件的可视性设置对调试很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "蓝图第三人称模板",
+      "predicate": "兼容",
+      "object": "动画初学者包",
+      "context": "了解项目模板与资源包的兼容性对项目设置很重要",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "引用",
+      "object": "混合空间",
+      "context": "动画蓝图通过引用混合空间资源来实现复杂动画逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:47:59.117Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9744,
+    "contentLength": 6812,
+    "processingTimeMs": 50106
+  }
+}

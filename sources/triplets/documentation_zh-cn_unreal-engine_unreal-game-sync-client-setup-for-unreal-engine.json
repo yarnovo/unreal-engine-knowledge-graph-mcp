@@ -1,0 +1,149 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-game-sync-client-setup-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-game-sync-client-setup-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "UnrealGameSync (UGS)",
+      "predicate": "依赖",
+      "object": "Perforce",
+      "context": "UGS需要Perforce作为版本控制系统来同步项目文件和二进制文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS安装程序",
+      "predicate": "用于",
+      "object": "设置UGS客户端",
+      "context": "UGS安装程序是设置UGS客户端的必要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS",
+      "predicate": "支持",
+      "object": "同步筛选器",
+      "context": "同步筛选器帮助用户仅同步需要的项目文件，避免多余数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS",
+      "predicate": "包含",
+      "object": "变更列表",
+      "context": "变更列表是UGS中用于管理和同步项目版本的核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS",
+      "predicate": "支持",
+      "object": "Visual Studio",
+      "context": "UGS可以通过Visual Studio打开和构建项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS",
+      "predicate": "支持",
+      "object": "虚幻编辑器",
+      "context": "UGS可以直接打开项目的虚幻编辑器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS",
+      "predicate": "使用",
+      "object": "预编译二进制文件",
+      "context": "UGS可以使用预编译的二进制文件来加速项目构建和运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS",
+      "predicate": "依赖",
+      "object": "Perforce工作空间",
+      "context": "UGS需要正确设置的Perforce工作空间来同步项目文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS",
+      "predicate": "包含",
+      "object": "项目概述",
+      "context": "项目概述是UGS主菜单的核心功能区域，用于管理项目同步和构建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS",
+      "predicate": "支持",
+      "object": "同步后操作",
+      "context": "UGS允许用户在同步后自动执行构建、打开或运行项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS",
+      "predicate": "基于",
+      "object": "Perforce连接设置",
+      "context": "UGS需要正确的Perforce服务器和用户设置才能连接和同步项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS",
+      "predicate": "使用",
+      "object": ".uproject文件",
+      "context": "UGS可以通过.uproject文件来识别和打开项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS",
+      "predicate": "使用",
+      "object": ".uprojectdirs文件",
+      "context": "UGS可以通过.uprojectdirs文件来识别和打开多个项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS",
+      "predicate": "包含",
+      "object": "同步后选项",
+      "context": "同步后选项允许用户配置同步后的自动操作，如构建或打开编辑器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS",
+      "predicate": "支持",
+      "object": "最新变更列表",
+      "context": "UGS可以同步到最新的变更列表，确保项目文件是最新的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS",
+      "predicate": "支持",
+      "object": "最新良好变更列表",
+      "context": "UGS可以同步到最新批准的变更列表，确保项目稳定性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS",
+      "predicate": "支持",
+      "object": "最新星标变更列表",
+      "context": "UGS可以同步到最新手动标记的变更列表，方便用户选择特定版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:10:39.267Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8651,
+    "contentLength": 5557,
+    "processingTimeMs": 48019
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_review-test-results-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_review-test-results-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "自动化测试框架",
+      "predicate": "生成",
+      "object": "测试报告",
+      "context": "自动化测试框架是生成测试报告的核心组件，学习者需要理解框架如何产生不同格式的报告",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "测试报告",
+      "predicate": "包含",
+      "object": "日志文件",
+      "context": "日志文件是测试报告的三种格式之一，记录测试事件和状态，对调试很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "测试报告",
+      "predicate": "包含",
+      "object": "JSON报告",
+      "context": "JSON报告提供结构化测试数据，适合程序化分析，是测试报告的三种格式之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "测试报告",
+      "predicate": "包含",
+      "object": "HTML报告",
+      "context": "HTML报告提供可视化测试结果，需要额外设置报告服务器，是测试报告的三种格式之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "JSON报告",
+      "predicate": "记录",
+      "object": "测试运行详情",
+      "context": "JSON报告详细记录测试运行的各项指标，包括事件、时长和设备信息，对性能分析很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "日志文件",
+      "predicate": "记录",
+      "object": "测试状态",
+      "context": "日志文件通过特定格式记录测试开始、完成和事件信息，是基本的调试工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HTML报告",
+      "predicate": "依赖",
+      "object": "自动化测试报告服务器",
+      "context": "HTML报告需要额外设置报告服务器才能使用，这是与其它报告格式的主要区别",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "测试报告",
+      "predicate": "用于",
+      "object": "测试结果审查",
+      "context": "所有报告格式最终都服务于测试结果审查这一核心开发活动",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "JSON报告",
+      "predicate": "包含",
+      "object": "设备详情",
+      "context": "JSON报告中包含详细的设备配置信息，这对跨平台测试分析特别有价值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "日志文件",
+      "predicate": "使用",
+      "object": "特定格式",
+      "context": "日志文件遵循特定的格式标准，包括测试开始/完成标记和事件块，这是解析日志的基础",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "测试报告格式",
+      "predicate": "适用于",
+      "object": "不同使用场景",
+      "context": "三种报告格式(日志/JSON/HTML)分别适用于不同场景(调试/分析/可视化)，学习者需要根据需求选择",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "退出代码",
+      "predicate": "表示",
+      "object": "测试结果状态",
+      "context": "退出代码0表示测试成功，这是自动化测试中重要的状态判断标准",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:38:21.578Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4042,
+    "contentLength": 3588,
+    "processingTimeMs": 37991
+  }
+}

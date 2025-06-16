@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_usd-stage-editor-quick-start-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_usd-stage-editor-quick-start-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "USD舞台编辑器",
+      "predicate": "属于",
+      "object": "虚幻引擎",
+      "context": "USD舞台编辑器是虚幻引擎中用于处理USD内容的专用工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD舞台编辑器",
+      "predicate": "依赖",
+      "object": "USD导入器插件",
+      "context": "使用USD舞台编辑器前需要先启用USD导入器插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD舞台Actor",
+      "predicate": "用于",
+      "object": "锚定USD数据",
+      "context": "每个USD文件在虚幻引擎中都需要一个USD舞台Actor作为数据锚点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD舞台窗口",
+      "predicate": "包含",
+      "object": "层级分段",
+      "context": "层级分段显示USD文件中的场景层级结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD舞台窗口",
+      "predicate": "包含",
+      "object": "属性分段",
+      "context": "属性分段用于编辑USD舞台Actor和图元的属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图元",
+      "predicate": "具有",
+      "object": "变体",
+      "context": "图元可以包含多个变体，如示例中的ChairA和ChairB",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD舞台Actor",
+      "predicate": "生成",
+      "object": "关卡序列",
+      "context": "USD舞台Actor可以生成专用关卡序列用于访问USD动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "用于",
+      "object": "访问USD动画",
+      "context": "可以通过Sequencer访问USD文件中的动画数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD导入",
+      "predicate": "支持",
+      "object": "多种方式",
+      "context": "USD资产可以通过多种方式导入虚幻引擎项目，包括直接拖放和专用导入选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD舞台编辑器",
+      "predicate": "支持",
+      "object": "数据回写",
+      "context": "在USD舞台编辑器中所做的修改可以保存回原始USD文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD舞台编辑器",
+      "predicate": "支持",
+      "object": "图元操作",
+      "context": "可以在层级中添加、删除和修改图元",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD舞台编辑器",
+      "predicate": "支持",
+      "object": "属性编辑",
+      "context": "可以编辑图元的多种属性，包括位置、旋转、可视性等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD舞台编辑器",
+      "predicate": "支持",
+      "object": "图层管理",
+      "context": "可以添加和管理多个USD图层，控制它们对场景的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD舞台编辑器",
+      "predicate": "支持",
+      "object": "选择同步",
+      "context": "可以同步虚幻引擎关卡和USD舞台编辑器窗口之间的选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD舞台编辑器",
+      "predicate": "支持",
+      "object": "动画处理",
+      "context": "可以通过Sequencer对USD内容进行动画处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD舞台编辑器",
+      "predicate": "支持",
+      "object": "资产导入",
+      "context": "可以将USD内容导入为虚幻引擎原生资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD舞台编辑器",
+      "predicate": "属于",
+      "object": "虚拟制片工具集",
+      "context": "USD舞台编辑器位于虚幻引擎的虚拟制片菜单下",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "USD舞台编辑器",
+      "predicate": "基于",
+      "object": "Pixar USD技术",
+      "context": "虚幻引擎的USD功能基于Pixar的通用场景描述技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD舞台编辑器",
+      "predicate": "适用于",
+      "object": "场景组装",
+      "context": "USD舞台编辑器特别适合用于复杂场景的组装和管理",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "USD舞台编辑器",
+      "predicate": "适用于",
+      "object": "协作工作流",
+      "context": "USD格式支持多用户协作，USD舞台编辑器为此提供了工具支持",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:13:25.425Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13436 字符)",
+      "timestamp": "2025-06-15T21:12:33.488Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19204,
+    "contentLength": 13436,
+    "processingTimeMs": 51938
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_controlling-a-virtual-camera-actor-using-live-link-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_controlling-a-virtual-camera-actor-using-live-link-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚拟摄像机Actor",
+      "predicate": "依赖",
+      "object": "Live Link",
+      "context": "虚拟摄像机Actor需要通过Live Link接收来自物理设备的数据流",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟摄像机Actor",
+      "predicate": "包含",
+      "object": "VCam组件",
+      "context": "虚拟摄像机Actor的核心功能由VCam组件实现",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Live Link",
+      "predicate": "支持",
+      "object": "ARKit",
+      "context": "Live Link支持通过ARKit实现的动作追踪数据传输",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal VCam应用",
+      "predicate": "控制",
+      "object": "虚拟摄像机Actor",
+      "context": "移动设备上的Unreal VCam应用可以控制场景中的虚拟摄像机Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟摄像机",
+      "predicate": "需要",
+      "object": "VirtualCamera插件",
+      "context": "使用虚拟摄像机功能需要先启用VirtualCamera插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Recorder",
+      "predicate": "用于",
+      "object": "虚拟制片",
+      "context": "Take Recorder是专门为虚拟制片环境设计的录制工具",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "增强输入",
+      "predicate": "管理",
+      "object": "VCam功能按钮",
+      "context": "虚幻引擎的增强输入系统用于管理虚拟摄像机的功能按钮映射",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Meerkat演示项目",
+      "predicate": "适用于",
+      "object": "虚拟摄像机测试",
+      "context": "Meerkat演示项目特别适合测试虚拟摄像机的各种功能",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ARKit",
+      "predicate": "实现",
+      "object": "物理空间追踪",
+      "context": "ARKit实现了iOS设备在物理空间中的动作追踪功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送",
+      "predicate": "连接",
+      "object": "Unreal VCam应用",
+      "context": "通过像素流送技术将虚幻编辑器与移动设备上的Unreal VCam应用连接",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚拟摄像机界面",
+      "predicate": "包含",
+      "object": "径向调谐钮",
+      "context": "虚拟摄像机界面使用径向调谐钮作为主要的参数调整控件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟摄像机",
+      "predicate": "支持",
+      "object": "Sequencer",
+      "context": "虚拟摄像机可以与Sequencer配合使用进行镜头录制",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Live Link",
+      "predicate": "传输",
+      "object": "动画数据",
+      "context": "Live Link的主要功能是将动画数据传输到虚幻引擎",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟摄像机",
+      "predicate": "应用于",
+      "object": "虚拟制片",
+      "context": "虚拟摄像机是虚拟制片工作流程中的核心工具",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Unreal VCam应用",
+      "predicate": "提供",
+      "object": "触摸屏摇杆控制",
+      "context": "Unreal VCam应用提供触摸屏摇杆作为手动控制虚拟摄像机的方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:35:02.046Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10973 字符)",
+      "timestamp": "2025-06-15T18:34:17.311Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16651,
+    "contentLength": 10973,
+    "processingTimeMs": 44746
+  }
+}

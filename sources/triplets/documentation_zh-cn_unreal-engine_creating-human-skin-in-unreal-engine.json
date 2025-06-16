@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_creating-human-skin-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_creating-human-skin-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "人体皮肤渲染",
+      "predicate": "依赖",
+      "object": "材质系统",
+      "context": "创建逼真的人体皮肤效果需要深入理解和使用虚幻引擎的材质系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质系统",
+      "predicate": "包含",
+      "object": "材质实例",
+      "context": "材质实例允许开发者在不重新编译材质的情况下进行参数调整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "皮肤材质",
+      "predicate": "由...组成",
+      "object": "底色节点",
+      "context": "底色是皮肤材质的基础组成部分，决定了远距离观察时的基本外观",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "皮肤材质",
+      "predicate": "由...组成",
+      "object": "粗糙度节点",
+      "context": "粗糙度控制皮肤表面的微观细节反射特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "皮肤材质",
+      "predicate": "由...组成",
+      "object": "高光节点",
+      "context": "高光控制皮肤表面的镜面反射特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "皮肤材质",
+      "predicate": "由...组成",
+      "object": "法线贴图",
+      "context": "法线贴图用于模拟皮肤表面的微观几何细节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "皮肤材质",
+      "predicate": "由...组成",
+      "object": "次表面散射",
+      "context": "次表面散射是模拟皮肤光线透射效果的关键技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "法线贴图",
+      "predicate": "需要",
+      "object": "BlendAngleCorrectedNormals函数",
+      "context": "正确混合对象法线贴图和细节法线贴图需要使用专门的混合函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "皮肤渲染",
+      "predicate": "建议使用",
+      "object": "高分辨率纹理",
+      "context": "2K或更高分辨率的纹理能产生最佳的皮肤渲染效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "皮肤材质",
+      "predicate": "需要调整",
+      "object": "编辑器FOV",
+      "context": "调整编辑器视野有助于在不裁剪几何体的情况下进行细节微调",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "次表面散射",
+      "predicate": "使用",
+      "object": "次表面轮廓",
+      "context": "次表面轮廓资产定义了光线在皮肤内部的散射方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛孔效果",
+      "predicate": "实现方式",
+      "object": "平铺纹理",
+      "context": "使用单独的平铺纹理而非基础法线贴图能获得更好的毛孔细节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "皮肤渲染",
+      "predicate": "需要验证",
+      "object": "多种光照条件",
+      "context": "在不同光照条件下验证材质可确保渲染效果的一致性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质编辑器",
+      "predicate": "包含",
+      "object": "细节面板",
+      "context": "细节面板用于配置材质的高级参数，如次表面轮廓",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "皮肤渲染",
+      "predicate": "参考",
+      "object": "内容示例项目",
+      "context": "官方提供的内容示例项目包含皮肤渲染的参考实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粗糙度贴图",
+      "predicate": "需要",
+      "object": "MIP链调整",
+      "context": "皮肤粗糙度贴图需要特殊的MIP链处理以适应不同观察距离",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "透明度输入",
+      "predicate": "控制",
+      "object": "次表面散射强度",
+      "context": "材质透明度输入直接控制次表面散射的效果强度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛孔效果",
+      "predicate": "使用",
+      "object": "菲涅尔效果",
+      "context": "菲涅尔效果用于模拟毛孔在不同视角下的可见度变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "皮肤渲染",
+      "predicate": "需要禁用",
+      "object": "人眼适应",
+      "context": "禁用自动曝光功能可获得更可控的渲染评估环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "法线贴图",
+      "predicate": "需要检查",
+      "object": "绿色通道方向",
+      "context": "不同引擎的法线贴图可能有不同的绿色通道方向，需要正确设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:40:41.052Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9592 字符)",
+      "timestamp": "2025-06-15T18:39:37.730Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15502,
+    "contentLength": 9592,
+    "processingTimeMs": 63335
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_vr-template-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_vr-template-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "VR模板",
+      "predicate": "基于",
+      "object": "虚幻引擎",
+      "context": "VR模板是虚幻引擎中所有VR项目的起点，封装了传送逻辑、VR观察视角蓝图等核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR模板",
+      "predicate": "使用",
+      "object": "OpenXR框架",
+      "context": "VR模板采用OpenXR作为跨平台VR/AR开发标准，确保兼容多设备而无需平台专有代码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OpenXR插件",
+      "predicate": "支持",
+      "object": "扩展插件",
+      "context": "开发者可通过虚幻商城获取或创建扩展插件来增强OpenXR的默认功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "VRPawn",
+      "predicate": "实现",
+      "object": "运动控制逻辑",
+      "context": "作为用户的物理呈现，VRPawn包含处理运动控制器输入事件的核心逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VRGameMode",
+      "predicate": "定义",
+      "object": "体验规则",
+      "context": "游戏模式决定使用哪个Pawn对象，是VR体验的规则基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家出生点",
+      "predicate": "决定",
+      "object": "跟踪原点",
+      "context": "作为Pawn生成位置，其原点构成VR世界的空间参考基准",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "传送系统",
+      "predicate": "依赖",
+      "object": "导航网格体",
+      "context": "通过NavModifierVolume限制可传送区域，需要理解导航系统的工作原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GrabComponent",
+      "predicate": "实现",
+      "object": "抓取交互",
+      "context": "该组件提供自由/对齐/自定义三种抓取类型，是物理交互的核心实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VRInteraction BPI",
+      "predicate": "抽象",
+      "object": "交互逻辑",
+      "context": "蓝图接口标准化了交互函数调用，避免针对每种对象的特殊检查",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UMG",
+      "predicate": "构建",
+      "object": "VR菜单",
+      "context": "控件菜单WidgetMenu展示如何用UMG设计器创建VR界面元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VRSpectator",
+      "predicate": "扩展",
+      "object": "多人体验",
+      "context": "旁观者模式可作为本地多人游戏的开发起点，需要理解摄像机控制逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "动作映射",
+      "predicate": "控制",
+      "object": "VR运动",
+      "context": "传送和快速转动都通过动作映射系统触发，是输入事件处理的典型示例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "球体追踪",
+      "predicate": "检测",
+      "object": "可抓取对象",
+      "context": "物理追踪机制实现抓取功能的基础，涉及碰撞通道配置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "NavArea_Null",
+      "predicate": "禁止",
+      "object": "传送区域",
+      "context": "通过修改导航区域类型限制移动范围，展示导航系统的灵活应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:31:22.985Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8937 字符)",
+      "timestamp": "2025-06-15T21:30:43.322Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13549,
+    "contentLength": 8937,
+    "processingTimeMs": 39673
+  }
+}

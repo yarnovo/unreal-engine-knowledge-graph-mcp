@@ -1,0 +1,323 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-engine-actors-reference",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-engine-actors-reference.md",
+  "triples": [
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "网格体Actor",
+      "context": "网格体Actor是Actor的一种类型，用于定义环境道具或玩家角色的形状和大小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体Actor",
+      "predicate": "分为",
+      "object": "静态网格体Actor",
+      "context": "静态网格体Actor用于构建关卡和环境，是网格体Actor的一种",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体Actor",
+      "predicate": "分为",
+      "object": "骨骼网格体Actor",
+      "context": "骨骼网格体Actor用于玩家角色和动画NPC，是网格体Actor的一种",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体Actor",
+      "predicate": "用于",
+      "object": "构建关卡和环境",
+      "context": "静态网格体Actor常用于创建游戏世界或其他类型的环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体Actor",
+      "predicate": "用于",
+      "object": "表示玩家角色或NPC",
+      "context": "骨骼网格体Actor常用于表示玩家角色或NPC，以及其他动画生物和复杂的机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "笔刷Actor",
+      "context": "笔刷Actor是一种基本类型的Actor，用于显示场景中的简单3D几何体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "笔刷Actor",
+      "predicate": "用于",
+      "object": "快速对环境制作原型",
+      "context": "笔刷Actor常用于快速对环境制作原型并粗略规划关卡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "光源Actor",
+      "context": "光源Actor用于将不同类型的光源放置在你的关卡中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源Actor",
+      "predicate": "分为",
+      "object": "定向光源Actor",
+      "context": "定向光源Actor模拟从无限远的光源发射的光线，适合模拟太阳光",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源Actor",
+      "predicate": "分为",
+      "object": "点光源Actor",
+      "context": "点光源Actor类似于现实世界的灯泡，从中心沿所有方向发射光线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源Actor",
+      "predicate": "分为",
+      "object": "聚光源Actor",
+      "context": "聚光源Actor类似于舞台灯光或手电筒，从单个点以圆锥形的形状向外发射光线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源Actor",
+      "predicate": "分为",
+      "object": "矩形光源Actor",
+      "context": "矩形光源Actor从定义了宽度和高度的矩形平面将光线发射到关卡中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源Actor",
+      "predicate": "分为",
+      "object": "天空光照Actor",
+      "context": "天空光照Actor可捕获关卡的远处，并将其作为光源应用于场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "摄像机Actor",
+      "context": "摄像机Actor用于查看你的关卡并创建过场动画序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "音频和声音Actor",
+      "context": "音频和声音Actor用于向你的关卡添加音乐、语音录制和声音效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频和声音Actor",
+      "predicate": "分为",
+      "object": "环境声音Actor",
+      "context": "环境声音Actor可在关卡中的特定位置播放循环（连续）声音",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频和声音Actor",
+      "predicate": "分为",
+      "object": "音频音量Actor",
+      "context": "音频音量Actor可用于处理声音的区域，并将其设置用于应用混响效果、设置音量等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "Gameplay Actor",
+      "context": "Gameplay Actor将触发交互式功能，适用于所有种类的交互式应用程序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay Actor",
+      "predicate": "分为",
+      "object": "玩家出生点",
+      "context": "玩家出生点是放置在关卡中的一种Actor，用于指定玩家角色在何处生成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay Actor",
+      "predicate": "分为",
+      "object": "触发器体积",
+      "context": "触发器会在关卡中的其他事物与之交互时导致某个事件发生",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay Actor",
+      "predicate": "分为",
+      "object": "阻挡体积",
+      "context": "阻挡体积用于防止玩家穿过",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay Actor",
+      "predicate": "分为",
+      "object": "Kill Z体积",
+      "context": "Kill Z体积会在玩家角色进入体积或与之交互时立即将其销毁",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay Actor",
+      "predicate": "分为",
+      "object": "施加伤害体积",
+      "context": "施加伤害体积会对进入体积的玩家或对象逐渐造成伤害",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "角色和Pawn Actor",
+      "context": "Pawn和角色这两种Actor都可以用于表示玩家和AI控制的角色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色和Pawn Actor",
+      "predicate": "分为",
+      "object": "Pawn",
+      "context": "Pawn是世界中的玩家或AI实体的物理呈现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色和Pawn Actor",
+      "predicate": "分为",
+      "object": "角色",
+      "context": "角色是一种特定类型的Pawn，设计用于垂直方向的玩家角色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "视觉效果Actor",
+      "context": "视觉效果Actor用于更改关卡的外观体验",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视觉效果Actor",
+      "predicate": "分为",
+      "object": "后期处理体积",
+      "context": "后期处理体积将一个或多个视觉效果应用于其中包含的对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视觉效果Actor",
+      "predicate": "分为",
+      "object": "反射捕获Actor",
+      "context": "反射捕获Actor用于捕获关卡的内容进行反射",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视觉效果Actor",
+      "predicate": "分为",
+      "object": "平面反射Actor",
+      "context": "平面反射Actor将捕获场景的2D镜像，适合用于创建动态镜面反射",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视觉效果Actor",
+      "predicate": "分为",
+      "object": "贴花Actor",
+      "context": "贴花Actor可以放在网格体表面以渲染其顶部的材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "世界构建Actor",
+      "context": "世界构建Actor用于向你的关卡添加逼真细节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界构建Actor",
+      "predicate": "分为",
+      "object": "天空大气Actor",
+      "context": "天空大气Actor是基于物理的天空和大气渲染技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界构建Actor",
+      "predicate": "分为",
+      "object": "体积云Actor",
+      "context": "体积云Actor是基于物理的云渲染系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界构建Actor",
+      "predicate": "分为",
+      "object": "指数高度雾Actor",
+      "context": "指数高度雾将在关卡中海拔较低处创建密度较大的雾",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "其他Actor",
+      "context": "其他Actor可以用于向你的关卡添加各种元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "其他Actor",
+      "predicate": "分为",
+      "object": "文本渲染Actor",
+      "context": "文本渲染Actor提供了向关卡添加文本的简单方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "其他Actor",
+      "predicate": "分为",
+      "object": "目标点Actor",
+      "context": "目标点Actor提供了世界中的一个泛型点，你可以从中生成项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:08:32.255Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13113 字符)",
+      "timestamp": "2025-06-15T21:06:57.645Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 21544,
+    "contentLength": 13113,
+    "processingTimeMs": 94620
+  }
+}

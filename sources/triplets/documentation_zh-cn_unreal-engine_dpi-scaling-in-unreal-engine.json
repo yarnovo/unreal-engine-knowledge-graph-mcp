@@ -1,0 +1,101 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_dpi-scaling-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_dpi-scaling-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "UMG",
+      "predicate": "支持",
+      "object": "与分辨率无关的UI",
+      "context": "UMG是虚幻引擎中用于创建用户界面的工具，支持与分辨率无关的UI设计，帮助开发者创建适应不同屏幕分辨率的界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "包含",
+      "object": "DPI缩放规则",
+      "context": "项目设置菜单中提供了DPI缩放规则的配置选项，这是设置UI缩放行为的重要入口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DPI缩放规则",
+      "predicate": "包含选项",
+      "object": "最短边",
+      "context": "最短边是DPI缩放规则的一个选项，基于窗口最短边进行缩放，是最常用的设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DPI缩放规则",
+      "predicate": "包含选项",
+      "object": "最长边",
+      "context": "最长边是DPI缩放规则的一个选项，基于窗口最长边进行缩放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DPI缩放规则",
+      "predicate": "包含选项",
+      "object": "水平",
+      "context": "水平是DPI缩放规则的一个选项，基于窗口X轴进行缩放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DPI缩放规则",
+      "predicate": "包含选项",
+      "object": "垂直",
+      "context": "垂直是DPI缩放规则的一个选项，基于窗口Y轴进行缩放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DPI曲线",
+      "predicate": "用于",
+      "object": "定义分辨率与缩放值关系",
+      "context": "DPI曲线用于定义不同分辨率下应用的缩放值，是控制UI缩放行为的关键组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "浮点曲线",
+      "predicate": "可替代",
+      "object": "DPI曲线",
+      "context": "开发者可以选择使用外部浮点曲线来替代内置的DPI曲线，提供更灵活的缩放控制",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "应用比例",
+      "predicate": "影响",
+      "object": "UI缩放",
+      "context": "应用比例是直接控制UI整体缩放程度的参数，调整它会立即影响UI的显示大小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "用户界面",
+      "predicate": "包含",
+      "object": "DPI缩放设置",
+      "context": "DPI缩放设置位于用户界面部分下，是UI开发中需要重点关注的配置项",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UMG UI Designer",
+      "predicate": "使用",
+      "object": "DPI缩放规则",
+      "context": "使用UMG UI Designer创建界面时，需要理解和配置DPI缩放规则以确保界面适配性",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T18:54:20.360Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2253,
+    "contentLength": 1499,
+    "processingTimeMs": 49078
+  }
+}

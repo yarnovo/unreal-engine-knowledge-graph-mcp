@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_dmx-overview",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_dmx-overview.md",
+  "triples": [
+    {
+      "subject": "DMX",
+      "predicate": "是",
+      "object": "数字通信网络标准",
+      "context": "DMX是用于控制舞台光照和效果的数字通信网络标准，帮助学习者理解其基本定义和应用领域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX",
+      "predicate": "支持",
+      "object": "Art-Net",
+      "context": "DMX功能支持Art-Net协议，学习者需要了解不同协议的支持情况",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX",
+      "predicate": "支持",
+      "object": "sACN",
+      "context": "DMX功能支持sACN协议，学习者需要了解不同协议的支持情况",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX",
+      "predicate": "用于",
+      "object": "虚拟制片",
+      "context": "DMX在虚拟制片中用于控制光照和触发事件，帮助学习者理解其在新兴领域的应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX数据",
+      "predicate": "包含",
+      "object": "信道",
+      "context": "DMX数据包由512个信道组成，学习者需要理解数据的基本结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX数据",
+      "predicate": "组成",
+      "object": "域",
+      "context": "512个信道构成一个域，帮助学习者理解DMX数据的层级结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "DMX",
+      "context": "虚幻引擎可以直接使用DMX控制灯具，学习者需要了解引擎的DMX功能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "充当",
+      "object": "DMX数据源",
+      "context": "虚幻引擎可以作为DMX数据的源头，帮助学习者理解其在DMX网络中的角色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX灯具",
+      "predicate": "包含",
+      "object": "模式",
+      "context": "灯具通过模式定义其功能属性，学习者需要理解灯具的工作原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模式",
+      "predicate": "定义",
+      "object": "属性",
+      "context": "模式决定了灯具响应的属性和功能，帮助学习者理解灯具的配置方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "灯具配接",
+      "predicate": "依赖",
+      "object": "起始地址",
+      "context": "灯具配接需要指定起始地址，学习者需要理解如何配置灯具地址",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性",
+      "predicate": "占用",
+      "object": "地址",
+      "context": "属性根据其分辨率占用不同数量的地址，帮助学习者理解数据分配",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Art-Net",
+      "predicate": "是",
+      "object": "网络协议",
+      "context": "Art-Net是通过以太网传输DMX数据的协议，学习者需要了解其基本特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "sACN",
+      "predicate": "是",
+      "object": "网络协议",
+      "context": "sACN是通过以太网传输DMX数据的协议，学习者需要了解其基本特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎DMX插件",
+      "predicate": "集成",
+      "object": "Art-Net",
+      "context": "插件集成了Art-Net协议，学习者需要了解插件的协议支持情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎DMX插件",
+      "predicate": "集成",
+      "object": "sACN",
+      "context": "插件集成了sACN协议，学习者需要了解插件的协议支持情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX网络通信",
+      "predicate": "使用",
+      "object": "以太网协议",
+      "context": "DMX网络通信通过以太网协议扩展其能力，帮助学习者理解现代DMX应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX灯具",
+      "predicate": "响应",
+      "object": "DMX数据",
+      "context": "灯具根据接收到的DMX数据执行命令，学习者需要理解数据与硬件的交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "域",
+      "predicate": "包含",
+      "object": "灯具",
+      "context": "一个域可以包含多个灯具，帮助学习者理解DMX网络的组织结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:53:25.854Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 12697,
+    "contentLength": 6725,
+    "processingTimeMs": 70498
+  }
+}

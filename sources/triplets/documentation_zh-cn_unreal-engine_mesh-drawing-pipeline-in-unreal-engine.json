@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_mesh-drawing-pipeline-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_mesh-drawing-pipeline-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "网格体绘制管道",
+      "predicate": "基于",
+      "object": "保留模式",
+      "context": "网格体绘制管道采用保留模式的概念，预先准备所有场景绘制，而不是每帧构建，这有助于理解其高效渲染的基础设计理念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FPrimitiveSceneProxy",
+      "predicate": "生成",
+      "object": "FMeshBatch",
+      "context": "FPrimitiveSceneProxy作为游戏线程与渲染线程的桥梁，负责通过回调生成FMeshBatch，这是理解渲染数据流转的关键环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FMeshBatch",
+      "predicate": "转换为",
+      "object": "FMeshDrawCommand",
+      "context": "FMeshBatch需要被转换为特定通道的FMeshDrawCommand才能最终渲染，这个转换过程是理解渲染管线工作流的重要环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FMeshPassProcessor",
+      "predicate": "负责",
+      "object": "创建FMeshDrawCommand",
+      "context": "FMeshPassProcessor是将FMeshBatch转换为FMeshDrawCommand的核心组件，理解其工作原理对自定义渲染通道至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缓存的网格体绘制命令",
+      "predicate": "优于",
+      "object": "动态网格体批次",
+      "context": "缓存的路径重用FMeshBatch，性能优于每帧重建的动态路径，这是优化渲染性能的重要知识点",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FMeshPassProcessor",
+      "predicate": "派生自",
+      "object": "基类",
+      "context": "自定义网格体通道处理器需要派生自FMeshPassProcessor基类，这是扩展渲染功能的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "着色器绑定",
+      "predicate": "影响",
+      "object": "绘制调用合并",
+      "context": "不同的着色器绑定方式会直接影响绘制调用合并的效率，这是性能优化的重要考虑因素",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FMeshDrawCommand",
+      "predicate": "使用",
+      "object": "内联分配器",
+      "context": "FMeshDrawCommand使用内联分配器来避免堆分配，理解这一设计有助于避免性能陷阱",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "EMeshPass::Type",
+      "predicate": "对应",
+      "object": "FParallelMeshDrawCommandPass",
+      "context": "EMeshPass枚举条目会分配对应的FParallelMeshDrawCommandPass，这是理解通道管理机制的关键",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DrawDynamicMeshPass",
+      "predicate": "适用于",
+      "object": "即时模式绘制",
+      "context": "DrawDynamicMeshPass提供最灵活但性能较低的即时模式绘制方案，理解其适用场景很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缓存的网格体绘制命令",
+      "predicate": "依赖",
+      "object": "资源生命周期管理",
+      "context": "缓存的命令不维护资源生命周期，需要特别注意资源更新时的缓存失效问题",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动态实例化",
+      "predicate": "需要",
+      "object": "相同着色器绑定",
+      "context": "动态实例化要求合并的绘制调用具有相同的着色器绑定，这是优化渲染性能的重要约束条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU场景",
+      "predicate": "支持",
+      "object": "基元参数实例化",
+      "context": "GPU场景通过PrimitiveId索引场景范围的基元数据缓冲区，支持不同基元参数的实例化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体绘制并行性",
+      "predicate": "通过",
+      "object": "FParallelMeshDrawCommandPass",
+      "context": "网格体绘制的大部分工作通过FParallelMeshDrawCommandPass在任务中完成，这是理解渲染线程优化的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台变量",
+      "predicate": "用于",
+      "object": "诊断网格体绘制问题",
+      "context": "文档列出的控制台变量是诊断网格体绘制管道问题的实用工具，对调试和优化很有帮助",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:54:43.042Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13023 字符)",
+      "timestamp": "2025-06-15T19:53:39.734Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 21235,
+    "contentLength": 13023,
+    "processingTimeMs": 63315
+  }
+}

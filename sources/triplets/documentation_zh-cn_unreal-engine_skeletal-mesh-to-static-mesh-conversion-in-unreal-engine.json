@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_skeletal-mesh-to-static-mesh-conversion-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_skeletal-mesh-to-static-mesh-conversion-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "骨骼网格体",
+      "predicate": "转换为",
+      "object": "静态网格体",
+      "context": "骨骼网格体可以转换为静态网格体以保持特定姿势并降低渲染成本，适用于启动画面、屏幕截图等场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体编辑器",
+      "predicate": "用于",
+      "object": "设定骨骼网格体姿势",
+      "context": "骨骼网格体编辑器是设定骨骼网格体姿势的主要工具，学习者需要掌握其基本操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "包含",
+      "object": "骨骼",
+      "context": "骨骼是骨骼网格体的组成部分，通过操控骨骼可以改变网格体的姿势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "适用于",
+      "object": "静止对象",
+      "context": "静态网格体主要用于不动的对象，相比骨骼网格体有更低的渲染成本",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "创建静态网格体",
+      "predicate": "生成",
+      "object": "静态网格体资产",
+      "context": "通过'创建静态网格体'功能可以将设定好姿势的骨骼网格体保存为新的静态网格体资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重新导入基础网格体",
+      "predicate": "恢复",
+      "object": "参考姿势",
+      "context": "在转换后需要恢复骨骼网格体的参考姿势，否则动画序列将无法正常播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "可保存为",
+      "object": "动画序列",
+      "context": "特定姿势的骨骼网格体可以保存为动画序列，用于更动态的用例",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "可保存为",
+      "object": "姿势资产",
+      "context": "特定姿势的骨骼网格体可以保存为姿势资产，用于驱动动画",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "将Actor转换为静态网格体",
+      "predicate": "用于",
+      "object": "组合多个对象",
+      "context": "该功能可以将场景中多个骨骼网格体或静态网格体组合成单个静态网格体资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "倒回调试器",
+      "predicate": "可用于",
+      "object": "录制Gameplay片段",
+      "context": "倒回调试器可以录制动态Gameplay片段，结合转换功能可以保存动态快照",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "相比",
+      "object": "骨骼网格体",
+      "context": "静态网格体相比骨骼网格体有更低的渲染成本，但不支持动画",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "骨骼网格体编辑器",
+      "predicate": "提供",
+      "object": "操控工具",
+      "context": "编辑器提供移动、旋转和缩放工具来操控骨骼网格体的姿势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:48:13.601Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7328,
+    "contentLength": 5156,
+    "processingTimeMs": 37642
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_debugging-and-optimization-for-mobile-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_debugging-and-optimization-for-mobile-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "提供",
+      "object": "移动渲染器",
+      "context": "虚幻引擎为移动设备提供了专门的渲染路径，帮助开发者解决移动设备硬件限制问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动渲染器",
+      "predicate": "使用",
+      "object": "简化渲染模型",
+      "context": "移动渲染器使用简化的渲染模型来处理阴影和纹理等渲染功能，以适应移动设备性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动渲染器",
+      "predicate": "删除",
+      "object": "不支持的后期处理效果",
+      "context": "移动渲染器删除了许多移动设备不支持的后期处理效果，以提高性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动设备",
+      "predicate": "支持",
+      "object": "网格体自动实例化",
+      "context": "网格体自动实例化是移动设备上的一种优化技术，可以减少绘制调用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动设备",
+      "predicate": "支持",
+      "object": "帧平滑",
+      "context": "帧平滑技术可以帮助移动设备保持稳定的帧率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动端HDR",
+      "predicate": "需要",
+      "object": "渲染优化技巧",
+      "context": "要从移动端HDR功能获取最高保真度，需要应用特定的渲染优化技巧",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "移动渲染优化",
+      "predicate": "包含",
+      "object": "网格体自动实例化",
+      "context": "网格体自动实例化是移动渲染优化的重要技术之一",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "移动渲染优化",
+      "predicate": "包含",
+      "object": "帧平滑",
+      "context": "帧平滑是移动渲染优化的一个重要方面",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "移动渲染优化",
+      "predicate": "包含",
+      "object": "HDR优化",
+      "context": "HDR优化是移动渲染优化的一个重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "移动设备",
+      "predicate": "相比",
+      "object": "桌面级硬件",
+      "context": "理解移动设备与桌面级硬件的性能差异是进行优化的基础",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:48:00.312Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2394,
+    "contentLength": 1660,
+    "processingTimeMs": 34914
+  }
+}

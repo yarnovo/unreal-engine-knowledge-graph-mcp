@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_placing-material-expressions-and-functions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_placing-material-expressions-and-functions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "材质表达式",
+      "predicate": "组成",
+      "object": "材质",
+      "context": "材质表达式是创建材质的基本单位，通过组合表达式可以构建复杂的材质效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质函数",
+      "predicate": "组成",
+      "object": "材质",
+      "context": "材质函数是创建材质的基本单位，通过组合函数可以构建复杂的材质效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质函数",
+      "predicate": "包含",
+      "object": "材质表达式",
+      "context": "材质函数内部由材质表达式组成的节点图表构成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质表达式",
+      "predicate": "执行",
+      "object": "HLSL代码",
+      "context": "每个材质表达式节点包含用于执行特殊任务的一小组HLSL指令",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "乘节点",
+      "predicate": "属于",
+      "object": "材质表达式",
+      "context": "乘节点是材质表达式的一种，用于将两个输入值相乘",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "常量节点",
+      "predicate": "属于",
+      "object": "材质表达式",
+      "context": "常量节点是材质表达式的一种，用于保存单个数字值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理坐标节点",
+      "predicate": "属于",
+      "object": "材质表达式",
+      "context": "纹理坐标节点是材质表达式的一种，输出材质的UV纹理坐标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理取样节点",
+      "predicate": "属于",
+      "object": "材质表达式",
+      "context": "纹理取样节点是材质表达式的一种，引用图像纹理并输出颜色值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质函数",
+      "predicate": "用于",
+      "object": "打包重复性材质逻辑",
+      "context": "材质函数适合用于打包重复性的材质图表，使其可以共享和重复使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制板",
+      "predicate": "包含",
+      "object": "材质表达式",
+      "context": "控制板列出了UE5中可用的所有材质表达式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制板",
+      "predicate": "包含",
+      "object": "材质函数",
+      "context": "控制板列出了UE5中可用的所有材质函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "右键点击菜单",
+      "predicate": "用于",
+      "object": "插入材质节点",
+      "context": "右键点击菜单提供了插入材质表达式和函数的另一种方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "键盘快捷方式",
+      "predicate": "用于",
+      "object": "快速插入常用材质表达式",
+      "context": "键盘快捷方式可以快速插入如乘节点、常量节点等常用材质表达式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "用于",
+      "object": "放置材质函数",
+      "context": "可以从内容浏览器中直接拖拽材质函数到材质图表中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质编辑器",
+      "predicate": "包含",
+      "object": "材质函数编辑器",
+      "context": "双击材质函数节点会打开材质函数编辑器进行编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质表达式参考",
+      "predicate": "扩展",
+      "object": "材质表达式知识",
+      "context": "材质表达式参考文档提供了各种表达式节点的详细说明",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质函数参考",
+      "predicate": "扩展",
+      "object": "材质函数知识",
+      "context": "材质函数参考文档提供了各种函数节点的详细说明",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HLSL文档",
+      "predicate": "提供",
+      "object": "技术背景",
+      "context": "Microsoft HLSL文档提供了材质表达式所用HLSL代码的技术背景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "乘节点",
+      "predicate": "用于",
+      "object": "调整纹理比例",
+      "context": "通过将常量值乘以纹理坐标，可以操控纹理的比例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质表达式",
+      "predicate": "基于",
+      "object": "HLSL",
+      "context": "材质表达式本质上是执行HLSL代码片段的节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:25:33.274Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11141 字符)",
+      "timestamp": "2025-06-15T20:24:36.026Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16875,
+    "contentLength": 11141,
+    "processingTimeMs": 57253
+  }
+}

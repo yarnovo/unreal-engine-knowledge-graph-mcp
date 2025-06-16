@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_creating-and-using-lods-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_creating-and-using-lods-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "LOD",
+      "predicate": "用于",
+      "object": "静态网格模型",
+      "context": "LOD用于优化静态网格模型在不同距离下的显示细节，帮助学习者理解如何通过LOD提升场景性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD0",
+      "predicate": "是",
+      "object": "基础LOD",
+      "context": "LOD0是网格模型的基础细节级别，帮助学习者理解LOD系统的起始点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD1",
+      "predicate": "继承自",
+      "object": "LOD0",
+      "context": "LOD1是LOD0的简化版本，帮助学习者理解LOD系统的层级关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "静态网格模型编辑器",
+      "predicate": "支持",
+      "object": "LOD设置",
+      "context": "静态网格模型编辑器提供了LOD设置功能，帮助学习者了解在哪里配置LOD",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Auto Compute LOD Distances",
+      "predicate": "控制",
+      "object": "LOD切换时机",
+      "context": "该选项自动计算LOD切换的屏幕尺寸阈值，帮助学习者理解自动LOD管理机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Screen Size值",
+      "predicate": "决定",
+      "object": "LOD切换条件",
+      "context": "手动设置Screen Size值可以精确控制LOD切换条件，帮助学习者掌握高级LOD配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD",
+      "predicate": "影响",
+      "object": "复杂碰撞",
+      "context": "LOD切换会影响静态网格体的复杂碰撞设置，帮助学习者理解物理性能优化",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FBX文件",
+      "predicate": "用于导入",
+      "object": "LOD网格模型",
+      "context": "FBX格式是导入不同LOD级别网格模型的标准格式，帮助学习者掌握资源导入流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Simplygon",
+      "predicate": "提供",
+      "object": "自动网格模型减少功能",
+      "context": "Simplygon许可证可以启用自动LOD生成功能，帮助学习者了解高级LOD创建工具",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "LOD设置",
+      "predicate": "包含",
+      "object": "材质分配",
+      "context": "LOD设置允许为不同级别分配不同材质，帮助学习者理解LOD的视觉多样化配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD切换",
+      "predicate": "基于",
+      "object": "屏幕尺寸",
+      "context": "LOD切换基于屏幕尺寸而非绝对距离，帮助学习者理解UE5的LOD计算原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "初学者内容包",
+      "predicate": "包含",
+      "object": "FirstPersonCube_Rounded",
+      "context": "初学者内容包提供了示例网格模型资源，帮助学习者快速开始LOD实践",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "静态网格模型",
+      "predicate": "使用",
+      "object": "复杂碰撞",
+      "context": "静态网格体可以使用LOD的复杂碰撞设置，帮助学习者优化物理性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:39:04.624Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11663,
+    "contentLength": 6991,
+    "processingTimeMs": 46744
+  }
+}

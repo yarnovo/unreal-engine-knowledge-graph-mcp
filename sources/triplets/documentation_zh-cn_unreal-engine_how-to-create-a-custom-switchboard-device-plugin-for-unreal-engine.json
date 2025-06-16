@@ -1,0 +1,99 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-create-a-custom-switchboard-device-plugin-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-create-a-custom-switchboard-device-plugin-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Switchboard",
+      "predicate": "支持",
+      "object": "自定义设备插件",
+      "context": "Switchboard允许开发者根据项目需求创建自定义设备插件，扩展其功能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义设备插件",
+      "predicate": "基于",
+      "object": "Python",
+      "context": "自定义Switchboard设备插件主要通过Python实现，便于快速开发和集成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Device类",
+      "predicate": "继承自",
+      "object": "device_base.py",
+      "context": "自定义设备插件需要继承自device_base.py中定义的Device类，这是创建插件的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DeviceWidget",
+      "predicate": "继承自",
+      "object": "device_widget_base.py",
+      "context": "自定义设备控件的UI部分需要继承自device_widget_base.py中的DeviceWidget类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AddDeviceDialog",
+      "predicate": "用于",
+      "object": "添加新设备",
+      "context": "AddDeviceDialog类用于创建添加新设备的对话框，开发者可以自定义其内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SampleDeviceTabView",
+      "predicate": "扩展",
+      "object": "QtWidgets.QWidget",
+      "context": "SampleDeviceTabView继承自QtWidgets.QWidget，用于在Switchboard右侧添加自定义选项卡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "plug_into_ui",
+      "predicate": "实现",
+      "object": "UI集成",
+      "context": "plug_into_ui方法允许插件将自定义UI元素集成到Switchboard的主界面中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay设备插件",
+      "predicate": "作为",
+      "object": "高级示例",
+      "context": "nDisplay设备插件是Switchboard中更复杂的自定义插件实现，可作为学习参考",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "包含",
+      "object": "设备控件",
+      "context": "Switchboard界面包含各种设备的控件，用于管理和监控设备状态",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义设备插件",
+      "predicate": "需要",
+      "object": "命名规范",
+      "context": "创建自定义设备插件需要遵循特定的文件命名和存放路径规范，以便Switchboard正确识别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:25:23.612Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8326 字符)",
+      "timestamp": "2025-06-15T19:24:31.747Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 10028,
+    "contentLength": 8326,
+    "processingTimeMs": 51870
+  }
+}

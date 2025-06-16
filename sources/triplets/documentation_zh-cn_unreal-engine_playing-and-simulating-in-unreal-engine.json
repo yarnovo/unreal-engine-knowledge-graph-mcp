@@ -1,0 +1,115 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_playing-and-simulating-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_playing-and-simulating-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻编辑器",
+      "predicate": "支持",
+      "object": "在编辑器中运行（PIE）",
+      "context": "虚幻编辑器允许开发者通过PIE功能快速预览游戏，无需构建独立应用程序，便于快速调整和测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编辑器",
+      "predicate": "支持",
+      "object": "在编辑器中模拟（SIE）",
+      "context": "虚幻编辑器提供SIE功能，允许开发者模拟游戏物理行为而不生成玩家角色，便于物理系统调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在编辑器中运行（PIE）",
+      "predicate": "区别于",
+      "object": "在编辑器中模拟（SIE）",
+      "context": "PIE会生成玩家角色并从出生点开始，而SIE保持当前摄像机位置且不生成玩家角色，两者适用于不同测试场景",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "主工具栏",
+      "predicate": "包含",
+      "object": "运行按钮",
+      "context": "主工具栏是访问PIE/SIE功能的主要界面，运行按钮是启动游戏预览的核心控件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PIE控制台",
+      "predicate": "用于",
+      "object": "性能分析",
+      "context": "PIE控制台允许输入统计命令来监控游戏性能指标，是优化工作流的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "运行模式",
+      "predicate": "包含",
+      "object": "VR预览",
+      "context": "运行模式提供多种预览选项，VR预览模式专门用于在虚拟现实设备上测试游戏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理系统",
+      "predicate": "通过",
+      "object": "在编辑器中模拟（SIE）测试",
+      "context": "SIE是测试物理模拟（如物体坠落、碰撞）的理想方式，开发者可以实时观察物理效果",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "保留模拟更改",
+      "predicate": "用于",
+      "object": "保存运行时修改",
+      "context": "该功能允许将PIE/SIE会话中对Actor的修改永久保存到项目中，是迭代开发的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "蓝图第三人称模板",
+      "predicate": "适用于",
+      "object": "PIE功能学习",
+      "context": "文档使用该模板作为示例项目，包含预设的玩家角色和控制系统，便于演示PIE的核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "初学者内容包",
+      "predicate": "包含",
+      "object": "材质球体",
+      "context": "该资源包提供测试用的基础资产（如材质球体），用于演示物理模拟等SIE功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "用于",
+      "object": "修改Actor属性",
+      "context": "在PIE/SIE会话期间可通过细节面板实时调整Actor参数（如文本内容、物理属性），支持快速原型设计",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "帧前进",
+      "predicate": "用于",
+      "object": "逐帧调试",
+      "context": "SIE模式下的帧前进功能允许逐帧分析物理模拟过程，是精确调试的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:25:18.829Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8016 字符)",
+      "timestamp": "2025-06-15T20:24:36.032Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12734,
+    "contentLength": 8016,
+    "processingTimeMs": 42805
+  }
+}

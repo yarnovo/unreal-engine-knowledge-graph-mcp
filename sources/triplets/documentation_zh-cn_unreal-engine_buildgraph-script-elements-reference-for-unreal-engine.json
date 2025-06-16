@@ -1,0 +1,253 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_buildgraph-script-elements-reference-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_buildgraph-script-elements-reference-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "BuildGraph",
+      "predicate": "使用",
+      "object": "XML",
+      "context": "BuildGraph脚本使用XML编写，这是其基础语法结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph脚本",
+      "predicate": "包含",
+      "object": "元素",
+      "context": "元素是BuildGraph脚本的基础构建块，描述它们包含的数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图表结构",
+      "predicate": "由...组成",
+      "object": "Node",
+      "context": "图表结构由Node、Aggregate、Agent、Trigger等元素定义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图表结构",
+      "predicate": "由...组成",
+      "object": "Aggregate",
+      "context": "图表结构由Node、Aggregate、Agent、Trigger等元素定义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图表结构",
+      "predicate": "由...组成",
+      "object": "Agent",
+      "context": "图表结构由Node、Aggregate、Agent、Trigger等元素定义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图表结构",
+      "predicate": "由...组成",
+      "object": "Trigger",
+      "context": "图表结构由Node、Aggregate、Agent、Trigger等元素定义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Node",
+      "predicate": "是",
+      "object": "执行的最小单位",
+      "context": "Node是BuildGraph中执行的最小单位，拥有一套输入和输出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Node",
+      "predicate": "包含",
+      "object": "任务序列",
+      "context": "每个Node由按顺序执行的一个任务序列组成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Node",
+      "predicate": "依赖",
+      "object": "其他Node",
+      "context": "Node可以通过Requires属性依赖其他Node生成的节点列表、聚合或标记文件集",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Aggregate",
+      "predicate": "声明",
+      "object": "命名的聚合",
+      "context": "Aggregate声明一个命名的聚合，可用作一套其它节点（或生成的标签集）的同义词",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Agent",
+      "predicate": "定义",
+      "object": "节点执行要求",
+      "context": "Agent定义按次序执行的节点上代理的要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trigger",
+      "predicate": "是",
+      "object": "图表部分的容器",
+      "context": "Trigger的作用是图表部分（该图表只在显式用户介入后执行）的一个容器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性操作",
+      "predicate": "包含",
+      "object": "Property",
+      "context": "BuildGraph属性可通过Property、Option、EnvVar等元素进行修改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性操作",
+      "predicate": "包含",
+      "object": "Option",
+      "context": "BuildGraph属性可通过Property、Option、EnvVar等元素进行修改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性操作",
+      "predicate": "包含",
+      "object": "EnvVar",
+      "context": "BuildGraph属性可通过Property、Option、EnvVar等元素进行修改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Property",
+      "predicate": "设置",
+      "object": "属性数值",
+      "context": "Property设置属性的数值，可以覆盖外部作用域中的属性或在当前作用域中声明新属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Option",
+      "predicate": "定义",
+      "object": "命令行选项",
+      "context": "Option定义可从命令行进行设置的用户选项，只能出现在全局作用域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EnvVar",
+      "predicate": "声明",
+      "object": "环境变量属性",
+      "context": "EnvVar声明属性以包含环境变量的内容，只能出现在全局作用域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流动控制",
+      "predicate": "包含",
+      "object": "Include",
+      "context": "流动控制可通过Include、Do、Switch、ForEach等元素实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流动控制",
+      "predicate": "包含",
+      "object": "Do",
+      "context": "流动控制可通过Include、Do、Switch、ForEach等元素实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流动控制",
+      "predicate": "包含",
+      "object": "Switch",
+      "context": "流动控制可通过Include、Do、Switch、ForEach等元素实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流动控制",
+      "predicate": "包含",
+      "object": "ForEach",
+      "context": "流动控制可通过Include、Do、Switch、ForEach等元素实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Include",
+      "predicate": "处理",
+      "object": "其他BuildGraph脚本",
+      "context": "Include处理其他BuildGraph脚本的内容，就像它存在出现在此文件中那样",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Do",
+      "predicate": "分组",
+      "object": "元素序列",
+      "context": "Do将元素的序列分组，仅在条件求值为true时对它们进行处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switch",
+      "predicate": "相似于",
+      "object": "C切换语句",
+      "context": "Switch与C切换语句相似，在分支序列上对条件求值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ForEach",
+      "predicate": "展开",
+      "object": "元素主体",
+      "context": "ForEach通过在一个列表中指定到每个项目的给定属性来展开元素主体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "诊断",
+      "predicate": "包含",
+      "object": "Warning",
+      "context": "诊断可通过Warning和Error元素对BuildGraph脚本执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "诊断",
+      "predicate": "包含",
+      "object": "Error",
+      "context": "诊断可通过Warning和Error元素对BuildGraph脚本执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Warning",
+      "predicate": "输出",
+      "object": "警告消息",
+      "context": "Warning会在执行图表前输出警告消息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Error",
+      "predicate": "输出",
+      "object": "错误消息",
+      "context": "Error将输出错误消息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:17:02.663Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10498,
+    "contentLength": 6792,
+    "processingTimeMs": 91530
+  }
+}

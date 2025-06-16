@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-datasmith-with-rhino-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-datasmith-with-rhino-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Datasmith",
+      "predicate": "支持",
+      "object": "Rhino",
+      "context": "Datasmith可以将Rhino中的场景内容导入到虚幻引擎中，帮助用户实现跨平台的内容转换",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith Exporter插件",
+      "predicate": "用于",
+      "object": "Rhino内容导出",
+      "context": "安装Datasmith Exporter插件是导出Rhino内容到虚幻引擎的必要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Direct Link",
+      "predicate": "实现",
+      "object": "实时预览",
+      "context": "通过Direct Link可以在虚幻引擎中实时预览Rhino场景的更改，避免手动重新导入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith工具栏",
+      "predicate": "包含",
+      "object": "同步按钮",
+      "context": "Datasmith工具栏中的同步按钮用于通过Direct Link推送选定的模型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "生成自",
+      "object": "Rhino几何体",
+      "context": "Datasmith会将Rhino中的网格、实体或表面转换为虚幻引擎中的静态网格体资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "实例化",
+      "predicate": "优化",
+      "object": "内存和性能",
+      "context": "通过实例化重复元素可以减少内存占用并提高运行时性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "曲面细分",
+      "predicate": "转换",
+      "object": "NURBS表面",
+      "context": "Datasmith使用Rhino的曲面细分选项将NURBS表面转换为三角形网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体修改器",
+      "predicate": "保留",
+      "object": "装饰线、边缘软化等",
+      "context": "Datasmith会保留Rhino中的多种网格体修改器效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质资产",
+      "predicate": "创建自",
+      "object": "Rhino表面材质",
+      "context": "Datasmith会根据Rhino中的表面材质在虚幻引擎中创建对应的材质资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "命名视图",
+      "predicate": "转换为",
+      "object": "CineCameraActor",
+      "context": "Rhino中的命名视图在导入后会变成虚幻引擎中的相机Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性用户文本",
+      "predicate": "导出为",
+      "object": "Datasmith元数据",
+      "context": "Rhino中的属性用户文本数据会作为元数据导入到虚幻引擎中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "场景层级",
+      "predicate": "基于",
+      "object": "Rhino图层结构",
+      "context": "Datasmith会根据Rhino中的图层结构构建虚幻引擎中的场景层级",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导出工作流程",
+      "predicate": "前置",
+      "object": "安装Datasmith Exporter插件",
+      "context": "使用导出工作流程前必须先安装Datasmith Exporter插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质实例",
+      "predicate": "继承自",
+      "object": "主材质",
+      "context": "Datasmith创建的主材质是材质实例的父级，修改主材质会影响所有继承的实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Rhino块",
+      "predicate": "对应",
+      "object": "虚幻引擎中的嵌套Actor",
+      "context": "Rhino中的块在虚幻引擎中会表示为嵌套的Actor层级",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:16:42.048Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11628 字符)",
+      "timestamp": "2025-06-15T21:15:55.132Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17422,
+    "contentLength": 11628,
+    "processingTimeMs": 46921
+  }
+}

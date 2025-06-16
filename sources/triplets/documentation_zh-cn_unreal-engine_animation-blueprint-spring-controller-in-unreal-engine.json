@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-blueprint-spring-controller-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-blueprint-spring-controller-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "弹簧控制器",
+      "predicate": "属于",
+      "object": "动画蓝图节点",
+      "context": "弹簧控制器是动画蓝图中的一种节点类型，理解这一点有助于学习动画系统的模块化结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "弹簧控制器",
+      "predicate": "应用于",
+      "object": "骨骼",
+      "context": "弹簧控制器的主要功能是控制骨骼的运动效果，这是学习动画物理模拟的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "弹簧控制器",
+      "predicate": "实现",
+      "object": "拉伸效果",
+      "context": "该节点的核心功能是实现骨骼的物理拉伸效果，这是理解其工作原理的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "弹簧控制器",
+      "predicate": "包含",
+      "object": "弹簧骨骼属性",
+      "context": "弹簧骨骼是控制器的核心配置属性，学习这些属性关系有助于掌握参数调节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "弹簧控制器",
+      "predicate": "包含",
+      "object": "最大位移属性",
+      "context": "最大位移是控制拉伸范围的重要参数，理解参数体系对效果控制很关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "最大位移属性",
+      "predicate": "依赖",
+      "object": "限制位移属性",
+      "context": "最大位移需要限制位移属性启用才生效，这种依赖关系是参数配置的重要知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "弹簧控制器",
+      "predicate": "包含",
+      "object": "弹簧刚度属性",
+      "context": "刚度参数控制物理反应的强度，是调节动画效果的重要维度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "弹簧控制器",
+      "predicate": "包含",
+      "object": "弹簧阻尼属性",
+      "context": "阻尼参数影响运动平滑度，与刚度参数共同构成物理模拟的核心参数体系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "弹簧刚度",
+      "predicate": "影响",
+      "object": "骨骼速度",
+      "context": "理解刚度参数如何影响骨骼速度是掌握物理模拟原理的重要环节",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "弹簧阻尼",
+      "predicate": "影响",
+      "object": "运动平滑度",
+      "context": "阻尼参数与运动平滑度的关系是调节动画效果的关键知识",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "弹簧控制器",
+      "predicate": "用于",
+      "object": "非动画骨骼运动",
+      "context": "该节点的典型应用场景是处理非关键动画的辅助骨骼运动，这对理解使用场景很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "错误重置阈值",
+      "predicate": "防止",
+      "object": "大位移错误",
+      "context": "该参数的设计目的是处理异常情况，理解这种保护机制对开发稳定性很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "骨骼控制系统",
+      "context": "弹簧控制器属于骨骼控制系统的一部分，这种层级关系有助于理解动画系统的架构",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "弹簧控制器",
+      "predicate": "属于",
+      "object": "骨骼控制节点",
+      "context": "明确节点分类有助于在动画蓝图中快速定位相关功能",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T18:00:11.422Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3285,
+    "contentLength": 2335,
+    "processingTimeMs": 49369
+  }
+}

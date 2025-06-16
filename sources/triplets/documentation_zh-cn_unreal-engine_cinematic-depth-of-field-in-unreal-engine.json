@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_cinematic-depth-of-field-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_cinematic-depth-of-field-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "影视级景深",
+      "predicate": "实现",
+      "object": "程序化散景模拟技术",
+      "context": "影视级景深使用程序化散景模拟技术来达到接近真实摄像机的效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影视级景深",
+      "predicate": "支持",
+      "object": "动态分辨率稳定性",
+      "context": "影视级景深支持动态分辨率稳定性，有助于提升渲染性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影视级景深",
+      "predicate": "支持",
+      "object": "阿尔法通道",
+      "context": "影视级景深支持阿尔法通道，可用于透明效果处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "景深效果",
+      "predicate": "依赖",
+      "object": "焦距",
+      "context": "景深效果的表现依赖于摄像机焦距的设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "景深效果",
+      "predicate": "依赖",
+      "object": "孔径",
+      "context": "景深效果的表现依赖于摄像机孔径(F值)的设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "景深效果",
+      "predicate": "依赖",
+      "object": "对焦距离",
+      "context": "景深效果的表现依赖于对焦距离的设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "孔径",
+      "predicate": "由...决定",
+      "object": "F值",
+      "context": "孔径大小由F值决定，F值越小孔径越大",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "孔径",
+      "predicate": "由...决定",
+      "object": "光圈",
+      "context": "孔径大小由光圈机械结构决定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光圈",
+      "predicate": "组成",
+      "object": "光圈叶片",
+      "context": "光圈由多个叶片组成的机械结构构成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "散景形状",
+      "predicate": "受...影响",
+      "object": "光圈叶片数量",
+      "context": "散景形状的美学效果受光圈叶片数量的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "散景形状",
+      "predicate": "受...影响",
+      "object": "最大孔径",
+      "context": "散景形状的美学效果受最大孔径设置的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影视级摄像机",
+      "predicate": "包含",
+      "object": "胶片背板设置",
+      "context": "影视级摄像机包含胶片背板(传感器)的相关设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影视级摄像机",
+      "predicate": "包含",
+      "object": "镜头设置",
+      "context": "影视级摄像机包含焦距、F值等镜头相关设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影视级摄像机",
+      "predicate": "包含",
+      "object": "对焦设置",
+      "context": "影视级摄像机包含多种对焦方式及相关参数设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理体积",
+      "predicate": "支持",
+      "object": "景深设置",
+      "context": "后期处理体积支持景深效果的参数调整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "散景景深(旧版)",
+      "predicate": "被...替代",
+      "object": "影视级景深",
+      "context": "散景景深在较新版本中已被影视级景深替代",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自适应景深",
+      "predicate": "优化",
+      "object": "散景景深性能",
+      "context": "自适应景深技术用于优化散景景深的渲染性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "景深效果",
+      "predicate": "可视化",
+      "object": "景深图层",
+      "context": "可以通过景深图层可视化工具来观察景深效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "焦距",
+      "predicate": "影响",
+      "object": "视野(FOV)",
+      "context": "焦距设置直接影响摄像机的视野范围",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "F值",
+      "predicate": "控制",
+      "object": "景深范围",
+      "context": "F值大小控制着景深效果的深浅范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:23:13.423Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (19359 字符)",
+      "timestamp": "2025-06-15T18:22:17.771Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 30445,
+    "contentLength": 19359,
+    "processingTimeMs": 55654
+  }
+}

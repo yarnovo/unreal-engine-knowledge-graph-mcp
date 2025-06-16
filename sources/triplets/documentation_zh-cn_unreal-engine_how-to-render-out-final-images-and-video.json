@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-render-out-final-images-and-video",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-render-out-final-images-and-video.md",
+  "triples": [
+    {
+      "subject": "Movie Render Pipeline",
+      "predicate": "包含",
+      "object": "Movie Render Graph",
+      "context": "Movie Render Pipeline是离线渲染解决方案，包含三种工具，其中Movie Render Graph是基于图形的界面，用于构建渲染操作逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Movie Render Pipeline",
+      "predicate": "包含",
+      "object": "Movie Render Queue",
+      "context": "Movie Render Pipeline包含Movie Render Queue工具，用于创建预设和脚本以排队渲染过程并导出高质量图像",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Movie Render Pipeline",
+      "predicate": "包含",
+      "object": "Quick Render",
+      "context": "Movie Render Pipeline包含Quick Render工具，用于在Sequencer中快速渲染项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Quick Render",
+      "predicate": "集成于",
+      "object": "Sequencer",
+      "context": "Quick Render工具是Sequencer主工具栏的一部分，提供快速访问Movie Scene Capture和Movie Render Queue的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Quick Render",
+      "predicate": "提供访问",
+      "object": "Movie Scene Capture",
+      "context": "Quick Render工具提供对Movie Scene Capture（传统）工具的快速访问，用于快速导出图像序列或视频",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Quick Render",
+      "predicate": "提供访问",
+      "object": "Movie Render Queue",
+      "context": "当项目启用了Movie Render Queue插件时，Quick Render工具也提供对其的访问",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Movie Render Pipeline",
+      "predicate": "支持",
+      "object": "离线渲染",
+      "context": "Movie Render Pipeline是Unreal Engine的离线图像序列和电影渲染解决方案，支持比传统实时渲染更高质量的结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "离线渲染",
+      "predicate": "提供",
+      "object": "高质量结果",
+      "context": "使用Movie Render Pipeline进行离线渲染可以利用提高质量、精度和外观的设置和命令，如Lumen全局光照和反射的射线追踪",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "离线渲染",
+      "predicate": "改进",
+      "object": "运动模糊",
+      "context": "Unreal Engine中的离线渲染提供了改进的运动模糊，同时消除了不需要的抗锯齿伪影",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Movie Render Graph",
+      "predicate": "用于",
+      "object": "构建渲染逻辑",
+      "context": "Movie Render Graph是基于图形的界面，用于构建执行渲染操作的逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Movie Render Queue",
+      "predicate": "用于",
+      "object": "创建渲染预设",
+      "context": "Movie Render Queue工具用于创建预设和脚本以排队渲染过程并导出高质量图像",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Quick Render",
+      "predicate": "用于",
+      "object": "快速渲染",
+      "context": "Quick Render工具用于通过一键和一些可自定义参数快速渲染项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Movie Scene Capture",
+      "predicate": "用于",
+      "object": "快速审查",
+      "context": "Movie Scene Capture（传统）工具是一个设置最少的工具，可以导出图像序列或视频以进行快速审查",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:26:36.239Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4797,
+    "contentLength": 4596,
+    "processingTimeMs": 46625
+  }
+}

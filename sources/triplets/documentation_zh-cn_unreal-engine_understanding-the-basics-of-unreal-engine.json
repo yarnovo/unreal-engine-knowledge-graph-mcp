@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_understanding-the-basics-of-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_understanding-the-basics-of-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎5",
+      "predicate": "包含",
+      "object": "虚幻编辑器",
+      "context": "虚幻编辑器是虚幻引擎5的核心开发环境，学习编辑器界面是使用UE5的第一步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编辑器",
+      "predicate": "包含",
+      "object": "内容浏览器",
+      "context": "内容浏览器是编辑器内管理所有项目资产的主要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻项目",
+      "predicate": "由...组成",
+      "object": "关卡",
+      "context": "关卡是项目的基本构成单元，包含所有可见和可交互的对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡",
+      "predicate": "包含",
+      "object": "Actor",
+      "context": "Actor是关卡中的基本对象单位，理解Actor是构建关卡的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "由...组成",
+      "object": "组件",
+      "context": "组件为Actor提供具体功能，这种组合关系是UE的核心设计模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "管理",
+      "object": "资产",
+      "context": "所有项目资源都通过内容浏览器进行组织和管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图可视化脚本",
+      "predicate": "扩展",
+      "object": "虚幻编辑器功能",
+      "context": "蓝图系统允许不编写代码即可实现游戏逻辑，是UE的重要特性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻引擎5",
+      "predicate": "支持",
+      "object": "多平台开发",
+      "context": "了解系统要求和打包功能对跨平台开发至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "插件系统",
+      "predicate": "扩展",
+      "object": "引擎功能",
+      "context": "插件机制允许开发者自定义和增强引擎能力",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "项目模板",
+      "predicate": "加速",
+      "object": "开发流程",
+      "context": "模板提供了常见游戏类型的起点，如第一/第三人称模板",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "坐标系系统",
+      "predicate": "基础",
+      "object": "场景构建",
+      "context": "理解3D空间坐标系是放置和操作对象的前提知识",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "运行和模拟",
+      "predicate": "测试",
+      "object": "关卡设计",
+      "context": "编辑器内测试功能允许快速验证关卡设计效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "资产迁移",
+      "predicate": "支持",
+      "object": "项目协作",
+      "context": "资产在不同项目间的迁移能力促进团队协作和资源复用",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "类查看器",
+      "predicate": "展示",
+      "object": "继承体系",
+      "context": "该工具帮助理解UE的对象继承关系，对编程和蓝图开发很重要",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "组件系统",
+      "predicate": "实现",
+      "object": "功能组合",
+      "context": "通过组合不同组件可以构建复杂功能的Actor",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:06:39.153Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15544 字符)",
+      "timestamp": "2025-06-15T21:05:58.568Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19862,
+    "contentLength": 15544,
+    "processingTimeMs": 40588
+  }
+}

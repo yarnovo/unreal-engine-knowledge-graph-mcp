@@ -1,0 +1,187 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-engine-modules",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-engine-modules.md",
+  "triples": [
+    {
+      "subject": "模块",
+      "predicate": "是",
+      "object": "虚幻引擎软件架构的基本构建块",
+      "context": "模块是虚幻引擎的基本构建单元，理解这一点有助于学习者掌握引擎的架构基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块",
+      "predicate": "封装",
+      "object": "编辑器工具、运行时功能、库或其他功能",
+      "context": "模块通过封装功能实现代码分离，这对理解模块化设计至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目",
+      "predicate": "包含",
+      "object": "主模块",
+      "context": "所有项目默认包含主模块，这是项目结构的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块",
+      "predicate": "支持",
+      "object": "代码分离",
+      "context": "模块强制实施代码分离，这是良好软件工程实践的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块",
+      "predicate": "缩短",
+      "object": "编译时间",
+      "context": "模块作为独立编译单元可以显著减少大型项目的编译时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块",
+      "predicate": "遵循",
+      "object": "IWYU标准",
+      "context": "模块系统强制实施IWYU标准，这对理解代码包含策略很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块",
+      "predicate": "控制",
+      "object": "运行时加载和卸载",
+      "context": "模块的运行时管理能力对性能优化很关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块",
+      "predicate": "基于",
+      "object": "平台条件包含",
+      "context": "模块可以根据目标平台选择性包含，这对跨平台开发很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块",
+      "predicate": "需要",
+      "object": "Build.cs文件",
+      "context": "Build.cs文件是模块配置的核心，理解它对模块设置至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块",
+      "predicate": "包含",
+      "object": "Private和Public文件夹",
+      "context": "模块的标准目录结构是组织代码的重要实践",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Build.cs文件",
+      "predicate": "定义",
+      "object": "模块依赖关系",
+      "context": "理解依赖关系配置是模块间交互的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PublicDependencyModuleNames",
+      "predicate": "用于",
+      "object": "公共头文件依赖",
+      "context": "区分公共和私有依赖对模块接口设计很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PrivateDependencyModuleNames",
+      "predicate": "用于",
+      "object": "私有实现依赖",
+      "context": "理解私有依赖可以优化编译时间和封装性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Public文件夹",
+      "predicate": "包含",
+      "object": "公共头文件",
+      "context": "公共文件夹的内容对其他模块可见，这是模块接口的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Private文件夹",
+      "predicate": "包含",
+      "object": "实现文件和私有头文件",
+      "context": "私有文件夹的内容是模块的内部实现细节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块",
+      "predicate": "实现",
+      "object": "IModuleInterface",
+      "context": "模块必须实现IModuleInterface接口，这是模块生命周期管理的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "uproject/uplugin文件",
+      "predicate": "配置",
+      "object": "模块加载行为",
+      "context": "项目配置文件控制模块的加载方式和时机",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Runtime模块",
+      "predicate": "用于",
+      "object": "游戏内类",
+      "context": "区分Runtime和Editor模块类型对理解引擎架构很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Editor模块",
+      "predicate": "用于",
+      "object": "仅限编辑器的类",
+      "context": "理解Editor模块类型对工具开发很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块",
+      "predicate": "可以设置",
+      "object": "加载阶段",
+      "context": "不同的加载阶段影响模块初始化的顺序和时机",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块",
+      "predicate": "可以配置",
+      "object": "平台排除规则",
+      "context": "平台特定的模块配置对跨平台开发很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:10:48.684Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8141 字符)",
+      "timestamp": "2025-06-15T21:09:51.250Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14407,
+    "contentLength": 8141,
+    "processingTimeMs": 57437
+  }
+}

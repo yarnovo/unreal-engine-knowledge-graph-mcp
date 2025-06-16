@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_horde-unrealgamesync-tutorial-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_horde-unrealgamesync-tutorial-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "UnrealGameSync",
+      "predicate": "用于",
+      "object": "虚幻引擎项目协作",
+      "context": "UGS为美术师、设计师和工程师提供统一的仓库视图，解决不同开发者与修订控制系统交互方式不同的问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealGameSync",
+      "predicate": "依赖",
+      "object": "Perforce",
+      "context": "UGS作为从Perforce同步项目的工具前端，需要Perforce作为版本控制系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealGameSync",
+      "predicate": "集成",
+      "object": "Horde",
+      "context": "UGS可以从Horde获取构建信息和元数据，并支持同步Horde生成的预编译编辑器二进制文件",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "生成",
+      "object": "预编译编辑器二进制文件",
+      "context": "Horde的构建自动化系统可以集中生成编辑器构建，供UGS用户下载使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealGameSync",
+      "predicate": "支持",
+      "object": "多平台安装",
+      "context": "UGS提供Windows图形化客户端和MacOS/Linux命令行版本，满足不同开发环境需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealGameSync",
+      "predicate": "显示",
+      "object": "CI构建状态",
+      "context": "UGS界面提供项目运行状况和最近CI构建状态的概览，帮助开发者了解项目状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "使用",
+      "object": "BuildGraph",
+      "context": "Horde通过BuildGraph脚本编译和上传编辑器二进制文件，支持UGS的预编译二进制文件同步功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UnrealGameSync",
+      "predicate": "替代",
+      "object": "本地编译",
+      "context": "UGS支持同步Horde生成的预编译二进制文件，避免开发者在本地编译编辑器",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UnrealGameSync",
+      "predicate": "需要",
+      "object": "Horde服务器安装",
+      "context": "使用UGS前需要先安装Horde服务器，这是UGS正常运行的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealGameSync",
+      "predicate": "适用于",
+      "object": "大型团队协作",
+      "context": "UGS特别适合大型团队使用，可以协调美术师、设计师和工程师的工作，保持资产同步",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UnrealGameSync",
+      "predicate": "提供",
+      "object": "构建元数据",
+      "context": "UGS可以从Horde获取构建信息和元数据，帮助开发者了解构建状态",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UnrealGameSync",
+      "predicate": "支持",
+      "object": "自动更新",
+      "context": "UGS可以配置自动更新设置，保持工具版本最新",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "管理",
+      "object": "编辑器构建",
+      "context": "Horde的构建自动化系统可以集中管理编辑器构建，供UGS用户使用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UnrealGameSync",
+      "predicate": "基于",
+      "object": "Perforce工作区",
+      "context": "UGS需要配置本地同步的Perforce项目或创建工作区，这是其运行的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealGameSync",
+      "predicate": "用于",
+      "object": "《堡垒之夜》开发",
+      "context": "Epic Games内部使用UGS开发所有项目，包括《堡垒之夜》",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:22:26.271Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7513,
+    "contentLength": 5239,
+    "processingTimeMs": 53428
+  }
+}

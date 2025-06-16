@@ -1,0 +1,85 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_collision-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_collision-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "碰撞设置",
+      "predicate": "包含",
+      "object": "对象通道",
+      "context": "碰撞设置中定义了对象通道，用于区分不同类型的碰撞对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞设置",
+      "predicate": "包含",
+      "object": "追踪通道",
+      "context": "碰撞设置中定义了追踪通道，用于控制射线检测等追踪行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞设置",
+      "predicate": "包含",
+      "object": "预设",
+      "context": "碰撞设置中包含预设配置，可以修改项目的碰撞行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象通道",
+      "predicate": "影响",
+      "object": "WorldStatic",
+      "context": "删除正在使用的对象通道会导致相关对象恢复为WorldStatic类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "追踪通道",
+      "predicate": "影响",
+      "object": "追踪行为",
+      "context": "删除正在使用的追踪通道会导致追踪行为处于未定义状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预设",
+      "predicate": "修改",
+      "object": "碰撞行为",
+      "context": "修改预设配置文件会直接影响项目的碰撞行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象通道",
+      "predicate": "与",
+      "object": "追踪通道",
+      "context": "对象通道和追踪通道都是碰撞设置中的重要组成部分，共同构成碰撞检测系统",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "预设",
+      "predicate": "基于",
+      "object": "对象通道",
+      "context": "预设配置是基于对象通道和追踪通道定义的碰撞行为模板",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "预设",
+      "predicate": "基于",
+      "object": "追踪通道",
+      "context": "预设配置是基于对象通道和追踪通道定义的碰撞行为模板",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T18:27:18.901Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 1461,
+    "contentLength": 947,
+    "processingTimeMs": 33527
+  }
+}

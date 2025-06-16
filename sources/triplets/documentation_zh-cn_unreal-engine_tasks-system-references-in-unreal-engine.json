@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_tasks-system-references-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_tasks-system-references-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "任务系统",
+      "predicate": "位于",
+      "object": "UE::Tasks命名空间",
+      "context": "任务系统的核心功能定义在UE::Tasks命名空间中，这是学习任务系统的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "任务系统",
+      "predicate": "需要包含",
+      "object": "Tasks/Task.h头文件",
+      "context": "使用任务系统前必须包含Task.h头文件，这是基础依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TTask",
+      "predicate": "是",
+      "object": "任务句柄",
+      "context": "TTask是管理任务生命周期的核心类，理解它是掌握任务系统的关键",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "TTask",
+      "predicate": "使用",
+      "object": "引用计数器",
+      "context": "TTask通过引用计数器管理任务生命周期，这是重要的实现机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FTask",
+      "predicate": "是",
+      "object": "TTask<void>的别名",
+      "context": "FTask是不返回结果的任务的简化表示，两者可以互换使用",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Launch函数",
+      "predicate": "用于",
+      "object": "启动异步任务",
+      "context": "Launch是创建和启动任务的主要接口，是任务系统的核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Launch函数",
+      "predicate": "接受",
+      "object": "先决条件任务",
+      "context": "任务可以指定依赖关系，这是理解任务执行顺序的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "任务",
+      "predicate": "可以设置",
+      "object": "优先级",
+      "context": "任务优先级影响执行顺序，是任务调度的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Wait函数",
+      "predicate": "用于",
+      "object": "同步任务执行",
+      "context": "Wait是任务同步的核心方法，理解它有助于掌握任务控制流",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Wait函数",
+      "predicate": "支持",
+      "object": "任务收回机制",
+      "context": "任务收回是优化性能的重要特性，可以避免线程阻塞",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetResult",
+      "predicate": "用于",
+      "object": "获取任务返回值",
+      "context": "GetResult是处理任务结果的必要方法，需要与任务类型匹配",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "AddNested",
+      "predicate": "用于",
+      "object": "创建任务层次结构",
+      "context": "嵌套任务是构建复杂任务关系的重要机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FTaskEvent",
+      "predicate": "类似于",
+      "object": "TTask",
+      "context": "FTaskEvent与TTask共享部分API，但专门用于事件型任务",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "FTaskEvent",
+      "predicate": "需要",
+      "object": "显式触发",
+      "context": "理解Trigger方法是使用FTaskEvent的关键区别点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FPipe",
+      "predicate": "用于",
+      "object": "任务序列化",
+      "context": "管道确保任务顺序执行，是解决竞态条件的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FPipe",
+      "predicate": "提供",
+      "object": "线程安全上下文",
+      "context": "IsInContext方法可以检查是否在管道上下文中，对资源保护很重要",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "任务系统",
+      "predicate": "包含",
+      "object": "多种同步机制",
+      "context": "理解Wait、BusyWait等不同同步方式的区别是掌握任务系统的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "任务依赖",
+      "predicate": "影响",
+      "object": "执行顺序",
+      "context": "先决条件任务系统是理解任务调度逻辑的基础",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "任务优先级",
+      "predicate": "影响",
+      "object": "调度顺序",
+      "context": "优先级设置是优化任务系统性能的重要手段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:58:58.187Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8437 字符)",
+      "timestamp": "2025-06-15T20:58:02.744Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12655,
+    "contentLength": 8437,
+    "processingTimeMs": 55450
+  }
+}

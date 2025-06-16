@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_runtimevirtual-texturing-quick-start-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_runtimevirtual-texturing-quick-start-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "运行时虚拟纹理",
+      "predicate": "适用于",
+      "object": "地形",
+      "context": "文档明确指出运行时虚拟纹理最适用于地形，可以缓存复杂的地形材质着色效果，提高性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行时虚拟纹理",
+      "predicate": "支持",
+      "object": "样条和贴花效果",
+      "context": "运行时虚拟纹理可以提高样条和贴花效果的质量和变体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行时虚拟纹理资产",
+      "predicate": "包含",
+      "object": "配置属性",
+      "context": "运行时虚拟纹理资产包含大小、图块大小和材质属性类型等配置详情",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行时虚拟纹理资产",
+      "predicate": "链接",
+      "object": "材质和Actor",
+      "context": "RVT资产的工作原理是链接场景中需共享数据的材质和其他Actor",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形材质",
+      "predicate": "需要",
+      "object": "使用材质属性",
+      "context": "设置地形材质用于RVT资产需要启用'使用材质属性'选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "建立材质属性节点",
+      "predicate": "用于",
+      "object": "重建和输出材质",
+      "context": "'建立材质属性'表达式用于重建和输出材质用于不同的使用情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行时虚拟纹理输出节点",
+      "predicate": "写入",
+      "object": "RVT资产",
+      "context": "材质通过'运行时虚拟纹理输出'表达式写入RVT资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行时虚拟纹理采样节点",
+      "predicate": "采样",
+      "object": "RVT资产",
+      "context": "材质通过'运行时虚拟纹理采样'表达式从RVT资产采样",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行时虚拟纹理体积",
+      "predicate": "应用",
+      "object": "RVT材质",
+      "context": "在关卡中放置运行时虚拟纹理体积可以将RVT材质应用到表面上",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行时虚拟纹理体积",
+      "predicate": "需要覆盖",
+      "object": "应用区域",
+      "context": "RVT体积需要缩放以完全覆盖需要应用RVT材质的区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "渲染至",
+      "object": "RVT",
+      "context": "设置其他场景Actor可以渲染到RVT中，例如道路曲线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟纹理功能切换节点",
+      "predicate": "提供",
+      "object": "回退机制",
+      "context": "当虚拟纹理在受支持平台上不可用时，虚拟纹理功能切换节点能将材质退却到原始使用状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "需要启用",
+      "object": "虚拟纹理支持",
+      "context": "使用运行时虚拟纹理前，必须在项目设置中启用虚拟纹理支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行时虚拟纹理",
+      "predicate": "提高",
+      "object": "性能",
+      "context": "复杂的地形材质缓存着色效果到运行时虚拟纹理可提高性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行时虚拟纹理",
+      "predicate": "支持",
+      "object": "非地形Actor与地形混合",
+      "context": "由同一RVT资产处理非地形Actor与地形的混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:39:23.279Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (16116 字符)",
+      "timestamp": "2025-06-15T20:38:39.584Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 23562,
+    "contentLength": 16116,
+    "processingTimeMs": 43705
+  }
+}

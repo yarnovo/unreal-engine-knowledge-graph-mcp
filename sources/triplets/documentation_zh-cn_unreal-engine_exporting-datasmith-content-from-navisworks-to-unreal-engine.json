@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_exporting-datasmith-content-from-navisworks-to-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_exporting-datasmith-content-from-navisworks-to-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "用于Navisworks的Datasmith导出器插件",
+      "predicate": "扩展",
+      "object": "Navisworks",
+      "context": "该插件为Navisworks增加了导出功能到虚幻引擎的能力，帮助学习者理解如何扩展CAD软件的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻Datasmith选项卡",
+      "predicate": "属于",
+      "object": "用于Navisworks的Datasmith导出器插件",
+      "context": "该选项卡是插件安装后在Navisworks界面中新增的功能区，帮助学习者定位导出功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导出",
+      "predicate": "生成",
+      "object": "*.udatasmith文件",
+      "context": "导出过程会生成特定格式的文件，这是导入虚幻引擎的前提，学习者需要理解这个关键输出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合并选项",
+      "predicate": "控制",
+      "object": "静态网格体生成",
+      "context": "合并级别设置影响最终生成的静态网格体结构，这是优化场景的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "原点设置",
+      "predicate": "影响",
+      "object": "虚幻引擎场景坐标",
+      "context": "导出时设置的原点会映射到虚幻引擎的世界坐标系，这是场景定位的关键知识",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Python脚本导出",
+      "predicate": "替代",
+      "object": "手动导出",
+      "context": "脚本方式支持批量处理，是自动化工作流的重要组成部分",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "DatasmithNavisworksExporter.EpicGames",
+      "predicate": "实现",
+      "object": "Python脚本导出功能",
+      "context": "插件提供了可通过Python调用的接口，展示如何通过编程方式控制导出过程",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "*.udatasmith文件",
+      "predicate": "用于",
+      "object": "Datasmith导入流程",
+      "context": "导出文件是导入流程的输入，这是完整工作流的关键环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Visual Dataprep",
+      "predicate": "处理",
+      "object": "导入数据清理",
+      "context": "在导入后用于进一步处理数据，学习者需要了解这个后期处理工具",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Navisworks",
+      "predicate": "支持",
+      "object": "BIM数据导出",
+      "context": "作为BIM软件，Navisworks的数据导出能力是建筑可视化流程的起点",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:01:33.195Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5436,
+    "contentLength": 4380,
+    "processingTimeMs": 36067
+  }
+}

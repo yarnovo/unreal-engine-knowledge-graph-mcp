@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_pose-blender-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_pose-blender-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "姿势混合器",
+      "predicate": "属于",
+      "object": "动画蓝图节点",
+      "context": "姿势混合器是动画蓝图中的一种节点类型，用于处理姿势资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势混合器",
+      "predicate": "使用",
+      "object": "姿势资产",
+      "context": "姿势混合器节点通过姿势资产为角色制作动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势混合器",
+      "predicate": "依赖",
+      "object": "动画曲线",
+      "context": "姿势混合器需要动画曲线驱动才能生成输出姿势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势资产",
+      "predicate": "应用于",
+      "object": "骨架网格体",
+      "context": "姿势资产在骨架网格体上播放以实现动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画序列",
+      "predicate": "包含",
+      "object": "动画曲线",
+      "context": "动画序列可以包含编写好的动画曲线来驱动姿势资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画序列",
+      "predicate": "驱动",
+      "object": "姿势混合器",
+      "context": "动画序列中的曲线可以驱动姿势混合器节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "曲线资产",
+      "predicate": "驱动",
+      "object": "姿势混合器",
+      "context": "曲线资产可以作为替代方案驱动姿势混合器节点的曲线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "按名称播放姿势",
+      "predicate": "属于",
+      "object": "动画蓝图节点",
+      "context": "按名称播放姿势是另一种动画蓝图节点类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "按名称播放姿势",
+      "predicate": "使用",
+      "object": "姿势资产",
+      "context": "该节点通过名称选择性地播放姿势资产中的特定姿势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "按名称播放姿势",
+      "predicate": "控制",
+      "object": "姿势权重",
+      "context": "通过Alpha属性可以控制特定姿势的播放权重",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "叠加模式姿势资产",
+      "predicate": "需要",
+      "object": "应用叠加节点",
+      "context": "当姿势资产启用叠加模式时，需要配合应用叠加节点使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "AnimGraph",
+      "context": "动画蓝图中的AnimGraph用于放置各种动画节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势混合器",
+      "predicate": "可转换为",
+      "object": "按名称播放姿势",
+      "context": "姿势混合器节点可以转换为按名称播放姿势节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画曲线",
+      "predicate": "驱动",
+      "object": "面部动画",
+      "context": "动画曲线可以用于驱动面部动画的生成",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "姿势资产",
+      "predicate": "生成自",
+      "object": "动画序列",
+      "context": "姿势资产可以从动画序列中生成，每帧对应一个姿势",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:26:37.017Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6147,
+    "contentLength": 4687,
+    "processingTimeMs": 52067
+  }
+}

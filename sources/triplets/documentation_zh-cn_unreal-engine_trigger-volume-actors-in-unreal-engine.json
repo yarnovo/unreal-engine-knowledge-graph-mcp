@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_trigger-volume-actors-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_trigger-volume-actors-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "触发器体积Actor",
+      "predicate": "属于",
+      "object": "Actor",
+      "context": "触发器体积是Actor的一种特殊类型，理解这一点有助于学习Actor系统的继承关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "触发器体积Actor",
+      "predicate": "包含",
+      "object": "盒体触发器",
+      "context": "盒体触发器是触发器体积的一种具体实现形式，学习形状差异有助于选择合适的触发器类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "触发器体积Actor",
+      "predicate": "包含",
+      "object": "胶囊体触发器",
+      "context": "胶囊体触发器是触发器体积的一种具体实现形式，学习形状差异有助于选择合适的触发器类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "触发器体积Actor",
+      "predicate": "包含",
+      "object": "球体触发器",
+      "context": "球体触发器是触发器体积的一种具体实现形式，学习形状差异有助于选择合适的触发器类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "触发器体积Actor",
+      "predicate": "用于",
+      "object": "触发关卡事件",
+      "context": "理解触发器的核心功能是响应碰撞并触发事件，这是学习触发器应用的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "触发器体积Actor",
+      "predicate": "依赖",
+      "object": "关卡蓝图",
+      "context": "触发器需要通过关卡蓝图来实现事件响应，这是学习触发器编程的关键关联",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "触发器体积Actor",
+      "predicate": "生成",
+      "object": "事件节点",
+      "context": "在关卡蓝图中创建触发器事件时会生成相应的事件节点，这是理解触发器工作流程的重要环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "触发器体积Actor",
+      "predicate": "响应",
+      "object": "碰撞检测",
+      "context": "触发器通过形状碰撞检测来激活事件，这是理解触发器工作原理的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "盒体触发器",
+      "predicate": "替代",
+      "object": "胶囊体触发器",
+      "context": "不同形状的触发器可以相互替代，理解形状差异有助于做出合适的选择",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "触发器事件",
+      "predicate": "控制",
+      "object": "关卡逻辑",
+      "context": "通过触发器事件可以控制关卡中的游戏逻辑，这是学习游戏事件系统的重要部分",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "放置触发器",
+      "predicate": "使用",
+      "object": "放置Actors面板",
+      "context": "学习如何在编辑器中放置触发器是使用触发器的第一步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件节点",
+      "predicate": "属于",
+      "object": "关卡蓝图",
+      "context": "理解事件节点在关卡蓝图中的位置和作用是学习蓝图编程的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "触发器体积Actor",
+      "predicate": "适用于",
+      "object": "交互式场景设计",
+      "context": "触发器是实现场景交互的重要工具，理解这一关系有助于设计交互式关卡",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:04:15.234Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3532,
+    "contentLength": 2480,
+    "processingTimeMs": 41443
+  }
+}

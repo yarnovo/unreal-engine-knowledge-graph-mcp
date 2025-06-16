@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_importing-cad-files-into-unreal-engine-using-datasmith",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_importing-cad-files-into-unreal-engine-using-datasmith.md",
+  "triples": [
+    {
+      "subject": "Datasmith",
+      "predicate": "支持",
+      "object": "CAD文件导入",
+      "context": "Datasmith是虚幻引擎中专门用于将CAD文件导入的工具，理解其功能是学习CAD工作流的基础",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CAD工作流",
+      "predicate": "依赖",
+      "object": "Datasmith CAD导入器插件",
+      "context": "使用Datasmith导入CAD文件前需要确保插件已启用，这是工作流的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "曲面细分",
+      "predicate": "转换",
+      "object": "CAD几何体到三角形网格体",
+      "context": "理解曲面细分过程是掌握CAD数据在实时渲染中应用的关键技术环节",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "弦容差",
+      "predicate": "控制",
+      "object": "曲面细分精度",
+      "context": "弦容差参数直接影响细分结果与原始曲面的接近程度，是重要的质量控制参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "最大边长",
+      "predicate": "限制",
+      "object": "三角形网格体尺寸",
+      "context": "该参数专门用于控制网格体中三角形的最大尺寸，影响渲染效率和模型质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "法线容差",
+      "predicate": "影响",
+      "object": "高曲率区域细节",
+      "context": "法线容差主要作用于曲率较大区域，是控制视觉保真度的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "拼接技术",
+      "predicate": "决定",
+      "object": "静态网格体合并方式",
+      "context": "不同的拼接策略直接影响最终生成的静态网格体资源数量和结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Stitching Sew",
+      "predicate": "减少",
+      "object": "静态网格体数量",
+      "context": "该拼接技术会合并相连表面，优化资源结构但增加处理时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "实时渲染",
+      "predicate": "需要",
+      "object": "三角形网格体",
+      "context": "理解GPU渲染需求是学习CAD数据转换的根本原因",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CAD几何体",
+      "predicate": "基于",
+      "object": "参数曲面",
+      "context": "了解CAD原生几何表示方式有助于理解转换过程的必要性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "曲面细分参数",
+      "predicate": "权衡",
+      "object": "精度与性能",
+      "context": "掌握参数调整中的平衡关系是优化实时渲染效果的关键",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Datasmith导入流程",
+      "predicate": "包含",
+      "object": "曲面细分步骤",
+      "context": "明确导入流程中各阶段的关系有助于系统化学习",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "弦容差",
+      "predicate": "影响",
+      "object": "三角形数量",
+      "context": "参数调整直接影响网格复杂度，是性能优化的关键控制点",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "最大边长",
+      "predicate": "防止",
+      "object": "畸形三角形",
+      "context": "理解参数的技术作用有助于避免不良网格生成",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "法线容差",
+      "predicate": "保持",
+      "object": "视觉连续性",
+      "context": "该参数特别关注表面法线变化，影响视觉平滑度",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T19:32:48.373Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11827,
+    "contentLength": 7698,
+    "processingTimeMs": 60236
+  }
+}

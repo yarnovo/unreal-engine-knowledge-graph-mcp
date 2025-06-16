@@ -1,0 +1,131 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-game-sync-quick-start-guide",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-game-sync-quick-start-guide.md",
+  "triples": [
+    {
+      "subject": "UnrealGameSync (UGS)",
+      "predicate": "用于",
+      "object": "同步虚幻项目",
+      "context": "UGS是专门用于同步虚幻项目的工具，帮助开发者管理项目版本和变更",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻项目",
+      "predicate": "包含",
+      "object": ".uproject文件",
+      "context": "虚幻项目以.uproject文件为核心，UGS通过操作该文件来管理项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS界面",
+      "predicate": "包含",
+      "object": "项目概览区域",
+      "context": "项目概览区域是UGS主界面的核心功能模块，显示项目状态和同步选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS界面",
+      "predicate": "包含",
+      "object": "变更列表区域",
+      "context": "变更列表区域是UGS的核心功能模块，用于显示和管理项目变更历史",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS",
+      "predicate": "依赖",
+      "object": "Perforce",
+      "context": "UGS需要Perforce作为版本控制系统来管理项目变更和同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变更列表区域",
+      "predicate": "用于",
+      "object": "同步特定变更",
+      "context": "开发者可以通过变更列表区域选择并同步特定的项目变更版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目概览区域",
+      "predicate": "用于",
+      "object": "同步最新变更",
+      "context": "项目概览区域提供快速同步到最新项目变更的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS",
+      "predicate": "支持",
+      "object": "本地文件打开",
+      "context": "UGS支持直接打开本地驱动器上的.uproject文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS",
+      "predicate": "支持",
+      "object": "工作空间文件打开",
+      "context": "UGS支持通过工作空间方式打开和管理项目文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工作空间",
+      "predicate": "包含",
+      "object": "虚幻项目",
+      "context": "工作空间是UGS中组织和管理虚幻项目的容器概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS",
+      "predicate": "生成",
+      "object": "输出日志",
+      "context": "UGS在执行同步等操作时会生成详细的输出日志供开发者参考",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS",
+      "predicate": "支持",
+      "object": "构建和运行项目",
+      "context": "UGS提供直接构建和运行虚幻项目的功能选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lyra示例游戏",
+      "predicate": "作为",
+      "object": "示例虚幻项目",
+      "context": "文档使用Lyra示例游戏作为演示UGS功能的典型项目案例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS参考指南",
+      "predicate": "扩展",
+      "object": "UGS功能知识",
+      "context": "UGS参考指南提供了比快速入门更详细的功能说明和高级用法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:10:38.984Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8633 字符)",
+      "timestamp": "2025-06-15T21:09:51.257Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 11458,
+    "contentLength": 8633,
+    "processingTimeMs": 47736
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_replication-graph-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_replication-graph-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Replication Graph",
+      "predicate": "扩展",
+      "object": "网络复制系统",
+      "context": "Replication Graph是虚幻引擎中用于多人游戏的网络复制系统的扩展，专门设计用于处理大量玩家和复制Actor的场景。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Replication Graph",
+      "predicate": "包含",
+      "object": "Replication Graph节点",
+      "context": "Replication Graph由一系列节点组成，这些节点负责创建和管理要复制到每个客户端的Actor列表。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Replication Graph节点",
+      "predicate": "确定",
+      "object": "Actor复制列表",
+      "context": "Replication Graph节点的主要功能是确定哪些Actor需要更新，并将它们分组以生成复制列表。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Replication Graph",
+      "predicate": "依赖",
+      "object": "Replication Driver",
+      "context": "Replication Graph是Replication Driver的子类，需要通过配置或代码绑定来启用。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Replication Driver",
+      "predicate": "配置",
+      "object": "DefaultEngine.ini",
+      "context": "可以通过在DefaultEngine.ini文件中指定Replication Driver类来配置Replication Graph。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Replication Driver",
+      "predicate": "绑定",
+      "object": "CreateReplicationDriverDelegate",
+      "context": "可以通过绑定到CreateReplicationDriverDelegate来动态创建Replication Driver实例。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Replication Graph",
+      "predicate": "适用于",
+      "object": "大型多人游戏",
+      "context": "Replication Graph特别适用于处理大量连接客户端和复制Actor的大型多人游戏。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Replication Graph节点",
+      "predicate": "分组",
+      "object": "Actor",
+      "context": "Replication Graph节点可以根据Actor的位置、状态或其他游戏特定信息将Actor分组，以提高复制效率。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Replication Graph",
+      "predicate": "实现",
+      "object": "服务器性能优化",
+      "context": "通过合理分配Actor到不同的节点，Replication Graph可以显著减少服务器CPU的使用，优化性能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Replication Graph",
+      "predicate": "支持",
+      "object": "自定义节点",
+      "context": "开发者可以根据游戏需求构建自定义的Replication Graph节点，以更好地控制Actor的复制行为。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Replication Graph",
+      "predicate": "不适用于",
+      "object": "分屏游戏",
+      "context": "Replication Graph目前不适用于分屏游戏，在控制台版本中是禁用的。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Replication Graph节点",
+      "predicate": "存储",
+      "object": "预计算列表",
+      "context": "Replication Graph节点可以存储预计算的Actor列表，以便快速提供给客户端连接。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Replication Graph",
+      "predicate": "替代",
+      "object": "标准网络复制策略",
+      "context": "Replication Graph替代了标准的网络复制策略，后者在大量玩家和Actor的情况下性能较差。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Replication Graph",
+      "predicate": "基于",
+      "object": "持久对象",
+      "context": "Replication Graph系统基于持久对象构建，可以跨帧存储数据并在客户端连接之间共享。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Replication Graph",
+      "predicate": "用于",
+      "object": "Fortnite Battle Royale",
+      "context": "Replication Graph被用于Fortnite Battle Royale等大型在线游戏，以支持大量玩家和Actor。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:38:30.689Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9208,
+    "contentLength": 5035,
+    "processingTimeMs": 47104
+  }
+}

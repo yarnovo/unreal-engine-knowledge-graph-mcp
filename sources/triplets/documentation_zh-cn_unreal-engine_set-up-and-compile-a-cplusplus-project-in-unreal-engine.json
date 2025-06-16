@@ -1,0 +1,163 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_set-up-and-compile-a-cplusplus-project-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_set-up-and-compile-a-cplusplus-project-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "需要",
+      "object": "Visual Studio",
+      "context": "设置C++开发环境需要Visual Studio作为开发工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C++项目",
+      "predicate": "基于",
+      "object": "蓝图项目",
+      "context": "教程从蓝图项目开始，逐步添加C++代码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "增强输入系统",
+      "predicate": "用于",
+      "object": "角色控制",
+      "context": "增强输入系统用于定义角色动作如跳跃或下蹲",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏模式",
+      "predicate": "定义",
+      "object": "游戏规则",
+      "context": "游戏模式资产定义了游戏的规则、获胜条件和使用的角色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AGameModeBase",
+      "predicate": "派生",
+      "object": "自定义游戏模式类",
+      "context": "自定义游戏模式类派生自AGameModeBase",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C++类",
+      "predicate": "扩展",
+      "object": "蓝图",
+      "context": "将C++类扩展到蓝图可以向编辑器公开类的属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GEngine",
+      "predicate": "提供",
+      "object": "AddOnScreenDebugMessage",
+      "context": "GEngine提供AddOnScreenDebugMessage函数用于在屏幕上打印调试消息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StartPlay()",
+      "predicate": "重载",
+      "object": "AGameModeBase",
+      "context": "在自定义GameMode类中重载StartPlay()函数以添加新的全局游戏启动逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE_LOG",
+      "predicate": "用于",
+      "object": "日志记录",
+      "context": "UE_LOG函数用于将消息记录到虚幻引擎的输出日志或控制台中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "实时编码",
+      "predicate": "禁用",
+      "object": "新项目开发",
+      "context": "在新项目开发时建议禁用实时编码以避免编译错误",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻项目浏览器",
+      "predicate": "用于",
+      "object": "创建新项目",
+      "context": "通过虚幻项目浏览器可以选择模板创建新游戏项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第一人称模板",
+      "predicate": "包含",
+      "object": "示例资产",
+      "context": "第一人称模板项目包含了示例资产，适合作为学习起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "增强输入插件",
+      "predicate": "需要",
+      "object": "启用",
+      "context": "使用增强输入系统需要确保增强输入插件已安装并启用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Visual Studio项目",
+      "predicate": "生成",
+      "object": "创建C++类",
+      "context": "创建第一个C++类会触发虚幻引擎生成Visual Studio项目文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GENERATED_BODY()",
+      "predicate": "用于",
+      "object": "代码生成",
+      "context": "GENERATED_BODY()宏用于自动生成UObject所需的代码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试消息",
+      "predicate": "验证",
+      "object": "代码执行",
+      "context": "添加调试消息可以验证代码是否按预期执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PIE模式",
+      "predicate": "用于",
+      "object": "测试游戏",
+      "context": "Play in Editor模式用于在编辑器中快速测试游戏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家角色",
+      "predicate": "关联",
+      "object": "输入操作",
+      "context": "下一步将创建玩家角色并为其添加输入操作",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:43:17.906Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (16380 字符)",
+      "timestamp": "2025-06-15T20:42:28.156Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 24016,
+    "contentLength": 16380,
+    "processingTimeMs": 49760
+  }
+}

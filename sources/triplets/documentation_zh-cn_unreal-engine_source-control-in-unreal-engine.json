@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_source-control-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_source-control-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "源码管理",
+      "context": "虚幻引擎内置了对源码管理软件的支持，这是团队协作开发游戏的基础功能",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "源码管理",
+      "predicate": "默认支持",
+      "object": "Perforce",
+      "context": "文档明确指出虚幻引擎默认支持的源码管理工具包含Perforce",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "源码管理",
+      "predicate": "默认支持",
+      "object": "SVN",
+      "context": "文档明确指出虚幻引擎默认支持的源码管理工具包含SVN",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "源码管理",
+      "predicate": "可通过",
+      "object": "编辑器偏好设置",
+      "context": "启用源码管理的主要方式之一是通过编辑器偏好设置窗口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "源码管理",
+      "predicate": "可通过",
+      "object": "内容浏览器",
+      "context": "启用源码管理的另一种方式是通过内容浏览器的上下文菜单",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器偏好设置",
+      "predicate": "包含选项",
+      "object": "自动检出资产",
+      "context": "偏好设置中的'资产修改时是否自动检出'选项控制自动检出行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "显示",
+      "object": "源码管理状态图标",
+      "context": "内容浏览器通过特殊图标直观展示资产的源码管理状态",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "源码管理操作",
+      "predicate": "包含",
+      "object": "检出",
+      "context": "检出是源码管理的基础操作之一，用于锁定资产进行编辑",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "源码管理操作",
+      "predicate": "包含",
+      "object": "检入",
+      "context": "检入是源码管理的基础操作之一，用于提交修改到源码管理系统",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "源码管理操作",
+      "predicate": "包含",
+      "object": "历史记录",
+      "context": "历史记录功能允许查看资产的修改历史，是版本控制的重要功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容热重载",
+      "predicate": "依赖",
+      "object": "源码管理",
+      "context": "内容热重载功能目前要求项目启用源码管理才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容热重载",
+      "predicate": "提供功能",
+      "object": "资产重载",
+      "context": "内容热重载允许从磁盘重新加载资产，放弃未保存的修改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "源码管理状态",
+      "predicate": "包含",
+      "object": "已检出",
+      "context": "'已检出'是源码管理的基本状态之一，表示资产正在被编辑",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "源码管理状态",
+      "predicate": "包含",
+      "object": "已标记添加",
+      "context": "'已标记添加'状态表示新文件准备添加到源码管理系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "源码管理",
+      "predicate": "支持",
+      "object": "文本比对",
+      "context": "源码管理集成支持配置文本比对工具进行差异比较",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "检出操作",
+      "predicate": "防止",
+      "object": "并发编辑",
+      "context": "检出资产会锁定它，防止其他用户同时编辑，这是版本控制的核心机制",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "检入操作",
+      "predicate": "要求",
+      "object": "变更描述",
+      "context": "检入变更时必须提供描述，这是良好的版本控制实践",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "源码管理",
+      "predicate": "支持",
+      "object": "团队协作",
+      "context": "源码管理的主要目的是方便团队协同开发游戏项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "停用源码管理",
+      "predicate": "影响",
+      "object": "同步能力",
+      "context": "停用源码管理将导致本地内容无法与源码管理系统同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:53:28.519Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8975,
+    "contentLength": 5903,
+    "processingTimeMs": 50139
+  }
+}

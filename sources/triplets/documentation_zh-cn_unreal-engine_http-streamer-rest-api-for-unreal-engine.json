@@ -1,0 +1,219 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_http-streamer-rest-api-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_http-streamer-rest-api-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "HTTP流送器REST API",
+      "predicate": "用于",
+      "object": "回放流送",
+      "context": "HTTP流送器REST API的主要功能是实现回放的上传、下载和搜索",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HTTP流送器REST API",
+      "predicate": "包含",
+      "object": "上传请求",
+      "context": "上传请求是API的核心功能之一，用于开始上传回放流送",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HTTP流送器REST API",
+      "predicate": "包含",
+      "object": "下载请求",
+      "context": "下载请求是API的核心功能之一，用于从回放服务器下载回放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HTTP流送器REST API",
+      "predicate": "包含",
+      "object": "搜索请求",
+      "context": "搜索请求是API的核心功能之一，用于查询回放服务器上的回放信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "上传请求",
+      "predicate": "包含",
+      "object": "开始流送",
+      "context": "开始流送是上传请求的第一步，用于初始化回放上传过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "上传请求",
+      "predicate": "包含",
+      "object": "上传标头",
+      "context": "上传标头是上传请求的一部分，用于上传回放的标头数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "上传请求",
+      "predicate": "包含",
+      "object": "清空流送",
+      "context": "清空流送是上传请求的一部分，用于上传回放的二进制数据块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "上传请求",
+      "predicate": "包含",
+      "object": "添加/更新事件",
+      "context": "添加/更新事件是上传请求的一部分，用于记录回放中的事件数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "上传请求",
+      "predicate": "包含",
+      "object": "停止流送",
+      "context": "停止流送是上传请求的最后一步，用于结束回放上传过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "下载请求",
+      "predicate": "包含",
+      "object": "请求开始下载",
+      "context": "请求开始下载是下载请求的第一步，用于初始化回放下载过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "下载请求",
+      "predicate": "包含",
+      "object": "请求标头",
+      "context": "请求标头是下载请求的一部分，用于获取回放的标头数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "下载请求",
+      "predicate": "包含",
+      "object": "请求检查点数据",
+      "context": "请求检查点数据是下载请求的一部分，用于获取回放中的检查点信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "下载请求",
+      "predicate": "包含",
+      "object": "请求流送数据块",
+      "context": "请求流送数据块是下载请求的一部分，用于获取回放的二进制数据块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "下载请求",
+      "predicate": "包含",
+      "object": "列举回放事件",
+      "context": "列举回放事件是下载请求的一部分，用于获取回放中的事件列表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "下载请求",
+      "predicate": "包含",
+      "object": "刷新查看器",
+      "context": "刷新查看器是下载请求的一部分，用于维持查看器与回放服务器的连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "搜索请求",
+      "predicate": "包含",
+      "object": "搜索回放",
+      "context": "搜索回放是搜索请求的核心功能，用于查询回放服务器上的回放列表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "搜索请求",
+      "predicate": "包含",
+      "object": "按事件搜索回放",
+      "context": "按事件搜索回放是搜索请求的一部分，用于根据事件组过滤回放列表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "搜索请求",
+      "predicate": "包含",
+      "object": "请求回放",
+      "context": "请求回放是搜索请求的一部分，用于获取特定回放的详细信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FHttpNetworkReplayStreamer",
+      "predicate": "实现",
+      "object": "HTTP流送器REST API",
+      "context": "FHttpNetworkReplayStreamer是HTTP流送器REST API的实现类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FHttpNetworkReplayStreamer",
+      "predicate": "支持",
+      "object": "压缩",
+      "context": "FHttpNetworkReplayStreamer可以通过覆盖特定函数来支持压缩功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "回放",
+      "predicate": "包含",
+      "object": "事件",
+      "context": "回放可以包含多个事件，这些事件通常与回放相关联但单独存储",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件",
+      "predicate": "属于",
+      "object": "事件群组",
+      "context": "事件可以被分组，以便于过滤和管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "回放服务器",
+      "predicate": "处理",
+      "object": "HTTP流送器REST API请求",
+      "context": "回放服务器需要处理HTTP流送器REST API的各种请求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DefaultEngine.ini",
+      "predicate": "配置",
+      "object": "Server URL",
+      "context": "Server URL参数从DefaultEngine.ini文件中获取",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "httpReplay.ChunkUploadDelayInSeconds",
+      "predicate": "控制",
+      "object": "清空流送间隔",
+      "context": "httpReplay.ChunkUploadDelayInSeconds控制变量可以调整清空流送操作的间隔时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:28:17.499Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (19445 字符)",
+      "timestamp": "2025-06-15T19:27:03.719Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 30378,
+    "contentLength": 19445,
+    "processingTimeMs": 73793
+  }
+}

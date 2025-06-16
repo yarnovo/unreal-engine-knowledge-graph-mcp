@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_xr-best-practices-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_xr-best-practices-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "VR项目",
+      "predicate": "可以是",
+      "object": "蓝图或C++项目",
+      "context": "VR项目可以使用蓝图或C++进行开发，这为开发者提供了灵活的开发方式选择。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR模板",
+      "predicate": "提供",
+      "object": "初始内容",
+      "context": "VR模板为开发者提供了在虚幻引擎5中开发VR项目所需的初始内容，简化了项目启动过程。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "前向着色",
+      "predicate": "适用于",
+      "object": "VR项目",
+      "context": "前向着色在VR项目中启用可以改善应用的性能，是VR开发的重要设置之一。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多重采样抗锯齿",
+      "predicate": "用于",
+      "object": "VR项目",
+      "context": "在VR项目中启用多重采样抗锯齿可以提高图像质量，减少锯齿现象。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "实例化立体",
+      "predicate": "优化",
+      "object": "VR性能",
+      "context": "实例化立体技术可以优化VR应用的性能，特别是在移动设备上。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动多视图",
+      "predicate": "适用于",
+      "object": "移动设备VR",
+      "context": "移动多视图技术专门用于优化移动设备上的VR体验，提高渲染效率。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "vr.PixelDensity",
+      "predicate": "影响",
+      "object": "VR图像质量",
+      "context": "vr.PixelDensity设置直接影响VR图像的清晰度和性能，1是HMD的理想分辨率。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR帧率优化",
+      "predicate": "需要",
+      "object": "禁用平滑帧率",
+      "context": "为了优化VR帧率，需要禁用平滑帧率等一般项目设置，以避免干扰VR应用的帧率控制。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR世界场景缩放",
+      "predicate": "影响",
+      "object": "用户体验",
+      "context": "正确的世界场景缩放对保障VR用户体验至关重要，错误的缩放可能导致晕眩等问题。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR摄像机设置",
+      "predicate": "取决于",
+      "object": "坐式或站式体验",
+      "context": "VR摄像机的设置需要根据体验类型（坐式或站式）进行调整，以确保正确的视角和舒适度。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态光源",
+      "predicate": "推荐用于",
+      "object": "VR项目",
+      "context": "静态光源和光照贴图是VR项目中推荐的光照类型，因为它们具有最低的渲染开销。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DitherTemporalAA",
+      "predicate": "解决",
+      "object": "VR透明度问题",
+      "context": "DitherTemporalAA材质函数可以模拟透明效果，同时避免VR中渲染透明度的昂贵开销和排序问题。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视差贴图",
+      "predicate": "替代",
+      "object": "法线贴图",
+      "context": "在VR中，视差贴图可以替代法线贴图，提供更好的深度信息显示效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR项目",
+      "predicate": "需要",
+      "object": "优化帧率",
+      "context": "VR项目需要保持高帧率以避免用户晕眩，优化帧率是开发中的重要任务。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR内容",
+      "predicate": "需要注意",
+      "object": "多边形面缺失",
+      "context": "在VR内容开发中，需要注意避免多边形面缺失，因为用户可以从多个角度观看物体。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR体验",
+      "predicate": "应避免",
+      "object": "动态模糊",
+      "context": "动态模糊等后期处理效果在VR中可能导致用户不适，应尽量避免使用。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR摄像机",
+      "predicate": "应避免",
+      "object": "摄像机抖动",
+      "context": "VR摄像机应避免使用头部摇动和抖动效果，这些可能导致用户不适。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR光照",
+      "predicate": "建议使用",
+      "object": "较暗的光照",
+      "context": "在VR中，建议使用较暗的光照和偏冷的色调，以减少用户晕眩的可能性。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR移动速度",
+      "predicate": "应保持",
+      "object": "恒定",
+      "context": "VR中的移动速度应保持恒定，避免从零加速到全速，以减少用户不适。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR角色",
+      "predicate": "需要调整",
+      "object": "摄像机位置",
+      "context": "VR角色的摄像机位置需要根据体验类型（坐式或站式）进行适当调整。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:36:21.763Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9022 字符)",
+      "timestamp": "2025-06-15T21:35:23.761Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15440,
+    "contentLength": 9022,
+    "processingTimeMs": 58008
+  }
+}

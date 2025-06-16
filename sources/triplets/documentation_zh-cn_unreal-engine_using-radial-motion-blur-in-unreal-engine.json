@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-radial-motion-blur-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-radial-motion-blur-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "径向动态模糊",
+      "predicate": "替代",
+      "object": "标准动态模糊",
+      "context": "径向动态模糊用于解决标准动态模糊在旋转对象上产生的视觉误差，特别适用于快速旋转的对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "径向动态模糊",
+      "predicate": "基于",
+      "object": "材质",
+      "context": "径向动态模糊是通过特殊材质实现的，需要创建和使用材质实例来应用效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "M_RadialMotionBlur",
+      "predicate": "是基础",
+      "object": "径向动态模糊材质",
+      "context": "M_RadialMotionBlur是径向动态模糊的基础材质，可以在内容示例项目中找到",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MI_RadialMotionBlur",
+      "predicate": "实例化",
+      "object": "M_RadialMotionBlur",
+      "context": "MI_RadialMotionBlur是M_RadialMotionBlur的材质实例，用于实际应用径向动态模糊效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "径向动态模糊",
+      "predicate": "需要",
+      "object": "两个静态网格体",
+      "context": "应用径向动态模糊需要两个静态网格体：一个用于实际显示，另一个作为虚拟网格体用于模糊效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SM_Wheel",
+      "predicate": "用于",
+      "object": "基础网格体",
+      "context": "SM_Wheel用作基础网格体，显示实际对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SM_Wheel_Blur",
+      "predicate": "用于",
+      "object": "虚拟网格体",
+      "context": "SM_Wheel_Blur用作虚拟网格体，用于生成径向动态模糊效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_StaticMesh_MotionBlur",
+      "predicate": "包含",
+      "object": "静态网格体组件",
+      "context": "BP_StaticMesh_MotionBlur蓝图包含静态网格体组件，用于管理基础网格体和虚拟网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "径向动态模糊",
+      "predicate": "依赖",
+      "object": "自定义深度通道",
+      "context": "径向动态模糊效果需要启用自定义深度通道，并在DefaultEngine.ini中设置r.CustomDepth=3",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角度参数",
+      "predicate": "控制",
+      "object": "径向模糊强度",
+      "context": "角度参数用于调整径向模糊的强度，参数越高，旋转效果越明显",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "边缘半径参数",
+      "predicate": "限制",
+      "object": "径向模糊范围",
+      "context": "边缘半径参数用于限制径向模糊的范围，应与虚拟网格体的半径匹配",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容示例项目",
+      "predicate": "提供",
+      "object": "径向动态模糊示例",
+      "context": "内容示例项目提供了径向动态模糊的工作示例和相关资源，便于学习和使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "迁移资产",
+      "predicate": "用于",
+      "object": "共享径向动态模糊材质",
+      "context": "迁移资产工具可以用于将径向动态模糊材质和实例从一个项目迁移到另一个项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质实例编辑器",
+      "predicate": "用于",
+      "object": "调整径向动态模糊参数",
+      "context": "材质实例编辑器可用于调整径向动态模糊的参数，如角度和边缘半径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图编辑器",
+      "predicate": "用于",
+      "object": "配置静态网格体组件",
+      "context": "蓝图编辑器用于配置静态网格体组件的渲染设置，以支持径向动态模糊效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:21:38.580Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10806 字符)",
+      "timestamp": "2025-06-15T21:20:54.778Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15705,
+    "contentLength": 10806,
+    "processingTimeMs": 43809
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-convert-physx-vehicles-to-chaos-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-convert-physx-vehicles-to-chaos-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "PhysX载具",
+      "predicate": "转换为",
+      "object": "Chaos载具",
+      "context": "文档详细描述了如何将基于PhysX的载具系统转换为Chaos物理引擎的载具系统，这是学习物理引擎迁移的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Chaos载具",
+      "predicate": "包含",
+      "object": "骨骼网格体",
+      "context": "构成载具的基本资产之一，理解载具的物理表现需要先了解其骨骼网格体结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos载具",
+      "predicate": "包含",
+      "object": "物理资产",
+      "context": "物理资产定义了载具的碰撞和物理特性，是载具行为模拟的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos载具",
+      "predicate": "包含",
+      "object": "动画蓝图",
+      "context": "动画蓝图控制载具的视觉表现，特别是车轮动画，与物理模拟紧密相关",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos载具",
+      "predicate": "包含",
+      "object": "载具蓝图",
+      "context": "载具蓝图是整合所有载具组件和功能的容器，理解它是学习载具系统的核心",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VehicleWheel",
+      "predicate": "对应",
+      "object": "ChaosVehicleWheel",
+      "context": "学习PhysX到Chaos的转换需要理解类名的对应关系，这是组件替换的基础知识",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "VehicleMovement",
+      "predicate": "对应",
+      "object": "ChaosWheeledVehicleComponent",
+      "context": "运动控制组件的类名变化，理解这种映射关系对代码迁移至关重要",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "WheelHandler",
+      "predicate": "替换为",
+      "object": "WheelController",
+      "context": "动画蓝图中的关键节点变更，这是转换过程中必须掌握的操作步骤",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ChaosVehicleWheel",
+      "predicate": "需要设置",
+      "object": "车轮半径",
+      "context": "车轮物理参数的设置直接影响载具的驾驶行为，是物理调优的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ChaosVehicleWheel",
+      "predicate": "需要设置",
+      "object": "悬架参数",
+      "context": "悬架的最大上升/下降值决定了载具的悬挂特性，影响驾驶体验",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ChaosVehicleWheel",
+      "predicate": "需要设置",
+      "object": "转向角",
+      "context": "转向角设置决定了车轮的转向能力，是载具操控性的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ChaosWheeledVehicleComponent",
+      "predicate": "需要配置",
+      "object": "车轮数量",
+      "context": "组件需要正确配置与物理模型匹配的车轮数量才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ChaosWheeledVehicleComponent",
+      "predicate": "需要配置",
+      "object": "骨骼名称",
+      "context": "车轮需要绑定到骨骼网格体上的特定骨骼，这是物理模拟与视觉表现关联的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "载具Pawn",
+      "predicate": "包含",
+      "object": "ChaosWheeledVehicleComponent",
+      "context": "理解载具Pawn如何整合物理组件是构建完整载具的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理资产",
+      "predicate": "需要禁用",
+      "object": "车轮碰撞",
+      "context": "正确的物理资产配置需要禁用车轮碰撞以避免物理模拟异常",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "需要重新设置父类",
+      "object": "VehicleAnimationInstance",
+      "context": "转换过程中必须将动画蓝图的父类重新设置为Chaos兼容的版本",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "WheeledVehicleMovementComponent4W",
+      "predicate": "替换为",
+      "object": "ChaosWheeledVehicleMovement",
+      "context": "蓝图代码中的PhysX组件引用需要更新为Chaos等效组件，这是代码迁移的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Chaos载具",
+      "predicate": "依赖",
+      "object": "Chaos物理解算器",
+      "context": "完成转换后的载具系统将使用Chaos物理引擎进行模拟，理解这种依赖关系很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PhysX",
+      "predicate": "是",
+      "object": "旧版物理引擎",
+      "context": "理解PhysX在虚幻引擎中的历史地位有助于把握技术演进方向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos",
+      "predicate": "是",
+      "object": "新版物理引擎",
+      "context": "了解Chaos作为虚幻引擎当前物理解决方案的地位对技术选型很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:25:46.682Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4969,
+    "contentLength": 3467,
+    "processingTimeMs": 74940
+  }
+}

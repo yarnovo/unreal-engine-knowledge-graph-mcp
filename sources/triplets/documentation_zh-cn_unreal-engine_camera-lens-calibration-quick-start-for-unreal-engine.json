@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_camera-lens-calibration-quick-start-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_camera-lens-calibration-quick-start-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "摄像机校准插件",
+      "predicate": "用于",
+      "object": "摄像机连接和校准",
+      "context": "文档明确说明使用该插件进行摄像机连接和校准操作",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "电影摄像机Actor",
+      "predicate": "依赖",
+      "object": "Live Link控制器",
+      "context": "需要通过Live Link控制器组件实现追踪器和虚拟主题的连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiveLinkXR插件",
+      "predicate": "支持",
+      "object": "HTC Vive Tracker 3",
+      "context": "插件用于连接和追踪Vive Tracker设备数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头文件资产",
+      "predicate": "存储",
+      "object": "镜头校准数据",
+      "context": "用于保存镜头畸变、节点偏移等校准参数",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "摄像机校准棋盘格",
+      "predicate": "用于",
+      "object": "镜头畸变校准",
+      "context": "作为物理参照物帮助计算镜头畸变参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟制片模板",
+      "predicate": "包含",
+      "object": "摄像机校准功能",
+      "context": "项目模板预配置了虚拟制片相关的工作流",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "BP_UE_Tracker3",
+      "predicate": "实现",
+      "object": "物理追踪器绑定",
+      "context": "蓝图将物理追踪器设备映射到虚拟场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "节点偏移校准",
+      "predicate": "依赖",
+      "object": "棋盘格对齐",
+      "context": "需要先完成棋盘格对齐才能进行精确的节点偏移计算",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "Live Link窗口",
+      "predicate": "管理",
+      "object": "数据源连接",
+      "context": "用于添加和配置追踪器、虚拟主题等数据源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VirtualPrestonFIZ",
+      "predicate": "模拟",
+      "object": "FIZ控制器数据",
+      "context": "通过蓝图虚拟主题模拟焦距/光圈/对焦的实时控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "传感器尺寸参数",
+      "predicate": "影响",
+      "object": "摄像机成像匹配",
+      "context": "必须正确设置传感器参数才能匹配物理摄像机",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "镜头畸变校准",
+      "predicate": "需要",
+      "object": "多角度采样",
+      "context": "文档强调需要在不同变焦/聚焦值下捕获多张图像",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "电影摄像机Actor",
+      "predicate": "关联",
+      "object": "物理摄像机",
+      "context": "通过校准流程建立虚拟与物理摄像机的空间对应关系",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "用于",
+      "object": "访问引擎/插件内容",
+      "context": "需要开启特殊显示选项才能访问校准所需的资源",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "校准流程",
+      "predicate": "包含",
+      "object": "三阶段工作流",
+      "context": "文档明确划分为插件启用→场景设置→镜头校准三个阶段",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    }
+  ],
+  "timestamp": "2025-06-15T18:19:17.900Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15554 字符)",
+      "timestamp": "2025-06-15T18:18:19.829Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 21320,
+    "contentLength": 15554,
+    "processingTimeMs": 58075
+  }
+}

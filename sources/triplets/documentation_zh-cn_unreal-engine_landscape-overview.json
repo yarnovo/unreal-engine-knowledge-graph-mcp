@@ -1,0 +1,147 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_landscape-overview",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_landscape-overview.md",
+  "triples": [
+    {
+      "subject": "Landscape地形",
+      "predicate": "包含",
+      "object": "地形工具模式",
+      "context": "Landscape地形系统提供了三种工具模式，用于创建和修改地形",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形工具模式",
+      "predicate": "包含",
+      "object": "管理模式",
+      "context": "管理模式用于创建新地形和修改地形组件",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形工具模式",
+      "predicate": "包含",
+      "object": "雕刻模式",
+      "context": "雕刻模式用于修改地形的形状",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形工具模式",
+      "predicate": "包含",
+      "object": "绘制模式",
+      "context": "绘制模式用于通过绘画纹理修改地形外观",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Landscape地形",
+      "predicate": "基于",
+      "object": "地形Actor",
+      "context": "创建地形即创建地形Actor，可在细节面板中编辑其属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Landscape地形",
+      "predicate": "支持",
+      "object": "大地形尺寸",
+      "context": "Landscape系统支持高达8192x8192像素的高度图，适合创建广袤的室外世界",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Landscape地形",
+      "predicate": "优于",
+      "object": "静态网格体",
+      "context": "Landscape在内存使用和顶点数据存储上比静态网格体更高效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Landscape地形",
+      "predicate": "使用",
+      "object": "纹理存储",
+      "context": "Landscape在GPU内存中以纹理形式存储渲染数据，提高效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Landscape地形",
+      "predicate": "实现",
+      "object": "连续Geo-MipMap LOD",
+      "context": "Landscape使用标准纹理mipmap处理LOD，保持平滑过渡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Landscape地形",
+      "predicate": "支持",
+      "object": "高度图和权重数据流送",
+      "context": "Landscape使用纹理流送系统动态加载高度图和权重数据，减少内存占用",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Landscape地形",
+      "predicate": "提供",
+      "object": "高分辨率LOD独立照明",
+      "context": "Landscape存储高分辨率法线数据，实现逐像素照明",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Landscape地形",
+      "predicate": "使用",
+      "object": "PhysX碰撞",
+      "context": "Landscape使用高度场对象实现碰撞，支持物理材质和降低分辨率碰撞",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Landscape地形",
+      "predicate": "配置",
+      "object": "地形项目设置",
+      "context": "地形项目设置允许自定义最大层数、组件数等参数",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "管理模式",
+      "predicate": "使用",
+      "object": "地形拷贝工具",
+      "context": "管理模式中可使用地形拷贝工具复制、粘贴、导入、导出部分地形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绘制模式",
+      "predicate": "依赖",
+      "object": "地形材质",
+      "context": "绘制模式基于地形材质中定义的图层进行纹理绘制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Landscape地形",
+      "predicate": "支持",
+      "object": "关卡流送系统",
+      "context": "Landscape的碰撞和渲染组件可使用关卡流送系统实现动态加载",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:42:00.371Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8747 字符)",
+      "timestamp": "2025-06-15T19:41:00.541Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13017,
+    "contentLength": 8747,
+    "processingTimeMs": 59833
+  }
+}

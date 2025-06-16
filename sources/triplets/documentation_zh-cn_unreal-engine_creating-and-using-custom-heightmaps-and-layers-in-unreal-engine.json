@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_creating-and-using-custom-heightmaps-and-layers-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_creating-and-using-custom-heightmaps-and-layers-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "自定义高度图",
+      "predicate": "用于",
+      "object": "地形创建",
+      "context": "自定义高度图可以加快地形创建进程，特别是在使用第三方工具如World Machine和Terragen时",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形图层",
+      "predicate": "包含",
+      "object": "高度图和色彩数据",
+      "context": "地形图层是特殊的纹理，包含高度图和色彩数据，用于自定义地形的外观和感觉",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ILandscapeHeightmapFileFormat",
+      "predicate": "实现",
+      "object": "高度图导入",
+      "context": "通过实现ILandscapeHeightmapFileFormat接口，可以从第三方程序导出地形高度图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ILandscapeWeightmapFileFormat",
+      "predicate": "实现",
+      "object": "图层导入",
+      "context": "通过实现ILandscapeWeightmapFileFormat接口，可以从第三方程序导出地形图层",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形材质",
+      "predicate": "应用于",
+      "object": "地形Actor",
+      "context": "创建并设置地形材质后，需要将其应用到地形Actor以实现视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图层信息对象",
+      "predicate": "添加到",
+      "object": "地形Actor",
+      "context": "图层信息对象需要添加到地形Actor中，以解决材质应用后地形变黑的问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义图层",
+      "predicate": "导入",
+      "object": "目标图层",
+      "context": "可以通过右键点击目标图层并选择从文件导入选项来导入自定义图层数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形工具",
+      "predicate": "前置",
+      "object": "地形总览",
+      "context": "首次使用地形工具时，建议先查阅地形总览文档以了解基本概念",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "地形创建",
+      "predicate": "前置",
+      "object": "地形材质制作",
+      "context": "在导入自定义图层前，需要先创建地形和制作地形材质",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "LandscapeLayerBlend",
+      "predicate": "用于",
+      "object": "地形材质",
+      "context": "LandscapeLayerBlend节点在地形材质中用于混合不同的图层纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LandscapeLayerCoords",
+      "predicate": "用于",
+      "object": "地形材质",
+      "context": "LandscapeLayerCoords节点在地形材质中用于处理图层的坐标信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Machine",
+      "predicate": "生成",
+      "object": "基础高度图",
+      "context": "World Machine等第三方工具可以快速生成基础高度图，用于虚幻引擎中的地形创建",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Terragen",
+      "predicate": "生成",
+      "object": "基础高度图",
+      "context": "Terragen等第三方工具可以快速生成基础高度图，用于虚幻引擎中的地形创建",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "图层导入",
+      "predicate": "依赖",
+      "object": "图层格式",
+      "context": "导入图层需要符合特定的格式要求，如灰阶、每像素8位、.PNG或.RAW格式的单通道文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图层导入",
+      "predicate": "依赖",
+      "object": "地形分辨率",
+      "context": "导入的图层文件分辨率需要与地形Actor的整体分辨率保持一致",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:39:12.856Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7272,
+    "contentLength": 5300,
+    "processingTimeMs": 54976
+  }
+}

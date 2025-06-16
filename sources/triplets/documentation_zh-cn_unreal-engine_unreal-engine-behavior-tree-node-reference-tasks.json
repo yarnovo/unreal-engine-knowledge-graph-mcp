@@ -1,0 +1,155 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-engine-behavior-tree-node-reference-tasks",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-engine-behavior-tree-node-reference-tasks.md",
+  "triples": [
+    {
+      "subject": "行为树",
+      "predicate": "包含",
+      "object": "任务节点",
+      "context": "行为树通过任务节点实现具体操作，理解任务节点是掌握行为树的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "任务节点",
+      "predicate": "连接至",
+      "object": "装饰器节点",
+      "context": "装饰器节点可以附加到任务节点上控制其执行条件，这是行为树的重要组合方式",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "任务节点",
+      "predicate": "连接至",
+      "object": "服务节点",
+      "context": "服务节点可以附加到任务节点上提供周期性功能，扩展任务节点的能力",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "以结果完成节点",
+      "predicate": "控制",
+      "object": "行为树分支执行流",
+      "context": "该节点可以强制结束或继续分支执行，是控制行为树流程的重要节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发出噪音节点",
+      "predicate": "依赖",
+      "object": "PawnNoiseEmitter组件",
+      "context": "该节点需要Pawn拥有PawnNoiseEmitter组件才能产生噪音效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "直接移动至节点",
+      "predicate": "替代",
+      "object": "移动至节点",
+      "context": "当不需要导航系统时，直接移动至节点是移动至节点的轻量级替代方案",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "移动至节点",
+      "predicate": "依赖",
+      "object": "寻路网格体",
+      "context": "该节点使用寻路网格体进行导航移动，是AI导航的基础组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "播放动画节点",
+      "predicate": "要求",
+      "object": "匹配的骨架",
+      "context": "播放的动画必须与Pawn骨架匹配，这是动画系统的基本要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "旋转至面向黑板条目节点",
+      "predicate": "依赖",
+      "object": "使用控制器旋转Yaw",
+      "context": "Pawn必须启用该属性才能成功旋转，是旋转控制的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行行为节点",
+      "predicate": "扩展",
+      "object": "行为树嵌套",
+      "context": "该节点支持行为树的嵌套执行，扩展了行为树的组织能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行动态行为节点",
+      "predicate": "替代",
+      "object": "运行行为节点",
+      "context": "当需要在运行时修改子树时，运行动态行为节点是运行行为节点的动态版本",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "运行EQS查询节点",
+      "predicate": "集成",
+      "object": "环境查询系统",
+      "context": "该节点将EQS系统集成到行为树中，为AI决策提供环境评估能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设置标签冷却节点",
+      "predicate": "配合",
+      "object": "冷却标签装饰器",
+      "context": "这两个节点配合使用可以控制行为树的执行频率，实现冷却机制",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "等待黑板时间节点",
+      "predicate": "扩展",
+      "object": "等待节点",
+      "context": "等待黑板时间节点是等待节点的动态版本，支持从黑板获取等待时间",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "自定义任务节点",
+      "predicate": "基于",
+      "object": "蓝图系统",
+      "context": "自定义任务节点利用蓝图系统扩展行为树功能，但性能低于原生节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pawn",
+      "predicate": "拥有",
+      "object": "行为树组件",
+      "context": "Pawn通过行为树组件执行AI行为，这是AI系统的基础架构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "黑板",
+      "predicate": "存储",
+      "object": "行为树数据",
+      "context": "黑板是行为树各节点间共享数据的关键组件，理解其使用对掌握行为树至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:07:46.638Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12807 字符)",
+      "timestamp": "2025-06-15T21:06:57.644Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19539,
+    "contentLength": 12807,
+    "processingTimeMs": 49003
+  }
+}

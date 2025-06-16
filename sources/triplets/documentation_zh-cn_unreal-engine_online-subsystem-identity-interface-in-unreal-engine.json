@@ -1,0 +1,157 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_online-subsystem-identity-interface-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_online-subsystem-identity-interface-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "身份接口",
+      "predicate": "处理",
+      "object": "服务账户交互",
+      "context": "身份接口负责处理与第三方在线服务账户相关的交互，包括验证和获取访问令牌",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "身份接口",
+      "predicate": "提供",
+      "object": "验证功能",
+      "context": "身份接口提供验证使用者的功能，帮助开发者实现用户登录验证",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Login函数",
+      "predicate": "属于",
+      "object": "身份接口",
+      "context": "Login函数是身份接口的一部分，用于处理用户登录操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Login函数",
+      "predicate": "调用",
+      "object": "FOnLoginCompleteDelegate",
+      "context": "Login函数在登录尝试完成后会调用FOnLoginCompleteDelegate，通知登录结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AutoLogin",
+      "predicate": "替代",
+      "object": "Login",
+      "context": "AutoLogin可以替代Login函数，自动生成账户登录信息",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "外部UI接口",
+      "predicate": "用于",
+      "object": "手动登录",
+      "context": "当Login调用失败时，外部UI接口可用于通过在线服务的UI手动登录",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Logout函数",
+      "predicate": "属于",
+      "object": "身份接口",
+      "context": "Logout函数是身份接口的一部分，用于处理用户登出操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetLoginStatus",
+      "predicate": "检查",
+      "object": "登录状态",
+      "context": "GetLoginStatus函数用于检查本地玩家的当前登录状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FUniqueNetId",
+      "predicate": "关联",
+      "object": "本地玩家",
+      "context": "FUniqueNetId在登录成功后自动与本地玩家关联，用于标识玩家身份",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FUniqueNetIdRepl",
+      "predicate": "转换",
+      "object": "FUniqueNetId",
+      "context": "FUniqueNetIdRepl可以将FUniqueNetId转换为字符串以便复制，并可以转换回来",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FOnlineUser",
+      "predicate": "代表",
+      "object": "用户账户信息",
+      "context": "FOnlineUser类代表在线子系统相关用户账户的基础信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FUserOnlineAccount",
+      "predicate": "扩展",
+      "object": "FOnlineUser",
+      "context": "FUserOnlineAccount是FOnlineUser的扩展，提供更多本地已登录用户的信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetDisplayName",
+      "predicate": "获取",
+      "object": "玩家显示名",
+      "context": "GetDisplayName用于从本地缓存的用户账户数据中获取玩家的显示名",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetUserPrivilege",
+      "predicate": "检查",
+      "object": "用户权限",
+      "context": "GetUserPrivilege函数用于检查用户是否拥有特定在线权限",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EUserPrivileges",
+      "predicate": "定义",
+      "object": "用户权限类型",
+      "context": "EUserPrivileges定义了用户可能拥有的各种权限类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EPrivilegeResults",
+      "predicate": "表示",
+      "object": "权限检查结果",
+      "context": "EPrivilegeResults表示GetUserPrivilege函数返回的权限检查结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "身份接口",
+      "predicate": "依赖",
+      "object": "在线服务",
+      "context": "身份接口的功能实现依赖于第三方在线服务",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FOnLoginStatusChangedDelegate",
+      "predicate": "响应",
+      "object": "登录状态变化",
+      "context": "FOnLoginStatusChangedDelegate在用户登录状态发生变化时被调用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:09:29.408Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8974,
+    "contentLength": 5512,
+    "processingTimeMs": 50048
+  }
+}

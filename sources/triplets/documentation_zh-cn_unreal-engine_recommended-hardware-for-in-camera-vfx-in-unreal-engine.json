@@ -1,0 +1,157 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_recommended-hardware-for-in-camera-vfx-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_recommended-hardware-for-in-camera-vfx-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎ICVFX",
+      "predicate": "需要",
+      "object": "多台电脑通信",
+      "context": "ICVFX需要多台电脑协同工作以实现镜头内视效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎ICVFX",
+      "predicate": "控制",
+      "object": "LED摄影棚显示内容",
+      "context": "ICVFX需要控制LED摄影棚中的显示内容以实现视效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LED处理器",
+      "predicate": "接收同步",
+      "object": "外部同步锁定源或显卡视频信号",
+      "context": "LED处理器可以通过外部同步锁定源或显卡传入的视频信号来接收同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工作站",
+      "predicate": "需要",
+      "object": "充足内存、硬盘和图形硬件",
+      "context": "工作站需要充足的内存、硬盘和图形硬件以支持ICVFX",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多GPU支持",
+      "predicate": "依赖",
+      "object": "NVLink",
+      "context": "多GPU支持功能需要NVLink来连接显卡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CPU",
+      "predicate": "优先考虑",
+      "object": "时钟速度",
+      "context": "在ICVFX中，CPU的时钟速度比核心数量更重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内存",
+      "predicate": "推荐",
+      "object": "64GB DDR-4",
+      "context": "大多数ICVFX案例推荐使用64GB DDR-4内存",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "美术师工作站",
+      "predicate": "推荐",
+      "object": "NVIDIA RTX系列显卡",
+      "context": "美术师工作站推荐使用专业级NVIDIA RTX系列显卡以支持高级渲染功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染节点",
+      "predicate": "需要",
+      "object": "NVIDIA Quadro Sync",
+      "context": "渲染节点需要NVIDIA Quadro Sync来同步LED摄影棚中不同显示屏的内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "实时绿幕合成",
+      "predicate": "需要",
+      "object": "SDI视频卡",
+      "context": "实时绿幕合成需要SDI视频卡来处理摄像机输入、合成输出和时间码同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "存储",
+      "predicate": "推荐",
+      "object": "M.2固态硬盘",
+      "context": "推荐使用M.2固态硬盘作为高速本地存储以提升性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "存储网卡",
+      "predicate": "推荐",
+      "object": "10千兆以太网NIC",
+      "context": "推荐使用10千兆以太网NIC以保证高速数据传输",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络交换机",
+      "predicate": "推荐",
+      "object": "10 GbE Layer 2或Layer 3",
+      "context": "推荐使用10 GbE Layer 2或Layer 3类型的网络交换机以满足ICVFX需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "同步信号发生器",
+      "predicate": "用于",
+      "object": "同步锁定信号分发",
+      "context": "同步信号发生器用于将有线或无线同步锁定信号分发到多个设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视频分配放大器",
+      "predicate": "用于",
+      "object": "同步锁定信号分发",
+      "context": "视频分配放大器用于将同步锁定信号分发到多个通道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NVIDIA Quadro Sync",
+      "predicate": "兼容",
+      "object": "特定NVIDIA显卡",
+      "context": "NVIDIA Quadro Sync需要与特定NVIDIA显卡兼容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多GPU支持",
+      "predicate": "需要",
+      "object": "NVLINK",
+      "context": "多GPU支持功能需要所有显卡支持NVLINK",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工作站",
+      "predicate": "推荐",
+      "object": "R512.59或更高版本驱动程序",
+      "context": "使用多个GPU的工作站推荐使用R512.59或更高版本的驱动程序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:33:46.554Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9399,
+    "contentLength": 6501,
+    "processingTimeMs": 74925
+  }
+}

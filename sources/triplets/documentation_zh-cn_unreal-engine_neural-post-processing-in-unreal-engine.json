@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_neural-post-processing-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_neural-post-processing-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "神经后期处理",
+      "predicate": "依赖",
+      "object": "Neural Rendering插件",
+      "context": "神经后期处理功能需要先启用Neural Rendering插件才能使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "神经后期处理",
+      "predicate": "使用",
+      "object": "后期处理材质",
+      "context": "神经后期处理通过在后期处理管线中使用特殊的后期处理材质来实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理材质",
+      "predicate": "包含",
+      "object": "Neural Input节点",
+      "context": "后期处理材质需要使用Neural Input节点来准备神经网络的输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理材质",
+      "predicate": "包含",
+      "object": "Neural Output节点",
+      "context": "后期处理材质需要使用Neural Output节点来获取神经网络的输出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "神经后期处理",
+      "predicate": "基于",
+      "object": "ONNX模型",
+      "context": "神经后期处理需要使用ONNX格式的神经网络模型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "神经配置资产",
+      "predicate": "绑定",
+      "object": "ONNX模型",
+      "context": "神经配置资产用于与ONNX模型进行绑定，指定运行时参数",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "神经配置资产",
+      "predicate": "控制",
+      "object": "图块设置",
+      "context": "神经配置资产中可以设置图块大小、边界重叠等参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "神经后期处理",
+      "predicate": "支持",
+      "object": "NNERuntimeORTDml",
+      "context": "神经后期处理支持使用DirectML作为后端的NNERuntimeORTDml运行时",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "神经后期处理",
+      "predicate": "支持",
+      "object": "NNERuntimeRDGHlsl",
+      "context": "神经后期处理支持使用优化卷积运算的NNERuntimeRDGHlsl运行时",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "神经后期处理",
+      "predicate": "应用于",
+      "object": "风格转换",
+      "context": "神经后期处理可以用于实现快速风格转换等应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "神经后期处理",
+      "predicate": "应用于",
+      "object": "神经色调映射",
+      "context": "神经后期处理可以用于实现神经色调映射",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "神经后期处理",
+      "predicate": "应用于",
+      "object": "图像分割",
+      "context": "神经后期处理可以用于实现图像分割",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图块设置",
+      "predicate": "影响",
+      "object": "渲染性能",
+      "context": "图块设置会影响神经后期处理的渲染性能，更多的图块会增加细节但可能造成较高开销",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "缓冲区索引模式",
+      "predicate": "提供",
+      "object": "尺寸灵活性",
+      "context": "缓冲区索引模式提供了对任意尺寸ONNX模型的支持，增加了使用的灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质编辑器",
+      "predicate": "用于",
+      "object": "预处理数据",
+      "context": "材质编辑器可以用于对输入数据进行预处理，如调整值范围等",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:07:03.372Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8778 字符)",
+      "timestamp": "2025-06-15T20:06:17.033Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13801,
+    "contentLength": 8778,
+    "processingTimeMs": 46350
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_water-body-actors-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_water-body-actors-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "水体Actor",
+      "predicate": "包含",
+      "object": "水网格体Actor",
+      "context": "水体由水网格体Actor管理，决定了水体的质量和属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水体Actor",
+      "predicate": "控制",
+      "object": "波浪运动",
+      "context": "水体决定波浪运动效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水体Actor",
+      "predicate": "控制",
+      "object": "水面阴影",
+      "context": "水体决定水面阴影效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水体Actor",
+      "predicate": "包含",
+      "object": "水下后处理效果",
+      "context": "水体包含水下后处理效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水体Actor",
+      "predicate": "包含",
+      "object": "深度和流量信息",
+      "context": "水体包含深度和流量信息，可用于游戏效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水体Actor",
+      "predicate": "协同运作",
+      "object": "地形地貌",
+      "context": "水体自动与地形地貌协同运作，使用地貌笔刷刻画地形",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水体Actor",
+      "predicate": "包含",
+      "object": "水下后期处理",
+      "context": "水体包含水下后期处理，当镜头移动到水面以下时进行处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "海洋水体",
+      "predicate": "属于",
+      "object": "水体Actor",
+      "context": "海洋水体是水体Actor的一种类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "湖泊水体",
+      "predicate": "属于",
+      "object": "水体Actor",
+      "context": "湖泊水体是水体Actor的一种类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "河流水体",
+      "predicate": "属于",
+      "object": "水体Actor",
+      "context": "河流水体是水体Actor的一种类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义水体",
+      "predicate": "属于",
+      "object": "水体Actor",
+      "context": "自定义水体是水体Actor的一种类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "岛屿水体",
+      "predicate": "属于",
+      "object": "水体Actor",
+      "context": "岛屿水体是水体Actor的一种类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "排出用体积",
+      "predicate": "属于",
+      "object": "水体Actor",
+      "context": "排出用体积是水体Actor的一种类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水区Actor",
+      "predicate": "支持",
+      "object": "远距离网格体",
+      "context": "水区Actor提供使用简化的网格体和水材质填充空缺的选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "河流水体",
+      "predicate": "连接",
+      "object": "其他水体",
+      "context": "河流水体充当其他水体之间的连接",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义水体",
+      "predicate": "使用",
+      "object": "静态网格体",
+      "context": "自定义水体使用静态网格体来定义形状",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "岛屿水体",
+      "predicate": "影响",
+      "object": "水下地形",
+      "context": "岛屿水体用于在已定义的样条区域内升高地形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水体属性",
+      "predicate": "包含",
+      "object": "选定点",
+      "context": "水体属性包含选定点类别，可以循环遍历当前选定的水体样条线点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水体属性",
+      "predicate": "包含",
+      "object": "水",
+      "context": "水体属性包含水类别，提供有关选定水体的信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水体属性",
+      "predicate": "包含",
+      "object": "地貌",
+      "context": "水体属性包含地貌类别，更改水体如何切割水周围地貌",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水体属性",
+      "predicate": "包含",
+      "object": "波浪",
+      "context": "水体属性包含波浪分段，定义选定水体的波浪",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水体属性",
+      "predicate": "包含",
+      "object": "渲染",
+      "context": "水体属性包含渲染类别，是所有材质应用于水体的地方",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水体排除体积",
+      "predicate": "用于",
+      "object": "创建空腔",
+      "context": "水体排除体积用于在任意种类的水体中创建空腔",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:31:38.871Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (22352 字符)",
+      "timestamp": "2025-06-15T21:30:43.320Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 37720,
+    "contentLength": 22352,
+    "processingTimeMs": 55558
+  }
+}

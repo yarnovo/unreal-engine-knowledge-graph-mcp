@@ -1,0 +1,157 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_gameplay-ability-system-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_gameplay-ability-system-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Gameplay技能系统",
+      "predicate": "用于",
+      "object": "Actor",
+      "context": "Gameplay技能系统是用于编译Actor可以拥有和触发的属性、技能和交互的框架",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay技能系统",
+      "predicate": "适用于",
+      "object": "角色扮演游戏",
+      "context": "该系统可适应角色扮演游戏等多种游戏类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay技能系统",
+      "predicate": "适用于",
+      "object": "动作冒险游戏",
+      "context": "该系统可适应动作冒险游戏等多种游戏类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay技能系统",
+      "predicate": "适用于",
+      "object": "多玩家在线战术竞技游戏",
+      "context": "该系统可适应多玩家在线战术竞技游戏等多种游戏类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay技能系统",
+      "predicate": "包含",
+      "object": "技能系统组件",
+      "context": "使用Gameplay技能系统需要技能系统组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "技能系统组件",
+      "predicate": "实现",
+      "object": "Actor组件",
+      "context": "技能系统组件包括Actor组件实现的所有基础功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "技能系统组件",
+      "predicate": "实现",
+      "object": "接口",
+      "context": "技能系统组件实现了自己的接口，以访问Gameplay技能系统的框架并与之交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay技能",
+      "predicate": "协作",
+      "object": "视觉效果",
+      "context": "Gameplay技能可以与项目的视觉效果协作",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay技能",
+      "predicate": "协作",
+      "object": "动画",
+      "context": "Gameplay技能可以与项目的动画协作",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay技能",
+      "predicate": "协作",
+      "object": "声音",
+      "context": "Gameplay技能可以与项目的声音协作",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay技能系统",
+      "predicate": "使用",
+      "object": "属性和属性集",
+      "context": "Gameplay技能系统使用属性和属性集来存储、计算和修改Gameplay相关值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay效果",
+      "predicate": "修改",
+      "object": "属性",
+      "context": "Gameplay效果用于更改属性，通过项目的设计直接修改属性值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay效果",
+      "predicate": "包含",
+      "object": "Gameplay效果组件",
+      "context": "Gameplay效果包含可确定Gameplay效果行为的Gameplay效果组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "技能任务",
+      "predicate": "是",
+      "object": "Gameplay任务类",
+      "context": "技能任务是处理Gameplay技能的一种专门形式的Gameplay任务类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "技能任务",
+      "predicate": "执行",
+      "object": "异步工作",
+      "context": "技能任务在Gameplay技能执行期间执行异步工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "技能任务",
+      "predicate": "调用",
+      "object": "委托",
+      "context": "技能任务能够在原生C++代码中调用委托",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "技能任务",
+      "predicate": "影响",
+      "object": "执行流程",
+      "context": "技能任务能够像蓝图那样在一个或多个输出执行引脚中移动来影响执行流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "遗迹峡谷示例",
+      "predicate": "展示",
+      "object": "Gameplay技能",
+      "context": "遗迹峡谷示例中的Echo的冲锋和攻击动画及其行走动画是Gameplay技能的示例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:09:38.750Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6538,
+    "contentLength": 5078,
+    "processingTimeMs": 49386
+  }
+}

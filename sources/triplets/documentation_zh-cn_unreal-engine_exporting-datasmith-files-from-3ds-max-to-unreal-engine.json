@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_exporting-datasmith-files-from-3ds-max-to-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_exporting-datasmith-files-from-3ds-max-to-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "3ds Max",
+      "predicate": "导出",
+      "object": ".udatasmith文件",
+      "context": "3ds Max可以将场景或特定内容导出为.udatasmith文件，这是导入虚幻引擎的前提步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导入器插件",
+      "predicate": "启用",
+      "object": "虚幻引擎项目",
+      "context": "要在虚幻引擎中导入.udatasmith文件，必须先在项目中启用Datasmith导入器插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": ".udatasmith文件",
+      "predicate": "导入",
+      "object": "虚幻引擎",
+      "context": ".udatasmith文件是3ds Max与虚幻引擎之间的桥梁文件格式，用于内容传输",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "处理",
+      "object": "动画变换",
+      "context": "Datasmith可以处理3ds Max中的动画变换数据，并将其转换为虚幻引擎的关卡序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画变换",
+      "predicate": "转换为",
+      "object": "关卡序列",
+      "context": "3ds Max中的动画数据通过Datasmith导入后会转换为虚幻引擎的关卡序列格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "限制纹理分辨率",
+      "predicate": "控制",
+      "object": "程序性纹理",
+      "context": "该设置专门用于控制Datasmith将程序性纹理烘焙为图片时的最大分辨率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导出XRef场景",
+      "predicate": "包含",
+      "object": "外部引用场景",
+      "context": "该设置决定是否在导出文件中包含从其他MAX文件引用的XRef场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith选项卡",
+      "predicate": "包含",
+      "object": "文件导出面板",
+      "context": "3ds Max中的Datasmith选项卡包含文件导出面板，这是配置导出设置的主要界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith选项卡",
+      "predicate": "包含",
+      "object": "设置面板",
+      "context": "3ds Max中的Datasmith选项卡包含设置面板，用于配置高级导出选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Twinmotion",
+      "predicate": "兼容",
+      "object": ".udatasmith文件",
+      "context": "基于虚幻引擎的应用程序如Twinmotion也可以使用.udatasmith文件作为输入",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "活跃时间片段",
+      "predicate": "对应",
+      "object": "3ds Max时间轴",
+      "context": "该动画导出选项与3ds Max时间轴的工作范围直接相关",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "栅格纹理",
+      "predicate": "不受影响",
+      "object": "限制纹理分辨率",
+      "context": "限制纹理分辨率设置专门针对程序性纹理，不会影响已有的栅格纹理文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:01:44.978Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5642,
+    "contentLength": 3764,
+    "processingTimeMs": 47849
+  }
+}

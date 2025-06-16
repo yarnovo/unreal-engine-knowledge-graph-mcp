@@ -1,0 +1,147 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_pose-driver-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_pose-driver-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "姿势驱动器",
+      "predicate": "属于",
+      "object": "动画蓝图",
+      "context": "姿势驱动器是动画蓝图中的一个节点，用于驱动姿势资产或动画曲线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势驱动器",
+      "predicate": "驱动",
+      "object": "姿势资产",
+      "context": "姿势驱动器节点用于驱动姿势资产中包含的姿势来为角色添加动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势驱动器",
+      "predicate": "驱动",
+      "object": "动画曲线",
+      "context": "姿势驱动器节点也可以使用动画曲线来驱动姿势目标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势驱动器",
+      "predicate": "使用",
+      "object": "源骨骼",
+      "context": "姿势驱动器通过源骨骼的动作数据来控制姿势资产的行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势驱动器",
+      "predicate": "包含",
+      "object": "姿势目标",
+      "context": "姿势目标属性用于指定姿势驱动器节点中的目标骨骼网格体姿势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势目标",
+      "predicate": "来源于",
+      "object": "姿势资产",
+      "context": "姿势目标可以从姿势资产中复制或手动输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势目标",
+      "predicate": "来源于",
+      "object": "动画曲线",
+      "context": "姿势目标也可以由动画曲线驱动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势驱动器",
+      "predicate": "支持",
+      "object": "解算器类型",
+      "context": "姿势驱动器支持叠加型和插值型两种解算器类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势驱动器",
+      "predicate": "支持",
+      "object": "混合函数",
+      "context": "姿势驱动器支持多种混合函数，如高斯、指数、线性等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势驱动器",
+      "predicate": "支持",
+      "object": "距离方法",
+      "context": "姿势驱动器支持多种距离方法，如欧几里得、四元数、摇摆角等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势驱动器",
+      "predicate": "支持",
+      "object": "归一化方式",
+      "context": "姿势驱动器支持多种归一化方式，如仅归一化超过1、总是归一化等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势驱动器",
+      "predicate": "支持",
+      "object": "调试设置",
+      "context": "姿势驱动器提供调试设置，如轴长度、锥体细分等，用于调试绘图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势驱动器",
+      "predicate": "替代",
+      "object": "姿势混合器",
+      "context": "姿势驱动器节点用于驱动姿势资产，而姿势混合器节点用于在已有的动画姿势之间混合姿势资产",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "姿势驱动器",
+      "predicate": "替代",
+      "object": "Pose by Name",
+      "context": "姿势驱动器节点用于驱动姿势资产，而Pose by Name节点用于在已有的动画姿势之间混合姿势资产",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "姿势驱动器",
+      "predicate": "依赖",
+      "object": "骨架",
+      "context": "姿势驱动器需要从角色的骨架中选择源骨骼来计算变换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势驱动器",
+      "predicate": "依赖",
+      "object": "参考姿势",
+      "context": "姿势驱动器可以使用参考姿势来计算源骨骼方向和变换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:26:39.143Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9075 字符)",
+      "timestamp": "2025-06-15T20:25:44.962Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15439,
+    "contentLength": 9075,
+    "processingTimeMs": 54193
+  }
+}

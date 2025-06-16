@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_horde-unreal-build-accelerator-and-remote-compilation-tutorial-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_horde-unreal-build-accelerator-and-remote-compilation-tutorial-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Horde",
+      "predicate": "实现",
+      "object": "远程执行平台",
+      "context": "Horde是一个面向泛型远程执行工作负载的平台，允许客户端利用其他机器上的空闲CPU周期来加速原本在本地执行的工作负载。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻构建加速器(UBA)",
+      "predicate": "属于",
+      "object": "Horde",
+      "context": "UBA是Horde中随附的一款工具，为第三方程序（如C++编译器）实现了轻量级虚拟化，使其能够在远程计算机上运行。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻构建加速器(UBA)",
+      "predicate": "支持",
+      "object": "远程编译",
+      "context": "UBA为第三方程序（如C++编译器）实现了轻量级虚拟化，使其能够在远程计算机上运行。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编译工具(UBT)",
+      "predicate": "使用",
+      "object": "UBA和Horde",
+      "context": "UBT可以使用UBA和Horde将构建任务分担给连接的代理，将工作量分摊到多台计算机上。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UBA",
+      "predicate": "支持",
+      "object": "Windows",
+      "context": "UBA仅在虚幻引擎5.5中才支持Windows。计划在未来的版本中支持Mac和Linux。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde服务器",
+      "predicate": "需要",
+      "object": "Horde代理",
+      "context": "使用Horde需要Horde服务器和一个或多个Horde代理。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildConfiguration.xml",
+      "predicate": "配置",
+      "object": "UnrealBuildTool",
+      "context": "通过更新BuildConfiguration.xml文件可以配置UnrealBuildTool以使用Horde服务器。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "支持",
+      "object": "匿名身份验证",
+      "context": "使用匿名身份验证模式时，无需身份验证，每个用户都拥有执行远程编译的完全访问权限。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "支持",
+      "object": "Horde身份验证",
+      "context": "Horde还支持Horde或OpenIdConnect身份验证模式，需要额外的权限配置。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UBA",
+      "predicate": "依赖",
+      "object": "Horde服务器",
+      "context": "UBA需要通过Horde服务器来调度远程编译任务。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde代理",
+      "predicate": "执行",
+      "object": "远程编译任务",
+      "context": "Horde代理负责执行由Horde服务器分配的远程编译任务。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UBA查看器",
+      "predicate": "用于",
+      "object": "监控构建进度",
+      "context": "UBA查看器可以显示关于多台机器上构建进度的图形概览。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE_HORDE_TOKEN",
+      "predicate": "用于",
+      "object": "身份验证",
+      "context": "利用远程编译的Horde作业会通过注入UE_HORDE_TOKEN环境变量自动获得访问权限。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:22:19.793Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6695,
+    "contentLength": 4621,
+    "processingTimeMs": 46950
+  }
+}

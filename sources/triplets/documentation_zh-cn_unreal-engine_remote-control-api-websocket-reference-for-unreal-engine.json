@@ -1,0 +1,99 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_remote-control-api-websocket-reference-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_remote-control-api-websocket-reference-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "远程控制API",
+      "predicate": "支持",
+      "object": "WebSocket通信",
+      "context": "远程控制API通过WebSocket协议实现与外部应用的实时通信，这是学习远程控制功能的基础技术栈",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "WebSocket消息",
+      "predicate": "包含",
+      "object": "HTTP消息类型",
+      "context": "HTTP消息类型是WebSocket消息的子类型，用于通过WebSocket调用HTTP路由，理解这种嵌套关系有助于掌握消息体系结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WebSocket消息",
+      "predicate": "包含",
+      "object": "Preset.Register消息类型",
+      "context": "Preset.Register是WebSocket的核心消息类型之一，用于订阅预设事件，这对理解事件驱动编程模式很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制预设",
+      "predicate": "生成",
+      "object": "PresetFieldsChanged事件",
+      "context": "当预设属性被修改时触发该事件，这是理解属性监控机制的关键关联",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "配置",
+      "object": "WebSocket服务器端口",
+      "context": "端口配置是建立WebSocket连接的前提条件，这种配置关系对实际部署很重要",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "JavaScript客户端",
+      "predicate": "调用",
+      "object": "Preset.Register消息",
+      "context": "示例代码展示了前端如何通过WebSocket与引擎交互，这对全栈开发学习有实践价值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制API",
+      "predicate": "关联",
+      "object": "远程控制API HTTP参考",
+      "context": "WebSocket的HTTP消息类型需要配合HTTP参考文档使用，这种跨文档关联对完整理解API很重要",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Preset.Register",
+      "predicate": "对立",
+      "object": "Preset.Unregister",
+      "context": "这对消息类型展示了订阅/取消订阅的对称操作模式，有助于理解资源管理机制",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "预设事件系统",
+      "predicate": "包含",
+      "object": "字段变更事件类型",
+      "context": "PresetFieldsChanged/Added/Removed/Renamed构成完整的事件体系，这对理解状态监控很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WebSocket连接",
+      "predicate": "依赖",
+      "object": "端口配置",
+      "context": "成功的WebSocket连接依赖于正确的端口设置，这种依赖关系对故障排查很重要",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T20:35:45.602Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8366 字符)",
+      "timestamp": "2025-06-15T20:35:10.498Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 10374,
+    "contentLength": 8366,
+    "processingTimeMs": 35113
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-engine-5-migration-guide",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-engine-5-migration-guide.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎5",
+      "predicate": "升级自",
+      "object": "虚幻引擎4",
+      "context": "UE5在UE4的基础上引入了一系列改动、升级和新功能，帮助学习者理解引擎的演进关系",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "虚幻引擎5",
+      "predicate": "引入",
+      "object": "Nanite",
+      "context": "Nanite是UE5引入的核心新技术之一，用于虚拟几何体系统",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "虚幻引擎5",
+      "predicate": "引入",
+      "object": "Lumen",
+      "context": "Lumen是UE5的动态全局光照系统，取代了多个旧版光照技术",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "虚幻引擎5",
+      "predicate": "引入",
+      "object": "Chaos Physics",
+      "context": "Chaos Physics取代PhysX成为默认物理引擎，学习者需要了解物理系统的变化",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Lumen",
+      "predicate": "取代",
+      "object": "光线传播体积",
+      "context": "Lumen提供了比光线传播体积更好的动态全局光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen",
+      "predicate": "取代",
+      "object": "距离场全局光照",
+      "context": "Lumen成为动态全局光照的推荐解决方案，DFGI是实验性功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos Physics",
+      "predicate": "替代",
+      "object": "PhysX",
+      "context": "Chaos成为默认物理引擎，PhysX将在后续版本中移除",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区",
+      "predicate": "取代",
+      "object": "世界合成",
+      "context": "世界分区是UE5处理大型场景的新系统，世界合成已被废弃",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara",
+      "predicate": "取代",
+      "object": "Cascade",
+      "context": "Cascade粒子系统被废弃，Niagara成为推荐的粒子系统解决方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSounds",
+      "predicate": "取代",
+      "object": "Sound Cues",
+      "context": "音频系统中Sound Cues将被MetaSounds取代",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "虚幻引擎5",
+      "predicate": "要求",
+      "object": "Visual Studio 2019",
+      "context": "UE5开发需要升级到VS2019，不再支持旧版本",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "虚幻引擎5",
+      "predicate": "不再支持",
+      "object": "32位平台",
+      "context": "UE5放弃对32位平台的支持，影响目标平台选择",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "TObjectPtr",
+      "predicate": "替代",
+      "object": "原始对象指针",
+      "context": "UE5引入TObjectPtr系统替代编辑器版本中的原始对象指针",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染队列",
+      "predicate": "取代",
+      "object": "影片场景捕获",
+      "context": "影片渲染队列成为新的影片渲染解决方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头录制器",
+      "predicate": "取代",
+      "object": "Sequence录制器",
+      "context": "镜头录制器包含Sequence录制器的所有功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "取代",
+      "object": "统计系统",
+      "context": "Unreal Insights将成为新的性能分析工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Zen Loader",
+      "predicate": "取代",
+      "object": "事件驱动加载器",
+      "context": "Zen Loader成为新的资源加载系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Nanite",
+      "predicate": "取消",
+      "object": "硬件曲面细分",
+      "context": "Nanite的引入使得硬件曲面细分变得不必要",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "虚幻引擎5",
+      "predicate": "删除",
+      "object": "老版色调映射器",
+      "context": "UE4中已废弃的老版色调映射器在UE5中被完全移除",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎5",
+      "predicate": "废弃",
+      "object": "Matinee",
+      "context": "Matinee被Sequencer完全取代，帮助学习者了解动画工具的变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:07:49.822Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (16693 字符)",
+      "timestamp": "2025-06-15T21:06:57.638Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 28791,
+    "contentLength": 16693,
+    "processingTimeMs": 52187
+  }
+}

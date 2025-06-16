@@ -1,0 +1,283 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-google-play-asset-delivery-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-google-play-asset-delivery-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Google Play Asset Delivery",
+      "predicate": "是",
+      "object": "Google Play商店的解决方案",
+      "context": "Google PAD是Google Play商店用于将资产包安装到设备后交付给应用程序的解决方案",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Google Play Asset Delivery",
+      "predicate": "设计为与",
+      "object": "Android App Bundle",
+      "context": "Google PAD设计为与Android App Bundle发布格式一起使用",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Android App Bundle",
+      "predicate": "处理",
+      "object": "初始安装的代码和二进制文件",
+      "context": "App Bundle为最终用户发布自定义.apk，处理初始安装的代码和二进制文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Google Play Asset Delivery",
+      "predicate": "独立提供",
+      "object": "大型资产文件",
+      "context": "Play Asset Delivery系统独立于.apk提供模型、纹理、声音、着色器和其他大型资产文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "Google Play Asset Delivery",
+      "context": "虚幻引擎4.25及更高版本支持通过插件集成Google PAD",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "GooglePAD插件",
+      "predicate": "提供",
+      "object": "UGooglePADFunctionLibrary",
+      "context": "GooglePAD插件提供了一个函数库UGooglePADFunctionLibrary，用于管理下载以及从Play Asset交付系统请求信息",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "UGooglePADFunctionLibrary",
+      "predicate": "支持",
+      "object": "C++和蓝图",
+      "context": "UGooglePADFunctionLibrary在C++和蓝图中均可用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GooglePAD插件",
+      "predicate": "需要",
+      "object": "Android App Bundle打包格式",
+      "context": "要使用GooglePAD插件，必须使用Android App Bundle为打包格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产包",
+      "predicate": "封装在",
+      "object": "Android App Bundle构建中",
+      "context": "Google PAD的资产包封装在Android App Bundle构建中，并在上传时由Google Play商店管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据块",
+      "predicate": "是",
+      "object": "虚幻引擎用于整理外部资产的格式",
+      "context": "数据块是虚幻引擎用于整理外部资产的格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据块0",
+      "predicate": "代表",
+      "object": "游戏的基础安装",
+      "context": "数据块0代表游戏的基础安装",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "其他数据块",
+      "predicate": "包含",
+      "object": ".pak文件",
+      "context": "所有其他数据块都是.pak文件，其中包含游戏主安装之外的资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Google Play Asset Delivery",
+      "predicate": "支持",
+      "object": "三种交付模式",
+      "context": "Google Play Asset Delivery支持安装时间、快速跟进和按需三种资产包交付模式",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "安装时间资产包",
+      "predicate": "文件大小限制",
+      "object": "1 GB",
+      "context": "安装时间资产包的文件大小限制为1 GB",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "快速跟进资产包",
+      "predicate": "文件大小限制",
+      "object": "512 MB",
+      "context": "快速跟进资产包的文件大小限制为512 MB",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "按需资产包",
+      "predicate": "文件大小限制",
+      "object": "512 MB",
+      "context": "按需资产包的文件大小限制为512 MB",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "每个应用程序",
+      "predicate": "可创建",
+      "object": "最多50个资产包",
+      "context": "每个应用程序总共可以创建50个资产包",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "生成块",
+      "predicate": "需要在",
+      "object": "项目设置中启用",
+      "context": "要创建数据块，需要在项目设置中启用生成块选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产管理器",
+      "predicate": "用于",
+      "object": "将资产整理为数据块",
+      "context": "可以使用资产管理器或主要资产标签将资产整理为数据块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "打包项目",
+      "predicate": "输出",
+      "object": ".pak文件",
+      "context": "打包项目会将数据块输出为.pak文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "快速跟进资产包",
+      "predicate": "必须放在",
+      "object": "fast-follow子文件夹",
+      "context": "快速跟进资产包必须放在Build/Android/gradle/assetpacks/fast-follow/[assetpackname]/src/main/assets",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "按需资产包",
+      "predicate": "必须放在",
+      "object": "on-demand子文件夹",
+      "context": "按需资产包必须放在Build/Android/gradle/assetpacks/on-demand/[assetpackname]/src/main/assets",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产包",
+      "predicate": "需要",
+      "object": "build.gradle文件",
+      "context": "每个资产包文件夹中需要添加build.gradle文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGooglePADFunctionLibrary",
+      "predicate": "包含",
+      "object": "GetAssetPackLocation函数",
+      "context": "UGooglePADFunctionLibrary包含GetAssetPackLocation函数，用于获取已下载资产包的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetAssetPackLocation",
+      "predicate": "返回",
+      "object": "EGooglePADErrorCode",
+      "context": "GetAssetPackLocation函数返回EGooglePADErrorCode，提示操作是否成功",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EGooglePADErrorCode",
+      "predicate": "包含",
+      "object": "多种错误状态",
+      "context": "EGooglePADErrorCode包含多种错误状态，如AssetPack_NO_ERROR、AssetPack_APP_UNAVAILABLE等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetAssetsPath",
+      "predicate": "输出",
+      "object": "资产包资产路径",
+      "context": "调用GetAssetsPath并提供位置句柄，将输出带有所需资产包资产路径的字符串",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetStorageMethod",
+      "predicate": "输出",
+      "object": "EGooglePADStorageMethod",
+      "context": "GetStorageMethod将输出EGooglePADStorageMethod，指示资产包存储在用户设备上的方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RequestDownload",
+      "predicate": "用于",
+      "object": "启动资产包下载",
+      "context": "RequestDownload函数用于启动资产包下载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetDownloadState",
+      "predicate": "用于",
+      "object": "缓存资产包的下载状态",
+      "context": "GetDownloadState将在本地缓存资产包的下载状态，并返回提供缓存信息访问权限的下载句柄",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetDownloadStatus",
+      "predicate": "返回",
+      "object": "EGooglePADDownloadStatus",
+      "context": "GetDownloadStatus返回EGooglePADDownloadStatus，表示下载的不同状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EGooglePADDownloadStatus",
+      "predicate": "包含",
+      "object": "多种下载状态",
+      "context": "EGooglePADDownloadStatus包含多种状态，如AssetPack_DOWNLOADING、AssetPack_DOWNLOAD_COMPLETED等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Google Play Asset Delivery",
+      "predicate": "推荐实现",
+      "object": "状态循环模型",
+      "context": "Google PAD API的实现可以建模成不同状态的循环，每个状态对应一个下载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:18:39.791Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13475 字符)",
+      "timestamp": "2025-06-15T21:17:05.433Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 20925,
+    "contentLength": 13475,
+    "processingTimeMs": 94362
+  }
+}

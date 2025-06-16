@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_fix-foot-sliding-with-ik-retargeter-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_fix-foot-sliding-with-ik-retargeter-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "IK重定向器",
+      "predicate": "用于",
+      "object": "修正滑步",
+      "context": "IK重定向器是解决动画重定向过程中出现滑步问题的核心工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "快速栽植",
+      "predicate": "实现",
+      "object": "修正滑步",
+      "context": "快速栽植工作流程通过固定IK目标位置来解决滑步问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画曲线",
+      "predicate": "用于",
+      "object": "快速栽植",
+      "context": "动画曲线定义了足部骨骼速度，是快速栽植判断踏点的依据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画数据修饰符",
+      "predicate": "生成",
+      "object": "动画曲线",
+      "context": "动画数据修饰符用于自动生成足部骨骼速度曲线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全身IK解算器",
+      "predicate": "用于",
+      "object": "IK Rig设置",
+      "context": "全身IK解算器是IK Rig中用于控制腿部骨骼的主要解算器类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK目标",
+      "predicate": "属于",
+      "object": "全身IK解算器",
+      "context": "IK目标是全身IK解算器控制的具体骨骼目标点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼设置",
+      "predicate": "调整",
+      "object": "全身IK解算器",
+      "context": "骨骼设置可以调整全身IK解算器的行为，如偏好角度、刚度等参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "速度阈值",
+      "predicate": "控制",
+      "object": "快速栽植",
+      "context": "速度阈值决定了快速栽植何时激活固定足部",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画序列",
+      "predicate": "包含",
+      "object": "动画曲线",
+      "context": "动画曲线存储在动画序列中，记录骨骼运动数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架",
+      "predicate": "关联",
+      "object": "动画曲线",
+      "context": "动画曲线需要绑定到骨架的特定骨骼上",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK Rig",
+      "predicate": "依赖",
+      "object": "骨架",
+      "context": "IK Rig基于角色的骨架结构进行设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动提取器修饰符",
+      "predicate": "属于",
+      "object": "动画数据修饰符",
+      "context": "运动提取器是一种特定类型的动画数据修饰符",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "曲线编辑器",
+      "predicate": "用于",
+      "object": "查看动画曲线",
+      "context": "曲线编辑器可以详细查看和分析生成的动画曲线数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重定向动画",
+      "predicate": "依赖",
+      "object": "源动画设置",
+      "context": "正确的重定向结果需要先在源动画中设置好足部速度曲线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "腿长差异",
+      "predicate": "导致",
+      "object": "滑步问题",
+      "context": "源角色和目标角色腿长差异是造成滑步的主要原因",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:06:20.018Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11589,
+    "contentLength": 7901,
+    "processingTimeMs": 58398
+  }
+}

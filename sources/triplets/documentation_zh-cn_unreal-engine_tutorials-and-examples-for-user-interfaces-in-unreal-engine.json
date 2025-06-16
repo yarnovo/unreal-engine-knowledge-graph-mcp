@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_tutorials-and-examples-for-user-interfaces-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_tutorials-and-examples-for-user-interfaces-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "UMG",
+      "predicate": "用于",
+      "object": "创建拖放UI",
+      "context": "UMG是虚幻引擎中创建用户界面的主要工具，文档明确说明使用UMG创建可拖放UI控件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件驱动",
+      "predicate": "优化",
+      "object": "UI更新",
+      "context": "文档说明使用事件来驱动UI元素的更新可以优化UI性能，这是UI编程的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DPI Scaling",
+      "predicate": "用于",
+      "object": "多设备UI适配",
+      "context": "DPI Scaling是解决不同设备屏幕适配的技术方案，文档明确说明其用于自动缩放UI",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG",
+      "predicate": "支持",
+      "object": "事件驱动UI",
+      "context": "虽然文档未明确说明，但UMG作为UI系统应该支持事件驱动机制，这是UI系统的常见功能",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "拖放UI",
+      "predicate": "依赖",
+      "object": "事件系统",
+      "context": "实现拖放功能通常需要处理鼠标/触摸事件，因此与事件系统相关",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UI教程",
+      "predicate": "包含",
+      "object": "DPI Scaling",
+      "context": "文档目录显示DPI Scaling是UI教程的一部分，属于UI开发知识体系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UI教程",
+      "predicate": "包含",
+      "object": "拖放UI实现",
+      "context": "文档将拖放UI作为UI教程的独立章节，是UI开发的重要功能点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UI优化",
+      "predicate": "关联",
+      "object": "事件驱动",
+      "context": "文档明确指出事件驱动可以帮助优化UI更新，这是性能优化的关键技术",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "开发者论坛",
+      "predicate": "扩展",
+      "object": "UI学习资源",
+      "context": "文档推荐的开发者论坛是官方UI学习资源的补充，可以解决特定问题",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "学习库",
+      "predicate": "包含",
+      "object": "社区UI教程",
+      "context": "文档推荐的学习库包含社区贡献的UI教程，是官方文档的补充",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:04:03.164Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2123,
+    "contentLength": 1843,
+    "processingTimeMs": 29373
+  }
+}

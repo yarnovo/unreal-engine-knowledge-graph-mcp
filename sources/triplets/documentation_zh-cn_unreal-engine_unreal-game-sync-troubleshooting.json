@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-game-sync-troubleshooting",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-game-sync-troubleshooting.md",
+  "triples": [
+    {
+      "subject": "Unreal Game Sync (UGS)",
+      "predicate": "依赖",
+      "object": "Perforce",
+      "context": "UGS使用Perforce进行版本控制和文件同步，学习UGS需要理解Perforce的基本操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS故障排除",
+      "predicate": "包含",
+      "object": "基本的故障排除",
+      "context": "基本的故障排除是UGS故障排除的基础步骤，帮助学习者建立系统性的问题解决思路",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS故障排除",
+      "predicate": "包含",
+      "object": "编译错误的故障排除",
+      "context": "编译错误是开发中常见问题，专门列出帮助学习者快速定位编译相关问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS故障排除",
+      "predicate": "包含",
+      "object": "具体问题",
+      "context": "具体问题部分提供了针对特定场景的解决方案，帮助学习者解决实际开发中遇到的特殊问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编译错误的故障排除",
+      "predicate": "涉及",
+      "object": "UnrealHeaderTool",
+      "context": "编译过程中可能涉及UnrealHeaderTool的失败，了解这个工具对解决编译问题有帮助",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "编译错误的故障排除",
+      "predicate": "涉及",
+      "object": "ShaderCompileWorker",
+      "context": "着色器编译是常见编译问题来源，了解ShaderCompileWorker有助于解决相关编译错误",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UGS",
+      "predicate": "使用",
+      "object": "同步预编译编辑器",
+      "context": "UGS支持使用预编译编辑器加速工作流程，但需要注意使用限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS",
+      "predicate": "生成",
+      "object": "UnrealGameSync.log",
+      "context": "日志文件是诊断UGS问题的重要信息来源，学习者应了解其位置和内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS",
+      "predicate": "依赖",
+      "object": "P4命令行工具",
+      "context": "UGS需要P4命令行工具与Perforce服务器通信，这是安装和配置的重要前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS",
+      "predicate": "关联",
+      "object": "Visual Studio",
+      "context": "UGS与Visual Studio集成用于项目生成和编译，了解两者关系有助于解决构建问题",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "路径太长问题",
+      "predicate": "影响",
+      "object": "UGS同步",
+      "context": "Windows路径长度限制会影响UGS同步功能，学习者需要了解如何优化项目路径结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": ".uproject文件",
+      "predicate": "替代",
+      "object": ".uprojectdirs文件",
+      "context": "在某些情况下使用.uproject文件可以解决.uprojectdirs文件导致的路径问题",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UGS更新",
+      "predicate": "依赖",
+      "object": "UnrealGameSyncLauncher",
+      "context": "UGS更新过程可能需要使用UnrealGameSyncLauncher，了解这个工具对维护UGS很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预编译二进制文件",
+      "predicate": "用于",
+      "object": "UGS工作流",
+      "context": "预编译二进制文件可以加速UGS工作流，但需要正确配置权限和访问",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS",
+      "predicate": "需要",
+      "object": "源目录",
+      "context": "即使使用预编译二进制文件，某些操作如烘焙仍需要源目录，这是重要的配置注意事项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS同步问题",
+      "predicate": "可能由",
+      "object": "同步筛选器配置错误",
+      "context": "同步筛选器配置错误会导致文件缺失，了解如何正确配置筛选器对解决同步问题很关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS启动问题",
+      "predicate": "可能由",
+      "object": "缺少UE先决条件",
+      "context": "新机器上UGS启动失败可能是因为缺少虚幻引擎运行所需的先决软件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS代理设置",
+      "predicate": "影响",
+      "object": "UGS连接",
+      "context": "正确的代理服务器设置对UGS连接至关重要，学习者需要了解如何检查和修改这些设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS诊断",
+      "predicate": "提供",
+      "object": "连接信息",
+      "context": "UGS诊断菜单提供重要的连接和配置信息，是故障排除的第一站",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS构建问题",
+      "predicate": "可能由",
+      "object": "工作空间配置错误",
+      "context": "Perforce工作空间配置错误会导致各种构建问题，正确配置工作空间是使用UGS的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:12:25.790Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13312 字符)",
+      "timestamp": "2025-06-15T21:11:27.532Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 20562,
+    "contentLength": 13312,
+    "processingTimeMs": 58262
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animating-uv-coordinates-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animating-uv-coordinates-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "UV坐标动画",
+      "predicate": "实现",
+      "object": "平移（Panner）材质表达式",
+      "context": "UV坐标动画通过平移材质表达式节点实现纹理坐标的移动，这是创建动态材质效果的基础方法。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平移（Panner）材质表达式",
+      "predicate": "控制",
+      "object": "UV坐标",
+      "context": "平移材质表达式通过调整速度X和速度Y参数来控制UV坐标在水平和垂直方向上的移动。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平移（Panner）材质表达式",
+      "predicate": "输入",
+      "object": "坐标（Coordinates）",
+      "context": "平移材质表达式接收坐标输入，这是修改基本UV纹理坐标的基础。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平移（Panner）材质表达式",
+      "predicate": "输入",
+      "object": "时间（Time）",
+      "context": "时间输入用于确定当前平移位置，通常使用时间表达式来提供常量平移效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UV坐标动画",
+      "predicate": "适用于",
+      "object": "火焰、流水或烟雾效果",
+      "context": "UV坐标动画特别适用于需要动态效果的材质，如火焰、流水或烟雾，能够高效地产生复杂动画的错觉。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质编辑器",
+      "predicate": "用于",
+      "object": "创建和编辑材质",
+      "context": "材质编辑器是虚幻引擎中用于创建和编辑材质的工具，支持通过图形化界面连接各种材质表达式节点。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理样本（Texture Sample）",
+      "predicate": "连接",
+      "object": "平移（Panner）材质表达式",
+      "context": "平移材质表达式的输出可以连接到纹理样本的UV输入，从而实现纹理的动态效果。",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主材质节点（Main Material Node）",
+      "predicate": "接收",
+      "object": "纹理样本（Texture Sample）的输出",
+      "context": "纹理样本的输出（如RGB）可以传递到主材质节点的基础颜色输入，决定材质的最终外观。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "标量参数",
+      "predicate": "控制",
+      "object": "平移（Panner）材质表达式的速度X和速度Y",
+      "context": "通过标量参数可以动态控制平移节点的速度X和速度Y，使得材质实例能够灵活调整动画效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UV坐标动画",
+      "predicate": "叠加",
+      "object": "多个平移（Panner）材质表达式",
+      "context": "叠加多个平移节点可以创建更复杂的视觉效果，例如通过不同速度和方向的平移实现分层运动效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "初学者内容包",
+      "predicate": "包含",
+      "object": "T_Fire_Tiled_D纹理",
+      "context": "初学者内容包提供了T_Fire_Tiled_D纹理等资源，可用于快速实现UV坐标动画的示例效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UV坐标动画",
+      "predicate": "依赖",
+      "object": "连续UV设置的网格体",
+      "context": "UV坐标动画的效果依赖于网格体的连续UV设置，任何UV间隙或接缝都会在动画中显现。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质实例",
+      "predicate": "覆盖",
+      "object": "标量参数的值",
+      "context": "材质实例可以覆盖标量参数的值，使得美术师能够在不修改原始材质的情况下自定义动画效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自发光颜色（Emissive Color）",
+      "predicate": "用于",
+      "object": "增强火焰效果",
+      "context": "将平移节点的输出连接到自发光颜色而非基础颜色，可以增强火焰等效果的视觉表现。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:59:07.417Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9065,
+    "contentLength": 5993,
+    "processingTimeMs": 65998
+  }
+}

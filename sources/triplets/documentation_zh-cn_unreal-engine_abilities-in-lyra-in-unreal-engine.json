@@ -1,0 +1,211 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_abilities-in-lyra-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_abilities-in-lyra-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Lyra",
+      "predicate": "使用",
+      "object": "Gameplay技能系统(GAS)",
+      "context": "Lyra使用GAS来策划大部分游戏玩法内容，帮助开发者快速实现和迭代Gameplay机制",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Gameplay技能系统(GAS)",
+      "predicate": "包含",
+      "object": "UAbilitySystemComponent",
+      "context": "GAS的核心类之一，为Actor提供GAS功能，跟踪状态并处理复制",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Gameplay技能系统(GAS)",
+      "predicate": "包含",
+      "object": "UAttributeSet",
+      "context": "GAS的核心类之一，定义和管理游戏中的属性值",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Gameplay技能系统(GAS)",
+      "predicate": "包含",
+      "object": "UGameplayAbility",
+      "context": "GAS的核心类之一，定义游戏操作，可由支持GAS的Actor执行",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Gameplay技能系统(GAS)",
+      "predicate": "包含",
+      "object": "UGameplayEffect",
+      "context": "GAS的核心类之一，定义游戏操作的效果，可以修改属性或赋予标签",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ULyraAbilitySystemComponent",
+      "predicate": "扩展",
+      "object": "UAbilitySystemComponent",
+      "context": "Lyra的技能系统组件扩展了GAS的核心组件，增加了与Lyra框架的交互功能",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ALyraPlayerState",
+      "predicate": "拥有",
+      "object": "ULyraAbilitySystemComponent",
+      "context": "Lyra玩家状态拥有技能系统组件，用于管理玩家特定的技能和行为",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ULyraHeroComponent",
+      "predicate": "管理",
+      "object": "技能赋予",
+      "context": "当有效控制器控制PlayerState的AbilitySystemComponent时，ULyraHeroComponent负责赋予技能和效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ULyraPawnExtensionComponent",
+      "predicate": "管理",
+      "object": "技能赋予",
+      "context": "当Pawn被控制或移除时，ULyraPawnExtensionComponent负责初始化和取消初始化GAS状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ALyraGameState",
+      "predicate": "管理",
+      "object": "游戏阶段",
+      "context": "Lyra游戏状态管理游戏阶段，这些阶段作为技能实现，影响Gameplay事件的处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ULyraGamePhaseAbility",
+      "predicate": "实现",
+      "object": "游戏阶段",
+      "context": "游戏阶段技能扩展自ULyraGamePhaseAbility，每个技能封装单独的游戏状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ULyraAbilityTagRelationshipMapping",
+      "predicate": "改进",
+      "object": "标签关系管理",
+      "context": "Lyra通过引入标签关系映射数据资产来简化技能和效果的标签关系管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ULyraGlobalAbilitySystem",
+      "predicate": "跟踪",
+      "object": "Lyra技能系统组件",
+      "context": "Lyra全局技能系统提供快速跟踪和与所有Lyra技能系统组件交互的方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ULyraAbilitySet",
+      "predicate": "包含",
+      "object": "Gameplay技能",
+      "context": "Lyra技能集是一种数据资产，包含一系列Gameplay技能、效果和属性集",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ULyraGameplayAbility",
+      "predicate": "扩展",
+      "object": "UGameplayAbility",
+      "context": "Lyra的Gameplay技能扩展了GAS的基础技能类，提供额外实用程序和接口",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ULyraGameplayAbility",
+      "predicate": "支持",
+      "object": "激活组",
+      "context": "Lyra技能支持不同的激活组，决定技能是否可以自由激活或打断其他技能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ULyraGameplayAbility",
+      "predicate": "支持",
+      "object": "激活策略",
+      "context": "Lyra技能支持多种激活策略，如生成时激活、输入触发时激活等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ULyraGameplayAbility",
+      "predicate": "支持",
+      "object": "额外开销",
+      "context": "Lyra技能支持额外开销列表，允许定义复杂的激活条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ULyraAttributeSet",
+      "predicate": "扩展",
+      "object": "UAttributeSet",
+      "context": "Lyra属性集扩展了GAS的基础属性集类，提供了便捷的宏和函数",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ULyraHealthSet",
+      "predicate": "扩展",
+      "object": "ULyraAttributeSet",
+      "context": "Lyra生命值集扩展了Lyra属性集，专门管理角色的生命值相关属性",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ULyraCombatSet",
+      "predicate": "扩展",
+      "object": "ULyraAttributeSet",
+      "context": "Lyra战斗设置扩展了Lyra属性集，提供伤害和治疗支持",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ULyraHealExecution",
+      "predicate": "实现",
+      "object": "治疗逻辑",
+      "context": "Lyra的治疗执行类实现了治疗逻辑，修改目标的生命值属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ULyraDamageExecution",
+      "predicate": "实现",
+      "object": "伤害逻辑",
+      "context": "Lyra的伤害执行类实现了伤害逻辑，计算并修改目标的伤害属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UPawnExtensionComponent",
+      "predicate": "管理",
+      "object": "Pawn初始化",
+      "context": "Pawn扩展组件确保在赋予技能和激活出生时技能前满足所有初始化条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:52:17.988Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (23687 字符)",
+      "timestamp": "2025-06-15T17:50:49.537Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 43491,
+    "contentLength": 23687,
+    "processingTimeMs": 88497
+  }
+}

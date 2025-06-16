@@ -1,0 +1,181 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_horde-deployment-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_horde-deployment-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Horde",
+      "predicate": "包含",
+      "object": "Horde操作面板",
+      "context": "Horde操作面板是Horde系统的一个组成部分，用于提供Web前端界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "包含",
+      "object": "Horde服务器",
+      "context": "Horde服务器是Horde系统的核心组件，负责处理任务分配和协调",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "包含",
+      "object": "Horde代理",
+      "context": "Horde代理在工作机上运行，执行由Horde服务器分配的任务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "依赖",
+      "object": "MongoDB",
+      "context": "Horde使用MongoDB数据库来追踪和持久保存作业、用户、代理等状态信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "依赖",
+      "object": "Redis",
+      "context": "Horde使用Redis数据库来缓存频繁访问的状态信息并提供发布/订阅服务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "支持",
+      "object": "Slack",
+      "context": "Horde支持将通知发送到Slack，便于团队协作和通知管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "支持",
+      "object": "Perforce",
+      "context": "Horde支持Perforce进行修订控制，并从中读取配置数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "支持",
+      "object": "Jira",
+      "context": "Horde支持与Jira集成，用于构建健康问题的追踪和分类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde服务器",
+      "predicate": "运行于",
+      "object": "Windows和Linux",
+      "context": "Horde服务器可以在Windows和Linux操作系统上运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde代理",
+      "predicate": "运行于",
+      "object": "Windows、Mac和Linux",
+      "context": "Horde代理可以在Windows、Mac和Linux操作系统上运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde操作面板",
+      "predicate": "使用",
+      "object": "TypeScript和React",
+      "context": "Horde操作面板采用TypeScript和React编写，提供Web前端界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde服务器",
+      "predicate": "使用",
+      "object": "C#/ASP.NET",
+      "context": "Horde服务器采用C#/ASP.NET编写，提供核心服务功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde代理",
+      "predicate": "使用",
+      "object": "C#/NET",
+      "context": "Horde代理采用C#/NET编写，执行由服务器分配的任务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "支持",
+      "object": "AWS S3",
+      "context": "Horde可以使用AWS S3作为云存储后端，存储中间件和输出构件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "支持",
+      "object": "Azure Blob Store",
+      "context": "Horde可以使用Azure Blob Store作为云存储后端，存储中间件和输出构件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Epic Games的Horde部署",
+      "predicate": "使用",
+      "object": "Amazon Load Balancer",
+      "context": "Epic Games内部部署的Horde使用Amazon Load Balancer进行SSL终止和路由",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Epic Games的Horde部署",
+      "predicate": "使用",
+      "object": "Amazon ECS",
+      "context": "Epic Games内部部署的Horde使用Amazon ECS管理Linux容器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Epic Games的Horde部署",
+      "predicate": "使用",
+      "object": "Amazon DocumentDB",
+      "context": "Epic Games内部部署的Horde使用Amazon DocumentDB作为MongoDB兼容的数据库",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Epic Games的Horde部署",
+      "predicate": "使用",
+      "object": "Amazon ElastiCache",
+      "context": "Epic Games内部部署的Horde使用Amazon ElastiCache作为Redis兼容的内存数据库",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde服务器",
+      "predicate": "配置为",
+      "object": "Server runmode",
+      "context": "Horde服务器可以配置为Server runmode，处理面向用户的轻量级请求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde服务器",
+      "predicate": "配置为",
+      "object": "Worker runmode",
+      "context": "Horde服务器可以配置为Worker runmode，处理更繁重的计划任务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:19:44.246Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5904,
+    "contentLength": 3886,
+    "processingTimeMs": 65350
+  }
+}

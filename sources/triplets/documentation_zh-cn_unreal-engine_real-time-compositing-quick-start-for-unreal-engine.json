@@ -1,0 +1,123 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_real-time-compositing-quick-start-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_real-time-compositing-quick-start-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Composure插件",
+      "predicate": "启用",
+      "object": "实时合成",
+      "context": "Composure插件是实现实时合成功能的基础模块，启用后才能使用相关合成工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成树面板",
+      "predicate": "包含",
+      "object": "空白合成镜头",
+      "context": "合成树面板是管理合成元素的核心界面，通过它可以创建代表最终合成的空白合成镜头",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体板元素",
+      "predicate": "连接",
+      "object": "媒体源",
+      "context": "媒体板元素需要连接媒体源（如视频流）才能显示内容，这是合成中处理视频媒体的关键步骤",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "色度镶迭通道",
+      "predicate": "用于",
+      "object": "去除背景",
+      "context": "色度镶迭通道专门用于通过颜色选择去除背景（如绿幕），是视频合成的核心技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CG层元素",
+      "predicate": "依赖",
+      "object": "场景摄像机",
+      "context": "CG层元素需要场景摄像机来确定渲染视角，缺少摄像机会导致渲染失败",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "采集Actor属性",
+      "predicate": "控制",
+      "object": "渲染内容",
+      "context": "通过采集Actor属性可以精确控制哪些场景物体被渲染到CG层，实现前后景分离",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成材质",
+      "predicate": "组合",
+      "object": "Over节点",
+      "context": "合成材质使用Over节点将多个元素（前景、媒体、背景）按正确层级混合，这是合成流程的核心逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输出通道",
+      "predicate": "支持",
+      "object": "媒体采集",
+      "context": "输出通道可以将合成结果输出到采集卡等外部设备，是实时合成工作流的最后环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "扩展",
+      "object": "合成输出",
+      "context": "Sequencer可以作为合成输出的替代方案，支持带动画的渲染和AOV输出",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "三件式合成",
+      "predicate": "包含",
+      "object": "CG背景、媒体板、CG前景",
+      "context": "基础合成结构由这三个核心元素组成，理解这种层级关系是学习合成的起点",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "防溢出通道",
+      "predicate": "补充",
+      "object": "色度镶迭",
+      "context": "防溢出通道用于处理物体表面的颜色反射问题，是对色度镶迭技术的重要补充",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "子关卡",
+      "predicate": "存储",
+      "object": "合成元素",
+      "context": "将合成元素存储在子关卡中可以提高项目可移植性，这是合成工作流的最佳实践",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "后期处理材质",
+      "predicate": "要求",
+      "object": "透明度通道支持",
+      "context": "合成使用的后期处理材质需要启用项目设置中的透明度通道支持才能正确处理alpha混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:33:13.941Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10858 字符)",
+      "timestamp": "2025-06-15T20:32:31.634Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16472,
+    "contentLength": 10858,
+    "processingTimeMs": 42313
+  }
+}

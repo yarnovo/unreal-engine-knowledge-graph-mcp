@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_niagara-fluids-quick-start-guide-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_niagara-fluids-quick-start-guide-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Niagara流体插件",
+      "predicate": "属于",
+      "object": "虚幻引擎插件系统",
+      "context": "Niagara流体插件是虚幻引擎插件系统的一部分，需要先启用才能使用相关功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara系统",
+      "predicate": "基于",
+      "object": "流体模板",
+      "context": "创建Niagara系统时可以选择基于流体模板，模板包含实现完整效果所需的所有发射器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格3D气体爆炸",
+      "predicate": "是",
+      "object": "流体模板",
+      "context": "网格3D气体爆炸是Niagara流体插件提供的一个预设模板，用于创建气体爆炸效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara系统",
+      "predicate": "包含",
+      "object": "发射器",
+      "context": "Niagara系统由多个发射器组成，如ParticleSourceEmitter和Grid3D_Gas_CONTROLS_Emitter",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制发射器",
+      "predicate": "用于",
+      "object": "调整外观",
+      "context": "控制发射器(Grid3D_Gas_CONTROLS_Emitter)是用于调整流体外观的主要发射器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "消散参数",
+      "predicate": "控制",
+      "object": "流体持续时间",
+      "context": "消散参数定义了流体数据随时间淡化的速度，影响流体效果的持续时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "浮力参数",
+      "predicate": "影响",
+      "object": "流体运动方向",
+      "context": "温度浮力和密度浮力参数可以改变流体的运动方向和速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染密度参数",
+      "predicate": "控制",
+      "object": "流体不透明度",
+      "context": "渲染密度参数可以调整流体的总体不透明度，影响视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染温度曲线",
+      "predicate": "定义",
+      "object": "流体颜色",
+      "context": "通过调整渲染温度曲线可以自定义流体的颜色变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞体标签",
+      "predicate": "标识",
+      "object": "可碰撞Actor",
+      "context": "为Actor添加'collider'标签可以使其与Niagara流体系统产生碰撞效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ResolutionMaxAxis参数",
+      "predicate": "控制",
+      "object": "模拟分辨率",
+      "context": "ResolutionMaxAxis参数设置模拟的分辨率，影响视觉效果和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WorldSpaceSize参数",
+      "predicate": "定义",
+      "object": "模拟边界框大小",
+      "context": "WorldSpaceSize参数可以调整流体模拟的边界框尺寸",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara流体插件",
+      "predicate": "需要",
+      "object": "项目重启",
+      "context": "启用Niagara流体插件后需要重启虚幻引擎才能生效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara系统",
+      "predicate": "可以",
+      "object": "链接光源",
+      "context": "Niagara系统可以链接关卡中的定向光源来照亮流体模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "黑体色温曲线",
+      "predicate": "提供",
+      "object": "物理准确颜色",
+      "context": "黑体色温曲线基于物理原理，为流体提供从黑色到红色、橙色再到白色的自然过渡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:07:03.914Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12120 字符)",
+      "timestamp": "2025-06-15T20:06:17.034Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16138,
+    "contentLength": 12120,
+    "processingTimeMs": 46891
+  }
+}

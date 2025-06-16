@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-blueprint-spine-ik-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-blueprint-spine-ik-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Spline IK",
+      "predicate": "属于",
+      "object": "动画蓝图节点",
+      "context": "Spline IK是动画蓝图中的一种节点类型，用于处理骨骼动画",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Spline IK",
+      "predicate": "控制",
+      "object": "骨骼链",
+      "context": "Spline IK节点可以将骨架内的骨骼链定义为脊柱并控制其运动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Spline IK",
+      "predicate": "生成",
+      "object": "控制点",
+      "context": "Spline IK节点会根据参数设置沿脊柱创建控制点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制点",
+      "predicate": "用于",
+      "object": "设置脊柱位置",
+      "context": "控制点可以手动操作或通过动态值驱动，用于设置脊柱在动画中的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Spline IK",
+      "predicate": "支持",
+      "object": "动态值驱动",
+      "context": "Spline IK节点的控制点和属性可以通过动态值驱动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Spline IK",
+      "predicate": "适用于",
+      "object": "尾巴动画",
+      "context": "Spline IK特别适合为尾巴等可延展结构创建逼真运动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Spline IK",
+      "predicate": "包含",
+      "object": "起始骨骼",
+      "context": "起始骨骼属性定义了脊柱骨骼链的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Spline IK",
+      "predicate": "包含",
+      "object": "末端骨骼",
+      "context": "末端骨骼属性定义了脊柱骨骼链的终点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Spline IK",
+      "predicate": "包含",
+      "object": "骨骼轴",
+      "context": "骨骼轴属性定义了控制点与脊柱的运动轴",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Spline IK",
+      "predicate": "包含",
+      "object": "扭曲属性",
+      "context": "扭曲属性控制脊柱的扭曲效果，包括扭曲起点、扭曲终点和扭曲混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Spline IK",
+      "predicate": "包含",
+      "object": "拉伸属性",
+      "context": "拉伸属性控制脊柱允许的最大拉伸程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Spline IK",
+      "predicate": "基于",
+      "object": "骨架系统",
+      "context": "Spline IK功能依赖于虚幻引擎的骨架系统",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Spline IK",
+      "predicate": "用于",
+      "object": "AnimGraph",
+      "context": "Spline IK节点可以在AnimGraph中使用，并通过引脚驱动",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "控制点",
+      "predicate": "影响",
+      "object": "脊柱运动",
+      "context": "控制点的变换直接影响脊柱在动画中的运动表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动计算脊柱",
+      "predicate": "控制",
+      "object": "控制点数量",
+      "context": "自动计算脊柱属性可以自动确定控制点的数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "点数",
+      "predicate": "指定",
+      "object": "控制点数量",
+      "context": "当自动计算脊柱禁用时，点数属性可以手动指定控制点数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "扭曲混合",
+      "predicate": "包含",
+      "object": "混合时间",
+      "context": "扭曲混合属性包含混合时间参数，用于控制扭曲姿势的过渡时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "扭曲混合",
+      "predicate": "包含",
+      "object": "混合选项",
+      "context": "扭曲混合属性包含混合类型选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "扭曲混合",
+      "predicate": "包含",
+      "object": "自定义曲线",
+      "context": "扭曲混合属性允许使用自定义曲线驱动混合过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Spline IK",
+      "predicate": "相关",
+      "object": "蓝图样条",
+      "context": "Spline IK与蓝图样条技术相关，都是处理曲线运动的技术",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T18:00:24.313Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6930,
+    "contentLength": 4558,
+    "processingTimeMs": 62260
+  }
+}

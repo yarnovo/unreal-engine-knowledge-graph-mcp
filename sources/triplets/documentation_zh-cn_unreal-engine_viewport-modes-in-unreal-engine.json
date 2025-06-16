@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_viewport-modes-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_viewport-modes-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻编辑器视口",
+      "predicate": "包含",
+      "object": "视图模式",
+      "context": "视口提供了多种可视化模式来帮助开发者查看和诊断场景数据",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "照亮视图模式",
+      "predicate": "显示",
+      "object": "最终场景结果",
+      "context": "显示应用所有材质和照明后的场景最终效果，是开发中最常用的视图模式之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "不照亮视图模式",
+      "predicate": "移除",
+      "object": "场景照明",
+      "context": "用于查看无光照影响的纯底色，帮助分离照明和材质效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "线框视图模式",
+      "predicate": "显示",
+      "object": "多边形边缘",
+      "context": "可视化场景中所有多边形边缘，特别适合检查几何体结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节照明视图模式",
+      "predicate": "使用",
+      "object": "中性材质",
+      "context": "通过中性材质隔离法线贴图效果，便于分析表面细节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "仅照明视图模式",
+      "predicate": "区别于",
+      "object": "细节照明模式",
+      "context": "两者都用于分析照明，但仅照明模式不显示法线贴图效果",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "光线复杂性视图模式",
+      "predicate": "用于",
+      "object": "跟踪照明成本",
+      "context": "通过颜色编码显示影响表面的光线数量，帮助优化照明性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "着色器复杂性视图模式",
+      "predicate": "指示",
+      "object": "场景性能",
+      "context": "显示像素着色器指令数，是性能优化的重要参考指标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光照贴图密度视图模式",
+      "predicate": "显示",
+      "object": "纹素密度",
+      "context": "可视化光照贴图纹素分布，确保场景光照一致性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD着色视图模式",
+      "predicate": "诊断",
+      "object": "LOD问题",
+      "context": "通过颜色编码显示不同LOD级别，帮助优化模型细节层次",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缓冲区可视化",
+      "predicate": "访问",
+      "object": "图形缓冲区",
+      "context": "允许开发者查看各个图形缓冲区内容，诊断渲染问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "底色缓冲区模式",
+      "predicate": "关联",
+      "object": "材质底色输入",
+      "context": "直接显示材质底色输入内容，便于材质调试",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粗糙度缓冲区模式",
+      "predicate": "关联",
+      "object": "材质粗糙度输入",
+      "context": "显示粗糙度输入效果，帮助调整材质反射特性",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全局法线缓冲区模式",
+      "predicate": "显示",
+      "object": "世界空间法线",
+      "context": "可视化表面在世界空间中的法线方向，用于检查法线贴图效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形可视化器",
+      "predicate": "包含",
+      "object": "法线可视化",
+      "context": "提供专门针对地形的法线显示模式",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "曝光",
+      "predicate": "控制",
+      "object": "场景亮度",
+      "context": "后处理效果，可设置为自动或固定值调整场景明暗",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动曝光",
+      "predicate": "对比",
+      "object": "固定曝光",
+      "context": "两种曝光模式适用于不同场景需求，自动更真实，固定更稳定",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "玩家碰撞视图模式",
+      "predicate": "突出显示",
+      "object": "可碰撞资产",
+      "context": "用不同颜色标识各类碰撞体，便于碰撞检测调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视图模式",
+      "predicate": "可通过",
+      "object": "控制台命令访问",
+      "context": "除了菜单和热键，所有视图模式都支持控制台命令调用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HLOD着色视图模式",
+      "predicate": "显示",
+      "object": "层级LOD群集",
+      "context": "可视化层级LOD系统组织结构，优化场景渲染性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:29:14.906Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (29891 字符)",
+      "timestamp": "2025-06-15T21:28:14.743Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 37961,
+    "contentLength": 29891,
+    "processingTimeMs": 60165
+  }
+}

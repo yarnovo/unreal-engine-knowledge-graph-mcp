@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_console-variables-editor",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_console-variables-editor.md",
+  "triples": [
+    {
+      "subject": "控制台变量编辑器",
+      "predicate": "包含",
+      "object": "控制台变量列表",
+      "context": "控制台变量列表是控制台变量编辑器的主要功能模块，用于显示和操作所有控制台变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台变量编辑器",
+      "predicate": "支持",
+      "object": "多用户编辑",
+      "context": "控制台变量编辑器可以与多用户插件协同工作，实现跨设备变量同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台变量编辑器",
+      "predicate": "依赖",
+      "object": "控制台变量编辑器插件",
+      "context": "必须启用控制台变量编辑器插件才能使用该功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台变量编辑器",
+      "predicate": "提供",
+      "object": "蓝图API",
+      "context": "编辑器提供蓝图API用于编程方式访问和操作控制台变量预设",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台变量列表",
+      "predicate": "显示",
+      "object": "控制台变量",
+      "context": "列表核心功能是展示项目中所有控制台变量及其状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台变量列表",
+      "predicate": "支持",
+      "object": "排序功能",
+      "context": "可以按序号、变量名或来源对变量进行排序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "显示选项",
+      "predicate": "控制",
+      "object": "变量筛选",
+      "context": "显示选项决定哪些类型的控制台变量会出现在列表中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "搜索功能",
+      "predicate": "分为",
+      "object": "预设搜索和全局搜索",
+      "context": "搜索功能提供两种模式满足不同查询需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预设系统",
+      "predicate": "用于",
+      "object": "变量配置管理",
+      "context": "预设可以保存和加载特定的变量配置集合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插件设置",
+      "predicate": "控制",
+      "object": "编辑器行为",
+      "context": "插件设置可以自定义控制台变量编辑器的各种功能行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台变量",
+      "predicate": "来源于",
+      "object": "多种配置源",
+      "context": "变量可以来自构造函数、可扩展性设置、项目设置等多种来源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户功能",
+      "predicate": "依赖",
+      "object": "多用户插件",
+      "context": "需要先启用多用户插件才能使用多用户同步功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台变量编辑器",
+      "predicate": "关联",
+      "object": "项目设置",
+      "context": "编辑器行为可以通过项目设置中的插件选项进行配置",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "控制台变量",
+      "predicate": "具有",
+      "object": "多种值状态",
+      "context": "包括自定义值、预设值和初始值三种状态，对学习变量生命周期很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "全局搜索",
+      "predicate": "扩展",
+      "object": "变量发现能力",
+      "context": "相比预设搜索，全局搜索可以发现引擎中所有匹配变量",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:31:57.900Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8464 字符)",
+      "timestamp": "2025-06-15T18:31:02.866Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14539,
+    "contentLength": 8464,
+    "processingTimeMs": 55040
+  }
+}

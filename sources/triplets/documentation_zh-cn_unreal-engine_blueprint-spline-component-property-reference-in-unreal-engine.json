@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_blueprint-spline-component-property-reference-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_blueprint-spline-component-property-reference-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "蓝图样条组件",
+      "predicate": "属于",
+      "object": "蓝图编辑器",
+      "context": "蓝图样条组件是蓝图编辑器中的一个重要组件，理解其属性有助于在蓝图中创建复杂的样条效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图样条组件",
+      "predicate": "包含",
+      "object": "变形属性",
+      "context": "变形属性是蓝图样条组件的基础属性，控制组件的位置、旋转和缩放，是学习样条组件的第一步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形属性",
+      "predicate": "包含",
+      "object": "位置",
+      "context": "位置属性是变形属性的子属性，控制组件在世界空间或相对空间中的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形属性",
+      "predicate": "包含",
+      "object": "旋转",
+      "context": "旋转属性是变形属性的子属性，控制组件在世界空间或相对空间中的旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形属性",
+      "predicate": "包含",
+      "object": "缩放",
+      "context": "缩放属性是变形属性的子属性，控制组件在世界空间或相对空间中的缩放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图样条组件",
+      "predicate": "包含",
+      "object": "插槽属性",
+      "context": "插槽属性允许蓝图样条组件附加到骨架网格体或静态网格体的插槽上，实现复杂的动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插槽属性",
+      "predicate": "包含",
+      "object": "父插槽",
+      "context": "父插槽属性指定了组件附加到的插槽或关节，是理解组件层级关系的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图样条组件",
+      "predicate": "包含",
+      "object": "样条属性",
+      "context": "样条属性是蓝图样条组件的核心属性，控制样条的形状和行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "样条属性",
+      "predicate": "包含",
+      "object": "时长",
+      "context": "时长属性控制样条的持续时间，是创建动态样条效果的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "样条属性",
+      "predicate": "包含",
+      "object": "闭环",
+      "context": "闭环属性决定样条是否首尾相连，影响样条的整体形状",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图样条组件",
+      "predicate": "包含",
+      "object": "选中的点属性",
+      "context": "选中的点属性允许开发者精细控制样条上的特定点，实现复杂的曲线效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选中的点属性",
+      "predicate": "包含",
+      "object": "到达切线",
+      "context": "到达切线控制曲线在接近选定点时的形状，是调整曲线平滑度的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选中的点属性",
+      "predicate": "包含",
+      "object": "离开切线",
+      "context": "离开切线控制曲线在离开选定点时的形状，与到达切线配合使用可以创建复杂的曲线过渡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图样条组件",
+      "predicate": "包含",
+      "object": "事件属性",
+      "context": "事件属性允许蓝图样条组件响应各种交互和物理事件，增加组件的交互性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件属性",
+      "predicate": "包含",
+      "object": "在组件命中时",
+      "context": "在组件命中时事件允许开发者定义组件与其他物体碰撞时的行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件属性",
+      "predicate": "包含",
+      "object": "在组件开始重叠时",
+      "context": "在组件开始重叠时事件用于检测物体进入触发器区域的情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图样条组件",
+      "predicate": "基于",
+      "object": "样条曲线",
+      "context": "蓝图样条组件基于样条曲线技术实现，理解样条曲线有助于更好地使用该组件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "蓝图样条组件",
+      "predicate": "用于",
+      "object": "路径创建",
+      "context": "蓝图样条组件常用于创建游戏中的路径，如NPC移动路径或摄像机运动轨迹",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "蓝图样条组件",
+      "predicate": "用于",
+      "object": "动画控制",
+      "context": "通过插槽属性，蓝图样条组件可以与骨骼动画结合，实现复杂的动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:15:23.466Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10122,
+    "contentLength": 6540,
+    "processingTimeMs": 62014
+  }
+}

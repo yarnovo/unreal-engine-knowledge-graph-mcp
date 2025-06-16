@@ -1,0 +1,61 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_geometry-cache-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_geometry-cache-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "几何体缓存",
+      "predicate": "包含",
+      "object": "几何体缓存流送器",
+      "context": "几何体缓存流送器是几何体缓存的一个功能组件，用于管理缓存数据的流送",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体缓存流送器",
+      "predicate": "控制",
+      "object": "预读缓冲区",
+      "context": "几何体缓存流送器通过预读缓冲区设置来控制提前流送的动画数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体缓存流送器",
+      "predicate": "管理",
+      "object": "内存使用",
+      "context": "几何体缓存流送器通过'允许的最大内存'设置来管理系统中的流送数据内存使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预读缓冲区",
+      "predicate": "影响",
+      "object": "动画流送性能",
+      "context": "预读缓冲区的设置会影响动画流送的流畅性和性能表现",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "允许的最大内存",
+      "predicate": "限制",
+      "object": "流送数据总量",
+      "context": "允许的最大内存设置限制了所有流送数据在内存中的总大小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体缓存设置",
+      "predicate": "属于",
+      "object": "项目设置",
+      "context": "几何体缓存设置是虚幻引擎项目设置中的一个配置类别",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:11:45.747Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 1589,
+    "contentLength": 1229,
+    "processingTimeMs": 27319
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-splash-screens-for-the-oculus-rift-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-splash-screens-for-the-oculus-rift-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Oculus Rift 启动画面",
+      "predicate": "用于",
+      "object": "掩盖加载新关卡时的帧率问题",
+      "context": "启动画面在UE VR项目中用于过渡，避免用户因数据加载而遇到帧率问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Oculus Rift 启动画面",
+      "predicate": "依赖",
+      "object": "VRPawn",
+      "context": "启动画面的设置和调用需要通过VRPawn的事件图表来实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VRPawn",
+      "predicate": "包含",
+      "object": "事件图表",
+      "context": "VRPawn的事件图表是设置启动画面的关键组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件图表",
+      "predicate": "使用",
+      "object": "蓝图节点",
+      "context": "事件图表通过蓝图节点来实现启动画面的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图节点",
+      "predicate": "包括",
+      "object": "Event Begin Play",
+      "context": "Event Begin Play是设置启动画面的关键节点之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图节点",
+      "predicate": "包括",
+      "object": "Set Tracking Origin",
+      "context": "Set Tracking Origin用于设置VR设备的跟踪原点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图节点",
+      "predicate": "包括",
+      "object": "Enable Auto Loading Splash Screen",
+      "context": "Enable Auto Loading Splash Screen用于启用启动画面的自动加载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图节点",
+      "predicate": "包括",
+      "object": "Add Loading Splash Screen",
+      "context": "Add Loading Splash Screen用于添加启动画面的内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图节点",
+      "predicate": "包括",
+      "object": "Hide Splash Screen",
+      "context": "Hide Splash Screen用于隐藏启动画面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Add Loading Splash Screen",
+      "predicate": "控制",
+      "object": "启动画面纹理",
+      "context": "Add Loading Splash Screen节点通过Texture输出控制启动画面的显示内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启动画面纹理",
+      "predicate": "需要",
+      "object": "UserInterface2D压缩设置",
+      "context": "启动画面纹理需要设置为UserInterface2D压缩并启用Never Stream选项以确保最高精度显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Motion Controller (L)Trigger",
+      "predicate": "触发",
+      "object": "Show Loading Splash Screen",
+      "context": "左扳机键触发显示启动画面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Motion Controller (L)Trigger",
+      "predicate": "触发",
+      "object": "Hide Loading Splash Screen",
+      "context": "松开左扳机键触发隐藏启动画面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Oculus Rift 启动画面",
+      "predicate": "前置",
+      "object": "使用运动控制器",
+      "context": "理解和使用启动画面需要先熟悉运动控制器的使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Oculus Rift 启动画面",
+      "predicate": "前置",
+      "object": "GuardianSystem",
+      "context": "理解和使用启动画面需要先熟悉GuardianSystem",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Oculus Rift 启动画面",
+      "predicate": "前置",
+      "object": "StandingCamera",
+      "context": "理解和使用启动画面需要先熟悉StandingCamera",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T21:22:47.885Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6158,
+    "contentLength": 4664,
+    "processingTimeMs": 43211
+  }
+}

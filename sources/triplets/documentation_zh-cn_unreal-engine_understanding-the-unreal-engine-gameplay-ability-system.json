@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_understanding-the-unreal-engine-gameplay-ability-system",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_understanding-the-unreal-engine-gameplay-ability-system.md",
+  "triples": [
+    {
+      "subject": "Gameplay技能系统",
+      "predicate": "用于",
+      "object": "角色扮演游戏",
+      "context": "Gameplay技能系统主要针对角色扮演游戏（RPG）、动作冒险游戏、多人联机在线竞技游戏（MOBA）等类型的游戏，帮助开发者构建复杂的技能和交互机制。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay技能系统",
+      "predicate": "包含",
+      "object": "技能系统组件",
+      "context": "技能系统组件是Gameplay技能系统的核心组件之一，负责管理Actor的技能列表和技能激活。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay技能系统",
+      "predicate": "包含",
+      "object": "Gameplay技能蓝图",
+      "context": "Gameplay技能蓝图用于表示各个技能，并协调其游戏内执行，是技能系统的关键组成部分。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay技能系统",
+      "predicate": "包含",
+      "object": "属性集",
+      "context": "属性集包含Gameplay属性，用于驱动计算或表示资源，是技能系统与Actor交互的主要方式之一。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay技能系统",
+      "predicate": "包含",
+      "object": "Gameplay效果",
+      "context": "Gameplay效果用于将更改应用于目标Actor，包括一次性效果和持久效果，是技能系统的重要组成部分。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay技能系统",
+      "predicate": "支持",
+      "object": "网络多玩家",
+      "context": "Gameplay技能系统提供内置功能支持联网多人游戏，包括技能复制和预测机制。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay技能",
+      "predicate": "属于",
+      "object": "Gameplay技能系统",
+      "context": "Gameplay技能是Actor可以拥有并反复触发的一种游戏内动作，是Gameplay技能系统的核心概念之一。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay技能",
+      "predicate": "包含",
+      "object": "Gameplay技能任务",
+      "context": "Gameplay技能任务用于处理动画和常见虚幻引擎系统，是Gameplay技能执行的重要组成部分。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay技能",
+      "predicate": "使用",
+      "object": "Gameplay标签",
+      "context": "Gameplay技能使用Gameplay标签来限制执行，包括激活标签和阻止激活标签。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay技能",
+      "predicate": "响应",
+      "object": "Gameplay事件",
+      "context": "Gameplay技能可以响应Gameplay事件，等待接收Gameplay标签和事件数据结构体。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "技能系统组件",
+      "predicate": "管理",
+      "object": "Gameplay技能",
+      "context": "技能系统组件负责为Actor添加和去除技能，追踪Actor拥有的技能，以及激活技能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "技能系统组件",
+      "predicate": "包含",
+      "object": "属性集",
+      "context": "技能系统组件通过属性集与Actor交互，属性集包含Gameplay属性。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "技能系统组件",
+      "predicate": "处理",
+      "object": "Gameplay效果",
+      "context": "技能系统组件负责处理Gameplay效果的复制和应用，包括临时和持久效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性集",
+      "predicate": "包含",
+      "object": "Gameplay属性",
+      "context": "属性集包含Gameplay属性，这些是可在计算中使用或由Gameplay技能修改的数字浮点值。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay效果",
+      "predicate": "使用",
+      "object": "Gameplay效果计算",
+      "context": "Gameplay效果使用Gameplay效果计算来处理基于Gameplay属性的复杂计算。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay效果",
+      "predicate": "关联",
+      "object": "Gameplay提示",
+      "context": "Gameplay提示与Gameplay效果关联，提供数据驱动的方法来处理视觉效果和声音效果。",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay提示",
+      "predicate": "用于",
+      "object": "美化效果",
+      "context": "Gameplay提示是负责运行视觉和声音效果的Actor和UObject，是在多人游戏中复制美化反馈的首选方法。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay技能任务",
+      "predicate": "扩展",
+      "object": "Gameplay逻辑",
+      "context": "游戏通过扩展Gameplay技能任务来实现自定义Gameplay逻辑，处理动画和常见虚幻引擎系统。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay技能系统",
+      "predicate": "参考",
+      "object": "Lyra示例项目",
+      "context": "Lyra示例项目实现了多项技能和武器，是学习Gameplay技能系统的实操运行模型。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:06:56.125Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9770 字符)",
+      "timestamp": "2025-06-15T21:05:58.573Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17700,
+    "contentLength": 9770,
+    "processingTimeMs": 57560
+  }
+}

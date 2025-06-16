@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_chaos-vehicles",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_chaos-vehicles.md",
+  "triples": [
+    {
+      "subject": "Chaos载具",
+      "predicate": "是",
+      "object": "虚幻引擎执行载具物理模拟的轻量级系统",
+      "context": "明确Chaos载具在虚幻引擎中的定位和功能",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "Chaos载具",
+      "predicate": "替代",
+      "object": "PhysX载具",
+      "context": "文档提到可以将现有PhysX载具转换为Chaos载具，表明这是新一代的物理模拟系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos载具",
+      "predicate": "依赖",
+      "object": "Chaos物理解算器",
+      "context": "设置Chaos载具需要使用Chaos物理解算器，这是其基础技术依赖",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "载具质量重心",
+      "predicate": "属于",
+      "object": "Chaos载具物理模拟机制",
+      "context": "质量重心是Chaos载具物理模拟的核心机制之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "双横臂悬架载具",
+      "predicate": "是",
+      "object": "Chaos载具的一种类型",
+      "context": "双横臂悬架是Chaos载具系统支持的一种具体载具类型",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Vehicle Debug Commands",
+      "predicate": "用于",
+      "object": "可视化Chaos载具物理模拟",
+      "context": "调试命令帮助开发者可视化理解Chaos载具的物理模拟过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Vehicle Art Setup",
+      "predicate": "前置",
+      "object": "Chaos载具创建",
+      "context": "美术资源设置是创建Chaos载具的必要前置步骤",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "如何设置载具",
+      "predicate": "包含",
+      "object": "Chaos物理解算器使用",
+      "context": "设置载具的指南中包含对Chaos物理解算器的使用说明",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "How to Convert PhysX Vehicles to Chaos",
+      "predicate": "实现",
+      "object": "PhysX到Chaos的迁移路径",
+      "context": "该文档提供了从旧版PhysX系统迁移到Chaos系统的具体方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos载具系统",
+      "predicate": "支持",
+      "object": "多种悬架类型",
+      "context": "通过双横臂悬架等文档可以看出系统支持多种悬架配置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:21:32.456Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2861,
+    "contentLength": 2429,
+    "processingTimeMs": 45312
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_gauntlet-automation-framework-overview-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_gauntlet-automation-framework-overview-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Gauntlet",
+      "predicate": "属于",
+      "object": "虚幻引擎",
+      "context": "Gauntlet是虚幻引擎中的一个自动化测试框架，帮助学习者理解其在引擎中的定位",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gauntlet",
+      "predicate": "用于",
+      "object": "自动化测试",
+      "context": "Gauntlet的主要功能是执行项目会话以进行测试和结果验证，帮助学习者理解其核心用途",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gauntlet",
+      "predicate": "提供",
+      "object": "TestController",
+      "context": "Gauntlet插件提供的TestController类可帮助操纵和监控游戏实例，对学习者理解测试控制机制很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gauntlet",
+      "predicate": "支持",
+      "object": "多平台测试",
+      "context": "Gauntlet设计用于在各种平台上运行虚幻会话，帮助学习者了解其跨平台特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gauntlet",
+      "predicate": "包含",
+      "object": "三级功能架构",
+      "context": "Gauntlet的三级功能架构(接口层、设备实现层、测试节点层)是其核心设计，对理解框架结构至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第1级功能",
+      "predicate": "包含",
+      "object": "ITargetDevice",
+      "context": "第1级功能包含设备接口，帮助学习者理解基础抽象层",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第1级功能",
+      "predicate": "包含",
+      "object": "TestExecutor",
+      "context": "第1级功能包含测试执行框架，是学习者理解测试调度的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第2级功能",
+      "predicate": "实现",
+      "object": "平台设备支持",
+      "context": "第2级功能实现了对各平台(PC、主机、移动等)的具体支持，帮助学习者理解跨平台实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第3级功能",
+      "predicate": "实现",
+      "object": "UnrealTestNode",
+      "context": "第3级功能在虚幻会话上下文中实现测试节点，帮助学习者理解高级测试抽象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TestExecutor",
+      "predicate": "管理",
+      "object": "测试执行",
+      "context": "TestExecutor类负责测试的创建、排队和监控，是学习者理解测试流程的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ITestNode",
+      "predicate": "定义",
+      "object": "测试API",
+      "context": "ITestNode接口定义了所有测试节点必须实现的API，帮助学习者理解测试扩展点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻测试节点",
+      "predicate": "实现",
+      "object": "ITestNode",
+      "context": "虚幻测试节点通过配置UnrealSession实现ITestNode接口，帮助学习者理解具体实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealSession",
+      "predicate": "包含",
+      "object": "会话角色",
+      "context": "UnrealSession支持配置多个角色(如客户端、服务器)，帮助学习者理解多人游戏测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gauntlet",
+      "predicate": "不依赖",
+      "object": "特定游戏代码",
+      "context": "Gauntlet不需要特定游戏端自动化代码，帮助学习者理解其通用性设计",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gauntlet",
+      "predicate": "需要",
+      "object": "预编译构建",
+      "context": "Gauntlet不创建编译，需要提供预编译构建，帮助学习者理解其使用前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RunUnreal",
+      "predicate": "继承自",
+      "object": "UAT",
+      "context": "RunUnreal继承自UAT的BuildCommand类，帮助学习者理解其与构建系统的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:11:04.994Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5931,
+    "contentLength": 4043,
+    "processingTimeMs": 57980
+  }
+}

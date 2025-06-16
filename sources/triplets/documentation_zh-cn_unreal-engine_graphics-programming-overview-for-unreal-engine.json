@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_graphics-programming-overview-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_graphics-programming-overview-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "FDeferredShadingSceneRenderer::Render",
+      "predicate": "是入口点",
+      "object": "渲染线程",
+      "context": "文档明确指出这是渲染新帧的起点，帮助学习者理解渲染流程的起始位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "profilegpu命令",
+      "predicate": "用于分析",
+      "object": "GPU时间",
+      "context": "该命令可以测量渲染视图的GPU时间，帮助开发者进行性能分析",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染器模块",
+      "predicate": "独立于",
+      "object": "引擎模块",
+      "context": "渲染器代码存在于独立的模块中，编译为单独的dll，这有助于加快迭代速度",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UWorld",
+      "predicate": "包含",
+      "object": "ULevel",
+      "context": "UWorld包含多个可交互的Actor和组件，而ULevel是这些Actor和组件的合集",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UPrimitiveComponent",
+      "predicate": "对应",
+      "object": "FPrimitiveSceneProxy",
+      "context": "FPrimitiveSceneProxy是UPrimitiveComponent的渲染线程版本，用于在渲染线程中处理渲染逻辑",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FScene",
+      "predicate": "存储",
+      "object": "场景状态",
+      "context": "FScene是UWorld的渲染器版本，存储了渲染器所需的场景状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FMaterial",
+      "predicate": "实现",
+      "object": "UMaterial",
+      "context": "FMaterialResource是UMaterial的FMaterial接口实现，用于连接材质和渲染器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMaterialInstance",
+      "predicate": "继承自",
+      "object": "UMaterialInterface",
+      "context": "UMaterialInstance是UMaterialInterface的抽象实例，可以覆盖父材质的参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态渲染路径",
+      "predicate": "对比",
+      "object": "静态渲染路径",
+      "context": "动态渲染路径灵活但消耗大，静态渲染路径高效但灵活性低，帮助学习者理解两种路径的适用场景",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RHI",
+      "predicate": "抽象",
+      "object": "图形API",
+      "context": "RHI是平台特定图形API的薄抽象层，使大部分功能能以平台无关的代码实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ERHIFeatureLevel",
+      "predicate": "量化",
+      "object": "功能集",
+      "context": "功能集被量化到ERHIFeatureLevel中，降低跨平台开发的复杂性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PrePass",
+      "predicate": "优化",
+      "object": "BasePass",
+      "context": "PrePass通道通过初始化Hierarchical Z来降低BasePass的着色消耗",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FPrimitiveViewRelevance",
+      "predicate": "描述",
+      "object": "渲染相关性",
+      "context": "FPrimitiveViewRelevance说明哪些渲染通道与基元相关，帮助理解渲染流程中的可见性管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绘制规则",
+      "predicate": "使用",
+      "object": "FVertexFactory",
+      "context": "绘制规则使用FVertexFactory接口来抽取网格体类型，实现渲染逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染状态",
+      "predicate": "分组",
+      "object": "流程部分",
+      "context": "渲染状态根据其影响的流程部分分组，如RHISetDepthState设置所有与景深缓冲相关的状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:15:37.428Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12987 字符)",
+      "timestamp": "2025-06-15T19:14:43.357Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 22690,
+    "contentLength": 12987,
+    "processingTimeMs": 54077
+  }
+}

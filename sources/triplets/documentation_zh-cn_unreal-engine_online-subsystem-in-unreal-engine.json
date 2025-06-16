@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_online-subsystem-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_online-subsystem-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "OnlineSubsystem",
+      "predicate": "支持",
+      "object": "Steam",
+      "context": "在线子系统提供访问Steam等在线服务的通用方法，帮助开发者跨平台开发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnlineSubsystem",
+      "predicate": "支持",
+      "object": "Xbox Live",
+      "context": "在线子系统提供访问Xbox Live等在线服务的通用方法，帮助开发者跨平台开发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnlineSubsystem",
+      "predicate": "支持",
+      "object": "Facebook",
+      "context": "在线子系统提供访问Facebook等在线服务的通用方法，帮助开发者跨平台开发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnlineSubsystem",
+      "predicate": "使用",
+      "object": "委托",
+      "context": "在线子系统使用委托处理异步通信，帮助开发者统一处理不同在线服务的响应",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnlineSubsystem",
+      "predicate": "包含",
+      "object": "成就接口",
+      "context": "成就接口是OnlineSubsystem的一部分，用于处理成就相关功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnlineSubsystem",
+      "predicate": "包含",
+      "object": "好友接口",
+      "context": "好友接口是OnlineSubsystem的一部分，用于处理好友列表相关功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnlineSubsystem",
+      "predicate": "包含",
+      "object": "排行榜接口",
+      "context": "排行榜接口是OnlineSubsystem的一部分，用于处理在线排行榜功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnlineSubsystem",
+      "predicate": "包含",
+      "object": "会话接口",
+      "context": "会话接口是OnlineSubsystem的一部分，用于管理在线游戏会话",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnlineSubsystem",
+      "predicate": "依赖",
+      "object": "OnlineAsyncTaskManager",
+      "context": "在线子系统使用OnlineAsyncTaskManager来支持顺序任务和并行任务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "成就接口",
+      "predicate": "用于",
+      "object": "解锁成就",
+      "context": "成就接口提供解锁成就的功能，帮助开发者实现成就系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "好友接口",
+      "predicate": "用于",
+      "object": "管理好友列表",
+      "context": "好友接口提供管理好友列表的功能，帮助开发者实现社交功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "排行榜接口",
+      "predicate": "用于",
+      "object": "登记得分",
+      "context": "排行榜接口提供登记得分的功能，帮助开发者实现排行榜系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "会话接口",
+      "predicate": "用于",
+      "object": "创建游戏会话",
+      "context": "会话接口提供创建游戏会话的功能，帮助开发者实现多人游戏功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnlineSubsystem",
+      "predicate": "基于",
+      "object": "模块化设计",
+      "context": "在线子系统采用模块化设计，便于扩展和维护",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "OnlineSubsystem",
+      "predicate": "配置于",
+      "object": "Engine.ini",
+      "context": "在线子系统的默认服务模块在Engine.ini文件中配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnlineSubsystem",
+      "predicate": "提供",
+      "object": "跨平台支持",
+      "context": "在线子系统提供跨平台支持，简化多平台开发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:09:29.999Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5833,
+    "contentLength": 3531,
+    "processingTimeMs": 50639
+  }
+}

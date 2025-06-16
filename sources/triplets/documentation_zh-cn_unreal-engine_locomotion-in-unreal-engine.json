@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_locomotion-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_locomotion-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "角色移动",
+      "predicate": "基于",
+      "object": "角色对象",
+      "context": "角色移动功能需要建立在角色对象的基础上，理解角色对象是学习角色移动的前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色移动",
+      "predicate": "基于",
+      "object": "移动组件",
+      "context": "移动组件是实现角色移动的核心技术组件，学习角色移动需要先理解移动组件的工作原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色移动",
+      "predicate": "基于",
+      "object": "动画系统",
+      "context": "角色移动需要与动画系统协同工作，动画播放是角色移动的视觉表现基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "根骨骼运动",
+      "predicate": "驱动",
+      "object": "角色移动",
+      "context": "根骨骼运动可以通过动画序列中的运动数据来驱动角色的移动行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "根骨骼运动",
+      "predicate": "实现",
+      "object": "逼真移动",
+      "context": "启用根骨骼运动可以创建更逼真、更现实的角色移动行为和互动效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势扭曲",
+      "predicate": "调整",
+      "object": "动画姿势",
+      "context": "姿势扭曲可以动态调整角色的动画姿势来契合角色的移动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势扭曲",
+      "predicate": "依赖",
+      "object": "根骨骼运动",
+      "context": "姿势扭曲功能需要基于根骨骼运动的数据来工作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "姿势扭曲",
+      "predicate": "减少",
+      "object": "动画数量需求",
+      "context": "使用姿势扭曲可以减少项目对大量单独动画的依赖",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动扭曲",
+      "predicate": "扭曲",
+      "object": "动画窗口",
+      "context": "运动扭曲可以动态扭曲角色动画的窗口来契合移动或目标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动扭曲",
+      "predicate": "依赖",
+      "object": "根骨骼运动",
+      "context": "运动扭曲功能可以基于根骨骼运动的数据来工作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "运动扭曲",
+      "predicate": "减少",
+      "object": "手动动画调整",
+      "context": "运动扭曲可以减少对手动创建和微调动画的需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "距离匹配",
+      "predicate": "使用",
+      "object": "距离计算",
+      "context": "距离匹配使用到目标或从目标出发的距离计算值来驱动动画序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "距离匹配",
+      "predicate": "同步",
+      "object": "动画播放与角色速度",
+      "context": "距离匹配可以使动画播放更好地契合角色速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "距离匹配",
+      "predicate": "减少",
+      "object": "手动动画调整",
+      "context": "距离匹配可以减少在改变角色行为时手动调整动画的必要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色移动系统",
+      "predicate": "包含",
+      "object": "根骨骼运动",
+      "context": "根骨骼运动是角色移动系统的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色移动系统",
+      "predicate": "包含",
+      "object": "姿势扭曲",
+      "context": "姿势扭曲是角色移动系统的功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色移动系统",
+      "predicate": "包含",
+      "object": "运动扭曲",
+      "context": "运动扭曲是角色移动系统的功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色移动系统",
+      "predicate": "包含",
+      "object": "距离匹配",
+      "context": "距离匹配是角色移动系统的功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势扭曲",
+      "predicate": "与",
+      "object": "运动扭曲",
+      "context": "姿势扭曲和运动扭曲都是用于优化动画与移动同步的技术，但实现方式不同",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:48:08.443Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6085,
+    "contentLength": 4471,
+    "processingTimeMs": 59432
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_ray-tracing-and-path-tracer-features-properties-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_ray-tracing-and-path-tracer-features-properties-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "光线追踪",
+      "predicate": "包含",
+      "object": "光线追踪全局光照",
+      "context": "光线追踪全局光照是光线追踪技术的一个子功能，用于计算动态间接光照",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光线追踪",
+      "predicate": "包含",
+      "object": "光线追踪反射",
+      "context": "光线追踪反射是光线追踪技术的一个子功能，用于计算动态场景反射",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光线追踪",
+      "predicate": "包含",
+      "object": "光线追踪环境光遮蔽",
+      "context": "光线追踪环境光遮蔽是光线追踪技术的一个子功能，用于计算环境光遮蔽效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光线追踪",
+      "predicate": "包含",
+      "object": "光线追踪半透明",
+      "context": "光线追踪半透明是光线追踪技术的一个子功能，用于处理半透明材质的渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "路径追踪",
+      "predicate": "扩展",
+      "object": "光线追踪",
+      "context": "路径追踪是光线追踪的一种更高级实现，能够提供更精确的光照模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理体积",
+      "predicate": "控制",
+      "object": "光线追踪全局光照",
+      "context": "后期处理体积包含光线追踪全局光照的设置参数，可以控制其行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理体积",
+      "predicate": "控制",
+      "object": "光线追踪反射",
+      "context": "后期处理体积包含光线追踪反射的设置参数，可以控制其行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理体积",
+      "predicate": "控制",
+      "object": "光线追踪环境光遮蔽",
+      "context": "后期处理体积包含光线追踪环境光遮蔽的设置参数，可以控制其行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理体积",
+      "predicate": "控制",
+      "object": "光线追踪半透明",
+      "context": "后期处理体积包含光线追踪半透明的设置参数，可以控制其行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理体积",
+      "predicate": "控制",
+      "object": "路径追踪",
+      "context": "后期处理体积包含路径追踪的设置参数，可以控制其行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定向光源",
+      "predicate": "支持",
+      "object": "光线追踪",
+      "context": "定向光源可以投射光线追踪阴影，并影响光线追踪反射和全局光照",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "点光源",
+      "predicate": "支持",
+      "object": "光线追踪",
+      "context": "点光源可以投射光线追踪阴影，并影响光线追踪反射和全局光照",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "聚光源",
+      "predicate": "支持",
+      "object": "光线追踪",
+      "context": "聚光源可以投射光线追踪阴影，并影响光线追踪反射和全局光照",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "矩形光源",
+      "predicate": "支持",
+      "object": "光线追踪",
+      "context": "矩形光源可以投射光线追踪阴影，并影响光线追踪反射和全局光照",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空光照",
+      "predicate": "支持",
+      "object": "光线追踪",
+      "context": "天空光照可以投射光线追踪阴影，并影响光线追踪反射和全局光照",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "影响",
+      "object": "光线追踪",
+      "context": "Actor的可见性和属性设置会影响其在光线追踪效果中的表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质",
+      "predicate": "影响",
+      "object": "光线追踪",
+      "context": "材质的属性设置会影响其在光线追踪效果中的表现，特别是阴影投射",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光线追踪全局光照",
+      "predicate": "包含方法",
+      "object": "Brute Force",
+      "context": "Brute Force是光线追踪全局光照的一种计算方法，提供更准确但性能消耗更大的结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光线追踪全局光照",
+      "predicate": "包含方法",
+      "object": "Final Gather",
+      "context": "Final Gather是光线追踪全局光照的一种计算方法，提供更快但精度较低的结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光线追踪反射",
+      "predicate": "回退到",
+      "object": "屏幕空间反射",
+      "context": "当粗糙度超过阈值时，光线追踪反射会回退到屏幕空间反射方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光线追踪半透明",
+      "predicate": "回退到",
+      "object": "栅格方法",
+      "context": "当粗糙度超过阈值时，光线追踪半透明会回退到栅格渲染方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "路径追踪",
+      "predicate": "使用",
+      "object": "降噪器",
+      "context": "路径追踪可以使用降噪器插件来减少渲染输出中的噪点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光线追踪",
+      "predicate": "依赖",
+      "object": "硬件支持",
+      "context": "光线追踪功能需要特定的硬件支持才能运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:33:40.179Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10059 字符)",
+      "timestamp": "2025-06-15T20:32:31.639Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 18002,
+    "contentLength": 10059,
+    "processingTimeMs": 68551
+  }
+}

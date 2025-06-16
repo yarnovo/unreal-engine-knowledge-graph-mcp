@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_proxy-geometry-tool-overview-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_proxy-geometry-tool-overview-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "代理几何体工具",
+      "predicate": "用于",
+      "object": "减少渲染开销",
+      "context": "代理几何体工具的主要目标是减少静态网格体及其对应材质和纹理的运行时渲染开销，帮助学习者理解该工具的核心用途",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "合并",
+      "object": "静态网格体",
+      "context": "工具将多个静态网格体及其对应材质合并为单个静态网格体，帮助学习者理解工具的基本操作方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "生成",
+      "object": "纹理",
+      "context": "工具会生成一组新的纹理对应于新创建的静态网格体几何体，帮助学习者了解工具的输出内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "优化",
+      "object": "性能",
+      "context": "使用代理几何体可以显著减少三角形数量和材质数量，从而优化运行时性能，帮助学习者理解工具的价值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体",
+      "predicate": "替代",
+      "object": "原始几何体",
+      "context": "在质量差异可接受或不明显时，代理几何体可以用作原始几何体的替代，帮助学习者理解应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "依赖",
+      "object": "着色器缓存",
+      "context": "工具首次处理几何体时需要填充着色器缓存，产生一次性开销，帮助学习者理解工具的内部机制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "快于",
+      "object": "第三方选项",
+      "context": "在适中空间大小的几何体群集上，该工具比第三方选项快2到3倍，帮助学习者进行技术选型比较",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "包含",
+      "object": "材质",
+      "context": "静态网格体通常包含对应的材质和纹理，帮助学习者理解3D模型的基本组成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "适用于",
+      "object": "优化场景",
+      "context": "特别适用于结构远离摄像机等质量差异不明显的场景，帮助学习者掌握工具的最佳实践",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "三角形数量",
+      "predicate": "影响",
+      "object": "渲染性能",
+      "context": "减少三角形数量可以显著提升渲染性能，这是代理几何体工具的核心优化原理",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质数量",
+      "predicate": "影响",
+      "object": "渲染开销",
+      "context": "减少材质数量可以降低渲染开销，这是代理几何体工具的重要优化手段",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "生成",
+      "object": "简化网格体",
+      "context": "工具生成的新静态网格体是原始网格体的简化版本，三角形数量更少但保留基本形状",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理生成",
+      "predicate": "基于",
+      "object": "原始纹理",
+      "context": "工具生成的新纹理是基于原始纹理创建的，但进行了优化处理",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:30:36.149Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4915,
+    "contentLength": 3160,
+    "processingTimeMs": 43931
+  }
+}

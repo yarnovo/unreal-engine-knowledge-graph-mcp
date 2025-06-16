@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-profiles-for-bodies-and-constraints-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-profiles-for-bodies-and-constraints-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "物理资源编辑器",
+      "predicate": "用于",
+      "object": "创建配置文件",
+      "context": "物理资源编辑器是创建和管理配置文件的主要工具，学习者需要掌握该工具才能有效使用配置文件功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "配置文件",
+      "predicate": "包含",
+      "object": "物理动画设置",
+      "context": "配置文件可以存储物理动画设置，这是配置文件的两种主要类型之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "配置文件",
+      "predicate": "包含",
+      "object": "约束设置",
+      "context": "配置文件可以存储约束设置，这是配置文件的两种主要类型之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理形体",
+      "predicate": "使用",
+      "object": "物理动画配置文件",
+      "context": "物理形体可以指定物理动画配置文件来控制其物理动画行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理约束",
+      "predicate": "使用",
+      "object": "约束配置文件",
+      "context": "物理约束可以指定约束配置文件来控制其约束行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架树",
+      "predicate": "用于",
+      "object": "选择物理形体或约束",
+      "context": "骨架树是选择和操作物理形体或约束的主要界面元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图表",
+      "predicate": "用于",
+      "object": "可视化形体或约束",
+      "context": "图表提供了形体或约束的可视化表示，帮助开发者理解其空间关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "显示",
+      "object": "配置文件属性",
+      "context": "细节面板展示了当前指定配置文件的详细属性，是调整参数的主要界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理动画配置文件",
+      "predicate": "控制",
+      "object": "形体物理行为",
+      "context": "物理动画配置文件中的参数直接影响形体的物理模拟行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "约束配置文件",
+      "predicate": "控制",
+      "object": "约束行为",
+      "context": "约束配置文件中的参数直接影响约束的限制行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "配置文件",
+      "predicate": "可被",
+      "object": "指定",
+      "context": "配置文件可以被指定给形体或约束，这是使用配置文件的基本操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "配置文件",
+      "predicate": "可被",
+      "object": "取消指定",
+      "context": "配置文件可以从形体或约束上取消指定，恢复默认设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "配置文件",
+      "predicate": "可被",
+      "object": "删除",
+      "context": "不再需要的配置文件可以从系统中删除",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理资源编辑器",
+      "predicate": "包含",
+      "object": "配置文件选项卡",
+      "context": "配置文件选项卡是物理资源编辑器中管理配置文件的主要界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理动画设置",
+      "predicate": "影响",
+      "object": "形体动画效果",
+      "context": "物理动画设置参数直接影响形体在物理模拟中的动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "约束设置",
+      "predicate": "影响",
+      "object": "关节运动范围",
+      "context": "约束设置参数直接影响关节在物理模拟中的运动范围和限制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:21:36.047Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7297,
+    "contentLength": 5251,
+    "processingTimeMs": 41277
+  }
+}

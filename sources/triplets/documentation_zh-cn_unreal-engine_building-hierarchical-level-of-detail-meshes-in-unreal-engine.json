@@ -1,0 +1,147 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_building-hierarchical-level-of-detail-meshes-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_building-hierarchical-level-of-detail-meshes-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "分层细节级别（HLOD）",
+      "predicate": "包含",
+      "object": "群集生成",
+      "context": "HLOD模型的构建首先需要生成群集，这是构建HLOD模型的第一步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分层细节级别（HLOD）",
+      "predicate": "包含",
+      "object": "代理模型生成",
+      "context": "生成群集后，需要基于群集生成代理模型，这是构建HLOD模型的第二步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "群集生成",
+      "predicate": "依赖",
+      "object": "群集生成设置",
+      "context": "群集的生成依赖于群集生成设置中的参数配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理模型生成",
+      "predicate": "依赖",
+      "object": "模型生成设置",
+      "context": "代理模型的生成依赖于模型生成设置中的参数配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "群集生成",
+      "predicate": "生成",
+      "object": "LOD Actor",
+      "context": "群集生成后会创建LOD Actor，用于表示群集",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD Actor",
+      "predicate": "包含",
+      "object": "静态网格体",
+      "context": "LOD Actor由多个静态网格体组成，展开LOD Actor可以查看其包含的静态网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HLOD大纲视图",
+      "predicate": "显示",
+      "object": "LOD Actor",
+      "context": "HLOD大纲视图用于显示和管理生成的LOD Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视口",
+      "predicate": "显示",
+      "object": "LOD Actor",
+      "context": "可以在视口中查看和选择LOD Actor，以观察群集的实际效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理模型生成",
+      "predicate": "生成",
+      "object": "静态网格体Actor",
+      "context": "代理模型生成后会创建新的静态网格体Actor，用于替代原始群集",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体Actor",
+      "predicate": "拥有",
+      "object": "光照图",
+      "context": "生成的静态网格体Actor拥有自身的光照图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体Actor",
+      "predicate": "可编辑",
+      "object": "静态网格体编辑器",
+      "context": "生成的静态网格体Actor可以在静态网格体编辑器中进行编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "强制的LOD级别",
+      "predicate": "用于",
+      "object": "调试HLOD",
+      "context": "强制的LOD级别功能可以用于调试和观察HLOD的实际效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "群集生成设置",
+      "predicate": "影响",
+      "object": "群集生成时间",
+      "context": "群集生成设置的复杂度和硬件配置会影响群集生成的时间",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "模型生成设置",
+      "predicate": "影响",
+      "object": "代理模型生成时间",
+      "context": "模型生成设置的复杂度和硬件配置会影响代理模型生成的时间",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "HLOD上下文菜单",
+      "predicate": "用于",
+      "object": "管理LOD Actor",
+      "context": "HLOD上下文菜单提供了对LOD Actor进行管理和设置的选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "用于",
+      "object": "排除Actor",
+      "context": "可以在细节面板中将Actor设置为不参与群集生成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:16:23.262Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9704 字符)",
+      "timestamp": "2025-06-15T18:15:31.142Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12855,
+    "contentLength": 9704,
+    "processingTimeMs": 52128
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_interchange-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_interchange-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "交换",
+      "predicate": "是",
+      "object": "导入系统",
+      "context": "交换是虚幻引擎中的一种新的导入系统，用于将资产直接导入到关卡中。这有助于学习者理解交换的基本功能和定位。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交换",
+      "predicate": "使用",
+      "object": "管线堆栈",
+      "context": "交换系统在导入资产时使用管线堆栈来执行导入流程，学习者需要了解管线堆栈在交换系统中的核心作用。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "管线堆栈",
+      "predicate": "包含",
+      "object": "管线",
+      "context": "管线堆栈由多个管线组成，并按顺序执行这些管线，这对学习者理解管线堆栈的结构和工作原理很重要。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认管线堆栈",
+      "predicate": "用于",
+      "object": "交换系统",
+      "context": "默认管线堆栈用于告知交换系统在导入资产时选择哪个管线，学习者需要了解默认配置的作用。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "管线配置对话框类",
+      "predicate": "配置",
+      "object": "管线",
+      "context": "管线配置对话框类用于在需要配置管线时弹出相应的对话框，学习者需要了解如何通过配置对话框类来管理管线。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InterchangePipelineConfigurationBase",
+      "predicate": "是",
+      "object": "管线配置对话框类选项",
+      "context": "InterchangePipelineConfigurationBase是管线配置对话框类的一个选项，学习者需要了解可用的配置选项。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InterchangePipelineConfigurationGeneric",
+      "predicate": "是",
+      "object": "管线配置对话框类选项",
+      "context": "InterchangePipelineConfigurationGeneric是管线配置对话框类的另一个选项，学习者需要了解可用的配置选项。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "显示管线堆栈配置对话框",
+      "predicate": "控制",
+      "object": "管线堆栈配置对话框",
+      "context": "显示管线堆栈配置对话框选项控制是否在导入或重新导入时显示配置对话框，学习者需要了解如何通过此选项管理导入流程。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交换（试验性）",
+      "predicate": "扩展",
+      "object": "交换",
+      "context": "交换（试验性）是交换系统的扩展功能，专门用于在导入到关卡时使用交换系统，学习者需要了解试验性功能与核心功能的区别。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "默认场景管线堆栈",
+      "predicate": "用于",
+      "object": "交换（试验性）",
+      "context": "默认场景管线堆栈用于在导入场景时告知交换系统选择哪个管线，学习者需要了解场景导入的特殊配置。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交换",
+      "predicate": "支持",
+      "object": "资产导入",
+      "context": "交换系统支持将资产直接导入到关卡中，这是其核心功能之一，学习者需要明确其应用场景。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交换（试验性）",
+      "predicate": "支持",
+      "object": "场景导入",
+      "context": "交换（试验性）功能支持场景导入，学习者需要了解其与普通资产导入的区别。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:37:06.988Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2607,
+    "contentLength": 1731,
+    "processingTimeMs": 57776
+  }
+}

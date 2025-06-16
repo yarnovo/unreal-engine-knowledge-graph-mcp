@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_scripting-the-unreal-editor-using-blueprints",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_scripting-the-unreal-editor-using-blueprints.md",
+  "triples": [
+    {
+      "subject": "蓝图",
+      "predicate": "用于",
+      "object": "编辑器脚本编写",
+      "context": "蓝图不仅可以创建运行时Gameplay，还可以用于开发与项目内容交互的操作和工具，帮助学习者理解蓝图的多样化应用场景",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器工具控件",
+      "predicate": "基于",
+      "object": "UMG控件",
+      "context": "编辑器工具控件是UMG控件的一种特殊形式，可在编辑器UI中渲染，帮助学习者理解其技术基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器工具控件",
+      "predicate": "适用于",
+      "object": "功能丰富的UI开发",
+      "context": "编辑器工具控件适合打造功能丰富的UI来控制蓝图，推荐用于多数编辑器脚本编写工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器工具蓝图",
+      "predicate": "专门用于",
+      "object": "纯编辑器逻辑",
+      "context": "编辑器工具蓝图专门用于仅在虚幻编辑器中运行的逻辑，不在运行时运行，帮助学习者区分运行时和编辑器专用蓝图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "脚本化操作",
+      "predicate": "实现方式",
+      "object": "编辑器工具蓝图",
+      "context": "脚本化操作是通过编辑器工具蓝图实现的，帮助学习者理解如何创建右键菜单触发的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在编辑器中调用",
+      "predicate": "适用于",
+      "object": "同时需要运行时和编辑器处理的蓝图",
+      "context": "在编辑器中调用方法适合需要在运行时和蓝图中同时处理的情况，帮助学习者选择合适的执行方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启动对象",
+      "predicate": "自动执行",
+      "object": "编辑器工具蓝图/控件",
+      "context": "启动对象会在编辑器加载项目时自动执行，帮助学习者理解如何实现编辑器启动时的自动化操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纯编辑器蓝图节点",
+      "predicate": "需要",
+      "object": "编辑器专用父类",
+      "context": "访问完整的纯编辑器功能需要从编辑器专用父类派生，帮助学习者理解功能访问限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器工具子系统",
+      "predicate": "管理",
+      "object": "编辑器脚本编写功能",
+      "context": "编辑器工具子系统专门用于管理编辑器脚本编写功能的行为，是核心管理模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可脚本化工具系统",
+      "predicate": "基于",
+      "object": "交互式工具框架",
+      "context": "可脚本化工具系统基于交互式工具框架，为技术美术提供工具设计方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器脚本编写插件",
+      "predicate": "扩展",
+      "object": "纯编辑器功能",
+      "context": "安装编辑器脚本编写插件可以扩展可用的纯编辑器功能，帮助学习者了解功能扩展方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "编辑器工具控件",
+      "predicate": "比...更灵活",
+      "object": "编辑器工具蓝图",
+      "context": "文档指出编辑器工具控件是最灵活和最强大的选项，帮助学习者根据需求选择合适的技术方案",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "编辑器工具子系统",
+      "predicate": "可用于",
+      "object": "程序化打开编辑器面板",
+      "context": "通过编辑器工具子系统可以程序化打开包含编辑器工具控件的新面板，展示高级用法",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:40:29.886Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10684,
+    "contentLength": 7370,
+    "processingTimeMs": 46760
+  }
+}

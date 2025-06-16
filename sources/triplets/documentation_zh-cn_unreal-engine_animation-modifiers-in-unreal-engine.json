@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-modifiers-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-modifiers-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "动画修改器",
+      "predicate": "属于",
+      "object": "蓝图类",
+      "context": "动画修改器是一种特殊的蓝图类，学习者需要先理解蓝图系统才能创建动画修改器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画修改器",
+      "predicate": "操作",
+      "object": "动画序列",
+      "context": "动画修改器的主要功能是修改动画序列数据，这是其核心应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "动画修改器",
+      "predicate": "操作",
+      "object": "骨架",
+      "context": "动画修改器也可以应用于骨架资源，影响所有基于该骨架的动画序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画修改器",
+      "predicate": "包含",
+      "object": "OnApply事件",
+      "context": "OnApply事件是动画修改器的核心功能实现部分，用于应用修改",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "动画修改器",
+      "predicate": "包含",
+      "object": "OnRevert事件",
+      "context": "OnRevert事件允许撤销修改，是动画修改器的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "动画修改器",
+      "predicate": "使用",
+      "object": "动画蓝图库",
+      "context": "动画修改器通过动画蓝图库提供的功能来访问和处理动画数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图库",
+      "predicate": "提供",
+      "object": "标记同步功能",
+      "context": "动画蓝图库包含专门用于处理动画同步标记的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图库",
+      "predicate": "提供",
+      "object": "骨骼姿势获取功能",
+      "context": "获取骨骼姿势是动画处理的基础功能，由动画蓝图库提供",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图库",
+      "predicate": "提供",
+      "object": "辅助节点",
+      "context": "辅助节点如时间/帧转换等是动画处理的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画编辑器",
+      "predicate": "包含",
+      "object": "动画数据修改器选项卡",
+      "context": "这是应用动画修改器的主要界面位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架编辑器",
+      "predicate": "包含",
+      "object": "动画数据修改器选项卡",
+      "context": "在骨架编辑器中也可以应用动画修改器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画修改器",
+      "predicate": "生成",
+      "object": "动画同步标记",
+      "context": "生成自动脚部同步标记是动画修改器的典型应用案例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画修改器",
+      "predicate": "添加",
+      "object": "通知轨道",
+      "context": "动画修改器可以动态添加通知轨道，这是其重要功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画修改器",
+      "predicate": "添加",
+      "object": "曲线轨道",
+      "context": "添加曲线轨道是动画修改器的另一重要功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "实例可编辑属性",
+      "predicate": "允许",
+      "object": "参数调整",
+      "context": "这些属性可以在动画工具中直接调整，增加修改器的灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画序列",
+      "predicate": "基于",
+      "object": "骨架",
+      "context": "理解动画序列与骨架的关系是使用动画修改器的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "获取骨骼姿势",
+      "predicate": "需要",
+      "object": "空间转换处理",
+      "context": "获取的骨骼姿势数据可能需要手动进行空间转换，这是重要注意事项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画修改器",
+      "predicate": "应用于",
+      "object": "骨架资源",
+      "context": "应用于骨架时会影响所有相关动画序列，与单个序列应用形成对比",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画修改器",
+      "predicate": "应用于",
+      "object": "单个动画序列",
+      "context": "可以针对单个序列应用修改，不影响其他序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图库",
+      "predicate": "包含",
+      "object": "查找骨骼路径功能",
+      "context": "查找骨骼路径是动画处理中的常用辅助功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:01:47.233Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10403,
+    "contentLength": 6863,
+    "processingTimeMs": 63225
+  }
+}

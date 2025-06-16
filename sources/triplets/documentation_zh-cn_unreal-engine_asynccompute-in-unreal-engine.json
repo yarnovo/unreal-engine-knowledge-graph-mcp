@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_asynccompute-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_asynccompute-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "异步计算",
+      "predicate": "属于",
+      "object": "渲染硬件接口",
+      "context": "异步计算是渲染硬件接口(RHI)支持的功能，学习者需要先理解RHI的基本概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "异步计算",
+      "predicate": "用于",
+      "object": "GPU资源优化",
+      "context": "异步计算的主要目的是有效利用未使用的GPU资源，这是学习其价值的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "异步计算",
+      "predicate": "依赖",
+      "object": "计算单元(CU)",
+      "context": "异步计算利用未使用的计算单元，理解CU是理解异步计算工作原理的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "异步计算",
+      "predicate": "使用",
+      "object": "dispatch()调用",
+      "context": "异步计算通过dispatch()调用执行，这是其核心API操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "异步计算",
+      "predicate": "需要",
+      "object": "上下文同步",
+      "context": "异步计算使用单独的上下文，需要与渲染上下文同步，这是重要的实现细节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Dr PIX",
+      "predicate": "用于",
+      "object": "识别异步计算优化机会",
+      "context": "Dr PIX工具可帮助开发者找到适合使用异步计算的场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RHIBeginAsyncComputeJob_DrawThread",
+      "predicate": "启动",
+      "object": "异步计算任务",
+      "context": "这是开始异步计算任务的核心API函数，学习者需要掌握其用法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RHIEndAsyncComputeJob_DrawThread",
+      "predicate": "结束",
+      "object": "异步计算任务",
+      "context": "与开始函数配对使用，完成异步计算任务并返回同步栅栏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RHIGraphicsWaitOnAsyncComputeJob",
+      "predicate": "实现",
+      "object": "图形计算同步",
+      "context": "该API用于确保图形上下文等待异步计算完成，是同步机制的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "异步计算",
+      "predicate": "受限于",
+      "object": "UAV计数器缓冲",
+      "context": "了解异步计算的限制条件对正确使用很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "异步计算",
+      "predicate": "配置方式",
+      "object": "r.AsyncCompute控制台变量",
+      "context": "运行时可通过该变量控制异步计算的启用状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "异步计算",
+      "predicate": "调试工具",
+      "object": "PIX定时采集",
+      "context": "虽然不支持GPU采集，但PIX定时采集可用于调试异步计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "异步计算",
+      "predicate": "基于",
+      "object": "Xbox One平台",
+      "context": "该功能最初是为Xbox One平台实现的优化工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "异步计算",
+      "predicate": "不适用于",
+      "object": "D3D11.1",
+      "context": "PC上默认禁用因为D3D11.1不支持，这是重要的平台兼容性知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "异步计算",
+      "predicate": "优先级控制",
+      "object": "AsyncComputePriority",
+      "context": "理解优先级设置对资源分配的影响是优化性能的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:07:39.952Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3892,
+    "contentLength": 2466,
+    "processingTimeMs": 49684
+  }
+}

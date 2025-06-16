@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-pix-on-windows-with-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-pix-on-windows-with-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Pix",
+      "predicate": "是",
+      "object": "图形调试器",
+      "context": "Pix是一款由微软维护的免费独立式专有图形调试器，帮助开发者调试图形应用程序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pix",
+      "predicate": "支持",
+      "object": "D3D11",
+      "context": "Pix支持D3D11图形API，但需要使用模拟器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pix",
+      "predicate": "支持",
+      "object": "D3D12",
+      "context": "Pix原生支持D3D12图形API",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pix",
+      "predicate": "支持",
+      "object": "Xbox GDK",
+      "context": "Pix支持Xbox GDK图形API",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pix",
+      "predicate": "用于",
+      "object": "帧捕获",
+      "context": "Pix可以用于捕获应用程序的单帧，以便详细检查GPU上的情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "Pix集成",
+      "context": "虚幻引擎可以通过命令行参数启用Pix集成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pix集成",
+      "predicate": "需要",
+      "object": "-AttachPix参数",
+      "context": "在虚幻引擎中启用Pix集成需要传入-AttachPix命令行参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pix",
+      "predicate": "提供",
+      "object": "帧分析功能",
+      "context": "Pix可以加载捕获的帧，通过事件、API调用等信息全面详细地检查GPU上正在发生的情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pix",
+      "predicate": "可用于",
+      "object": "性能优化",
+      "context": "通过Pix的帧捕获和分析功能，开发者可以进行性能优化",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Pix",
+      "predicate": "可用于",
+      "object": "渲染调试",
+      "context": "Pix作为图形调试器，特别适用于渲染相关的调试工作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Pix",
+      "predicate": "需要",
+      "object": "禁用后台CPU限制",
+      "context": "为了确保Pix捕获中能看到所有事件，需要禁用'在后台使用较少CPU'编辑器设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pix",
+      "predicate": "有",
+      "object": "独立应用程序",
+      "context": "Pix可以作为独立应用程序运行，也可以集成到虚幻引擎中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pix",
+      "predicate": "支持",
+      "object": "D3D11On12模拟",
+      "context": "对于D3D11应用程序，Pix需要使用D3D11On12模拟选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pix",
+      "predicate": "提供",
+      "object": "原生捕获按钮",
+      "context": "Pix应用程序提供原生捕获按钮用于帧捕获",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pix",
+      "predicate": "可以",
+      "object": "附加到运行进程",
+      "context": "Pix可以附加到正在运行的进程进行调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:21:35.002Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5920,
+    "contentLength": 4188,
+    "processingTimeMs": 40232
+  }
+}

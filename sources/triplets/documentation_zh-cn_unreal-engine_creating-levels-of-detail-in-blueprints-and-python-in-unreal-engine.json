@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_creating-levels-of-detail-in-blueprints-and-python-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_creating-levels-of-detail-in-blueprints-and-python-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "细节层级(LOD)",
+      "predicate": "用于",
+      "object": "性能优化",
+      "context": "LOD系统通过在不同距离显示不同细节级别的网格体来提高游戏性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "包含",
+      "object": "细节层级(LOD)",
+      "context": "静态网格体可以包含多个细节层级版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器脚本工具插件",
+      "predicate": "支持",
+      "object": "LOD自动化创建",
+      "context": "该插件提供了通过蓝图或Python脚本自动化创建LOD的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Set Lods节点",
+      "predicate": "实现",
+      "object": "LOD自动生成",
+      "context": "该蓝图节点用于自动为静态网格体创建细节层级",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EditorScriptingMeshReductionOptions",
+      "predicate": "控制",
+      "object": "LOD生成参数",
+      "context": "该对象包含LOD生成的各种设置参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EditorScriptingMeshReductionSettings",
+      "predicate": "定义",
+      "object": "LOD级别设置",
+      "context": "该对象定义每个LOD级别的三角形百分比和屏幕大小阈值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD组",
+      "predicate": "基于",
+      "object": "BaseEngine.ini配置",
+      "context": "LOD组使用项目配置文件中的预设置简化参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Set Lod From Static Mesh节点",
+      "predicate": "实现",
+      "object": "LOD重用",
+      "context": "该节点允许将一个静态网格体的LOD复用到另一个静态网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "替代",
+      "object": "Python",
+      "context": "在编辑器脚本中，蓝图和Python都可以用于实现LOD自动化功能",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "LOD 0",
+      "predicate": "包含",
+      "object": "完整网格体",
+      "context": "LOD 0始终包含网格体的所有三角形，是最高细节级别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体编辑器",
+      "predicate": "提供",
+      "object": "LOD管理功能",
+      "context": "静态网格体编辑器提供了手动和自动创建LOD的工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动LOD生成",
+      "predicate": "依赖",
+      "object": "网格体简化算法",
+      "context": "自动生成LOD需要网格体简化算法来减少三角形数量",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "LOD屏幕大小",
+      "predicate": "决定",
+      "object": "LOD切换时机",
+      "context": "每个LOD级别的屏幕大小阈值决定了何时切换到该级别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EditorStaticMeshLibrary",
+      "predicate": "包含",
+      "object": "LOD操作函数",
+      "context": "该Python库提供了操作静态网格体LOD的各种函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "保存资源节点",
+      "predicate": "用于",
+      "object": "持久化LOD修改",
+      "context": "修改LOD后需要使用保存节点使更改永久生效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:42:24.347Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11133 字符)",
+      "timestamp": "2025-06-15T18:41:38.514Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17223,
+    "contentLength": 11133,
+    "processingTimeMs": 45838
+  }
+}

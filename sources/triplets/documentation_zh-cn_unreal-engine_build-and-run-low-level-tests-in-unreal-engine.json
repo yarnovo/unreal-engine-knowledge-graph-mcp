@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_build-and-run-low-level-tests-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_build-and-run-low-level-tests-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "低级别测试",
+      "predicate": "构建工具",
+      "object": "Visual Studio",
+      "context": "Visual Studio是构建和运行低级别测试的工具之一，支持测试发现和执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "低级别测试",
+      "predicate": "构建工具",
+      "object": "虚幻编译工具(UBT)",
+      "context": "UBT可用于编译显式测试，生成测试可执行文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "低级别测试",
+      "predicate": "构建工具",
+      "object": "BuildGraph",
+      "context": "BuildGraph是推荐的构建和运行测试工具，支持自动化测试流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Visual Studio",
+      "predicate": "扩展支持",
+      "object": "UnrealVS",
+      "context": "UnrealVS扩展增强了Visual Studio的测试发现能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "低级别测试",
+      "predicate": "依赖",
+      "object": "Catch2",
+      "context": "低级别测试使用Catch2作为测试框架，支持测试发现和执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "依赖",
+      "object": "测试元数据文件",
+      "context": "BuildGraph脚本执行依赖于正确生成的测试元数据文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "低级别测试",
+      "predicate": "包含",
+      "object": "显式测试",
+      "context": "显式测试是低级别测试的一种类型，可以通过多种工具构建和运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "低级别测试",
+      "predicate": "前置知识",
+      "object": "低级别测试类型",
+      "context": "理解低级别测试类型是构建和运行测试的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "低级别测试",
+      "predicate": "前置知识",
+      "object": "编写低级别测试",
+      "context": "编写测试是构建和运行测试的前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基础测试项目",
+      "predicate": "位于",
+      "object": "Programs/LowLevelTests",
+      "context": "基础测试项目是学习低级别测试的起点，位于特定目录",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "测试生命周期事件",
+      "predicate": "定义于",
+      "object": "Tests/TestGroupEvents.cpp",
+      "context": "测试生命周期事件影响测试执行顺序，需要在特定文件中定义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UBT",
+      "predicate": "生成",
+      "object": "测试可执行文件",
+      "context": "UBT编译测试后生成可执行文件，用于运行测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "测试可执行文件",
+      "predicate": "支持",
+      "object": "命令行参数",
+      "context": "测试可执行文件支持多种命令行参数，用于配置测试行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "支持",
+      "object": "多平台测试",
+      "context": "BuildGraph支持在不同平台上构建和运行测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "低级别测试",
+      "predicate": "适用于",
+      "object": "CI/CD管道",
+      "context": "低级别测试可集成到持续集成/持续交付流程中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:16:18.967Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9149 字符)",
+      "timestamp": "2025-06-15T18:15:31.136Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13399,
+    "contentLength": 9149,
+    "processingTimeMs": 47835
+  }
+}

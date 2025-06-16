@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_texture-streaming-metrics-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_texture-streaming-metrics-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "STAT STREAMING",
+      "predicate": "用于",
+      "object": "纹理流送状态分析",
+      "context": "STAT STREAMING命令是分析纹理流送性能、内存使用和其他指标的主要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理流送器",
+      "predicate": "管理",
+      "object": "纹理内存池",
+      "context": "纹理流送器负责管理Texture Pool、Streaming Pool和Wanted Pool等内存资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Texture Pool",
+      "predicate": "包含",
+      "object": "Streaming Pool",
+      "context": "Texture Pool是总内存池，包含专门用于纹理流送的Streaming Pool",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Streaming Pool",
+      "predicate": "由",
+      "object": "Visible Mips、Hidden Mips、Forced Mips、Cached Mips组成",
+      "context": "Streaming Pool的内存使用情况可以通过这些细分指标来分析",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Safety Pool",
+      "predicate": "用于",
+      "object": "意外内存分配",
+      "context": "Safety Pool是为非流送分配预留的内存缓冲区，防止内存波动影响流送稳定性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Temporary Pool",
+      "predicate": "控制",
+      "object": "纹理调整内存",
+      "context": "Temporary Pool用于纹理大小调整时的临时内存需求，影响流送请求数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.Streaming.MaxTempMemoryAllowed",
+      "predicate": "影响",
+      "object": "流送速度",
+      "context": "此参数控制临时池大小，直接影响IO系统的工作量和流送效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "增量处理",
+      "predicate": "优化",
+      "object": "关卡加载性能",
+      "context": "从UE4.15开始引入的增量处理机制显著减少了关卡加载时的卡顿",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.Streaming.NumStaticComponentsProcessedPerFrame",
+      "predicate": "控制",
+      "object": "增量处理工作量",
+      "context": "此参数决定每帧处理的静态组件数量，影响加载平滑度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理流送优化",
+      "predicate": "包含",
+      "object": "减少CPU时间、提高流送效率、消除低精度问题",
+      "context": "UE4.15的优化从多个方面改进了纹理流送系统的性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UV密度计算",
+      "predicate": "基于",
+      "object": "材质而非网格体",
+      "context": "按材质计算UV密度解决了多数纹理分辨率较低的问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理流送器",
+      "predicate": "自动适应",
+      "object": "不同内存预算",
+      "context": "优化后的流送器可以自动调整纹理流送策略以适应不同内存条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Visible Mips",
+      "predicate": "优先于",
+      "object": "Hidden Mips",
+      "context": "流送器会优先处理可见纹理的流送请求，提高视觉质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理流送指标",
+      "predicate": "用于",
+      "object": "性能优化",
+      "context": "各种内存和性能指标是优化纹理流送系统的重要依据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IO Bandwidth",
+      "predicate": "反映",
+      "object": "流送系统吞吐量",
+      "context": "此指标帮助开发者了解纹理流送系统的数据传输效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:01:32.732Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11862,
+    "contentLength": 6673,
+    "processingTimeMs": 44440
+  }
+}

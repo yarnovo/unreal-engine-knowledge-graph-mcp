@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_edit-conditions-for-properties-in-the-details-panel-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_edit-conditions-for-properties-in-the-details-panel-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "细节面板",
+      "predicate": "包含",
+      "object": "属性字段",
+      "context": "细节面板是虚幻引擎中用于显示和编辑对象属性的界面，属性字段是其核心组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UPROPERTY",
+      "predicate": "支持",
+      "object": "EditCondition元数据",
+      "context": "UPROPERTY宏通过EditCondition元数据标签实现属性编辑条件控制，是属性编辑条件的基础机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EditCondition",
+      "predicate": "使用",
+      "object": "逻辑运算符",
+      "context": "EditCondition支持使用逻辑运算符(!=, &&, ||等)构建复杂条件表达式，这对学习条件逻辑实现很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EditConditionHides",
+      "predicate": "扩展",
+      "object": "EditCondition",
+      "context": "EditConditionHides在EditCondition基础上增加了隐藏功能，是更高级的条件控制方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板自定义",
+      "predicate": "实现",
+      "object": "复杂编辑条件",
+      "context": "当UPROPERTY元数据无法满足需求时，可以通过细节面板自定义实现更复杂的编辑条件逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IDetailLayoutBuilder",
+      "predicate": "用于",
+      "object": "细节面板自定义",
+      "context": "IDetailLayoutBuilder是进行细节面板自定义编程的主要接口，学习它对于掌握高级自定义很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate控件",
+      "predicate": "支持",
+      "object": "自定义编辑条件",
+      "context": "在细节面板中，Slate控件可以通过IsEnabled等参数实现自定义的编辑条件控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FCustomClassDetailsCustomization",
+      "predicate": "继承",
+      "object": "IDetailCustomization",
+      "context": "FCustomClassDetailsCustomization通过继承IDetailCustomization接口实现细节面板自定义，这是学习自定义的典型模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性字段",
+      "predicate": "依赖",
+      "object": "IPropertyHandle",
+      "context": "在细节面板自定义中操作属性字段需要用到IPropertyHandle接口获取属性信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板刷新",
+      "predicate": "依赖",
+      "object": "ForceRefreshDetails",
+      "context": "实现动态编辑条件时需要调用ForceRefreshDetails来刷新面板，这是重要的交互机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EditCondition",
+      "predicate": "替代",
+      "object": "InlineEditConditionToggle",
+      "context": "InlineEditConditionToggle提供了一种替代EditCondition的内联切换方式，适用于简单的是/否条件",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "细节面板自定义",
+      "predicate": "前置",
+      "object": "细节面板快速入门",
+      "context": "学习细节面板自定义需要先掌握细节面板快速入门中的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UPROPERTY编辑条件",
+      "predicate": "不适用于",
+      "object": "函数条件",
+      "context": "UPROPERTY的EditCondition不支持直接使用函数作为条件，这是重要的限制条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义编辑条件",
+      "predicate": "需要",
+      "object": "细节面板刷新机制",
+      "context": "实现自定义编辑条件通常需要配合细节面板刷新机制来保持UI同步",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "SButton",
+      "predicate": "使用",
+      "object": "IsEnabled参数",
+      "context": "Slate按钮控件通过IsEnabled参数实现编辑条件控制，这是Slate控件条件控制的典型方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:55:55.497Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11019 字符)",
+      "timestamp": "2025-06-15T18:55:05.324Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14697,
+    "contentLength": 11019,
+    "processingTimeMs": 50177
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_online-services-console-commands-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_online-services-console-commands-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "在线服务控制台命令",
+      "predicate": "用于",
+      "object": "调试和测试在线服务插件",
+      "context": "控制台命令是开发者调试和测试在线服务插件的主要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务控制台命令",
+      "predicate": "依赖",
+      "object": "虚幻引擎控制台",
+      "context": "控制台命令需要通过虚幻引擎控制台执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务控制台命令",
+      "predicate": "包含",
+      "object": "参数",
+      "context": "控制台命令由多个参数组成，包括服务索引、接口、功能等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "参数",
+      "predicate": "包含",
+      "object": "特殊类型",
+      "context": "参数支持多种特殊类型如FAccountId、TSharedPtr等，用于处理复杂数据类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务控制台命令",
+      "predicate": "前置条件",
+      "object": "启用在线服务插件",
+      "context": "使用控制台命令前必须启用并配置在线服务插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务控制台命令",
+      "predicate": "关联",
+      "object": "在线服务接口",
+      "context": "控制台命令通过接口访问在线服务的各种功能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务接口",
+      "predicate": "包含",
+      "object": "身份验证接口",
+      "context": "身份验证是常见的在线服务接口之一",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "在线服务接口",
+      "predicate": "包含",
+      "object": "在线状态接口",
+      "context": "在线状态管理是常见的在线服务功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "在线服务接口",
+      "predicate": "包含",
+      "object": "数据统计接口",
+      "context": "数据统计是常见的在线服务功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FAccountId",
+      "predicate": "用于",
+      "object": "标识用户账户",
+      "context": "FAccountId是标识用户账户的特殊参数类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSharedPtr",
+      "predicate": "用于",
+      "object": "处理共享指针",
+      "context": "TSharedPtr是处理共享指针的特殊参数类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TOptional",
+      "predicate": "用于",
+      "object": "处理可选值",
+      "context": "TOptional是处理可选值的特殊参数类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TVariant",
+      "predicate": "用于",
+      "object": "处理多种数据类型",
+      "context": "TVariant是处理多种数据类型的特殊参数类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnlineServices List命令",
+      "predicate": "用于",
+      "object": "列出可用在线服务",
+      "context": "该命令可以列出所有可用的平台服务及其索引号",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetLocalOnlineUserByPlatformUserId命令",
+      "predicate": "用于",
+      "object": "获取本地在线用户信息",
+      "context": "该命令可以获取指定平台用户的在线账户信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetEnumeratedFiles命令",
+      "predicate": "用于",
+      "object": "获取作品文件列表",
+      "context": "该命令可以获取后台在线服务中注册的作品文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务控制台命令",
+      "predicate": "关联",
+      "object": "控制台变量",
+      "context": "控制台命令和控制台变量都是虚幻引擎控制台系统的重要组成部分",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "在线服务插件",
+      "predicate": "包含",
+      "object": "在线服务控制台命令",
+      "context": "控制台命令是在线服务插件提供的功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务插件",
+      "predicate": "关联",
+      "object": "平台服务",
+      "context": "插件可以访问多个平台服务如Epic、Steam等",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平台服务",
+      "predicate": "包含",
+      "object": "Null服务",
+      "context": "Null是默认的平台服务之一",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "平台服务",
+      "predicate": "包含",
+      "object": "Epic服务",
+      "context": "Epic是常见的平台服务之一",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "平台服务",
+      "predicate": "包含",
+      "object": "Steam服务",
+      "context": "Steam是常见的平台服务之一",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:09:36.893Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11082,
+    "contentLength": 7811,
+    "processingTimeMs": 57533
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_horde-self-signed-certs-tutorial-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_horde-self-signed-certs-tutorial-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Horde",
+      "predicate": "支持",
+      "object": "自签名证书",
+      "context": "Horde在测试环境中支持使用自签名证书进行HTTPS连接，帮助开发者理解测试环境与生产环境的证书配置差异",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自签名证书",
+      "predicate": "用于",
+      "object": "测试场景",
+      "context": "文档明确指出自签名证书适用于测试场景而非生产环境，帮助学习者区分不同环境的安全要求",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "New-SelfSignedCertificate",
+      "predicate": "生成",
+      "object": "自签名证书",
+      "context": "PowerShell命令New-SelfSignedCertificate用于生成自签名证书，是证书配置流程的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "certmgr.msc",
+      "predicate": "管理",
+      "object": "证书存储",
+      "context": "证书管理器工具用于将证书从个人存储区复制到受信任根证书存储区，展示Windows证书管理流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "server.json",
+      "predicate": "配置",
+      "object": "HTTPS端口",
+      "context": "配置文件中的HttpsPort设置与证书信息关联，说明服务端HTTPS的启用方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Kestrel",
+      "predicate": "使用",
+      "object": "证书配置",
+      "context": "Kestrel服务器的证书配置段展示如何将证书与Web服务器绑定，涉及ASP.NET Core技术栈",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "客户端",
+      "predicate": "需要",
+      "object": "信任证书",
+      "context": "客户端必须安装服务器证书到受信任存储区，体现HTTPS双向信任机制的学习要点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Google Chrome",
+      "predicate": "提供",
+      "object": "证书导出功能",
+      "context": "浏览器特定的证书导出步骤说明不同客户端工具的操作差异",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "生产环境",
+      "predicate": "要求",
+      "object": "已验证证书",
+      "context": "与测试环境形成对比，强调生产环境必须使用CA签名证书的安全规范",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "自签名证书",
+      "predicate": "绕过",
+      "object": "安全措施",
+      "context": "关键安全警示，说明自签名证书仅用于测试的根本原因",
+      "direction": "unidirectional",
+      "confidence": 1
+    }
+  ],
+  "timestamp": "2025-06-15T19:20:34.360Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3566,
+    "contentLength": 2506,
+    "processingTimeMs": 39644
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_enabling-the-proxy-geometry-tool-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_enabling-the-proxy-geometry-tool-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "代理几何体工具",
+      "predicate": "属于",
+      "object": "虚幻引擎5.6",
+      "context": "代理几何体工具是虚幻引擎5.6中的一个功能模块，了解其所属引擎版本有助于学习者确定功能可用性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "依赖",
+      "object": "ProxyLODMeshReduction插件",
+      "context": "启用代理几何体工具需要先激活ProxyLODMeshReduction插件，这是功能实现的技术前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ProxyLODMeshReduction插件",
+      "predicate": "位于",
+      "object": "分层LOD网格体简化设置",
+      "context": "插件在项目设置的分层LOD网格体简化部分配置，帮助学习者定位配置路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "通过访问",
+      "object": "合并Actor工具",
+      "context": "代理几何体工具需要通过合并Actor工具的界面入口访问，建立工作流程关联",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分层LOD网格体简化",
+      "predicate": "包含",
+      "object": "ProxyLODMeshReduction插件",
+      "context": "插件是分层LOD系统的一部分，说明其在引擎架构中的位置关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "包含",
+      "object": "编辑器设置",
+      "context": "编辑器相关配置位于项目设置中，帮助学习者理解设置的组织结构",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "编辑器设置",
+      "predicate": "包含",
+      "object": "分层LOD网格体简化",
+      "context": "分层LOD配置属于编辑器功能设置的一部分，建立配置项的层级关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "需要",
+      "object": "静态网格体选择",
+      "context": "工具选项需要先选择静态网格体才能激活，说明操作的前置条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合并Actor工具",
+      "predicate": "提供入口",
+      "object": "代理几何体工具",
+      "context": "两个工具的界面关联关系，帮助学习者理解功能入口的分布",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:57:39.043Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3098,
+    "contentLength": 2404,
+    "processingTimeMs": 53410
+  }
+}

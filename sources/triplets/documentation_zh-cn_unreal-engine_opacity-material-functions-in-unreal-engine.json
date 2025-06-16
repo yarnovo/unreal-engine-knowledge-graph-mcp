@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_opacity-material-functions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_opacity-material-functions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "SoftOpacity",
+      "predicate": "属于",
+      "object": "不透明度材质函数",
+      "context": "SoftOpacity是虚幻引擎中不透明度材质函数的一种具体实现，学习者需要先理解不透明度材质函数的整体概念才能掌握SoftOpacity",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "不透明度材质函数",
+      "predicate": "用于",
+      "object": "复杂不透明度计算",
+      "context": "文档明确指出不透明度材质函数的主要用途是加速处理复杂的不透明度计算，这是学习这类函数的基础认知",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "SoftOpacity",
+      "predicate": "实现",
+      "object": "柔和视觉效果",
+      "context": "SoftOpacity通过特定计算产生柔和感觉，这是该函数的核心功能特征，对理解其应用场景至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SoftOpacity",
+      "predicate": "应用",
+      "object": "菲涅耳效果",
+      "context": "菲涅耳效果是SoftOpacity实现视觉柔化的关键技术手段，理解这个关系有助于掌握材质编程原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SoftOpacity",
+      "predicate": "应用",
+      "object": "基于深度的阿尔法",
+      "context": "深度阿尔法计算是SoftOpacity实现距离相关透明度的核心算法，这对理解3D空间中的材质表现很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SoftOpacity",
+      "predicate": "应用",
+      "object": "像素深度",
+      "context": "像素深度处理是SoftOpacity实现精确透明渐变的技术基础，关系到渲染质量优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "消退距离深度",
+      "predicate": "控制",
+      "object": "对象完全消失条件",
+      "context": "理解这个输入参数的作用是配置SoftOpacity行为的关键，直接影响最终渲染效果",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "输入不透明度",
+      "predicate": "作为",
+      "object": "SoftOpacity基础输入",
+      "context": "这是函数处理的基础数据，理解数据流动是掌握材质函数工作原理的第一步",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "消退距离",
+      "predicate": "决定",
+      "object": "淡出起始位置",
+      "context": "这个参数控制透明渐变的起始点，是调整材质外观的重要调节项",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "输出使用深度偏离",
+      "predicate": "相比",
+      "object": "输出无深度偏离",
+      "context": "两种输出的比较展示了性能与效果的权衡，这对优化材质性能有重要指导意义",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SoftOpacity",
+      "predicate": "产生",
+      "object": "距离相关透明度",
+      "context": "这是函数的核心行为特征，理解这个关系对掌握动态透明效果实现原理很关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "不透明度材质函数",
+      "predicate": "关联",
+      "object": "材质系统",
+      "context": "这些函数是虚幻引擎材质系统的重要组成部分，建立这个关联有助于理解引擎的完整渲染管线",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "SoftOpacity",
+      "predicate": "示例展示",
+      "object": "菲涅耳效果应用",
+      "context": "文档中的圆柱体示例直观展示了菲涅耳效果的表现形式，这对理解理论概念很有帮助",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:11:18.345Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2456,
+    "contentLength": 1556,
+    "processingTimeMs": 47658
+  }
+}

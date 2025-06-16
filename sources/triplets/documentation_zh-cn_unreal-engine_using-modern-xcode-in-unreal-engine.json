@@ -1,0 +1,147 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-modern-xcode-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-modern-xcode-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎5.3+",
+      "predicate": "更新",
+      "object": "Xcode项目工作流程",
+      "context": "文档明确指出UE5.3更新了Xcode项目工作流程，使其更符合标准Xcode应用程序项目",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "现代化Xcode工作流程",
+      "predicate": "支持",
+      "object": "自动代码签名",
+      "context": "新工作流程默认支持Xcode的自动代码签名功能，简化开发流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "现代化Xcode工作流程",
+      "predicate": "支持",
+      "object": "标准Xcode框架处理",
+      "context": "新工作流程使用标准Xcode方法处理框架，而不是手动复制和签名",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Xcode工作空间",
+      "predicate": "包含",
+      "object": "单独平台项目",
+      "context": "UE5.3+为每个Apple平台创建单独的工作空间，简化项目管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "打包流程",
+      "predicate": "统一",
+      "object": "macOS和iOS/tvOS/iPadOS",
+      "context": "文档说明macOS和iOS平台的打包流程现在完全一致",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分发模式",
+      "predicate": "生成",
+      "object": "Xcode存档(.xcarchive)",
+      "context": "分发模式现在创建标准Xcode存档用于App Store分发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纯内容/纯蓝图项目",
+      "predicate": "重用",
+      "object": "UnrealGame目标",
+      "context": "没有源代码的项目会重用引擎的通用UnrealGame目标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代码签名",
+      "predicate": "依赖",
+      "object": "团队ID",
+      "context": "代码签名需要配置正确的团队ID，可从Apple开发者页面获取",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": ".plist文件",
+      "predicate": "控制",
+      "object": "应用程序配置",
+      "context": ".plist文件包含应用程序的重要配置信息，可通过Xcode编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MacOS应用程序",
+      "predicate": "需要",
+      "object": "代码签名",
+      "context": "自2023年起，Apple要求macOS应用也必须进行代码签名",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "权限文件",
+      "predicate": "控制",
+      "object": "应用程序功能",
+      "context": "权限文件控制应用程序能使用的Apple特定功能和限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "现代化Xcode工作流程",
+      "predicate": "改进",
+      "object": "开发效率",
+      "context": "新工作流程通过更好的整理和工具访问提高了Xcode开发效率",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Xcode项目",
+      "predicate": "分离",
+      "object": "目标类型",
+      "context": "UE5.3+为每种目标类型(Editor, Game, Client, Server)创建单独项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "应用程序显示名称",
+      "predicate": "配置于",
+      "object": "MacEngine.ini",
+      "context": "MacOS应用的显示名称可在MacEngine.ini中通过ApplicationDisplayName设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分发构建",
+      "predicate": "生成",
+      "object": ".dSYM文件",
+      "context": "分发构建时会生成.dSYM文件用于调试崩溃报告",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "沙盒设置",
+      "predicate": "影响",
+      "object": "日志文件位置",
+      "context": "是否启用沙盒决定了应用程序日志文件的存储位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:20:38.876Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12523 字符)",
+      "timestamp": "2025-06-15T21:19:54.787Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 20198,
+    "contentLength": 12523,
+    "processingTimeMs": 44090
+  }
+}

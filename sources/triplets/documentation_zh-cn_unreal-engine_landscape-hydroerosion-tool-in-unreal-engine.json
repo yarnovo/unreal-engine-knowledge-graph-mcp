@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_landscape-hydroerosion-tool-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_landscape-hydroerosion-tool-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "水力侵蚀工具",
+      "predicate": "基于",
+      "object": "水力侵蚀模拟",
+      "context": "水力侵蚀工具的核心功能依赖于水力侵蚀模拟的计算结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水力侵蚀模拟",
+      "predicate": "使用",
+      "object": "Noise过滤器",
+      "context": "Noise过滤器用于决定模拟中初始降雨的出现位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水力侵蚀模拟",
+      "predicate": "计算",
+      "object": "高度图调整值",
+      "context": "模拟计算水流、消融、迁移和蒸发等过程，最终生成用于调整高度图的数值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水力侵蚀工具",
+      "predicate": "包含",
+      "object": "Tool Strength",
+      "context": "Tool Strength是水力侵蚀工具的重要参数之一，控制每次笔刷笔划的效果量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水力侵蚀工具",
+      "predicate": "包含",
+      "object": "Rain Amount",
+      "context": "Rain Amount参数控制应用至地表的降雨量，直接影响侵蚀效果强度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水力侵蚀工具",
+      "predicate": "包含",
+      "object": "Sediment Cap.",
+      "context": "Sediment Cap.参数控制水流可带动的沉积物量，影响侵蚀效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水力侵蚀工具",
+      "predicate": "包含",
+      "object": "Iterations",
+      "context": "Iterations参数决定执行的迭代次数，影响生成的侵蚀层数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水力侵蚀工具",
+      "predicate": "包含",
+      "object": "Initial Rain Distribution",
+      "context": "该参数控制降雨的初始分布方式，影响侵蚀效果的区域性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水力侵蚀工具",
+      "predicate": "包含",
+      "object": "Rain Dist Scale",
+      "context": "该参数控制noise过滤器的尺寸，影响降雨分布模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水力侵蚀工具",
+      "predicate": "包含",
+      "object": "Detail Smooth",
+      "context": "该功能用于对侵蚀效果执行保留细节的平滑操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水力侵蚀工具",
+      "predicate": "应用于",
+      "object": "地形高度图",
+      "context": "水力侵蚀工具的主要功能是调整地形高度图的高度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水力侵蚀工具",
+      "predicate": "使用",
+      "object": "Left Mouse Button",
+      "context": "左键用于应用noise过滤器对高度图形成侵蚀",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Initial Rain Distribution",
+      "predicate": "包含选项",
+      "object": "Both",
+      "context": "Both选项使用随机模式在部分地区形成降雨",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Initial Rain Distribution",
+      "predicate": "包含选项",
+      "object": "Positive",
+      "context": "Positive选项在应用区域的所有地方上形成降雨",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Detail Smooth",
+      "predicate": "影响",
+      "object": "侵蚀细节",
+      "context": "Detail Smooth参数值越大，会移除更多细节；数值越小，则保留更多细节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Rain Dist Scale",
+      "predicate": "控制",
+      "object": "noise过滤器应用",
+      "context": "该参数决定noise过滤器在不同位置的重复应用模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:40:48.286Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3851,
+    "contentLength": 2507,
+    "processingTimeMs": 56627
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_edit-attributes-tool-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_edit-attributes-tool-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "编辑属性工具",
+      "predicate": "属于",
+      "object": "建模模式",
+      "context": "编辑属性工具是建模模式中的一个功能模块，学习者需要先了解建模模式才能有效使用该工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑属性工具",
+      "predicate": "支持",
+      "object": "骨架编辑器",
+      "context": "该工具也可以通过骨架编辑器访问，表明其在角色建模中的适用性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑属性工具",
+      "predicate": "操作",
+      "object": "网格体属性",
+      "context": "工具的核心功能是创建/编辑网格体表面属性，这是学习3D建模的基础知识",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "网格体属性",
+      "predicate": "包含",
+      "object": "法线",
+      "context": "法线是网格体的基础属性之一，影响光照和渲染效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体属性",
+      "predicate": "包含",
+      "object": "UV通道",
+      "context": "UV通道决定纹理映射方式，是材质应用的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体属性",
+      "predicate": "包含",
+      "object": "权重地图层",
+      "context": "权重图用于顶点变形控制，是角色动画的重要基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重置硬法线",
+      "predicate": "用于",
+      "object": "动态塑造工具",
+      "context": "在动态造型后需要重置法线以保证正确光照，展示工具间的协作关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "权重地图层",
+      "predicate": "用于",
+      "object": "平滑工具",
+      "context": "权重图可作为平滑工具的输入参数，展示属性数据的复用性",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UV通道",
+      "predicate": "关联",
+      "object": "UV编辑器",
+      "context": "创建的UV通道需要在UV编辑器中可视化验证，建立工具链认知",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光照贴图UV",
+      "predicate": "依赖",
+      "object": "静态网格体",
+      "context": "光照贴图UV仅适用于静态网格体，这是烘焙光照的重要前提知识",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "多边形组层",
+      "predicate": "用于",
+      "object": "UV解包",
+      "context": "多边形组可作为UV解包的基准，展示建模工作流的关联性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "属性检查器",
+      "predicate": "验证",
+      "object": "几何体脚本",
+      "context": "检查器可用于调试脚本生成的属性数据，建立脚本与可视化工具的关联",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "编辑属性工具",
+      "predicate": "前置",
+      "object": "绘制贴图工具",
+      "context": "需要先创建权重图才能进行贴图绘制，说明工具使用的合理顺序",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:55:48.551Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11725,
+    "contentLength": 7519,
+    "processingTimeMs": 43231
+  }
+}

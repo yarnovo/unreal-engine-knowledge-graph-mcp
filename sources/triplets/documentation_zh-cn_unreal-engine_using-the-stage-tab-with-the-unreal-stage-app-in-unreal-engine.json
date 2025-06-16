@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-the-stage-tab-with-the-unreal-stage-app-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-the-stage-tab-with-the-unreal-stage-app-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Unreal Stage应用程序",
+      "predicate": "包含",
+      "object": "舞台选项卡",
+      "context": "舞台选项卡是Unreal Stage应用程序的核心功能模块，用于在LED墙上显示nDisplay输出的实时预览",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "舞台选项卡",
+      "predicate": "支持",
+      "object": "nDisplay编辑器预览",
+      "context": "舞台选项卡提供了与nDisplay编辑器预览相同的功能，帮助开发者在LED墙上实时预览内容",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "舞台选项卡",
+      "predicate": "提供",
+      "object": "视图选项",
+      "context": "视图选项是舞台选项卡的核心功能之一，允许开发者选择不同的投影方式以适应不同的LED墙配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视图选项",
+      "predicate": "包含",
+      "object": "圆顶视图",
+      "context": "圆顶视图是视图选项的一种，专门用于带天花板的半球形LED体积",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视图选项",
+      "predicate": "包含",
+      "object": "正交视图",
+      "context": "正交视图是视图选项的一种，适用于半球形舞台的另一种常用投影选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视图选项",
+      "predicate": "包含",
+      "object": "透视视图",
+      "context": "透视视图是视图选项的一种，通常最适用于平面LED墙的配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视图选项",
+      "predicate": "包含",
+      "object": "UV视图",
+      "context": "UV视图是视图选项的一种，用于LED体积的扁平化表示，便于同时显示墙壁和天花板",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "舞台选项卡",
+      "predicate": "支持",
+      "object": "寻路功能",
+      "context": "寻路功能允许开发者在预览中精确查看所需内容，是舞台选项卡的重要交互功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路功能",
+      "predicate": "包含",
+      "object": "捏合缩放",
+      "context": "捏合缩放是寻路功能的一种交互方式，用于放大或缩小预览",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路功能",
+      "predicate": "包含",
+      "object": "单指滚动",
+      "context": "单指滚动是寻路功能的一种交互方式，用于滚动预览",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路功能",
+      "predicate": "包含",
+      "object": "双指平移",
+      "context": "双指平移是寻路功能的一种交互方式，用于平移预览",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "舞台选项卡",
+      "predicate": "支持",
+      "object": "内容控制",
+      "context": "内容控制是舞台选项卡的核心功能之一，允许开发者放置和管理ICVFX内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容控制",
+      "predicate": "包含",
+      "object": "放置Actor",
+      "context": "放置Actor是内容控制的一种功能，允许开发者在舞台选项卡中添加新内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容控制",
+      "predicate": "包含",
+      "object": "定位和重新定位内容",
+      "context": "定位和重新定位内容是内容控制的一种功能，允许开发者调整场景中ICVFX内容的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容控制",
+      "predicate": "包含",
+      "object": "对象模式",
+      "context": "对象模式是内容控制的一种功能，允许开发者对选中的内容进行进一步修改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象模式",
+      "predicate": "支持",
+      "object": "缩放",
+      "context": "在对象模式下，开发者可以通过捏合缩放来调整选中对象的大小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象模式",
+      "predicate": "支持",
+      "object": "重新定位",
+      "context": "在对象模式下，开发者可以快速重新定位选中的内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "舞台选项卡",
+      "predicate": "适用于",
+      "object": "虚拟制片",
+      "context": "舞台选项卡是虚幻引擎中用于虚拟制片的重要工具，特别适用于ICVFX内容的实时预览和交互",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "舞台选项卡",
+      "predicate": "基于",
+      "object": "nDisplay技术",
+      "context": "舞台选项卡的功能依赖于nDisplay技术，用于在多个显示器或LED墙上显示内容",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "舞台选项卡",
+      "predicate": "主要用于",
+      "object": "ICVFX编辑",
+      "context": "舞台选项卡主要用于ICVFX（In-Camera Visual Effects）内容的编辑和预览",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:26:00.950Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5328,
+    "contentLength": 3836,
+    "processingTimeMs": 53911
+  }
+}

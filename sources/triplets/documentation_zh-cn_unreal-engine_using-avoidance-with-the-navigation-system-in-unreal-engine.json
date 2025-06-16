@@ -1,0 +1,163 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-avoidance-with-the-navigation-system-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-avoidance-with-the-navigation-system-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "寻路系统",
+      "predicate": "包含",
+      "object": "寻路网格体",
+      "context": "寻路系统使用寻路网格体让代理在关卡中实现寻路",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路系统",
+      "predicate": "支持",
+      "object": "避障机制",
+      "context": "寻路系统支持两种避障机制：RVO和群组绕行管理器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "相对速度障碍物算法",
+      "predicate": "属于",
+      "object": "避障机制",
+      "context": "RVO是两种主要避障方法之一，用于处理移动障碍物",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "群组绕行管理器",
+      "predicate": "属于",
+      "object": "避障机制",
+      "context": "Detour Crowd Manager是两种主要避障方法之一，用于处理移动障碍物",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "相对速度障碍物算法",
+      "predicate": "实现",
+      "object": "速度向量计算",
+      "context": "RVO通过计算每个代理的速度向量来避免碰撞",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "群组绕行管理器",
+      "predicate": "实现",
+      "object": "自适应RVO采样",
+      "context": "Detour Crowd Manager通过自适应RVO采样解决代理规避问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色移动组件",
+      "predicate": "包含",
+      "object": "相对速度障碍物算法",
+      "context": "RVO系统包含在角色类的Character Movement组件中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "群组绕行AI控制器",
+      "predicate": "包含",
+      "object": "群组绕行管理器",
+      "context": "Detour Crowd Manager系统包含在DetourCrowdAIController类中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "相对速度障碍物算法",
+      "predicate": "不依赖",
+      "object": "寻路网格体",
+      "context": "RVO不使用寻路网格体进行避障，因此它无需寻路系统即可用于代理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "群组绕行管理器",
+      "predicate": "使用",
+      "object": "寻路网格体",
+      "context": "Detour Crowd Manager使用寻路网格体进行路径优化",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "第三人称角色蓝图",
+      "predicate": "用于",
+      "object": "测试避障机制",
+      "context": "文档指导如何调整第三人称角色蓝图来测试RVO和Detour Crowd避障",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "导航网格体边界体积",
+      "predicate": "生成",
+      "object": "寻路网格体",
+      "context": "Nav Mesh Bounds Volume用于生成关卡中的寻路网格体",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "群组绕行管理器",
+      "predicate": "优于",
+      "object": "相对速度障碍物算法",
+      "context": "文档指出Detour Crowd Manager相较于传统RVO有性能优势",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "配置",
+      "object": "群组绕行管理器",
+      "context": "群组绕行管理器的参数如最大代理数可在项目设置中配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色移动组件",
+      "predicate": "配置",
+      "object": "相对速度障碍物算法",
+      "context": "RVO参数如避障考虑半径可在Character Movement组件中配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI移动至节点",
+      "predicate": "用于",
+      "object": "代理导航",
+      "context": "AI Move To节点用于实现代理向目标移动的基本功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "避障机制",
+      "predicate": "增强",
+      "object": "代理导航",
+      "context": "RVO和Detour Crowd避障机制增强了代理在动态环境中的导航能力",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "相对速度障碍物算法",
+      "predicate": "替代",
+      "object": "群组绕行管理器",
+      "context": "两种避障系统各自独立工作，在项目中只能使用其中一种",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:14:19.023Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (14978 字符)",
+      "timestamp": "2025-06-15T21:13:29.193Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 20090,
+    "contentLength": 14978,
+    "processingTimeMs": 49835
+  }
+}

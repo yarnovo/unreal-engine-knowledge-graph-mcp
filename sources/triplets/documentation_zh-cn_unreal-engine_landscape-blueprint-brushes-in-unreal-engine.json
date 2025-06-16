@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_landscape-blueprint-brushes-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_landscape-blueprint-brushes-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "地形蓝图笔刷",
+      "predicate": "属于",
+      "object": "虚幻引擎地形系统",
+      "context": "地形蓝图笔刷是虚幻引擎中用于地形编辑的核心工具之一，属于地形系统的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形蓝图笔刷",
+      "predicate": "依赖",
+      "object": "Landmass插件",
+      "context": "使用地形蓝图笔刷前需要先启用Landmass插件，这是其功能实现的基础依赖",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形蓝图笔刷",
+      "predicate": "支持",
+      "object": "非破坏性编辑",
+      "context": "地形蓝图笔刷采用非破坏性编辑方式，允许用户堆叠多个编辑操作并随时调整顺序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形蓝图笔刷",
+      "predicate": "包含",
+      "object": "编辑图层",
+      "context": "地形蓝图笔刷需要在地形的编辑图层中使用，编辑图层是其组织和管理的基础结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CustomBrush_Landmass笔刷",
+      "predicate": "是",
+      "object": "地形蓝图笔刷类型",
+      "context": "CustomBrush_Landmass是地形蓝图笔刷的一种具体实现类型，用于生成自定义地块形状",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CustomBrush_Landmass笔刷",
+      "predicate": "使用",
+      "object": "样条线形状",
+      "context": "该笔刷基于用户定义的样条线形状来生成地块，样条线是其核心输入要素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CustomBrush_Landmass笔刷",
+      "predicate": "支持",
+      "object": "混合模式",
+      "context": "该笔刷提供多种混合模式(Alpha混合、最小值、最大值、叠加)来控制形状如何影响地形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合模式",
+      "predicate": "影响",
+      "object": "地形编辑效果",
+      "context": "不同的混合模式会产生不同的地形编辑效果，如升高、降低或同时升降地形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CustomBrush_Landmass笔刷",
+      "predicate": "包含",
+      "object": "形状限制",
+      "context": "形状限制功能决定生成的形状是平顶高原(限顶)还是有尖顶的山峰(不限顶)",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CustomBrush_Landmass笔刷",
+      "predicate": "包含",
+      "object": "衰减设置",
+      "context": "衰减设置控制从笔刷形状到底层地貌的过渡斜面，包括角度和宽度参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减角度",
+      "predicate": "决定",
+      "object": "斜面陡峭度",
+      "context": "衰减角度越大，生成的斜面越陡峭，这是控制地形过渡效果的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减宽度",
+      "predicate": "决定",
+      "object": "过渡范围",
+      "context": "衰减宽度决定了过渡斜面的水平延伸范围，影响地形变化的平滑程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CustomBrush_Landmass笔刷",
+      "predicate": "支持",
+      "object": "噪点效果",
+      "context": "该笔刷可以应用旋度噪点到生成的地块形状上，增加地形的自然感和细节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "旋度强度",
+      "predicate": "控制",
+      "object": "噪点振幅",
+      "context": "旋度强度参数控制噪点效果的振幅大小，影响地形表面的起伏程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "旋度平铺",
+      "predicate": "控制",
+      "object": "噪点频率",
+      "context": "旋度平铺参数控制噪点效果的频率，影响地形表面细节的密集程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CustomBrush_LandmassRiver笔刷",
+      "predicate": "是",
+      "object": "地形蓝图笔刷类型",
+      "context": "专门用于创建河流或道路等地形的笔刷类型，会自动调整周围地形高度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CustomBrush_LandmassRiver笔刷",
+      "predicate": "使用",
+      "object": "静态网格体",
+      "context": "该笔刷沿样条线挤压静态网格体来创建河流或道路形状",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CustomBrush_MaterialOnly笔刷",
+      "predicate": "是",
+      "object": "地形蓝图笔刷类型",
+      "context": "专门用于应用材质和流程性噪点到整个地形的笔刷类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形模式",
+      "predicate": "包含",
+      "object": "造型工具",
+      "context": "在关卡编辑器的地形模式下，可以访问各种造型工具，包括蓝图笔刷",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "造型工具",
+      "predicate": "包含",
+      "object": "蓝图笔刷",
+      "context": "蓝图笔刷是造型工具中的一种特殊类型，提供程序化地形编辑功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:40:58.424Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8547 字符)",
+      "timestamp": "2025-06-15T19:39:51.663Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 10801,
+    "contentLength": 8547,
+    "processingTimeMs": 66767
+  }
+}

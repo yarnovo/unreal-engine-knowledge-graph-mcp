@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-layered-animations-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-layered-animations-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "动画混合",
+      "predicate": "实现方式",
+      "object": "混合空间",
+      "context": "动画混合可以通过混合空间实现平滑过渡，帮助学习者理解不同的动画混合技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画混合",
+      "predicate": "实现方式",
+      "object": "叠加方法",
+      "context": "动画混合可以通过叠加方法基于加权偏差或alpha值组合动画，帮助学习者掌握多种混合技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画混合",
+      "predicate": "实现方式",
+      "object": "姿势覆盖",
+      "context": "动画混合可以通过直接覆盖现有姿势实现，扩展学习者对混合技术的理解",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蒙太奇",
+      "predicate": "用于",
+      "object": "分层动画",
+      "context": "动画蒙太奇用于创建分层动画，使学习者了解如何组合多个动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画插槽管理器",
+      "predicate": "创建",
+      "object": "插槽",
+      "context": "动画插槽管理器用于创建插槽，帮助学习者理解如何在动画中定位混合点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Layered blend per bone",
+      "predicate": "控制",
+      "object": "骨骼动画混合",
+      "context": "Layered blend per bone节点控制特定骨骼及其子项的动画混合，帮助学习者掌握分层动画技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "处理",
+      "object": "动画混合",
+      "context": "动画蓝图用于处理动画蒙太奇与移动姿势的混合，帮助学习者理解动画系统的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缓存姿势",
+      "predicate": "存储",
+      "object": "Locomotion状态机结果",
+      "context": "缓存姿势用于存储Locomotion状态机的结果，帮助学习者优化动画性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slot节点",
+      "predicate": "调用",
+      "object": "动画蒙太奇",
+      "context": "Slot节点用于调用特定插槽的动画蒙太奇，帮助学习者理解动画播放机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "spine_01骨骼",
+      "predicate": "起始点",
+      "object": "动画混合",
+      "context": "spine_01骨骼作为动画混合的起始点，帮助学习者掌握分层动画的具体实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Fire Button Down变量",
+      "predicate": "控制",
+      "object": "射击动画播放",
+      "context": "Fire Button Down变量控制射击动画的播放，帮助学习者理解动画触发逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Montage Is Playing节点",
+      "predicate": "检查",
+      "object": "动画蒙太奇状态",
+      "context": "Montage Is Playing节点检查动画蒙太奇是否正在播放，帮助学习者避免重复播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画初学者包",
+      "predicate": "提供",
+      "object": "基础动画资源",
+      "context": "动画初学者包提供基础动画资源，帮助学习者快速开始动画开发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图第三人称模板",
+      "predicate": "包含",
+      "object": "基础角色动画",
+      "context": "蓝图第三人称模板包含基础角色动画，帮助学习者理解角色动画系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Ue4ASP_Character",
+      "predicate": "替换",
+      "object": "默认Pawn类",
+      "context": "Ue4ASP_Character替换默认Pawn类，帮助学习者使用自定义角色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C键",
+      "predicate": "触发",
+      "object": "蹲伏动画",
+      "context": "C键触发蹲伏动画，帮助学习者理解输入与动画的关联",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "鼠标左键",
+      "predicate": "触发",
+      "object": "射击动画",
+      "context": "鼠标左键触发射击动画，帮助学习者掌握输入事件与动画播放的关联",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CapsuleComponent",
+      "predicate": "隐藏",
+      "object": "游戏中的碰撞显示",
+      "context": "CapsuleComponent隐藏游戏中的碰撞显示，帮助学习者优化视觉表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画图表",
+      "predicate": "连接",
+      "object": "Layered blend per bone节点",
+      "context": "动画图表连接Layered blend per bone节点，帮助学习者构建动画混合逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DefaultGroup.UpperBody",
+      "predicate": "关联",
+      "object": "上身动画",
+      "context": "DefaultGroup.UpperBody插槽关联上身动画，帮助学习者理解动画分层的实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:18:06.383Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9817 字符)",
+      "timestamp": "2025-06-15T21:17:05.438Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14363,
+    "contentLength": 9817,
+    "processingTimeMs": 60953
+  }
+}

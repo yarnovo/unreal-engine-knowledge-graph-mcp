@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_static-mesh-actors-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_static-mesh-actors-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "静态网格体Actor",
+      "predicate": "属于",
+      "object": "Actor类型",
+      "context": "静态网格体Actor是Actor的一种特定类型，用于在关卡中显示3D网格体。理解这一关系有助于学习者将静态网格体Actor置于虚幻引擎的Actor层级结构中。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体Actor",
+      "predicate": "用于",
+      "object": "创建游戏世界或环境",
+      "context": "静态网格体Actor常用于构建游戏世界或其他环境，这一关系帮助学习者理解其在场景构建中的主要用途。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体Actor",
+      "predicate": "包含",
+      "object": "默认几何体（立方体、球体、圆柱体、椎体、平面）",
+      "context": "虚幻引擎提供了一系列默认的静态网格体Actor，这些基础几何体是构建更复杂场景的起点。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体Actor",
+      "predicate": "支持",
+      "object": "自定义网格体导入",
+      "context": "除了默认几何体，开发者可以导入在其他3D软件中创建的网格体，这一关系展示了虚幻引擎的扩展性。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体Actor",
+      "predicate": "依赖",
+      "object": "内容浏览器",
+      "context": "放置静态网格体Actor通常通过从内容浏览器拖拽实现，这一操作关系对关卡设计工作流至关重要。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体Actor",
+      "predicate": "支持",
+      "object": "材质覆盖",
+      "context": "每个静态网格体Actor可以单独覆盖材质，这使得同一网格体可以在不同实例中呈现不同外观。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体Actor",
+      "predicate": "受控于",
+      "object": "移动性设置",
+      "context": "移动性设置决定了Actor在运行时能否移动，这是理解静态网格体动态行为的关键概念。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体Actor",
+      "predicate": "支持",
+      "object": "物理模拟",
+      "context": "通过启用模拟物理属性，静态网格体可以响应重力和碰撞，这对实现真实物理交互很重要。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体Actor",
+      "predicate": "具备",
+      "object": "碰撞属性",
+      "context": "碰撞是静态网格体的核心属性，影响其与其他对象的交互方式，这对游戏机制实现很关键。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体编辑器",
+      "predicate": "用于",
+      "object": "生成碰撞形体",
+      "context": "静态网格体编辑器可以生成物理碰撞形体，这与静态网格体的碰撞功能直接相关。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FBX内容管线",
+      "predicate": "用于",
+      "object": "导入带碰撞的网格体",
+      "context": "FBX管线允许从外部3D软件导入带有预定义碰撞形体的网格体，这是内容创建的重要工作流。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质",
+      "predicate": "应用于",
+      "object": "静态网格体Actor",
+      "context": "材质决定了静态网格体的视觉表现，这一关系对理解场景视觉效果制作很重要。",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理系统",
+      "predicate": "控制",
+      "object": "静态网格体的物理行为",
+      "context": "当启用物理模拟时，物理系统控制静态网格体的运动，这对实现真实物理效果很关键。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "碰撞系统",
+      "predicate": "管理",
+      "object": "静态网格体的碰撞交互",
+      "context": "碰撞系统处理静态网格体与其他对象的碰撞反应，这对游戏玩法实现至关重要。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "变换属性",
+      "predicate": "控制",
+      "object": "静态网格体的位置/旋转/缩放",
+      "context": "变换属性是操作静态网格体空间属性的基础，这是场景布置的核心技能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:54:35.953Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6875,
+    "contentLength": 4533,
+    "processingTimeMs": 51958
+  }
+}

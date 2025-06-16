@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-create-a-beam-effect-in-niagara-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-create-a-beam-effect-in-niagara-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Niagara系统",
+      "predicate": "包含",
+      "object": "Niagara发射器",
+      "context": "Niagara系统由发射器组成，理解这种包含关系有助于学习如何构建完整的粒子效果系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态光束模板",
+      "predicate": "基于",
+      "object": "条带渲染器",
+      "context": "静态光束效果依赖于条带渲染器实现，这是学习光束效果的基础技术组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光束效果",
+      "predicate": "需要",
+      "object": "光束发射器设置模块",
+      "context": "创建光束效果必须配置光束发射器设置模块，这是核心功能模块",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "条带渲染器",
+      "predicate": "使用",
+      "object": "默认条带材质",
+      "context": "条带渲染器默认使用特定材质，了解这种关系有助于材质替换和自定义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "曲线张力参数",
+      "predicate": "控制",
+      "object": "光束尖锐程度",
+      "context": "曲线张力参数直接影响光束外观，这是重要的视觉效果调节参数",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "生命周期模式",
+      "predicate": "决定",
+      "object": "发射器循环行为",
+      "context": "该设置影响粒子系统的生命周期管理方式，是系统设计的关键概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "随机范围浮点",
+      "predicate": "用于",
+      "object": "循环时长",
+      "context": "为循环时长添加随机性可以创建更自然的效果，这是重要的动态输入技术",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "光束切线",
+      "predicate": "影响",
+      "object": "光束弧度",
+      "context": "理解切线设置与光束形状的关系对创建曲线效果至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "抖动位置模块",
+      "predicate": "需要",
+      "object": "更新光束模块",
+      "context": "这两个模块需要配合使用，理解它们的依赖关系对实现动态光束效果很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "暂存区",
+      "predicate": "用于",
+      "object": "动态输入设置",
+      "context": "暂存区是创建复杂动态输入的工作区，掌握它可以实现更灵活的效果控制",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "Actor组件接口",
+      "predicate": "连接",
+      "object": "光束结束位置",
+      "context": "通过这种连接可以实现光束与场景物体的动态互动，是重要的场景集成技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子生成组",
+      "predicate": "包含",
+      "object": "初始化粒子模块",
+      "context": "理解粒子生成阶段的模块组成对掌握粒子生命周期管理很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子更新组",
+      "predicate": "包含",
+      "object": "颜色模块",
+      "context": "粒子更新阶段可以修改粒子属性如颜色，这是动态效果实现的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara插件",
+      "predicate": "前置要求",
+      "object": "光束效果创建",
+      "context": "使用Niagara功能需要先启用插件，这是基础环境配置知识",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "光束宽度模块",
+      "predicate": "控制",
+      "object": "光束粗细变化",
+      "context": "通过曲线设置可以创建动态宽度变化的光束，这是视觉效果设计的重要技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:25:33.697Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (19974 字符)",
+      "timestamp": "2025-06-15T19:24:31.746Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 27038,
+    "contentLength": 19974,
+    "processingTimeMs": 61955
+  }
+}

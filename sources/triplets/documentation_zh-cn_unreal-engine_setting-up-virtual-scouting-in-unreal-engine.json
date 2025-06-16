@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_setting-up-virtual-scouting-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_setting-up-virtual-scouting-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚拟堪景",
+      "predicate": "依赖",
+      "object": "VR头显设备",
+      "context": "虚拟堪景功能需要兼容的VR头显设备才能运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟堪景",
+      "predicate": "依赖",
+      "object": "OpenXR运行时",
+      "context": "虚拟堪景需要正确配置的OpenXR运行时供应商",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟堪景",
+      "predicate": "包含",
+      "object": "虚拟堪景插件",
+      "context": "虚拟堪景功能需要通过启用虚拟堪景插件来实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟堪景插件",
+      "predicate": "包含",
+      "object": "项目和用户设置",
+      "context": "插件提供项目和用户级别的配置选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR头显设备",
+      "predicate": "包含",
+      "object": "Oculus Rift S",
+      "context": "Oculus Rift S是支持的VR头显设备之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR头显设备",
+      "predicate": "包含",
+      "object": "Meta Quest系列",
+      "context": "Meta Quest 2/Pro/3是支持的VR头显设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR头显设备",
+      "predicate": "包含",
+      "object": "Valve Index",
+      "context": "Valve Index是支持的VR头显设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Meta Quest系列",
+      "predicate": "支持",
+      "object": "Meta Quest Link",
+      "context": "Meta头显可以通过有线或无线Quest Link连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Meta Quest系列",
+      "predicate": "支持",
+      "object": "SteamLink",
+      "context": "Meta头显也可以通过SteamLink连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Valve Index",
+      "predicate": "依赖",
+      "object": "SteamVR",
+      "context": "Valve Index需要通过SteamVR运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟堪景",
+      "predicate": "需要",
+      "object": "VR模式设置",
+      "context": "需要正确设置VR模式才能使用虚拟堪景功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟堪景",
+      "predicate": "使用",
+      "object": "轮廓模板",
+      "context": "虚拟堪景工具使用模板材质绘制对象轮廓",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟堪景",
+      "predicate": "受限于",
+      "object": "VR渲染性能",
+      "context": "Lumen和Nanite等技术在VR中可能影响性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚拟堪景插件",
+      "predicate": "提供",
+      "object": "XRCreative编辑器设置",
+      "context": "插件提供编辑器设置选项，如惯用手设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟堪景",
+      "predicate": "需要",
+      "object": "禁用实例剔除",
+      "context": "VR不支持实例剔除，需要禁用该功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟堪景",
+      "predicate": "需要",
+      "object": "禁用Alpha通道支持",
+      "context": "必须禁用后处理的Alpha通道支持才能启动虚拟堪景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟堪景工具集",
+      "predicate": "包含",
+      "object": "内容放置工具",
+      "context": "工具集包含用于对象操作的内容放置工具",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Meta Quest Link",
+      "predicate": "分为",
+      "object": "有线和无线模式",
+      "context": "Meta Quest Link支持有线和无线(AirLink)两种连接方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR渲染",
+      "predicate": "影响",
+      "object": "性能优化",
+      "context": "VR渲染需要考虑性能优化，如调整屏幕百分比",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚拟堪景",
+      "predicate": "关联",
+      "object": "VREditor",
+      "context": "虚拟堪景通过VREditor按钮启动和管理",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:46:30.989Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10359 字符)",
+      "timestamp": "2025-06-15T20:45:40.707Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14807,
+    "contentLength": 10359,
+    "processingTimeMs": 50290
+  }
+}

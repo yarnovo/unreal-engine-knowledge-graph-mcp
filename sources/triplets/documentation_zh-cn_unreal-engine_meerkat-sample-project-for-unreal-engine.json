@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_meerkat-sample-project-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_meerkat-sample-project-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Meerkat演示",
+      "predicate": "基于",
+      "object": "虚幻引擎",
+      "context": "Meerkat演示是完全在虚幻引擎中渲染的短影片，展示了虚幻引擎的高质量渲染能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Meerkat演示",
+      "predicate": "使用",
+      "object": "影片渲染队列",
+      "context": "Meerkat演示需要通过影片渲染队列插件输出高质量渲染结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染队列",
+      "predicate": "属于",
+      "object": "虚幻引擎插件",
+      "context": "影片渲染队列是虚幻引擎的内置插件，专门用于高质量影片渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Master_SEQ",
+      "predicate": "控制",
+      "object": "Meerkat演示序列",
+      "context": "Master_SEQ是控制整个Meerkat演示播放的关卡序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "编辑",
+      "object": "Master_SEQ",
+      "context": "Sequencer是编辑和管理Master_SEQ关卡序列的主要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VisualSettings_BP",
+      "predicate": "控制",
+      "object": "高分辨率环境网格体",
+      "context": "VisualSettings_BP蓝图用于控制场景中高分辨率环境网格体的开关",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "amlEagle_BP",
+      "predicate": "使用",
+      "object": "Groom资产",
+      "context": "amlEagle_BP使用Groom资产来表示鹰的羽毛",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom资产",
+      "predicate": "影响",
+      "object": "渲染性能",
+      "context": "Groom资产的分辨率设置会影响场景的渲染性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "影片渲染队列",
+      "predicate": "支持",
+      "object": "高质量渲染",
+      "context": "影片渲染队列专门用于输出高质量渲染结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "amlMeerkat_BP",
+      "predicate": "包含",
+      "object": "控制绑定",
+      "context": "amlMeerkat_BP包含控制绑定，可用于动画编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定",
+      "predicate": "用于",
+      "object": "动画编辑",
+      "context": "控制绑定允许在Sequencer中编辑Meerkat的动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "支持",
+      "object": "过场动画摄像机",
+      "context": "Sequencer支持通过过场动画摄像机查看场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Meerkat演示",
+      "predicate": "展示",
+      "object": "实时渲染技术",
+      "context": "Meerkat演示展示了虚幻引擎的实时渲染技术能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染队列",
+      "predicate": "依赖",
+      "object": "Sequencer",
+      "context": "影片渲染队列需要从Sequencer获取序列信息进行渲染",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "高分辨率环境网格体",
+      "predicate": "影响",
+      "object": "场景保真度",
+      "context": "开启高分辨率环境网格体会提高场景的视觉保真度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom资产",
+      "predicate": "决定",
+      "object": "毛发细节",
+      "context": "Groom资产的分辨率设置决定了毛发表现的细节程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MeerkatAnim_SEQ",
+      "predicate": "用于",
+      "object": "控制绑定动画",
+      "context": "MeerkatAnim_SEQ是专门用于编辑Meerkat控制绑定动画的序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "电影制作流程",
+      "context": "虚幻引擎的实时渲染技术支持从预可视化到最终渲染的电影制作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染队列",
+      "predicate": "使用",
+      "object": "MoviePipelineConfig_Temporal预设",
+      "context": "影片渲染队列可以使用MoviePipelineConfig_Temporal预设来优化渲染设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:53:11.020Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12980 字符)",
+      "timestamp": "2025-06-15T19:52:11.604Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 18098,
+    "contentLength": 12980,
+    "processingTimeMs": 59426
+  }
+}

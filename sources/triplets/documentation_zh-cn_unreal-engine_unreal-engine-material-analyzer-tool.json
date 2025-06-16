@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-engine-material-analyzer-tool",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-engine-material-analyzer-tool.md",
+  "triples": [
+    {
+      "subject": "材质分析器",
+      "predicate": "属于",
+      "object": "虚幻引擎开发者工具",
+      "context": "材质分析器是虚幻引擎提供的一个专门用于分析材质的开发者工具，帮助开发者优化材质使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质分析器",
+      "predicate": "分析",
+      "object": "材质实例",
+      "context": "材质分析器的主要功能是分析项目中的材质和材质实例，帮助开发者理解材质使用情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质分析器",
+      "predicate": "识别",
+      "object": "静态切换参数",
+      "context": "材质分析器能够识别材质实例中的静态切换参数，这对优化着色器permutation很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质分析器",
+      "predicate": "生成",
+      "object": "建议列表",
+      "context": "材质分析器会生成建议列表，将具有相同静态覆盖的材质实例分组，帮助开发者进行优化决策",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质实例",
+      "predicate": "继承自",
+      "object": "父材质",
+      "context": "材质实例是基于父材质创建的，理解这种继承关系对材质管理和优化很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重设材质实例父项",
+      "predicate": "优化",
+      "object": "着色器permutation",
+      "context": "重设材质实例父项可以减少不必要的着色器permutation，从而优化性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "创建本地集合",
+      "predicate": "组织",
+      "object": "相关材质实例",
+      "context": "创建本地集合功能可以帮助开发者组织具有相似特性的材质实例，便于批量管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态切换参数",
+      "predicate": "影响",
+      "object": "着色器permutation",
+      "context": "静态切换参数会直接影响着色器permutation的数量，理解这一点对性能优化很关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质分析器",
+      "predicate": "帮助优化",
+      "object": "存储数据成本",
+      "context": "通过材质分析器识别冗余参数覆盖，可以减少不必要的存储数据占用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质分析器",
+      "predicate": "查找",
+      "object": "材质后代",
+      "context": "材质分析器能够查找选定材质的所有后代实例，这对理解材质使用范围很有帮助",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "建议列表",
+      "predicate": "基于",
+      "object": "静态覆盖",
+      "context": "建议列表是基于材质实例的静态覆盖相似性生成的，理解这一点有助于合理使用建议",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质分析器",
+      "predicate": "位于",
+      "object": "审核菜单",
+      "context": "材质分析器位于工具>审核菜单下，了解这个位置有助于开发者快速找到该工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:09:08.692Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4802,
+    "contentLength": 3394,
+    "processingTimeMs": 34918
+  }
+}

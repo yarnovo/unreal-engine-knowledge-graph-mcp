@@ -1,0 +1,101 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_landscape-region-selection-tool-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_landscape-region-selection-tool-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "区域选择工具",
+      "predicate": "属于",
+      "object": "地形工具",
+      "context": "区域选择工具是虚幻引擎地形编辑工具集的一部分，理解这一归属关系有助于学习者定位工具在引擎架构中的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "区域选择工具",
+      "predicate": "用于",
+      "object": "地形小工具匹配",
+      "context": "文档明确指出该工具的主要用途是帮助将地形小工具匹配到特定区域，这是核心功能的学习要点",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "区域选择工具",
+      "predicate": "生成",
+      "object": "遮罩",
+      "context": "工具可以生成区域选择遮罩，这是后续地形编辑操作的重要基础，理解这一关系对工作流程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "区域选择工具",
+      "predicate": "支持",
+      "object": "复制/粘贴操作",
+      "context": "生成的区域选择可以与复制粘贴工具配合使用，这是工具间协作的关键知识点",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Use Region as Mask",
+      "predicate": "控制",
+      "object": "遮罩行为",
+      "context": "该属性决定是否将选择区域作为遮罩使用，是工具的核心设置之一",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "Negative Mask",
+      "predicate": "扩展",
+      "object": "Use Region as Mask功能",
+      "context": "Negative Mask需要与Use Region as Mask配合使用，扩展了遮罩的反向选择能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Tool Strength",
+      "predicate": "影响",
+      "object": "笔刷效果量",
+      "context": "该参数控制每次笔刷操作的影响程度，是精确控制选择区域的关键参数",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "鼠标左键",
+      "predicate": "执行",
+      "object": "添加到选区",
+      "context": "基础操作控制方式的学习，对实际使用工具至关重要",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "Shift+鼠标左键",
+      "predicate": "执行",
+      "object": "从选区移除",
+      "context": "进阶操作控制方式，与基础操作形成完整的选择控制方案",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "Clear Region Selection",
+      "predicate": "重置",
+      "object": "选区状态",
+      "context": "该功能按钮用于快速清除当前选择，是工作流中的重要操作节点",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "区域选择工具",
+      "predicate": "前置",
+      "object": "地形复制工具",
+      "context": "文档中提及区域选择常作为地形复制操作的前置步骤，理解这一顺序关系对工作流很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:41:43.592Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3562,
+    "contentLength": 2692,
+    "processingTimeMs": 43054
+  }
+}

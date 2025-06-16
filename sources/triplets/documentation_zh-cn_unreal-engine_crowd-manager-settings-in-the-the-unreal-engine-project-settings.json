@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_crowd-manager-settings-in-the-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_crowd-manager-settings-in-the-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "群组管理器",
+      "predicate": "包含",
+      "object": "避障配置",
+      "context": "避障配置是群组管理器中的一个重要参数设置，用于控制代理的避障行为，学习群组管理器需要理解其包含的各个配置项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "群组管理器",
+      "predicate": "包含",
+      "object": "采样模式",
+      "context": "采样模式是群组管理器中的关键参数之一，影响代理的避障行为模式，理解采样模式有助于掌握群组模拟的核心机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "群组管理器",
+      "predicate": "控制",
+      "object": "最大代理数",
+      "context": "最大代理数设置决定了群组模拟中可以存在的代理数量上限，这是群组管理器的重要性能参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "群组管理器",
+      "predicate": "控制",
+      "object": "最大代理半径",
+      "context": "最大代理半径限制了群组中单个代理的物理尺寸，影响碰撞检测和避障行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "避障配置",
+      "predicate": "影响",
+      "object": "最大避障代理数",
+      "context": "最大避障代理数参数与避障配置密切相关，共同决定了代理在避障时考虑的其他代理数量",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "避障配置",
+      "predicate": "影响",
+      "object": "最大避障墙壁数",
+      "context": "最大避障墙壁数参数与避障配置共同作用，控制代理在避障时考虑的墙壁分段数量",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "群组管理器",
+      "predicate": "依赖",
+      "object": "寻路网格体",
+      "context": "群组管理器通过寻路网格体检查间隔参数与寻路网格体系统交互，理解这种依赖关系对设置合理的检查间隔很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "路径优化间隔",
+      "predicate": "影响",
+      "object": "代理移动效率",
+      "context": "路径优化间隔设置直接影响代理的移动效率，较短的间隔可能导致更高的计算开销",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "分离目录限制",
+      "predicate": "控制",
+      "object": "代理避让行为",
+      "context": "分离目录限制参数专门用于控制代理在后方有邻近代理时的避让行为，理解这个参数可以精细调整群组行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "路径偏移半径乘数",
+      "predicate": "影响",
+      "object": "转角移动行为",
+      "context": "路径偏移半径乘数参数影响代理在转角处的移动路径偏移程度，是控制群组流动自然性的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "解决碰撞",
+      "predicate": "替代",
+      "object": "移动组件碰撞处理",
+      "context": "当解决碰撞选项启用时，群组管理器将接管代理间的碰撞处理，否则由移动组件处理，理解这种替代关系对系统设计很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "群组管理器",
+      "predicate": "属于",
+      "object": "虚幻引擎项目设置",
+      "context": "群组管理器是虚幻引擎项目设置中的一个重要组成部分，理解这种归属关系有助于在引擎中找到相关设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:43:45.109Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2579,
+    "contentLength": 1589,
+    "processingTimeMs": 59749
+  }
+}

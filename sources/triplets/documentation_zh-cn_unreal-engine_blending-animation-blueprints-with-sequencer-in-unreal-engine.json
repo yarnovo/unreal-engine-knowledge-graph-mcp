@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_blending-animation-blueprints-with-sequencer-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_blending-animation-blueprints-with-sequencer-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Sequencer",
+      "predicate": "混合",
+      "object": "动画蓝图",
+      "context": "Sequencer可以通过插槽节点和权重属性与动画蓝图中的动画进行混合，帮助学习者理解如何将序列动画与角色动画逻辑结合",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插槽节点",
+      "predicate": "用于",
+      "object": "动画混合",
+      "context": "插槽节点是动画蓝图中用于接收Sequencer动画混合的关键组件，学习者需要理解其作用才能实现动画混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "权重属性",
+      "predicate": "控制",
+      "object": "动画混合程度",
+      "context": "权重属性值决定了Sequencer动画与动画蓝图动画的混合比例，是动画过渡效果的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "最终动画姿势节点",
+      "context": "最终动画姿势节点是动画蓝图的输出节点，学习者需要了解它是动画混合的最终输出点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡序列",
+      "predicate": "引用",
+      "object": "插槽名称",
+      "context": "Sequencer中的动画轨道需要引用动画蓝图中定义的插槽名称才能正确实现动画混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ThirdPersonIdle",
+      "predicate": "连接到",
+      "object": "插槽节点",
+      "context": "示例展示了如何将闲散动画连接到插槽节点，帮助学习者理解动画资源与混合逻辑的连接方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ThirdPersonRun",
+      "predicate": "用于",
+      "object": "序列动画",
+      "context": "示例使用奔跑动画作为序列动画，展示如何通过权重变化实现从闲散到奔跑的过渡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "权重键",
+      "predicate": "控制",
+      "object": "动画过渡",
+      "context": "在特定帧设置不同的权重值可以创建动画的淡入淡出效果，这是实现平滑过渡的重要技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "可扩展为",
+      "object": "状态机",
+      "context": "文档提到动画蓝图可以扩展为完整的状态机，帮助学习者理解更复杂的动画逻辑实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Sequencer动画",
+      "predicate": "可覆盖",
+      "object": "动画逻辑",
+      "context": "在剧情画面等场景中，Sequencer动画可以临时覆盖动画蓝图的逻辑，这是影视化内容制作的重要技术",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:12:38.612Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5569,
+    "contentLength": 3783,
+    "processingTimeMs": 41306
+  }
+}

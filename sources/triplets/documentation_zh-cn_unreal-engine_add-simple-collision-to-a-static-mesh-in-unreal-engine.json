@@ -1,0 +1,101 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_add-simple-collision-to-a-static-mesh-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_add-simple-collision-to-a-static-mesh-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "静态网格体",
+      "predicate": "支持",
+      "object": "简单碰撞",
+      "context": "静态网格体可以添加简单碰撞形态，这是物理交互的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简单碰撞",
+      "predicate": "用于",
+      "object": "物理交互",
+      "context": "简单碰撞形态是实现物体间物理交互的基础组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "支持",
+      "object": "多个碰撞形态",
+      "context": "复杂静态网格体可以创建多个碰撞形态以提高物理模拟精度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞形态",
+      "predicate": "可调整",
+      "object": "位置/旋转/缩放",
+      "context": "碰撞形态创建后可以进行空间变换以适应网格体形状",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平移/旋转/缩放工具",
+      "predicate": "控制",
+      "object": "碰撞形态",
+      "context": "使用W/E/R键可以在不同变换工具间切换来编辑碰撞形态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理形体",
+      "predicate": "可删除",
+      "object": "Delete键",
+      "context": "删除键用于移除不需要的碰撞形体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "F键",
+      "predicate": "聚焦于",
+      "object": "选中形体",
+      "context": "快速定位当前编辑的碰撞形体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Ctrl+左键单击",
+      "predicate": "添加",
+      "object": "物理形体",
+      "context": "组合键操作实现多形体选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Alt+左键拖动",
+      "predicate": "复制",
+      "object": "物理形体",
+      "context": "快速创建相同碰撞形态的副本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简单碰撞",
+      "predicate": "属于",
+      "object": "物理系统",
+      "context": "碰撞检测是物理引擎的核心功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "碰撞形态",
+      "predicate": "影响",
+      "object": "性能优化",
+      "context": "简单碰撞比复杂碰撞更高效，适合性能敏感场景",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T17:54:47.317Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 1810,
+    "contentLength": 1338,
+    "processingTimeMs": 41394
+  }
+}

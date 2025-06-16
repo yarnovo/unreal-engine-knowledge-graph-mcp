@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_gameplay-effects-for-the-gameplay-ability-system-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_gameplay-effects-for-the-gameplay-ability-system-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Gameplay效果",
+      "predicate": "用于",
+      "object": "Gameplay技能系统",
+      "context": "Gameplay效果是Gameplay技能系统中用于修改Actor属性的核心机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay效果规格",
+      "predicate": "是运行时版本",
+      "object": "Gameplay效果",
+      "context": "Gameplay效果规格是Gameplay效果的运行时实例数据封装器，用于实际操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay效果",
+      "predicate": "包含",
+      "object": "Gameplay效果组件",
+      "context": "Gameplay效果通过组件定义其呈现方式，这是其功能实现的核心部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay效果",
+      "predicate": "修改",
+      "object": "Gameplay属性",
+      "context": "Gameplay效果的主要功能就是修改Actor的Gameplay属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay属性",
+      "predicate": "属于",
+      "object": "属性集",
+      "context": "Gameplay属性是在属性集中声明和管理的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性集",
+      "predicate": "注册于",
+      "object": "技能系统组件",
+      "context": "属性集需要通过技能系统组件注册才能生效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay效果",
+      "predicate": "触发",
+      "object": "Gameplay提示",
+      "context": "Gameplay效果可以触发Gameplay提示来管理装饰效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay效果",
+      "predicate": "支持",
+      "object": "堆叠",
+      "context": "Gameplay效果支持多种堆叠行为来处理效果的叠加应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay效果组件",
+      "predicate": "扩展",
+      "object": "Gameplay效果功能",
+      "context": "通过创建自定义的Gameplay效果组件可以扩展Gameplay效果的功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "属性集",
+      "predicate": "重载",
+      "object": "属性修改函数",
+      "context": "属性集可以通过重载PreAttributeChange等函数来控制属性修改行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay效果",
+      "predicate": "具有",
+      "object": "生命周期",
+      "context": "Gameplay效果有不同的生命周期类型（即时、持续、无限）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay效果",
+      "predicate": "包含",
+      "object": "修饰符",
+      "context": "修饰符决定Gameplay效果如何与属性交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay效果",
+      "predicate": "包含",
+      "object": "执行计算",
+      "context": "执行计算用于定义Gameplay效果执行时的自定义行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay提示",
+      "predicate": "关联",
+      "object": "Gameplay标签",
+      "context": "所有Gameplay提示必须与特定的Gameplay标签关联",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay效果",
+      "predicate": "存储在",
+      "object": "激活Gameplay效果容器",
+      "context": "具有持续时间的Gameplay效果会存储在激活Gameplay效果容器中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "激活Gameplay效果容器",
+      "predicate": "属于",
+      "object": "技能系统组件",
+      "context": "激活Gameplay效果容器是技能系统组件的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:10:55.494Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10690,
+    "contentLength": 6314,
+    "processingTimeMs": 48481
+  }
+}

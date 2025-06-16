@@ -1,0 +1,174 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_static-light-mobility-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_static-light-mobility-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "静态光源",
+      "predicate": "使用",
+      "object": "Lightmass",
+      "context": "静态光源在光照构建时使用Lightmass进行预计算，这是理解静态光源工作原理的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态光源",
+      "predicate": "存储数据于",
+      "object": "光照贴图",
+      "context": "静态光源将光照数据存储在光照贴图中，这是静态光照的核心存储机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光照贴图",
+      "predicate": "应用于",
+      "object": "几何体",
+      "context": "光照贴图数据最终会应用于关卡中的几何体，这是理解光照如何影响场景的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态光源",
+      "predicate": "与",
+      "object": "可移动网格体",
+      "relation": "不完全集成",
+      "context": "理解静态光源与可移动对象的交互限制，这对场景设计很重要",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "静态光源",
+      "predicate": "具有",
+      "object": "中等品质",
+      "context": "了解静态光源在三种移动性中的品质定位",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态光源",
+      "predicate": "具有",
+      "object": "最低性能成本",
+      "context": "理解静态光源在性能方面的优势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光照贴图分辨率",
+      "predicate": "影响",
+      "object": "阴影细节",
+      "context": "光照贴图分辨率直接影响阴影质量，这是优化场景的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光照贴图分辨率",
+      "predicate": "设置于",
+      "object": "静态网格体编辑器",
+      "context": "了解在哪里设置默认光照贴图分辨率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光照贴图分辨率",
+      "predicate": "可覆盖于",
+      "object": "关卡编辑器",
+      "context": "了解如何在特定情况下覆盖光照贴图设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光照贴图密度视图模式",
+      "predicate": "用于",
+      "object": "检查纹素密度",
+      "context": "了解如何检查场景中光照贴图的一致性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lightmass设置",
+      "predicate": "分为",
+      "object": "逐光源设置和世界设置",
+      "context": "理解Lightmass配置的两个层级",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态光照关卡比例",
+      "predicate": "影响",
+      "object": "光照构建时间",
+      "context": "了解如何通过调整比例优化构建过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "间接光照反射次数",
+      "predicate": "控制",
+      "object": "光照质量",
+      "context": "理解如何平衡光照质量和构建时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积光照方法",
+      "predicate": "包括",
+      "object": "体积光照贴图和稀疏体积光照示例",
+      "context": "了解两种主要的体积光照技术及其区别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境光遮蔽",
+      "predicate": "可烘焙到",
+      "object": "光照贴图",
+      "context": "理解环境光遮蔽与静态光照的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光照贴图",
+      "predicate": "可被",
+      "object": "压缩",
+      "context": "了解光照贴图压缩对性能和质量的权衡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积光照贴图细节单元大小",
+      "predicate": "影响",
+      "object": "内存使用",
+      "context": "理解体积光照贴图参数调整的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态光源",
+      "predicate": "适用于",
+      "object": "固定场景元素",
+      "context": "理解静态光源的最佳使用场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "光照贴图分辨率",
+      "predicate": "需要与",
+      "object": "场景比例匹配",
+      "context": "理解如何根据场景大小选择合适的分辨率",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Lightmass",
+      "predicate": "生成",
+      "object": "全局光照",
+      "context": "理解Lightmass在全局光照计算中的核心作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:54:37.692Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 14478,
+    "contentLength": 7806,
+    "processingTimeMs": 53697
+  }
+}

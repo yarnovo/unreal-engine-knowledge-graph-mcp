@@ -1,0 +1,163 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_quick-start-guide-to-player-controlled-cameras-in-unreal-engine-cpp",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_quick-start-guide-to-player-controlled-cameras-in-unreal-engine-cpp.md",
+  "triples": [
+    {
+      "subject": "Pawn",
+      "predicate": "包含",
+      "object": "SpringArmComponent",
+      "context": "Pawn类通过包含SpringArmComponent来实现摄像机的平滑跟随",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SpringArmComponent",
+      "predicate": "绑定",
+      "object": "CameraComponent",
+      "context": "SpringArmComponent末端绑定CameraComponent，形成摄像机悬挂结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pawn",
+      "predicate": "继承",
+      "object": "APawn",
+      "context": "自定义Pawn类继承自引擎基础APawn类",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "PlayerController",
+      "predicate": "控制",
+      "object": "Pawn",
+      "context": "玩家控制器通过AutoPossessPlayer设置自动控制Pawn",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InputComponent",
+      "predicate": "响应",
+      "object": "玩家输入",
+      "context": "InputComponent负责绑定和响应键盘/鼠标输入事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Tick函数",
+      "predicate": "更新",
+      "object": "摄像机参数",
+      "context": "每帧通过Tick函数更新摄像机位置、旋转和缩放参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SpringArmComponent",
+      "predicate": "影响",
+      "object": "摄像机运动",
+      "context": "弹簧臂的长度、延迟参数直接影响摄像机运动效果",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Action Mapping",
+      "predicate": "映射",
+      "object": "ZoomIn/ZoomOut",
+      "context": "动作映射将鼠标右键绑定到摄像机缩放功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Axis Mapping",
+      "predicate": "映射",
+      "object": "移动/旋转",
+      "context": "轴映射将WASD和鼠标移动绑定到Pawn移动和摄像机旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UPROPERTY",
+      "predicate": "暴露",
+      "object": "组件参数",
+      "context": "EditAnywhere属性使组件参数可在编辑器中进行调整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CameraComponent",
+      "predicate": "实现",
+      "object": "视野控制",
+      "context": "通过FieldOfView属性实现摄像机缩放效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetActorForwardVector",
+      "predicate": "决定",
+      "object": "移动方向",
+      "context": "基于Actor朝向向量计算移动方向，保持与摄像机一致",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FMath::Clamp",
+      "predicate": "限制",
+      "object": "输入/旋转值",
+      "context": "用于限制输入数值和摄像机旋转角度范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FMath::Lerp",
+      "predicate": "插值",
+      "object": "平滑过渡",
+      "context": "实现摄像机参数变化的平滑过渡效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "组件层级",
+      "predicate": "基于",
+      "object": "SceneComponent",
+      "context": "所有组件通过SetupAttachment形成以SceneComponent为根的层级结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机系统",
+      "predicate": "依赖",
+      "object": "Tick更新机制",
+      "context": "流畅的摄像机运动需要依赖每帧的Tick函数更新",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "输入系统",
+      "predicate": "前置",
+      "object": "动作响应",
+      "context": "必须先配置输入映射才能实现对应的动作响应",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Pawn移动",
+      "predicate": "关联",
+      "object": "DeltaTime",
+      "context": "移动计算需要结合帧间隔时间实现平滑移动",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:32:21.891Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (20397 字符)",
+      "timestamp": "2025-06-15T20:31:15.928Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 25796,
+    "contentLength": 20397,
+    "processingTimeMs": 65970
+  }
+}

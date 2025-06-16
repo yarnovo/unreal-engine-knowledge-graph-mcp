@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_online-subsystem-steam-interface-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_online-subsystem-steam-interface-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Steam在线子系统",
+      "predicate": "实现",
+      "object": "Online Subsystem接口",
+      "context": "Steam模块实现了Online Subsystem公开的多个接口，支持Steamworks SDK提供的大多数功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Steam在线子系统",
+      "predicate": "支持",
+      "object": "Matchmaking",
+      "context": "Steam在线子系统支持Lobbies和GameServer API等Matchmaking功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Steam在线子系统",
+      "predicate": "支持",
+      "object": "Leaderboards",
+      "context": "Steam在线子系统支持排行榜功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Steam在线子系统",
+      "predicate": "支持",
+      "object": "Achievements",
+      "context": "Steam在线子系统支持成就系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Steam在线子系统",
+      "predicate": "依赖",
+      "object": "Steamworks SDK",
+      "context": "Steam在线子系统需要下载并配置Steamworks SDK才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Steam在线子系统",
+      "predicate": "需要",
+      "object": "Steam应用ID",
+      "context": "所有使用Steam在线子系统的游戏都必须有有效的应用程序ID才能初始化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DefaultEngine.ini",
+      "predicate": "配置",
+      "object": "Steam在线子系统",
+      "context": "通过修改DefaultEngine.ini文件可以配置应用程序使用Steam在线子系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SteamNetDriver",
+      "predicate": "继承",
+      "object": "NetDriver",
+      "context": "SteamNetDriver是UE网络驱动器的具体实现，用于Steam网络通信",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Steam大厅",
+      "predicate": "用于",
+      "object": "点对点匹配",
+      "context": "Steam大厅用于点对点匹配，可作为专用和聆听服务器游戏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Steam服务器",
+      "predicate": "不同于",
+      "object": "Steam大厅",
+      "context": "专用服务器是与大厅不同的二进制，负责运行游戏的服务器端部分",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FOnlineAuthSteam",
+      "predicate": "提供",
+      "object": "Steam在线验证",
+      "context": "FOnlineAuthSteam类提供了与Steam验证系统连接的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SteamAuth",
+      "predicate": "包含",
+      "object": "验证委托",
+      "context": "SteamAuth系统包含OverrideFailureDelegate和OnAuthenticationResultDelegate等验证委托",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnlineSubsystemSteam模块",
+      "predicate": "需要",
+      "object": "动态加载",
+      "context": "需要在项目的.build.cs文件中动态加载OnlineSubsystemSteam模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Steam覆层",
+      "predicate": "要求",
+      "object": "通过Steam客户端启动",
+      "context": "Mac上的Steam覆层要求通过Steam客户端启动游戏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SteamDevAppId",
+      "predicate": "用于",
+      "object": "测试应用程序",
+      "context": "可以使用SteamDevAppId 480作为测试应用ID来测试大多数Steam接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "bInitServerOnClient",
+      "predicate": "控制",
+      "object": "会话创建",
+      "context": "启用bInitServerOnClient设置允许用户创建和加入会话",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "bUseSteamNetworking",
+      "predicate": "决定",
+      "object": "网络子系统选择",
+      "context": "bUseSteamNetworking设置决定是否使用Steam网络作为默认套接字子系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE_PROJECT_STEAMPRODUCTNAME",
+      "predicate": "对应",
+      "object": "STEAMPRODUCTNAME",
+      "context": "UE宏UE_PROJECT_STEAMPRODUCTNAME需要与Steam合作伙伴面板上的STEAMPRODUCTNAME值匹配",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Steam在线验证",
+      "predicate": "包含",
+      "object": "许可证检查",
+      "context": "Steam在线验证系统包含执行许可证检查的功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:11:30.407Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12664 字符)",
+      "timestamp": "2025-06-15T20:10:30.688Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 18458,
+    "contentLength": 12664,
+    "processingTimeMs": 59721
+  }
+}

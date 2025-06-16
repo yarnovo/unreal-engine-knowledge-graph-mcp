@@ -1,0 +1,205 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_setting-up-level-of-detail-for-grooms-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_setting-up-level-of-detail-for-grooms-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Groom",
+      "predicate": "支持",
+      "object": "细节级别(LOD)",
+      "context": "Groom资产支持设置细节级别(LOD)以优化渲染性能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom资产编辑器",
+      "predicate": "包含",
+      "object": "LOD面板",
+      "context": "LOD面板是Groom资产编辑器的重要组成部分，用于管理Groom的细节级别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD模式",
+      "predicate": "包含",
+      "object": "默认值",
+      "context": "默认值是LOD模式的一个选项，使用项目设置中定义的LOD模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD模式",
+      "predicate": "包含",
+      "object": "自动",
+      "context": "自动是LOD模式的一个选项，根据Groom的屏幕尺寸自动调整发束的曲线数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD模式",
+      "predicate": "包含",
+      "object": "手动",
+      "context": "手动是LOD模式的一个选项，根据LOD条目中的信息调整发束几何体的曲线和点数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动LOD",
+      "predicate": "使用",
+      "object": "自动LOD偏差",
+      "context": "自动LOD偏差用于调整Groom开始减少曲线数量时的距离",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛发组",
+      "predicate": "支持",
+      "object": "几何体类型",
+      "context": "毛发组可以选择不同的几何体类型，包括发束、发片和网格体",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发束",
+      "predicate": "支持",
+      "object": "蒙皮",
+      "context": "发束几何体支持蒙皮、RBF和模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发片",
+      "predicate": "支持",
+      "object": "蒙皮",
+      "context": "发片几何体支持蒙皮、RBF和模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体",
+      "predicate": "支持",
+      "object": "RBF",
+      "context": "网格体几何体仅支持RBF",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom资产编辑器",
+      "predicate": "提供",
+      "object": "LOD可视化",
+      "context": "Groom资产编辑器提供LOD可视化功能，帮助开发者直观查看不同细节级别的效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD面板",
+      "predicate": "包含",
+      "object": "曲线消减",
+      "context": "曲线消减是LOD面板中的一个属性，用于均匀地减少发束数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD面板",
+      "predicate": "包含",
+      "object": "顶点消减",
+      "context": "顶点消减是LOD面板中的一个属性，用于减少每股发束的点数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD面板",
+      "predicate": "包含",
+      "object": "角度阈值",
+      "context": "角度阈值是LOD面板中的一个属性，用于控制在简化过程中移除顶点时的最大角度差",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD面板",
+      "predicate": "包含",
+      "object": "屏幕尺寸",
+      "context": "屏幕尺寸是LOD面板中的一个属性，用于定义应启用此LOD时的屏幕尺寸",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD面板",
+      "predicate": "包含",
+      "object": "厚度比例",
+      "context": "厚度比例是LOD面板中的一个属性，用于缩放发束半径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD面板",
+      "predicate": "包含",
+      "object": "可见",
+      "context": "可见是LOD面板中的一个属性，用于定义该毛发组的LOD是否可见",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD面板",
+      "predicate": "包含",
+      "object": "绑定类型",
+      "context": "绑定类型是LOD面板中的一个属性，用于定义附着类型，包括刚体和蒙皮",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD面板",
+      "predicate": "包含",
+      "object": "模拟",
+      "context": "模拟是LOD面板中的一个属性，用于设置此Groom是否模拟物理交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD面板",
+      "predicate": "包含",
+      "object": "RBF插值",
+      "context": "RBF插值是LOD面板中的一个属性，用于设置此Groom是否使用RBF插值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom",
+      "predicate": "用于",
+      "object": "MetaHuman角色",
+      "context": "Groom可以用于MetaHuman角色，提供更真实的毛发效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "发束",
+      "predicate": "对比",
+      "object": "发片",
+      "context": "发束和发片是两种不同的几何体类型，适用于不同的渲染需求和性能优化场景",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "发片",
+      "predicate": "对比",
+      "object": "网格体",
+      "context": "发片和网格体是两种不同的几何体类型，适用于不同的渲染需求和性能优化场景",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "发束",
+      "predicate": "对比",
+      "object": "网格体",
+      "context": "发束和网格体是两种不同的几何体类型，适用于不同的渲染需求和性能优化场景",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:45:39.189Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8231,
+    "contentLength": 5282,
+    "processingTimeMs": 65169
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_bloom-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_bloom-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "泛光",
+      "predicate": "属于",
+      "object": "后期处理效果",
+      "context": "泛光是虚幻引擎中用于增强图像真实感的一种后期处理效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "泛光",
+      "predicate": "实现",
+      "object": "高斯模糊",
+      "context": "泛光效果通过高斯模糊技术实现，模拟光线散射效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "泛光",
+      "predicate": "包含",
+      "object": "泛光卷积",
+      "context": "泛光卷积是泛光效果的一种高级实现方式，提供更复杂的视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "泛光",
+      "predicate": "包含",
+      "object": "泛光尘土蒙版",
+      "context": "泛光尘土蒙版是泛光效果的扩展功能，用于创建特殊视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "泛光卷积",
+      "predicate": "基于",
+      "object": "快速傅里叶变换",
+      "context": "泛光卷积使用FFT加速卷积运算，提高性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "泛光卷积",
+      "predicate": "用于",
+      "object": "过场动画",
+      "context": "泛光卷积专门用于游戏内过场动画和离线过场动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "标准泛光",
+      "predicate": "替代",
+      "object": "泛光卷积",
+      "context": "标准泛光在性能要求高时可替代泛光卷积，但视觉效果较简单",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "泛光",
+      "predicate": "控制",
+      "object": "强度属性",
+      "context": "强度属性用于线性调节整个泛光效果的颜色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "泛光",
+      "predicate": "控制",
+      "object": "阈值属性",
+      "context": "阈值属性定义了颜色产生泛光所需的亮度单位",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "泛光",
+      "predicate": "控制",
+      "object": "着色属性",
+      "context": "着色属性修改每个泛光的亮度和颜色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "泛光",
+      "predicate": "控制",
+      "object": "尺寸属性",
+      "context": "尺寸属性以屏幕宽度百分比表示泛光大小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "泛光尘土蒙版",
+      "predicate": "使用",
+      "object": "纹理",
+      "context": "泛光尘土蒙版使用纹理来增亮特定屏幕区域的泛光效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "泛光卷积",
+      "predicate": "使用",
+      "object": "内核图像",
+      "context": "泛光卷积使用自定义内核图像实现特殊泛光效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "泛光",
+      "predicate": "模拟",
+      "object": "HDR效果",
+      "context": "泛光效果模拟HDR效果，增强LDR图像的真实感",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "泛光",
+      "predicate": "影响",
+      "object": "渲染性能",
+      "context": "泛光效果会以适度的性能成本增加图像真实感",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "泛光卷积",
+      "predicate": "需要",
+      "object": "高端硬件",
+      "context": "泛光卷积效果需要高端硬件支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "泛光尘土蒙版",
+      "predicate": "用于",
+      "object": "摄像机特效",
+      "context": "泛光尘土蒙版可用于创建战地摄像机图像等特效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "泛光",
+      "predicate": "关联",
+      "object": "渲染",
+      "context": "泛光是渲染管线中的重要视觉效果",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "泛光",
+      "predicate": "关联",
+      "object": "光照",
+      "context": "泛光效果与场景光照密切相关",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "后期处理体积",
+      "predicate": "包含",
+      "object": "泛光设置",
+      "context": "后期处理体积中包含泛光效果的各项设置参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:14:14.261Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8696 字符)",
+      "timestamp": "2025-06-15T18:13:13.000Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13975,
+    "contentLength": 8696,
+    "processingTimeMs": 61265
+  }
+}

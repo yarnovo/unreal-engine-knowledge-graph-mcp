@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_networking-and-multiplayer-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_networking-and-multiplayer-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "复制（Replication）",
+      "predicate": "用于",
+      "object": "客户端与服务器间同步数据",
+      "context": "复制是虚幻引擎中实现多人游戏数据同步的核心机制，理解复制是学习网络编程的基础",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "复制（Replication）",
+      "predicate": "包含",
+      "object": "Actor复制",
+      "context": "Actor复制是复制系统的重要组成部分，学习复制需要先理解Actor在网络中的行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor复制",
+      "predicate": "包含",
+      "object": "Actor属性复制",
+      "context": "属性复制是Actor复制的基础功能，理解属性复制机制才能实现有效的数据同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor复制",
+      "predicate": "包含",
+      "object": "Actor组件复制",
+      "context": "组件复制扩展了Actor的复制能力，是构建复杂网络对象的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程程序调用（RPC）",
+      "predicate": "补充",
+      "object": "复制（Replication）",
+      "context": "RPC与属性复制共同构成了完整的网络通信方案，理解二者的区别和适用场景很重要",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "Iris复制系统",
+      "predicate": "替代",
+      "object": "传统复制系统",
+      "context": "Iris是新一代复制系统，学习网络编程需要了解两种系统的区别和迁移路径",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "复制图表（Replication Graph）",
+      "predicate": "优化",
+      "object": "Actor复制",
+      "context": "复制图表提供了更精细的复制控制，是优化网络性能的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "Actor相关性",
+      "predicate": "影响",
+      "object": "复制效率",
+      "context": "理解相关性判断标准有助于优化网络流量，是多人游戏性能调优的关键",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "网络分析器",
+      "predicate": "用于",
+      "object": "调试网络游戏",
+      "context": "网络分析器是诊断和优化网络性能的必备工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色移动组件",
+      "predicate": "依赖",
+      "object": "复制系统",
+      "context": "网络化角色移动是多人游戏的核心功能，需要深入理解其与复制系统的交互",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "专用服务器",
+      "predicate": "运行",
+      "object": "多人游戏",
+      "context": "部署专用服务器是多人游戏开发的重要环节，需要了解其配置和管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor的Role和RemoteRole属性",
+      "predicate": "决定",
+      "object": "复制权限",
+      "context": "这些属性定义了Actor在网络中的行为模式，是理解复制机制的基础概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络模拟",
+      "predicate": "用于",
+      "object": "测试网络条件",
+      "context": "网络模拟工具帮助开发者测试不同网络环境下的游戏表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Oodle网络",
+      "predicate": "优化",
+      "object": "网络带宽",
+      "context": "Oodle提供了高效的网络压缩算法，是优化多人游戏网络性能的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "重播系统",
+      "predicate": "基于",
+      "object": "复制数据",
+      "context": "重播功能依赖于网络复制数据的记录和回放，理解其原理有助于调试和功能实现",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:05:37.905Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10784 字符)",
+      "timestamp": "2025-06-15T20:04:50.524Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13122,
+    "contentLength": 10784,
+    "processingTimeMs": 47391
+  }
+}

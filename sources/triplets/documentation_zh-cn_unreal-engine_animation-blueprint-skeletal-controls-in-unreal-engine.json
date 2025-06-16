@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-blueprint-skeletal-controls-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-blueprint-skeletal-controls-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "骨骼控制节点",
+      "predicate": "属于",
+      "object": "动画蓝图",
+      "context": "骨骼控制节点是动画蓝图中的一个功能模块，用于直接控制角色的骨架资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼控制节点",
+      "predicate": "操作于",
+      "object": "组件空间",
+      "context": "骨骼控制节点主要在组件空间中操作和计算变换，这对于理解节点的工作原理至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "组件空间",
+      "predicate": "相对于",
+      "object": "骨骼网格体组件",
+      "context": "组件空间中的动画姿势是相对于角色的骨骼网格体组件而非骨骼的父骨骼来计算变换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "空间转换节点",
+      "predicate": "转换",
+      "object": "本地空间到组件空间",
+      "context": "空间转换节点用于将姿势从本地空间转换到组件空间，这是使用骨骼控制节点前的重要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Alpha值",
+      "predicate": "控制",
+      "object": "骨骼变换权重",
+      "context": "Alpha值在骨骼控制节点中用于控制在生成新姿势时对源姿势应用的修改程度，是动画混合的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD阈值",
+      "predicate": "限制",
+      "object": "骨骼控制节点计算",
+      "context": "LOD阈值决定了在哪个LOD级别下骨骼控制节点会被忽略，这是优化性能的重要设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AnimDynamics",
+      "predicate": "是",
+      "object": "骨骼控制节点",
+      "context": "AnimDynamics是一种骨骼控制节点，用于实现轻量级物理模拟的辅助动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CCDIK",
+      "predicate": "用于",
+      "object": "设置IK链",
+      "context": "CCDIK是一种骨骼控制节点，专门用于设置和控制IK链",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Two Bone IK",
+      "predicate": "用于",
+      "object": "三关节链IK",
+      "context": "Two Bone IK控制点专门用于处理包含三个关节的IK链",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼控制节点",
+      "predicate": "包含",
+      "object": "多种类型",
+      "context": "骨骼控制节点包含多种类型，如AnimDynamics、CCDIK、Two Bone IK等，每种类型有特定的用途",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "AnimGraph",
+      "context": "AnimGraph是动画蓝图中的一个重要组成部分，用于构建动画逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼控制节点",
+      "predicate": "位于",
+      "object": "AnimGraph",
+      "context": "骨骼控制节点在动画蓝图的AnimGraph中使用，这是它们被放置和执行的地方",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合节点",
+      "predicate": "类似于",
+      "object": "骨骼控制节点",
+      "context": "骨骼控制节点中的Alpha值控制方式类似于混合节点，这有助于理解动画混合的概念",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "骨架资产",
+      "predicate": "被控制",
+      "object": "骨骼控制节点",
+      "context": "骨骼控制节点的主要功能是直接控制角色的骨架资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体组件",
+      "predicate": "关联",
+      "object": "骨架资产",
+      "context": "骨骼网格体组件与骨架资产密切相关，共同构成角色的动画系统",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "空间转换节点",
+      "predicate": "影响",
+      "object": "性能",
+      "context": "空间转换节点会带来性能成本，理解这一点有助于优化动画蓝图",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "骨骼控制节点",
+      "predicate": "使用",
+      "object": "输入输出引脚",
+      "context": "骨骼控制节点通过输入输出引脚接收和生成动画姿势，这是节点工作的基本机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "组件空间姿势",
+      "predicate": "显示为",
+      "object": "蓝色引脚",
+      "context": "在动画图表中，组件空间姿势引脚显示为蓝色，这是识别它们的重要视觉线索",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "设置",
+      "object": "LOD阈值",
+      "context": "骨骼控制节点的LOD阈值在细节面板中设置，这是配置节点行为的重要界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD级别",
+      "predicate": "影响",
+      "object": "模型质量",
+      "context": "更高的LOD级别意味着更低的模型质量，这与骨骼控制节点的使用相关",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:00:27.046Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9765,
+    "contentLength": 7263,
+    "processingTimeMs": 64994
+  }
+}

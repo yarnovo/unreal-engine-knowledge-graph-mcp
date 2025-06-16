@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_umg-ui-designer-quick-start-guide-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_umg-ui-designer-quick-start-guide-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "UMG",
+      "predicate": "用于",
+      "object": "UI设计",
+      "context": "UMG是虚幻引擎中用于创建UI元素的工具，帮助开发者设计HUD和菜单",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件蓝图",
+      "predicate": "属于",
+      "object": "UMG",
+      "context": "控件蓝图是UMG的核心组件，用于创建和设置UI元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HUD",
+      "predicate": "实现",
+      "object": "生命值显示",
+      "context": "HUD控件用于显示角色的生命值，通过进度条和文本控件实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HUD",
+      "predicate": "实现",
+      "object": "能量显示",
+      "context": "HUD控件用于显示角色的能量值，通过进度条和文本控件实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HUD_AmmoCount",
+      "predicate": "实现",
+      "object": "弹药显示",
+      "context": "HUD_AmmoCount控件用于显示角色的弹药数量，通过文本控件实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_FirstPersonCharacter",
+      "predicate": "包含",
+      "object": "生命值变量",
+      "context": "BP_FirstPersonCharacter蓝图中定义了生命值变量，用于控制HUD中的生命值显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_FirstPersonCharacter",
+      "predicate": "包含",
+      "object": "能量变量",
+      "context": "BP_FirstPersonCharacter蓝图中定义了能量变量，用于控制HUD中的能量显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_FirstPersonCharacter",
+      "predicate": "包含",
+      "object": "弹药变量",
+      "context": "BP_FirstPersonCharacter蓝图中定义了弹药变量，用于控制HUD_AmmoCount中的弹药显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "进度条",
+      "predicate": "绑定",
+      "object": "生命值变量",
+      "context": "进度条控件通过绑定到生命值变量，动态显示角色的生命值",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "进度条",
+      "predicate": "绑定",
+      "object": "能量变量",
+      "context": "进度条控件通过绑定到能量变量，动态显示角色的能量值",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "文本控件",
+      "predicate": "绑定",
+      "object": "弹药变量",
+      "context": "文本控件通过绑定到弹药变量，动态显示角色的弹药数量",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水平方框",
+      "predicate": "用于",
+      "object": "UI布局",
+      "context": "水平方框控件用于组织UI元素，如生命值和能量条的布局",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "垂直方框",
+      "predicate": "用于",
+      "object": "UI布局",
+      "context": "垂直方框控件用于组织UI元素，如文本和进度条的布局",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "锚点",
+      "predicate": "控制",
+      "object": "UI位置",
+      "context": "锚点用于固定UI元素的位置，确保在不同屏幕尺寸下保持一致",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "BP_Rifle",
+      "predicate": "依赖",
+      "object": "BP_FirstPersonCharacter",
+      "context": "BP_Rifle蓝图中通过转换到BP_FirstPersonCharacter来访问弹药变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Event Begin Play",
+      "predicate": "触发",
+      "object": "创建控件",
+      "context": "游戏开始时，Event Begin Play事件触发创建HUD控件并添加到视口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "创建控件",
+      "predicate": "生成",
+      "object": "HUD",
+      "context": "创建控件节点用于生成HUD控件实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "添加到视口",
+      "predicate": "显示",
+      "object": "HUD",
+      "context": "添加到视口节点将HUD控件显示在游戏画面中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG",
+      "predicate": "扩展",
+      "object": "蓝图",
+      "context": "UMG扩展了蓝图的功能，使其能够创建复杂的UI逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "控件蓝图编辑器",
+      "predicate": "用于",
+      "object": "设计UI",
+      "context": "控件蓝图编辑器提供了设计和脚本功能，用于创建和调整UI元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:05:26.632Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (20100 字符)",
+      "timestamp": "2025-06-15T21:04:25.550Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 28816,
+    "contentLength": 20100,
+    "processingTimeMs": 61087
+  }
+}

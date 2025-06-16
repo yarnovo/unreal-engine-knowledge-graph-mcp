@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_performance-budgeting-using-effect-types-in-niagara-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_performance-budgeting-using-effect-types-in-niagara-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Niagara效果类型",
+      "predicate": "用于",
+      "object": "性能预算管理",
+      "context": "效果类型资产允许一次性配置各种设置，并在大量Niagara系统中复用，帮助管理性能预算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara效果类型",
+      "predicate": "包含",
+      "object": "预算比例选项",
+      "context": "效果类型资产中提供了多种预算比例选项，用于设置不同的剔除方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预算比例选项",
+      "predicate": "包括",
+      "object": "最大全局预算用量",
+      "context": "最大全局预算用量是预算比例选项之一，用于设置预算上限，超过上限的系统将被剔除",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预算比例选项",
+      "predicate": "包括",
+      "object": "最大距离比例",
+      "context": "最大距离比例是预算比例选项之一，用于定义剔除系统的距离如何随预算用量增加而缩短",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预算比例选项",
+      "predicate": "包括",
+      "object": "最大实例计数比例",
+      "context": "最大实例计数比例是预算比例选项之一，用于定义关卡中的实例数如何随预算用量增加而缩减",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预算比例选项",
+      "predicate": "包括",
+      "object": "最大系统实例计数比例",
+      "context": "最大系统实例计数比例是预算比例选项之一，用于定义关卡中的实例数如何随预算用量增加而缩减，但针对每个系统的实例数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara效果类型",
+      "predicate": "通过",
+      "object": "内容浏览器创建",
+      "context": "要创建Niagara效果类型资产，需在内容浏览器中右键选择特效处理 > Niagara效果类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "性能预算管理",
+      "predicate": "适用于",
+      "object": "游戏开发",
+      "context": "在游戏开发中，性能预算管理用于灵活调整特效处理流程，优化性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "最大全局预算用量",
+      "predicate": "设置为",
+      "object": "百分比值",
+      "context": "最大全局预算用量通常设置为0到1之间的值，表示0-100%之间的百分比",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "最大距离比例",
+      "predicate": "基于",
+      "object": "曲线定义",
+      "context": "最大距离比例通过设置曲线来定义剔除系统的距离如何随预算用量增加而缩短",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "最大实例计数比例",
+      "predicate": "基于",
+      "object": "曲线定义",
+      "context": "最大实例计数比例通过设置曲线来定义关卡中的实例数如何随预算用量增加而缩减",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "最大系统实例计数比例",
+      "predicate": "基于",
+      "object": "曲线定义",
+      "context": "最大系统实例计数比例通过设置曲线来定义关卡中的实例数如何随预算用量增加而缩减，但针对每个系统的实例数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:21:48.976Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5461,
+    "contentLength": 3787,
+    "processingTimeMs": 47741
+  }
+}

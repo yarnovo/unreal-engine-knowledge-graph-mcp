@@ -1,0 +1,155 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_supporting-multiple-media-configurations-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_supporting-multiple-media-configurations-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "媒体配置文件",
+      "predicate": "包含",
+      "object": "媒体源列表",
+      "context": "媒体配置文件用于管理不同媒体输入配置，其中包含媒体源列表来定义视频输入来源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体配置文件",
+      "predicate": "包含",
+      "object": "媒体输出列表",
+      "context": "媒体配置文件用于管理不同媒体输出配置，其中包含媒体输出列表来定义视频输出目标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体配置文件",
+      "predicate": "依赖",
+      "object": "代理资源",
+      "context": "媒体配置文件通过代理资源连接配置设置与实际使用这些设置的媒体资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理媒体源",
+      "predicate": "连接",
+      "object": "媒体配置文件",
+      "context": "代理媒体源作为通道，将媒体配置文件中的输入配置连接到项目中实际使用这些输入的资源",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理媒体输出",
+      "predicate": "连接",
+      "object": "媒体配置文件",
+      "context": "代理媒体输出作为通道，将项目中生成的媒体输出连接到媒体配置文件中定义的输出配置",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体束",
+      "predicate": "使用",
+      "object": "代理媒体源",
+      "context": "媒体束通过引用代理媒体源来获取视频输入，而不是直接引用具体的媒体源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体采集",
+      "predicate": "使用",
+      "object": "代理媒体输出",
+      "context": "媒体采集通过引用代理媒体输出来发送视频输出，而不是直接引用具体的媒体输出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体框架工具插件",
+      "predicate": "提供",
+      "object": "媒体配置文件功能",
+      "context": "媒体框架工具插件是使用媒体配置文件和代理资源的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "包含",
+      "object": "媒体源代理列表",
+      "context": "项目设置中的媒体源代理列表用于映射代理媒体源与媒体配置文件中的输入配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "包含",
+      "object": "媒体输出代理列表",
+      "context": "项目设置中的媒体输出代理列表用于映射代理媒体输出与媒体配置文件中的输出配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体配置文件",
+      "predicate": "支持",
+      "object": "时间码提供者配置",
+      "context": "媒体配置文件可以配置时间码提供者，用于同步视频输入的时间码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体配置文件",
+      "predicate": "支持",
+      "object": "集中同步提供者配置",
+      "context": "媒体配置文件可以配置集中同步提供者，用于同步视频输入的帧率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AJA媒体卡",
+      "predicate": "适用于",
+      "object": "媒体配置文件",
+      "context": "媒体配置文件可以配置使用AJA媒体卡作为视频输入或输出设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blackmagic Design卡",
+      "predicate": "适用于",
+      "object": "媒体配置文件",
+      "context": "媒体配置文件可以配置使用Blackmagic Design卡作为视频输入或输出设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "文件媒体源",
+      "predicate": "适用于",
+      "object": "媒体配置文件",
+      "context": "媒体配置文件可以配置使用磁盘上的文件作为视频输入源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "活动媒体配置文件",
+      "predicate": "控制",
+      "object": "当前媒体输入输出配置",
+      "context": "项目运行时只有一个活动媒体配置文件生效，控制当前的媒体输入输出设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启动媒体配置文件",
+      "predicate": "决定",
+      "object": "打包项目的默认媒体配置",
+      "context": "项目打包后，启动媒体配置文件设置决定默认使用的媒体配置文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:57:28.822Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (14485 字符)",
+      "timestamp": "2025-06-15T20:56:39.003Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 22271,
+    "contentLength": 14485,
+    "processingTimeMs": 49823
+  }
+}

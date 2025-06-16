@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_property-binding-for-umg-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_property-binding-for-umg-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "UMG",
+      "predicate": "支持",
+      "object": "属性绑定",
+      "context": "UMG支持属性绑定功能，允许将控件属性绑定到蓝图中的功能或属性变量，这是UMG的核心功能之一",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性绑定",
+      "predicate": "用于",
+      "object": "控件属性更新",
+      "context": "属性绑定用于自动更新控件属性，当绑定的蓝图属性或功能发生变化时，控件属性会相应更新",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "功能绑定",
+      "predicate": "是",
+      "object": "属性绑定的一种",
+      "context": "功能绑定是属性绑定的一种特殊形式，通过绑定到蓝图功能来实现控件属性的动态更新",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "进度条控件",
+      "predicate": "可通过",
+      "object": "功能绑定更新",
+      "context": "进度条控件的百分比属性可以通过功能绑定动态更新，例如绑定到玩家体力值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "按钮控件",
+      "predicate": "可通过",
+      "object": "属性绑定控制",
+      "context": "按钮控件的IsEnabled等行为属性可以通过属性绑定控制，例如根据是否存在存档文件来启用/禁用按钮",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图变量",
+      "predicate": "绑定到",
+      "object": "控件属性",
+      "context": "蓝图中的变量可以绑定到控件属性，实现数据驱动的UI更新",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DoesSaveExist变量",
+      "predicate": "控制",
+      "object": "继续按钮的启用状态",
+      "context": "布尔变量DoesSaveExist可以绑定到继续按钮的IsEnabled属性，控制按钮的启用状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家体力变量",
+      "predicate": "驱动",
+      "object": "进度条百分比",
+      "context": "角色蓝图中的玩家体力变量可以通过功能绑定驱动进度条百分比的显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设置功能",
+      "predicate": "会破坏",
+      "object": "属性绑定",
+      "context": "如果在控件上直接调用设置功能，会破坏已经建立的属性绑定关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG",
+      "predicate": "基于",
+      "object": "蓝图系统",
+      "context": "UMG系统基于虚幻引擎的蓝图系统，两者紧密集成",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:30:36.276Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4098,
+    "contentLength": 2658,
+    "processingTimeMs": 44059
+  }
+}

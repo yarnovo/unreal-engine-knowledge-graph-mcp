@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-import-and-use-paper-2d-sprites-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-import-and-use-paper-2d-sprites-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Paper 2D Sprite",
+      "predicate": "是",
+      "object": "平面网格体",
+      "context": "Sprite本质上是映射了纹理和相关材质的平面网格体，帮助学习者理解Sprite的基本构成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Paper 2D Sprite",
+      "predicate": "使用",
+      "object": "Sprite编辑器",
+      "context": "Sprite编辑器是编辑Sprite的主要工具，学习者需要掌握其使用方法来处理Sprite",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sprite编辑器",
+      "predicate": "包含",
+      "object": "查看模式",
+      "context": "查看模式是Sprite编辑器的功能之一，用于预览Sprite和统计数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sprite编辑器",
+      "predicate": "包含",
+      "object": "编辑源区域模式",
+      "context": "编辑源区域模式用于定义原始纹理中构成Sprite的区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sprite编辑器",
+      "predicate": "包含",
+      "object": "编辑碰撞模式",
+      "context": "编辑碰撞模式用于处理Sprite的碰撞体，是游戏物理交互的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sprite编辑器",
+      "predicate": "包含",
+      "object": "编辑渲染几何体模式",
+      "context": "编辑渲染几何体模式影响Sprite的视觉表现，是图形处理的重要部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sprite",
+      "predicate": "用于创建",
+      "object": "Flipbook",
+      "context": "多个Sprite可以组成Flipbook实现动画效果，这是2D动画的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sprite",
+      "predicate": "创建于",
+      "object": "内容浏览器",
+      "context": "内容浏览器是创建和管理Sprite资产的入口，学习者需要熟悉其操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sprite",
+      "predicate": "关联",
+      "object": "纹理",
+      "context": "Sprite需要指定源纹理来定义其视觉内容，这是图形资源管理的关键概念",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sprite",
+      "predicate": "关联",
+      "object": "材质",
+      "context": "Sprite的渲染效果受材质影响，理解材质系统对图形开发很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sprite材质",
+      "predicate": "包含",
+      "object": "SpriteTextureSampler",
+      "context": "SpriteTextureSampler是材质中处理Sprite纹理的特殊节点，是材质编辑的关键组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sprite表单纹理",
+      "predicate": "可提取为",
+      "object": "多个Sprite",
+      "context": "从Sprite表单提取多个Sprite是批量处理2D资源的有效方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "JSON文件",
+      "predicate": "可用于导入",
+      "object": "Sprite",
+      "context": "JSON导入是与其他工具(如Texture Packer)协作的重要接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Paper 2D插件",
+      "predicate": "提供",
+      "object": "基础Sprite材质",
+      "context": "了解插件提供的默认材质有助于快速开始开发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质编辑器",
+      "predicate": "用于创建",
+      "object": "自定义Sprite材质",
+      "context": "掌握材质编辑器是创建高级视觉效果的必要技能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sprite",
+      "predicate": "继承自",
+      "object": "Paper 2D系统",
+      "context": "理解Sprite在Paper 2D系统中的位置有助于掌握整体2D开发框架",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Flipbook",
+      "predicate": "由",
+      "object": "多个Sprite序列组成",
+      "context": "理解Flipbook的构成原理有助于创建2D动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sprite渲染",
+      "predicate": "依赖",
+      "object": "材质系统",
+      "context": "材质系统决定了Sprite的最终渲染效果，是图形编程的核心",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Sprite碰撞体",
+      "predicate": "用于",
+      "object": "物理交互",
+      "context": "碰撞体编辑是游戏物理系统的基础组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:26:45.914Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7641,
+    "contentLength": 5595,
+    "processingTimeMs": 56301
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_material-attributes-expressions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_material-attributes-expressions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "建立材质属性",
+      "predicate": "用于",
+      "object": "主材质节点",
+      "context": "建立材质属性节点用于定义主材质节点上的标准材质属性，并将其集合后传送，帮助学习者理解材质属性的集合与传输机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "建立材质属性",
+      "predicate": "适用于",
+      "object": "分层材质",
+      "context": "建立材质属性节点在创建分层材质时非常有用，允许在材质函数中定义整个材质并在父级材质中使用该数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "建立材质属性",
+      "predicate": "被替代",
+      "object": "设置材质属性",
+      "context": "文档明确指出大部分情况下应使用设置材质属性节点替代建立材质属性节点，帮助学习者了解更优的工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设置材质属性",
+      "predicate": "用于",
+      "object": "材质属性定义",
+      "context": "设置材质属性节点用于定义一组材质属性并打包传输，帮助学习者理解如何灵活定义和传输材质属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设置材质属性",
+      "predicate": "优于",
+      "object": "建立材质属性",
+      "context": "设置材质属性节点可以仅显示需要的材质属性，使材质图表更简洁，帮助学习者选择更高效的工作方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "中断材质属性",
+      "predicate": "用于",
+      "object": "分层材质",
+      "context": "中断材质属性节点在创建分层材质时非常有用，允许访问每个单独的属性并选择性编辑，帮助学习者理解属性分割的应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "中断材质属性",
+      "predicate": "被替代",
+      "object": "获取材质属性",
+      "context": "获取材质属性节点提供了更灵活的工作流程，可以选择性提取属性而非全部分割，帮助学习者了解更优的节点选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "获取材质属性",
+      "predicate": "扩展",
+      "object": "中断材质属性",
+      "context": "获取材质属性节点在中断材质属性的基础上提供了更灵活的输出选择，帮助学习者理解节点功能的演进",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合材质属性",
+      "predicate": "用于",
+      "object": "材质分层混合",
+      "context": "混合材质属性节点使用两组材质属性并通过Alpha输入进行像素级别混合，帮助学习者理解材质混合的实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主材质节点",
+      "predicate": "接收",
+      "object": "材质属性",
+      "context": "主材质节点可以接收来自建立材质属性或设置材质属性节点的输入数据，帮助学习者理解材质属性的最终应用目标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质属性",
+      "predicate": "包含",
+      "object": "基础颜色",
+      "context": "材质属性包含基础颜色等标准属性，帮助学习者理解材质的基本构成要素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质属性",
+      "predicate": "包含",
+      "object": "金属感",
+      "context": "材质属性包含金属感等标准属性，帮助学习者理解材质的基本构成要素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质属性",
+      "predicate": "包含",
+      "object": "粗糙度",
+      "context": "材质属性包含粗糙度等标准属性，帮助学习者理解材质的基本构成要素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质属性",
+      "predicate": "包含",
+      "object": "法线",
+      "context": "材质属性包含法线等标准属性，帮助学习者理解材质的基本构成要素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "用于",
+      "object": "设置材质属性",
+      "context": "细节面板用于定义设置材质属性节点上显示的输入，帮助学习者理解节点的配置方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "用于",
+      "object": "获取材质属性",
+      "context": "细节面板用于添加和定义获取材质属性节点的输出，帮助学习者理解节点的配置方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:50:49.024Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7995,
+    "contentLength": 5299,
+    "processingTimeMs": 58543
+  }
+}

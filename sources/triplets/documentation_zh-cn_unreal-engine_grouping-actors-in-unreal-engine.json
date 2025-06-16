@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_grouping-actors-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_grouping-actors-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Actor分组",
+      "predicate": "依赖",
+      "object": "选择Actor",
+      "context": "理解Actor分组前需要先掌握如何选择Actor，这是基础操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor分组",
+      "predicate": "支持",
+      "object": "整体变换",
+      "context": "分组后的Actor可以作为一个整体进行旋转、平移、缩放等变换操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor分组",
+      "predicate": "创建",
+      "object": "组Actor",
+      "context": "分组操作会在世界大纲视图中创建组Actor实体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "组Actor",
+      "predicate": "包含",
+      "object": "多个Actor",
+      "context": "组Actor是多个Actor的容器，选择组Actor即选择其中所有成员",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor分组",
+      "predicate": "需要",
+      "object": "允许组选择",
+      "context": "分组功能需要先在设置菜单中启用允许组选择选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "锁定组",
+      "predicate": "控制",
+      "object": "变换行为",
+      "context": "锁定状态下组内所有Actor必须统一变换，解锁后可单独变换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重新分组",
+      "predicate": "替代",
+      "object": "手动分组",
+      "context": "重新分组功能可以快速合并现有组和新选Actor，比手动操作更高效",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "枢轴点",
+      "predicate": "决定",
+      "object": "变换中心",
+      "context": "组的变换操作围绕枢轴点进行，这是学习组变换的关键概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界大纲视图",
+      "predicate": "显示",
+      "object": "组层级关系",
+      "context": "通过世界大纲视图可以直观查看和管理组的结构关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "上下文菜单",
+      "predicate": "提供",
+      "object": "分组操作",
+      "context": "右键菜单集中了所有分组相关功能，是主要操作入口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体Actor",
+      "predicate": "可以属于",
+      "object": "Actor组",
+      "context": "文档示例展示了静态网格体如何组成功能组",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡",
+      "predicate": "限制",
+      "object": "分组范围",
+      "context": "不同关卡的Actor不能同组，这是重要的分组边界条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换控件",
+      "predicate": "用于",
+      "object": "调整枢轴点",
+      "context": "通过变换控件可以交互式修改组的枢轴点位置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "键盘快捷键",
+      "predicate": "加速",
+      "object": "分组操作",
+      "context": "Ctrl+G/Shift+G等快捷键是高效分组的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "括号颜色",
+      "predicate": "表示",
+      "object": "锁定状态",
+      "context": "绿色/红色括号是识别组锁定状态的视觉线索",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:16:50.518Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8175,
+    "contentLength": 4967,
+    "processingTimeMs": 48797
+  }
+}

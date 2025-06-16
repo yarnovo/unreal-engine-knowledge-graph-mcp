@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-the-autosdk-system-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-the-autosdk-system-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "AutoSDK系统",
+      "predicate": "用于",
+      "object": "分发目标平台SDK",
+      "context": "AutoSDK系统的主要功能是分发和配置目标平台SDK，帮助开发者无需手动管理安装包",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AutoSDK系统",
+      "predicate": "支持",
+      "object": "多个分支",
+      "context": "AutoSDK系统专为编译机设计，可以服务SDK要求不同的多个分支",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AutoSDK系统",
+      "predicate": "集成",
+      "object": "虚幻编译工具",
+      "context": "虚幻编译工具（UBT）与AutoSDK无缝对接，负责处理SDK之间的切换",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AutoSDK系统",
+      "predicate": "集成",
+      "object": "自动化工具",
+      "context": "自动化工具与AutoSDK无缝对接，帮助开发者进行自动化操作",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AutoSDK系统",
+      "predicate": "集成",
+      "object": "虚幻编辑器",
+      "context": "虚幻编辑器与AutoSDK无缝对接，帮助开发者进行编辑和开发",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编译工具",
+      "predicate": "调用",
+      "object": "AutoSDK系统",
+      "context": "虚幻编译工具（UBT）调用AutoSDK系统来处理SDK之间的切换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编译工具",
+      "predicate": "基于",
+      "object": "UEBuildPlatform",
+      "context": "虚幻编译工具的首选SDK版本通常由派生自UBT源代码中UEBuildPlatform的类来定义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AutoSDK目录",
+      "predicate": "包含",
+      "object": "HostPlatform",
+      "context": "AutoSDK目录结构包含HostPlatform子目录，用于标识可以使用SDK的主机平台",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HostPlatform",
+      "predicate": "包含",
+      "object": "TargetPlatform",
+      "context": "HostPlatform目录下包含TargetPlatform子目录，用于标识目标平台SDK",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TargetPlatform",
+      "predicate": "包含",
+      "object": "SDK版本目录",
+      "context": "TargetPlatform目录下包含特定版本的SDK目录，例如1.0",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SDK版本目录",
+      "predicate": "包含",
+      "object": "Setup.bat",
+      "context": "SDK版本目录包含Setup.bat文件，用于设置该SDK版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SDK版本目录",
+      "predicate": "包含",
+      "object": "Unsetup.bat",
+      "context": "SDK版本目录包含Unsetup.bat文件，用于移除该SDK版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Setup.bat",
+      "predicate": "生成",
+      "object": "OutputEnvVars.txt",
+      "context": "Setup.bat运行时生成OutputEnvVars.txt文件，包含设置的环境变量列表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AutoSDK系统",
+      "predicate": "依赖",
+      "object": "UE_SDKS_ROOT环境变量",
+      "context": "开发者需要设置UE_SDKS_ROOT环境变量指向AutoSDK目录，以便系统正常运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AutoSDK系统",
+      "predicate": "适用于",
+      "object": "编译机",
+      "context": "AutoSDK系统专为编译机设计，帮助管理多个分支的SDK需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:23:44.238Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3720,
+    "contentLength": 2342,
+    "processingTimeMs": 42538
+  }
+}

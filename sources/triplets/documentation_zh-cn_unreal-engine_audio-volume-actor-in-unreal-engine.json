@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_audio-volume-actor-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_audio-volume-actor-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "音频体积Actor",
+      "predicate": "包含",
+      "object": "优先级属性",
+      "context": "优先级属性用于控制多个音频体积重叠时的优先级顺序，是音频体积Actor的核心配置参数之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频体积Actor",
+      "predicate": "包含",
+      "object": "混响效果属性",
+      "context": "混响效果属性用于设置音频体积内的混响资源，直接影响音频的空间效果表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频体积Actor",
+      "predicate": "包含",
+      "object": "环境区域设置",
+      "context": "环境区域设置是音频体积Actor的重要组成部分，控制声音根据玩家位置的变化行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境区域设置",
+      "predicate": "控制",
+      "object": "外部音量",
+      "context": "外部音量参数决定当玩家在体积内部时外部声音的音量级别，是环境区域的关键控制参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境区域设置",
+      "predicate": "控制",
+      "object": "内部LPF",
+      "context": "内部LPF参数控制当玩家在环境区域外部时应用到内部声音的低通滤波器效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混响效果属性",
+      "predicate": "关联",
+      "object": "渐变时间属性",
+      "context": "渐变时间属性控制从当前混响设置过渡到新设置的时间，与混响效果属性协同工作",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "音频体积Actor",
+      "predicate": "依赖",
+      "object": "细节面板",
+      "context": "音频体积Actor的所有属性配置都需要通过细节面板进行调整，是必要的编辑界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "外部音量",
+      "predicate": "关联",
+      "object": "外部淡入淡出时间",
+      "context": "外部淡入淡出时间参数控制外部音量变化的过渡时间，两者共同影响外部声音的渐变效果",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "内部LPF",
+      "predicate": "关联",
+      "object": "内部LPFTime",
+      "context": "内部LPFTime参数控制内部低通滤波器效果的过渡时间，与内部LPF参数协同工作",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "音频体积Actor",
+      "predicate": "包含",
+      "object": "启用属性",
+      "context": "启用属性是音频体积Actor的基本开关，决定该体积是否对音效产生影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:08:44.154Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2802,
+    "contentLength": 1594,
+    "processingTimeMs": 43094
+  }
+}

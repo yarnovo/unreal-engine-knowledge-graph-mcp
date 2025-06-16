@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_game-section-of-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_game-section-of-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "资产管理器",
+      "predicate": "包含",
+      "object": "要扫描的主要资产类型",
+      "context": "资产管理器需要知道哪些资产类型在启动时进行扫描，这是资产管理的基础功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产管理器",
+      "predicate": "包含",
+      "object": "要排除的目录",
+      "context": "排除特定目录有助于优化资产管理器的扫描范围，提高效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产管理器",
+      "predicate": "包含",
+      "object": "主要资产规则",
+      "context": "资产管理器通过资产规则来管理特定资产的加载和处理行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产管理器",
+      "predicate": "包含",
+      "object": "自定义主要资产规则",
+      "context": "允许开发者针对特定游戏需求定制资产规则，扩展资产管理器的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产管理器",
+      "predicate": "控制",
+      "object": "DeterminePrimaryAssetIdForObject",
+      "context": "资产管理器通过调用此函数来决定未实现GetPrimaryAssetId的资产的类型和名称",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产管理器",
+      "predicate": "管理",
+      "object": "PrimaryAssetId",
+      "context": "资产管理器负责管理和维护所有主要资产的ID信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重定向",
+      "predicate": "包含",
+      "object": "主要资产ID重定向",
+      "context": "重定向功能允许修改资产ID，保持对旧资产ID的兼容性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重定向",
+      "predicate": "包含",
+      "object": "主要资产类型重定向",
+      "context": "允许修改资产类型，支持资产类型的重构和更新",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重定向",
+      "predicate": "包含",
+      "object": "资产路径重定向",
+      "context": "支持修改资产路径，便于项目重构和资产迁移",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产注册表",
+      "predicate": "包含",
+      "object": "资产注册表的元数据标签",
+      "context": "资产注册表通过元数据标签来组织和查询资产信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产工具",
+      "predicate": "包含",
+      "object": "高级复制",
+      "context": "高级复制是资产工具提供的一项重要功能，用于资产的批量复制和管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高级复制",
+      "predicate": "使用",
+      "object": "高级复制自定义",
+      "context": "高级复制功能通过自定义规则来满足不同的资产复制需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产管理器",
+      "predicate": "依赖",
+      "object": "资产注册表",
+      "context": "资产管理器需要资产注册表来获取和管理资产的元数据信息",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "资产管理器",
+      "predicate": "关联",
+      "object": "资产工具",
+      "context": "资产管理器和资产工具都是项目设置中管理资产的重要组件，协同工作",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "主要资产规则",
+      "predicate": "扩展",
+      "object": "自定义主要资产规则",
+      "context": "自定义主要资产规则是对主要资产规则的扩展，提供更灵活的配置选项",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:09:38.391Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4162,
+    "contentLength": 2832,
+    "processingTimeMs": 49028
+  }
+}

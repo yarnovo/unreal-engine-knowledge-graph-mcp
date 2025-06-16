@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_material-function-expressions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_material-function-expressions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "FunctionInput",
+      "predicate": "属于",
+      "object": "材质函数",
+      "context": "FunctionInput表达式只能放在材质函数中，用于定义函数的输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FunctionOutput",
+      "predicate": "属于",
+      "object": "材质函数",
+      "context": "FunctionOutput表达式只能放在材质函数中，用于定义函数的输出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MaterialFunctionCall",
+      "predicate": "调用",
+      "object": "材质函数",
+      "context": "MaterialFunctionCall表达式用于调用外部材质函数，其输入和输出由被调用的函数决定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StaticBool",
+      "predicate": "配合使用",
+      "object": "StaticSwitch",
+      "context": "StaticBool表达式为StaticSwitch提供默认布尔值，两者需要配合使用",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StaticSwitch",
+      "predicate": "属于",
+      "object": "材质函数",
+      "context": "StaticSwitch表达式只能在材质函数中使用，实现开关功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TextureObject",
+      "predicate": "配合使用",
+      "object": "TextureSample",
+      "context": "TextureObject表达式为纹理函数输入提供默认纹理，需要与TextureSample节点配合使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FunctionInput",
+      "predicate": "显示在",
+      "object": "MaterialFunctionCall",
+      "context": "FunctionInput定义的输入名称和说明会显示在MaterialFunctionCall表达式中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FunctionOutput",
+      "predicate": "显示在",
+      "object": "MaterialFunctionCall",
+      "context": "FunctionOutput定义的输出名称和说明会显示在MaterialFunctionCall表达式中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质函数",
+      "predicate": "包含",
+      "object": "FunctionInput",
+      "context": "材质函数可以包含多个FunctionInput表达式来定义输入接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质函数",
+      "predicate": "包含",
+      "object": "FunctionOutput",
+      "context": "材质函数可以包含多个FunctionOutput表达式来定义输出接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:50:33.940Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6200,
+    "contentLength": 3897,
+    "processingTimeMs": 43458
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_geometry-brush-actors-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_geometry-brush-actors-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "几何体笔刷",
+      "predicate": "又称",
+      "object": "BSP笔刷",
+      "context": "文档中明确指出几何体笔刷的另一个名称是BSP笔刷，帮助学习者理解术语的多样性",
+      "direction": "bidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "几何体笔刷",
+      "predicate": "用于",
+      "object": "关卡构建",
+      "context": "几何体笔刷是虚幻引擎的关卡构建工具，主要用于填充和雕刻空间体积",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "几何体笔刷",
+      "predicate": "被替代",
+      "object": "静态网格体",
+      "context": "文档提到静态网格体和建模工具现在效率更高，替代了几何体笔刷作为主要关卡设计模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体笔刷",
+      "predicate": "适用于",
+      "object": "关卡早期搭建",
+      "context": "几何体笔刷在关卡早期搭建阶段特别有用，可以快速设置关卡和对象的原型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体笔刷",
+      "predicate": "包含",
+      "object": "笔刷图元",
+      "context": "几何体笔刷由多种图元类型组成，如盒体、椎体、圆柱体等，这些图元是构建笔刷的基础",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "几何体笔刷",
+      "predicate": "支持",
+      "object": "笔刷编辑模式",
+      "context": "笔刷编辑模式允许直接操作笔刷的顶点、边和面，类似于极简3D建模应用程序",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "几何体笔刷",
+      "predicate": "具有",
+      "object": "笔刷类型",
+      "context": "笔刷类型包括叠加和删减，分别用于添加或删除空间体积",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "叠加笔刷",
+      "predicate": "用于",
+      "object": "填充空间",
+      "context": "叠加笔刷是实体的填充空间，用于添加到关卡中的几何体",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "删减笔刷",
+      "predicate": "用于",
+      "object": "镂空空间",
+      "context": "删减笔刷为中空的镂空空间，用于在叠加笔刷中删除实心控件",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "几何体笔刷",
+      "predicate": "具有",
+      "object": "实心度",
+      "context": "笔刷的实心度分为实心、半实心和非实心，影响其碰撞和剪切行为",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "实心笔刷",
+      "predicate": "阻挡",
+      "object": "玩家和发射物",
+      "context": "实心笔刷在游戏中会阻挡玩家和发射物，并会在周围笔刷上创建剪切",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "半实心笔刷",
+      "predicate": "阻挡",
+      "object": "玩家和发射物",
+      "context": "半实心笔刷会阻挡玩家和发射物，但不会在周围笔刷中创建剪切",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "非实心笔刷",
+      "predicate": "不阻挡",
+      "object": "玩家和发射物",
+      "context": "非实心笔刷不会阻挡玩家或发射物，也不会在周围笔刷中创建剪切",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "几何体笔刷",
+      "predicate": "可转换为",
+      "object": "静态网格体",
+      "context": "通过创建静态网格体按钮，可以将几何体笔刷转换为静态网格体Actor",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "几何体笔刷",
+      "predicate": "依赖",
+      "object": "拖动网格",
+      "context": "使用笔刷时需要启用拖动网格，确保笔刷顶点对齐到网格，避免渲染瑕疵",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体笔刷",
+      "predicate": "前置",
+      "object": "建模模式",
+      "context": "文档建议在学习几何体笔刷后，进一步熟悉建模模式中的几何体工具",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "几何体笔刷",
+      "predicate": "用于",
+      "object": "关卡规划",
+      "context": "几何体笔刷常用于规划关卡，创建关卡的轮廓，便于测试和迭代",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体笔刷",
+      "predicate": "用于",
+      "object": "简单填充几何体",
+      "context": "当没有现成的静态网格体时，可以使用几何体笔刷简单填充间隙或空间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "笔刷编辑模式",
+      "predicate": "类似",
+      "object": "3D建模应用程序",
+      "context": "笔刷编辑模式的工作方式与极简3D建模应用程序类似，便于学习者理解其功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "几何体笔刷",
+      "predicate": "具有",
+      "object": "表面属性",
+      "context": "笔刷表面属性包括材质应用、纹理对齐和光照贴图分辨率等，影响笔刷的视觉效果",
+      "direction": "unidirectional",
+      "confidence": 1
+    }
+  ],
+  "timestamp": "2025-06-15T19:12:27.203Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (16352 字符)",
+      "timestamp": "2025-06-15T19:11:18.436Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 26143,
+    "contentLength": 16352,
+    "processingTimeMs": 68775
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-the-xcode-ios-simulator-with-unreal-engine-projects",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-the-xcode-ios-simulator-with-unreal-engine-projects.md",
+  "triples": [
+    {
+      "subject": "iOS模拟器",
+      "predicate": "用于",
+      "object": "虚幻引擎项目测试",
+      "context": "iOS模拟器可以在Mac上模拟iPhone或iPad设备，用于测试虚幻引擎项目，无需实体设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Xcode",
+      "predicate": "包含",
+      "object": "iOS模拟器",
+      "context": "Xcode是iOS开发工具，内置iOS模拟器功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "iOS模拟器",
+      "context": "虚幻引擎项目可以通过设置启用iOS模拟器支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS模拟器支持",
+      "predicate": "依赖",
+      "object": "Apple Silicon Mac",
+      "context": "使用iOS模拟器需要Apple Silicon Mac（M1/M2/M3）硬件支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS模拟器",
+      "predicate": "需要",
+      "object": "Xcode模拟器运行时",
+      "context": "iOS模拟器功能需要预安装Xcode模拟器运行时",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编辑器",
+      "predicate": "检测",
+      "object": "运行的iOS模拟器",
+      "context": "虚幻编辑器可以检测到正在运行的iOS模拟器并将其添加为目标设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS模拟器",
+      "predicate": "生成",
+      "object": "模拟器专用构件",
+      "context": "当选择模拟器作为目标设备时，虚幻引擎会生成模拟器专用的应用程序构件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS模拟器",
+      "predicate": "支持",
+      "object": "多实例运行",
+      "context": "可以同时运行最多六个iOS模拟器实例，用于比较不同iOS版本的渲染问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS模拟器",
+      "predicate": "替代",
+      "object": "实体测试设备",
+      "context": "iOS模拟器可以在开发初期阶段替代实体测试设备，减少硬件需求",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "iOS模拟器支持",
+      "predicate": "需要",
+      "object": "项目设置调整",
+      "context": "启用iOS模拟器支持需要在项目设置中进行特定配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS模拟器",
+      "predicate": "使用",
+      "object": "Metal-Sim库",
+      "context": "iOS模拟器使用专门的Metal-Sim库，与实体设备使用的标准库不同",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编辑器",
+      "predicate": "提供",
+      "object": "快速启动模拟器选项",
+      "context": "虚幻编辑器的快速启动菜单中会显示所有运行的模拟器实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS模拟器",
+      "predicate": "适用于",
+      "object": "移动平台项目",
+      "context": "iOS模拟器专门用于测试设置为移动平台的虚幻引擎项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Xcode方案",
+      "predicate": "控制",
+      "object": "模拟器目标选择",
+      "context": "在Xcode中通过方案设置可以选择特定的模拟器作为运行目标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS模拟器",
+      "predicate": "需要",
+      "object": "内容烘焙",
+      "context": "在使用模拟器前需要先通过虚幻编辑器烘焙项目内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:26:44.126Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8118,
+    "contentLength": 5380,
+    "processingTimeMs": 41374
+  }
+}

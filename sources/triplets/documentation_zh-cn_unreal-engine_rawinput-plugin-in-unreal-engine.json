@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_rawinput-plugin-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_rawinput-plugin-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "RawInput插件",
+      "predicate": "支持",
+      "object": "用户定义设备",
+      "context": "RawInput插件为Microsoft XInput API不能处理的特定用户定义设备（如操纵杆和方向盘）提供支持，帮助学习者理解插件的核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RawInput插件",
+      "predicate": "创建",
+      "object": "新输入",
+      "context": "插件可以创建新的游戏输入，扩展了虚幻引擎的输入系统功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RawInput插件",
+      "predicate": "位于",
+      "object": "输入设备部分",
+      "context": "插件在插件菜单的输入设备部分中启用，帮助学习者找到插件的启用位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RawInput插件",
+      "predicate": "添加",
+      "object": "Raw Input部分",
+      "context": "启用插件后，项目设置菜单中会出现Raw Input部分，这是配置设备的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设备配置",
+      "predicate": "需要",
+      "object": "供应商ID和产品ID",
+      "context": "配置设备需要供应商ID和产品ID，这些ID位于设备的驱动程序属性中，是设备识别的关键信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设备配置",
+      "predicate": "包含",
+      "object": "轴和按钮数组",
+      "context": "每个设备的配置包含轴和按钮数组，学习者需要理解这些数组如何映射到控制器输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RawInput插件",
+      "predicate": "提供",
+      "object": "通用USB控制器轴和按钮",
+      "context": "插件提供8个新轴和12个新按钮，学习者需要了解这些输入如何用于游戏绑定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "轴配置",
+      "predicate": "可以",
+      "object": "调转方向和偏移",
+      "context": "轴可以调转方向和偏移，这对于调整输入范围非常重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Logitech G920",
+      "predicate": "示例用于",
+      "object": "载具模板",
+      "context": "文档使用Logitech G920作为示例，展示如何将设备配置用于载具模板，帮助学习者理解实际应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RawInput轴",
+      "predicate": "映射到",
+      "object": "输入绑定",
+      "context": "学习者需要理解如何将RawInput轴映射到游戏的输入绑定，这是实现自定义控制的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入范围",
+      "predicate": "需要",
+      "object": "重新映射",
+      "context": "文档说明如何重新映射输入范围以适应游戏需求，这是配置复杂设备的重要技能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RawInput插件",
+      "predicate": "无需",
+      "object": "代码修改",
+      "context": "使用RawInput插件可以支持新设备而无需修改项目代码或蓝图，展示了插件的便利性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通用USB控制器轴",
+      "predicate": "优于",
+      "object": "标准游戏手柄输入",
+      "context": "文档建议使用通用USB控制器轴而非标准游戏手柄输入，以便更灵活地配置不同设备",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:33:15.850Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6256,
+    "contentLength": 3822,
+    "processingTimeMs": 44223
+  }
+}

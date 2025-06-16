@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_spawn-temporary-actors-in-unreal-engine-cinematics",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_spawn-temporary-actors-in-unreal-engine-cinematics.md",
+  "triples": [
+    {
+      "subject": "Sequencer",
+      "predicate": "支持",
+      "object": "可持有对象",
+      "context": "Sequencer允许引用场景中已存在的Actor作为可持有对象，这是制作电影的基本功能之一",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "支持",
+      "object": "可生成对象",
+      "context": "Sequencer可以生成临时Actor作为可生成对象，用于创建仅在序列期间存在的临时元素",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可持有对象",
+      "predicate": "可转换为",
+      "object": "可生成对象",
+      "context": "文档说明可持有对象可以通过右键菜单转换为可生成对象，这是两种Actor引用方式的转换关系",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可生成对象",
+      "predicate": "具有属性",
+      "object": "生成对象的持有者",
+      "context": "可生成对象的属性控制其生命周期行为，这是理解可生成对象如何工作的关键概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可生成对象",
+      "predicate": "具有属性",
+      "object": "可生成关卡",
+      "context": "指定Actor生成的关卡位置，这是管理多关卡场景的重要属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可生成对象",
+      "predicate": "具有属性",
+      "object": "持续重新生成",
+      "context": "控制Actor是否在每次tick时检查并重新生成，这是高级行为控制属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大纲视图",
+      "predicate": "用于识别",
+      "object": "可生成对象",
+      "context": "大纲视图中会显示闪电覆层来标识可生成对象，这是识别可生成对象的可视化方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "可用于创建",
+      "object": "可生成对象",
+      "context": "可以通过从内容浏览器拖拽Actor到Sequencer来创建可生成对象，这是创建可生成对象的方法之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "放置Actors面板",
+      "predicate": "可用于创建",
+      "object": "可生成对象",
+      "context": "可以通过从放置Actors面板拖拽Actor到Sequencer来创建可生成对象，这是另一种创建方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可生成对象",
+      "predicate": "适用于",
+      "object": "光照场景",
+      "context": "文档建议使用可生成对象来管理临时光源，这是可生成对象的典型应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "可生成对象",
+      "predicate": "适用于",
+      "object": "粒子效果",
+      "context": "文档提到可生成对象可用于创建临时粒子实例，这是另一个典型应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Sequencer轨道",
+      "predicate": "控制",
+      "object": "可生成对象",
+      "context": "可生成对象的行为可以通过Sequencer轨道进行控制，这是理解可生成对象工作流程的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "软对象路径",
+      "predicate": "用于",
+      "object": "可持有对象",
+      "context": "文档说明可持有对象使用软对象路径形成关联，这是技术实现细节",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Sequencer标签和分组",
+      "predicate": "可用于控制",
+      "object": "可生成对象",
+      "context": "当可生成对象设置为外部持有者时，可以通过标签和分组来控制其销毁",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "关卡序列",
+      "predicate": "决定",
+      "object": "可生成对象的生命周期",
+      "context": "可生成对象的持有者属性决定了其生命周期与哪个序列相关联",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:53:22.892Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9592,
+    "contentLength": 6454,
+    "processingTimeMs": 44511
+  }
+}

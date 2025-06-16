@@ -1,0 +1,149 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-steam-sockets-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-steam-sockets-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Steam Sockets",
+      "predicate": "基于",
+      "object": "Steamworks SDK",
+      "context": "Steam Sockets 是基于 Steamworks SDK 1.46 版本及以上开发的网络插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Steam Sockets",
+      "predicate": "替代",
+      "object": "SteamNetworking",
+      "context": "Steam Sockets 提供了比 SteamNetworking 更高的安全性和可靠性，并内置了 DDoS 保护、端到端加密和 NAT 遍历",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Steam Sockets",
+      "predicate": "支持",
+      "object": "跨平台运行",
+      "context": "Steam Sockets 支持 Windows、Mac 和 Linux 之间的跨平台运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Steam Sockets",
+      "predicate": "提供",
+      "object": "ping计算",
+      "context": "Steam Sockets 为监听服务器提供 ping 计算功能，匹配系统可利用此功能将用户匹配到性能更佳的服务器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Steam Sockets",
+      "predicate": "取代",
+      "object": "默认网络驱动器",
+      "context": "Steam Sockets 用自身的网络驱动器取代了虚幻引擎的默认网络驱动器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Steam Sockets",
+      "predicate": "依赖",
+      "object": "插件系统",
+      "context": "启用 Steam Sockets 需要了解虚幻引擎的插件系统",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Steam Sockets",
+      "predicate": "配置于",
+      "object": "Engine.ini",
+      "context": "启用 Steam Sockets 需要在 Engine.ini 文件中进行配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Steam Sockets",
+      "predicate": "适用于",
+      "object": "Windows、Mac、Linux",
+      "context": "Steam Sockets 仅适用于 Windows、Mac 和 Linux 平台",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Steam Sockets",
+      "predicate": "不适用于",
+      "object": "其他设备",
+      "context": "Steam Sockets 不支持其他设备（如移动设备）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Steam Sockets",
+      "predicate": "提供",
+      "object": "DDoS保护",
+      "context": "Steam Sockets 内置 DDoS 保护功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Steam Sockets",
+      "predicate": "提供",
+      "object": "端到端加密",
+      "context": "Steam Sockets 提供端到端加密功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Steam Sockets",
+      "predicate": "提供",
+      "object": "NAT遍历",
+      "context": "Steam Sockets 提供 NAT 遍历功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Steam Sockets",
+      "predicate": "控制",
+      "object": "OnlineSubsystemSteam.bUseSteamNetworking",
+      "context": "OnlineSubsystemSteam.bUseSteamNetworking 参数控制是否将 SteamSockets SocketSubsystem 作为默认子系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Steam Sockets",
+      "predicate": "控制",
+      "object": "OnlineSubsystemSteam.bAllowP2PPacketRelay",
+      "context": "OnlineSubsystemSteam.bAllowP2PPacketRelay 参数控制在使用专用服务器时，数据包是否应通过 Steam 通信网络传递",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Steam Sockets",
+      "predicate": "需要",
+      "object": "重启编辑器",
+      "context": "启用 Steam Sockets 插件后需要重启虚幻编辑器以使更改生效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Steam Sockets",
+      "predicate": "前置知识",
+      "object": "插件",
+      "context": "理解和使用 Steam Sockets 需要先熟悉虚幻引擎的插件系统",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Steam Sockets",
+      "predicate": "前置知识",
+      "object": "配置文件",
+      "context": "理解和使用 Steam Sockets 需要先熟悉虚幻引擎的配置文件系统",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:22:52.893Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5269,
+    "contentLength": 3491,
+    "processingTimeMs": 48219
+  }
+}

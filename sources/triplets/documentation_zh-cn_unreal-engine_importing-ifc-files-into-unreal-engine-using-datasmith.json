@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_importing-ifc-files-into-unreal-engine-using-datasmith",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_importing-ifc-files-into-unreal-engine-using-datasmith.md",
+  "triples": [
+    {
+      "subject": "Datasmith",
+      "predicate": "支持",
+      "object": "IFC文件导入",
+      "context": "Datasmith是虚幻引擎中用于导入和处理IFC文件的核心工具，帮助用户将建筑信息模型转换为虚幻引擎可用的格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IFC文件",
+      "predicate": "包含",
+      "object": "建筑元素",
+      "context": "IFC文件是建筑信息模型的标准格式，包含建筑、楼层、墙、门等建筑元素的结构和属性信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith CAD导入器插件",
+      "predicate": "用于",
+      "object": "导入IFC文件",
+      "context": "该插件是导入IFC文件到虚幻引擎的必要组件，用户需要先激活此插件才能进行IFC文件的导入操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "创建",
+      "object": "Actor",
+      "context": "Datasmith会将IFC文件中的每个对象转换为虚幻引擎中的Actor，并保持原始IFC对象的层级关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "继承",
+      "object": "IFC对象层级",
+      "context": "Datasmith创建的Actor会继承IFC文件中的父子关系，如场地包含建筑，建筑包含楼层等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "生成",
+      "object": "材质资源",
+      "context": "对于IFC文件中的每个表面材质，Datasmith会在虚幻引擎中创建对应的材质资源，用于为导入的静态网格体着色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质实例",
+      "predicate": "基于",
+      "object": "父材质",
+      "context": "Datasmith创建的材质实例继承自一组父材质，用户可以通过修改父材质来统一控制多个材质实例的表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "保存",
+      "object": "元数据",
+      "context": "Datasmith会将IFC对象的属性作为元数据保存在对应的Actor上，这些元数据可以在编辑器和运行时被访问和使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IFC光源",
+      "predicate": "不同于",
+      "object": "虚幻引擎光源",
+      "context": "IFC中的光源被视为建筑元素，缺乏实时渲染所需的详细属性，因此Datasmith不会自动创建虚幻引擎的光源组件",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IFC文件",
+      "predicate": "不包含",
+      "object": "摄像机信息",
+      "context": "由于IFC规范不包含摄像机定义，Datasmith在导入过程中不会创建任何摄像机Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "支持",
+      "object": "IFC2x Editions 2/3/4",
+      "context": "Datasmith目前支持特定版本的IFC文件格式，这是用户在准备导入文件时需要注意的兼容性信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质资源",
+      "predicate": "存储于",
+      "object": "Materials文件夹",
+      "context": "Datasmith会将创建的材质资源统一放在项目特定的Materials文件夹中，便于用户管理和查找",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "父材质",
+      "predicate": "存储于",
+      "object": "Materials/Master文件夹",
+      "context": "Datasmith创建的父材质被放在专门的Master子文件夹中，这些材质控制着多个材质实例的基础表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IFC属性",
+      "predicate": "转换为",
+      "object": "扁平化元数据",
+      "context": "Datasmith会将IFC文件中分组的属性转换为扁平的键值对元数据，便于在虚幻引擎中统一处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:32:51.498Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10960,
+    "contentLength": 7339,
+    "processingTimeMs": 63358
+  }
+}

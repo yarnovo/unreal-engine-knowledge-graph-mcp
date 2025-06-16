@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_niagara-fluids-reference-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_niagara-fluids-reference-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Niagara流体",
+      "predicate": "包含",
+      "object": "2D气体",
+      "context": "Niagara流体插件提供了2D气体模板，帮助开发者快速实现2D气体效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara流体",
+      "predicate": "包含",
+      "object": "3D液体",
+      "context": "Niagara流体插件提供了3D液体模板，用于创建更逼真的液体效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "2D模拟",
+      "predicate": "适用于",
+      "object": "游戏和实时使用",
+      "context": "2D模拟更高效，适合对性能要求较高的游戏和实时应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3D模拟",
+      "predicate": "适用于",
+      "object": "英雄特效或过场动画",
+      "context": "3D模拟虽然性能消耗大，但效果更逼真，适合用于重要特效或过场动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Grid3D_Gas_Controls_Base_Emitter",
+      "predicate": "继承",
+      "object": "Grid3D_Gas_Emitter",
+      "context": "Grid3D_Gas_Controls_Base_Emitter在Grid3D_Gas_Emitter基础上添加了控制手柄和调试功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流体发射器摘要",
+      "predicate": "包含",
+      "object": "网格参数",
+      "context": "网格参数控制模拟的基本空间结构和分辨率，是理解流体模拟的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流体发射器摘要",
+      "predicate": "包含",
+      "object": "模拟参数",
+      "context": "模拟参数控制流体的物理行为，如密度、温度和速度的变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格参数",
+      "predicate": "控制",
+      "object": "模拟质量",
+      "context": "网格单元越小，模拟质量越高，但性能消耗也越大",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模拟参数",
+      "predicate": "影响",
+      "object": "流体行为",
+      "context": "参数如密度消散、温度浮力等直接影响流体的物理表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞对象",
+      "predicate": "用于",
+      "object": "Actor交互",
+      "context": "启用碰撞对象可以让流体与场景中的Actor产生交互效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "涡流参数",
+      "predicate": "控制",
+      "object": "流体动态",
+      "context": "涡流参数可以调整流体的旋转和扰动效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染参数",
+      "predicate": "决定",
+      "object": "视觉效果",
+      "context": "渲染参数如密度范围、温度曲线等直接影响流体的最终视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源参数",
+      "predicate": "影响",
+      "object": "流体光照",
+      "context": "光源设置会影响流体的明暗和颜色表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试参数",
+      "predicate": "用于",
+      "object": "问题排查",
+      "context": "调试切片等功能可以帮助开发者分析模拟数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可扩展性参数",
+      "predicate": "用于",
+      "object": "质量调整",
+      "context": "可以根据不同质量设置自动调整模拟参数，平衡效果和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "源参数",
+      "predicate": "控制",
+      "object": "粒子输入",
+      "context": "源参数决定了如何将粒子数据输入到流体模拟中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理参数",
+      "predicate": "用于",
+      "object": "效果增强",
+      "context": "纹理参数可以通过噪点图案增强流体的视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "密度浮力",
+      "predicate": "影响",
+      "object": "下沉速度",
+      "context": "密度浮力值越大，流体下沉的速度越快",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "温度浮力",
+      "predicate": "影响",
+      "object": "上升速度",
+      "context": "温度浮力值越大，流体上升的速度越快",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "压力解算迭代",
+      "predicate": "影响",
+      "object": "模拟精度",
+      "context": "更多的迭代次数会提高模拟精度，但也会增加计算负担",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:07:17.348Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15855 字符)",
+      "timestamp": "2025-06-15T20:06:17.032Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 26013,
+    "contentLength": 15855,
+    "processingTimeMs": 60325
+  }
+}

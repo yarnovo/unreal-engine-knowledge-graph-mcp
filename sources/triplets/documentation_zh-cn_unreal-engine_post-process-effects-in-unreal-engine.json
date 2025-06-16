@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_post-process-effects-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_post-process-effects-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "后期处理效果",
+      "predicate": "包含",
+      "object": "后期处理体积",
+      "context": "后期处理效果需要通过后期处理体积来实现场景外观的调整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理体积",
+      "predicate": "用于",
+      "object": "颜色分级",
+      "context": "后期处理体积包含颜色分级属性，用于控制场景颜色校正",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理体积",
+      "predicate": "用于",
+      "object": "全局光照",
+      "context": "后期处理体积可以设置动态全局光照类型和参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "景深",
+      "predicate": "属于",
+      "object": "镜头效果",
+      "context": "景深是模拟摄像机镜头效果的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "过场动画景深",
+      "predicate": "替代",
+      "object": "移动平台景深",
+      "context": "根据平台不同选择不同类型的景深效果",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "泛光",
+      "predicate": "配合使用",
+      "object": "脏污遮罩",
+      "context": "脏污遮罩可以增强泛光效果，模拟镜头脏污",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "曝光",
+      "predicate": "扩展",
+      "object": "局部曝光",
+      "context": "局部曝光是对自动曝光的增强功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen全局光照",
+      "predicate": "属于",
+      "object": "全局光照",
+      "context": "Lumen是全局光照的一种实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕空间反射",
+      "predicate": "替代",
+      "object": "光线追踪反射",
+      "context": "根据项目需求和硬件支持选择不同的反射技术",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "后期处理材质",
+      "predicate": "基于",
+      "object": "材质系统",
+      "context": "后期处理材质是特殊类型的材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态模糊",
+      "predicate": "模拟",
+      "object": "摄像机效果",
+      "context": "动态模糊模拟真实摄像机拍摄运动物体的效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "颜色分级",
+      "predicate": "配合使用",
+      "object": "胶片色调映射器",
+      "context": "两者共同定义项目的外观和颜色表现",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境光遮蔽",
+      "predicate": "增强",
+      "object": "全局光照",
+      "context": "环境光遮蔽作为辅助效果增强全局光照的真实感",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "路径追踪",
+      "predicate": "实现",
+      "object": "物理正确渲染",
+      "context": "路径追踪器产生物理上正确的渲染结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "胶片颗粒",
+      "predicate": "模拟",
+      "object": "胶片效果",
+      "context": "胶片颗粒效果模拟传统摄影胶片的外观",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理体积",
+      "predicate": "控制",
+      "object": "反射类型",
+      "context": "后期处理体积可以设置使用何种反射技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "用于",
+      "object": "调整后期处理属性",
+      "context": "通过细节面板可以访问和调整后期处理体积的所有属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "包含",
+      "object": "默认后期处理设置",
+      "context": "即使没有放置后期处理体积，项目设置中也包含默认后期处理配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "过场动画摄像机Actor",
+      "predicate": "控制",
+      "object": "景深效果",
+      "context": "过场动画景深主要通过过场动画摄像机Actor的属性来控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光线追踪全局光照",
+      "predicate": "依赖",
+      "object": "DirectX 12",
+      "context": "光线追踪功能需要DirectX 12支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:26:38.520Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (24076 字符)",
+      "timestamp": "2025-06-15T20:25:44.966Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 39381,
+    "contentLength": 24076,
+    "processingTimeMs": 53569
+  }
+}

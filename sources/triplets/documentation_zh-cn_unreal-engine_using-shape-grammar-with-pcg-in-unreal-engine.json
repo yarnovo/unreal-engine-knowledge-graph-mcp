@@ -1,0 +1,147 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-shape-grammar-with-pcg-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-shape-grammar-with-pcg-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "程序化内容生成框架",
+      "predicate": "包含",
+      "object": "形状语法",
+      "context": "形状语法是PCG框架中用于定义内容生成规则的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "形状语法",
+      "predicate": "由...组成",
+      "object": "模块",
+      "context": "模块是形状语法中的基本构建块，代表具体资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "形状语法",
+      "predicate": "使用",
+      "object": "句法结构",
+      "context": "句法结构定义了如何组合模块以形成复杂结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PCG语法节点",
+      "predicate": "实现",
+      "object": "形状语法",
+      "context": "各类PCG语法节点用于具体实现形状语法的生成规则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细分节点",
+      "predicate": "属于",
+      "object": "PCG语法节点",
+      "context": "细分节点是PCG语法节点的一个子类别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Spline To Segment",
+      "predicate": "属于",
+      "object": "细分节点",
+      "context": "该节点是细分节点类型的具体实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Duplicate Cross-Section",
+      "predicate": "扩展",
+      "object": "Spline To Segment",
+      "context": "在分段基础上增加了沿挤出向量复制的功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Subdivide Segment",
+      "predicate": "依赖",
+      "object": "语法字符串",
+      "context": "节点需要语法字符串作为输入来决定如何细分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "形状定义节点",
+      "predicate": "属于",
+      "object": "PCG语法节点",
+      "context": "形状定义节点是另一类PCG语法节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Clean Spline",
+      "predicate": "优化",
+      "object": "样条线",
+      "context": "通过移除多余控制点来优化样条线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Select Grammar",
+      "predicate": "选择",
+      "object": "语法字符串",
+      "context": "根据条件从多个语法字符串中选择合适的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Print Grammar",
+      "predicate": "验证",
+      "object": "语法字符串",
+      "context": "用于调试和验证语法字符串的正确性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块",
+      "predicate": "代表",
+      "object": "资产",
+      "context": "模块是实际资产在形状语法中的抽象表示",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "程序化内容生成概述",
+      "predicate": "是...前提",
+      "object": "形状语法文档",
+      "context": "理解PCG基础概念是学习形状语法的先决条件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Primitive Cross-Section",
+      "predicate": "需要",
+      "object": "PCG Geometry Script Interop插件",
+      "context": "该节点功能依赖特定插件的支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "栅栏生成器",
+      "predicate": "应用",
+      "object": "形状语法",
+      "context": "展示了形状语法在实际内容生成中的典型应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:22:45.397Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12076 字符)",
+      "timestamp": "2025-06-15T21:22:04.679Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19282,
+    "contentLength": 12076,
+    "processingTimeMs": 40723
+  }
+}

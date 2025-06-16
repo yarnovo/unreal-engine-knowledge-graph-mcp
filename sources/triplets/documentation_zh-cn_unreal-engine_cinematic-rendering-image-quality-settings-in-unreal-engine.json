@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_cinematic-rendering-image-quality-settings-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_cinematic-rendering-image-quality-settings-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "电影渲染队列",
+      "predicate": "包含",
+      "object": "输出设置",
+      "context": "输出设置是电影渲染队列中的必要设置，控制输出文件的目录、文件名、帧率和分辨率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "电影渲染队列",
+      "predicate": "包含",
+      "object": "抗锯齿设置",
+      "context": "抗锯齿设置控制用于生成最终渲染的采样数量，影响图像质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "抗锯齿设置",
+      "predicate": "分为",
+      "object": "时间采样和空间采样",
+      "context": "时间采样和空间采样是抗锯齿的两种主要方法，分别处理动态模糊和静态锯齿",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间采样",
+      "predicate": "影响",
+      "object": "动态模糊质量",
+      "context": "增加时间采样计数可以使动态模糊更平滑，特别是旋转动态模糊",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "空间采样",
+      "predicate": "用于",
+      "object": "抗锯齿和减少噪点",
+      "context": "空间采样通过多次渲染并抖动摄像机来增加抗锯齿效果和减少光线追踪噪点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "电影渲染队列",
+      "predicate": "包含",
+      "object": "烧入设置",
+      "context": "烧入设置允许添加自定义水印，常用于时间码显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "电影渲染队列",
+      "predicate": "包含",
+      "object": "摄像机设置",
+      "context": "摄像机设置控制动态模糊的呈现方式和过扫描",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机设置",
+      "predicate": "控制",
+      "object": "快门时间",
+      "context": "快门时间设置影响动态模糊角度的偏差，可以选择帧前、帧中或帧后",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机设置",
+      "predicate": "控制",
+      "object": "过扫描百分比",
+      "context": "过扫描百分比允许渲染超出输出分辨率的额外像素，主要用于EXR输出格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "电影渲染队列",
+      "predicate": "包含",
+      "object": "颜色输出设置",
+      "context": "颜色输出设置使用OpenColorIO (OCIO)配置覆盖默认颜色空间设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "颜色输出设置",
+      "predicate": "依赖",
+      "object": "OpenColorIO (OCIO)",
+      "context": "颜色输出设置需要使用OCIO配置来实现颜色空间转换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "电影渲染队列",
+      "predicate": "包含",
+      "object": "控制台变量设置",
+      "context": "控制台变量设置允许在渲染开始时指定控制台命令，用于调整质量设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "电影渲染队列",
+      "predicate": "包含",
+      "object": "调试选项",
+      "context": "调试选项用于调试渲染行为，如写入所有采样或使用RenderDoc捕获帧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "电影渲染队列",
+      "predicate": "包含",
+      "object": "游戏覆盖设置",
+      "context": "游戏覆盖设置可以更改游戏模式和质量设置，适用于隐藏UI或加载屏幕",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏覆盖设置",
+      "predicate": "包含",
+      "object": "过场动画质量设置",
+      "context": "过场动画质量设置自动应用引擎可扩展性设置中的高质量预设",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "电影渲染队列",
+      "predicate": "包含",
+      "object": "高分辨率设置",
+      "context": "高分辨率设置使用平铺渲染生成比GPU限制更大的图像",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高分辨率设置",
+      "predicate": "使用",
+      "object": "图块计数和重叠率",
+      "context": "图块计数和重叠率控制图像的分块方式和重叠区域，影响最终图像质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输出设置",
+      "predicate": "支持",
+      "object": "格式字符串",
+      "context": "格式字符串允许自定义文件名格式，使用令牌如{level_name}和{sequence_name}",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "抗锯齿设置",
+      "predicate": "影响",
+      "object": "TAA (时间抗锯齿)",
+      "context": "抗锯齿设置可以与TAA结合使用，但需要注意采样数量的限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高分辨率设置",
+      "predicate": "不支持",
+      "object": "时间抗锯齿",
+      "context": "高分辨率平铺渲染不支持时间抗锯齿和某些屏幕空间效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:23:23.142Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (18792 字符)",
+      "timestamp": "2025-06-15T18:22:17.779Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 32491,
+    "contentLength": 18792,
+    "processingTimeMs": 65372
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_replicating-uobjects-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_replicating-uobjects-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "复制子对象",
+      "predicate": "继承自",
+      "object": "UObject",
+      "context": "复制子对象是从UObject派生的类，理解这一继承关系有助于掌握其基本特性和功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制子对象",
+      "predicate": "包含",
+      "object": "复制属性",
+      "context": "复制子对象可以包含复制属性，这些属性会被复制到客户端",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor",
+      "predicate": "包含",
+      "object": "复制子对象",
+      "context": "Actor可以包含复制子对象，这些子对象可以是组件或其他UObject派生类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor",
+      "predicate": "实现",
+      "object": "ReplicateSubobjects",
+      "context": "Actor通过实现ReplicateSubobjects函数来手动复制子对象，这是旧系统的核心机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "注册子对象列表",
+      "predicate": "替代",
+      "object": "ReplicateSubobjects",
+      "context": "新系统使用注册子对象列表来自动处理子对象复制，替代了旧的手动ReplicateSubobjects方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "注册子对象列表",
+      "predicate": "支持",
+      "object": "ELifetimeCondition",
+      "context": "注册子对象列表允许为子对象指定ELifetimeCondition，从而更精细地控制复制条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor",
+      "predicate": "包含",
+      "object": "bReplicateUsingRegisteredSubObjectList",
+      "context": "Actor通过设置bReplicateUsingRegisteredSubObjectList属性来启用注册子对象列表系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor",
+      "predicate": "调用",
+      "object": "AddReplicatedSubObject",
+      "context": "Actor在创建子对象时需要调用AddReplicatedSubObject来将其注册到复制列表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor",
+      "predicate": "调用",
+      "object": "RemoveReplicatedSubObject",
+      "context": "Actor在修改或删除子对象时需要调用RemoveReplicatedSubObject来维护列表一致性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制Actor组件",
+      "predicate": "属于",
+      "object": "复制子对象",
+      "context": "复制Actor组件是一种特殊类型的复制子对象，遵循相同的复制机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor",
+      "predicate": "实现",
+      "object": "AllowActorComponentToReplicate",
+      "context": "Actor可以通过实现AllowActorComponentToReplicate来为组件设置特定的复制条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor",
+      "predicate": "调用",
+      "object": "SetReplicatedComponentNetCondition",
+      "context": "Actor可以调用SetReplicatedComponentNetCondition在运行时动态更改组件的复制条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor组件",
+      "predicate": "包含",
+      "object": "复制子对象列表",
+      "context": "Actor组件也可以维护自己的复制子对象列表，扩展了复制的灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复杂复制条件",
+      "predicate": "基于",
+      "object": "NetConditionGroupManager",
+      "context": "复杂复制条件通过NetConditionGroupManager实现，支持更高级的复制控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复杂复制条件",
+      "predicate": "使用",
+      "object": "COND_NetGroup",
+      "context": "复杂复制条件使用COND_NetGroup来定义复制组，实现自定义复制逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "客户端",
+      "predicate": "维护",
+      "object": "子对象列表",
+      "context": "客户端也需要维护子对象列表，特别是在录制重播时，这对理解客户端复制机制很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RepNotify函数",
+      "predicate": "用于",
+      "object": "管理客户端子对象列表",
+      "context": "RepNotify函数可以帮助客户端更轻松地管理子对象列表，响应子对象变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "推送模型复制",
+      "predicate": "推荐用于",
+      "object": "新系统",
+      "context": "新系统推荐使用推送模型复制而非RepKeys，这对优化网络性能很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:38:36.054Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9885 字符)",
+      "timestamp": "2025-06-15T20:37:43.589Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13991,
+    "contentLength": 9885,
+    "processingTimeMs": 52469
+  }
+}

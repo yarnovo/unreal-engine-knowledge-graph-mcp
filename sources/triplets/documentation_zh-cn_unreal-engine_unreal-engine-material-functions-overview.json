@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-engine-material-functions-overview",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-engine-material-functions-overview.md",
+  "triples": [
+    {
+      "subject": "材质函数",
+      "predicate": "包含",
+      "object": "材质表达式网络",
+      "context": "材质函数将部分材质图表打包成可复用的资产，包含完整的材质表达式网络",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质函数",
+      "predicate": "用于",
+      "object": "简化材质制作",
+      "context": "材质函数的主要作用是帮助立即获取常用的材质节点网络，从而简化材质的制作过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质函数",
+      "predicate": "依赖",
+      "object": "函数输入节点",
+      "context": "材质函数需要函数输入节点来控制数据的输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质函数",
+      "predicate": "依赖",
+      "object": "函数输出节点",
+      "context": "材质函数需要函数输出节点来控制数据的输出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质函数",
+      "predicate": "属于",
+      "object": "内容浏览器资产类",
+      "context": "在内容浏览器中，材质函数是一个单独的资产类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质函数",
+      "predicate": "支持",
+      "object": "嵌套函数",
+      "context": "材质函数可以嵌套在其他函数中进行链接，但不能产生循环依赖",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质函数库",
+      "predicate": "包含",
+      "object": "材质函数",
+      "context": "材质函数库包含了分门别类、可筛选的可用材质函数列表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质函数库",
+      "predicate": "位于",
+      "object": "材质编辑器控制板",
+      "context": "材质函数库可以在材质编辑器右侧的控制板中找到",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质函数调用节点",
+      "predicate": "实现",
+      "object": "外部函数使用",
+      "context": "材质函数调用节点允许使用来自其他材质或函数的外部函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "函数输入节点",
+      "predicate": "控制",
+      "object": "数据输入",
+      "context": "函数输入节点是数据进入材质函数的门户，定义了输入可接受的数据类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "函数输出节点",
+      "predicate": "控制",
+      "object": "数据输出",
+      "context": "函数输出节点提供了让材质函数中的数据退出函数的方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理对象参数节点",
+      "predicate": "用于",
+      "object": "纹理函数输入",
+      "context": "纹理对象参数节点用来为函数内的纹理函数输入提供默认纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态布尔参数节点",
+      "predicate": "用于",
+      "object": "静态布尔函数输入",
+      "context": "静态布尔参数节点用来为函数内的静态布尔函数输入提供默认布尔值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态开关节点",
+      "predicate": "依赖",
+      "object": "静态布尔值",
+      "context": "静态开关节点需要与静态布尔值配合使用，在两个输入之间执行编译时选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质函数",
+      "predicate": "支持",
+      "object": "参数传递",
+      "context": "材质函数可以像通常材质一样使用参数，这些参数会直接传递到使用的材质中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质函数",
+      "predicate": "需要",
+      "object": "文档说明",
+      "context": "材质函数需要提供维护良好的文档，记述函数的用途和需要的输入输出值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质函数",
+      "predicate": "影响",
+      "object": "引用材质",
+      "context": "修改材质函数会传播到所有引用该函数的材质，可能导致连接断开",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认材质函数",
+      "predicate": "位于",
+      "object": "Engine->Content->Functions文件夹",
+      "context": "默认材质函数可以在Engine->Content->Functions文件夹的内容浏览器中找到",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质函数",
+      "predicate": "可以",
+      "object": "预览节点",
+      "context": "编辑材质函数时可以右键点击任意节点并选择开始预览节点来预览结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质函数",
+      "predicate": "可能产生",
+      "object": "编译错误",
+      "context": "如果材质函数中存在错误，尝试编译材质时会产生编译错误",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:09:26.743Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12640 字符)",
+      "timestamp": "2025-06-15T21:08:33.782Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 22157,
+    "contentLength": 12640,
+    "processingTimeMs": 52968
+  }
+}

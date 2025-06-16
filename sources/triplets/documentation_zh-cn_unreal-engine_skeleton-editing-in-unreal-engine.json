@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_skeleton-editing-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_skeleton-editing-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "骨架编辑工具",
+      "predicate": "包含",
+      "object": "骨骼网格体编辑工具插件",
+      "context": "骨架编辑功能需要先启用骨骼网格体编辑工具插件才能使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架编辑器",
+      "predicate": "包含",
+      "object": "工具面板",
+      "context": "工具面板是骨架编辑器的主要功能区域之一，用于执行各种编辑操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架编辑器",
+      "predicate": "包含",
+      "object": "骨架树",
+      "context": "骨架树面板显示骨骼层级结构，是编辑骨骼关系的主要界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架编辑器",
+      "predicate": "包含",
+      "object": "细节面板",
+      "context": "细节面板显示当前选中元素的详细属性和设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "可转换为",
+      "object": "骨骼网格体",
+      "context": "静态网格体可以通过转换操作变成可动画化的骨骼网格体",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼创建",
+      "predicate": "依赖",
+      "object": "骨架资产",
+      "context": "创建新骨骼需要在骨架资产中进行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蒙皮权重",
+      "predicate": "控制",
+      "object": "网格体变形",
+      "context": "蒙皮权重决定了骨骼移动时网格体各顶点的变形程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绑定蒙皮工具",
+      "predicate": "用于",
+      "object": "初始权重分配",
+      "context": "绑定蒙皮工具用于为新骨骼设置基础蒙皮权重",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "权重绘制",
+      "predicate": "包含",
+      "object": "笔刷模式",
+      "context": "笔刷模式是权重绘制的两种主要工作方式之一，适合大面积绘制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "权重绘制",
+      "predicate": "包含",
+      "object": "顶点模式",
+      "context": "顶点模式允许精确选择单个顶点进行权重编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜像工具",
+      "predicate": "用于",
+      "object": "对称结构创建",
+      "context": "镜像工具可以快速复制对称的骨骼结构或权重分布",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "特性贴图",
+      "predicate": "可用于",
+      "object": "变形器图表",
+      "context": "绘制的特性贴图数据可以传递到变形器图表中使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python API",
+      "predicate": "支持",
+      "object": "骨架编辑自动化",
+      "context": "通过Python API可以编写脚本自动化骨架编辑流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼定向",
+      "predicate": "影响",
+      "object": "骨骼旋转",
+      "context": "正确的骨骼定向确保骨骼以预期方式旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Control Rig",
+      "predicate": "可与",
+      "object": "骨架编辑工具协同使用",
+      "context": "编辑好的骨架可以与Control Rig配合进行动画控制",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "可使用",
+      "object": "编辑后的骨架",
+      "context": "在Sequencer中可以为编辑好的骨架创建动画序列",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "权重规格化",
+      "predicate": "确保",
+      "object": "正确顶点变形",
+      "context": "权重规格化保证顶点变形行为符合预期",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "测地线体素绑定",
+      "predicate": "相比",
+      "object": "直接距离绑定",
+      "context": "测地线体素绑定能产生更自然的权重分布，适合复杂形状",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "骨架层级",
+      "predicate": "决定",
+      "object": "骨骼继承关系",
+      "context": "骨架树中的层级关系决定了骨骼运动的继承和影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "权重绘制工具",
+      "predicate": "支持",
+      "object": "多种笔刷操作",
+      "context": "提供添加、替换、乘算等多种笔刷操作满足不同绘制需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:48:28.578Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (14328 字符)",
+      "timestamp": "2025-06-15T20:47:35.968Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 23394,
+    "contentLength": 14328,
+    "processingTimeMs": 52618
+  }
+}

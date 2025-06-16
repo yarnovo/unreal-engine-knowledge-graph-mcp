@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_mover-debugging-reference-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_mover-debugging-reference-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Mover",
+      "predicate": "支持",
+      "object": "Gameplay调试器工具",
+      "context": "Mover的调试信息可以通过Gameplay调试器工具查看，帮助开发者理解Mover的运行状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay调试器工具",
+      "predicate": "用于",
+      "object": "Mover调试",
+      "context": "Gameplay调试器工具专门用于查看Mover的可视化及状态读出信息，是调试Mover的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mover.Debug.ShowTrail",
+      "predicate": "控制",
+      "object": "尾迹显示",
+      "context": "该命令用于开启或关闭所选服务器控制Actor的尾迹显示，帮助开发者分析Mover的路径和回滚信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mover.Debug.ShowTrajectory",
+      "predicate": "控制",
+      "object": "轨迹预测显示",
+      "context": "该命令用于开启或关闭所选服务器控制Actor的轨迹预测显示，帮助开发者理解Mover的运动预测",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mover.Debug.ShowCorrections",
+      "predicate": "控制",
+      "object": "网络校正显示",
+      "context": "该命令用于开启或关闭所选服务器控制Actor的网络校正显示，帮助开发者分析网络同步问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mover.LocalPlayer.ShowTrail",
+      "predicate": "替代",
+      "object": "Mover.Debug.ShowTrail",
+      "context": "对于本地玩家，应使用Mover.LocalPlayer.ShowTrail替代Mover.Debug.ShowTrail，确保调试信息正确显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mover.LocalPlayer.ShowTrajectory",
+      "predicate": "替代",
+      "object": "Mover.Debug.ShowTrajectory",
+      "context": "对于本地玩家，应使用Mover.LocalPlayer.ShowTrajectory替代Mover.Debug.ShowTrajectory，确保调试信息正确显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mover.LocalPlayer.ShowCorrections",
+      "predicate": "替代",
+      "object": "Mover.Debug.ShowCorrections",
+      "context": "对于本地玩家，应使用Mover.LocalPlayer.ShowCorrections替代Mover.Debug.ShowCorrections，确保调试信息正确显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mover.Debug.LogAnimRootMotionSteps",
+      "predicate": "记录",
+      "object": "动画根动作分层移动",
+      "context": "该命令用于记录关于动画根动作分层移动的详细信息，帮助开发者分析根动作对Mover的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mover.Debug.LogRootMotionAttrSteps",
+      "predicate": "记录",
+      "object": "根动作属性分层移动",
+      "context": "该命令用于记录关于根动作属性分层移动的详细信息，帮助开发者分析根动作属性对Mover的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mover.Debug.DisableRootMotionAttributes",
+      "predicate": "忽略",
+      "object": "根运动属性",
+      "context": "该命令用于忽略根运动属性带来的影响，转而依据其他Mover的影响进行处理，帮助开发者分析不同因素对Mover的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mover",
+      "predicate": "属于",
+      "object": "Experimental功能",
+      "context": "Mover目前属于Experimental功能，在发布产品中需要谨慎使用，开发者应了解其实验性质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:00:14.286Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4155,
+    "contentLength": 2683,
+    "processingTimeMs": 41411
+  }
+}

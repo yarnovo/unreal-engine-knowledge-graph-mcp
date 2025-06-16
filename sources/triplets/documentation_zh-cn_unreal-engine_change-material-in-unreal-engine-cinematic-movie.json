@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_change-material-in-unreal-engine-cinematic-movie",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_change-material-in-unreal-engine-cinematic-movie.md",
+  "triples": [
+    {
+      "subject": "材质元素切换器",
+      "predicate": "属于",
+      "object": "Sequencer轨迹",
+      "context": "材质元素切换器是Sequencer中的一种特殊轨迹类型，用于控制材质变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质元素切换器",
+      "predicate": "用于",
+      "object": "设置材质动画",
+      "context": "该轨迹的主要功能是通过关键帧控制Actor上的材质变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "包含",
+      "object": "材质元素切换器",
+      "context": "材质元素切换器是Sequencer功能的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体",
+      "predicate": "支持",
+      "object": "材质元素切换器",
+      "context": "材质元素切换器需要添加到骨架网格体组件上才能工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "材质编号",
+      "context": "动画蓝图中可以找到对应Actor上要变更的材质编号",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "控制",
+      "object": "材质变化",
+      "context": "通过在材质元素切换器上添加关键帧来实现材质变化的动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡序列",
+      "predicate": "包含",
+      "object": "材质动画",
+      "context": "材质动画是在关卡序列中创建和编辑的",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质元素切换器",
+      "predicate": "依赖",
+      "object": "骨架网格体组件",
+      "context": "材质元素切换器需要绑定到骨架网格体组件上才能发挥作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质元素切换器",
+      "predicate": "使用",
+      "object": "材质实例",
+      "context": "材质元素切换器通过切换不同的材质实例来实现材质变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "用于",
+      "object": "创建过场动画",
+      "context": "Sequencer是虚幻引擎中创建过场动画的主要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质元素切换器",
+      "predicate": "适用于",
+      "object": "角色服装材质变化",
+      "context": "文档示例展示了如何使用该功能实现角色服装材质的变化",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "时间轴",
+      "predicate": "控制",
+      "object": "材质切换时机",
+      "context": "通过在时间轴上移动滑块并添加关键帧来控制材质切换的时间点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:20:15.748Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3702,
+    "contentLength": 2548,
+    "processingTimeMs": 42981
+  }
+}

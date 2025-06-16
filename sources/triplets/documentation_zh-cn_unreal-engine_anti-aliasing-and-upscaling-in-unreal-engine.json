@@ -1,0 +1,147 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_anti-aliasing-and-upscaling-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_anti-aliasing-and-upscaling-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "抗锯齿",
+      "predicate": "包含",
+      "object": "时间超级分辨率",
+      "context": "时间超级分辨率是虚幻引擎提供的一种抗锯齿方法，用于提高图像质量并节省GPU成本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "抗锯齿",
+      "predicate": "包含",
+      "object": "时间抗锯齿上采样",
+      "context": "时间抗锯齿上采样是虚幻引擎提供的一种抗锯齿方法，通过混合当前和过去帧的采样来平滑锯齿状边缘",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "抗锯齿",
+      "predicate": "包含",
+      "object": "快速近似抗锯齿",
+      "context": "快速近似抗锯齿是一种仅限空间的抗锯齿技术，适合低端设备和台式机",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "抗锯齿",
+      "predicate": "包含",
+      "object": "多重取样抗锯齿",
+      "context": "多重取样抗锯齿是一种仅对几何体边缘进行平滑处理的技术，适用于正向渲染器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间超级分辨率",
+      "predicate": "基于",
+      "object": "Nanite",
+      "context": "时间超级分辨率通过Nanite微多边形几何体实现高细节和保真度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间超级分辨率",
+      "predicate": "支持",
+      "object": "动态分辨率",
+      "context": "时间超级分辨率在主机平台上支持动态分辨率缩放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间抗锯齿上采样",
+      "predicate": "控制",
+      "object": "r.TemporalAA.Quality",
+      "context": "时间抗锯齿上采样的质量通过控制台变量r.TemporalAA.Quality进行控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "快速近似抗锯齿",
+      "predicate": "控制",
+      "object": "r.FXAA.Quality",
+      "context": "快速近似抗锯齿的抖色质量通过控制台变量r.FXAA.Quality进行控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多重取样抗锯齿",
+      "predicate": "控制",
+      "object": "r.MSAA.Quality",
+      "context": "多重取样抗锯齿的质量通过控制台变量r.MSAA.Quality进行控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "引擎可扩展性设置",
+      "predicate": "包含",
+      "object": "抗锯齿设置",
+      "context": "抗锯齿设置在引擎可扩展性设置中有自己的可扩展性组，用于控制抗锯齿质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "包含",
+      "object": "抗锯齿设置",
+      "context": "抗锯齿设置位于项目设置的引擎>渲染设置中，用于选择抗锯齿方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间抗锯齿上采样",
+      "predicate": "替代",
+      "object": "时间超级分辨率",
+      "context": "时间超级分辨率是时间抗锯齿上采样的升级版本，提供更高质量的上采样技术",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "快速近似抗锯齿",
+      "predicate": "适用于",
+      "object": "低端设备",
+      "context": "快速近似抗锯齿适合低端设备和台式机，因为其渲染速度快",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多重取样抗锯齿",
+      "predicate": "适用于",
+      "object": "正向渲染器",
+      "context": "多重取样抗锯齿仅在使用正向渲染器时可用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时序上提升器",
+      "predicate": "包含",
+      "object": "时间超级分辨率",
+      "context": "时序上提升器包括时间超级分辨率等时间上采样技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时序上提升器",
+      "predicate": "包含",
+      "object": "时间抗锯齿上采样",
+      "context": "时序上提升器包括时间抗锯齿上采样等时间上采样技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:05:01.873Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11990 字符)",
+      "timestamp": "2025-06-15T18:04:08.432Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 18370,
+    "contentLength": 11990,
+    "processingTimeMs": 53444
+  }
+}

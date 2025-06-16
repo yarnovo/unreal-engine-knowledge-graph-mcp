@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_controllers-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_controllers-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Controller",
+      "predicate": "控制",
+      "object": "Pawn",
+      "context": "控制器通过Possess函数控制Pawn，是虚幻引擎中实现角色控制的核心机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PlayerController",
+      "predicate": "继承",
+      "object": "Controller",
+      "context": "PlayerController是Controller的派生类，专门用于人类玩家控制Pawn",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AIController",
+      "predicate": "继承",
+      "object": "Controller",
+      "context": "AIController是Controller的派生类，用于实现AI控制的Pawn行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Controller",
+      "predicate": "接收事件",
+      "object": "Pawn事件",
+      "context": "控制器会接收其控制的Pawn所发生事件的通知，这是实现响应式行为的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Controller",
+      "predicate": "实现",
+      "object": "行为拦截",
+      "context": "控制器可以拦截Pawn事件并接替默认行为，这是高级控制逻辑的实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Controller",
+      "predicate": "具有",
+      "object": "一对一关系",
+      "context": "默认情况下控制器与Pawn是一对一关系，这是理解基础控制架构的重要前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Controller",
+      "predicate": "使用",
+      "object": "Possess函数",
+      "context": "Possess函数是控制器获取Pawn控制权的核心方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Controller",
+      "predicate": "使用",
+      "object": "Unpossess函数",
+      "context": "Unpossess函数是控制器放弃Pawn控制权的核心方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PlayerController",
+      "predicate": "用于",
+      "object": "人类玩家控制",
+      "context": "PlayerController专门处理人类玩家的输入和控制逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AIController",
+      "predicate": "用于",
+      "object": "AI行为控制",
+      "context": "AIController专门用于实现AI控制的逻辑和行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Controller",
+      "predicate": "影响",
+      "object": "输入延迟",
+      "context": "控制器可以在Pawn之前运行，从而减少输入处理与移动之间的延迟",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Controller",
+      "predicate": "属于",
+      "object": "Gameplay Framework",
+      "context": "控制器是虚幻引擎Gameplay框架的核心组件之一",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T18:34:56.162Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 1857,
+    "contentLength": 1177,
+    "processingTimeMs": 38862
+  }
+}

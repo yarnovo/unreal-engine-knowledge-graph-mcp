@@ -1,0 +1,157 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_levels-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_levels-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "关卡",
+      "predicate": "包含",
+      "object": "环境",
+      "context": "关卡作为游戏世界的基本单位，包含玩家可见和交互的环境元素，这是构建游戏世界的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡",
+      "predicate": "包含",
+      "object": "可用对象",
+      "context": "关卡中需要放置玩家可以交互的对象，这是游戏交互性的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡",
+      "predicate": "包含",
+      "object": "其他角色",
+      "context": "关卡中通常包含NPC或其他角色，这是游戏叙事和交互的重要元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡",
+      "predicate": "保存为",
+      "object": ".umap文件",
+      "context": "理解关卡在文件系统中的存储格式对于项目管理和版本控制很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡",
+      "predicate": "也称为",
+      "object": "贴图",
+      "context": "了解关卡在虚幻引擎中的别称有助于理解文档和社区讨论",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡",
+      "predicate": "由...组成",
+      "object": "静态网格体Actor",
+      "context": "静态网格体是构建关卡环境的基本元素，理解这一点对关卡设计很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡",
+      "predicate": "由...组成",
+      "object": "骨骼网格体Actor",
+      "context": "玩家角色通常由骨骼网格体表示，这是角色动画的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡",
+      "predicate": "由...组成",
+      "object": "光源",
+      "context": "光照是关卡视觉表现的关键要素，理解其作用对场景设计很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡",
+      "predicate": "由...组成",
+      "object": "环境声音",
+      "context": "音效是沉浸式游戏体验的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡",
+      "predicate": "可能包含",
+      "object": "粒子效果",
+      "context": "高级关卡设计可能需要使用粒子效果来增强视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "关卡",
+      "predicate": "可能包含",
+      "object": "视效后期处理",
+      "context": "后期处理效果可以显著提升关卡视觉质量",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "关卡",
+      "predicate": "可能包含",
+      "object": "关卡流送",
+      "context": "大型游戏世界通常使用关卡流送技术来优化性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "静态网格体Actor",
+      "predicate": "用于表示",
+      "object": "环境元素",
+      "context": "理解静态网格体在关卡中的典型应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体Actor",
+      "predicate": "用于表示",
+      "object": "玩家角色",
+      "context": "理解角色动画系统的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Settings",
+      "predicate": "控制",
+      "object": "关卡特定设置",
+      "context": "了解如何配置关卡的全局属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流送",
+      "predicate": "优化",
+      "object": "大型游戏世界性能",
+      "context": "理解处理大型游戏世界的技术方案",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "管理多个关卡",
+      "predicate": "涉及",
+      "object": "持久关卡",
+      "context": "理解复杂项目中关卡的组织方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "管理多个关卡",
+      "predicate": "涉及",
+      "object": "子关卡",
+      "context": "理解复杂项目中关卡的组织方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:44:21.387Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4550,
+    "contentLength": 3292,
+    "processingTimeMs": 57910
+  }
+}

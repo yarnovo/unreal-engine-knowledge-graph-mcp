@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_setup-and-configure-the-online-services-plugins-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_setup-and-configure-the-online-services-plugins-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "在线服务插件",
+      "predicate": "包含",
+      "object": "在线服务Null",
+      "context": "在线服务Null是用于测试的在线服务插件实现，帮助学习者理解插件的基本功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务插件",
+      "predicate": "包含",
+      "object": "在线服务EOS",
+      "context": "在线服务EOS是连接Epic在线服务的插件实现，帮助学习者理解不同后端服务的集成方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务插件",
+      "predicate": "依赖",
+      "object": "OnlineServicesInterface模块",
+      "context": "要在C++代码中使用在线服务插件功能，必须添加该模块依赖，这是学习插件开发的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务插件",
+      "predicate": "依赖",
+      "object": "CoreOnline模块",
+      "context": "CoreOnline模块提供在线服务的基础功能支持，是理解在线服务架构的基础依赖",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务Null",
+      "predicate": "用于",
+      "object": "测试目的",
+      "context": "Null实现不连接实际后端服务，专门用于测试和调试，帮助学习者安全地实验在线功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DefaultEngine.ini",
+      "predicate": "配置",
+      "object": "默认平台服务",
+      "context": "通过修改配置文件指定默认服务，这是学习引擎配置管理的重要实践",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE::Online::GetServices",
+      "predicate": "返回",
+      "object": "默认平台服务",
+      "context": "该API调用返回配置的默认服务实例，帮助理解服务获取机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "身份验证接口",
+      "predicate": "通过",
+      "object": "IAuthPtr",
+      "context": "通过服务指针获取特定接口是学习插件API设计的典型模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎项目",
+      "predicate": "使用",
+      "object": "在线服务插件",
+      "context": "插件需要集成到项目中才能发挥作用，这是学习引擎模块化架构的关键概念",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Visual Studio项目",
+      "predicate": "依赖",
+      "object": ".Build.cs配置",
+      "context": "理解构建系统配置与开发环境的关系对学习引擎编译流程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "在线服务概述文档",
+      "predicate": "描述",
+      "object": "可用平台服务",
+      "context": "该文档提供完整的服务列表，是扩展学习其他服务类型的入口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Beta功能",
+      "predicate": "需要",
+      "object": "谨慎使用",
+      "context": "理解Beta功能的特性对学习生产环境决策很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:47:18.911Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10738,
+    "contentLength": 7368,
+    "processingTimeMs": 40010
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_developer-guide-to-tracing-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_developer-guide-to-tracing-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Trace",
+      "predicate": "包含",
+      "object": "Tracelog",
+      "context": "Tracelog是Trace框架的重要组成部分，用于记录追踪事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace",
+      "predicate": "包含",
+      "object": "TraceAnalysis",
+      "context": "TraceAnalysis是Trace框架的重要组成部分，用于分析追踪数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "包含",
+      "object": "Trace events",
+      "context": "Trace events是Unreal Insights的主要部件之一，用于记录应用程序中的追踪数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "包含",
+      "object": "Unreal Trace Server",
+      "context": "Unreal Trace Server是Unreal Insights的主要部件之一，用于保存追踪数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace events",
+      "predicate": "生成",
+      "object": ".utrace文件",
+      "context": "Trace会话数据被保存在.utrace文件中，便于后续分析和共享",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace events",
+      "predicate": "生成",
+      "object": ".ucache文件",
+      "context": "自动生成的附加数据储存在Trace文件旁边的.ucache文件中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TRACE_CPUPROFILER_EVENT_SCOPE",
+      "predicate": "用于",
+      "object": "性能测量",
+      "context": "该宏用于测量应用程序在某个范围内花费的时间，是性能分析的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TRACE_DECLARE_INT_COUNTER",
+      "predicate": "用于",
+      "object": "计数器追踪",
+      "context": "该接口用于声明和追踪具名值，支持随时间变化的数值追踪",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内存追踪",
+      "predicate": "基于",
+      "object": "GMalloc",
+      "context": "内存追踪实现为GMalloc的包装器，覆盖常用分配操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TRACE_BOOKMARK",
+      "predicate": "用于",
+      "object": "状态标记",
+      "context": "该宏用于在应用程序中添加书签，标记重要的状态更改点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义事件",
+      "predicate": "扩展",
+      "object": "Trace功能",
+      "context": "当内置事件不满足需求时，可以通过自定义事件扩展Trace的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE_TRACE_EVENT_BEGIN",
+      "predicate": "定义",
+      "object": "事件结构",
+      "context": "该宏用于定义新事件的开始，包括日志名称、事件名称和可选标记",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE_TRACE_EVENT_FIELD",
+      "predicate": "定义",
+      "object": "事件字段",
+      "context": "该宏用于定义事件中包含的字段及其类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数组字段",
+      "predicate": "替代",
+      "object": "附件",
+      "context": "文档建议使用数组类字段而非附件，因为前者更具结构性且开销更小",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Trace::AnsiString",
+      "predicate": "支持",
+      "object": "ASCII字符串",
+      "context": "该类型用于在追踪事件中支持ASCII字符串字段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace::WideString",
+      "predicate": "支持",
+      "object": "宽字符串",
+      "context": "该类型用于在追踪事件中支持宽字符串字段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "普通事件",
+      "predicate": "使用",
+      "object": "线程本地存储",
+      "context": "普通事件数据写入线程本地存储缓冲区，避免线程间冲突",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重要事件",
+      "predicate": "存储于",
+      "object": "特殊缓冲区",
+      "context": "重要事件存储在特殊缓冲区中，在整个进程生命周期内保留",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通道",
+      "predicate": "控制",
+      "object": "事件流",
+      "context": "通道用于限制事件流，聚焦最相关的数据，提高效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE_TRACE_LOG",
+      "predicate": "记录",
+      "object": "运行时事件",
+      "context": "该宏用于在运行时记录追踪事件到事件流中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IAnalyzer",
+      "predicate": "分析",
+      "object": "追踪数据",
+      "context": "分析器接口用于从事件流中提取和分析数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IProvider",
+      "predicate": "提供",
+      "object": "分析数据",
+      "context": "提供器接口用于将分析后的数据提供给UI或其他输出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SlateInsights",
+      "predicate": "示例",
+      "object": "Unreal Insights插件",
+      "context": "该插件是随引擎发布的参考实现，展示如何扩展Unreal Insights功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RenderGraphInsights",
+      "predicate": "示例",
+      "object": "Unreal Insights插件",
+      "context": "该插件是随引擎发布的参考实现，展示如何扩展Unreal Insights功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义分析器",
+      "predicate": "扩展",
+      "object": "Trace用途",
+      "context": "通过实现自定义分析器，可以以不同方式输出数据，满足特定需求",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:51:19.305Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13238 字符)",
+      "timestamp": "2025-06-15T18:49:54.760Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 21138,
+    "contentLength": 13238,
+    "processingTimeMs": 84552
+  }
+}

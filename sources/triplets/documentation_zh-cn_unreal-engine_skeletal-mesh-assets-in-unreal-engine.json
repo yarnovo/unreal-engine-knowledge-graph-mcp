@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_skeletal-mesh-assets-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_skeletal-mesh-assets-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "骨骼网格体",
+      "predicate": "包含",
+      "object": "骨架",
+      "context": "骨骼网格体资产包含角色的可视化网格体和骨架数据，骨架用于为角色制作动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "导入自",
+      "object": "FBX文件",
+      "context": "骨骼网格体资产是在外部DCC软件中创建并导出为FBX文件后导入到虚幻引擎中的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX文件",
+      "predicate": "包含",
+      "object": "动画序列",
+      "context": "FBX文件可以包含角色的动画，这些动画会作为动画序列资产导入虚幻引擎",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "编辑于",
+      "object": "骨骼网格体编辑器",
+      "context": "骨骼网格体资产可以在骨骼网格体编辑器中查看和编辑",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架",
+      "predicate": "编辑于",
+      "object": "骨架编辑器",
+      "context": "骨架资产可以在骨架编辑器中查看和编辑",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画序列",
+      "predicate": "编辑于",
+      "object": "动画序列编辑器",
+      "context": "动画序列可以在动画序列编辑器中查看和编辑",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色蓝图",
+      "predicate": "包含",
+      "object": "网格体组件",
+      "context": "角色蓝图通过网格体组件来添加和控制骨骼网格体资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "控制",
+      "object": "动画序列",
+      "context": "动画蓝图用于创建动画逻辑，动态选择动画序列在角色上播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "基于",
+      "object": "骨架资产",
+      "context": "创建动画蓝图时需要选择随骨骼网格体导入的骨架资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "用于",
+      "object": "模块化角色",
+      "context": "多个骨骼网格体可以组合使用，构建模块化角色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画序列",
+      "predicate": "播放于",
+      "object": "骨架",
+      "context": "动画序列在骨骼网格体的骨架资产上播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器动画",
+      "predicate": "替代",
+      "object": "骨架动画",
+      "context": "变形器动画技术可以对网格体的几何体而不是骨骼进行变换，用于创建更复杂的动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色蓝图",
+      "predicate": "使用",
+      "object": "动画蓝图",
+      "context": "角色蓝图可以通过动画蓝图来控制角色的动画行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "共享",
+      "object": "骨架",
+      "context": "多个骨骼网格体资产可以共享相同或相似的骨架结构，从而实现动画共享",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "使用",
+      "object": "动画序列",
+      "context": "Sequencer可以在创作的过场动画中使用动画序列资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:48:22.002Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9353 字符)",
+      "timestamp": "2025-06-15T20:47:35.964Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12999,
+    "contentLength": 9353,
+    "processingTimeMs": 46043
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_audio-mixer-overview-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_audio-mixer-overview-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "音频混成器",
+      "predicate": "替代",
+      "object": "平台特定的音频渲染API",
+      "context": "音频混成器作为多平台音频渲染API，解决了平台特定API的功能对等问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频混成器",
+      "predicate": "包含",
+      "object": "平台层",
+      "context": "平台层是音频混成器架构的基础部分，负责处理平台特定的硬件交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频混成器",
+      "predicate": "包含",
+      "object": "缓冲区生成",
+      "context": "缓冲区生成是音频混成器处理音频数据流的关键环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频混成器",
+      "predicate": "包含",
+      "object": "子混音图",
+      "context": "子混音图是音频混成器处理音频混合的核心结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频混成器",
+      "predicate": "支持",
+      "object": "编码的声源",
+      "context": "音频混成器支持处理多种编码格式的音频源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频混成器",
+      "predicate": "支持",
+      "object": "过程声源",
+      "context": "音频混成器支持程序生成的音频源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频混成器",
+      "predicate": "支持",
+      "object": "混合源",
+      "context": "音频混成器支持将多个音频源混合处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频混成器",
+      "predicate": "实现",
+      "object": "功能对等性",
+      "context": "音频混成器的主要设计目标是在所有平台上实现一致的音频功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子混音图",
+      "predicate": "包含",
+      "object": "主子混音",
+      "context": "主子混音是子混音图的根节点和最终输出节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子混音图",
+      "predicate": "包含",
+      "object": "发送到子混音",
+      "context": "发送到子混音是音频路由的重要机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主子混音",
+      "predicate": "包含",
+      "object": "主混响子混音",
+      "context": "主混响子混音是主子混音的子项，用于处理混响效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主子混音",
+      "predicate": "包含",
+      "object": "主均衡器子混音",
+      "context": "主均衡器子混音是主子混音的子项，用于处理均衡效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频混成器线程模式",
+      "predicate": "包含",
+      "object": "音频渲染线程",
+      "context": "音频渲染线程专门负责音频的DSP处理和混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频混成器线程模式",
+      "predicate": "包含",
+      "object": "音频线程",
+      "context": "音频线程负责确定要播放的音效及其参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "声源DSP效果处理",
+      "predicate": "使用",
+      "object": "高通滤波器",
+      "context": "高通滤波器是所有声源都可用的内置DSP效果之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "声源DSP效果处理",
+      "predicate": "使用",
+      "object": "低通滤波器",
+      "context": "低通滤波器是所有声源都可用的内置DSP效果之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编码的声源",
+      "predicate": "依赖",
+      "object": "异步任务",
+      "context": "编码音频的解码过程需要使用异步任务进行处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "过程声源",
+      "predicate": "基于",
+      "object": "抽象接口",
+      "context": "过程声源通过抽象接口回调客户端代码生成音频数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合源",
+      "predicate": "称为",
+      "object": "源总线",
+      "context": "混合源在音频混成器中被称为源总线",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缓冲区生成",
+      "predicate": "涉及",
+      "object": "欠载",
+      "context": "欠载是缓冲区生成过程中需要避免的重要问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缓冲区生成",
+      "predicate": "涉及",
+      "object": "过载",
+      "context": "过载是缓冲区生成过程中需要平衡的问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子混音",
+      "predicate": "支持",
+      "object": "音频分析",
+      "context": "子混音提供了音频分析功能，如振幅包络和FFT",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子混音",
+      "predicate": "支持",
+      "object": "音频录制",
+      "context": "子混音可以将输出记录到USoundWave对象或.wav文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频混成器",
+      "predicate": "扩展",
+      "object": "虚幻引擎音频功能",
+      "context": "音频混成器将虚幻引擎的音频功能扩展到新的领域",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "音频混成器",
+      "predicate": "兼容",
+      "object": "旧有音频引擎功能",
+      "context": "音频混成器向后兼容大部分旧有音频引擎功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "平台层",
+      "predicate": "处理",
+      "object": "硬件功能查询",
+      "context": "平台层负责查询硬件功能并设置音频混成器",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "声源DSP效果处理",
+      "predicate": "关联",
+      "object": "声衰减设置",
+      "context": "声衰减设置可以映射滤波器参数到声源",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "声源DSP效果处理",
+      "predicate": "关联",
+      "object": "遮挡系统",
+      "context": "遮挡系统会基于几何体阻挡自动应用滤波器",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "声源DSP效果处理",
+      "predicate": "关联",
+      "object": "音效混合",
+      "context": "音效混合可以应用逐源滤波器效果",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "声源DSP效果处理",
+      "predicate": "关联",
+      "object": "音效类",
+      "context": "音效类可以应用逐源滤波器效果",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:09:40.074Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9701 字符)",
+      "timestamp": "2025-06-15T18:08:01.063Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 20255,
+    "contentLength": 9701,
+    "processingTimeMs": 99015
+  }
+}

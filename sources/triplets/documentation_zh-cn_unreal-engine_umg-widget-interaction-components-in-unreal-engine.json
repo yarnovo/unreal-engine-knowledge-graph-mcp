@@ -1,0 +1,157 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_umg-widget-interaction-components-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_umg-widget-interaction-components-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "控件交互组件",
+      "predicate": "用于",
+      "object": "3D UI交互",
+      "context": "控件交互组件专门用于实现玩家与3D形式存在于游戏世界中的UI控件的交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件交互组件",
+      "predicate": "执行",
+      "object": "光线投射",
+      "context": "控件交互组件通过执行光线投射来检测是否命中世界场景中的控件组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件交互组件",
+      "predicate": "模拟",
+      "object": "按键输入",
+      "context": "控件交互组件通过模拟按键输入（如鼠标点击）来实现与控件的交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件交互组件",
+      "predicate": "附加到",
+      "object": "Pawn或角色",
+      "context": "控件交互组件通常需要附加到玩家的Pawn或角色类上，以实现玩家与UI的交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件交互组件",
+      "predicate": "包含",
+      "object": "Virtual User Index",
+      "context": "Virtual User Index是控件交互组件的一个重要属性，用于区分不同的虚拟用户",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件交互组件",
+      "predicate": "包含",
+      "object": "Pointer Index",
+      "context": "Pointer Index用于区分不同的模拟虚拟控制器或虚拟指端",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件交互组件",
+      "predicate": "包含",
+      "object": "Interaction Distance",
+      "context": "Interaction Distance定义了组件能够与控件组件交互的最大距离",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件交互组件",
+      "predicate": "包含",
+      "object": "Interaction Source",
+      "context": "Interaction Source决定了投射和追踪的起始点，可以是世界场景、鼠标、屏幕中心或自定义位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件交互组件",
+      "predicate": "支持",
+      "object": "蓝图节点",
+      "context": "控件交互组件提供了一系列蓝图节点，用于模拟输入和获取交互信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件交互组件",
+      "predicate": "依赖",
+      "object": "控件组件",
+      "context": "控件交互组件需要与控件组件配合使用，才能实现UI交互功能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Press Pointer Key",
+      "predicate": "模拟",
+      "object": "鼠标点击",
+      "context": "Press Pointer Key节点用于模拟鼠标或指针上的按键按下事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Release Pointer Key",
+      "predicate": "模拟",
+      "object": "鼠标释放",
+      "context": "Release Pointer Key节点用于模拟鼠标或指针上的按键释放事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Send Key Char",
+      "predicate": "发送",
+      "object": "字符输入",
+      "context": "Send Key Char节点用于将字符输入发送到控件，适用于可编辑文本框等场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Scroll Wheel",
+      "predicate": "发送",
+      "object": "滚轮事件",
+      "context": "Scroll Wheel节点用于向控件发送滚轮事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Hovered Widget Component",
+      "predicate": "获取",
+      "object": "悬停控件",
+      "context": "Get Hovered Widget Component节点用于获取当前悬停的控件组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Is Over Interactable Widget",
+      "predicate": "检测",
+      "object": "可交互控件",
+      "context": "Is Over Interactable Widget节点用于检测当前命中的控件是否可交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件交互组件",
+      "predicate": "适用于",
+      "object": "VR/AR开发",
+      "context": "控件交互组件特别适用于VR/AR开发，可以实现运动控制器与3D UI的交互",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "控件交互组件",
+      "predicate": "扩展",
+      "object": "UMG功能",
+      "context": "控件交互组件扩展了UMG的功能，使其支持3D空间中的UI交互",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:05:19.209Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7679,
+    "contentLength": 4872,
+    "processingTimeMs": 53664
+  }
+}

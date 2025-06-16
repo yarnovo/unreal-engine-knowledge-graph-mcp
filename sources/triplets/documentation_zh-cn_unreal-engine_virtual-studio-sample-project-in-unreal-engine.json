@@ -1,0 +1,155 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_virtual-studio-sample-project-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_virtual-studio-sample-project-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎虚拟工作室示例项目",
+      "predicate": "展示",
+      "object": "虚幻引擎与专业视频卡集成能力",
+      "context": "项目展示了虚幻引擎如何与AJA和Blackmagic Design的视频卡集成，帮助学习者理解专业视频制作管道的构建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎虚拟工作室示例项目",
+      "predicate": "使用",
+      "object": "媒体描述资源",
+      "context": "项目使用不同的媒体描述资源来配置视频输入和输出，帮助学习者理解如何根据需求切换不同的媒体配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体描述资源",
+      "predicate": "定义",
+      "object": "媒体配置",
+      "context": "每种媒体描述资源定义了一种特定的媒体配置，包括帧率、色深等参数，帮助学习者掌握媒体配置的基本概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AJA Video Systems",
+      "predicate": "支持",
+      "object": "虚幻引擎",
+      "context": "AJA Video Systems的视频卡可以与虚幻引擎集成，帮助学习者了解可用的硬件支持选项",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blackmagic Design",
+      "predicate": "支持",
+      "object": "虚幻引擎",
+      "context": "Blackmagic Design的视频卡可以与虚幻引擎集成，帮助学习者了解可用的硬件支持选项",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体包",
+      "predicate": "用于",
+      "object": "引入视频源",
+      "context": "媒体包用于将视频源引入关卡视口，帮助学习者理解如何在虚幻引擎中管理和使用视频源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体包",
+      "predicate": "使用",
+      "object": "材质实例",
+      "context": "媒体包使用特定的材质实例进行色度键控和亮度滤波，帮助学习者掌握实时视频处理的技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体采集窗口",
+      "predicate": "控制",
+      "object": "视频输出",
+      "context": "媒体采集窗口用于控制从虚幻引擎向视频卡发送视频输出，帮助学习者掌握视频采集的基本操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CameraSwitcher蓝图",
+      "predicate": "管理",
+      "object": "摄像机切换",
+      "context": "CameraSwitcher蓝图用于管理运行时摄像机的切换，帮助学习者理解如何实现动态摄像机控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视频墙",
+      "predicate": "使用",
+      "object": "媒体框架资源",
+      "context": "视频墙使用媒体框架的基本构建块（如媒体源、媒体播放器等）来实现视频播放，帮助学习者掌握媒体框架的应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VirtualSetMediaInput",
+      "predicate": "继承",
+      "object": "BP_MediaBundle_Plane_16-9",
+      "context": "VirtualSetMediaInput是BP_MediaBundle_Plane_16-9的自定义子类，添加了显示/隐藏平面的功能，帮助学习者理解蓝图继承和扩展",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体代理源",
+      "predicate": "映射",
+      "object": "媒体描述输入源",
+      "context": "媒体代理源资源将媒体包映射到媒体描述中定义的输入源，帮助学习者理解如何动态切换视频输入配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "色度键控",
+      "predicate": "实现",
+      "object": "实时视频合成",
+      "context": "通过材质实例的色度键控功能实现主持人视频与虚拟场景的实时合成，帮助学习者掌握虚拟制片核心技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Studio模块化工具",
+      "predicate": "包含",
+      "object": "预制资源库",
+      "context": "提供静态网格体、材质等资源帮助快速搭建虚拟工作室，展示模块化开发思想在实际项目中的应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体描述资源",
+      "predicate": "决定",
+      "object": "视频输出端口",
+      "context": "不同媒体描述配置决定视频输出到不同硬件端口，展示配置管理在媒体工作流中的重要性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体包",
+      "predicate": "关联",
+      "object": "摄像机Actor",
+      "context": "每个媒体包需要关联特定摄像机Actor，展示视频平面与摄像机的协同工作关系",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WallPlayerSetup蓝图",
+      "predicate": "控制",
+      "object": "视频墙播放",
+      "context": "通过蓝图构造脚本自动启动视频墙播放，展示事件驱动编程在媒体控制中的应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:29:07.866Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (16655 字符)",
+      "timestamp": "2025-06-15T21:28:14.753Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 25510,
+    "contentLength": 16655,
+    "processingTimeMs": 53124
+  }
+}

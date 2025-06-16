@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_working-with-modular-characters-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_working-with-modular-characters-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "模块化角色蓝图",
+      "predicate": "用于",
+      "object": "构建自定义外观角色",
+      "context": "模块化角色蓝图是创建可由玩家或游戏系统自定义外观角色的核心工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块化角色蓝图",
+      "predicate": "包含",
+      "object": "骨骼网格体资产",
+      "context": "模块化角色由多个可替换的骨骼网格体资产组成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设置领导者姿势组件",
+      "predicate": "属于",
+      "object": "模块化角色设置方法",
+      "context": "这是三种主要模块化角色构建方法之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设置领导者姿势组件",
+      "predicate": "前置",
+      "object": "骨骼网格体资产导入",
+      "context": "需要先导入骨骼网格体资产才能设置领导者姿势组件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "领导者姿势组件",
+      "predicate": "控制",
+      "object": "子网格体动画",
+      "context": "子网格体跟随领导者组件的动画，不能独立运行动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "从网格体复制姿势",
+      "predicate": "替代",
+      "object": "设置领导者姿势组件",
+      "context": "当需要独立动画或物理模拟时，可以替代领导者姿势方法",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "从网格体复制姿势",
+      "predicate": "支持",
+      "object": "独立动画播放",
+      "context": "相比领导者姿势方法，允许子网格体运行动画蓝图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体合并",
+      "predicate": "生成",
+      "object": "单一骨骼网格体",
+      "context": "运行时将多个网格体合并为单个优化网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体合并",
+      "predicate": "需要",
+      "object": "骨骼合并插件",
+      "context": "必须启用Skeletal Merging插件才能使用此功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "控制",
+      "object": "骨骼网格体动画",
+      "context": "用于定义和控制骨骼网格体的动画行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AnimGraph",
+      "predicate": "包含",
+      "object": "从网格体复制姿势节点",
+      "context": "这是实现复制姿势功能的关键节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体合并参数",
+      "predicate": "定义",
+      "object": "要合并的网格体",
+      "context": "该变量用于配置需要合并的网格体列表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设置领导者姿势组件",
+      "predicate": "具有",
+      "object": "最低游戏线程成本",
+      "context": "性能比较表中显示该方法游戏线程成本最低",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体合并",
+      "predicate": "具有",
+      "object": "最低渲染线程成本",
+      "context": "性能比较表中显示该方法渲染线程成本最低",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块化角色系统",
+      "predicate": "包含",
+      "object": "三种设置方法",
+      "context": "文档详细介绍了领导者姿势、复制姿势和网格体合并三种方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色蓝图",
+      "predicate": "基于",
+      "object": "Character类",
+      "context": "创建模块化角色时需要选择Character作为父类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体资产",
+      "predicate": "需要",
+      "object": "匹配的骨架结构",
+      "context": "特别是使用领导者姿势方法时，子网格体必须与父网格体骨架匹配",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "从网格体复制姿势",
+      "predicate": "支持",
+      "object": "物理模拟",
+      "context": "可以使用AnimDynamics或RigidBody节点实现物理效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体合并",
+      "predicate": "不支持",
+      "object": "变形目标",
+      "context": "合并后的网格体无法使用原始网格体的变形目标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块化角色",
+      "predicate": "适用于",
+      "object": "外观自定义系统",
+      "context": "特别适合需要动态更换服装、装备等外观元素的游戏",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:35:11.651Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15403 字符)",
+      "timestamp": "2025-06-15T21:34:15.925Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 25412,
+    "contentLength": 15403,
+    "processingTimeMs": 55729
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-light-shafts-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-light-shafts-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "光束",
+      "predicate": "由...生成",
+      "object": "定向光源",
+      "context": "光束是通过定向光源模拟真实曙暮光效果或大气散射的阴影生成的，理解这一关系有助于学习如何创建光束效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光束",
+      "predicate": "包含",
+      "object": "光束属性",
+      "context": "光束效果由一系列属性控制，了解这些属性是调整光束效果的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光束属性",
+      "predicate": "包括",
+      "object": "启用光束遮挡",
+      "context": "启用光束遮挡是光束属性之一，控制是否对雾气和大气散射形成屏幕空间模糊遮挡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光束属性",
+      "predicate": "包括",
+      "object": "遮挡遮罩暗度",
+      "context": "遮挡遮罩暗度是光束属性之一，用于确定遮挡遮罩的颜色深度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光束属性",
+      "predicate": "包括",
+      "object": "遮挡深度范围",
+      "context": "遮挡深度范围是光束属性之一，定义在此距离到摄像机之间的物体均会对光束构成遮挡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光束属性",
+      "predicate": "包括",
+      "object": "启用光束泛光",
+      "context": "启用光束泛光是光束属性之一，控制是否渲染光源的光束泛光",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光束属性",
+      "predicate": "包括",
+      "object": "泛光缩放",
+      "context": "泛光缩放是光束属性之一，用于调整泛光的加色，使其更明显或更不明显",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光束属性",
+      "predicate": "包括",
+      "object": "泛光阈值",
+      "context": "泛光阈值是光束属性之一，定义场景颜色必须大于此阈值才能在光束中形成泛光",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光束属性",
+      "predicate": "包括",
+      "object": "泛光最高亮度",
+      "context": "泛光最高亮度是光束属性之一，控制应用曝光后场景颜色的亮度上限",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光束属性",
+      "predicate": "包括",
+      "object": "泛光色调",
+      "context": "泛光色调是光束属性之一，用于为光束泛光效果着色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光束属性",
+      "predicate": "包括",
+      "object": "光束重载方向",
+      "context": "光束重载方向是光束属性之一，允许光束来自光源实际方向以外的其他位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光束",
+      "predicate": "实现方式",
+      "object": "遮挡法",
+      "context": "遮挡法是实现光束效果的一种方法，通过从屏幕上物体的深度创建遮罩来模拟真实光束效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光束",
+      "predicate": "实现方式",
+      "object": "泛光法",
+      "context": "泛光法是实现光束效果的另一种方法，通过捕捉场景颜色并进行放射性模糊来创建视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "遮挡法",
+      "predicate": "依赖",
+      "object": "雾气/大气",
+      "context": "遮挡法的效果依赖于雾气和大气，光束的强弱度只能和雾气/大气相同",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "泛光法",
+      "predicate": "适用于",
+      "object": "明亮区域",
+      "context": "泛光法在太阳周围存在突出的明亮区域时使用效果最佳",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光束",
+      "predicate": "影响",
+      "object": "GPU开销",
+      "context": "光束效果（遮挡和泛光）都会增加GPU开销，理解这一点有助于优化性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "遮挡法",
+      "predicate": "产生",
+      "object": "GPU开销",
+      "context": "遮挡法会增加GPU开销，了解这一点有助于在性能和效果之间做出权衡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "泛光法",
+      "predicate": "产生",
+      "object": "GPU开销",
+      "context": "泛光法会增加GPU开销，了解这一点有助于在性能和效果之间做出权衡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定向光源",
+      "predicate": "控制",
+      "object": "光束效果",
+      "context": "定向光源通过其属性控制光束效果，理解这一关系有助于学习如何调整光源以创建所需的光束效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:18:01.905Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5153,
+    "contentLength": 3322,
+    "processingTimeMs": 56475
+  }
+}

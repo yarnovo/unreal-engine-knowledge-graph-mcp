@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-nanite-with-landscapes-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-nanite-with-landscapes-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Nanite",
+      "predicate": "是",
+      "object": "虚幻引擎的虚拟化几何体系统",
+      "context": "明确Nanite在虚幻引擎中的定位和功能",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "Nanite",
+      "predicate": "使用",
+      "object": "内部网格体格式和渲染技术",
+      "context": "说明Nanite实现高细节渲染的技术基础",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "Nanite",
+      "predicate": "支持",
+      "object": "自动细节级别",
+      "context": "Nanite的核心功能特性之一",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "Nanite",
+      "predicate": "适用于",
+      "object": "地形渲染",
+      "context": "文档核心主题，说明Nanite的主要应用场景之一",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "Nanite地形",
+      "predicate": "依赖",
+      "object": "非Nanite地形数据",
+      "context": "关键技术说明，解释运行时数据流送机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启用Nanite",
+      "predicate": "导致",
+      "object": "内存占用增加",
+      "context": "重要性能考虑，帮助开发者权衡使用决策",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Nanite裙子",
+      "predicate": "解决",
+      "object": "接缝瑕疵问题",
+      "context": "特定功能的技术价值说明",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Landscape.RenderNanite",
+      "predicate": "控制",
+      "object": "Nanite地形渲染开关",
+      "context": "重要控制台命令的功能说明",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "Landscape.Nanite.LiveRebuildOnModification",
+      "predicate": "影响",
+      "object": "编辑器性能",
+      "context": "关键性能优化建议",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Nanite地形",
+      "predicate": "使用",
+      "object": "分层细节级别(HLOD)",
+      "context": "说明Nanite与其他LOD系统的兼容性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Nanite地形",
+      "predicate": "需要",
+      "object": "重新编译数据",
+      "context": "工作流程关键步骤说明",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Nanite可视化模式",
+      "predicate": "用于",
+      "object": "查看Nanite几何体",
+      "context": "调试工具的功能说明",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "虚拟阴影贴图",
+      "predicate": "受益于",
+      "object": "Nanite地形",
+      "context": "说明Nanite对特定渲染技术的优化效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "运行时虚拟纹理",
+      "predicate": "依赖",
+      "object": "非Nanite地形数据",
+      "context": "关键技术依赖关系说明",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水渲染",
+      "predicate": "依赖",
+      "object": "非Nanite地形数据",
+      "context": "关键技术依赖关系说明",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:20:32.049Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6755,
+    "contentLength": 4227,
+    "processingTimeMs": 37262
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_actor-owner-and-owning-connection-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_actor-owner-and-owning-connection-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Actor",
+      "predicate": "拥有",
+      "object": "Pawn",
+      "context": "玩家控制器拥有Pawn，这是客户端在游戏中控制的实体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "具有",
+      "object": "所属连接",
+      "context": "Actor的所属连接是与Actor的所属玩家控制器关联的连接，用于确定哪个客户端有权做出更改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "所属连接",
+      "predicate": "用于",
+      "object": "Actor复制",
+      "context": "所属连接在Actor复制期间用于确定哪些连接获得Actor的更新",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "所属连接",
+      "predicate": "用于",
+      "object": "属性复制",
+      "context": "所属连接在属性复制期间用于确定哪些连接获得属性更新",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "所属连接",
+      "predicate": "用于",
+      "object": "RPC",
+      "context": "所属连接在RPC中用于确定要在哪些连接上执行RPC",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家控制器",
+      "predicate": "拥有",
+      "object": "Pawn",
+      "context": "玩家控制器拥有Pawn，这是客户端在游戏中控制的实体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家控制器",
+      "predicate": "关联",
+      "object": "所属连接",
+      "context": "玩家控制器的所属连接是与该玩家控制器关联的连接",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor组件",
+      "predicate": "属于",
+      "object": "Actor",
+      "context": "Actor组件通过遍历外部链找到所属Actor来确定所有权",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "bOnlyRelevantToOwner",
+      "predicate": "控制",
+      "object": "Actor相关性",
+      "context": "当bOnlyRelevantToOwner设置为true时，只有拥有该Actor的连接才会收到该Actor的属性更新",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor::GetOwner",
+      "predicate": "用于",
+      "object": "获取所有者",
+      "context": "调用AActor::GetOwner可以获取Actor的所有者",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UActorComponent::GetOwner",
+      "predicate": "用于",
+      "object": "获取所属Actor",
+      "context": "调用UActorComponent::GetOwner可以获取Actor组件的所属Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor::GetNetConnection",
+      "predicate": "用于",
+      "object": "获取所属连接",
+      "context": "调用AActor::GetNetConnection可以获取Actor的所属连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "服务器",
+      "predicate": "创建",
+      "object": "玩家控制器",
+      "context": "客户端连接到服务器时，将在所连接客户端的关联服务器上创建玩家控制器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "客户端",
+      "predicate": "连接",
+      "object": "服务器",
+      "context": "客户端连接到集中式服务器，形成客户端-服务器模型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物品栏中的物品",
+      "predicate": "拥有",
+      "object": "Pawn",
+      "context": "物品栏中的物品由可能拥有该Pawn的相同连接拥有",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:53:40.551Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6781,
+    "contentLength": 4371,
+    "processingTimeMs": 51707
+  }
+}

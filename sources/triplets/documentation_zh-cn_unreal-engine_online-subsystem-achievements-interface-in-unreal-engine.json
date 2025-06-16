@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_online-subsystem-achievements-interface-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_online-subsystem-achievements-interface-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "在线子系统",
+      "predicate": "提供",
+      "object": "成就接口",
+      "context": "在线子系统为开发者提供了成就接口，用于支持游戏中的成就系统功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "成就接口",
+      "predicate": "用于",
+      "object": "激励玩家",
+      "context": "成就接口的主要功能之一是激励玩家，通过提供奖励和挑战来增加游戏的可玩性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "成就接口",
+      "predicate": "用于",
+      "object": "增加重复游戏价值",
+      "context": "成就接口通过成就系统增加游戏的重复游玩价值，使玩家更愿意多次体验游戏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "成就数据",
+      "predicate": "包含",
+      "object": "特定玩家数据",
+      "context": "成就数据包含特定玩家的解锁或部分解锁成就的信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "成就数据",
+      "predicate": "包含",
+      "object": "通用数据",
+      "context": "成就数据还包含通用数据，如成就名称和图标，这些是所有玩家共用的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "QueryAchievements",
+      "predicate": "用于",
+      "object": "获取成就数据",
+      "context": "QueryAchievements函数用于异步请求成就数据，返回成就ID和玩家的完成百分比",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FOnQueryAchievementsCompleteDelegate",
+      "predicate": "处理",
+      "object": "成就数据请求结果",
+      "context": "FOnQueryAchievementsCompleteDelegate委托用于处理成就数据请求的结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetCachedAchievements",
+      "predicate": "返回",
+      "object": "成就ID数组",
+      "context": "GetCachedAchievements函数返回一个包含所有已知成就ID的数组，便于后续检查",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetCachedAchievement",
+      "predicate": "检查",
+      "object": "完成百分比",
+      "context": "GetCachedAchievement函数用于检查特定玩家在某个成就上的完成百分比",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetCachedAchievementDescription",
+      "predicate": "返回",
+      "object": "成就描述",
+      "context": "GetCachedAchievementDescription函数返回完整的成就描述，类型为FOnlineAchievementDesc",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WriteAchievements",
+      "predicate": "发送",
+      "object": "成就更新",
+      "context": "WriteAchievements函数用于发送一个或多个成就更新到在线服务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FOnAchievementsWrittenDelegate",
+      "predicate": "处理",
+      "object": "成就写入结果",
+      "context": "FOnAchievementsWrittenDelegate委托用于处理成就写入操作的结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FOnlineAchievementsWrite",
+      "predicate": "包装",
+      "object": "FOnlineStats",
+      "context": "FOnlineAchievementsWrite是FOnlineStats对象的包装，用于成就更新",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ResetAchievements",
+      "predicate": "重置",
+      "object": "玩家成就",
+      "context": "ResetAchievements函数用于在开发和测试中重置当前游戏中所有玩家的成就",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "成就系统",
+      "predicate": "依赖",
+      "object": "在线服务后台",
+      "context": "成就系统的创建、删除或修改功能依赖于在线服务的后台系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "成就接口",
+      "predicate": "不处理",
+      "object": "成就管理",
+      "context": "成就接口不负责处理成就的创建、删除或修改，这些功能由在线服务的后台系统处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:09:28.679Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5769,
+    "contentLength": 3559,
+    "processingTimeMs": 49319
+  }
+}

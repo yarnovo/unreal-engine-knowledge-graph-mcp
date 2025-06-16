@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-datasmith-with-solidworks-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-datasmith-with-solidworks-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Datasmith",
+      "predicate": "支持",
+      "object": "Solidworks",
+      "context": "Datasmith提供了与Solidworks的集成功能，允许用户将Solidworks内容导入到虚幻引擎中",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Solidworks导出器插件",
+      "predicate": "用于",
+      "object": "将Solidworks内容导出为.udatasmith文件",
+      "context": "插件是连接Solidworks和虚幻引擎的关键工具，使数据转换成为可能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith Direct Link",
+      "predicate": "实现",
+      "object": "实时预览Solidworks场景更改",
+      "context": "该功能允许开发者在Solidworks中修改场景时，虚幻引擎中的预览会同步更新",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Solidworks子组件",
+      "predicate": "转换为",
+      "object": "虚幻引擎中的Actor",
+      "context": "了解这种转换关系有助于开发者理解如何在虚幻引擎中操作导入的Solidworks组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Solidworks部件",
+      "predicate": "转换为",
+      "object": "虚幻引擎中的静态网格体",
+      "context": "这是数据转换的核心环节，理解这种映射关系对资产管理至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Solidworks配置",
+      "predicate": "转换为",
+      "object": "虚幻引擎中的变体",
+      "context": "了解这种转换关系有助于在虚幻引擎中管理不同的设计配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "完全解析模式",
+      "predicate": "确保",
+      "object": "通过Datasmith传输最多的信息",
+      "context": "这种加载模式对数据完整性很重要，开发者应该了解其优势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "不支持",
+      "object": "Solidworks动画",
+      "context": "了解这些限制可以帮助开发者规划工作流程和预期结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "不支持",
+      "object": "Solidworks光源",
+      "context": "了解这些限制可以帮助开发者规划工作流程和预期结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "不支持",
+      "object": "Solidworks摄像机",
+      "context": "了解这些限制可以帮助开发者规划工作流程和预期结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Dataprep",
+      "predicate": "用于",
+      "object": "导入过程中对Solidworks数据执行清理和修改",
+      "context": "这是高级工作流程的一部分，开发者应该了解这个工具的存在和用途",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Solidworks材质",
+      "predicate": "影响",
+      "object": "虚幻引擎中静态网格体的UV烘焙",
+      "context": "理解这种关系有助于开发者处理材质和UV相关的技术问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Solidworks显示状态",
+      "predicate": "可能创建",
+      "object": "虚幻引擎中的关卡变体集资产",
+      "context": "了解这种转换关系有助于在虚幻引擎中管理不同的显示状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Solidworks导出器插件",
+      "predicate": "需要",
+      "object": "与虚幻引擎版本兼容",
+      "context": "这是安装和使用插件的前提条件，开发者必须注意版本匹配",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Solidworks导出器插件",
+      "predicate": "提供",
+      "object": "Datasmith功能访问",
+      "context": "插件是使用Datasmith与Solidworks集成的必要组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:16:39.138Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9832,
+    "contentLength": 6954,
+    "processingTimeMs": 44011
+  }
+}

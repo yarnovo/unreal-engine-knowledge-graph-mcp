@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_audio-modulation-reference-guide-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_audio-modulation-reference-guide-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "音频调制插件",
+      "predicate": "包含",
+      "object": "调制参数",
+      "context": "调制参数是音频调制插件中的核心资产类型之一，用于规格化、显示和混合调制值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频调制插件",
+      "predicate": "包含",
+      "object": "控制总线",
+      "context": "控制总线是音频调制插件中的连接器资产，用于引用调制参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频调制插件",
+      "predicate": "包含",
+      "object": "控制总线混音",
+      "context": "控制总线混音是音频调制插件中的调制器资产，用于同时影响多个控制总线值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频调制插件",
+      "predicate": "包含",
+      "object": "参数预设配置",
+      "context": "参数预设配置是音频调制插件中的连接器型调制器，用于重新映射控制总线值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频调制插件",
+      "predicate": "包含",
+      "object": "调制发生器",
+      "context": "调制发生器是音频调制插件中的连接器型调制器，用于随时间推移产生值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制总线",
+      "predicate": "引用",
+      "object": "调制参数",
+      "context": "控制总线通过参数属性引用特定的调制参数，建立调制通道的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制总线混音",
+      "predicate": "应用于",
+      "object": "控制总线",
+      "context": "控制总线混音通过混音级数组引用并调制多个控制总线的值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "参数预设配置",
+      "predicate": "变换",
+      "object": "控制总线值",
+      "context": "参数预设配置将多个控制总线值通过曲线变换为单一输出值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调制发生器",
+      "predicate": "驱动",
+      "object": "控制总线",
+      "context": "调制发生器可以附加到控制总线的发生器属性，以算法方式驱动总线值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调制目标",
+      "predicate": "连接",
+      "object": "控制总线",
+      "context": "调制目标通过连接器数组接收控制总线的调制值，影响音频对象的参数",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调制目标",
+      "predicate": "连接",
+      "object": "调制发生器",
+      "context": "调制目标可以直接连接调制发生器，接收其生成的值",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调制目标",
+      "predicate": "连接",
+      "object": "参数预设配置",
+      "context": "调制目标可以连接参数预设配置，接收经过重新映射的值",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USoundModulationParameter",
+      "predicate": "继承自",
+      "object": "UObject",
+      "context": "自定义调制参数类需要继承USoundModulationParameter基类，这是学习创建自定义参数的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USoundModulationGenerator",
+      "predicate": "继承自",
+      "object": "SoundModulatorBase",
+      "context": "自定义调制发生器需要继承USoundModulationGenerator类，这是学习创建自定义发生器的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSound",
+      "predicate": "集成",
+      "object": "音频调制插件",
+      "context": "音频调制插件提供专门的MetaSound节点用于获取和混合调制值",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图API",
+      "predicate": "控制",
+      "object": "音频调制系统",
+      "context": "蓝图API提供动态创建和控制调制通道的功能，是实际开发中的主要接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调制参数",
+      "predicate": "决定",
+      "object": "混音函数",
+      "context": "调制参数类型决定了值混合的方式（如音量累加、滤波器频率选择等），这是理解调制效果的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制总线混音",
+      "predicate": "支持",
+      "object": "实时调整",
+      "context": "控制总线混音的配置文件功能支持在PIE模式下实时调整和测试混音，对学习音频设计很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调制目标",
+      "predicate": "支持",
+      "object": "继承路由",
+      "context": "调制目标的路由选项支持继承机制，这是构建层次化音频系统的关键概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频调制插件",
+      "predicate": "依赖",
+      "object": "音频渲染线程",
+      "context": "音频调制在音频渲染线程上运行，理解这一点对处理性能问题和线程安全很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:09:10.691Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13937 字符)",
+      "timestamp": "2025-06-15T18:08:01.070Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 23257,
+    "contentLength": 13937,
+    "processingTimeMs": 69631
+  }
+}

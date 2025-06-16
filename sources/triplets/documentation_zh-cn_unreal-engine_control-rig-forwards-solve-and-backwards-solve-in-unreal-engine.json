@@ -1,0 +1,123 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_control-rig-forwards-solve-and-backwards-solve-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_control-rig-forwards-solve-and-backwards-solve-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "控制绑定",
+      "predicate": "包含",
+      "object": "解算方向",
+      "context": "控制绑定通过不同的解算方向（如前向解算和后向解算）来实现不同的功能，帮助学习者理解控制绑定的核心工作机制。",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "前向解算",
+      "predicate": "用于",
+      "object": "驱动骨架",
+      "context": "前向解算通过控制点、变量等元素驱动骨架，是控制绑定的主要解算方向，帮助学习者理解动画生成的基本流程。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后向解算",
+      "predicate": "用于",
+      "object": "烘焙动画",
+      "context": "后向解算将动画序列中的动画烘焙到控制点，是前向解算的反向操作，帮助学习者理解动画数据的逆向处理。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "前向解算",
+      "predicate": "反向操作",
+      "object": "后向解算",
+      "context": "后向解算是前向解算的反向操作，两者共同构成了控制绑定的完整解算流程，帮助学习者理解双向数据处理的概念。",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "构造事件",
+      "predicate": "用于",
+      "object": "初始化绑定元素",
+      "context": "构造事件用于初始化变量和控制点的初始位置，类似于蓝图的构造脚本，帮助学习者理解绑定的初始化过程。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "构造事件",
+      "predicate": "生成",
+      "object": "绑定元素",
+      "context": "构造事件可以动态生成控制点、骨骼和Null元素，帮助学习者理解程序化绑定的实现方式。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后向和前向",
+      "predicate": "模拟",
+      "object": "烘焙过程",
+      "context": "后向和前向模式模拟了动画烘焙到控制点的完整流程，帮助学习者调试和理解烘焙行为。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定编辑器",
+      "predicate": "支持",
+      "object": "解算方向预览",
+      "context": "控制绑定编辑器允许预览不同的解算方向（如前向、后向、构造事件），帮助学习者直观理解不同解算方向的效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "用于",
+      "object": "动画烘焙",
+      "context": "Sequencer提供了将动画烘焙到控制绑定的功能，帮助学习者掌握动画数据的后期处理技术。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绑定图表",
+      "predicate": "包含",
+      "object": "解算节点",
+      "context": "绑定图表中的解算节点（如前向解算、后向解算）定义了绑定的逻辑流程，帮助学习者理解绑定的执行顺序。",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定",
+      "predicate": "依赖",
+      "object": "绑定图表",
+      "context": "控制绑定的功能实现依赖于绑定图表中的逻辑定义，帮助学习者理解绑定的核心架构。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画序列",
+      "predicate": "可导入",
+      "object": "控制绑定",
+      "context": "动画序列可以直接导入为控制绑定的关键帧，帮助学习者快速复用现有动画数据。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定",
+      "predicate": "支持",
+      "object": "绑定共享",
+      "context": "通过构造事件定义初始偏移，控制绑定支持绑定共享，帮助学习者理解绑定的复用机制。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:33:14.009Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13160 字符)",
+      "timestamp": "2025-06-15T18:32:19.019Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19192,
+    "contentLength": 13160,
+    "processingTimeMs": 55000
+  }
+}

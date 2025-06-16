@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_android-development-requirements-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_android-development-requirements-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎5.6",
+      "predicate": "需要",
+      "object": "Android SDK 34",
+      "context": "为了在Google Play商店发布新应用程序，必须使用虚幻引擎5.6并支持目标SDK 34",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎5.6",
+      "predicate": "支持",
+      "object": "16KB内存页面大小",
+      "context": "虚幻引擎5.6新增支持16KB内存页面大小，这是其版本特性之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android开发",
+      "predicate": "依赖",
+      "object": "Android Studio",
+      "context": "进行Android开发需要安装特定版本的Android Studio作为开发环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android开发",
+      "predicate": "需要",
+      "object": "Java运行时",
+      "context": "Android开发需要特定版本的Java运行时环境（如OpenJDK 21.0.3）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AGDE调试",
+      "predicate": "需要",
+      "object": "AGDE插件",
+      "context": "使用AGDE进行Android项目调试需要安装特定版本的AGDE插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android设备兼容性",
+      "predicate": "要求",
+      "object": "64位Arm CPU",
+      "context": "兼容的Android设备必须配备64位Arm架构的CPU",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android设备兼容性",
+      "predicate": "支持",
+      "object": "Vulkan 1.1",
+      "context": "部分Android设备支持Vulkan 1.1图形API，但需要Android 10及以上版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎5.6",
+      "predicate": "兼容",
+      "object": "Mali G7xx系列GPU",
+      "context": "虚幻引擎5.6支持Mali G7xx系列GPU作为兼容的图形处理器",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android开发",
+      "predicate": "使用",
+      "object": "NDK r25b",
+      "context": "Android开发需要使用特定版本的NDK（如r25b）进行本地代码编译",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Google Play商店",
+      "predicate": "要求",
+      "object": "API级别34",
+      "context": "自2024年8月31日起，Google Play商店要求应用程序必须针对Android 14（API级别34）进行适配",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:57:41.101Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4216,
+    "contentLength": 3155,
+    "processingTimeMs": 50261
+  }
+}

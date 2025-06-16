@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_traces-with-raycasts-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_traces-with-raycasts-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "追踪",
+      "predicate": "也称为",
+      "object": "光线投射",
+      "context": "文档中明确指出追踪也称为光线投射，帮助学习者理解这两个术语的等价关系",
+      "direction": "bidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "追踪",
+      "predicate": "用于",
+      "object": "命中判定",
+      "context": "追踪的主要功能是检测两点之间的几何体碰撞，实现游戏中的命中判定",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "追踪",
+      "predicate": "支持",
+      "object": "不同光线类型",
+      "context": "追踪可以指定使用直线、方块、胶囊体或球体等不同光线类型",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "追踪",
+      "predicate": "支持",
+      "object": "单次/多次命中检测",
+      "context": "追踪可以配置为检测单次命中或多次命中，满足不同游戏场景需求",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "追踪",
+      "predicate": "依赖",
+      "object": "碰撞设置",
+      "context": "按追踪通道运行追踪时，需要对象被设为响应特定的追踪通道，这通过Collision Settings进行配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "追踪",
+      "predicate": "应用于",
+      "object": "游戏玩法",
+      "context": "文档中提到的应用场景包括玩家视线检测和敌人AI检测，属于游戏玩法实现",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "追踪",
+      "predicate": "属于",
+      "object": "物理系统",
+      "context": "追踪涉及几何体碰撞检测，是物理系统的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "追踪概述",
+      "predicate": "扩展",
+      "object": "追踪",
+      "context": "追踪概述文档提供了虚幻引擎追踪系统的全面介绍，是学习追踪概念的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "追踪指南",
+      "predicate": "提供",
+      "object": "实践教程",
+      "context": "追踪指南包含与光线投射相关的实践教程，帮助学习者掌握具体实现方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "实现",
+      "object": "追踪",
+      "context": "文档提到可以通过蓝图实现射线命中判定，是可视化编程的重要应用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:02:51.124Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3049,
+    "contentLength": 2037,
+    "processingTimeMs": 29800
+  }
+}

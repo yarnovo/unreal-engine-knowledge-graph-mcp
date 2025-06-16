@@ -1,0 +1,147 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-navigation-invokers-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-navigation-invokers-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "寻路调用程序",
+      "predicate": "属于",
+      "object": "寻路系统",
+      "context": "寻路调用程序是虚幻引擎寻路系统的一个组件，用于在代理周围动态生成寻路网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路调用程序",
+      "predicate": "用于",
+      "object": "大型关卡",
+      "context": "寻路调用程序特别适合大型关卡，因为在编辑器中构建完整的寻路网格体不切实际",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路调用程序",
+      "predicate": "控制",
+      "object": "寻路网格体生成",
+      "context": "寻路调用程序可以控制在其周围生成和移除寻路网格体的范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路系统",
+      "predicate": "包含",
+      "object": "寻路网格体",
+      "context": "寻路系统使用寻路网格体来实现代理的导航功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "支持",
+      "object": "运行时生成",
+      "context": "寻路网格体支持多种运行时生成方法，包括寻路调用程序的本地生成方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路调用程序",
+      "predicate": "实现",
+      "object": "动态寻路",
+      "context": "通过寻路调用程序可以实现只在需要的地方动态生成寻路网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路调用程序",
+      "predicate": "配置于",
+      "object": "项目设置",
+      "context": "使用寻路调用程序需要在项目设置的寻路系统类别中进行配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体边界体积",
+      "predicate": "定义",
+      "object": "寻路生成区域",
+      "context": "寻路网格体边界体积定义了寻路网格体可以生成的区域范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI Move To节点",
+      "predicate": "依赖",
+      "object": "寻路网格体",
+      "context": "AI Move To节点需要寻路网格体来计算和实现代理的移动路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路调用程序",
+      "predicate": "关联",
+      "object": "蓝图Actor组件",
+      "context": "寻路调用程序是作为蓝图Actor组件实现的，可以添加到代理蓝图中",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第三人称模板",
+      "predicate": "适用于",
+      "object": "寻路调用程序学习",
+      "context": "使用第三人称模板项目是学习寻路调用程序的推荐起点",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "运行时生成设置",
+      "predicate": "影响",
+      "object": "寻路调用程序行为",
+      "context": "项目设置中的运行时生成选项会影响寻路调用程序的工作方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Tile Generation Radius",
+      "predicate": "控制",
+      "object": "寻路生成范围",
+      "context": "寻路调用程序的Tile Generation Radius参数控制着寻路网格体生成的半径范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Tile Removal Radius",
+      "predicate": "控制",
+      "object": "寻路移除范围",
+      "context": "寻路调用程序的Tile Removal Radius参数控制着不再需要的寻路网格体被移除的半径范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Random Reachable Point In Radius节点",
+      "predicate": "依赖",
+      "object": "寻路网格体",
+      "context": "该节点需要有效的寻路网格体才能计算出可达的随机位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路调用程序",
+      "predicate": "优化",
+      "object": "性能",
+      "context": "使用寻路调用程序可以优化性能，因为它只生成需要的寻路网格体",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:20:40.161Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10842 字符)",
+      "timestamp": "2025-06-15T21:19:54.792Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13920,
+    "contentLength": 10842,
+    "processingTimeMs": 45374
+  }
+}

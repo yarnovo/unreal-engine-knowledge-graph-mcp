@@ -1,0 +1,155 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_making-your-first-texture-graph-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_making-your-first-texture-graph-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Texture Graph Editor",
+      "predicate": "用于",
+      "object": "程序化创建纹理",
+      "context": "Texture Graph Editor是虚幻引擎中用于程序化创建纹理的节点式界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Texture Graph Editor",
+      "predicate": "属于",
+      "object": "实验性插件",
+      "context": "Texture Graph Editor是一个需要手动启用的实验性插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Texture Graph",
+      "predicate": "生成",
+      "object": "UV检查器图案",
+      "context": "本教程指导如何创建生成自定义UV检查器图案的纹理图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Shape节点",
+      "predicate": "包含",
+      "object": "矩形选项",
+      "context": "Shape节点提供多种形状选项，包括矩形，用于构建基础图案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Transform节点",
+      "predicate": "控制",
+      "object": "图案缩放和偏移",
+      "context": "Transform节点用于调整图案的覆盖范围和偏移位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Add节点",
+      "predicate": "组合",
+      "object": "多个形状",
+      "context": "Add节点用于将多个形状组合成更复杂的图案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CheckerBlock",
+      "predicate": "组成",
+      "object": "基础检查器图案",
+      "context": "通过组合Shape和Transform节点创建的基础检查器图案单元",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Invert节点",
+      "predicate": "生成",
+      "object": "线条遮罩",
+      "context": "Invert节点用于生成分割线的遮罩",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Scalar节点",
+      "predicate": "控制",
+      "object": "线条粗细和圆角",
+      "context": "Scalar节点提供参数化控制线条的粗细和圆角程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blend节点",
+      "predicate": "混合",
+      "object": "颜色和图案",
+      "context": "Blend节点用于将不同颜色与图案遮罩混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Output节点",
+      "predicate": "导出",
+      "object": "纹理贴图",
+      "context": "Output节点用于设置纹理属性并导出最终纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NormalFromHeightMap节点",
+      "predicate": "生成",
+      "object": "法线贴图",
+      "context": "将高度图转换为法线贴图的专用节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Texture Graph",
+      "predicate": "适用于",
+      "object": "材质创建",
+      "context": "创建的纹理可直接用于材质系统",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Pattern节点",
+      "predicate": "提供",
+      "object": "标准图案",
+      "context": "快速创建标准图案的替代方案",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Texture Graph Editor",
+      "predicate": "支持",
+      "object": "复杂纹理工作流",
+      "context": "从基础编辑到复杂纹理创建和打包的多种工作流",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Transform节点",
+      "predicate": "依赖",
+      "object": "Shape节点",
+      "context": "Transform节点通常处理Shape节点生成的几何图形",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Texture Graph",
+      "predicate": "扩展",
+      "object": "Blueprint功能",
+      "context": "纹理图可与Blueprint结合使用",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T19:49:26.798Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15638 字符)",
+      "timestamp": "2025-06-15T19:48:31.837Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15740,
+    "contentLength": 15638,
+    "processingTimeMs": 54971
+  }
+}

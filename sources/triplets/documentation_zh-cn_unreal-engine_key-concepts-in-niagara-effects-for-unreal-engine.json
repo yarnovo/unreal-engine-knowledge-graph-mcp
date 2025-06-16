@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_key-concepts-in-niagara-effects-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_key-concepts-in-niagara-effects-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Niagara",
+      "predicate": "替代",
+      "object": "Cascade",
+      "context": "Niagara是虚幻引擎新的VFX系统，旨在取代旧的Cascade系统，提供更强大的功能和灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara",
+      "predicate": "支持",
+      "object": "数据共享",
+      "context": "Niagara通过公开所有数据实现用户全面控制，允许使用虚幻引擎各部分及外部应用程序的数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara",
+      "predicate": "结合",
+      "object": "图表范式和堆栈范式",
+      "context": "Niagara结合了堆栈范式的模块化行为和图表范式的行为控制优势，形成混合结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块",
+      "predicate": "属于",
+      "object": "Niagara混合结构",
+      "context": "模块是Niagara混合结构的基础组成部分，可用于图表范式创建带HLSL的模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器",
+      "predicate": "包含",
+      "object": "模块",
+      "context": "发射器作为模块容器，可堆叠模块创建各种效果，是Niagara混合结构的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "系统",
+      "predicate": "包含",
+      "object": "发射器",
+      "context": "系统是发射器的容器，将发射器组合成一种效果，并可修改和覆盖参数、模块或发射器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara",
+      "predicate": "支持",
+      "object": "多种数据类型",
+      "context": "Niagara允许添加任何数据类型作为粒子参数，包括复杂结构体、变换矩阵或布尔标记",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子负载",
+      "predicate": "包含",
+      "object": "层级数据",
+      "context": "粒子负载通过命名空间容纳层级数据，如Emitter.Age包含发射器数据，Particle.Position包含粒子数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块",
+      "predicate": "分配到",
+      "object": "堆栈组",
+      "context": "模块被分配到特定的堆栈组（如系统、发射器或粒子组）以确定执行时间和处理的数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "堆栈组",
+      "predicate": "关联",
+      "object": "命名空间",
+      "context": "堆栈组关联特定的命名空间，定义该组中的模块可读取或写入的数据范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "系统组",
+      "predicate": "可读取",
+      "object": "系统、引擎、用户命名空间",
+      "context": "系统组中的模块可读写系统命名空间的参数，但只能读取引擎或用户命名空间中的参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器组",
+      "predicate": "可读取",
+      "object": "系统、发射器、引擎、用户命名空间",
+      "context": "发射器组中的模块可读写发射器命名空间中的参数，但只能读取系统、引擎和用户命名空间中的参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子组",
+      "predicate": "可读取",
+      "object": "系统、发射器、粒子、引擎、用户命名空间",
+      "context": "粒子组中的模块只能读取系统和发射器命名空间的参数，但可读写粒子命名空间的参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara",
+      "predicate": "支持",
+      "object": "高级阶段",
+      "context": "Niagara支持高级阶段如事件和模拟阶段，用于构建复杂结构如流体模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块",
+      "predicate": "不同于",
+      "object": "项目",
+      "context": "模块是用户可创建的可编辑资源，而项目指的是系统或发射器中用户无法创建的部分",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara",
+      "predicate": "适用于",
+      "object": "非游戏领域",
+      "context": "Niagara设计考虑了非游戏领域如建筑视觉表现、工业设计和虚拟影视制作的需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:38:27.684Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9714,
+    "contentLength": 5780,
+    "processingTimeMs": 55137
+  }
+}

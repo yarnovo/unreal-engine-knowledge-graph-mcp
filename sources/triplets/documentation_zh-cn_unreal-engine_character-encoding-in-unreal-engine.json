@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_character-encoding-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_character-encoding-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "ASCII",
+      "predicate": "是",
+      "object": "UTF-8的子集",
+      "context": "UTF-8是ASCII的超集，纯ASCII字符串是完全有效的UTF-8字符串",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UTF-8",
+      "predicate": "支持",
+      "object": "非ANSI字符",
+      "context": "UTF-8可以使用特殊字符序列来表示非ANSI字符",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UTF-16",
+      "predicate": "使用",
+      "object": "BOM",
+      "context": "UTF-16字符串通常包含字节顺序标记(BOM)来标识字节序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "使用",
+      "object": "UTF-16",
+      "context": "虚幻引擎内部使用UTF-16格式存储字符串",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FString",
+      "predicate": "基于",
+      "object": "UTF-16",
+      "context": "虚幻引擎中的FString类使用UTF-16编码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TCHAR",
+      "predicate": "基于",
+      "object": "UTF-16",
+      "context": "TCHAR数组在虚幻引擎中使用UTF-16格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "appLoadFileToString",
+      "predicate": "用于",
+      "object": "加载外部文本文件",
+      "context": "虚幻引擎使用此函数加载外部文本文件如.INT文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "appBufferToString",
+      "predicate": "实现",
+      "object": "文本文件解码",
+      "context": "此函数负责处理文本文件的解码逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "INT文件",
+      "predicate": "建议使用",
+      "object": "UTF-16",
+      "context": "INT文件建议使用UTF-16编码以确保跨平台兼容性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "INI文件",
+      "predicate": "建议使用",
+      "object": "UTF-16",
+      "context": "INI文件建议使用UTF-16编码以确保跨平台兼容性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C++源代码",
+      "predicate": "建议避免使用",
+      "object": "字符串文字",
+      "context": "建议将字符串数据存储在INT文件中而非源代码中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TCHAR_TO_ANSI",
+      "predicate": "用于",
+      "object": "编码转换",
+      "context": "此宏用于将TCHAR字符串转换为ANSI编码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UTF8_TO_TCHAR",
+      "predicate": "用于",
+      "object": "编码转换",
+      "context": "此宏用于将UTF-8字符串转换为TCHAR",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Perforce",
+      "predicate": "支持",
+      "object": "UTF-16",
+      "context": "Perforce可以处理UTF-16文本文件，但需要正确配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ASCII",
+      "predicate": "限制",
+      "object": "字符集",
+      "context": "ASCII仅支持有限的字符集(32-126)",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UTF-8",
+      "predicate": "优于",
+      "object": "ANSI",
+      "context": "UTF-8支持更广泛的字符集且是ASCII的超集",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UTF-16",
+      "predicate": "优于",
+      "object": "UTF-8",
+      "context": "在虚幻引擎中，UTF-16是内部表示格式，转换效率更高",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "限制",
+      "object": "字符处理",
+      "context": "当前主要支持基本多文种平面(BMP)字符",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "东亚编码",
+      "predicate": "需要特殊处理",
+      "object": "C++源代码",
+      "context": "东亚编码在C++源代码中可能导致编译问题，需要特别注意",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "appSaveStringToFile",
+      "predicate": "用于",
+      "object": "保存文本文件",
+      "context": "虚幻引擎使用此函数保存生成的文本文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:21:52.713Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10714 字符)",
+      "timestamp": "2025-06-15T18:20:47.150Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 18396,
+    "contentLength": 10714,
+    "processingTimeMs": 65569
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_smpte-2110-media-io-workflows-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_smpte-2110-media-io-workflows-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "SMPTE 2110媒体IO工作流程",
+      "predicate": "基于",
+      "object": "媒体IO框架",
+      "context": "文档明确指出Rivermax-SMPTE 2110视频流送的支持建立在媒体IO框架之上，理解这一基础关系有助于学习者掌握技术架构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SMPTE 2110媒体IO工作流程",
+      "predicate": "使用",
+      "object": "NVIDIA Rivermax",
+      "context": "文档说明该工作流程需要NVIDIA Rivermax实现本地网络流送，这是核心技术依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Rivermax媒体输出",
+      "predicate": "生成",
+      "object": "SMPTE 2110组播流",
+      "context": "Rivermax媒体输出资产用于配置和生成符合SMPTE 2110标准的组播流，这是核心功能关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Rivermax媒体源",
+      "predicate": "接收",
+      "object": "SMPTE 2110组播流",
+      "context": "Rivermax媒体源资产专门用于接收其他实例发送的2110流送，与输出功能形成完整工作流",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体捕获面板",
+      "predicate": "控制",
+      "object": "Rivermax媒体输出",
+      "context": "通过媒体捕获面板可以启动/管理Rivermax媒体输出资产的流送过程，这是重要的操作界面关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "对齐模式配置",
+      "predicate": "影响",
+      "object": "流输出稳定性",
+      "context": "对齐点模式和连续输出选项的配置直接影响流送的时序稳定性，这是关键参数设置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "帧锁定设置",
+      "predicate": "决定",
+      "object": "引擎帧率",
+      "context": "使用'在预留时阻止'设置会使引擎以固定帧率(如30FPS)运行，这是性能调优的重要知识",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "SMPTE 2110流送",
+      "predicate": "替代",
+      "object": "SDI视频流送",
+      "context": "文档提到可以像使用SDI视频流送一样使用2110流送，说明这是新一代替代方案",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "网络接口配置",
+      "predicate": "匹配",
+      "object": "流送参数",
+      "context": "输出端和接收端的网络接口配置必须相互匹配才能成功传输，这是网络调优的关键点",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Windows任务管理器",
+      "predicate": "监控",
+      "object": "网络带宽占用",
+      "context": "文档多次提到使用任务管理器验证流送带宽，这是重要的性能监控手段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟制片菜单",
+      "predicate": "包含",
+      "object": "媒体捕获面板",
+      "context": "媒体捕获面板需要通过虚拟制片菜单访问，这是UI层级关系",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "创建",
+      "object": "Rivermax媒体资产",
+      "context": "所有Rivermax媒体输出/源资产都需要通过内容浏览器创建，这是基础操作知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:50:40.188Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5933,
+    "contentLength": 3879,
+    "processingTimeMs": 41808
+  }
+}

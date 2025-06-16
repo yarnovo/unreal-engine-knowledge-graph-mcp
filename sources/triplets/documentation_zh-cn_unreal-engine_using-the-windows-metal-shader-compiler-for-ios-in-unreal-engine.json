@@ -1,0 +1,85 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-the-windows-metal-shader-compiler-for-ios-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-the-windows-metal-shader-compiler-for-ios-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Windows Metal Shader编译器",
+      "predicate": "用于",
+      "object": "虚幻引擎iOS项目",
+      "context": "Windows Metal Shader编译器可以在Windows机器上为Apple的Metal API编译着色器，简化iOS应用程序的工作流",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Metal Developer Tools for Windows",
+      "predicate": "支持",
+      "object": "Windows Metal Shader编译器",
+      "context": "安装Metal Developer Tools for Windows后，虚幻引擎将自动使用它来编译Metal着色器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Apple开发者账户",
+      "predicate": "用于下载",
+      "object": "Metal Developer Tools for Windows",
+      "context": "需要登录Apple开发者账户才能下载Metal Developer Tools for Windows",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Windows Metal Shader编译器",
+      "predicate": "支持",
+      "object": "Metal 2.0",
+      "context": "安装Metal Developer Tools for Windows后，Windows版虚幻引擎将能够为Metal 2.0编译着色器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Windows Metal Shader编译器",
+      "predicate": "不兼容",
+      "object": "UE 5.1至UE 5.4",
+      "context": "Windows Metal Shader编译器目前在UE 5.1至UE 5.4版本中无法工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Metal API",
+      "predicate": "用于",
+      "object": "iOS应用程序",
+      "context": "Metal API是Apple的图形API，用于iOS应用程序的图形渲染",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Metal Shader编译器",
+      "predicate": "生成",
+      "object": "着色器",
+      "context": "Metal Shader编译器的主要功能是生成用于图形渲染的着色器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "iOS平台开发",
+      "context": "虚幻引擎可以在Windows机器上为iOS平台编译着色器，支持iOS应用程序的开发",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Metal Developer Tools for Windows",
+      "predicate": "包含",
+      "object": "Metal Shader编译器",
+      "context": "Metal Developer Tools for Windows工具集中包含了Metal Shader编译器",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:26:29.597Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3484,
+    "contentLength": 2802,
+    "processingTimeMs": 26845
+  }
+}

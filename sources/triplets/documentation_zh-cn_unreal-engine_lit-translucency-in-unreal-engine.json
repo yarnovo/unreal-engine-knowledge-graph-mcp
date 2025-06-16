@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_lit-translucency-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_lit-translucency-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "光照半透明",
+      "predicate": "包含",
+      "object": "体积效果",
+      "context": "光照半透明技术包含体积效果的处理方法，帮助学习者理解不同类型半透明的分类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光照半透明",
+      "predicate": "包含",
+      "object": "半透明表面",
+      "context": "光照半透明技术也包含对表面类半透明的处理，扩展学习者对不同半透明类型的认识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积效果",
+      "predicate": "支持",
+      "object": "投射阴影和自身阴影",
+      "context": "体积效果支持阴影投射功能，帮助学习者理解半透明物体的阴影实现机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积效果",
+      "predicate": "支持",
+      "object": "静态阴影",
+      "context": "体积效果支持从静止光源获得静态阴影，帮助学习者了解光照构建时的阴影处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "半透明表面",
+      "predicate": "支持",
+      "object": "反射采集",
+      "context": "半透明表面支持基于图像的反射采集，帮助学习者理解半透明材质的高光处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "半透明表面",
+      "predicate": "支持",
+      "object": "逐像素半透明光照",
+      "context": "半透明表面支持前向着色功能，帮助学习者掌握高质量半透明渲染技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "半透明表面",
+      "predicate": "支持",
+      "object": "薄半透明",
+      "context": "半透明表面支持薄半透明着色模型，帮助学习者实现物理准确的透明材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光照半透明",
+      "predicate": "依赖",
+      "object": "间接光照缓存",
+      "context": "光照半透明依赖间接光照缓存接收漫射GI，帮助学习者理解全局光照在半透明材质中的应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "投射阴影和自身阴影",
+      "predicate": "实现",
+      "object": "傅里叶不透明度贴图",
+      "context": "半透明阴影投射通过傅里叶不透明度贴图实现，帮助学习者掌握半透明阴影的技术原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态阴影",
+      "predicate": "依赖",
+      "object": "Lightmass",
+      "context": "静态阴影依赖Lightmass生成特殊静态阴影深度贴图，帮助学习者理解光照构建过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "逐像素半透明光照",
+      "predicate": "需要",
+      "object": "屏幕空间反射",
+      "context": "逐像素半透明光照需要启用屏幕空间反射，帮助学习者掌握高质量半透明渲染的设置要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "薄半透明",
+      "predicate": "使用",
+      "object": "薄半透明材质输出表达式",
+      "context": "薄半透明着色模型需要使用专门的材质输出表达式，帮助学习者正确配置透明材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光照半透明",
+      "predicate": "受限于",
+      "object": "体积纹理分辨率",
+      "context": "光照半透明效果受限于体积纹理的分辨率，帮助学习者理解技术限制和优化方向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光照半透明",
+      "predicate": "受限于",
+      "object": "直接高光度缺失",
+      "context": "光照半透明表面缺少直接高光度，帮助学习者了解当前技术限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "半透明材质",
+      "predicate": "指定",
+      "object": "半透明光照模式",
+      "context": "半透明材质需要指定光照模式，帮助学习者理解材质配置与渲染效果的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光照半透明",
+      "predicate": "使用",
+      "object": "级联体积纹理",
+      "context": "光照半透明使用级联体积纹理获取光照信息，帮助学习者理解核心技术实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "级联体积纹理",
+      "predicate": "受控于",
+      "object": "Cvar配置",
+      "context": "级联体积纹理的参数通过Cvar配置，帮助学习者掌握性能优化方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光照半透明",
+      "predicate": "接收",
+      "object": "可移动光源直接光照",
+      "context": "光照半透明接收所有可移动光源的直接光照，帮助学习者理解光源交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光照半透明",
+      "predicate": "考虑",
+      "object": "光源函数",
+      "context": "光照半透明会考虑光源函数，帮助学习者了解高级光照特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "薄半透明",
+      "predicate": "提供",
+      "object": "物理准确的透明效果",
+      "context": "薄半透明着色模型提供物理准确的透明效果，帮助学习者实现高质量材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:45:40.776Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8844,
+    "contentLength": 5484,
+    "processingTimeMs": 61122
+  }
+}

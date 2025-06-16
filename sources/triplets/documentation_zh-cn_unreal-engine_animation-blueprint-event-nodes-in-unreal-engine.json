@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-blueprint-event-nodes-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-blueprint-event-nodes-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "事件图表",
+      "context": "动画蓝图中的事件图表用于放置事件节点，是动画逻辑的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件图表",
+      "predicate": "包含",
+      "object": "事件节点",
+      "context": "事件图表中的事件节点是动画逻辑的起始或激活点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件节点",
+      "predicate": "激活",
+      "object": "动画逻辑",
+      "context": "事件节点在特定条件下激活连接的动画逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图开始播放",
+      "predicate": "属于",
+      "object": "动画时间节点类型",
+      "context": "蓝图开始播放是动画时间节点类型的一种，用于在组件播放时激活逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图初始化动画",
+      "predicate": "属于",
+      "object": "动画时间节点类型",
+      "context": "蓝图初始化动画是动画时间节点类型的一种，用于在动画蓝图首次构建时激活逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图更新动画",
+      "predicate": "属于",
+      "object": "动画时间节点类型",
+      "context": "蓝图更新动画是动画时间节点类型的一种，用于每帧更新动画逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入",
+      "predicate": "属于",
+      "object": "高级动画事件节点类型",
+      "context": "输入是高级动画事件节点类型的一种，用于根据玩家输入激活动画逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入动作",
+      "predicate": "属于",
+      "object": "高级动画事件节点类型",
+      "context": "输入动作是高级动画事件节点类型的一种，用于根据预定义的输入动作激活动画逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画通知",
+      "predicate": "属于",
+      "object": "高级动画事件节点类型",
+      "context": "动画通知是高级动画事件节点类型的一种，用于在动画通知触发时激活动画逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义事件",
+      "predicate": "属于",
+      "object": "高级动画事件节点类型",
+      "context": "自定义事件是高级动画事件节点类型的一种，用于定义自定义参数激活动画逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图更新动画",
+      "predicate": "提供",
+      "object": "DeltaTimeX",
+      "context": "蓝图更新动画节点提供DeltaTimeX输出引脚，用于获取上一次更新的时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入",
+      "predicate": "依赖",
+      "object": "玩家输入",
+      "context": "输入事件节点依赖玩家输入来激活连接的动画逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入动作",
+      "predicate": "依赖",
+      "object": "输入动作系统",
+      "context": "输入动作事件节点依赖项目中定义的输入动作系统来激活动画逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画通知",
+      "predicate": "依赖",
+      "object": "动画通知系统",
+      "context": "动画通知事件节点依赖动画通知系统在动画序列中触发时激活逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件节点",
+      "predicate": "连接",
+      "object": "函数",
+      "context": "事件节点可以连接多个函数来执行动画逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件图表",
+      "predicate": "限制",
+      "object": "同类型事件节点数量",
+      "context": "事件图表中只能包含一个同类型的事件节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:58:55.397Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8367,
+    "contentLength": 5589,
+    "processingTimeMs": 53974
+  }
+}

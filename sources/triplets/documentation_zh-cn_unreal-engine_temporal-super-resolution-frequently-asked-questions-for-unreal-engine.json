@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_temporal-super-resolution-frequently-asked-questions-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_temporal-super-resolution-frequently-asked-questions-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "TSR",
+      "predicate": "属于",
+      "object": "虚幻引擎",
+      "context": "TSR是虚幻引擎内置的时间分辨率修改器/超分辨率技术",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "TSR",
+      "predicate": "替代",
+      "object": "TAA",
+      "context": "TSR是虚幻引擎5中的默认方法，替代了上一代游戏主机的TAA技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSR",
+      "predicate": "支持",
+      "object": "动态渲染分辨率",
+      "context": "TSR支持游戏主机平台的动态渲染分辨率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSR",
+      "predicate": "依赖",
+      "object": "GPU显存",
+      "context": "TSR需要分配持久GPU资源，显存不足会影响性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSR",
+      "predicate": "包含",
+      "object": "Nyquist-Shannon历史记录",
+      "context": "TSR使用Nyquist-Shannon历史记录来累积细节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSR",
+      "predicate": "支持",
+      "object": "第三方时间分辨率修改器",
+      "context": "项目可以使用第三方时间分辨率修改器替代TSR",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSR",
+      "predicate": "处理",
+      "object": "半透明度",
+      "context": "TSR有专门处理半透明材质的机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSR",
+      "predicate": "使用",
+      "object": "后期处理材质",
+      "context": "TSR可以与后期处理材质配合使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSR",
+      "predicate": "分析",
+      "object": "闪烁时间",
+      "context": "TSR会分析图像中的闪烁瑕疵并尝试稳定图像",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSR",
+      "predicate": "实现",
+      "object": "历史记录恢复",
+      "context": "TSR可以从历史记录中恢复帧以稳定图像",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSR",
+      "predicate": "支持",
+      "object": "屏幕百分比调整",
+      "context": "TSR支持25%至200%范围内的屏幕百分比调整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSR",
+      "predicate": "影响",
+      "object": "GPU开销",
+      "context": "TSR会增加GPU开销，特别是在高分辨率下",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSR",
+      "predicate": "可以配合",
+      "object": "帧插值技术",
+      "context": "TSR可以与第三方帧插值/帧生成技术配合使用",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSR",
+      "predicate": "用于",
+      "object": "抗锯齿",
+      "context": "TSR是虚幻引擎5中的默认抗锯齿方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSR",
+      "predicate": "基于",
+      "object": "时间分辨率修改",
+      "context": "TSR是基于时间分辨率修改的技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSR",
+      "predicate": "支持",
+      "object": "R11G11B10格式",
+      "context": "TSR支持使用R11G11B10格式以节省内存带宽",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSR",
+      "predicate": "可以生成",
+      "object": "8K纹理",
+      "context": "在4K显示器上以超高抗锯齿伸缩性运行TSR可以生成8K纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSR",
+      "predicate": "使用",
+      "object": "Texture2DArray",
+      "context": "从虚幻引擎5.4开始，TSR历史记录使用Texture2DArray构成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSR",
+      "predicate": "影响",
+      "object": "历史收敛率",
+      "context": "帧插值技术会影响TSR的历史收敛率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSR",
+      "predicate": "可以调整",
+      "object": "抗锯齿伸缩性",
+      "context": "TSR提供低、中、高、超高和电影级伸缩性组用于调整画质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:58:55.880Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (16618 字符)",
+      "timestamp": "2025-06-15T20:58:02.743Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 32398,
+    "contentLength": 16618,
+    "processingTimeMs": 53142
+  }
+}

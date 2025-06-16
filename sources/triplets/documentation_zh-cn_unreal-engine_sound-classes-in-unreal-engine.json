@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_sound-classes-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_sound-classes-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "音效类",
+      "predicate": "属于",
+      "object": "虚幻引擎音频引擎",
+      "context": "音效类是虚幻引擎音频引擎中的一种资产类型，用于分组和管理声音",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效类",
+      "predicate": "包含",
+      "object": "一般属性",
+      "context": "音效类包含一组一般属性，如音量、音高、低通滤波器频率等，用于控制音效的基本参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效类",
+      "predicate": "支持",
+      "object": "子类",
+      "context": "音效类可以设置子类，子类可以继承父类的特性，如音高、音量和加载行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效类",
+      "predicate": "关联",
+      "object": "音效类混音",
+      "context": "音效类可以附加音效类混音，这些混音可以在播放音效时自动触发，用于动态调整音效参数",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效类混音",
+      "predicate": "用于",
+      "object": "被动混音修正器",
+      "context": "音效类混音可以作为被动混音修正器，在播放音效时自动触发，无需手动激活",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效类",
+      "predicate": "控制",
+      "object": "路由设置",
+      "context": "音效类通过路由设置控制音频如何通过定向信道进行路由，并考虑环绕音设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效类",
+      "predicate": "关联",
+      "object": "子混音",
+      "context": "音效类中的音效可以发送至子混音，使用子混音效果同时处理多种音效类型",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效类",
+      "predicate": "支持",
+      "object": "调制插件",
+      "context": "如果安装了调制插件，可以将一组调制设置添加到音效类中的所有音效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效类",
+      "predicate": "控制",
+      "object": "加载行为",
+      "context": "音效类可以控制如何加载压缩的音频数据，如继承、加载时保留、按需加载等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效类",
+      "predicate": "继承",
+      "object": "父音效类",
+      "context": "子音效类可以从父音效类继承各种特性，如音高、音量和加载行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效类",
+      "predicate": "关联",
+      "object": "音频混合器",
+      "context": "音效类中的部分设置仅在禁用音频混合器时可用，音频混合器是虚幻音频引擎的一部分",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "音效类",
+      "predicate": "用于",
+      "object": "音效设计",
+      "context": "音效类用于音效设计，可以通过设置参数和混音修正器实现复杂的行为和音效效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "音效类",
+      "predicate": "关联",
+      "object": "内容浏览器",
+      "context": "音效类可以在内容浏览器中创建和管理，通过右键菜单选择音效类选项",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "音效类",
+      "predicate": "关联",
+      "object": "细节面板",
+      "context": "音效类的详细参数可以在细节面板中查看和编辑，通过双击音效类打开",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "音效类",
+      "predicate": "关联",
+      "object": "声波对象",
+      "context": "音效类中的音效参数（如音量、音高）在声波对象自身的设置上起作用",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:50:45.883Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10423,
+    "contentLength": 6603,
+    "processingTimeMs": 47503
+  }
+}

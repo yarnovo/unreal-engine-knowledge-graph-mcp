@@ -1,0 +1,149 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_level-streaming-overview-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_level-streaming-overview-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "关卡流送",
+      "predicate": "用于",
+      "object": "创建大型无缝游戏场景",
+      "context": "关卡流送功能允许开发者将场景拆分为较小的地图块，动态加载和卸载，从而创建大型无缝的游戏世界",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "持久关卡",
+      "predicate": "管理",
+      "object": "流送关卡",
+      "context": "持久关卡作为主关卡，负责管理其他流送关卡的加载和卸载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流送关卡",
+      "predicate": "包含",
+      "object": "Always Loaded类型",
+      "context": "流送关卡可以设置为Always Loaded类型，这种类型会与持久关卡一同加载和可见",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流送关卡",
+      "predicate": "包含",
+      "object": "Blueprint类型",
+      "context": "Blueprint类型的流送关卡可以通过蓝图或C++代码动态控制加载和卸载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流送体积域",
+      "predicate": "控制",
+      "object": "流送关卡",
+      "context": "关卡流送体积域基于玩家视点的位置来控制流送关卡的加载和卸载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "实现",
+      "object": "动态流送",
+      "context": "通过蓝图可以编写复杂的逻辑来控制流送关卡的动态加载和卸载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C++",
+      "predicate": "实现",
+      "object": "动态流送",
+      "context": "通过C++代码可以编写复杂的逻辑来控制流送关卡的动态加载和卸载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Load Stream Level",
+      "predicate": "用于",
+      "object": "加载流送关卡",
+      "context": "Load Stream Level函数用于按名称加载指定的流送关卡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unload Stream Level",
+      "predicate": "用于",
+      "object": "卸载流送关卡",
+      "context": "Unload Stream Level函数用于按名称卸载指定的流送关卡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Streaming Level",
+      "predicate": "用于",
+      "object": "动态流送行为",
+      "context": "Get Streaming Level函数可以访问实际的流送关卡对象，用于修改和查询其状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Create Instance",
+      "predicate": "用于",
+      "object": "创建关卡副本",
+      "context": "Create Instance函数可以创建特定流送关卡的副本，用于程序化生成世界场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流送",
+      "predicate": "基于",
+      "object": "视点位置",
+      "context": "关卡流送可以根据玩家视点的位置动态加载和卸载相关关卡",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "持久关卡",
+      "predicate": "作为",
+      "object": "主关卡",
+      "context": "持久关卡是管理其他流送关卡的主关卡，所有流送关卡都围绕其展开",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Always Loaded类型",
+      "predicate": "无视",
+      "object": "流送体积域",
+      "context": "Always Loaded类型的流送关卡会无视流送体积域的控制，始终与持久关卡一同加载",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Blueprint类型",
+      "predicate": "受控于",
+      "object": "流送体积域",
+      "context": "Blueprint类型的流送关卡会受到流送体积域的控制，基于视点位置动态加载和卸载",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "关卡流送体积域",
+      "predicate": "易于",
+      "object": "维护",
+      "context": "基于体积域的关卡流送比基于脚本的流送更易于维护，只需调整体积域大小即可修改加载行为",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "基于脚本的流送",
+      "predicate": "适用于",
+      "object": "复杂行为",
+      "context": "基于脚本的关卡流送适用于需要复杂加载和卸载逻辑的场景",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T19:44:21.461Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5728,
+    "contentLength": 3624,
+    "processingTimeMs": 57984
+  }
+}

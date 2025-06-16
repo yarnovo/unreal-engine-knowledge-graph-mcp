@@ -1,0 +1,131 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_upgrading-the-eos-sdk-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_upgrading-the-eos-sdk-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "EOS SDK",
+      "predicate": "包含",
+      "object": "软件开发工具包",
+      "context": "EOS SDK是Epic在线服务的软件开发工具包，用于在游戏中访问EOS功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "依赖",
+      "object": "EOS SDK",
+      "context": "多个虚幻引擎插件依赖EOS SDK才能正常运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线子系统EOS插件",
+      "predicate": "依赖",
+      "object": "EOS SDK",
+      "context": "在线子系统EOS插件需要EOS SDK才能实现其功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EOS语音聊天插件",
+      "predicate": "依赖",
+      "object": "EOS SDK",
+      "context": "EOS语音聊天插件需要EOS SDK才能实现语音聊天功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EOS共享插件",
+      "predicate": "管理",
+      "object": "EOS SDK运行时库",
+      "context": "EOS共享插件负责初始化和关闭EOS SDK运行时库",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EOS SDK",
+      "predicate": "位于",
+      "object": "UNREAL_ENGINE_ROOT/Engine/Source/ThirdParty/EOSSDK",
+      "context": "EOS SDK模块在虚幻引擎中的默认位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EOS SDK",
+      "predicate": "支持",
+      "object": "多平台扩展",
+      "context": "EOS SDK有针对不同平台的特定扩展，位于平台特定目录中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "完全升级方法",
+      "predicate": "包含",
+      "object": "库和头文件升级",
+      "context": "完全升级方法涉及升级整个SDK，包括库和头文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "仅限库的升级方法",
+      "predicate": "包含",
+      "object": "库文件升级",
+      "context": "仅限库的升级方法仅升级库文件，不升级头文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目覆盖方法",
+      "predicate": "允许",
+      "object": "自定义EOS SDK版本",
+      "context": "项目覆盖方法允许项目提供自己的EOS SDK版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EOS SDK",
+      "predicate": "关联",
+      "object": "EOS引擎插件API版本",
+      "context": "EOS SDK的升级会影响EOS引擎插件的API版本使用",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EOS SDK产品名称",
+      "predicate": "显示于",
+      "object": "EOS覆层在线状态信息",
+      "context": "EOS SDK产品名称在EOS覆层的在线状态信息中显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EOS SDK",
+      "predicate": "参考",
+      "object": "EOS SDK API参考",
+      "context": "开发者可以通过EOS SDK API参考了解完整的API功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EOS SDK",
+      "predicate": "更新",
+      "object": "EOS SDK版本说明",
+      "context": "EOS SDK版本说明提供了每个版本的更新内容和变更信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:13:12.894Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9906 字符)",
+      "timestamp": "2025-06-15T21:12:33.493Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15064,
+    "contentLength": 9906,
+    "processingTimeMs": 39408
+  }
+}

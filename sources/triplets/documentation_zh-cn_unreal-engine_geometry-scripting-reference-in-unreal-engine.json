@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_geometry-scripting-reference-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_geometry-scripting-reference-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Geometry Scripting",
+      "predicate": "包含",
+      "object": "Dynamic Mesh",
+      "context": "Geometry Scripting库的核心功能围绕Dynamic Mesh进行操作，包括创建、查询和修改",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Dynamic Mesh",
+      "predicate": "可转换为",
+      "object": "Static Mesh",
+      "context": "通过Copy Mesh To Static Mesh节点可将Dynamic Mesh转换为Static Mesh资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Primitive Generation",
+      "predicate": "用于",
+      "object": "基础几何体创建",
+      "context": "提供生成盒子、球体、圆柱体等基础几何体的函数，作为建模起点",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Mesh Boolean",
+      "predicate": "依赖",
+      "object": "Dynamic Mesh",
+      "context": "布尔运算需要至少两个Dynamic Mesh作为输入进行操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UV Channel",
+      "predicate": "属于",
+      "object": "Mesh Attributes",
+      "context": "UV通道是网格属性集的一部分，用于存储纹理映射坐标",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "PolyGroup",
+      "predicate": "用于",
+      "object": "区域划分",
+      "context": "通过PolyGroup可以将网格划分为逻辑区域，便于选择性操作",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Bone Weight",
+      "predicate": "控制",
+      "object": "蒙皮变形",
+      "context": "骨骼权重决定顶点受骨骼影响的强度，是角色动画的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BVH",
+      "predicate": "加速",
+      "object": "空间查询",
+      "context": "边界体积层次结构(BVH)用于优化射线检测、最近点查询等空间操作",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "Mesh Simplification",
+      "predicate": "减少",
+      "object": "三角形数量",
+      "context": "简化操作可通过多种策略降低网格复杂度同时保留形状特征",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Delaunay Triangulation",
+      "predicate": "用于",
+      "object": "多边形三角化",
+      "context": "用于将复杂多边形转换为三角形集合的标准算法",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Geometry Scripting",
+      "predicate": "支持",
+      "object": "Python API",
+      "context": "除蓝图外还可通过Python脚本访问几何体处理功能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mesh Selection",
+      "predicate": "限定",
+      "object": "局部操作范围",
+      "context": "选择集允许工具只对网格的特定区域进行操作",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "Catmull-Clark Subdivision",
+      "predicate": "生成",
+      "object": "光滑曲面",
+      "context": "基于PolyGroup拓扑的细分曲面算法",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Vertex Color",
+      "predicate": "存储于",
+      "object": "Overlay",
+      "context": "顶点颜色作为附加属性存储在覆盖层数据结构中",
+      "direction": "bidirectional",
+      "confidence": 0.75
+    },
+    {
+      "subject": "Mesh Sampling",
+      "predicate": "用于",
+      "object": "表面点分布",
+      "context": "可在网格表面生成均匀或非均匀分布的采样点",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Geometry Scripting",
+      "predicate": "包含",
+      "object": "Collision Generation",
+      "context": "提供从网格生成简单碰撞形状的功能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Dynamic Mesh",
+      "predicate": "支持",
+      "object": "实时编辑",
+      "context": "区别于Static Mesh，Dynamic Mesh允许运行时修改几何数据",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Mesh Mirror",
+      "predicate": "基于",
+      "object": "对称平面",
+      "context": "镜像操作需要定义对称平面来生成对称几何体",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "UV Unwrapping",
+      "predicate": "依赖",
+      "object": "PolyGroup划分",
+      "context": "UV展开常以PolyGroup定义的区域为单位进行",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Geometry Scripting",
+      "predicate": "属于",
+      "object": "Modeling Mode",
+      "context": "作为建模工具的脚本化扩展，共享底层网格处理架构",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:12:27.337Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (91605 字符)",
+      "timestamp": "2025-06-15T19:11:18.435Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 91863,
+    "contentLength": 91605,
+    "processingTimeMs": 68909
+  }
+}

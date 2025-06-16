@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_write-cplusplus-tests-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_write-cplusplus-tests-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "自动化测试",
+      "predicate": "属于",
+      "object": "虚幻引擎测试系统",
+      "context": "自动化测试是虚幻引擎测试系统的一部分，用于对核心功能进行低级别测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化测试",
+      "predicate": "分为",
+      "object": "简单测试和复杂测试",
+      "context": "自动化测试可以分为简单型和复杂型两种类型，分别用于不同的测试场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简单测试",
+      "predicate": "基于",
+      "object": "FAutomationTestBase",
+      "context": "简单测试通过IMPLEMENT_SIMPLE_AUTOMATION_TEST宏声明，并继承自FAutomationTestBase类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复杂测试",
+      "predicate": "基于",
+      "object": "FAutomationTestBase",
+      "context": "复杂测试通过IMPLEMENT_COMPLEX_AUTOMATION_TEST宏声明，并继承自FAutomationTestBase类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简单测试",
+      "predicate": "用于",
+      "object": "单元测试或特性测试",
+      "context": "简单测试适用于单个原子测试，如单元测试或特性测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复杂测试",
+      "predicate": "用于",
+      "object": "内容压力测试",
+      "context": "复杂测试适用于在许多输入上运行相同的代码，如内容压力测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化测试",
+      "predicate": "运行于",
+      "object": "编辑器或命令行",
+      "context": "自动化测试可以通过控制台命令行在编辑器中运行，或使用操作系统中的命令行参数运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "潜在命令",
+      "predicate": "用于",
+      "object": "跨帧运行代码",
+      "context": "潜在命令允许代码的某些部分跨多个帧运行，适用于加载或流送数据等场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "潜在命令",
+      "predicate": "通过",
+      "object": "DEFINE_LATENT_AUTOMATION_COMMAND宏定义",
+      "context": "潜在命令通过DEFINE_LATENT_AUTOMATION_COMMAND宏定义，并需要实现Update函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化测试",
+      "predicate": "放置于",
+      "object": "Private\\Tests目录",
+      "context": "自动化测试通常放置于相关模块的Private\\Tests目录中，便于管理和维护",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简单测试",
+      "predicate": "实现",
+      "object": "RunTest函数",
+      "context": "简单测试必须实现RunTest函数，用于执行实际的测试并返回结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复杂测试",
+      "predicate": "实现",
+      "object": "RunTest和GetTests函数",
+      "context": "复杂测试必须实现RunTest和GetTests函数，用于执行测试和管理测试输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化测试",
+      "predicate": "不依赖",
+      "object": "UObject生态系统",
+      "context": "自动化测试存在于UObject生态系统之外，对蓝图或引擎的反射系统不可见",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "潜在命令",
+      "predicate": "通过",
+      "object": "ADD_LATENT_AUTOMATION_COMMAND调用",
+      "context": "潜在命令通过ADD_LATENT_AUTOMATION_COMMAND在测试代码中调用，用于排队执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:36:04.847Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10630,
+    "contentLength": 7355,
+    "processingTimeMs": 41092
+  }
+}

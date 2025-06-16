@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_procedural-foliage-tool-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_procedural-foliage-tool-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "程序化植被工具",
+      "predicate": "属于",
+      "object": "虚幻引擎5.6",
+      "context": "程序化植被工具是虚幻引擎5.6中的一个功能模块，用于自动生成植被",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "程序化植被工具",
+      "predicate": "用于",
+      "object": "创建虚拟森林",
+      "context": "该工具主要用于快速生成组成整个森林的树木和其他植被",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "程序化植被生成器",
+      "predicate": "属于",
+      "object": "程序化植被工具",
+      "context": "程序化植被生成器是程序化植被工具的核心组件，负责实际生成植被",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "植被类型Actor",
+      "predicate": "用于",
+      "object": "程序化植被生成器",
+      "context": "植被类型Actor定义了程序化植被生成器可以生成的植被类型和属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形Actor",
+      "predicate": "用于",
+      "object": "程序化植被工具",
+      "context": "地形Actor提供了程序化植被工具生成植被的基础表面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "开放世界场景演示集",
+      "predicate": "包含",
+      "object": "植被静态网格体",
+      "context": "该内容包提供了程序化植被工具教程中使用的树木和其他植被资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "程序化植被阻挡体积",
+      "predicate": "控制",
+      "object": "植被生成区域",
+      "context": "该体积可以阻止程序化植被生成器在特定区域内生成植被",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "植被类型属性",
+      "predicate": "影响",
+      "object": "植被生成效果",
+      "context": "通过调整植被类型的各种属性可以控制植被的生成方式、密度和外观",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "程序化植被工具",
+      "predicate": "前置",
+      "object": "编辑器首选项设置",
+      "context": "使用程序化植被工具前需要先在编辑器首选项中启用该功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "程序化植被工具",
+      "predicate": "可与",
+      "object": "地形工具",
+      "context": "结合使用",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "程序化植被工具",
+      "predicate": "可与",
+      "object": "草地工具",
+      "context": "结合使用",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "程序化植被工具",
+      "predicate": "可与",
+      "object": "光照系统",
+      "context": "结合使用",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "植被类型",
+      "predicate": "包含",
+      "object": "放置属性",
+      "context": "植被类型中的放置属性控制植被如何对齐表面和随机旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "植被类型",
+      "predicate": "包含",
+      "object": "碰撞属性",
+      "context": "碰撞属性决定不同植被类型之间的交互和优先级",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "植被类型",
+      "predicate": "包含",
+      "object": "集群属性",
+      "context": "集群属性控制植被的分布模式和密度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "植被类型",
+      "predicate": "包含",
+      "object": "生长属性",
+      "context": "生长属性控制植被随时间变化的生长行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重新模拟按钮",
+      "predicate": "用于",
+      "object": "更新植被生成",
+      "context": "点击重新模拟按钮会根据当前设置重新生成植被",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "程序化植被工具",
+      "predicate": "依赖",
+      "object": "构建光照",
+      "context": "生成大量植被后需要重新构建光照才能看到正确效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "程序化植被工具",
+      "predicate": "适用于",
+      "object": "开放世界场景",
+      "context": "该工具特别适合用于快速填充大型开放世界场景的植被",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "植被系统",
+      "predicate": "可扩展",
+      "object": "程序化植被工具",
+      "context": "可以使用植被系统对程序化生成的植被进行进一步的手动调整",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:29:30.156Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (21060 字符)",
+      "timestamp": "2025-06-15T20:28:37.626Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 29296,
+    "contentLength": 21060,
+    "processingTimeMs": 52535
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-engine-behavior-tree-node-reference-composites",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-engine-behavior-tree-node-reference-composites.md",
+  "triples": [
+    {
+      "subject": "合成节点",
+      "predicate": "属于",
+      "object": "行为树节点",
+      "context": "合成节点是行为树中的一种特殊节点类型，定义了分支的根和执行规则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成节点",
+      "predicate": "连接",
+      "object": "装饰器节点",
+      "context": "合成节点可以应用装饰器节点来修改进入分支的条件或取消执行中的条目",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成节点",
+      "predicate": "连接",
+      "object": "服务节点",
+      "context": "合成节点可以连接服务节点，这些服务节点仅在子节点执行时激活",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成节点",
+      "predicate": "连接至",
+      "object": "行为树根节点",
+      "context": "只有合成节点可以直接连接到行为树的根节点，这是构建行为树的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选择器节点",
+      "predicate": "属于",
+      "object": "合成节点",
+      "context": "选择器节点是合成节点的一种具体实现，用于按顺序执行子节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选择器节点",
+      "predicate": "执行",
+      "object": "子节点",
+      "context": "选择器节点按从左到右顺序执行子节点，直到其中一个成功",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "序列节点",
+      "predicate": "属于",
+      "object": "合成节点",
+      "context": "序列节点是合成节点的一种具体实现，用于按顺序执行子节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "序列节点",
+      "predicate": "执行",
+      "object": "子节点",
+      "context": "序列节点按从左到右顺序执行子节点，直到其中一个失败",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简单平行节点",
+      "predicate": "属于",
+      "object": "合成节点",
+      "context": "简单平行节点是合成节点的一种特殊类型，允许主任务和次要树并行执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简单平行节点",
+      "predicate": "执行",
+      "object": "主任务节点",
+      "context": "简单平行节点执行一个主任务节点，同时可以并行执行次要树",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简单平行节点",
+      "predicate": "控制",
+      "object": "次要树执行",
+      "context": "简单平行节点通过结束模式设置控制次要树的执行方式（立即中止或推迟结束）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选择器节点",
+      "predicate": "对比",
+      "object": "序列节点",
+      "context": "选择器节点和序列节点都是顺序执行子节点，但成功/失败条件相反，这是行为树中重要的控制流差异",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "简单平行节点",
+      "predicate": "扩展",
+      "object": "合成节点功能",
+      "context": "简单平行节点扩展了合成节点的基本功能，增加了并行执行的能力",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "应用装饰器范围",
+      "predicate": "影响",
+      "object": "装饰器生命周期",
+      "context": "应用装饰器范围设置决定了分支完成时装饰器是否被移除，影响装饰器的生命周期管理",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:07:36.799Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4245,
+    "contentLength": 2756,
+    "processingTimeMs": 39164
+  }
+}

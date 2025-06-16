@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_developers-folder-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_developers-folder-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "开发者文件夹",
+      "predicate": "位于",
+      "object": "内容浏览器",
+      "context": "开发者文件夹是内容浏览器中的一个特殊目录，用于安全地进行资产实验和修改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "开发者文件夹",
+      "predicate": "用于",
+      "object": "资产实验",
+      "context": "开发者文件夹的主要用途是提供一个安全的沙盒环境进行资产修改和实验",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "开发者文件夹",
+      "predicate": "排除于",
+      "object": "烘焙版本",
+      "context": "开发者文件夹中的资产不应被引用或包含在最终烘焙版本中，以避免错误",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "显示开发者内容选项",
+      "predicate": "控制",
+      "object": "开发者文件夹可见性",
+      "context": "通过内容浏览器设置中的'显示开发者内容'选项可以启用或禁用开发者文件夹的显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "源码控制系统",
+      "predicate": "支持",
+      "object": "多开发者协作",
+      "context": "使用源码控制系统可以配置虚幻引擎以查看其他开发者的文件夹内容，便于团队协作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "其他开发者过滤器",
+      "predicate": "用于",
+      "object": "查看协作内容",
+      "context": "通过内容浏览器中的'其他开发者'过滤器可以查看团队其他成员的工作内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "从不烘焙的目录设置",
+      "predicate": "包含",
+      "object": "开发者文件夹",
+      "context": "在项目设置中可以将开发者文件夹添加到'从不烘焙的目录'列表，确保其内容不会被意外打包",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "开发者文件夹",
+      "predicate": "基于",
+      "object": "Windows用户名",
+      "context": "每个开发者的文件夹名称基于其Windows用户名，但会过滤掉不允许使用的字符",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "开发者文件夹",
+      "predicate": "适用于",
+      "object": "项目级重构",
+      "context": "开发者文件夹不仅适用于小规模资产修改，也可用于大规模的项目重构工作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "内容浏览器设置",
+      "predicate": "包含",
+      "object": "显示开发者内容选项",
+      "context": "内容浏览器的设置菜单中包含控制开发者文件夹可见性的选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:50:37.692Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4527,
+    "contentLength": 3071,
+    "processingTimeMs": 42939
+  }
+}

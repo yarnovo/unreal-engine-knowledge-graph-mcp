@@ -1,0 +1,163 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-curves-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-curves-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "动画曲线",
+      "predicate": "用于",
+      "object": "骨骼网格体",
+      "context": "动画曲线用于在骨骼网格体上播放动画序列时同步额外属性和值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画曲线",
+      "predicate": "控制",
+      "object": "材质参数",
+      "context": "动画曲线可以控制材质参数的值，用于动态调整材质效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画曲线",
+      "predicate": "控制",
+      "object": "变形目标",
+      "context": "动画曲线可以控制变形目标的权重，用于实现面部表情等变形效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画曲线",
+      "predicate": "存储在",
+      "object": "骨架资产",
+      "context": "动画曲线数据存储在骨架资产中，创建曲线会编辑骨架资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画曲线",
+      "predicate": "通过",
+      "object": "动画序列编辑器",
+      "context": "动画曲线可以通过动画序列编辑器创建和编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画曲线",
+      "predicate": "通过",
+      "object": "曲线编辑器",
+      "context": "动画曲线的关键帧和值可以通过曲线编辑器进行调整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画曲线",
+      "predicate": "管理于",
+      "object": "动画曲线面板",
+      "context": "动画曲线可以在动画曲线面板中查看和管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画曲线",
+      "predicate": "影响",
+      "object": "动画蓝图",
+      "context": "动画曲线可以影响动画蓝图中的值，如IK节点的alpha值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画曲线",
+      "predicate": "包含",
+      "object": "元数据曲线",
+      "context": "元数据曲线是动画曲线的一种特殊类型，输出静态值1.0",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画序列",
+      "predicate": "包含",
+      "object": "动画曲线",
+      "context": "动画序列可以包含多个动画曲线，用于控制各种属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架",
+      "predicate": "存储",
+      "object": "动画曲线",
+      "context": "骨架资产存储了动画曲线的定义和数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质实例化",
+      "predicate": "受控于",
+      "object": "动画曲线",
+      "context": "材质实例化的参数可以通过动画曲线进行动态控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形目标",
+      "predicate": "受控于",
+      "object": "动画曲线",
+      "context": "变形目标的权重可以通过动画曲线进行动态控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "使用",
+      "object": "动画曲线",
+      "context": "动画蓝图可以使用动画曲线值来影响动画逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "曲线编辑器",
+      "predicate": "用于",
+      "object": "编辑动画曲线",
+      "context": "曲线编辑器专门用于编辑动画曲线的关键帧和值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画序列编辑器",
+      "predicate": "用于",
+      "object": "管理动画曲线",
+      "context": "动画序列编辑器提供了管理动画曲线的界面和功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "外部动画软件",
+      "predicate": "可生成",
+      "object": "动画曲线",
+      "context": "如Maya等外部动画软件可以创建自定义属性并导入为动画曲线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX导入",
+      "predicate": "支持",
+      "object": "动画曲线导入",
+      "context": "FBX导入流程支持将外部创建的自定义属性导入为动画曲线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:01:49.333Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12415 字符)",
+      "timestamp": "2025-06-15T18:00:44.016Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 18255,
+    "contentLength": 12415,
+    "processingTimeMs": 65325
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_programming-a-render-in-mrg-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_programming-a-render-in-mrg-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "影片渲染图表",
+      "predicate": "替代",
+      "object": "影片渲染队列",
+      "context": "影片渲染图表是影片渲染队列的后继版本，两者功能类似但配置方式不同",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染图表",
+      "predicate": "基于",
+      "object": "图表编辑器",
+      "context": "影片渲染图表的配置文件由图表编辑器支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染图表",
+      "predicate": "包含",
+      "object": "Global Output Settings节点",
+      "context": "Global Output Settings节点用于配置全局输出设置如分辨率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染图表",
+      "predicate": "支持",
+      "object": "用户公开参数",
+      "context": "允许将节点属性公开为用户参数，便于在细节面板中修改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染图表",
+      "predicate": "用于",
+      "object": "自动化渲染",
+      "context": "通过Python脚本可以实现渲染流程的自动化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片管线队列",
+      "predicate": "组织",
+      "object": "渲染作业",
+      "context": "队列用于组织和管理多个渲染作业",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MoviePipelineExecutorJob",
+      "predicate": "使用",
+      "object": "影片渲染图表",
+      "context": "作业通过设置图表预设来定义渲染配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MovieGraphConfig",
+      "predicate": "包含",
+      "object": "输出节点",
+      "context": "图表配置包含输出节点作为遍历的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "深度优先搜索",
+      "predicate": "用于",
+      "object": "图表遍历",
+      "context": "通过DFS可以访问图表中的所有节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MovieGraphBranchNode",
+      "predicate": "包含",
+      "object": "True/False引脚",
+      "context": "分支节点包含特定命名的输入引脚",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python脚本",
+      "predicate": "控制",
+      "object": "影片渲染流程",
+      "context": "Python API提供了完整的渲染流程控制能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡序列",
+      "predicate": "用于",
+      "object": "影片渲染",
+      "context": "渲染需要指定关卡序列作为输入内容",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "MoviePipelineQueueSubsystem",
+      "predicate": "管理",
+      "object": "渲染队列",
+      "context": "该子系统提供了队列的访问和操作接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "用户公开参数",
+      "predicate": "简化",
+      "object": "属性修改",
+      "context": "公开参数使美术师可以直接修改属性而无需编码",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "影片渲染图表",
+      "predicate": "扩展",
+      "object": "渲染配置灵活性",
+      "context": "相比MRQ提供了更灵活的配置方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:29:25.864Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (17487 字符)",
+      "timestamp": "2025-06-15T20:28:37.630Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 23893,
+    "contentLength": 17487,
+    "processingTimeMs": 48242
+  }
+}

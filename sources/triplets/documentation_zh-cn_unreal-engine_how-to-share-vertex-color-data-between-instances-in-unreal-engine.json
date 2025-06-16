@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-share-vertex-color-data-between-instances-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-share-vertex-color-data-between-instances-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "顶点颜色",
+      "predicate": "复制到",
+      "object": "纹理颜色",
+      "context": "文档中明确提到可以使用'来自顶点'工具将顶点颜色数据复制到纹理颜色，帮助学习者在不同绘制模式间转换数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理颜色",
+      "predicate": "复制到",
+      "object": "顶点颜色",
+      "context": "文档中明确提到可以使用'来自纹理'工具将纹理颜色数据复制到顶点颜色，帮助学习者在不同绘制模式间转换数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理颜色",
+      "predicate": "传播到",
+      "object": "顶点颜色",
+      "context": "文档中提到纹理颜色模式可以启用'传播至顶点颜色'选项，将所有绘制结果传输至顶点颜色模式，帮助学习者理解两种模式的联动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体绘制",
+      "predicate": "包含",
+      "object": "顶点颜色模式",
+      "context": "文档中多次提到网格体绘制面板中的顶点颜色模式，帮助学习者理解网格体绘制的组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体绘制",
+      "predicate": "包含",
+      "object": "纹理颜色模式",
+      "context": "文档中多次提到网格体绘制面板中的纹理颜色模式，帮助学习者理解网格体绘制的组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "顶点颜色",
+      "predicate": "可视化",
+      "object": "颜色视图模式",
+      "context": "文档中提到颜色视图模式可以用于查看顶点颜色的不同颜色通道，帮助学习者理解如何查看顶点颜色数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理颜色",
+      "predicate": "可视化",
+      "object": "颜色视图模式",
+      "context": "文档中提到颜色视图模式可以用于查看纹理颜色的不同颜色通道，帮助学习者理解如何查看纹理颜色数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Nanite",
+      "predicate": "影响",
+      "object": "顶点颜色可视化",
+      "context": "文档中提到启用Nanite的网格体无法可视化顶点颜色，帮助学习者理解Nanite对顶点颜色可视化的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体绘制纹理",
+      "predicate": "禁用",
+      "object": "控制台变量",
+      "context": "文档中提到可以通过控制台变量禁用网格体绘制纹理，帮助学习者理解如何优化项目部署",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质",
+      "predicate": "处理",
+      "object": "顶点颜色",
+      "context": "文档中提到可以通过材质图表中的逻辑处理顶点颜色数据，帮助学习者理解如何在材质中使用顶点颜色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质",
+      "predicate": "处理",
+      "object": "纹理颜色",
+      "context": "文档中提到可以通过材质图表中的逻辑处理纹理颜色数据，帮助学习者理解如何在材质中使用纹理颜色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MeshPaintTextureReplace节点",
+      "predicate": "用于",
+      "object": "顶点颜色和纹理颜色切换",
+      "context": "文档中提到MeshPaintTextureReplace节点可以用于在顶点颜色和纹理颜色之间切换，帮助学习者理解材质节点的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "顶点颜色",
+      "predicate": "适用于",
+      "object": "低规格平台",
+      "context": "文档中提到顶点颜色适用于不支持虚拟纹理的低规格平台，帮助学习者理解顶点颜色的应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理颜色",
+      "predicate": "依赖于",
+      "object": "虚拟纹理",
+      "context": "文档中提到纹理颜色依赖于虚拟纹理，帮助学习者理解纹理颜色的技术依赖",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:26:41.909Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8096,
+    "contentLength": 5132,
+    "processingTimeMs": 52293
+  }
+}

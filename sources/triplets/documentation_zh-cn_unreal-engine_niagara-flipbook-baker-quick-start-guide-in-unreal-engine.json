@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_niagara-flipbook-baker-quick-start-guide-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_niagara-flipbook-baker-quick-start-guide-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Niagara系统",
+      "predicate": "生成",
+      "object": "图像序列视图",
+      "context": "Niagara系统可以通过烘焙器将粒子模拟效果转换为图像序列视图，用于优化性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图像序列视图",
+      "predicate": "用于",
+      "object": "Sprite发射器",
+      "context": "图像序列视图可以应用于2D Sprite发射器，实现高效的粒子效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara编辑器",
+      "predicate": "包含",
+      "object": "烘焙器",
+      "context": "Niagara编辑器中集成了烘焙器功能，用于将粒子模拟烘焙为图像序列视图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "烘焙器",
+      "predicate": "依赖",
+      "object": "Niagara流体插件",
+      "context": "烘焙器在使用Niagara流体模板时需要启用Niagara流体插件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "图像序列视图",
+      "predicate": "基于",
+      "object": "平铺图像",
+      "context": "图像序列视图由多个平铺图像组成，每个图块代表一帧动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sprite渲染器",
+      "predicate": "使用",
+      "object": "子UV动画模块",
+      "context": "要在Sprite渲染器中实现图像序列视图动画效果，需要添加子UV动画模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子UV动画模块",
+      "predicate": "控制",
+      "object": "动画帧序列",
+      "context": "子UV动画模块可以设置开始帧和结束帧，控制图像序列视图的播放范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质编辑器",
+      "predicate": "用于",
+      "object": "创建图像序列视图材质",
+      "context": "需要在材质编辑器中创建特殊材质来处理图像序列视图的纹理和透明度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TextureSample节点",
+      "predicate": "连接",
+      "object": "图像序列视图纹理",
+      "context": "在材质中，TextureSample节点用于采样图像序列视图生成的纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "烘焙器面板",
+      "predicate": "包含",
+      "object": "Niagara预览",
+      "context": "烘焙器面板包含Niagara预览窗口，用于调整和查看要烘焙的粒子效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "烘焙器面板",
+      "predicate": "包含",
+      "object": "图像序列视图预览",
+      "context": "烘焙器面板提供图像序列视图预览功能，可以查看烘焙后的效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格3D气体彩色烟雾",
+      "predicate": "是",
+      "object": "Niagara流体模板",
+      "context": "网格3D气体彩色烟雾是Niagara流体插件提供的一个模板示例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简单Sprite爆炸",
+      "predicate": "是",
+      "object": "Niagara发射器模板",
+      "context": "简单Sprite爆炸是用于实现图像序列视图效果的基础发射器模板",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图像序列视图",
+      "predicate": "替代",
+      "object": "实时Niagara模拟",
+      "context": "图像序列视图可以替代复杂的实时Niagara模拟，在性能要求高的场景中使用",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "摄像机视口模式",
+      "predicate": "影响",
+      "object": "图像序列视图角度",
+      "context": "摄像机视口模式的设置会影响图像序列视图的捕获角度和效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "播放工具栏",
+      "predicate": "控制",
+      "object": "模拟预览",
+      "context": "播放工具栏可以控制Niagara模拟的播放，用于预览将要烘焙的内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间轴设置",
+      "predicate": "调整",
+      "object": "烘焙范围",
+      "context": "时间轴设置可以调整烘焙的开始时间和持续时间，控制烘焙的范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理设置",
+      "predicate": "决定",
+      "object": "图像序列视图分辨率",
+      "context": "纹理设置中的图块数量和纹理大小决定了图像序列视图的分辨率和质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "源绑定",
+      "predicate": "选择",
+      "object": "输出属性",
+      "context": "源绑定设置可以选择要烘焙输出的属性，如SceneColorHDR或其他GBuffer属性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质",
+      "predicate": "需要",
+      "object": "半透明混合模式",
+      "context": "用于图像序列视图的材质需要设置为半透明混合模式以正确显示透明度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:07:17.349Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (14263 字符)",
+      "timestamp": "2025-06-15T20:06:17.030Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 20075,
+    "contentLength": 14263,
+    "processingTimeMs": 60326
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_audio-gameplay-volumes-quick-start",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_audio-gameplay-volumes-quick-start.md",
+  "triples": [
+    {
+      "subject": "音频Gameplay体积",
+      "predicate": "用于",
+      "object": "定义物理区域以应用音效",
+      "context": "音频Gameplay体积的主要功能是定义物理区域来应用音效，帮助学习者理解其核心用途",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频Gameplay体积",
+      "predicate": "依赖",
+      "object": "音效类",
+      "context": "音频Gameplay体积需要正确设置的音效类来包含声波资产，这是使用该功能的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效类",
+      "predicate": "包含",
+      "object": "声波资产",
+      "context": "音效类需要包含声波资产才能与音频Gameplay体积配合使用，这是音频系统的基本结构关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效类",
+      "predicate": "配置",
+      "object": "应用环境体积",
+      "context": "音效类需要启用'应用环境体积'选项才能在音频Gameplay体积中使用，这是关键配置步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效类",
+      "predicate": "发送到",
+      "object": "主混响子混合",
+      "context": "音效类可以配置将声音发送到主混响子混合，这是实现混响效果的重要环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频Gameplay体积",
+      "predicate": "由...驱动",
+      "object": "组件",
+      "context": "音频Gameplay体积的功能由各种组件驱动，理解这一点有助于学习者掌握其扩展性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混响组件",
+      "predicate": "属于",
+      "object": "音频Gameplay体积组件",
+      "context": "混响组件是音频Gameplay体积可添加的组件类型之一，展示功能扩展方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混响组件",
+      "predicate": "使用",
+      "object": "混响效果资产",
+      "context": "混响组件需要混响效果资产来实现具体效果，这是组件配置的关键依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频Gameplay体积",
+      "predicate": "支持",
+      "object": "多种组件类型",
+      "context": "文档提到可以添加多种组件类型(如子混合覆盖、子混合发送等)，展示系统的扩展能力",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "第一人称模板",
+      "predicate": "提供",
+      "object": "基础声波资产",
+      "context": "第一人称模板提供了基础声波资产用于测试，这是快速入门的起点",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "音频Gameplay体积插件",
+      "predicate": "需要",
+      "object": "手动启用",
+      "context": "使用前需要手动启用插件，这是重要的前置条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混响效果",
+      "predicate": "配置",
+      "object": "迟反射增益",
+      "context": "调整迟反射增益可以改变混响效果强度，这是重要的参数配置知识",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "音频Gameplay体积",
+      "predicate": "影响",
+      "object": "听者位置的声音",
+      "context": "体积会影响听者位置的声音表现，这是核心功能原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子混合覆盖组件",
+      "predicate": "应用于",
+      "object": "音效子混合",
+      "context": "子混合覆盖组件可以为音效子混合添加效果链，展示高级功能选项",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "衰减组件",
+      "predicate": "调整",
+      "object": "音频音量",
+      "context": "衰减组件可以调整音频音量，展示空间音效控制能力",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:07:44.962Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10523,
+    "contentLength": 7339,
+    "processingTimeMs": 54690
+  }
+}

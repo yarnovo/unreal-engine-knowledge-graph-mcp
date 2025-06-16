@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_controls-bones-and-nulls-in-control-rig-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_controls-bones-and-nulls-in-control-rig-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "控制点",
+      "predicate": "用于驱动",
+      "object": "骨骼链",
+      "context": "控制点是实现控制绑定交互的主要元素，用于驱动骨骼链",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制点",
+      "predicate": "用于制作",
+      "object": "Sequencer动画",
+      "context": "控制点可以在Sequencer中用于制作动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制点",
+      "predicate": "支持",
+      "object": "自定义属性",
+      "context": "控制点可以提供更多自定义属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制点",
+      "predicate": "可以设置",
+      "object": "变换限值",
+      "context": "可以为空间类控制点指定限定范围，限制其移动范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制点",
+      "predicate": "继承自",
+      "object": "骨骼",
+      "context": "为某个骨骼创建控制点时，控制点会自动继承该骨骼的名称",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制点",
+      "predicate": "包含",
+      "object": "控制点类型",
+      "context": "控制点可以指定不同的控制点类型，如动画控制、动画通道、代理控制等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制点",
+      "predicate": "包含",
+      "object": "数值类型",
+      "context": "控制点可以设置不同的数值类型，如布尔、浮点、整型、向量2D等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼",
+      "predicate": "用于",
+      "object": "辅助用途",
+      "context": "在控制绑定中创建的骨骼可用于辅助用途，如IK链中的结束执行器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼",
+      "predicate": "可以编辑",
+      "object": "初始姿势",
+      "context": "在设置事件模式下可以编辑骨骼的初始姿势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Null",
+      "predicate": "用于分组",
+      "object": "控制点",
+      "context": "Null可以用于收集、分组和变换其他绑定元素，如对称控制点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Null",
+      "predicate": "类似于",
+      "object": "Maya中的组",
+      "context": "Null的概念类似于Autodesk Maya中的组，用于管理骨骼绑定的结构",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换类型",
+      "predicate": "包括",
+      "object": "初始",
+      "context": "变换类型包括初始、当前和偏移变换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换类型",
+      "predicate": "包括",
+      "object": "当前",
+      "context": "变换类型包括初始、当前和偏移变换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换类型",
+      "predicate": "包括",
+      "object": "偏移",
+      "context": "变换类型包括初始、当前和偏移变换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "初始",
+      "predicate": "影响",
+      "object": "当前",
+      "context": "初始值将影响当前的默认值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "偏移",
+      "predicate": "类似于",
+      "object": "Maya中的冻结变换",
+      "context": "偏移类似于Maya中的冻结变换或变换偏移父矩阵",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定",
+      "predicate": "包含",
+      "object": "绑定层级",
+      "context": "控制绑定中的元素可以在绑定层级面板中进行组织和管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绑定层级",
+      "predicate": "用于组织",
+      "object": "控制点",
+      "context": "绑定层级面板可以用于组织控制点、骨骼和Null",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绑定层级",
+      "predicate": "用于组织",
+      "object": "骨骼",
+      "context": "绑定层级面板可以用于组织控制点、骨骼和Null",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绑定层级",
+      "predicate": "用于组织",
+      "object": "Null",
+      "context": "绑定层级面板可以用于组织控制点、骨骼和Null",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:35:18.677Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (14783 字符)",
+      "timestamp": "2025-06-15T18:34:17.313Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 22300,
+    "contentLength": 14783,
+    "processingTimeMs": 61376
+  }
+}

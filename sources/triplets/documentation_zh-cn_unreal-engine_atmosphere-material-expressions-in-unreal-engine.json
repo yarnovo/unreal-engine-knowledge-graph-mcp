@@ -1,0 +1,69 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_atmosphere-material-expressions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_atmosphere-material-expressions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "AtmosphericFogColor",
+      "predicate": "属于",
+      "object": "材质表达式",
+      "context": "AtmosphericFogColor是虚幻引擎中的一种材质表达式，用于查询大气雾颜色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AtmosphericFogColor",
+      "predicate": "用于",
+      "object": "查询大气雾颜色",
+      "context": "该表达式的主要功能是在全局空间中查询关卡的大气雾颜色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AtmosphericFogColor",
+      "predicate": "应用于",
+      "object": "材质底色",
+      "context": "文档示例展示了如何使用该节点设置材质的Base Color属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AtmosphericFogColor",
+      "predicate": "接收",
+      "object": "World Position",
+      "context": "该表达式可以接收World Position输入来指定查询位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AtmosphericFogColor",
+      "predicate": "关联",
+      "object": "摄像机位置",
+      "context": "示例中展示了如何基于摄像机位置计算查询位置",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质表达式",
+      "predicate": "属于",
+      "object": "材质系统",
+      "context": "材质表达式是虚幻引擎材质系统的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质系统",
+      "predicate": "包含",
+      "object": "shaders",
+      "context": "材质系统最终会生成shaders用于渲染",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:07:15.225Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 1689,
+    "contentLength": 1227,
+    "processingTimeMs": 24956
+  }
+}

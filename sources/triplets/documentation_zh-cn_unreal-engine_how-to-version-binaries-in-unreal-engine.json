@@ -1,0 +1,85 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-version-binaries-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-version-binaries-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "BuildID系统",
+      "predicate": "预防",
+      "object": "DLL文件错误",
+      "context": "BuildID系统通过确保加载与可执行文件同时编译的DLL文件，预防由过期DLL文件引起的崩溃和错误",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildID系统",
+      "predicate": "生成",
+      "object": "GUID",
+      "context": "每次编译引擎时，BuildID系统会生成一个新的GUID来唯一标识该次编译",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": ".modules文件",
+      "predicate": "包含",
+      "object": "模块信息",
+      "context": ".modules文件是一个JSON文件，列出了目录中的每个模块及其关联的DLL文件和编译GUID",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动生成的编译ID",
+      "predicate": "依赖",
+      "object": ".modules文件",
+      "context": "自动生成的编译ID依赖于.modules文件来存储和识别模块及其编译信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "手动指定的编译ID",
+      "predicate": "通过",
+      "object": "Build/Build.version文件",
+      "context": "手动指定的编译ID通过在Build/Build.version文件中添加BuildId条目来实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "手动指定的编译ID",
+      "predicate": "移除",
+      "object": "模块兼容性检查",
+      "context": "手动指定编译ID会移除阻止使用不兼容模块的检查，可能导致运行过期代码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "源码管理",
+      "predicate": "需要",
+      "object": "同步.modules文件",
+      "context": "使用源码管理维护二进制编译时，必须同步签入可执行文件、DLL及其关联的.modules文件以确保编译ID匹配",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动生成的编译ID",
+      "predicate": "替代",
+      "object": "手动指定的编译ID",
+      "context": "自动生成的编译ID是推荐做法，可以替代手动指定的编译ID以避免潜在问题",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "BuildID系统",
+      "predicate": "适用于",
+      "object": "多项目插件共享",
+      "context": "BuildID系统特别适用于需要在多个项目之间共享插件的情况，确保使用正确的模块版本",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:27:35.883Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2599,
+    "contentLength": 1591,
+    "processingTimeMs": 32177
+  }
+}

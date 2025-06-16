@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_modular-control-rigs-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_modular-control-rigs-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "模块化控制绑定",
+      "predicate": "包含",
+      "object": "模块",
+      "context": "模块化控制绑定通过组合多个模块来创建完整的动画绑定系统",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "模块",
+      "predicate": "代表",
+      "object": "身体部位",
+      "context": "每个模块通常代表角色的特定身体部位（如手臂、腿或脊柱）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块",
+      "predicate": "连接",
+      "object": "连接器",
+      "context": "模块通过连接器相互连接形成完整的绑定系统",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "连接器",
+      "predicate": "解析到",
+      "object": "插槽",
+      "context": "连接器需要解析到骨骼网格体上的插槽才能使模块正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视觉绑定",
+      "predicate": "使用",
+      "object": "图解覆层",
+      "context": "视觉绑定通过图解覆层在视口中直观地连接和编译模块",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "控制绑定模块插件",
+      "predicate": "提供",
+      "object": "预配置模块",
+      "context": "该插件包含可直接使用的示例模块，加速学习过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块创作",
+      "predicate": "需要",
+      "object": "控制绑定知识",
+      "context": "创建自定义模块需要先掌握控制绑定图表的基本创作方法",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "主连接器",
+      "predicate": "区别于",
+      "object": "辅助连接器",
+      "context": "主连接器是必须解析的核心连接点，而辅助连接器是可选的附加连接点",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "连接器事件",
+      "predicate": "实现",
+      "object": "自动解析",
+      "context": "连接器事件包含的图形逻辑可以在模块被添加时自动解析连接器",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "模块化控制绑定",
+      "predicate": "用于",
+      "object": "角色动画",
+      "context": "最终目的是通过模块化系统驱动角色骨骼实现动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "正向解算之前",
+      "predicate": "区别于",
+      "object": "正向解算之后",
+      "context": "这两个阶段允许模块在不同时机修改绑定逻辑，实现更复杂的动画控制",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "模块层级",
+      "predicate": "控制",
+      "object": "执行顺序",
+      "context": "模块的执行顺序由其在模块层级树中的位置决定（从根到叶）",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "模块元数据",
+      "predicate": "存储",
+      "object": "共享参数",
+      "context": "元数据系统允许不同模块之间共享和访问全局参数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Python脚本",
+      "predicate": "访问",
+      "object": "模块化绑定API",
+      "context": "通过Python可以编程方式控制模块化绑定模型和控制器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜像功能",
+      "predicate": "加速",
+      "object": "对称模块创建",
+      "context": "镜像功能可以快速创建对称的身体部位模块（如左右手臂）",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T19:58:42.560Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (17508 字符)",
+      "timestamp": "2025-06-15T19:57:51.514Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 27942,
+    "contentLength": 17508,
+    "processingTimeMs": 51059
+  }
+}

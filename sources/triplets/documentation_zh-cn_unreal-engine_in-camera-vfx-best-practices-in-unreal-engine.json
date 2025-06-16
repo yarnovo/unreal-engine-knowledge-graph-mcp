@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_in-camera-vfx-best-practices-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_in-camera-vfx-best-practices-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "ICVFX",
+      "predicate": "面临挑战",
+      "object": "LED幕墙资产逼真度",
+      "context": "ICVFX开发中需要解决LED幕墙资产逼真度问题，这对学习虚拟制片技术至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX",
+      "predicate": "面临挑战",
+      "object": "场景实时性能优化",
+      "context": "ICVFX开发需要确保场景实时运行性能，这是学习实时渲染的关键知识点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX项目",
+      "predicate": "依赖",
+      "object": "nDisplay系统",
+      "context": "ICVFX项目通常使用nDisplay系统进行多视图渲染和同步，理解这种依赖关系对学习虚拟制片流程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD系统",
+      "predicate": "用于",
+      "object": "性能优化",
+      "context": "LOD系统通过在不同距离切换不同细节级别的模型来优化性能，这是学习实时渲染优化的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理网格体",
+      "predicate": "替代",
+      "object": "高精度模型",
+      "context": "代理网格体可以在远距离替代高精度模型，降低渲染开销，这对学习资产优化策略很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合并Actor",
+      "predicate": "减少",
+      "object": "绘制调用",
+      "context": "合并Actor可以减少绘制调用次数，这是学习渲染性能优化的关键技巧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质函数",
+      "predicate": "封装",
+      "object": "常用材质功能",
+      "context": "材质函数可以封装常用功能，便于材质维护和性能优化，这对学习材质系统很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光线追踪",
+      "predicate": "对比",
+      "object": "路径追踪",
+      "context": "理解光线追踪和路径追踪的区别对学习虚幻引擎渲染技术很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积雾",
+      "predicate": "替代方案",
+      "object": "常规雾效",
+      "context": "了解体积雾的性能开销和替代方案对学习场景氛围制作很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态光源",
+      "predicate": "性能影响",
+      "object": "光源复杂度",
+      "context": "理解动态光源的性能影响和光源复杂度视图对学习光照优化很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX制片测试项目",
+      "predicate": "提供",
+      "object": "推荐项目设置",
+      "context": "ICVFX制片测试项目提供了推荐的项目设置参考，这对学习ICVFX项目配置很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "用于",
+      "object": "性能分析",
+      "context": "Unreal Insights是分析nDisplay性能的重要工具，学习性能优化必须掌握",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟现实插件",
+      "predicate": "禁用",
+      "object": "ICVFX项目",
+      "context": "在ICVFX项目中通常需要禁用虚拟现实插件以减少资源占用，这是项目设置的重要知识点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "四边形过度绘制",
+      "predicate": "影响",
+      "object": "渲染性能",
+      "context": "理解四边形过度绘制对性能的影响是学习实时渲染优化的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质参数集合",
+      "predicate": "简化",
+      "object": "材质管理",
+      "context": "材质参数集合可以简化材质设置和管理，这对学习大规模项目材质管理很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU Lightmass",
+      "predicate": "使用",
+      "object": "光线追踪",
+      "context": "GPU Lightmass使用光线追踪进行全局光照计算，理解这种关系对学习光照烘焙很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态阴影",
+      "predicate": "优化方法",
+      "object": "代理几何体阴影",
+      "context": "使用代理几何体阴影是优化动态阴影性能的重要方法，学习阴影优化需要掌握",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Web远程控制",
+      "predicate": "用于",
+      "object": "片场实时操控",
+      "context": "Web远程控制功能可用于片场实时操控，这对学习虚拟制片工作流程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图像序列视图",
+      "predicate": "替代",
+      "object": "视频内容",
+      "context": "在ICVFX中图像序列视图比视频内容更适合确保多节点同步，这是学习动画实现的重要知识点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "舞台3D表示",
+      "predicate": "帮助",
+      "object": "场景搭建准确性",
+      "context": "在关卡中准确表示3D舞台有助于围绕舞台搭建场景，这对学习虚拟制片场景设计很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:34:48.053Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12934 字符)",
+      "timestamp": "2025-06-15T19:33:45.420Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 24096,
+    "contentLength": 12934,
+    "processingTimeMs": 62637
+  }
+}

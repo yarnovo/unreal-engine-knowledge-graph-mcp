@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_audiolink-reference-guide",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_audiolink-reference-guide.md",
+  "triples": [
+    {
+      "subject": "AudioLink",
+      "predicate": "基于",
+      "object": "IAudioLinkFactory",
+      "context": "所有AudioLink实现方案都需要一个从IAudioLinkFactory派生而来的工厂类，该类定义了实现方案的进入点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AudioLink",
+      "predicate": "使用",
+      "object": "IModularFeature",
+      "context": "AudioLink使用IModularFeature接口来拓展虚幻引擎，这是音频扩展最常用的接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IAudioLinkFactory",
+      "predicate": "包含",
+      "object": "纯虚拟函数",
+      "context": "IAudioLinkFactory包含数个纯虚拟函数，定义了实现方案的进入点，必须逐个实现这些函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AudioLink",
+      "predicate": "需要",
+      "object": "UAudioLinkSettingsAbstract",
+      "context": "所有AudioLink实现方案都需要一个从UAudioLinkSettingsAbstract派生而来的设置类，用于创建含有相关数据的链接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UAudioLinkSettingsAbstract",
+      "predicate": "实现",
+      "object": "IAudioLinkSettingsProxy",
+      "context": "AudioLink的设置项遵循代理设计的模式，因此可以安全地存在于通常执行音频的游戏线程之外",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IAudioLink",
+      "predicate": "由",
+      "object": "IAudioLinkFactory",
+      "context": "IAudioLink是IAudioLinkFactory使用的主要抽象，通常由TUniquePtr返回",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AudioLink",
+      "predicate": "挂钩",
+      "object": "IAudioMixerPlatformInterface",
+      "context": "当你用虚幻引擎注册AudioLink工厂时，AudioLink平台混音器将被实例化，并与AudioLink挂钩",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AudioLink",
+      "predicate": "使用",
+      "object": "IBufferedAudioOutput",
+      "context": "大部分AudioLink实例都使用由IBufferedAudioOutput派生的类来创建生产者对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IBufferedAudioOutput",
+      "predicate": "实现",
+      "object": "循环缓冲区",
+      "context": "IBufferedAudioOutput在内部充当脉冲编码调制（PCM）数据的循环缓冲区，等待由消费者对象排空",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AudioLink",
+      "predicate": "需要",
+      "object": "IAudioLinkSynchronizer",
+      "context": "AudioLink的每份实现都需要一个源自IAudioLinkSynchronizer的同步器类，承载用于设置各种回调的注册和删除的调用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IAudioLinkSynchronizer",
+      "predicate": "同步",
+      "object": "虚幻引擎和外部应用程序",
+      "context": "IAudioLinkSynchronizer会与另一个时钟源同步，从而让虚幻引擎和外部应用程序保持同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UAudioLinkSettingsAbstract",
+      "predicate": "序列化为",
+      "object": "资产",
+      "context": "虚幻引擎会将AudioLink的设置项序列化为资产，因此需要为设置类实现资产工厂",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UFactory",
+      "predicate": "用于创建",
+      "object": "UAudioLinkSettingsAbstract资产",
+      "context": "需要为UAudioLinkSettingsAbstract实现资产工厂，以便创建资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "源链接",
+      "predicate": "生命周期等于",
+      "object": "源的播放生命周期",
+      "context": "源链接的生命周期一般等于源的播放生命周期。播放一旦结束，源就会被删除，链接也随之断开",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子混音链接",
+      "predicate": "生命周期等于",
+      "object": "子混音运行时间",
+      "context": "子混音链接会在子混音运行时打开，而这通常为应用程序的运行时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:10:42.054Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10100 字符)",
+      "timestamp": "2025-06-15T18:09:41.596Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13796,
+    "contentLength": 10100,
+    "processingTimeMs": 60462
+  }
+}

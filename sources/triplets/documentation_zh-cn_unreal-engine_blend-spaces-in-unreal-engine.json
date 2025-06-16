@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_blend-spaces-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_blend-spaces-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "混合空间",
+      "predicate": "属于",
+      "object": "动画资产",
+      "context": "混合空间是一种资产类型，用于动画混合，属于虚幻引擎中的动画资产类别",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间",
+      "predicate": "用于",
+      "object": "动画混合",
+      "context": "混合空间的主要功能是混合多个动画或姿势，基于输入值在图表上的点之间进行混合计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间",
+      "predicate": "包含",
+      "object": "示例",
+      "context": "混合空间中沿图表上的各个点指定的动画称为示例，这些示例是混合的基础元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间",
+      "predicate": "引用",
+      "object": "动画蓝图",
+      "context": "混合空间可以在动画蓝图中进行引用，通过Gameplay输入或其他变量控制混合",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间",
+      "predicate": "分为",
+      "object": "混合空间1D",
+      "context": "混合空间有1D变体，用于单轴混合，图表仅提供水平轴",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间",
+      "predicate": "分为",
+      "object": "混合空间2D",
+      "context": "常规混合空间是2D图表，用于沿两个轴混合动画",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间",
+      "predicate": "分为",
+      "object": "瞄准偏移",
+      "context": "瞄准偏移是混合空间的特殊类型，专门用于创建武器或其他'看向'瞄准混合空间",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "瞄准偏移",
+      "predicate": "使用",
+      "object": "网格体空间叠加动画",
+      "context": "瞄准偏移包含网格体空间叠加动画作为其示例，用于创建瞄准空间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间",
+      "predicate": "依赖",
+      "object": "骨骼网格体",
+      "context": "创建混合空间的前提是项目中有骨骼网格体，并导入了各种动画序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间",
+      "predicate": "依赖",
+      "object": "动画序列",
+      "context": "混合空间需要动画序列作为输入，这些序列将被混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间",
+      "predicate": "设置",
+      "object": "轴设置",
+      "context": "混合空间需要定义轴的名称和值范围，这是混合空间的基本设置之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间",
+      "predicate": "包含",
+      "object": "混合图表",
+      "context": "混合图表是混合空间的主要交互面板，用于放置和操控动画示例，预览混合行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间",
+      "predicate": "包含",
+      "object": "资产细节",
+      "context": "资产细节面板包含混合空间的属性和其他设置，如轴设置、平滑时间等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间",
+      "predicate": "支持",
+      "object": "三角剖分",
+      "context": "混合空间支持三角剖分作为混合方法，提供更准确的混合结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间",
+      "predicate": "支持",
+      "object": "网格模式",
+      "context": "混合空间可以使用旧版网格模式进行混合，适用于特定混合布局",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间",
+      "predicate": "控制",
+      "object": "动画通知",
+      "context": "混合空间可以控制动画通知在多个示例之间混合时的触发模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间",
+      "predicate": "用于",
+      "object": "移动系统",
+      "context": "混合空间可以用于创建在方向性移动和空闲动画之间混合的移动系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间",
+      "predicate": "扩展",
+      "object": "动画蓝图功能",
+      "context": "通过在动画蓝图中引用混合空间，可以扩展动画蓝图的功能，实现复杂的动画混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间",
+      "predicate": "支持",
+      "object": "平滑时间",
+      "context": "混合空间支持平滑时间设置，用于控制不同输入之间混合的时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间",
+      "predicate": "支持",
+      "object": "平滑类型",
+      "context": "混合空间支持多种平滑类型，如线性、立方体、慢入/慢出等，用于控制混合的缓动函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:13:02.133Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13863 字符)",
+      "timestamp": "2025-06-15T18:11:57.315Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 21487,
+    "contentLength": 13863,
+    "processingTimeMs": 64827
+  }
+}

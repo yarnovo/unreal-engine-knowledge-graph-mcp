@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_setting-up-autocomplete-for-unreal-editor-python-scripting",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_setting-up-autocomplete-for-unreal-editor-python-scripting.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎Python插件",
+      "predicate": "生成",
+      "object": "Python存根文件",
+      "context": "Python存根文件是实现自动完成功能的基础，了解其生成机制有助于理解自动完成的实现原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "开发人员模式",
+      "predicate": "启用",
+      "object": "Python存根文件生成",
+      "context": "开发人员模式是生成Python存根文件的必要条件，学习者需要先掌握如何启用该模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PyCharm",
+      "predicate": "支持",
+      "object": "虚幻引擎Python脚本自动完成",
+      "context": "PyCharm是支持虚幻引擎Python脚本自动完成的IDE之一，了解其配置方法对开发者很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VSCode",
+      "predicate": "支持",
+      "object": "虚幻引擎Python脚本自动完成",
+      "context": "VSCode是另一个支持虚幻引擎Python脚本自动完成的IDE，配置方法与PyCharm不同",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入提示模式",
+      "predicate": "包含",
+      "object": "自动完成模式",
+      "context": "输入提示模式包含自动完成模式，这是最常用的模式，了解其特点有助于高效开发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入提示模式",
+      "predicate": "包含",
+      "object": "输入检查模式",
+      "context": "输入检查模式提供更严格的类型检查，适合需要高代码质量的开发场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器重启",
+      "predicate": "触发",
+      "object": "Python存根文件重新生成",
+      "context": "理解编辑器重启与存根文件更新的关系，有助于开发者保持开发环境的同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python存根文件",
+      "predicate": "用于",
+      "object": "IDE自动完成",
+      "context": "存根文件是IDE实现自动完成功能的基础数据源，理解这一关系有助于调试自动完成问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PEP 484",
+      "predicate": "定义",
+      "object": "Python类型提示标准",
+      "context": "PEP 484是Python类型提示的基础标准，了解它有助于理解虚幻引擎的输入提示实现",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻引擎Python插件",
+      "predicate": "实现",
+      "object": "Python类型提示",
+      "context": "插件实现了对Python类型提示的支持，这是自动完成功能的核心技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器偏好设置",
+      "predicate": "包含",
+      "object": "Python插件配置",
+      "context": "编辑器偏好设置是配置Python相关功能的主要入口，学习者需要熟悉其位置和选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动完成功能",
+      "predicate": "依赖",
+      "object": "Python存根文件",
+      "context": "理解自动完成功能对存根文件的依赖关系，有助于解决自动完成不工作的问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C++反射API",
+      "predicate": "影响",
+      "object": "Python类型提示准确性",
+      "context": "C++反射API的限制会影响Python类型提示的准确性，了解这一关系有助于理解自动完成的局限性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:44:23.385Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5380,
+    "contentLength": 3548,
+    "processingTimeMs": 51617
+  }
+}

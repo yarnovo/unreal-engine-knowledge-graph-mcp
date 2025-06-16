@@ -1,0 +1,237 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_compositing-passes-reference-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_compositing-passes-reference-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "合成通道",
+      "predicate": "包含",
+      "object": "输入通道",
+      "context": "合成通道分为输入、变换和输出三种类型，输入通道是其中一种基础类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成通道",
+      "predicate": "包含",
+      "object": "变换通道",
+      "context": "变换通道是合成通道的三种主要类型之一，负责图像处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成通道",
+      "predicate": "包含",
+      "object": "输出通道",
+      "context": "输出通道是合成通道的三种主要类型之一，定义处理结果的输出目的地",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入通道",
+      "predicate": "包含",
+      "object": "媒体纹理输入",
+      "context": "媒体纹理输入是输入通道的一种具体实现，用于视频输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入通道",
+      "predicate": "包含",
+      "object": "纹理输入",
+      "context": "纹理输入是输入通道的一种具体实现，用于静态纹理输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换通道",
+      "predicate": "包含",
+      "object": "自定义材质通道",
+      "context": "自定义材质通道是变换通道的一种，允许用户编写自定义材质进行合成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换通道",
+      "predicate": "包含",
+      "object": "后期处理通道集",
+      "context": "后期处理通道集是变换通道的一种，应用一组后期处理效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换通道",
+      "predicate": "包含",
+      "object": "色调映射",
+      "context": "色调映射是变换通道的一种，用于色彩空间转换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换通道",
+      "predicate": "包含",
+      "object": "多通道色度镶迭器",
+      "context": "多通道色度镶迭器是变换通道的一种，用于图像镶迭处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换通道",
+      "predicate": "包含",
+      "object": "多通道防溢出",
+      "context": "多通道防溢出是变换通道的一种，用于消除色度反弹",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输出通道",
+      "predicate": "包含",
+      "object": "媒体采集",
+      "context": "媒体采集是输出通道的一种，将结果转存到媒体采集目标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输出通道",
+      "predicate": "包含",
+      "object": "图像序列",
+      "context": "图像序列是输出通道的一种，将帧保存为.EXR图像文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输出通道",
+      "predicate": "包含",
+      "object": "玩家视口",
+      "context": "玩家视口是输出通道的一种，接管游戏中的玩家视口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输出通道",
+      "predicate": "包含",
+      "object": "渲染目标资源",
+      "context": "渲染目标资源是输出通道的一种，将结果写入渲染目标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成通道",
+      "predicate": "支持",
+      "object": "蓝图设置",
+      "context": "合成通道可以通过蓝图进行自定义设置，扩展功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体纹理输入",
+      "predicate": "依赖",
+      "object": "媒体纹理",
+      "context": "媒体纹理输入通道需要引用媒体纹理资源才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义材质通道",
+      "predicate": "支持",
+      "object": "材质引用",
+      "context": "自定义材质通道允许在材质中引用其他元素/通道，是合成系统的核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理通道集",
+      "predicate": "应用",
+      "object": "后期处理效果",
+      "context": "后期处理通道集专门用于应用一组后期处理效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "色调映射",
+      "predicate": "转换",
+      "object": "色彩空间",
+      "context": "色调映射通道负责将图像从线性色彩空间转换回图像空间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多通道色度镶迭器",
+      "predicate": "使用",
+      "object": "镶迭颜色",
+      "context": "色度镶迭器通过指定镶迭颜色来实现图像透明化处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多通道防溢出",
+      "predicate": "消除",
+      "object": "色度反弹",
+      "context": "防溢出通道专门用于消除图像中的色度反弹现象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体采集",
+      "predicate": "输出到",
+      "object": "媒体采集目标",
+      "context": "媒体采集通道将处理结果转存到指定的媒体采集目标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图像序列",
+      "predicate": "保存为",
+      "object": "EXR图像文件",
+      "context": "图像序列通道将每帧渲染结果保存为.EXR格式的图像文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家视口",
+      "predicate": "替换",
+      "object": "游戏视口",
+      "context": "玩家视口通道可以接管并替换游戏中的默认玩家视口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染目标资源",
+      "predicate": "写入",
+      "object": "渲染目标",
+      "context": "渲染目标资源通道将处理结果写入指定的渲染目标资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多通道色度镶迭器",
+      "predicate": "关联",
+      "object": "多通道防溢出",
+      "context": "色度镶迭器和防溢出通道通常配合使用，共同完成色度处理工作流",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "媒体采集",
+      "predicate": "执行",
+      "object": "颜色转换",
+      "context": "媒体采集通道在输出前会执行颜色转换变换",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "玩家视口",
+      "predicate": "执行",
+      "object": "颜色转换",
+      "context": "玩家视口通道在显示前会执行颜色转换变换",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:31:01.341Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10042,
+    "contentLength": 6953,
+    "processingTimeMs": 90006
+  }
+}

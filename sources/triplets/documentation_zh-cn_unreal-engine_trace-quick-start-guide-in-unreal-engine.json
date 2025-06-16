@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_trace-quick-start-guide-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_trace-quick-start-guide-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Unreal Insights",
+      "predicate": "用于",
+      "object": "性能分析",
+      "context": "Unreal Insights是虚幻引擎的性能分析工具，帮助开发者分析项目性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "包含",
+      "object": "Timing Insights",
+      "context": "Timing Insights是Unreal Insights的核心组件，用于分析时间数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "支持",
+      "object": "Trace会话",
+      "context": "Unreal Insights可以连接和记录Trace会话，用于性能数据收集",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace会话",
+      "predicate": "生成",
+      "object": ".utrace文件",
+      "context": "Trace会话会生成.utrace文件，包含性能分析数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "支持",
+      "object": "延迟连接",
+      "context": "Unreal Insights支持在项目运行后连接，实现延迟性能分析",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace指令",
+      "predicate": "控制",
+      "object": "Trace会话",
+      "context": "Trace指令如Trace.Stop可以控制Trace会话的行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Timing Insights",
+      "predicate": "显示",
+      "object": "Bookmark事件",
+      "context": "Timing Insights可以显示通过Trace.Bookmark指令创建的Bookmark事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "依赖",
+      "object": "虚幻编辑器",
+      "context": "Unreal Insights可以通过虚幻编辑器的菜单启动",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "支持",
+      "object": "多种启动方式",
+      "context": "Unreal Insights可以通过文件资源管理器、Visual Studio、命令提示符等多种方式启动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace会话",
+      "predicate": "记录",
+      "object": "性能数据",
+      "context": "Trace会话用于记录CPU、GPU等性能数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "分析",
+      "object": "性能数据",
+      "context": "Unreal Insights的主要功能是分析Trace会话记录的性能数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace指令",
+      "predicate": "包括",
+      "object": "Trace.SnapshotFile",
+      "context": "Trace.SnapshotFile是Trace指令之一，用于创建跟踪缓冲区快照",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace指令",
+      "predicate": "包括",
+      "object": "Trace.Bookmark",
+      "context": "Trace.Bookmark指令用于在Timing Insights中创建标记事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace指令",
+      "predicate": "包括",
+      "object": "Trace.Screenshot",
+      "context": "Trace.Screenshot指令用于创建带有屏幕截图的标记事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "提供",
+      "object": "会话浏览器",
+      "context": "Unreal Insights提供会话浏览器界面来管理Trace会话",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lyra样板游戏",
+      "predicate": "用于",
+      "object": "Trace测试",
+      "context": "文档中使用Lyra样板游戏作为Trace功能测试的示例",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Trace.Status",
+      "predicate": "显示",
+      "object": "Trace通道状态",
+      "context": "Trace.Status指令可以显示当前启用的Trace通道状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认Trace通道",
+      "predicate": "包括",
+      "object": "Gpu通道",
+      "context": "Gpu通道是默认启用的Trace通道之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认Trace通道",
+      "predicate": "包括",
+      "object": "Cpu通道",
+      "context": "Cpu通道是默认启用的Trace通道之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认Trace通道",
+      "predicate": "包括",
+      "object": "Frame通道",
+      "context": "Frame通道是默认启用的Trace通道之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:03:12.839Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8206 字符)",
+      "timestamp": "2025-06-15T21:02:21.328Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 10718,
+    "contentLength": 8206,
+    "processingTimeMs": 51515
+  }
+}

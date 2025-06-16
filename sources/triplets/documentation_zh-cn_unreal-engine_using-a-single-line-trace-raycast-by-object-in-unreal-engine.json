@@ -1,0 +1,85 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-a-single-line-trace-raycast-by-object-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-a-single-line-trace-raycast-by-object-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "LineTraceForObjects",
+      "predicate": "替代",
+      "object": "LineTraceByChannel",
+      "context": "LineTraceForObjects节点可以替代LineTraceByChannel节点来实现基于物体类型的射线检测",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LineTraceForObjects",
+      "predicate": "依赖",
+      "object": "Make Array节点",
+      "context": "LineTraceForObjects需要通过Make Array节点来指定要检测的物体类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LineTraceForObjects",
+      "predicate": "检测",
+      "object": "WorldDynamic物体",
+      "context": "LineTraceForObjects可以专门用于检测WorldDynamic类型的物体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LineTraceForObjects",
+      "predicate": "属于",
+      "object": "射线检测技术",
+      "context": "LineTraceForObjects是虚幻引擎中射线检测技术的一种实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "LineTraceForObjects",
+      "predicate": "前置",
+      "object": "LineTraceByChannel",
+      "context": "理解LineTraceByChannel是学习LineTraceForObjects的前提",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "射线检测",
+      "predicate": "应用于",
+      "object": "物理系统",
+      "context": "射线检测是物理系统中常用的技术手段",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "射线检测",
+      "predicate": "应用于",
+      "object": "游戏玩法",
+      "context": "射线检测常用于实现各种游戏玩法功能",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "WorldDynamic",
+      "predicate": "属于",
+      "object": "物体类型",
+      "context": "WorldDynamic是虚幻引擎中定义的一种物体类型分类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Make Array节点",
+      "predicate": "用于",
+      "object": "物体类型指定",
+      "context": "Make Array节点用于指定LineTraceForObjects要检测的物体类型集合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:13:53.817Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3165,
+    "contentLength": 2625,
+    "processingTimeMs": 24630
+  }
+}

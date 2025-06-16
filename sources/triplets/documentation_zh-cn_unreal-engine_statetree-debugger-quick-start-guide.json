@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_statetree-debugger-quick-start-guide",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_statetree-debugger-quick-start-guide.md",
+  "triples": [
+    {
+      "subject": "StateTree调试器",
+      "predicate": "监控",
+      "object": "StateTree运行时行为",
+      "context": "StateTree调试器的主要功能是监控和记录StateTree的运行时行为，帮助开发者诊断问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StateTree调试器",
+      "predicate": "依赖",
+      "object": "TraceServices",
+      "context": "StateTree调试器使用虚幻引擎的TraceServices来生成和分析追踪事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StateTree调试器",
+      "predicate": "支持",
+      "object": "编辑器会话",
+      "context": "StateTree调试器支持在编辑器会话中实时调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StateTree调试器",
+      "predicate": "支持",
+      "object": "远程会话",
+      "context": "StateTree调试器支持在远程会话（如独立安装程序、客户端、服务器）中实时调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StateTree调试器",
+      "predicate": "包含",
+      "object": "调试器选项卡",
+      "context": "调试器选项卡是StateTree调试器的一部分，提供详细的运行时信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试器选项卡",
+      "predicate": "提供",
+      "object": "运行时信息",
+      "context": "调试器选项卡用于跟踪StateTree的执行并在暂停期间获取变量数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StateTree调试器",
+      "predicate": "支持",
+      "object": "断点",
+      "context": "StateTree调试器允许在进入或退出状态和任务时添加断点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StateTree调试器",
+      "predicate": "支持",
+      "object": "条件调试",
+      "context": "StateTree调试器允许强制执行条件检查的结果，用于测试目的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StateTree调试器",
+      "predicate": "支持",
+      "object": "状态启用/禁用",
+      "context": "StateTree调试器允许启用或禁用状态树中的特定状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StateTree调试器",
+      "predicate": "支持",
+      "object": "任务启用/禁用",
+      "context": "StateTree调试器允许启用或禁用状态中的特定任务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StateTree调试器",
+      "predicate": "基于",
+      "object": "追踪分析器",
+      "context": "StateTree调试器在追踪分析器和追踪提供程序的基础上创建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StateTree调试器",
+      "predicate": "关联",
+      "object": "StateTree资产",
+      "context": "StateTree调试器收集与特定StateTree资产关联的一个或多个实例的相关事件",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试器选项卡",
+      "predicate": "包含",
+      "object": "时间轴",
+      "context": "调试器选项卡的时间轴显示了可用执行及其激活状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试器选项卡",
+      "predicate": "包含",
+      "object": "细节面板",
+      "context": "调试器选项卡的细节面板显示了有关所选执行的激活状态的执行详情",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StateTree调试器",
+      "predicate": "前置",
+      "object": "StateTree快速入门指南",
+      "context": "完成StateTree快速入门指南是先决条件，以便理解StateTree调试器的示例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:54:29.272Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11213,
+    "contentLength": 7359,
+    "processingTimeMs": 45277
+  }
+}

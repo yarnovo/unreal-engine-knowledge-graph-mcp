@@ -1,0 +1,155 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_clothing-tool-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_clothing-tool-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎布料工具",
+      "predicate": "基于",
+      "object": "Chaos布料解算器",
+      "context": "Chaos布料解算器是虚幻引擎布料工具的底层实现，理解这一关系有助于了解布料模拟的技术基础",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Chaos布料解算器",
+      "predicate": "实现",
+      "object": "布料粒子模拟",
+      "context": "Chaos布料解算器负责处理布料粒子模拟的核心计算，这是布料物理效果的基础",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "布料绘制流程",
+      "predicate": "包含",
+      "object": "分段选择",
+      "context": "分段选择是布料绘制流程的第一步，用于选择要绘制布料的网格部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "布料绘制流程",
+      "predicate": "包含",
+      "object": "布料绘制面板",
+      "context": "布料绘制面板提供了绘制布料所需的所有工具和属性，是布料绘制流程的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "布料资产",
+      "predicate": "应用于",
+      "object": "骨架网格体",
+      "context": "布料资产需要指定给骨架网格体才能发挥作用，理解这一关系对布料设置流程很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理资产",
+      "predicate": "影响",
+      "object": "布料模拟碰撞",
+      "context": "物理资产用于确保布料模拟产生适当的碰撞效果，这对角色布料模拟特别重要",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "布料绘制工具",
+      "predicate": "包含",
+      "object": "笔刷工具",
+      "context": "笔刷工具是布料绘制的基本工具之一，用于直接在布料上绘制响应值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "布料绘制工具",
+      "predicate": "包含",
+      "object": "梯度工具",
+      "context": "梯度工具用于在布料值之间创建渐变效果，扩展了布料表现的可能性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "布料绘制工具",
+      "predicate": "包含",
+      "object": "平滑工具",
+      "context": "平滑工具用于柔化布料值之间的过渡，可以创建更自然的布料效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "布料绘制工具",
+      "predicate": "包含",
+      "object": "填充工具",
+      "context": "填充工具用于快速替换布料区域的值，提高工作效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "布料配置",
+      "predicate": "控制",
+      "object": "布料材质表现",
+      "context": "通过调整布料配置可以模拟不同类型的布料材质，如粗麻布或橡胶等",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "遮罩",
+      "predicate": "用于",
+      "object": "布料参数交换",
+      "context": "遮罩系统允许快速测试不同的布料参数配置，是非破坏性的工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "从骨架网格体复制布料",
+      "predicate": "简化",
+      "object": "布料设置流程",
+      "context": "此功能可以复用已有布料设置，显著提高相似角色布料设置的工作效率",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "布料预览",
+      "predicate": "用于",
+      "object": "实时查看布料效果",
+      "context": "布料预览功能(H键)让开发者可以实时查看布料模拟效果，加速迭代过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绘制值",
+      "predicate": "控制",
+      "object": "布料响应程度",
+      "context": "绘制值决定了布料顶点从原始位置移动的程度，是布料表现的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体编辑器",
+      "predicate": "提供",
+      "object": "布料工具界面",
+      "context": "骨架网格体编辑器是访问和使用布料工具的主要界面",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "布料工作流程",
+      "predicate": "支持",
+      "object": "实时编辑与测试",
+      "context": "虚幻引擎的布料工作流程允许在编辑器中直接完成所有工作并实时查看效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:25:00.423Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11928 字符)",
+      "timestamp": "2025-06-15T18:23:33.507Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17018,
+    "contentLength": 11928,
+    "processingTimeMs": 86927
+  }
+}

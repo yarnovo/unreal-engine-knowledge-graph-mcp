@@ -1,0 +1,131 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-engine-material-editor-user-guide",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-engine-material-editor-user-guide.md",
+  "triples": [
+    {
+      "subject": "材质编辑器",
+      "predicate": "用于创建",
+      "object": "材质",
+      "context": "材质编辑器是创建和编辑材质的核心工具，理解这一关系是学习材质制作的基础",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "材质",
+      "predicate": "定义",
+      "object": "表面属性",
+      "context": "材质的核心功能是定义对象的表面外观属性，这是理解材质作用的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质表达式",
+      "predicate": "组成",
+      "object": "材质网络",
+      "context": "材质表达式是构建材质网络的基本单元，理解这一关系有助于掌握材质构建方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主材质节点",
+      "predicate": "接收输入",
+      "object": "材质表达式",
+      "context": "主材质节点是材质输出的终点，需要连接各种材质表达式来定义最终效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "实时更新选项",
+      "predicate": "控制",
+      "object": "预览效果",
+      "context": "实时更新选项决定了材质编辑过程中的预览行为，影响工作效率",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "编译器错误",
+      "predicate": "指示",
+      "object": "材质问题",
+      "context": "编译器错误帮助开发者识别和解决材质网络中的问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质图表搜索",
+      "predicate": "帮助定位",
+      "object": "材质节点",
+      "context": "搜索功能是管理复杂材质网络的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "材质创建流程",
+      "predicate": "包含步骤",
+      "object": "编译材质",
+      "context": "编译是材质创建的必要步骤，使更改生效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质",
+      "predicate": "应用于",
+      "object": "关卡对象",
+      "context": "最终目的是将创建好的材质应用到场景对象上",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质编辑器UI",
+      "predicate": "提供",
+      "object": "编辑功能",
+      "context": "UI界面提供了材质编辑所需的各种工具和面板",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "材质函数",
+      "predicate": "扩展",
+      "object": "材质功能",
+      "context": "材质函数可以封装复杂逻辑，提高材质复用性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "实时节点",
+      "predicate": "属于",
+      "object": "实时更新选项",
+      "context": "实时节点是实时更新功能的一部分，影响基于时间的节点行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "统计数据窗口",
+      "predicate": "显示",
+      "object": "编译器错误",
+      "context": "该窗口是查看编译错误信息的重要途径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质基本概念",
+      "predicate": "前置知识",
+      "object": "材质编辑器指南",
+      "context": "理解基本概念是有效使用材质编辑器的前提",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T21:09:11.094Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8704 字符)",
+      "timestamp": "2025-06-15T21:08:33.781Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13360,
+    "contentLength": 8704,
+    "processingTimeMs": 37320
+  }
+}

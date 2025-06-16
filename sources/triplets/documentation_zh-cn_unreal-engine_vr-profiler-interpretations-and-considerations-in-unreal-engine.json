@@ -1,0 +1,101 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_vr-profiler-interpretations-and-considerations-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_vr-profiler-interpretations-and-considerations-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "VR分析工具",
+      "predicate": "提供",
+      "object": "VR性能数据",
+      "context": "VR分析工具用于获取项目在VR中的执行数据，帮助开发者了解性能表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU分析工具",
+      "predicate": "可能出现",
+      "object": "延迟",
+      "context": "在GPU分析工具中，遮蔽或场景图表遍历时可能出现延迟，影响性能分析",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CPU分析工具",
+      "predicate": "可能出现",
+      "object": "延迟",
+      "context": "在CPU分析工具中，遮蔽或场景图表遍历时可能出现延迟，影响性能分析",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "帧率",
+      "predicate": "受限于",
+      "object": "合成器",
+      "context": "合成器的作用类似于垂直同步，会影响帧率的稳定性，导致帧率在90Hz和45Hz之间跳动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成器",
+      "predicate": "类似于",
+      "object": "垂直同步",
+      "context": "合成器的作用与垂直同步相似，会影响帧率的稳定性",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模拟立体渲染",
+      "predicate": "用于",
+      "object": "测试VR性能",
+      "context": "通过模拟立体渲染可以测试GPU和CPU性能特征，避免实际设备中的帧率变化问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "命令行参数",
+      "predicate": "用于",
+      "object": "模拟立体渲染",
+      "context": "通过命令行参数如`-game -emulatestereo -res=2160x1200`可以启动模拟立体渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.vsync 0",
+      "predicate": "关闭",
+      "object": "垂直同步",
+      "context": "在控制台中输入`r.vsync 0`可以关闭垂直同步，避免其对帧率的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.screenpercentage 137",
+      "predicate": "模拟",
+      "object": "VR过度采样",
+      "context": "在控制台中输入`r.screenpercentage 137`可以模拟VR中的过度采样效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "帧率大跌",
+      "predicate": "可能由",
+      "object": "合成器问题",
+      "context": "如果帧率在修改后大幅下降，可能是由于合成器的垂直同步问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR性能测试",
+      "predicate": "相关于",
+      "object": "VR分析解译",
+      "context": "VR性能测试与VR分析解译是相关的文档，共同帮助开发者优化VR项目性能",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:31:16.027Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2489,
+    "contentLength": 1473,
+    "processingTimeMs": 32715
+  }
+}

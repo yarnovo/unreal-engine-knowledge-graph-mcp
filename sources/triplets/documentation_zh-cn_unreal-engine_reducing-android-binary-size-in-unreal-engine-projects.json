@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_reducing-android-binary-size-in-unreal-engine-projects",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_reducing-android-binary-size-in-unreal-engine-projects.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "安卓二进制文件大小优化",
+      "context": "文档详细介绍了虚幻引擎中用于优化安卓二进制文件大小的各种工具和方法，帮助开发者理解引擎的相关功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE5",
+      "predicate": "升级",
+      "object": "编译器和连接器标记",
+      "context": "UE5相比UE4升级了编译器和连接器标记，用于清除无效和重复的代码，帮助学习者理解版本间的改进",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高级二进制文件优化",
+      "predicate": "需要",
+      "object": "手动启用",
+      "context": "高级优化需要手动在配置文件中启用，这对学习者理解优化功能的启用方式很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "安卓SDK 23或更高",
+      "predicate": "支持",
+      "object": "GNU哈希",
+      "context": "使用SDK 23或更高版本的项目将使用新的GNU哈希ELF部分，提供更好的性能和更短的启动时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "安卓SDK 23或更高",
+      "predicate": "支持",
+      "object": "APS重定位表压缩",
+      "context": "APS重定位表压缩是Android特有的压缩格式，能显著减少重定位表的大小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "APK压缩",
+      "predicate": "影响",
+      "object": ".so二进制文件加载",
+      "context": "启用APK压缩会影响.so二进制文件的加载方式，学习者需要理解这种权衡关系",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "安卓SDK 28或更高",
+      "predicate": "支持",
+      "object": "RELR重定位表压缩",
+      "context": "RELR重定位表压缩比APS更高效，能大幅减少二进制大小并提供更好性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Google Play资产交付",
+      "predicate": "用于",
+      "object": "分离资产与二进制文件",
+      "context": "内容分发系统如Google Play资产交付可以将资产与二进制文件分开，显著缩小核心可执行文件大小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ChunkDownloader",
+      "predicate": "用于",
+      "object": "游戏补丁分发",
+      "context": "ChunkDownloader可用于分发游戏补丁，与二进制文件优化相关",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "包含",
+      "object": "安卓平台选项",
+      "context": "开发者可以在项目设置的安卓平台选项中配置SDK版本等参数，这对学习配置过程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RELR重定位表压缩",
+      "predicate": "优于",
+      "object": "APS重定位表压缩",
+      "context": "RELR比APS更高效，能提供更好的性能和更小的二进制大小，帮助学习者理解优化技术的演进",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "bExtractNativeLibs",
+      "predicate": "控制",
+      "object": "APK压缩行为",
+      "context": "该配置变量决定是否启用APK压缩，直接影响二进制文件的加载方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动应用商店",
+      "predicate": "限制",
+      "object": "APK和OBB安装包大小",
+      "context": "理解应用商店的限制是进行二进制优化的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:34:29.627Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6258,
+    "contentLength": 4176,
+    "processingTimeMs": 41534
+  }
+}

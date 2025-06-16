@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_compositing-material-nodes-reference-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_compositing-material-nodes-reference-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "合成材质节点",
+      "predicate": "需要",
+      "object": "float4输入",
+      "context": "合成材质节点需要RGBA通道的输入，而不仅仅是RGB，这对理解节点输入要求很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Over节点",
+      "predicate": "实现",
+      "object": "图像叠加",
+      "context": "Over节点使用输入A的alpha将一个图像叠加到另一个图像上，是合成操作的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "In节点",
+      "predicate": "返回",
+      "object": "A在B形状内部的部分",
+      "context": "In节点用于获取一个图像在另一个图像形状内部的部分，理解其功能有助于合成操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Out节点",
+      "predicate": "返回",
+      "object": "A在B形状外部的部分",
+      "context": "Out节点与In节点功能相反，理解两者有助于掌握形状遮罩操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PreMult节点",
+      "predicate": "执行",
+      "object": "RGBA通道乘以alpha",
+      "context": "PreMult节点用于预乘alpha通道，是合成操作中的重要预处理步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnPreMult节点",
+      "predicate": "执行",
+      "object": "RGBA通道除以alpha",
+      "context": "UnPreMult节点是PreMult的反操作，理解两者关系有助于掌握alpha处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "KeyMix节点",
+      "predicate": "使用",
+      "object": "遮罩叠加图像",
+      "context": "KeyMix节点通过指定遮罩将两个图像叠加，是高级合成技术的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PreMult节点",
+      "predicate": "与",
+      "object": "UnPreMult节点",
+      "context": "PreMult和UnPreMult节点是互逆操作，理解这对节点有助于掌握alpha通道处理",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "In节点",
+      "predicate": "与",
+      "object": "Out节点",
+      "context": "In和Out节点是互补操作，同时学习有助于掌握形状遮罩技术",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成材质节点",
+      "predicate": "包含",
+      "object": "Over节点",
+      "context": "Over节点是合成材质节点的一种，了解节点分类有助于系统学习",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成材质节点",
+      "predicate": "包含",
+      "object": "In节点",
+      "context": "In节点是合成材质节点的一种，了解节点分类有助于系统学习",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成材质节点",
+      "predicate": "包含",
+      "object": "Out节点",
+      "context": "Out节点是合成材质节点的一种，了解节点分类有助于系统学习",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成材质节点",
+      "predicate": "包含",
+      "object": "PreMult节点",
+      "context": "PreMult节点是合成材质节点的一种，了解节点分类有助于系统学习",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成材质节点",
+      "predicate": "包含",
+      "object": "UnPreMult节点",
+      "context": "UnPreMult节点是合成材质节点的一种，了解节点分类有助于系统学习",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成材质节点",
+      "predicate": "包含",
+      "object": "KeyMix节点",
+      "context": "KeyMix节点是合成材质节点的一种，了解节点分类有助于系统学习",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Over节点",
+      "predicate": "需要",
+      "object": "预乘alpha的图像",
+      "context": "Over节点需要输入颜色通道预乘图像的alpha，这是使用该节点的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:30:27.561Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3186,
+    "contentLength": 2604,
+    "processingTimeMs": 56227
+  }
+}

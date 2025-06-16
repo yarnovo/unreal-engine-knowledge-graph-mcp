@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_material-blend-modes-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_material-blend-modes-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "材质混合模式",
+      "predicate": "控制",
+      "object": "材质输出与背景混合方式",
+      "context": "混合模式决定了材质如何与帧缓冲区中的内容混合，是材质渲染的核心控制机制",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "不透明混合模式",
+      "predicate": "适用于",
+      "object": "固体表面材质",
+      "context": "适合塑料、金属、岩石等完全不透明表面的渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "遮罩混合模式",
+      "predicate": "用于",
+      "object": "二元可视性控制",
+      "context": "通过黑白遮罩纹理实现像素级的可见性控制，适合铁丝网等需要硬边透明的材质",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "不透明遮罩裁剪值",
+      "predicate": "决定",
+      "object": "遮罩剔除阈值",
+      "context": "该参数设置遮罩纹理中像素被剔除的分界点，是遮罩混合模式的关键控制参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "半透明混合模式",
+      "predicate": "支持",
+      "object": "渐变透明度",
+      "context": "允许通过灰度值控制不同级别的透明度，适合玻璃等需要平滑过渡的透明效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "半透明混合模式",
+      "predicate": "不支持",
+      "object": "镜面反射",
+      "context": "这是半透明材质的重要限制，开发者需要通过立方体贴图等替代方案模拟反射效果",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "叠加混合模式",
+      "predicate": "适用于",
+      "object": "特殊效果",
+      "context": "通过颜色相加的特性，特别适合火焰、蒸汽、全息图等发光效果的表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调制混合模式",
+      "predicate": "实现",
+      "object": "颜色相乘效果",
+      "context": "通过像素相乘产生变暗效果，类似Photoshop的正片叠底模式，适合某些粒子效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AlphaComposite混合模式",
+      "predicate": "优化",
+      "object": "明亮场景可视性",
+      "context": "通过特殊的混合计算方式，解决了叠加模式在亮背景下可视性差的问题",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "AlphaHoldout混合模式",
+      "predicate": "用于",
+      "object": "视图空间打孔",
+      "context": "通过在背景材质上创建透明孔洞的特殊效果，需要配合特定类型的接收材质使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质混合模式",
+      "predicate": "位于",
+      "object": "材质细节面板",
+      "context": "所有混合模式的设置都在材质编辑器的Details面板中进行配置",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "遮罩混合模式",
+      "predicate": "性能更高",
+      "object": "半透明混合模式",
+      "context": "由于遮罩模式完全剔除不需要渲染的像素，相比半透明模式有更好的性能表现",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "混合模式",
+      "predicate": "影响",
+      "object": "光照兼容性",
+      "context": "不同混合模式对动态光照的支持程度不同，这是选择混合模式时的重要考量因素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质混合模式",
+      "predicate": "关联",
+      "object": "材质属性",
+      "context": "混合模式需要与其他材质属性如着色模型等配合使用，共同决定最终渲染效果",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "分层材质",
+      "predicate": "替代方案",
+      "object": "复杂混合需求",
+      "context": "当单一混合模式无法满足需求时，可以通过分层材质组合多种混合效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:51:06.054Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11384 字符)",
+      "timestamp": "2025-06-15T19:49:50.485Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16744,
+    "contentLength": 11384,
+    "processingTimeMs": 75573
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_use-clang-to-build-microsoft-platforms-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_use-clang-to-build-microsoft-platforms-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "Clang",
+      "context": "虚幻引擎支持使用Clang编译器在Windows上构建Microsoft平台项目，为开发者提供了替代MSVC的选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Clang",
+      "predicate": "替代",
+      "object": "MSVC",
+      "context": "Clang可以作为MSVC编译器的替代品，用于编译C、C++等代码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Clang",
+      "predicate": "包含",
+      "object": "Clang连接器",
+      "context": "Clang编译器包含Clang连接器组件，但Epic未对Microsoft平台进行相关测试",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "构建Microsoft平台",
+      "predicate": "依赖",
+      "object": "工具链版本",
+      "context": "构建Microsoft平台时需要指定MSVC工具链版本，这是构建过程的重要依赖项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启用Clang",
+      "predicate": "通过",
+      "object": "构建配置",
+      "context": "开发者可以通过修改BuildConfiguration.xml文件中的构建配置来启用Clang",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启用Clang",
+      "predicate": "通过",
+      "object": "命令行参数",
+      "context": "开发者可以通过在命令行中添加-Compiler=Clang参数来启用Clang",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启用Clang",
+      "predicate": "通过",
+      "object": "引擎配置",
+      "context": "开发者可以通过修改DefaultEngine.ini等引擎配置文件来启用Clang",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Clang编译器版本",
+      "predicate": "指定",
+      "object": "构建配置",
+      "context": "可以在构建配置中指定使用的Clang编译器版本，如Latest或具体版本号",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MSVC版本",
+      "predicate": "影响",
+      "object": "工具链选择",
+      "context": "MSVC版本的选择决定了使用的工具链，如VisualStudio2022",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "工具链版本",
+      "predicate": "包含",
+      "object": "预览版本",
+      "context": "工具链版本选项包含预览版本，允许开发者使用最新的预览功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "构建配置",
+      "predicate": "关联",
+      "object": "Windows平台",
+      "context": "构建配置文件中包含专门针对Windows平台的配置选项",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "命令行参数",
+      "predicate": "关联",
+      "object": "ClangLinker",
+      "context": "可以通过命令行参数-ClangLinker来控制是否使用Clang连接器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "引擎配置",
+      "predicate": "关联",
+      "object": "WindowsTargetSettings",
+      "context": "引擎配置中与Clang相关的设置位于WindowsTargetSettings部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Clang",
+      "predicate": "支持",
+      "object": "C++",
+      "context": "Clang支持编译C++代码，这是其在虚幻引擎中使用的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎5.6",
+      "predicate": "支持",
+      "object": "Clang16",
+      "context": "自UE5.3起，支持的最新Clang版本为Clang16",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:13:14.490Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7929,
+    "contentLength": 6389,
+    "processingTimeMs": 41003
+  }
+}

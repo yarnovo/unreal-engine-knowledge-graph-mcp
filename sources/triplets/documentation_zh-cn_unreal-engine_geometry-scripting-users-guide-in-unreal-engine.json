@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_geometry-scripting-users-guide-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_geometry-scripting-users-guide-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "几何体脚本",
+      "predicate": "是",
+      "object": "虚幻引擎插件",
+      "context": "几何体脚本是虚幻引擎的一个插件，包含一组函数库，可以通过蓝图和Python生成并编辑网格体几何体。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体脚本",
+      "predicate": "操作",
+      "object": "UDynamicMesh",
+      "context": "几何体脚本的UFunctions和蓝图节点对UDynamicMesh对象进行操作，这是使用FDynamicMesh3 C++三角形网格体数据结构创建的对象。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体脚本",
+      "predicate": "用于",
+      "object": "编辑器工具控件",
+      "context": "可以在编辑器工具控件中使用几何体脚本创建自定义网格体分析、处理和编辑工具。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体脚本",
+      "predicate": "用于",
+      "object": "资产操作",
+      "context": "可以在资产操作中使用几何体脚本创建自定义网格体分析、处理和编辑工具。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体脚本",
+      "predicate": "用于",
+      "object": "Actor蓝图",
+      "context": "可以在Actor蓝图中使用几何体脚本来创建程序化对象并实现复杂的结合体查询。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UDynamicMesh",
+      "predicate": "基于",
+      "object": "FDynamicMesh3",
+      "context": "UDynamicMesh是使用FDynamicMesh3 C++三角形网格体数据结构创建的对象。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UDynamicMesh",
+      "predicate": "不同于",
+      "object": "UStaticMesh",
+      "context": "UDynamicMesh不是资产，而UStaticMesh是资产。UDynamicMeshComponent拥有其UDynamicMesh，而不是在多个组件之间共享。",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UDynamicMeshComponent",
+      "predicate": "类似于",
+      "object": "UProceduralMeshComponent",
+      "context": "UDynamicMeshComponent类似于UProceduralMeshComponent，但它受UDynamicMesh支持，可以通过几何体脚本进行操控。",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ADynamicMeshActor",
+      "predicate": "类似于",
+      "object": "AStaticMeshActor",
+      "context": "ADynamicMeshActor类似于AStaticMeshActor之处在于，它基本上是UDynamicMeshComponent的容器。",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AGeneratedDynamicMeshActor",
+      "predicate": "继承自",
+      "object": "ADynamicMeshActor",
+      "context": "AGeneratedDynamicMeshActor是ADynamicMeshActor的子类，提供了实现基于蓝图的程序化网格体Actor的额外支持。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体脚本",
+      "predicate": "依赖",
+      "object": "几何体框架",
+      "context": "几何体脚本插件依赖于几何体框架引擎模块中的UDynamicMesh、UDynamicMeshComponent和ADynamicMeshActor等类。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体脚本",
+      "predicate": "支持",
+      "object": "蓝图",
+      "context": "几何体脚本可以通过蓝图生成并编辑网格体几何体，提供了在蓝图中创建程序化网格体的能力。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体脚本",
+      "predicate": "支持",
+      "object": "Python",
+      "context": "几何体脚本可以通过Python生成并编辑网格体几何体，提供了通过脚本进行网格体资产查询和编辑操作的能力。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UDynamicMeshPool",
+      "predicate": "用于",
+      "object": "临时网格体管理",
+      "context": "UDynamicMeshPool用于管理临时网格体的创建和释放，可以在多次运行之间复用网格体，提高效率。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体脚本",
+      "predicate": "用于",
+      "object": "程序化网格体生成",
+      "context": "几何体脚本可以用于在Actor蓝图中创建程序化网格体，例如通过Generated Dynamic Mesh Actor的BP子类。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UDynamicMeshComponent",
+      "predicate": "不支持",
+      "object": "Nanite",
+      "context": "UDynamicMeshComponent目前不支持Nanite功能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UDynamicMeshComponent",
+      "predicate": "不支持",
+      "object": "Lumen",
+      "context": "UDynamicMeshComponent目前不支持Lumen功能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体脚本",
+      "predicate": "用于",
+      "object": "网格体分析",
+      "context": "几何体脚本可以用于对第三方网格体导入程序进行测试和质量分析，以及分析网格体UV以识别存在纹理空间浪费的资产。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体脚本",
+      "predicate": "用于",
+      "object": "网格体合并",
+      "context": "几何体脚本可以用于使用脚本合并网格体资产以用于制片工作流程。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体脚本",
+      "predicate": "用于",
+      "object": "程序化关卡设计",
+      "context": "几何体脚本可以用于创建程序化网格体Actor，例如Lyra示例游戏中使用的关卡设计工具。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:12:34.149Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9564 字符)",
+      "timestamp": "2025-06-15T19:11:18.438Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15246,
+    "contentLength": 9564,
+    "processingTimeMs": 75721
+  }
+}

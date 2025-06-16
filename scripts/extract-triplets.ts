@@ -51,6 +51,8 @@ interface ExtractConfig {
     delayBetweenRequests: number;
     maxRetries: number;
     timeoutMs: number;
+    concurrency: number;          // 添加并发数量控制
+    batchDelayMs: number;         // 添加批次间延迟控制
   };
   output: {
     includeWarnings: boolean;
@@ -109,10 +111,12 @@ function loadConfig(): ExtractConfig {
     
     const configContent = fs.readFileSync(CONFIG_FILE, 'utf-8');
     const config: ExtractConfig = JSON.parse(configContent);
-    console.log(`📋 已加载配置文件: ${CONFIG_FILE}`);
-    console.log(`   排除文件: ${config.excludeFiles.length} 个`);
-    console.log(`   排除模式: ${config.excludePatterns.length} 个`);
-    console.log(`   大文件阈值: ${config.warnings.largeSizeThreshold} 字符`);
+      console.log(`📋 已加载配置文件: ${CONFIG_FILE}`);
+  console.log(`   排除文件: ${config.excludeFiles.length} 个`);
+  console.log(`   排除模式: ${config.excludePatterns.length} 个`);
+  console.log(`   大文件阈值: ${config.warnings.largeSizeThreshold} 字符`);
+  console.log(`   并发请求数: ${config.processing.concurrency} 个`);
+  console.log(`   批次间延迟: ${config.processing.batchDelayMs}ms`);
     
     return config;
   } catch (error) {
@@ -138,7 +142,9 @@ function getDefaultConfig(): ExtractConfig {
     processing: {
       delayBetweenRequests: 1000,
       maxRetries: 3,
-      timeoutMs: 30000
+      timeoutMs: 30000,
+      concurrency: 12,          // 并发请求数量（建议10-15个）
+      batchDelayMs: 2000        // 批次间延迟（毫秒）
     },
     output: {
       includeWarnings: true,
@@ -270,30 +276,33 @@ function analyzeProgress(progressData: ProgressData | null, files: string[]): {
     };
   }
 
-  // 如果有失败的文件需要重试（优先处理失败的文件）
-  if (progressData.failedFiles.length > 0) {
+  // 如果状态不是completed，优先处理剩余文件
+  if (progressData.status !== 'completed') {
+    // 如果有剩余文件需要处理
+    if (progressData.remainingFiles.length > 0) {
+      return {
+        shouldContinue: true,
+        filesToProcess: progressData.remainingFiles,
+        message: `⏭️ 从上次进度恢复，剩余 ${progressData.remainingFiles.length} 个文件`
+      };
+    }
+  }
+
+  // 如果状态是completed且有失败的文件需要重试
+  if (progressData.status === 'completed' && progressData.failedFiles.length > 0) {
     return {
       shouldContinue: true,
       filesToProcess: progressData.failedFiles,
-      message: `🔄 发现 ${progressData.failedFiles.length} 个失败的文件，开始重试`
+      message: `🔄 任务已完成但存在失败文件，开始重试 ${progressData.failedFiles.length} 个失败的文件`
     };
   }
 
-  // 如果有剩余文件需要处理
-  if (progressData.remainingFiles.length > 0) {
-    return {
-      shouldContinue: true,
-      filesToProcess: progressData.remainingFiles,
-      message: `⏭️ 从上次进度恢复，剩余 ${progressData.remainingFiles.length} 个文件`
-    };
-  }
-
-  // 如果已完成所有文件（包括成功和失败的）
-  if (progressData.status === 'completed' && progressData.processedCount === progressData.totalFiles) {
+  // 如果已完成所有文件且无失败文件
+  if (progressData.status === 'completed' && progressData.failedFiles.length === 0) {
     return {
       shouldContinue: false,
       filesToProcess: [],
-      message: "✅ 任务已完成，无需继续执行"
+      message: "✅ 任务已完成，所有文件都处理成功"
     };
   }
 
@@ -496,6 +505,93 @@ async function processMarkdownFile(filePath: string, index: number, total: numbe
   }
 }
 
+// 并发批处理函数 - 同时处理多个文件以提高效率
+async function processBatch(
+  filePaths: string[], 
+  startIndex: number, 
+  config: ExtractConfig, 
+  excludedFiles: string[],
+  progressData: ProgressData
+): Promise<ProcessResult[]> {
+  const batchPromises = filePaths.map(async (filePath, localIndex) => {
+    const globalIndex = startIndex + localIndex;
+    const filename = path.basename(filePath, '.md');
+    
+    try {
+      return await processMarkdownFile(filePath, globalIndex + 1, progressData.totalFiles, config, excludedFiles);
+    } catch (error) {
+      console.error(`批次处理文件失败: ${filePath}`, error);
+      
+      // 创建失败的结果
+      return {
+        filename,
+        sourceFile: filePath,
+        success: false,
+        triplesCount: 0,
+        warnings: [createWarning('processing_error', `批次处理失败: ${(error as Error).message}`, filename)],
+        error: (error as Error).message
+      } as ProcessResult;
+    }
+  });
+
+  // 等待所有并发请求完成
+  const results = await Promise.all(batchPromises);
+  return results;
+}
+
+// 添加进度更新函数
+function updateProgressWithResults(progressData: ProgressData, results: ProcessResult[], processedFiles: string[]): void {
+  results.forEach((result, index) => {
+    const filePath = processedFiles[index];
+    const filename = result.filename;
+    
+    // 更新统计
+    progressData.processedCount++;
+    
+    // 统计警告数
+    if (result.warnings && result.warnings.length > 0) {
+      progressData.totalWarnings += result.warnings.length;
+    }
+    
+    // 从剩余列表中移除
+    progressData.remainingFiles = progressData.remainingFiles.filter(f => f !== filePath);
+    
+    // 查找是否已有此文件的结果
+    const existingResultIndex = progressData.results.findIndex(r => r.filename === filename);
+    
+    if (existingResultIndex >= 0) {
+      // 更新现有结果
+      progressData.results[existingResultIndex] = result;
+    } else {
+      // 添加新的结果
+      progressData.results.push(result);
+    }
+    
+    if (result.success) {
+      // 从失败列表中移除（如果之前失败过）
+      const wasInFailedList = progressData.failedFiles.includes(filePath);
+      progressData.failedFiles = progressData.failedFiles.filter(f => f !== filePath);
+      
+      if (wasInFailedList) {
+        // 重试成功：减少失败计数，增加成功计数
+        progressData.failedCount = Math.max(0, progressData.failedCount - 1);
+        progressData.successCount++;
+      } else if (existingResultIndex < 0) {
+        // 新的成功：增加成功计数
+        progressData.successCount++;
+      }
+    } else {
+      if (existingResultIndex < 0) {
+        progressData.failedCount++;
+      }
+      // 添加到失败列表
+      if (!progressData.failedFiles.includes(filePath)) {
+        progressData.failedFiles.push(filePath);
+      }
+    }
+  });
+}
+
 async function main() {
   console.log('开始提取虚幻引擎文档概念关系...');
   
@@ -569,16 +665,21 @@ async function main() {
 
   // 初始化或更新进度数据
   let progressData: ProgressData;
+  let isRetryingFailedFiles = false; // 标记是否在重试失败文件
+  
   if (existingProgress && existingProgress.status !== 'completed') {
-    // 恢复现有进度
+    // 恢复现有进度 - 处理剩余文件
     progressData = existingProgress;
     progressData.status = 'running';
     progressData.remainingFiles = filesToProcess;
     progressData.excludedCount = excludedFiles.length;
     progressData.excludedFiles = excludedFiles;
-    if (message.includes('重试')) {
-      progressData.failedFiles = []; // 清空失败列表，准备重试
-    }
+  } else if (existingProgress && existingProgress.status === 'completed' && message.includes('重试')) {
+    // 重试失败文件
+    progressData = existingProgress;
+    progressData.status = 'running'; // 临时设为running
+    isRetryingFailedFiles = true;
+    progressData.failedFiles = []; // 清空失败列表，准备重试
   } else {
     // 创建新的进度数据
     progressData = createInitialProgress(fullFilePaths, excludedFiles);
@@ -588,108 +689,96 @@ async function main() {
   // 保存初始进度
   saveProgress(progressData);
 
-  // 处理每个文件
-  for (let i = 0; i < filesToProcess.length; i++) {
-    const filePath = filesToProcess[i];
-    const filename = path.basename(filePath, '.md');
+  // 并发批处理文件
+  const concurrency = config.processing.concurrency;
+  const totalBatches = Math.ceil(filesToProcess.length / concurrency);
+  
+  console.log(`🚀 开始并发处理，并发数: ${concurrency}，总批次: ${totalBatches}`);
+  console.log(`💡 提示: 可在配置文件中调整 processing.concurrency 参数来控制并发数量`);
+
+  for (let batchIndex = 0; batchIndex < totalBatches; batchIndex++) {
+    const startIndex = batchIndex * concurrency;
+    const endIndex = Math.min(startIndex + concurrency, filesToProcess.length);
+    const batchFiles = filesToProcess.slice(startIndex, endIndex);
+    
+    console.log(`\n📦 处理批次 ${batchIndex + 1}/${totalBatches} (文件 ${startIndex + 1}-${endIndex})`);
+    console.log(`   本批次文件: ${batchFiles.map(f => path.basename(f, '.md')).join(', ')}`);
     
     try {
-      const result = await processMarkdownFile(filePath, i + 1, filesToProcess.length, config, excludedFiles);
+      // 并发处理本批次的文件
+      const batchResults = await processBatch(batchFiles, startIndex, config, excludedFiles, progressData);
       
       // 更新进度数据
-      progressData.processedCount++;
+      updateProgressWithResults(progressData, batchResults, batchFiles);
       
-      // 统计警告数
-      if (result.warnings && result.warnings.length > 0) {
-        progressData.totalWarnings += result.warnings.length;
+      // 保存进度
+      saveProgress(progressData);
+      
+      // 显示批次结果
+      const successCount = batchResults.filter(r => r.success).length;
+      const failedCount = batchResults.filter(r => !r.success).length;
+      console.log(`   ✅ 成功: ${successCount}, ❌ 失败: ${failedCount}`);
+      
+      // 批次间延迟（避免API限流）
+      if (!TEST_MODE && batchIndex < totalBatches - 1) {
+        const delay = config.processing.batchDelayMs;
+        console.log(`   ⏳ 等待 ${delay}ms 避免API限流...`);
+        await new Promise(resolve => setTimeout(resolve, delay));
       }
       
-      // 从剩余列表中移除
-      progressData.remainingFiles = progressData.remainingFiles.filter(f => f !== filePath);
+    } catch (error) {
+      console.error(`❌ 批次 ${batchIndex + 1} 处理失败:`, error);
       
-      // 查找是否已有此文件的结果
-      const existingResultIndex = progressData.results.findIndex(r => r.filename === filename);
-      
-      if (existingResultIndex >= 0) {
-        // 更新现有结果
-        progressData.results[existingResultIndex] = result;
-      } else {
-        // 添加新的结果
-        progressData.results.push(result);
-      }
-      
-      if (result.success) {
-        // 从失败列表中移除（如果之前失败过）
-        const wasInFailedList = progressData.failedFiles.includes(filePath);
-        progressData.failedFiles = progressData.failedFiles.filter(f => f !== filePath);
+      // 为本批次所有文件创建失败结果
+      batchFiles.forEach(filePath => {
+        const filename = path.basename(filePath, '.md');
+        const result: ProcessResult = {
+          filename,
+          sourceFile: filePath,
+          success: false,
+          triplesCount: 0,
+          warnings: [createWarning('processing_error', `批次处理失败: ${(error as Error).message}`, filename)],
+          error: (error as Error).message
+        };
         
-        if (wasInFailedList) {
-          // 重试成功：减少失败计数，增加成功计数
-          progressData.failedCount = Math.max(0, progressData.failedCount - 1);
-          progressData.successCount++;
-        } else if (existingResultIndex < 0) {
-          // 新的成功：增加成功计数
-          progressData.successCount++;
-        }
-      } else {
-        if (existingResultIndex < 0) {
-          progressData.failedCount++;
-        }
-        // 添加到失败列表
+        progressData.processedCount++;
+        progressData.failedCount++;
+        progressData.totalWarnings += result.warnings?.length || 0;
+        progressData.remainingFiles = progressData.remainingFiles.filter(f => f !== filePath);
+        
         if (!progressData.failedFiles.includes(filePath)) {
           progressData.failedFiles.push(filePath);
         }
-      }
-      
-      // 实时保存进度
-      saveProgress(progressData);
-      
-      // 添加延迟避免API限流
-      if (!TEST_MODE && i < filesToProcess.length - 1) {
-        const delay = config.processing.delayBetweenRequests;
-        console.log(`⏳ 等待 ${delay}ms 避免API限流...`);
-        await new Promise(resolve => setTimeout(resolve, delay));
-      }
-    } catch (error) {
-      console.error(`处理文件失败: ${filePath}`, error);
-      
-      // 记录失败结果
-      const result: ProcessResult = {
-        filename,
-        sourceFile: filePath,
-        success: false,
-        triplesCount: 0,
-        warnings: [createWarning('processing_error', `处理失败: ${(error as Error).message}`, filename)],
-        error: (error as Error).message
-      };
-      
-      progressData.processedCount++;
-      progressData.failedCount++;
-      progressData.totalWarnings += result.warnings?.length || 0;
-      progressData.remainingFiles = progressData.remainingFiles.filter(f => f !== filePath);
-      
-      if (!progressData.failedFiles.includes(filePath)) {
-        progressData.failedFiles.push(filePath);
-      }
-      
-      const existingResultIndex = progressData.results.findIndex(r => r.filename === filename);
-      if (existingResultIndex >= 0) {
-        progressData.results[existingResultIndex] = result;
-      } else {
-        progressData.results.push(result);
-      }
+        
+        const existingResultIndex = progressData.results.findIndex(r => r.filename === filename);
+        if (existingResultIndex >= 0) {
+          progressData.results[existingResultIndex] = result;
+        } else {
+          progressData.results.push(result);
+        }
+      });
       
       saveProgress(progressData);
       continue;
     }
   }
 
-  // 标记任务完成
-  progressData.status = 'completed';
-  progressData.endTime = new Date().toISOString();
+  // 标记任务完成状态
+  if (isRetryingFailedFiles) {
+    // 如果是重试失败文件，保持completed状态
+    progressData.status = 'completed';
+  } else {
+    // 如果是处理剩余文件，标记为完成
+    progressData.status = 'completed';
+    progressData.endTime = new Date().toISOString();
+  }
   saveProgress(progressData);
 
-  console.log('\n🎉 概念关系提取完成！');
+  if (isRetryingFailedFiles) {
+    console.log('\n🔄 失败文件重试完成！');
+  } else {
+    console.log('\n🎉 概念关系提取完成！');
+  }
   console.log(`📁 输出目录: ${TRIPLETS_DIR}`);
   console.log(`📊 最终统计:`);
   console.log(`   - 总文件数: ${progressData.totalFiles}`);

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_alembic-file-importer-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_alembic-file-importer-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Alembic文件导入器",
+      "predicate": "支持",
+      "object": "Alembic文件格式",
+      "context": "Alembic导入器允许将Alembic文件导入虚幻引擎，实现复杂动画的实时渲染",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Alembic文件导入器",
+      "predicate": "包含",
+      "object": "静态网格体导入",
+      "context": "导入器提供将Alembic文件作为静态网格体导入的选项，适用于不需要动画的场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Alembic文件导入器",
+      "predicate": "包含",
+      "object": "几何体缓存导入",
+      "context": "导入器支持将Alembic文件导入为几何体缓存，用于播放顶点动画序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Alembic文件导入器",
+      "predicate": "包含",
+      "object": "骨架网格体导入",
+      "context": "导入器支持将Alembic文件导入为骨架网格体，通过变换目标实现高效动画播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体导入",
+      "predicate": "支持",
+      "object": "合并网格体",
+      "context": "静态网格体导入选项允许合并多个网格体为单个静态网格体，优化资源管理",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体导入",
+      "predicate": "支持",
+      "object": "传播矩阵变换",
+      "context": "启用传播矩阵变换可在合并网格体时保留原始变换数据，影响最终网格体位置",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体导入",
+      "predicate": "支持",
+      "object": "生成光照贴图UV",
+      "context": "静态网格体导入选项支持生成光照贴图UV，用于光照烘焙",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体缓存导入",
+      "predicate": "支持",
+      "object": "运动向量",
+      "context": "几何体缓存导入支持运动向量选项，用于实现运动模糊效果",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体缓存导入",
+      "predicate": "基于",
+      "object": "面集名称创建材质",
+      "context": "几何体缓存导入可根据面集名称自动创建材质，简化材质分配流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体导入",
+      "predicate": "使用",
+      "object": "主成分分析(PCA)压缩",
+      "context": "骨架网格体导入采用PCA方案对动画序列进行压缩，提高播放效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体导入",
+      "predicate": "支持",
+      "object": "压缩级别调整",
+      "context": "通过设置基数百分比或固定数量，可调整骨架网格体动画的压缩级别",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "法线计算",
+      "predicate": "依赖",
+      "object": "平滑组",
+      "context": "法线计算过程依赖平滑组确定硬边和软边，影响最终模型外观",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平滑组",
+      "predicate": "基于",
+      "object": "硬边角度阈值",
+      "context": "平滑组计算使用硬边角度阈值确定边缘硬度，影响模型平滑效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Alembic文件格式",
+      "predicate": "用于",
+      "object": "复杂动画交换",
+      "context": "Alembic文件格式专为交换复杂的动画化场景设计，存储非过程式烘焙几何结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Autodesk Maya",
+      "predicate": "支持",
+      "object": "Alembic缓存导出",
+      "context": "Maya提供Alembic缓存导出功能，需启用UV写入和写入面集选项以兼容虚幻引擎",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "用于",
+      "object": "Alembic文件导入",
+      "context": "内容浏览器是导入Alembic文件的起点，提供导入按钮和文件选择功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "采样选项",
+      "predicate": "控制",
+      "object": "动画帧导入",
+      "context": "采样选项决定如何对Alembic动画进行采样，影响导入的帧范围和间隔",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "法线计算选项",
+      "predicate": "影响",
+      "object": "模型外观质量",
+      "context": "法线计算选项设置直接影响导入模型的法线质量，进而影响光照和视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体",
+      "predicate": "替代",
+      "object": "几何体缓存",
+      "context": "当顶点数不变时，骨架网格体是比几何体缓存更高效的Alembic动画播放方式",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "运动向量",
+      "predicate": "用于",
+      "object": "运动模糊计算",
+      "context": "几何体缓存中的运动向量信息可用于计算运动模糊效果，增强动画真实感",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:56:49.320Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10962 字符)",
+      "timestamp": "2025-06-15T17:55:28.076Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 18425,
+    "contentLength": 10962,
+    "processingTimeMs": 81255
+  }
+}

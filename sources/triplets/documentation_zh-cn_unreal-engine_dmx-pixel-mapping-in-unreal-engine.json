@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_dmx-pixel-mapping-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_dmx-pixel-mapping-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "DMX Pixel Mapping",
+      "predicate": "使用",
+      "object": "DMX Library",
+      "context": "DMX Pixel Mapping工具需要使用DMX Library资产来引用和管理灯光设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX Pixel Mapping",
+      "predicate": "依赖",
+      "object": "DMX Protocol",
+      "context": "DMX Pixel Mapping功能依赖于DMX协议来发送控制信号",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Input Source",
+      "predicate": "包含",
+      "object": "Input Texture",
+      "context": "输入源需要设置输入纹理作为像素采样来源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Input Source",
+      "predicate": "支持",
+      "object": "Filter Material",
+      "context": "输入源可以应用过滤材质进行图像处理",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Fixture Group",
+      "predicate": "引用",
+      "object": "DMX Library",
+      "context": "灯具组需要从DMX库中选择和引用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Fixture Patch",
+      "predicate": "属于",
+      "object": "Fixture Group",
+      "context": "灯具补丁是灯具组的组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Grid Layout",
+      "predicate": "用于",
+      "object": "Fixture Patch",
+      "context": "网格布局用于自动排列灯具补丁",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pixel Mapping Asset",
+      "predicate": "可播放于",
+      "object": "Editor",
+      "context": "像素映射资产可以在编辑器中实时播放测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pixel Mapping Asset",
+      "predicate": "可播放于",
+      "object": "In-Game",
+      "context": "像素映射资产可以通过蓝图在游戏运行时播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Color Space",
+      "predicate": "支持",
+      "object": "RGB/CMY",
+      "context": "颜色空间设置支持RGB/CMY输出模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Color Space",
+      "predicate": "支持",
+      "object": "CIE 1931 xyY",
+      "context": "颜色空间设置支持CIE 1931 xyY色彩空间转换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RGB Mode",
+      "predicate": "映射",
+      "object": "DMX Channels",
+      "context": "RGB模式定义了纹理值到DMX通道的映射关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Luminance",
+      "predicate": "控制",
+      "object": "Dimmer Channel",
+      "context": "亮度计算可用于控制调光通道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Quality Setting",
+      "predicate": "影响",
+      "object": "Sample Count",
+      "context": "质量设置决定了每个补丁的采样数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX Pixel Mapping",
+      "predicate": "包含",
+      "object": "Designer Settings",
+      "context": "像素映射工具包含设计器视图的设置选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX Pixel Mapping",
+      "predicate": "包含",
+      "object": "Grid Settings",
+      "context": "像素映射工具包含网格对齐的设置选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Matrix Settings",
+      "predicate": "用于",
+      "object": "Cell Ordering",
+      "context": "矩阵设置用于控制硬件灯具的单元排序方向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pixel Mapping Editor",
+      "predicate": "提供",
+      "object": "Hierarchy Panel",
+      "context": "像素映射编辑器提供层级面板管理灯具组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pixel Mapping Editor",
+      "predicate": "提供",
+      "object": "Details Panel",
+      "context": "像素映射编辑器提供细节面板调整组件参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX Pixel Mapping",
+      "predicate": "支持",
+      "object": "Live Render Target",
+      "context": "像素映射支持使用实时渲染目标作为输入源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:54:42.101Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15424 字符)",
+      "timestamp": "2025-06-15T18:53:31.288Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15608,
+    "contentLength": 15424,
+    "processingTimeMs": 70820
+  }
+}

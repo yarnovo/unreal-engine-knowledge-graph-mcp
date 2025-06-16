@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_common-memory-and-cpu-performance-considerations-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_common-memory-and-cpu-performance-considerations-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "UObjects",
+      "predicate": "受管理于",
+      "object": "垃圾回收器",
+      "context": "UObjects及其派生类由垃圾回收器管理，定期清理被删除的对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "垃圾回收器",
+      "predicate": "导致",
+      "object": "处理峰值",
+      "context": "垃圾回收器运行时可能导致处理峰值，特别是在销毁大量对象时",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "垃圾回收器",
+      "predicate": "可配置于",
+      "object": "项目设置",
+      "context": "垃圾回收器的行为可以通过项目设置进行配置，包括间隔和最大清理对象数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象池化",
+      "predicate": "替代",
+      "object": "创建和销毁对象",
+      "context": "对象池化通过预先创建和复用对象来减少创建和销毁对象的开销",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象池化",
+      "predicate": "适用于",
+      "object": "高开销对象",
+      "context": "对象池化特别适用于创建和销毁开销高的对象，如Actor和组件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Tick逻辑",
+      "predicate": "替代",
+      "object": "回调",
+      "context": "对于偶发逻辑，使用回调比逐帧Tick更高效",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "异步逻辑",
+      "predicate": "优于",
+      "object": "同步逻辑",
+      "context": "异步逻辑可以避免处理峰值，适用于加载大型数据集或对象",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "并行处理",
+      "predicate": "实现",
+      "object": "异步逻辑",
+      "context": "并行处理通过多线程实现异步逻辑，提高处理效率",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "游戏线程",
+      "predicate": "处理",
+      "object": "UObject和Actor逻辑",
+      "context": "游戏线程负责处理大部分UObject和Actor的逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PSO缓存",
+      "predicate": "减少",
+      "object": "着色器编译卡顿",
+      "context": "PSO缓存通过预编译和缓存着色器状态减少运行时编译导致的卡顿",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "任务系统",
+      "predicate": "提供",
+      "object": "并行处理框架",
+      "context": "任务系统提供轻量级框架，用于将逻辑划分为并行任务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FRunnable",
+      "predicate": "用于",
+      "object": "底层线程操作",
+      "context": "FRunnable提供底层接口，用于在专用线程上执行函数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "定时器",
+      "predicate": "替代",
+      "object": "Tick逻辑",
+      "context": "定时器可用于安排逻辑在特定时间后执行，避免逐帧检查",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "内存碎片",
+      "predicate": "减少于",
+      "object": "对象池化",
+      "context": "对象池化通过稳定内存分配减少内存碎片",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "渲染线程",
+      "predicate": "处理",
+      "object": "绘制命令",
+      "context": "渲染线程负责将场景结构转换为绘制命令",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:29:21.628Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8946 字符)",
+      "timestamp": "2025-06-15T18:28:19.389Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17010,
+    "contentLength": 8946,
+    "processingTimeMs": 62243
+  }
+}

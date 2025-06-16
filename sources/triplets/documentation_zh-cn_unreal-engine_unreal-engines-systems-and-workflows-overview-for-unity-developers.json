@@ -1,0 +1,323 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-engines-systems-and-workflows-overview-for-unity-developers",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-engines-systems-and-workflows-overview-for-unity-developers.md",
+  "triples": [
+    {
+      "subject": "Chaos Physics",
+      "predicate": "包含",
+      "object": "Chaos Destruction",
+      "context": "Chaos Destruction是Chaos Physics系统中的一个工具集，用于实现实时高质量破坏效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos Physics",
+      "predicate": "包含",
+      "object": "Networked Physics",
+      "context": "Networked Physics是Chaos Physics的一部分，支持多玩家环境下的物理模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos Physics",
+      "predicate": "包含",
+      "object": "Rigid Body Dynamics",
+      "context": "Rigid Body Dynamics是Chaos Physics提供的刚体动力学功能，包括碰撞响应和约束等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos Physics",
+      "predicate": "包含",
+      "object": "Chaos Cloth",
+      "context": "Chaos Cloth是Chaos Physics提供的布料模拟系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos Physics",
+      "predicate": "包含",
+      "object": "Chaos Vehicles",
+      "context": "Chaos Vehicles是Chaos Physics提供的轻量级车辆物理模拟系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos Destruction",
+      "predicate": "使用",
+      "object": "Geometry Collections",
+      "context": "Chaos Destruction系统利用Geometry Collections资产来实现实时破坏效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Networked Physics",
+      "predicate": "依赖",
+      "object": "Unreal Engine Networking Framework",
+      "context": "Networked Physics依赖于Unreal Engine的联网框架来实现多玩家物理模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Rigid Body Dynamics",
+      "predicate": "包含",
+      "object": "Collision",
+      "context": "碰撞检测是刚体动力学的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Rigid Body Dynamics",
+      "predicate": "包含",
+      "object": "Traces with Raycasts",
+      "context": "射线追踪是刚体动力学中用于收集外部信息的方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Artificial Intelligence",
+      "predicate": "包含",
+      "object": "MassEntity",
+      "context": "MassEntity是用于大规模AI代理模拟的高性能框架",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Artificial Intelligence",
+      "predicate": "包含",
+      "object": "AI Perception",
+      "context": "AI Perception是处理AI代理感知和刺激的系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Artificial Intelligence",
+      "predicate": "包含",
+      "object": "Behavior Trees",
+      "context": "行为树是AI代理决策制定的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Artificial Intelligence",
+      "predicate": "包含",
+      "object": "StateTree",
+      "context": "StateTree结合了行为树选择器和状态机的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Artificial Intelligence",
+      "predicate": "包含",
+      "object": "Navigation System",
+      "context": "导航系统为AI代理提供路径寻找能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Artificial Intelligence",
+      "predicate": "包含",
+      "object": "Smart Objects",
+      "context": "智能对象是AI代理与环境交互的重要元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Behavior Trees",
+      "predicate": "使用",
+      "object": "Blackboard",
+      "context": "行为树使用黑板资产来存储AI代理的决策数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Navigation System",
+      "predicate": "使用",
+      "object": "Navigation Mesh",
+      "context": "导航系统使用导航网格来映射AI代理的可行走区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Animation Blueprints",
+      "predicate": "包含",
+      "object": "State Machine",
+      "context": "状态机节点可以在动画蓝图中创建，用于组织动画状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Animation Blueprints",
+      "predicate": "包含",
+      "object": "Blend Spaces",
+      "context": "混合空间用于基于参数混合不同动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer Editor",
+      "predicate": "使用",
+      "object": "Control Rig",
+      "context": "Sequencer可以使用Control Rig来直接动画化角色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay Framework",
+      "predicate": "包含",
+      "object": "Game Mode",
+      "context": "游戏模式是游戏框架中定义游戏规则的核心类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay Framework",
+      "predicate": "包含",
+      "object": "Player State",
+      "context": "玩家状态是游戏框架中跟踪玩家数据的类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay Framework",
+      "predicate": "包含",
+      "object": "Controllers",
+      "context": "控制器是游戏框架中处理输入的类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay Framework",
+      "predicate": "包含",
+      "object": "Pawns",
+      "context": "Pawn是游戏框架中可被控制的游戏实体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Enhanced Input System",
+      "predicate": "支持",
+      "object": "Input Actions",
+      "context": "增强输入系统支持定义输入动作如跳跃和射击",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Enhanced Input System",
+      "predicate": "支持",
+      "object": "Input Axes",
+      "context": "增强输入系统支持定义输入轴如移动和相机旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Landscape Mode",
+      "predicate": "用于",
+      "object": "Terrain Creation",
+      "context": "景观模式专门用于创建和塑造地形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Foliage Mode",
+      "predicate": "用于",
+      "object": "Vegetation Placement",
+      "context": "植被模式用于在场景中放置和管理树木、草地等植被",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Procedural Content Generation",
+      "predicate": "用于",
+      "object": "World Building",
+      "context": "PCG框架用于程序化生成游戏内容和工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Water System",
+      "predicate": "交互",
+      "object": "Landscape",
+      "context": "水系统可以与景观地形交互，创建河流、湖泊等水体效果",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen",
+      "predicate": "提供",
+      "object": "Global Illumination",
+      "context": "Lumen是虚幻引擎的动态全局光照系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen",
+      "predicate": "提供",
+      "object": "Reflections",
+      "context": "Lumen提供动态反射功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Material System",
+      "predicate": "包含",
+      "object": "Material Instances",
+      "context": "材质系统支持创建材质实例，实现参数化材质变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Nanite",
+      "predicate": "优化",
+      "object": "Geometry Rendering",
+      "context": "Nanite虚拟化几何系统优化高复杂度几何体的渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSounds",
+      "predicate": "用于",
+      "object": "Audio Generation",
+      "context": "MetaSounds是音频生成系统，提供DSP图形控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara",
+      "predicate": "用于",
+      "object": "Particle Systems",
+      "context": "Niagara是虚幻引擎的粒子系统，用于创建视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG",
+      "predicate": "用于",
+      "object": "UI Creation",
+      "context": "UMG是虚幻引擎的用户界面创建工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SaveGame",
+      "predicate": "用于",
+      "object": "Game Progress Saving",
+      "context": "SaveGame对象用于保存和加载游戏进度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:11:26.017Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (44235 字符)",
+      "timestamp": "2025-06-15T21:09:51.254Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 44523,
+    "contentLength": 44235,
+    "processingTimeMs": 94769
+  }
+}

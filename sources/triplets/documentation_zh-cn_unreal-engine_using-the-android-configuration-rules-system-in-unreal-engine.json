@@ -1,0 +1,155 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-the-android-configuration-rules-system-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-the-android-configuration-rules-system-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "安卓配置规则系统",
+      "predicate": "用于",
+      "object": "安卓设备兼容性检测",
+      "context": "安卓配置规则系统的主要功能是检测安卓设备是否满足运行虚幻引擎项目的硬件和软件要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "configrules.txt",
+      "predicate": "属于",
+      "object": "安卓配置规则系统",
+      "context": "configrules.txt是安卓配置规则系统的核心配置文件，包含设备检测规则和变量定义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "configrules.txt",
+      "predicate": "位于",
+      "object": "Build/Android目录",
+      "context": "配置文件必须放置在项目的Build/Android目录下才能被系统识别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FAndroidMisc::GetConfigRulesVariable",
+      "predicate": "用于",
+      "object": "访问Config Rules变量",
+      "context": "该C++函数允许开发者在代码中查询configrules.txt中定义的变量值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Config Rules变量",
+      "predicate": "包含",
+      "object": "设备硬件信息变量",
+      "context": "系统预定义了多个变量如memory、hardware等，用于存储设备硬件信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Config Rules命令",
+      "predicate": "包括",
+      "object": "set/clear/condition",
+      "context": "系统提供多种命令用于操作变量和条件判断，是规则系统的核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "condition命令",
+      "predicate": "使用",
+      "object": "CompareType比较类型",
+      "context": "条件命令依赖多种比较类型如CMP_Equal、CMP_Regex等来实现复杂条件判断",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "chipset命令",
+      "predicate": "设置",
+      "object": "处理器相关变量",
+      "context": "该命令可一次性设置多个与处理器相关的变量，简化芯片组配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Profile变量",
+      "predicate": "覆盖",
+      "object": "设备描述文件",
+      "context": "通过设置Profile可以覆盖DefaultDeviceProfiles.ini中的设备描述匹配规则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ConfigurationStrings.xml",
+      "predicate": "存储",
+      "object": "本地化对话框文本",
+      "context": "该文件用于存储错误/警告对话框中显示的本地化文本内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MyGame_UPL.xml",
+      "predicate": "实现",
+      "object": "Config Rules打包集成",
+      "context": "该UPL文件负责将configrules.txt集成到APK中，包括压缩和加密过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ConfigRulesTool",
+      "predicate": "处理",
+      "object": "configrules.txt",
+      "context": "该工具负责解析和打包配置文件，是规则系统的核心处理组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "安卓配置规则系统",
+      "predicate": "依赖",
+      "object": "Android平台SDK",
+      "context": "系统依赖Android SDK提供的API来获取设备硬件和系统信息",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Config Rules变量",
+      "predicate": "来源于",
+      "object": "系统检测信息",
+      "context": "变量值主要来自系统检测到的设备硬件信息和系统属性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "正则表达式",
+      "predicate": "用于",
+      "object": "复杂条件匹配",
+      "context": "系统支持使用正则表达式进行复杂的字符串匹配和提取",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Config Rules系统",
+      "predicate": "支持",
+      "object": "多语言本地化",
+      "context": "通过ConfigurationStrings.xml实现错误信息的本地化显示",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Config Rules系统",
+      "predicate": "集成到",
+      "object": "虚幻引擎构建流程",
+      "context": "通过UPL和gradle脚本将系统集成到引擎的Android构建流程中",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:23:49.816Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15277 字符)",
+      "timestamp": "2025-06-15T21:23:01.702Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19741,
+    "contentLength": 15277,
+    "processingTimeMs": 48116
+  }
+}

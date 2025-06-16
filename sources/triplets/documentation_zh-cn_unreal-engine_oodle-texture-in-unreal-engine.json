@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_oodle-texture-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_oodle-texture-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Oodle纹理",
+      "predicate": "支持",
+      "object": "BCn/DXTn格式",
+      "context": "Oodle纹理专门为BCn/DXTn格式提供快速、高质量的纹理编码，这是其核心功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Oodle纹理",
+      "predicate": "不适用于",
+      "object": "ASTC格式",
+      "context": "文档明确指出Oodle纹理不支持ASTC等移动设备格式，这对移动开发者很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Oodle纹理",
+      "predicate": "依赖",
+      "object": "DefaultEngine.ini配置",
+      "context": "Oodle纹理需要DefaultEngine.ini中的特定设置才能正常工作，这是启用和配置它的必要条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Oodle纹理",
+      "predicate": "实现",
+      "object": "RDO（率失真优化）",
+      "context": "RDO是Oodle纹理的核心技术，通过牺牲质量换取压缩大小，理解它对有效使用Oodle纹理至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RDO",
+      "predicate": "使用参数",
+      "object": "Lambda",
+      "context": "Lambda参数控制RDO的失真程度和质量平衡，是调整Oodle纹理性能的关键设置",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Oodle纹理",
+      "predicate": "可配置于",
+      "object": "三个层级",
+      "context": "Oodle纹理可以在全局、LOD组和单个纹理三个层级进行配置，这为开发者提供了灵活的优化手段",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Oodle纹理",
+      "predicate": "优化",
+      "object": "发布大小",
+      "context": "Oodle纹理的主要优势是通过RDO优化纹理的发布大小，这对游戏性能优化很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Oodle纹理",
+      "predicate": "与",
+      "object": "Kraken压缩格式",
+      "context": "Oodle纹理的RDO调整为使用Kraken压缩格式，这是其底层技术实现的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "法线贴图",
+      "predicate": "需要",
+      "object": "较低Lambda值",
+      "context": "文档建议法线贴图等特殊纹理需要较低的Lambda值（5-20），因为失真在这些纹理上更明显",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Oodle纹理",
+      "predicate": "包含",
+      "object": "调试功能",
+      "context": "通过bDebugColor设置，Oodle纹理提供可视化调试功能，帮助开发者识别不同压缩格式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Oodle纹理",
+      "predicate": "可强制转换",
+      "object": "BC2/BC3到BC7",
+      "context": "通过bForceAllBC23ToBC7设置，可以强制将BC2/BC3格式转换为更高质量的BC7格式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "纹理LOD组",
+      "predicate": "包含",
+      "object": "有损压缩量设置",
+      "context": "LOD组中的有损压缩量参数允许针对不同纹理类型（如世界法线贴图）设置不同的压缩级别",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "单个纹理",
+      "predicate": "可单独设置",
+      "object": "RDO Lambda",
+      "context": "开发者可以在纹理编辑器中为单个纹理设置RDO Lambda，提供精细控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:11:29.804Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9984,
+    "contentLength": 6798,
+    "processingTimeMs": 59117
+  }
+}

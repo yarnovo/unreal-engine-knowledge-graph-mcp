@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-a-single-line-trace-raycast-by-channel-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-a-single-line-trace-raycast-by-channel-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Line Trace By Channel",
+      "predicate": "用于",
+      "object": "碰撞追踪",
+      "context": "Line Trace By Channel 是虚幻引擎中用于执行碰撞追踪的功能，帮助开发者检测物体间的碰撞",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Line Trace By Channel",
+      "predicate": "依赖",
+      "object": "Event Tick",
+      "context": "Line Trace By Channel 通常需要在每帧执行，因此依赖 Event Tick 节点来触发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Line Trace By Channel",
+      "predicate": "使用",
+      "object": "First Person Camera",
+      "context": "Line Trace By Channel 使用 First Person Camera 的位置和旋转作为追踪的起点和方向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Line Trace By Channel",
+      "predicate": "生成",
+      "object": "Hit Result",
+      "context": "Line Trace By Channel 执行后会生成 Hit Result，包含命中的物体信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Hit Result",
+      "predicate": "包含",
+      "object": "Hit Actor",
+      "context": "Hit Result 包含 Hit Actor，表示被追踪命中的物体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "First Person Camera",
+      "predicate": "提供",
+      "object": "World Location",
+      "context": "First Person Camera 提供 World Location，用于确定追踪的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "First Person Camera",
+      "predicate": "提供",
+      "object": "World Rotation",
+      "context": "First Person Camera 提供 World Rotation，用于确定追踪的方向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Rotation",
+      "predicate": "转换为",
+      "object": "Forward Vector",
+      "context": "World Rotation 可以通过 Get Forward Vector 节点转换为 Forward Vector，用于确定追踪方向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Forward Vector",
+      "predicate": "扩展为",
+      "object": "追踪长度",
+      "context": "Forward Vector 可以通过乘以一个浮点数（如1500）来扩展为追踪的长度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Line Trace By Channel",
+      "predicate": "支持",
+      "object": "调试显示",
+      "context": "Line Trace By Channel 支持通过设置 Draw Debug Type 来显示调试线，帮助开发者可视化追踪过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Line Trace By Channel",
+      "predicate": "替代",
+      "object": "Line Trace By Object",
+      "context": "Line Trace By Channel 可以替代 Line Trace By Object，后者专门用于追踪特定的 ObjectTypes",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Line Trace By Channel",
+      "predicate": "适用于",
+      "object": "游戏物理交互",
+      "context": "Line Trace By Channel 适用于游戏中的物理交互，如射击、碰撞检测等",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Blueprint First Person",
+      "predicate": "包含",
+      "object": "BP_FirstPersonCharacter",
+      "context": "Blueprint First Person 模板包含 BP_FirstPersonCharacter 蓝图，是设置 Line Trace By Channel 的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_FirstPersonCharacter",
+      "predicate": "使用",
+      "object": "First Person Camera",
+      "context": "BP_FirstPersonCharacter 使用 First Person Camera 组件作为玩家视角",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:14:08.795Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6603,
+    "contentLength": 5173,
+    "processingTimeMs": 39608
+  }
+}

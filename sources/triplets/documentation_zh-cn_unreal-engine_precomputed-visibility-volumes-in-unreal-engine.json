@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_precomputed-visibility-volumes-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_precomputed-visibility-volumes-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "预计算可视性体积",
+      "predicate": "用于",
+      "object": "性能优化",
+      "context": "预计算可视性体积主要用于中小型场景的性能优化，特别是在移动平台上",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算可视性体积",
+      "predicate": "适用于",
+      "object": "静态点亮的环境",
+      "context": "预计算可视性对于主要为静态点亮的环境的项目最有用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算可视性体积",
+      "predicate": "依赖",
+      "object": "照明构建",
+      "context": "在照明构建期间，会在阴影投射几何体上方生成可视性单元格",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算可视性体积",
+      "predicate": "增加",
+      "object": "运行时内存",
+      "context": "使用预计算可视性会增加运行时内存和照明构建时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算可视性体积",
+      "predicate": "控制",
+      "object": "Actor可视性",
+      "context": "预计算可视性体积根据玩家或摄像机的位置，将Actor位置的可视性状态存储在场景中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算可视性体积",
+      "predicate": "替代",
+      "object": "动态遮挡剔除",
+      "context": "预计算可视性体积用于因为硬件问题而使动态遮挡剔除受到限制的移动平台",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算可视性体积",
+      "predicate": "包含",
+      "object": "可视性单元格",
+      "context": "预计算可视性体积包含可视性单元格，这些单元格存储Actor的可视性状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算可视性体积",
+      "predicate": "需要",
+      "object": "世界场景设置",
+      "context": "需要为关卡启用预计算可视性，方法是打开世界场景设置并启用预计算可视性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算可视性体积",
+      "predicate": "生成",
+      "object": "可视性单元格",
+      "context": "在预计算可视性发挥作用前，需要先构建照明并生成可视性单元格",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算可视性体积",
+      "predicate": "适用于",
+      "object": "移动平台",
+      "context": "预计算可视性体积通常用于因为硬件问题而使动态遮挡剔除受到限制的移动平台",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算可视性体积",
+      "predicate": "不适用于",
+      "object": "可移动Actor",
+      "context": "预计算可视性不处理可移动Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算可视性体积",
+      "predicate": "不适用于",
+      "object": "透光材质",
+      "context": "预计算可视性不处理透光材质，如半透明或遮罩材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算可视性体积",
+      "predicate": "不适用于",
+      "object": "流送关卡",
+      "context": "预计算可视性不能有效处理流送关卡，所有数据存储在持久关卡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算可视性体积",
+      "predicate": "适用于",
+      "object": "静态阴影投射三角形",
+      "context": "只有静态阴影投射三角形会发生遮挡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算可视性体积",
+      "predicate": "需要",
+      "object": "预计算静态可视性",
+      "context": "生成预计算可视性后，需要使用预计算静态可视性来存储Actor的可视性状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算可视性体积",
+      "predicate": "关联",
+      "object": "预计算可视性覆盖体积",
+      "context": "预计算可视性覆盖体积用于手动覆盖Actor在场景位置中的可视性",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算可视性体积",
+      "predicate": "关联",
+      "object": "可视性和遮挡剔除设置",
+      "context": "预计算可视性体积的设置和用法与可视性和遮挡剔除设置相关",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算可视性体积",
+      "predicate": "关联",
+      "object": "stat initviews",
+      "context": "使用stat initviews命令可以查看预计算可视性在关卡中的效率",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算可视性体积",
+      "predicate": "关联",
+      "object": "stat memory",
+      "context": "使用stat memory命令可以了解预计算可视性的内存使用情况",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算可视性体积",
+      "predicate": "关联",
+      "object": "BaseLightmass.ini",
+      "context": "预计算可视性的设置需要在BaseLightmass.ini文件中进行配置",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:28:09.354Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10388 字符)",
+      "timestamp": "2025-06-15T20:27:06.120Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15871,
+    "contentLength": 10388,
+    "processingTimeMs": 63249
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_set-containers-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_set-containers-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "TSet",
+      "predicate": "类似于",
+      "object": "TMap",
+      "context": "TSet和TMap都是容器类，但TSet使用数据值本身作为键，而TMap将数据值与独立的键相关联",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSet",
+      "predicate": "类似于",
+      "object": "TMultiMap",
+      "context": "TSet和TMultiMap都是容器类，但TSet默认不支持重复键，而TMultiMap支持",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSet",
+      "predicate": "不同于",
+      "object": "TArray",
+      "context": "TSet和TArray都是同质容器，但TSet的元素排序不可靠且不稳定，而TArray的元素顺序是稳定的",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSet",
+      "predicate": "使用",
+      "object": "DefaultKeyFuncs",
+      "context": "TSet使用DefaultKeyFuncs来提供散列功能，允许自定义键比较和散列行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSet",
+      "predicate": "支持",
+      "object": "自定义内存分配器",
+      "context": "TSet可以通过模板参数设置自定义内存分配器来控制内存分配行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSet",
+      "predicate": "包含",
+      "object": "Add函数",
+      "context": "Add函数用于向TSet中添加元素，是填充集合的标准方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSet",
+      "predicate": "包含",
+      "object": "Emplace函数",
+      "context": "Emplace函数用于避免插入集合时创建临时文件，直接传递参数给键类型的构造函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSet",
+      "predicate": "包含",
+      "object": "Append函数",
+      "context": "Append函数用于合并另一个集合中的所有元素到当前集合中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSet",
+      "predicate": "支持",
+      "object": "UPROPERTY宏",
+      "context": "TSet可以用UPROPERTY宏标记，使其在虚幻编辑器中可编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSet",
+      "predicate": "包含",
+      "object": "迭代器",
+      "context": "TSet支持通过CreateIterator和CreateConstIterator函数创建迭代器进行元素遍历",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSet",
+      "predicate": "包含",
+      "object": "Num函数",
+      "context": "Num函数用于查询TSet中保存的元素数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSet",
+      "predicate": "包含",
+      "object": "Contains函数",
+      "context": "Contains函数用于确定TSet是否包含特定元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSet",
+      "predicate": "包含",
+      "object": "Find函数",
+      "context": "Find函数用于查找TSet中的元素，返回指向元素数值的指针",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSet",
+      "predicate": "包含",
+      "object": "Array函数",
+      "context": "Array函数返回一个TArray，其中填充了TSet中每个元素的一份副本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSet",
+      "predicate": "包含",
+      "object": "Remove函数",
+      "context": "Remove函数用于按索引或键移除TSet中的元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSet",
+      "predicate": "包含",
+      "object": "Empty函数",
+      "context": "Empty函数用于移除TSet中的所有元素，并可指定保留的slack量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSet",
+      "predicate": "包含",
+      "object": "Reset函数",
+      "context": "Reset函数用于移除TSet中的所有元素，尽可能多地保留slack量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSet",
+      "predicate": "包含",
+      "object": "Sort函数",
+      "context": "Sort函数用于对TSet中的元素进行排序，但排序不稳定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSet",
+      "predicate": "支持",
+      "object": "运算符重载",
+      "context": "TSet支持通过标准复制构造函数或赋值运算符进行复制，操作是深层的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSet",
+      "predicate": "包含",
+      "object": "Reserve函数",
+      "context": "Reserve函数用于预分配内存，创建slack，优化添加新元素的过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSet",
+      "predicate": "包含",
+      "object": "Shrink函数",
+      "context": "Shrink函数用于移除TSet中的slack，释放未使用的内存",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSet",
+      "predicate": "包含",
+      "object": "Compact函数",
+      "context": "Compact函数用于合并TSet中的空元素，为调用Shrink函数做准备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSet",
+      "predicate": "包含",
+      "object": "CompactStable函数",
+      "context": "CompactStable函数在合并空元素时保持元素的排序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSet",
+      "predicate": "包含",
+      "object": "CountBytes函数",
+      "context": "CountBytes函数用于估计TSet内部数组的当前内存使用情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSet",
+      "predicate": "包含",
+      "object": "GetAllocatedSize函数",
+      "context": "GetAllocatedSize函数用于估计TSet内部数组的当前内存使用情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSet",
+      "predicate": "包含",
+      "object": "Dump函数",
+      "context": "Dump函数用于输出TSet内容的实现信息，常用于调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSet",
+      "predicate": "包含",
+      "object": "DumpHashElements函数",
+      "context": "DumpHashElements函数用于列出所有散列条目的元素，常用于调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DefaultKeyFuncs",
+      "predicate": "需要",
+      "object": "KeyInitType",
+      "context": "DefaultKeyFuncs需要定义KeyInitType来指定传递键的类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DefaultKeyFuncs",
+      "predicate": "需要",
+      "object": "ElementInitType",
+      "context": "DefaultKeyFuncs需要定义ElementInitType来指定传递元素的类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DefaultKeyFuncs",
+      "predicate": "需要",
+      "object": "GetSetKey函数",
+      "context": "DefaultKeyFuncs需要定义GetSetKey函数来返回元素的键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DefaultKeyFuncs",
+      "predicate": "需要",
+      "object": "Matches函数",
+      "context": "DefaultKeyFuncs需要定义Matches函数来比较两个键是否相等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DefaultKeyFuncs",
+      "predicate": "需要",
+      "object": "GetKeyHash函数",
+      "context": "DefaultKeyFuncs需要定义GetKeyHash函数来返回键的散列值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:42:26.625Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11311 字符)",
+      "timestamp": "2025-06-15T20:41:02.270Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17339,
+    "contentLength": 11311,
+    "processingTimeMs": 84368
+  }
+}

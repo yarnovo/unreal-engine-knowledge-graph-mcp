@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_sound-cue-editor-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_sound-cue-editor-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Sound Cue编辑器",
+      "predicate": "用于设计",
+      "object": "Sound Cue资产",
+      "context": "Sound Cue编辑器是专门用于设计和编辑Sound Cue资产的工具，帮助开发者构建复杂的音频行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sound Cue",
+      "predicate": "包含",
+      "object": "音频节点图表",
+      "context": "Sound Cue资产的核心组成部分是音频节点图表，它定义了音频信号的处理流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频节点图表",
+      "predicate": "引用",
+      "object": "Sound Wave",
+      "context": "音频节点图表中可以包含对Sound Wave资产的引用，这是音频处理的基础素材",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sound Wave",
+      "predicate": "通过",
+      "object": "Wave Player Sound节点",
+      "context": "Sound Wave在Sound Cue中通过Wave Player Sound节点参与音频处理流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sound Wave",
+      "predicate": "通过",
+      "object": "Wave Param Sound节点",
+      "context": "Sound Wave也可以通过Wave Param Sound节点参与音频处理流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sound Wave属性",
+      "predicate": "影响",
+      "object": "所有引用它的Sound Cue",
+      "context": "Sound Wave的基础属性会影响所有引用它的Sound Cue，这是全局性的音频控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频节点",
+      "predicate": "排列在",
+      "object": "音频节点图表",
+      "context": "音频节点是Sound Cue的基本构建模块，它们以图表形式排列展示数据流关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sound Cue编辑器",
+      "predicate": "提供",
+      "object": "节点预览功能",
+      "context": "编辑器提供节点级预览功能，帮助开发者调试音频处理流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频节点图表",
+      "predicate": "显示",
+      "object": "音频信号路径",
+      "context": "图表可视化展示音频信号在节点间的流动路径，这对理解音频处理逻辑很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "用于创建",
+      "object": "Sound Cue",
+      "context": "内容浏览器是创建新Sound Cue资产的入口点，这是工作流的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调色板面板",
+      "predicate": "提供",
+      "object": "音频节点类型",
+      "context": "调色板面板集中了所有可用的音频节点类型，方便开发者拖拽使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sound Cue编辑器",
+      "predicate": "基于",
+      "object": "节点式工作流",
+      "context": "编辑器采用节点式工作流，这是理解其操作逻辑的关键概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频节点连接",
+      "predicate": "遵循",
+      "object": "从左至右构建原则",
+      "context": "节点连接有推荐的方向性原则，这对构建合理的音频处理流程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Sound Wave",
+      "predicate": "创建自",
+      "object": ".wav音频文件",
+      "context": "理解Sound Wave的来源对音频资源管理很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sound Cue编辑器UI",
+      "predicate": "包含",
+      "object": "视口面板",
+      "context": "视口面板是编辑器的核心工作区域，理解其功能对使用编辑器很关键",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Sound Cue编辑器UI",
+      "predicate": "包含",
+      "object": "调色板面板",
+      "context": "调色板面板是获取音频节点的主要来源，是工作流的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "播放Cue按钮",
+      "predicate": "用于",
+      "object": "预览整个Sound Cue",
+      "context": "理解不同预览功能的区别对调试音频很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "播放节点按钮",
+      "predicate": "用于",
+      "object": "预览单个节点输出",
+      "context": "节点级预览功能帮助开发者定位音频处理问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "激活节点引线",
+      "predicate": "提供",
+      "object": "实时调试可视化",
+      "context": "实时可视化反馈是理解音频信号流动的重要辅助手段",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:50:54.167Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6334,
+    "contentLength": 4274,
+    "processingTimeMs": 55787
+  }
+}

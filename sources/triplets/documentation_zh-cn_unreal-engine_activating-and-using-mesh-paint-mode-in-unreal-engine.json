@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_activating-and-using-mesh-paint-mode-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_activating-and-using-mesh-paint-mode-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "网格体绘制模式",
+      "predicate": "包含",
+      "object": "顶点颜色绘制",
+      "context": "网格体绘制模式提供了顶点颜色绘制功能，允许在网格体上绘制顶点颜色数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体绘制模式",
+      "predicate": "包含",
+      "object": "顶点权重绘制",
+      "context": "网格体绘制模式提供了顶点权重绘制功能，用于在网格体上绘制顶点权重",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体绘制模式",
+      "predicate": "包含",
+      "object": "纹理颜色绘制",
+      "context": "网格体绘制模式提供了纹理颜色绘制功能，允许在网格体上绘制颜色并存储在专用纹理资产中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体绘制模式",
+      "predicate": "包含",
+      "object": "纹理绘制",
+      "context": "网格体绘制模式提供了纹理绘制功能，允许在网格体的可用纹理资产上绘制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理颜色绘制",
+      "predicate": "依赖",
+      "object": "虚拟纹理",
+      "context": "纹理颜色绘制功能需要项目启用虚拟纹理支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "顶点颜色绘制",
+      "predicate": "不兼容",
+      "object": "Nanite网格体",
+      "context": "Nanite网格体不支持顶点颜色绘制，应使用纹理颜色绘制",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体绘制模式",
+      "predicate": "位于",
+      "object": "关卡视口",
+      "context": "网格体绘制模式是关卡视口中的一种编辑模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体绘制工具",
+      "predicate": "包含",
+      "object": "绘制工具",
+      "context": "网格体绘制工具包含绘制工具，用于在网格体上应用颜色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体绘制工具",
+      "predicate": "包含",
+      "object": "擦除工具",
+      "context": "网格体绘制工具包含擦除工具，用于在网格体上擦除颜色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "顶点权重绘制",
+      "predicate": "用于",
+      "object": "材质混合",
+      "context": "顶点权重绘制可用于在材质中混合不同纹理层",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理颜色绘制",
+      "predicate": "生成",
+      "object": "网格体绘制纹理",
+      "context": "纹理颜色绘制会生成专用的网格体绘制纹理资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体绘制模式",
+      "predicate": "需要",
+      "object": "顶点颜色材质",
+      "context": "使用顶点颜色绘制需要设置顶点颜色材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体绘制模式",
+      "predicate": "需要",
+      "object": "纹理颜色材质",
+      "context": "使用纹理颜色绘制需要设置纹理颜色材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体绘制工具",
+      "predicate": "支持",
+      "object": "颜色通道选择",
+      "context": "网格体绘制工具支持选择特定的颜色通道进行绘制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Nanite网格体",
+      "predicate": "支持",
+      "object": "纹理颜色绘制",
+      "context": "Nanite网格体支持使用纹理颜色进行绘制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "顶点颜色数据",
+      "predicate": "可复制",
+      "object": "网格体实例",
+      "context": "顶点颜色数据可以在网格体的不同实例之间复制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理颜色数据",
+      "predicate": "可复制",
+      "object": "网格体实例",
+      "context": "纹理颜色数据可以在网格体的不同实例之间复制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体绘制模式",
+      "predicate": "禁用",
+      "object": "平移和缩放功能",
+      "context": "激活网格体绘制模式时会禁用视口中的平移和缩放功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体绘制模式",
+      "predicate": "强制启用",
+      "object": "实时模式",
+      "context": "激活网格体绘制模式时会强制启用透视视口的实时模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "顶点权重绘制",
+      "predicate": "支持",
+      "object": "多种权重类型",
+      "context": "顶点权重绘制支持多种权重类型，包括Alpha、RGB、ARGB等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:52:01.390Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9523 字符)",
+      "timestamp": "2025-06-15T17:50:49.539Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15871,
+    "contentLength": 9523,
+    "processingTimeMs": 71899
+  }
+}

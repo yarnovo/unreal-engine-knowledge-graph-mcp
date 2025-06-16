@@ -1,0 +1,163 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-constraint-tools-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-constraint-tools-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "动画约束工具",
+      "predicate": "包含",
+      "object": "位置约束",
+      "context": "位置约束是动画约束工具的一种类型，用于控制对象的位置变换",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画约束工具",
+      "predicate": "包含",
+      "object": "旋转约束",
+      "context": "旋转约束是动画约束工具的一种类型，用于控制对象的旋转变换",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画约束工具",
+      "predicate": "包含",
+      "object": "缩放约束",
+      "context": "缩放约束是动画约束工具的一种类型，用于控制对象的缩放变换",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画约束工具",
+      "predicate": "包含",
+      "object": "父节点约束",
+      "context": "父节点约束是动画约束工具的一种类型，用于控制对象的所有变换通道",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画约束工具",
+      "predicate": "包含",
+      "object": "LookAt约束",
+      "context": "LookAt约束是动画约束工具的一种类型，用于控制对象的旋转以瞄准目标",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画约束工具",
+      "predicate": "依赖",
+      "object": "控制绑定资产",
+      "context": "使用动画约束工具需要先创建控制绑定资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画约束工具",
+      "predicate": "依赖",
+      "object": "动画模式",
+      "context": "使用动画约束工具需要启用动画模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画约束工具",
+      "predicate": "依赖",
+      "object": "Sequencer",
+      "context": "动画约束工具主要在Sequencer中使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "约束管理器Actor",
+      "predicate": "管理",
+      "object": "动画约束工具",
+      "context": "约束管理器Actor用于查看和管理关卡中的所有约束",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "父节点约束",
+      "predicate": "扩展",
+      "object": "位置约束",
+      "context": "父节点约束可以控制所有变换通道，包括位置、旋转和缩放",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "父节点约束",
+      "predicate": "扩展",
+      "object": "旋转约束",
+      "context": "父节点约束可以控制所有变换通道，包括位置、旋转和缩放",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "父节点约束",
+      "predicate": "扩展",
+      "object": "缩放约束",
+      "context": "父节点约束可以控制所有变换通道，包括位置、旋转和缩放",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "LookAt约束",
+      "predicate": "特殊化",
+      "object": "旋转约束",
+      "context": "LookAt约束是一种特殊的旋转约束，专门用于瞄准目标",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画约束工具",
+      "predicate": "生成",
+      "object": "补偿性关键帧",
+      "context": "创建约束时会自动生成补偿性关键帧，以维护子节点的当前视觉位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画约束工具",
+      "predicate": "支持",
+      "object": "动态偏移",
+      "context": "可以启用动态偏移来控制是否允许子对象制作动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画约束工具",
+      "predicate": "支持",
+      "object": "维持偏移",
+      "context": "可以启用维持偏移来控制约束是使用绝对坐标还是相对坐标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画约束工具",
+      "predicate": "支持",
+      "object": "烘焙约束",
+      "context": "可以将约束效果烘焙到关键帧，以便进一步编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画约束工具",
+      "predicate": "支持",
+      "object": "补偿关键帧",
+      "context": "可以重新创建补偿性关键帧来修复约束中断问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:01:42.289Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10436 字符)",
+      "timestamp": "2025-06-15T18:00:44.015Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15444,
+    "contentLength": 10436,
+    "processingTimeMs": 58281
+  }
+}

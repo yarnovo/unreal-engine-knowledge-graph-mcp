@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_deformer-graph-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_deformer-graph-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "变形器图",
+      "predicate": "属于",
+      "object": "虚幻引擎",
+      "context": "变形器图是虚幻引擎中的一个插件功能，用于创建和编辑网格体变形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图",
+      "predicate": "用于",
+      "object": "蒙皮网格体",
+      "context": "变形器图主要用于为虚幻引擎中的所有蒙皮网格体执行和自定义网格体变形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图",
+      "predicate": "支持",
+      "object": "网格体变形",
+      "context": "变形器图可以用于微调角色的皮肤和织物在运动中的逼真行为，或创建全新的变形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图",
+      "predicate": "包含",
+      "object": "变形器图编辑器",
+      "context": "变形器图插件启用后，可以通过双击变形器图资产打开变形器图编辑器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图编辑器",
+      "predicate": "包含",
+      "object": "控制板面板",
+      "context": "控制板面板是变形器图编辑器的一部分，用于访问自定义变形器图节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图编辑器",
+      "predicate": "包含",
+      "object": "资源管理器面板",
+      "context": "资源管理器面板用于添加和管理变形器图的子图表、组件绑定、变量和资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图编辑器",
+      "predicate": "包含",
+      "object": "图表编辑器",
+      "context": "图表编辑器用于管理和编辑变形器图逻辑，类似于其他蓝图编辑器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图编辑器",
+      "predicate": "包含",
+      "object": "细节面板",
+      "context": "细节面板显示每个变形器图节点的信息和设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图编辑器",
+      "predicate": "包含",
+      "object": "着色器文本编辑器",
+      "context": "着色器文本编辑器用于对自定义计算内核节点进行HLSL编程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图",
+      "predicate": "包含",
+      "object": "子图表",
+      "context": "变形器图可以包含更新图表、设置图表和触发图表三种类型的子图表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图",
+      "predicate": "包含",
+      "object": "组件绑定",
+      "context": "组件绑定是对包含在所属对象中的可用组件的引用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图",
+      "predicate": "包含",
+      "object": "变量",
+      "context": "变量是外部可见的，用于在变形器图中调整和控制逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图",
+      "predicate": "包含",
+      "object": "资源",
+      "context": "资源是对特定值和组件的内部引用，用于执行网格体变形功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制板面板",
+      "predicate": "包含",
+      "object": "动画属性节点",
+      "context": "动画属性节点用于添加对动画属性的引用，触发或激活变形器逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制板面板",
+      "predicate": "包含",
+      "object": "布料节点",
+      "context": "布料节点用于添加并附加对与骨骼网格体关联的布料模拟模型的引用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制板面板",
+      "predicate": "包含",
+      "object": "自定义计算内核节点",
+      "context": "自定义计算内核节点可以使用HLSL编程，执行自定义网格体变形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图",
+      "predicate": "依赖",
+      "object": "变形器图插件",
+      "context": "使用变形器图需要先启用变形器图插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图",
+      "predicate": "替代",
+      "object": "手工制作动画",
+      "context": "变形器图可以用于一次性动画，比手工制作动画更容易创建",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "变形器图",
+      "predicate": "扩展",
+      "object": "线性混合蒙皮管线",
+      "context": "DG_LinearBlendSkin_Morph_Cloth变形器图是线性混合蒙皮管线的超集",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "变形器图",
+      "predicate": "实现",
+      "object": "网格体变形逻辑",
+      "context": "变形器图用于创建和修改逻辑来调整网格体几何形状",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:49:46.442Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (24834 字符)",
+      "timestamp": "2025-06-15T18:48:40.537Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 39896,
+    "contentLength": 24834,
+    "processingTimeMs": 65915
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_layers-panel-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_layers-panel-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "层级面板",
+      "predicate": "用于",
+      "object": "组织关卡中的Actor",
+      "context": "层级面板的主要功能是帮助开发者组织和管理关卡中的各种Actor",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "层级",
+      "predicate": "包含",
+      "object": "Actor",
+      "context": "层级可以包含一个或多个Actor，用于逻辑分组管理",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Actor",
+      "predicate": "可属于",
+      "object": "多个层级",
+      "context": "一个Actor可以同时被分配到多个不同的层级中，实现灵活的组织方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "层级创建",
+      "predicate": "支持",
+      "object": "三种方式",
+      "context": "可以通过创建空层级、从选择创建和拖放创建三种方式创建新层级",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "层级命名",
+      "predicate": "影响",
+      "object": "搜索功能",
+      "context": "使用描述性名称命名层级可以更好地利用搜索功能快速定位层级",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "层级内容视图",
+      "predicate": "显示",
+      "object": "层级详细信息",
+      "context": "层级内容视图可以查看层级中包含的所有Actor及其类型和数量信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "层级",
+      "predicate": "控制",
+      "object": "Actor可视性",
+      "context": "通过切换层级的可视性可以批量显示或隐藏该层级中的所有Actor",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "层级",
+      "predicate": "支持",
+      "object": "批量选择",
+      "context": "可以通过层级快速选择其中包含的所有Actor，提高工作效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "特定于类型的选择",
+      "predicate": "基于",
+      "object": "Actor类型",
+      "context": "可以根据Actor类型（如静态网格体）快速选择层级中的特定类型Actor",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "世界大纲视图",
+      "predicate": "与",
+      "object": "层级面板",
+      "context": "两者协同工作，可以通过拖放操作在世界大纲视图和层级面板之间移动Actor",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "显示",
+      "object": "Actor所属层级",
+      "context": "在细节面板中可以查看和编辑所选Actor所属的层级信息",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "层级",
+      "predicate": "适用于",
+      "object": "大型关卡管理",
+      "context": "使用层级可以更有效地管理大型关卡中的大量Actor",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "层级搜索",
+      "predicate": "基于",
+      "object": "名称匹配",
+      "context": "可以通过名称搜索快速定位到特定层级或层级中的Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "层级",
+      "predicate": "支持",
+      "object": "选择性显示",
+      "context": "通过控制层级的可视性可以只显示当前需要处理的Actor组",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "层级内容视图",
+      "predicate": "提供",
+      "object": "类型统计",
+      "context": "在层级内容视图中可以查看该层级包含的各类Actor的数量统计",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T19:43:08.107Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13321 字符)",
+      "timestamp": "2025-06-15T19:42:17.282Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17711,
+    "contentLength": 13321,
+    "processingTimeMs": 50829
+  }
+}

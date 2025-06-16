@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_bent-normal-maps-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_bent-normal-maps-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "环境法线贴图",
+      "predicate": "改善",
+      "object": "照明和着色",
+      "context": "环境法线贴图用于材质中可以改善对照明和着色的反应，帮助学习者理解其在渲染中的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境法线贴图",
+      "predicate": "减少",
+      "object": "漏光",
+      "context": "使用环境法线贴图有助于减少照明构建后的漏光现象，这是其重要应用之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境法线贴图",
+      "predicate": "结合使用",
+      "object": "环境光遮蔽（AO）",
+      "context": "环境法线贴图可以与AO结合使用来改善漫射间接照明，使学习者了解两者协同工作的效果",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境法线贴图",
+      "predicate": "替代",
+      "object": "法线",
+      "context": "在间接照明中，环境法线可以替代标准法线使用，帮助学习者理解其特殊用途",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Substance Designer 6",
+      "predicate": "生成",
+      "object": "环境法线贴图",
+      "context": "Substance Designer 6可用于生成环境法线贴图，帮助学习者了解相关工具链",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境法线贴图",
+      "predicate": "使用",
+      "object": "余弦分布",
+      "context": "创建高质量环境法线贴图需要使用余弦分布，这是重要的技术细节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境法线贴图",
+      "predicate": "位于相同空间",
+      "object": "法线贴图",
+      "context": "环境法线贴图应与法线贴图位于相同的空间（场景空间或切线空间），这是重要的技术规范",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境法线贴图",
+      "predicate": "应用于",
+      "object": "反射遮蔽",
+      "context": "环境法线贴图可用于反射遮蔽/高光度遮蔽，扩展了学习者的应用知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "反射遮蔽",
+      "predicate": "减少",
+      "object": "高光度漏光",
+      "context": "反射遮蔽能显著减少高光度漏光，特别是在屏幕空间反射不可用时",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多次反射近似值",
+      "predicate": "改善",
+      "object": "遮蔽计算",
+      "context": "多次反射近似值可以改善遮蔽计算，使较亮材质不会过暗且有色材质饱和度更高",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境法线贴图",
+      "predicate": "连接",
+      "object": "环境法线自定义输出节点",
+      "context": "在材质中使用环境法线贴图需要连接到特定的自定义输出节点，这是重要的实现细节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境法线贴图",
+      "predicate": "需要",
+      "object": "AO贴图输入",
+      "context": "使用环境法线贴图时需要同时有AO贴图输入，帮助学习者理解完整的实现流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境法线",
+      "predicate": "基于",
+      "object": "T姿势",
+      "context": "生成环境法线时应将角色置于T姿势，这是重要的预处理要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境法线",
+      "predicate": "使用相同距离设置",
+      "object": "AO",
+      "context": "环境法线和AO应使用相同的距离设置，这是重要的技术规范",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:12:46.671Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5513,
+    "contentLength": 3609,
+    "processingTimeMs": 49366
+  }
+}

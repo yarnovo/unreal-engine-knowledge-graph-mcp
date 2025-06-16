@@ -1,0 +1,123 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_create-an-action-utility-for-transferring-skin-weights-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_create-an-action-utility-for-transferring-skin-weights-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Action Utility",
+      "predicate": "用于",
+      "object": "Transferring Skin Weights",
+      "context": "Action Utility是用于在虚幻引擎中转移皮肤权重的工具，帮助开发者自动化处理角色服装的权重转移",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Static Mesh",
+      "predicate": "转换为",
+      "object": "Skeletal Mesh",
+      "context": "通过Action Utility可以将静态网格体转换为带有骨骼数据的骨骼网格体资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Geometry Script",
+      "predicate": "提供功能",
+      "object": "Transfer Bone Weights",
+      "context": "Geometry Script插件提供了转移骨骼权重的功能，是Action Utility的核心依赖",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Panel Cloth Editor",
+      "predicate": "替代方案",
+      "object": "Action Utility",
+      "context": "Panel Cloth Editor也提供皮肤权重转移功能，但Action Utility允许创建自定义工作流程",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Inpaint Weights",
+      "predicate": "优于",
+      "object": "Closest Point On Surface",
+      "context": "Inpaint Weights方法比Closest Point On Surface更适合处理非紧身服装，虽然执行时间稍长",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Material Map",
+      "predicate": "保留",
+      "object": "Static Mesh Materials",
+      "context": "Material Map用于将静态网格体的材质信息保留到转换后的骨骼网格体资产中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Dynamic Mesh",
+      "predicate": "中间格式",
+      "object": "Mesh Conversion",
+      "context": "Dynamic Mesh是静态网格体和骨骼网格体转换过程中的中间格式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Transfer Bone Weights From Mesh",
+      "predicate": "实现",
+      "object": "Skin Weights Transfer",
+      "context": "该节点通过检查目标网格体顶点与源骨骼网格体上最近点的匹配度来实现皮肤权重转移",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_StaticMeshtoSkeletalMesh_ActorAction",
+      "predicate": "基于",
+      "object": "Binding Assets to a Skeletal Mesh",
+      "context": "本教程中的蓝图工具是基于绑定资产到骨骼网格体的教程开发的",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Skeleton Editor",
+      "predicate": "用于验证",
+      "object": "Bone Weights Transfer",
+      "context": "骨骼编辑器可用于验证皮肤权重转移的结果是否正确",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Geometry Script",
+      "predicate": "依赖",
+      "object": "Geometry Script Plugin",
+      "context": "使用Geometry Script功能需要先启用Geometry Script插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Action Utility",
+      "predicate": "包含",
+      "object": "TransferSkinWeights Function",
+      "context": "Action Utility的核心是TransferSkinWeights函数，它实现了权重转移的主要逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DCC Application",
+      "predicate": "用于创建",
+      "object": "Character Garments",
+      "context": "数字内容创建(DCC)应用程序通常用于创建角色服装模型，然后导入到虚幻引擎",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:37:43.197Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13225 字符)",
+      "timestamp": "2025-06-15T18:36:45.873Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13415,
+    "contentLength": 13225,
+    "processingTimeMs": 57331
+  }
+}

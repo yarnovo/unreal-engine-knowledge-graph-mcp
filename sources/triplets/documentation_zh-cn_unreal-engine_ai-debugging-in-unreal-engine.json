@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_ai-debugging-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_ai-debugging-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "AI调试工具",
+      "predicate": "包含",
+      "object": "行为树调试",
+      "context": "AI调试工具集成了行为树调试功能，帮助开发者查看AI行为逻辑的执行情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI调试工具",
+      "predicate": "包含",
+      "object": "EQS调试",
+      "context": "AI调试工具可以显示环境查询系统的运行状态和测试结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI调试工具",
+      "predicate": "包含",
+      "object": "AI感知调试",
+      "context": "AI调试工具能够可视化AI感知系统的感官输入和刺激响应",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI调试工具",
+      "predicate": "依赖",
+      "object": "AI控制器",
+      "context": "要使用AI调试工具，需要Pawn具备AI控制器才能获取调试信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "行为树调试",
+      "predicate": "显示",
+      "object": "活跃任务",
+      "context": "行为树调试信息会显示当前正在执行的任务节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "行为树调试",
+      "predicate": "关联",
+      "object": "黑板系统",
+      "context": "行为树调试同时显示黑板键值，帮助理解AI决策依据",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EQS调试",
+      "predicate": "可视化",
+      "object": "测试结果",
+      "context": "EQS调试用颜色标记测试通过/失败的位置点，并显示权重值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI感知调试",
+      "predicate": "显示",
+      "object": "感官配置",
+      "context": "感知调试会列出AI感知组件中定义的所有感官类型及其状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体调试",
+      "predicate": "依赖",
+      "object": "Nav Mesh Bounds Volume",
+      "context": "寻路调试需要关卡中放置导航网格体边界体积才能显示可行走区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI调试工具",
+      "predicate": "支持",
+      "object": "视觉记录器",
+      "context": "EQS调试信息会被视觉记录器捕获用于后续分析",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "行为树",
+      "predicate": "支持",
+      "object": "断点调试",
+      "context": "行为树可以像蓝图一样添加断点来暂停特定节点的执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EQS测试Pawn",
+      "predicate": "扩展",
+      "object": "EQS调试",
+      "context": "EQS测试Pawn提供了在游戏未运行时调试查询的额外方法",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "AI感知调试",
+      "predicate": "可视化",
+      "object": "最后已知位置",
+      "context": "感知调试会用球体标记AI最后感知到刺激源的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI调试工具",
+      "predicate": "控制",
+      "object": "HUD显示",
+      "context": "可以通过快捷键控制调试HUD的显示/隐藏",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T17:56:34.361Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10194,
+    "contentLength": 6824,
+    "processingTimeMs": 66299
+  }
+}

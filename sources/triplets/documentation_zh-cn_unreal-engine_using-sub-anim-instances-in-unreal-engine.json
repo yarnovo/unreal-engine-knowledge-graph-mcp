@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-sub-anim-instances-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-sub-anim-instances-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "子动画实例",
+      "predicate": "用于",
+      "object": "动画蓝图复用",
+      "context": "子动画实例允许在一个动画蓝图中重复使用另一个动画蓝图的部分逻辑，避免重复创建节点网络",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "AnimGraph",
+      "context": "AnimGraph是动画蓝图的核心组成部分，用于设计和实现动画逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子图输入节点",
+      "predicate": "提供",
+      "object": "输入姿势",
+      "context": "子图输入节点在子动画实例上创建输入姿势，允许外部姿势数据传递给动画蓝图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FABRIK",
+      "predicate": "属于",
+      "object": "骨架控制节点",
+      "context": "FABRIK是一种骨架控制节点，用于实现反向动力学效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FABRIK",
+      "predicate": "控制",
+      "object": "骨骼位置",
+      "context": "FABRIK节点通过设置位置、末梢骨骼和根骨骼等参数来控制特定骨骼的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "效果Alpha",
+      "predicate": "影响",
+      "object": "FABRIK效果强度",
+      "context": "效果Alpha变量用于控制FABRIK节点应用的骨架控制效果的强度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子动画实例节点",
+      "predicate": "访问",
+      "object": "AltAnimBP",
+      "context": "子动画实例节点通过设置实例类来访问特定的动画蓝图(如AltAnimBP)",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "公开属性",
+      "predicate": "允许",
+      "object": "父蓝图数据更新",
+      "context": "在子动画实例中公开属性(如效果Alpha)允许父动画蓝图用其数据更新这些属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "速度变量",
+      "predicate": "驱动",
+      "object": "效果Alpha",
+      "context": "角色的移动速度经过计算后可以驱动子动画实例中的效果Alpha值，实现动态的动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "依赖",
+      "object": "骨架资源",
+      "context": "创建动画蓝图时必须选择与目标动画蓝图相同的骨架资源，这是动画系统工作的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "局部到组件节点",
+      "predicate": "转换",
+      "object": "空间坐标系",
+      "context": "局部到组件和组件到局部节点用于在不同空间坐标系之间转换姿势数据",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子动画实例",
+      "predicate": "支持",
+      "object": "模块化动画设计",
+      "context": "子动画实例技术支持将复杂动画逻辑分解为模块化组件，便于管理和复用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "可以包含",
+      "object": "状态机",
+      "context": "除了子动画实例外，动画蓝图还可以包含自己的状态机来产生最终姿势数据",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:23:39.005Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6911,
+    "contentLength": 4759,
+    "processingTimeMs": 37306
+  }
+}

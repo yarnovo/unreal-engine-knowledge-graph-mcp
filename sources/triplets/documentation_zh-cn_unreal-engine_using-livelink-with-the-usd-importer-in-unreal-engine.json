@@ -1,0 +1,123 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-livelink-with-the-usd-importer-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-livelink-with-the-usd-importer-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Live Link插件",
+      "predicate": "同步",
+      "object": "动画资产",
+      "context": "Live Link插件用于在虚幻编辑器和外部DCC工具之间同步动画资产，帮助开发者快速预览资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD文件",
+      "predicate": "用于",
+      "object": "Live Link连接",
+      "context": "USD文件可以作为Live Link连接的一部分，用于在虚幻引擎和DCC工具之间同步资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD舞台",
+      "predicate": "支持",
+      "object": "Live Link连接",
+      "context": "USD舞台可以设置Live Link连接，使资产在DCC工具和虚幻引擎之间同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Maya Live Link插件",
+      "predicate": "替代",
+      "object": "标准Live Link插件",
+      "context": "在使用Maya时，应使用Maya Live Link插件替代标准Live Link插件以获得更好的兼容性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD导入器插件",
+      "predicate": "依赖",
+      "object": "Live Link插件",
+      "context": "使用USD导入器插件需要同时启用Live Link插件，以实现资产同步功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "DefaultLiveLinkAnimBP",
+      "predicate": "用于",
+      "object": "Live Link姿势同步",
+      "context": "DefaultLiveLinkAnimBP是默认的动画蓝图，用于监听DCC工具提供的姿势并同步到虚幻引擎",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link Pose节点",
+      "predicate": "实现",
+      "object": "姿势同步",
+      "context": "Live Link Pose节点在动画蓝图中用于实现与Live Link的兼容性，同步DCC工具提供的姿势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD舞台",
+      "predicate": "支持",
+      "object": "动画蓝图自定义",
+      "context": "USD舞台允许开发者使用自定义动画蓝图替代DefaultLiveLinkAnimBP，以满足特定需求",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Live Link主题名称",
+      "predicate": "必须匹配",
+      "object": "DCC对象名称",
+      "context": "Live Link主题名称必须与DCC工具中的对象名称匹配，才能确保Live Link连接正常工作",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD导出选项",
+      "predicate": "包含",
+      "object": "导出预览网格体",
+      "context": "USD导出选项中的导出预览网格体选项需要启用，以确保导出的USD文件包含必要的网格体信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "USD文件格式",
+      "context": "虚幻引擎支持使用USD文件格式进行资产导入和同步，便于与DCC工具协作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link窗口",
+      "predicate": "用于",
+      "object": "管理Live Link连接",
+      "context": "Live Link窗口用于添加和管理Live Link连接源，便于开发者控制资产同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第三人称模板",
+      "predicate": "包含",
+      "object": "人体模型和动画",
+      "context": "通过第三人称模板创建的项目包含人体模型及其动画，可用于Live Link连接的示例",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:19:19.924Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9208 字符)",
+      "timestamp": "2025-06-15T21:18:41.308Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12908,
+    "contentLength": 9208,
+    "processingTimeMs": 38619
+  }
+}

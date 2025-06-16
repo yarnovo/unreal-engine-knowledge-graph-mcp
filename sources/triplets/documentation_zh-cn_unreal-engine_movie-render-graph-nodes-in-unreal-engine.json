@@ -1,0 +1,259 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_movie-render-graph-nodes-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_movie-render-graph-nodes-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "影片渲染图表",
+      "predicate": "包含",
+      "object": "全局节点",
+      "context": "全局节点是影片渲染图表的核心组成部分，用于设置影响整个渲染作业的参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全局节点",
+      "predicate": "包含",
+      "object": "Warm Up Settings",
+      "context": "Warm Up Settings是全局节点的一种，用于设置渲染预热参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全局节点",
+      "predicate": "包含",
+      "object": "Global Game Overrides",
+      "context": "Global Game Overrides节点用于在渲染时提高渲染质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全局节点",
+      "predicate": "包含",
+      "object": "Global Output Settings",
+      "context": "Global Output Settings节点控制输出文件的目录、帧率和分辨率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Global Output Settings",
+      "predicate": "控制",
+      "object": "时间码",
+      "context": "Global Output Settings节点包含时间码设置，用于控制渲染的时间码数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染图表",
+      "predicate": "包含",
+      "object": "Render Layer节点",
+      "context": "Render Layer节点决定是否渲染特定链，是影片渲染图表的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Render Layer节点",
+      "predicate": "控制",
+      "object": "渲染逻辑",
+      "context": "Render Layer节点决定是否执行链中的渲染逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染图表",
+      "predicate": "包含",
+      "object": "逐层节点",
+      "context": "逐层节点可以逐图层设置渲染参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "逐层节点",
+      "predicate": "包含",
+      "object": "Render Type节点",
+      "context": "Render Type节点用于选择渲染路径（如路径追踪或延迟渲染）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Render Type节点",
+      "predicate": "支持",
+      "object": "路径追踪",
+      "context": "路径追踪是Render Type节点支持的一种渲染方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Render Type节点",
+      "predicate": "支持",
+      "object": "延迟渲染",
+      "context": "延迟渲染是Render Type节点支持的另一种渲染方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "路径追踪",
+      "predicate": "支持",
+      "object": "时间降噪器",
+      "context": "路径追踪渲染器支持时间降噪器（NFOR）以提高渲染质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "逐层节点",
+      "predicate": "包含",
+      "object": "Output File Type节点",
+      "context": "Output File Type节点用于选择输出文件的格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Output File Type节点",
+      "predicate": "支持",
+      "object": "EXR",
+      "context": "EXR是Output File Type节点支持的一种输出格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Output File Type节点",
+      "predicate": "支持",
+      "object": "PNG",
+      "context": "PNG是Output File Type节点支持的一种输出格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "逐层节点",
+      "predicate": "包含",
+      "object": "Collection节点",
+      "context": "Collection节点用于对Actor进行分组和控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Collection节点",
+      "predicate": "使用",
+      "object": "条件组",
+      "context": "Collection节点通过条件组定义Actor的成员资格",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "条件组",
+      "predicate": "支持",
+      "object": "Add条件",
+      "context": "Add条件用于将多个条件的结果相加",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "条件组",
+      "predicate": "支持",
+      "object": "Subtract条件",
+      "context": "Subtract条件用于让条件组彼此相减",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "条件组",
+      "predicate": "支持",
+      "object": "And条件",
+      "context": "And条件用于检查是否符合所有条件组",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "逐层节点",
+      "predicate": "包含",
+      "object": "Modifier节点",
+      "context": "Modifier节点用于控制集合的可见性条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Modifier节点",
+      "predicate": "控制",
+      "object": "Actor可见性",
+      "context": "Modifier节点可以设置Actor的可见性、阴影投射等属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染图表",
+      "predicate": "包含",
+      "object": "Burn-In节点",
+      "context": "Burn-In节点用于在渲染中添加自定义水印",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染图表",
+      "predicate": "包含",
+      "object": "UI Renderer节点",
+      "context": "UI Renderer节点用于渲染输出场景内的UMG控件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染图表",
+      "predicate": "包含",
+      "object": "Conditional节点",
+      "context": "Conditional节点用于控制分支的计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Conditional节点",
+      "predicate": "包含",
+      "object": "Branch节点",
+      "context": "Branch节点根据布尔值决定计算的分支",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Conditional节点",
+      "predicate": "包含",
+      "object": "Select节点",
+      "context": "Select节点根据输入选择要计算的分支",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染图表",
+      "predicate": "支持",
+      "object": "变量和公开的属性",
+      "context": "影片渲染图表支持将属性公开为引脚，便于在基础界面上设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染图表",
+      "predicate": "包含",
+      "object": "子图表",
+      "context": "子图表可以在父图表中加载并应用逻辑，提高灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染图表",
+      "predicate": "支持",
+      "object": "图表求值",
+      "context": "影片渲染图表支持从输出回溯进行图表求值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:02:07.964Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (20833 字符)",
+      "timestamp": "2025-06-15T20:00:38.364Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 32178,
+    "contentLength": 20833,
+    "processingTimeMs": 89611
+  }
+}

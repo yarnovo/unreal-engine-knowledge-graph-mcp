@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_creating-landscapes-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_creating-landscapes-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎5",
+      "predicate": "包含",
+      "object": "地形编辑工具套件",
+      "context": "虚幻引擎5提供了地形编辑工具套件，用于创建广袤地貌场景，这是学习地形创建的基础工具集。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形工具",
+      "predicate": "用于",
+      "object": "创建沉浸式室外地貌区域",
+      "context": "地形工具的主要功能是创建优化的室外地貌，帮助学习者理解其核心应用场景。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形工具",
+      "predicate": "支持",
+      "object": "导入地形高度图",
+      "context": "地形工具支持导入外部创建的高度图，扩展了地形创建的数据来源方式。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形工具",
+      "predicate": "支持",
+      "object": "创建自定义地形导入器",
+      "context": "支持自定义导入器开发，为高级用户提供扩展地形数据输入方式的可能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形工具",
+      "predicate": "包含",
+      "object": "管理模式",
+      "context": "管理模式是地形工具的核心功能模块，用于创建和管理地形Actor。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形Actor",
+      "predicate": "继承",
+      "object": "Actor",
+      "context": "地形Actor继承自基础Actor类，共享移动/旋转/缩放等基础特性。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "新建地形",
+      "predicate": "依赖",
+      "object": "分段大小设置",
+      "context": "分段大小直接影响地形性能和LOD优化，是地形创建时需要重点理解的参数。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形组件",
+      "predicate": "影响",
+      "object": "CPU开销",
+      "context": "组件数量和大小与CPU性能直接相关，是地形优化的重要考量因素。",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形材质",
+      "predicate": "应用于",
+      "object": "地形Actor",
+      "context": "材质赋予地形视觉表现，是地形制作中艺术表现的关键环节。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形编辑",
+      "predicate": "包含",
+      "object": "雕刻模式",
+      "context": "雕刻模式是地形编辑的核心功能之一，用于地形高度图的直接修改。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形编辑",
+      "predicate": "包含",
+      "object": "绘制模式",
+      "context": "绘制模式用于地形材质的图层混合，是地形艺术表现的关键工具。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分段大小",
+      "predicate": "影响",
+      "object": "LOD优化",
+      "context": "较小的分段可以提供更好的LOD优化，但会增加CPU开销。",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "每个组件的分段数",
+      "predicate": "决定",
+      "object": "地形组件大小",
+      "context": "这个参数与分段大小共同决定了单个组件的实际尺寸。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "总体分辨率",
+      "predicate": "由",
+      "object": "组件数和分段大小",
+      "context": "总体分辨率是地形细节的基础参数，由多个设置共同决定。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形工具",
+      "predicate": "前置",
+      "object": "地形材质图层混合",
+      "context": "理解地形工具操作是学习更高级的材质图层混合技术的基础。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:40:27.237Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9755,
+    "contentLength": 6417,
+    "processingTimeMs": 49520
+  }
+}

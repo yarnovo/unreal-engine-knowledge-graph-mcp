@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_configuration-files-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_configuration-files-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "配置文件",
+      "predicate": "用于",
+      "object": "虚幻引擎初始设置",
+      "context": "配置文件提供虚幻引擎的初始设置，包含键/值对列表，用于设置启动时加载的对象和属性的默认值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "配置文件",
+      "predicate": "包含",
+      "object": "分段",
+      "context": "配置文件由多个分段组成，每个分段包含若干键/值对",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分段",
+      "predicate": "包含",
+      "object": "键/值对",
+      "context": "每个分段中可以包含多个键/值对，用于配置具体参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块配置",
+      "predicate": "使用",
+      "object": "分段语法",
+      "context": "模块中的可配置对象使用特定语法定义分段标题，格式为[/Script/ModuleName.ClassName]",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插件配置",
+      "predicate": "使用",
+      "object": "分段语法",
+      "context": "插件中的可配置对象使用特定语法定义分段标题，格式为[/Script/PluginName.ClassName]",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图配置",
+      "predicate": "使用",
+      "object": "分段语法",
+      "context": "蓝图中的可配置资产使用特定语法定义分段标题，格式为[/PathToUAsset/UAssetName.UAssetName_C]",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "配置文件",
+      "predicate": "支持",
+      "object": "数组操作",
+      "context": "配置文件支持对数组进行清空、附加、删除等操作，通过特定运算符实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "配置文件",
+      "predicate": "支持",
+      "object": "结构体配置",
+      "context": "配置文件支持更改配置对象中的结构体属性，使用特定语法设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "配置文件层级",
+      "predicate": "决定",
+      "object": "配置覆盖顺序",
+      "context": "同一类目中的配置文件按特定顺序加载，后面文件中的配置会覆盖前面文件中的相同配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UPROPERTY",
+      "predicate": "可标记为",
+      "object": "Config",
+      "context": "类中的成员变量可以标记为Config，使其能够从配置文件中自动加载值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GConfig",
+      "predicate": "提供",
+      "object": "手动读取配置方法",
+      "context": "GConfig对象提供多种函数用于手动读取配置文件中的值，如GetInt、GetString等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SaveConfig",
+      "predicate": "用于",
+      "object": "保存配置设置",
+      "context": "在代码中可以使用SaveConfig方法将修改后的配置值保存回配置文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetIni",
+      "predicate": "用于",
+      "object": "查看配置值",
+      "context": "GetIni控制台命令可以查看任何配置设置的值，包括当前平台以外的平台设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "命令行参数",
+      "predicate": "可以",
+      "object": "覆盖配置",
+      "context": "虚幻引擎提供通过命令行参数来覆盖配置设置的机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台变量",
+      "predicate": "可以",
+      "object": "在配置文件中设置",
+      "context": "某些控制台变量可以在通用配置类目中设置，而另外一些应在特定配置类目中设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ConfigCacheIni",
+      "predicate": "提供",
+      "object": "配置系统信息",
+      "context": "ConfigCacheIni等引擎文件提供了有关配置系统及其组件的更多信息",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "可以",
+      "object": "编辑配置值",
+      "context": "可以通过虚幻编辑器的项目设置编辑部分公开的配置值",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "配置文件类目",
+      "predicate": "包括",
+      "object": "通用类目",
+      "context": "通用配置文件类目包括Engine、Game、Input等，适用于各种场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "配置文件类目",
+      "predicate": "包括",
+      "object": "编辑器专用类目",
+      "context": "编辑器专用配置文件类目包括Editor、EditorSettings等，仅适用于编辑器环境",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "配置文件类目",
+      "predicate": "包括",
+      "object": "桌面版专用类目",
+      "context": "桌面版专用配置文件类目包括Compat、Lightmass等，仅适用于桌面平台",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:30:42.378Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (19756 字符)",
+      "timestamp": "2025-06-15T18:29:31.346Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 26886,
+    "contentLength": 19756,
+    "processingTimeMs": 71043
+  }
+}

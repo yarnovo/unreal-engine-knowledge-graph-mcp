@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_level-editor-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_level-editor-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "关卡编辑器",
+      "predicate": "包含",
+      "object": "Actor",
+      "context": "关卡编辑器用于放置和修改Actor，是构建关卡的核心工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡",
+      "predicate": "组成",
+      "object": "Actor",
+      "context": "关卡由多个Actor组成，包括光源、网格物体、角色等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "具有",
+      "object": "三维位置、旋转度及缩放比例",
+      "context": "Actor作为虚幻引擎中的基本对象，具有这些基本属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡编辑器",
+      "predicate": "包含",
+      "object": "模式面板",
+      "context": "模式面板是关卡编辑器的重要组成部分，用于切换不同的编辑模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模式面板",
+      "predicate": "支持",
+      "object": "多种编辑模式",
+      "context": "模式面板提供地形、植被、网格体绘制等多种编辑模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视口",
+      "predicate": "用于",
+      "object": "查看和编辑关卡",
+      "context": "视口是开发者与虚幻引擎世界交互的主要窗口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "显示",
+      "object": "选中Actor的属性",
+      "context": "细节面板用于查看和编辑当前选中Actor的所有属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界大纲视图",
+      "predicate": "组织",
+      "object": "场景中的Actor",
+      "context": "世界大纲视图以层次化方式展示和管理关卡中的所有Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图层面板",
+      "predicate": "用于",
+      "object": "管理Actor组",
+      "context": "图层面板帮助开发者组织和控制相关Actor组的可视性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具栏",
+      "predicate": "提供",
+      "object": "常用工具快捷访问",
+      "context": "工具栏包含开发者常用的工具和操作命令",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "管理",
+      "object": "项目资源",
+      "context": "内容浏览器用于浏览和管理项目中的所有资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选卡栏",
+      "predicate": "显示",
+      "object": "当前编辑的关卡",
+      "context": "选卡栏反映当前正在编辑的关卡名称",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "菜单栏",
+      "predicate": "提供",
+      "object": "编辑器功能访问",
+      "context": "菜单栏包含处理关卡的各种工具和命令",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "底部工具栏",
+      "predicate": "包含",
+      "object": "控制台快捷方式",
+      "context": "底部工具栏提供快速访问命令控制台等功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形模式",
+      "predicate": "用于",
+      "object": "编辑地貌地形",
+      "context": "地形模式专门用于创建和修改户外地形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "植被模式",
+      "predicate": "用于",
+      "object": "绘制实例化植被",
+      "context": "植被模式用于在场景中添加和管理植被实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体绘制模式",
+      "predicate": "用于",
+      "object": "绘制顶点颜色和纹理",
+      "context": "此模式允许直接在静态网格体上绘制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "笔刷编辑模式",
+      "predicate": "用于",
+      "object": "修改几何体笔刷",
+      "context": "此模式专门用于编辑几何体笔刷",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "源码控制",
+      "predicate": "集成",
+      "object": "版本管理功能",
+      "context": "编辑器集成了Perforce和Subversion等版本控制功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡编辑器",
+      "predicate": "是",
+      "object": "虚幻编辑器的核心组件",
+      "context": "关卡编辑器提供了虚幻引擎中关卡创建的核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:43:21.958Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12189 字符)",
+      "timestamp": "2025-06-15T19:42:17.286Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16733,
+    "contentLength": 12189,
+    "processingTimeMs": 64680
+  }
+}

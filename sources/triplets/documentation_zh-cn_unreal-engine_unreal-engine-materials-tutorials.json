@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-engine-materials-tutorials",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-engine-materials-tutorials.md",
+  "triples": [
+    {
+      "subject": "材质编辑器",
+      "predicate": "包含",
+      "object": "主材质节点",
+      "context": "主材质节点是材质编辑器的核心组件，学习材质编辑必须掌握其使用方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质",
+      "predicate": "应用于",
+      "object": "Actor",
+      "context": "材质最终需要应用到场景中的Actor对象才能呈现视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质实例",
+      "predicate": "基于",
+      "object": "材质",
+      "context": "材质实例是从基础材质派生而来的可参数化变体，是材质系统的重要优化手段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质函数",
+      "predicate": "用于",
+      "object": "材质图表",
+      "context": "材质函数是可重用的材质逻辑模块，可以简化材质图表的复杂度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理遮罩",
+      "predicate": "控制",
+      "object": "材质效果",
+      "context": "纹理遮罩用于控制材质不同区域的显示效果，是材质编辑的重要技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自发光材质输入",
+      "predicate": "实现",
+      "object": "发光效果",
+      "context": "自发光输入是创建发光材质的基础通道，理解其原理对制作光源材质很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "透明度",
+      "predicate": "影响",
+      "object": "材质渲染",
+      "context": "透明度设置直接影响材质的渲染方式和性能消耗，是材质设计的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "折射",
+      "predicate": "属于",
+      "object": "高级材质效果",
+      "context": "折射效果模拟光线穿过透明物体时的物理现象，需要特殊材质设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UV坐标动画",
+      "predicate": "创建",
+      "object": "动态材质",
+      "context": "通过动画化UV坐标可以实现材质表面的动态纹理效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "凹凸贴图偏移",
+      "predicate": "增强",
+      "object": "材质深度感",
+      "context": "凹凸贴图偏移技术可以在不增加几何复杂度的情况下增强材质深度感",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "双法线贴图",
+      "predicate": "用于",
+      "object": "透明涂层材质",
+      "context": "双法线技术是创建复杂透明涂层效果(如汽车漆)的关键方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "次表面散射",
+      "predicate": "模拟",
+      "object": "皮肤材质",
+      "context": "次表面散射着色模型是创建逼真皮肤材质的基础物理模型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "菲涅尔效应",
+      "predicate": "影响",
+      "object": "材质反射",
+      "context": "菲涅尔节点控制材质在不同视角下的反射强度，是创建真实材质的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分层材质",
+      "predicate": "组合",
+      "object": "多种材质效果",
+      "context": "分层材质技术允许将多个材质效果叠加组合，实现复杂表面表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质图表",
+      "predicate": "支持",
+      "object": "注释和整理",
+      "context": "良好的图表整理习惯对复杂材质的维护和团队协作至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节纹理",
+      "predicate": "增强",
+      "object": "近距离材质细节",
+      "context": "细节纹理可以在不增加基础纹理分辨率的情况下提升近距离观察效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "彩色半透明阴影",
+      "predicate": "实现",
+      "object": "真实透光效果",
+      "context": "彩色半透明阴影可以模拟光线穿过有色透明物体的真实视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "径向动态模糊",
+      "predicate": "属于",
+      "object": "高级材质特效",
+      "context": "径向动态模糊可以创建特殊的运动视觉效果，需要特定材质设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质编辑器UI",
+      "predicate": "包含",
+      "object": "预览面板",
+      "context": "预览面板是材质编辑器的重要组成部分，用于实时查看材质效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "有光泽材质",
+      "predicate": "依赖",
+      "object": "反射参数",
+      "context": "创建有光泽材质需要正确设置反射率、粗糙度等关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:10:48.977Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8044 字符)",
+      "timestamp": "2025-06-15T21:09:51.251Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 10090,
+    "contentLength": 8044,
+    "processingTimeMs": 57730
+  }
+}

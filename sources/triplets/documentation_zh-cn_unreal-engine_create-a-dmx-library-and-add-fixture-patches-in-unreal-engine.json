@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_create-a-dmx-library-and-add-fixture-patches-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_create-a-dmx-library-and-add-fixture-patches-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "DMX库",
+      "predicate": "包含",
+      "object": "灯具类型",
+      "context": "DMX库作为主要数据结构，存储了灯具类型的定义信息，这是学习DMX系统的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX库",
+      "predicate": "包含",
+      "object": "灯具配接",
+      "context": "灯具配接是DMX库的核心组成部分，用于配置灯具与DMX协议的连接方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "灯具类型",
+      "predicate": "包含",
+      "object": "模式",
+      "context": "灯具类型通过模式来组织不同的功能属性集合，理解模式是掌握灯具配置的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模式",
+      "predicate": "包含",
+      "object": "函数",
+      "context": "函数定义了灯具的具体控制属性，是DMX协议控制的最小功能单元",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GDTF文件",
+      "predicate": "用于",
+      "object": "导入灯具类型",
+      "context": "GDTF是行业标准格式，通过它可以快速导入制造商预定义的灯具类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "灯具配接",
+      "predicate": "映射到",
+      "object": "域.通道",
+      "context": "配接需要指定具体的域和通道才能实现DMX通信，这是硬件连接的理论基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX组件",
+      "predicate": "替代",
+      "object": "直接配接",
+      "context": "DMX组件提供了更高效的DMX值处理方式，是推荐的实现方案",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "使用",
+      "object": "DMX组件",
+      "context": "在蓝图中添加DMX组件是实现DMX通信的标准方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "函数",
+      "predicate": "控制",
+      "object": "DMX属性",
+      "context": "每个函数对应灯具的一个可控制属性，理解这种映射关系是编程控制的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX协议",
+      "predicate": "支持",
+      "object": "Art-Net",
+      "context": "Art-Net是常用的DMX网络协议实现方式之一",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "DMX协议",
+      "predicate": "支持",
+      "object": "sACN",
+      "context": "sACN是另一种常用的DMX网络协议标准",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "灯具配接",
+      "predicate": "需要",
+      "object": "灯具类型",
+      "context": "创建配接前必须先定义或导入对应的灯具类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模式复杂度",
+      "predicate": "影响",
+      "object": "内存占用",
+      "context": "更复杂的模式需要更多内存资源，这是性能优化需要考虑的因素",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Get Attribute Values",
+      "predicate": "用于",
+      "object": "接收DMX值",
+      "context": "这是从配接获取原始DMX数据的基本方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Normalized Attribute Values",
+      "predicate": "用于",
+      "object": "接收标准化DMX值",
+      "context": "提供0-1范围的标准化数值，便于统一处理不同位深度的属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Send DMX",
+      "predicate": "用于",
+      "object": "发送DMX命令",
+      "context": "通过配接发送控制指令到实际设备的核心节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "On Fixture Patch Received",
+      "predicate": "触发于",
+      "object": "DMX值变化",
+      "context": "这个事件只在值变化时触发，是高效处理DMX输入的关键机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX属性名称",
+      "predicate": "对应",
+      "object": "灯具功能",
+      "context": "属性名称必须与灯具类型的函数定义相匹配才能正确控制设备",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容侧滑菜单",
+      "predicate": "用于",
+      "object": "创建DMX库",
+      "context": "这是创建和管理DMX资源的主要界面入口",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "手动创建灯具类型",
+      "predicate": "适用于",
+      "object": "调试用途",
+      "context": "当没有GDTF文件时，手动创建是测试和开发的替代方案",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:38:00.316Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9267 字符)",
+      "timestamp": "2025-06-15T18:36:45.872Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13705,
+    "contentLength": 9267,
+    "processingTimeMs": 74450
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_lyra-input-settings-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_lyra-input-settings-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Lyra输入设置系统",
+      "predicate": "基于",
+      "object": "增强输入系统",
+      "context": "Lyra输入设置系统构建在增强输入系统之上，理解这一关系有助于学习者从基础输入系统过渡到Lyra的高级输入配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGameFeatureAction_AddInputConfig",
+      "predicate": "属于",
+      "object": "游戏功能操作",
+      "context": "明确UGameFeatureAction_AddInputConfig的分类有助于理解其在游戏功能插件架构中的角色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGameFeatureAction_AddInputConfig",
+      "predicate": "注册",
+      "object": "PlayerMappableInputConfig",
+      "context": "该关系揭示了游戏功能如何将输入配置注册到系统中，是理解动态输入管理的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PlayerMappableInputConfig",
+      "predicate": "包含",
+      "object": "输入映射",
+      "context": "理解数据资产与具体输入映射的包含关系，有助于配置复杂的输入方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入映射",
+      "predicate": "依赖",
+      "object": "平台特征",
+      "context": "平台特征决定输入映射的激活条件，这对开发跨平台输入系统至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ULyraSettingsLocal",
+      "predicate": "存储",
+      "object": "输入配置",
+      "context": "设置系统作为输入配置的持久化存储，这是理解输入状态保存和加载的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ULyraInputComponent",
+      "predicate": "使用",
+      "object": "ULyraSettingsLocal",
+      "context": "输入组件与设置系统的交互关系，解释了运行时输入如何应用用户配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lyra输入修饰器",
+      "predicate": "修改",
+      "object": "原始输入值",
+      "context": "理解修饰器在输入处理流水线中的作用，对实现高级输入效果很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ULyraInputModifierGamepadSensitivity",
+      "predicate": "应用",
+      "object": "游戏手柄灵敏度设置",
+      "context": "具体修饰器实现与设置的关联，展示如何将用户偏好转化为实际输入行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ULyraAimSensitivityData",
+      "predicate": "映射",
+      "object": "游戏手柄灵敏度枚举",
+      "context": "数据资产如何将抽象设置转化为具体数值，这对理解设置系统的数据驱动设计很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ModifyRaw_Implementation",
+      "predicate": "获取",
+      "object": "本地玩家设置",
+      "context": "函数实现细节展示了修饰器如何动态访问玩家特定设置，这对自定义输入处理很有帮助",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "增强输入系统",
+      "predicate": "支持",
+      "object": "OnInputMethodChanged委托",
+      "context": "基础系统提供的功能扩展点，对实现动态输入设备切换很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "游戏功能插件",
+      "predicate": "提供",
+      "object": "输入配置",
+      "context": "理解插件如何贡献输入配置，有助于模块化输入系统的设计",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "ULyraSettingsLocal",
+      "predicate": "管理",
+      "object": "自定义键绑定",
+      "context": "设置系统对用户自定义输入的持久化管理能力",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "输入修饰器",
+      "predicate": "实现",
+      "object": "游戏设置效果",
+      "context": "修饰器作为设置系统与实际输入处理之间的桥梁",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:48:01.911Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4724,
+    "contentLength": 2682,
+    "processingTimeMs": 52897
+  }
+}

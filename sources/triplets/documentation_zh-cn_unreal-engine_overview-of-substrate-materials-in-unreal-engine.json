@@ -1,0 +1,155 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_overview-of-substrate-materials-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_overview-of-substrate-materials-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Substrate",
+      "predicate": "替代",
+      "object": "旧版材质系统",
+      "context": "Substrate是虚幻引擎5中的新材质编辑途径，摒弃了原有固定着色模型和混合模式的思路，提供了更模块化的框架",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Substrate",
+      "predicate": "基于",
+      "object": "物质Slab概念",
+      "context": "Substrate材质依赖'物质Slab'概念，这些Slab由具有明确单位的物理量参数化，是构建材质的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Substrate Slab",
+      "predicate": "包含",
+      "object": "界面和介质",
+      "context": "Substrate Slab由界面（光线与材质表面交互的边界）和介质（界面之下光线被散射、透射和吸收的物质体积）组成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Substrate",
+      "predicate": "支持",
+      "object": "参数混合",
+      "context": "Substrate支持通过运算符节点进行参数混合，优化材质性能和内存占用量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Substrate",
+      "predicate": "提供",
+      "object": "调试视图模式",
+      "context": "Substrate提供了多种调试视图模式，帮助开发者分析材质性能和复杂度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Substrate Material Root节点",
+      "predicate": "连接",
+      "object": "Substrate Slab",
+      "context": "Substrate材质图表必须连接到Material Root节点的正面材质输入，这是每个Substrate图表的端点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Substrate运算符节点",
+      "predicate": "用于",
+      "object": "混合和分层Slab",
+      "context": "Substrate运算符节点（如Horizontal Blend、Vertical Layer等）用于混合和分层多个Slab，形成复杂的表面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Substrate BSDF节点",
+      "predicate": "表示",
+      "object": "表面类型",
+      "context": "Substrate BSDF节点（如Slab BSDF、Eye BSDF等）用于表示不同类型的表面，控制材质的视效效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Substrate",
+      "predicate": "支持",
+      "object": "半透明材质",
+      "context": "Substrate提供了更强大的半透明表面着色选择，优于传统非Substrate材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Substrate",
+      "predicate": "支持",
+      "object": "次表面散射",
+      "context": "Substrate Slab包含参与介质，可以用于模拟次表面散射效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Substrate",
+      "predicate": "支持",
+      "object": "粗糙折射",
+      "context": "Substrate支持透过半透明对象的粗糙折射，以及在分层不透明材质上的粗糙折射",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Substrate",
+      "predicate": "依赖",
+      "object": "项目设置",
+      "context": "启用Substrate需要在项目设置中配置相关选项，并可能需要重启项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Substrate",
+      "predicate": "存在关系",
+      "object": "材质层",
+      "context": "Substrate可以原生使用参数混合，但无法从材质层接口访问该功能，未来开发中可能会统一",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Substrate",
+      "predicate": "提供",
+      "object": "构建块节点",
+      "context": "Substrate构建块节点（如Coated Layer、Standard Surface等）为常见用例提供了转换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Substrate",
+      "predicate": "提供",
+      "object": "额外节点",
+      "context": "Substrate额外节点（如Convert To Decal、Light Function等）用于指定材质的特定用途",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Substrate",
+      "predicate": "提供",
+      "object": "辅助节点",
+      "context": "Substrate辅助节点（如Metalness-To-DiffuseAlbedo-F0、Transmittance-To-MeanFreePath等）用于执行转换和实现旧版材质功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Substrate",
+      "predicate": "存在",
+      "object": "局限性",
+      "context": "Substrate是实验功能，存在平台支持不完整、功能可能变更等局限性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:16:38.010Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (38943 字符)",
+      "timestamp": "2025-06-15T20:15:30.538Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 62391,
+    "contentLength": 38943,
+    "processingTimeMs": 67479
+  }
+}

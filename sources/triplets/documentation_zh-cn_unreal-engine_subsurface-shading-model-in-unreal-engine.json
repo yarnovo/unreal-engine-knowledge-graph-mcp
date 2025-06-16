@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_subsurface-shading-model-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_subsurface-shading-model-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "次表面着色模型",
+      "predicate": "适用于",
+      "object": "蜡或翡翠材质",
+      "context": "次表面着色模型专门用于模拟光线在材质内部散射的效果，适用于蜡或翡翠等不透明但光线会在内部散射的材质。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "次表面着色模型",
+      "predicate": "实现",
+      "object": "次表面散射（SSS）",
+      "context": "次表面着色模型通过次表面散射（SSS）技术实现光线在材质内部的散射效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "次表面散射（SSS）",
+      "predicate": "用于",
+      "object": "逼真皮肤渲染",
+      "context": "次表面散射通常用于为人类或其他生物创建逼真的皮肤效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "次表面着色模型",
+      "predicate": "包含",
+      "object": "次表面颜色输入通道",
+      "context": "次表面着色模型包含次表面颜色输入通道，用于定义材质内影响SSS照明的颜色。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "次表面着色模型",
+      "predicate": "影响",
+      "object": "不透明通道",
+      "context": "当使用次表面着色模型时，不透明通道的含义发生变化，用于控制光线散射的密度、法线纹理的影响、光线传播距离和阴影柔和度。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "不透明通道",
+      "predicate": "控制",
+      "object": "光线散射密度",
+      "context": "不透明通道在次表面着色模型中控制材质散射光线时的密度。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "不透明通道",
+      "predicate": "影响",
+      "object": "法线纹理效果",
+      "context": "不透明通道影响法线纹理对次表面光线的效果，材质越不透明，法线纹理的影响越大。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "不透明通道",
+      "predicate": "决定",
+      "object": "光线传播距离",
+      "context": "不透明通道决定光线穿过材质后因自身阴影而可传播的距离，不透明度越低，光线传播得越远。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "不透明通道",
+      "predicate": "影响",
+      "object": "阴影柔和度",
+      "context": "不透明通道影响阴影在材质上的柔和度，不透明度越低，阴影越柔和。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "次表面着色模型",
+      "predicate": "具有",
+      "object": "局限性",
+      "context": "次表面着色模型当前存在一些技术局限性，如不支持点光源阴影、层叠阴影贴图接缝等问题。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "次表面着色模型",
+      "predicate": "基于",
+      "object": "MLM_Subsurface明暗处理模型",
+      "context": "次表面着色模型基于MLM_Subsurface明暗处理模型实现。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "次表面散射（SSS）",
+      "predicate": "成本低于",
+      "object": "皮肤渲染模型",
+      "context": "次表面散射（SSS）的效果质量欠佳，但成本低于通常用于皮肤渲染的模型。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:56:20.914Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3440,
+    "contentLength": 2090,
+    "processingTimeMs": 37364
+  }
+}

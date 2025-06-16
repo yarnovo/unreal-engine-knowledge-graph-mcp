@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_camera-motion-blur-with-ndisplay-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_camera-motion-blur-with-ndisplay-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "nDisplay",
+      "predicate": "支持",
+      "object": "摄像机动态模糊",
+      "context": "nDisplay提供了摄像机动态模糊的解决方案，帮助在虚拟制片中实现更真实的视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机动态模糊",
+      "predicate": "适用于",
+      "object": "合成镜头",
+      "context": "动态模糊在合成镜头中特别重要，如演员在移动背景前表演的场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成镜头",
+      "predicate": "有两种方法",
+      "object": "移动舞台",
+      "context": "合成镜头可以通过移动舞台或移动世界场景来实现，每种方法有不同适用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成镜头",
+      "predicate": "有两种方法",
+      "object": "移动世界场景",
+      "context": "合成镜头可以通过移动舞台或移动世界场景来实现，每种方法有不同适用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动舞台",
+      "predicate": "需要",
+      "object": "动画路径",
+      "context": "移动舞台方法需要为nDisplay Root Actor设置动画路径来表示车辆位移",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动世界场景",
+      "predicate": "需要",
+      "object": "自定义场景设置",
+      "context": "移动世界场景方法需要完全可移动的动态内容和光源，以及自定义场景设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机动态模糊",
+      "predicate": "存在",
+      "object": "物理摄像机局限性",
+      "context": "在LED墙面上捕捉动态模糊内容时，物理摄像机存在固有的局限性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay Root Actor",
+      "predicate": "属于",
+      "object": "nDisplay系统",
+      "context": "nDisplay Root Actor是nDisplay系统的核心组件，用于控制场景的移动和动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动舞台",
+      "predicate": "可能导致",
+      "object": "渲染不稳定",
+      "context": "当摄像机距离原点太远时，移动舞台方法可能因单精度浮点格式限制导致渲染不稳定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动世界场景",
+      "predicate": "支持",
+      "object": "无限播放",
+      "context": "移动世界场景方法可以通过像传送带一样移动场景分区来实现无限播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:18:57.238Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5812,
+    "contentLength": 3126,
+    "processingTimeMs": 37413
+  }
+}

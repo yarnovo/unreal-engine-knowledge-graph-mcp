@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_events-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_events-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "事件",
+      "predicate": "触发",
+      "object": "事件图表",
+      "context": "事件是从游戏性代码中调用的节点，在事件图表中开始执行个体网络，帮助学习者理解事件如何驱动蓝图执行流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件",
+      "predicate": "响应",
+      "object": "游戏事件",
+      "context": "事件用于对游戏中发生的特定事件（如游戏开始、关卡重置、受到伤害等）进行回应，帮助学习者理解事件与游戏逻辑的关联",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Event Level Reset",
+      "predicate": "属于",
+      "object": "关卡蓝图",
+      "context": "Level Reset事件仅在关卡蓝图中可用，帮助学习者区分不同事件的应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Event Actor Begin Overlap",
+      "predicate": "依赖",
+      "object": "碰撞响应",
+      "context": "Begin Overlap事件执行需要满足Actor之间的碰撞响应允许重叠等条件，帮助学习者理解事件与物理系统的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Event Hit",
+      "predicate": "依赖",
+      "object": "Simulation Generates Hit Events",
+      "context": "Hit事件执行需要相关Actor的碰撞设置中Simulation Generates Hit Events设为true，帮助学习者理解事件触发的具体条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Event Any Damage",
+      "predicate": "执行于",
+      "object": "服务器",
+      "context": "Any Damage事件仅在服务器上执行，帮助学习者理解网络游戏中的事件执行机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Event Point Damage",
+      "predicate": "代表",
+      "object": "投射物伤害",
+      "context": "Point Damage代表由投射物、扫射武器等造成的伤害，帮助学习者区分不同类型的伤害事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Event Radial Damage",
+      "predicate": "处理",
+      "object": "爆炸伤害",
+      "context": "Radial Damage事件用于处理基于爆炸伤害或间接伤害的事件，帮助学习者理解范围伤害的实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Event Begin Play",
+      "predicate": "触发于",
+      "object": "游戏开始",
+      "context": "Begin Play事件在游戏开始时在所有Actor上触发，帮助学习者理解游戏初始化流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Event Tick",
+      "predicate": "执行于",
+      "object": "每帧",
+      "context": "Tick事件在游戏进程中每帧调用，帮助学习者理解游戏循环机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Event Receive Draw HUD",
+      "predicate": "专用于",
+      "object": "HUD类",
+      "context": "Receive Draw HUD事件仅限继承自HUD类的蓝图类使用，帮助学习者理解UI绘制的特殊机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Custom Event",
+      "predicate": "扩展",
+      "object": "蓝图功能",
+      "context": "Custom Event节点允许创建自定义工作流程，帮助学习者理解如何扩展蓝图的事件系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Event Destroyed",
+      "predicate": "被替代",
+      "object": "Event End Play",
+      "context": "文档指出Destroyed事件的功能已合并到EndPlay函数，帮助学习者了解API的演进",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件",
+      "predicate": "用于",
+      "object": "功能扩展",
+      "context": "事件可在蓝图中访问以便实现新功能或覆盖默认功能，帮助学习者理解事件在游戏开发中的灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件图表",
+      "predicate": "包含",
+      "object": "多个事件",
+      "context": "任意数量的事件均可在单一事件图表中使用，帮助学习者理解事件的组织方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:01:55.549Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11095 字符)",
+      "timestamp": "2025-06-15T19:00:57.134Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15164,
+    "contentLength": 11095,
+    "processingTimeMs": 58423
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-clang-sanitizers-in-unreal-engine-projects",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-clang-sanitizers-in-unreal-engine-projects.md",
+  "triples": [
+    {
+      "subject": "虚幻编译工具",
+      "predicate": "支持",
+      "object": "Clang检测工具",
+      "context": "文档明确指出虚幻编译工具支持Clang检测工具，帮助开发者检测运行时错误",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Clang检测工具",
+      "predicate": "用于",
+      "object": "检测运行时错误",
+      "context": "Clang检测工具专门用于检测编译时无法发现的运行时错误，如内存泄漏、竞争条件等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Address Sanitizer",
+      "predicate": "检测",
+      "object": "内存访问问题",
+      "context": "ASan专门用于检测内存访问问题，包括越界访问和内存泄漏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HWASan",
+      "predicate": "替代",
+      "object": "Address Sanitizer",
+      "context": "HWASan是ASan的硬件加速版本，在Android 14及更高版本中推荐使用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Thread Sanitizer",
+      "predicate": "检测",
+      "object": "线程问题",
+      "context": "TSan专门用于检测线程问题，如竞争条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Undefined Behavior Sanitizer",
+      "predicate": "检测",
+      "object": "未定义行为",
+      "context": "UBSan用于检测C++中的未定义行为，如整数溢出和未初始化内存",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MinUBSan",
+      "predicate": "是",
+      "object": "UBSan的轻量版本",
+      "context": "MinUBSan是专门为安卓平台优化的UBSan轻量版本",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Memory Sanitizer",
+      "predicate": "检测",
+      "object": "未初始化内存访问",
+      "context": "MSan专门用于检测对未初始化内存的访问，仅支持Linux平台",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Clang检测工具",
+      "predicate": "影响",
+      "object": "程序性能",
+      "context": "使用Clang检测工具会显著增加内存消耗并降低程序运行速度",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Visual Studio",
+      "predicate": "集成",
+      "object": "Clang检测工具",
+      "context": "开发者可以在Visual Studio中配置项目属性来使用Clang检测工具",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Linux",
+      "predicate": "支持",
+      "object": "Clang检测工具",
+      "context": "文档提到虚幻编译工具支持在Linux平台上使用Clang检测工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android",
+      "predicate": "支持",
+      "object": "Clang检测工具",
+      "context": "文档提到虚幻编译工具支持在Android平台上使用Clang检测工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NDK",
+      "predicate": "需要",
+      "object": "HWASan",
+      "context": "使用HWASan需要NDK 26.1.10909125或更高版本",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:14:05.882Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4735,
+    "contentLength": 3327,
+    "processingTimeMs": 36694
+  }
+}

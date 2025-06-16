@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_push-pull-tool-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_push-pull-tool-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "推拉工具",
+      "predicate": "属于",
+      "object": "建模工具",
+      "context": "推拉工具是建模工具的一部分，学习推拉工具前需要了解建模工具的基本概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "推拉工具",
+      "predicate": "基于",
+      "object": "多边形组",
+      "context": "推拉工具操作依赖于多边形组的概念，理解多边形组有助于更好地使用推拉工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "推拉工具",
+      "predicate": "类似",
+      "object": "布尔工具",
+      "context": "推拉工具的功能类似于布尔工具，两者都涉及网格体的切割和合并操作",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "推拉工具",
+      "predicate": "包含",
+      "object": "挤压选项",
+      "context": "推拉工具提供多种挤压选项，理解这些选项有助于精确控制网格体的变形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "挤压选项",
+      "predicate": "包含",
+      "object": "距离模式",
+      "context": "距离模式是挤压选项的一部分，决定了挤压距离的设置方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "挤压选项",
+      "predicate": "包含",
+      "object": "方向模式",
+      "context": "方向模式是挤压选项的一部分，决定了顶点移动的方向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "方向模式",
+      "predicate": "包含",
+      "object": "顶点法线",
+      "context": "顶点法线是方向模式的一种选项，遵循顶点法线进行挤压",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "方向模式",
+      "predicate": "包含",
+      "object": "单个方向",
+      "context": "单个方向是方向模式的一种选项，所有三角形沿相同方向移动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "方向模式",
+      "predicate": "包含",
+      "object": "所选三角形法线",
+      "context": "所选三角形法线是方向模式的一种选项，基于所选三角形的角度加权平均值确定移动方向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "方向模式",
+      "predicate": "包含",
+      "object": "所选三角形法线均匀",
+      "context": "所选三角形法线均匀是方向模式的一种选项，调整移动距离以保持三角形平行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "推拉工具",
+      "predicate": "依赖",
+      "object": "建模模式",
+      "context": "推拉工具通常在建模模式下使用，理解建模模式有助于更好地使用推拉工具",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "推拉工具",
+      "predicate": "用于",
+      "object": "网格体编辑",
+      "context": "推拉工具主要用于网格体的编辑和变形，是建模过程中的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "推拉工具",
+      "predicate": "支持",
+      "object": "布尔操作",
+      "context": "推拉工具支持类似布尔操作的网格体切割和合并，理解布尔操作有助于掌握推拉工具",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "推拉工具",
+      "predicate": "包含",
+      "object": "壳到实心选项",
+      "context": "壳到实心选项是推拉工具的高级功能，控制开放边界块的挤压方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "推拉工具",
+      "predicate": "包含",
+      "object": "测量方向选项",
+      "context": "测量方向选项是推拉工具的高级功能，决定挤压距离的测量方向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "推拉工具",
+      "predicate": "包含",
+      "object": "将共线性用于设置边界组选项",
+      "context": "此选项是推拉工具的高级功能，影响侧三角形的分组方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:30:48.358Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7890,
+    "contentLength": 5409,
+    "processingTimeMs": 56139
+  }
+}

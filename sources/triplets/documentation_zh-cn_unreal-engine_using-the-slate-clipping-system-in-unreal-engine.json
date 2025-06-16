@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-the-slate-clipping-system-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-the-slate-clipping-system-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Slate裁剪系统",
+      "predicate": "用于",
+      "object": "虚幻引擎编辑器",
+      "context": "Slate裁剪系统在虚幻引擎编辑器中用于限制图像或文本到特定区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate裁剪系统",
+      "predicate": "用于",
+      "object": "UMG UI设计器",
+      "context": "Slate裁剪系统在UMG UI设计器中用于实现UI元素的裁剪效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate裁剪系统2.0",
+      "predicate": "替代",
+      "object": "Slate裁剪系统1.0",
+      "context": "Slate裁剪系统2.0在虚幻引擎4.17版本中替代了1.0版本，提供了更灵活的裁剪功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate裁剪系统2.0",
+      "predicate": "支持",
+      "object": "任意四边形裁剪",
+      "context": "Slate裁剪系统2.0支持任意四边形的裁剪，不再局限于轴对齐裁剪",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate裁剪系统2.0",
+      "predicate": "支持",
+      "object": "模板缓存裁剪",
+      "context": "Slate裁剪系统2.0使用模板缓存来实现复杂裁剪区的堆叠",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EWidgetClipping",
+      "predicate": "控制",
+      "object": "控件裁剪状态",
+      "context": "EWidgetClipping枚举用于控制UMG控件的裁剪状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FSlateClippingZone",
+      "predicate": "实现",
+      "object": "自定义裁剪",
+      "context": "FSlateClippingZone类用于在控件内部实现自定义裁剪区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Widget Reflector",
+      "predicate": "用于",
+      "object": "调试裁剪状态",
+      "context": "Widget Reflector工具可用于查看和调试控件的裁剪状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate.ShowClipping",
+      "predicate": "用于",
+      "object": "可视化裁剪区域",
+      "context": "Slate.ShowClipping控制台变量可用于可视化显示裁剪区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate.DebugCulling",
+      "predicate": "用于",
+      "object": "调试剔除行为",
+      "context": "Slate.DebugCulling控制台变量有助于理解剔除在面板中的工作原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SScrollBox",
+      "predicate": "使用",
+      "object": "裁剪代理",
+      "context": "SScrollBox使用bClippingProxy属性来作为裁剪代理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG",
+      "predicate": "依赖",
+      "object": "Slate裁剪系统",
+      "context": "UMG系统依赖Slate裁剪系统来实现UI元素的裁剪效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "裁剪系统2.0",
+      "predicate": "改进",
+      "object": "渲染变形处理",
+      "context": "裁剪系统2.0改进了对渲染变形的处理，能正确在边缘裁剪变形后的子控件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IsChildWidgetCulled",
+      "predicate": "用于",
+      "object": "剔除检测",
+      "context": "IsChildWidgetCulled函数用于检测子控件是否应该被剔除",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate裁剪系统",
+      "predicate": "基于",
+      "object": "裁剪矩形",
+      "context": "Slate裁剪系统基于裁剪矩形(裁剪rect)来实现内容限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:25:49.798Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8309 字符)",
+      "timestamp": "2025-06-15T21:25:07.041Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13527,
+    "contentLength": 8309,
+    "processingTimeMs": 42759
+  }
+}

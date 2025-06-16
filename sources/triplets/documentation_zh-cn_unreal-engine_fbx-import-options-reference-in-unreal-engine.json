@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_fbx-import-options-reference-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_fbx-import-options-reference-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "FBX导入选项",
+      "predicate": "包含",
+      "object": "静态网格体选项",
+      "context": "FBX导入选项对话框包含静态网格体导入的特定设置，帮助学习者理解静态网格体导入的配置方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX导入选项",
+      "predicate": "包含",
+      "object": "骨架网格体选项",
+      "context": "FBX导入选项对话框包含骨架网格体导入的特定设置，帮助学习者理解骨架网格体导入的配置方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX导入选项",
+      "predicate": "包含",
+      "object": "动画选项",
+      "context": "FBX导入选项对话框包含动画导入的特定设置，帮助学习者理解动画导入的配置方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "支持",
+      "object": "自动生成碰撞",
+      "context": "静态网格体导入时可以选择自动生成碰撞，这对游戏物理交互很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "支持",
+      "object": "LOD组",
+      "context": "静态网格体可以分配到LOD组，这对性能优化很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体",
+      "predicate": "依赖",
+      "object": "骨架",
+      "context": "骨架网格体需要绑定到骨架资产，这是动画系统的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体",
+      "predicate": "支持",
+      "object": "变形目标",
+      "context": "骨架网格体可以导入变形目标，用于面部动画等效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画",
+      "predicate": "依赖",
+      "object": "骨架",
+      "context": "动画需要绑定到骨架资产才能正确应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画",
+      "predicate": "支持",
+      "object": "自定义属性曲线",
+      "context": "动画可以导入自定义属性曲线，扩展动画控制能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX导入器",
+      "predicate": "支持",
+      "object": "坐标系转换",
+      "context": "FBX导入器支持将场景从FBX坐标系转换为UE坐标系，这对资产兼容性很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX导入器",
+      "predicate": "支持",
+      "object": "单位转换",
+      "context": "FBX导入器支持将场景从FBX计量单位转换为UE计量单位，确保尺寸一致",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质导入",
+      "predicate": "支持",
+      "object": "多种搜索策略",
+      "context": "材质导入支持多种搜索位置策略，帮助匹配现有材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "支持",
+      "object": "光照贴图UV生成",
+      "context": "静态网格体可以生成光照贴图UV，这对静态照明很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体",
+      "predicate": "支持",
+      "object": "物理资产生成",
+      "context": "骨架网格体可以自动生成物理资产，用于物理模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画导入",
+      "predicate": "支持",
+      "object": "帧范围设置",
+      "context": "动画导入支持自定义帧范围设置，可以只导入需要的动画片段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX导入器",
+      "predicate": "支持",
+      "object": "法线处理选项",
+      "context": "FBX导入器提供多种法线处理方法，适应不同来源的资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "支持",
+      "object": "顶点颜色处理",
+      "context": "静态网格体导入支持顶点颜色处理选项，保留或覆盖现有顶点颜色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体",
+      "predicate": "支持",
+      "object": "参考姿势更新",
+      "context": "骨架网格体导入支持更新参考姿势，保持与源文件一致",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画导入",
+      "predicate": "支持",
+      "object": "采样率控制",
+      "context": "动画导入支持自定义采样率设置，控制动画精度和文件大小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX导入器",
+      "predicate": "支持",
+      "object": "命名规则自定义",
+      "context": "FBX导入器支持灵活的命名规则，适应不同的资产组织需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:05:11.399Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10673 字符)",
+      "timestamp": "2025-06-15T19:03:59.792Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 18960,
+    "contentLength": 10673,
+    "processingTimeMs": 71611
+  }
+}

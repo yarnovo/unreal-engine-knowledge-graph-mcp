@@ -1,0 +1,123 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_pivot-painter-tool-2.0-maxscript-reference-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_pivot-painter-tool-2.0-maxscript-reference-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "枢轴点绘制器工具2.0",
+      "predicate": "用于",
+      "object": "复杂动画创建",
+      "context": "该工具通过在纹理中存储模型的轴和旋转信息来创建复杂的动画，帮助学习者理解如何利用纹理数据驱动动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "枢轴点绘制器工具2.0",
+      "predicate": "依赖",
+      "object": "MAXScript",
+      "context": "工具功能通过MAXScript实现，学习者需要掌握MAXScript才能有效使用该工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分离选中模型的元素",
+      "predicate": "用于",
+      "object": "保留自定义法线",
+      "context": "该功能通过分离元素来保留网格体自定义法线，帮助学习者理解模型元素分离与法线保留的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成新的枢轴点",
+      "predicate": "基于",
+      "object": "样条或网格体",
+      "context": "新枢轴点的生成可以基于样条结点或网格体顶点，帮助学习者理解不同枢轴点生成方式的适用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "枢轴点位置",
+      "predicate": "存储于",
+      "object": "纹理RGB信道",
+      "context": "枢轴点位置信息存储在纹理的RGB信道中，学习者需要了解如何在着色器中解码这些信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PivotPainter2FoliageShader",
+      "predicate": "使用",
+      "object": "父索引信息",
+      "context": "该着色器函数使用父索引信息重建层级关系，帮助学习者理解复杂层级动画的实现原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "顶点Alpha描画器",
+      "predicate": "控制",
+      "object": "顶点动画效果",
+      "context": "通过调整Alpha信道参数控制顶点动画效果，帮助学习者理解顶点着色与动画的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "打包模式",
+      "predicate": "用于",
+      "object": "法线合并",
+      "context": "该模式用于合并多个模型的法线以形成连续曲面，帮助学习者理解模型打包与光照效果的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "枢轴点绘制器工具2.0",
+      "predicate": "生成",
+      "object": "模型信息纹理",
+      "context": "工具生成包含模型信息的纹理供虚幻引擎使用，这是学习工具工作流程的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "边界框重建",
+      "predicate": "影响",
+      "object": "顶点alpha绘制",
+      "context": "正确重建边界框是成功结合轴工具与顶点alpha绘制工具的前提，帮助学习者理解模型处理流程中的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Texture Coordinate Location",
+      "predicate": "决定",
+      "object": "UV坐标映射",
+      "context": "纹理坐标位置设置决定了UV如何与数据纹理像素关联，这是理解纹理生成过程的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "ms_PivotPainter2_DecodePosition",
+      "predicate": "用于",
+      "object": "解码枢轴点位置",
+      "context": "该函数用于解码纹理中存储的枢轴点位置信息，帮助学习者理解数据纹理的使用方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ObjectScale材质函数",
+      "predicate": "转换",
+      "object": "局部空间到全局空间",
+      "context": "该函数用于将局部空间值转换为全局空间比例，帮助学习者理解空间坐标系转换",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:24:15.238Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12118 字符)",
+      "timestamp": "2025-06-15T20:23:22.161Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 23146,
+    "contentLength": 12118,
+    "processingTimeMs": 53082
+  }
+}

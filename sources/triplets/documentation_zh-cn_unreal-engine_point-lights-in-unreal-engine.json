@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_point-lights-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_point-lights-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "点光源",
+      "predicate": "属于",
+      "object": "光源类型",
+      "context": "点光源是虚幻引擎中光源的一种基本类型，理解其特性有助于掌握其他光源类型",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "点光源",
+      "predicate": "具有",
+      "object": "移动性设置",
+      "context": "点光源的移动性设置（静态/固定/可移动）直接影响其渲染性能和功能特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态点光源",
+      "predicate": "支持",
+      "object": "烘焙光照",
+      "context": "静态点光源允许烘焙光照，这是优化场景性能的重要技术",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "固定点光源",
+      "predicate": "使用",
+      "object": "Lightmass",
+      "context": "固定点光源通过Lightmass处理静态几何体的光照，这是理解混合光照的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可移动点光源",
+      "predicate": "支持",
+      "object": "动态阴影",
+      "context": "可移动点光源完全动态的特性使其支持动态阴影，这对实时场景很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "点光源",
+      "predicate": "具有",
+      "object": "光源半径",
+      "context": "光源半径属性使点光源在反射和高光方面更具物理真实感",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "点光源",
+      "predicate": "包含",
+      "object": "光源属性",
+      "context": "点光源的属性分为多个类别，系统学习这些属性有助于精确控制光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源属性",
+      "predicate": "分为",
+      "object": "光源描述文件",
+      "context": "光源描述文件属性组包含IES纹理等专业光照控制参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源属性",
+      "predicate": "分为",
+      "object": "Lightmass",
+      "context": "Lightmass属性组控制间接光照和阴影质量，对场景光照质量至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源属性",
+      "predicate": "分为",
+      "object": "光照函数",
+      "context": "光照函数属性组允许通过材质实现特殊光照效果，扩展了光照的表现力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IES纹理",
+      "predicate": "用于",
+      "object": "光源描述文件",
+      "context": "IES纹理是专业的光照分布描述方式，掌握它可以实现更真实的光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光照函数材质",
+      "predicate": "应用于",
+      "object": "点光源",
+      "context": "光照函数材质可以实现特殊的光照效果，是高级光照控制技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减半径",
+      "predicate": "控制",
+      "object": "光照影响范围",
+      "context": "理解衰减半径有助于优化场景性能，避免不必要的照明计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平方反比衰减",
+      "predicate": "基于",
+      "object": "物理定律",
+      "context": "平方反比衰减模拟真实世界的光照衰减规律，是PBR渲染的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "点光源",
+      "predicate": "可用于",
+      "object": "场景照明",
+      "context": "点光源是构建场景基础照明的重要元素，掌握其特性是场景灯光设计的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态点光源",
+      "predicate": "具有",
+      "object": "最高渲染性能",
+      "context": "了解不同移动性设置对性能的影响有助于优化场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可移动点光源",
+      "predicate": "提供",
+      "object": "最大灵活性",
+      "context": "在需要动态改变光源属性的场景中，可移动点光源是必要选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源半径",
+      "predicate": "影响",
+      "object": "反射效果",
+      "context": "调整光源半径可以改变反射的物理真实感，是材质表现的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "间接照明强度",
+      "predicate": "控制",
+      "object": "全局光照贡献",
+      "context": "该参数是平衡直接光照和间接光照的关键设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:26:50.168Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7160,
+    "contentLength": 4466,
+    "processingTimeMs": 65218
+  }
+}

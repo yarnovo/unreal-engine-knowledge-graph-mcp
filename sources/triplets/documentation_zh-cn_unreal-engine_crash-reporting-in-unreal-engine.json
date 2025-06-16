@@ -1,0 +1,235 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_crash-reporting-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_crash-reporting-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "崩溃报告",
+      "predicate": "包含",
+      "object": "崩溃guid",
+      "context": "崩溃报告中的唯一标识符，用于追踪和识别特定的崩溃事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "崩溃报告",
+      "predicate": "包含",
+      "object": "错误信息",
+      "context": "崩溃报告包含错误类型和调用堆栈等信息，帮助开发者定位问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "崩溃报告",
+      "predicate": "包含",
+      "object": "系统信息",
+      "context": "崩溃报告记录计算机的系统信息，有助于分析崩溃的环境因素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "崩溃报告",
+      "predicate": "包含",
+      "object": "日志输出",
+      "context": "崩溃时的日志输出是调试的重要依据，包含设备运行时或项目编辑器的日志",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "崩溃报告",
+      "predicate": "包含",
+      "object": "自定义上下文",
+      "context": "开发者可以添加自定义键/值对数据，提供更多崩溃时的游戏状态信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "崩溃报告客户端",
+      "predicate": "生成",
+      "object": "崩溃报告",
+      "context": "崩溃报告客户端负责收集和提交崩溃报告，是崩溃处理流程的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "崩溃报告客户端",
+      "predicate": "提示",
+      "object": "用户注释",
+      "context": "客户端允许用户添加注释，提供崩溃时的额外上下文信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "崩溃报告客户端",
+      "predicate": "发送",
+      "object": "崩溃报告",
+      "context": "客户端将崩溃报告发送到指定服务器，便于开发者收集和分析",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "崩溃报告客户端",
+      "predicate": "可自定义",
+      "object": "公司名称",
+      "context": "开发者可以自定义客户端中显示的公司名称，增强品牌识别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "崩溃报告客户端",
+      "predicate": "可自定义",
+      "object": "服务器URL",
+      "context": "开发者可以配置客户端将报告发送到自己的服务器，而非Epic Games",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "提供",
+      "object": "崩溃报告基础设施",
+      "context": "引擎内置了完整的崩溃报告生成和提交机制，简化开发者的错误处理工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "控制",
+      "object": "包含崩溃报告器",
+      "context": "开发者通过项目设置决定是否将崩溃报告客户端打包进游戏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FPlatformCrashContext::SetGameData",
+      "predicate": "添加",
+      "object": "自定义上下文",
+      "context": "此函数允许开发者在崩溃前设置自定义键值对数据，丰富报告内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "崩溃",
+      "predicate": "属于",
+      "object": "崩溃源类型",
+      "context": "崩溃是程序无法处理的严重错误，是主要的崩溃源类型之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "断言",
+      "predicate": "属于",
+      "object": "崩溃源类型",
+      "context": "断言是开发者故意设置的检查点，用于验证假设条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "确保",
+      "predicate": "属于",
+      "object": "崩溃源类型",
+      "context": "确保是比断言更温和的检查，不会导致程序崩溃但会记录问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "崩溃报告基础设施",
+      "predicate": "包含",
+      "object": "崩溃报告客户端",
+      "context": "客户端是基础设施的前端组件，负责与用户交互和报告收集",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "崩溃报告基础设施",
+      "predicate": "包含",
+      "object": "崩溃报告服务器",
+      "context": "服务器是基础设施的后端组件，负责接收和处理崩溃报告",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Backtrace",
+      "predicate": "是",
+      "object": "崩溃报告服务",
+      "context": "第三方崩溃报告服务，可与虚幻引擎集成使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Bugsplat",
+      "predicate": "是",
+      "object": "崩溃报告服务",
+      "context": "第三方崩溃报告服务，提供与虚幻引擎的专门集成方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sentry",
+      "predicate": "是",
+      "object": "崩溃报告服务",
+      "context": "流行的错误监控平台，支持虚幻引擎的崩溃报告集成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "崩溃报告",
+      "predicate": "用于",
+      "object": "调试",
+      "context": "崩溃报告是调试游戏问题的重要数据来源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "崩溃报告",
+      "predicate": "用于",
+      "object": "错误分析",
+      "context": "通过分析崩溃报告可以找出游戏中的常见错误模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Saved/Crashes文件夹",
+      "predicate": "存储",
+      "object": "本地崩溃报告",
+      "context": "编辑器生成的崩溃报告默认存储在此文件夹中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AppData/Local",
+      "predicate": "存储",
+      "object": "本地崩溃报告",
+      "context": "用户计算机上的打包游戏崩溃报告存储在此路径下",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "bSendUnattendedBugReports",
+      "predicate": "控制",
+      "object": "自动发送报告",
+      "context": "此配置变量决定是否自动发送崩溃报告而不提示用户",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器偏好设置",
+      "predicate": "控制",
+      "object": "发送报告给Epic",
+      "context": "开发者可以在此设置中选择是否将编辑器崩溃报告发送给Epic Games",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:38:16.350Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10326 字符)",
+      "timestamp": "2025-06-15T18:36:45.870Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16392,
+    "contentLength": 10326,
+    "processingTimeMs": 90484
+  }
+}

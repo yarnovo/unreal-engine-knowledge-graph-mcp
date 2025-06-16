@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_gpudump-viewer-tool-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_gpudump-viewer-tool-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "DumpGPU",
+      "predicate": "是",
+      "object": "控制台命令",
+      "context": "DumpGPU是一个不受平台限制的控制台命令，用于将中间渲染资源二进制文件或采集帧转储到磁盘中。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DumpGPU",
+      "predicate": "生成",
+      "object": "GPU转储文件",
+      "context": "DumpGPU命令可以生成GPU转储文件，这些文件保存为.json和.bin文件，可以使用GPU转储文件查看器查看。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU转储文件查看器",
+      "predicate": "用于",
+      "object": "查看GPU转储文件",
+      "context": "GPU转储文件查看器是一个轻量级的网页浏览器工具，用于查看由DumpGPU命令生成的转储文件。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU转储文件查看器",
+      "predicate": "支持",
+      "object": "WebGL 2.0",
+      "context": "GPU转储文件查看器需要支持WebGL 2.0的GPU和浏览器才能正常运行。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DumpGPU",
+      "predicate": "适用于",
+      "object": "多平台",
+      "context": "DumpGPU命令可以在多种平台上使用，包括Windows、Linux、Mac、PlayStation、Xbox、Nintendo Switch、iOS和Android。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU转储文件",
+      "predicate": "保存于",
+      "object": "Saved/GPUDumps",
+      "context": "默认情况下，GPU转储文件保存在项目的根目录下的Saved/GPUDumps文件夹中。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU转储文件查看器",
+      "predicate": "包含",
+      "object": "标题栏和面板",
+      "context": "GPU转储文件查看器的主界面包含标题栏和多个面板，如信息面板、CVars面板和日志面板。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU转储文件查看器",
+      "predicate": "包含",
+      "object": "查看器",
+      "context": "GPU转储文件查看器的查看区域用于显示选中的通道、纹理和缓冲区的信息。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "查看器",
+      "predicate": "包含",
+      "object": "通道查看器",
+      "context": "查看器中的通道查看器用于显示特定通道读取和修改的资源。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "查看器",
+      "predicate": "包含",
+      "object": "纹理查看器",
+      "context": "查看器中的纹理查看器用于显示选定纹理的像素信息。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "查看器",
+      "predicate": "包含",
+      "object": "缓冲区查看器",
+      "context": "查看器中的缓冲区查看器用于显示选定缓冲区的描述符和可视化内容。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理查看器",
+      "predicate": "支持",
+      "object": "自定义可视化",
+      "context": "纹理查看器支持通过WebGL 2.0可视化着色器进行自定义纹理显示。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缓冲区查看器",
+      "predicate": "支持",
+      "object": "自定义列表格式",
+      "context": "缓冲区查看器支持自定义缓冲区数据的显示格式，如Float、Int、Hex等。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DumpGPU",
+      "predicate": "依赖",
+      "object": "FRDGBuilder",
+      "context": "DumpGPU命令依赖于FRDGBuilder来创建和管理渲染依赖性图表（RDG）。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "GPU转储文件查看器",
+      "predicate": "基于",
+      "object": "HTML",
+      "context": "GPU转储文件查看器是一个基于HTML的网络应用，可以在浏览器中运行。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU转储文件查看器",
+      "predicate": "使用",
+      "object": "Chrome浏览器",
+      "context": "GPU转储文件查看器推荐在Chrome浏览器中运行，以确保最佳兼容性。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "DumpGPU",
+      "predicate": "用于",
+      "object": "调试渲染问题",
+      "context": "DumpGPU命令主要用于调试渲染问题，特别是在难以重现的情况下。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU转储文件查看器",
+      "predicate": "帮助",
+      "object": "图形编程员",
+      "context": "GPU转储文件查看器帮助图形编程员快速迭代和分析渲染功能。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "GPU转储文件",
+      "predicate": "可以",
+      "object": "压缩",
+      "context": "GPU转储文件可以高度压缩成Zip文件，以减少磁盘空间占用。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DumpGPU",
+      "predicate": "支持",
+      "object": "自定义转储设置",
+      "context": "DumpGPU命令支持通过控制台变量进行自定义转储设置，如r.DumpGPU.Root和r.DumpGPU.Directory。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:16:00.204Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13317 字符)",
+      "timestamp": "2025-06-15T19:14:43.358Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 21161,
+    "contentLength": 13317,
+    "processingTimeMs": 76854
+  }
+}

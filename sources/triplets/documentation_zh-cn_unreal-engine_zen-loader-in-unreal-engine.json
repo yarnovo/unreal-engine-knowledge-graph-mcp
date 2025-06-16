@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_zen-loader-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_zen-loader-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Zen Loader",
+      "predicate": "属于",
+      "object": "虚幻引擎5",
+      "context": "Zen Loader是虚幻引擎5的新运行时加载程序，学习者需要了解它是UE5的核心组件之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Zen Loader",
+      "predicate": "替代",
+      "object": "事件驱动型加载程序(EDL)",
+      "context": "文档明确指出EDL已废弃，将被Zen Loader取代，这对理解引擎加载系统的演进很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Zen Loader",
+      "predicate": "使用",
+      "object": "I/O调度程序",
+      "context": "Zen Loader依赖I/O调度程序进行数据提取，这是其性能优化的关键技术点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Zen Loader",
+      "predicate": "生成",
+      "object": ".utoc和.ucas容器文件",
+      "context": "理解Zen Loader的工作机制需要知道它生成和使用这些特殊容器文件而非传统.pak文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Zen Loader",
+      "predicate": "依赖",
+      "object": "虚幻自动化工具(UAT)",
+      "context": "UAT在预演阶段生成Zen Loader所需的容器文件，这是工作流中的重要依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Zen Loader",
+      "predicate": "影响",
+      "object": "资产注册表",
+      "context": "Zen Loader改变了资产搜索方式，学习者需要了解其对资产注册表功能的影响",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Zen Loader",
+      "predicate": "优化",
+      "object": "运行时加载性能",
+      "context": "Zen Loader的主要设计目标是通过预计算依赖项和优化数据结构来提升加载性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Zen Loader",
+      "predicate": "关联",
+      "object": "Zen存储",
+      "context": "Zen存储是Zen Loader的扩展功能，了解它们的关系有助于掌握资产管理的完整方案",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "I/O调度程序",
+      "predicate": "使用",
+      "object": "平台特定后端",
+      "context": "I/O调度程序利用平台特定后端实现硬件优化，这是理解其高性能的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": ".utoc文件",
+      "predicate": "描述",
+      "object": ".ucas文件",
+      "context": "理解容器文件格式需要知道.utoc文件描述.ucas文件的结构和元数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预演阶段",
+      "predicate": "生成",
+      "object": "对象依赖项图表",
+      "context": "预演阶段的核心任务是生成依赖项图表，这对理解Zen Loader的离线预处理很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Zen Loader",
+      "predicate": "限制",
+      "object": "Bulkdata内联加载",
+      "context": "了解Zen Loader的限制条件对正确设计资产加载逻辑很关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealPak工具",
+      "predicate": "支持",
+      "object": "容器文件检查",
+      "context": "学习调试和检查容器文件内容需要掌握UnrealPak的相关命令",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LogStreaming",
+      "predicate": "用于",
+      "object": "Zen Loader调试",
+      "context": "掌握LogStreaming的使用对调试Zen Loader加载问题很有帮助",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Zen Loader",
+      "predicate": "基于",
+      "object": "事件驱动型加载程序(EDL)",
+      "context": "了解Zen Loader的技术渊源有助于理解其设计理念和优化方向",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:36:07.601Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7713,
+    "contentLength": 4728,
+    "processingTimeMs": 43846
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_paper-2d-sprite-material-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_paper-2d-sprite-material-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Sprite材质",
+      "predicate": "影响",
+      "object": "Sprite外观",
+      "context": "Sprite材质可以控制Sprite的锐化、平滑边缘和半透明程度，直接影响视觉表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sprite材质",
+      "predicate": "交互",
+      "object": "环境光照",
+      "context": "某些Sprite材质会影响Sprite与环境光照的交互方式，甚至支持自发光效果",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DefaultLitSpriteMaterial",
+      "predicate": "使用",
+      "object": "默认Sprite纹理设置",
+      "context": "该材质使用默认纹理设置，并受关卡光源影响，是基础学习案例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DefaultSpriteMaterial",
+      "predicate": "区分",
+      "object": "Paper 2D系统/Niagara粒子系统",
+      "context": "引擎包含两个版本，通过文件路径区分，帮助学习者理解系统专用材质的设计",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "MaskedLitSpriteMaterial",
+      "predicate": "创建",
+      "object": "生硬边界效果",
+      "context": "遮罩材质产生明确边界且不支持渐变透明度，演示特殊渲染需求实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OpaqueLitSpriteMaterial",
+      "predicate": "禁止",
+      "object": "透明度",
+      "context": "完全不透明材质会强制填充透明区域，展示材质对原始资源的处理逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TranslucentLitSpriteMaterial",
+      "predicate": "适用于",
+      "object": "透视效果",
+      "context": "半透明材质支持创建窗户/水等效果，但需要注意性能消耗问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "透明材质",
+      "predicate": "消耗",
+      "object": "更高性能",
+      "context": "文档特别强调透明材质的性能影响，对项目优化有重要指导意义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义Sprite材质",
+      "predicate": "基于",
+      "object": "材质编辑器",
+      "context": "创建自定义材质需要掌握材质编辑器知识，形成学习路径关联",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Paper 2D系统",
+      "predicate": "包含",
+      "object": "Sprite材质",
+      "context": "Sprite材质是Paper 2D系统的核心组成部分，理解其分类有助于系统学习",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光照材质",
+      "predicate": "对比",
+      "object": "无光照材质",
+      "context": "文档通过成对展示光照/无光照材质变体，帮助理解光照对2D渲染的影响",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:19:07.841Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6090,
+    "contentLength": 4136,
+    "processingTimeMs": 46206
+  }
+}

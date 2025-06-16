@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_placing-nodes-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_placing-nodes-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "蓝图",
+      "predicate": "包含",
+      "object": "节点",
+      "context": "蓝图是虚幻引擎中的可视化脚本系统，节点是构成蓝图的基本元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "节点",
+      "predicate": "通过",
+      "object": "拖放",
+      "context": "拖放是从MyBlueprint窗口将节点放置到图表上的主要方法之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变量节点",
+      "predicate": "分为",
+      "object": "Getter和Setter",
+      "context": "变量节点可以创建为Getter(获取值)或Setter(设置值)两种类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Getter节点",
+      "predicate": "用于",
+      "object": "获取变量值",
+      "context": "Getter节点用于在脚本中获取变量的当前值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Setter节点",
+      "predicate": "用于",
+      "object": "修改变量值",
+      "context": "Setter节点用于在脚本中设置变量的新值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "函数",
+      "predicate": "可以",
+      "object": "拖入图表",
+      "context": "创建好的函数可以像变量一样拖入图表作为节点使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "宏",
+      "predicate": "可以",
+      "object": "拖入图表",
+      "context": "创建好的宏可以像变量一样拖入图表作为节点使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Event Dispatcher",
+      "predicate": "提供",
+      "object": "特殊上下文操作",
+      "context": "拖入Event Dispatcher时会显示特殊的上下文操作选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "快捷菜单",
+      "predicate": "用于",
+      "object": "放置节点",
+      "context": "在图表中右键单击可以打开快捷菜单来搜索和放置节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Context Sensitive",
+      "predicate": "控制",
+      "object": "菜单筛选",
+      "context": "Context Sensitive选项控制快捷菜单是否根据当前上下文自动筛选显示的节点选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "节点引脚",
+      "predicate": "可以",
+      "object": "拖动连接",
+      "context": "拖动节点的输出引脚可以呼出上下文相关的快捷菜单来添加连接节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "快捷键",
+      "predicate": "替代",
+      "object": "节点操作",
+      "context": "使用快捷键可以快速执行某些节点操作，提高工作效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图编辑器",
+      "predicate": "包含",
+      "object": "快捷键功能",
+      "context": "蓝图编辑器提供了多种快捷键来加速节点操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Character Movement组件",
+      "predicate": "关联",
+      "object": "Set Max Walk Speed节点",
+      "context": "从Character Movement组件可以连接设置角色移动速度的相关节点",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:25:36.233Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5182,
+    "contentLength": 3626,
+    "processingTimeMs": 60212
+  }
+}

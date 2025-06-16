@@ -1,0 +1,123 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_smart-objects-in-unreal-engine---quick-start",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_smart-objects-in-unreal-engine---quick-start.md",
+  "triples": [
+    {
+      "subject": "智能对象",
+      "predicate": "包含",
+      "object": "插槽",
+      "context": "智能对象通过插槽定义AI代理可以执行的活动，这是智能对象的核心功能组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "智能对象",
+      "predicate": "依赖",
+      "object": "预留系统",
+      "context": "智能对象需要通过预留系统跟踪使用状态，确保同一时间只有一个代理可以使用特定插槽",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI代理",
+      "predicate": "使用",
+      "object": "智能对象",
+      "context": "AI代理通过行为树任务查找和预留智能对象插槽，这是智能对象的主要使用者",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "游戏行为",
+      "predicate": "定义",
+      "object": "交互动作",
+      "context": "游戏行为蓝图(如BP_SO_Behavior_PlayMontage)定义了代理与智能对象交互时执行的具体动作(如播放动画蒙太奇)",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "智能对象定义",
+      "predicate": "关联",
+      "object": "游戏行为配置",
+      "context": "智能对象定义数据资产(SO_Definition_PlayMontage)通过配置关联具体的行为定义(BP_SO_BehaviorConfig)，形成完整的交互逻辑链",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "行为树",
+      "predicate": "控制",
+      "object": "智能对象交互流程",
+      "context": "行为树(BT_SO_Agent)通过序列节点协调查找(BTT_FindSmartObject)和使用(BTT_UseSmartObject)任务，形成完整的智能对象使用流程",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "智能对象子系统",
+      "predicate": "管理",
+      "object": "智能对象生命周期",
+      "context": "SmartObjectSubsystem提供查找(FindSmartObjects)和声明(Claim)等核心API，是智能对象功能的底层支撑系统",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "动画蒙太奇",
+      "predicate": "用于",
+      "object": "游戏行为实现",
+      "context": "动画蒙太奇作为典型的交互反馈形式，被游戏行为蓝图调用实现可视化交互效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "导航网格",
+      "predicate": "支持",
+      "object": "智能对象寻路",
+      "context": "NavMeshBoundsVolume为AI代理提供到达智能对象的路径计算基础",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "黑板",
+      "predicate": "存储",
+      "object": "智能对象声明状态",
+      "context": "黑板(BB_SO_Agent)通过SOClaimHandle类型变量记录代理当前的智能对象占用状态，实现行为树任务间状态共享",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "AI行为插件",
+      "predicate": "提供",
+      "object": "智能对象基础功能",
+      "context": "必须启用SmartObjects和AI Behaviors插件才能使用完整的智能对象功能体系",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "行为树任务",
+      "predicate": "实现",
+      "object": "智能对象交互逻辑",
+      "context": "BTT_FindSmartObject和BTT_UseSmartObject两个自定义任务分别封装了查找和使用智能对象的核心逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SOComponent",
+      "predicate": "标识",
+      "object": "智能对象Actor",
+      "context": "添加到Actor的SOComponent组件(带DefinitionAsset配置)使其成为可被系统识别的智能对象",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    }
+  ],
+  "timestamp": "2025-06-15T20:49:41.117Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (30061 字符)",
+      "timestamp": "2025-06-15T20:48:52.132Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 39499,
+    "contentLength": 30061,
+    "processingTimeMs": 48992
+  }
+}

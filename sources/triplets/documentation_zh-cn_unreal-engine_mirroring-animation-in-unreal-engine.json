@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_mirroring-animation-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_mirroring-animation-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Mirror Data Table",
+      "predicate": "用于",
+      "object": "动画镜像",
+      "context": "Mirror Data Table是动画镜像的核心配置工具，学习者需要理解它如何定义镜像规则",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Mirror Data Table",
+      "predicate": "包含",
+      "object": "骨骼映射条目",
+      "context": "数据表需要配置骨骼名称的对称映射关系，这是实现动画镜像的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mirror Data Table",
+      "predicate": "支持",
+      "object": "多种元素类型",
+      "context": "除了骨骼，还支持动画通知、曲线和同步标记的镜像，扩展了应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "使用",
+      "object": "Mirror节点",
+      "context": "在动画蓝图中使用Mirror节点是实现运行时动画镜像的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Mirror节点",
+      "predicate": "引用",
+      "object": "Mirror Data Table",
+      "context": "Mirror节点需要指定数据表才能正常工作，体现配置与执行的分离",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "动画镜像",
+      "predicate": "基于",
+      "object": "镜像轴(X轴)",
+      "context": "理解镜像轴对正确配置骨骼旋转和动画效果至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Find and Replace Expressions",
+      "predicate": "自动生成",
+      "object": "Mirror Data Table条目",
+      "context": "正则表达式可以自动填充对称骨骼映射，提高工作效率",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "中央骨骼(如pelvis)",
+      "predicate": "需要特殊处理",
+      "object": "镜像配置",
+      "context": "中央骨骼需要在数据表中配置相同名称，这对保持角色姿态很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义Notify States",
+      "predicate": "可以检测",
+      "object": "镜像状态",
+      "context": "通过'Is Triggered By Mirrored Animation'节点实现差异化逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "Blend Time属性",
+      "predicate": "需要配合",
+      "object": "Intertialization节点",
+      "context": "实现镜像状态切换时的平滑过渡，这是高级动画控制技术",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画镜像",
+      "predicate": "减少",
+      "object": "动画资源数量",
+      "context": "通过镜像可以重用动画，这是学习该技术的主要价值之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Skeletal Mesh",
+      "predicate": "是",
+      "object": "动画镜像的前提条件",
+      "context": "必须有骨骼网格体才能进行动画镜像操作",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Animation Sequences",
+      "predicate": "是",
+      "object": "镜像操作对象",
+      "context": "动画序列是镜像处理的主要资产类型",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Mirror Entry Type",
+      "predicate": "包含",
+      "object": "Custom类型",
+      "context": "支持通过C++扩展新的镜像类型，展示系统的可扩展性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Project Settings",
+      "predicate": "配置",
+      "object": "默认Find/Replace表达式",
+      "context": "了解项目级配置可以统一团队工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T19:57:26.901Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12076 字符)",
+      "timestamp": "2025-06-15T19:56:29.452Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12178,
+    "contentLength": 12076,
+    "processingTimeMs": 57458
+  }
+}

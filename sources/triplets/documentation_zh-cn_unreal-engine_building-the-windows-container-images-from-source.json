@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_building-the-windows-container-images-from-source",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_building-the-windows-container-images-from-source.md",
+  "triples": [
+    {
+      "subject": "Windows容器镜像",
+      "predicate": "构建",
+      "object": "Docker",
+      "context": "Docker是构建Windows容器镜像的推荐工具，学习Docker安装和使用是构建镜像的前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Windows容器镜像",
+      "predicate": "依赖",
+      "object": "硬件和软件要求",
+      "context": "构建Windows容器镜像需要满足特定的硬件和软件要求，这是构建过程的基础条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Windows容器镜像",
+      "predicate": "包含",
+      "object": "预构建版本",
+      "context": "虚幻引擎的所有容器都包含可从GitHub容器注册表下载的预构建版本，这是快速获取镜像的方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Windows容器镜像",
+      "predicate": "构建",
+      "object": "build.bat",
+      "context": "build.bat文件用于构建Windows容器镜像，是构建过程中的关键执行文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Windows容器镜像",
+      "predicate": "依赖",
+      "object": "Setup.sh",
+      "context": "运行Setup.sh下载引擎的二进制依赖文件是构建容器镜像的必要步骤，否则构建所需的文件会丢失",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Docker",
+      "predicate": "安装",
+      "object": "Docker桌面版",
+      "context": "安装Docker桌面版是使用Docker的前提，学习安装过程是构建镜像的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Docker",
+      "predicate": "切换",
+      "object": "Windows容器模式",
+      "context": "从Linux容器模式切换到Windows容器模式是构建Windows容器镜像的必要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "包含",
+      "object": "容器",
+      "context": "虚幻引擎包含多个容器，这些容器可以从GitHub容器注册表下载预构建版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "容器",
+      "predicate": "构建",
+      "object": "源代码",
+      "context": "通过源代码可以构建自定义版本的开发镜像或修改镜像源代码，这是高级用户的需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "build.bat",
+      "predicate": "位于",
+      "object": "Engine/Extras/Containers/Dockerfiles/windows",
+      "context": "build.bat文件位于虚幻引擎源代码的特定目录下，了解其位置是执行构建的前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:17:50.957Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2935,
+    "contentLength": 2069,
+    "processingTimeMs": 44477
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-game-sync-reference-guide-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-game-sync-reference-guide-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "UnrealGameSync",
+      "predicate": "包含",
+      "object": "UnrealGameSyncLauncher",
+      "context": "UnrealGameSync解决方案包含启动程序项目，帮助学习者理解项目结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealGameSync",
+      "predicate": "包含",
+      "object": "MetadataServer",
+      "context": "MetadataServer是UGS解决方案的组成部分，提供REST API功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealGameSync",
+      "predicate": "依赖",
+      "object": "Perforce",
+      "context": "UGS使用Perforce进行版本控制和自动更新，这是核心依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "MetadataServer",
+      "predicate": "需要",
+      "object": "MySQL",
+      "context": "元数据服务需要MySQL作为数据库后端，学习者需要了解这一基础设施依赖",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetadataServer",
+      "predicate": "运行于",
+      "object": "IIS",
+      "context": "元数据服务需要部署在IIS服务器上，这是重要的部署知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealGameSyncLauncher",
+      "predicate": "用于",
+      "object": "自动更新",
+      "context": "启动程序专门用于自动更新主程序，这是关键功能关系",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "PostBadgeStatus",
+      "predicate": "推送数据到",
+      "object": "MetadataServer",
+      "context": "该工具将编译结果推送到元数据服务，展示系统组件间的数据流",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DeploymentSettings.cs",
+      "predicate": "配置",
+      "object": "UGS部署",
+      "context": "该文件包含UGS的核心部署设置，是重要的配置概念",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "UGS",
+      "predicate": "支持",
+      "object": "预编译二进制",
+      "context": "学习者需要了解UGS支持同步预编译二进制文件的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealGameSync.ini",
+      "predicate": "用于",
+      "object": "项目自定义",
+      "context": "该配置文件用于自定义项目在UGS中的显示和行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS",
+      "predicate": "显示",
+      "object": "编译徽章",
+      "context": "徽章系统是UGS的重要可视化功能，显示编译状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MySQL",
+      "predicate": "需要版本",
+      "object": "8.0+",
+      "context": "文档明确指出MySQL最低版本要求，这是重要的环境配置知识",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Installer项目",
+      "predicate": "生成",
+      "object": "MSI安装包",
+      "context": "学习者需要了解安装程序的生成方式和格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS",
+      "predicate": "使用",
+      "object": "同步过滤器",
+      "context": "同步过滤器是UGS的重要功能，控制文件同步行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildEditorAndTools.xml",
+      "predicate": "示例",
+      "object": "预编译二进制创建",
+      "context": "该脚本展示了如何创建符合UGS要求的预编译二进制文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:10:35.071Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13388 字符)",
+      "timestamp": "2025-06-15T21:09:51.256Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19824,
+    "contentLength": 13388,
+    "processingTimeMs": 43823
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_subsurface-profile-shading-model-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_subsurface-profile-shading-model-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "次表面轮廓着色模型",
+      "predicate": "基于",
+      "object": "屏幕空间渲染",
+      "context": "次表面轮廓着色模型使用屏幕空间渲染技术来实现更真实的皮肤或蜡质表面效果，这对学习者理解该技术的实现基础很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "次表面轮廓",
+      "predicate": "包含",
+      "object": "Burley次表面轮廓",
+      "context": "Burley次表面轮廓是次表面轮廓的一种高级实现方式，使用物理更精确的算法，学习者需要了解这种变体及其优势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "次表面轮廓",
+      "predicate": "存储在",
+      "object": "内容浏览器",
+      "context": "次表面轮廓作为资源存储在内容浏览器中，这对学习者理解资源管理流程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质",
+      "predicate": "使用",
+      "object": "次表面轮廓",
+      "context": "材质通过设置着色模型为次表面轮廓来启用该效果，这是核心应用场景",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "次表面轮廓",
+      "predicate": "控制",
+      "object": "次表面散射属性",
+      "context": "次表面轮廓资源控制着散射距离、颜色等关键参数，这是理解参数调节的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全分辨率皮肤着色",
+      "predicate": "替代",
+      "object": "棋盘格渲染",
+      "context": "全分辨率皮肤着色是更先进的渲染方式，了解这种演进对掌握技术发展很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质输入通道",
+      "predicate": "影响",
+      "object": "次表面轮廓效果",
+      "context": "底色、不透明等输入通道直接影响次表面效果的表现，这是材质编辑的关键知识",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.SSS.Scale",
+      "predicate": "调节",
+      "object": "次表面散射强度",
+      "context": "这个控制台命令是调试和优化效果的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "次表面轮廓",
+      "predicate": "不兼容",
+      "object": "非延迟渲染模式",
+      "context": "了解技术限制对项目规划和问题排查很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Burley算法",
+      "predicate": "提供",
+      "object": "更精确的皮肤渲染",
+      "context": "理解不同算法的优劣有助于技术选型",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "次表面轮廓编辑器",
+      "predicate": "允许调整",
+      "object": "散射属性参数",
+      "context": "掌握编辑器参数调节是实际应用的必要技能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "不透明度输入",
+      "predicate": "控制",
+      "object": "次表面散射强度分布",
+      "context": "理解材质输入如何影响最终效果是材质编辑的核心",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "64位场景颜色格式",
+      "predicate": "支持",
+      "object": "全分辨率皮肤着色",
+      "context": "了解技术依赖关系对项目配置很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "次表面轮廓",
+      "predicate": "基于",
+      "object": "Jorge Jimenez的研究",
+      "context": "了解技术渊源有助于深入理解实现原理",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质实例",
+      "predicate": "可以覆盖",
+      "object": "次表面轮廓设置",
+      "context": "这是材质实例化的重要功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平均自由路径距离",
+      "predicate": "控制",
+      "object": "光线穿透深度",
+      "context": "理解这个参数对实现真实材质效果很关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "次表面颜色",
+      "predicate": "影响",
+      "object": "散射颜色表现",
+      "context": "这是材质视觉表现的重要控制参数",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.SSS.SampleSet",
+      "predicate": "控制",
+      "object": "渲染质量与性能",
+      "context": "这个控制台命令是性能优化的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "双镜面反射",
+      "predicate": "用于",
+      "object": "模拟皮肤微表面",
+      "context": "这是高级皮肤渲染的重要技术",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "ShowFlag.VisualizeSSS",
+      "predicate": "用于",
+      "object": "调试次表面散射",
+      "context": "了解调试工具对开发很有帮助",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:56:37.482Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13034 字符)",
+      "timestamp": "2025-06-15T20:55:43.557Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 21846,
+    "contentLength": 13034,
+    "processingTimeMs": 53932
+  }
+}

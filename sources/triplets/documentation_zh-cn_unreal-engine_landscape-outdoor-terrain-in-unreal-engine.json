@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_landscape-outdoor-terrain-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_landscape-outdoor-terrain-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "地形系统",
+      "predicate": "用于",
+      "object": "创建户外环境",
+      "context": "地形系统是虚幻引擎中创建户外环境的核心工具集",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形Actor",
+      "predicate": "属于",
+      "object": "地形系统",
+      "context": "地形Actor是地形系统的基本操作对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形材质",
+      "predicate": "应用于",
+      "object": "地形Actor",
+      "context": "材质系统用于增强地形视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形编辑层",
+      "predicate": "支持",
+      "object": "非破坏性编辑",
+      "context": "编辑层功能允许对地形进行分层修改而不破坏原始数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Nanite",
+      "predicate": "适用于",
+      "object": "地形系统",
+      "context": "虚拟化几何体技术可优化地形渲染性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形快速入门指南",
+      "predicate": "前置学习",
+      "object": "地形技术指南",
+      "context": "基础教程应先于技术细节学习",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "自定义地形导入器",
+      "predicate": "扩展",
+      "object": "地形系统功能",
+      "context": "通过插件可以扩展引擎原生支持的地形格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形碰撞",
+      "predicate": "依赖",
+      "object": "地形几何数据",
+      "context": "碰撞检测需要基于地形几何结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "样条工具",
+      "predicate": "集成于",
+      "object": "地形编辑层",
+      "context": "样条是地形非破坏性编辑的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "高度图",
+      "predicate": "控制",
+      "object": "地形高程",
+      "context": "高度图是定义地形起伏的基础数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形系统",
+      "predicate": "包含",
+      "object": "编辑工具集",
+      "context": "地形系统提供完整的编辑功能链",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "开放世界",
+      "predicate": "使用",
+      "object": "地形系统",
+      "context": "大规模环境创建需要依赖地形工具",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:40:34.829Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4177,
+    "contentLength": 3311,
+    "processingTimeMs": 43168
+  }
+}

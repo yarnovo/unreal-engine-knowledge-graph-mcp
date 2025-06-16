@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_working-with-usd-stage-prims-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_working-with-usd-stage-prims-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "USD舞台",
+      "predicate": "包含",
+      "object": "子层",
+      "context": "USD舞台可以包含多个子层，理解这一关系有助于学习者掌握USD舞台的层级结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD舞台",
+      "predicate": "包含",
+      "object": "引用",
+      "context": "USD舞台可以包含对其他图元或文件的引用，这是USD场景组合的重要机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD舞台",
+      "predicate": "包含",
+      "object": "分层文件",
+      "context": "理解USD舞台可以包含分层文件有助于掌握场景组合方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD舞台编辑器",
+      "predicate": "用于",
+      "object": "编辑USD舞台",
+      "context": "明确USD舞台编辑器的主要功能定位",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "展平复合图元",
+      "predicate": "是",
+      "object": "复制方法",
+      "context": "理解展平复合图元是USD舞台编辑器提供的一种特殊复制方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单层规格",
+      "predicate": "是",
+      "object": "复制方法",
+      "context": "掌握单层规格复制的特点和适用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "所有本地层规格",
+      "predicate": "是",
+      "object": "复制方法",
+      "context": "了解最全面的复制方式及其应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "剪贴板舞台",
+      "predicate": "用于",
+      "object": "临时存储图元",
+      "context": "理解剪贴板舞台在复制粘贴操作中的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "添加引用",
+      "predicate": "支持",
+      "object": "内部引用",
+      "context": "掌握引用可以是舞台内部的图元这一重要特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "添加引用",
+      "predicate": "支持",
+      "object": "外部文件引用",
+      "context": "理解USD支持跨文件引用的强大功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "添加负载",
+      "predicate": "类似于",
+      "object": "添加引用",
+      "context": "通过对比引用理解负载的相似操作方式",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "隔离层",
+      "predicate": "用于",
+      "object": "聚焦特定层级",
+      "context": "理解隔离功能在复杂场景编辑中的价值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD舞台编辑器",
+      "predicate": "提供",
+      "object": "层隔离功能",
+      "context": "掌握编辑器提供的层级管理工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "展平复合图元",
+      "predicate": "生成",
+      "object": "简化图元",
+      "context": "理解展平操作的结果是生成简化后的图元表示",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "单层规格复制",
+      "predicate": "仅影响",
+      "object": "当前编辑目标",
+      "context": "明确这种复制方式的局限性和适用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间码偏移",
+      "predicate": "影响",
+      "object": "动画时序",
+      "context": "理解时间码参数对引用/负载动画的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间码缩放",
+      "predicate": "影响",
+      "object": "动画速度",
+      "context": "掌握时间比例因子对动画效果的调节作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认图元",
+      "predicate": "作为",
+      "object": "引用目标",
+      "context": "理解默认图元在引用操作中的特殊地位",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD舞台编辑器",
+      "predicate": "支持",
+      "object": "跨舞台操作",
+      "context": "掌握在不同USD舞台间复制粘贴的能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:35:04.012Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10210,
+    "contentLength": 6190,
+    "processingTimeMs": 48089
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_procedural-content-generation-pcg-biome-core-and-sample-plugins-glossary-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_procedural-content-generation-pcg-biome-core-and-sample-plugins-glossary-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "PCG群系核心",
+      "predicate": "包含",
+      "object": "PCG图表和子图表",
+      "context": "PCG群系核心插件包含用于程序化生成群系的PCG图表和子图表的集合，帮助学习者理解核心功能组成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PCG群系示例",
+      "predicate": "展示",
+      "object": "群系核心",
+      "context": "群系示例插件通过实际案例展示如何使用群系核心进行程序化群系生成，是学习核心功能的最佳实践",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "群系Actor",
+      "predicate": "用于设置",
+      "object": "群系",
+      "context": "群系Actor是设置群系的具体实现工具，包括体积/样条线等，帮助理解群系的空间定义方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "群系",
+      "predicate": "由...定义",
+      "object": "群系定义和群系资产列表",
+      "context": "明确群系的构成要素，理解程序化生成的基本单位结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发生器",
+      "predicate": "引用",
+      "object": "发生器图表",
+      "context": "发生器作为数据资产与发生器图表的关联关系，是程序化生成的核心逻辑载体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发生器图表",
+      "predicate": "生成",
+      "object": "根点",
+      "context": "理解程序化生成的起点数据（根点）的产生机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换图表",
+      "predicate": "处理",
+      "object": "子点",
+      "context": "变换图表对子点的处理是生成层次结构的关键环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分层生成",
+      "predicate": "优化",
+      "object": "运行时分层生成",
+      "context": "分层生成技术通过多级网格优化运行时性能，是程序化生成的重要优化策略",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "群系核心运行时",
+      "predicate": "使用",
+      "object": "运行时资产",
+      "context": "运行时组件与专用资产的关联关系，理解运行时生成的特殊性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "程序集",
+      "predicate": "通过...创建",
+      "object": "资产操作",
+      "context": "程序集资产的创建方式说明，展示从静态内容到程序化资产的转换过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全局参数",
+      "predicate": "影响",
+      "object": "筛选器图表",
+      "context": "全局参数对筛选器等核心组件的控制作用，理解系统级配置的影响范围",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "子点",
+      "predicate": "派生自",
+      "object": "根点",
+      "context": "明确程序化生成的层次结构关系，理解点数据的继承体系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PCG框架",
+      "predicate": "包含",
+      "object": "PCG群系核心",
+      "context": "定位群系核心在更大PCG框架中的位置，建立知识体系关联",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "筛选器图表",
+      "predicate": "处理",
+      "object": "点数据",
+      "context": "筛选器对点数据的处理逻辑是程序化规则的核心实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分区",
+      "predicate": "加速",
+      "object": "局部更新",
+      "context": "分区技术的核心价值在于性能优化，理解其设计目的",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:27:57.461Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10497,
+    "contentLength": 7903,
+    "processingTimeMs": 51351
+  }
+}

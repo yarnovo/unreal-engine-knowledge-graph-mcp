@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_networks-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_networks-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "Libcurl",
+      "predicate": "包含",
+      "object": "验证对等端（Verify Peer）",
+      "context": "Libcurl是网络通信库，验证对等端是其提供的安全功能之一，帮助学习者理解Libcurl的安全机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "验证对等端（Verify Peer）",
+      "predicate": "用于",
+      "object": "自签名证书",
+      "context": "验证对等端功能可以禁用以允许使用自签名证书，帮助学习者理解证书验证的灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界",
+      "predicate": "包含",
+      "object": "启用多人世界原点基址重置（Enable Multiplayer World Origin Rebasing）",
+      "context": "世界设置中的原点基址重置功能影响多人游戏中的坐标处理，帮助学习者理解多人游戏中的空间管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启用多人世界原点基址重置（Enable Multiplayer World Origin Rebasing）",
+      "predicate": "影响",
+      "object": "服务器和客户端的本地世界原点",
+      "context": "该设置允许服务器和客户端有不同的本地世界原点，帮助学习者理解多人游戏中的坐标系统差异",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制",
+      "predicate": "包含",
+      "object": "最大数组大小（Max Array Size）",
+      "context": "复制设置中的最大数组大小限制影响网络传输的数据量，帮助学习者理解网络复制的性能限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制",
+      "predicate": "包含",
+      "object": "最大数组内存（Max Array Memory）",
+      "context": "最大数组内存限制与最大数组大小共同控制网络复制的数据量，帮助学习者全面理解网络复制的限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "最大数组大小（Max Array Size）",
+      "predicate": "关联",
+      "object": "最大数组内存（Max Array Memory）",
+      "context": "这两个设置共同控制动态数组在网络复制中的限制，帮助学习者理解网络数据传输的双重限制机制",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "网络",
+      "predicate": "包含",
+      "object": "Libcurl",
+      "context": "Libcurl是网络设置中的一个重要组件，帮助学习者理解网络通信的基础设施",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络",
+      "predicate": "包含",
+      "object": "世界",
+      "context": "世界设置中的网络相关配置影响多人游戏体验，帮助学习者理解网络设置的多层次性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "网络",
+      "predicate": "包含",
+      "object": "复制",
+      "context": "复制设置是网络功能的核心部分，帮助学习者理解数据同步在网络游戏中的重要性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:05:27.712Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 1912,
+    "contentLength": 1398,
+    "processingTimeMs": 37197
+  }
+}

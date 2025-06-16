@@ -1,0 +1,163 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_cluster-geometry-collections-user-guide-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_cluster-geometry-collections-user-guide-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "破裂模式",
+      "predicate": "包含",
+      "object": "Chaos破坏系统",
+      "context": "破裂模式是关卡编辑器中的一种模式，其中包含Chaos破坏系统用于创建和操控几何体集合的工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "破裂模式",
+      "predicate": "包含",
+      "object": "几何体集合",
+      "context": "破裂模式中的工具用于创建和操控几何体集合，几何体集合是用于实时破裂模拟的资产类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体集合",
+      "predicate": "生成",
+      "object": "破裂级别",
+      "context": "几何体集合破裂时会创建新的破裂级别，这些级别在破裂层级窗口中反映出来",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "破裂级别",
+      "predicate": "表示",
+      "object": "骨骼群集",
+      "context": "破裂层级中的每个级别表示几何体集合的一个骨骼群集，即破裂的片段",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼群集",
+      "predicate": "优化",
+      "object": "模拟性能",
+      "context": "群集有助于减轻模拟对性能的影响，因为系统需要同时计算的碰撞更少",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼群集",
+      "predicate": "实现",
+      "object": "逼真破坏模拟",
+      "context": "群集可以实现更逼真的破坏模拟，因为现实世界的大部分物体在首次受到压力时会破裂为较大的片段",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "自动群集工具",
+      "predicate": "创建",
+      "object": "骨骼群集",
+      "context": "自动群集工具使用指定数量的群集站点创建骨骼群集，用户可以精准控制创建的群集数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "磁性群集工具",
+      "predicate": "分组",
+      "object": "连接骨骼",
+      "context": "磁性群集工具通过将当前选择内容的所有连接骨骼归为一组来创建骨骼群集",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "扁平化群集工具",
+      "predicate": "删除",
+      "object": "中间破裂级别",
+      "context": "扁平化群集工具会将骨骼层级扁平化，删除破坏层级的中间级别，直达最终破裂模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "群集工具",
+      "predicate": "创建",
+      "object": "骨骼群集",
+      "context": "群集工具会根据当前骨骼所选内容创建骨骼群集，用户可以完全控制几何体集合中群集的创建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "取消群集工具",
+      "predicate": "删除",
+      "object": "骨骼群集",
+      "context": "取消群集工具会从当前所选内容删除骨骼群集",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合并群集工具",
+      "predicate": "合并",
+      "object": "多个群集",
+      "context": "合并群集工具会将多个群集合并为单个群集，并保持层级中的相同结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "级别上移群集工具",
+      "predicate": "移动",
+      "object": "骨骼至更高级别",
+      "context": "级别上移群集工具可将所选骨骼移至层级中的更高级别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "拖放群集",
+      "predicate": "手动创建",
+      "object": "骨骼群集",
+      "context": "用户可以通过在破裂层级窗口中拖放骨骼来手动创建骨骼群集",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "嵌入式几何体工具",
+      "predicate": "嵌入",
+      "object": "静态网格体",
+      "context": "嵌入式几何体工具可用于将静态网格体嵌入几何体集合中，提升视觉效果的复杂性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "用于",
+      "object": "增强模拟视觉效果",
+      "context": "嵌入式几何体的主要用途是进一步提升视觉效果的复杂性，增强模拟",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "几何体集合",
+      "predicate": "包含",
+      "object": "嵌入式几何体范例",
+      "context": "几何体集合资产中的嵌入式几何体范例分段列出了所有嵌入的静态网格体及其实例数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "清空工具",
+      "predicate": "删除",
+      "object": "嵌入的几何体",
+      "context": "清空工具可以从几何体集合中删除所有嵌入的几何体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:24:37.632Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13475 字符)",
+      "timestamp": "2025-06-15T18:23:33.508Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19867,
+    "contentLength": 13475,
+    "processingTimeMs": 64136
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_world-partition-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_world-partition-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "世界分区",
+      "predicate": "替代",
+      "object": "手动子关卡流送",
+      "context": "世界分区自动管理大型地图的流送，取代了传统的手动分割子关卡和流送方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区",
+      "predicate": "搭配使用",
+      "object": "一Actor一文件",
+      "context": "世界分区与一Actor一文件功能协同工作，实现更高效的资源管理",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区",
+      "predicate": "搭配使用",
+      "object": "数据层",
+      "context": "数据层功能与世界分区配合，提供更灵活的场景管理方式",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区",
+      "predicate": "搭配使用",
+      "object": "分层细节级别",
+      "context": "HLOD系统与世界分区协同工作，优化大型场景的渲染性能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区",
+      "predicate": "基于",
+      "object": "网格单元流送",
+      "context": "世界分区的核心机制是将世界划分为网格单元进行动态流送",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流送源",
+      "predicate": "控制",
+      "object": "网格单元加载",
+      "context": "流送源(如玩家位置)决定了哪些网格单元需要被加载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家控制器",
+      "predicate": "作为",
+      "object": "流送源",
+      "context": "玩家控制器是默认的流送源，驱动周围场景的加载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区流送源组件",
+      "predicate": "扩展",
+      "object": "流送源类型",
+      "context": "该组件允许添加除玩家外的其他流送源，如传送点等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行时网格设置",
+      "predicate": "影响",
+      "object": "流送性能",
+      "context": "网格单元大小和加载范围等设置直接影响流送效率和内存使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区窗口",
+      "predicate": "用于",
+      "object": "手动区域加载",
+      "context": "开发者可以通过该窗口选择特定区域进行加载，便于大型场景编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "位置体积",
+      "predicate": "标记",
+      "object": "编辑区域",
+      "context": "位置体积在世界分区窗口中标记特定编辑区域，方便团队协作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区",
+      "predicate": "支持",
+      "object": "蓝图类",
+      "context": "世界分区环境下推荐使用蓝图类而非关卡蓝图，以避免不必要的资源加载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区转换Commandlet",
+      "predicate": "用于",
+      "object": "关卡转换",
+      "context": "该工具可将传统关卡转换为使用世界分区的格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HLOD生成",
+      "predicate": "优化",
+      "object": "渲染性能",
+      "context": "世界分区的HLOD系统可显著提升大型场景的渲染效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区编译器Commandlet",
+      "predicate": "支持",
+      "object": "批量处理",
+      "context": "该框架支持自动化处理大型世界数据，如生成导航数据等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "开放世界模板",
+      "predicate": "预配置",
+      "object": "世界分区",
+      "context": "该模板默认启用了世界分区及相关功能，是创建大型场景的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "空间化加载设置",
+      "predicate": "决定",
+      "object": "Actor加载行为",
+      "context": "该设置控制Actor是否随位置动态加载或始终保持加载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区",
+      "predicate": "解决",
+      "object": "多用户协作问题",
+      "context": "通过一Actor一文件和分区管理，解决了多人同时编辑大型场景的冲突问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟纹理支持",
+      "predicate": "需要",
+      "object": "小地图功能",
+      "context": "世界分区窗口的小地图功能需要启用项目中的虚拟纹理支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:35:10.274Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (19103 字符)",
+      "timestamp": "2025-06-15T21:34:15.931Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 28845,
+    "contentLength": 19103,
+    "processingTimeMs": 54351
+  }
+}

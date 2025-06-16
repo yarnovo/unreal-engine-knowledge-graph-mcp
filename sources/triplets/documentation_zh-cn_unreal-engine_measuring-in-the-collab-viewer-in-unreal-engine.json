@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_measuring-in-the-collab-viewer-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_measuring-in-the-collab-viewer-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Collab Viewer",
+      "predicate": "支持",
+      "object": "测量功能",
+      "context": "Collab Viewer提供了测量功能，允许用户在协作环境中进行空间测量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "测量功能",
+      "predicate": "包含",
+      "object": "沿轴测量",
+      "context": "测量功能包含沿x/y/z轴对齐的测量方式，这是测量功能的一个子特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "测量功能",
+      "predicate": "包含",
+      "object": "X射线测量",
+      "context": "测量功能包含X射线测量模式，用于测量被遮挡的对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "桌面模式",
+      "predicate": "支持",
+      "object": "沿轴测量",
+      "context": "沿轴测量功能仅在桌面模式下可用，这是该功能的平台限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交互菜单",
+      "predicate": "控制",
+      "object": "测量功能",
+      "context": "测量功能的启动、添加和删除都通过交互菜单进行操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Shift键",
+      "predicate": "用于",
+      "object": "沿轴测量",
+      "context": "在桌面模式下，Shift键用于将测量对齐到特定坐标轴",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "X射线模式",
+      "predicate": "用于",
+      "object": "测量被遮挡对象",
+      "context": "X射线模式专门用于测量被其他对象遮挡的对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR模式",
+      "predicate": "使用",
+      "object": "控制器侧肩按钮",
+      "context": "在VR模式下，控制器的侧肩按钮用于打开交互菜单",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "桌面模式",
+      "predicate": "使用",
+      "object": "空格键",
+      "context": "在桌面模式下，空格键用于打开交互菜单",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "测量功能",
+      "predicate": "包含",
+      "object": "删除测量",
+      "context": "测量功能包含删除已有测量的子功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Collab Viewer",
+      "predicate": "用于",
+      "object": "设计评审",
+      "context": "Collab Viewer的测量功能特别适合设计评审场景",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "交互菜单",
+      "predicate": "包含",
+      "object": "测量选项",
+      "context": "交互菜单中包含测量相关的添加、删除等选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:52:53.382Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4217,
+    "contentLength": 3237,
+    "processingTimeMs": 41791
+  }
+}

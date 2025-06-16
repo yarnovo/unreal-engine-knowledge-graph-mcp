@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_loading-and-unloading-levels-using-blueprints-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_loading-and-unloading-levels-using-blueprints-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "蓝图",
+      "predicate": "用于",
+      "object": "加载和卸载关卡",
+      "context": "蓝图是虚幻引擎中用于实现游戏逻辑的可视化脚本工具，可以用于控制关卡的加载和卸载流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "持久关卡",
+      "predicate": "包含",
+      "object": "玩家出生点",
+      "context": "持久关卡是游戏运行时始终加载的关卡，通常包含游戏的基础元素如玩家出生点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流送关卡",
+      "predicate": "动态加载",
+      "object": "持久关卡",
+      "context": "流送关卡可以根据游戏进程动态加载到持久关卡中，实现无缝场景切换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "盒体碰撞组件",
+      "predicate": "触发",
+      "object": "关卡流送",
+      "context": "盒体碰撞组件可以检测玩家角色进入特定区域，从而触发关联关卡的流送加载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LevelStreamer蓝图",
+      "predicate": "实现",
+      "object": "关卡流送逻辑",
+      "context": "LevelStreamer蓝图封装了关卡流送的完整逻辑，包括触发条件和加载参数设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "加载流送关卡节点",
+      "predicate": "属于",
+      "object": "蓝图节点",
+      "context": "加载流送关卡是蓝图编辑器中的专用节点，用于实现关卡流送功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "卸载流送关卡节点",
+      "predicate": "对应",
+      "object": "加载流送关卡节点",
+      "context": "卸载流送关卡节点与加载节点配合使用，共同管理关卡的生命周期",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家角色",
+      "predicate": "触发",
+      "object": "关卡流送事件",
+      "context": "玩家角色与特定区域的交互可以触发关卡流送事件，实现动态场景加载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流送",
+      "predicate": "优化",
+      "object": "游戏性能",
+      "context": "通过关卡流送技术可以按需加载游戏内容，优化内存使用和游戏性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "蓝图编辑器",
+      "predicate": "提供",
+      "object": "可视化编程界面",
+      "context": "蓝图编辑器为关卡流送等游戏逻辑的实现提供了可视化的编程界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件图表",
+      "predicate": "包含",
+      "object": "关卡流送逻辑",
+      "context": "蓝图的事件图表是编写和调试关卡流送逻辑的主要工作区",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "组件开始重叠事件",
+      "predicate": "触发",
+      "object": "关卡加载",
+      "context": "组件开始重叠事件是常用的关卡流送触发机制，可以检测玩家进入特定区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡名称变量",
+      "predicate": "配置",
+      "object": "流送目标",
+      "context": "可编辑的关卡名称变量使得同一个蓝图可以用于加载不同的关卡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "加载后可见选项",
+      "predicate": "控制",
+      "object": "关卡显示状态",
+      "context": "加载后可见选项决定了关卡加载后是否立即显示给玩家",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "加载时应阻止选项",
+      "predicate": "影响",
+      "object": "游戏线程",
+      "context": "加载时应阻止选项决定了关卡加载是否会阻塞游戏主线程",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:46:41.852Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6132,
+    "contentLength": 4162,
+    "processingTimeMs": 50014
+  }
+}

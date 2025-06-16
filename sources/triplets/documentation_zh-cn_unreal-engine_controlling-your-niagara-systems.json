@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_controlling-your-niagara-systems",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_controlling-your-niagara-systems.md",
+  "triples": [
+    {
+      "subject": "Niagara系统",
+      "predicate": "通过",
+      "object": "生命周期轨道",
+      "context": "生命周期轨道是控制Niagara系统激活和运行时间的主要方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "控制",
+      "object": "Niagara系统生命周期",
+      "context": "通过Sequencer可以添加和管理Niagara系统的生命周期轨道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染队列(MRQ)",
+      "predicate": "激活",
+      "object": "Niagara系统",
+      "context": "MRQ启动时会自动激活Niagara系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara组件轨道",
+      "predicate": "包含",
+      "object": "Niagara系统生命周期轨道",
+      "context": "生命周期轨道需要添加到组件轨道上才能发挥作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时长更新模式",
+      "predicate": "包含",
+      "object": "刷新增量时间模式",
+      "context": "这是三种时长更新模式之一，学习者需要了解不同模式的区别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时长更新模式",
+      "predicate": "包含",
+      "object": "需要时长模式",
+      "context": "这是推荐的主要使用模式，学习者应重点掌握",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时长更新模式",
+      "predicate": "包含",
+      "object": "不寻找需要时长模式",
+      "context": "这是三种时长更新模式之一，用于特定场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "需要时长模式",
+      "predicate": "优于",
+      "object": "其他时长更新模式",
+      "context": "文档明确指出在几乎所有场景中，'需要时长'模式都是首选模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大纲视图(Outliner)",
+      "predicate": "用于",
+      "object": "选择Niagara系统",
+      "context": "这是添加生命周期轨道的第一步操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer面板",
+      "predicate": "用于",
+      "object": "添加Niagara系统轨道",
+      "context": "这是控制Niagara系统生命周期的核心操作界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生命周期轨道",
+      "predicate": "决定",
+      "object": "Niagara系统活动状态",
+      "context": "通过设置轨道分段可以控制系统何时处于活动状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "刷新增量时间模式",
+      "predicate": "允许",
+      "object": "独立于Sequencer运行",
+      "context": "这种模式下系统以引擎帧率运行，不受Sequencer控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "需要时长模式",
+      "predicate": "使",
+      "object": "Sequencer控制时长",
+      "context": "这种模式下Sequencer会指定Niagara系统的时长",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "不寻找需要时长模式",
+      "predicate": "在",
+      "object": "向后拖动时停止播放",
+      "context": "这是该模式区别于其他模式的主要特点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:35:00.073Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3256,
+    "contentLength": 1940,
+    "processingTimeMs": 42773
+  }
+}

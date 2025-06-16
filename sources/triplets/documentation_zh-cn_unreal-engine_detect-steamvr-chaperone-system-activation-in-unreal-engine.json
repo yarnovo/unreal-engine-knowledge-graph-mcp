@@ -1,0 +1,123 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_detect-steamvr-chaperone-system-activation-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_detect-steamvr-chaperone-system-activation-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "SteamVR Chaperone系统",
+      "predicate": "用于",
+      "object": "显示VR交互区的边界",
+      "context": "Chaperone系统是VR安全区域的核心组件，学习其功能是理解VR边界管理的基础",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "SteamVR Runtime",
+      "predicate": "触发",
+      "object": "Chaperone可视提示",
+      "context": "当追踪设备靠近边界时，Runtime自动触发提示，这是VR安全机制的关键实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Room Scale VR",
+      "predicate": "依赖",
+      "object": "SteamVR工具设置",
+      "context": "正确设置Room Scale是Chaperone工作的前提条件，属于VR开发的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "OnLeaveBounds事件",
+      "predicate": "响应",
+      "object": "离开边界状态",
+      "context": "该事件是检测用户离开安全区的核心编程接口，对实现自定义边界逻辑至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnReturnToBounds事件",
+      "predicate": "响应",
+      "object": "返回边界状态",
+      "context": "与OnLeaveBounds对应，共同构成完整的边界状态检测系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "inBounds变量",
+      "predicate": "记录",
+      "object": "玩家位置状态",
+      "context": "布尔变量是边界状态管理的核心存储单元，演示了游戏状态跟踪的典型实现",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "Print String节点",
+      "predicate": "用于",
+      "object": "边界状态反馈",
+      "context": "基础调试工具的应用实例，展示如何向用户传递VR交互信息",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "运动控制器组件",
+      "predicate": "前置知识",
+      "object": "Chaperone系统集成",
+      "context": "文档明确列为先修主题，建立控制器与边界系统的逻辑关联",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "SteamVRChaperone组件",
+      "predicate": "提供",
+      "object": "边界检测API",
+      "context": "核心组件封装了与SteamVR的底层交互，是技术实现的桥梁",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Event Tick",
+      "predicate": "驱动",
+      "object": "持续边界检测",
+      "context": "展示如何通过帧更新实现实时状态监控的经典模式",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "HTC Vive",
+      "predicate": "需要",
+      "object": "Room Scale设置",
+      "context": "特定硬件与空间设置的关系，体现设备相关的开发知识",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "边界检测系统",
+      "predicate": "包含",
+      "object": "状态管理逻辑",
+      "context": "展示完整的功能实现链条：事件绑定->状态变量->用户反馈",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "SetTrackingOrigin节点",
+      "predicate": "影响",
+      "object": "边界坐标系",
+      "context": "建立空间定位与边界系统的关联，涉及VR空间感知的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:50:48.635Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (95287 字符)",
+      "timestamp": "2025-06-15T18:49:54.761Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 97255,
+    "contentLength": 95287,
+    "processingTimeMs": 53882
+  }
+}

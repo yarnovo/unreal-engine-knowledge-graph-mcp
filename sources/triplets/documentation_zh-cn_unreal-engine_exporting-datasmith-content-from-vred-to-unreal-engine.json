@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_exporting-datasmith-content-from-vred-to-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_exporting-datasmith-content-from-vred-to-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "VRED",
+      "predicate": "支持",
+      "object": "Datasmith导出",
+      "context": "VRED通过安装插件脚本支持将场景导出为Datasmith格式，这是VRED与虚幻引擎协作的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导出器插件",
+      "predicate": "依赖",
+      "object": "VRED版本兼容性",
+      "context": "导出器插件需要特定版本的VRED Professional支持，了解兼容性对安装成功至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导出",
+      "predicate": "生成",
+      "object": "FBX文件",
+      "context": "导出过程会生成包含场景数据的FBX文件，这是导入虚幻引擎的基础文件",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "FBX文件",
+      "predicate": "关联",
+      "object": "附加文件(.lights/.var/.clips/.mats)",
+      "context": "FBX文件需要与这些附加文件共同使用才能完整保留场景信息，学习者需注意文件完整性",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导入程序",
+      "predicate": "需要",
+      "object": "附加文件",
+      "context": "这些附加文件包含光源、变体、动画和材质等关键信息，是Datasmith完整导入的必要条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VRED场景设置",
+      "predicate": "影响",
+      "object": "Datasmith导出结果",
+      "context": "在VRED中正确设置场景和变体是获得良好导出结果的前提，这是工作流中的重要概念关联",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Datasmith内容导入",
+      "predicate": "后续步骤",
+      "object": "Datasmith导出",
+      "context": "导出完成后需要将内容导入虚幻引擎，这两个步骤构成完整的工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VRED插件脚本",
+      "predicate": "位于",
+      "object": "虚幻引擎安装目录",
+      "context": "了解插件脚本的默认位置有助于快速找到安装资源，这是技术实现的重要细节",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "Windows平台",
+      "predicate": "特定路径",
+      "object": "VRED插件安装位置",
+      "context": "不同平台的插件安装路径不同，Windows用户需要特别注意这个技术细节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VRED终端",
+      "predicate": "用于",
+      "object": "查找插件路径",
+      "context": "终端提供了查找插件安装路径的实用方法，是故障排除的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:01:36.123Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4326,
+    "contentLength": 3118,
+    "processingTimeMs": 38994
+  }
+}

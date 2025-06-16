@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_debugging-virtual-assets-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_debugging-virtual-assets-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚拟资产",
+      "predicate": "验证",
+      "object": "有虚拟化数据",
+      "context": "通过检查'有虚拟化数据'条目可以确认资产是否成功虚拟化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟资产",
+      "predicate": "调试",
+      "object": "DumpPackagePayloadInfo命令",
+      "context": "使用DumpPackagePayloadInfo命令可以查看虚拟资产的有效负载信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟资产",
+      "predicate": "监控",
+      "object": "统计数据面板",
+      "context": "通过统计数据面板可以监控虚拟资产的表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "统计数据面板",
+      "predicate": "显示",
+      "object": "后端统计数据",
+      "context": "统计数据面板显示不同后端的读取、写入和缓存统计数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟资产系统",
+      "predicate": "禁用",
+      "object": "VADisable命令",
+      "context": "使用VADisable命令可以禁用虚拟资产系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟资产系统",
+      "predicate": "配置",
+      "object": "BackendGraph",
+      "context": "可以通过覆盖BackendGraph来配置虚拟资产系统的后端",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟资产系统",
+      "predicate": "模拟错误",
+      "object": "VAMissChance命令",
+      "context": "使用VAMissChance命令可以模拟有效负载提取失败的情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟资产系统",
+      "predicate": "验证",
+      "object": "VAValidatePushes命令",
+      "context": "使用VAValidatePushes命令可以验证有效负载推送的正确性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟资产系统",
+      "predicate": "强制单线程",
+      "object": "VASingleThreaded命令",
+      "context": "使用VASingleThreaded命令可以强制系统以单线程模式工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟资产系统",
+      "predicate": "日志记录",
+      "object": "LogVirtualization",
+      "context": "通过启用LogVirtualization的详细日志记录可以获取调试信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:49:20.740Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8868,
+    "contentLength": 5654,
+    "processingTimeMs": 40215
+  }
+}

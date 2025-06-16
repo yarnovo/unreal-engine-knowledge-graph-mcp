@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_cinematic-color-fade-track-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_cinematic-color-fade-track-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "淡入淡出轨道",
+      "predicate": "属于",
+      "object": "Sequencer",
+      "context": "淡入淡出轨道是Sequencer中的一个功能模块，用于实现场景的淡入淡出效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "淡入淡出轨道",
+      "predicate": "是",
+      "object": "浮点属性轨道",
+      "context": "淡入淡出轨道是一种特殊的浮点属性轨道，其数值在0到1之间变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "淡入淡出轨道",
+      "predicate": "实现",
+      "object": "Set Manual Camera Fade",
+      "context": "淡入淡出轨道本质上是Set Manual Camera Fade蓝图函数的轨道版本",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "淡入淡出轨道",
+      "predicate": "控制",
+      "object": "淡入淡出颜色",
+      "context": "通过淡入淡出轨道可以设置和调整淡入淡出的颜色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "淡入淡出轨道",
+      "predicate": "影响",
+      "object": "音频",
+      "context": "启用淡入淡出音频选项后，淡入淡出效果会同时减少正在播放的音效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "淡入淡出轨道",
+      "predicate": "用于",
+      "object": "Gameplay到过场动画过渡",
+      "context": "淡入淡出轨道可用于实现Gameplay和过场动画之间的平滑过渡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "淡入淡出轨道",
+      "predicate": "用于",
+      "object": "过场动画到Gameplay过渡",
+      "context": "淡入淡出轨道也可用于实现过场动画回到Gameplay的过渡效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "淡入淡出轨道",
+      "predicate": "依赖",
+      "object": "玩家摄像机管理器",
+      "context": "在蓝图中使用淡入淡出功能需要获取玩家摄像机管理器的引用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "淡入淡出轨道",
+      "predicate": "包含",
+      "object": "完成时设置",
+      "context": "淡入淡出轨道包含完成时设置选项，决定淡入淡出完成后的行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "包含",
+      "object": "关键帧",
+      "context": "在Sequencer中可以通过设置关键帧来控制淡入淡出轨道的变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "淡入淡出轨道",
+      "predicate": "继承",
+      "object": "分段属性",
+      "context": "淡入淡出轨道继承了分段属性，可以在不同分段设置不同的淡入淡出颜色",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "淡入淡出轨道",
+      "predicate": "前置",
+      "object": "Sequencer知识",
+      "context": "使用淡入淡出轨道前需要先了解Sequencer的基本操作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "淡入淡出轨道",
+      "predicate": "前置",
+      "object": "蓝图知识",
+      "context": "要在Gameplay和过场动画之间实现淡入淡出过渡，需要具备蓝图基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Start Camera Fade",
+      "predicate": "替代",
+      "object": "淡入淡出轨道",
+      "context": "在蓝图中可以使用Start Camera Fade节点实现与淡入淡出轨道类似的效果",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "淡入淡出轨道",
+      "predicate": "关联",
+      "object": "音轨",
+      "context": "淡入淡出轨道可以影响音轨中播放的音频",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T18:21:48.958Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9810,
+    "contentLength": 6396,
+    "processingTimeMs": 61813
+  }
+}

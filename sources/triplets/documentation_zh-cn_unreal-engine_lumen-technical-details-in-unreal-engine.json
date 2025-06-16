@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_lumen-technical-details-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_lumen-technical-details-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Lumen",
+      "predicate": "使用",
+      "object": "软件光线追踪",
+      "context": "Lumen默认使用软件光线追踪来处理全局光照和反射，适用于大多数硬件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen",
+      "predicate": "支持",
+      "object": "硬件光线追踪",
+      "context": "在支持的硬件上，Lumen可以使用硬件光线追踪来获得更高品质的全局光照和反射",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen",
+      "predicate": "生成",
+      "object": "表面缓存",
+      "context": "Lumen通过生成表面缓存来快速查找场景中光线接触点的光照，这是其核心技术之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "表面缓存",
+      "predicate": "由",
+      "object": "卡片",
+      "context": "表面缓存通过从多个角度捕获每个网格体的材质属性来生成，这些捕获位置称为卡片",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "卡片",
+      "predicate": "可调整",
+      "object": "最大Lumen网格体卡片数量",
+      "context": "开发者可以通过调整最大Lumen网格体卡片数量来优化复杂网格体的光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen",
+      "predicate": "依赖",
+      "object": "Nanite",
+      "context": "Lumen依赖Nanite的细节级别(LOD)和多视图栅格化来进行快速的场景捕获，尤其在大型开放世界中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "软件光线追踪",
+      "predicate": "基于",
+      "object": "网格体距离场",
+      "context": "软件光线追踪使用网格体距离场来运行，适用于广泛的硬件和平台",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬件光线追踪",
+      "predicate": "支持",
+      "object": "蒙皮网格体",
+      "context": "硬件光线追踪支持更多几何体类型，包括蒙皮网格体，提供更高的画质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen",
+      "predicate": "支持",
+      "object": "远场追踪",
+      "context": "Lumen的硬件光线追踪支持远场追踪，可以将全局光照和反射扩展到距离摄像机一千米的范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen",
+      "predicate": "不兼容",
+      "object": "静态光照",
+      "context": "Lumen全局光照不能与静态光照搭配使用，这是其功能的一般性限制之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen",
+      "predicate": "不兼容",
+      "object": "前向着色",
+      "context": "Lumen与前向着色不兼容，这是其功能的一般性限制之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen",
+      "predicate": "支持",
+      "object": "Android Vulkan",
+      "context": "Lumen在移动设备渲染器上支持Android Vulkan，但需要特定配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen",
+      "predicate": "不支持",
+      "object": "虚拟现实(VR)",
+      "context": "Lumen目前不支持虚拟现实(VR)系统，因为VR的高帧率和高分辨率要求使其效果不佳",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen",
+      "predicate": "提供",
+      "object": "可视化选项",
+      "context": "Lumen提供了多种可视化选项，帮助开发者检验和调试光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen场景",
+      "predicate": "覆盖范围",
+      "object": "200米",
+      "context": "Lumen场景默认覆盖从摄像机位置开始的200米范围，可通过设置增加到800米",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬件光线追踪",
+      "predicate": "需要",
+      "object": "支持硬件光线追踪的显卡",
+      "context": "硬件光线追踪需要特定的显卡支持，如NVIDIA RTX-2000系列或AMD RX-6000系列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "软件光线追踪",
+      "predicate": "限制",
+      "object": "几何体类型",
+      "context": "软件光线追踪支持的几何体类型有限，主要适用于静态网格体、实例化静态网格体等地形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬件光线追踪",
+      "predicate": "提供",
+      "object": "高质量镜面反射",
+      "context": "硬件光线追踪是唯一能够在表面上实现高质量镜面反射的方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen",
+      "predicate": "使用",
+      "object": "屏幕追踪",
+      "context": "Lumen首先使用屏幕追踪来处理间接光照，未找到接触点时再使用其他方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕追踪",
+      "predicate": "限制",
+      "object": "美术设计",
+      "context": "屏幕追踪会限制美术设计，仅适用于间接光照，如间接光照缩放或自发光增强",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:48:21.942Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (22933 字符)",
+      "timestamp": "2025-06-15T19:47:09.023Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 37017,
+    "contentLength": 22933,
+    "processingTimeMs": 72929
+  }
+}

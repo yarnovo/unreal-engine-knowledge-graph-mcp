@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_planar-reflections-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_planar-reflections-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "平面反射",
+      "predicate": "对比",
+      "object": "屏幕空间反射",
+      "context": "平面反射比屏幕空间反射更精确但渲染开销更高，帮助学习者理解两种反射技术的优缺点",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平面反射",
+      "predicate": "依赖",
+      "object": "全局裁剪平面",
+      "context": "启用平面反射需要在项目设置中开启支持全局裁剪平面，这是使用平面反射的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平面反射",
+      "predicate": "实现",
+      "object": "平面反射Actor",
+      "context": "平面反射功能通过平面反射Actor在关卡中实现，学习者需要了解如何放置和配置该Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平面反射Actor",
+      "predicate": "控制",
+      "object": "反射效果",
+      "context": "通过调整平面反射Actor的属性可以控制反射的显示效果，这是学习使用平面反射的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平面反射",
+      "predicate": "影响",
+      "object": "渲染性能",
+      "context": "平面反射会显著影响渲染性能，学习者需要理解性能开销与视觉效果之间的权衡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平面反射",
+      "predicate": "适用于",
+      "object": "静态水面",
+      "context": "平面反射特别适合用于静态水面的反射效果，这是其典型应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "平面反射Actor",
+      "predicate": "包含",
+      "object": "场景采集属性",
+      "context": "平面反射Actor包含场景采集属性，用于控制反射的性能开销，这是优化反射效果的重要部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平面反射",
+      "predicate": "限制",
+      "object": "渲染开销",
+      "context": "平面反射的主要限制是其高渲染开销，学习者需要了解这一限制以合理使用该功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平面反射",
+      "predicate": "替代",
+      "object": "屏幕空间反射",
+      "context": "在需要更精确反射效果的场景中，平面反射可以替代屏幕空间反射",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "平面反射Actor",
+      "predicate": "影响",
+      "object": "反射材质",
+      "context": "平面反射Actor会影响附近的反射材质，这是其工作原理的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平面反射",
+      "predicate": "基于",
+      "object": "场景重渲染",
+      "context": "平面反射的工作原理是基于从反射方向再次渲染场景，这是其高开销的原因",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平面反射",
+      "predicate": "适用于",
+      "object": "高端PC项目",
+      "context": "平面反射更适合高端PC项目，在移动设备上使用时需要特别注意性能影响",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "平面反射Actor",
+      "predicate": "包含",
+      "object": "法线扭曲强度属性",
+      "context": "法线扭曲强度是平面反射Actor的重要属性，用于控制反射的失真效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平面反射",
+      "predicate": "性能影响",
+      "object": "场景复杂度",
+      "context": "平面反射的性能影响与场景复杂度直接相关，三角形和绘制调用多的场景开销更大",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平面反射",
+      "predicate": "优化方式",
+      "object": "屏幕百分比设置",
+      "context": "通过调整屏幕百分比可以优化平面反射的性能，这是重要的性能调优手段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:25:23.368Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10053 字符)",
+      "timestamp": "2025-06-15T20:24:36.031Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16739,
+    "contentLength": 10053,
+    "processingTimeMs": 47346
+  }
+}

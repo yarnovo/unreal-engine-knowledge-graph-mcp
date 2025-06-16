@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_binding-and-unbinding-events-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_binding-and-unbinding-events-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "事件分发器",
+      "predicate": "包含",
+      "object": "事件列表",
+      "context": "每个事件分发器都有一个相关的事件列表，这是绑定和解除绑定操作的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Bind Event节点",
+      "predicate": "用于",
+      "object": "向事件列表添加事件",
+      "context": "Bind Event节点的主要功能是向事件分发器的事件列表中添加事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unbind Event节点",
+      "predicate": "用于",
+      "object": "从事件列表移除事件",
+      "context": "Unbind Event节点的主要功能是从事件分发器的事件列表中移除特定事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unbind All Events节点",
+      "predicate": "用于",
+      "object": "解除所有事件绑定",
+      "context": "Unbind All Events节点可以一次性解除事件分发器上绑定的所有事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图类",
+      "predicate": "共享",
+      "object": "事件列表",
+      "context": "蓝图类和关卡蓝图中的事件都添加到相同的事件列表中，这是理解事件绑定范围的关键",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡蓝图",
+      "predicate": "共享",
+      "object": "事件列表",
+      "context": "关卡蓝图和蓝图类中的事件都添加到相同的事件列表中，影响事件绑定的范围",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图类",
+      "predicate": "影响",
+      "object": "所有实例",
+      "context": "在蓝图类中执行Unbind All Events会影响该类的所有实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡蓝图",
+      "predicate": "影响",
+      "object": "特定Target",
+      "context": "在关卡蓝图中执行Unbind All Events只影响提供的Target内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件绑定",
+      "predicate": "依赖",
+      "object": "事件分发器",
+      "context": "所有事件绑定操作都需要基于一个事件分发器进行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件分发器调用",
+      "predicate": "依赖",
+      "object": "事件绑定",
+      "context": "如果事件分发器没有绑定任何事件，调用它将没有效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Bind Event节点",
+      "predicate": "限制",
+      "object": "单次绑定",
+      "context": "每个事件只能绑定一次，即使Bind Event节点可以执行多次",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件绑定",
+      "predicate": "实现方式",
+      "object": "拖动创建或右键菜单",
+      "context": "可以通过拖动事件分发器或使用右键菜单两种方式创建绑定节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡蓝图事件绑定",
+      "predicate": "需要",
+      "object": "Actor引用",
+      "context": "在关卡蓝图中绑定事件需要先获取Actor的引用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:12:54.937Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4434,
+    "contentLength": 3188,
+    "processingTimeMs": 57632
+  }
+}

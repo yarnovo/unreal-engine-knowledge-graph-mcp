@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_activating-the-virtual-scouting-legacy-tools",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_activating-the-virtual-scouting-legacy-tools.md",
+  "triples": [
+    {
+      "subject": "旧版虚拟堪景工具",
+      "predicate": "将被废弃",
+      "object": "新版虚拟堪景工具",
+      "context": "文档明确指出旧版工具将在未来版本中废弃，建议改用新版工具，这对学习者理解工具演进路径很重要",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "虚拟制片工具插件",
+      "predicate": "需要启用",
+      "object": "旧版虚拟堪景工具",
+      "context": "启用虚拟制片工具插件是使用旧版虚拟堪景工具的前提条件，这对学习者理解功能依赖关系很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟制片工具插件",
+      "predicate": "属于",
+      "object": "虚拟制片类别",
+      "context": "插件位于虚拟制片分类下，帮助学习者理解功能模块的组织结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟堪景控件",
+      "predicate": "需要设置为",
+      "object": "虚拟堪景用户界面",
+      "context": "正确设置用户界面控件是启用虚拟堪景功能的必要步骤，这对学习者理解配置流程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VirtualScoutingInteractor",
+      "predicate": "需要设置为",
+      "object": "交互件类",
+      "context": "设置正确的交互器类是配置VR模式的关键步骤，帮助学习者理解VR交互系统的工作原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VirtualScoutingTeleporter",
+      "predicate": "需要设置为",
+      "object": "传送器类",
+      "context": "设置正确的传送器类是虚拟堪景功能的重要组成部分，帮助学习者理解VR移动机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR编辑器",
+      "predicate": "行为受影响于",
+      "object": "虚拟堪景控件设置",
+      "context": "文档提到不正确的控件设置会影响VR编辑器行为，这对学习者理解系统间的相互影响很重要",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "旧版虚拟堪景工具",
+      "predicate": "兼容",
+      "object": "HTC Vive",
+      "context": "了解兼容设备对学习者准备开发环境很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "旧版虚拟堪景工具",
+      "predicate": "兼容",
+      "object": "Oculus Rift",
+      "context": "了解兼容设备对学习者准备开发环境很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR模式",
+      "predicate": "需要配置",
+      "object": "运动控制器设置",
+      "context": "正确配置运动控制器是启用VR模式的前提，帮助学习者理解VR系统的配置层次",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "虚拟堪景面板",
+      "predicate": "通过访问",
+      "object": "VR控制器菜单按钮",
+      "context": "了解如何访问工具面板对学习者实际使用功能很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格快照设置",
+      "predicate": "需要禁用",
+      "object": "虚拟堪景工具",
+      "context": "文档建议禁用某些快照设置以获得更好的虚拟堪景体验，这对学习者优化工作流程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "场景移动设置",
+      "predicate": "需要调整",
+      "object": "虚拟堪景工具",
+      "context": "调整场景移动设置是配置虚拟堪景环境的重要步骤，帮助学习者理解VR环境优化",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "旧版虚拟堪景工具",
+      "predicate": "关联",
+      "object": "VREditor代码",
+      "context": "文档提到未使用的VREditor代码将废弃，帮助学习者理解代码库的演进关系",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚拟堪景工具",
+      "predicate": "属于",
+      "object": "Beta功能",
+      "context": "了解功能成熟度状态对学习者决定是否在生产中使用很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:51:44.766Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6181,
+    "contentLength": 4709,
+    "processingTimeMs": 55275
+  }
+}

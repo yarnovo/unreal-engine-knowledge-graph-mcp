@@ -1,0 +1,163 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_ndisplay-root-actor-reference-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_ndisplay-root-actor-reference-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "nDisplay Root Actor",
+      "predicate": "实例化",
+      "object": "nDisplay配置资产",
+      "context": "nDisplay Root Actor是nDisplay配置资产的实例，允许在不修改原始配置资产的情况下调整渲染设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay Root Actor",
+      "predicate": "控制",
+      "object": "视口设置",
+      "context": "通过nDisplay Root Actor可以调整视口的分辨率、过扫描等参数，影响群集渲染效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视口屏幕百分比系数",
+      "predicate": "影响",
+      "object": "视口分辨率",
+      "context": "该参数直接决定视口的分辨率缩放比例，1.0表示全分辨率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视口过扫描",
+      "predicate": "用于",
+      "object": "后期处理连续性",
+      "context": "过扫描确保在使用后期处理效果时各个屏幕之间的视觉连续性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "nDisplay Root Actor",
+      "predicate": "包含",
+      "object": "镜头内视效设置",
+      "context": "ICVFX相关设置允许控制内视锥体的显示优先级和摄像机配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内视锥体",
+      "predicate": "使用",
+      "object": "电影摄像机Actor",
+      "context": "可以指定专用电影摄像机来替代默认nDisplay摄像机渲染内视锥体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "颜色分级",
+      "predicate": "应用于",
+      "object": "nDisplay渲染器",
+      "context": "颜色分级设置专门针对nDisplay渲染输出，不影响编辑器视图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OCIO配置",
+      "predicate": "覆盖",
+      "object": "项目颜色设置",
+      "context": "当同时存在项目级和nDisplay级OCIO配置时，nDisplay设置具有优先级",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "发光板",
+      "predicate": "支持",
+      "object": "两种混合模式",
+      "context": "可以选择发光板在内视锥体上方或下方渲染，适应不同合成需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器预览",
+      "predicate": "模拟",
+      "object": "群集渲染效果",
+      "context": "预览功能允许在编辑器中直接查看nDisplay配置的实际渲染效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内视锥体过扫描",
+      "predicate": "补偿",
+      "object": "摄像机运动延迟",
+      "context": "通过扩大渲染区域为运动摄像机提供缓冲空间",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "摄像机运动模糊",
+      "predicate": "提供",
+      "object": "三种校正模式",
+      "context": "不同模式针对摄像机运动、对象运动或全局运动提供精确的模糊控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "色键抠像",
+      "predicate": "支持",
+      "object": "追踪标记",
+      "context": "可以在色键画面上添加定制标记，便于后期追踪处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理替换",
+      "predicate": "允许",
+      "object": "动态贴图更新",
+      "context": "可以实时替换内视锥体内容，支持纹理裁剪等高级功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay 3D配置编辑器",
+      "predicate": "生成",
+      "object": "nDisplay配置资产",
+      "context": "配置资产是使用3D配置编辑器创建的，作为nDisplay系统的基础配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界大纲视图",
+      "predicate": "用于",
+      "object": "访问nDisplay Root Actor",
+      "context": "这是编辑器中定位和选择nDisplay Root Actor的主要界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "显示",
+      "object": "nDisplay设置参数",
+      "context": "所有可调整的nDisplay参数都通过细节面板暴露给用户",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图层系统",
+      "predicate": "用于",
+      "object": "内容可见性控制",
+      "context": "可以通过图层批量管理哪些内容显示在特定视口或内视锥体中",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:05:47.465Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (16825 字符)",
+      "timestamp": "2025-06-15T20:04:50.522Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 30309,
+    "contentLength": 16825,
+    "processingTimeMs": 56955
+  }
+}

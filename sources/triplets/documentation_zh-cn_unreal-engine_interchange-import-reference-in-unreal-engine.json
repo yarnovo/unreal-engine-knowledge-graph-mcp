@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_interchange-import-reference-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_interchange-import-reference-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "交换管线配置窗口",
+      "predicate": "包含",
+      "object": "常见选项",
+      "context": "交换管线配置窗口包含常见选项，这些选项影响导入资产的基本设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交换管线配置窗口",
+      "predicate": "包含",
+      "object": "常见网格体选项",
+      "context": "交换管线配置窗口包含常见网格体选项，这些选项专门用于网格体导入的设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交换管线配置窗口",
+      "predicate": "包含",
+      "object": "常见骨骼网格体和动画选项",
+      "context": "交换管线配置窗口包含常见骨骼网格体和动画选项，这些选项专门用于骨骼网格体和动画导入的设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交换管线配置窗口",
+      "predicate": "包含",
+      "object": "静态网格体选项",
+      "context": "交换管线配置窗口包含静态网格体选项，这些选项专门用于静态网格体导入的设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交换管线配置窗口",
+      "predicate": "包含",
+      "object": "骨骼网格体选项",
+      "context": "交换管线配置窗口包含骨骼网格体选项，这些选项专门用于骨骼网格体导入的设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交换管线配置窗口",
+      "predicate": "包含",
+      "object": "动画选项",
+      "context": "交换管线配置窗口包含动画选项，这些选项专门用于动画导入的设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交换管线配置窗口",
+      "predicate": "包含",
+      "object": "材质选项",
+      "context": "交换管线配置窗口包含材质选项，这些选项专门用于材质导入的设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交换管线配置窗口",
+      "predicate": "包含",
+      "object": "纹理选项",
+      "context": "交换管线配置窗口包含纹理选项，这些选项专门用于纹理导入的设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交换管线配置窗口",
+      "predicate": "依赖",
+      "object": "文件格式",
+      "context": "交换管线配置窗口中显示的选项取决于导入文件的文件格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交换管线配置窗口",
+      "predicate": "依赖",
+      "object": "交换管线堆栈",
+      "context": "交换管线配置窗口中显示的选项取决于选择的交换管线堆栈",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "可转换为",
+      "object": "骨骼网格体",
+      "context": "当静态网格体使用变形目标时，可以将其转换为骨骼网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "包含",
+      "object": "变形目标",
+      "context": "骨骼网格体可以包含变形目标，这些变形目标可以在导入时被处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画",
+      "predicate": "依赖",
+      "object": "骨架",
+      "context": "导入动画需要有效的已定义骨架",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质",
+      "predicate": "可导入为",
+      "object": "材质实例",
+      "context": "材质可以导入为材质实例，并可以选择父材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理",
+      "predicate": "可检测为",
+      "object": "法线贴图",
+      "context": "导入的纹理可以被检测为法线贴图，并自动调整相关设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交换管线配置窗口",
+      "predicate": "支持",
+      "object": "导入关卡中",
+      "context": "交换管线配置窗口支持通过'导入关卡中'选项导入资产，适用于FBX、glTF等格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "可分配到",
+      "object": "LOD组",
+      "context": "导入的静态网格体可以被分配到不同的LOD组，如装饰、植被等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "可创建",
+      "object": "物理资产",
+      "context": "导入骨骼网格体时可以创建新的物理资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画",
+      "predicate": "可设置",
+      "object": "动画长度",
+      "context": "导入动画时可以设置动画长度，基于源时间轴、动画时间或自定义范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质",
+      "predicate": "基于",
+      "object": "父材质",
+      "context": "导入为材质实例时，可以选择基于不同的父材质，如PhongSurfaceMaterial、UnlitMaterial等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:37:12.354Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13924 字符)",
+      "timestamp": "2025-06-15T19:36:09.217Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 22448,
+    "contentLength": 13924,
+    "processingTimeMs": 63142
+  }
+}

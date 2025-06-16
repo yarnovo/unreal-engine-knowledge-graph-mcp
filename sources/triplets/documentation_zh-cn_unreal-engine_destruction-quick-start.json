@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_destruction-quick-start",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_destruction-quick-start.md",
+  "triples": [
+    {
+      "subject": "几何体集合",
+      "predicate": "基于",
+      "object": "静态网格体",
+      "context": "几何体集合是利用一个或多个静态网格体构建的资产，这是创建破坏效果的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "破裂模式",
+      "predicate": "用于",
+      "object": "几何体集合",
+      "context": "破裂模式提供工具来拆分几何体集合并定义其破裂方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "均匀Voronoi方法",
+      "predicate": "属于",
+      "object": "破裂模式",
+      "context": "均匀Voronoi是破裂模式中提供的一种标准破裂方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "连接图表",
+      "predicate": "控制",
+      "object": "几何体集合破裂",
+      "context": "连接图表定义了破裂片段彼此连接的方式，决定了张力作用下如何分开",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理场",
+      "predicate": "施加",
+      "object": "张力",
+      "context": "物理场用于在几何体集合上施加张力，使其破裂片段分开",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FS_MasterField",
+      "predicate": "是",
+      "object": "物理场",
+      "context": "FS_MasterField是虚幻引擎预构建的主场类型，用于生成破坏效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_FirstPersonProjectile",
+      "predicate": "触发",
+      "object": "FS_MasterField",
+      "context": "第一人称发射物蓝图通过事件命中触发物理场的生成和激活",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "破裂层级",
+      "predicate": "显示",
+      "object": "几何体集合结构",
+      "context": "破裂层级窗口展示了几何体集合的层级结构，从完整对象到各个破裂片段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡统计数据",
+      "predicate": "反映",
+      "object": "破裂层级",
+      "context": "关卡统计数据窗口显示当前破裂层级的状态信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "爆炸数量",
+      "predicate": "控制",
+      "object": "破裂预览",
+      "context": "调整爆炸数量值可以预览几何体集合将如何破裂",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos系统",
+      "predicate": "包含",
+      "object": "几何体集合",
+      "context": "几何体集合是Chaos破坏系统的基础资产类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第一人称模板",
+      "predicate": "提供",
+      "object": "BP_Rifle",
+      "context": "第一人称模板包含可用于射击测试的步枪蓝图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "破坏效果",
+      "predicate": "依赖",
+      "object": "物理场",
+      "context": "实现逼真的破坏效果需要物理场来施加适当的力",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "几何体集合",
+      "predicate": "可组合",
+      "object": "复杂结构",
+      "context": "多个几何体集合可以组合构建更复杂的可破坏结构",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "破裂方法",
+      "predicate": "影响",
+      "object": "破坏模式",
+      "context": "选择不同的破裂方法会产生不同外观的破坏效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:51:02.793Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12891 字符)",
+      "timestamp": "2025-06-15T18:49:54.755Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17863,
+    "contentLength": 12891,
+    "processingTimeMs": 68040
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_chaos-visual-debugger-overview-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_chaos-visual-debugger-overview-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Chaos视觉调试器",
+      "predicate": "用于",
+      "object": "Chaos物理模拟系统",
+      "context": "Chaos视觉调试器是专门为Chaos物理模拟系统设计的视觉调试工具，帮助开发者直观地分析和调试物理模拟结果。",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Chaos视觉调试器",
+      "predicate": "包含",
+      "object": "粒子数据检查器",
+      "context": "粒子数据检查器是Chaos视觉调试器的一部分，用于显示选定粒子的详细信息，帮助开发者理解粒子的物理状态。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos视觉调试器",
+      "predicate": "包含",
+      "object": "碰撞数据检查器",
+      "context": "碰撞数据检查器是Chaos视觉调试器的一部分，用于显示选定粒子的碰撞数据，帮助开发者调试碰撞问题。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos视觉调试器",
+      "predicate": "包含",
+      "object": "场景查询检查器",
+      "context": "场景查询检查器是Chaos视觉调试器的一部分，用于检查场景中的特定场景查询，帮助开发者理解查询结果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos视觉调试器",
+      "predicate": "包含",
+      "object": "关节约束数据检查器",
+      "context": "关节约束数据检查器是Chaos视觉调试器的一部分，用于检查视口中选定的关节状态，帮助开发者调试关节约束。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos视觉调试器",
+      "predicate": "支持",
+      "object": "刚体",
+      "context": "Chaos视觉调试器支持记录场景中所有激活的刚体，帮助开发者分析和调试刚体的物理模拟状态。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos视觉调试器",
+      "predicate": "支持",
+      "object": "刚体动画节点（RBAN）",
+      "context": "Chaos视觉调试器支持记录场景中所有激活的刚体动画节点（RBAN）解算器，帮助开发者分析和调试RBAN的物理模拟状态。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos视觉调试器",
+      "predicate": "支持",
+      "object": "实时会话调试",
+      "context": "Chaos视觉调试器支持连接到实时Gameplay会话，帮助开发者在游戏运行时实时查看和调试物理场景。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子数据检查器",
+      "predicate": "显示",
+      "object": "粒子数据",
+      "context": "粒子数据检查器显示选定粒子的详细信息，包括旋转、速度等，帮助开发者理解粒子的物理状态。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞数据检查器",
+      "predicate": "显示",
+      "object": "碰撞数据",
+      "context": "碰撞数据检查器显示选定粒子的碰撞数据，包括接触点和约束数据，帮助开发者调试碰撞问题。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "场景查询检查器",
+      "predicate": "显示",
+      "object": "场景查询数据",
+      "context": "场景查询检查器显示场景中的特定场景查询数据，帮助开发者理解查询结果和调试查询问题。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关节约束数据检查器",
+      "predicate": "显示",
+      "object": "关节约束数据",
+      "context": "关节约束数据检查器显示选定关节的状态和设置，帮助开发者调试关节约束问题。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos视觉调试器",
+      "predicate": "支持",
+      "object": "调试服务器阶段",
+      "context": "Chaos视觉调试器支持记录和解算器阶段的数据，帮助开发者分析和调试物理模拟的不同阶段。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试服务器阶段",
+      "predicate": "包括",
+      "object": "演变开始",
+      "context": "调试服务器阶段包括演变开始阶段，帮助开发者理解解算器步骤开始时的粒子状态。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试服务器阶段",
+      "predicate": "包括",
+      "object": "合并后",
+      "context": "调试服务器阶段包括合并后阶段，帮助开发者理解粒子执行合并计算后的状态。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试服务器阶段",
+      "predicate": "包括",
+      "object": "碰撞检测粗略阶段",
+      "context": "调试服务器阶段包括碰撞检测粗略阶段，帮助开发者理解碰撞检测过程的粗略阶段状态。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试服务器阶段",
+      "predicate": "包括",
+      "object": "碰撞检测精确阶段",
+      "context": "调试服务器阶段包括碰撞检测精确阶段，帮助开发者理解碰撞检测过程的精确阶段状态。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试服务器阶段",
+      "predicate": "包括",
+      "object": "预约束解算",
+      "context": "调试服务器阶段包括预约束解算阶段，帮助开发者理解解算约束前的粒子状态。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试服务器阶段",
+      "predicate": "包括",
+      "object": "后约束解算",
+      "context": "调试服务器阶段包括后约束解算阶段，帮助开发者理解解算约束后的粒子状态。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试服务器阶段",
+      "predicate": "包括",
+      "object": "演变结束",
+      "context": "调试服务器阶段包括演变结束阶段，帮助开发者理解解算器步骤结束时的粒子状态。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos视觉调试器",
+      "predicate": "支持",
+      "object": "可视化场景数据",
+      "context": "Chaos视觉调试器支持根据粒子的状态、形状类型等对粒子进行颜色编码，帮助开发者直观地显示和分析场景数据。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可视化场景数据",
+      "predicate": "包括",
+      "object": "全局粒子数据",
+      "context": "可视化场景数据包括全局粒子数据，帮助开发者显示和分析粒子的速度、加速度等物理属性。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可视化场景数据",
+      "predicate": "包括",
+      "object": "全局碰撞数据",
+      "context": "可视化场景数据包括全局碰撞数据，帮助开发者显示和分析粒子的接触点、法线等碰撞信息。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可视化场景数据",
+      "predicate": "包括",
+      "object": "全局场景查询",
+      "context": "可视化场景数据包括全局场景查询，帮助开发者显示和分析场景查询的结果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可视化场景数据",
+      "predicate": "包括",
+      "object": "全局关节数据",
+      "context": "可视化场景数据包括全局关节数据，帮助开发者显示和分析关节的状态和设置。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:22:16.255Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 12086,
+    "contentLength": 7380,
+    "processingTimeMs": 89111
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_painter-tool-1.0-material-functions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_painter-tool-1.0-material-functions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "枢轴点绘制器",
+      "predicate": "包含",
+      "object": "PivotPainter_HierarchyData",
+      "context": "PivotPainter_HierarchyData是枢轴点绘制器的一个功能模块，用于处理对象层次结构数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "枢轴点绘制器",
+      "predicate": "包含",
+      "object": "PivotPainter_PerObjectData",
+      "context": "PivotPainter_PerObjectData是枢轴点绘制器的一个功能模块，用于逐个对象处理数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "枢轴点绘制器",
+      "predicate": "包含",
+      "object": "PivotPainter_PerObjectFoliageData",
+      "context": "PivotPainter_PerObjectFoliageData是枢轴点绘制器的一个功能模块，专门用于处理植物叶子对象数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "枢轴点绘制器",
+      "predicate": "包含",
+      "object": "PivotPainter_TreeData",
+      "context": "PivotPainter_TreeData是枢轴点绘制器的一个功能模块，用于处理树和叶子的数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PivotPainter_HierarchyData",
+      "predicate": "处理",
+      "object": "对象层次结构",
+      "context": "PivotPainter_HierarchyData专门用于处理对象层次结构数据，如父代和子代的枢轴点信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PivotPainter_PerObjectData",
+      "predicate": "处理",
+      "object": "单个对象数据",
+      "context": "PivotPainter_PerObjectData设计用于逐个对象处理数据，如枢轴点位置和X轴矢量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PivotPainter_PerObjectFoliageData",
+      "predicate": "处理",
+      "object": "植物叶子对象",
+      "context": "PivotPainter_PerObjectFoliageData专门用于处理植物叶子对象的数据，如风矢量和旋转轴",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PivotPainter_TreeData",
+      "predicate": "处理",
+      "object": "树和叶子数据",
+      "context": "PivotPainter_TreeData用于处理树和叶子的数据，如分支枢轴点位置和叶子旋转轴",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "枢轴点绘制器",
+      "predicate": "依赖",
+      "object": "枢轴点绘制器 MAXScript",
+      "context": "枢轴点绘制器依赖MAXScript来存储旋转信息在网格的顶点中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PivotPainter_HierarchyData",
+      "predicate": "输出",
+      "object": "父代枢轴点位置",
+      "context": "PivotPainter_HierarchyData输出父代枢轴点位置信息，用于全局空间中的父代枢轴点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PivotPainter_HierarchyData",
+      "predicate": "输出",
+      "object": "子代枢轴点位置",
+      "context": "PivotPainter_HierarchyData输出子代枢轴点位置信息，用于全局空间中的子代枢轴点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PivotPainter_PerObjectData",
+      "predicate": "输出",
+      "object": "枢轴点位置",
+      "context": "PivotPainter_PerObjectData输出每个元素的枢轴点位置信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PivotPainter_PerObjectFoliageData",
+      "predicate": "输入",
+      "object": "风矢量",
+      "context": "PivotPainter_PerObjectFoliageData接收风矢量作为输入，用于处理植物叶子的风效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PivotPainter_TreeData",
+      "predicate": "输入",
+      "object": "风矢量",
+      "context": "PivotPainter_TreeData接收风矢量作为输入，用于处理树和叶子的风效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PivotPainter_TreeData",
+      "predicate": "输出",
+      "object": "分支枢轴点位置",
+      "context": "PivotPainter_TreeData输出分支枢轴点位置信息，用于全局空间中的分支枢轴点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PivotPainter_TreeData",
+      "predicate": "输出",
+      "object": "叶子枢轴点位置",
+      "context": "PivotPainter_TreeData输出叶子枢轴点位置信息，用于全局空间中的叶子枢轴点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:17:58.119Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11691,
+    "contentLength": 7128,
+    "processingTimeMs": 64142
+  }
+}

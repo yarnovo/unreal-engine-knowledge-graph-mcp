@@ -1,0 +1,115 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-perforce-as-source-control-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-perforce-as-source-control-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "整合",
+      "object": "Perforce",
+      "context": "虚幻引擎整合了Perforce作为版本控制软件，帮助团队成员协同工作和管理项目资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Perforce",
+      "predicate": "支持",
+      "object": "版本控制",
+      "context": "Perforce提供版本控制功能，包括文件备份、历史记录查询和版本回滚",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编辑器",
+      "predicate": "使用",
+      "object": "Perforce工作流程",
+      "context": "虚幻编辑器遵循Perforce的工作流程来管理资源文件（如.uasset和.umap）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Perforce",
+      "predicate": "包含",
+      "object": "P4D和P4S",
+      "context": "Perforce服务器可以通过P4D（命令行）或P4S（服务）运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "P4Typemap",
+      "predicate": "控制",
+      "object": "文件类型处理",
+      "context": "P4Typemap用于设置Perforce如何处理不同类型的文件（如二进制文件或文本文件）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Workspace",
+      "predicate": "用于",
+      "object": "本地文件管理",
+      "context": "Workspace是Perforce管理本地文件的必要设置，用于同步服务器和本地文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "P4V",
+      "predicate": "用于",
+      "object": "文件添加和提交",
+      "context": "P4V是Perforce的图形界面工具，用于添加、提交和管理文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编辑器",
+      "predicate": "支持",
+      "object": "Perforce连接",
+      "context": "虚幻编辑器可以直接连接Perforce服务器，方便开发者管理版本控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Perforce",
+      "predicate": "适用于",
+      "object": "局域网和云服务",
+      "context": "Perforce可以在局域网或通过云服务商部署，支持远程协作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "二进制文件",
+      "predicate": "锁定",
+      "object": "资源文件",
+      "context": "二进制文件（如.uasset和.umap）在编辑时会被锁定，防止多人同时修改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C++项目",
+      "predicate": "包含",
+      "object": "Source目录",
+      "context": "C++项目包含Source目录，该目录需要添加到版本控制中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Binaries目录",
+      "predicate": "可选",
+      "object": "版本控制",
+      "context": "Binaries目录是否加入版本控制取决于团队是否需要预编译的二进制文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:21:28.942Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8994 字符)",
+      "timestamp": "2025-06-15T21:20:54.771Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13106,
+    "contentLength": 8994,
+    "processingTimeMs": 34173
+  }
+}

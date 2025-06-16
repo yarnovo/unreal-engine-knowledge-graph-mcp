@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_working-with-levels-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_working-with-levels-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "关卡",
+      "predicate": "属于",
+      "object": "虚幻引擎数据类型",
+      "context": "关卡是虚幻引擎中的一种数据类型，保存在单独的资产文件中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡",
+      "predicate": "包含",
+      "object": "关卡模板",
+      "context": "创建新关卡时可以选择不同的模板，如开放世界、空关卡等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "开放世界模板",
+      "predicate": "使用",
+      "object": "世界分区",
+      "context": "开放世界模板使用世界分区来创建大型、可流送的开放世界",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基本模板",
+      "predicate": "包含",
+      "object": "地面、光照、大气和指数雾",
+      "context": "基本模板包含这些基础环境元素，适合快速搭建场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "空关卡模板",
+      "predicate": "不包含",
+      "object": "任何内容",
+      "context": "空关卡模板是一个完全空白的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡",
+      "predicate": "通过",
+      "object": "内容浏览器创建",
+      "context": "可以在内容浏览器中右键创建新关卡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡",
+      "predicate": "通过",
+      "object": "主菜单创建",
+      "context": "也可以通过主菜单的文件选项创建新关卡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡",
+      "predicate": "通过",
+      "object": "快捷键创建",
+      "context": "使用Ctrl+N/Cmd+N快捷键可以快速创建新关卡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡保存",
+      "predicate": "使用",
+      "object": "版本控制",
+      "context": "如果启用了版本控制，新关卡会自动上传到版本控制系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡",
+      "predicate": "通过",
+      "object": "主菜单保存",
+      "context": "可以通过主菜单的文件选项保存当前关卡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡",
+      "predicate": "通过",
+      "object": "快捷键保存",
+      "context": "使用Ctrl+S/Cmd+S快捷键可以快速保存当前关卡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡另存为",
+      "predicate": "用于",
+      "object": "重命名关卡",
+      "context": "可以将关卡保存为其他名称，创建副本或备份",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡",
+      "predicate": "通过",
+      "object": "主菜单打开",
+      "context": "可以通过主菜单的文件选项打开现有关卡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡",
+      "predicate": "通过",
+      "object": "快捷键打开",
+      "context": "使用Ctrl+O/Cmd+O快捷键可以快速打开现有关卡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "开放世界模板",
+      "predicate": "包含",
+      "object": "示例内容",
+      "context": "开放世界模板包含示例内容，帮助开发者快速开始",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "空的开放世界模板",
+      "predicate": "不包含",
+      "object": "示例内容",
+      "context": "空的开放世界模板使用世界分区但不包含任何内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:33:35.746Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4386,
+    "contentLength": 2720,
+    "processingTimeMs": 39394
+  }
+}

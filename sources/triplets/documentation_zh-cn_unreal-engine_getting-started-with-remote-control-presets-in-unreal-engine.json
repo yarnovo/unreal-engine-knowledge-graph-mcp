@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_getting-started-with-remote-control-presets-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_getting-started-with-remote-control-presets-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "远程控制预设",
+      "predicate": "用于",
+      "object": "收集UI参数或函数",
+      "context": "远程控制预设的主要功能是收集UI参数或函数并整理到单个面板中，帮助开发者集中管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制预设",
+      "predicate": "公开给",
+      "object": "远程控制API",
+      "context": "远程控制预设可以向远程控制API公开收集的参数和函数，实现远程控制功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制API",
+      "predicate": "提供",
+      "object": "网络服务器",
+      "context": "远程控制API插件提供了网络服务器功能，为远程控制预设托管数据和websocket连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制Web界面",
+      "predicate": "连接",
+      "object": "远程控制预设",
+      "context": "远程控制Web界面插件提供的Web应用程序可以连接到远程控制预设，实现远程控制引擎",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制面板",
+      "predicate": "显示",
+      "object": "属性",
+      "context": "远程控制面板可以显示从细节面板中添加的属性，方便开发者查看和修改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "包含",
+      "object": "远程控制设置菜单",
+      "context": "细节面板中的每个属性都有远程控制设置菜单，用于控制是否添加到远程控制面板",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图库",
+      "predicate": "用于",
+      "object": "公开属性和函数",
+      "context": "蓝图库可以用于将属性、函数和Actor公开给远程控制API，简化远程控制预设的填充过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制预设",
+      "predicate": "依赖",
+      "object": "远程控制API插件",
+      "context": "远程控制预设功能需要依赖远程控制API插件提供的网络服务器功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制面板",
+      "predicate": "继承",
+      "object": "细节面板界面",
+      "context": "远程控制面板中的属性界面与细节面板中的界面相同，保持了UI一致性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "远程控制Web应用程序",
+      "predicate": "扩展",
+      "object": "远程控制功能",
+      "context": "远程控制Web应用程序扩展了远程控制功能，提供了更友好的用户界面",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "远程控制协议",
+      "predicate": "支持",
+      "object": "远程控制通信",
+      "context": "远程控制协议支持远程控制API与Web应用程序之间的通信",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "编辑模式",
+      "predicate": "控制",
+      "object": "远程控制面板编辑",
+      "context": "编辑模式复选框控制是否可以对远程控制面板进行编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容侧滑菜单",
+      "predicate": "用于",
+      "object": "添加远程控制预设",
+      "context": "内容侧滑菜单中的添加功能可以用于创建新的远程控制预设资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制预设资产",
+      "predicate": "打开",
+      "object": "远程控制面板",
+      "context": "双击远程控制预设资产可以打开对应的远程控制面板",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:14:13.452Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8180,
+    "contentLength": 5626,
+    "processingTimeMs": 49886
+  }
+}

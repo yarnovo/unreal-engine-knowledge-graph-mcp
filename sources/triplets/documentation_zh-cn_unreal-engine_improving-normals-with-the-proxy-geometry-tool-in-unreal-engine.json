@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_improving-normals-with-the-proxy-geometry-tool-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_improving-normals-with-the-proxy-geometry-tool-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "代理几何体工具",
+      "predicate": "用于",
+      "object": "改善法线",
+      "context": "代理几何体工具专门用于优化静态网格体的法线计算，帮助在内存受限情况下提高渲染质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "包含",
+      "object": "硬边角度设置",
+      "context": "硬边角度是代理几何体工具的核心参数之一，直接影响生成网格体的法线计算方式和顶点数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬边角度",
+      "predicate": "控制",
+      "object": "顶点数量",
+      "context": "调整硬边角度值会显著影响生成的静态网格体的顶点数量，这是优化内存使用的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合并Actor工具",
+      "predicate": "集成",
+      "object": "代理几何体工具",
+      "context": "代理几何体工具作为合并Actor工具的功能扩展，需要通过合并Actor工具界面访问",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "法线贴图",
+      "predicate": "替代",
+      "object": "网格体法线",
+      "context": "在代理生成过程中需要禁用法线贴图才能观察到网格体本身的法线效果，这是理解法线生成原理的重要步骤",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "依赖",
+      "object": "法线计算",
+      "context": "静态网格体的视觉质量高度依赖正确的法线计算方式，这是学习3D模型优化的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "LOD网格体",
+      "predicate": "需要",
+      "object": "高效法线",
+      "context": "在内存受限情况下，LOD网格体需要特别优化的法线计算方式，这是《堡垒之夜》开发经验的重要实践",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "材质设置",
+      "predicate": "包含",
+      "object": "法线贴图选项",
+      "context": "材质设置中的法线贴图选项控制是否使用贴图法线，这是理解材质与几何体法线关系的关键配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理设置",
+      "predicate": "影响",
+      "object": "最终渲染效果",
+      "context": "代理几何体工具的各种设置会显著影响最终生成的静态网格体的渲染效果，需要反复调试",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "硬边角度值",
+      "predicate": "决定",
+      "object": "法线平滑度",
+      "context": "不同的硬边角度值会产生不同平滑程度的法线效果，这是控制模型外观的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T19:34:19.552Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7560,
+    "contentLength": 5220,
+    "processingTimeMs": 34136
+  }
+}

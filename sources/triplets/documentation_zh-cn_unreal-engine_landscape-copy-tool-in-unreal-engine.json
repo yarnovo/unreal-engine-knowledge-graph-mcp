@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_landscape-copy-tool-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_landscape-copy-tool-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "地形拷贝工具",
+      "predicate": "属于",
+      "object": "地形编辑器",
+      "context": "地形拷贝工具是地形编辑器中的一个功能模块，用于处理地形数据的复制和粘贴",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形拷贝工具",
+      "predicate": "包含",
+      "object": "小工具actor",
+      "context": "地形拷贝工具通过小工具actor来保存和操作地形数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "小工具actor",
+      "predicate": "用于",
+      "object": "地形数据复制",
+      "context": "小工具actor的主要功能是保存地形区域的高度和图层数据以便复制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "小工具actor",
+      "predicate": "支持",
+      "object": "数据导出/导入",
+      "context": "小工具actor支持将地形数据导出为文件或从文件导入数据",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形拷贝工具",
+      "predicate": "依赖",
+      "object": "变换工具",
+      "context": "使用地形拷贝工具时需要变换工具来调整小工具actor的位置和大小",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "地形拷贝工具",
+      "predicate": "使用",
+      "object": "雕刻工具",
+      "context": "地形拷贝工具通过雕刻工具来选择地形区域和进行数据复制/粘贴操作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "小工具actor",
+      "predicate": "具有",
+      "object": "属性参数",
+      "context": "小工具actor具有Width、Height、LengthZ等属性参数用于控制其尺寸和行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形拷贝工具",
+      "predicate": "支持",
+      "object": "外部工具集成",
+      "context": "地形拷贝工具导出的数据可以用于World Machine、Terresculptor等外部高度图生成器",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "小工具笔刷",
+      "predicate": "是",
+      "object": "特殊笔刷类型",
+      "context": "小工具笔刷是地形拷贝工具中专用于完整粘贴数据的特殊笔刷类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形数据",
+      "predicate": "包含",
+      "object": "高度图和图层权重",
+      "context": "地形拷贝工具处理的地形数据包含高度图信息和图层权重信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形拷贝工具",
+      "predicate": "适用于",
+      "object": "地形编辑工作流",
+      "context": "地形拷贝工具是地形编辑工作流中的重要组成部分，用于高效复制和转移地形特征",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "小工具actor",
+      "predicate": "基于",
+      "object": "体积概念",
+      "context": "小工具actor与其所定义特定区域的体积相似，用于界定操作范围",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "地形拷贝工具",
+      "predicate": "前置",
+      "object": "地形模式",
+      "context": "使用地形拷贝工具需要先进入地形模式中的雕刻标签页",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "数据导出/导入",
+      "predicate": "使用",
+      "object": "RAW文件格式",
+      "context": "地形数据的导出和导入操作使用16位(高度图)和8位(图层权重)的RAW文件格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:40:45.805Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11216,
+    "contentLength": 7852,
+    "processingTimeMs": 54147
+  }
+}

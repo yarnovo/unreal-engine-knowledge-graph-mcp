@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_convert-media-into-the-exr-format-with-the-process-exr-tool-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_convert-media-into-the-exr-format-with-the-process-exr-tool-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "处理EXR工具",
+      "predicate": "用于",
+      "object": "将媒体转换为EXR格式",
+      "context": "处理EXR工具是虚幻引擎中专门用于将经纬度360视频和2D板转换为EXR格式的工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "处理EXR工具",
+      "predicate": "包含",
+      "object": "处理EXR窗口",
+      "context": "处理EXR工具的操作界面是处理EXR窗口，用户在此配置转换参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "处理EXR窗口",
+      "predicate": "包含",
+      "object": "序列配置",
+      "context": "处理EXR窗口中的序列配置部分用于设置输入输出路径和mip映射选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "处理EXR窗口",
+      "predicate": "包含",
+      "object": "图块配置",
+      "context": "图块配置部分控制EXR图像的平铺参数，影响性能和流送效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "处理EXR窗口",
+      "predicate": "包含",
+      "object": "处理配置",
+      "context": "处理配置部分设置线程数量和是否使用播放器解码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "处理EXR窗口",
+      "predicate": "包含",
+      "object": "调试选项",
+      "context": "调试选项允许开发者通过mip级别色调进行可视化调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EXR格式",
+      "predicate": "支持",
+      "object": "图块和mip",
+      "context": "EXR格式支持图块和mip技术，这是其性能优化的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体板Actor",
+      "predicate": "使用",
+      "object": "EXR序列",
+      "context": "媒体板Actor可以播放EXR序列，并自动优化可见图块和mip级别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体板Actor",
+      "predicate": "兼容",
+      "object": "群集渲染",
+      "context": "媒体板Actor的优化技术与群集渲染兼容，可随PC数量提升性能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "oiiotool",
+      "predicate": "替代",
+      "object": "处理EXR工具",
+      "context": "oiiotool是可在虚幻引擎外使用的离线转换工具，需禁用压缩",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "图块大小",
+      "predicate": "影响",
+      "object": "性能与流送成本",
+      "context": "图块大小设置需要在计算成本和流送成本之间取得平衡",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "mip映射",
+      "predicate": "用于",
+      "object": "性能优化",
+      "context": "mip映射通过自动选择合适的细节级别来优化渲染性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "处理EXR工具",
+      "predicate": "生成",
+      "object": "分块EXR图像",
+      "context": "该工具将输入图像转换为由多个含mip的图块组成的EXR格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:36:26.582Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4636,
+    "contentLength": 3010,
+    "processingTimeMs": 49447
+  }
+}

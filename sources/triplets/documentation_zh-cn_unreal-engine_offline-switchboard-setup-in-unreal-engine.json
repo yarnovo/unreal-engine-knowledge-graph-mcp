@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_offline-switchboard-setup-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_offline-switchboard-setup-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Switchboard",
+      "predicate": "是",
+      "object": "Python应用程序",
+      "context": "Switchboard是一个基于Python开发的应用程序，理解这一点有助于开发者知道需要Python环境来运行和开发Switchboard相关功能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "依赖",
+      "object": "pip",
+      "context": "Switchboard首次启动时会使用pip安装依赖项，了解这一依赖关系有助于开发者准备正确的Python包管理工具和环境。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "属于",
+      "object": "虚幻引擎插件",
+      "context": "Switchboard位于虚幻引擎的插件目录中，这表明它是虚幻引擎的一个扩展功能，主要用于虚拟制作流程。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "需要",
+      "object": "离线设置",
+      "context": "在无法联网的环境下，Switchboard需要特殊的离线设置流程，这对于在受限网络环境中工作的开发者尤为重要。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "离线设置Switchboard",
+      "predicate": "需要",
+      "object": "在线计算机",
+      "context": "离线设置Switchboard首先需要一台在线计算机下载依赖包，这一步骤是离线设置的前提条件。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "离线设置Switchboard",
+      "predicate": "涉及",
+      "object": "PIP_FIND_LINKS",
+      "context": "在Windows系统中设置PIP_FIND_LINKS是离线安装Python包的关键步骤，了解这一点可以避免常见错误。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "使用",
+      "object": "Python虚拟环境",
+      "context": "Switchboard在首次设置时会创建Python虚拟环境，这有助于隔离依赖并保证环境一致性。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "依赖",
+      "object": "PySide6",
+      "context": "Switchboard依赖PySide6等Python包，了解这些依赖有助于开发者解决可能的包冲突或版本问题。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "依赖",
+      "object": "python-osc",
+      "context": "python-osc是Switchboard的另一个关键依赖，这表明Switchboard可能使用了OSC协议进行网络通信。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "是",
+      "object": "Beta功能",
+      "context": "Switchboard目前是Beta功能，这意味着它可能还不完全稳定，开发者在使用时需要谨慎。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard设置",
+      "predicate": "需要",
+      "object": "相同引擎版本",
+      "context": "在线和离线计算机需要保持相同的引擎版本，这是确保Switchboard正常工作的关键前提。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard设置",
+      "predicate": "需要",
+      "object": "相同操作系统",
+      "context": "在线和离线计算机需要相同的操作系统，这保证了Python包和依赖的兼容性。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "pip",
+      "predicate": "用于",
+      "object": "安装Python依赖",
+      "context": "pip是Python包管理工具，在Switchboard设置过程中用于安装所有必要的依赖包。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PIP_NO_INDEX",
+      "predicate": "控制",
+      "object": "pip的包索引行为",
+      "context": "设置PIP_NO_INDEX=1可以阻止pip访问在线索引，强制使用本地包，这在离线环境中至关重要。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PIP_FIND_LINKS",
+      "predicate": "指定",
+      "object": "本地包目录",
+      "context": "PIP_FIND_LINKS环境变量告诉pip在哪里查找本地Python包，这是离线安装的核心配置。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "switchboard.bat",
+      "predicate": "是",
+      "object": "Switchboard启动脚本",
+      "context": "switchboard.bat是启动Switchboard的主要脚本，了解这一点有助于开发者知道如何正确启动应用程序。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "属于",
+      "object": "虚拟制作工具链",
+      "context": "Switchboard位于VirtualProduction插件目录下，这表明它是虚幻引擎虚拟制作流程的一部分。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Switchboard设置",
+      "predicate": "生成",
+      "object": "虚拟环境",
+      "context": "Switchboard首次设置会创建Python虚拟环境，这是隔离项目依赖的重要步骤。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "requirements.txt",
+      "predicate": "列出",
+      "object": "Switchboard依赖",
+      "context": "requirements.txt文件包含了Switchboard的所有Python依赖，这是理解和维护依赖关系的关键文件。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "包含",
+      "object": "Switchboard插件",
+      "context": "Switchboard作为虚幻引擎的插件，是引擎生态系统的一部分，了解这一点有助于定位其功能范围。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:08:37.842Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7925,
+    "contentLength": 7209,
+    "processingTimeMs": 66747
+  }
+}

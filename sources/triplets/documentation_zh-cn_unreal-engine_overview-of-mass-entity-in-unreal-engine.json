@@ -1,0 +1,157 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_overview-of-mass-entity-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_overview-of-mass-entity-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "MassEntity",
+      "predicate": "实现",
+      "object": "面向数据的计算",
+      "context": "MassEntity是虚幻引擎5提供的框架，专门用于实现面向数据的计算，帮助学习者理解其核心设计目标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MassEntity",
+      "predicate": "包含",
+      "object": "片段",
+      "context": "片段是MassEntity的主要数据结构，表示计算中用到的原子数据，是理解MassEntity数据组织的关键概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "片段",
+      "predicate": "组成",
+      "object": "实体",
+      "context": "实体由片段组合而成，这种构成关系是MassEntity区别于传统面向对象编程的核心特征",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "实体",
+      "predicate": "属于",
+      "object": "Archetype",
+      "context": "拥有相同片段构成的实体属于同一个Archetype，这是理解MassEntity内存管理机制的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Archetype",
+      "predicate": "组织",
+      "object": "块",
+      "context": "Archetype中的实体被整理在内存块中，这种组织方式直接影响性能优化策略",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "处理器",
+      "predicate": "操作",
+      "object": "片段",
+      "context": "处理器通过EntityQuery批量操作片段，这是理解MassEntity处理逻辑的关键机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "标签",
+      "predicate": "是",
+      "object": "片段",
+      "context": "标签是一种特殊的不包含数据的片段，理解这种特殊类型有助于掌握实体构成方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ChunkFragment",
+      "predicate": "关联",
+      "object": "块",
+      "context": "ChunkFragment与内存块而非实体关联，这种特殊关系用于LOD等管理处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MassCommandBuffer",
+      "predicate": "管理",
+      "object": "实体构成变更",
+      "context": "MassCommandBuffer批处理实体构成变更请求，避免处理过程中的Archetype移动问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EntityView",
+      "predicate": "提供",
+      "object": "实体数据访问",
+      "context": "EntityView提供安全访问非处理队列中实体数据的方式，是理解跨实体操作的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MassEntity管理器",
+      "predicate": "托管",
+      "object": "Archetype",
+      "context": "管理器是框架核心组件，负责创建和管理Archetype，是理解实体生命周期的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "实体模板",
+      "predicate": "基于",
+      "object": "MassEntityConfig",
+      "context": "模板由编辑器中的配置资产生成，这种关系展示了如何在编辑器中定义实体特征",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "特征",
+      "predicate": "提供",
+      "object": "片段和处理器",
+      "context": "特征封装特定功能的片段和处理器，这种抽象帮助理解如何扩展实体行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MassEntityConfig",
+      "predicate": "继承",
+      "object": "父资产",
+      "context": "配置资产支持继承关系，这是理解特征复用机制的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "处理器",
+      "predicate": "依赖",
+      "object": "EntityQuery",
+      "context": "处理器通过EntityQuery指定操作片段，理解这种依赖关系对编写自定义处理器很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Archetype",
+      "predicate": "影响",
+      "object": "内存性能",
+      "context": "Archetype的内存组织方式直接影响数据检索性能，是优化时需要重点考虑的因素",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "特征",
+      "predicate": "实现",
+      "object": "实体行为",
+      "context": "通过添加特征可以配置实体表现出特定行为，如避障或注视目标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MassEntity管理器",
+      "predicate": "处理",
+      "object": "MassCommandBuffer",
+      "context": "管理器异步处理MassCommandBuffer的命令，这种交互关系展示了框架的内部工作机制",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:14:21.155Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6005,
+    "contentLength": 3813,
+    "processingTimeMs": 54127
+  }
+}

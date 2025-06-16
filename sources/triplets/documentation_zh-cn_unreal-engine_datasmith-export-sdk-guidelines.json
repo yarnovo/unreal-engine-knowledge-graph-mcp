@@ -1,0 +1,163 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_datasmith-export-sdk-guidelines",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_datasmith-export-sdk-guidelines.md",
+  "triples": [
+    {
+      "subject": "Datasmith",
+      "predicate": "是",
+      "object": "工具和插件集合",
+      "context": "Datasmith用于将预构建场景从设计应用程序引入虚幻引擎，克服了FBX或OBJ等泛型文件格式的局限性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "处理",
+      "object": "大型网格体",
+      "context": "Datasmith能够处理大型网格体，这是其核心功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "存储",
+      "object": "虚幻引擎数据",
+      "context": "Datasmith存储虚幻引擎使用的数据，如细节级别、碰撞、光源、对象层级和元数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导出过程",
+      "predicate": "分为两步",
+      "object": "解析和导出",
+      "context": "导出数据分两步进行：解析设计应用程序并构建DatasmithScene，然后使用DatasmithExporter API将场景导出到磁盘",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "通过",
+      "object": "项目工作",
+      "context": "虚幻引擎通过项目进行工作，一个项目至少包含一个关卡，其中包含一个或多个Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "具有",
+      "object": "组件",
+      "context": "每个Actor有一个或多个组件，组件可以是几何资产、光源、摄像机等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "参考",
+      "object": "材质资产",
+      "context": "静态网格体参考主材质或材质实例，材质资产会依次引用纹理资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith插件",
+      "predicate": "分为两种类型",
+      "object": "导出器/导入器组合和直接导入器",
+      "context": "所有Datasmith插件都使用导出器/导入器组合或直接导入器方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "支持",
+      "object": "重新导入工作流程",
+      "context": "Datasmith提供了一个重新导入工作流程，可保留在虚幻项目内做出的所有更改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导出器",
+      "predicate": "应遵循",
+      "object": "UX准则",
+      "context": "Datasmith导出器应遵循UX准则，如通过应用程序的查看和过滤能力支持WYSIWYG导出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体资产",
+      "predicate": "必须具有",
+      "object": "唯一名称",
+      "context": "静态网格体名称必须唯一，并且在连续导出的间隔不得更改，以便跟踪实体进行后续重新导入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体Actor",
+      "predicate": "指向",
+      "object": "静态网格体资产",
+      "context": "静态网格体Actor不定义实际几何体，它们指向静态网格体资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "使用",
+      "object": "左手Z轴朝上坐标",
+      "context": "虚幻引擎使用左手Z轴朝上坐标，并以厘米为单位测量尺寸，因此需要在导出器端进行转换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor层级",
+      "predicate": "反映",
+      "object": "应用程序数据模型",
+      "context": "应使用Actor层级来反映应用程序的数据模型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "Actor标签",
+      "context": "虚幻引擎支持用户定义的Actor标签，Datasmith使用这些标签来容纳描述源应用程序中数据组织方式的技术信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "携带",
+      "object": "元数据",
+      "context": "Datasmith携带可用于存储实体上的BIM信息或其他自定义数据的键/值对",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理资产",
+      "predicate": "必须根据",
+      "object": "预期用途设置颜色空间",
+      "context": "必须根据纹理的预期用途正确设置颜色空间（Gamma/sRGB）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质",
+      "predicate": "可以包含",
+      "object": "反射率图和高度图",
+      "context": "材质可以包含反射率图和高度图，以创建基本PBR材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:46:53.951Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (45969 字符)",
+      "timestamp": "2025-06-15T18:45:47.750Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 61767,
+    "contentLength": 45969,
+    "processingTimeMs": 66209
+  }
+}

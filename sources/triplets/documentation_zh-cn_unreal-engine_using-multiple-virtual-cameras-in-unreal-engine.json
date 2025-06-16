@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-multiple-virtual-cameras-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-multiple-virtual-cameras-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚拟摄像机",
+      "predicate": "支持",
+      "object": "多个流",
+      "context": "虚拟摄像机支持多个流使用Live Link VCAM应用程序同时连接到支持的iOS设备，帮助学习者理解虚拟摄像机的多设备支持能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link VCAM应用程序",
+      "predicate": "用于",
+      "object": "连接虚拟摄像机",
+      "context": "Live Link VCAM应用程序是连接虚拟摄像机的必备工具，学习者需要了解其核心作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟摄像机",
+      "predicate": "依赖",
+      "object": "像素流送",
+      "context": "虚拟摄像机通过像素流送技术实现视频流的传输，这是理解虚拟摄像机工作原理的关键",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚拟摄像机Actor",
+      "predicate": "包含",
+      "object": "流送器ID",
+      "context": "流送器ID是虚拟摄像机Actor的重要属性，用于唯一标识不同的虚拟摄像机",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟摄像机Actor",
+      "predicate": "关联",
+      "object": "目标视口",
+      "context": "每个虚拟摄像机Actor需要指定目标视口，这是配置多摄像机工作环境的重要概念",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "限制",
+      "object": "最多四个硬件编码流",
+      "context": "了解硬件限制对规划虚拟制片环境至关重要，这是性能优化的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS设备",
+      "predicate": "运行",
+      "object": "Live Link VCAM应用程序",
+      "context": "明确运行环境要求有助于学习者准备正确的硬件设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多个虚拟摄像机",
+      "predicate": "需要",
+      "object": "共享网络连接",
+      "context": "网络连接是多设备协作的基础条件，这是设置环境时的重要考虑因素",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "流送器ID",
+      "predicate": "用于",
+      "object": "识别虚拟摄像机",
+      "context": "理解流送器ID的命名功能有助于管理复杂的多摄像机场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟摄像机功能",
+      "predicate": "属于",
+      "object": "Beta功能",
+      "context": "了解功能成熟度状态有助于学习者在生产环境中的决策",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "信令服务器URL",
+      "predicate": "用于",
+      "object": "连接虚拟摄像机",
+      "context": "信令服务器URL是建立连接的必备信息，这是配置流程中的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬件编码器",
+      "predicate": "影响",
+      "object": "虚拟摄像机性能",
+      "context": "理解硬件编码器的作用有助于学习者优化系统配置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "用于",
+      "object": "配置虚拟摄像机属性",
+      "context": "掌握细节面板的使用是自定义虚拟摄像机的基础技能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:20:31.315Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7179,
+    "contentLength": 4681,
+    "processingTimeMs": 36529
+  }
+}

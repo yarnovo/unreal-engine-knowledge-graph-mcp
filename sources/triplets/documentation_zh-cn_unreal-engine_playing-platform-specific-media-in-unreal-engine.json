@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_playing-platform-specific-media-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_playing-platform-specific-media-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "平台媒体源",
+      "predicate": "用于",
+      "object": "多平台项目",
+      "context": "平台媒体源资源用于确定在不同平台上播放哪个媒体源资源，帮助开发者处理多平台项目中的媒体播放需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平台媒体源",
+      "predicate": "包含",
+      "object": "文件媒体源",
+      "context": "平台媒体源可以包含多个文件媒体源，每个文件媒体源对应特定平台的媒体文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "文件媒体源",
+      "predicate": "适用于",
+      "object": "特定平台",
+      "context": "文件媒体源可以针对不同平台使用不同的视频格式（如Android使用.3GP，Windows使用.MP4）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体播放器",
+      "predicate": "播放",
+      "object": "平台媒体源",
+      "context": "媒体播放器用于打开和播放平台媒体源资源，根据当前运行平台自动选择对应的媒体源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体播放器",
+      "predicate": "生成",
+      "object": "媒体纹理",
+      "context": "创建媒体播放器时可以同时生成媒体纹理资源，用于在材质中播放媒体内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体纹理",
+      "predicate": "应用于",
+      "object": "材质",
+      "context": "媒体纹理可以应用于材质，然后将材质应用到关卡中的网格体上来播放媒体内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体声音组件",
+      "predicate": "连接",
+      "object": "媒体播放器",
+      "context": "媒体声音组件需要连接到媒体播放器资源才能播放媒体中的音频",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡蓝图",
+      "predicate": "控制",
+      "object": "媒体播放器",
+      "context": "可以在关卡蓝图中创建对媒体播放器的引用，并通过蓝图节点控制媒体播放器的行为（如打开特定媒体源）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平台媒体源",
+      "predicate": "替代",
+      "object": "直接使用文件媒体源",
+      "context": "平台媒体源可以替代直接使用文件媒体源，提供更灵活的多平台媒体播放解决方案",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "媒体播放器",
+      "predicate": "支持",
+      "object": "Electra媒体播放器",
+      "context": "媒体播放器支持使用Electra媒体播放器，需要注意设置正确的取样器类型",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Content/Movies文件夹",
+      "predicate": "专门用于",
+      "object": "存储媒体文件",
+      "context": "Content/Movies文件夹是专门用于存储媒体文件的目录，打包部署项目时需要将媒体文件放在此文件夹中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图第三人称模板",
+      "predicate": "适用于",
+      "object": "媒体播放示例项目",
+      "context": "蓝图第三人称模板项目适合作为创建媒体播放示例的基础项目",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T20:26:25.003Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10708,
+    "contentLength": 7132,
+    "processingTimeMs": 40054
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_simulation-blank-template-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_simulation-blank-template-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "模拟空白模板",
+      "predicate": "属于",
+      "object": "空世界关卡模板",
+      "context": "模拟空白模板是一种空世界关卡模板，帮助学习者理解模板的分类和用途",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模拟空白模板",
+      "predicate": "包含",
+      "object": "SunSky系统",
+      "context": "模板包含SunSky系统，用于地理配准和太阳定位，学习者需要了解环境光照系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SunSky系统",
+      "predicate": "依赖",
+      "object": "虚拟阴影贴图系统",
+      "context": "SunSky系统的远阴影功能依赖虚拟阴影贴图系统，学习者需要了解光照与阴影的技术依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟阴影贴图系统",
+      "predicate": "需要",
+      "object": "DirectX 12",
+      "context": "虚拟阴影贴图系统需要启用DirectX 12，学习者需要了解图形API的硬件要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模拟空白模板",
+      "predicate": "包含",
+      "object": "体积云",
+      "context": "模板包含体积云组件，学习者需要了解天空环境效果的实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模拟空白模板",
+      "predicate": "包含",
+      "object": "指数高度雾",
+      "context": "模板包含指数高度雾，学习者需要了解大气效果的实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模拟空白模板",
+      "predicate": "包含",
+      "object": "地理配准Actor",
+      "context": "模板包含地理配准Actor，用于定位地球上的环境，学习者需要了解地理空间定位技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模拟空白模板",
+      "predicate": "包含",
+      "object": "BP_SimGameMode",
+      "context": "模板包含自定义游戏模式蓝图，学习者需要了解游戏模式的定制方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_SimGameMode",
+      "predicate": "定义",
+      "object": "BP_SimPlayerController",
+      "context": "游戏模式定义了特定玩家控制器，学习者需要了解控制器与游戏模式的关联",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_SimGameMode",
+      "predicate": "定义",
+      "object": "BP_SimfloatingPawn",
+      "context": "游戏模式定义了特定浮动Pawn，学习者需要了解Pawn与游戏模式的关联",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_SimPlayerController",
+      "predicate": "控制",
+      "object": "BP_SimfloatingPawn",
+      "context": "玩家控制器可以控制浮动Pawn，学习者需要了解控制器与Pawn的交互关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_SimPlayerController",
+      "predicate": "支持",
+      "object": "当日时间控制",
+      "context": "玩家控制器支持控制当日时间，学习者需要了解时间系统的交互方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_SimPlayerController",
+      "predicate": "支持",
+      "object": "分析控件",
+      "context": "玩家控制器支持显示分析控件，学习者需要了解性能分析工具的使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_SimPlayerController",
+      "predicate": "支持",
+      "object": "地理空间控件",
+      "context": "玩家控制器支持显示地理空间控件，学习者需要了解地理定位信息的显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_SimfloatingPawn",
+      "predicate": "扩展",
+      "object": "默认Pawn",
+      "context": "模拟浮动Pawn是默认Pawn的改进版本，学习者需要了解Pawn的扩展方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_SimfloatingPawn",
+      "predicate": "支持",
+      "object": "鼠标滚轮控制速度",
+      "context": "浮动Pawn支持使用鼠标滚轮控制寻路速度，学习者需要了解输入控制的扩展",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地理空间控件",
+      "predicate": "显示",
+      "object": "投影CRS",
+      "context": "地理空间控件显示投影CRS坐标，学习者需要了解不同坐标系的表示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地理空间控件",
+      "predicate": "显示",
+      "object": "地理CRS",
+      "context": "地理空间控件显示地理CRS坐标，学习者需要了解经纬度坐标的表示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地理空间控件",
+      "predicate": "显示",
+      "object": "地心ECEF",
+      "context": "地理空间控件显示地心ECEF坐标，学习者需要了解三维空间坐标的表示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分析控件",
+      "predicate": "显示",
+      "object": "FPS",
+      "context": "分析控件显示FPS性能计数器，学习者需要了解帧率监控",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分析控件",
+      "predicate": "显示",
+      "object": "GPU",
+      "context": "分析控件显示GPU性能计数器，学习者需要了解图形处理器负载监控",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分析控件",
+      "predicate": "支持",
+      "object": "垂直同步控制",
+      "context": "分析控件支持启用/禁用垂直同步，学习者需要了解显示同步技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:48:38.691Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6706,
+    "contentLength": 4587,
+    "processingTimeMs": 62733
+  }
+}

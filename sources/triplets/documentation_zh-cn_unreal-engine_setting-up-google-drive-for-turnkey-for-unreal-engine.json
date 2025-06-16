@@ -1,0 +1,99 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_setting-up-google-drive-for-turnkey-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_setting-up-google-drive-for-turnkey-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻Turnkey",
+      "predicate": "支持",
+      "object": "Google Drive",
+      "context": "虚幻Turnkey支持使用Google Drive作为存储和维护SDK文件的公共位置，帮助学习者理解Turnkey的存储选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Google Drive API",
+      "predicate": "用于",
+      "object": "访问Google Drive文件夹",
+      "context": "Google Drive API用于授权用户访问Google Drive文件夹及其文件，是学习如何配置Turnkey与Google Drive集成的关键概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OAuth 2.0凭证",
+      "predicate": "依赖",
+      "object": "Google Drive API",
+      "context": "OAuth 2.0凭证的生成依赖于Google Drive API的启用，学习者需要理解这一依赖关系以完成安全设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Turnkey清单文件",
+      "predicate": "包含",
+      "object": "Google Drive凭证",
+      "context": "Turnkey清单文件包含指向Google Drive凭证的配置，学习者需要掌握如何编辑清单文件以完成集成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SDK文件",
+      "predicate": "存储于",
+      "object": "Google Drive",
+      "context": "SDK文件需要存储于Google Drive的特定文件夹结构中，学习者需要了解这一存储逻辑以便于文件管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Turnkey命令行",
+      "predicate": "提供",
+      "object": "SDK配置说明",
+      "context": "Turnkey命令行通过Help命令提供SDK配置的详细说明，帮助学习者理解如何生成和配置SDK文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Google Cloud Platform",
+      "predicate": "基于",
+      "object": "Google Drive API",
+      "context": "Google Cloud Platform应用需要基于Google Drive API进行设置，学习者需要了解这一基础架构关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "TurnkeyManifest.xml",
+      "predicate": "引用",
+      "object": "平台清单文件",
+      "context": "主TurnkeyManifest.xml文件可以引用各平台的独立清单文件，学习者需要掌握这种模块化配置方法",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "文件扩展变量",
+      "predicate": "用于",
+      "object": "自动文件发现",
+      "context": "文件扩展变量如$[ExpVersion]用于实现SDK文件的自动发现，学习者需要理解这一自动化机制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "共享磁盘",
+      "predicate": "组织",
+      "object": "SDK文件",
+      "context": "共享磁盘用于按平台和版本组织SDK文件，学习者需要掌握这种文件组织结构",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:45:08.349Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8994 字符)",
+      "timestamp": "2025-06-15T20:44:34.025Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13376,
+    "contentLength": 8994,
+    "processingTimeMs": 34329
+  }
+}

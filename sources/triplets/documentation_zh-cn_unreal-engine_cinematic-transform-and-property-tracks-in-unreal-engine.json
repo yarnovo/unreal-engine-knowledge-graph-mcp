@@ -1,0 +1,227 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_cinematic-transform-and-property-tracks-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_cinematic-transform-and-property-tracks-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Sequencer",
+      "predicate": "包含",
+      "object": "变换轨道",
+      "context": "Sequencer是虚幻引擎中用于制作过场动画的工具，变换轨道是其核心功能之一，用于控制对象的运动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "包含",
+      "object": "属性轨道",
+      "context": "属性轨道是Sequencer的重要组成部分，用于为各种属性制作动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换轨道",
+      "predicate": "用于",
+      "object": "静态网格体",
+      "context": "变换轨道可以用于控制静态网格体的位置、旋转和缩放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换轨道",
+      "predicate": "用于",
+      "object": "骨骼网格体",
+      "context": "变换轨道可以用于控制骨骼网格体的运动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换轨道",
+      "predicate": "用于",
+      "object": "摄像机",
+      "context": "变换轨道可以用于控制摄像机的运动和视角",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换轨道",
+      "predicate": "支持",
+      "object": "四元数插值",
+      "context": "四元数插值可以减少基于欧拉的旋转问题，如环架锁定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换轨道",
+      "predicate": "支持",
+      "object": "3D轨迹显示",
+      "context": "3D轨迹显示可以帮助开发者直观地查看对象的运动路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性轨道",
+      "predicate": "包含",
+      "object": "布尔轨道",
+      "context": "布尔轨道是属性轨道的一种，用于为布尔属性制作动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性轨道",
+      "predicate": "包含",
+      "object": "整型轨道",
+      "context": "整型轨道是属性轨道的一种，用于为整型属性制作动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性轨道",
+      "predicate": "包含",
+      "object": "浮点轨道",
+      "context": "浮点轨道是属性轨道的一种，用于为浮点属性制作动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性轨道",
+      "predicate": "包含",
+      "object": "向量轨道",
+      "context": "向量轨道是属性轨道的一种，用于为向量属性制作动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性轨道",
+      "predicate": "包含",
+      "object": "颜色轨道",
+      "context": "颜色轨道是属性轨道的一种，用于为颜色属性制作动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性轨道",
+      "predicate": "包含",
+      "object": "字符串轨道",
+      "context": "字符串轨道是属性轨道的一种，用于为字符串属性制作动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性轨道",
+      "predicate": "包含",
+      "object": "枚举轨道",
+      "context": "枚举轨道是属性轨道的一种，用于为枚举属性制作动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性轨道",
+      "predicate": "包含",
+      "object": "对象轨道",
+      "context": "对象轨道是属性轨道的一种，用于为对象属性制作动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性轨道",
+      "predicate": "包含",
+      "object": "UMG属性轨道",
+      "context": "UMG属性轨道是属性轨道的一种，用于为UMG界面元素制作动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "浮点轨道",
+      "predicate": "支持",
+      "object": "曲线显示",
+      "context": "浮点轨道可以显示曲线，帮助开发者更直观地理解数值变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "颜色轨道",
+      "predicate": "支持",
+      "object": "颜色拾取器",
+      "context": "颜色拾取器可以方便地选择和设置颜色关键帧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重载轨道",
+      "predicate": "基于",
+      "object": "浮点轨道",
+      "context": "重载轨道可以基于浮点轨道输出程序性动画数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重载轨道",
+      "predicate": "基于",
+      "object": "变换轨道",
+      "context": "重载轨道可以基于变换轨道输出程序性动画数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重载轨道",
+      "predicate": "使用",
+      "object": "Perlin噪点",
+      "context": "重载轨道可以使用Perlin噪点创建程序性动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG属性轨道",
+      "predicate": "包含",
+      "object": "边界轨道",
+      "context": "边界轨道是UMG属性轨道的一种，用于控制UI元素的边界",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG属性轨道",
+      "predicate": "包含",
+      "object": "控件变换轨道",
+      "context": "控件变换轨道是UMG属性轨道的一种，用于控制UI元素的变换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "依赖",
+      "object": "Actor轨道",
+      "context": "Sequencer中的轨道需要添加到Actor轨道上才能发挥作用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "变换轨道",
+      "predicate": "支持",
+      "object": "通道控制",
+      "context": "变换轨道可以展开查看和控制单个通道或轴",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "属性轨道",
+      "predicate": "支持",
+      "object": "关键帧",
+      "context": "属性轨道可以通过关键帧来控制属性的变化",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:23:31.985Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9903 字符)",
+      "timestamp": "2025-06-15T18:22:17.781Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13557,
+    "contentLength": 9903,
+    "processingTimeMs": 74215
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_aja-media-reference-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_aja-media-reference-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "AJA媒体源",
+      "predicate": "支持",
+      "object": "AJA视频采集卡",
+      "context": "AJA媒体源需要使用特定的AJA视频采集卡来导入视频到虚幻引擎",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AJA媒体源",
+      "predicate": "包含",
+      "object": "配置下拉菜单设置",
+      "context": "AJA媒体源的配置可以通过下拉菜单进行设置，包括设备、源、分辨率等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AJA媒体源",
+      "predicate": "包含",
+      "object": "细节面板设置",
+      "context": "AJA媒体源的详细设置可以在细节面板中找到，包括媒体连接、媒体模式等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AJA媒体源",
+      "predicate": "依赖",
+      "object": "时间码格式",
+      "context": "AJA媒体源的时间码格式设置影响视频信号的同步和处理",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "AJA媒体源",
+      "predicate": "支持",
+      "object": "音频采集",
+      "context": "AJA媒体源可以配置是否采集音频信号",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AJA媒体源",
+      "predicate": "支持",
+      "object": "视频采集",
+      "context": "AJA媒体源可以配置是否采集视频信号",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AJA媒体输出",
+      "predicate": "支持",
+      "object": "AJA视频采集卡",
+      "context": "AJA媒体输出需要使用特定的AJA视频采集卡来输出视频信号",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AJA媒体输出",
+      "predicate": "包含",
+      "object": "配置下拉菜单设置",
+      "context": "AJA媒体输出的配置可以通过下拉菜单进行设置，包括输出类型、设备、目标等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AJA媒体输出",
+      "predicate": "包含",
+      "object": "细节面板设置",
+      "context": "AJA媒体输出的详细设置可以在细节面板中找到，包括媒体配置、输出设置等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AJA媒体输出",
+      "predicate": "依赖",
+      "object": "时间码格式",
+      "context": "AJA媒体输出的时间码格式设置影响视频信号的同步和处理",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "AJA媒体输出",
+      "predicate": "支持",
+      "object": "音频输出",
+      "context": "AJA媒体输出可以配置是否输出音频信号",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AJA媒体输出",
+      "predicate": "支持",
+      "object": "视频输出",
+      "context": "AJA媒体输出可以配置是否输出视频信号",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AJA媒体源",
+      "predicate": "关联",
+      "object": "AJA媒体输出",
+      "context": "AJA媒体源和AJA媒体输出是AJA媒体框架的两个主要组件，分别负责视频的输入和输出",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AJA媒体源",
+      "predicate": "依赖",
+      "object": "分辨率",
+      "context": "AJA媒体源的分辨率设置必须与实际视频源匹配，否则无法正确采集视频",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AJA媒体源",
+      "predicate": "依赖",
+      "object": "帧率",
+      "context": "AJA媒体源的帧率设置必须与实际视频源匹配，否则无法正确采集视频",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AJA媒体源",
+      "predicate": "依赖",
+      "object": "标准",
+      "context": "AJA媒体源的标准设置必须与实际视频源匹配，否则无法正确采集视频",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AJA媒体输出",
+      "predicate": "依赖",
+      "object": "分辨率",
+      "context": "AJA媒体输出的分辨率设置影响输出视频的质量和格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AJA媒体输出",
+      "predicate": "依赖",
+      "object": "帧率",
+      "context": "AJA媒体输出的帧率设置影响输出视频的流畅度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AJA媒体输出",
+      "predicate": "依赖",
+      "object": "标准",
+      "context": "AJA媒体输出的标准设置影响输出视频的显示方式（逐行或隔行）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AJA媒体框架",
+      "predicate": "包含",
+      "object": "AJA媒体源",
+      "context": "AJA媒体框架由AJA媒体源和AJA媒体输出组成，负责视频的输入和输出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AJA媒体框架",
+      "predicate": "包含",
+      "object": "AJA媒体输出",
+      "context": "AJA媒体框架由AJA媒体源和AJA媒体输出组成，负责视频的输入和输出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:56:37.826Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12056 字符)",
+      "timestamp": "2025-06-15T17:55:28.075Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 21770,
+    "contentLength": 12056,
+    "processingTimeMs": 69761
+  }
+}

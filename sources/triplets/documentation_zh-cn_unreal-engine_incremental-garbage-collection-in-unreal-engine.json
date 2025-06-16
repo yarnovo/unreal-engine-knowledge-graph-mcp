@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_incremental-garbage-collection-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_incremental-garbage-collection-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "增量垃圾回收",
+      "predicate": "改进",
+      "object": "标记清除垃圾回收器",
+      "context": "增量垃圾回收是对传统标记清除垃圾回收器的改进，通过分散可达性分析到多帧来减少Gameplay卡顿",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "增量可达性分析",
+      "predicate": "属于",
+      "object": "增量垃圾回收",
+      "context": "增量可达性分析是增量垃圾回收的核心阶段，负责分散对象可达性检查到多帧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TObjectPtr",
+      "predicate": "支持",
+      "object": "增量可达性分析",
+      "context": "TObjectPtr是实现增量可达性分析的关键机制，通过写屏障技术实时跟踪UObject引用变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UPROPERTY",
+      "predicate": "需要转换为",
+      "object": "TObjectPtr",
+      "context": "使用增量垃圾回收必须将所有UPROPERTY声明从原始指针转换为TObjectPtr，否则可能导致内存过早回收",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "增量垃圾回收",
+      "predicate": "通过配置启用",
+      "object": "DefaultEngine.ini",
+      "context": "开发者需要通过修改DefaultEngine.ini配置文件中的控制台变量来启用增量垃圾回收功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "gc.IncrementalReachabilityTimeLimit",
+      "predicate": "控制",
+      "object": "增量可达性分析时间",
+      "context": "该控制台变量允许开发者设置每帧可达性分析的软时间限制（默认为2毫秒）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "用于分析",
+      "object": "增量垃圾回收性能",
+      "context": "文档使用Unreal Insights工具展示增量垃圾回收与传统方式的性能对比数据",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "增量垃圾回收",
+      "predicate": "减少",
+      "object": "Gameplay卡顿",
+      "context": "增量垃圾回收的主要优势是通过分散工作负载消除传统GC导致的明显帧时间峰值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "增量垃圾回收",
+      "predicate": "替代方案包括",
+      "object": "UObject池",
+      "context": "在增量GC出现前，开发者需要使用UObject池等技术来规避GC卡顿问题",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "增量垃圾回收",
+      "predicate": "当前状态为",
+      "object": "Experimental功能",
+      "context": "文档明确指出该功能尚处于试验阶段，产品环境中需谨慎使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FGCObject",
+      "predicate": "需要适配",
+      "object": "TObjectPtr",
+      "context": "与UPROPERTY类似，FGCObject系统的AddReferencedObjects函数也需要改用TObjectPtr",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "gc.VerifyNoUnreachableObjects",
+      "predicate": "用于",
+      "object": "调试增量垃圾回收",
+      "context": "该控制台变量提供验证功能，确保可达对象不会引用不可达对象",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:35:42.242Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5748,
+    "contentLength": 3528,
+    "processingTimeMs": 44672
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_visual-studio-tips-and-tricks-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_visual-studio-tips-and-tricks-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "即时窗口",
+      "predicate": "用于",
+      "object": "调试",
+      "context": "即时窗口提供了一系列命令，如打印蓝图调用堆栈和获取当前帧数，这些功能在调试过程中非常有用。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PRAGMA_DISABLE_OPTIMIZATION",
+      "predicate": "禁用",
+      "object": "编译器优化",
+      "context": "PRAGMA_DISABLE_OPTIMIZATION宏用于禁用编译器优化，帮助开发者在调试时保留临时变量和调试变量。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PRAGMA_ENABLE_OPTIMIZATION",
+      "predicate": "启用",
+      "object": "编译器优化",
+      "context": "PRAGMA_ENABLE_OPTIMIZATION宏用于重新启用编译器优化，通常在调试完成后使用。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DrawDebugHelpers.h",
+      "predicate": "包含",
+      "object": "调试行",
+      "context": "DrawDebugHelpers.h头文件提供了绘制调试行的功能，如DrawDebugLine，用于在视口中显示线迹追踪路径。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DrawDebugHelpers.h",
+      "predicate": "包含",
+      "object": "Primitive形状",
+      "context": "DrawDebugHelpers.h头文件还提供了绘制基本形状的功能，如DrawDebugBox和DrawDebugSphere，用于调试和可视化。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DrawDebugHelpers.h",
+      "predicate": "包含",
+      "object": "固体形状",
+      "context": "DrawDebugHelpers.h头文件提供了绘制固体形状的功能，如DrawDebugSolidBox，用于调试和可视化。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DrawDebugHelpers.h",
+      "predicate": "包含",
+      "object": "其他常见形状",
+      "context": "DrawDebugHelpers.h头文件提供了绘制其他常见形状的功能，如DrawDebugFrustrum和DrawDebugCamera，用于调试和可视化。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DrawDebugHelpers.h",
+      "predicate": "包含",
+      "object": "网格体",
+      "context": "DrawDebugHelpers.h头文件提供了绘制网格体的功能，如DrawDebugMesh，用于调试和可视化。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Engine.h",
+      "predicate": "包含",
+      "object": "调试文本",
+      "context": "Engine.h头文件提供了GEngine的访问权限，用于调用AddOnScreenDebugMessage函数，实现调试文本的显示。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FString::Printf",
+      "predicate": "用于",
+      "object": "字符串格式化",
+      "context": "FString::Printf函数用于快速编写包含变量的字符串，类似于蓝图中的Print String节点。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StaticEnum",
+      "predicate": "用于",
+      "object": "枚举转换为字符串",
+      "context": "StaticEnum函数用于初始化UEnum，配合GetNameStringByValue函数可以将枚举值转换为字符串。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "解决方案配置组合框",
+      "predicate": "调整",
+      "object": "宽度",
+      "context": "默认的解决方案配置组合框宽度可能不足以显示完整选项名称，可以通过自定义工具栏调整宽度。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Visual Studio 2019",
+      "predicate": "优化",
+      "object": "调试性能",
+      "context": "通过禁用诊断工具和显示耗时PerfTip，可以提高Visual Studio 2019的调试性能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CodeLens",
+      "predicate": "禁用",
+      "object": "Perforce历史记录",
+      "context": "禁用CodeLens可以阻止Perforce Visual Studio历史记录显示每种方法，提高界面整洁度。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Intellisense数据库",
+      "predicate": "禁用",
+      "object": "加速解决方案加载",
+      "context": "禁用Intellisense数据库可以阻止其解析解决方案，从而加速Visual Studio的打开和调试过程。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:30:28.831Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7507,
+    "contentLength": 5527,
+    "processingTimeMs": 46252
+  }
+}

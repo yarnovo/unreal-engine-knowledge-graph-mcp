@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_fabrik-animation-blueprint-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_fabrik-animation-blueprint-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "FABRIK",
+      "predicate": "是",
+      "object": "反向运动学解算器",
+      "context": "FABRIK是处理骨骼链的IK解算器，帮助学习者理解其核心功能定位",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FABRIK",
+      "predicate": "应用于",
+      "object": "动画蓝图",
+      "context": "FABRIK节点需要添加到动画蓝图的AnimGraph中，这是其核心应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FABRIK",
+      "predicate": "控制",
+      "object": "骨骼链变换",
+      "context": "通过效果器变换输入引脚控制骨骼链的相对/绝对变换，是核心功能实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Alpha值",
+      "predicate": "决定",
+      "object": "骨骼控制力度",
+      "context": "Alpha值直接影响FABRIK对骨骼链的控制强度，是重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "效果器变换",
+      "predicate": "支持",
+      "object": "相对/绝对变换模式",
+      "context": "两种变换模式分别适用于不同引用需求，影响骨骼控制方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FABRIK",
+      "predicate": "包含",
+      "object": "最终效果器设置",
+      "context": "最终效果器设置决定末梢骨骼的目标位置和旋转，是核心配置项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FABRIK",
+      "predicate": "包含",
+      "object": "解算器设置",
+      "context": "解算器设置定义骨骼链范围和解算精度，影响算法行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "精度参数",
+      "predicate": "影响",
+      "object": "解算性能",
+      "context": "精度值越低解算越精确但性能成本越高，需要权衡设置",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FABRIK",
+      "predicate": "继承自",
+      "object": "TwoBone_IK",
+      "context": "最终效果器属性与TwoBone_IK节点相似，显示技术继承关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "AnimGraph",
+      "context": "AnimGraph是动画蓝图的核心工作区域，FABRIK节点需要添加其中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "组件姿势",
+      "predicate": "连接",
+      "object": "FABRIK节点",
+      "context": "组件姿势是将FABRIK整合到动画蓝图的重要连接方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼控制",
+      "predicate": "依赖",
+      "object": "Alpha值",
+      "context": "骨骼控制力度直接由Alpha值决定，是核心依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "效果器变换空间",
+      "predicate": "决定",
+      "object": "参考坐标系",
+      "context": "该设置决定骨骼位置的计算参考系，影响变换结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试绘图",
+      "predicate": "用于",
+      "object": "关节旋转可视化",
+      "context": "调试功能帮助开发者理解骨骼旋转行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "根骨骼",
+      "predicate": "与",
+      "object": "末梢骨骼",
+      "context": "共同定义解算的骨骼链范围，是必须配对设置的参数",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:03:32.435Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5763,
+    "contentLength": 3765,
+    "processingTimeMs": 56277
+  }
+}

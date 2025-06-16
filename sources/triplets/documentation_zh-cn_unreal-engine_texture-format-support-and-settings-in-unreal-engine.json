@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_texture-format-support-and-settings-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_texture-format-support-and-settings-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "纹理分辨率",
+      "context": "虚幻引擎支持1x1到8192x8192的纹理分辨率，这是纹理处理的基础能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理分辨率",
+      "predicate": "影响",
+      "object": "纹理内存要求",
+      "context": "纹理分辨率越高，内存占用越大，这是学习纹理优化的核心概念",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DXT压缩",
+      "predicate": "减少",
+      "object": "纹理内存占用",
+      "context": "DXT压缩通过有损压缩算法显著降低纹理内存需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BaseDeviceProfiles.ini",
+      "predicate": "配置",
+      "object": "TextureGroup属性",
+      "context": "该配置文件定义了不同纹理组的LOD和过滤设置，是纹理管理的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TextureGroup",
+      "predicate": "控制",
+      "object": "纹理渲染质量",
+      "context": "通过TextureGroup可以针对不同用途的纹理设置不同的渲染参数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "LODBias",
+      "predicate": "调整",
+      "object": "mip级别选择",
+      "context": "LODBias用于偏移mip级别选择，影响最终渲染的纹理细节级别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MinMagFilter",
+      "predicate": "决定",
+      "object": "纹理过滤类型",
+      "context": "该属性控制GPU在缩小或放大纹理时使用的过滤算法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MipFilter",
+      "predicate": "控制",
+      "object": "mip混合行为",
+      "context": "决定GPU是否在mip级别之间进行混合，影响纹理过渡质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PC AppCompat",
+      "predicate": "覆盖",
+      "object": "SystemSettings",
+      "context": "根据硬件能力自动调整纹理设置，是性能优化的重要机制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "纹理属性",
+      "predicate": "继承",
+      "object": "TextureGroup设置",
+      "context": "单个纹理的属性会继承并叠加TextureGroup的全局设置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "DXT1",
+      "predicate": "相比",
+      "object": "DXT5",
+      "context": "DXT1提供8:1压缩比而DXT5是4:1，但DXT5支持alpha通道",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MAX_TEXTURE_MIP_COUNT",
+      "predicate": "限制",
+      "object": "最大纹理分辨率",
+      "context": "该常量值决定了引擎支持的最高mip级别数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理流送",
+      "predicate": "受控于",
+      "object": "NumStreamedMips",
+      "context": "该参数控制可以动态加载/卸载的mip级别数量",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "各向异性过滤",
+      "predicate": "提供",
+      "object": "高质量纹理渲染",
+      "context": "在斜视角下仍能保持清晰的纹理细节",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "纹理优化",
+      "predicate": "依赖",
+      "object": "TextureGroup配置",
+      "context": "合理的TextureGroup设置是平衡纹理质量和性能的关键",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:00:03.833Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12067 字符)",
+      "timestamp": "2025-06-15T20:59:16.563Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17012,
+    "contentLength": 12067,
+    "processingTimeMs": 47274
+  }
+}

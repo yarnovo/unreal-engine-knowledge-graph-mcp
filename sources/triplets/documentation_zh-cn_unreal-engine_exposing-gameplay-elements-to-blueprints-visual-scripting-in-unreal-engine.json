@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_exposing-gameplay-elements-to-blueprints-visual-scripting-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_exposing-gameplay-elements-to-blueprints-visual-scripting-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "蓝图",
+      "predicate": "扩展",
+      "object": "C++类",
+      "context": "蓝图可以通过继承C++类来扩展其功能，使非程序员也能修改游戏逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCLASS宏",
+      "predicate": "定义",
+      "object": "可蓝图化类",
+      "context": "UCLASS宏中的Blueprintable关键字用于定义可被蓝图继承的类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UPROPERTY宏",
+      "predicate": "暴露",
+      "object": "C++变量",
+      "context": "UPROPERTY宏中的BlueprintReadWrite/BlueprintReadOnly关键字用于将C++变量暴露给蓝图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UFUNCTION宏",
+      "predicate": "声明",
+      "object": "可调用函数",
+      "context": "UFUNCTION宏中的BlueprintCallable/BlueprintPure关键字用于声明可被蓝图调用的函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BlueprintImplementableEvent",
+      "predicate": "实现",
+      "object": "蓝图事件",
+      "context": "允许C++调用在蓝图中实现的事件，没有默认实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BlueprintNativeEvent",
+      "predicate": "覆盖",
+      "object": "默认实现",
+      "context": "提供默认C++实现，同时允许蓝图覆盖该实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UPARAM宏",
+      "predicate": "控制",
+      "object": "参数显示",
+      "context": "用于控制蓝图节点中参数的显示方式和传递方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BlueprintCallable",
+      "predicate": "区别于",
+      "object": "BlueprintPure",
+      "context": "BlueprintCallable函数会改变状态需要执行顺序控制，而BlueprintPure是纯函数无副作用",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可蓝图化类",
+      "predicate": "显示在",
+      "object": "新建蓝图对话框",
+      "context": "标记为Blueprintable的类会出现在蓝图创建时的父类选择列表中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图系统",
+      "predicate": "依赖",
+      "object": "UCLASS/UPROPERTY/UFUNCTION宏",
+      "context": "蓝图系统通过这些宏来识别和访问C++中定义的内容",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "游戏设计师",
+      "predicate": "使用",
+      "object": "蓝图",
+      "context": "设计师可以通过修改蓝图参数(如射速)而不需要重新编译代码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "引用参数",
+      "predicate": "对应",
+      "object": "输出引脚",
+      "context": "通过引用传递的参数会自动成为蓝图节点上的输出引脚",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BlueprintReadWrite",
+      "predicate": "比",
+      "object": "BlueprintReadOnly",
+      "context": "提供更高级别的访问权限，允许蓝图修改变量值",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:03:21.422Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8435,
+    "contentLength": 4844,
+    "processingTimeMs": 45266
+  }
+}

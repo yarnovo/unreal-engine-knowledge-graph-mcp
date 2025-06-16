@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_string-handling-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_string-handling-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "FName",
+      "predicate": "用于",
+      "object": "高效字符串处理",
+      "context": "FName是一种轻量级类型，专门用于高效字符串处理，适合学习者理解字符串优化的方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FName",
+      "predicate": "存储",
+      "object": "全局唯一字符串表索引",
+      "context": "FName通过存储全局字符串表的索引实现快速查找，帮助学习者理解其高效性的实现原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FName",
+      "predicate": "适用于",
+      "object": "对象名称/标识符比较",
+      "context": "文档明确说明FNames特别适合用于对象命名和标识符比较场景",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "FText",
+      "predicate": "实现",
+      "object": "文本本地化",
+      "context": "FText是虚幻引擎文本本地化的核心组件，学习者需要掌握其与本地化系统的关系",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "FText",
+      "predicate": "支持",
+      "object": "文化无关文本",
+      "context": "AsCultureInvariant功能说明FText支持非本地化文本处理，对国际化开发很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FString",
+      "predicate": "允许",
+      "object": "字符串修改操作",
+      "context": "与FName/FText不同，FString支持可变字符串操作，这是选择字符串类型的关键区别",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "FString",
+      "predicate": "性能低于",
+      "object": "FName/FText",
+      "context": "文档明确比较了三者的性能特征，这对优化选择有直接指导意义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Printf",
+      "predicate": "基于",
+      "object": "FString",
+      "context": "Printf作为FString的格式化功能，学习者需要理解其继承关系和使用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TEXT()宏",
+      "predicate": "推荐用于",
+      "object": "字符串编码",
+      "context": "编码部分强调TEXT()宏的重要性，这是处理多语言字符的基础知识",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "FName",
+      "predicate": "可转换为",
+      "object": "FText",
+      "context": "转换表展示了类型间转换可能性，但需注意本地化特性可能丢失",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FString",
+      "predicate": "可转换为",
+      "object": "基础数值类型",
+      "context": "FCString提供的转换方法对数据处理很重要，属于常用基础技能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字符串处理",
+      "predicate": "包含",
+      "object": "FName/FText/FString",
+      "context": "三大字符串类型构成了虚幻引擎字符串处理的核心体系，需要整体理解",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "FText",
+      "predicate": "继承自",
+      "object": "文本本地化系统",
+      "context": "FText的功能直接来源于文本本地化系统的设计要求，体现架构关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动态材质实例",
+      "predicate": "使用",
+      "object": "FName",
+      "context": "具体用例说明帮助学习者理解FName的实际应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体",
+      "predicate": "使用",
+      "object": "FName",
+      "context": "骨骼访问案例展示了FName在动画系统中的典型应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:56:25.323Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6378,
+    "contentLength": 4424,
+    "processingTimeMs": 41774
+  }
+}

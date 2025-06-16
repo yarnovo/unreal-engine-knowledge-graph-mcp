@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_slate-ui-sleeping-and-active-timers-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_slate-ui-sleeping-and-active-timers-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Slate",
+      "predicate": "是",
+      "object": "即时模式UI框架",
+      "context": "Slate作为即时模式UI框架的特性是理解其工作原理的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate",
+      "predicate": "包含",
+      "object": "活跃计时器系统",
+      "context": "活跃计时器系统是Slate实现UI优化的核心机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "活跃计时器",
+      "predicate": "控制",
+      "object": "Slate休眠状态",
+      "context": "活跃计时器的存在与否直接决定Slate是否进入休眠状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate休眠",
+      "predicate": "依赖",
+      "object": "用户操作",
+      "context": "理解用户操作与Slate休眠的关系有助于优化UI性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "活跃计时器",
+      "predicate": "替代",
+      "object": "Tick()函数",
+      "context": "活跃计时器提供了比传统Tick更精确的UI更新控制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FWidgetActiveTimerDelegate",
+      "predicate": "用于",
+      "object": "注册活跃计时器",
+      "context": "理解委托机制是使用活跃计时器的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SWidget",
+      "predicate": "提供",
+      "object": "RegisterActiveTimer方法",
+      "context": "掌握控件注册活跃计时器的方法是开发动态UI的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FCurveSequence",
+      "predicate": "集成",
+      "object": "活跃计时器",
+      "context": "FCurveSequence的动画功能与活跃计时器紧密集成",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SScrollBox",
+      "predicate": "实现",
+      "object": "惯性滚动",
+      "context": "SScrollBox是学习使用活跃计时器实现复杂交互的典型案例",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Slate.AllowSlateToSleep",
+      "predicate": "控制",
+      "object": "Slate休眠功能",
+      "context": "了解控制台变量是调试Slate性能的重要知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器帧率显示",
+      "predicate": "用于",
+      "object": "监测Slate休眠状态",
+      "context": "掌握监测工具是验证Slate性能优化的必要技能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "活跃计时器",
+      "predicate": "适用于",
+      "object": "编辑器UI",
+      "context": "明确活跃计时器的适用场景有助于正确使用该功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "活跃计时器",
+      "predicate": "不适用于",
+      "object": "游戏实时视口",
+      "context": "了解使用限制可以避免错误应用该技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EActiveTimerReturnType",
+      "predicate": "决定",
+      "object": "计时器生命周期",
+      "context": "理解返回值类型是控制计时器行为的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FActiveTimerHandle",
+      "predicate": "用于",
+      "object": "取消注册计时器",
+      "context": "掌握计时器句柄的使用是管理资源的重要技能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:49:33.982Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7311,
+    "contentLength": 4283,
+    "processingTimeMs": 41858
+  }
+}

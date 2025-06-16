@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_creating-camera-cuts-using-sequencer-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_creating-camera-cuts-using-sequencer-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Sequencer",
+      "predicate": "是",
+      "object": "过场动画工具",
+      "context": "Sequencer是虚幻引擎中用于创建动画和过场动画序列的工具，帮助学习者理解其核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "支持",
+      "object": "非线性编辑",
+      "context": "Sequencer作为非线性编辑套件，允许在不修改原始内容的情况下进行编辑，这对学习动画制作流程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "用于",
+      "object": "关卡飞行漫游视图",
+      "context": "这是Sequencer的常见用例之一，帮助学习者了解其应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "用于",
+      "object": "资产动画制作",
+      "context": "Sequencer可以对光源、材质、对象和角色等资产制作动画，这是其核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "包含",
+      "object": "轨道",
+      "context": "轨道是Sequencer中组织和管理动画元素的基本单位，对理解Sequencer工作流程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "包含",
+      "object": "设为关键帧的资产",
+      "context": "关键帧是动画制作的基础概念，理解这一点对学习Sequencer动画制作至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "用于",
+      "object": "创建镜头切换",
+      "context": "这是本教程的核心学习目标，帮助学习者掌握镜头切换的创建方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头切换",
+      "predicate": "依赖",
+      "object": "Cine Camera Actor",
+      "context": "创建镜头切换需要先创建摄像机Actor，这是工作流程中的重要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Cine Camera Actor",
+      "predicate": "具有",
+      "object": "变换属性",
+      "context": "理解摄像机的变换属性（位置、旋转）对设置镜头视角很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画制作",
+      "predicate": "使用",
+      "object": "自动关键帧",
+      "context": "自动关键帧功能可以简化动画制作流程，是重要的学习点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画制作",
+      "predicate": "使用",
+      "object": "曲线编辑器",
+      "context": "曲线编辑器用于调整动画曲线，是高级动画控制的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡序列",
+      "predicate": "是",
+      "object": "Sequencer的工作基础",
+      "context": "创建关卡序列是使用Sequencer的第一步，理解这一关系对学习工作流程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第三人称模板",
+      "predicate": "适用于",
+      "object": "Sequencer教程",
+      "context": "教程建议使用第三人称模板作为起点，这对学习者设置项目有指导意义",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "用于",
+      "object": "创建关卡序列",
+      "context": "内容浏览器是创建和管理序列文件的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大纲视图",
+      "predicate": "用于",
+      "object": "选择动画对象",
+      "context": "大纲视图可以帮助选择要制作动画的对象，这是工作流程的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "视口",
+      "predicate": "用于",
+      "object": "预览镜头切换",
+      "context": "视口是实时预览动画和镜头切换效果的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换属性",
+      "predicate": "包含",
+      "object": "位置和旋转",
+      "context": "理解变换属性的组成部分对设置动画和摄像机视角很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头切换轨道",
+      "predicate": "管理",
+      "object": "摄像机切换",
+      "context": "镜头切换轨道是控制不同摄像机之间切换的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "修剪功能",
+      "predicate": "用于",
+      "object": "调整镜头时长",
+      "context": "修剪是调整镜头切换时间点的基本操作，对精确控制动画很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:40:34.126Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10283 字符)",
+      "timestamp": "2025-06-15T18:39:37.721Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14965,
+    "contentLength": 10283,
+    "processingTimeMs": 56410
+  }
+}

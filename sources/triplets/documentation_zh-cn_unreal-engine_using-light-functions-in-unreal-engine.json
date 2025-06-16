@@ -1,0 +1,163 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-light-functions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-light-functions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "光源函数",
+      "predicate": "是",
+      "object": "材质",
+      "context": "光源函数是一种特殊类型的材质，用于遮蔽和过滤光源强度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源函数",
+      "predicate": "应用于",
+      "object": "可移动或固定光源",
+      "context": "光源函数只能应用于移动性设置为可移动或固定的光源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源函数",
+      "predicate": "支持",
+      "object": "体积雾形成阴影",
+      "context": "光源函数可以与体积雾配合使用形成阴影，适用于创造光照变体效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源函数",
+      "predicate": "实现",
+      "object": "动画效果",
+      "context": "当应用于不透明网格体时，光源函数可以实现与光源一起发挥作用的动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源函数材质",
+      "predicate": "需要设置",
+      "object": "材质域为光源函数",
+      "context": "创建光源函数材质时，必须将材质域设置为光源函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源函数",
+      "predicate": "通过",
+      "object": "光源函数材质插槽应用",
+      "context": "光源函数材质需要通过光源的细节面板中的光源函数材质插槽应用到光源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源函数图集",
+      "predicate": "优化",
+      "object": "GPU性能",
+      "context": "光源函数图集通过将动画光源函数烘焙到2D纹理图块中，显著减少GPU开销",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源函数图集",
+      "predicate": "支持",
+      "object": "灰阶或彩色光源函数材质",
+      "context": "与旧版光源函数不同，光源函数图集可以支持灰阶或彩色光源函数材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源函数图集",
+      "predicate": "有",
+      "object": "材质限制",
+      "context": "光源函数材质需要满足特定限制才能被烘焙到光源函数图集中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源函数图集",
+      "predicate": "可通过",
+      "object": "控制台变量配置",
+      "context": "开发者可以使用特定的控制台变量来配置光源函数图集的行为和参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "半透明材质",
+      "predicate": "可接收",
+      "object": "光源函数",
+      "context": "当启用相应项目设置时，半透明材质可以接收光源函数的效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单层水体材质",
+      "predicate": "可接收",
+      "object": "光源函数",
+      "context": "当启用相应项目设置时，单层水体材质可以接收光源函数的效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源函数",
+      "predicate": "用于创建",
+      "object": "焦散效果",
+      "context": "光源函数特别适合用于创建水中的焦散等特殊光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源函数",
+      "predicate": "用于创建",
+      "object": "云阴影",
+      "context": "光源函数可以用于创建云阴影等环境光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源函数图集可视化",
+      "predicate": "帮助调试",
+      "object": "光源函数图集",
+      "context": "光源函数图集可视化工具可以帮助开发者调试和优化光源函数的使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源函数",
+      "predicate": "与",
+      "object": "Lumen全局光照",
+      "context": "彩色光源函数可以与Lumen全局光照和反射系统配合使用",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源函数",
+      "predicate": "影响",
+      "object": "水体外观",
+      "context": "单层水体材质的吸收和散射系数会影响水面下光源函数的外观",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源函数图集",
+      "predicate": "替代",
+      "object": "旧版光源函数管线",
+      "context": "光源函数图集提供了比旧版光源函数管线更高效的实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:17:54.383Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12347 字符)",
+      "timestamp": "2025-06-15T21:17:05.438Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19359,
+    "contentLength": 12347,
+    "processingTimeMs": 48953
+  }
+}

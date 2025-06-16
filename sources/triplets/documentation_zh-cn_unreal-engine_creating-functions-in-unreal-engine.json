@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_creating-functions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_creating-functions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "函数",
+      "predicate": "属于",
+      "object": "蓝图",
+      "context": "函数是蓝图的一部分，用于封装可重用的功能逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "函数",
+      "predicate": "包含",
+      "object": "节点图表",
+      "context": "函数由节点图表组成，定义了函数的执行逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "函数",
+      "predicate": "被调用",
+      "object": "事件图表",
+      "context": "函数可以从事件图表中被调用执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Event Begin Play",
+      "predicate": "触发",
+      "object": "函数调用",
+      "context": "游戏启动时Event Begin Play事件可以触发后续函数调用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Player Controller",
+      "predicate": "获取",
+      "object": "玩家控制器",
+      "context": "该节点用于获取当前指派的玩家控制器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Enable Input",
+      "predicate": "启用",
+      "object": "输入接收",
+      "context": "该节点使蓝图能够接收玩家输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "按键事件",
+      "predicate": "触发",
+      "object": "函数调用",
+      "context": "按键事件可以触发特定函数的执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Print String",
+      "predicate": "实现",
+      "object": "屏幕文本显示",
+      "context": "Print String节点用于在屏幕上显示文本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "继承自",
+      "object": "Actor",
+      "context": "创建蓝图时需要选择父类，这里选择的是Actor类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "函数",
+      "predicate": "封装",
+      "object": "游戏逻辑",
+      "context": "函数可以封装复杂的游戏逻辑，如施法效果等",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "编译",
+      "predicate": "使生效",
+      "object": "函数",
+      "context": "编译后新创建的函数才能被搜索和调用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Content Browser",
+      "predicate": "用于创建",
+      "object": "蓝图",
+      "context": "通过Content Browser可以创建新的蓝图类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图编辑器",
+      "predicate": "用于编辑",
+      "object": "函数",
+      "context": "函数需要在蓝图编辑器中进行创建和编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MyBlueprint窗口",
+      "predicate": "用于添加",
+      "object": "函数",
+      "context": "通过MyBlueprint窗口可以添加新函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "函数",
+      "predicate": "简化",
+      "object": "事件图表",
+      "context": "使用函数可以简化事件图表，避免重复逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:40:23.536Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6017,
+    "contentLength": 4417,
+    "processingTimeMs": 45819
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_font-dpi-scaling-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_font-dpi-scaling-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "UMG",
+      "predicate": "使用",
+      "object": "字体分辨率",
+      "context": "UMG使用字体分辨率值来计算文本中字符的大小，这是理解UMG如何处理文本显示的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字体分辨率",
+      "predicate": "用于计算",
+      "object": "字体大小",
+      "context": "字体分辨率是计算字体大小的关键参数，直接影响文本在屏幕上的显示效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "自定义DPI",
+      "context": "虚幻引擎允许开发者自定义DPI设置，以适应不同的开发标准和外部应用程序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "96 DPI",
+      "predicate": "是",
+      "object": "虚幻引擎默认设置",
+      "context": "96 DPI是虚幻引擎的默认设置，用于保持与旧项目的兼容性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "72 DPI",
+      "predicate": "是",
+      "object": "Web设计行业标准",
+      "context": "72 DPI是Web设计行业的标准，推荐新项目使用以便与设计软件如Figma保持一致",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字体分辨率",
+      "predicate": "影响",
+      "object": "字体图集",
+      "context": "字体分辨率设置影响字体图集的生成和管理，不同的DPI设置可能导致不同的字形图集",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "字体大小",
+      "predicate": "影响",
+      "object": "字体图集",
+      "context": "不同的字体大小会导致生成不同的字体图集，影响内存使用和性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UMG",
+      "predicate": "依赖",
+      "object": "字体图集",
+      "context": "UMG依赖字体图集来显示文本，字体图集的管理直接影响UMG的性能和内存使用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "自定义DPI",
+      "predicate": "可能导致",
+      "object": "舍入误差",
+      "context": "使用非标准DPI可能导致字体大小计算中的舍入误差，影响文本显示效果",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "字体大小最佳实践",
+      "predicate": "建议",
+      "object": "减少字体大小种类",
+      "context": "最佳实践建议减少项目中使用的不同字体大小种类，以优化字体图集的使用和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:05:59.410Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7846,
+    "contentLength": 4446,
+    "processingTimeMs": 37788
+  }
+}

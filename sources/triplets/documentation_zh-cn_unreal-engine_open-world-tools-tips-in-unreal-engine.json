@@ -1,0 +1,131 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_open-world-tools-tips-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_open-world-tools-tips-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "草地工具",
+      "predicate": "包含",
+      "object": "植物网格体剔除",
+      "context": "草地工具通过剔除机制优化渲染性能，学习者需要理解剔除距离设置对性能的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形草地类",
+      "predicate": "控制",
+      "object": "剔除距离",
+      "context": "通过Grass Varieties中的开始和结束设置调整剔除距离，是草地渲染优化的核心参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Foliage.MinimumScreenSize",
+      "predicate": "影响",
+      "object": "静态网格体渲染距离",
+      "context": "控制台命令可突破默认剔除限制，但需注意性能损耗，这对开放世界渲染优化至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "程序化植物体积域",
+      "predicate": "依赖",
+      "object": "地形材质图层",
+      "context": "植物生成区域受地形材质图层控制，这是程序化生成与手工绘制结合的关键技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "植物类",
+      "predicate": "关联",
+      "object": "Landscape Layers",
+      "context": "通过Show Advanced中的Landscape Layers设置植物生成限制，实现生态区域划分",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "草地工具",
+      "predicate": "支持",
+      "object": "纹理遮罩",
+      "context": "使用纹理通道控制植物生成位置，是美术导向的场景布置方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "红色通道",
+      "predicate": "对应",
+      "object": "草地生成区域",
+      "context": "理解纹理通道与植物类型的映射关系是遮罩技术的基础",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "数学函数",
+      "predicate": "替代",
+      "object": "纹理遮罩",
+      "context": "Checker Pattern等数学方法可减少纹理内存消耗，适合性能敏感场景",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "Use Grid",
+      "predicate": "实现",
+      "object": "非随机放置",
+      "context": "通过网格化参数实现农作物等规律性植被布局，扩展了草地工具的应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "开放世界场景工具",
+      "predicate": "包含",
+      "object": "程序化植物体积域",
+      "context": "程序化生成是构建大型开放世界的核心技术模块",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "地形材质",
+      "predicate": "影响",
+      "object": "植物分布",
+      "context": "材质图层与植物类的关联是实现生态多样性的技术基础",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "Resimulate按钮",
+      "predicate": "更新",
+      "object": "程序化生成结果",
+      "context": "理解实时更新机制对植被工作流程效率至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "草地密度",
+      "predicate": "控制",
+      "object": "植被分布密度",
+      "context": "密度参数与抖动参数的配合使用是实现自然或人工植被的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界位置缩放",
+      "predicate": "调整",
+      "object": "遮罩纹理尺寸",
+      "context": "材质编辑器中的空间缩放参数确保遮罩与地形比例匹配",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T20:11:24.787Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9353 字符)",
+      "timestamp": "2025-06-15T20:10:30.694Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14383,
+    "contentLength": 9353,
+    "processingTimeMs": 54100
+  }
+}

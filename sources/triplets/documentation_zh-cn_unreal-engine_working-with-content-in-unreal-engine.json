@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_working-with-content-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_working-with-content-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "外部工具创建的内容",
+      "context": "虚幻引擎支持从3ds Max、Maya等外部工具导入内容，这对学习内容创建流程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "包含",
+      "object": "编辑器创建的内容",
+      "context": "虚幻引擎内置编辑器可以创建游戏关卡、材质等内容，这是引擎的核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "用于",
+      "object": "角色创建",
+      "context": "骨骼网格体是创建游戏角色的基础资产，学习角色制作需要掌握此概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX内容管线",
+      "predicate": "支持",
+      "object": "网格体导入",
+      "context": "FBX管线是将3D模型导入虚幻引擎的主要方式，对资产导入流程学习很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "简化",
+      "object": "设计数据导入",
+      "context": "Datasmith插件可以高效导入设计数据，学习此工具能提高工作流程效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通用场景描述(USD)",
+      "predicate": "支持",
+      "object": "场景内容编辑",
+      "context": "USD格式支持复杂场景的导入和编辑，是学习高级场景管理的重要技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "区别于",
+      "object": "骨骼网格体",
+      "context": "理解静态网格体和骨骼网格体的区别是学习3D资产分类的基础",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mutable",
+      "predicate": "用于",
+      "object": "运行时网格体生成",
+      "context": "Mutable工具集支持运行时动态生成内容，学习它可以实现更灵活的游戏内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交换框架",
+      "predicate": "支持",
+      "object": "内容导入导出",
+      "context": "交换框架提供了标准化的内容交换方式，学习它可以提高资产管线的灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "建模和几何体脚本编写",
+      "predicate": "扩展",
+      "object": "引擎内建模能力",
+      "context": "这些工具扩展了引擎内的建模功能，学习它们可以减少对外部工具的依赖",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Alembic文件导入器",
+      "predicate": "支持",
+      "object": "动态几何体导入",
+      "context": "学习Alembic导入可以处理复杂的动态几何体数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛发渲染与模拟",
+      "predicate": "依赖",
+      "object": "骨骼网格体",
+      "context": "毛发系统通常需要基于角色网格体，学习毛发需要先理解骨骼网格体",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "场景变体",
+      "predicate": "基于",
+      "object": "内容管理系统",
+      "context": "变体管理是高级内容管理技术，学习它可以实现更灵活的场景配置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "LiDAR点云插件",
+      "predicate": "支持",
+      "object": "现实世界数据导入",
+      "context": "学习LiDAR插件可以将现实扫描数据导入引擎，用于特定类型的项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "本地化",
+      "predicate": "涉及",
+      "object": "内容适配",
+      "context": "本地化是内容管理的重要方面，学习它可以实现多语言项目支持",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:33:39.585Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6681,
+    "contentLength": 5170,
+    "processingTimeMs": 43234
+  }
+}

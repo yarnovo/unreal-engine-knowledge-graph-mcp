@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_movie-render-queue-in-runtime-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_movie-render-queue-in-runtime-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "电影渲染队列",
+      "predicate": "支持",
+      "object": "运行时渲染",
+      "context": "电影渲染队列不仅可以通过用户界面使用，还可以在运行时通过蓝图进行渲染，这扩展了其应用场景",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "电影渲染队列",
+      "predicate": "依赖",
+      "object": "蓝图",
+      "context": "在运行时使用电影渲染队列需要通过蓝图进行配置和调用，这是实现运行时渲染的关键技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Movie Pipeline Runtime Subsystem",
+      "predicate": "管理",
+      "object": "渲染作业队列",
+      "context": "该子系统负责管理包含多个渲染作业的队列，是控制渲染流程的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染作业",
+      "predicate": "包含",
+      "object": "镜头",
+      "context": "每个渲染作业可以包含一个或多个镜头，理解这种包含关系有助于组织复杂的渲染任务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染作业",
+      "predicate": "使用",
+      "object": "渲染配置",
+      "context": "每个作业都需要特定的渲染配置，这决定了渲染的质量和输出格式等重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基本渲染流程",
+      "predicate": "包含",
+      "object": "分配作业",
+      "context": "分配作业是创建基本渲染的三个关键步骤中的第一步，需要指定要渲染的关卡序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基本渲染流程",
+      "predicate": "包含",
+      "object": "设置配置",
+      "context": "设置配置是基本渲染流程的关键步骤，用于指定渲染的质量和输出等参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基本渲染流程",
+      "predicate": "包含",
+      "object": "渲染作业",
+      "context": "渲染作业是基本渲染流程的最后一步，执行实际的渲染操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义渲染配置",
+      "predicate": "使用",
+      "object": "Find or Add Setting by Class",
+      "context": "这个节点是创建自定义渲染配置的关键，允许开发者添加特定的渲染设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "取消作业功能",
+      "predicate": "用于",
+      "object": "防止编辑器软锁",
+      "context": "取消作业功能可以在渲染未完成时安全终止进程，避免编辑器进入不可用状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染完成事件",
+      "predicate": "提供",
+      "object": "渲染结果信息",
+      "context": "该事件可以提供渲染是否成功、生成的文件路径等重要反馈信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试控件",
+      "predicate": "用于",
+      "object": "渲染预览",
+      "context": "调试控件可以在渲染过程中实时显示预览画面，帮助监控渲染进度和质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MovieRenderDebugWidget",
+      "predicate": "是",
+      "object": "调试控件基类",
+      "context": "理解这个基类关系有助于开发者创建自定义的渲染调试界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行时渲染",
+      "predicate": "有限制",
+      "object": "编辑器特有功能",
+      "context": "某些依赖编辑器特有功能的高级设置在运行时不可用，这是重要的技术限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡序列",
+      "predicate": "用于",
+      "object": "分配作业",
+      "context": "关卡序列是渲染作业的主要内容来源，需要被指定给作业才能进行渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染配置",
+      "predicate": "决定",
+      "object": "输出格式",
+      "context": "渲染配置中的设置决定了输出文件的格式和质量，是渲染工作的重要控制参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Configuration",
+      "predicate": "用于",
+      "object": "编辑渲染设置",
+      "context": "这个节点允许获取当前渲染配置进行修改，是实现自定义渲染的重要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Cancel All Jobs",
+      "predicate": "用于",
+      "object": "终止渲染",
+      "context": "这个函数可以终止所有进行中的渲染作业，是重要的流程控制功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Assign On Render Finished",
+      "predicate": "用于",
+      "object": "事件绑定",
+      "context": "这个节点允许绑定自定义事件到渲染完成时触发，是实现渲染后处理的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UI_MovieRenderPipelineScreenOverlay",
+      "predicate": "是",
+      "object": "默认调试控件",
+      "context": "了解这个默认控件有助于开发者理解基础的渲染监控界面实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:01:49.196Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8688 字符)",
+      "timestamp": "2025-06-15T20:00:38.359Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12416,
+    "contentLength": 8688,
+    "processingTimeMs": 70842
+  }
+}

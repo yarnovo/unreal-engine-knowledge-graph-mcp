@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_blending-animations-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_blending-animations-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "动画混合",
+      "predicate": "实现方式",
+      "object": "混合空间",
+      "context": "混合空间是动画混合最常用的方法之一，帮助学习者在角色动画中实现平滑过渡",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画混合",
+      "predicate": "实现方式",
+      "object": "动画蓝图",
+      "context": "动画蓝图中的AnimGraph可以直接处理动画混合，为学习者提供更灵活的动画控制方式",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "AnimGraph",
+      "context": "AnimGraph是动画蓝图的核心组件，学习者需要理解它如何通过节点处理动画数据流",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AnimGraph",
+      "predicate": "使用",
+      "object": "混合节点",
+      "context": "混合节点是AnimGraph中专门设计用于处理动画混合的组件，对学习动画混合技术至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合节点",
+      "predicate": "支持",
+      "object": "加权混合",
+      "context": "混合节点支持基于加权偏差的动画混合，这是学习者需要掌握的核心动画技术之一",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "混合节点",
+      "predicate": "支持",
+      "object": "Alpha混合",
+      "context": "Alpha值是混合节点控制动画过渡的重要参数，学习者需要理解其工作原理",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "AnimGraph",
+      "predicate": "支持",
+      "object": "骨骼特定动画",
+      "context": "AnimGraph允许将动画应用到特定骨骼及其子项，这对学习分层动画技术很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "混合空间",
+      "predicate": "适用于",
+      "object": "平滑过渡",
+      "context": "混合空间专门用于在两个或多个动画之间创建平滑过渡，是动画混合的基础概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "扩展",
+      "object": "动画混合功能",
+      "context": "动画蓝图扩展了基本的动画混合功能，为学习者提供更高级的控制能力",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "骨架网格体",
+      "predicate": "应用",
+      "object": "动画混合",
+      "context": "动画混合技术主要应用于骨架网格体上的角色动画，这是学习动画系统的前提知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:12:30.858Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2819,
+    "contentLength": 1863,
+    "processingTimeMs": 33552
+  }
+}

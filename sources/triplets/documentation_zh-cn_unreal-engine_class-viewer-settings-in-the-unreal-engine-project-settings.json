@@ -1,0 +1,69 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_class-viewer-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_class-viewer-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "类查看器",
+      "predicate": "包含",
+      "object": "类可视性管理",
+      "context": "类可视性管理是类查看器中的一个功能模块，用于控制类的可见性设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "类可视性管理",
+      "predicate": "支持",
+      "object": "仅限内部的目录列表",
+      "context": "类可视性管理功能支持设置仅限内部的目录列表，帮助开发者控制哪些目录下的类应该被视为内部使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "类可视性管理",
+      "predicate": "支持",
+      "object": "仅限内部的基类列表",
+      "context": "类可视性管理功能支持设置仅限内部的基类列表，帮助开发者控制哪些基类应该被视为内部使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "仅限内部的目录列表",
+      "predicate": "影响",
+      "object": "类选择器",
+      "context": "设置仅限内部的目录列表会影响类选择器中显示的类，帮助开发者过滤内部使用的类",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "仅限内部的基类列表",
+      "predicate": "影响",
+      "object": "类选择器",
+      "context": "设置仅限内部的基类列表会影响类选择器中显示的类，帮助开发者过滤内部使用的基类",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "类查看器",
+      "predicate": "属于",
+      "object": "虚幻引擎项目设置",
+      "context": "类查看器是虚幻引擎项目设置中的一个重要组成部分，用于管理和查看类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "类选择器",
+      "predicate": "依赖",
+      "object": "类查看器",
+      "context": "类选择器的功能依赖于类查看器提供的类可视性管理设置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:24:17.031Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 1525,
+    "contentLength": 1205,
+    "processingTimeMs": 43535
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_multiplayer-programming-quick-start-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_multiplayer-programming-quick-start-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Actor",
+      "predicate": "实现",
+      "object": "复制",
+      "context": "开发多人游戏需要在Actor中实现复制功能，这是网络同步的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "服务器",
+      "predicate": "控制",
+      "object": "游戏会话",
+      "context": "服务器作为游戏会话的主机，负责权威计算和状态同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "客户端",
+      "predicate": "代表",
+      "object": "玩家",
+      "context": "客户端是玩家连接到游戏会话的终端，负责呈现游戏状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动组件",
+      "predicate": "处理",
+      "object": "网络移动",
+      "context": "角色移动组件自动处理网络移动的复制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变量",
+      "predicate": "支持",
+      "object": "复制",
+      "context": "变量可以通过Replicated说明符实现网络同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RepNotify",
+      "predicate": "响应",
+      "object": "变量变更",
+      "context": "RepNotify在客户端成功接收复制变量值时触发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RPC",
+      "predicate": "用于",
+      "object": "远程调用",
+      "context": "远程过程调用允许在不同机器间执行函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络角色",
+      "predicate": "确定",
+      "object": "执行权限",
+      "context": "通过检查Actor的网络角色可以过滤函数执行位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CurrentHealth",
+      "predicate": "使用",
+      "object": "RepNotify",
+      "context": "CurrentHealth变量使用ReplicatedUsing实现变更通知",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetLifetimeReplicatedProps",
+      "predicate": "管理",
+      "object": "属性复制",
+      "context": "该函数负责配置需要复制的属性及其复制方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "投射物",
+      "predicate": "依赖",
+      "object": "复制",
+      "context": "投射物需要设置bReplicates=true才能在网络中同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ProjectileMovementComponent",
+      "predicate": "处理",
+      "object": "投射物移动",
+      "context": "该组件自动处理投射物的移动和网络同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TakeDamage",
+      "predicate": "调用",
+      "object": "SetCurrentHealth",
+      "context": "当角色受到伤害时调用TakeDamage，进而修改生命值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HandleFire",
+      "predicate": "是",
+      "object": "服务器RPC",
+      "context": "带有Server说明符的函数会自动在服务器上执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Reliable RPC",
+      "predicate": "保证",
+      "object": "执行顺序",
+      "context": "可靠RPC确保函数调用一定会被执行且按顺序执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Destroyed",
+      "predicate": "触发",
+      "object": "爆炸效果",
+      "context": "Actor被销毁时调用Destroyed函数生成爆炸粒子效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnComponentHit",
+      "predicate": "响应",
+      "object": "碰撞事件",
+      "context": "该事件在投射物碰撞时触发伤害计算和销毁逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay框架",
+      "predicate": "处理",
+      "object": "玩家生成",
+      "context": "框架自动处理角色在玩家出生点的生成和控制器分配",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "读取",
+      "object": "复制变量",
+      "context": "动画蓝图通过读取复制的游戏变量来更新角色动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第三人称模板",
+      "predicate": "包含",
+      "object": "基础复制功能",
+      "context": "该模板默认启用了角色和pawn的复制功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:03:05.593Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (44025 字符)",
+      "timestamp": "2025-06-15T20:02:09.490Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 58043,
+    "contentLength": 44025,
+    "processingTimeMs": 56110
+  }
+}

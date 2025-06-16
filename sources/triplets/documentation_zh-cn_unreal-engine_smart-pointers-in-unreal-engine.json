@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_smart-pointers-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_smart-pointers-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻智能指针库",
+      "predicate": "包含",
+      "object": "共享指针",
+      "context": "虚幻智能指针库提供了共享指针的实现，帮助开发者管理内存",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻智能指针库",
+      "predicate": "包含",
+      "object": "弱指针",
+      "context": "虚幻智能指针库提供了弱指针的实现，用于中断引用循环",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻智能指针库",
+      "predicate": "包含",
+      "object": "唯一指针",
+      "context": "虚幻智能指针库提供了唯一指针的实现，确保资源的独占所有权",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻智能指针库",
+      "predicate": "包含",
+      "object": "共享引用",
+      "context": "虚幻智能指针库提供了共享引用的实现，作为不可为空的共享指针",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享指针",
+      "predicate": "可生成",
+      "object": "共享引用",
+      "context": "任何非空共享指针都可以生成共享引用，帮助开发者明确对象所有权",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "弱指针",
+      "predicate": "可生成",
+      "object": "共享指针",
+      "context": "弱指针可以生成指向其引用对象的共享指针，确保临时访问的安全性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享指针",
+      "predicate": "不兼容",
+      "object": "UObject",
+      "context": "共享指针与虚幻对象系统不兼容，开发者需要使用引擎的内存管理系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSharedFromThis",
+      "predicate": "提供",
+      "object": "AsShared",
+      "context": "TSharedFromThis类提供了AsShared函数，用于获取对象的共享引用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSharedFromThis",
+      "predicate": "提供",
+      "object": "SharedThis",
+      "context": "TSharedFromThis类提供了SharedThis函数，用于获取对象的共享引用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MakeShared",
+      "predicate": "优于",
+      "object": "MakeShareable",
+      "context": "MakeShared在单个内存块中分配对象和引用控制器，性能优于MakeShareable",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "智能指针",
+      "predicate": "适用于",
+      "object": "高级系统",
+      "context": "智能指针适合用于高级系统、资源管理或工具编程",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "智能指针",
+      "predicate": "不适用于",
+      "object": "低级引擎代码",
+      "context": "智能指针在低级引擎代码（如渲染）中用处不大，因为其性能开销较高",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "线程安全智能指针",
+      "predicate": "慢于",
+      "object": "默认智能指针",
+      "context": "线程安全智能指针由于原子引用计数，比默认版本稍慢",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "共享指针",
+      "predicate": "可转换为",
+      "object": "共享引用",
+      "context": "共享引用可以隐式转换为共享指针，帮助开发者灵活管理对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StaticCastSharedPtr",
+      "predicate": "用于",
+      "object": "向下投射",
+      "context": "StaticCastSharedPtr函数通常用于向下投射到衍生类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ConstCastSharedPtr",
+      "predicate": "用于",
+      "object": "常量转换",
+      "context": "ConstCastSharedPtr函数用于将const智能指针转换为mutable智能指针",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "智能指针",
+      "predicate": "防止",
+      "object": "内存泄漏",
+      "context": "智能指针（弱指针除外）会自动删除对象，防止内存泄漏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "弱指针",
+      "predicate": "防止",
+      "object": "悬挂指针",
+      "context": "弱指针会中断引用循环并阻止悬挂指针",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享引用",
+      "predicate": "确保",
+      "object": "非空对象",
+      "context": "共享引用必须引用非空对象，确保运行时安全",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "智能指针",
+      "predicate": "区分",
+      "object": "对象所有者",
+      "context": "智能指针可以轻松区分对象所有者和观察者，帮助开发者明确意图",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:49:46.703Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11789,
+    "contentLength": 6885,
+    "processingTimeMs": 54578
+  }
+}

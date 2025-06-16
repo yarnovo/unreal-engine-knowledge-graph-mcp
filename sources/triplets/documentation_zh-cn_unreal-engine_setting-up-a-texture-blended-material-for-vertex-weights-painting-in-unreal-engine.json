@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_setting-up-a-texture-blended-material-for-vertex-weights-painting-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_setting-up-a-texture-blended-material-for-vertex-weights-painting-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "顶点权重绘制",
+      "predicate": "使用",
+      "object": "顶点颜色数据",
+      "context": "顶点权重绘制模式利用顶点颜色数据在网格体上混合不同纹理层",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理混合材质",
+      "predicate": "基于",
+      "object": "混合模式",
+      "context": "设置纹理混合材质时首先需要选择混合模式作为基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理混合材质",
+      "predicate": "包含",
+      "object": "VertexColor节点",
+      "context": "VertexColor节点是纹理混合材质中的核心组件，用于获取顶点颜色数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VertexColor节点",
+      "predicate": "连接",
+      "object": "Lerp节点",
+      "context": "VertexColor节点的输出通常连接到Lerp节点的Alpha输入，用于驱动纹理混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lerp节点",
+      "predicate": "实现",
+      "object": "纹理混合",
+      "context": "Lerp节点通过Alpha输入值在两个纹理之间进行线性插值混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "2路纹理混合",
+      "predicate": "使用",
+      "object": "Alpha通道",
+      "context": "2路纹理混合使用VertexColor节点的Alpha通道驱动两个纹理的混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3路纹理混合",
+      "predicate": "使用",
+      "object": "RGB通道",
+      "context": "3路纹理混合使用VertexColor节点的红、绿、蓝三个通道分别控制三个纹理的混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "4路纹理混合",
+      "predicate": "使用",
+      "object": "ARGB通道",
+      "context": "4路纹理混合使用VertexColor节点的Alpha、红、绿、蓝四个通道控制四个纹理的混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "5路纹理混合",
+      "predicate": "扩展",
+      "object": "4路纹理混合",
+      "context": "5路纹理混合在4路基础上通过1-x节点增加第五个混合通道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理权重类型",
+      "predicate": "对应",
+      "object": "混合通道数量",
+      "context": "纹理权重类型设置必须与材质中使用的混合通道数量相匹配",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绘制纹理权重索引",
+      "predicate": "控制",
+      "object": "当前绘制纹理",
+      "context": "绘制纹理权重索引决定当前使用哪个纹理通道进行绘制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "擦除纹理权重索引",
+      "predicate": "控制",
+      "object": "当前擦除纹理",
+      "context": "擦除纹理权重索引决定当前使用哪个纹理通道进行擦除",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "顶点权重绘制",
+      "predicate": "属于",
+      "object": "网格体绘制工具",
+      "context": "顶点权重绘制是网格体绘制工具中的一种特殊绘制模式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "1-x节点",
+      "predicate": "提供",
+      "object": "额外混合通道",
+      "context": "在5路纹理混合中，1-x节点通过对Alpha取反提供第五个混合通道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理混合材质",
+      "predicate": "应用于",
+      "object": "虚拟世界构建",
+      "context": "纹理混合材质是构建复杂虚拟世界表面细节的重要技术",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:44:15.372Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10386,
+    "contentLength": 6716,
+    "processingTimeMs": 43606
+  }
+}

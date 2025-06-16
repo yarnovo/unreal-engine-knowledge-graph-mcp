@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_ios-material-quality-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_ios-material-quality-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "iOS材质质量设置",
+      "predicate": "包含",
+      "object": "正向渲染覆盖",
+      "context": "iOS材质质量设置是项目设置的一部分，正向渲染覆盖是其中的一个子模块，了解这一关系有助于学习者在项目设置中找到相关选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "正向渲染覆盖",
+      "predicate": "包含",
+      "object": "烘焙期间废弃质量",
+      "context": "正向渲染覆盖设置中包含多个具体选项，烘焙期间废弃质量是其中之一，了解这一关系有助于学习者定位具体设置项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "正向渲染覆盖",
+      "predicate": "包含",
+      "object": "启用质量覆盖",
+      "context": "启用质量覆盖是正向渲染覆盖中的一个重要开关选项，了解这一关系有助于学习者掌握全局控制方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "正向渲染覆盖",
+      "predicate": "包含",
+      "object": "强制完全粗糙",
+      "context": "强制完全粗糙是正向渲染覆盖中的性能优化选项，了解这一关系有助于学习者理解材质质量与性能的权衡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "强制完全粗糙",
+      "predicate": "提高",
+      "object": "性能",
+      "context": "文档明确指出强制完全粗糙设置可以提高性能，这一关系对学习者理解性能优化策略很重要",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "正向渲染覆盖",
+      "predicate": "包含",
+      "object": "强制非金属",
+      "context": "强制非金属是正向渲染覆盖中的另一个性能优化选项，了解这一关系有助于学习者掌握材质属性控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "强制非金属",
+      "predicate": "提高",
+      "object": "性能",
+      "context": "文档明确指出强制非金属设置可以提高性能，这一关系对学习者理解性能优化策略很重要",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "正向渲染覆盖",
+      "predicate": "包含",
+      "object": "禁用光照贴图方向性",
+      "context": "禁用光照贴图方向性是正向渲染覆盖中的光照相关设置，了解这一关系有助于学习者理解光照与材质的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "正向渲染覆盖",
+      "predicate": "包含",
+      "object": "强制低质量反射",
+      "context": "强制低质量反射是正向渲染覆盖中的反射质量设置，了解这一关系有助于学习者理解反射效果与性能的权衡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "正向渲染覆盖",
+      "predicate": "包含",
+      "object": "禁用材质法线计算",
+      "context": "禁用材质法线计算是正向渲染覆盖中的法线贴图相关设置，了解这一关系有助于学习者理解法线贴图对性能的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "正向渲染覆盖",
+      "predicate": "包含",
+      "object": "移动阴影映射质量",
+      "context": "移动阴影映射质量是正向渲染覆盖中的阴影相关设置，了解这一关系有助于学习者理解移动平台阴影处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "正向渲染覆盖",
+      "predicate": "包含",
+      "object": "更新预览着色器",
+      "context": "更新预览着色器是正向渲染覆盖中的编辑器反馈设置，了解这一关系有助于学习者理解设置变更的实时预览",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS材质质量设置",
+      "predicate": "适用于",
+      "object": "移动平台优化",
+      "context": "iOS材质质量设置专门针对移动平台(iOS)的性能优化，了解这一关系有助于学习者掌握平台特定的优化技术",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质质量设置",
+      "predicate": "影响",
+      "object": "渲染性能",
+      "context": "文档中多个选项都提到可以提高性能，说明材质质量设置与渲染性能密切相关，这一关系对学习者理解性能优化很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质质量设置",
+      "predicate": "影响",
+      "object": "视觉效果",
+      "context": "降低材质质量通常会牺牲视觉效果，这一关系帮助学习者理解质量与性能的权衡",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:38:26.358Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2328,
+    "contentLength": 1674,
+    "processingTimeMs": 53813
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-swarm-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-swarm-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Unreal Swarm",
+      "predicate": "用于",
+      "object": "减少构建时间",
+      "context": "Unreal Swarm通过分布式计算减少光照和几何体计算的时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Swarm",
+      "predicate": "包含",
+      "object": "Swarm协调程序",
+      "context": "Swarm协调程序是Unreal Swarm的核心组件，负责管理任务分配",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Swarm",
+      "predicate": "包含",
+      "object": "Swarm代理程序",
+      "context": "Swarm代理程序是Unreal Swarm的执行组件，负责完成分配的任务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Swarm协调程序",
+      "predicate": "管理",
+      "object": "Swarm代理程序",
+      "context": "协调程序负责分配任务给代理程序并监控其状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Swarm代理程序",
+      "predicate": "依赖",
+      "object": "Swarm协调程序",
+      "context": "代理程序需要从协调程序获取任务指令",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Swarm",
+      "predicate": "支持",
+      "object": "CPU密集型计算",
+      "context": "Swarm主要用于处理CPU密集型的光照计算任务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Swarm",
+      "predicate": "不兼容",
+      "object": "GPU计算",
+      "context": "文档明确指出Swarm不支持GPU计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Swarm",
+      "predicate": "适用于",
+      "object": "Windows系统",
+      "context": "Swarm目前仅支持Windows平台",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Swarm代理程序",
+      "predicate": "使用",
+      "object": "Swarm缓存",
+      "context": "代理程序使用缓存来存储临时数据和任务结果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Swarm缓存",
+      "predicate": "影响",
+      "object": "构建性能",
+      "context": "合理管理缓存可以提高构建效率",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Unreal Swarm",
+      "predicate": "优化",
+      "object": "Lightmass构建",
+      "context": "Swarm专门用于优化Lightmass光照构建过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Swarm代理程序",
+      "predicate": "需要",
+      "object": "IPv4地址/DNS名称",
+      "context": "代理程序需要协调程序的网络地址才能连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Swarm代理程序组",
+      "predicate": "用于",
+      "object": "任务分类",
+      "context": "代理程序组可以将不同类型的任务分配给特定机器组",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Unreal Swarm",
+      "predicate": "依赖",
+      "object": "网络连接",
+      "context": "Swarm系统需要稳定的网络连接来协调多台机器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Swarm代理程序",
+      "predicate": "生成",
+      "object": "日志文件",
+      "context": "代理程序会生成详细的日志用于调试和监控",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Swarm",
+      "predicate": "需要",
+      "object": "系统资源",
+      "context": "Swarm需要足够的CPU和内存资源才能高效运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Swarm协调程序",
+      "predicate": "监控",
+      "object": "任务进度",
+      "context": "协调程序提供界面监控所有任务的执行进度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Swarm",
+      "predicate": "替代",
+      "object": "单机构建",
+      "context": "Swarm通过分布式计算替代传统的单机构建方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Swarm代理程序",
+      "predicate": "配置",
+      "object": "处理器核心数",
+      "context": "可以配置代理程序使用的CPU核心数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Swarm",
+      "predicate": "需要",
+      "object": "防火墙设置",
+      "context": "Swarm需要特定的防火墙设置才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:12:19.364Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (21524 字符)",
+      "timestamp": "2025-06-15T21:11:27.535Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 32187,
+    "contentLength": 21524,
+    "processingTimeMs": 51835
+  }
+}

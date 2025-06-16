@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-ies-light-profiles-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-ies-light-profiles-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "IES光源描述文件",
+      "predicate": "基于",
+      "object": "照明工程学会标准",
+      "context": "IES光源描述文件遵循照明工程学会(IES)定义的文件格式，使用真实世界测量数据描述光源的光照分布",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IES光源描述文件",
+      "predicate": "用于",
+      "object": "点光源",
+      "context": "IES描述文件可以指定到点光源，控制其光照分布和衰减特性",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IES光源描述文件",
+      "predicate": "用于",
+      "object": "聚光源",
+      "context": "IES描述文件可以指定到聚光源，但会被聚光源的锥体角度裁剪",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IES光源描述文件",
+      "predicate": "用于",
+      "object": "矩形光源",
+      "context": "IES描述文件可以指定到矩形光源，控制其光照特性",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IES光源描述文件",
+      "predicate": "替代",
+      "object": "光源函数",
+      "context": "IES描述文件渲染速度快，是塑造光源形态的理想选择，相比光源函数对性能影响更小",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "IES光源描述文件",
+      "predicate": "包含",
+      "object": "亮度数据",
+      "context": "IES描述文件包含以烛光计的光源亮度信息，可用于控制光源强度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IES光源描述文件",
+      "predicate": "实现",
+      "object": "逼真光照效果",
+      "context": "通过使用真实世界测量数据，IES描述文件可以帮助实现逼真的光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IES光源描述文件",
+      "predicate": "依赖",
+      "object": "纹理编辑器",
+      "context": "IES描述文件的属性可以在纹理编辑器中进行设置和调整",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "IES光源描述文件",
+      "predicate": "支持",
+      "object": "3D可视化",
+      "context": "指定了IES纹理的光源会显示3D可视化代表，帮助开发者理解光照分布",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IES光源描述文件",
+      "predicate": "适用于",
+      "object": "静态光照",
+      "context": "虽然可以使用静态光照，但提高光照贴图分辨率或使用静止/可移动光源能获得更好效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "IES光源描述文件",
+      "predicate": "包含",
+      "object": "纹理乘数",
+      "context": "IES描述文件包含纹理乘数，用于将纹理值映射到整合为1.0f球体的结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IES光源描述文件",
+      "predicate": "可从",
+      "object": "照明制造商网站获取",
+      "context": "几乎所有主流照明制造商都免费提供IES描述文件，可以从他们的网站下载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IES光源描述文件",
+      "predicate": "可预览于",
+      "object": "IESviewer",
+      "context": "可以使用IESviewer等光度查看器预览IES描述文件的效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:17:41.909Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10345,
+    "contentLength": 7373,
+    "processingTimeMs": 36479
+  }
+}

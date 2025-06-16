@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_storing-custom-data-in-unreal-engine-materials-per-primitive",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_storing-custom-data-in-unreal-engine-materials-per-primitive.md",
+  "triples": [
+    {
+      "subject": "自定义图元数据",
+      "predicate": "用于",
+      "object": "运行时调整场景图元",
+      "context": "CPD允许在材质中存储自定义数据，并通过蓝图或代码在运行时访问和修改这些数据，从而动态控制场景中的图元",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义图元数据",
+      "predicate": "替代",
+      "object": "动态材质实例",
+      "context": "CPD将数据存储在图元自身而非材质实例上，减少了类似几何体的绘制调用次数，相比动态材质实例有性能优势",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义图元数据",
+      "predicate": "依赖",
+      "object": "图元数据索引",
+      "context": "CPD参数需要设置唯一的图元数据索引，该索引用于在蓝图和代码中引用参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义图元数据",
+      "predicate": "基于",
+      "object": "网格体绘制重构",
+      "context": "CPD利用网格体绘制重构实现动态实例化，从而减少绘制调用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "标量参数",
+      "predicate": "用于",
+      "object": "控制材质属性",
+      "context": "标量参数可用于控制材质的各种属性，如自发光强度等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "向量参数",
+      "predicate": "用于",
+      "object": "控制材质属性",
+      "context": "向量参数可用于控制材质的各种属性，如颜色等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Set Custom Primitive Data Float",
+      "predicate": "用于",
+      "object": "设置浮点自定义数据",
+      "context": "该蓝图节点用于设置浮点类型的自定义图元数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Set Custom Primitive Data Vector",
+      "predicate": "用于",
+      "object": "设置向量自定义数据",
+      "context": "该蓝图节点用于设置向量类型的自定义图元数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义图元数据默认值",
+      "predicate": "用于",
+      "object": "设置Actor默认值",
+      "context": "可以在Actor的默认面板中设置自定义图元数据的初始值",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "stat scenerendering",
+      "predicate": "用于",
+      "object": "查看渲染统计数据",
+      "context": "该控制台命令可显示场景渲染的统计数据，包括绘制调用数等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态实例化",
+      "predicate": "减少",
+      "object": "绘制调用",
+      "context": "启用动态实例化可以自动合并绘制调用，显著减少绘制调用数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义图元数据",
+      "predicate": "优于",
+      "object": "动态材质实例",
+      "context": "在性能方面，CPD相比动态材质实例能显著减少绘制调用，特别适用于场景中有大量相似几何体的情况",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质实例",
+      "predicate": "对比",
+      "object": "自定义图元数据",
+      "context": "文档详细比较了材质实例和CPD在工作流程和性能上的差异，帮助开发者选择合适的技术",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "控制",
+      "object": "自定义图元数据",
+      "context": "通过蓝图节点可以设置和更新自定义图元数据，实现运行时动态控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Event Tick",
+      "predicate": "用于",
+      "object": "持续更新自定义数据",
+      "context": "可以通过Event Tick实现自定义数据的持续更新，但需要注意性能影响",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:55:30.241Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11824 字符)",
+      "timestamp": "2025-06-15T20:54:47.321Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17716,
+    "contentLength": 11824,
+    "processingTimeMs": 42930
+  }
+}

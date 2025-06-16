@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_paper-2d-physics-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_paper-2d-physics-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Paper 2D物理",
+      "predicate": "用于",
+      "object": "2D游戏",
+      "context": "Paper 2D物理专门用于在2D游戏中为sprite添加物理效果，帮助学习者理解2D游戏物理应用的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sprite",
+      "predicate": "应用",
+      "object": "物理约束",
+      "context": "Sprite需要应用物理约束来防止不合理的移动和旋转，这对学习2D物理实现至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理约束",
+      "predicate": "包含",
+      "object": "Lock Position",
+      "context": "Lock Position是物理约束的一种，用于限制sprite在特定轴上的移动，帮助学习者掌握约束设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理约束",
+      "predicate": "包含",
+      "object": "Lock Rotation",
+      "context": "Lock Rotation是物理约束的另一种类型，用于限制sprite在特定轴上的旋转，与Lock Position共同构成完整的约束系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "横卷轴游戏",
+      "predicate": "主要使用",
+      "object": "Y轴锁定",
+      "context": "横卷轴游戏通常需要锁定Y轴位置，这是2D游戏物理设置的典型用例，帮助学习者理解游戏类型与物理设置的关联",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "横卷轴游戏",
+      "predicate": "主要使用",
+      "object": "X轴旋转锁定",
+      "context": "横卷轴游戏通常需要锁定X轴旋转，这是与Y轴位置锁定配套的重要设置，帮助学习者建立完整的约束概念",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Details面板",
+      "predicate": "提供",
+      "object": "物理设置",
+      "context": "Details面板是设置物理参数的主要界面，学习者需要熟悉此面板才能有效应用物理效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Simulate Physics",
+      "predicate": "启用",
+      "object": "物理效果",
+      "context": "Simulate Physics选项是激活sprite物理效果的关键开关，帮助学习者理解物理系统的启用方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mode选项",
+      "predicate": "提供",
+      "object": "XZPlane约束",
+      "context": "Mode选项中的XZPlane约束是另一种实现位置锁定的方式，帮助学习者了解约束设置的多种实现方法",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "2D游戏类型",
+      "predicate": "决定",
+      "object": "物理约束设置",
+      "context": "不同的2D游戏类型需要不同的物理约束设置，这对学习者理解游戏设计与物理实现的关联很重要",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T20:18:57.633Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2596,
+    "contentLength": 1586,
+    "processingTimeMs": 36000
+  }
+}

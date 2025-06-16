@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-show-the-world-origin-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-show-the-world-origin-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "手持式AR模板",
+      "predicate": "用于",
+      "object": "创建AR项目",
+      "context": "手持式AR模板是创建增强现实项目的起点，帮助开发者快速搭建AR应用基础框架",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界原点",
+      "predicate": "位于",
+      "object": "0.0, 0.0, 0.0",
+      "context": "世界原点是三维空间的基准点，理解其位置对于空间定位和调试至关重要",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "调试绘制世界原点",
+      "predicate": "包含",
+      "object": "绘制调试字符串",
+      "context": "该功能通过可视化文本标记帮助开发者识别世界原点位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试绘制世界原点",
+      "predicate": "包含",
+      "object": "绘制调试箭头",
+      "context": "通过三轴箭头可视化坐标系方向，辅助空间方向判断",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ARKit/ARCore",
+      "predicate": "确定",
+      "object": "世界原点位置",
+      "context": "AR系统自主决定世界原点位置，理解这一机制有助于解决定位问题",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "烘焙照明",
+      "predicate": "依赖",
+      "object": "固定世界原点",
+      "context": "静态光照需要稳定的空间参考点，世界原点变动会导致光照异常",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "BP_DebugMenu",
+      "predicate": "属于",
+      "object": "手持式AR模板项目",
+      "context": "该蓝图资源是模板项目的调试功能入口，包含多种AR调试工具",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "项目浏览器",
+      "predicate": "用于",
+      "object": "创建AR项目",
+      "context": "项目浏览器是创建新项目的基础工具，掌握其使用是开发第一步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "用于",
+      "object": "访问AR项目资源",
+      "context": "通过内容浏览器可以导航到项目中的各种资源文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "手持式AR模板",
+      "predicate": "演示",
+      "object": "AR功能实现",
+      "context": "模板项目展示了增强现实功能的典型实现方式，是学习AR开发的范例",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T19:27:39.566Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5040,
+    "contentLength": 3541,
+    "processingTimeMs": 35865
+  }
+}

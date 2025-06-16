@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_environment-query-system-user-guide-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_environment-query-system-user-guide-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "场景查询系统(EQS)",
+      "predicate": "属于",
+      "object": "AI系统",
+      "context": "EQS是虚幻引擎AI系统的一部分，用于智能体的环境决策",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EQS查询",
+      "predicate": "包含",
+      "object": "生成器",
+      "context": "生成器是EQS查询的核心组件，负责生成待评估的位置或Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EQS查询",
+      "predicate": "包含",
+      "object": "测试",
+      "context": "测试用于评估生成器产生的项目，决定最佳选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EQS查询",
+      "predicate": "包含",
+      "object": "情境",
+      "context": "情境提供参考框架，影响测试的评估标准",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成器",
+      "predicate": "连接",
+      "object": "Root节点",
+      "context": "生成器必须连接到EQS图表的Root节点才能生效",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "测试",
+      "predicate": "依赖",
+      "object": "情境",
+      "context": "测试需要情境作为参考框架来进行评估",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "行为树",
+      "predicate": "使用",
+      "object": "EQS查询",
+      "context": "行为树可以通过'运行EQS查询'任务节点调用EQS查询结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行EQS查询任务",
+      "predicate": "输出到",
+      "object": "黑板键",
+      "context": "EQS查询结果可以存储在行为树的黑板键中供其他节点使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "原生代码",
+      "predicate": "调用",
+      "object": "EQS查询",
+      "context": "开发者可以直接通过C++代码执行EQS查询",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EQS调试",
+      "predicate": "使用",
+      "object": "调试球体",
+      "context": "编辑器中使用调试球体可视化EQS查询的加权/过滤结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI调试",
+      "predicate": "包含",
+      "object": "EQS预览",
+      "context": "EQS查询预览是AI调试的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "编辑器首选项",
+      "predicate": "控制",
+      "object": "EQS启用状态",
+      "context": "EQS需要通过编辑器首选项中的试验性选项启用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "用于",
+      "object": "创建EQS资源",
+      "context": "EQS查询、生成器和情境资源都在内容浏览器中创建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EQS测试Pawn",
+      "predicate": "用于",
+      "object": "EQS调试",
+      "context": "专门用于测试和调试EQS查询的特殊Pawn",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FEnvQueryRequest",
+      "predicate": "执行",
+      "object": "EQS查询",
+      "context": "原生代码中通过FEnvQueryRequest类来执行EQS查询",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:59:22.667Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8339,
+    "contentLength": 6358,
+    "processingTimeMs": 51610
+  }
+}

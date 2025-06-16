@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-pcg-generation-modes-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-pcg-generation-modes-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Procedural Content Generation Framework (PCG)",
+      "predicate": "包含",
+      "object": "PCG Generation Modes",
+      "context": "PCG框架包含多种生成模式，这些模式是PCG工具集的核心组成部分，帮助开发者创建不同规模的过程化内容",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "PCG Generation Modes",
+      "predicate": "分为",
+      "object": "Non-partitioned Generation, Partitioned Generation, Hierarchical Generation, Runtime Generation",
+      "context": "了解四种生成模式及其适用场景是掌握PCG工作流的基础，这些模式针对不同规模的内容生成需求设计",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Partitioned Generation",
+      "predicate": "依赖",
+      "object": "World Partition",
+      "context": "分区生成模式利用World Partition系统进行数据流式传输，这是大规模开放世界开发的关键技术关联",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "Hierarchical Generation",
+      "predicate": "扩展",
+      "object": "Partitioned Generation",
+      "context": "分层生成是分区生成的进阶模式，要求先启用分区生成，这种关系展示了PCG技术的递进学习路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Runtime Generation",
+      "predicate": "优化",
+      "object": "Hierarchical Generation",
+      "context": "运行时生成与分层生成配合使用可以高效分配细节层次，这种组合关系对性能优化至关重要",
+      "direction": "bidirectional",
+      "confidence": 0.88
+    },
+    {
+      "subject": "Grid Size Node",
+      "predicate": "控制",
+      "object": "Hierarchical Generation网格大小",
+      "context": "网格大小节点是分层生成的核心控制元素，理解其位置和设置对精确控制生成过程很关键",
+      "direction": "unidirectional",
+      "confidence": 0.92
+    },
+    {
+      "subject": "PCG Component",
+      "predicate": "支持",
+      "object": "Generation Radii设置",
+      "context": "生成半径设置决定了运行时生成的触发范围，这是动态内容生成的重要参数配置",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "Runtime Generation",
+      "predicate": "使用",
+      "object": "PCG Generation Sources",
+      "context": "运行时生成依赖生成源触发，理解这种触发机制对实现动态加载很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Scheduling Policies",
+      "predicate": "影响",
+      "object": "Runtime Generation执行顺序",
+      "context": "调度策略决定了运行时生成的优先级顺序，这对性能优化和用户体验有直接影响",
+      "direction": "unidirectional",
+      "confidence": 0.88
+    },
+    {
+      "subject": "Frustum Culling",
+      "predicate": "优化",
+      "object": "Runtime Generation性能",
+      "context": "视锥体剔除是运行时生成的重要优化技术，可以减少不必要的计算开销",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "PCG Graph",
+      "predicate": "包含",
+      "object": "Grid Size Node",
+      "context": "PCG图表中的网格大小节点是实现分层生成的关键元素，这种包含关系是理解PCG工作流的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Debug Object Tree",
+      "predicate": "用于",
+      "object": "可视化Grid Size",
+      "context": "调试对象树是查看和验证网格大小设置的重要工具，这对调试和优化PCG设置很有帮助",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "PCGWorldActor",
+      "predicate": "控制",
+      "object": "Partition Grid Size",
+      "context": "PCGWorldActor是控制分区网格大小的核心实体，理解这个关系对场景配置很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Non-partitioned Generation",
+      "predicate": "适用于",
+      "object": "小型PCG资源",
+      "context": "非分区生成模式是默认选项，适合小型资源，这种适用性关系帮助开发者选择合适的生成模式",
+      "direction": "bidirectional",
+      "confidence": 0.88
+    },
+    {
+      "subject": "Partitioned Generation",
+      "predicate": "适用于",
+      "object": "大型PCG资源",
+      "context": "分区生成模式专为大型资源设计，可以避免性能问题，这种适用性对比有助于模式选择",
+      "direction": "bidirectional",
+      "confidence": 0.88
+    }
+  ],
+  "timestamp": "2025-06-15T21:21:41.186Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (20952 字符)",
+      "timestamp": "2025-06-15T21:20:54.775Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 21146,
+    "contentLength": 20952,
+    "processingTimeMs": 46417
+  }
+}

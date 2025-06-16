@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_user-interfaces-and-huds-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_user-interfaces-and-huds-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "用户界面",
+      "predicate": "包含",
+      "object": "HUD",
+      "context": "用户界面和HUD都是游戏与玩家通信和互动的方式，HUD是用户界面的一个子集",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "用户界面",
+      "predicate": "包含",
+      "object": "菜单",
+      "context": "用户界面通常包含菜单和其他互动元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HUD",
+      "predicate": "用于",
+      "object": "显示游戏状态",
+      "context": "HUD的目的是告知玩家当前游戏状态，如分数、生命值、游戏剩余时间等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HUD",
+      "predicate": "基于",
+      "object": "AHUD类",
+      "context": "游戏中每个由人类控制的玩家都有自己的AHUD类实例，这个实例会绘制到个人视口上",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HUD",
+      "predicate": "使用",
+      "object": "画布",
+      "context": "画布可以在HUD渲染循环中使用，用于在屏幕上绘制各种元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "画布",
+      "predicate": "用于",
+      "object": "绘制HUD和UI",
+      "context": "使用画布绘制是用于在用虚幻引擎制作的游戏中创建HUD和UI的方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate",
+      "predicate": "用于",
+      "object": "创建工具和应用的用户界面",
+      "context": "Slate是一种自定义、平台无关的用户界面框架，可用于创建各种工具和应用的用户界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate",
+      "predicate": "采用",
+      "object": "声明式语法",
+      "context": "Slate采用声明式语法，能够快速设计、布局组件的样式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "用户界面",
+      "predicate": "可以",
+      "object": "成为游戏世界的一部分",
+      "context": "用户界面在某些情况下会成为游戏世界本身的一部分，在场景中的一个表面上渲染出来",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "HUD",
+      "predicate": "通常",
+      "object": "不可互动",
+      "context": "HUD通常是不可互动的，意味着玩家不能单击HUD的元素",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "用户界面",
+      "predicate": "可以",
+      "object": "显示游戏对话",
+      "context": "用户界面可以用于显示游戏中不同角色之间的对话",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "用户界面",
+      "predicate": "可以",
+      "object": "成为游戏不可或缺的一部分",
+      "context": "在RTS或RPG中，用户界面可能成为游戏本身不可或缺的一部分，让玩家可以选择武器、盔甲、建筑单位等",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:13:07.150Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3763,
+    "contentLength": 2055,
+    "processingTimeMs": 33663
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_glossary-of-iris-terms-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_glossary-of-iris-terms-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Iris",
+      "predicate": "引入",
+      "object": "复制系统",
+      "context": "Iris为虚幻引擎引入了新的复制系统概念，这是理解Iris功能的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor复制桥",
+      "predicate": "实现",
+      "object": "复制网桥接口",
+      "context": "Actor复制桥是实现复制功能的关键组件，学习者需要理解其接口实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor复制桥",
+      "predicate": "构造",
+      "object": "复制协议",
+      "context": "理解Actor复制桥如何构造复制协议对掌握对象复制机制至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor复制桥",
+      "predicate": "构造",
+      "object": "复制实例协议",
+      "context": "复制实例协议的构造是对象实例复制的核心环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制写入器",
+      "predicate": "负责",
+      "object": "序列化对象状态",
+      "context": "复制写入器是网络同步的核心组件，负责对象状态的跟踪和序列化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制协议",
+      "predicate": "定义",
+      "object": "数据复制方式",
+      "context": "复制协议是理解数据如何通过网络传输的基础概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制实例协议",
+      "predicate": "包含",
+      "object": "复制片段",
+      "context": "复制片段是复制实例协议的基本组成单元，理解其结构有助于调试复制问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制数据流",
+      "predicate": "分为",
+      "object": "复制读取器和复制写入器",
+      "context": "理解数据流的双向特性对掌握网络同步机制很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制片段",
+      "predicate": "绑定",
+      "object": "复制状态",
+      "context": "复制片段与复制状态的绑定关系是数据传输的关键机制",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制状态描述符",
+      "predicate": "描述",
+      "object": "复制状态",
+      "context": "理解描述符如何描述状态有助于自定义复制行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制状态描述符编译器",
+      "predicate": "构建",
+      "object": "复制状态描述符",
+      "context": "编译器基于反射数据工作，这是理解Iris自动化机制的重要环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制系统",
+      "predicate": "提供接口",
+      "object": "Gameplay代码",
+      "context": "复制系统是Gameplay代码与网络层的交互枢纽",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制网桥",
+      "predicate": "传输数据",
+      "object": "Gameplay代码和网络代码之间",
+      "context": "网桥的作用是连接游戏逻辑和网络层，是系统架构的关键部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象引用缓存",
+      "predicate": "存储",
+      "object": "UObject引用",
+      "context": "理解对象引用缓存有助于解决网络对象引用问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据流",
+      "predicate": "等效于",
+      "object": "数据通道",
+      "context": "将数据流与传统数据通道概念关联有助于已有知识迁移",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "更改遮罩",
+      "predicate": "跟踪",
+      "object": "脏数据",
+      "context": "理解脏数据跟踪机制对优化网络同步性能很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络Blob",
+      "predicate": "基类",
+      "object": "可复制数据",
+      "context": "网络Blob是理解自定义数据复制的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络RPC",
+      "predicate": "实现",
+      "object": "网络Blob",
+      "context": "RPC机制基于网络Blob实现，这是理解远程调用的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络对象",
+      "predicate": "关联",
+      "object": "网络引用句柄",
+      "context": "理解对象与句柄的映射关系对调试网络问题很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络引用句柄管理器",
+      "predicate": "分配",
+      "object": "网络对象ID",
+      "context": "管理器负责网络对象标识，这是对象追踪的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:15:48.891Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6926,
+    "contentLength": 3280,
+    "processingTimeMs": 65541
+  }
+}

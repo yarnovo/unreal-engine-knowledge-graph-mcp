@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_control-video-playback-with-blueprints-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_control-video-playback-with-blueprints-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "蓝图",
+      "predicate": "用于",
+      "object": "控制视频播放",
+      "context": "蓝图是虚幻引擎中的可视化脚本工具，可用于实现视频播放控制功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体播放器",
+      "predicate": "播放",
+      "object": "视频",
+      "context": "媒体播放器是虚幻引擎中负责播放视频的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体纹理",
+      "predicate": "关联",
+      "object": "媒体播放器",
+      "context": "媒体纹理用于在场景中显示媒体播放器播放的视频内容",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "文件媒体源",
+      "predicate": "提供",
+      "object": "视频文件",
+      "context": "文件媒体源用于指定要播放的视频文件路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡蓝图",
+      "predicate": "包含",
+      "object": "视频控制逻辑",
+      "context": "关卡蓝图是放置视频播放控制逻辑的主要位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "播放速率",
+      "predicate": "控制",
+      "object": "视频播放速度",
+      "context": "通过设置播放速率可以实现快进、倒回等视频控制功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件调度器",
+      "predicate": "确保",
+      "object": "媒体源完全打开",
+      "context": "使用事件调度器可以确保在媒体源完全打开后再执行相关操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体声音组件",
+      "predicate": "播放",
+      "object": "视频音频",
+      "context": "媒体声音组件用于播放视频中的音频部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平面Actor",
+      "predicate": "显示",
+      "object": "视频画面",
+      "context": "平面Actor用作视频播放的显示表面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "触发器节点",
+      "predicate": "实现",
+      "object": "播放/暂停切换",
+      "context": "触发器节点可用于实现按键切换播放和暂停状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "获取时间函数",
+      "predicate": "记录",
+      "object": "播放位置",
+      "context": "获取时间函数可用于记录视频的当前播放位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Seek函数",
+      "predicate": "定位",
+      "object": "特定播放时间",
+      "context": "Seek函数可以将视频定位到指定的时间位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体框架",
+      "predicate": "支持",
+      "object": "视频播放功能",
+      "context": "媒体框架是虚幻引擎中处理视频播放的核心系统",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "初学者内容包",
+      "predicate": "包含",
+      "object": "基础资源",
+      "context": "初学者内容包提供了项目开发所需的基础资源",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "第三人称模板",
+      "predicate": "提供",
+      "object": "基础项目结构",
+      "context": "第三人称模板项目提供了开发视频播放功能的基础结构",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:35:04.958Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9990 字符)",
+      "timestamp": "2025-06-15T18:34:17.310Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14736,
+    "contentLength": 9990,
+    "processingTimeMs": 47658
+  }
+}

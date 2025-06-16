@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_ndisplay-overview-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_ndisplay-overview-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "nDisplay系统",
+      "predicate": "包含",
+      "object": "主节点",
+      "context": "nDisplay系统由主节点和二级节点组成，主节点负责协调整个系统的运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay系统",
+      "predicate": "包含",
+      "object": "二级节点",
+      "context": "二级节点负责渲染显示设备上的内容，是nDisplay系统的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主节点",
+      "predicate": "控制",
+      "object": "二级节点",
+      "context": "主节点通过VRPN接收输入信号并复制给二级节点，协调整个系统的同步运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎项目实例",
+      "predicate": "渲染",
+      "object": "显示设备",
+      "context": "每个虚幻项目实例负责渲染一台或多台显示设备上的内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay插件",
+      "predicate": "实现",
+      "object": "信息同步",
+      "context": "nDisplay插件确保网络中所有应用实例实现信息同步和沟通",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay配置资产",
+      "predicate": "包含",
+      "object": "群集PC配置",
+      "context": "配置资产中定义了群集PC配置，包括计算机、视口和GPU分配等信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay 3D配置编辑器",
+      "predicate": "用于",
+      "object": "配置nDisplay系统",
+      "context": "开发者使用3D配置编辑器来设置nDisplay系统的各种参数和组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "用于",
+      "object": "启动nDisplay项目",
+      "context": "Switchboard工具用于将项目启动到物理nDisplay设置上",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "故障转移",
+      "predicate": "解决",
+      "object": "节点故障",
+      "context": "故障转移机制可以在节点出现故障时从集群中删除该节点，保证系统继续运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多GPU支持",
+      "predicate": "提升",
+      "object": "渲染性能",
+      "context": "使用多个GPU可以提升nDisplay系统的渲染性能和硬件利用率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DisplayClusterRoot组件",
+      "predicate": "控制",
+      "object": "虚拟空间根位置",
+      "context": "DisplayClusterRoot组件定义了nDisplay虚拟空间的根位置，影响所有场景对象的渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图API",
+      "predicate": "提供",
+      "object": "运行时控制",
+      "context": "nDisplay的蓝图API允许在游戏运行时逻辑中控制系统行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay API",
+      "predicate": "支持",
+      "object": "系统扩展",
+      "context": "nDisplay提供了可扩展的API，允许开发者自定义渲染、同步等功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Windows",
+      "predicate": "支持",
+      "object": "nDisplay完整功能",
+      "context": "nDisplay在Windows系统上支持所有工具和功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Linux",
+      "predicate": "支持",
+      "object": "nDisplay基础功能",
+      "context": "nDisplay在Linux系统上提供初级支持，但存在一些功能限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NVIDIA Mosaic",
+      "predicate": "用于",
+      "object": "屏幕拼接",
+      "context": "NVIDIA Mosaic技术可用于实现nDisplay系统中的屏幕拼接效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AMD Eyefinity",
+      "predicate": "用于",
+      "object": "屏幕拼接",
+      "context": "AMD Eyefinity技术可用于实现nDisplay系统中的屏幕拼接效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VRPN",
+      "predicate": "传输",
+      "object": "输入信号",
+      "context": "VRPN通过Live Link连接传输空间跟踪器和控制器的输入信号",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay快速入门",
+      "predicate": "提供",
+      "object": "示例配置",
+      "context": "nDisplay快速入门文档提供了开始使用示例配置的步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输出映射工具",
+      "predicate": "用于",
+      "object": "视口映射",
+      "context": "输出映射工具用于将多个视口映射到完整的2D画幅上",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:04:26.335Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10490 字符)",
+      "timestamp": "2025-06-15T20:03:27.282Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17526,
+    "contentLength": 10490,
+    "processingTimeMs": 59066
+  }
+}

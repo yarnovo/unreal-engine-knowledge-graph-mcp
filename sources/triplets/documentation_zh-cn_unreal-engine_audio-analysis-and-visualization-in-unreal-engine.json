@@ -1,0 +1,77 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_audio-analysis-and-visualization-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_audio-analysis-and-visualization-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "音频分析和可视化",
+      "predicate": "基于",
+      "object": "音频共感插件",
+      "context": "音频分析和可视化功能依赖于音频共感插件来生成音频元数据，这是理解音频分析功能的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频共感插件",
+      "predicate": "生成",
+      "object": "音频元数据",
+      "context": "音频共感插件的主要功能是生成音频元数据，这是后续音频分析和可视化的基础数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频元数据",
+      "predicate": "用于",
+      "object": "蓝图脚本",
+      "context": "音频共感插件生成的元数据可以直接在蓝图脚本中使用，这是音频功能与可视化编程的接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频分析和可视化",
+      "predicate": "属于",
+      "object": "Beta功能",
+      "context": "文档明确指出该功能目前处于Beta阶段，这对学习者理解功能成熟度和使用风险很重要",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "音频分析和可视化",
+      "predicate": "关联",
+      "object": "音频可视化",
+      "context": "音频分析和可视化功能与音频可视化概念密切相关，后者是前者的重要应用方向",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "音频分析和可视化",
+      "predicate": "关联",
+      "object": "音频分析",
+      "context": "音频分析和可视化功能的核心包含音频分析技术，这是理解该功能的技术基础",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频共感插件",
+      "predicate": "支持",
+      "object": "音频分析",
+      "context": "音频共感插件通过生成元数据来支持音频分析功能的实现",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻引擎5.6",
+      "predicate": "包含",
+      "object": "音频分析和可视化",
+      "context": "音频分析和可视化是虚幻引擎5.6版本的一个功能模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:07:20.056Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 1472,
+    "contentLength": 1204,
+    "processingTimeMs": 29787
+  }
+}

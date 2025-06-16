@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_mutable-resource-usage-at-runtime-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_mutable-resource-usage-at-runtime-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Mutable",
+      "predicate": "是",
+      "object": "Beta功能",
+      "context": "文档明确指出Mutable是Beta功能，学习者需要了解其特性状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mutable",
+      "predicate": "需要",
+      "object": "额外资源",
+      "context": "运行时使用Mutable需要CPU时间、内存和磁盘流送带宽等额外资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mutable",
+      "predicate": "生成",
+      "object": "标准虚幻引擎资源",
+      "context": "Mutable生成的最终资产是标准的虚幻引擎资源，如纹理、骨骼网格体等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mutable",
+      "predicate": "使用",
+      "object": "虚幻任务系统",
+      "context": "Mutable利用虚幻任务系统将CPU加载工作拆分为多个任务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mutable",
+      "predicate": "集成",
+      "object": "虚幻引擎纹理流送功能",
+      "context": "Mutable可以与虚幻引擎的纹理流送功能集成，学习者需要了解这种集成机制",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mutable",
+      "predicate": "依赖",
+      "object": "虚幻磁盘流送系统",
+      "context": "Mutable在角色持续构建过程中会加载自身数据，依赖虚幻磁盘流送系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mutable",
+      "predicate": "受控于",
+      "object": "UCustomizableObject::SetWorkingMemory方法",
+      "context": "开发者可以通过SetWorkingMemory方法控制Mutable的工作内存限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mutable",
+      "predicate": "受控于",
+      "object": "mutable.WorkingMemory控制台变量",
+      "context": "开发者可以通过控制台变量调整Mutable的工作内存限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mutable操作",
+      "predicate": "是",
+      "object": "异步操作",
+      "context": "所有Mutable操作都是异步进行，学习者需要理解其异步特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CustomizableObjectInstance",
+      "predicate": "触发",
+      "object": "Mutable更新操作",
+      "context": "当CustomizableObjectInstance参数更改时，会触发Mutable的更新操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "监控",
+      "object": "Mutable资源使用",
+      "context": "Unreal Insights可以监控Mutable的CPU和内存使用情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mutable工作内存",
+      "predicate": "取决于",
+      "object": "CustomizableObject",
+      "context": "Mutable使用的工作内存量取决于正在构建的CustomizableObject",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mutable",
+      "predicate": "创建或替换",
+      "object": "引擎资源",
+      "context": "当Mutable完成更新操作时，会创建或替换引擎资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:02:50.076Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3999,
+    "contentLength": 2339,
+    "processingTimeMs": 40591
+  }
+}

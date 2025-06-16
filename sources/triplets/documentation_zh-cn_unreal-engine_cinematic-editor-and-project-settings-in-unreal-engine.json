@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_cinematic-editor-and-project-settings-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_cinematic-editor-and-project-settings-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Sequencer",
+      "predicate": "包含",
+      "object": "编辑器偏好设置",
+      "context": "Sequencer的编辑器偏好设置用于配置本地用户的行为偏好，帮助学习者理解如何个性化设置Sequencer工作环境",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "包含",
+      "object": "项目设置",
+      "context": "Sequencer的项目设置影响整个项目的默认行为，帮助学习者理解团队协作时的统一配置方式",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器偏好设置",
+      "predicate": "分为",
+      "object": "关键帧设置",
+      "context": "关键帧设置控制自动关键帧和轨道创建行为，是动画制作的核心配置项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器偏好设置",
+      "predicate": "分为",
+      "object": "通用设置",
+      "context": "通用设置包含可生成对象位置等基础配置，影响Sequencer的默认工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动关键帧模式",
+      "predicate": "包含",
+      "object": "自动轨道模式",
+      "context": "自动轨道模式是自动关键帧模式的子选项，理解这种包含关系有助于掌握关键帧自动化工作流",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "支持",
+      "object": "曲线编辑器",
+      "context": "曲线编辑器与Sequencer深度集成，用于精细调整动画曲线，是高级动画制作的必备工具",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "分为",
+      "object": "引擎设置",
+      "context": "引擎设置控制序列的默认时间参数，是理解Sequencer时间系统的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "分为",
+      "object": "编辑器设置",
+      "context": "编辑器设置管理镜头和试拍的命名规则，对影视流程标准化很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "分为",
+      "object": "插件设置",
+      "context": "插件设置控制自动绑定等扩展功能，影响Sequencer与其他系统的交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX设置",
+      "predicate": "用于",
+      "object": "FBX动画导入",
+      "context": "FBX设置专门用于配置FBX文件导入时的属性映射，是外部动画资源导入的关键配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "轨道设置",
+      "predicate": "控制",
+      "object": "自动轨道创建",
+      "context": "轨道设置数组定义了绑定特定Actor类时自动创建的轨道类型，影响工作效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "依赖",
+      "object": "关卡序列编辑器",
+      "context": "关卡序列编辑器是Sequencer的主要界面，理解这种依赖关系有助于定位核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "支持",
+      "object": "Niagara序列编辑器",
+      "context": "Niagara序列编辑器扩展了Sequencer的特效制作能力，展示其模块化架构",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认显示速率",
+      "predicate": "影响",
+      "object": "序列播放速度",
+      "context": "默认显示速率设置决定了新序列的基准播放速度，是时间控制的基础参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动绑定到PIE",
+      "predicate": "控制",
+      "object": "编辑器内测试",
+      "context": "此设置决定序列是否自动连接到编辑器内测试会话，影响快速迭代流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧插值",
+      "predicate": "决定",
+      "object": "动画过渡效果",
+      "context": "关键帧插值类型设置直接影响动画曲线形态，是动画平滑度的关键控制参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试可视化",
+      "predicate": "用于",
+      "object": "性能分析",
+      "context": "调试可视化功能帮助开发者分析Sequencer的性能瓶颈，是优化复杂动画的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对齐设置",
+      "predicate": "优化",
+      "object": "关键帧编辑",
+      "context": "各种对齐选项可以显著提高关键帧编辑的精度和效率，是专业动画制作的必备功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "保存和重置",
+      "predicate": "管理",
+      "object": "配置持久化",
+      "context": "保存和重置功能帮助用户管理和共享Sequencer配置，对团队协作很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:23:22.698Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (16855 字符)",
+      "timestamp": "2025-06-15T18:22:17.772Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 25077,
+    "contentLength": 16855,
+    "processingTimeMs": 64928
+  }
+}

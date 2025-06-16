@@ -1,0 +1,131 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_geometry-scripting-through-blueprints-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_geometry-scripting-through-blueprints-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Geometry Scripting",
+      "predicate": "基于",
+      "object": "Blueprint",
+      "context": "Geometry Scripting通过Blueprint提供自定义建模工具和工作流的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Geometry Scripting",
+      "predicate": "支持",
+      "object": "Python",
+      "context": "Geometry Scripting也支持通过Python进行脚本编写",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Geometry Scripting",
+      "predicate": "用于",
+      "object": "Procedural Content Generation Framework",
+      "context": "Procedural Content Generation Framework以Geometry Scripting为基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GeneratedDynamicMeshActor",
+      "predicate": "属于",
+      "object": "Geometry Scripting",
+      "context": "GeneratedDynamicMeshActor是Geometry Scripting插件提供的类，用于创建动态网格",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Event on Rebuild Generated Mesh",
+      "predicate": "触发",
+      "object": "Dynamic Mesh更新",
+      "context": "该事件在动态网格参数更新时触发，导致网格重建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Append Box",
+      "predicate": "添加",
+      "object": "基本几何体",
+      "context": "Append Box节点用于向动态网格添加基本立方体几何体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Apply Mesh Boolean",
+      "predicate": "执行",
+      "object": "布尔运算",
+      "context": "该节点用于对网格执行布尔运算（如相加或相减）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Bake Static Mesh",
+      "predicate": "转换",
+      "object": "Dynamic Mesh到Static Mesh",
+      "context": "该功能将动态网格转换为静态网格，便于在关卡设计中使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3D Widget",
+      "predicate": "控制",
+      "object": "网格参数",
+      "context": "3D小部件允许在编辑器中交互式地调整网格参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Geometry Scripting",
+      "predicate": "前置知识",
+      "object": "Blueprint基础",
+      "context": "使用Geometry Scripting需要先掌握Blueprint基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Dynamic Mesh",
+      "predicate": "可替换为",
+      "object": "Static Mesh",
+      "context": "通过Bake功能可以将动态网格转换为静态网格",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Get Compute Mesh Pool",
+      "predicate": "提供",
+      "object": "临时网格",
+      "context": "该节点从网格池中分配临时网格用于布尔运算",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Geometry Scripting",
+      "predicate": "适用于",
+      "object": "快速关卡设计",
+      "context": "该技术特别适合用于快速创建关卡原型",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Geometry Scripting",
+      "predicate": "扩展",
+      "object": "建模工作流",
+      "context": "该技术扩展了Unreal Engine的建模功能",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T19:12:18.713Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (17184 字符)",
+      "timestamp": "2025-06-15T19:11:18.437Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17414,
+    "contentLength": 17184,
+    "processingTimeMs": 60285
+  }
+}

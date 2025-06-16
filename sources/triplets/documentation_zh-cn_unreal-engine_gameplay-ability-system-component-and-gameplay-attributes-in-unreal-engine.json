@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_gameplay-ability-system-component-and-gameplay-attributes-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_gameplay-ability-system-component-and-gameplay-attributes-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "UAbilitySystemComponent",
+      "predicate": "是桥梁",
+      "object": "Gameplay Ability System",
+      "context": "技能系统组件是Actor和游戏玩法技能系统之间的桥梁，帮助学习者理解核心组件的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor",
+      "predicate": "需要实现",
+      "object": "IAbilitySystemInterface",
+      "context": "Actor子类需要实现IAbilitySystemInterface接口才能使用游戏玩法技能系统，这是基础要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IAbilitySystemInterface",
+      "predicate": "包含",
+      "object": "GetAbilitySystemComponent",
+      "context": "接口必须实现GetAbilitySystemComponent函数，这是使用技能系统的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "APawn",
+      "predicate": "可以共享",
+      "object": "PlayerState的UAbilitySystemComponent",
+      "context": "Pawn可以共享PlayerState的技能系统组件，这种设计模式用于持久性数据存储",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Gameplay Ability System",
+      "predicate": "依赖",
+      "object": "GameplayAbilitySystem插件",
+      "context": "使用GAS前必须启用对应插件，这是系统运行的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UAbilitySystemComponent",
+      "predicate": "不支持",
+      "object": "多个组件实例",
+      "context": "单个Actor不能拥有多个技能系统组件，避免查询模糊问题",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "GetAbilitySystemComponent",
+      "predicate": "返回",
+      "object": "UAbilitySystemComponent",
+      "context": "该函数的核心功能是返回关联的技能系统组件实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ACharacter",
+      "predicate": "常用作",
+      "object": "GAS基础类",
+      "context": "角色类常作为实现GAS的基类，帮助学习者选择合适继承路径",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "装备系统",
+      "predicate": "可以绑定到",
+      "object": "主Actor的UAbilitySystemComponent",
+      "context": "装备等绑定Actor可以将技能请求路由到主Actor组件，展示组件复用模式",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "技能冷却时间",
+      "predicate": "适合存储在",
+      "object": "PlayerState的UAbilitySystemComponent",
+      "context": "持久性游戏数据应存储在PlayerState组件中，这是重要的架构设计原则",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:09:30.631Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5924,
+    "contentLength": 3766,
+    "processingTimeMs": 41267
+  }
+}

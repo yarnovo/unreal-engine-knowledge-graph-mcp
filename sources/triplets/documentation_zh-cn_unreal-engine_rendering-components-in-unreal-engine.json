@@ -1,0 +1,123 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_rendering-components-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_rendering-components-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "大气雾组件",
+      "predicate": "用于",
+      "object": "创建雾效",
+      "context": "大气雾组件专门用于模拟场景中的云或大气雾效果，是环境光照系统的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "衰减高度",
+      "predicate": "控制",
+      "object": "雾密度",
+      "context": "衰减高度是大气雾组件的关键参数，直接影响雾的浓淡分布，学习该参数有助于掌握环境氛围调控",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "指数高度雾组件",
+      "predicate": "替代",
+      "object": "大气雾组件",
+      "context": "当需要基于高度的雾效渐变时，指数高度雾比大气雾组件更合适，两者形成互补关系",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "广告牌组件",
+      "predicate": "类似于",
+      "object": "箭头组件",
+      "context": "两者都是辅助开发的可视化工具组件，广告牌组件更专注于2D纹理的朝向控制",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质广告牌组件",
+      "predicate": "优化",
+      "object": "植被渲染",
+      "context": "通过2D材质模拟3D植被效果，显著降低渲染开销，是LOD技术的典型应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "实例化静态网格体组件",
+      "predicate": "优化",
+      "object": "批量渲染",
+      "context": "通过单DrawCall渲染多个相同网格体实例，是场景优化的核心技术",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "粒子系统组件",
+      "predicate": "实现",
+      "object": "动态特效",
+      "context": "作为VFX系统的核心组件，与Niagara/Cascade粒子编辑器深度集成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理组件",
+      "predicate": "依赖",
+      "object": "蓝图系统",
+      "context": "需要通过蓝图控制后处理参数，是游戏逻辑与渲染管线的桥梁",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "场景捕获2D组件",
+      "predicate": "用于",
+      "object": "实时反射",
+      "context": "与渲染目标配合使用，是实现镜面/监控屏幕等效果的基础技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "样条线网格体组件",
+      "predicate": "扩展",
+      "object": "静态网格体功能",
+      "context": "通过样条曲线实现网格体的动态变形，常用于管道/电缆等柔性物体",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "贴花组件",
+      "predicate": "基于",
+      "object": "材质系统",
+      "context": "将材质投影到表面实现细节增强，需要深入理解材质坐标空间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿态网格体组件",
+      "predicate": "继承自",
+      "object": "骨骼网格体",
+      "context": "在保留骨骼动画功能基础上增加蓝图控制能力，是动画系统的进阶组件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "渲染组件",
+      "predicate": "包含",
+      "object": "13种核心组件",
+      "context": "文档系统化介绍了虚幻引擎的主要渲染组件构成，形成完整知识体系",
+      "direction": "unidirectional",
+      "confidence": 1
+    }
+  ],
+  "timestamp": "2025-06-15T20:37:20.624Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9364 字符)",
+      "timestamp": "2025-06-15T20:36:27.530Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14076,
+    "contentLength": 9364,
+    "processingTimeMs": 53100
+  }
+}

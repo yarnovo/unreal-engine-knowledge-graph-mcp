@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_exporting-datasmith-content-from-revit-to-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_exporting-datasmith-content-from-revit-to-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Datasmith Exporter插件",
+      "predicate": "安装于",
+      "object": "Revit",
+      "context": "插件需要安装在Revit中才能使用导出功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith Exporter插件",
+      "predicate": "提供",
+      "object": "导出3D视图功能",
+      "context": "插件安装后会在Revit的插件条带中提供导出3D视图的选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3D视图",
+      "predicate": "用于",
+      "object": "导出Datasmith内容",
+      "context": "需要选择3D视图作为导出内容的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可视性设置",
+      "predicate": "控制",
+      "object": "导出内容范围",
+      "context": "插件使用3D视图的可视性设置来确定哪些场景部分需要导出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导出3D视图",
+      "predicate": "生成",
+      "object": ".udatasmith文件",
+      "context": "导出操作会生成一个.udatasmith格式的文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": ".udatasmith文件",
+      "predicate": "关联",
+      "object": "_Assets文件夹",
+      "context": "每个.udatasmith文件都有一个对应的_Assets文件夹，包含相关资源",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": ".udatasmith文件",
+      "predicate": "用于",
+      "object": "导入到虚幻编辑器",
+      "context": "导出的文件可以导入到虚幻引擎编辑器中进行进一步处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Revit",
+      "predicate": "与",
+      "object": "虚幻引擎",
+      "context": "通过Datasmith技术实现Revit与虚幻引擎之间的数据交换",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "支持",
+      "object": "建筑数据转换",
+      "context": "Datasmith专门用于建筑可视化领域的数据转换和导入",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "导出3D视图",
+      "predicate": "依赖",
+      "object": "Datasmith Exporter插件",
+      "context": "导出功能需要依赖插件才能实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:01:37.476Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3241,
+    "contentLength": 2501,
+    "processingTimeMs": 40348
+  }
+}

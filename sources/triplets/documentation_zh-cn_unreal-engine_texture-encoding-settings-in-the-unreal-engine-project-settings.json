@@ -1,0 +1,197 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_texture-encoding-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_texture-encoding-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "纹理编码",
+      "predicate": "包含",
+      "object": "编码速度设置",
+      "context": "编码速度设置是纹理编码的一部分，用于控制纹理编码的行为和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理编码",
+      "predicate": "包含",
+      "object": "编码速度",
+      "context": "编码速度是纹理编码的一部分，用于定义不同场景下的编码速度设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编码速度设置",
+      "predicate": "包含",
+      "object": "最终使用RDO",
+      "context": "最终使用RDO是编码速度设置中的一个选项，用于控制纹理编码时的率失真优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编码速度设置",
+      "predicate": "包含",
+      "object": "最终RDO Lambda",
+      "context": "最终RDO Lambda是编码速度设置中的一个参数，用于控制率失真优化的质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编码速度设置",
+      "predicate": "包含",
+      "object": "最终工作级别",
+      "context": "最终工作级别是编码速度设置中的一个选项，用于控制编码时间和质量的平衡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编码速度设置",
+      "predicate": "包含",
+      "object": "最终通用平铺",
+      "context": "最终通用平铺是编码速度设置中的一个选项，用于优化磁盘上的平铺纹理布局",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编码速度设置",
+      "predicate": "包含",
+      "object": "快速使用RDO",
+      "context": "快速使用RDO是编码速度设置中的一个选项，用于快速编码时的率失真优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编码速度设置",
+      "predicate": "包含",
+      "object": "快速RDO Lambda",
+      "context": "快速RDO Lambda是编码速度设置中的一个参数，用于控制快速编码时的率失真优化质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编码速度设置",
+      "predicate": "包含",
+      "object": "快速工作级别",
+      "context": "快速工作级别是编码速度设置中的一个选项，用于控制快速编码时的编码时间和质量平衡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编码速度设置",
+      "predicate": "包含",
+      "object": "快速通用平铺",
+      "context": "快速通用平铺是编码速度设置中的一个选项，用于快速编码时的平铺纹理布局优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编码速度",
+      "predicate": "包含",
+      "object": "烘焙使用速度",
+      "context": "烘焙使用速度是编码速度中的一个选项，用于定义非交互式编辑器会话的编码速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编码速度",
+      "predicate": "包含",
+      "object": "编辑器使用速度",
+      "context": "编辑器使用速度是编码速度中的一个选项，用于定义其他所有内容的编码速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "最终使用RDO",
+      "predicate": "控制",
+      "object": "LossyCompressionAmount",
+      "context": "最终使用RDO通过LossyCompressionAmount参数来控制纹理的率失真优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "快速使用RDO",
+      "predicate": "控制",
+      "object": "LossyCompressionAmount",
+      "context": "快速使用RDO通过LossyCompressionAmount参数来控制纹理的率失真优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LossyCompressionAmount",
+      "predicate": "对应",
+      "object": "RDO lambda",
+      "context": "LossyCompressionAmount的不同值对应于不同的RDO lambda，用于控制率失真优化的质量",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "最终RDO Lambda",
+      "predicate": "影响",
+      "object": "纹理质量",
+      "context": "最终RDO Lambda的值影响纹理编码的质量，低值表示更高质量结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "快速RDO Lambda",
+      "predicate": "影响",
+      "object": "纹理质量",
+      "context": "快速RDO Lambda的值影响纹理编码的质量，低值表示更高质量结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "最终工作级别",
+      "predicate": "影响",
+      "object": "编码时间与质量",
+      "context": "最终工作级别的选择影响编码时间和质量的平衡，高工作级别提供更好的质量但需要更长时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "快速工作级别",
+      "predicate": "影响",
+      "object": "编码时间与质量",
+      "context": "快速工作级别的选择影响编码时间和质量的平衡，高工作级别提供更好的质量但需要更长时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "最终通用平铺",
+      "predicate": "优化",
+      "object": "纹理编码",
+      "context": "最终通用平铺优化磁盘上的平铺纹理布局，从而优化纹理编码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "快速通用平铺",
+      "predicate": "优化",
+      "object": "纹理编码",
+      "context": "快速通用平铺优化磁盘上的平铺纹理布局，从而优化纹理编码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "烘焙使用速度",
+      "predicate": "选择",
+      "object": "编码速度设置",
+      "context": "烘焙使用速度可以选择使用最终或快速编码速度设置，以适应不同的编码需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器使用速度",
+      "predicate": "选择",
+      "object": "编码速度设置",
+      "context": "编辑器使用速度可以选择使用最终或快速编码速度设置，以适应不同的编码需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:00:23.549Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6837,
+    "contentLength": 4013,
+    "processingTimeMs": 66990
+  }
+}

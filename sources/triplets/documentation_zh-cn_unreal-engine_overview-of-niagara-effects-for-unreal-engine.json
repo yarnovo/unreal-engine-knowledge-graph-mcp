@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_overview-of-niagara-effects-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_overview-of-niagara-effects-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Niagara",
+      "predicate": "是",
+      "object": "虚幻引擎的下一代视觉特效处理系统",
+      "context": "Niagara是虚幻引擎中用于创建视觉特效的核心系统，帮助学习者理解其在引擎中的定位",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Niagara系统",
+      "predicate": "包含",
+      "object": "发射器",
+      "context": "系统作为容器可以包含多个发射器，这是构建复杂特效的基础结构关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器",
+      "predicate": "生成",
+      "object": "粒子",
+      "context": "发射器的主要功能是控制粒子的生成和行为，这是理解粒子特效工作原理的关键",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "发射器",
+      "predicate": "包含",
+      "object": "模块",
+      "context": "发射器通过模块堆栈实现功能，模块是构成特效行为的基本单元",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块",
+      "predicate": "使用",
+      "object": "HLSL",
+      "context": "模块内部使用高级着色语言实现数学运算，这对理解模块的底层实现很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "参数",
+      "predicate": "定义",
+      "object": "数据抽象",
+      "context": "参数是Niagara中数据的抽象表示，理解参数类型对数据操作至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "系统向导",
+      "predicate": "用于",
+      "object": "创建Niagara系统",
+      "context": "向导提供了多种创建系统的方式，是学习系统创建流程的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器向导",
+      "predicate": "用于",
+      "object": "创建Niagara发射器",
+      "context": "向导指导发射器创建过程，包含从模板创建等关键学习路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态输入",
+      "predicate": "扩展",
+      "object": "模块功能",
+      "context": "动态输入可以不创建新模块就扩展功能，是重要的性能优化概念",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "事件",
+      "predicate": "实现",
+      "object": "元素间通信",
+      "context": "事件系统允许不同元素间通信，是构建复杂交互特效的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据接口",
+      "predicate": "访问",
+      "object": "外部数据",
+      "context": "数据接口扩展了Niagara的数据源，支持与引擎其他部分的集成",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "Houdini",
+      "predicate": "导出数据到",
+      "object": "Niagara",
+      "context": "Houdini与Niagara的集成流程，对跨软件工作流很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "发射器生成组",
+      "predicate": "处理",
+      "object": "发射器初始化",
+      "context": "理解不同组的功能划分是掌握发射器工作原理的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子更新组",
+      "predicate": "控制",
+      "object": "粒子行为变化",
+      "context": "粒子更新组处理粒子生命周期中的持续变化，是动态效果的核心",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染组",
+      "predicate": "定义",
+      "object": "粒子显示",
+      "context": "渲染组决定粒子最终呈现方式，连接了逻辑与视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模板",
+      "predicate": "加速",
+      "object": "特效开发",
+      "context": "模板系统为学习者提供了快速入门的途径和最佳实践参考",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "继承",
+      "predicate": "支持",
+      "object": "资产复用",
+      "context": "继承机制提高了资产复用效率，是大型项目管理的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "微表达式",
+      "predicate": "简化",
+      "object": "小型功能实现",
+      "context": "微表达式适合快速实现简单功能，避免创建完整模块的开销",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "网格体渲染器",
+      "predicate": "用于",
+      "object": "3D粒子渲染",
+      "context": "不同类型的渲染器对应不同的视觉效果需求",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "Sprite渲染器",
+      "predicate": "用于",
+      "object": "2D粒子渲染",
+      "context": "理解不同渲染器的适用场景是选择正确渲染方式的基础",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T20:14:26.003Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13552 字符)",
+      "timestamp": "2025-06-15T20:13:27.038Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 22234,
+    "contentLength": 13552,
+    "processingTimeMs": 58975
+  }
+}

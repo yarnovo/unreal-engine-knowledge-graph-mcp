@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_online-services-interfaces-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_online-services-interfaces-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "在线服务插件",
+      "predicate": "包含",
+      "object": "接口",
+      "context": "在线服务插件通过模块化接口提供对平台在线服务的访问，理解这一包含关系有助于学习者掌握插件的架构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "接口",
+      "predicate": "分组",
+      "object": "功能",
+      "context": "接口按支持的功能分组，这一关系帮助学习者理解接口的组织逻辑和功能划分原则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "成就接口",
+      "predicate": "实现",
+      "object": "玩家成就管理",
+      "context": "明确接口与功能的对应关系，帮助学习者快速定位特定功能对应的接口",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "身份验证接口",
+      "predicate": "用于",
+      "object": "用户身份核验",
+      "context": "展示接口的具体用途，帮助学习者理解何时需要使用该接口",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "商务接口",
+      "predicate": "支持",
+      "object": "游戏内容交易",
+      "context": "阐明非Gameplay场景下的功能支持，扩展学习者对接口应用场景的认识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "连接接口",
+      "predicate": "检测",
+      "object": "平台服务连接状态",
+      "context": "说明接口的核心功能，帮助学习者建立网络连接检测的实现方案",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "外部UI接口",
+      "predicate": "显示",
+      "object": "平台原生界面",
+      "context": "区分引擎UI与平台原生UI的调用方式，对跨平台UI开发有指导意义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "社交接口",
+      "predicate": "管理",
+      "object": "用户关系",
+      "context": "明确社交系统的技术实现路径，包含好友和黑名单管理功能",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "会话接口",
+      "predicate": "创建",
+      "object": "在线游戏会话",
+      "context": "揭示多人游戏会话管理的核心技术组件，对网络游戏开发至关重要",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "大厅接口",
+      "predicate": "扩展",
+      "object": "会话管理功能",
+      "context": "展示大厅系统与会话系统的关联性，帮助理解复杂多人游戏架构",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "统计数据接口",
+      "predicate": "上传",
+      "object": "游戏数据",
+      "context": "说明游戏数据分析功能的技术实现方式，对数据驱动开发很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "用户信息接口",
+      "predicate": "获取",
+      "object": "玩家资料",
+      "context": "明确用户数据获取途径，对社交功能和个人化体验开发有直接帮助",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "在线服务插件",
+      "predicate": "处于",
+      "object": "Beta阶段",
+      "context": "提醒学习者注意技术成熟度，在产品开发中需要谨慎评估使用风险",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "权限接口",
+      "predicate": "验证",
+      "object": "跨平台功能权限",
+      "context": "说明跨平台游戏开发中的权限管理要点，对多平台兼容性设计很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "作品文件接口",
+      "predicate": "读取",
+      "object": "服务端数据",
+      "context": "区分用户数据与作品数据的获取方式，帮助理解数据存储架构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:09:24.936Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5602,
+    "contentLength": 4426,
+    "processingTimeMs": 45576
+  }
+}

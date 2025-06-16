@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_misc-material-functions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_misc-material-functions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "TimeWithSpeedVariable",
+      "predicate": "扩展",
+      "object": "Time节点",
+      "context": "TimeWithSpeedVariable在Time节点基础上增加了速度乘数功能，帮助学习者理解时间控制的进阶用法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TimeWithSpeedVariable",
+      "predicate": "生成",
+      "object": "小数时间",
+      "context": "该函数可以输出时间运算的小数部分，这是学习周期性动画效果的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OffsetAndScaleTo1",
+      "predicate": "处理",
+      "object": "数值范围标准化",
+      "context": "该函数演示了如何将任意数值范围标准化到0-1区间，这是材质编程中的基础数学操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PassThrough",
+      "predicate": "用于",
+      "object": "材质图组织",
+      "context": "该节点虽无功能但能改善材质图可读性，帮助学习者理解开发中的注释和组织技巧",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "SplitComponents",
+      "predicate": "分解",
+      "object": "颜色通道",
+      "context": "该函数展示如何分离RGB通道，是学习颜色处理和纹理操作的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Flipbook",
+      "predicate": "处理",
+      "object": "精灵动画",
+      "context": "该函数实现基于纹理序列的动画播放，帮助理解2D动画在3D引擎中的实现原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "杂项材质函数",
+      "predicate": "包含",
+      "object": "TimeWithSpeedVariable",
+      "context": "这些函数属于同一功能类别，帮助学习者建立材质函数分类的认知框架",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "杂项材质函数",
+      "predicate": "包含",
+      "object": "OffsetAndScaleTo1",
+      "context": "展示引擎提供的常用数学运算工具集",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "杂项材质函数",
+      "predicate": "包含",
+      "object": "SplitComponents",
+      "context": "共同构成材质编辑的基础工具链",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Flipbook",
+      "predicate": "依赖",
+      "object": "UV坐标",
+      "context": "理解UV坐标操作是使用该函数的前提，建立纹理映射的知识关联",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "TimeWithSpeedVariable",
+      "predicate": "类似",
+      "object": "Flipbook",
+      "context": "两者都涉及时间控制概念，可对比学习动画控制的不同实现方式",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "SplitComponents",
+      "predicate": "前置知识",
+      "object": "颜色空间",
+      "context": "使用该函数需要先理解RGB颜色模型，建立概念依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:57:21.125Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5432,
+    "contentLength": 3408,
+    "processingTimeMs": 51682
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_advanced-setup-and-troubleshooting-guide-for-using-android-sdk",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_advanced-setup-and-troubleshooting-guide-for-using-android-sdk.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "使用",
+      "object": "Android SDK",
+      "context": "虚幻引擎依赖Android SDK进行Android平台的开发，这是开发Android应用的基础组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android SDK",
+      "predicate": "包含",
+      "object": "Android NDK",
+      "context": "Android SDK包含NDK，用于支持原生代码开发，是Android开发的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "依赖",
+      "object": "Android Studio",
+      "context": "虚幻引擎需要Android Studio来安装和管理Android SDK及NDK，是开发环境的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android Studio",
+      "predicate": "提供",
+      "object": "Android SDK",
+      "context": "Android Studio是安装和管理Android SDK的主要工具，开发者通过它获取必要的开发组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SetupAndroid脚本",
+      "predicate": "用于",
+      "object": "安装Android NDK",
+      "context": "SetupAndroid脚本是虚幻引擎提供的工具，用于自动下载和安装所需的Android NDK版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "多版本NDK",
+      "context": "虚幻引擎支持不同版本的NDK，开发者可以根据项目需求选择合适的版本",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Android SDK",
+      "predicate": "需要",
+      "object": "环境变量配置",
+      "context": "正确配置环境变量（如JAVA_HOME、ANDROID_HOME）是确保Android SDK正常工作的关键",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "升级",
+      "object": "JDK版本",
+      "context": "从UE 5.3开始，虚幻引擎使用OpenJDK 17替代了之前的Java 1.8，开发者需要注意版本兼容性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "允许",
+      "object": "手动定位SDK路径",
+      "context": "在项目设置中，开发者可以手动指定SDK、NDK和JDK的路径，以支持非标准安装或多版本共存",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BaseEngine.ini",
+      "predicate": "配置",
+      "object": "Android SDK路径",
+      "context": "BaseEngine.ini文件可以用于配置Android SDK、NDK和JDK的默认路径，是高级设置的入口",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Android开发",
+      "predicate": "需要",
+      "object": "命令行工具",
+      "context": "Android开发需要安装Android SDK命令行工具，这是构建和调试的基础组件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "兼容",
+      "object": "特定Android Studio版本",
+      "context": "不同版本的虚幻引擎需要特定版本的Android Studio和NDK，开发者需参考文档选择兼容版本",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:54:49.916Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8529 字符)",
+      "timestamp": "2025-06-15T17:54:05.940Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12947,
+    "contentLength": 8529,
+    "processingTimeMs": 43991
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_ndisplay-overscan-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_ndisplay-overscan-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "nDisplay过扫描",
+      "predicate": "用于",
+      "object": "群集渲染",
+      "context": "nDisplay过扫描技术主要用于群集渲染场景，帮助实现多渲染节点间的像素级完美连续性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay过扫描",
+      "predicate": "支持",
+      "object": "后期效果",
+      "context": "该技术通过可配置的过扫描百分比，支持在nDisplay项目中启用高品质后期视觉效果",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay过扫描",
+      "predicate": "影响",
+      "object": "性能开销",
+      "context": "启用过扫描会带来可配置的性能开销，需要在视觉精度和性能之间取得平衡",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Bloom",
+      "predicate": "兼容",
+      "object": "nDisplay过扫描",
+      "context": "泛光效果在小/中程度辐射范围内与nDisplay过扫描技术兼容",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动曝光",
+      "predicate": "不兼容",
+      "object": "nDisplay过扫描",
+      "context": "文档明确指出应保持禁用自动曝光，因为过扫描不能解决该问题",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "Motion Blur",
+      "predicate": "部分兼容",
+      "object": "nDisplay过扫描",
+      "context": "动态模糊效果可通过过扫描实现，但不适用于过场动画场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "SSAO",
+      "predicate": "兼容条件",
+      "object": "nDisplay过扫描",
+      "context": "屏幕空间环境光遮蔽需保持小半径才能与过扫描良好配合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TAA",
+      "predicate": "完全兼容",
+      "object": "nDisplay过扫描",
+      "context": "时序抗锯齿与过扫描技术完全兼容且视觉影响较低",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理系统",
+      "predicate": "完全兼容",
+      "object": "nDisplay过扫描",
+      "context": "Chaos解算器的物理效果（包括IK刚体布料）与过扫描完全兼容",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子系统",
+      "predicate": "需要配置",
+      "object": "nDisplay过扫描",
+      "context": "Niagara粒子系统需要将决定性设置设为ON才能与过扫描兼容",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "nDisplay过扫描",
+      "predicate": "不解决",
+      "object": "自动曝光问题",
+      "context": "这是重要的技术限制，学习者需要明确过扫描不能替代自动曝光解决方案",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "过扫描百分比",
+      "predicate": "控制",
+      "object": "视觉差异",
+      "context": "可配置的过扫描百分比直接影响后期效果的范围和视觉差异程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay过扫描",
+      "predicate": "适用于",
+      "object": "ICVFX项目",
+      "context": "该技术特别适用于需要高精度渲染的虚拟制片（ICVFX）工作流",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:04:22.307Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6078,
+    "contentLength": 4379,
+    "processingTimeMs": 55038
+  }
+}

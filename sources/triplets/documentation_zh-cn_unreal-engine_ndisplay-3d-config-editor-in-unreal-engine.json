@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_ndisplay-3d-config-editor-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_ndisplay-3d-config-editor-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "nDisplay 3D配置编辑器",
+      "predicate": "用于定义",
+      "object": "nDisplay配置资产",
+      "context": "编辑器是创建和修改nDisplay配置资产的主要工具，理解这个关系是学习nDisplay配置的第一步",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "nDisplay配置资产",
+      "predicate": "包含",
+      "object": "群集网络配置",
+      "context": "配置资产定义了构成集群的计算机、渲染窗口、显示拓扑等关键元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "组件面板",
+      "predicate": "包含",
+      "object": "屏幕组件",
+      "context": "屏幕组件是定义2D显示器的基本元素，了解其在组件面板中的位置有助于快速定位",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕组件",
+      "predicate": "替代方案",
+      "object": "静态网格体组件",
+      "context": "在处理非平面显示器时，静态网格体组件可以替代屏幕组件，这是理解显示配置灵活性的重要概念",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "Xform组件",
+      "predicate": "用于",
+      "object": "空间布局管理",
+      "context": "Xform组件帮助简化界面、摄像机和其他组件的空间布局，是场景组织的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "观察原点组件",
+      "predicate": "定义",
+      "object": "渲染视点",
+      "context": "观察原点决定了场景的渲染视角，与屏幕组件共同定义视锥，这是理解3D渲染的关键",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "ICVFX摄像机组件",
+      "predicate": "专门用于",
+      "object": "摄像机内视觉特效",
+      "context": "这是处理摄像机内视觉特效项目的专用组件，与普通摄像机有显著区别",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "群集面板",
+      "predicate": "管理",
+      "object": "群集节点",
+      "context": "群集面板是配置和管理集群中各PC节点的主要界面，理解这个关系对分布式渲染设置很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "群集节点",
+      "predicate": "包含",
+      "object": "视口",
+      "context": "每个群集节点可以包含多个视口，这是理解分布式渲染如何映射到物理显示器的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输出映射面板",
+      "predicate": "用于",
+      "object": "视口映射",
+      "context": "输出映射面板将3D视口映射到2D应用程序窗口，是理解最终显示输出的重要环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输出重新映射",
+      "predicate": "支持",
+      "object": "视口变换",
+      "context": "输出重新映射功能允许对视口进行旋转、缩放等变换，是处理特殊显示需求的重要技术",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "视口配置",
+      "predicate": "引用",
+      "object": "投影策略",
+      "context": "视口配置决定了使用何种投影策略来渲染内容，这是理解不同显示效果如何实现的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理共享",
+      "predicate": "扩展",
+      "object": "视口功能",
+      "context": "纹理共享功能允许视口与其他应用程序交换纹理，是理解nDisplay与其他系统集成的关键",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "3D视口",
+      "predicate": "可视化",
+      "object": "显示拓扑",
+      "context": "3D视口提供了显示配置的直观可视化，帮助理解和调试复杂的显示设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link组件",
+      "predicate": "用于",
+      "object": "真实世界追踪",
+      "context": "Live Link组件是将nDisplay与真实世界追踪系统集成的关键，对虚拟制作流程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简单投影策略",
+      "predicate": "基础类型",
+      "object": "投影策略",
+      "context": "简单投影策略是最基础的投影类型，理解它是学习更复杂投影策略的前提",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "网格体投影策略",
+      "predicate": "适用于",
+      "object": "曲面显示",
+      "context": "网格体投影策略专门用于处理曲面或任意形状的显示表面，是高级显示配置的重要选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MPCDI投影策略",
+      "predicate": "专门用于",
+      "object": "行业标准配置",
+      "context": "MPCDI是行业标准格式，理解这种投影策略对专业虚拟制作环境很重要",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "群集配置",
+      "predicate": "包含",
+      "object": "网络设置",
+      "context": "群集配置中的网络设置决定了节点间如何通信，对分布式系统的性能有重要影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视口",
+      "predicate": "关联",
+      "object": "显示组件",
+      "context": "视口与显示组件共同定义了3D世界中的窗口，这是理解nDisplay渲染管线的核心关系",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    }
+  ],
+  "timestamp": "2025-06-15T20:04:39.433Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15082 字符)",
+      "timestamp": "2025-06-15T20:03:27.279Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 24429,
+    "contentLength": 15082,
+    "processingTimeMs": 72165
+  }
+}

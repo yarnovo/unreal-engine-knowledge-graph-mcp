@@ -1,0 +1,149 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-groom-caches-with-hair-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-groom-caches-with-hair-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Groom缓存",
+      "predicate": "扩展",
+      "object": "Groom资产",
+      "context": "Groom缓存是Groom资产的扩展文件，用于播放从DCC应用程序导出的Groom动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom缓存",
+      "predicate": "包含",
+      "object": "时间样本",
+      "context": "Groom缓存Alembic包含可以将属性动画化的时间样本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom缓存",
+      "predicate": "支持",
+      "object": "顶点位置、宽度和颜色动画化",
+      "context": "Groom缓存支持动画化的属性包括顶点位置、宽度和颜色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导线Groom缓存",
+      "predicate": "是",
+      "object": "Groom缓存类型",
+      "context": "导线Groom缓存是Groom缓存的两种类型之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发束Groom缓存",
+      "predicate": "是",
+      "object": "Groom缓存类型",
+      "context": "发束Groom缓存是Groom缓存的两种类型之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导线Groom缓存",
+      "predicate": "支持",
+      "object": "导线顶点位置动画化",
+      "context": "导线Groom缓存仅支持导线的顶点位置动画化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导线Groom缓存",
+      "predicate": "依赖",
+      "object": "引擎内发束插值",
+      "context": "导线Groom缓存利用引擎内的发束插值来将导线动画转移到渲染的发束",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发束Groom缓存",
+      "predicate": "支持",
+      "object": "每根发束的动画化属性",
+      "context": "发束Groom缓存包含了每根发束的动画化属性，包括顶点位置、宽度和颜色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发束Groom缓存",
+      "predicate": "消耗",
+      "object": "更多内存和带宽",
+      "context": "发束Groom缓存比导线Groom缓存消耗更多内存和带宽",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom缓存",
+      "predicate": "需要",
+      "object": "拓扑结构兼容的Groom资产",
+      "context": "Groom缓存必须与拓扑结构兼容的Groom资产搭配使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom导入选项",
+      "predicate": "包含",
+      "object": "Groom缓存部分",
+      "context": "Groom导入选项中包含Groom缓存部分，用于控制Groom缓存的导入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom组件",
+      "predicate": "使用",
+      "object": "Groom缓存",
+      "context": "导入Groom缓存后，可以将其应用到Groom组件的Groom缓存插槽",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom组件",
+      "predicate": "不能同时使用",
+      "object": "Groom绑定和Groom缓存",
+      "context": "如果Groom组件已经有了Groom绑定，则无法分配Groom缓存",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导线Groom缓存",
+      "predicate": "需要",
+      "object": "启用Groom组模拟",
+      "context": "使用导线Groom缓存时，Groom资产必须为每个Groom组启用模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom缓存",
+      "predicate": "可用于",
+      "object": "关卡序列",
+      "context": "Groom缓存可以在关卡序列中使用和控制，通过添加Groom缓存轨道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发束Groom缓存",
+      "predicate": "适用于",
+      "object": "高保真度模拟",
+      "context": "发束Groom缓存提供更高的保真度，包含与DCC应用中完全一致的模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导线Groom缓存",
+      "predicate": "适用于",
+      "object": "轻量化动画",
+      "context": "导线Groom缓存比发束Groom缓存更加轻量化并节省性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:17:52.908Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8038,
+    "contentLength": 5190,
+    "processingTimeMs": 47478
+  }
+}

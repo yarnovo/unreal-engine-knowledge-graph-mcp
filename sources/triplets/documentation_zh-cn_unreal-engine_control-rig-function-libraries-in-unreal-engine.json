@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_control-rig-function-libraries-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_control-rig-function-libraries-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Control Rig函数库",
+      "predicate": "扩展",
+      "object": "蓝图函数库",
+      "context": "Control Rig函数库可以在项目范围内共享函数，而蓝图函数库仅能在子类中共享，这为学习者展示了更灵活的函数共享机制",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Control Rig资产",
+      "predicate": "包含",
+      "object": "公有函数",
+      "context": "Control Rig资产作为容器可以包含公有函数，这些函数可以在项目范围内共享，帮助学习者理解函数库的物理存储结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "公有函数",
+      "predicate": "用于",
+      "object": "Control Rig图表",
+      "context": "公有函数可以被其他Control Rig图表引用，展示了函数复用的重要机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Entry节点",
+      "predicate": "连接",
+      "object": "函数逻辑",
+      "context": "Entry节点是函数逻辑的入口点，连接着函数的输入参数和内部逻辑，这对理解函数执行流程很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "函数本地化",
+      "predicate": "创建",
+      "object": "本地函数副本",
+      "context": "函数本地化可以在当前Rig图表中创建函数的本地副本，这对理解函数复用和修改机制很有帮助",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "标准函数库",
+      "predicate": "参考",
+      "object": "自定义函数库",
+      "context": "引擎提供的标准函数库可以作为创建自定义函数库的参考，这对学习者构建自己的函数库很有指导意义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Control Rig编辑器",
+      "predicate": "用于",
+      "object": "创建函数",
+      "context": "Control Rig编辑器提供了创建和管理函数的界面，这是学习函数库开发的基础工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "设置",
+      "object": "函数属性",
+      "context": "细节面板用于设置函数的各种属性，如访问说明符、类别、关键字等，这对学习函数配置很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Rig图表",
+      "predicate": "引用",
+      "object": "共享函数",
+      "context": "Rig图表可以通过上下文菜单引用共享函数，展示了函数库的实际使用方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Control Rig插件",
+      "predicate": "包含",
+      "object": "标准函数库",
+      "context": "标准函数库位于Control Rig插件中，这对学习者查找和使用引擎内置函数很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "用于",
+      "object": "访问函数库",
+      "context": "内容浏览器是访问和管理Control Rig函数库的主要界面，这是学习资源管理的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "函数元数据",
+      "predicate": "包含",
+      "object": "提示文本和类别",
+      "context": "函数可以包含元数据如提示文本和类别，这对学习如何使函数更易用和可维护很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变量输入",
+      "predicate": "连接",
+      "object": "函数逻辑",
+      "context": "变量输入可以连接到函数内部逻辑，这对理解函数参数传递机制很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:35:02.873Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9500,
+    "contentLength": 6600,
+    "processingTimeMs": 45576
+  }
+}

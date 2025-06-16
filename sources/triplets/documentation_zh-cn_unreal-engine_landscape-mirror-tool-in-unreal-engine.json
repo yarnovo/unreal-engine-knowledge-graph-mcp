@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_landscape-mirror-tool-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_landscape-mirror-tool-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "地形镜像工具",
+      "predicate": "属于",
+      "object": "Landscape工具栏",
+      "context": "地形镜像工具位于Landscape工具栏的Sculpt标签页中，帮助学习者理解工具的组织结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形镜像工具",
+      "predicate": "支持",
+      "object": "X轴/Y轴镜像",
+      "context": "工具可以沿X轴或Y轴镜像地形高度图几何体，这是核心功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形镜像工具",
+      "predicate": "包含",
+      "object": "镜像平滑宽度",
+      "context": "平滑宽度是工具的重要参数，用于处理镜像后的边缘接缝问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜像操作",
+      "predicate": "影响",
+      "object": "镜像点",
+      "context": "只有当前选中的操作轴才会影响镜像点的活跃性，这是参数间的依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "平滑宽度",
+      "predicate": "用于",
+      "object": "减少镜像接缝",
+      "context": "调整平滑宽度可以柔化合并的边缘顶点，改善镜像效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Recenter按钮",
+      "predicate": "重置",
+      "object": "镜像平面位置",
+      "context": "该功能可以将镜像平面快速重置到地形中央，是重要的辅助功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形高度图",
+      "predicate": "被操作",
+      "object": "地形镜像工具",
+      "context": "工具的主要作用对象是地形高度图几何体，这是基础概念关系",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Operation参数",
+      "predicate": "决定",
+      "object": "镜像方向",
+      "context": "通过选择不同的Operation可以控制镜像的方向和方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Landscape工具栏",
+      "predicate": "包含",
+      "object": "Sculpt标签页",
+      "context": "理解工具栏的组织结构有助于快速定位工具",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "镜像工具设置",
+      "predicate": "包括",
+      "object": "Mirror Point/Operation/Smoothing Width",
+      "context": "这些是工具的核心参数设置，共同影响镜像效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:40:38.799Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4594,
+    "contentLength": 3336,
+    "processingTimeMs": 47139
+  }
+}

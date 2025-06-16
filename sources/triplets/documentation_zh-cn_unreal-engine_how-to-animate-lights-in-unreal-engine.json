@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-animate-lights-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-animate-lights-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Sequencer",
+      "predicate": "用于",
+      "object": "制作光源动画",
+      "context": "Sequencer是虚幻引擎中用于创建和编辑过场动画的工具，可以用于制作光源的动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源",
+      "predicate": "包含",
+      "object": "强度属性",
+      "context": "光源具有强度属性，可以在Sequencer中通过关键帧动画来调整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源",
+      "predicate": "包含",
+      "object": "颜色属性",
+      "context": "光源具有颜色属性，可以在Sequencer中通过关键帧动画来调整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "强度轨道",
+      "predicate": "控制",
+      "object": "光源强度",
+      "context": "在Sequencer中，强度轨道用于控制光源的强度变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源颜色轨道",
+      "predicate": "控制",
+      "object": "光源颜色",
+      "context": "在Sequencer中，光源颜色轨道用于控制光源的颜色变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "用于",
+      "object": "制作动画",
+      "context": "关键帧是制作动画的基础，通过在时间轴上设置关键帧来定义属性的变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "自动添加",
+      "object": "常用轨道",
+      "context": "将光源添加到Sequencer时，系统会自动添加一些常用轨道，如强度轨道和光源颜色轨道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "取色器工具",
+      "predicate": "用于",
+      "object": "选择光源颜色",
+      "context": "在制作光源颜色动画时，可以使用取色器工具来选择颜色值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "播放头",
+      "predicate": "用于",
+      "object": "预览动画",
+      "context": "在Sequencer中，可以通过拖动播放头来预览动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡序列",
+      "predicate": "包含",
+      "object": "光源动画",
+      "context": "关卡序列中可以包含光源动画，用于创建动态的光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "制作光源动画",
+      "predicate": "依赖",
+      "object": "Sequencer基础",
+      "context": "制作光源动画需要先了解Sequencer的基础操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "制作光源动画",
+      "predicate": "依赖",
+      "object": "光源类型",
+      "context": "制作光源动画需要先了解不同类型的光源及其属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:25:22.237Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5006,
+    "contentLength": 3584,
+    "processingTimeMs": 50496
+  }
+}

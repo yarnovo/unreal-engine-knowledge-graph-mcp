@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_reordering-and-hiding-properties-in-details-panel-customizations-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_reordering-and-hiding-properties-in-details-panel-customizations-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "细节面板自定义",
+      "predicate": "用于",
+      "object": "重新排列属性",
+      "context": "细节面板自定义功能允许开发者更改属性在细节面板中的显示顺序，这是学习如何定制UI布局的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板自定义",
+      "predicate": "用于",
+      "object": "隐藏属性",
+      "context": "通过细节面板自定义可以控制属性的可见性，这对学习UI元素动态显示有重要意义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IDetailCategoryBuilder",
+      "predicate": "实现",
+      "object": "重新排列类别",
+      "context": "IDetailCategoryBuilder接口提供了SetSortOrder方法来控制类别顺序，这是学习UI组织的重要接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IDetailCategoryBuilder",
+      "predicate": "实现",
+      "object": "隐藏类别",
+      "context": "HideCategory方法展示了如何完全隐藏UI类别，这是UI定制的高级功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FCustomClassDetailsCustomization",
+      "predicate": "继承",
+      "object": "IDetailLayoutBuilder",
+      "context": "自定义细节类需要继承IDetailLayoutBuilder接口，这是学习虚幻引擎扩展开发的基础模式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "AddProperty",
+      "predicate": "控制",
+      "object": "属性显示顺序",
+      "context": "AddProperty方法的调用顺序直接决定了属性显示顺序，这是学习UI编程的重要细节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HideProperty",
+      "predicate": "控制",
+      "object": "属性可见性",
+      "context": "HideProperty方法提供了动态控制属性显示的能力，是UI交互设计的关键技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SetShowAdvanced",
+      "predicate": "实现",
+      "object": "高级类别显示",
+      "context": "该方法实现了高级功能的折叠显示，是学习渐进式UI展示的典型案例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板自定义",
+      "predicate": "基于",
+      "object": "Slate框架",
+      "context": "细节面板的自定义功能建立在Slate UI框架之上，理解这个关系有助于学习虚幻引擎的UI系统架构",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FCustomDataPropertyCustomization",
+      "predicate": "专门用于",
+      "object": "FCustomDataProperty结构体",
+      "context": "展示了如何为自定义数据结构创建专门的UI定制，这是学习数据-UI绑定的重要示例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ACustomActor",
+      "predicate": "包含",
+      "object": "FCustomDataProperty",
+      "context": "展示了Actor如何包含自定义数据结构，这是学习组件化设计的基础案例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板自定义快速入门",
+      "predicate": "前置",
+      "object": "细节面板高级自定义",
+      "context": "快速入门教程是学习高级自定义功能的基础，理解这个学习路径很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UPROPERTY说明符",
+      "predicate": "影响",
+      "object": "属性默认显示",
+      "context": "UPROPERTY的EditAnywhere等说明符会影响属性在细节面板的默认显示，这是学习属性系统的关键点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:37:13.337Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8413,
+    "contentLength": 6927,
+    "processingTimeMs": 45811
+  }
+}

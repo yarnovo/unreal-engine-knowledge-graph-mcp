@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_arpin-overview-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_arpin-overview-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "ARPin",
+      "predicate": "用于",
+      "object": "增强现实",
+      "context": "ARPin是增强现实中用于固定虚拟内容到现实世界位置的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ARPin",
+      "predicate": "支持",
+      "object": "多平台实现",
+      "context": "ARPin API在所有平台中统一，但各平台有自己的实现方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ARPin",
+      "predicate": "支持",
+      "object": "位置追踪",
+      "context": "当平台支持追踪现实世界位置时，ARPin位置稳定性提高",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ARPin",
+      "predicate": "支持",
+      "object": "数据持久化",
+      "context": "部分平台支持将ARPin数据存储在本地或云端实现持久化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ARPin本地存储",
+      "predicate": "实现方式",
+      "object": "Magic Leap PCF",
+      "context": "Magic Leap平台使用PersistentCoordinateFrame实现本地ARPin存储",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ARPin云端存储",
+      "predicate": "包含",
+      "object": "Azure空间锚",
+      "context": "Azure空间锚是虚幻引擎中实现云端ARPin存储的插件方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Azure空间锚",
+      "predicate": "支持",
+      "object": "多平台",
+      "context": "Azure空间锚支持ARCore(Android)和ARKit(iOS)设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ARCore",
+      "predicate": "提供",
+      "object": "云锚",
+      "context": "Google的云锚是ARCore平台上ARPin的云端实现方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ARKit",
+      "predicate": "提供",
+      "object": "ARGeoAnchor",
+      "context": "Apple的ARGeoAnchor是ARKit平台上ARPin的地理位置实现方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGoogleARCoreServicesFunctionLibrary",
+      "predicate": "用于",
+      "object": "云锚操作",
+      "context": "该函数库提供了创建和解析云ARPin的核心API",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UARGeoTrackingSupport",
+      "predicate": "用于",
+      "object": "Geo Anchor操作",
+      "context": "该支持类提供了添加和追踪地理锚点的功能接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ARPin持久化",
+      "predicate": "支持",
+      "object": "多用户体验",
+      "context": "云端存储的ARPin数据可以在多设备和用户间共享",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Azure空间锚",
+      "predicate": "依赖",
+      "object": "Azure账号",
+      "context": "使用Azure空间锚功能需要先拥有Azure账号",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ARPin实现",
+      "predicate": "因平台而异",
+      "object": "平台特性",
+      "context": "不同AR平台对ARPin的实现方式取决于各自的追踪能力",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:04:53.933Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6848,
+    "contentLength": 5034,
+    "processingTimeMs": 45503
+  }
+}

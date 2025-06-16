@@ -1,0 +1,155 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_product-configurator-template-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_product-configurator-template-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "产品配置器模板",
+      "predicate": "基于",
+      "object": "虚幻引擎5",
+      "context": "产品配置器模板是虚幻引擎5中提供的功能模板，帮助开发者快速创建产品配置器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "产品配置器模板",
+      "predicate": "包含",
+      "object": "关卡变体集",
+      "context": "模板使用关卡变体集来管理不同的产品配置选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "产品配置器模板",
+      "predicate": "包含",
+      "object": "BP_Configurator",
+      "context": "BP_Configurator是模板的核心蓝图，负责动态生成用户界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_Configurator",
+      "predicate": "使用",
+      "object": "关卡变体集",
+      "context": "BP_Configurator从关卡变体集中获取数据来生成用户界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡变体集",
+      "predicate": "包含",
+      "object": "变体集",
+      "context": "关卡变体集由多个变体集组成，每个变体集代表一类配置选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变体集",
+      "predicate": "包含",
+      "object": "变体",
+      "context": "每个变体集包含多个变体，每个变体代表一个具体的配置选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变体",
+      "predicate": "包含",
+      "object": "Actor",
+      "context": "每个变体可以包含一个或多个Actor，这些Actor代表配置中的可变化元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变体",
+      "predicate": "包含",
+      "object": "属性",
+      "context": "变体中包含Actor的各种属性，这些属性定义了配置的具体变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "产品配置器模板",
+      "predicate": "支持",
+      "object": "材质和可视性选项",
+      "context": "模板支持通过变体管理器配置材质和可视性选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "产品配置器模板",
+      "predicate": "支持",
+      "object": "摄像机位置与设置变体",
+      "context": "模板支持配置不同的摄像机位置和设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "产品配置器模板",
+      "predicate": "支持",
+      "object": "光照和环境变体",
+      "context": "模板支持配置不同的光照和环境设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "产品配置器模板",
+      "predicate": "支持",
+      "object": "过程生成界面",
+      "context": "模板能够动态生成用户界面，展示所有配置选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变体管理器",
+      "predicate": "用于",
+      "object": "创建和管理变体",
+      "context": "变体管理器是专门用于创建和管理变体的UI工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "产品配置器模板",
+      "predicate": "依赖",
+      "object": "Datasmith/FBX内容通道",
+      "context": "模板依赖Datasmith或FBX内容通道来导入3D模型和纹理",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "BP_Configurator",
+      "predicate": "生成",
+      "object": "动态用户界面",
+      "context": "BP_Configurator根据关卡变体集数据动态生成用户界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变体",
+      "predicate": "需要",
+      "object": "缩略图",
+      "context": "每个变体需要配置缩略图，这些缩略图将在用户界面中作为选项展示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "产品配置器模板",
+      "predicate": "适用于",
+      "object": "3D可视化美术师",
+      "context": "该模板主要为3D可视化美术师设计，帮助他们快速创建产品配置器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:29:24.397Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11093 字符)",
+      "timestamp": "2025-06-15T20:28:37.635Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15177,
+    "contentLength": 11093,
+    "processingTimeMs": 46776
+  }
+}

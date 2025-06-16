@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-lumen-global-illumination-on-mobile-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-lumen-global-illumination-on-mobile-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Lumen",
+      "predicate": "支持",
+      "object": "全局光照",
+      "context": "Lumen是虚幻引擎中实现全局光照和反射的技术",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动端Lumen",
+      "predicate": "依赖",
+      "object": "Vulkan SM5",
+      "context": "移动端Lumen需要高端Android设备支持Vulkan Shader Model 5",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动端Lumen",
+      "predicate": "适用于",
+      "object": "高端Android设备",
+      "context": "移动端Lumen目前仅支持部分高端Android设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动端Lumen",
+      "predicate": "不适用于",
+      "object": "iOS/tvOS/iPadOS设备",
+      "context": "文档明确指出Lumen当前不适用于iOS/tvOS/iPadOS设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android_Vulkan_SM5",
+      "predicate": "包含",
+      "object": "Android_Adreno_Vulkan_SM5",
+      "context": "Android_Vulkan_SM5设备描述文件包含多个子描述文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen",
+      "predicate": "依赖",
+      "object": "距离场阴影",
+      "context": "Lumen中的软件光线追踪需要启用距离场阴影",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动端Lumen",
+      "predicate": "需要",
+      "object": "桌面渲染器",
+      "context": "在移动设备上启用Lumen需要先启用桌面渲染器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DeviceProfiles.ini",
+      "predicate": "用于",
+      "object": "配置设备描述文件",
+      "context": "通过修改DeviceProfiles.ini文件可以配置设备描述文件",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动端Lumen",
+      "predicate": "是",
+      "object": "试验性功能",
+      "context": "文档明确指出移动端Lumen目前是试验性功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen",
+      "predicate": "支持",
+      "object": "硬件光线追踪",
+      "context": "Lumen可以通过硬件光线追踪实现全局光照",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动端Lumen",
+      "predicate": "有",
+      "object": "性能开销",
+      "context": "文档指出移动端Lumen会带来显著的性能开销",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android_Vulkan_SM5",
+      "predicate": "基于",
+      "object": "Android",
+      "context": "Android_Vulkan_SM5设备描述文件基于Android平台",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动端Lumen",
+      "predicate": "关联",
+      "object": "Lumen全局光照和反射",
+      "context": "移动端Lumen是Lumen全局光照技术在移动端的实现",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动端Lumen",
+      "predicate": "关联",
+      "object": "移动端渲染功能",
+      "context": "移动端Lumen属于移动端渲染功能的一部分",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:19:19.566Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8758,
+    "contentLength": 6626,
+    "processingTimeMs": 38261
+  }
+}

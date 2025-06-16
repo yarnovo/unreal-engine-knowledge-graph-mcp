@@ -1,0 +1,203 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_game-framework-component-manager-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_game-framework-component-manager-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "游戏框架组件管理器",
+      "predicate": "属于",
+      "object": "模块化Gameplay插件",
+      "context": "帮助学习者理解游戏框架组件管理器在虚幻引擎中的所属模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏框架组件管理器",
+      "predicate": "是",
+      "object": "游戏实例子系统",
+      "context": "明确游戏框架组件管理器的系统类型，帮助学习者定位其在引擎架构中的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏框架组件管理器",
+      "predicate": "支持",
+      "object": "游戏功能插件",
+      "context": "说明管理器与游戏功能插件的协作关系，帮助学习者理解扩展机制",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏框架组件管理器",
+      "predicate": "实现",
+      "object": "扩展处理程序系统",
+      "context": "揭示管理器的核心功能组成，帮助学习者掌握系统架构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏框架组件管理器",
+      "predicate": "实现",
+      "object": "初始化状态系统",
+      "context": "揭示管理器的另一个核心功能组成，完善学习者的系统认知",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "扩展处理程序系统",
+      "predicate": "包含",
+      "object": "接收器",
+      "context": "说明系统组成部分，帮助学习者理解事件处理机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "扩展处理程序系统",
+      "predicate": "包含",
+      "object": "扩展处理程序",
+      "context": "说明系统组成部分，帮助学习者理解事件响应机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "作为",
+      "object": "接收器",
+      "context": "说明Actor在扩展处理系统中的角色，帮助学习者理解对象交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GameFeatureAction_AddComponents",
+      "predicate": "使用",
+      "object": "扩展处理程序系统",
+      "context": "展示具体插件如何利用扩展系统，提供实际应用案例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "初始化状态系统",
+      "predicate": "跟踪",
+      "object": "Actor功能",
+      "context": "说明系统的主要功能，帮助学习者理解状态管理目的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "初始化状态系统",
+      "predicate": "使用",
+      "object": "Gameplay标签",
+      "context": "揭示系统实现的技术基础，帮助学习者深入理解状态表示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GameFrameworkInitStateInterface",
+      "predicate": "提供",
+      "object": "状态机框架",
+      "context": "说明接口的核心价值，帮助学习者掌握快速实现状态机的方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ULyraPawnExtensionComponent",
+      "predicate": "实现",
+      "object": "GameFrameworkInitStateInterface",
+      "context": "展示Lyra中具体组件的接口实现，提供学习参考案例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ULyraHeroComponent",
+      "predicate": "实现",
+      "object": "GameFrameworkInitStateInterface",
+      "context": "展示Lyra中另一个组件的接口实现，提供对比学习材料",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lyra示例游戏",
+      "predicate": "展示",
+      "object": "扩展处理程序系统应用",
+      "context": "提供实际项目参考，帮助学习者理解系统在复杂项目中的使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lyra示例游戏",
+      "predicate": "展示",
+      "object": "初始化状态系统应用",
+      "context": "提供实际项目参考，帮助学习者理解状态管理在复杂初始化流程中的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "初始状态",
+      "predicate": "包括",
+      "object": "InitState.Spawned",
+      "context": "列举具体状态值，帮助学习者理解状态序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "初始状态",
+      "predicate": "包括",
+      "object": "InitState.DataAvailable",
+      "context": "列举具体状态值，完善学习者对状态序列的认识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "初始状态",
+      "predicate": "包括",
+      "object": "InitState.DataInitialized",
+      "context": "列举具体状态值，展示状态机的完整流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "初始状态",
+      "predicate": "包括",
+      "object": "InitState.GameplayReady",
+      "context": "列举最终状态值，帮助学习者理解完整生命周期",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏功能操作",
+      "predicate": "用于",
+      "object": "协调Gameplay对象通信",
+      "context": "说明操作的核心用途，帮助学习者理解其在游戏架构中的角色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏框架组件管理器",
+      "predicate": "提供",
+      "object": "注册状态更改功能",
+      "context": "强调管理器的关键能力，帮助学习者掌握状态监控技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AModularCharacter",
+      "predicate": "继承",
+      "object": "ALyraCharacter",
+      "context": "展示Lyra中的类继承关系，帮助学习者理解角色系统的设计",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:10:05.494Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8791 字符)",
+      "timestamp": "2025-06-15T19:08:49.369Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14865,
+    "contentLength": 8791,
+    "processingTimeMs": 76131
+  }
+}

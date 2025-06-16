@@ -1,0 +1,187 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_motion-warping-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_motion-warping-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "运动扭曲",
+      "predicate": "依赖",
+      "object": "运动扭曲插件",
+      "context": "运动扭曲功能需要先启用运动扭曲插件才能使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动扭曲",
+      "predicate": "基于",
+      "object": "蓝图",
+      "context": "运动扭曲的实现需要利用蓝图工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动扭曲",
+      "predicate": "基于",
+      "object": "动画蒙太奇",
+      "context": "运动扭曲的实现需要利用动画蒙太奇工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动扭曲",
+      "predicate": "需要",
+      "object": "角色蓝图",
+      "context": "运动扭曲需要在角色蓝图中设置相关逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动扭曲",
+      "predicate": "需要",
+      "object": "输入功能按钮",
+      "context": "运动扭曲通常需要绑定输入功能按钮来触发",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "运动扭曲",
+      "predicate": "需要",
+      "object": "动画序列",
+      "context": "运动扭曲需要基于动画序列实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动扭曲",
+      "predicate": "包含",
+      "object": "运动扭曲组件",
+      "context": "运动扭曲功能需要通过添加运动扭曲组件来实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动扭曲",
+      "predicate": "包含",
+      "object": "根骨骼运动修饰符",
+      "context": "运动扭曲通过根骨骼运动修饰符来调整角色运动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "根骨骼运动修饰符",
+      "predicate": "分为",
+      "object": "缩放",
+      "context": "根骨骼运动修饰符的一种类型，用于均匀改变动画比例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "根骨骼运动修饰符",
+      "predicate": "分为",
+      "object": "倾斜扭曲",
+      "context": "根骨骼运动修饰符的一种类型，用于匹配扭曲窗口末尾的动画位置和旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蒙太奇",
+      "predicate": "包含",
+      "object": "运动扭曲窗口",
+      "context": "动画蒙太奇中可以创建运动扭曲窗口来定义扭曲区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动扭曲窗口",
+      "predicate": "通过",
+      "object": "动画通知状态",
+      "context": "运动扭曲窗口是通过动画通知状态创建的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动扭曲组件",
+      "predicate": "提供",
+      "object": "Add or Update WarpTarget节点",
+      "context": "运动扭曲组件提供了用于更新扭曲目标的节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动扭曲组件",
+      "predicate": "提供",
+      "object": "Add Root Motion Modifier Skew Warp节点",
+      "context": "运动扭曲组件提供了用于添加倾斜扭曲修饰符的节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动扭曲实现",
+      "predicate": "需要",
+      "object": "EnableRootMotion",
+      "context": "实现运动扭曲需要确保动画启用了根骨骼运动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动扭曲实现",
+      "predicate": "需要",
+      "object": "目标点",
+      "context": "运动扭曲需要设置目标点作为扭曲目标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动扭曲实现",
+      "predicate": "需要",
+      "object": "Play Montage节点",
+      "context": "运动扭曲实现需要播放包含运动扭曲窗口的动画蒙太奇",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动扭曲窗口",
+      "predicate": "配置",
+      "object": "扭曲目标名称",
+      "context": "运动扭曲窗口需要配置扭曲目标名称以关联蓝图中的目标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动扭曲窗口",
+      "predicate": "配置",
+      "object": "扭曲点动画提供程序",
+      "context": "运动扭曲窗口需要选择扭曲点提供程序类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动扭曲窗口",
+      "predicate": "配置",
+      "object": "扭曲平移",
+      "context": "运动扭曲窗口可以配置是否扭曲根骨骼运动的平移组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动扭曲窗口",
+      "predicate": "配置",
+      "object": "扭曲旋转",
+      "context": "运动扭曲窗口可以配置是否扭曲根骨骼运动的旋转组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:00:36.834Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11866 字符)",
+      "timestamp": "2025-06-15T19:59:32.886Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 18044,
+    "contentLength": 11866,
+    "processingTimeMs": 63960
+  }
+}

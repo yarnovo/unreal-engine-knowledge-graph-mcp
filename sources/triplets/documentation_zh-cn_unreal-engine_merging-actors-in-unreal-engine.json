@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_merging-actors-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_merging-actors-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Actor合并",
+      "predicate": "用于",
+      "object": "静态网格体Actor",
+      "context": "Actor合并操作专门用于合并静态网格体Actor，帮助学习者理解该功能的适用范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor合并",
+      "predicate": "减少",
+      "object": "绘制调用",
+      "context": "合并Actor的主要优化目的是减少绘制调用，这是性能优化的重要知识点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合并类型",
+      "predicate": "包含",
+      "object": "合并(Merge)",
+      "context": "合并类型是父概念，包含四种具体合并方法，帮助学习者建立分类认知",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合并类型",
+      "predicate": "包含",
+      "object": "简化(Simplify)",
+      "context": "展示合并类型的完整分类体系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合并类型",
+      "predicate": "包含",
+      "object": "批量(Batch)",
+      "context": "建立完整的合并方法知识结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合并类型",
+      "predicate": "包含",
+      "object": "近似(Approximate)",
+      "context": "说明这是UE5新增的高级合并方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简化(Simplify)",
+      "predicate": "生成",
+      "object": "代理网格体(Proxy Mesh)",
+      "context": "关键特性说明，帮助理解简化合并的输出结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "近似(Approximate)",
+      "predicate": "处理",
+      "object": "Nanite网格体",
+      "context": "区别于简化合并的特殊能力，是UE5的重要新特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合并设置",
+      "predicate": "控制",
+      "object": "枢轴点位置",
+      "context": "重要的空间控制参数，影响合并后对象的空间行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质设置",
+      "predicate": "影响",
+      "object": "UV保留",
+      "context": "核心材质处理决策点，关系到纹理映射效果",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形剔除",
+      "predicate": "移除",
+      "object": "遮挡三角形",
+      "context": "优化技术说明，帮助理解场景优化原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理设置",
+      "predicate": "包含",
+      "object": "屏幕尺寸参数",
+      "context": "LOD系统关键参数配置，影响细节层次选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "批量合并",
+      "predicate": "创建",
+      "object": "实例化静态网格体组件",
+      "context": "说明批量合并的技术实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体生成设置",
+      "predicate": "包含",
+      "object": "近似精度参数",
+      "context": "核心参数说明，影响代理网格体生成质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UV生成设置",
+      "predicate": "支持",
+      "object": "多种UV生成算法",
+      "context": "展示UV处理的技术选项，扩展学习者知识面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Nanite",
+      "predicate": "支持",
+      "object": "代理网格体生成",
+      "context": "连接Nanite技术与合并功能的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合并Actor",
+      "predicate": "前置知识",
+      "object": "选择Actor",
+      "context": "明确学习路径依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体Actor",
+      "predicate": "是",
+      "object": "可合并对象",
+      "context": "明确概念适用范围",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡视口",
+      "predicate": "用于",
+      "object": "选择合并对象",
+      "context": "工作流工具说明",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界大纲视图",
+      "predicate": "用于",
+      "object": "选择合并对象",
+      "context": "工作流工具说明",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:53:12.808Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (16897 字符)",
+      "timestamp": "2025-06-15T19:52:11.605Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 30624,
+    "contentLength": 16897,
+    "processingTimeMs": 61214
+  }
+}

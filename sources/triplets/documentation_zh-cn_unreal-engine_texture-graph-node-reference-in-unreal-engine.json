@@ -1,0 +1,275 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_texture-graph-node-reference-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_texture-graph-node-reference-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "BrightnessContrast",
+      "predicate": "属于",
+      "object": "Adjustment Nodes",
+      "context": "BrightnessContrast节点是Adjustment Nodes类别下的一个节点，用于调整纹理的亮度和对比度。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ConvertToGrayscale",
+      "predicate": "属于",
+      "object": "Adjustment Nodes",
+      "context": "ConvertToGrayscale节点是Adjustment Nodes类别下的一个节点，用于将颜色值转换为灰度值。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HSV",
+      "predicate": "属于",
+      "object": "Adjustment Nodes",
+      "context": "HSV节点是Adjustment Nodes类别下的一个节点，用于基于HSV颜色模型调整颜色。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HSVtoRGB",
+      "predicate": "属于",
+      "object": "Adjustment Nodes",
+      "context": "HSVtoRGB节点是Adjustment Nodes类别下的一个节点，用于将HSV颜色转换为RGB颜色。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Levels",
+      "predicate": "属于",
+      "object": "Adjustment Nodes",
+      "context": "Levels节点是Adjustment Nodes类别下的一个节点，用于重新映射输入图像的阴影和高光。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NormalFromHeightMap",
+      "predicate": "属于",
+      "object": "Adjustment Nodes",
+      "context": "NormalFromHeightMap节点是Adjustment Nodes类别下的一个节点，用于将高度图转换为法线图。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RGBtoHSV",
+      "predicate": "属于",
+      "object": "Adjustment Nodes",
+      "context": "RGBtoHSV节点是Adjustment Nodes类别下的一个节点，用于将RGB颜色转换为HSV颜色。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Threshold",
+      "predicate": "属于",
+      "object": "Adjustment Nodes",
+      "context": "Threshold节点是Adjustment Nodes类别下的一个节点，用于对输入图像应用阈值滤镜。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CombineChannels",
+      "predicate": "属于",
+      "object": "Channels",
+      "context": "CombineChannels节点是Channels类别下的一个节点，用于合并多个通道为一个RGBA格式的输出。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SplitChannels",
+      "predicate": "属于",
+      "object": "Channels",
+      "context": "SplitChannels节点是Channels类别下的一个节点，用于分离输入图像的各个通道。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blur",
+      "predicate": "属于",
+      "object": "Filter",
+      "context": "Blur节点是Filter类别下的一个节点，用于对输入数据应用模糊效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Color",
+      "predicate": "属于",
+      "object": "Input",
+      "context": "Color节点是Input类别下的一个节点，用于指定颜色值。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Scalar",
+      "predicate": "属于",
+      "object": "Input",
+      "context": "Scalar节点是Input类别下的一个节点，用于定义浮点数值。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Settings",
+      "predicate": "属于",
+      "object": "Input",
+      "context": "Settings节点是Input类别下的一个节点，用于配置输出设置。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Texture",
+      "predicate": "属于",
+      "object": "Input",
+      "context": "Texture节点是Input类别下的一个节点，用于选择现有纹理并生成新纹理。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Vector",
+      "predicate": "属于",
+      "object": "Input",
+      "context": "Vector节点是Input类别下的一个节点，用于定义XYZ向量。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Math",
+      "predicate": "包含",
+      "object": "Add",
+      "context": "Add节点是Math类别下的一个节点，用于执行加法操作。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Math",
+      "predicate": "包含",
+      "object": "Blend",
+      "context": "Blend节点是Math类别下的一个节点，用于混合前景和背景值。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Math",
+      "predicate": "包含",
+      "object": "Multiply",
+      "context": "Multiply节点是Math类别下的一个节点，用于执行乘法操作。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Math",
+      "predicate": "包含",
+      "object": "Subtract",
+      "context": "Subtract节点是Math类别下的一个节点，用于执行减法操作。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Output",
+      "predicate": "用于",
+      "object": "Texture Graph Editor",
+      "context": "Output节点是纹理图的终点，用于显示最终结果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Noise",
+      "predicate": "属于",
+      "object": "Procedural",
+      "context": "Noise节点是Procedural类别下的一个节点，用于创建噪声掩码。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pattern",
+      "predicate": "属于",
+      "object": "Procedural",
+      "context": "Pattern节点是Procedural类别下的一个节点，用于使用预定义模式影响纹理外观。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Shape",
+      "predicate": "属于",
+      "object": "Procedural",
+      "context": "Shape节点是Procedural类别下的一个节点，用于生成基本几何形状。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Transform",
+      "predicate": "属于",
+      "object": "Procedural",
+      "context": "Transform节点是Procedural类别下的一个节点，用于对输入应用变换。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MaterialID",
+      "predicate": "属于",
+      "object": "Utilities",
+      "context": "MaterialID节点是Utilities类别下的一个节点，用于从纹理输入中提取颜色并创建掩码。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TextureGraph",
+      "predicate": "属于",
+      "object": "Utilities",
+      "context": "TextureGraph节点是Utilities类别下的一个节点，用于在纹理图中添加另一个纹理图。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HSVtoRGB",
+      "predicate": "转换",
+      "object": "RGBtoHSV",
+      "context": "HSVtoRGB和RGBtoHSV节点互为逆操作，分别将HSV颜色转换为RGB颜色和将RGB颜色转换为HSV颜色。",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CombineChannels",
+      "predicate": "逆操作",
+      "object": "SplitChannels",
+      "context": "CombineChannels和SplitChannels节点互为逆操作，分别合并和分离通道。",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NormalFromHeightMap",
+      "predicate": "生成",
+      "object": "Normal Map",
+      "context": "NormalFromHeightMap节点用于从高度图生成法线图。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blend",
+      "predicate": "支持",
+      "object": "多种混合模式",
+      "context": "Blend节点支持多种混合模式，如Copy、Add、Subtract等，用于创建复杂的纹理效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TextureGraph",
+      "predicate": "嵌套",
+      "object": "Texture Graph Editor",
+      "context": "TextureGraph节点允许在纹理图中嵌套另一个纹理图，增加模块化和复用性。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:00:46.785Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (16604 字符)",
+      "timestamp": "2025-06-15T20:59:16.563Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16706,
+    "contentLength": 16604,
+    "processingTimeMs": 90226
+  }
+}

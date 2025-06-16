@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_timecode-and-genlock-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_timecode-and-genlock-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "生成",
+      "object": "时间码",
+      "context": "虚幻引擎默认根据计算机系统时间生成时间码，帮助学习者理解引擎的时间管理机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间码",
+      "predicate": "同步于",
+      "object": "视频源",
+      "context": "专业视频制作需要多设备时间码同步，学习者需掌握如何使引擎时间码与外部视频源匹配",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "集中同步",
+      "predicate": "控制",
+      "object": "帧生成",
+      "context": "集中同步功能使引擎严格按输入视频帧率生成输出帧，对影视级同步制作至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "时间码提供者面板",
+      "predicate": "显示",
+      "object": "时间码信息",
+      "context": "该面板是学习者监控时间码值、来源和帧率的核心调试工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AjaTimecodeProvider",
+      "predicate": "继承自",
+      "object": "蓝图类",
+      "context": "理解时间码提供者的继承关系有助于学习者扩展自定义时间码源",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "配置",
+      "object": "时间码提供者",
+      "context": "项目设置是学习者指定时间码源的核心配置节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间码纹素编码",
+      "predicate": "用于",
+      "object": "调试验证",
+      "context": "该技术通过像素可视化时间码，帮助学习者验证帧与时间码的对应关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "AjaCustomTimeStep",
+      "predicate": "实现",
+      "object": "集中同步",
+      "context": "该组件是实现帧级同步的技术基础，学习者需要理解其与时间码提供者的区别",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "媒体描述文件",
+      "predicate": "覆盖",
+      "object": "时间码设置",
+      "context": "高级学习者可通过此机制实现多配置环境下的差异化时间码管理",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "stat timecode",
+      "predicate": "等同于",
+      "object": "时间码提供者面板",
+      "context": "控制台命令与可视化面板互为补充，满足不同学习者的调试偏好",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:01:18.231Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10307,
+    "contentLength": 6592,
+    "processingTimeMs": 29938
+  }
+}

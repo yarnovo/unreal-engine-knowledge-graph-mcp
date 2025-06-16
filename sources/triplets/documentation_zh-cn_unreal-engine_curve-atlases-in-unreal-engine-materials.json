@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_curve-atlases-in-unreal-engine-materials",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_curve-atlases-in-unreal-engine-materials.md",
+  "triples": [
+    {
+      "subject": "曲线图集",
+      "predicate": "包含",
+      "object": "曲线线性颜色资源",
+      "context": "曲线图集用于存储和访问多个曲线线性颜色资源，帮助学习者理解如何组织和管理多个颜色渐变数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "曲线线性颜色资源",
+      "predicate": "生成",
+      "object": "颜色渐变",
+      "context": "曲线线性颜色资源通过插值RGBA点生成颜色渐变，学习者需要理解这一过程来创建自定义颜色效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质",
+      "predicate": "引用",
+      "object": "曲线图集",
+      "context": "材质可以通过曲线图集行参数节点引用曲线图集中的数据，这是材质动态控制颜色渐变的关键技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态材质实例",
+      "predicate": "控制",
+      "object": "曲线图集采样",
+      "context": "动态材质实例可以通过蓝图控制从曲线图集中采样的曲线，这对实现运行时材质变化非常重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "曲线图集行参数节点",
+      "predicate": "用于",
+      "object": "曲线图集采样",
+      "context": "该节点专门用于在材质中采样曲线图集数据，学习者需要掌握其使用方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "访问",
+      "object": "曲线图集",
+      "context": "通过蓝图可以动态访问和修改曲线图集的采样参数，这是实现交互式材质效果的重要途径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "曲线图集",
+      "predicate": "存储为",
+      "object": "纹理",
+      "context": "曲线图集数据最终存储为纹理格式，学习者需要理解这种数据表示方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "曲线编辑器",
+      "predicate": "用于",
+      "object": "调整曲线线性颜色",
+      "context": "曲线编辑器是创建和修改曲线线性颜色资源的主要工具，掌握其使用是创建自定义渐变的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质实例",
+      "predicate": "继承自",
+      "object": "基础材质",
+      "context": "材质实例继承基础材质属性但可以覆盖特定参数，这是虚幻引擎材质系统的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "曲线图集",
+      "predicate": "优化为",
+      "object": "2的幂次方纹理大小",
+      "context": "使用2的幂次方作为纹理大小可以提高效率，这是图形编程中的重要优化原则",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "获取曲线位置节点",
+      "predicate": "用于",
+      "object": "蓝图材质控制",
+      "context": "该蓝图节点专门用于在运行时控制材质采样的曲线位置，是实现动态效果的关键组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "曲线图集",
+      "predicate": "类似于",
+      "object": "纹理编辑器",
+      "context": "曲线图集编辑器提供类似纹理编辑器的调整功能，这种类比有助于学习者快速上手",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "RGBA曲线",
+      "predicate": "组成",
+      "object": "曲线线性颜色",
+      "context": "理解RGBA四条独立曲线如何组合成最终颜色渐变是掌握曲线编辑的核心",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "曲线梯度",
+      "predicate": "显示在",
+      "object": "内容浏览器预览",
+      "context": "内容浏览器中的预览功能帮助开发者快速评估曲线效果，提高工作效率",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:43:48.857Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10115,
+    "contentLength": 6893,
+    "processingTimeMs": 63497
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-mesh-auto-instancing-on-mobile-devices-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-mesh-auto-instancing-on-mobile-devices-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "网格体自动实例化",
+      "predicate": "属于",
+      "object": "网格体绘制管线",
+      "context": "网格体自动实例化是网格体绘制管线的一个功能实现，理解这一归属关系有助于学习者定位功能在引擎架构中的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体自动实例化",
+      "predicate": "用于",
+      "object": "移动设备",
+      "context": "该功能专门针对移动设备优化，了解平台适用性对技术选型至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体自动实例化",
+      "predicate": "提高",
+      "object": "图形性能",
+      "context": "核心价值在于通过合并绘制调用提升渲染效率，这是学习该技术的主要动机",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.Mobile.SupportGPUScene",
+      "predicate": "控制",
+      "object": "自动实例化启用",
+      "context": "该CVAR是功能的总开关，理解配置参数与功能的直接控制关系对实际应用很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.Mobile.UseGPUSceneTexture",
+      "predicate": "替代",
+      "object": "GPU缓冲区",
+      "context": "该配置项提供了Mali设备的兼容方案，了解技术方案的替代关系有助于解决特定硬件问题",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "自动实例化",
+      "predicate": "适用于",
+      "object": "CPU密集型项目",
+      "context": "明确功能的最佳适用场景可避免错误的技术选型，这是性能优化的关键知识",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "网格体绘制管线",
+      "predicate": "包含",
+      "object": "绘制调用合并",
+      "context": "绘制调用合并是管线的基础能力，理解包含关系有助于构建完整的渲染管线知识体系",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "自动实例化配置",
+      "predicate": "需要",
+      "object": "着色器重新编译",
+      "context": "配置变更引发的编译过程是工作流中的重要环节，该关系解释了功能启用的开发成本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "性能分析",
+      "predicate": "验证",
+      "object": "自动实例化效果",
+      "context": "文档明确建议通过性能分析来验证功能价值，建立这一方法论关联对科学优化很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mali设备",
+      "predicate": "限制",
+      "object": "GPU缓冲区大小",
+      "context": "硬件特性限制导致需要特殊配置方案，理解该约束条件对移动端开发具有普遍意义",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:20:26.166Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4186,
+    "contentLength": 2882,
+    "processingTimeMs": 31380
+  }
+}

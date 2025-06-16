@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_overview-of-how-to-modify-the-navigation-mesh-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_overview-of-how-to-modify-the-navigation-mesh-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "寻路系统",
+      "predicate": "包含",
+      "object": "寻路网格体",
+      "context": "寻路系统通过寻路网格体为AI代理提供寻路功能，理解这一包含关系有助于掌握系统的基本工作原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "生成自",
+      "object": "碰撞几何结构",
+      "context": "了解寻路网格体的生成来源有助于开发者优化场景碰撞结构以提高寻路质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路修饰体积",
+      "predicate": "修改",
+      "object": "寻路网格体成本",
+      "context": "掌握寻路修饰体积对网格体成本的修改机制是设计复杂寻路行为的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路修饰体积",
+      "predicate": "使用",
+      "object": "区域类",
+      "context": "理解区域类的应用方式可以帮助开发者自定义寻路区域属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NavArea_Obstacle",
+      "predicate": "属于",
+      "object": "内置区域类",
+      "context": "识别内置区域类有助于快速实现特定寻路效果而无需自定义开发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路链接代理",
+      "predicate": "连接",
+      "object": "不连续寻路区域",
+      "context": "理解链接代理的桥梁作用对设计跨越障碍的AI移动路径至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "智能链接",
+      "predicate": "扩展",
+      "object": "寻路链接代理功能",
+      "context": "掌握智能链接可以实现更复杂的移动行为如跳跃，丰富AI移动方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行时生成模式",
+      "predicate": "包含",
+      "object": "静态模式",
+      "context": "了解不同生成模式的特点有助于根据项目需求选择最佳方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行时生成模式",
+      "predicate": "包含",
+      "object": "动态模式",
+      "context": "动态模式的理解对实现运行时寻路网格更新很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行时生成模式",
+      "predicate": "包含",
+      "object": "限动态修饰模式",
+      "context": "了解限动态修饰模式的特性可以在性能和功能间取得平衡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NavModifier组件",
+      "predicate": "必需于",
+      "object": "限动态修饰模式",
+      "context": "掌握组件与模式的依赖关系可避免运行时寻路更新失效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_NavProxyLink",
+      "predicate": "实现",
+      "object": "智能链接功能",
+      "context": "通过蓝图案例学习智能链接的具体实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路算法",
+      "predicate": "基于",
+      "object": "网格体多边形成本",
+      "context": "理解算法基础原理有助于优化寻路性能和路径质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RecastNavMesh",
+      "predicate": "可视化",
+      "object": "寻路图块边界",
+      "context": "掌握可视化工具对调试复杂寻路问题很有帮助",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态模式",
+      "predicate": "支持",
+      "object": "运行时网格体重建",
+      "context": "了解动态模式的完整功能支持范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路系统",
+      "predicate": "包含",
+      "object": "寻路修饰体积",
+      "context": "系统组件关系的理解有助于构建完整知识体系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路系统",
+      "predicate": "包含",
+      "object": "寻路链接代理",
+      "context": "系统组件关系的理解有助于构建完整知识体系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NavArea_Null",
+      "predicate": "阻止",
+      "object": "寻路网格体生成",
+      "context": "特殊区域类的效果理解对设计不可通行区域很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "配置",
+      "object": "运行时生成模式",
+      "context": "掌握核心配置位置是定制寻路系统的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路链接代理",
+      "predicate": "支持",
+      "object": "方向配置",
+      "context": "了解方向配置选项可以实现更精细的移动控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:14:32.656Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (31099 字符)",
+      "timestamp": "2025-06-15T20:13:27.036Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 41397,
+    "contentLength": 31099,
+    "processingTimeMs": 65628
+  }
+}

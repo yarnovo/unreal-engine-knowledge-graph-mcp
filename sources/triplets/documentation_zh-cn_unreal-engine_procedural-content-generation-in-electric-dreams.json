@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_procedural-content-generation-in-electric-dreams",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_procedural-content-generation-in-electric-dreams.md",
+  "triples": [
+    {
+      "subject": "Electric Dreams场景",
+      "predicate": "基于",
+      "object": "程序化内容生成框架",
+      "context": "Electric Dreams场景是展示PCG框架功能的示例场景，帮助理解PCG的实际应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Level to PCG Asset Utility",
+      "predicate": "转换",
+      "object": "静态网格体/HISM/ISM",
+      "context": "该工具将关卡中的静态网格体转换为PCG点数据，是PCG工作流的基础步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PCG设置资产",
+      "predicate": "包含",
+      "object": "PCG点数据",
+      "context": "PCG设置资产存储了转换后的点数据，是后续PCG处理的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PCG图表",
+      "predicate": "处理",
+      "object": "PCG点数据",
+      "context": "PCG图表是执行程序化规则的主要工作区，对点数据进行各种操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor Tagger编辑器工具控件",
+      "predicate": "优化",
+      "object": "Actor标签工作流",
+      "context": "该工具专门用于大规模编辑Actor标签，解决了原生编辑器在大规模标签编辑时的不足",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SG_CopyPointsWithHierarchy",
+      "predicate": "扩展",
+      "object": "Copy Points节点",
+      "context": "在基础复制功能上增加了层级关系维护能力，是处理复杂层级的关键节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ApplyHierarchy节点",
+      "predicate": "应用",
+      "object": "层级变换",
+      "context": "将层级关系计算后的最终变换应用到点上，是层级处理的最后一步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Flat Area Detector",
+      "predicate": "检测",
+      "object": "平坦表面",
+      "context": "通过多点采样检测表面平坦度，确保资产正确放置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LookAt节点",
+      "predicate": "调整",
+      "object": "点方向",
+      "context": "根据目标向量调整点方向，用于实现特定视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PCG点数据",
+      "predicate": "存储",
+      "object": "变换/网格体/材质信息",
+      "context": "点数据包含了生成资产所需的所有基本信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Point Filter节点",
+      "predicate": "基于",
+      "object": "Actor标签",
+      "context": "通过标签过滤点是PCG工作流中常见的操作方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Static Mesh Spawner节点",
+      "predicate": "生成",
+      "object": "静态网格体",
+      "context": "将处理后的点数据最终生成为可见的静态网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "程序化内容生成框架",
+      "predicate": "包含",
+      "object": "PCG图表",
+      "context": "PCG图表是框架的核心组成部分，用于定义生成规则",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Electric Dreams场景",
+      "predicate": "展示",
+      "object": "PCG最佳实践",
+      "context": "该场景展示了如何结合传统和程序化工作流",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "层级特性",
+      "predicate": "包括",
+      "object": "ActorIndex/ParentActorIndex/HierarchyDepth/RelativeTransform",
+      "context": "这些元数据特性完整描述了点的层级关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:27:55.114Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (25608 字符)",
+      "timestamp": "2025-06-15T20:27:06.124Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 35794,
+    "contentLength": 25608,
+    "processingTimeMs": 49005
+  }
+}

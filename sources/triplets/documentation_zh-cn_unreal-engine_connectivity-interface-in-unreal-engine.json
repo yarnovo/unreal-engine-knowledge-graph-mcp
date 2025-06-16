@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_connectivity-interface-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_connectivity-interface-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "连接接口",
+      "predicate": "属于",
+      "object": "在线服务",
+      "context": "连接接口是虚幻引擎在线服务的一部分，用于管理游戏与平台后端服务的连接状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetConnectionStatus",
+      "predicate": "实现",
+      "object": "连接状态查询",
+      "context": "该函数是连接接口的核心功能，用于获取在线服务的当前连接状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnConnectionStatusChanged",
+      "predicate": "实现",
+      "object": "连接状态监控",
+      "context": "该事件函数允许开发者监听在线服务连接状态的变更",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EOnlineServicesConnectionStatus",
+      "predicate": "定义",
+      "object": "连接状态枚举",
+      "context": "该枚举类明确定义了在线服务可能的各种连接状态值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "连接接口",
+      "predicate": "依赖",
+      "object": "Connectivity.h",
+      "context": "连接接口的实现依赖于该头文件中定义的接口和类型",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "微服务",
+      "predicate": "组成",
+      "object": "在线服务",
+      "context": "在线服务由多个底层微服务构成，连接状态可以针对单个微服务进行查询",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "GetConnectionStatus",
+      "predicate": "返回",
+      "object": "EOnlineServicesConnectionStatus",
+      "context": "该函数的返回值是该枚举类型，表示当前连接状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "连接接口",
+      "predicate": "适用于",
+      "object": "多平台开发",
+      "context": "连接接口的设计考虑了不同平台的在线服务差异，具有平台适应性",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "OnConnectionStatusChanged",
+      "predicate": "监听",
+      "object": "微服务状态变更",
+      "context": "该事件可以监听特定微服务的连接状态变化，而不仅仅是整个在线服务",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "连接接口",
+      "predicate": "基于",
+      "object": "OnlineServicesInterface",
+      "context": "连接接口是该插件的一部分，位于其命名空间下",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:31:40.806Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4823,
+    "contentLength": 3677,
+    "processingTimeMs": 37948
+  }
+}

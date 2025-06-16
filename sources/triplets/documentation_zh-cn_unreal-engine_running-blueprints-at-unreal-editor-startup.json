@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_running-blueprints-at-unreal-editor-startup",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_running-blueprints-at-unreal-editor-startup.md",
+  "triples": [
+    {
+      "subject": "EditorUtilityObject",
+      "predicate": "派生自",
+      "object": "EditorUtilityBlueprint",
+      "context": "编辑器工具蓝图和编辑器工具控件需要直接或间接派生自EditorUtilityObject类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EditorUtilitySubsystem",
+      "predicate": "管理",
+      "object": "StartupObjects",
+      "context": "EditorUtilitySubsystem负责管理启动对象列表，在编辑器启动时调用这些对象的Run函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Run函数",
+      "predicate": "实现",
+      "object": "编辑器初始化逻辑",
+      "context": "覆盖Run函数可以实现在编辑器启动时执行自定义初始化逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DefaultEditorPerProjectUserSettings.ini",
+      "predicate": "配置",
+      "object": "StartupObjects",
+      "context": "通过修改此配置文件可以注册需要在编辑器启动时运行的蓝图类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启动对象",
+      "predicate": "绑定到",
+      "object": "编辑器事件",
+      "context": "启动对象可以将自定义事件绑定到编辑器事件，如资源导入事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ImportSubsystem",
+      "predicate": "触发",
+      "object": "资源导入事件",
+      "context": "ImportSubsystem会在资源导入时触发事件，启动对象可以监听这些事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器工具蓝图",
+      "predicate": "用于",
+      "object": "编辑器环境初始化",
+      "context": "编辑器工具蓝图可以用于初始化编辑环境，确保一致的开发体验",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图编辑器",
+      "predicate": "用于",
+      "object": "编辑EditorUtilityBlueprint",
+      "context": "蓝图编辑器是编辑编辑器工具蓝图的主要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EventRun节点",
+      "predicate": "生成",
+      "object": "自定义蓝图逻辑",
+      "context": "覆盖Run函数会生成EventRun节点，开发者可以在此添加自定义逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启动对象",
+      "predicate": "确保",
+      "object": "编辑体验一致性",
+      "context": "通过启动对象可以确保所有用户打开项目时执行相同的初始化逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器工具控件",
+      "predicate": "属于",
+      "object": "EditorUtilityObject派生类",
+      "context": "编辑器工具控件也需要派生自EditorUtilityObject或其子类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "用于",
+      "object": "创建EditorUtilityBlueprint",
+      "context": "在内容浏览器中右键可以创建新的编辑器工具蓝图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启动对象",
+      "predicate": "执行",
+      "object": "资源验证逻辑",
+      "context": "启动对象可以执行资源命名和位置验证，确保符合项目规范",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器会话",
+      "predicate": "影响",
+      "object": "事件绑定持久性",
+      "context": "在整个编辑会话期间可用的对象（如子系统）最适合用于事件绑定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:39:19.594Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9181,
+    "contentLength": 6283,
+    "processingTimeMs": 40021
+  }
+}

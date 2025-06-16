@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_manually-creating-bundled-pso-caches-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_manually-creating-bundled-pso-caches-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "PSO缓存",
+      "predicate": "包含",
+      "object": "记录的PSO缓存",
+      "context": "PSO缓存分为记录的PSO缓存和稳定的PSO缓存，记录的PSO缓存用于运行时记录PSO数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PSO缓存",
+      "predicate": "包含",
+      "object": "稳定的PSO缓存",
+      "context": "PSO缓存分为记录的PSO缓存和稳定的PSO缓存，稳定的PSO缓存在烘焙时生成，包含稳定的着色器信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "记录的PSO缓存",
+      "predicate": "标识方式",
+      "object": "SHA哈希",
+      "context": "记录的PSO缓存中的着色器由其字节码的SHA哈希标识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "稳定的PSO缓存",
+      "predicate": "标识方式",
+      "object": "稳定密钥",
+      "context": "稳定的PSO缓存由稳定密钥标识，稳定密钥包括材质名称、顶点工厂名称或着色器类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PSO缓存",
+      "predicate": "依赖",
+      "object": "渲染硬件接口(RHI)",
+      "context": "PSO缓存内容依赖于不同的渲染硬件接口(RHI)，不同平台的PSO缓存不可互换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PSO缓存",
+      "predicate": "不适用于",
+      "object": "D3D11",
+      "context": "旧版API如D3D11不受PSO缓存支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PSO缓存",
+      "predicate": "不适用于",
+      "object": "固定硬件平台",
+      "context": "固定硬件平台通常不需要PSO缓存，它们有自己的解决方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PSO缓存采集",
+      "predicate": "步骤",
+      "object": "设置和所需设置",
+      "context": "采集PSO缓存需要先进行项目设置，包括修改配置文件和控制台变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PSO缓存采集",
+      "predicate": "步骤",
+      "object": "采集记录的PSO缓存",
+      "context": "采集记录的PSO缓存需要运行打包应用程序并记录PSO数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PSO缓存采集",
+      "predicate": "步骤",
+      "object": "转换PSO缓存",
+      "context": "采集的PSO数据需要转换为有用的格式，即扩展为稳定的PSO缓存",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PSO缓存采集",
+      "predicate": "步骤",
+      "object": "在应用程序中包含PSO缓存",
+      "context": "生成的稳定PSO缓存需要包含在应用程序中，以便在运行时使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PSO缓存",
+      "predicate": "关联",
+      "object": "游戏使用掩码",
+      "context": "PSO缓存中的每个PSO与游戏使用掩码关联，用于避免不必要的编译",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PSO缓存",
+      "predicate": "控制编译",
+      "object": "FShaderPipelineCache",
+      "context": "PSO缓存的编译可以通过FShaderPipelineCache类进行控制，包括暂停、恢复和设置编译模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "用户缓存文件",
+      "predicate": "存储位置",
+      "object": "Saved目录",
+      "context": "用户缓存文件存储在游戏的Saved目录中，用于保存运行时采集的PSO数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "用户缓存文件",
+      "predicate": "依赖",
+      "object": "GameVersion",
+      "context": "用户缓存文件嵌入GameVersion，用于确保缓存文件与应用程序版本兼容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "手动PSO缓存",
+      "predicate": "交互",
+      "object": "运行时PSO预缓存",
+      "context": "手动PSO缓存和运行时PSO预缓存系统可以交互，通过控制台变量微调行为",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PSO缓存",
+      "predicate": "用于",
+      "object": "避免运行时卡顿",
+      "context": "PSO缓存的主要目的是避免游戏在PSO编译期间发生卡顿",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PSO缓存",
+      "predicate": "适用于",
+      "object": "D3D12",
+      "context": "PSO缓存适用于现代图形API如D3D12",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PSO缓存",
+      "predicate": "适用于",
+      "object": "Vulkan",
+      "context": "PSO缓存适用于现代图形API如Vulkan",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:49:33.683Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (16154 字符)",
+      "timestamp": "2025-06-15T19:48:31.839Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 25644,
+    "contentLength": 16154,
+    "processingTimeMs": 61854
+  }
+}

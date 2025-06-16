@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_level-streaming-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_level-streaming-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "关卡流送",
+      "predicate": "用于",
+      "object": "大型无缝场景创建",
+      "context": "关卡流送功能可以将地图文件加载到内存中或卸载，使开发者能够创建大型、无缝衔接的游戏场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流送",
+      "predicate": "包含",
+      "object": "世界场景构成",
+      "context": "世界场景构成是关卡流送的一种特定形式，用于创建大型场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界场景构成",
+      "predicate": "基于",
+      "object": "平面网格",
+      "context": "在世界场景构成中，关卡分布在平面网格中，并在玩家靠近时流入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界场景构成",
+      "predicate": "被替代",
+      "object": "世界分区",
+      "context": "文档明确指出World Composition是旧版系统，推荐使用虚幻引擎5.0或更高版本中的世界分区来实现关卡流送",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流送",
+      "predicate": "支持",
+      "object": "蓝图控制",
+      "context": "文档包含使用蓝图加载和卸载关卡的专门章节，说明关卡流送支持通过蓝图进行控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流送",
+      "predicate": "支持",
+      "object": "C++控制",
+      "context": "文档包含使用C++加载和卸载关卡的专门章节，说明关卡流送支持通过C++进行控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流送",
+      "predicate": "使用",
+      "object": "关卡流送体积",
+      "context": "文档包含关卡流送体积参考，说明关卡流送功能使用特定体积来控制流送行为",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "关卡流送",
+      "predicate": "优化",
+      "object": "资源管理",
+      "context": "通过将场景拆分为较小的地图块，只有相关部分才会占用资源并被渲染，从而优化资源使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区",
+      "predicate": "扩展",
+      "object": "关卡流送",
+      "context": "世界分区是虚幻引擎5.0及更高版本中推荐的关卡流送实现方式，提供了更先进的流送功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图控制",
+      "predicate": "替代方案",
+      "object": "C++控制",
+      "context": "文档同时介绍了使用蓝图和C++控制关卡流送的方法，说明两者是可以互相替代的实现方式",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:44:03.341Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3051,
+    "contentLength": 2339,
+    "processingTimeMs": 39864
+  }
+}

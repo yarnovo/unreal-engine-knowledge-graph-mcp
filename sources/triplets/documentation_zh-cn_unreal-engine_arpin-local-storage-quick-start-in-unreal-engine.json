@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_arpin-local-storage-quick-start-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_arpin-local-storage-quick-start-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "ARPin",
+      "predicate": "用于",
+      "object": "固定现实世界位置",
+      "context": "ARPin用于在AR中设置固定的现实世界位置，以便将虚拟内容附加到该位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ARPin",
+      "predicate": "支持",
+      "object": "本地存储",
+      "context": "ARPin支持本地存储功能，可以在设备上保存、删除和加载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ARPin本地存储",
+      "predicate": "依赖",
+      "object": "Windows Mixed Reality插件",
+      "context": "ARPin本地存储功能依赖于Windows Mixed Reality插件或特定OpenXR扩展插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ARPin",
+      "predicate": "关联",
+      "object": "Pin Component",
+      "context": "ARPin通过Pin Component将虚拟对象固定到特定位置",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SpawnActor函数",
+      "predicate": "用于",
+      "object": "生成虚拟对象",
+      "context": "SpawnActor函数用于在3D空间中生成虚拟对象，这是使用ARPin的前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pin Component",
+      "predicate": "需要",
+      "object": "场景组件",
+      "context": "Pin Component功能需要场景组件作为输入，通常通过Get Root Component获取",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ARPawn",
+      "predicate": "包含",
+      "object": "运动控制器",
+      "context": "在HoloLens平台上，ARPawn需要添加运动控制器组件来获取手部位置信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ARPin本地存储",
+      "predicate": "前置条件",
+      "object": "AR项目设置",
+      "context": "使用ARPin本地存储功能前，必须完成AR项目的基本设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Save ARPin to Local Store",
+      "predicate": "实现",
+      "object": "ARPin持久化",
+      "context": "Save ARPin to Local Store函数实现了将ARPin数据持久化保存到本地设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Load ARPins from Local Store",
+      "predicate": "实现",
+      "object": "ARPin恢复",
+      "context": "Load ARPins from Local Store函数实现了从本地设备恢复之前保存的ARPin数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Remove Pin",
+      "predicate": "用于",
+      "object": "停止更新固定组件",
+      "context": "Remove Pin函数用于停止更新已固定的组件，是ARPin管理的重要功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Destroy Actor",
+      "predicate": "用于",
+      "object": "移除虚拟引脚对象",
+      "context": "Destroy Actor函数用于移除与ARPin关联的虚拟对象，通常与Remove Pin配合使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ARPin",
+      "predicate": "可扩展为",
+      "object": "Azure空间锚",
+      "context": "ARPin可以扩展为使用云计算服务的Azure空间锚，实现跨设备共享",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Make Transform",
+      "predicate": "用于",
+      "object": "定义对象变换",
+      "context": "Make Transform函数用于定义对象生成时的变换参数，是SpawnActor的重要输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Root Component",
+      "predicate": "获取",
+      "object": "场景组件",
+      "context": "Get Root Component用于获取对象的根场景组件，这是使用Pin Component的必要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Is ARPin Local Store Supported",
+      "predicate": "检查",
+      "object": "平台支持",
+      "context": "该函数用于检查当前平台是否支持ARPin本地存储功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Is ARPin Local Store Ready",
+      "predicate": "检查",
+      "object": "存储准备状态",
+      "context": "该函数用于检查ARPin本地存储是否已准备好使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Motion Controller",
+      "predicate": "获取",
+      "object": "手部位置信息",
+      "context": "在HoloLens平台上，该函数用于获取用户手部的位置信息，用于确定ARPin位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Pinned Component",
+      "predicate": "获取",
+      "object": "固定组件",
+      "context": "该函数用于从ARPin中获取其固定的场景组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Remove All ARPins from Local Store",
+      "predicate": "清空",
+      "object": "本地存储",
+      "context": "该函数用于从本地存储中移除所有已保存的ARPin",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:05:12.103Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10692 字符)",
+      "timestamp": "2025-06-15T18:04:08.440Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14100,
+    "contentLength": 10692,
+    "processingTimeMs": 63673
+  }
+}

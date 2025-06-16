@@ -1,0 +1,227 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_material-inputs-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_material-inputs-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "材质主节点",
+      "predicate": "包含",
+      "object": "输入参数",
+      "context": "材质主节点的输入参数用于定义材质的表面属性，是材质图表逻辑的最终汇总输入",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "输入参数",
+      "predicate": "控制",
+      "object": "材质表面属性",
+      "context": "通过为输入参数传入各种参数，可以实现任意物理表面效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合模式",
+      "predicate": "影响",
+      "object": "输入参数可用性",
+      "context": "混合模式控制材质如何与其背后的像素进行混合，不同的混合模式会启用或禁用特定的输入参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "着色模型",
+      "predicate": "影响",
+      "object": "输入参数可用性",
+      "context": "着色模型控制如何计算材质表面的光照效果，不同的着色模型会启用或禁用特定的输入参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质域",
+      "predicate": "影响",
+      "object": "输入参数可用性",
+      "context": "材质域控制材质的用途，不同的用途会启用或禁用特定的输入参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "底色",
+      "predicate": "定义",
+      "object": "材质整体颜色",
+      "context": "底色表示表面反射的漫反射光，不包含任何镜面反射/高光效果",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "金属感",
+      "predicate": "控制",
+      "object": "表面金属特性",
+      "context": "金属感用于控制表面有多像金属，非金属材质为0，金属材质为1",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "高光度",
+      "predicate": "衡量",
+      "object": "表面反光强度",
+      "context": "高光度输入值的范围在0到1，用于定义表面的反光程度",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "粗糙度",
+      "predicate": "控制",
+      "object": "表面粗糙程度",
+      "context": "粗糙度输入负责控制材质表面的粗糙或光滑程度，影响反射的模糊或锐利程度",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "各向异性",
+      "predicate": "控制",
+      "object": "粗糙度各向异性",
+      "context": "各向异性用于控制材质的粗糙度的各向异性，可实现金属拉丝等效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "切线",
+      "predicate": "定义",
+      "object": "光照方向",
+      "context": "切线输入允许通过纹理或向量表达式来定义光的方向性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自发光颜色",
+      "predicate": "控制",
+      "object": "材质发光部分",
+      "context": "自发光颜色控制材质的哪些部分会发光以及其发光亮度",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "不透明度",
+      "predicate": "需要",
+      "object": "半透明混合模式",
+      "context": "使用不透明度输入需要先启用半透明混合模式",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "不透明遮罩",
+      "predicate": "用于",
+      "object": "遮罩混合模式",
+      "context": "不透明遮罩仅在使用遮罩混合模式时可用，不允许部分不透明效果",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "法线",
+      "predicate": "接收",
+      "object": "法线贴图",
+      "context": "法线输入接收法线贴图，为表面提供重要的物理细节",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "世界位置偏移",
+      "predicate": "操控",
+      "object": "网格体顶点",
+      "context": "世界位置偏移允许材质在世界坐标系内操控网格体的顶点效果",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "次表面颜色",
+      "predicate": "需要",
+      "object": "次表面着色模型",
+      "context": "次表面颜色输入只有在着色模型属性设为次表面时才会启用",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "自定义数据",
+      "predicate": "用于",
+      "object": "特定着色模型",
+      "context": "自定义数据输入是默认禁用的，只有在使用特定着色模型时才启用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛发着色模型",
+      "predicate": "激活",
+      "object": "散射输入",
+      "context": "选中毛发着色模型后，主材质节点会激活散射输入，控制穿过毛发的光线散射量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "布料着色模型",
+      "predicate": "激活",
+      "object": "绒毛颜色输入",
+      "context": "启用布料着色模型后，主材质节点会激活绒毛颜色输入，模拟光通过表面时颜色的变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "眼睛着色模型",
+      "predicate": "激活",
+      "object": "虹膜遮罩输入",
+      "context": "眼睛着色模型启用后会在主材质节点上激活虹膜遮罩输入，控制虹膜的折射率和深度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "透明涂层着色模型",
+      "predicate": "激活",
+      "object": "透明涂层输入",
+      "context": "启用透明涂层着色模型后会在主材质上激活透明涂层输入，模拟带有表面透明效果的多层材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境光遮蔽",
+      "predicate": "模拟",
+      "object": "表面缝隙自阴影",
+      "context": "环境光遮蔽输入用来模拟在表面缝隙中的自阴影效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "折射",
+      "predicate": "模拟",
+      "object": "表面折射率",
+      "context": "折射输入接受一个纹理或数值参数，用于模拟表面的折射率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素深度偏移",
+      "predicate": "控制",
+      "object": "像素深度",
+      "context": "像素深度偏移可通过在着色器图表中设置的逻辑来控制像素深度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "着色模型输入",
+      "predicate": "需要",
+      "object": "基于材质表达式",
+      "context": "着色模型输入要求在材质细节面板中将着色模型设为基于材质表达式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:51:27.477Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (16052 字符)",
+      "timestamp": "2025-06-15T19:49:50.487Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 25199,
+    "contentLength": 16052,
+    "processingTimeMs": 96995
+  }
+}

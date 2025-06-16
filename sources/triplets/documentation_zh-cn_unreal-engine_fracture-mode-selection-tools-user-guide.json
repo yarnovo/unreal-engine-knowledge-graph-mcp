@@ -1,0 +1,99 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_fracture-mode-selection-tools-user-guide",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_fracture-mode-selection-tools-user-guide.md",
+  "triples": [
+    {
+      "subject": "破裂模式",
+      "predicate": "包含",
+      "object": "选择工具",
+      "context": "破裂模式是关卡编辑器的一种模式，其中包含多种工具，包括选择工具，这些工具帮助用户选择和操作几何体集合中的骨骼。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "破裂模式",
+      "predicate": "属于",
+      "object": "关卡编辑器模式",
+      "context": "破裂模式是虚幻引擎中关卡编辑器的一种特定模式，专门用于处理几何体集合的破裂和选择。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体集合",
+      "predicate": "用于",
+      "object": "实时破裂模拟",
+      "context": "几何体集合是虚幻引擎中用于模拟实时破裂的资产类型，了解其结构和操作是学习破裂模式的基础。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体集合",
+      "predicate": "基于",
+      "object": "静态网格体Actor",
+      "context": "几何体集合可以通过关卡中的静态网格体Actor创建，这是使用破裂模式的前提条件之一。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选择工具",
+      "predicate": "支持",
+      "object": "骨骼选择",
+      "context": "选择工具提供了多种方法来选择几何体集合中的骨骼，如全部选择、反转选择、选择父节点等，这些功能帮助用户精确控制破裂过程。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "破裂层级",
+      "predicate": "组成",
+      "object": "根骨骼和子骨骼",
+      "context": "几何体集合的破裂层级是一个树状结构，包含根骨骼（级别0）和多个子骨骼（级别1及以下），理解这一结构有助于有效使用选择工具。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交互式选择模式",
+      "predicate": "扩展",
+      "object": "选择工具功能",
+      "context": "交互式选择模式提供了更灵活的选择方式，如矩形选择和标准选择，并允许通过筛选设置按骨骼大小进行选择，增强了选择工具的实用性。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "破裂工具",
+      "predicate": "生成",
+      "object": "破裂几何体集合",
+      "context": "破裂工具（如切片和均匀Voronoi）用于生成破裂的几何体集合，这是使用选择工具进行操作的前提。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos破坏系统",
+      "predicate": "实现",
+      "object": "几何体集合破裂",
+      "context": "Chaos破坏系统是虚幻引擎中用于实现几何体集合破裂和操控的核心系统，与破裂模式紧密相关。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选择工具",
+      "predicate": "包括",
+      "object": "全部、反转、无、父节点、子节点、兄弟节点、级别、接触节点、交互式",
+      "context": "选择工具提供了多种选择方法，每种方法针对不同的选择需求，如选择同一级别的骨骼或相邻骨骼，这些方法共同构成了选择工具的完整功能集。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:07:45.329Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8666 字符)",
+      "timestamp": "2025-06-15T19:06:57.884Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13116,
+    "contentLength": 8666,
+    "processingTimeMs": 47456
+  }
+}

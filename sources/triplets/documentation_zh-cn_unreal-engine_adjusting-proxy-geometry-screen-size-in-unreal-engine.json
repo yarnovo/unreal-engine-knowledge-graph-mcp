@@ -1,0 +1,85 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_adjusting-proxy-geometry-screen-size-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_adjusting-proxy-geometry-screen-size-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "代理几何体",
+      "predicate": "属于",
+      "object": "合并Actor工具",
+      "context": "代理几何体是合并Actor工具中的一个功能模块，用于简化静态网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "空间采样距离",
+      "predicate": "控制",
+      "object": "代理几何体简化效果",
+      "context": "调整空间采样距离参数可以控制代理几何体的简化程度，影响最终生成的网格体细节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合并Actor工具",
+      "predicate": "生成",
+      "object": "静态网格体",
+      "context": "合并Actor工具通过代理几何体功能生成新的简化后的静态网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "用于",
+      "object": "虚幻引擎关卡",
+      "context": "静态网格体是构建虚幻引擎关卡的基本元素之一",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "代理几何体",
+      "predicate": "依赖",
+      "object": "材质设置",
+      "context": "代理几何体的生成过程依赖于材质设置中的参数配置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "屏幕大小",
+      "predicate": "影响",
+      "object": "空间采样距离",
+      "context": "系统会根据请求的屏幕大小来估算空间采样距离的默认值",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "适用于",
+      "object": "优化",
+      "context": "代理几何体工具主要用于优化场景中的静态网格体，减少渲染开销",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "覆盖空间采样距离",
+      "predicate": "替代",
+      "object": "默认空间采样距离",
+      "context": "启用覆盖空间采样距离参数可以替代系统默认计算的空间采样距离值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输出日志",
+      "predicate": "显示",
+      "object": "实际空间采样距离",
+      "context": "输出日志中会显示系统实际使用的空间采样距离数值，有助于调试和优化",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T17:54:45.153Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6451,
+    "contentLength": 4929,
+    "processingTimeMs": 39229
+  }
+}

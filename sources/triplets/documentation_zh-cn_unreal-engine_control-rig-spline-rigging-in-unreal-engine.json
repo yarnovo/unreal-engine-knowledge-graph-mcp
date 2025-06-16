@@ -1,0 +1,163 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_control-rig-spline-rigging-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_control-rig-spline-rigging-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "控制绑定",
+      "predicate": "包含",
+      "object": "样条线",
+      "context": "控制绑定中可以构建和使用样条线来创建动态的程序动作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "样条线",
+      "predicate": "用于",
+      "object": "创建复杂姿势",
+      "context": "利用样条线可以创建更复杂的姿势，适用于肢体如触角、脊柱和蛇",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "样条线",
+      "predicate": "基于",
+      "object": "功能按钮",
+      "context": "样条线的创建基于功能按钮中的变换信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "来自点的样条线节点",
+      "predicate": "生成",
+      "object": "样条线",
+      "context": "通过指定平移点来构造样条线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "样条线",
+      "predicate": "需要",
+      "object": "至少四个点",
+      "context": "控制绑定中的样条线需要至少四个点才能成功创建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绘制样条线节点",
+      "predicate": "预览",
+      "object": "样条线",
+      "context": "用于直观显示样条线的内容，便于调试和预览",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "适应样条线曲线上的链节点",
+      "predicate": "应用于",
+      "object": "骨骼链",
+      "context": "将样条线应用于关节链，使其影响骨骼链的行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "样条线模式",
+      "predicate": "包含",
+      "object": "Hermite",
+      "context": "Hermite模式确保样条线通过所有定义的点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "样条线模式",
+      "predicate": "包含",
+      "object": "BSpline",
+      "context": "BSpline模式提供更平滑的样条线，仅通过开始和结束点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BSpline",
+      "predicate": "基于",
+      "object": "TinySpline库",
+      "context": "BSpline模式基于TinySpline库实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "每个片段的取样数",
+      "predicate": "影响",
+      "object": "样条线准确性",
+      "context": "更高的取样数使样条线更准确和平滑，但增加性能成本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "适应样条线曲线上的链节点",
+      "predicate": "支持",
+      "object": "对齐选项",
+      "context": "提供拉伸和前端两种对齐方式，控制骨骼链如何适应样条线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "样条线节点",
+      "predicate": "包括",
+      "object": "样条线中最接近的参数节点",
+      "context": "用于从样条线和位置检索最接近的U值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "样条线节点",
+      "predicate": "包括",
+      "object": "获取样条线长度节点",
+      "context": "用于获取样条线的长度信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "样条线节点",
+      "predicate": "包括",
+      "object": "样条线中的变换节点",
+      "context": "根据样条线和U值返回相应的变换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定",
+      "predicate": "依赖",
+      "object": "骨架网格体",
+      "context": "控制绑定需要基于骨架网格体创建，特别是包含适合样条线的关节结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定快速入门指南",
+      "predicate": "前置",
+      "object": "控制绑定样条线操控",
+      "context": "创建控制绑定资产是使用样条线操控的先决条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "功能按钮",
+      "predicate": "前置",
+      "object": "控制绑定样条线操控",
+      "context": "熟悉功能按钮的创建和摆放是使用样条线操控的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:35:20.600Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9202 字符)",
+      "timestamp": "2025-06-15T18:34:17.309Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14158,
+    "contentLength": 9202,
+    "processingTimeMs": 63301
+  }
+}

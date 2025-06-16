@@ -1,0 +1,195 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_introduction-to-iris-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_introduction-to-iris-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Iris",
+      "predicate": "是",
+      "object": "复制系统",
+      "context": "Iris是虚幻引擎中的一种复制系统，用于在多台计算机之间传达游戏状态的变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris",
+      "predicate": "基于",
+      "object": "Fortnite Battle Royale经验",
+      "context": "Iris基于Epic的Fortnite Battle Royale经验构建，支持每个服务器实例最多100个玩家",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris",
+      "predicate": "优化",
+      "object": "复制性能",
+      "context": "Iris通过去除反面模式的约束、分离复制和游戏线程数据、共享工作负载等方式优化复制性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris",
+      "predicate": "包含",
+      "object": "复制系统",
+      "context": "Iris复制系统是Iris的主要接口，维护游戏的所有联网状态数据的副本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris",
+      "predicate": "包含",
+      "object": "复制网桥",
+      "context": "复制网桥控制Gameplay代码和复制系统之间的通信",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制系统",
+      "predicate": "维护",
+      "object": "复制状态",
+      "context": "复制系统维护游戏的所有联网状态数据的副本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制系统",
+      "predicate": "包含",
+      "object": "优先级安排",
+      "context": "优先级安排是复制系统的组件之一，用于排定复制Actor和对象的优先顺序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制系统",
+      "predicate": "包含",
+      "object": "筛选",
+      "context": "筛选是复制系统的组件之一，用于筛选允许哪些Actor复制到哪些连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制系统",
+      "predicate": "包含",
+      "object": "网络序列化器",
+      "context": "网络序列化器是复制系统的组件之一，用于序列化数据以通过网络连接进行传输",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制系统",
+      "predicate": "包含",
+      "object": "数据流",
+      "context": "数据流是复制系统的组件之一，通过网络连接实现数据复制的接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制网桥",
+      "predicate": "控制",
+      "object": "Gameplay代码和复制系统之间的通信",
+      "context": "复制网桥控制Gameplay代码和复制系统之间的通信，包括开始和结束Actor或对象的复制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络对象",
+      "predicate": "包含",
+      "object": "复制协议",
+      "context": "网络对象包含复制协议，描述了复制的对象中内部复制系统操作所需的所有方面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络对象",
+      "predicate": "包含",
+      "object": "复制实例协议",
+      "context": "网络对象包含复制实例协议，包含与操作的Gameplay代码交互所需的数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络对象",
+      "predicate": "包含",
+      "object": "量化数据的缓冲区",
+      "context": "网络对象包含用于存储量化数据的缓冲区",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制状态",
+      "predicate": "描述",
+      "object": "复制状态描述符",
+      "context": "复制状态描述符描述了复制状态中复制数据所需的所有方面，包括内存布局、条件、筛选等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制协议",
+      "predicate": "描述",
+      "object": "复制状态描述符",
+      "context": "复制协议描述了复制的对象中内部复制系统操作所需的所有方面，包括构成复制对象总状态的所有复制状态描述符的列表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制片段",
+      "predicate": "负责",
+      "object": "传递复制状态",
+      "context": "复制片段是负责在Gameplay代码和复制系统之间来回传递复制状态的Iris组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制实例协议",
+      "predicate": "包含",
+      "object": "复制片段",
+      "context": "复制实例协议包含与操作的Gameplay代码交互所需的数据，表示为复制片段的列表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络句柄",
+      "predicate": "关联",
+      "object": "复制的Actor或对象",
+      "context": "网络句柄是用于将复制的Actor或对象与复制系统使用的内部网络对象表示关联的唯一标识符",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris",
+      "predicate": "支持",
+      "object": "C++和蓝图中的复制属性和RPC",
+      "context": "Iris支持C++和蓝图中的现有复制属性和远程程序调用（RPC）定义，在稍作修改后可兼容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris",
+      "predicate": "需要",
+      "object": "Iris插件",
+      "context": "要在项目中使用Iris，需要启用Iris插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris",
+      "predicate": "可通过",
+      "object": "命令行参数启用或禁用",
+      "context": "在运行时可以使用命令行参数启用或禁用Iris",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:38:40.600Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9912 字符)",
+      "timestamp": "2025-06-15T19:37:32.552Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15308,
+    "contentLength": 9912,
+    "processingTimeMs": 68058
+  }
+}

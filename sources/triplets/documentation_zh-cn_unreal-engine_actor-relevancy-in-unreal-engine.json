@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_actor-relevancy-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_actor-relevancy-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Actor",
+      "predicate": "复制到",
+      "object": "客户端",
+      "context": "虚幻引擎只会将与客户端相关的Actor复制到该客户端，帮助学习者理解网络复制的核心机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor::IsNetRelevantFor",
+      "predicate": "确定",
+      "object": "Actor相关性",
+      "context": "该函数是判断Actor是否与特定网络连接相关的核心方法，理解它有助于掌握网络复制逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "基于距离的相关性",
+      "predicate": "影响",
+      "object": "Actor可见性",
+      "context": "当Actor超出设定距离时会被判定为不相关从而不可见，这是优化网络性能的重要机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor::ForceNetRelevant",
+      "predicate": "强制设置",
+      "object": "Actor相关性",
+      "context": "该函数可以强制使Actor保持相关状态，是开发者手动控制复制的关键方法",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "bAlwaysRelevant",
+      "predicate": "重载",
+      "object": "bOnlyRelevantToOwner",
+      "context": "该属性优先级高于bOnlyRelevantToOwner，理解属性优先级对网络设置很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AGameNetworkManager",
+      "predicate": "控制",
+      "object": "基于距离的相关性",
+      "context": "网络管理器决定是否启用距离相关性检测，是高级网络配置的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "APawn",
+      "predicate": "重载",
+      "object": "AActor::IsNetRelevantFor",
+      "context": "Pawn类有自己独特的网络相关性判断逻辑，说明不同Actor子类可能有特殊复制需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "bNetUseOwnerRelevancy",
+      "predicate": "依赖",
+      "object": "Owner属性",
+      "context": "该属性使Actor使用所有者的相关性判断，展示了Actor所有权的网络影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NetCullDistanceSquared",
+      "predicate": "决定",
+      "object": "Actor复制范围",
+      "context": "该属性定义了Actor保持相关状态的最大距离，是性能调优的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Actor相关性",
+      "predicate": "影响",
+      "object": "网络性能",
+      "context": "合理设置相关性可以显著减少不必要的网络数据传输，这是多人游戏优化的核心概念",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Root组件",
+      "predicate": "影响",
+      "object": "Actor相关性",
+      "context": "没有根组件或禁用碰撞的Actor会被判定为不相关，说明物理组件与网络复制的关联",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "重载IsNetRelevantFor",
+      "predicate": "需要",
+      "object": "谨慎处理",
+      "context": "文档特别警告不熟悉复制系统的开发者应谨慎重载，强调这是高级开发内容",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "ViewTarget",
+      "predicate": "参与",
+      "object": "相关性判断",
+      "context": "作为IsNetRelevantFor的关键参数，理解ViewTarget有助于掌握视角相关的复制逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "bRelevantForNetworkReplays",
+      "predicate": "控制",
+      "object": "重播复制",
+      "context": "该属性决定Actor是否出现在网络重播中，是录制系统的重要设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor相关性",
+      "predicate": "基于",
+      "object": "多种条件",
+      "context": "文档详细列出了所有权、距离、可见性等多重判断条件，展示了复杂的网络决策系统",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    }
+  ],
+  "timestamp": "2025-06-15T17:53:51.875Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9948,
+    "contentLength": 6920,
+    "processingTimeMs": 63031
+  }
+}

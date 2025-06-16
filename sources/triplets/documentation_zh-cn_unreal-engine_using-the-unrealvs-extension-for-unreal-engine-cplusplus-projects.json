@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-the-unrealvs-extension-for-unreal-engine-cplusplus-projects",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-the-unrealvs-extension-for-unreal-engine-cplusplus-projects.md",
+  "triples": [
+    {
+      "subject": "UnrealVS扩展",
+      "predicate": "用于",
+      "object": "Visual Studio",
+      "context": "UnrealVS扩展是专为Visual Studio设计的工具，帮助开发者在VS环境中更高效地进行虚幻引擎项目开发",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "UnrealVS扩展",
+      "predicate": "支持",
+      "object": "虚幻引擎C++项目",
+      "context": "该扩展专门针对使用虚幻引擎的C++项目开发，提供了一系列定制化功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealVS扩展",
+      "predicate": "包含",
+      "object": "批量构建程序",
+      "context": "批量构建程序是UnrealVS扩展的核心功能之一，允许开发者创建和运行自定义构建作业",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealVS扩展",
+      "predicate": "提供",
+      "object": "快速构建菜单",
+      "context": "快速构建菜单是扩展的重要功能，可以快速使用不同配置和平台组合构建项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealVS扩展",
+      "predicate": "实现",
+      "object": "命令行参数设置",
+      "context": "扩展提供了便捷的命令行参数设置功能，替代了通过项目属性设置的繁琐方式",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "UnrealVS扩展",
+      "predicate": "依赖",
+      "object": "Visual Studio社区版/专业版",
+      "context": "该扩展不兼容Visual Studio Express版本，仅支持社区版和专业版",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "批量构建程序",
+      "predicate": "优于",
+      "object": "Visual Studio批量构建",
+      "context": "文档明确指出UnrealVS的批量构建程序比VS原生的批量构建功能更好用",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "快速构建菜单",
+      "predicate": "加速",
+      "object": "项目构建流程",
+      "context": "快速构建菜单可以显著加快使用不同配置构建项目的速度，无需频繁切换解决方案配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealVS扩展",
+      "predicate": "简化",
+      "object": "项目文件刷新",
+      "context": "扩展提供了便捷的项目文件刷新功能，替代了手动运行.bat文件的方式",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "启动项目设置",
+      "predicate": "关联",
+      "object": "构建启动项目",
+      "context": "设置启动项目后，可以使用扩展提供的功能快速构建当前启动项目",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "命令行参数",
+      "predicate": "同步",
+      "object": "项目属性",
+      "context": "通过扩展设置命令行参数会自动反映到项目属性中，两者保持同步",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "UnrealVS扩展",
+      "predicate": "支持",
+      "object": "单文件编译",
+      "context": "扩展支持绑定快捷键进行单文件编译，提高迭代开发效率",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "批量构建程序",
+      "predicate": "管理",
+      "object": "构建作业集",
+      "context": "批量构建程序可以创建和管理不同的构建作业集，方便开发者组织构建任务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealVS扩展",
+      "predicate": "集成",
+      "object": "Visual Studio工具栏",
+      "context": "扩展可以集成到VS工具栏中，提供便捷的访问方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎编辑器",
+      "predicate": "自动识别",
+      "object": "项目名称",
+      "context": "当构建虚幻编辑器项目时，编辑器会自动识别项目名称，无需手动输入命令行参数",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T21:26:47.245Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10189 字符)",
+      "timestamp": "2025-06-15T21:26:02.759Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14957,
+    "contentLength": 10189,
+    "processingTimeMs": 44493
+  }
+}

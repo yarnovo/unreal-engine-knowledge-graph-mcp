@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-blueprint-observe-bone-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-blueprint-observe-bone-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "观察骨骼节点",
+      "predicate": "属于",
+      "object": "动画蓝图",
+      "context": "观察骨骼节点是动画蓝图中的一个功能节点，用于调试骨骼运动数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "观察骨骼节点",
+      "predicate": "用于",
+      "object": "调试骨骼运动",
+      "context": "该节点用于观察选定骨骼的平移、旋转和缩放运动以便进行调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "观察骨骼节点",
+      "predicate": "依赖",
+      "object": "骨架",
+      "context": "节点需要从角色的骨架中选择要观察的骨骼",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "观察骨骼节点",
+      "predicate": "支持",
+      "object": "多种显示空间",
+      "context": "节点支持在世界空间、组件空间、父骨骼空间和骨骼空间下观察骨骼运动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "观察骨骼节点",
+      "predicate": "关联",
+      "object": "骨骼网格体",
+      "context": "节点的功能与骨骼网格体密切相关，特别是在组件空间和参考姿势相关的观察中",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "观察骨骼节点",
+      "predicate": "生成",
+      "object": "调试数据",
+      "context": "节点会生成包含平移、旋转和缩放信息的调试数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界空间",
+      "predicate": "是",
+      "object": "显示空间选项",
+      "context": "世界空间是观察骨骼节点提供的显示空间选项之一，用于观察骨骼的绝对位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "组件空间",
+      "predicate": "是",
+      "object": "显示空间选项",
+      "context": "组件空间是观察骨骼节点提供的显示空间选项之一，基于骨骼网格体的参考框架",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "父骨骼空间",
+      "predicate": "是",
+      "object": "显示空间选项",
+      "context": "父骨骼空间是观察骨骼节点提供的显示空间选项之一，用于观察相对于父骨骼的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼空间",
+      "predicate": "是",
+      "object": "显示空间选项",
+      "context": "骨骼空间是观察骨骼节点提供的显示空间选项之一，用于观察骨骼自身参考框架内的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "相对于参考姿势",
+      "predicate": "影响",
+      "object": "观察骨骼节点",
+      "context": "启用此属性后，观察骨骼节点将追踪与参考姿势相关的骨骼位置和运动数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "AnimGraph",
+      "context": "动画蓝图包含AnimGraph，观察骨骼节点在其中使用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "骨架",
+      "predicate": "组成",
+      "object": "骨骼",
+      "context": "骨架由多个骨骼组成，观察骨骼节点可以选择其中的骨骼进行观察",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:00:09.264Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3421,
+    "contentLength": 2409,
+    "processingTimeMs": 47212
+  }
+}

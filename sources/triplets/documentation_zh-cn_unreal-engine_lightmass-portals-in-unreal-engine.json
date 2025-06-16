@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_lightmass-portals-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_lightmass-portals-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Lightmass门户",
+      "predicate": "用于",
+      "object": "天空光照",
+      "context": "Lightmass门户在天空光照场景中效果最佳，帮助提升光照质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lightmass门户",
+      "predicate": "用于",
+      "object": "自发光网格体",
+      "context": "当自发光网格体用于静态照明时，Lightmass门户可以显著改善光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lightmass门户",
+      "predicate": "改善",
+      "object": "全局光照",
+      "context": "Lightmass门户通过引导光线来源，提高全局光照的质量，减少噪点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lightmass门户",
+      "predicate": "依赖",
+      "object": "Lightmass",
+      "context": "Lightmass门户是Lightmass系统的一部分，依赖Lightmass进行光照计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lightmass门户",
+      "predicate": "适用于",
+      "object": "小型关卡",
+      "context": "文档明确指出Lightmass门户最适合小型关卡，大型开放世界场景会不必要地延长烘焙时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lightmass门户",
+      "predicate": "减少",
+      "object": "噪点",
+      "context": "使用Lightmass门户可以显著减少暗区的噪点，提高渲染质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lightmass门户",
+      "predicate": "增加",
+      "object": "构建时间",
+      "context": "过多使用Lightmass门户会大大增加Lightmass构建时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lightmass门户",
+      "predicate": "放置于",
+      "object": "重要光照区域",
+      "context": "应该将Lightmass门户放置在场景中关键的光照区域周围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lightmass门户",
+      "predicate": "替代",
+      "object": "光子发射",
+      "context": "对于不支持光子发射的天空光照和自发光网格体，Lightmass门户可以替代性地引导光线",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Lightmass",
+      "predicate": "使用",
+      "object": "光子映射技术",
+      "context": "Lightmass使用光子映射技术来追溯聚光源、点光源和定向光源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自发光网格体",
+      "predicate": "支持",
+      "object": "静态照明",
+      "context": "自发光网格体可以通过启用'将自发光用于静态照明'选项来参与光照计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "构建光照",
+      "predicate": "需要",
+      "object": "产品级质量设置",
+      "context": "为了获得最佳效果，应该在产品级光照质量下构建Lightmass光照",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:45:24.675Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6885,
+    "contentLength": 5011,
+    "processingTimeMs": 45022
+  }
+}

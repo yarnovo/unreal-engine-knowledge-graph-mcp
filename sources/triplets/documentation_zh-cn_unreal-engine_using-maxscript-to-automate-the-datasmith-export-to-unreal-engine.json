@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-maxscript-to-automate-the-datasmith-export-to-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-maxscript-to-automate-the-datasmith-export-to-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Datasmith导出插件",
+      "predicate": "包含",
+      "object": "DatasmithExport接口",
+      "context": "Datasmith导出插件在安装和激活时会向MAXScript环境添加DatasmithExport接口，这是自动化导出的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DatasmithExport接口",
+      "predicate": "支持",
+      "object": "自动化导出",
+      "context": "通过DatasmithExport接口可以实现3ds Max场景到*.udatasmith文件的自动化导出，无需手动操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DatasmithExport接口",
+      "predicate": "包含",
+      "object": "IncludeTarget属性",
+      "context": "IncludeTarget属性是DatasmithExport接口的重要属性之一，用于控制导出场景中的哪些object",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DatasmithExport接口",
+      "predicate": "包含",
+      "object": "AnimatedTransforms属性",
+      "context": "AnimatedTransforms属性是DatasmithExport接口的重要属性之一，用于控制如何处理带有动画3D变换的对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DatasmithExport接口",
+      "predicate": "包含",
+      "object": "Export方法",
+      "context": "Export方法是DatasmithExport接口的核心方法，用于启动导出过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IncludeTarget属性",
+      "predicate": "控制",
+      "object": "导出object范围",
+      "context": "IncludeTarget属性可以设置为#VisibleObjects或#SelectedObjects，分别控制导出所有可见object或仅选中object",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AnimatedTransforms属性",
+      "predicate": "控制",
+      "object": "动画数据处理方式",
+      "context": "AnimatedTransforms属性可以设置为#CurrentFrame或#ActiveTimeSegment，分别控制是否导出动画数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Export方法",
+      "predicate": "需要",
+      "object": "文件路径参数",
+      "context": "Export方法需要strFilename参数来指定导出的.udatasmith文件的路径和文件名",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Export方法",
+      "predicate": "支持",
+      "object": "无警告模式",
+      "context": "Export方法的boolSuppressWarnings参数可以控制是否隐藏导出过程中的警告窗口，适用于无人参与的自动化导出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导出",
+      "predicate": "生成",
+      "object": "关卡序列",
+      "context": "当AnimatedTransforms设置为#ActiveTimeSegment时，导出的动画数据会被转换为虚幻引擎中的关卡序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3ds Max",
+      "predicate": "集成",
+      "object": "Datasmith导出插件",
+      "context": "3ds Max通过集成Datasmith导出插件实现了与虚幻引擎的内容互通",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MAXScript",
+      "predicate": "扩展",
+      "object": "DatasmithExport接口",
+      "context": "Datasmith导出插件通过向MAXScript环境添加DatasmithExport接口扩展了脚本自动化能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:19:18.107Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4853,
+    "contentLength": 3409,
+    "processingTimeMs": 36801
+  }
+}

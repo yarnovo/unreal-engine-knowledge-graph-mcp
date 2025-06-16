@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_envs-folder-structure-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_envs-folder-structure-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "场景文件夹",
+      "predicate": "包含",
+      "object": "关卡资产",
+      "context": "场景文件夹用于组织所有场景相关资产，其中关卡资产是核心组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "场景文件夹",
+      "predicate": "包含",
+      "object": "子关卡",
+      "context": "场景文件夹通过子关卡实现多人协作开发，这是虚幻引擎的重要工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "场景文件夹",
+      "predicate": "包含",
+      "object": "快照",
+      "context": "快照作为场景开发过程中的状态记录，属于场景管理的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子关卡",
+      "predicate": "分类为",
+      "object": "Geo子关卡",
+      "context": "Geo子关卡是子关卡的一种类型，专门用于场景几何体编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子关卡",
+      "predicate": "分类为",
+      "object": "光照子关卡",
+      "context": "光照子关卡允许光线美术师独立工作而不影响其他部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子关卡",
+      "predicate": "分类为",
+      "object": "FX子关卡",
+      "context": "FX子关卡专门用于特效制作，体现虚幻引擎的模块化工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子关卡",
+      "predicate": "分类为",
+      "object": "Anim子关卡",
+      "context": "Anim子关卡用于动画相关工作，展示子关卡按功能划分的特点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "持续关卡",
+      "predicate": "合并",
+      "object": "子关卡",
+      "context": "持续关卡作为容器最终合并所有子关卡，这是虚幻引擎场景构建的核心机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡资产",
+      "predicate": "遵循",
+      "object": "命名规范",
+      "context": "关卡资产的(关卡名)_(描述)结构是重要的项目管理规范",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "持续关卡",
+      "predicate": "使用",
+      "object": "_P后缀",
+      "context": "_P后缀是识别持续关卡的重要命名约定，对团队协作至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子关卡系统",
+      "predicate": "解决",
+      "object": "二进制资产冲突",
+      "context": "子关卡系统通过分工协作解决了源控制中二进制资产的独占访问问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "场景开发",
+      "predicate": "采用",
+      "object": "模块化工作流程",
+      "context": "通过子关卡划分实现不同职能团队并行工作，是虚幻引擎推荐的最佳实践",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "快照",
+      "predicate": "记录",
+      "object": "关卡状态",
+      "context": "快照功能帮助开发者保存和回溯关卡开发过程中的关键状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "展示",
+      "object": "场景文件夹结构",
+      "context": "内容浏览器是查看和管理推荐场景文件夹结构的主要界面",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子关卡划分",
+      "predicate": "基于",
+      "object": "生产需求",
+      "context": "子关卡的类型和数量需要根据实际项目需求灵活调整，体现工作流程的可定制性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:59:19.422Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3199,
+    "contentLength": 2227,
+    "processingTimeMs": 48364
+  }
+}

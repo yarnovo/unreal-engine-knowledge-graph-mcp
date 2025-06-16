@@ -1,0 +1,187 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_datasmith-reimport-workflow-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_datasmith-reimport-workflow-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Datasmith",
+      "predicate": "导入",
+      "object": "设计数据",
+      "context": "Datasmith的主要功能是将各种源应用程序中的设计数据导入到虚幻引擎中，帮助构建实时可视化和体验",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith重新导入工作流程",
+      "predicate": "包含",
+      "object": "完整场景重新导入",
+      "context": "重新导入工作流程提供了两种主要方法，完整场景重新导入是其中之一，用于更新整个Datasmith场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith重新导入工作流程",
+      "predicate": "包含",
+      "object": "单个资产重新导入",
+      "context": "重新导入工作流程提供了两种主要方法，单个资产重新导入是另一种选择，用于更新特定资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "完整场景重新导入",
+      "predicate": "更新",
+      "object": "Datasmith场景资源",
+      "context": "完整场景重新导入会更新Datasmith场景资源，包含源场景中的所有最新更改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "完整场景重新导入",
+      "predicate": "影响",
+      "object": "场景层级",
+      "context": "完整场景重新导入会更新场景层级，反映源场景中的结构变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "场景层级",
+      "predicate": "包含",
+      "object": "Actor",
+      "context": "场景层级由多个Actor组成，反映源场景中的对象关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "完整场景重新导入",
+      "predicate": "同步",
+      "object": "Datasmith场景Actor",
+      "context": "重新导入后需要将关卡中的Datasmith场景Actor与更新后的资源同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单个资产重新导入",
+      "predicate": "适用于",
+      "object": "静态网格体",
+      "context": "单个资产重新导入可以专门用于更新静态网格体资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单个资产重新导入",
+      "predicate": "适用于",
+      "object": "材质",
+      "context": "单个资产重新导入可以专门用于更新材质资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单个资产重新导入",
+      "predicate": "适用于",
+      "object": "纹理",
+      "context": "单个资产重新导入可以专门用于更新纹理资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith覆盖",
+      "predicate": "保留",
+      "object": "虚幻引擎修改",
+      "context": "Datasmith会跟踪并保留用户在虚幻引擎中对导入资源所做的特定修改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动重新导入",
+      "predicate": "不推荐用于",
+      "object": "Datasmith内容",
+      "context": "文档明确指出自动重新导入系统不推荐用于Datasmith创建的内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "完整场景重新导入",
+      "predicate": "优于",
+      "object": "单个资产重新导入",
+      "context": "文档建议在大多数情况下优先使用完整场景重新导入，特别是在需要反映场景结构变化时",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Datasmith场景资源",
+      "predicate": "生成",
+      "object": "静态网格体资源",
+      "context": "Datasmith场景资源在导入过程中会生成各种静态网格体资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith场景资源",
+      "predicate": "生成",
+      "object": "材质资源",
+      "context": "Datasmith场景资源在导入过程中会生成各种材质资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith场景资源",
+      "predicate": "生成",
+      "object": "纹理资源",
+      "context": "Datasmith场景资源在导入过程中会生成各种纹理资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重新导入选项",
+      "predicate": "控制",
+      "object": "资源处理",
+      "context": "重新导入选项对话框允许用户控制哪些类型的资源需要被处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CAD模型",
+      "predicate": "适用于",
+      "object": "单个资产重新导入",
+      "context": "单个资产重新导入特别适用于需要不同曲面细分设置的CAD模型",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "二次曲面细分",
+      "predicate": "替代",
+      "object": "重新导入",
+      "context": "对于CAD模型，二次曲面细分可以作为重新导入的替代方案",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "数据保留",
+      "predicate": "包含",
+      "object": "Datasmith覆盖",
+      "context": "数据保留机制包含了对Datasmith覆盖的保护",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据保留",
+      "predicate": "包含",
+      "object": "虚幻引擎属性",
+      "context": "数据保留机制也包含了对虚幻引擎特有属性的保护",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:46:58.049Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10374 字符)",
+      "timestamp": "2025-06-15T18:45:47.752Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 18598,
+    "contentLength": 10374,
+    "processingTimeMs": 70306
+  }
+}

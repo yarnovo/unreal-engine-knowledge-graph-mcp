@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_physical-materials-reference-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_physical-materials-reference-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "物理材质",
+      "predicate": "定义",
+      "object": "物理对象与场景动态交互方式",
+      "context": "物理材质是虚幻引擎中控制物理对象与场景交互的核心组件，理解其定义有助于掌握物理模拟的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理材质",
+      "predicate": "包含",
+      "object": "摩擦力",
+      "context": "摩擦力是物理材质的核心属性之一，直接影响物体在表面滑动的行为，是物理模拟的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理材质",
+      "predicate": "包含",
+      "object": "恢复力",
+      "context": "恢复力决定物体碰撞时的能量保留程度，是模拟弹性碰撞的重要属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理材质",
+      "predicate": "包含",
+      "object": "密度",
+      "context": "密度与物体形状共同决定物体质量，是物理模拟中质量计算的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摩擦力",
+      "predicate": "具有",
+      "object": "摩擦力合并模式",
+      "context": "合并模式决定了多个物理材质接触时摩擦力的计算方式，是高级物理交互的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "恢复力",
+      "predicate": "具有",
+      "object": "恢复力合并模式",
+      "context": "与摩擦力合并模式类似，恢复力合并模式控制碰撞时能量保留的计算方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理材质",
+      "predicate": "影响",
+      "object": "可破坏物伤害阈值",
+      "context": "通过可破坏物伤害阈值比例属性，物理材质可以控制可破坏物体的伤害敏感度",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "物理材质",
+      "predicate": "关联",
+      "object": "表面类型",
+      "context": "表面类型定义了物理材质在游戏中的表现效果，如声音和贴花，是物理与游戏逻辑的桥梁",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "物理材质",
+      "predicate": "应用于",
+      "object": "载具系统",
+      "context": "通过轮胎摩擦力比例属性，物理材质可以专门调整载具的物理行为",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "密度",
+      "predicate": "影响",
+      "object": "质量计算",
+      "context": "密度与物体形状共同决定物体质量，是物理模拟的基础计算关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "根据力提升质量",
+      "predicate": "调整",
+      "object": "质量缩放行为",
+      "context": "此高级属性允许开发者控制物体缩放时质量的非线性变化，适用于非实心物体的模拟",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "表面类型",
+      "predicate": "定义于",
+      "object": "DefaultEngine.ini",
+      "context": "了解表面类型的配置位置对项目定制化开发很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理材质",
+      "predicate": "继承自",
+      "object": "默认物理材质",
+      "context": "新建物理材质会继承默认值，理解这一关系有助于快速创建符合需求的材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "轮胎摩擦力比例",
+      "predicate": "影响",
+      "object": "载具操控性",
+      "context": "此属性专门用于微调载具在不同物理材质表面的操控表现",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "物理材质",
+      "predicate": "用于",
+      "object": "布娃娃系统",
+      "context": "文档提到角色尸体(布娃娃)是物理材质的应用实例之一",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T20:21:49.195Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6953,
+    "contentLength": 4289,
+    "processingTimeMs": 47959
+  }
+}

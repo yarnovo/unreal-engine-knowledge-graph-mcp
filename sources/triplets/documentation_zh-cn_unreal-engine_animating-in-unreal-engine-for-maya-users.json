@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animating-in-unreal-engine-for-maya-users",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animating-in-unreal-engine-for-maya-users.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "提供",
+      "object": "动画工具和编辑器",
+      "context": "虚幻引擎提供一套动画工具和编辑器，用于创建角色和对象运行时动画系统、电影级内容渲染，以及实时创作新动画内容。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架",
+      "predicate": "定义",
+      "object": "骨骼网格体",
+      "context": "骨架用于定义骨架（蒙皮）网格体中的骨骼，模拟真实的生物骨架。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架",
+      "predicate": "存储",
+      "object": "动画数据",
+      "context": "骨架用于存储和关联动画数据、整体骨架层级和动画序列。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "播放",
+      "object": "动画序列",
+      "context": "骨骼网格体可以播放动画序列，构造逻辑以实时控制角色的行为。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画序列",
+      "predicate": "包含",
+      "object": "关键帧",
+      "context": "动画序列包含关键帧，用于指定骨架在特定时间点的位置、旋转和缩放。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间",
+      "predicate": "混合",
+      "object": "多个动画或姿势",
+      "context": "混合空间允许混合多个动画或姿势，通过绘制到一维或二维图表中实现。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定",
+      "predicate": "用于",
+      "object": "角色绑定和动画制作",
+      "context": "控制绑定用于直接在引擎内对角色进行绑定和动画制作，无需外部工具。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块化控制绑定",
+      "predicate": "组合",
+      "object": "预编译控制绑定资产",
+      "context": "模块化控制绑定通过组合一系列称为'模块'的预编译控制绑定资产而创建。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "曲线编辑器",
+      "predicate": "修改",
+      "object": "动画对象的关键帧",
+      "context": "曲线编辑器用于修改和微调动画对象的关键帧。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "用于",
+      "object": "过场动画编辑",
+      "context": "Sequencer是虚幻引擎的过场动画编辑器，用于随时间推移为角色、摄像机、各种属性以及其他Actor制作动画。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画模式",
+      "predicate": "支持",
+      "object": "使用Sequencer制作动画",
+      "context": "动画模式支持使用Sequencer直接在场景中为关卡Actor和组件制作动画。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "控制",
+      "object": "骨骼网格体的动画效果",
+      "context": "动画蓝图用于在模拟或Gameplay中控制骨骼网格体的动画效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "状态机",
+      "predicate": "定义",
+      "object": "可以播放的特定动画",
+      "context": "状态机用于定义可以播放的特定动画，以及何时允许播放。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画重定向",
+      "predicate": "允许",
+      "object": "在多个角色之间重复使用动画",
+      "context": "动画重定向功能允许在多个角色之间重复使用动画，这些角色使用相同的骨架资产。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基于物理的动画",
+      "predicate": "增强",
+      "object": "画面真实感",
+      "context": "基于物理的动画使用物理模拟（布娃娃、布料、动态毛发）增强画面真实感。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分层控制绑定",
+      "predicate": "叠加",
+      "object": "控制绑定",
+      "context": "分层控制绑定是一种可在多种其他工作流程之上叠加使用控制绑定的系统。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定后向解算",
+      "predicate": "用于",
+      "object": "将动画烘焙回控制点",
+      "context": "后向解算用于将动画序列烘焙到控制绑定，从而对虚幻引擎中的动画进行进一步更改。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画师工具包插件",
+      "predicate": "添加",
+      "object": "动画师友好型变形器和实用绑定",
+      "context": "动画师工具包插件可为项目添加动画师友好型变形器和实用绑定。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link",
+      "predicate": "提供",
+      "object": "从外部来源流式传输动画数据",
+      "context": "Live Link为从Maya等外部来源将动画数据流式传输并导入到虚幻引擎中提供了通用接口。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:59:13.409Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12710 字符)",
+      "timestamp": "2025-06-15T17:58:01.425Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 20924,
+    "contentLength": 12710,
+    "processingTimeMs": 71991
+  }
+}

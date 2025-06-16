@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_remote-control-cplusplus-api-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_remote-control-cplusplus-api-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "远程控制C++ API",
+      "predicate": "用于",
+      "object": "访问远程控制插件",
+      "context": "远程控制C++ API的主要功能是访问远程控制插件的不同部分，帮助开发者编写自定义集成内容和适配器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制C++ API",
+      "predicate": "支持",
+      "object": "自定义传输",
+      "context": "开发者可以使用自定义传输来访问远程控制实体，扩展了API的应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制C++ API",
+      "predicate": "包含",
+      "object": "RemoteControlPreset",
+      "context": "RemoteControlPreset类提供了访问远程控制预设的功能，是API的核心组件之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RemoteControlPreset",
+      "predicate": "提供",
+      "object": "模块范围功能",
+      "context": "RemoteControlPreset类允许在模块范围内获取或解析远程控制预设，是API的基础功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制C++ API",
+      "predicate": "包含",
+      "object": "RemoteControlModule",
+      "context": "RemoteControlModule类提供了对暴露函数、属性和Actor的访问，是API的核心功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RemoteControlModule",
+      "predicate": "支持",
+      "object": "属性更改侦听器",
+      "context": "RemoteControlModule类包含属性更改侦听器功能，帮助开发者监控属性变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制C++ API",
+      "predicate": "包含",
+      "object": "RemoteControlProperty",
+      "context": "RemoteControlProperty类表示暴露给远程控制的属性，是API处理属性的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RemoteControlProperty",
+      "predicate": "访问",
+      "object": "FProperty",
+      "context": "RemoteControlProperty类提供了对FProperty的访问权限，用于获取和设置属性值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RemoteControlProperty",
+      "predicate": "访问",
+      "object": "RemoteControlPropertyHandle",
+      "context": "RemoteControlPropertyHandle用于处理复杂类型的子属性，是属性操作的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制C++ API",
+      "predicate": "包含",
+      "object": "RemoteControlFunction",
+      "context": "RemoteControlFunction类提供了对UFunction的访问，支持在特定对象上调用函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RemoteControlFunction",
+      "predicate": "使用",
+      "object": "UObject->ProcessEvent",
+      "context": "RemoteControlFunction通过UObject->ProcessEvent方法调用函数，是函数执行的核心机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制C++ API",
+      "predicate": "包含",
+      "object": "RemoteControlActor",
+      "context": "RemoteControlActor类提供了对被暴露Actor的指针访问，是处理Actor的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制C++ API",
+      "predicate": "包含",
+      "object": "RemoteControlPropertyUtilities",
+      "context": "RemoteControlPropertyUtilities类提供了修改属性值的工具，支持简单和复杂类型的属性操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RemoteControlPropertyUtilities",
+      "predicate": "处理",
+      "object": "简单属性类型",
+      "context": "简单属性类型（如整型、浮点数等）可以直接通过RemoteControlPropertyUtilities获取和设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RemoteControlPropertyUtilities",
+      "predicate": "处理",
+      "object": "复杂属性类型",
+      "context": "复杂类型（如TArray、TMap等）需要通过子属性句柄访问，RemoteControlPropertyUtilities提供了相关支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制C++ API",
+      "predicate": "包含",
+      "object": "DisplayClusterRemoteControlInterceptor",
+      "context": "DisplayClusterRemoteControlInterceptor类用于设置可通过nDisplay复制的属性值，扩展了API的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制C++ API",
+      "predicate": "适用于",
+      "object": "虚幻引擎项目",
+      "context": "远程控制C++ API主要用于在虚幻引擎项目中实现远程控制功能，是项目开发的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制C++ API",
+      "predicate": "支持",
+      "object": "C++应用程序集成",
+      "context": "开发者可以创建外部C++应用程序与虚幻引擎项目交互，API提供了必要的支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制C++ API",
+      "predicate": "依赖",
+      "object": "服务器设置",
+      "context": "使用远程控制C++ API需要在虚幻引擎项目中设置服务器，以处理数据发送和接收",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制C++ API",
+      "predicate": "需要",
+      "object": "解析器和管理器",
+      "context": "在虚幻引擎项目中创建解析器和管理器是处理接收数据和调用远程控制函数的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:36:20.162Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3658,
+    "contentLength": 2216,
+    "processingTimeMs": 69673
+  }
+}

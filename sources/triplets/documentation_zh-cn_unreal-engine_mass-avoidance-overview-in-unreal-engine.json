@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_mass-avoidance-overview-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_mass-avoidance-overview-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "群体避障",
+      "predicate": "集成于",
+      "object": "MassEntity",
+      "context": "群体避障是MassEntity系统中的一个功能模块，理解这一关系有助于学习者将避障功能与实体系统联系起来",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMassMovingAvoidanceProcessor",
+      "predicate": "处理",
+      "object": "FMassForceFragment",
+      "context": "处理器计算转向力并输出到FMassForceFragment，这是理解避障系统工作流程的关键环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMassMovingAvoidanceProcessor",
+      "predicate": "使用",
+      "object": "FMassNavigationEdgesFragment",
+      "context": "处理器使用边缘片段进行避障计算，了解这一关系有助于配置避障系统输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMassMovingAvoidanceProcessor",
+      "predicate": "使用",
+      "object": "FMassMoveTargetFragment",
+      "context": "处理器需要移动目标信息来计算避障路径，这对理解系统输入要求很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMassMovingAvoidanceProcessor",
+      "predicate": "使用",
+      "object": "FNavigationObstacleHashGrid2D",
+      "context": "处理器通过网格系统采集附近实体信息，这是避障系统空间查询的关键机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMassStandingAvoidanceProcessor",
+      "predicate": "补充",
+      "object": "UMassMovingAvoidanceProcessor",
+      "context": "两个处理器分别处理静止和移动状态的避障，理解这种分工有助于全面掌握避障系统",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UMassNavigationObstacleGridProcessor",
+      "predicate": "更新",
+      "object": "FNavigationObstacleHashGrid2D",
+      "context": "该处理器负责将障碍物信息传递到空间网格中，是避障系统数据更新的重要环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMassZoneGraphLaneCacheBoundaryProcessor",
+      "predicate": "生成",
+      "object": "FMassNavigationEdgesFragment",
+      "context": "该处理器为区域图表生成边缘数据，这些数据会被用于避障计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FMassMovingAvoidanceParameters",
+      "predicate": "配置",
+      "object": "UMassMovingAvoidanceProcessor",
+      "context": "参数结构体存储了处理器的各种设置，理解这一关系有助于系统调优",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可视化日志",
+      "predicate": "用于调试",
+      "object": "群体避障",
+      "context": "可视化日志是调试避障系统的重要工具，了解这一关系有助于问题排查",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay调试程序",
+      "predicate": "用于调试",
+      "object": "群体避障",
+      "context": "Gameplay调试程序提供了另一种调试避障系统的方式，理解这一关系扩展了调试手段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FMassAvoidanceColliderFragment",
+      "predicate": "表示",
+      "object": "碰撞物形状",
+      "context": "该片段定义了实体在避障系统中的碰撞表示形式，理解这一关系有助于配置实体物理属性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "MassSimulationSubsystem",
+      "predicate": "包含",
+      "object": "群体避障系统",
+      "context": "避障系统运行在MassSimulation子系统中，理解这一层级关系有助于系统架构认知",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FMassZoneGraphCachedLaneFragment",
+      "predicate": "用于",
+      "object": "UMassZoneGraphLaneCacheBoundaryProcessor",
+      "context": "该片段存储了缓存的路径信息，处理器使用这些信息生成避障边缘",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:50:57.424Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9184,
+    "contentLength": 6836,
+    "processingTimeMs": 66943
+  }
+}

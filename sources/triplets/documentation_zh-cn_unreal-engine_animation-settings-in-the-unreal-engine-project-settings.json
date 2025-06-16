@@ -1,0 +1,205 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "动画设置",
+      "predicate": "包含",
+      "object": "压缩",
+      "context": "动画设置模块包含压缩功能，用于优化动画资源",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画设置",
+      "predicate": "包含",
+      "object": "性能",
+      "context": "动画设置模块包含性能优化选项，影响动画系统运行效率",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画设置",
+      "predicate": "包含",
+      "object": "自定义属性",
+      "context": "动画设置模块包含自定义属性配置，用于扩展动画数据功能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画设置",
+      "predicate": "包含",
+      "object": "镜像",
+      "context": "动画设置模块包含镜像功能配置，用于动画对称处理",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "压缩",
+      "predicate": "包含",
+      "object": "压缩Commandlet版本",
+      "context": "压缩设置包含版本控制参数，决定动画重新压缩范围",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "压缩",
+      "predicate": "包含",
+      "object": "关键帧结束效果器匹配名称数组",
+      "context": "压缩设置包含骨骼精度控制参数，影响特定骨骼的压缩质量",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "压缩",
+      "predicate": "包含",
+      "object": "强制重新压缩",
+      "context": "压缩设置包含强制重压缩开关，影响项目加载性能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "性能",
+      "predicate": "包含",
+      "object": "启用性能日志",
+      "context": "性能设置包含日志记录选项，用于分析压缩过程",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "性能",
+      "predicate": "包含",
+      "object": "剥离专用服务器上的动画数据",
+      "context": "性能设置包含服务器优化选项，减少不必要的数据传输",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "性能",
+      "predicate": "包含",
+      "object": "在骨骼网格体初始化时更新动画",
+      "context": "性能设置包含初始化行为控制，影响动画系统启动流程",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义属性",
+      "predicate": "包含",
+      "object": "骨骼时间码自定义属性名称设置",
+      "context": "自定义属性设置包含时间码处理参数，用于动画数据导入",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义属性",
+      "predicate": "包含",
+      "object": "骨骼自定义属性名称",
+      "context": "自定义属性设置包含属性名称列表，定义导入的动画数据",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义属性",
+      "predicate": "包含",
+      "object": "带自定义属性的骨骼名称",
+      "context": "自定义属性设置包含目标骨骼列表，指定属性应用范围",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义属性",
+      "predicate": "包含",
+      "object": "属性混合模式",
+      "context": "自定义属性设置包含混合行为配置，控制动画属性叠加方式",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义属性",
+      "predicate": "包含",
+      "object": "默认属性混合模式",
+      "context": "自定义属性设置包含默认混合类型，作为未指定属性的回退方案",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义属性",
+      "predicate": "包含",
+      "object": "变换属性名称",
+      "context": "自定义属性设置包含变换曲线匹配规则，影响FBX导入行为",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜像",
+      "predicate": "包含",
+      "object": "镜像查找替换表达式",
+      "context": "镜像设置包含名称匹配规则，用于动画对称处理",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "压缩Commandlet版本",
+      "predicate": "控制",
+      "object": "动画重新压缩范围",
+      "context": "该参数决定是重新压缩所有动画还是仅新导入的动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧结束效果器匹配名称数组",
+      "predicate": "影响",
+      "object": "骨骼压缩精度",
+      "context": "该列表中的骨骼会以更高精度进行压缩处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "强制重新压缩",
+      "predicate": "影响",
+      "object": "项目加载性能",
+      "context": "启用该设置会导致每次打开项目时重新压缩所有动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在骨骼网格体初始化时更新动画",
+      "predicate": "实现",
+      "object": "零更新行为",
+      "context": "该设置控制是否在骨骼网格体初始化时执行动画更新",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性混合模式",
+      "predicate": "包含",
+      "object": "覆盖",
+      "context": "混合模式选项之一，用于控制属性叠加行为",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性混合模式",
+      "predicate": "包含",
+      "object": "混合",
+      "context": "混合模式选项之一，用于控制属性叠加行为",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画设置",
+      "predicate": "属于",
+      "object": "虚幻引擎项目设置",
+      "context": "动画设置是虚幻引擎项目设置的重要组成部分",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:03:48.989Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4008,
+    "contentLength": 2504,
+    "processingTimeMs": 78589
+  }
+}

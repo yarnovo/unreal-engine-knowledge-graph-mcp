@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_control-rig-pose-caching-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_control-rig-pose-caching-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "控制绑定姿势缓存",
+      "predicate": "用于",
+      "object": "保存和应用动画姿势",
+      "context": "控制绑定姿势缓存功能允许开发者在不同时间保存和应用动画姿势，这是动画工作流中的核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定姿势缓存",
+      "predicate": "包含",
+      "object": "绑定元素",
+      "context": "所有绑定元素（如骨骼、Nulls、功能按钮等）都可以被缓存到姿势中，这是理解姿势缓存范围的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绑定姿势变量",
+      "predicate": "存储为",
+      "object": "控制绑定图表中的变量",
+      "context": "姿势以绑定姿势变量的形式存储在控制绑定的'我的蓝图'面板中，这是实现姿势缓存的技术基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "获取姿势缓存节点",
+      "predicate": "用于",
+      "object": "保存姿势",
+      "context": "获取姿势缓存节点是存储姿势的核心工具，学习者需要理解其使用方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "应用姿势缓存节点",
+      "predicate": "用于",
+      "object": "应用保存的姿势",
+      "context": "应用姿势缓存节点是从绑定姿势变量读取并应用姿势的关键节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定姿势缓存",
+      "predicate": "依赖",
+      "object": "控制绑定资产",
+      "context": "使用姿势缓存功能前需要先创建控制绑定资产，这是重要的前置条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定姿势缓存",
+      "predicate": "支持",
+      "object": "部分元素缓存",
+      "context": "通过使用数组构建节点可以仅缓存部分绑定元素，这是高级工作流的重要特性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "姿势缓存节点",
+      "predicate": "包含",
+      "object": "常见属性",
+      "context": "大多数姿势缓存节点共享元素类型、空间和要设置的项目等属性，这是节点使用的共性知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定姿势缓存",
+      "predicate": "关联",
+      "object": "正向解算事件",
+      "context": "姿势缓存常与正向解算事件配合使用，这是常见的应用场景",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "控制绑定姿势缓存",
+      "predicate": "关联",
+      "object": "预览场景设置",
+      "context": "预览场景设置可以帮助查看姿势应用效果，这是调试姿势的重要工具",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "获取姿势缓存变换节点",
+      "predicate": "用于",
+      "object": "获取单个元素的变换",
+      "context": "该节点专门用于从姿势中获取单个绑定元素的变换，是精细控制姿势的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对于每个姿势缓存元素节点",
+      "predicate": "用于",
+      "object": "迭代姿势中的项目",
+      "context": "该节点允许对姿势中的所有项目进行迭代处理，是批量操作的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定姿势缓存",
+      "predicate": "支持",
+      "object": "权重控制",
+      "context": "可以通过权重值来预览姿势效果，这是实现平滑过渡的重要特性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "控制绑定姿势缓存",
+      "predicate": "关联",
+      "object": "动画曲线",
+      "context": "姿势缓存可以访问和操作动画曲线值，这是理解姿势数据完整性的重要方面",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "绘制姿势缓存节点",
+      "predicate": "用于",
+      "object": "调试姿势",
+      "context": "该节点可以在视口中绘制保存姿势的轴调试信息，是开发调试的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:35:14.960Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9933,
+    "contentLength": 6929,
+    "processingTimeMs": 57661
+  }
+}

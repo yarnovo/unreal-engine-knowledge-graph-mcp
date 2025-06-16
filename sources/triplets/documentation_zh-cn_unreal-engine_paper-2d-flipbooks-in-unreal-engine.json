@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_paper-2d-flipbooks-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_paper-2d-flipbooks-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Paper 2D Flipbooks",
+      "predicate": "由...组成",
+      "object": "关键帧",
+      "context": "Flipbooks由一系列关键帧组成，每帧包含一个Sprite和展示时长，这是理解Flipbook动画机制的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "包含",
+      "object": "Sprite",
+      "context": "关键帧包含需要展示的Sprite，这是构建Flipbook动画的基本元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "包含",
+      "object": "展示时长",
+      "context": "关键帧包含展示时长（以帧数为单位），这是控制动画节奏的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Paper 2D Flipbooks",
+      "predicate": "使用",
+      "object": "每秒帧率",
+      "context": "每秒帧率选项决定Flipbook的播放速度，影响动画的流畅度和节奏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Paper 2D Flipbooks",
+      "predicate": "编辑工具",
+      "object": "Flipbook编辑器",
+      "context": "Flipbook编辑器提供时间轴功能用于编辑关键帧，是制作和调整Flipbook的主要工具",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Paper 2D Flipbooks",
+      "predicate": "创建方式",
+      "object": "空白Flipbook",
+      "context": "可以创建空白Flipbook后手动填入Sprite，这是Flipbook的一种创建方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Paper 2D Flipbooks",
+      "predicate": "创建方式",
+      "object": "自动生成Flipbook",
+      "context": "可以选择多个Sprite自动生成Flipbook，这是另一种创建方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动生成Flipbook",
+      "predicate": "依赖",
+      "object": "Sprite命名规则",
+      "context": "自动生成Flipbook时Sprite的命名规则很重要，因为Sprite会按字母顺序添加到Flipbook中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Paper 2D Flipbooks",
+      "predicate": "可导入",
+      "object": "JSON格式化sprite表单",
+      "context": "可以导入JSON格式化sprite表单来创建Flipbook，这是与外部工具协作的一种方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "JSON格式化sprite表单",
+      "predicate": "包含",
+      "object": "纹理",
+      "context": "导入JSON格式化sprite表单时会同时导入相关纹理，这是创建Sprite的基础资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Paper 2D Flipbooks",
+      "predicate": "关联",
+      "object": "Paper 2D Sprite",
+      "context": "Flipbook由Sprite组成，理解Sprite是学习Flipbook的前提",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Paper 2D Flipbooks",
+      "predicate": "关联",
+      "object": "材质",
+      "context": "文档相关链接中包含材质，可能用于Sprite的渲染效果",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Paper 2D Flipbooks",
+      "predicate": "关联",
+      "object": "纹理",
+      "context": "文档相关链接中包含纹理，纹理是Sprite的基础资源",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "用于创建",
+      "object": "Paper 2D Flipbooks",
+      "context": "在内容浏览器中可以通过新建菜单创建Flipbook资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容抽屉",
+      "predicate": "用于创建",
+      "object": "自动生成Flipbook",
+      "context": "在内容抽屉中选择多个Sprite可以创建自动生成的Flipbook",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:17:41.951Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5355,
+    "contentLength": 4097,
+    "processingTimeMs": 47972
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_offline-installer-of-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_offline-installer-of-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎离线安装程序",
+      "predicate": "替代",
+      "object": "Epic Games启动程序",
+      "context": "离线安装程序不包含Epic Games启动程序，适用于需要定制安装的组织环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎离线安装程序",
+      "predicate": "支持",
+      "object": "静默安装",
+      "context": "离线安装程序支持通过命令行参数进行静默安装，便于批量部署",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静默安装",
+      "predicate": "使用",
+      "object": "msiexec命令",
+      "context": "Windows平台静默安装需要通过msiexec命令执行，并支持特定参数配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静默安装",
+      "predicate": "支持",
+      "object": "平台特定组件选择",
+      "context": "通过MSI参数可选择性安装iOS/Android等平台支持组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编辑器",
+      "predicate": "依赖",
+      "object": "Engine/Binaries目录",
+      "context": "编辑器运行需要定位到安装目录下的二进制文件位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C++项目开发",
+      "predicate": "可选依赖",
+      "object": "ENGINE_SOURCE_CHECKED参数",
+      "context": "编译引擎源码需要设置该参数，但纯项目代码编辑不需要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "tvOS平台支持",
+      "predicate": "依赖",
+      "object": "iOS平台支持",
+      "context": "文档明确指出tvOS支持需要先启用iOS支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Magic Leap平台支持",
+      "predicate": "依赖",
+      "object": "Android平台支持",
+      "context": "LUMIN平台支持需要先启用Android支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "版本更新",
+      "predicate": "区分",
+      "object": "大版本更新与小版本更新",
+      "context": "大版本更新需要新目录安装，小版本更新可覆盖安装",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "MacOS安装",
+      "predicate": "使用",
+      "object": "FullInstall_OnMac.pkg",
+      "context": "Mac平台通过特定pkg文件进行安装，与Windows的MSI方案不同",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "安装问题排查",
+      "predicate": "使用",
+      "object": "安装日志",
+      "context": "Windows和Mac平台都提供日志文件用于诊断安装问题",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "项目迁移",
+      "predicate": "通过",
+      "object": "Switch Unreal Engine Version功能",
+      "context": "大版本更新后需要通过右键菜单切换项目关联的引擎版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:08:13.619Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9993,
+    "contentLength": 6597,
+    "processingTimeMs": 42524
+  }
+}

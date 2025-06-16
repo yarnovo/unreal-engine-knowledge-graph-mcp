@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-get-animation-variables-in-animation-blueprints-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-get-animation-variables-in-animation-blueprints-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "EventGraph",
+      "context": "动画蓝图中的EventGraph用于实现动画逻辑和控制动画行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "AnimGraph",
+      "context": "AnimGraph用于定义动画状态机和混合逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EventGraph",
+      "predicate": "用于",
+      "object": "计算动画变量",
+      "context": "EventGraph中的逻辑可以计算和控制动画变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画变量",
+      "predicate": "控制",
+      "object": "动画行为",
+      "context": "动画变量可以影响角色的动画表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色对象引用",
+      "predicate": "依赖",
+      "object": "Event Blueprint Initialization Animation节点",
+      "context": "创建角色对象引用需要先创建初始化动画节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色对象引用",
+      "predicate": "通过",
+      "object": "Cast节点",
+      "context": "通过Cast节点可以将动画蓝图转换为角色蓝图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动组件引用",
+      "predicate": "依赖",
+      "object": "角色对象引用",
+      "context": "获取移动组件需要先有角色对象引用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "速度变量",
+      "predicate": "依赖",
+      "object": "移动组件引用",
+      "context": "计算速度需要先获取移动组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色速度",
+      "predicate": "基于",
+      "object": "速度变量",
+      "context": "角色速度是从速度变量中提取的XY平面速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动阈值",
+      "predicate": "基于",
+      "object": "角色速度",
+      "context": "移动阈值通过比较角色速度与设定值来确定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "跳跃和坠落变量",
+      "predicate": "依赖",
+      "object": "移动组件引用",
+      "context": "判断跳跃和坠落状态需要访问移动组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "线程安全函数",
+      "predicate": "替代",
+      "object": "EventGraph计算",
+      "context": "线程安全函数可以在动画线程中安全地计算变量",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "property access节点",
+      "predicate": "用于",
+      "object": "线程安全变量获取",
+      "context": "property access节点是线程安全获取变量的主要方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图线程安全更新动画",
+      "predicate": "包含",
+      "object": "线程安全函数",
+      "context": "线程安全函数需要添加到更新图表中才能生效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第三人称模板项目",
+      "predicate": "提供",
+      "object": "BP_ThirdPersonCharacter",
+      "context": "可以作为动画蓝图开发的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动组件",
+      "predicate": "提供",
+      "object": "角色运动数据",
+      "context": "移动组件包含速度、跳跃状态等运动信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Vector Length XY节点",
+      "predicate": "用于",
+      "object": "计算平面速度",
+      "context": "可以从速度矢量中提取XY平面速度大小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Greater Than or Equal To节点",
+      "predicate": "用于",
+      "object": "设置移动阈值",
+      "context": "用于判断速度是否达到触发动画的阈值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IsFalling节点",
+      "predicate": "用于",
+      "object": "检测跳跃状态",
+      "context": "可以判断角色是否处于跳跃或坠落状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:26:47.214Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11380 字符)",
+      "timestamp": "2025-06-15T19:25:49.628Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16328,
+    "contentLength": 11380,
+    "processingTimeMs": 57602
+  }
+}

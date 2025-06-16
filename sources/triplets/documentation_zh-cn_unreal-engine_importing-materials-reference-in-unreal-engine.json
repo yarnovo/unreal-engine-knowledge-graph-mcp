@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_importing-materials-reference-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_importing-materials-reference-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎FBX导入管线",
+      "predicate": "使用",
+      "object": "FBX 2020.2",
+      "context": "了解虚幻引擎FBX导入管线的基础版本依赖，避免因版本不兼容导致导入失败",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "基础材质",
+      "context": "明确虚幻引擎支持的材质类型范围，帮助开发者选择合适的工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Maya",
+      "predicate": "转换",
+      "object": "虚幻引擎材质名",
+      "context": "理解Maya到虚幻引擎的材质命名转换规则，便于资产管理和调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3dsMax",
+      "predicate": "直接转换",
+      "object": "虚幻引擎材质名",
+      "context": "掌握3dsMax到虚幻引擎的直接命名转换方式，区别于Maya的转换逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质排序",
+      "predicate": "使用",
+      "object": "*_skin##命名规则",
+      "context": "学习通过特定命名规则控制材质导入顺序的技术要点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Maya",
+      "predicate": "应用",
+      "object": "多材质网格体",
+      "context": "掌握Maya中多材质网格体的处理方式及其在虚幻引擎中的对应表现",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3dsMax",
+      "predicate": "使用",
+      "object": "Multi/Sub-Object材质",
+      "context": "理解3dsMax通过Multi/Sub-Object材质实现多材质处理的特殊机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Multi/Sub-Object材质",
+      "predicate": "包含",
+      "object": "Standard材质",
+      "context": "认识3dsMax中复合材质与基础材质的组成关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理导入",
+      "predicate": "依赖",
+      "object": "导入纹理设置",
+      "context": "明确纹理导入的功能开关对整体材质导入流程的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "漫反射贴图",
+      "predicate": "属于",
+      "object": "可导入纹理类型",
+      "context": "了解虚幻引擎自动识别的纹理类型范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "法线贴图",
+      "predicate": "属于",
+      "object": "可导入纹理类型",
+      "context": "了解虚幻引擎自动识别的纹理类型范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Maya材质应用",
+      "predicate": "对应",
+      "object": "虚幻引擎材质插槽",
+      "context": "理解DCC工具与引擎之间材质分配的逻辑映射关系",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "3dsMax Material ID",
+      "predicate": "映射",
+      "object": "虚幻引擎材质插槽",
+      "context": "掌握3dsMax材质ID系统与虚幻引擎材质插槽的对应原理",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FBX流程",
+      "predicate": "支持",
+      "object": "多材质网格体导入",
+      "context": "认识FBX导入管线处理复杂材质分配的能力边界",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:32:37.821Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4774,
+    "contentLength": 3318,
+    "processingTimeMs": 49681
+  }
+}

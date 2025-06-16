@@ -1,0 +1,147 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-sync-groups-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-sync-groups-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "同步组",
+      "predicate": "用于",
+      "object": "动画蓝图",
+      "context": "同步组用于在动画蓝图中同步相关动画的长度和播放，改善混合行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "同步组",
+      "predicate": "包含",
+      "object": "领导者动画",
+      "context": "同步组中有一个动画作为领导者，其他动画作为跟随者",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "同步组",
+      "predicate": "包含",
+      "object": "跟随者动画",
+      "context": "同步组中跟随者动画会匹配领导者动画的长度和播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "领导者动画",
+      "predicate": "控制",
+      "object": "动画长度",
+      "context": "领导者动画提供所有跟随者动画使用的动画长度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "领导者动画",
+      "predicate": "触发",
+      "object": "动画通知",
+      "context": "领导者动画优先触发动画通知",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "跟随者动画",
+      "predicate": "匹配",
+      "object": "领导者动画",
+      "context": "跟随者动画会调整播放速度以匹配领导者动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "同步组",
+      "predicate": "支持",
+      "object": "基于组的同步",
+      "context": "同步组支持通过组名称将动画分组进行同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "同步组",
+      "predicate": "支持",
+      "object": "基于标识的同步",
+      "context": "同步组支持通过同步标识同步动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "同步组",
+      "predicate": "支持",
+      "object": "基于图表的同步",
+      "context": "同步组支持通过图表传播同步行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基于标识的同步",
+      "predicate": "依赖",
+      "object": "同步标识",
+      "context": "基于标识的同步依赖动画序列中的同步标识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "同步标识",
+      "predicate": "用于",
+      "object": "动画序列",
+      "context": "同步标识用于标记动画序列中的关键帧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基于图表的同步",
+      "predicate": "使用",
+      "object": "同步节点",
+      "context": "基于图表的同步使用同步节点传播同步行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合空间图表",
+      "predicate": "支持",
+      "object": "图表同步",
+      "context": "混合空间图表支持图表同步功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蒙太奇",
+      "predicate": "支持",
+      "object": "基于标识同步",
+      "context": "动画蒙太奇支持混出时基于标识同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "AnimGraph",
+      "context": "动画蓝图包含AnimGraph用于编辑动画逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AnimGraph",
+      "predicate": "用于",
+      "object": "编辑同步组",
+      "context": "AnimGraph用于选择和配置同步组中的动画节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:04:59.947Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8020 字符)",
+      "timestamp": "2025-06-15T18:04:08.433Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13244,
+    "contentLength": 8020,
+    "processingTimeMs": 51519
+  }
+}

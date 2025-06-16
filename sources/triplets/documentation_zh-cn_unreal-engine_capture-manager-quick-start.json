@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_capture-manager-quick-start",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_capture-manager-quick-start.md",
+  "triples": [
+    {
+      "subject": "Capture Manager",
+      "predicate": "依赖",
+      "object": "Live Link Hub",
+      "context": "文档明确指出使用Capture Manager需要熟悉Live Link Hub，表明两者之间存在依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Capture Manager",
+      "predicate": "需要",
+      "object": "Capture Manager Editor插件",
+      "context": "文档说明要使用Capture Manager必须启用Capture Manager Editor插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Capture Manager Editor插件",
+      "predicate": "包含于",
+      "object": "Unreal Engine 5.6",
+      "context": "文档说明该插件随Unreal Engine 5.6或更高版本一起发布",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Capture Manager",
+      "predicate": "支持",
+      "object": "多种设备类型",
+      "context": "文档列出了Capture Manager支持的多种设备类型，如Mono Video、Live Link Face等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Capture Manager",
+      "predicate": "支持",
+      "object": "多种处理管道",
+      "context": "文档说明Capture Manager支持不同的处理管道，如Ingest和Download",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Archive设备",
+      "predicate": "向后兼容",
+      "object": "MetaHuman Animator",
+      "context": "文档说明Take Archive设备向后兼容为MetaHuman Animator创建的takes",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Capture Manager工作流",
+      "predicate": "包含",
+      "object": "添加设备",
+      "context": "文档详细描述了Capture Manager工作流的第一步是添加设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Capture Manager工作流",
+      "predicate": "包含",
+      "object": "选择处理管道",
+      "context": "文档说明工作流中需要选择处理管道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Capture Manager工作流",
+      "predicate": "包含",
+      "object": "添加到队列",
+      "context": "文档说明工作流中需要将takes添加到队列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Capture Manager工作流",
+      "predicate": "包含",
+      "object": "开始处理",
+      "context": "文档说明工作流的最后一步是开始处理队列中的takes",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link Face设备",
+      "predicate": "连接",
+      "object": "iOS设备",
+      "context": "文档说明Live Link Face设备用于连接运行Live Link Face App的iOS设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Capture Manager",
+      "predicate": "生成",
+      "object": "资产",
+      "context": "文档说明成功处理takes后会在Content Browser中生成资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Plugins窗口",
+      "predicate": "用于",
+      "object": "启用插件",
+      "context": "文档说明通过Plugins窗口可以启用Capture Manager Editor插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Editor",
+      "predicate": "包含",
+      "object": "Plugins菜单",
+      "context": "文档说明通过Edit > Plugins菜单可以打开Plugins窗口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:19:09.601Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5936,
+    "contentLength": 5740,
+    "processingTimeMs": 49775
+  }
+}

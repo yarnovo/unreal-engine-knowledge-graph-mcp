@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-the-android-vulkan-mobile-renderer-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-the-android-vulkan-mobile-renderer-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "Vulkan",
+      "context": "虚幻引擎内置对Vulkan图形API的支持，这是学习移动渲染优化的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Vulkan",
+      "predicate": "降低",
+      "object": "CPU使用率",
+      "context": "Vulkan作为图形API可以降低Android移动项目的CPU使用率，这是性能优化的重要知识点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Vulkan",
+      "predicate": "提供控制",
+      "object": "GPU",
+      "context": "Vulkan为开发者提供对GPU的更多控制，这是学习图形编程的关键概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Vulkan硬件性能查看器",
+      "predicate": "用于检查",
+      "object": "Vulkan设备兼容性",
+      "context": "该工具帮助开发者确认设备是否支持Vulkan，是移动开发环境配置的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android项目",
+      "predicate": "需要启用",
+      "object": "移动HDR",
+      "context": "在项目设置中启用移动HDR是使用Vulkan渲染的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android项目构建",
+      "predicate": "需要启用",
+      "object": "Vulkan支持",
+      "context": "在平台设置中明确启用Vulkan支持是构建Vulkan项目的必要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Vulkan预览渲染",
+      "predicate": "需要重新编译",
+      "object": "着色器缓存",
+      "context": "启用Vulkan预览会导致着色器重新编译，这是理解渲染管线工作流程的重要知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Vulkan移动预览",
+      "predicate": "依赖",
+      "object": "编辑器首选项设置",
+      "context": "在编辑器首选项中启用Vulkan移动预览是测试Vulkan渲染的必要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Adreno 6xx",
+      "predicate": "支持",
+      "object": "Vulkan",
+      "context": "了解特定GPU对Vulkan的支持情况有助于目标设备优化",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mali G7x系列",
+      "predicate": "支持",
+      "object": "Vulkan",
+      "context": "不同Mali GPU型号对Vulkan的支持情况是移动图形开发的基础知识",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android 9+",
+      "predicate": "支持",
+      "object": "Vulkan功能级别",
+      "context": "了解Android系统版本与Vulkan支持的关系对目标平台选择很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Vulkan渲染",
+      "predicate": "需要",
+      "object": "最新显卡驱动",
+      "context": "开发PC需要更新显卡驱动才能正确预览Vulkan效果，这是开发环境配置的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Vulkan移动预览",
+      "predicate": "显示为",
+      "object": "SF_VULKAN_ES31",
+      "context": "识别Vulkan是否成功启用的视觉标志，是调试的重要指标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Vulkan",
+      "predicate": "替代",
+      "object": "OpenGL ES3.2",
+      "context": "理解Vulkan与OpenGL的关系有助于选择适合的渲染API",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Android Vulkan渲染器",
+      "predicate": "基于",
+      "object": "Vulkan API",
+      "context": "明确渲染器的技术基础对深入理解渲染架构很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:23:44.602Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10980,
+    "contentLength": 7865,
+    "processingTimeMs": 42902
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_data-assets-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_data-assets-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "数据资产",
+      "predicate": "继承自",
+      "object": "UDataAsset",
+      "context": "数据资产是基于UDataAsset类的实例，这是创建数据资产的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据资产",
+      "predicate": "创建于",
+      "object": "内容浏览器",
+      "context": "数据资产可以在内容浏览器中创建，这是数据资产的主要创建方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主数据资产",
+      "predicate": "继承自",
+      "object": "UPrimaryDataAsset",
+      "context": "主数据资产是基于UPrimaryDataAsset类的实例，支持主资产ID和资产包",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主数据资产",
+      "predicate": "支持",
+      "object": "主资产ID",
+      "context": "主数据资产通过继承UPrimaryDataAsset实现主资产ID功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主数据资产",
+      "predicate": "支持",
+      "object": "资产包",
+      "context": "主数据资产支持资产包，可以通过资产管理器手动加载和卸载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主数据资产",
+      "predicate": "管理于",
+      "object": "资产管理器",
+      "context": "主数据资产可以通过资产管理器进行加载和卸载管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据资产",
+      "predicate": "可扩展为",
+      "object": "蓝图子类",
+      "context": "数据资产可以通过创建蓝图子类来添加变量，增强功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图子类",
+      "predicate": "适用于",
+      "object": "纯数据蓝图",
+      "context": "蓝图子类建议使用纯数据蓝图来处理数据继承和更新父类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据资产",
+      "predicate": "包含",
+      "object": "成员变量",
+      "context": "数据资产可以包含各种成员变量，用于存储特定数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "成员变量",
+      "predicate": "可编辑于",
+      "object": "编辑器",
+      "context": "数据资产的成员变量可以通过编辑器直接修改，方便设计师操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "异步资产加载",
+      "predicate": "用于",
+      "object": "加载和卸载资产",
+      "context": "异步资产加载提供了一种按需加载资产数据的方法，适用于精确控制资产加载的场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产管理器",
+      "predicate": "控制",
+      "object": "资产加载和卸载",
+      "context": "资产管理器用于精确控制资产的加载和卸载过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据资产",
+      "predicate": "基于",
+      "object": "原生类",
+      "context": "数据资产的实例可以直接创建为原生类的数据资产，使用原生类名称作为PrimaryAssetType",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主数据资产",
+      "predicate": "重载",
+      "object": "GetPrimaryAssetId",
+      "context": "主数据资产可以重载GetPrimaryAssetId函数来改变PrimaryAssetType的行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:44:55.109Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7419,
+    "contentLength": 5461,
+    "processingTimeMs": 42288
+  }
+}

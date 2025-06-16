@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_leaderboards-interface-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_leaderboards-interface-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "排行榜",
+      "predicate": "用于",
+      "object": "玩家排名",
+      "context": "排行榜是按游戏内统计数据排名的玩家列表，帮助玩家了解自己在游戏中的表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "排行榜",
+      "predicate": "支持",
+      "object": "升序和降序排名",
+      "context": "排行榜可以根据游戏需求按升序或降序排列，适应不同类型的游戏数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务排行榜接口",
+      "predicate": "提供",
+      "object": "排行榜数据检索工具",
+      "context": "该接口为开发者提供了多种读取排行榜数据的方法，支持分块处理大数据量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FLeaderboardEntry",
+      "predicate": "包含",
+      "object": "排行榜条目信息",
+      "context": "该结构体存储了账号ID、排名和分数等核心排行榜数据，是接口通信的主要载体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "排行榜接口",
+      "predicate": "依赖",
+      "object": "统计数据接口",
+      "context": "排行榜需要结合统计数据接口使用，通过统计数据更新来驱动排行榜变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "bIsTitleManaged",
+      "predicate": "控制",
+      "object": "排行榜自动更新",
+      "context": "该标记决定是否监听统计数据变更事件来自动更新排行榜，是配置关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ReadEntriesForUsers",
+      "predicate": "用于",
+      "object": "查询特定用户排名",
+      "context": "该函数专门用于获取指定用户在排行榜中的位置和分数信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ReadEntriesAroundRank",
+      "predicate": "用于",
+      "object": "基于排名的数据查询",
+      "context": "该函数允许开发者从特定排名位置开始检索周围一定范围内的排行榜数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ReadEntriesAroundUser",
+      "predicate": "用于",
+      "object": "基于用户的数据查询",
+      "context": "该函数以特定用户为中心点，检索其周围一定范围内的排行榜数据，支持分页显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "排行榜定义",
+      "predicate": "包含",
+      "object": "UpdateMethod和OrderMethod",
+      "context": "这些配置参数决定了排行榜如何更新和排序，是排行榜行为的关键控制项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "KeepBest",
+      "predicate": "表示",
+      "object": "保留最佳成绩",
+      "context": "这种更新方法会保留玩家在排行榜中的历史最佳表现，而不是最新成绩",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Force",
+      "predicate": "表示",
+      "object": "强制更新最新值",
+      "context": "这种更新方法会始终将排行榜更新为最新统计数据，无论排名变化如何",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "排行榜接口",
+      "predicate": "关联",
+      "object": "在线服务概述",
+      "context": "理解在线服务的整体架构有助于更好地使用排行榜接口，包括参数传递和结果处理",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "排行榜配置",
+      "predicate": "需要",
+      "object": "DefaultEngine.ini修改",
+      "context": "正确配置引擎文件是启用排行榜功能的前提条件，开发者需要掌握配置文件语法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "排行榜接口",
+      "predicate": "实现",
+      "object": "玩家竞争机制",
+      "context": "通过展示玩家排名，该接口实现了游戏内的竞争和激励系统",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:43:10.879Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9901 字符)",
+      "timestamp": "2025-06-15T19:42:17.284Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13751,
+    "contentLength": 9901,
+    "processingTimeMs": 53601
+  }
+}

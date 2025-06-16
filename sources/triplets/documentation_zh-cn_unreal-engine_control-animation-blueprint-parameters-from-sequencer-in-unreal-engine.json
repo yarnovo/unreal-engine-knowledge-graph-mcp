@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_control-animation-blueprint-parameters-from-sequencer-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_control-animation-blueprint-parameters-from-sequencer-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Sequencer",
+      "predicate": "控制",
+      "object": "动画蓝图参数",
+      "context": "Sequencer可以通过可占据项为动画实例上的变量设置动画，直接控制动画蓝图变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "MoveType变量",
+      "context": "动画蓝图中可以创建并公开MoveType类型的变量，用于控制动画状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MoveType",
+      "predicate": "是",
+      "object": "列举类型",
+      "context": "MoveType是一个列举类型，包含Idle、Walk和Run三种状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "使用",
+      "object": "按运动类型混合动作节点",
+      "context": "动画蓝图使用按运动类型混合动作节点来根据MoveType变量混合不同的动画动作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "按运动类型混合动作节点",
+      "predicate": "连接",
+      "object": "最终动画动作",
+      "context": "按运动类型混合动作节点的输出连接到最终动画动作，决定角色的最终动画状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "添加",
+      "object": "SkeletalMeshComponent轨迹",
+      "context": "在Sequencer中可以通过添加SkeletalMeshComponent轨迹来获取动画实例轨迹",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SkeletalMeshComponent轨迹",
+      "predicate": "包含",
+      "object": "动画实例轨迹",
+      "context": "SkeletalMeshComponent轨迹可以包含动画实例轨迹，用于控制动画实例的变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画实例轨迹",
+      "predicate": "控制",
+      "object": "MoveType属性",
+      "context": "动画实例轨迹可以控制MoveType属性，通过设置关键帧来改变动画状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡序列",
+      "predicate": "包含",
+      "object": "动画蓝图",
+      "context": "关卡序列可以包含动画蓝图，用于在序列中控制动画状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "基于",
+      "object": "SK_Mannequin",
+      "context": "动画蓝图是基于SK_Mannequin骨架网格体创建的，用于控制角色的动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ThirdPersonIdle",
+      "predicate": "是",
+      "object": "动画资源",
+      "context": "ThirdPersonIdle是动画蓝图中使用的一种动画资源，用于角色的闲置状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ThirdPersonWalk",
+      "predicate": "是",
+      "object": "动画资源",
+      "context": "ThirdPersonWalk是动画蓝图中使用的一种动画资源，用于角色的行走状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ThirdPersonRun",
+      "predicate": "是",
+      "object": "动画资源",
+      "context": "ThirdPersonRun是动画蓝图中使用的一种动画资源，用于角色的奔跑状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MoveType",
+      "predicate": "决定",
+      "object": "动画状态",
+      "context": "MoveType变量的值决定动画蓝图中的动画状态，如Idle、Walk或Run",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "设置关键帧",
+      "object": "MoveType属性",
+      "context": "在Sequencer中可以为MoveType属性设置关键帧，动态改变角色的动画状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:33:24.000Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6058,
+    "contentLength": 4424,
+    "processingTimeMs": 64991
+  }
+}

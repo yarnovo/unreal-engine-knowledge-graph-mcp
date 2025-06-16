@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_pixel-streaming-infrastructure",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_pixel-streaming-infrastructure.md",
+  "triples": [
+    {
+      "subject": "像素流送基础设施",
+      "predicate": "包含",
+      "object": "信令服务器",
+      "context": "像素流送基础设施包含运行像素流送所需的信令服务器组件，这是学习者理解像素流送架构的基础组件之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送基础设施",
+      "predicate": "包含",
+      "object": "配对器",
+      "context": "基础设施包含配对器组件（在5.5版本前），帮助学习者了解历史版本的功能组成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送基础设施",
+      "predicate": "包含",
+      "object": "SFU",
+      "context": "选择性转发单元是基础设施的关键组件，学习者需要了解其在流媒体传输中的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送基础设施",
+      "predicate": "包含",
+      "object": "前端",
+      "context": "前端是用户交互的直接界面，学习者需要掌握其与引擎的通信机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送插件",
+      "predicate": "依赖",
+      "object": "像素流送基础设施",
+      "context": "插件需要基础设施才能正常运行，这是学习者配置开发环境时需要理解的关键依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送基础设施",
+      "predicate": "基于",
+      "object": "GitHub仓库",
+      "context": "了解基础设施的源代码管理方式有助于学习者参与贡献或自定义开发",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "配对器",
+      "predicate": "被废弃",
+      "object": "虚幻引擎5.5",
+      "context": "学习者需要了解组件演进的版本变化，这对项目版本选择有直接影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "前端",
+      "predicate": "使用",
+      "object": "HTML/CSS/JavaScript",
+      "context": "明确前端技术栈帮助学习者准备相关技能进行自定义开发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送基础设施",
+      "predicate": "对应",
+      "object": "引擎版本",
+      "context": "版本兼容性是学习者选择基础设施分支的重要依据",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "get_ps_servers脚本",
+      "predicate": "自动获取",
+      "object": "像素流送基础设施",
+      "context": "了解自动化工具可以提升学习者的开发效率",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "信令服务器",
+      "predicate": "协调",
+      "object": "前端与引擎通信",
+      "context": "理解信令服务器的作用是掌握像素流送工作原理的核心",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SFU",
+      "predicate": "优化",
+      "object": "媒体流传输",
+      "context": "了解SFU的功能有助于学习者设计高效的流媒体架构",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "像素流送基础设施",
+      "predicate": "支持",
+      "object": "自定义扩展",
+      "context": "知道基础设施的可扩展性可以帮助学习者规划高级功能开发",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "前端存储库",
+      "predicate": "独立于",
+      "object": "引擎更新周期",
+      "context": "这一设计决策影响学习者的版本管理策略",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Platform_scripts目录",
+      "predicate": "包含",
+      "object": "平台启动脚本",
+      "context": "了解脚本位置对学习者部署环境有直接帮助",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:24:15.158Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7078,
+    "contentLength": 4508,
+    "processingTimeMs": 53002
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_overview-of-blueprints-visual-scripting-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_overview-of-blueprints-visual-scripting-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "蓝图可视化脚本",
+      "predicate": "是",
+      "object": "可视化编程语言",
+      "context": "帮助学习者理解蓝图的本质是一种可视化编程工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图可视化脚本",
+      "predicate": "基于",
+      "object": "节点接口",
+      "context": "理解蓝图的核心工作方式是基于节点的连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "扩展",
+      "object": "C++类",
+      "context": "程序员用C++创建基础类，设计师用蓝图扩展功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图类",
+      "predicate": "是",
+      "object": "蓝图类型",
+      "context": "蓝图类是蓝图系统中最主要的类型之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纯数据蓝图",
+      "predicate": "是",
+      "object": "蓝图类型",
+      "context": "纯数据蓝图是另一种重要的蓝图类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纯数据蓝图",
+      "predicate": "可转换为",
+      "object": "完整蓝图",
+      "context": "理解纯数据蓝图与完整蓝图的转换关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "关卡蓝图",
+      "predicate": "是",
+      "object": "专业类型蓝图",
+      "context": "关卡蓝图是专门用于关卡事件的特殊蓝图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图接口",
+      "predicate": "允许",
+      "object": "蓝图间通信",
+      "context": "理解不同蓝图如何通过接口共享数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图宏库",
+      "predicate": "包含",
+      "object": "常用节点序列",
+      "context": "宏库用于存储和复用常用功能模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图工具",
+      "predicate": "用于",
+      "object": "扩展编辑器功能",
+      "context": "理解Blutility在编辑器扩展中的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "组件窗口",
+      "predicate": "用于",
+      "object": "添加组件到蓝图",
+      "context": "组件是构建蓝图功能的基础元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "构造脚本",
+      "predicate": "用于",
+      "object": "初始化蓝图实例",
+      "context": "理解蓝图实例化时的初始化过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件图表",
+      "predicate": "用于",
+      "object": "响应Gameplay事件",
+      "context": "事件图表是蓝图实现交互性的核心",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "函数",
+      "predicate": "用于",
+      "object": "模块化蓝图功能",
+      "context": "函数帮助组织和复用蓝图逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变量",
+      "predicate": "用于",
+      "object": "存储值和引用",
+      "context": "变量是蓝图数据存储的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "替代",
+      "object": "部分虚幻脚本功能",
+      "context": "理解蓝图在UE5中的定位和演变",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "蓝图编辑器",
+      "predicate": "包含",
+      "object": "组件窗口",
+      "context": "理解蓝图编辑器的组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图编辑器",
+      "predicate": "包含",
+      "object": "事件图表",
+      "context": "理解蓝图编辑器的核心功能区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "继承",
+      "object": "父类功能",
+      "context": "理解蓝图的面向对象特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图接口",
+      "predicate": "类似",
+      "object": "编程接口概念",
+      "context": "帮助有编程背景的学习者理解蓝图接口",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "关卡蓝图",
+      "predicate": "类似",
+      "object": "UE3的Kismet",
+      "context": "帮助UE3用户过渡到UE5",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:14:24.510Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11510,
+    "contentLength": 6416,
+    "processingTimeMs": 57483
+  }
+}

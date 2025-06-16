@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_gameplay-timers-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_gameplay-timers-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "定时器",
+      "predicate": "用于",
+      "object": "延迟执行操作",
+      "context": "定时器可以安排在经过一定延迟或一段时间结束后执行特定操作，这是其核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定时器",
+      "predicate": "管理于",
+      "object": "定时器管理器",
+      "context": "定时器在全局定时器管理器（FTimerManager）中管理，这是定时器运行的基础设施",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定时器管理器",
+      "predicate": "存在于",
+      "object": "游戏实例",
+      "context": "全局定时器管理器存在于游戏实例对象上，这是其主要的存储位置之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定时器管理器",
+      "predicate": "存在于",
+      "object": "场景",
+      "context": "每个场景都有自己的定时器管理器，用于管理场景相关的定时任务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定时器管理器",
+      "predicate": "提供函数",
+      "object": "SetTimer",
+      "context": "SetTimer是定时器管理器提供的核心函数之一，用于设置定时器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定时器管理器",
+      "predicate": "提供函数",
+      "object": "SetTimerForNextTick",
+      "context": "SetTimerForNextTick是另一个核心函数，用于设置下一帧运行的定时器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定时器",
+      "predicate": "关联",
+      "object": "定时器句柄",
+      "context": "定时器通过定时器句柄（FTimerHandle）进行引用和管理",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定时器句柄",
+      "predicate": "用于",
+      "object": "控制定时器",
+      "context": "定时器句柄可用于暂停、恢复、查询或取消定时器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor",
+      "predicate": "提供函数",
+      "object": "GetWorldTimerManager",
+      "context": "AActor类提供了GetWorldTimerManager函数，用于获取场景的定时器管理器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGameInstance",
+      "predicate": "提供函数",
+      "object": "GetTimerManager",
+      "context": "UGameInstance类提供了GetTimerManager函数，用于获取全局定时器管理器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定时器",
+      "predicate": "可绑定",
+      "object": "委托",
+      "context": "定时器可以与委托一起使用，这是其灵活性的重要体现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定时器管理器",
+      "predicate": "提供函数",
+      "object": "ClearTimer",
+      "context": "ClearTimer函数用于清空指定的定时器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定时器管理器",
+      "predicate": "提供函数",
+      "object": "PauseTimer",
+      "context": "PauseTimer函数用于暂停正在运行的定时器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定时器管理器",
+      "predicate": "提供函数",
+      "object": "UnPauseTimer",
+      "context": "UnPauseTimer函数用于恢复暂停的定时器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定时器管理器",
+      "predicate": "提供函数",
+      "object": "IsTimerActive",
+      "context": "IsTimerActive函数用于检查定时器是否活跃",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定时器管理器",
+      "predicate": "提供函数",
+      "object": "GetTimerRate",
+      "context": "GetTimerRate函数用于获取定时器的当前速率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定时器管理器",
+      "predicate": "提供函数",
+      "object": "GetTimerElapsed",
+      "context": "GetTimerElapsed函数用于获取定时器的经过时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定时器管理器",
+      "predicate": "提供函数",
+      "object": "GetTimerRemaining",
+      "context": "GetTimerRemaining函数用于获取定时器的剩余时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定时器",
+      "predicate": "存在限制",
+      "object": "线程安全",
+      "context": "定时器代码目前并非线程安全，这是开发者需要注意的限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定时器",
+      "predicate": "适用于",
+      "object": "游戏逻辑",
+      "context": "定时器常用于实现各种游戏逻辑，如技能冷却、周期性伤害等",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:11:04.596Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8436,
+    "contentLength": 5228,
+    "processingTimeMs": 57582
+  }
+}

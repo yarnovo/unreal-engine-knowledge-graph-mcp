@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_procedural-content-generation-pcg-biome-core-and-sample-plugins-quick-start-guide-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_procedural-content-generation-pcg-biome-core-and-sample-plugins-quick-start-guide-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "PCG群系核心插件",
+      "predicate": "依赖",
+      "object": "PCG框架",
+      "context": "PCG群系核心插件需要PCG框架才能正常运行，这是学习PCG群系前必须掌握的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PCG群系核心插件",
+      "predicate": "依赖",
+      "object": "PCG几何体脚本互操作插件",
+      "context": "理解几何体脚本互操作是使用PCG群系核心的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PCG群系示例插件",
+      "predicate": "依赖",
+      "object": "PCG群系核心插件",
+      "context": "示例插件展示群系创建工具的使用，必须先理解核心插件的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_PCGBiomeCore",
+      "predicate": "包含",
+      "object": "PCG组件",
+      "context": "主蓝图类包含核心PCG组件，这是学习群系生成逻辑的关键组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BiomeCore PCG图表",
+      "predicate": "包含",
+      "object": "子图表",
+      "context": "主图表由多个子图表组成，理解这种层级结构对学习PCG编程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PCG群系工具",
+      "predicate": "使用",
+      "object": "数据资产",
+      "context": "BiomeDefinitions、BiomeAssets和BiomeGenerators等数据资产是生成内容的基础，必须掌握其结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_PCGBiomeVolume",
+      "predicate": "继承",
+      "object": "BP_PCGBiomeCore",
+      "context": "理解继承关系有助于学习如何扩展群系功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "BP_PCGBiomeSpline",
+      "predicate": "继承",
+      "object": "BP_PCGBiomeCore",
+      "context": "样条线版本与基础版本的继承关系展示了工具的多态性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "BiomeDefinitionTemplate",
+      "predicate": "定义",
+      "object": "群系属性",
+      "context": "学习如何配置BiomeName、BiomeColor等属性是创建自定义群系的第一步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BiomeGeneratorTemplate",
+      "predicate": "控制",
+      "object": "生成逻辑",
+      "context": "发生器资产通过GeneratorGraph控制生成过程，是学习程序化生成的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BiomeAssetTemplate",
+      "predicate": "关联",
+      "object": "BiomeGeneratorTemplate",
+      "context": "资产必须引用发生器才能工作，这种关联关系是内容生成的关键",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PCG群系工具",
+      "predicate": "支持",
+      "object": "世界分区",
+      "context": "工具兼容分区和非分区关卡，这对大型场景开发很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "PCG群系工具",
+      "predicate": "可选依赖",
+      "object": "地形系统",
+      "context": "了解地形是可选项有助于设计无地形的程序化场景",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "调试立方体",
+      "predicate": "用于",
+      "object": "验证生成范围",
+      "context": "调试可视化是学习PCG工作流程的重要调试手段",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "群系缓存",
+      "predicate": "显示",
+      "object": "生成覆盖范围",
+      "context": "理解缓存可视化有助于调试复杂的群系混合情况",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "BiomePriority",
+      "predicate": "控制",
+      "object": "群系混合",
+      "context": "优先级设置是学习多群系共存机制的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GeneratorGraph",
+      "predicate": "生成",
+      "object": "点数据",
+      "context": "理解图表如何生成点数据是学习PCG编程的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BiomeSampleLevel",
+      "predicate": "展示",
+      "object": "完整设置示例",
+      "context": "示例关卡是学习复杂群系配置的最佳参考",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PCG程序集",
+      "predicate": "扩展",
+      "object": "生成能力",
+      "context": "程序集提供了可复用的生成模块，是高级PCG开发的重要内容",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "运行时分层生成",
+      "predicate": "实现",
+      "object": "动态加载",
+      "context": "该功能与PCG群系结合可以实现更高效的大场景管理",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T20:29:38.040Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12762 字符)",
+      "timestamp": "2025-06-15T20:28:37.632Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17714,
+    "contentLength": 12762,
+    "processingTimeMs": 60420
+  }
+}

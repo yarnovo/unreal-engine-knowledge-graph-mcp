@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_setting-up-editor-modules-for-customizing-the-editor-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_setting-up-editor-modules-for-customizing-the-editor-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "编辑器模块",
+      "predicate": "属于",
+      "object": "虚幻引擎模块",
+      "context": "编辑器模块是虚幻引擎中一种特殊的C++模块，专门用于编辑器版本编译",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器模块",
+      "predicate": "用于",
+      "object": "自定义编辑器功能",
+      "context": "编辑器模块的主要用途是创建能够自定义编辑器功能的类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器模块",
+      "predicate": "不包含于",
+      "object": "运行时版本",
+      "context": "编辑器模块的代码仅在编辑器版本中编译，不会包含在运行时版本中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CustomGameplayEditor模块",
+      "predicate": "支持",
+      "object": "CustomGameplay模块",
+      "context": "CustomGameplayEditor模块为CustomGameplay模块中的类和类型提供编辑器自定义支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CustomGameplayEditor模块",
+      "predicate": "依赖",
+      "object": "Slate",
+      "context": "CustomGameplayEditor模块依赖Slate UI框架来实现编辑器自定义功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CustomGameplayEditor模块",
+      "predicate": "依赖",
+      "object": "SlateCore",
+      "context": "CustomGameplayEditor模块依赖SlateCore框架来实现编辑器自定义功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CustomGameplayEditor模块",
+      "predicate": "依赖",
+      "object": "CustomGameplay模块",
+      "context": "CustomGameplayEditor模块需要依赖CustomGameplay模块来访问其类和类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器模块",
+      "predicate": "需要",
+      "object": "模块类实现",
+      "context": "设置编辑器模块需要使用模块类来注册细节面板自定义内容或自定义编辑器窗口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器模块",
+      "predicate": "包含",
+      "object": "StartupModule函数",
+      "context": "编辑器模块需要实现StartupModule函数来初始化编辑器功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器模块",
+      "predicate": "包含",
+      "object": "ShutdownModule函数",
+      "context": "编辑器模块需要实现ShutdownModule函数来清理编辑器功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器模块",
+      "predicate": "注册于",
+      "object": ".uproject文件",
+      "context": "编辑器模块需要在项目的.uproject文件中注册，并指定类型为Editor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行时模块",
+      "predicate": "注册于",
+      "object": ".uproject文件",
+      "context": "运行时模块需要在项目的.uproject文件中注册，并指定类型为Runtime",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器模块",
+      "predicate": "添加至",
+      "object": "Editor.Target.cs文件",
+      "context": "编辑器模块需要添加到项目的Editor.Target.cs文件的ExtraModuleNames中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行时模块",
+      "predicate": "添加至",
+      "object": "Target.cs文件",
+      "context": "运行时模块需要添加到项目的Target.cs文件的ExtraModuleNames中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块",
+      "predicate": "需要",
+      "object": "Build.cs文件",
+      "context": "每个模块都需要一个Build.cs文件来定义其依赖项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块",
+      "predicate": "包含",
+      "object": "Private文件夹",
+      "context": "模块目录结构需要包含Private文件夹来存放私有实现文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块",
+      "predicate": "包含",
+      "object": "Public文件夹",
+      "context": "模块目录结构需要包含Public文件夹来存放公共头文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器模块",
+      "predicate": "实现",
+      "object": "IModuleInterface",
+      "context": "编辑器模块需要实现IModuleInterface接口来提供模块生命周期管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块",
+      "predicate": "使用",
+      "object": "IMPLEMENT_MODULE宏",
+      "context": "运行时模块使用IMPLEMENT_MODULE宏来实现模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器模块",
+      "predicate": "使用",
+      "object": "IMPLEMENT_GAME_MODULE宏",
+      "context": "编辑器模块使用IMPLEMENT_GAME_MODULE宏来实现模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:45:35.920Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10020,
+    "contentLength": 7220,
+    "processingTimeMs": 61900
+  }
+}

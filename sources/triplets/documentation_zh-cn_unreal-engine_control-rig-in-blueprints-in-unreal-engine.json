@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_control-rig-in-blueprints-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_control-rig-in-blueprints-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "控制绑定组件",
+      "predicate": "属于",
+      "object": "动画类别",
+      "context": "控制绑定组件位于蓝图的动画类别中，帮助学习者理解其功能定位",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定组件",
+      "predicate": "依赖",
+      "object": "控制绑定类",
+      "context": "控制绑定组件需要指定控制绑定类才能正常工作，这是核心依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "控制绑定组件",
+      "predicate": "映射到",
+      "object": "骨骼网格体组件",
+      "context": "控制绑定必须映射到骨骼网格体组件才能形成连接，这是关键工作流程",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "初始化前事件",
+      "predicate": "用于",
+      "object": "设置映射",
+      "context": "初始化前事件是设置控制绑定与骨骼网格体映射的关键时机",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定",
+      "predicate": "包含",
+      "object": "绑定元素",
+      "context": "绑定元素（如骨骼、功能按钮等）是控制绑定的核心组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定组件",
+      "predicate": "支持",
+      "object": "动态图表映射",
+      "context": "除了细节面板映射外，控制绑定组件还支持通过蓝图事件图表进行动态映射",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "添加映射骨骼网格体",
+      "predicate": "是",
+      "object": "初始化步骤",
+      "context": "该节点通常在控制绑定初始化时使用，建立基础映射关系",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "控制绑定组件",
+      "predicate": "提供",
+      "object": "多种事件",
+      "context": "组件提供了完整的事件序列（初始化前/后、设置前/后等）供开发者使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "映射元素",
+      "predicate": "包含",
+      "object": "方向属性",
+      "context": "方向属性决定映射是输入（组件影响控制绑定）还是输出（控制绑定影响组件）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定组件",
+      "predicate": "支持",
+      "object": "非骨骼网格体对象",
+      "context": "组件可以将非骨骼网格体对象附加到控制绑定层级，扩展了应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "控制绑定快速入门指南",
+      "predicate": "是",
+      "object": "先决条件",
+      "context": "学习控制绑定组件前需要先掌握控制绑定的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图可视化脚本",
+      "predicate": "是",
+      "object": "先决条件",
+      "context": "使用控制绑定组件需要具备蓝图可视化脚本的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定组件",
+      "predicate": "实现",
+      "object": "Gameplay逻辑驱动",
+      "context": "组件的主要功能之一是通过蓝图中的Gameplay逻辑驱动控制绑定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "惰性求值",
+      "predicate": "优化",
+      "object": "性能",
+      "context": "启用惰性求值可以优化性能，只在输入变化时进行求值",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "控制绑定组件",
+      "predicate": "关联",
+      "object": "Actor蓝图",
+      "context": "控制绑定组件通常用于包含骨骼网格体组件的Actor蓝图中",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T18:35:05.331Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11243 字符)",
+      "timestamp": "2025-06-15T18:34:17.305Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17823,
+    "contentLength": 11243,
+    "processingTimeMs": 48033
+  }
+}

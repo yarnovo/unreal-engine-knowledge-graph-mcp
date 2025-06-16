@@ -1,0 +1,163 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_iris-filtering-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_iris-filtering-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Iris筛选系统",
+      "predicate": "包含",
+      "object": "所有者筛选",
+      "context": "所有者筛选是Iris筛选系统支持的四种筛选类型之一，用于确定对象复制到特定连接的条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris筛选系统",
+      "predicate": "包含",
+      "object": "连接筛选",
+      "context": "连接筛选是Iris筛选系统支持的四种筛选类型之一，用于基于静态连接ID控制对象复制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris筛选系统",
+      "predicate": "包含",
+      "object": "群组筛选",
+      "context": "群组筛选是Iris筛选系统支持的四种筛选类型之一，用于批量管理对象组的复制策略",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris筛选系统",
+      "predicate": "包含",
+      "object": "动态筛选",
+      "context": "动态筛选是Iris筛选系统支持的四种筛选类型之一，支持自定义逻辑控制对象复制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "所有者筛选",
+      "predicate": "通过",
+      "object": "bOnlyRelevantToOwner标记",
+      "context": "当bOnlyRelevantToOwner标记设为true时，Actor会自动启用所有者筛选机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "连接筛选",
+      "predicate": "优于",
+      "object": "群组筛选",
+      "context": "当需要静态控制少量对象的复制连接时，连接筛选比群组筛选更合适",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "群组筛选",
+      "predicate": "优于",
+      "object": "连接筛选",
+      "context": "当需要动态管理大量对象的复制策略时，群组筛选比逐个设置连接筛选更高效",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动态筛选",
+      "predicate": "继承自",
+      "object": "UNetObjectFilter",
+      "context": "自定义动态筛选器必须通过继承UNetObjectFilter基类来实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态筛选",
+      "predicate": "消耗更多",
+      "object": "CPU资源",
+      "context": "相比于其他筛选类型，动态筛选会显著增加CPU开销，应作为最后手段使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "群组筛选",
+      "predicate": "支持",
+      "object": "多群组成员资格",
+      "context": "一个对象可以同时属于多个筛选群组，增强复制控制的灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris筛选系统",
+      "predicate": "依赖",
+      "object": "FNetRefHandle",
+      "context": "所有筛选操作都需要通过FNetRefHandle标识符来定位复制系统中的对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态筛选",
+      "predicate": "应用顺序在",
+      "object": "连接和群组筛选之后",
+      "context": "动态筛选器在连接和群组筛选之后应用，无法覆盖前两者的筛选结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UReplicationSystem",
+      "predicate": "提供",
+      "object": "筛选管理接口",
+      "context": "所有筛选类型的配置和管理都通过UReplicationSystem提供的API实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UActorReplicationBridge",
+      "predicate": "用于获取",
+      "object": "FNetRefHandle",
+      "context": "需要通过UActorReplicationBridge获取对象的FNetRefHandle以进行筛选操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态筛选器配置",
+      "predicate": "需要修改",
+      "object": "DefaultEngine.ini",
+      "context": "自定义动态筛选器需要在引擎配置文件中注册和配置才能使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "群组筛选",
+      "predicate": "适用于",
+      "object": "团队复制管理",
+      "context": "群组筛选特别适合基于团队、小组等逻辑管理对象复制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "连接筛选",
+      "predicate": "使用",
+      "object": "TBitArray",
+      "context": "连接筛选通过TBitArray数据结构高效管理允许/禁止的连接ID集合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris简介",
+      "predicate": "是先修知识",
+      "object": "Iris筛选系统",
+      "context": "理解Iris筛选系统需要先掌握Iris的基本概念和工作原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:38:32.336Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12728 字符)",
+      "timestamp": "2025-06-15T19:37:32.557Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17054,
+    "contentLength": 12728,
+    "processingTimeMs": 59790
+  }
+}

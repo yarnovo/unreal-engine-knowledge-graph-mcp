@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_write-low-level-tests-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_write-low-level-tests-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "低级别测试",
+      "predicate": "基于",
+      "object": "Catch2",
+      "context": "虚幻引擎中的低级别测试使用Catch2框架实现，理解Catch2是编写测试的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "行为驱动开发(BDD)",
+      "predicate": "使用",
+      "object": "SCENARIO结构",
+      "context": "BDD测试通过SCENARIO/GIVEN/WHEN/THEN结构组织测试逻辑，这是BDD范式的核心实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "测试驱动开发(TDD)",
+      "predicate": "使用",
+      "object": "TEST_CASE结构",
+      "context": "TDD测试通过TEST_CASE/SECTION结构组织测试用例，体现TDD的模块化测试思想",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "低级别测试",
+      "predicate": "遵循",
+      "object": "虚幻C++编码规范",
+      "context": "测试代码需要符合虚幻引擎的编码标准，这是保证测试可维护性的重要前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "测试文件",
+      "predicate": "镜像",
+      "object": "模块文件夹结构",
+      "context": "测试文件应保持与被测模块相同的目录结构，这是虚幻引擎测试的组织规范",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "单元测试",
+      "predicate": "属于",
+      "object": "低级别测试",
+      "context": "单元测试是低级别测试的一种具体类型，理解这种包含关系有助于测试分类",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "测试组",
+      "predicate": "支持",
+      "object": "生命周期事件",
+      "context": "测试组可以通过BEFORE_ALL/AFTER_EACH等生命周期事件管理测试环境，这是高级测试组织技术",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "REQUIRE",
+      "predicate": "比",
+      "object": "CHECK",
+      "context": "REQUIRE在失败时立即终止测试，而CHECK会继续执行，这是断言选择的重要区别",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "低级别测试",
+      "predicate": "前置需要",
+      "object": "低级别测试类型知识",
+      "context": "编写测试前需要先了解不同类型的低级别测试及其适用场景，这是学习路径上的必要顺序",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "测试资源",
+      "predicate": "通过",
+      "object": "SetResourcesFolder配置",
+      "context": "测试需要的资源文件需要通过Build.cs中的特殊配置才能正确部署，这是测试环境搭建的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BDD",
+      "predicate": "对比",
+      "object": "TDD",
+      "context": "BDD和TDD是不同的测试方法论，理解它们的场景/结构差异有助于选择合适的测试策略",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "低级别测试",
+      "predicate": "后续步骤",
+      "object": "构建和运行测试",
+      "context": "编写测试后需要学习如何构建和运行测试，这是完整测试工作流的自然延续",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "测试标记",
+      "predicate": "用于",
+      "object": "测试分类执行",
+      "context": "[unit][slow]等标记可以控制测试的分类执行，这是测试管理的重要机制",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "CoreMinimal.h",
+      "predicate": "是",
+      "object": "测试基础头文件",
+      "context": "所有测试文件都需要包含CoreMinimal.h作为基础头文件，这是测试编译的必要条件",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "TestHarness.h",
+      "predicate": "提供",
+      "object": "测试框架功能",
+      "context": "TestHarness.h提供了测试所需的框架支持和断言宏，是测试编写的核心依赖",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    }
+  ],
+  "timestamp": "2025-06-15T21:36:08.684Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12164 字符)",
+      "timestamp": "2025-06-15T21:35:23.759Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16566,
+    "contentLength": 12164,
+    "processingTimeMs": 44929
+  }
+}

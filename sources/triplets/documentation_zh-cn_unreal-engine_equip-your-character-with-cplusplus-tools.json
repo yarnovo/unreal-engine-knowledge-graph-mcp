@@ -1,0 +1,387 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_equip-your-character-with-cplusplus-tools",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_equip-your-character-with-cplusplus-tools.md",
+  "triples": [
+    {
+      "subject": "ItemDefinition",
+      "predicate": "继承自",
+      "object": "UObject",
+      "context": "ItemDefinition是虚幻引擎中定义物品的基础类，继承自UObject，用于存储物品的基本属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EquippableToolDefinition",
+      "predicate": "继承自",
+      "object": "ItemDefinition",
+      "context": "EquippableToolDefinition是专门用于可装备工具的数据资产类，扩展了ItemDefinition的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EquippableToolBase",
+      "predicate": "继承自",
+      "object": "AActor",
+      "context": "EquippableToolBase是可装备工具的基类，继承自AActor，表示游戏中的可装备工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DartLauncher",
+      "predicate": "继承自",
+      "object": "EquippableToolBase",
+      "context": "DartLauncher是具体的可发射飞镖的工具类，继承自EquippableToolBase",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InventoryComponent",
+      "predicate": "继承自",
+      "object": "UActorComponent",
+      "context": "InventoryComponent是角色库存组件，继承自UActorComponent，用于管理角色拥有的物品",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ItemDefinition",
+      "predicate": "包含",
+      "object": "CreateItemCopy函数",
+      "context": "ItemDefinition类包含CreateItemCopy函数，用于创建物品的副本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EquippableToolDefinition",
+      "predicate": "重写",
+      "object": "CreateItemCopy函数",
+      "context": "EquippableToolDefinition重写了ItemDefinition的CreateItemCopy函数，以支持工具特定的属性复制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EquippableToolBase",
+      "predicate": "包含",
+      "object": "ToolMeshComponent",
+      "context": "EquippableToolBase包含ToolMeshComponent，用于显示工具的3D模型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EquippableToolBase",
+      "predicate": "包含",
+      "object": "Use函数",
+      "context": "EquippableToolBase包含Use函数，定义了工具使用时的行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EquippableToolBase",
+      "predicate": "包含",
+      "object": "BindInputAction函数",
+      "context": "EquippableToolBase包含BindInputAction函数，用于将输入动作绑定到工具的使用功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AdventureCharacter",
+      "predicate": "包含",
+      "object": "InventoryComponent",
+      "context": "AdventureCharacter包含InventoryComponent，用于管理角色的物品库存",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AdventureCharacter",
+      "predicate": "包含",
+      "object": "GiveItem函数",
+      "context": "AdventureCharacter包含GiveItem函数，用于向角色添加物品",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AdventureCharacter",
+      "predicate": "包含",
+      "object": "AttachTool函数",
+      "context": "AdventureCharacter包含AttachTool函数，用于将工具装备到角色身上",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PickupBase",
+      "predicate": "调用",
+      "object": "GiveItem函数",
+      "context": "PickupBase在角色与其碰撞时调用GiveItem函数，将物品授予角色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EquippableToolDefinition",
+      "predicate": "引用",
+      "object": "EquippableToolBase",
+      "context": "EquippableToolDefinition通过ToolAsset属性引用EquippableToolBase，定义了工具的游戏内表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DartLauncher",
+      "predicate": "重写",
+      "object": "Use函数",
+      "context": "DartLauncher重写了EquippableToolBase的Use函数，实现了发射飞镖的具体行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DartLauncher",
+      "predicate": "重写",
+      "object": "BindInputAction函数",
+      "context": "DartLauncher重写了EquippableToolBase的BindInputAction函数，实现了输入绑定的具体逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InventoryComponent",
+      "predicate": "管理",
+      "object": "ToolInventory",
+      "context": "InventoryComponent管理ToolInventory数组，存储角色拥有的工具定义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AttachTool函数",
+      "predicate": "使用",
+      "object": "SpawnActor",
+      "context": "AttachTool函数使用SpawnActor方法创建工具实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AttachTool函数",
+      "predicate": "使用",
+      "object": "FAttachmentTransformRules",
+      "context": "AttachTool函数使用FAttachmentTransformRules定义工具附加到角色的规则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EquippableToolBase",
+      "predicate": "关联",
+      "object": "UInputMappingContext",
+      "context": "EquippableToolBase通过ToolMappingContext属性关联输入映射上下文",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EquippableToolBase",
+      "predicate": "关联",
+      "object": "UAnimBlueprint",
+      "context": "EquippableToolBase通过FirstPersonToolAnim和ThirdPersonToolAnim属性关联动画蓝图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ItemDefinition",
+      "predicate": "包含",
+      "object": "EItemType",
+      "context": "ItemDefinition包含EItemType枚举，用于区分不同类型的物品",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GiveItem函数",
+      "predicate": "使用",
+      "object": "EItemType",
+      "context": "GiveItem函数使用EItemType判断物品类型并执行相应操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CreateItemCopy函数",
+      "predicate": "实现",
+      "object": "深拷贝",
+      "context": "CreateItemCopy函数实现了物品定义的深拷贝功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InitializePickup函数",
+      "predicate": "调用",
+      "object": "CreateItemCopy函数",
+      "context": "InitializePickup函数调用CreateItemCopy函数创建物品的引用副本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EquippableToolBase",
+      "predicate": "关联",
+      "object": "AdventureCharacter",
+      "context": "EquippableToolBase通过OwningCharacter属性关联到拥有它的角色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DartLauncher",
+      "predicate": "关联",
+      "object": "IA_UseTool",
+      "context": "DartLauncher通过输入绑定关联到IA_UseTool输入动作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DartLauncher",
+      "predicate": "关联",
+      "object": "IMC_DartLauncher",
+      "context": "DartLauncher通过ToolMappingContext属性关联到IMC_DartLauncher输入映射上下文",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DT_ToolData",
+      "predicate": "存储",
+      "object": "EquippableToolDefinition",
+      "context": "DT_ToolData数据表存储EquippableToolDefinition实例，用于管理游戏中的工具数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_DartLauncher",
+      "predicate": "实例化",
+      "object": "DartLauncher",
+      "context": "BP_DartLauncher是DartLauncher类的蓝图实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DA_DartLauncher",
+      "predicate": "实例化",
+      "object": "EquippableToolDefinition",
+      "context": "DA_DartLauncher是EquippableToolDefinition的数据资产实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ABP_FP_DartLauncher",
+      "predicate": "关联",
+      "object": "DartLauncher",
+      "context": "ABP_FP_DartLauncher是DartLauncher的第一人称动画蓝图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ABP_TP_Pistol",
+      "predicate": "关联",
+      "object": "DartLauncher",
+      "context": "ABP_TP_Pistol被用作DartLauncher的第三人称动画蓝图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SKM_Pistol",
+      "predicate": "关联",
+      "object": "BP_DartLauncher",
+      "context": "SKM_Pistol被用作BP_DartLauncher的骨骼网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_PickupBase",
+      "predicate": "使用",
+      "object": "DT_ToolData",
+      "context": "BP_PickupBase使用DT_ToolData数据表初始化工具拾取物",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EnhancedInputComponent",
+      "predicate": "绑定",
+      "object": "Use函数",
+      "context": "EnhancedInputComponent将输入动作绑定到工具的Use函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UWorld",
+      "predicate": "提供",
+      "object": "SpawnActor功能",
+      "context": "UWorld提供SpawnActor功能，用于在游戏中动态生成工具实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StaticClass",
+      "predicate": "用于",
+      "object": "动态对象创建",
+      "context": "StaticClass方法用于在CreateItemCopy函数中动态创建对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NewObject",
+      "predicate": "用于",
+      "object": "创建UObject实例",
+      "context": "NewObject函数用于在CreateItemCopy中创建新的UObject实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SetAnimInstanceClass",
+      "predicate": "用于",
+      "object": "动态改变动画",
+      "context": "SetAnimInstanceClass用于在装备工具时动态改变角色的动画蓝图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AddMappingContext",
+      "predicate": "用于",
+      "object": "添加工具输入",
+      "context": "AddMappingContext用于将工具的输入映射上下文添加到角色的输入系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSubclassOf",
+      "predicate": "用于",
+      "object": "类型安全引用",
+      "context": "TSubclassOf模板用于安全地引用EquippableToolBase的子类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UPROPERTY",
+      "predicate": "用于",
+      "object": "属性暴露",
+      "context": "UPROPERTY宏用于将C++属性暴露给蓝图和编辑器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UFUNCTION",
+      "predicate": "用于",
+      "object": "函数暴露",
+      "context": "UFUNCTION宏用于将C++函数暴露给蓝图调用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GENERATED_BODY",
+      "predicate": "用于",
+      "object": "虚幻反射系统",
+      "context": "GENERATED_BODY宏用于支持虚幻引擎的反射系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:00:55.605Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (65040 字符)",
+      "timestamp": "2025-06-15T18:58:31.073Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 66924,
+    "contentLength": 65040,
+    "processingTimeMs": 144545
+  }
+}

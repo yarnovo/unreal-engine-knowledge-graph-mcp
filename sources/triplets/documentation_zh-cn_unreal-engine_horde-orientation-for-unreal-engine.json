@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_horde-orientation-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_horde-orientation-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Horde",
+      "predicate": "配置方式",
+      "object": "JSON配置文件",
+      "context": "Horde主要通过JSON配置文件进行配置，这有助于版本管理和问题追踪",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "包含",
+      "object": "服务器配置",
+      "context": "Horde的服务器配置由Server.json文件驱动，定义服务器间的通信和静态参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "包含",
+      "object": "全局配置",
+      "context": "Horde的全局配置由Globals.json文件控制，管理所有面向用户的元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "服务器配置",
+      "predicate": "指定",
+      "object": "全局配置路径",
+      "context": "Server.json文件通过ConfigPath属性指定Globals.json文件的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "支持",
+      "object": "配置文件自动更新",
+      "context": "Horde能检测并自动更新配置文件，无需停机，错误时会通过Slack通知",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "划分为",
+      "object": "项目",
+      "context": "Horde操作面板的大部分内容被划分为项目，用于不同团队的功能划分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "划分为",
+      "object": "流",
+      "context": "Horde操作面板的大部分内容被划分为流，用于配置与特定Perforce流相关的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目",
+      "predicate": "使用",
+      "object": ".project.json",
+      "context": "项目配置文件通常使用.project.json扩展名",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流",
+      "predicate": "使用",
+      "object": ".stream.json",
+      "context": "流配置文件通常使用.stream.json扩展名",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "支持",
+      "object": "Perforce",
+      "context": "Horde支持从Perforce读取配置文件，服务器和账户信息列在Server.json文件的Perforce部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "实现",
+      "object": "模式服务器",
+      "context": "Horde实现了一个JSON模式服务器，便于IDE进行上下文高亮、自动完成和验证",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模式服务器",
+      "predicate": "用于",
+      "object": "配置文件编辑",
+      "context": "模式服务器帮助开发者更高效地编辑Horde配置文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "适用于",
+      "object": "CI用例",
+      "context": "Horde配置文件可以通过路径包含其他配置文件，特别适用于CI用例",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Horde",
+      "predicate": "支持",
+      "object": "远程执行",
+      "context": "配置远程执行用例时，一个全局配置文件就足够",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Horde",
+      "predicate": "支持",
+      "object": "DDC用例",
+      "context": "配置DDC用例时，一个全局配置文件就足够",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:20:53.917Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5076,
+    "contentLength": 3050,
+    "processingTimeMs": 59202
+  }
+}

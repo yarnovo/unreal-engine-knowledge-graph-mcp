@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_events-and-event-handlers-in-niagara-effects-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_events-and-event-handlers-in-niagara-effects-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "事件",
+      "predicate": "生成",
+      "object": "事件处理器",
+      "context": "事件是生成粒子生命周期中发生的特定事件的模块，事件处理器是侦听这些事件并启动行为的模块。这帮助学习者理解事件和事件处理器之间的基本交互机制。",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件",
+      "predicate": "包含",
+      "object": "位置事件",
+      "context": "位置事件是事件的一种类型，用于生成粒子的位置数据。学习者需要了解不同类型的事件及其用途。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件",
+      "predicate": "包含",
+      "object": "消亡事件",
+      "context": "消亡事件是事件的一种类型，用于在粒子生命周期结束时生成事件。学习者需要了解不同类型的事件及其用途。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件",
+      "predicate": "包含",
+      "object": "碰撞事件",
+      "context": "碰撞事件是事件的一种类型，用于在粒子与Actor碰撞时生成事件。学习者需要了解不同类型的事件及其用途。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件处理器",
+      "predicate": "包含",
+      "object": "事件处理器属性",
+      "context": "事件处理器属性是事件处理器的一部分，用于设置事件的源和其他属性。学习者需要了解事件处理器的组成部分及其功能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件处理器",
+      "predicate": "包含",
+      "object": "接收事件",
+      "context": "接收事件是事件处理器的一部分，用于响应生成的事件。学习者需要了解事件处理器的组成部分及其功能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "位置事件",
+      "predicate": "用于",
+      "object": "尾迹效果",
+      "context": "位置事件可以用于生成尾迹效果，例如烟花火箭的尾迹。学习者可以通过具体示例理解位置事件的应用场景。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "消亡事件",
+      "predicate": "用于",
+      "object": "爆炸效果",
+      "context": "消亡事件可以用于在粒子生命周期结束时触发爆炸效果。学习者可以通过具体示例理解消亡事件的应用场景。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "碰撞事件",
+      "predicate": "用于",
+      "object": "武器效果",
+      "context": "碰撞事件可以用于在粒子与Actor碰撞时触发爆炸效果，例如武器效果。学习者可以通过具体示例理解碰撞事件的应用场景。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "碰撞事件",
+      "predicate": "依赖",
+      "object": "碰撞模块",
+      "context": "生成碰撞事件需要先向发射器添加碰撞模块，以便粒子可以与场景中的对象碰撞。学习者需要了解碰撞事件的前提条件。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件",
+      "predicate": "仅适用于",
+      "object": "CPU模拟",
+      "context": "当前版本中，事件无法结合GPU模拟使用，仅能用于CPU模拟。学习者需要了解事件的使用限制。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器",
+      "predicate": "需要",
+      "object": "持久ID",
+      "context": "要使用事件，必须在发射器的发射器属性中启用'需要持久ID'。学习者需要了解使用事件的前提条件。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件",
+      "predicate": "添加至",
+      "object": "粒子更新组",
+      "context": "事件会在粒子的整个生命周期内动态发生，因此需要在'粒子更新组'中添加事件模块。学习者需要了解事件的添加位置。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "位置事件",
+      "predicate": "结合",
+      "object": "消亡事件",
+      "context": "位置事件和消亡事件可以结合使用，例如确定烟花爆炸的位置和时间。学习者可以通过具体示例理解事件的组合应用。",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:01:50.424Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8779,
+    "contentLength": 6117,
+    "processingTimeMs": 53299
+  }
+}

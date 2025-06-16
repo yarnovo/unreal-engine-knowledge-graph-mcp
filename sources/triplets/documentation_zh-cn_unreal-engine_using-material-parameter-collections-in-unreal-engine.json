@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-material-parameter-collections-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-material-parameter-collections-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "材质参数集合",
+      "predicate": "包含",
+      "object": "标量参数",
+      "context": "材质参数集合可以存储标量参数，这些参数可以在多个材质中共享和引用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质参数集合",
+      "predicate": "包含",
+      "object": "向量参数",
+      "context": "材质参数集合可以存储向量参数，这些参数可以在多个材质中共享和引用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质参数集合",
+      "predicate": "用于",
+      "object": "全局数据管理",
+      "context": "材质参数集合用于一次性将全局数据导入到多个材质中，简化参数管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质参数集合",
+      "predicate": "应用于",
+      "object": "环境效果控制",
+      "context": "材质参数集合可用于控制关卡中的环境效果，如雪量、破坏程度、湿度等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质参数集合",
+      "predicate": "替代",
+      "object": "单独设置材质参数",
+      "context": "使用材质参数集合可以避免在多个材质实例中单独设置相同的参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质参数集合",
+      "predicate": "引用",
+      "object": "材质",
+      "context": "材质可以通过集合参数节点引用材质参数集合中的参数",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质参数集合",
+      "predicate": "控制",
+      "object": "材质实例",
+      "context": "修改材质参数集合中的参数值会立即影响所有引用该集合的材质实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质参数集合",
+      "predicate": "通过",
+      "object": "蓝图更新",
+      "context": "可以在游戏运行时通过蓝图动态更新材质参数集合中的参数值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质参数集合",
+      "predicate": "限制",
+      "object": "1024个标量参数",
+      "context": "每个材质参数集合最多可以包含1024个标量参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质参数集合",
+      "predicate": "限制",
+      "object": "1024个向量参数",
+      "context": "每个材质参数集合最多可以包含1024个向量参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质参数集合",
+      "predicate": "影响",
+      "object": "材质编译",
+      "context": "修改集合中的参数数量会导致引用该集合的所有材质重新编译",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质参数集合",
+      "predicate": "比",
+      "object": "单独设置参数更高效",
+      "context": "更新材质参数集合中的值比设置各个材质实例上的许多不同参数更加高效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质参数集合",
+      "predicate": "创建于",
+      "object": "内容浏览器",
+      "context": "材质参数集合可以在内容浏览器中通过右键菜单创建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质参数集合",
+      "predicate": "编辑于",
+      "object": "材质参数集合编辑器",
+      "context": "双击材质参数集合资产可以打开专门的编辑器进行参数管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质参数集合",
+      "predicate": "关联",
+      "object": "菲涅尔表达式",
+      "context": "文档示例中展示了如何使用材质参数集合控制菲涅尔表达式的效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质参数集合",
+      "predicate": "关联",
+      "object": "关卡蓝图",
+      "context": "可以通过关卡蓝图在运行时动态控制材质参数集合的值",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质参数集合",
+      "predicate": "关联",
+      "object": "键盘事件",
+      "context": "文档示例展示了如何通过键盘事件触发材质参数集合的更新",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质参数集合",
+      "predicate": "关联",
+      "object": "材质实例",
+      "context": "材质参数集合的变化会立即影响所有相关的材质实例",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质参数集合",
+      "predicate": "关联",
+      "object": "游戏范围值",
+      "context": "通常一个材质参数集合用于表示游戏范围的值",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质参数集合",
+      "predicate": "关联",
+      "object": "关卡特定参数",
+      "context": "另一个材质参数集合可以用于表示特定于关卡的参数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:19:35.157Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9944 字符)",
+      "timestamp": "2025-06-15T21:18:41.315Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15030,
+    "contentLength": 9944,
+    "processingTimeMs": 53851
+  }
+}

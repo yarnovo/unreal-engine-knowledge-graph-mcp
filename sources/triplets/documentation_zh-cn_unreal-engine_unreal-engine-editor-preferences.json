@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-engine-editor-preferences",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-engine-editor-preferences.md",
+  "triples": [
+    {
+      "subject": "Unreal Engine Editor Preferences",
+      "predicate": "包含",
+      "object": "General Settings",
+      "context": "Editor Preferences是Unreal Engine中设置的核心入口，General Settings是其重要组成部分，学习者需要先了解Editor Preferences的整体结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "General Settings",
+      "predicate": "包含",
+      "object": "Media Directory",
+      "context": "Media Directory是General Settings中的重要配置项，用于存储原始媒体数据，学习者需要了解其与资产导入流程的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "General Settings",
+      "predicate": "包含",
+      "object": "Import Directory",
+      "context": "Import Directory定义了项目内资产创建的路径，与Media Directory形成工作流关系，学习者需要同时理解这两个概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "General Settings",
+      "predicate": "包含",
+      "object": "Auto Save Assets",
+      "context": "自动保存功能是项目安全性的重要设置，学习者需要了解其与资产工作流程的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "General Settings",
+      "predicate": "包含",
+      "object": "Capture Data Asset Name",
+      "context": "命名规范设置是资产管理的核心概念，学习者需要理解其在数据采集流程中的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "General Settings",
+      "predicate": "包含",
+      "object": "Launch Ingest Server on Live Link Hub Connection",
+      "context": "此设置展示了Live Link Hub与数据采集服务器的集成关系，学习者需要理解实时链接系统的工作机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "General Settings",
+      "predicate": "包含",
+      "object": "Video / Audio / Calibration Asset Name",
+      "context": "多媒体资产命名规范是媒体处理流程的重要组成部分，学习者需要理解其与Capture Data Asset的关联",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Media Directory",
+      "predicate": "关联",
+      "object": "Import Directory",
+      "context": "这两个目录设置构成了从原始数据到项目资产的完整路径，学习者需要理解它们在工作流中的协同关系",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Capture Data Asset Name",
+      "predicate": "关联",
+      "object": "Video / Audio / Calibration Asset Name",
+      "context": "这些命名规范共同构成了资产采集系统的命名体系，学习者需要理解它们之间的命名一致性要求",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Unreal Engine Editor Preferences",
+      "predicate": "通过",
+      "object": "Edit > Editor Preferences",
+      "context": "访问路径是使用Editor Preferences的前提知识，学习者需要掌握这个基础操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Editor Preferences",
+      "predicate": "包含",
+      "object": "Plugins > Capture Manager",
+      "context": "插件设置是Editor Preferences的重要组成部分，学习者需要了解其层级结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link Hub",
+      "predicate": "触发",
+      "object": "Ingest Server",
+      "context": "这个设置展示了系统间的自动交互机制，学习者需要理解事件驱动的开发模式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:09:10.052Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2481,
+    "contentLength": 2296,
+    "processingTimeMs": 36278
+  }
+}

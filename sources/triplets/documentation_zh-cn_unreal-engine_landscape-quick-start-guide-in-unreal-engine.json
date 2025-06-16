@@ -1,0 +1,211 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_landscape-quick-start-guide-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_landscape-quick-start-guide-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎地形系统",
+      "predicate": "包含",
+      "object": "地形工具",
+      "context": "地形系统是创建户外环境的工具集合，包含多种工具模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形工具",
+      "predicate": "分为",
+      "object": "管理模式",
+      "context": "地形工具包含三种主要工作模式，管理模式用于创建和管理地形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形工具",
+      "predicate": "分为",
+      "object": "雕刻模式",
+      "context": "雕刻模式专门用于修改地形形状",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形工具",
+      "predicate": "分为",
+      "object": "绘制模式",
+      "context": "绘制模式用于在地形上绘制材质纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "管理模式",
+      "predicate": "使用",
+      "object": "地形拷贝工具",
+      "context": "在管理模式下可以使用拷贝工具进行地形片段的复制粘贴操作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "雕刻模式",
+      "predicate": "包含",
+      "object": "造型工具",
+      "context": "雕刻模式下提供多种造型工具用于地形塑形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "雕刻模式",
+      "predicate": "包含",
+      "object": "平滑工具",
+      "context": "平滑工具用于优化地形表面的平滑度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "雕刻模式",
+      "predicate": "包含",
+      "object": "平整工具",
+      "context": "平整工具用于创建平坦的地形区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "雕刻模式",
+      "predicate": "包含",
+      "object": "斜坡工具",
+      "context": "斜坡工具用于在不同高度区域间创建过渡斜坡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "雕刻模式",
+      "predicate": "包含",
+      "object": "侵蚀工具",
+      "context": "侵蚀工具模拟自然风化对地形的影响效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "雕刻模式",
+      "predicate": "包含",
+      "object": "水力侵蚀工具",
+      "context": "水力侵蚀工具专门模拟水流对地形的侵蚀效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "雕刻模式",
+      "predicate": "包含",
+      "object": "噪点工具",
+      "context": "噪点工具用于为地形表面添加随机细节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绘制模式",
+      "predicate": "依赖",
+      "object": "地形材质",
+      "context": "绘制模式需要先创建地形材质才能进行纹理绘制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形材质",
+      "predicate": "使用",
+      "object": "LandscapeLayerCoords节点",
+      "context": "地形材质需要LandscapeLayerCoords节点来生成UV坐标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形材质",
+      "predicate": "使用",
+      "object": "地形图层混合节点",
+      "context": "地形材质使用混合节点来实现不同图层的混合效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形图层混合节点",
+      "predicate": "支持",
+      "object": "权重混合",
+      "context": "混合节点支持权重混合方式，根据绘制权重决定显示内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形图层混合节点",
+      "predicate": "支持",
+      "object": "高度混合",
+      "context": "混合节点支持高度混合方式，结合高度值决定材质覆盖",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形图层混合节点",
+      "predicate": "支持",
+      "object": "Alpha混合",
+      "context": "混合节点支持Alpha混合方式，使用Alpha通道信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绘制模式",
+      "predicate": "需要",
+      "object": "地形图层信息对象",
+      "context": "绘制前需要为每个图层创建对应的图层信息对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形系统",
+      "predicate": "可与",
+      "object": "世界场景构成工具",
+      "context": "地形系统可以与世界场景构成工具配合管理大型场景",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "地形创建",
+      "predicate": "可借助",
+      "object": "外部工具",
+      "context": "可以使用Houdini、World Machine等外部工具创建更复杂的地形",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "地形工具",
+      "predicate": "使用",
+      "object": "Ctrl+Z",
+      "context": "地形编辑支持使用Ctrl+Z撤销操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形工具",
+      "predicate": "使用",
+      "object": "Ctrl+Y",
+      "context": "地形编辑支持使用Ctrl+Y重做操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形材质",
+      "predicate": "受限于",
+      "object": "纹理样本数量限制",
+      "context": "地形材质需要考虑纹理样本数量限制，避免超出限制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:42:15.762Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (28289 字符)",
+      "timestamp": "2025-06-15T19:41:00.542Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 42919,
+    "contentLength": 28289,
+    "processingTimeMs": 75224
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_mover-examples-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_mover-examples-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Mover",
+      "predicate": "是",
+      "object": "Experimental功能",
+      "context": "Mover是虚幻引擎中的实验性功能，学习时需注意其不稳定性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mover Examples插件",
+      "predicate": "包含",
+      "object": "示例关卡",
+      "context": "插件提供多个示例关卡用于学习Mover系统的各种功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mover Examples插件",
+      "predicate": "包含",
+      "object": "示例Pawn",
+      "context": "插件提供多种示例Pawn展示不同移动模式的实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "L_CharacterMovementBasics",
+      "predicate": "展示",
+      "object": "地形功能与扩展移动能力",
+      "context": "该关卡专门展示各种地形功能和具有额外移动能力的Pawn",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "L_PhysicsSimulatedCharacter",
+      "predicate": "展示",
+      "object": "基于物理的移动",
+      "context": "该关卡专门展示使用Chaos物理系统的移动实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PhysicsMannyPawn",
+      "predicate": "使用",
+      "object": "Chaos联网物理系统",
+      "context": "此Pawn使用物理系统而非Network Prediction插件实现移动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AnimatedMannyPawnExtended",
+      "predicate": "扩展",
+      "object": "AnimatedMannyPawn",
+      "context": "Extended版本在基础Pawn上增加了冲刺、多段跳等高级移动能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MoverComponent",
+      "predicate": "控制",
+      "object": "移动模式",
+      "context": "通过修改MoverComponent上的移动模式映射可以自定义Actor移动方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UZipliningMode",
+      "predicate": "是",
+      "object": "自定义移动模式示例",
+      "context": "提供了创建自定义移动模式的参考实现，需要重载关键函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Network Prediction插件",
+      "predicate": "需要",
+      "object": "特定项目设置",
+      "context": "使用该插件需要调整如Fixed Ticking Policy等多项项目设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理驱动移动",
+      "predicate": "不兼容",
+      "object": "Network Prediction移动",
+      "context": "两种移动实现方式不能同步工作，开发者需要选择其中一种",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色地面约束",
+      "predicate": "执行",
+      "object": "Mover系统建议动作",
+      "context": "在物理系统中，该约束负责实现Mover生成的移动指令",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义移动模式",
+      "predicate": "需要",
+      "object": "C++实现",
+      "context": "虽然部分输入可以在蓝图中处理，但完整自定义需要C++代码支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "滑索移动",
+      "predicate": "使用",
+      "object": "自定义状态数据",
+      "context": "通过FZipliningState追踪移动进度，展示高级状态管理技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mover系统",
+      "predicate": "不支持",
+      "object": "Gameplay事件",
+      "context": "这是使用物理驱动移动时的一个重要限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:00:20.890Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9934,
+    "contentLength": 6224,
+    "processingTimeMs": 48015
+  }
+}

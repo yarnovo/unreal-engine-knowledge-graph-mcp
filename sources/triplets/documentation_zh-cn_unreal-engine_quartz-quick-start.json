@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_quartz-quick-start",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_quartz-quick-start.md",
+  "triples": [
+    {
+      "subject": "Quartz",
+      "predicate": "解决",
+      "object": "计时问题",
+      "context": "Quartz是虚幻引擎中的计时系统，专门用于解决游戏、音频逻辑和音频渲染线程之间的计时问题，帮助学习者理解其核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Quartz",
+      "predicate": "提供",
+      "object": "精确音频播放",
+      "context": "Quartz系统能够提供精确到采样的音频播放，这是音频编程中的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSound",
+      "predicate": "用于",
+      "object": "创建音频源",
+      "context": "MetaSound是虚幻引擎中创建和编辑音频源的工具，学习者需要了解这是音频制作的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AD Envelope",
+      "predicate": "控制",
+      "object": "音频包络",
+      "context": "AD Envelope节点用于控制音频的起音和衰减，是音频设计中的基本概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sine节点",
+      "predicate": "生成",
+      "object": "基础波形",
+      "context": "Sine节点生成基础正弦波，是合成音频的基础组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "QuartzSubsystem",
+      "predicate": "管理",
+      "object": "Quartz时钟",
+      "context": "QuartzSubsystem是管理所有Quartz时钟的核心系统，学习者需要理解这是Quartz系统的入口点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Quartz时钟",
+      "predicate": "包含",
+      "object": "QuartzClockSettings",
+      "context": "时钟设置决定了时钟的行为方式，是配置Quartz系统的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "QuartzTimeSignature",
+      "predicate": "定义",
+      "object": "节拍时间",
+      "context": "时间签名定义了音乐的节拍结构，对音乐同步至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Create Sound 2D",
+      "predicate": "创建",
+      "object": "音频实例",
+      "context": "这是实例化音频源的基本方法，学习者需要掌握如何创建和播放声音",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Subscribe to Quantization Event",
+      "predicate": "响应",
+      "object": "节拍事件",
+      "context": "这个功能允许蓝图响应特定的音乐节拍点，是实现音乐同步的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EQuartzCommandQuantization",
+      "predicate": "表示",
+      "object": "量化类型",
+      "context": "这个枚举定义了不同的音乐时间点类型，学习者需要理解各种量化类型的区别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Play Quantized",
+      "predicate": "实现",
+      "object": "精确时间播放",
+      "context": "这个节点确保音频在精确的音乐时间点播放，是音乐同步的核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blueprint Actor",
+      "predicate": "响应",
+      "object": "Quartz事件",
+      "context": "展示如何使游戏对象响应音乐节拍，是音乐可视化的重要技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Set Actor Scale 3D",
+      "predicate": "实现",
+      "object": "节拍可视化",
+      "context": "通过改变Actor大小来可视化节拍，是音乐游戏常用的技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSound编辑器",
+      "predicate": "用于",
+      "object": "音频设计",
+      "context": "这是创建和编辑MetaSound的主要工具，学习者需要熟悉其界面和功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡蓝图",
+      "predicate": "协调",
+      "object": "Quartz系统",
+      "context": "关卡蓝图是组织和控制Quartz系统的中心位置，展示如何整合各种音频元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Quartz时钟",
+      "predicate": "控制",
+      "object": "音频同步",
+      "context": "时钟是协调所有音频事件的核心，理解这一点对音乐编程至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频组件",
+      "predicate": "执行",
+      "object": "音频播放",
+      "context": "音频组件是实际播放声音的实体，学习者需要理解其属性和控制方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "节拍器",
+      "predicate": "基于",
+      "object": "Quartz系统",
+      "context": "这个示例展示了如何使用Quartz创建基本的节拍器，是理解音乐同步的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "量化边界",
+      "predicate": "定义",
+      "object": "事件触发点",
+      "context": "量化边界决定了音乐事件何时触发，是精确同步的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:32:25.326Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13179 字符)",
+      "timestamp": "2025-06-15T20:31:15.924Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17947,
+    "contentLength": 13179,
+    "processingTimeMs": 69406
+  }
+}

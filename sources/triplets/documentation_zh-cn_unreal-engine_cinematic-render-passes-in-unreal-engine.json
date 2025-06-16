@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_cinematic-render-passes-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_cinematic-render-passes-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "电影渲染队列",
+      "predicate": "支持",
+      "object": "渲染通道",
+      "context": "电影渲染队列可以输出不同类型的渲染通道，如最终图像、对象ID等，用于后期制作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染通道",
+      "predicate": "包含",
+      "object": "延迟渲染",
+      "context": "延迟渲染是渲染通道的一种，用于输出场景的最终图像",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "延迟渲染",
+      "predicate": "包含",
+      "object": "细节光照",
+      "context": "细节光照是延迟渲染的一种变体，仅显示与法线贴图相结合的光照",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "延迟渲染",
+      "predicate": "包含",
+      "object": "仅光照",
+      "context": "仅光照是延迟渲染的一种变体，显示光照但没有法线贴图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "延迟渲染",
+      "predicate": "包含",
+      "object": "仅反射",
+      "context": "仅反射是延迟渲染的一种变体，使所有内容100%反光",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "延迟渲染",
+      "predicate": "包含",
+      "object": "无光照",
+      "context": "无光照是延迟渲染的一种变体，仅显示基础颜色，没有光照信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染通道",
+      "predicate": "包含",
+      "object": "后期处理渲染通道",
+      "context": "后期处理渲染通道是延迟渲染器指定的其他渲染通道，如世界深度和运动向量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理渲染通道",
+      "predicate": "包含",
+      "object": "世界深度",
+      "context": "世界深度是以世界单位编写的深度，用于在后期制作中重新创建景深",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理渲染通道",
+      "predicate": "包含",
+      "object": "运动向量",
+      "context": "运动向量存储在X和Y坐标上，用于在后期制作中应用动态模糊",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染通道",
+      "predicate": "包含",
+      "object": "模板层",
+      "context": "模板层基于层中的对象对序列进行分层渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染通道",
+      "predicate": "包含",
+      "object": "路径追踪器",
+      "context": "路径追踪器是基于路径追踪器渲染方法输出图像的渲染通道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "路径追踪器",
+      "predicate": "依赖",
+      "object": "空间采样",
+      "context": "路径追踪器通过增加空间采样数量来减少渲染中的噪点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染通道",
+      "predicate": "包含",
+      "object": "对象ID",
+      "context": "对象ID渲染通道输出一个图像，其中场景中的每个Actor分配有一个ID，用于后期制作中的遮罩创建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象ID",
+      "predicate": "依赖",
+      "object": "禁用多重采样效果",
+      "context": "对象ID通道需要禁用多重采样效果以确保对象边缘清晰",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象ID",
+      "predicate": "依赖",
+      "object": "其他后期处理材质",
+      "context": "对象ID通道需要启用MovieRenderQueue_WorldDepth和MovieRenderQueue_MotionVectors材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象ID",
+      "predicate": "依赖",
+      "object": "抗锯齿设置",
+      "context": "对象ID通道需要将空间采样计数至少设置为8，并覆盖抗锯齿方法为无",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象ID",
+      "predicate": "依赖",
+      "object": ".exr序列",
+      "context": "对象ID通道需要以.exr格式输出，并启用多层属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染通道",
+      "predicate": "包含",
+      "object": "UI渲染器",
+      "context": "UI渲染器将Slate或UMG控件作为含有alpha的单独输出添加到视口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染通道",
+      "predicate": "包含",
+      "object": "VT待处理Mip",
+      "context": "VT待处理Mip是设计为与预流送录制器一起使用的渲染通道，用于调试虚拟纹理mip",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "电影渲染队列",
+      "predicate": "依赖",
+      "object": "电影渲染队列其他渲染通道插件",
+      "context": "使用对象ID渲染通道需要启用电影渲染队列其他渲染通道插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:23:23.177Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (23604 字符)",
+      "timestamp": "2025-06-15T18:22:17.777Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 33704,
+    "contentLength": 23604,
+    "processingTimeMs": 65407
+  }
+}

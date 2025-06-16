@@ -1,0 +1,101 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_capture-data-asset",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_capture-data-asset.md",
+  "triples": [
+    {
+      "subject": "Capture Data Asset",
+      "predicate": "created by",
+      "object": "Capture Manager",
+      "context": "Capture Data Asset 是由 Capture Manager 在数据摄取过程中创建的，理解这一关系有助于学习者了解资产生成的工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Capture Data Asset",
+      "predicate": "input to",
+      "object": "MetaHuman Identity",
+      "context": "Capture Data Asset 可以作为 MetaHuman Identity 的输入，这展示了它在数字人类创建流程中的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Capture Data Asset",
+      "predicate": "input to",
+      "object": "MetaHuman Performance",
+      "context": "Capture Data Asset 也可以作为 MetaHuman Performance 的输入，这展示了它在数字人类动画流程中的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Capture Data Asset",
+      "predicate": "references",
+      "object": "Img Media Source",
+      "context": "Capture Data Asset 可能引用 Img Media Source 来存储深度和/或RGB视频数据，这对理解资产间的数据关联很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Capture Data Asset",
+      "predicate": "references",
+      "object": "Sound Wave",
+      "context": "Capture Data Asset 可能引用 Sound Wave 来存储音频轨道，这对理解音频数据的处理方式很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Capture Data Asset",
+      "predicate": "references",
+      "object": "Camera Calibration",
+      "context": "Capture Data Asset 可能引用 Camera Calibration 数据，这对理解摄像机校准数据的应用场景很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Device Class",
+      "predicate": "distinct from",
+      "object": "Device Model",
+      "context": "区分 Device Class 和 Device Model 对正确配置 iOS 设备数据很重要，Device Class 是消费者熟知的型号名称，而 Device Model 是内部版本号",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ImgMediaSource",
+      "predicate": "used for",
+      "object": "Timecode Information",
+      "context": "ImgMediaSource 资产编辑器用于查看和设置图像和深度序列的时间码，这对理解时间码管理很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SoundWave",
+      "predicate": "used for",
+      "object": "Timecode Information",
+      "context": "SoundWave 资产通过 Scripted Asset Actions 设置时间码信息，这对理解音频时间码管理很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Capture Data Asset",
+      "predicate": "contains",
+      "object": "metadata",
+      "context": "Capture Data Asset 包含处理性能捕捉数据所需的各种数据和元数据，这对理解资产的内容组成很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Capture Data Asset",
+      "predicate": "can contain",
+      "object": "audio",
+      "context": "Capture Data Asset 可以包含音频数据(可选)，这对理解资产的可选组件很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:19:03.683Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3944,
+    "contentLength": 3754,
+    "processingTimeMs": 43858
+  }
+}

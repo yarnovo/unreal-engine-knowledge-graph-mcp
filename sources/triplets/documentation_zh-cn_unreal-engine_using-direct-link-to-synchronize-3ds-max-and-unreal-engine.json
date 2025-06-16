@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-direct-link-to-synchronize-3ds-max-and-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-direct-link-to-synchronize-3ds-max-and-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Datasmith导出插件",
+      "predicate": "支持",
+      "object": "Datasmith Direct Link",
+      "context": "Datasmith导出插件是3ds Max与虚幻引擎同步的关键组件，支持Direct Link功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith Direct Link",
+      "predicate": "通过",
+      "object": "本地缓存",
+      "context": "Direct Link通过本地缓存实现3ds Max与虚幻引擎的数据同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导入器插件",
+      "predicate": "需要",
+      "object": "虚幻引擎项目",
+      "context": "要在虚幻引擎中使用Datasmith功能，必须启用Datasmith导入器插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "同步操作",
+      "predicate": "包含",
+      "object": "更新Direct Link缓存",
+      "context": "同步3ds Max与虚幻引擎的第一步是更新Direct Link缓存",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "同步操作",
+      "predicate": "包含",
+      "object": "使用Direct Link导入",
+      "context": "同步3ds Max与虚幻引擎的第二步是通过Direct Link导入场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "同步选项",
+      "predicate": "包含",
+      "object": "同步(Synchronize)",
+      "context": "同步选项提供手动推送更改到缓存的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "同步选项",
+      "predicate": "包含",
+      "object": "切换自动同步(Toggle Auto Sync)",
+      "context": "同步选项提供自动推送更改到缓存的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Direct Link导入",
+      "predicate": "依赖",
+      "object": "更新Direct Link缓存",
+      "context": "导入前必须先更新缓存，否则会导致错误",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "使用",
+      "object": "缓存目录",
+      "context": "Datasmith使用缓存目录临时存储场景内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "连接状态窗口",
+      "predicate": "用于",
+      "object": "更改缓存目录",
+      "context": "通过连接状态窗口可以修改Direct Link的缓存目录",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3ds Max",
+      "predicate": "连接",
+      "object": "虚幻引擎",
+      "context": "Direct Link实现了3ds Max与虚幻引擎的双向连接",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3ds Max",
+      "predicate": "连接",
+      "object": "Twinmotion",
+      "context": "Direct Link也支持3ds Max与其他应用程序如Twinmotion的连接",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导入选项",
+      "predicate": "控制",
+      "object": "导入内容",
+      "context": "导入选项对话框允许用户自定义导入内容和方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:16:30.241Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6321,
+    "contentLength": 4315,
+    "processingTimeMs": 35113
+  }
+}

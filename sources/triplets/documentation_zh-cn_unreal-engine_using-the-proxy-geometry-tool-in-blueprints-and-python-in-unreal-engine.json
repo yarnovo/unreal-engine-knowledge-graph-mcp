@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-the-proxy-geometry-tool-in-blueprints-and-python-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-the-proxy-geometry-tool-in-blueprints-and-python-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Proxy Geometry Tool",
+      "predicate": "用于",
+      "object": "优化渲染性能",
+      "context": "Proxy Geometry Tool通过合并和简化静态网格体和材质，减少GPU的drawcalls，从而提高渲染性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Proxy Geometry Tool",
+      "predicate": "生成",
+      "object": "简化静态网格体",
+      "context": "Proxy Geometry Tool可以将多个静态网格体合并为一个简化模型，减少三角形数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Proxy Geometry Tool",
+      "predicate": "支持",
+      "object": "Blueprint脚本",
+      "context": "Proxy Geometry Tool可以通过Blueprint脚本调用，实现自动化资产创建流程",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Proxy Geometry Tool",
+      "predicate": "支持",
+      "object": "Python脚本",
+      "context": "Proxy Geometry Tool可以通过Python脚本调用，实现自动化资产创建流程",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Proxy Geometry Tool",
+      "predicate": "依赖",
+      "object": "Editor Scripting Utilities Plugin",
+      "context": "使用Proxy Geometry Tool的脚本功能需要先安装Editor Scripting Utilities插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Create Proxy Mesh Actor节点",
+      "predicate": "属于",
+      "object": "Editor Level Library",
+      "context": "在Blueprint中，Proxy Geometry Tool通过Editor Level Library中的Create Proxy Mesh Actor节点暴露功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EditorScriptingCreateProxyMeshActorOptions",
+      "predicate": "包含",
+      "object": "Proxy Geometry工具设置",
+      "context": "EditorScriptingCreateProxyMeshActorOptions对象包含了Proxy Geometry工具的大部分设置参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MeshProxySettings",
+      "predicate": "包含",
+      "object": "详细代理网格设置",
+      "context": "MeshProxySettings对象提供了Proxy Geometry工具的详细设置参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Proxy Geometry Tool",
+      "predicate": "适用于",
+      "object": "静态网格体Actor",
+      "context": "Proxy Geometry Tool专门用于合并静态网格体Actor，而不是包含静态网格组件的Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Proxy Geometry Tool",
+      "predicate": "前置",
+      "object": "UI操作熟悉",
+      "context": "文档建议先通过UI熟悉Proxy Geometry Tool的操作和效果，再尝试脚本调用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Proxy Geometry Tool",
+      "predicate": "影响",
+      "object": "视觉精度",
+      "context": "使用Proxy Geometry Tool会在提高性能的同时降低视觉精度，需要找到平衡点",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "unreal.EditorLevelLibrary.create_proxy_mesh_actor()",
+      "predicate": "实现",
+      "object": "Python调用Proxy Geometry",
+      "context": "在Python中通过unreal.EditorLevelLibrary.create_proxy_mesh_actor()函数调用Proxy Geometry工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:24:38.886Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7616,
+    "contentLength": 7474,
+    "processingTimeMs": 34949
+  }
+}

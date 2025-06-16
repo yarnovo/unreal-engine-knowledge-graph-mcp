@@ -1,0 +1,181 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_draw-spline-tool-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_draw-spline-tool-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "绘制样条线工具",
+      "predicate": "属于",
+      "object": "建模模式",
+      "context": "绘制样条线工具位于建模模式的创建类别中，理解这一归属关系有助于学习者在正确的位置找到并使用该工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绘制样条线工具",
+      "predicate": "生成",
+      "object": "样条线",
+      "context": "该工具的主要功能是创建样条线，这是学习使用该工具的基础知识",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "样条线",
+      "predicate": "用于",
+      "object": "旋转样条线工具",
+      "context": "创建的样条线可以被旋转样条线工具使用来创建网格体，展示了工具间的协作关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "样条线",
+      "predicate": "用于",
+      "object": "网格体样条线工具",
+      "context": "创建的样条线可以被网格体样条线工具使用来创建网格体，展示了工具间的协作关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "样条线",
+      "predicate": "用于",
+      "object": "自定义蓝图Actor",
+      "context": "样条线可以用于创建各种自定义对象如轨道或藤蔓，扩展了学习者的应用场景理解",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输出模式",
+      "predicate": "决定",
+      "object": "样条线组件创建方式",
+      "context": "理解输出模式的不同选项如何影响样条线组件的创建，是掌握工具使用的关键",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "空Actor输出模式",
+      "predicate": "创建",
+      "object": "带样条线组件的空Actor",
+      "context": "明确不同输出模式的具体功能，帮助学习者根据需求选择正确模式",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "现有Actor输出模式",
+      "predicate": "附加到",
+      "object": "现有Actor",
+      "context": "展示如何将样条线整合到现有场景元素中，扩展应用场景",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "创建蓝图输出模式",
+      "predicate": "生成",
+      "object": "蓝图Actor",
+      "context": "介绍高级用法，将样条线集成到蓝图中，为复杂应用打下基础",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "绘制模式",
+      "predicate": "控制",
+      "object": "样条线创建方式",
+      "context": "不同绘制模式影响样条线的创建过程，是掌握工具精确控制的重要概念",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "切线拖动模式",
+      "predicate": "允许",
+      "object": "手动控制曲率",
+      "context": "详细说明不同绘制模式的特点，帮助学习者选择适合的绘制方式",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "点击自动切线模式",
+      "predicate": "使用",
+      "object": "自动曲率设置",
+      "context": "对比不同模式的自动化程度，帮助学习者理解效率与控制的权衡",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "自由绘制模式",
+      "predicate": "基于",
+      "object": "徒手动作",
+      "context": "介绍最自由的绘制方式，扩展创作可能性",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "光线投射目标",
+      "predicate": "决定",
+      "object": "样条线放置方式",
+      "context": "理解光线投射目标如何影响样条线在场景中的定位，是精确放置的关键",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "世界光线投射",
+      "predicate": "将样条线放置于",
+      "object": "网格体表面",
+      "context": "具体说明不同光线投射目标的行为差异，帮助场景适配",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "自定义平面光线投射",
+      "predicate": "允许",
+      "object": "平面重定位",
+      "context": "展示高级控制选项，为复杂场景布置提供灵活性",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "地平面光线投射",
+      "predicate": "将样条线放置于",
+      "object": "基准平面",
+      "context": "提供简单的放置方案，适合基础应用场景",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "绘制样条线工具",
+      "predicate": "关联",
+      "object": "蓝图样条线",
+      "context": "文档建议参考蓝图样条线以了解更多工作流程，建立学习路径",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "绘制样条线工具",
+      "predicate": "关联",
+      "object": "摄像机绑定",
+      "context": "文档建议参考摄像机绑定应用，扩展学习者的应用场景认知",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "建模模式",
+      "predicate": "包含",
+      "object": "创建类别",
+      "context": "理解建模模式的组织结构，帮助导航工具位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "用于",
+      "object": "编辑样条线",
+      "context": "介绍样条线的额外编辑方式，完善工具使用知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:54:44.480Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8106,
+    "contentLength": 5560,
+    "processingTimeMs": 73198
+  }
+}

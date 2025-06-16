@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_live-link-vrpn-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_live-link-vrpn-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Live Link VRPN",
+      "predicate": "基于",
+      "object": "VRPN",
+      "context": "Live Link VRPN 使用 VRPN 服务器来抽象化 VR 外围设备的数据报告，帮助学习者理解底层技术依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link VRPN",
+      "predicate": "支持",
+      "object": "OpenVR",
+      "context": "Live Link VRPN 需要 VRPN 服务器支持 OpenVR，这是技术兼容性的关键前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link VRPN",
+      "predicate": "生成",
+      "object": "Live Link 主题",
+      "context": "Live Link VRPN 会为每个连接的设备创建对应的 Live Link 主题，这是数据流的核心载体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link VRPN",
+      "predicate": "依赖",
+      "object": "Live Link 插件",
+      "context": "使用 Live Link VRPN 前必须启用基础 Live Link 插件，这是功能依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link VRPN 主题",
+      "predicate": "具有",
+      "object": "设备类型",
+      "context": "主题需要明确设置为跟踪器/模拟/调谐钮/按钮等类型，这决定了数据处理方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiveLinkComponentController",
+      "predicate": "控制",
+      "object": "Live Link VRPN 主题",
+      "context": "该组件用于将跟踪器类型主题的数据应用到场景中的Actor，是数据可视化的关键组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换轴开关预处理器",
+      "predicate": "调整",
+      "object": "设备坐标系",
+      "context": "用于解决不同VRPN服务器的轴映射差异，是数据标准化的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link VRPN",
+      "predicate": "可用于",
+      "object": "VR控制器",
+      "context": "文档示例展示了如何连接VR控制器，说明该技术的典型应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "LiveLinkXR",
+      "predicate": "替代方案",
+      "object": "Live Link VRPN",
+      "context": "文档提到可用LiveLinkXR进行故障排除，说明两者在功能上有重叠",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "帧数据显示",
+      "predicate": "用于",
+      "object": "故障排除",
+      "context": "查看原始帧数据是验证数据接收情况的重要调试手段",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "IP地址和端口",
+      "predicate": "必须匹配",
+      "object": "VRPN服务器",
+      "context": "这是建立连接的基础网络配置要求",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设备序列号",
+      "predicate": "优于",
+      "object": "常规设备标识符",
+      "context": "文档建议使用不会变化的序列号作为稳定标识，这是最佳实践",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "本地更新速率",
+      "predicate": "控制",
+      "object": "数据轮询频率",
+      "context": "该参数直接影响数据更新的实时性，是性能调优的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:46:48.969Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7774,
+    "contentLength": 5250,
+    "processingTimeMs": 57131
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_cable-components-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_cable-components-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "缆绳组件",
+      "predicate": "基于",
+      "object": "韦尔莱积分算法",
+      "context": "缆绳组件的物理模拟使用了韦尔莱积分算法来实现粒子间的距离约束和运动计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缆绳组件",
+      "predicate": "包含",
+      "object": "FCableSceneProxy",
+      "context": "FCableSceneProxy是负责渲染缆绳的代理类，处理粒子位置到管状网格体的转换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缆绳组件",
+      "predicate": "支持",
+      "object": "蓝图系统",
+      "context": "缆绳组件可以通过蓝图编辑器添加到自定义Actor中，并暴露可调节属性",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缆绳组件",
+      "predicate": "实现",
+      "object": "动态碰撞",
+      "context": "通过启用碰撞属性，缆绳可以与场景中的其他物体产生物理交互",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "缆绳组件",
+      "predicate": "控制",
+      "object": "刚性参数",
+      "context": "解算器迭代次数和刚度选项共同控制缆绳的物理刚性表现",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "缆绳组件",
+      "predicate": "生成",
+      "object": "管状网格体",
+      "context": "通过顶点计算将粒子链转换为可视化的3D管状几何体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缆绳组件",
+      "predicate": "依赖",
+      "object": "渲染线程",
+      "context": "通过SendRenderDynamicData_Concurrent函数将模拟数据传递到渲染线程",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "缆绳Actor",
+      "predicate": "继承",
+      "object": "Actor基类",
+      "context": "缆绳Actor是继承自基础Actor类的特殊类型，具有额外的缆绳功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缆绳组件",
+      "predicate": "使用",
+      "object": "切线基础向量",
+      "context": "X/Y/Z轴向量计算用于确定管状网格体的空间朝向和UV映射",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "附加头端/末端",
+      "predicate": "影响",
+      "object": "物理模拟",
+      "context": "这些属性决定缆绳两端是否固定，直接影响模拟时的约束条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缆绳组件",
+      "predicate": "关联",
+      "object": "碰撞预置",
+      "context": "碰撞功能使用组件上设置的碰撞预置来决定与哪些对象发生交互",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "分段数量",
+      "predicate": "决定",
+      "object": "模拟精度",
+      "context": "更多的分段意味着更高的模拟精度但也会增加计算开销",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "缆绳组件插件",
+      "predicate": "属于",
+      "object": "渲染类别",
+      "context": "该插件在插件管理器中归类于渲染功能模块下",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缆绳力属性",
+      "predicate": "控制",
+      "object": "外部影响",
+      "context": "可以施加额外的力向量和重力缩放来影响缆绳的动态表现",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "缆绳渲染属性",
+      "predicate": "调节",
+      "object": "视觉表现",
+      "context": "宽度、面数和材质平铺参数共同控制最终渲染效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:18:05.171Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10739 字符)",
+      "timestamp": "2025-06-15T18:17:06.493Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15453,
+    "contentLength": 10739,
+    "processingTimeMs": 58689
+  }
+}

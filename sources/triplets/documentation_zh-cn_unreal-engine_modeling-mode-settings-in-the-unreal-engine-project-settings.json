@@ -1,0 +1,149 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_modeling-mode-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_modeling-mode-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "建模模式",
+      "predicate": "包含",
+      "object": "动态网格体Actor",
+      "context": "建模模式中可以启用或禁用动态网格体Actor的生成选项，帮助学习者理解建模模式的功能范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "建模模式",
+      "predicate": "包含",
+      "object": "默认网格体对象类型",
+      "context": "默认网格体对象类型是建模模式的核心设置之一，影响工具的输出类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认网格体对象类型",
+      "predicate": "支持",
+      "object": "静态网格体资产",
+      "context": "学习者需要了解静态网格体资产是建模模式的一种输出类型选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认网格体对象类型",
+      "predicate": "支持",
+      "object": "体积Actor",
+      "context": "体积Actor是建模模式的另一种输出类型选项，学习者需要了解不同输出类型的区别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认网格体对象类型",
+      "predicate": "支持",
+      "object": "动态网格体Actor",
+      "context": "动态网格体Actor是存储在关卡本地的输出类型，与静态网格体资产形成对比",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "建模模式",
+      "predicate": "包含",
+      "object": "资产生成模式",
+      "context": "资产生成模式设置决定了建模工具生成资产的处理方式，是重要的学习概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产生成模式",
+      "predicate": "包含",
+      "object": "自动生成并自动保存",
+      "context": "这是资产生成模式的一种选项，帮助学习者理解不同的资产保存策略",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产生成模式",
+      "predicate": "包含",
+      "object": "自动生成但不自动保存",
+      "context": "这种模式适合需要手动控制保存时机的工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产生成模式",
+      "predicate": "包含",
+      "object": "交互式提示保存",
+      "context": "这种模式提供更多控制权，适合需要确认每个资产保存的场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "建模模式",
+      "predicate": "包含",
+      "object": "资产生成位置",
+      "context": "资产生成位置设置影响资产在项目中的组织方式，是重要的项目管理概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产生成位置",
+      "predicate": "支持",
+      "object": "自动生成的世界相对资产路径",
+      "context": "学习者需要理解这种路径设置会将资产组织在与世界相关的目录结构中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产生成位置",
+      "predicate": "支持",
+      "object": "自动生成的全局资产路径",
+      "context": "这种设置将所有生成的资产集中存储，便于学习者理解全局资产管理的概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产生成位置",
+      "predicate": "支持",
+      "object": "当前资产浏览器路径",
+      "context": "这种设置与内容浏览器集成，帮助学习者理解工作流程的灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "建模模式",
+      "predicate": "包含",
+      "object": "启用持久选择",
+      "context": "持久选择是建模模式中的试验性功能，学习者需要了解其作用和限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启用持久选择",
+      "predicate": "影响",
+      "object": "选择可视化",
+      "context": "持久选择功能会影响选择的可视化表现，这是学习者需要注意的交互细节",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "静态网格体资产",
+      "predicate": "对比",
+      "object": "动态网格体Actor",
+      "context": "理解这两种输出类型的区别（资产vs关卡本地对象）对工作流程决策很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动生成的世界相对资产路径",
+      "predicate": "对比",
+      "object": "自动生成的全局资产路径",
+      "context": "这两种路径策略适用于不同的项目管理需求，学习者需要理解其适用场景",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:58:48.314Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4732,
+    "contentLength": 2806,
+    "processingTimeMs": 56814
+  }
+}

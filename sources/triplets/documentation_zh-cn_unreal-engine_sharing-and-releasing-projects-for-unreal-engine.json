@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_sharing-and-releasing-projects-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_sharing-and-releasing-projects-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎项目",
+      "predicate": "包含",
+      "object": "构建操作",
+      "context": "构建操作是项目开发流程中的核心环节，包括烘焙、打包、部署和运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "构建操作",
+      "predicate": "包含",
+      "object": "内容烘焙",
+      "context": "内容烘焙是构建操作的关键步骤，用于生成平台特定的资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容烘焙",
+      "predicate": "生成",
+      "object": "已烘焙内容",
+      "context": "烘焙过程将原始资源转换为可在目标平台上运行的优化格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "已烘焙内容",
+      "predicate": "用于",
+      "object": "发布项目",
+      "context": "发布项目需要依赖已烘焙的内容来创建最终的可分发版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目启动程序",
+      "predicate": "管理",
+      "object": "部署项目",
+      "context": "项目启动程序是专门用于管理和执行项目部署流程的工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Frontend",
+      "predicate": "扩展",
+      "object": "项目启动程序",
+      "context": "Unreal Frontend提供了更高级的项目管理和部署功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "AutoSDK",
+      "predicate": "支持",
+      "object": "跨平台开发",
+      "context": "AutoSDK系统简化了不同平台SDK的管理和配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Device Manager",
+      "predicate": "连接",
+      "object": "目标设备",
+      "context": "Device Manager用于建立和管理与测试设备的连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动端开发",
+      "predicate": "依赖",
+      "object": "移动端开发工具",
+      "context": "移动平台开发需要专门的工具链支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动端渲染功能",
+      "predicate": "优化",
+      "object": "移动端性能",
+      "context": "专门的渲染功能可以提升移动设备的运行效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "XR开发",
+      "predicate": "基于",
+      "object": "OpenXR",
+      "context": "OpenXR是虚幻引擎中开发AR/VR内容的通用框架",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送",
+      "predicate": "实现",
+      "object": "云部署",
+      "context": "像素流送技术使得通过云端部署和流式传输成为可能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS开发",
+      "predicate": "需要",
+      "object": "特定配置",
+      "context": "iOS平台开发有特殊的设置和要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android开发",
+      "predicate": "包含",
+      "object": "调试工具",
+      "context": "Android开发需要专门的调试工具支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "电视安全区调试",
+      "predicate": "适用于",
+      "object": "TV平台",
+      "context": "专门针对电视设备的UI布局优化工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "低延迟框架同步",
+      "predicate": "优化",
+      "object": "XR体验",
+      "context": "降低延迟对提升VR/AR体验至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "移动端服务",
+      "predicate": "支持",
+      "object": "应用内购",
+      "context": "移动平台特有的商业功能支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Nintendo Switch开发",
+      "predicate": "需要",
+      "object": "专用文档",
+      "context": "主机平台开发有特殊的资源和要求",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "打包流程",
+      "predicate": "因平台而异",
+      "object": "平台特定要求",
+      "context": "不同目标平台有不同的打包配置需求",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "烘焙和数据块划分",
+      "predicate": "生成",
+      "object": ".pak文件",
+      "context": "资源打包的重要输出格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:47:32.098Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12127 字符)",
+      "timestamp": "2025-06-15T20:46:38.910Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14869,
+    "contentLength": 12127,
+    "processingTimeMs": 53196
+  }
+}

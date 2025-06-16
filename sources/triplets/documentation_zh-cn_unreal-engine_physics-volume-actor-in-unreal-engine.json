@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_physics-volume-actor-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_physics-volume-actor-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "物理体积Actor",
+      "predicate": "包含",
+      "object": "末速度",
+      "context": "物理体积Actor包含末速度属性，该属性影响Pawn的下落速度，是物理模拟的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理体积Actor",
+      "predicate": "包含",
+      "object": "优先级",
+      "context": "物理体积Actor包含优先级属性，该属性决定重叠体积的主导关系，是体积交互的关键设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理体积Actor",
+      "predicate": "包含",
+      "object": "流体摩擦",
+      "context": "物理体积Actor包含流体摩擦属性，该属性影响Pawn在体积中的移动阻力，是物理模拟的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理体积Actor",
+      "predicate": "包含",
+      "object": "水体积",
+      "context": "物理体积Actor包含水体积属性，该属性标识体积是否为流体类型，影响物理交互行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理体积Actor",
+      "predicate": "包含",
+      "object": "接触时的物理影响",
+      "context": "物理体积Actor包含接触时的物理影响属性，该属性决定Actor是否需要完全进入体积才受物理影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "末速度",
+      "predicate": "影响",
+      "object": "CharacterMovement",
+      "context": "末速度属性直接影响应用CharacterMovement组件的Pawn的下落速度，是物理运动的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流体摩擦",
+      "predicate": "影响",
+      "object": "CharacterMovement",
+      "context": "流体摩擦属性直接影响应用CharacterMovement组件的Pawn在体积中的移动阻力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "优先级",
+      "predicate": "决定",
+      "object": "PhysicsVolume重叠",
+      "context": "优先级属性决定多个PhysicsVolume重叠时的主导关系，是体积交互的核心机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水体积",
+      "predicate": "标识",
+      "object": "流体类型",
+      "context": "水体积属性标识该物理体积是否为流体类型，影响物理模拟和视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "接触时的物理影响",
+      "predicate": "控制",
+      "object": "Actor物理交互",
+      "context": "接触时的物理影响属性控制Actor与体积的交互方式，决定是否需要完全进入才受物理影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理体积Actor",
+      "predicate": "属于",
+      "object": "虚幻引擎物理系统",
+      "context": "物理体积Actor是虚幻引擎物理系统的重要组成部分，用于模拟特殊物理环境",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "物理体积Actor",
+      "predicate": "适用于",
+      "object": "环境物理模拟",
+      "context": "物理体积Actor专门用于创建具有特殊物理特性的环境区域，如水、空气阻力等",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:24:10.757Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 1441,
+    "contentLength": 925,
+    "processingTimeMs": 48601
+  }
+}

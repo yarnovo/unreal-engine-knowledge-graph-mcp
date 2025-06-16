@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_property-access-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_property-access-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "属性访问",
+      "predicate": "用于",
+      "object": "动画蓝图",
+      "context": "属性访问功能允许在动画蓝图中访问游戏线程上的组件和变量，提高动画系统的性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性访问",
+      "predicate": "生成",
+      "object": "数据快照",
+      "context": "属性访问通过拍摄游戏线程变量或组件的数据快照，使这些数据可以在工作线程上使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性访问",
+      "predicate": "优化",
+      "object": "动画系统性能",
+      "context": "使用属性访问可以减少游戏线程上的工作量，减少手动蓝图脚本数量，从而提高性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性访问函数",
+      "predicate": "包含",
+      "object": "预生成函数",
+      "context": "属性访问提供多种预生成函数，用于访问基础组件和变量，如角色速度、移动方向等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性访问函数",
+      "predicate": "支持",
+      "object": "自定义函数",
+      "context": "开发者可以创建自定义属性访问函数，输出特定或独特的值，满足项目需求",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义属性访问函数",
+      "predicate": "需要",
+      "object": "返回节点",
+      "context": "创建自定义属性访问函数时，必须添加返回节点并命名为ReturnValue，才能被属性访问节点或引脚绑定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义属性访问函数",
+      "predicate": "建议启用",
+      "object": "线程安全属性",
+      "context": "为自定义属性访问函数启用线程安全属性可以显著提高动画系统的性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性访问绑定",
+      "predicate": "可通过",
+      "object": "节点或引脚",
+      "context": "属性访问可以通过创建独立节点或绑定到现有动画蓝图节点的引脚来实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性访问节点",
+      "predicate": "绑定",
+      "object": "属性访问函数",
+      "context": "属性访问节点需要绑定到特定函数，才能引用要访问的组件或变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AnimNode引脚",
+      "predicate": "可绑定",
+      "object": "属性访问函数",
+      "context": "AnimNode的输入引脚可以直接绑定属性访问函数，动态驱动引脚值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调用站点",
+      "predicate": "控制",
+      "object": "线程执行",
+      "context": "调用站点设置决定了属性访问函数在哪个线程上执行，影响性能和线程安全性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性访问",
+      "predicate": "相关文档",
+      "object": "动画优化",
+      "context": "动画优化文档提供了使用属性访问和其他方法优化动画系统性能的详细信息",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "属性访问",
+      "predicate": "相关文档",
+      "object": "获取动画变量",
+      "context": "获取动画变量文档展示了使用属性访问获取和使用动画变量的工作流程示例",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "游戏线程",
+      "predicate": "与",
+      "object": "工作线程",
+      "context": "属性访问桥接了游戏线程和工作线程之间的数据访问，使动画系统能更高效地运行",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件图表",
+      "predicate": "运行于",
+      "object": "游戏线程",
+      "context": "事件图表通常在游戏线程上求值，而属性访问允许在工作线程上访问这些数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:30:40.027Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8647 字符)",
+      "timestamp": "2025-06-15T20:29:52.232Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13123,
+    "contentLength": 8647,
+    "processingTimeMs": 47810
+  }
+}

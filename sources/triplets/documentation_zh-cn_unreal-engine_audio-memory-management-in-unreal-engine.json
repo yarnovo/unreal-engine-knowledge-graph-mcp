@@ -1,0 +1,61 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_audio-memory-management-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_audio-memory-management-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "音频内存管理",
+      "predicate": "包含",
+      "object": "音频流缓存系统",
+      "context": "音频内存管理是虚幻引擎中处理音频数据存储和访问的机制，其中音频流缓存系统是其核心组成部分，帮助学习者理解内存管理的关键实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频流缓存系统",
+      "predicate": "用于",
+      "object": "音频引擎",
+      "context": "音频流缓存系统是音频引擎的重要组成部分，专门用于优化音频数据的流式传输和内存使用，这对理解音频处理流程至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效并发资产",
+      "predicate": "依赖",
+      "object": "音频内存管理",
+      "context": "音效并发资产的实现依赖于有效的音频内存管理机制，了解这种依赖关系有助于开发者优化并发音效的性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "音频内存管理",
+      "predicate": "影响",
+      "object": "音效并发性能",
+      "context": "音频内存管理的效率直接影响音效并发的表现，这对需要处理多个同时播放音效的游戏场景特别重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "音频流缓存系统",
+      "predicate": "优化",
+      "object": "音频数据流式传输",
+      "context": "音频流缓存系统的主要功能是优化音频数据的流式传输，这对理解如何减少内存占用和提高音频加载效率很有帮助",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎音频系统",
+      "predicate": "包含",
+      "object": "音频内存管理",
+      "context": "音频内存管理是虚幻引擎音频系统的核心功能模块之一，了解这一包含关系有助于构建完整的音频系统知识框架",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:08:30.226Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 1497,
+    "contentLength": 1247,
+    "processingTimeMs": 29167
+  }
+}

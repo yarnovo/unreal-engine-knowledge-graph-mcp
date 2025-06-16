@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_horde-glossary-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_horde-glossary-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Acl操作",
+      "predicate": "属于",
+      "object": "Horde权限系统",
+      "context": "Acl操作是Horde权限系统中对实体执行操作的基本单位，理解它有助于掌握Horde的权限控制机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Acl范围",
+      "predicate": "组成",
+      "object": "Horde层级权限系统",
+      "context": "Acl范围构成了Horde的层级权限结构，理解层级关系对权限配置至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Acl配置文件",
+      "predicate": "简化",
+      "object": "Acl操作管理",
+      "context": "Acl配置文件通过操作列表的预定义简化了权限分配流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "用于",
+      "object": "大规模构建管线",
+      "context": "BuildGraph是Epic Games专门用于管理复杂构建依赖关系的核心工具",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "作业",
+      "predicate": "基于",
+      "object": "模板",
+      "context": "作业是通过实例化模板创建的，理解这种关系是掌握Horde作业执行流程的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "作业步骤",
+      "predicate": "对应",
+      "object": "BuildGraph节点",
+      "context": "作业步骤直接映射到BuildGraph脚本中的节点执行，这是理解构建过程的关键关联",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理",
+      "predicate": "执行",
+      "object": "作业批处理",
+      "context": "代理服务是作业批处理的执行载体，了解这种关系有助于理解分布式构建的运作机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "持续集成(CI)",
+      "predicate": "包含",
+      "object": "预提交测试",
+      "context": "预提交测试是CI流程的重要组成部分，这种包含关系展示了代码质量保障的层次结构",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "模板",
+      "predicate": "指定",
+      "object": "BuildGraph执行参数",
+      "context": "模板定义了BuildGraph脚本的执行方式，这是作业配置的核心要素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "目标",
+      "predicate": "引用",
+      "object": "BuildGraph聚合",
+      "context": "目标通过引用聚合来简化节点组执行，这种关系体现了BuildGraph的高级抽象机制",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "命名空间",
+      "predicate": "支持",
+      "object": "存储系统分区",
+      "context": "命名空间实现了存储系统的逻辑隔离，这是理解Horde数据管理架构的基础概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "引用",
+      "predicate": "防止",
+      "object": "Blob垃圾回收",
+      "context": "引用机制保障了有效数据的持久化，这是理解Horde存储管理的重要关联",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "持续交付(CD)",
+      "predicate": "依赖",
+      "object": "持续集成(CI)",
+      "context": "CD流程通常以CI为基础，这种依赖关系展示了现代开发流水线的阶段衔接",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "预检",
+      "predicate": "属于",
+      "object": "变更验证流程",
+      "context": "预检是代码提交前的关键验证环节，理解其定位有助于掌握完整的质量控制流程",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "指标",
+      "predicate": "来自",
+      "object": "遥测事件聚合",
+      "context": "指标数据源于遥测事件的处理，这种数据流关系对理解Horde监控系统很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:20:57.203Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5035,
+    "contentLength": 2557,
+    "processingTimeMs": 62490
+  }
+}

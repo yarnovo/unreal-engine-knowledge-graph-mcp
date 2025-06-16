@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_device-properties-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_device-properties-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "设备属性",
+      "predicate": "表示",
+      "object": "输入设备的物理属性",
+      "context": "设备属性用于描述输入设备的物理特性，如光源颜色和触觉扳机阻力，帮助开发者理解如何利用这些特性增强游戏体验。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入设备子系统",
+      "predicate": "用于",
+      "object": "激活设备属性",
+      "context": "输入设备子系统是激活和管理设备属性的核心工具，开发者通过它可以控制设备的物理属性。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设备属性",
+      "predicate": "可添加到",
+      "object": "力反馈资产",
+      "context": "设备属性可以集成到力反馈资产中，从而在力反馈效果中利用设备的物理特性。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "迸发Gameplay提示通知蓝图",
+      "predicate": "用于",
+      "object": "激活设备属性",
+      "context": "通过迸发Gameplay提示通知蓝图，开发者可以在特定游戏事件中触发设备属性的激活。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设备属性",
+      "predicate": "具有",
+      "object": "生命周期",
+      "context": "设备属性的生命周期包括激活、求值、应用和重置阶段，开发者可以通过覆盖相关函数来自定义这些阶段的行为。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EvaluateDeviceProperty",
+      "predicate": "用于",
+      "object": "更改设备属性数据",
+      "context": "覆盖EvaluateDeviceProperty函数可以在设备属性的生命周期中动态修改属性数据，例如实现随时间变化的曲线值。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ApplyDeviceProperty",
+      "predicate": "用于",
+      "object": "传递属性设置到平台代码",
+      "context": "ApplyDeviceProperty函数负责将设备属性的内部设置传递给平台代码，确保属性能够正确应用到硬件设备。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ResetDeviceProperty",
+      "predicate": "用于",
+      "object": "重置设备属性状态",
+      "context": "ResetDeviceProperty函数在设备属性生命周期结束时被调用，用于将设备属性恢复到初始状态。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入设备属性句柄",
+      "predicate": "用于",
+      "object": "管理设备属性",
+      "context": "激活设备属性后返回的句柄可以用于获取属性状态、删除或重置属性，是管理设备属性的关键工具。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FActivateDevicePropertyParams",
+      "predicate": "配置",
+      "object": "设备属性激活参数",
+      "context": "FActivateDevicePropertyParams结构体允许开发者配置设备属性的激活参数，如用户ID、设备ID、循环等。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UInputDeviceProperty",
+      "predicate": "继承自",
+      "object": "FInputDeviceProperty",
+      "context": "UInputDeviceProperty是对FInputDeviceProperty的抽象，提供了更高级别的接口供开发者使用。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lyra游戏示例",
+      "predicate": "包含",
+      "object": "设备属性实现案例",
+      "context": "Lyra游戏示例提供了设备属性的具体实现案例，如B_TeamColor_DeviceProperty，帮助开发者学习如何应用设备属性。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "showdebug DeviceProperty",
+      "predicate": "用于",
+      "object": "调试设备属性",
+      "context": "使用showdebug DeviceProperty命令可以在屏幕上显示当前激活的设备属性信息，便于开发者调试。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IInputDevice",
+      "predicate": "支持",
+      "object": "新增设备属性",
+      "context": "通过覆盖IInputDevice或IInputInterface的SetDeviceProperty函数，开发者可以为新硬件添加设备属性支持。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:52:11.000Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11333,
+    "contentLength": 7489,
+    "processingTimeMs": 50177
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_navigation-mesh-resolutions-user-guide",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_navigation-mesh-resolutions-user-guide.md",
+  "triples": [
+    {
+      "subject": "寻路网格体分辨率",
+      "predicate": "包含",
+      "object": "高分辨率图块",
+      "context": "寻路网格体分辨率功能允许生成三种不同分辨率的图块，高分辨率是其中之一，用于需要高精度寻路的场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体分辨率",
+      "predicate": "包含",
+      "object": "中分辨率图块",
+      "context": "中分辨率是寻路网格体分辨率的默认设置，平衡了生成速度和寻路精度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体分辨率",
+      "predicate": "包含",
+      "object": "低分辨率图块",
+      "context": "低分辨率图块是寻路网格体分辨率的一种选项，用于快速生成和减少内存占用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高分辨率图块",
+      "predicate": "用于",
+      "object": "密集区域寻路",
+      "context": "高分辨率图块适用于AI需要在障碍物之间小空间寻路的密集区域，提供更精确的路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "低分辨率图块",
+      "predicate": "用于",
+      "object": "开放空间寻路",
+      "context": "低分辨率图块适用于AI不需要高精度寻路的开放空间，可以提升生成速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体分辨率",
+      "predicate": "影响",
+      "object": "内存占用",
+      "context": "使用低分辨率图块可以减少内存占用，适合内存有限的设备如手机",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体分辨率",
+      "predicate": "影响",
+      "object": "生成速度",
+      "context": "不同分辨率的图块生成速度不同，低分辨率图块生成更快",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体边界体积",
+      "predicate": "用于",
+      "object": "定义寻路空间",
+      "context": "寻路网格体边界体积用于定义AI可以寻路的空间范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路修饰体积",
+      "predicate": "用于",
+      "object": "修改寻路网格体分辨率",
+      "context": "寻路修饰体积可以覆盖特定区域的寻路网格体分辨率设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NavModifier组件",
+      "predicate": "用于",
+      "object": "动态修改寻路分辨率",
+      "context": "NavModifier组件可以在Actor蓝图中动态修改寻路网格体的分辨率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单元尺寸",
+      "predicate": "影响",
+      "object": "寻路网格体精度",
+      "context": "单元尺寸参数直接影响寻路网格体的生成精度，尺寸越小精度越高",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单元尺寸",
+      "predicate": "影响",
+      "object": "生成速度",
+      "context": "较大的单元尺寸可以加快寻路网格体的生成速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绘制图块构建时间",
+      "predicate": "用于",
+      "object": "性能分析",
+      "context": "该调试工具可以显示每个图块的构建时间，帮助优化性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绘制图块分辨率",
+      "predicate": "用于",
+      "object": "可视化调试",
+      "context": "该功能用不同颜色显示不同分辨率的图块，便于调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "构建时间热图",
+      "predicate": "用于",
+      "object": "性能热点分析",
+      "context": "热图功能可以直观显示构建时间长的区域，帮助优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体分辨率",
+      "predicate": "影响",
+      "object": "AI寻路路径",
+      "context": "分辨率设置直接影响AI能否在狭窄空间找到路径以及路径的质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RecastNavMesh-Default",
+      "predicate": "包含",
+      "object": "调试工具",
+      "context": "该Actor提供了多种寻路网格体相关的调试工具和可视化选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "包含",
+      "object": "寻路网格体分辨率参数",
+      "context": "项目设置中可以配置不同分辨率级别的详细参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图块尺寸UU",
+      "predicate": "关联",
+      "object": "单元尺寸",
+      "context": "图块尺寸应该与单元尺寸协调设置以获得最佳性能",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:04:23.524Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11012,
+    "contentLength": 7186,
+    "processingTimeMs": 56257
+  }
+}

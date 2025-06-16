@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_game-mode-and-game-state-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_game-mode-and-game-state-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Game Mode",
+      "predicate": "定义",
+      "object": "游戏规则",
+      "context": "Game Mode负责定义游戏的基础规则，如玩家数量、生成方式等，是游戏逻辑的核心",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Game State",
+      "predicate": "存储和同步",
+      "object": "游戏信息",
+      "context": "Game State用于存储和同步所有玩家共享的游戏信息，如游戏运行时间、玩家状态等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AGameModeBase",
+      "predicate": "是基类",
+      "object": "所有Game Mode",
+      "context": "AGameModeBase是所有Game Mode的基类，提供了基础功能，是4.14版本后的默认基类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AGameMode",
+      "predicate": "继承自",
+      "object": "AGameModeBase",
+      "context": "AGameMode是AGameModeBase的子类，保留了旧功能并支持多人游戏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Game Mode",
+      "predicate": "不复制到",
+      "object": "远程客户端",
+      "context": "Game Mode只存在于服务器上，不复制到远程客户端，客户端通过Game State获取相关信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Game State",
+      "predicate": "复制到",
+      "object": "所有客户端",
+      "context": "Game State会被复制到所有客户端，保持游戏状态的同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AGameMode",
+      "predicate": "包含",
+      "object": "比赛状态机",
+      "context": "AGameMode包含一个状态机用于跟踪比赛状态，如WaitingToStart、InProgress等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Game Mode 蓝图",
+      "predicate": "可设置",
+      "object": "默认类",
+      "context": "Game Mode蓝图可以设置默认的Pawn类、HUD类、Player Controller类等，无需修改代码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Game State",
+      "predicate": "追踪",
+      "object": "游戏层面属性",
+      "context": "Game State用于追踪游戏层面的属性，如团队得分、已完成任务等，与所有玩家相关",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Player State",
+      "predicate": "更适合追踪",
+      "object": "玩家特有内容",
+      "context": "Player State更适合追踪玩家特有的信息，如个人得分，而Game State追踪全局信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AGameStateBase",
+      "predicate": "是基类",
+      "object": "Game State",
+      "context": "AGameStateBase是Game State的基础实现，提供了同步时间、玩家列表等功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Game Mode",
+      "predicate": "实例化",
+      "object": "UGameEngine::LoadMap()",
+      "context": "Game Mode在关卡加载时通过UGameEngine::LoadMap()函数实例化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Game Mode",
+      "predicate": "设置方式",
+      "object": "多种优先级",
+      "context": "Game Mode可以通过多种方式设置，包括全局设置、关卡覆盖、命令行参数等，优先级不同",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:09:32.578Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11927,
+    "contentLength": 7207,
+    "processingTimeMs": 43215
+  }
+}

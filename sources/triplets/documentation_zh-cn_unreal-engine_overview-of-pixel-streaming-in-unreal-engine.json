@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_overview-of-pixel-streaming-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_overview-of-pixel-streaming-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "像素流送",
+      "predicate": "用于",
+      "object": "远程运行虚幻引擎应用程序",
+      "context": "像素流送允许在远程计算机上运行虚幻引擎应用程序，并通过流媒体传输渲染结果到用户设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送",
+      "predicate": "包含",
+      "object": "像素流送插件",
+      "context": "像素流送系统包含一个在虚幻引擎中运行的插件，负责编码和传输媒体流",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送",
+      "predicate": "包含",
+      "object": "信令和Web服务器",
+      "context": "信令和Web服务器是像素流送系统的关键组件，负责协商连接和提供播放环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送插件",
+      "predicate": "编码",
+      "object": "渲染帧",
+      "context": "像素流送插件将每个渲染帧编码为视频流，以便传输到客户端",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送插件",
+      "predicate": "发送",
+      "object": "媒体流",
+      "context": "编码后的媒体流通过点对点连接发送到客户端浏览器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "信令和Web服务器",
+      "predicate": "协商",
+      "object": "浏览器和像素流送插件之间的连接",
+      "context": "信令服务器在浏览器和像素流送插件之间建立连接，是流媒体传输的前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "信令和Web服务器",
+      "predicate": "提供",
+      "object": "HTML和JavaScript环境",
+      "context": "信令服务器为浏览器提供播放媒体流所需的HTML和JavaScript环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送",
+      "predicate": "使用",
+      "object": "WebRTC",
+      "context": "像素流送利用WebRTC框架实现低延迟的点对点通信",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送",
+      "predicate": "支持",
+      "object": "多平台",
+      "context": "像素流送允许用户在不同平台的浏览器中体验内容，无需单独打包",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送",
+      "predicate": "适用于",
+      "object": "云托管平台",
+      "context": "像素流送可以作为云托管平台的基础，适用于大规模部署",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "像素流送",
+      "predicate": "依赖",
+      "object": "STUN/TURN服务器",
+      "context": "在网络地址转换（NAT）环境下，像素流送需要STUN或TURN服务器来建立连接",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "像素流送",
+      "predicate": "提供",
+      "object": "高质量图形",
+      "context": "像素流送使轻量级设备能够显示高质量图形，无需本地强大GPU",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送",
+      "predicate": "减少",
+      "object": "下载和安装需求",
+      "context": "用户无需下载大型可执行文件或安装应用程序，只需接收媒体流",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送插件",
+      "predicate": "打包",
+      "object": "视频帧和音频",
+      "context": "插件将渲染帧和游戏音频打包为媒体流，以便传输",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "信令和Web服务器",
+      "predicate": "处理",
+      "object": "连接断开",
+      "context": "信令服务器在流媒体播放期间维护连接，处理可能的断开情况",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:16:29.565Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6789,
+    "contentLength": 3633,
+    "processingTimeMs": 59036
+  }
+}

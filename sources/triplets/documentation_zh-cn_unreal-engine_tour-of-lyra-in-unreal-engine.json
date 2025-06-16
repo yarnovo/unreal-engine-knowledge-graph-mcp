@@ -1,0 +1,251 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_tour-of-lyra-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_tour-of-lyra-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Lyra",
+      "predicate": "包含",
+      "object": "主菜单",
+      "context": "Lyra启动时首先展示的是主菜单，这是用户交互的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主菜单",
+      "predicate": "包含",
+      "object": "玩游戏",
+      "context": "主菜单提供核心功能入口，'玩游戏'选项引导用户进入游戏模式选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主菜单",
+      "predicate": "包含",
+      "object": "选项",
+      "context": "选项菜单包含系统配置功能，是游戏设置的核心入口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩游戏",
+      "predicate": "进入",
+      "object": "主游戏菜单",
+      "context": "点击'玩游戏'后展示游戏模式选择界面，这是游戏逻辑的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主游戏菜单",
+      "predicate": "包含",
+      "object": "快速游戏",
+      "context": "快速游戏是三种核心游戏模式之一，提供快速匹配功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主游戏菜单",
+      "predicate": "包含",
+      "object": "启动游戏",
+      "context": "启动游戏允许自定义游戏参数，是高级游戏设置入口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主游戏菜单",
+      "predicate": "包含",
+      "object": "浏览",
+      "context": "浏览功能支持查找现有游戏会话，是多人联机的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启动游戏",
+      "predicate": "提供",
+      "object": "游戏模式",
+      "context": "启动游戏时需选择具体游戏模式，决定游戏核心玩法规则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏模式",
+      "predicate": "包含",
+      "object": "控制",
+      "context": "控制模式是Lyra提供的标准团队竞技玩法之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏模式",
+      "predicate": "包含",
+      "object": "淘汰",
+      "context": "淘汰模式展示传统FPS对战玩法实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏模式",
+      "predicate": "包含",
+      "object": "爆炸",
+      "context": "爆炸模式演示特殊游戏机制设计",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选项",
+      "predicate": "包含",
+      "object": "显示设置",
+      "context": "显示设置是图形配置的核心模块，影响渲染表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选项",
+      "predicate": "包含",
+      "object": "图形设置",
+      "context": "图形设置控制渲染质量与性能平衡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选项",
+      "predicate": "包含",
+      "object": "音频设置",
+      "context": "音频设置管理游戏声音效果和空间音频",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选项",
+      "predicate": "包含",
+      "object": "控制设置",
+      "context": "控制设置定义用户输入方式与灵敏度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "显示设置",
+      "predicate": "控制",
+      "object": "窗口模式",
+      "context": "窗口模式设置影响游戏显示方式和性能表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "显示设置",
+      "predicate": "控制",
+      "object": "分辨率",
+      "context": "分辨率设置直接影响渲染质量和性能消耗",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图形设置",
+      "predicate": "包含",
+      "object": "图形质量预设",
+      "context": "质量预设提供快速配置方案，适合不同硬件水平",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图形设置",
+      "predicate": "包含",
+      "object": "3D分辨率",
+      "context": "3D分辨率独立控制游戏世界渲染精度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图形设置",
+      "predicate": "包含",
+      "object": "全局光照",
+      "context": "全局光照设置影响光线追踪等高级渲染特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频设置",
+      "predicate": "控制",
+      "object": "3D耳机",
+      "context": "3D耳机设置启用空间音频效果，增强沉浸感",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制设置",
+      "predicate": "支持",
+      "object": "键盘鼠标配置",
+      "context": "提供PC平台标准输入设备的完整配置选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制设置",
+      "predicate": "支持",
+      "object": "游戏手柄配置",
+      "context": "支持主流手柄设备的灵敏度和按键映射配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏手柄配置",
+      "predicate": "包含",
+      "object": "摇杆死区设置",
+      "context": "死区设置解决手柄输入漂移问题，影响操作精度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lyra",
+      "predicate": "实现",
+      "object": "多游戏模式架构",
+      "context": "通过不同游戏模式展示引擎的多玩法支持能力",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Lyra",
+      "predicate": "展示",
+      "object": "虚幻引擎UI系统",
+      "context": "菜单系统完整展示UMG和Slate的应用实践",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "图形质量预设",
+      "predicate": "影响",
+      "object": "性能统计数据",
+      "context": "质量预设改变会反映在帧率等性能指标上",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "控制模式",
+      "predicate": "依赖",
+      "object": "团队得分系统",
+      "context": "该游戏模式核心机制基于团队得分设计",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "淘汰模式",
+      "predicate": "依赖",
+      "object": "玩家生命系统",
+      "context": "该模式核心机制依赖生命值和淘汰规则",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T21:03:32.274Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (17488 字符)",
+      "timestamp": "2025-06-15T21:02:21.334Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 26544,
+    "contentLength": 17488,
+    "processingTimeMs": 70950
+  }
+}

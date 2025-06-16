@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_implement-a-projectile-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_implement-a-projectile-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Projectile Movement Component",
+      "predicate": "实现",
+      "object": "Projectile Logic",
+      "context": "Projectile Movement Component是Unreal Engine中用于实现投射物逻辑的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FirstPersonProjectile",
+      "predicate": "继承",
+      "object": "Actor",
+      "context": "FirstPersonProjectile类继承自Actor基类，是投射物的基础类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FirstPersonProjectile",
+      "predicate": "包含",
+      "object": "Projectile Movement Component",
+      "context": "FirstPersonProjectile类包含Projectile Movement Component来处理投射物运动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FirstPersonProjectile",
+      "predicate": "包含",
+      "object": "SphereComponent",
+      "context": "FirstPersonProjectile类包含SphereComponent用于碰撞检测",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FirstPersonProjectile",
+      "predicate": "包含",
+      "object": "StaticMeshComponent",
+      "context": "FirstPersonProjectile类包含StaticMeshComponent用于显示投射物模型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnHit",
+      "predicate": "处理",
+      "object": "Projectile Collision",
+      "context": "OnHit函数处理投射物碰撞后的行为逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AddImpulseAtLocation",
+      "predicate": "施加",
+      "object": "Physics Force",
+      "context": "AddImpulseAtLocation函数用于在碰撞时施加物理力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DartLauncher",
+      "predicate": "使用",
+      "object": "FirstPersonProjectile",
+      "context": "DartLauncher工具使用FirstPersonProjectile类来发射投射物",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetCameraTargetLocation",
+      "predicate": "计算",
+      "object": "Projectile Direction",
+      "context": "GetCameraTargetLocation函数计算角色视线方向，用于确定投射物发射方向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FoamDart",
+      "predicate": "继承",
+      "object": "FirstPersonProjectile",
+      "context": "FoamDart类继承自FirstPersonProjectile，是具体的投射物实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_FoamDart",
+      "predicate": "基于",
+      "object": "FoamDart",
+      "context": "BP_FoamDart蓝图基于FoamDart类创建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Projectile Movement Component",
+      "predicate": "控制",
+      "object": "Projectile Speed",
+      "context": "Projectile Movement Component控制投射物的速度参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Projectile Movement Component",
+      "predicate": "控制",
+      "object": "Projectile Bounce",
+      "context": "Projectile Movement Component控制投射物的反弹行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Projectile Movement Component",
+      "predicate": "控制",
+      "object": "Projectile Gravity",
+      "context": "Projectile Movement Component控制投射物的重力影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LineTraceSingleByChannel",
+      "predicate": "检测",
+      "object": "Camera Target",
+      "context": "LineTraceSingleByChannel函数用于检测角色视线目标位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FindLookAtRotation",
+      "predicate": "计算",
+      "object": "Projectile Rotation",
+      "context": "FindLookAtRotation函数计算投射物发射时的初始旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SpawnActor",
+      "predicate": "生成",
+      "object": "Projectile Instance",
+      "context": "SpawnActor函数用于在游戏中生成投射物实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InitialLifeSpan",
+      "predicate": "控制",
+      "object": "Projectile Lifespan",
+      "context": "InitialLifeSpan属性控制投射物的生命周期",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Muzzle Socket",
+      "predicate": "确定",
+      "object": "Projectile Spawn Location",
+      "context": "Muzzle Socket确定投射物从工具上的具体发射位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Collision Profile",
+      "predicate": "定义",
+      "object": "Projectile Collision Behavior",
+      "context": "Collision Profile定义投射物与其他对象的碰撞行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:31:42.990Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (37843 字符)",
+      "timestamp": "2025-06-15T19:30:37.583Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 39105,
+    "contentLength": 37843,
+    "processingTimeMs": 65417
+  }
+}

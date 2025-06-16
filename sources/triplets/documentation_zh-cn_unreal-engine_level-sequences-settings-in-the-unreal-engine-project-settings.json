@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_level-sequences-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_level-sequences-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "关卡序列",
+      "predicate": "包含",
+      "object": "时间轴",
+      "context": "关卡序列是虚幻引擎中用于创建和管理动画序列的工具，时间轴是其核心组成部分，用于控制动画的时间属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡序列",
+      "predicate": "包含",
+      "object": "镜头",
+      "context": "关卡序列管理镜头设置，镜头是构成动画序列的基本单元",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡序列",
+      "predicate": "包含",
+      "object": "轨道设置",
+      "context": "轨道设置是关卡序列的重要组成部分，用于配置动画数据的导入和导出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间轴",
+      "predicate": "包含",
+      "object": "默认开始时间",
+      "context": "默认开始时间是时间轴的基本属性，定义了新创建序列的起始时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间轴",
+      "predicate": "包含",
+      "object": "默认时长",
+      "context": "默认时长是时间轴的基本属性，定义了新创建序列的总持续时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头",
+      "predicate": "包含",
+      "object": "镜头目录",
+      "context": "镜头目录设置定义了镜头文件的默认存储位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头",
+      "predicate": "包含",
+      "object": "镜头前缀",
+      "context": "镜头前缀是镜头命名规范的一部分，有助于组织和管理多个镜头",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头",
+      "predicate": "包含",
+      "object": "镜头编号位数",
+      "context": "镜头编号位数设置影响镜头编号的显示格式，是镜头命名系统的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "轨道设置",
+      "predicate": "包含",
+      "object": "Fbx设置",
+      "context": "Fbx设置是轨道设置的关键部分，用于配置FBX文件与动画轨道之间的映射关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认开始时间",
+      "predicate": "影响",
+      "object": "默认时长",
+      "context": "默认开始时间和默认时长共同决定了新创建序列的时间范围，学习时需要理解两者的关系",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "镜头前缀",
+      "predicate": "组合使用",
+      "object": "镜头编号位数",
+      "context": "镜头前缀和镜头编号位数共同构成镜头命名系统，学习时需要理解它们的协同工作方式",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Fbx设置",
+      "predicate": "用于",
+      "object": "动画数据导入导出",
+      "context": "Fbx设置专门用于配置动画数据的导入导出流程，是连接外部资源与虚幻引擎动画系统的重要桥梁",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:44:06.783Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2594,
+    "contentLength": 1874,
+    "processingTimeMs": 43307
+  }
+}

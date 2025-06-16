@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_day-sequence-time-of-day-plugin-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_day-sequence-time-of-day-plugin-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Day Sequence Plugin",
+      "predicate": "包含",
+      "object": "Day Sequence Actor",
+      "context": "Day Sequence Plugin 提供了一系列的 Actor 和资产，Day Sequence Actor 是其中的核心组件，用于构建时间系统。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Day Sequence Plugin",
+      "predicate": "包含",
+      "object": "Day Sequence Collection Asset",
+      "context": "Day Sequence Collection Asset 是插件提供的资产之一，用于管理和配置时间序列。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Day Sequence Plugin",
+      "predicate": "包含",
+      "object": "Procedural Day Sequence",
+      "context": "Procedural Day Sequence 是插件提供的功能之一，用于通过参数化方式生成时间序列。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Day Sequence Actor",
+      "predicate": "继承",
+      "object": "Base Day Sequence Actor",
+      "context": "Base Day Sequence Actor 是 Day Sequence Actor 的派生类，提供了简化的时间系统配置。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Day Sequence Actor",
+      "predicate": "继承",
+      "object": "Sun Moon Day Sequence Actor",
+      "context": "Sun Moon Day Sequence Actor 是 Day Sequence Actor 的派生类，预配置了完整的日夜循环系统。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Day Sequence Actor",
+      "predicate": "管理",
+      "object": "Root Day Sequence",
+      "context": "Day Sequence Actor 负责管理和播放 Root Day Sequence，后者由多个子序列组成。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Day Sequence Actor",
+      "predicate": "依赖",
+      "object": "Day Sequence Subsystem",
+      "context": "Day Sequence Actor 需要注册到 Day Sequence Subsystem 才能在编辑器中预览时间系统。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Day Sequence Collection Asset",
+      "predicate": "引用",
+      "object": "Day Sequence Asset",
+      "context": "Day Sequence Collection Asset 通过引用 Day Sequence Asset 来配置时间序列的播放。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Day Sequence Collection Asset",
+      "predicate": "包含",
+      "object": "Procedural Day Sequence",
+      "context": "Day Sequence Collection Asset 可以包含 Procedural Day Sequence，用于动态生成时间序列。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Procedural Day Sequence",
+      "predicate": "包含",
+      "object": "Sun Angle Sequence",
+      "context": "Sun Angle Sequence 是 Procedural Day Sequence 的一种类型，用于线性动画太阳位置。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Procedural Day Sequence",
+      "predicate": "包含",
+      "object": "Sun Position Sequence",
+      "context": "Sun Position Sequence 是 Procedural Day Sequence 的一种类型，基于地理数据动画太阳位置。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Procedural Day Sequence",
+      "predicate": "包含",
+      "object": "Sine Sequence",
+      "context": "Sine Sequence 是 Procedural Day Sequence 的一种类型，使用正弦波动画属性。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Day Sequence Modifier Volume",
+      "predicate": "修改",
+      "object": "Day Sequence Actor",
+      "context": "Day Sequence Modifier Volume 可以覆盖和修改 Day Sequence Actor 中的时间序列。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Time of Day Toolbar",
+      "predicate": "控制",
+      "object": "Day Sequence Actor",
+      "context": "Time of Day Toolbar 提供了对 Day Sequence Actor 中时间系统的预览和控制功能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Day Sequence Actor",
+      "predicate": "包含",
+      "object": "Directional Light",
+      "context": "Day Sequence Actor 可以包含 Directional Light 组件，用于模拟太阳和月亮的光照。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Day Sequence Actor",
+      "predicate": "包含",
+      "object": "Sky Atmosphere",
+      "context": "Day Sequence Actor 可以包含 Sky Atmosphere 组件，用于模拟大气效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Day Sequence Actor",
+      "predicate": "包含",
+      "object": "Volumetric Clouds",
+      "context": "Day Sequence Actor 可以包含 Volumetric Clouds 组件，用于模拟体积云效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Day Sequence Actor",
+      "predicate": "包含",
+      "object": "Sky Light",
+      "context": "Day Sequence Actor 可以包含 Sky Light 组件，用于提供环境光照。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Day Sequence Actor",
+      "predicate": "基于",
+      "object": "Sequencer",
+      "context": "Day Sequence Actor 的功能基于 Sequencer 工具，用于动画化和控制时间序列。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Day Sequence Asset",
+      "predicate": "绑定",
+      "object": "Root Day Sequence",
+      "context": "Day Sequence Asset 自动绑定到 Root Day Sequence，后者由 Day Sequence Actor 管理。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:48:39.010Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (31122 字符)",
+      "timestamp": "2025-06-15T18:47:25.408Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 31352,
+    "contentLength": 31122,
+    "processingTimeMs": 73614
+  }
+}

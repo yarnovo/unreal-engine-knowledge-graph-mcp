@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_downloading-source-code-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_downloading-source-code-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎源代码",
+      "predicate": "包含",
+      "object": "C++源代码",
+      "context": "源代码提供完整的C++访问权限，便于研究、定制和调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GitHub账号",
+      "predicate": "关联",
+      "object": "Epic Games账号",
+      "context": "访问源代码需要两个账号关联，这是下载源代码的前提条件",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎源代码",
+      "predicate": "支持",
+      "object": "自定义修复和功能开发",
+      "context": "开发者可以自行修复漏洞或添加功能，并贡献给社区",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ue5-main分支",
+      "predicate": "包含",
+      "object": "最新引擎功能",
+      "context": "主分支包含最新的开发内容，可能不稳定但功能超前",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发布分支",
+      "predicate": "适用于",
+      "object": "稳定项目开发",
+      "context": "发布分支经过充分测试，适合正式项目使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Visual Studio",
+      "predicate": "用于",
+      "object": "编译虚幻引擎",
+      "context": "所有桌面版Visual Studio均可用于编译引擎，包括社区版",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Setup.bat",
+      "predicate": "下载",
+      "object": "引擎二进制内容",
+      "context": "运行此脚本会下载必要的二进制文件和先决程序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GenerateProjectFiles.bat",
+      "predicate": "生成",
+      "object": "Visual Studio项目文件",
+      "context": "此脚本为引擎创建VS项目文件，便于后续编译",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android开发",
+      "predicate": "需要",
+      "object": "Android NDK",
+      "context": "开发Android平台需要额外安装NDK支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS开发",
+      "predicate": "需要",
+      "object": "Mac系统",
+      "context": "iOS开发必须在Mac环境下进行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主机平台开发",
+      "predicate": "需要",
+      "object": "第三方开发者账号",
+      "context": "开发PlayStation/Xbox/Switch等需要平台方授权",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "拉取请求",
+      "predicate": "用于",
+      "object": "贡献代码",
+      "context": "开发者可以通过GitHub PR向主分支贡献代码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "源代码编译",
+      "predicate": "前置条件",
+      "object": "Visual Studio设置",
+      "context": "编译前需要确保VS已安装必要组件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "派生数据缓存",
+      "predicate": "优化",
+      "object": "引擎加载时间",
+      "context": "首次编译时会生成优化数据以减少后续加载时间",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "二进制版本",
+      "predicate": "替代",
+      "object": "源代码下载",
+      "context": "不需要修改引擎的用户可以直接安装二进制版本",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T18:54:24.374Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8011 字符)",
+      "timestamp": "2025-06-15T18:53:31.289Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13320,
+    "contentLength": 8011,
+    "processingTimeMs": 53092
+  }
+}

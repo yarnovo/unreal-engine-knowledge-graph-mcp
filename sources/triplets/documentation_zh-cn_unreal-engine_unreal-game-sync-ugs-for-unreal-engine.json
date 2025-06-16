@@ -1,0 +1,149 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-game-sync-ugs-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-game-sync-ugs-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "UnrealGameSync (UGS)",
+      "predicate": "是",
+      "object": "同步工具",
+      "context": "UGS被定义为协同开发环境中的代码和内容集成工具，帮助团队成员同步项目更新",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "UnrealGameSync (UGS)",
+      "predicate": "提供",
+      "object": "图形化前端",
+      "context": "UGS为Perforce同步UE项目提供了图形化界面，便于操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealGameSync (UGS)",
+      "predicate": "支持",
+      "object": "Visual Studio",
+      "context": "UGS可以使用Visual Studio编译器选择性地构建UE项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealGameSync (UGS)",
+      "predicate": "用于",
+      "object": "美工工作流",
+      "context": "美工使用UGS同步项目文件、解决合并冲突、同步编辑器二进制文件等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealGameSync (UGS)",
+      "predicate": "用于",
+      "object": "程序员工作流",
+      "context": "程序员使用UGS同步项目文件、解决合并冲突、生成项目文件等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealGameSync (UGS)",
+      "predicate": "支持",
+      "object": "解决合并冲突",
+      "context": "UGS默认启用合并冲突解决功能，可在选项中禁用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealGameSync (UGS)",
+      "predicate": "依赖",
+      "object": "Perforce",
+      "context": "UGS作为Perforce的前端工具，依赖Perforce进行版本控制",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "开发者",
+      "predicate": "使用",
+      "object": "UnrealGameSync (UGS)",
+      "context": "开发者使用UGS同步变更列表、编译源代码、标记构建版本等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "创意人员",
+      "predicate": "使用",
+      "object": "UnrealGameSync (UGS)",
+      "context": "美工和设计师等创意人员使用UGS获取压缩编辑器构建版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealGameSync (UGS)",
+      "predicate": "生成",
+      "object": "构建日志",
+      "context": "UGS可以将构建系统结果和提交的变更列表一起显示，包括构建日志链接",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "UnrealGameSync (UGS)",
+      "predicate": "更新",
+      "object": "引擎版本文件",
+      "context": "UGS会更新Version.h和Build.version文件到已同步的变更列表",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "UnrealGameSync (UGS)",
+      "predicate": "支持",
+      "object": "自定义构建步骤",
+      "context": "UGS允许开发者设置特定于项目的工具和实用程序",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "压缩编辑器构建版本",
+      "predicate": "由",
+      "object": "CIS编译",
+      "context": "创意人员可以获取由持续集成系统(CIS)编译的压缩编辑器构建版本",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "UGS快速入门指南",
+      "predicate": "帮助",
+      "object": "新用户",
+      "context": "UGS快速入门指南帮助不熟悉UGS的用户快速上手使用该工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS客户端设置",
+      "predicate": "是",
+      "object": "配置步骤",
+      "context": "UGS客户端设置文档指导用户如何配置和设置UGS客户端",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS参考页面",
+      "predicate": "包含",
+      "object": "部署方法",
+      "context": "UGS参考页面讲解如何配置UGS并部署为工作室使用的方法",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "UGS菜单参考",
+      "predicate": "描述",
+      "object": "菜单选项",
+      "context": "UGS菜单参考文档详细说明了虚幻游戏同步菜单中的所有选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:12:15.340Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7147,
+    "contentLength": 4685,
+    "processingTimeMs": 47812
+  }
+}

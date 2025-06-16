@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_sessions-interface-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_sessions-interface-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "在线服务会话接口",
+      "predicate": "处理",
+      "object": "游戏会话",
+      "context": "在线服务会话接口负责创建、销毁和管理游戏中的在线比赛会话",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "会话",
+      "predicate": "具有",
+      "object": "加入策略",
+      "context": "会话可以设置不同的加入策略，如仅限邀请、仅限好友或公共，这决定了哪些玩家可以加入会话",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "会话",
+      "predicate": "包含",
+      "object": "会话属性",
+      "context": "会话可以定义一组属性作为筛选器，允许玩家搜索特定游戏模式或地图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetSessionByName",
+      "predicate": "用于",
+      "object": "检索会话",
+      "context": "通过会话名称获取特定会话的引用，是会话管理的基础操作之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetPresenceSession",
+      "predicate": "用于",
+      "object": "获取在线状态会话",
+      "context": "获取当前设置为用户在线状态会话的会话引用，帮助开发者管理用户的在线状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CreateSession",
+      "predicate": "用于",
+      "object": "创建新会话",
+      "context": "使用提供的参数创建新会话，是会话生命周期的第一步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UpdateSessionSettings",
+      "predicate": "用于",
+      "object": "更新会话设置",
+      "context": "允许开发者在会话生命周期中更新会话的各种设置，如最大玩家数量、加入策略等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FindSessions",
+      "predicate": "用于",
+      "object": "搜索会话",
+      "context": "允许玩家根据特定参数搜索可加入的会话，是发现会话的主要方式之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "JoinSession",
+      "predicate": "用于",
+      "object": "加入会话",
+      "context": "玩家通过此函数加入特定会话，需要提供会话ID",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StartMatchmaking",
+      "predicate": "组合",
+      "object": "CreateSession和FindSessions",
+      "context": "StartMatchmaking函数相当于组合使用CreateSession和FindSessions，简化了匹配流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SendSessionInvite",
+      "predicate": "用于",
+      "object": "发送会话邀请",
+      "context": "允许玩家向其他用户发送会话邀请，是邀请好友加入会话的主要方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LeaveSession",
+      "predicate": "用于",
+      "object": "离开会话",
+      "context": "玩家通过此函数离开会话，会话所有者还可以选择销毁会话",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "会话生命周期",
+      "predicate": "包含",
+      "object": "创建、发现、加入、更新、离开",
+      "context": "完整的会话生命周期包括创建、发现、加入、更新和离开/销毁等阶段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线状态会话",
+      "predicate": "显示",
+      "object": "用户在线状态",
+      "context": "在线状态会话会显示在用户的在线状态信息中，供好友和粉丝查看",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "会话发现",
+      "predicate": "通过",
+      "object": "搜索、邀请、在线状态",
+      "context": "玩家可以通过搜索、接收邀请或查看好友在线状态三种方式发现新会话",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "会话接口",
+      "predicate": "替代",
+      "object": "在线子系统会话接口",
+      "context": "在线服务会话接口负责原在线子系统会话接口的所有功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IOnlineServices",
+      "predicate": "提供",
+      "object": "GetSessionsInterface",
+      "context": "通过IOnlineServices实例可以获取会话接口，这是访问会话功能的主要入口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "会话管理",
+      "predicate": "涉及",
+      "object": "成员管理、设置更新、邀请处理",
+      "context": "完整的会话管理包括成员添加/删除、设置更新和邀请处理等多个方面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "会话事件",
+      "predicate": "包括",
+      "object": "OnSessionJoined、OnSessionLeft、OnSessionUpdated",
+      "context": "会话接口提供多种事件监听，如加入、离开和更新会话时触发的事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "APlayerController::ClientTravel",
+      "predicate": "使用",
+      "object": "会话连接信息",
+      "context": "获取会话连接信息后，可以传递给ClientTravel函数将玩家发送到比赛中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:42:04.545Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (14117 字符)",
+      "timestamp": "2025-06-15T20:41:02.268Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19239,
+    "contentLength": 14117,
+    "processingTimeMs": 62289
+  }
+}

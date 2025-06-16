@@ -1,0 +1,147 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_image-sequence-mipmapping-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_image-sequence-mipmapping-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Mipmap",
+      "predicate": "用于",
+      "object": "图像序列",
+      "context": "Mipmap可以缩短图像序列数据的加载时间，通过仅加载所需的Mip等级实现优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EXR文件",
+      "predicate": "支持",
+      "object": "Mipmap",
+      "context": "目前虚幻引擎仅支持EXR文件格式的图像序列使用Mipmap功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "处理EXR工具",
+      "predicate": "生成",
+      "object": "EXR文件",
+      "context": "5.1版本用户可以使用处理EXR工具生成带正确设置的EXR文件，用于Mipmap功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体板Actor",
+      "predicate": "使用",
+      "object": "EXR文件",
+      "context": "生成的EXR文件需要与媒体板Actor一起使用来实现Mipmap功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ImgMediaPlayback组件",
+      "predicate": "控制",
+      "object": "Mipmap显示",
+      "context": "必须将ImgMediaPlayback组件添加到会显示图像的对象上，否则无法确定应使用哪些Mip级别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LODBias设置",
+      "predicate": "调整",
+      "object": "Mip级别选择",
+      "context": "可以通过ImgMediaPlayback组件上的LODBias设置手动调整所选Mip级别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Nuke",
+      "predicate": "用于",
+      "object": "创建EXR Mipmap",
+      "context": "Nuke软件配合Python脚本可以自动生成Mip级别，简化工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python脚本",
+      "predicate": "自动化",
+      "object": "Mipmap生成",
+      "context": "提供的Python脚本可以自动创建必要的文件夹和缩放后的Mip级别文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU加速",
+      "predicate": "需要",
+      "object": "未压缩EXR",
+      "context": "为了实现GPU优化的流送内容，所有EXR图像序列都应是未压缩的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mip级别",
+      "predicate": "要求一致压缩",
+      "object": "压缩格式",
+      "context": "所有Mip级别要么全部压缩，要么全部未压缩，混合使用会打断处理链条",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "文件目录结构",
+      "predicate": "遵循",
+      "object": "Cineon命名规范",
+      "context": "Mipmap文件目录结构需要遵循行业标准的Cineon命名规范",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素-纹素密度",
+      "predicate": "决定",
+      "object": "Mip级别选择",
+      "context": "引擎根据每个显示图像对象的预估像素-纹素密度来自动选择Mip级别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机移动",
+      "predicate": "影响",
+      "object": "Mip级别估算",
+      "context": "快速移动的摄像机可能会在Mip级别估算中引入误差",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "nukeMipMap.py脚本",
+      "predicate": "自动创建",
+      "object": "Mipmap节点树",
+      "context": "该脚本可以在Nuke中自动创建所有必要的reformat和write节点来生成Mipmap",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "autoGenEXR_mipmap.py脚本",
+      "predicate": "替代",
+      "object": "Nuke",
+      "context": "没有Nuke的用户可以使用这个Python脚本来自动生成Mipmap",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ImgMedia.MipMapDebug命令",
+      "predicate": "显示",
+      "object": "当前Mip级别",
+      "context": "使用该控制台命令可以调试显示每个图像序列当前正在使用的Mip级别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:31:29.198Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12735 字符)",
+      "timestamp": "2025-06-15T19:30:37.584Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16161,
+    "contentLength": 12735,
+    "processingTimeMs": 51625
+  }
+}

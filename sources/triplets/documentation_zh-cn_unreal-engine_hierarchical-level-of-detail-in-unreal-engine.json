@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_hierarchical-level-of-detail-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_hierarchical-level-of-detail-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "分层细节级别（HLOD）",
+      "predicate": "优化",
+      "object": "大型开放世界",
+      "context": "HLOD系统通过合并远距离的静态网格体来减少渲染负载，特别适用于大型开放世界的性能优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分层细节级别（HLOD）",
+      "predicate": "合并",
+      "object": "静态网格体Actor",
+      "context": "HLOD的核心功能是将多个静态网格体Actor合并为单个代理网格体，这是理解其工作原理的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HLOD代理网格体",
+      "predicate": "减少",
+      "object": "绘制调用数量",
+      "context": "通过使用代理网格体替代原始网格体，可以显著减少每帧的绘制调用，这是HLOD提升性能的主要机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体资产",
+      "predicate": "影响",
+      "object": "关卡加载速度",
+      "context": "文档指出大量细节丰富的静态网格体会导致关卡加载缓慢，这是引入HLOD系统的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "HLOD系统",
+      "predicate": "包含",
+      "object": "HLOD大纲视图",
+      "context": "HLOD大纲视图是系统的重要组成部分，用于管理和查看HLOD层级结构",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻引擎5",
+      "predicate": "支持",
+      "object": "分层细节级别（HLOD）",
+      "context": "文档明确说明HLOD是虚幻引擎5中的功能，版本兼容性是学习者需要了解的重要信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HLOD网格体生成",
+      "predicate": "是",
+      "object": "HLOD工作流程的关键步骤",
+      "context": "构建HLOD网格体是使用该系统的必要操作步骤，学习者需要掌握这一核心操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理材质",
+      "predicate": "伴随生成",
+      "object": "代理网格体",
+      "context": "HLOD系统在合并网格体时同时生成代理材质，这是理解完整HLOD输出的重要方面",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "绘制调用优化",
+      "predicate": "是",
+      "object": "HLOD的主要优势",
+      "context": "减少绘制调用是HLOD系统带来的关键性能提升，这是学习者需要理解的核心价值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远距离渲染",
+      "predicate": "适用",
+      "object": "HLOD技术",
+      "context": "文档明确指出HLOD特别适用于处理远距离对象的渲染优化，这是重要的适用场景知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:18:05.407Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2329,
+    "contentLength": 1699,
+    "processingTimeMs": 37937
+  }
+}

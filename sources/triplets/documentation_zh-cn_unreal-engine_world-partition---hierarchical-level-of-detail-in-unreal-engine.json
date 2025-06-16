@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_world-partition---hierarchical-level-of-detail-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_world-partition---hierarchical-level-of-detail-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "世界分区系统",
+      "predicate": "利用",
+      "object": "网格",
+      "context": "世界分区系统通过网格将场景分隔成可动态加载和卸载的单元，这是其核心工作机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分层细节级别(HLOD)",
+      "predicate": "用于",
+      "object": "世界分区系统",
+      "context": "HLOD系统专门用于优化世界分区中未加载单元的可视化表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HLOD层",
+      "predicate": "控制",
+      "object": "分层细节级别(HLOD)",
+      "context": "HLOD层资产包含所有HLOD的设置参数，是控制HLOD行为的主要配置单元",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "实例化层类型",
+      "predicate": "适用于",
+      "object": "树木和枝叶",
+      "context": "实例化类型最适合处理大量重复的简单网格体如植被",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合并的网格体层类型",
+      "predicate": "生成",
+      "object": "代理网格体",
+      "context": "该层类型会将多个静态网格体合并为单一代理网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简化的网格体层类型",
+      "predicate": "扩展",
+      "object": "合并的网格体层类型",
+      "context": "在合并基础上增加了网格体简化步骤，是更高级的优化方案",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "网格体合并设置",
+      "predicate": "包含",
+      "object": "光照贴图UV生成",
+      "context": "这些设置专门控制合并后网格体的光照贴图相关参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理设置",
+      "predicate": "包含",
+      "object": "界面大小参数",
+      "context": "这些设置控制简化后代理网格体的显示特性和优化参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WorldPartitionHLODsBuilder",
+      "predicate": "用于",
+      "object": "生成HLOD",
+      "context": "这是官方提供的生成HLOD资源的专用工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节级别着色视图模式",
+      "predicate": "用于",
+      "object": "可视化HLOD",
+      "context": "该视图模式专门用于在编辑器中直观显示HLOD状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HLOD系统",
+      "predicate": "减少",
+      "object": "绘图调用次数",
+      "context": "这是HLOD系统的主要优化目标之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HLOD系统",
+      "predicate": "提高",
+      "object": "大型开放世界性能",
+      "context": "系统专门针对大型开放世界的优化需求设计",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体Actor",
+      "predicate": "需要",
+      "object": "设置为静态移动性",
+      "context": "这是生成HLOD的前提条件之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HLOD材质",
+      "predicate": "基于",
+      "object": "BaseFlattenMaterial",
+      "context": "文档指出这是默认的基础材质",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "网格体合并",
+      "predicate": "依赖",
+      "object": "LOD选择类型",
+      "context": "合并过程需要明确指定使用哪些LOD层级",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "简化的网格体",
+      "predicate": "支持",
+      "object": "Nanite",
+      "context": "设置中明确包含Nanite启用选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HLOD可视化",
+      "predicate": "使用",
+      "object": "层级LOD着色",
+      "context": "这是编辑器内查看HLOD状态的标准方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行时HLOD调试",
+      "predicate": "使用",
+      "object": "wp.Runtime.ToggleDrawRuntimeHash2D命令",
+      "context": "这是运行时查看HLOD单元的标准控制台命令",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据层",
+      "predicate": "可以指定",
+      "object": "默认HLOD层",
+      "context": "数据层可以统一设置其包含Actor的HLOD属性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "世界设置",
+      "predicate": "可以指定",
+      "object": "默认HLOD层",
+      "context": "全局性的HLOD默认设置位置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:35:09.046Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11703 字符)",
+      "timestamp": "2025-06-15T21:34:15.930Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 18571,
+    "contentLength": 11703,
+    "processingTimeMs": 53123
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_ai-system-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_ai-system-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "AI系统",
+      "predicate": "包含",
+      "object": "感知系统",
+      "context": "感知系统是AI系统的一个组成部分，用于处理AI的感知能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI系统",
+      "predicate": "包含",
+      "object": "环境查询系统",
+      "context": "环境查询系统是AI系统的一部分，用于处理AI的环境查询功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI系统",
+      "predicate": "包含",
+      "object": "行为树",
+      "context": "行为树是AI系统的一部分，用于定义AI的行为逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI系统",
+      "predicate": "包含",
+      "object": "黑板",
+      "context": "黑板是AI系统的一部分，用于存储和共享AI的数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "感知系统",
+      "predicate": "使用",
+      "object": "AIPerceptionSystem",
+      "context": "感知系统可以使用AIPerceptionSystem类来实现其功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "感知系统",
+      "predicate": "配置",
+      "object": "默认视觉碰撞通道",
+      "context": "感知系统需要配置默认视觉碰撞通道以确定视觉检查的方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境查询系统",
+      "predicate": "使用",
+      "object": "EnvQueryManager",
+      "context": "环境查询系统可以使用EnvQueryManager类来管理查询",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "行为树",
+      "predicate": "关联",
+      "object": "黑板",
+      "context": "行为树通常与黑板一起使用，黑板存储行为树需要的数据",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动",
+      "predicate": "属于",
+      "object": "AI系统",
+      "context": "移动设置是AI系统的一部分，用于控制AI的移动行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动",
+      "predicate": "配置",
+      "object": "可接受半径",
+      "context": "移动设置需要配置可接受半径以确定AI是否达到路径末端",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "黑板",
+      "predicate": "包含",
+      "object": "SelfActor键",
+      "context": "黑板可以自动添加SelfActor键，用于存储AI自身的引用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AIHotSpotManager",
+      "predicate": "管理",
+      "object": "AI热点",
+      "context": "AIHotSpotManager类用于管理AI热点，是AI系统的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay任务",
+      "predicate": "关联",
+      "object": "行为树",
+      "context": "Gameplay任务可以与行为树一起使用，尽管某些设置已废弃",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "感知系统",
+      "predicate": "配置",
+      "object": "遗忘过期Actor",
+      "context": "感知系统可以配置是否遗忘过期Actor，影响其记忆行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "行为树",
+      "predicate": "配置",
+      "object": "在BTEQSFail时清除BBEntry",
+      "context": "行为树可以配置在EQS查询失败时是否清除黑板条目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:56:20.332Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5606,
+    "contentLength": 3746,
+    "processingTimeMs": 52268
+  }
+}

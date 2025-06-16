@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_environment-light-mixer-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_environment-light-mixer-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "环境光源混合器",
+      "predicate": "包含",
+      "object": "工具栏",
+      "context": "环境光源混合器的界面由工具栏和组件面板组成，工具栏用于添加和配置组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境光源混合器",
+      "predicate": "包含",
+      "object": "组件面板",
+      "context": "组件面板列出了可添加到场景中的环境光照组件，是环境光源混合器的核心功能区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具栏",
+      "predicate": "控制",
+      "object": "属性细节数量",
+      "context": "通过工具栏中的属性细节下拉菜单，可以调整组件面板中显示的属性详细程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具栏",
+      "predicate": "支持",
+      "object": "添加场景组件",
+      "context": "工具栏提供添加天空光照、大气光源等环境组件的功能，是场景构建的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "组件面板",
+      "predicate": "显示",
+      "object": "环境光照组件属性",
+      "context": "组件面板集中展示所有已添加环境组件的可编辑属性，是美术师主要工作区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境光源混合器",
+      "predicate": "集成",
+      "object": "天空光照",
+      "context": "该工具将天空光照组件作为核心环境光照元素进行统一管理",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境光源混合器",
+      "predicate": "集成",
+      "object": "大气光源",
+      "context": "支持管理太阳/月亮等定向光源，是环境光照的关键组成部分",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境光源混合器",
+      "predicate": "集成",
+      "object": "天空大气",
+      "context": "天空大气组件通过该工具进行可视化编辑，影响全局光照效果",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境光源混合器",
+      "predicate": "集成",
+      "object": "体积云",
+      "context": "体积云作为高级环境效果可通过该工具进行参数调整",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性细节数量",
+      "predicate": "分为",
+      "object": "三个级别",
+      "context": "提供最小/常规/高级三种属性显示模式，适应不同专业程度的美术需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境光源混合器",
+      "predicate": "面向",
+      "object": "设计师和美术师",
+      "context": "该工具专门为需要快速调整环境光照的非程序员用户设计",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主菜单",
+      "predicate": "包含",
+      "object": "环境光源混合器入口",
+      "context": "通过Window > Env.Light Mixer路径可以打开该工具窗口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境光照组件",
+      "predicate": "包括",
+      "object": "定向光源",
+      "context": "太阳/月亮等定向光源是环境光照系统的核心光源类型",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "体积云",
+      "predicate": "影响",
+      "object": "天空大气效果",
+      "context": "云层效果会与大气散射等效果产生视觉交互",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T18:57:34.546Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7412,
+    "contentLength": 5636,
+    "processingTimeMs": 48913
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_constraints-user-guide-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_constraints-user-guide-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "物理约束 Actor",
+      "predicate": "用于",
+      "object": "连接两个 Actors",
+      "context": "物理约束 Actor 的主要功能是连接两个 Actors 并应用物理模拟限制和力度，帮助学习者理解其核心用途",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理约束 Actor",
+      "predicate": "包含",
+      "object": "默认连接点类型",
+      "context": "物理约束 Actor 包含多种默认连接点类型（如球窝式、铰链式、棱柱式），学习者可以通过调整这些类型来创建不同的物理效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理约束 Actor",
+      "predicate": "依赖",
+      "object": "Details 窗格",
+      "context": "配置物理约束 Actor 需要在 Details 窗格中设置约束对象和其他属性，这是学习者必须掌握的操作步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理约束 Actor",
+      "predicate": "需要",
+      "object": "启用物理",
+      "context": "至少一个被约束的 Actor 需要启用物理模拟，这是物理约束生效的前提条件，学习者需要了解这一关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理约束 Actor",
+      "predicate": "支持",
+      "object": "骨架网格体约束",
+      "context": "物理约束 Actor 支持对骨架网格体进行约束，但需要指定约束骨骼，帮助学习者理解如何在角色模型上应用约束",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理约束 Actor",
+      "predicate": "支持",
+      "object": "组件约束",
+      "context": "物理约束 Actor 可以针对 Actor 的特定组件进行约束，学习者需要了解如何指定组件名称以实现精确约束",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理约束 Actor",
+      "predicate": "测试方式",
+      "object": "Play in Editor 或 Simulate in Editor",
+      "context": "学习者需要通过 Play in Editor 或 Simulate in Editor 来测试物理约束的效果，这是验证约束设置是否正确的重要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理约束 Actor",
+      "predicate": "可配合使用",
+      "object": "RadialForceActor",
+      "context": "RadialForceActor 可用于在测试时施加力度，帮助学习者理解如何模拟物理效果和验证约束行为",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "骨架网格体",
+      "predicate": "需要",
+      "object": "约束骨骼",
+      "context": "对骨架网格体施加约束时需要指定约束骨骼，学习者需要了解这一特殊要求以实现正确的约束效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor 组件",
+      "predicate": "可被",
+      "object": "物理约束",
+      "context": "Actor 的特定组件可以被物理约束，学习者需要了解如何通过命名组件来实现精确约束",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理约束系统",
+      "predicate": "基于",
+      "object": "数据驱动",
+      "context": "虚幻引擎的约束系统是数据驱动的，具有高度灵活性，学习者可以通过调整参数来创建多种约束效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "物理约束",
+      "predicate": "可实现",
+      "object": "多种物理效果",
+      "context": "通过调整物理约束的参数（如 Angular Swing Motion 和 Swing Limit Angle），可以实现多种物理模拟效果，帮助学习者理解约束的灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:31:52.538Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8060,
+    "contentLength": 5720,
+    "processingTimeMs": 49678
+  }
+}

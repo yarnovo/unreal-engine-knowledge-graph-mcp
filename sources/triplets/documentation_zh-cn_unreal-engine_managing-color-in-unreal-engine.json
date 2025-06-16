@@ -1,0 +1,77 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_managing-color-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_managing-color-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎颜色管理",
+      "predicate": "包含",
+      "object": "工作颜色空间",
+      "context": "工作颜色空间是虚幻引擎颜色管理的基础概念，理解它有助于掌握引擎如何处理颜色数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎颜色管理",
+      "predicate": "支持",
+      "object": "OpenColorIO",
+      "context": "OpenColorIO是虚幻引擎实现跨项目颜色一致性的重要工具，学习它可以提升颜色管理能力",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎颜色管理",
+      "predicate": "包含",
+      "object": "色彩校正区域",
+      "context": "色彩校正区域是颜色管理的具体应用技术，用于场景级别的色彩分级",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎颜色管理",
+      "predicate": "适用于",
+      "object": "nDisplay",
+      "context": "nDisplay作为多显示器管理系统，需要特殊的颜色管理配置，这是高级应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "OpenColorIO",
+      "predicate": "实现",
+      "object": "颜色一致性",
+      "context": "OpenColorIO的主要功能是确保不同项目间的颜色表现一致，这是影视级工作流的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "色彩校正区域",
+      "predicate": "使用",
+      "object": "体积色彩分级",
+      "context": "色彩校正区域通过体积技术实现局部色彩调整，这是场景调色的重要方法",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "nDisplay",
+      "predicate": "依赖",
+      "object": "颜色管理工具",
+      "context": "在多显示器配置中，颜色管理工具对确保显示一致性至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "工作颜色空间",
+      "predicate": "影响",
+      "object": "颜色渲染结果",
+      "context": "正确设置工作颜色空间是获得预期渲染效果的基础",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:49:02.953Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 1998,
+    "contentLength": 1648,
+    "processingTimeMs": 31125
+  }
+}

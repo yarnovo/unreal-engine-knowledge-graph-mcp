@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_hardware-ray-tracing-tips-and-tricks-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_hardware-ray-tracing-tips-and-tricks-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "硬件光线追踪",
+      "predicate": "包含",
+      "object": "光线追踪全局光照",
+      "context": "硬件光线追踪功能包含全局光照的实现，这是学习光线追踪效果的基础组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬件光线追踪",
+      "predicate": "包含",
+      "object": "光线追踪反射",
+      "context": "反射是硬件光线追踪的核心功能之一，理解反射机制对掌握光线追踪至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬件光线追踪",
+      "predicate": "包含",
+      "object": "光线追踪半透明",
+      "context": "半透明效果处理是硬件光线追踪的重要应用场景，涉及折射等光学特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光线追踪质量开关替换节点",
+      "predicate": "优化",
+      "object": "光线追踪全局光照",
+      "context": "该节点通过简化材质逻辑来降低全局光照的计算开销，是性能优化的重要技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光线追踪质量开关替换节点",
+      "predicate": "优化",
+      "object": "光线追踪反射",
+      "context": "节点通过简化粗糙度计算等逻辑来提升反射计算的效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "投射光线追踪阴影",
+      "predicate": "控制",
+      "object": "材质阴影表现",
+      "context": "该属性允许精确控制特定材质元素是否投射光线追踪阴影，是材质细调的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.RayTracing.EnableMaterials",
+      "predicate": "测试",
+      "object": "材质性能开销",
+      "context": "该控制台命令专门用于测试复杂材质对光线追踪性能的影响，是性能分析的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "折射",
+      "predicate": "影响",
+      "object": "光线追踪半透明效果",
+      "context": "折射输入值直接决定半透明材质的折射率(IOR)，是物理准确渲染的关键参数",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理体积",
+      "predicate": "控制",
+      "object": "最大折射光线",
+      "context": "后期处理设置决定了光线在材质中的最大反弹次数，影响光传输的物理准确性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "双面材质",
+      "predicate": "优于",
+      "object": "单面材质",
+      "context": "文档明确指出双面材质在光线追踪折射中能提供更精准的物理效果，是推荐做法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "次表面轮廓",
+      "predicate": "支持",
+      "object": "光透射效果",
+      "context": "当光源启用透射属性时，次表面轮廓材质可以模拟光线穿过半透明物体的效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "反射捕捉Actor",
+      "predicate": "替代",
+      "object": "多重光线追踪反射",
+      "context": "在最后一次反射反弹时使用反射捕捉可以显著降低计算开销，是重要的性能优化方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.RayTracing.Reflections.ReflectionCaptures",
+      "predicate": "启用",
+      "object": "反射捕捉回退",
+      "context": "该控制台变量控制是否启用反射捕捉回退功能，是反射优化的重要开关",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空光照",
+      "predicate": "影响",
+      "object": "光线追踪性能",
+      "context": "关闭远处对象的天空光照贡献可以优化性能，是场景设置的重要考量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Visible in Ray Tracing",
+      "predicate": "控制",
+      "object": "对象光线追踪可见性",
+      "context": "该属性允许精确控制哪些对象参与光线追踪计算，是场景优化的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体复杂度",
+      "predicate": "影响",
+      "object": "光线追踪性能",
+      "context": "带有小洞或精细细节的几何体会显著增加光线追踪计算开销，是建模时的重要考量",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.RayTracing.GlobalIllumination.ScreenPercentage",
+      "predicate": "控制",
+      "object": "全局光照质量",
+      "context": "该控制台变量调整全局光照的屏幕百分比，平衡质量与性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Affect Global Illumination",
+      "predicate": "控制",
+      "object": "光源全局光照贡献",
+      "context": "每个光源都可以单独设置是否影响全局光照，是光照设计的精细控制参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.RayTracing.Culling",
+      "predicate": "控制",
+      "object": "光线追踪剔除模式",
+      "context": "该变量设置不同的剔除策略，对优化光线追踪性能至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "降噪器",
+      "predicate": "影响",
+      "object": "光线追踪质量",
+      "context": "降噪算法对最终渲染效果有决定性影响，理解其工作原理对调试很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:18:37.380Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11593 字符)",
+      "timestamp": "2025-06-15T19:17:27.477Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 18686,
+    "contentLength": 11593,
+    "processingTimeMs": 69911
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_widget-designer-team-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_widget-designer-team-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "控件设计器（Team）",
+      "predicate": "包含",
+      "object": "编译器",
+      "context": "控件设计器（Team）设置中包含编译器选项，这些选项影响控件的编译行为，是学习控件设计的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件",
+      "predicate": "定义于",
+      "object": "内容浏览器",
+      "context": "控件在内容浏览器中定义，这是学习控件创建的第一步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件",
+      "predicate": "构建于",
+      "object": "UMG",
+      "context": "控件在UMG中构建，UMG是虚幻引擎的UI设计工具，学习控件需要熟悉UMG",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG",
+      "predicate": "包含",
+      "object": "WYSIWYG设计器",
+      "context": "UMG包含WYSIWYG设计器，这是可视化设计UI的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG",
+      "predicate": "包含",
+      "object": "蓝图图表",
+      "context": "UMG包含蓝图图表，用于逻辑设计，是学习UI逻辑的重要部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "允许蓝图Tick",
+      "predicate": "控制",
+      "object": "Event Tick事件",
+      "context": "允许蓝图Tick选项控制控件是否响应Event Tick事件，影响控件的运行时行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "允许蓝图绘制",
+      "predicate": "控制",
+      "object": "On Paint函数",
+      "context": "允许蓝图绘制选项控制控件是否覆盖On Paint函数，影响控件的渲染行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性绑定规则",
+      "predicate": "影响",
+      "object": "性能",
+      "context": "属性绑定规则设置影响性能，学习如何优化UI性能需要理解这些规则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性绑定规则",
+      "predicate": "包含选项",
+      "object": "允许、阻止、阻止并告警、阻止并报错",
+      "context": "属性绑定规则有多个选项，学习这些选项有助于控制属性绑定的使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "规则",
+      "predicate": "基于",
+      "object": "UWidgetCompilerRule类",
+      "context": "自定义控件编译器规则基于UWidgetCompilerRule类，学习如何扩展这些规则需要理解基类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "规则",
+      "predicate": "执行",
+      "object": "ExecuteRule函数",
+      "context": "规则在编译时执行ExecuteRule函数，这是自定义规则的核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "目录编译器选项",
+      "predicate": "允许设置",
+      "object": "特定项目目录",
+      "context": "目录编译器选项允许在特定目录中设置，这有助于项目级别的控件管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "目录编译器选项",
+      "predicate": "包含",
+      "object": "允许蓝图Tick、允许蓝图绘制、属性绑定规则、自定义规则",
+      "context": "目录编译器选项包含多个编译器设置，学习这些设置有助于项目级别的UI管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:32:37.289Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3087,
+    "contentLength": 1913,
+    "processingTimeMs": 38019
+  }
+}

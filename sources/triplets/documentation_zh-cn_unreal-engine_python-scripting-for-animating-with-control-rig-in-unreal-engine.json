@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_python-scripting-for-animating-with-control-rig-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_python-scripting-for-animating-with-control-rig-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Python脚本",
+      "predicate": "用于",
+      "object": "控制绑定动画制作",
+      "context": "Python脚本可以用于自动化并控制在Sequencer中控制绑定动画制作的各个部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "包含",
+      "object": "控制绑定轨道",
+      "context": "控制绑定轨道是Sequencer中的一种特殊轨道，用于控制绑定动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定轨道",
+      "predicate": "依赖",
+      "object": "控制绑定类",
+      "context": "创建控制绑定轨道需要先定义一个控制绑定类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分层控制绑定",
+      "predicate": "扩展",
+      "object": "控制绑定",
+      "context": "分层控制绑定是控制绑定的扩展功能，允许将多个控制绑定分层并更改优先顺序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画模式",
+      "predicate": "包含",
+      "object": "Tween工具",
+      "context": "Tween工具是动画模式中的一个工具，用于在帧之间进行插值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画模式",
+      "predicate": "包含",
+      "object": "吸附工具",
+      "context": "吸附工具是动画模式中的一个工具，用于将控制点吸附到其他对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画模式",
+      "predicate": "包含",
+      "object": "空间切换",
+      "context": "空间切换是动画模式中的一个功能，用于改变控制点的父级空间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定",
+      "predicate": "用于",
+      "object": "动画控制",
+      "context": "控制绑定可以用于选择和编辑动画控制点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "用于",
+      "object": "动画编辑",
+      "context": "关键帧是动画编辑中的基本元素，可以查询和编辑关键帧选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "曲线编辑器",
+      "predicate": "用于",
+      "object": "关键帧编辑",
+      "context": "曲线编辑器可以用于编辑关键帧的曲线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画序列",
+      "predicate": "可以加载到",
+      "object": "控制绑定分段",
+      "context": "动画序列可以加载到控制绑定分段中，用于应用动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "约束",
+      "predicate": "用于",
+      "object": "创建对象关系",
+      "context": "约束用于创建两个对象之间的关系，对于动画创作非常有用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "烘焙",
+      "predicate": "用于",
+      "object": "动画导出",
+      "context": "烘焙可以将动画导出到控制绑定或动画序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX导入导出",
+      "predicate": "用于",
+      "object": "动画数据交换",
+      "context": "FBX导入导出可以用于与控制绑定相关的动画数据交换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画模式窗口",
+      "predicate": "包含",
+      "object": "动画模式设置",
+      "context": "动画模式窗口包含动画模式设置，可以通过Python进行编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:32:01.685Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (32479 字符)",
+      "timestamp": "2025-06-15T20:31:15.927Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 40179,
+    "contentLength": 32479,
+    "processingTimeMs": 45765
+  }
+}

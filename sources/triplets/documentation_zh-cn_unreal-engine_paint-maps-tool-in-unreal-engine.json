@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_paint-maps-tool-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_paint-maps-tool-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "绘制地图工具",
+      "predicate": "生成",
+      "object": "权重地图",
+      "context": "绘制地图工具通过在网格体顶点中存储0到1的值来创建权重地图，这些值决定了顶点受过程影响的强度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "权重地图",
+      "predicate": "用于",
+      "object": "建模模式工具",
+      "context": "权重地图可以在其他建模模式工具中使用，对特定顶点区域执行运算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "偏移工具",
+      "predicate": "使用",
+      "object": "权重地图",
+      "context": "偏移工具使用权重地图定义沿法线移动的顶点，以创建特定效果如鹅卵石效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平滑工具",
+      "predicate": "支持",
+      "object": "权重地图",
+      "context": "平滑工具是支持使用权重地图的建模工具之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "置换工具",
+      "predicate": "支持",
+      "object": "权重地图",
+      "context": "置换工具是支持使用权重地图的建模工具之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绘制顶点颜色工具",
+      "predicate": "复制",
+      "object": "权重地图",
+      "context": "绘制顶点颜色工具可以复制权重地图，使其可用于材质和其他工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绘制地图工具",
+      "predicate": "属于",
+      "object": "建模模式",
+      "context": "绘制地图工具可以在建模模式的属性类别中访问",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绘制地图工具",
+      "predicate": "属于",
+      "object": "骨架编辑器",
+      "context": "绘制地图工具也可以在骨架编辑器的编辑工具选项卡中访问",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑属性工具",
+      "predicate": "创建",
+      "object": "权重地图层",
+      "context": "在使用绘制地图工具之前，必须在编辑属性工具中创建权重地图层",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重新网格化工具",
+      "predicate": "增加",
+      "object": "几何体分辨率",
+      "context": "重新网格化工具可以增加几何体的分辨率，有助于在创建权重地图时创建连续的绘制流",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具确认面板",
+      "predicate": "管理",
+      "object": "工具更改",
+      "context": "工具使用完毕后，可以在工具确认面板中接受或取消更改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绘制地图工具",
+      "predicate": "支持",
+      "object": "多个权重地图层",
+      "context": "网格体可以有多个权重地图层，并且可以在单个工具会话中在每个层之间切换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "笔刷设置",
+      "predicate": "影响",
+      "object": "权重地图值",
+      "context": "笔刷设置如大小、强度和衰减会影响绘制到网格体顶点上的权重地图值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绘制地图工具",
+      "predicate": "基于",
+      "object": "笔刷交互",
+      "context": "绘制地图工具的功能与建模模式中其他基于笔刷的工具类似，使用笔刷交互式地将权重地图值绘制到网格体顶点上",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:17:46.101Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6921,
+    "contentLength": 4771,
+    "processingTimeMs": 52125
+  }
+}

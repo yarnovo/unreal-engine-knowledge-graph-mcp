@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_dmx-sequencer-integration-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_dmx-sequencer-integration-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Sequencer",
+      "predicate": "支持",
+      "object": "DMX轨道",
+      "context": "Sequencer是虚幻引擎中用于动画和时间触发的功能模块，通过支持DMX轨道，可以实现DMX的录制、播放和编辑，帮助设计和预览光照体验。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX轨道",
+      "predicate": "连接",
+      "object": "DMX库",
+      "context": "DMX轨道需要连接到一个DMX库，以便从中获取灯具配接信息，这是使用DMX轨道的前提条件。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX库",
+      "predicate": "包含",
+      "object": "灯具配接",
+      "context": "DMX库中存储了灯具配接信息，这些配接可以被添加到DMX轨道中，用于控制DMX输出。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "灯具配接",
+      "predicate": "公开",
+      "object": "属性",
+      "context": "灯具配接的属性可以被公开到DMX轨道中，通过关键帧控制这些属性可以驱动DMX输出。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX轨道",
+      "predicate": "添加到",
+      "object": "关卡序列",
+      "context": "DMX轨道可以添加到关卡序列中，使得DMX控制成为序列的一部分，便于重播、编辑和共享。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头试拍录制器",
+      "predicate": "录制",
+      "object": "DMX数据",
+      "context": "镜头试拍录制器可以侦听传入的DMX流，并将数据录制为关卡序列中的关键帧，便于后续播放和编辑。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头试拍录制器",
+      "predicate": "使用",
+      "object": "DMX库",
+      "context": "镜头试拍录制器需要使用DMX库中的灯具配接信息来录制DMX数据，这是录制过程的关键步骤。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡序列",
+      "predicate": "包含",
+      "object": "关键帧",
+      "context": "关卡序列中可以包含关键帧，这些关键帧记录了DMX属性的变化，用于控制DMX输出。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "控制",
+      "object": "DMX输出",
+      "context": "通过为灯具配接的属性添加关键帧，可以精确控制DMX输出，实现复杂的光照效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "发送",
+      "object": "DMX数据",
+      "context": "在播放或拖动播放头时，Sequencer会发送DMX数据，这是实现实时DMX控制的核心机制。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:54:23.135Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7312,
+    "contentLength": 5240,
+    "processingTimeMs": 51853
+  }
+}

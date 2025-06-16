@@ -1,0 +1,221 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_enabling-physics-simulation-on-grooms-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_enabling-physics-simulation-on-grooms-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Groom资产编辑器",
+      "predicate": "包含",
+      "object": "物理面板",
+      "context": "Groom资产编辑器中的物理面板用于设置Groom的物理模拟属性，是学习Groom物理模拟的重要入口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom资产编辑器",
+      "predicate": "包含",
+      "object": "LOD面板",
+      "context": "LOD面板用于设置不同细节级别的模拟属性，是优化Groom性能的关键配置区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理面板",
+      "predicate": "包含",
+      "object": "解算器设置",
+      "context": "解算器设置是物理模拟的核心配置，决定了模拟的计算方式，直接影响模拟效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理面板",
+      "predicate": "包含",
+      "object": "外力设置",
+      "context": "外力设置如重力、空气阻力等影响Groom的整体物理行为，是模拟真实感的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理面板",
+      "predicate": "包含",
+      "object": "弯曲约束",
+      "context": "弯曲约束控制Groom的弯曲行为，影响头发的柔软度和自然度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理面板",
+      "predicate": "包含",
+      "object": "拉伸约束",
+      "context": "拉伸约束控制Groom的拉伸行为，防止不自然的拉伸变形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理面板",
+      "predicate": "包含",
+      "object": "碰撞约束",
+      "context": "碰撞约束控制Groom与其他物体的交互，是模拟真实碰撞的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理面板",
+      "predicate": "包含",
+      "object": "发束参数",
+      "context": "发束参数定义Groom的物理特性，如密度、厚度等，直接影响模拟的物理行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom组件",
+      "predicate": "继承",
+      "object": "Groom资产编辑器设置",
+      "context": "Groom组件可以重载Groom资产编辑器的设置，但必须先启用资产编辑器中的模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom组件",
+      "predicate": "包含",
+      "object": "模拟设置",
+      "context": "Groom组件的模拟设置允许针对特定实例调整物理行为，提供更灵活的模拟控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom组件",
+      "predicate": "包含",
+      "object": "解算器设置",
+      "context": "组件级别的解算器设置可以覆盖资产级别的设置，用于特殊场景的模拟需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom组件",
+      "predicate": "包含",
+      "object": "外力设置",
+      "context": "组件级别的外力设置允许为特定实例调整环境力，如局部重力变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom组件",
+      "predicate": "包含",
+      "object": "材质约束",
+      "context": "材质约束控制组件级别的物理材质属性，如摩擦、刚度等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara解算器",
+      "predicate": "实现",
+      "object": "Groom物理模拟",
+      "context": "Niagara解算器是Groom物理模拟的计算引擎，提供不同的解算方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom杆解算器",
+      "predicate": "属于",
+      "object": "Niagara解算器",
+      "context": "Groom杆解算器是Niagara提供的一种专门用于Groom模拟的解算方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom弹簧解算器",
+      "predicate": "属于",
+      "object": "Niagara解算器",
+      "context": "Groom弹簧解算器是Niagara提供的另一种Groom模拟解算方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义解算器",
+      "predicate": "属于",
+      "object": "Niagara解算器",
+      "context": "自定义解算器允许使用自定义的Niagara系统进行Groom模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理资产",
+      "predicate": "用于",
+      "object": "Groom碰撞检测",
+      "context": "物理资产定义了Groom与其他物体碰撞的物理形状和属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD面板",
+      "predicate": "控制",
+      "object": "模拟细节级别",
+      "context": "LOD面板允许为不同距离的Groom设置不同的模拟细节，优化性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "弯曲约束",
+      "predicate": "影响",
+      "object": "Groom弯曲行为",
+      "context": "弯曲约束参数如刚度和阻尼直接影响Groom的弯曲自然度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "拉伸约束",
+      "predicate": "影响",
+      "object": "Groom拉伸行为",
+      "context": "拉伸约束参数控制Groom抵抗拉伸的能力，防止不自然的变形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞约束",
+      "predicate": "影响",
+      "object": "Groom碰撞响应",
+      "context": "碰撞约束参数如摩擦力和粘度决定Groom与其他物体交互的真实感",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发束参数",
+      "predicate": "定义",
+      "object": "Groom物理特性",
+      "context": "发束参数如密度和厚度定义了Groom的基本物理属性，是模拟的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom物理模拟",
+      "predicate": "依赖",
+      "object": "XPBD解算器",
+      "context": "Groom物理模拟使用XPBD(位置基于动力学的扩展)算法解算约束",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Groom组件",
+      "predicate": "支持",
+      "object": "本地模拟",
+      "context": "Groom组件支持在局部空间中进行模拟，适用于特定动画需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom组件",
+      "predicate": "支持",
+      "object": "模拟调试",
+      "context": "调试功能允许可视化模拟发束，便于问题排查和学习模拟行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:58:16.274Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9719,
+    "contentLength": 6142,
+    "processingTimeMs": 90641
+  }
+}

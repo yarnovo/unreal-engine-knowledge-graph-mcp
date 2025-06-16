@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_fbx-asset-metadata-pipeline-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_fbx-asset-metadata-pipeline-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "FBX资产元数据管线",
+      "predicate": "用于",
+      "object": "资源管理自动化",
+      "context": "FBX资产元数据管线的主要目的是通过元数据实现资源管理的智能自动化，提高美术效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "元数据",
+      "predicate": "关联",
+      "object": "资源",
+      "context": "元数据是与资源关联的自定义数据，为资源赋予意义，并在整个制作流程中保持关联",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编辑器",
+      "predicate": "支持",
+      "object": "元数据操作",
+      "context": "虚幻编辑器允许通过蓝图或Python脚本设置和检索资源的元数据键和值，用于资源管理操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX导入器",
+      "predicate": "引入",
+      "object": "元数据",
+      "context": "FBX导入器从FBX文件中引入特定类别的资源元数据，使其在虚幻编辑器内部可用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Autodesk Maya",
+      "predicate": "支持",
+      "object": "元数据导出",
+      "context": "Maya支持通过FbxProperty系统将用户自定义元数据导出到FBX文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Autodesk 3ds Max",
+      "predicate": "支持",
+      "object": "元数据导出",
+      "context": "3ds Max支持通过用户定义属性将元数据导出到FBX文件，但元数据作为单一字符串导入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "元数据",
+      "predicate": "存储为",
+      "object": "字符串类型",
+      "context": "在虚幻引擎中，所有元数据键和值都以字符串类型存储，无论其在外部应用程序中的原始类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体",
+      "predicate": "包含",
+      "object": "骨骼元数据",
+      "context": "骨架网格体可以包含针对每个单独骨骼的元数据值，元数据标签名会带有骨骼名称前缀以便区分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX资产元数据管线",
+      "predicate": "依赖",
+      "object": "FBX文件",
+      "context": "FBX资产元数据管线依赖FBX文件作为元数据的传输媒介，从外部应用程序导入元数据到虚幻引擎",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "元数据",
+      "predicate": "用于",
+      "object": "外部应用程序互操作性",
+      "context": "元数据的真正意义在于与外部应用程序建立互操作性，创建跨应用程序的资源管理流程",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Python脚本",
+      "predicate": "用于",
+      "object": "元数据处理",
+      "context": "Python脚本可用于在虚幻编辑器中处理和解析导入的元数据，特别是在需要类型转换时",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "用于",
+      "object": "元数据处理",
+      "context": "蓝图提供字符串转换节点（如字符串转整数、字符串转浮点数），用于处理导入的元数据",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:03:32.599Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6712,
+    "contentLength": 3962,
+    "processingTimeMs": 56441
+  }
+}

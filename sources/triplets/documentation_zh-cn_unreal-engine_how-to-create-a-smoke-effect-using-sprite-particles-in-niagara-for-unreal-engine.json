@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-create-a-smoke-effect-using-sprite-particles-in-niagara-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-create-a-smoke-effect-using-sprite-particles-in-niagara-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Niagara插件",
+      "predicate": "启用",
+      "object": "Sprite粒子特效",
+      "context": "使用Sprite粒子创建烟雾特效前需要先启用Niagara插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sprite",
+      "predicate": "用于",
+      "object": "烟雾特效",
+      "context": "Sprite是创建2D平面烟雾特效的基础元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "M_smoke_subUV材质",
+      "predicate": "应用于",
+      "object": "Sprite渲染器",
+      "context": "该材质是创建烟雾特效的必要资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara系统",
+      "predicate": "包含",
+      "object": "Niagara发射器",
+      "context": "系统是发射器的容器，可以包含一个或多个发射器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简易Sprite迸发模板",
+      "predicate": "用于创建",
+      "object": "烟雾发射器",
+      "context": "这是创建烟雾特效的起点模板",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sprite渲染器",
+      "predicate": "控制",
+      "object": "粒子视觉效果",
+      "context": "渲染器设置决定了粒子如何显示在屏幕上",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子图像大小",
+      "predicate": "影响",
+      "object": "SubUV动画效果",
+      "context": "正确设置子图像大小对SubUV动画效果至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器更新组",
+      "predicate": "控制",
+      "object": "粒子生成行为",
+      "context": "该组设置影响粒子的生成速率和生命周期等基本属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子生成组",
+      "predicate": "设置",
+      "object": "粒子初始属性",
+      "context": "包括粒子大小、旋转、速度等初始参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子更新组",
+      "predicate": "控制",
+      "object": "粒子持续行为",
+      "context": "影响粒子生成后的运动和行为变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "形状位置模块",
+      "predicate": "决定",
+      "object": "粒子生成位置",
+      "context": "控制粒子从什么形状的空间中生成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子UV动画模块",
+      "predicate": "实现",
+      "object": "Sprite表动画",
+      "context": "使Sprite能够播放子图像序列动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "加速力模块",
+      "predicate": "影响",
+      "object": "粒子运动轨迹",
+      "context": "为粒子添加持续的加速度，改变其运动方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "随机范围参数",
+      "predicate": "增加",
+      "object": "效果自然度",
+      "context": "为各种属性添加随机性可以使特效看起来更自然",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Niagara编辑器",
+      "predicate": "用于",
+      "object": "特效系统配置",
+      "context": "所有Niagara特效的创建和编辑都在此编辑器中完成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "管理",
+      "object": "特效资产",
+      "context": "用于组织和管理所有特效相关的资源文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sprite大小模式",
+      "predicate": "影响",
+      "object": "烟雾密度表现",
+      "context": "随机大小设置可以创造更真实的烟雾密度变化",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "生命周期设置",
+      "predicate": "决定",
+      "object": "粒子存在时间",
+      "context": "影响烟雾粒子从生成到消失的持续时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器状态模块",
+      "predicate": "控制",
+      "object": "特效播放模式",
+      "context": "设置特效是单次播放还是循环播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "烟雾特效",
+      "predicate": "依赖",
+      "object": "多个参数协同",
+      "context": "创建逼真烟雾需要多个模块和参数的协调设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:25:37.237Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (18012 字符)",
+      "timestamp": "2025-06-15T19:24:31.750Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 24748,
+    "contentLength": 18012,
+    "processingTimeMs": 65495
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_gameplay-framework-quick-reference-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_gameplay-framework-quick-reference-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Pawn",
+      "predicate": "被控制",
+      "object": "控制器",
+      "context": "Pawn可以被控制器拥有和控制，这是游戏角色控制的基础机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色",
+      "predicate": "继承自",
+      "object": "Pawn",
+      "context": "角色是类人式的Pawn，扩展了Pawn的功能，增加了角色移动组件等特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家控制器",
+      "predicate": "控制",
+      "object": "Pawn",
+      "context": "玩家控制器作为人类玩家和Pawn之间的接口，控制Pawn的行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI控制器",
+      "predicate": "控制",
+      "object": "Pawn",
+      "context": "AI控制器模拟非玩家角色的意愿，控制Pawn的行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家控制器",
+      "predicate": "拥有",
+      "object": "HUD",
+      "context": "玩家控制器通常配备HUD，用于向玩家显示信息如血条、弹药等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家控制器",
+      "predicate": "管理",
+      "object": "摄像机",
+      "context": "玩家控制器管理玩家摄像机，控制玩家的视角",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏模式",
+      "predicate": "定义",
+      "object": "游戏规则",
+      "context": "游戏模式包含游戏的定义，如游戏规则和获胜条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏状态",
+      "predicate": "追踪",
+      "object": "游戏进度",
+      "context": "游戏状态包含游戏的状态信息，如玩家列表、得分等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家状态",
+      "predicate": "记录",
+      "object": "玩家信息",
+      "context": "玩家状态记录玩家的数据，如姓名、得分等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏",
+      "predicate": "由组成",
+      "object": "游戏模式",
+      "context": "游戏由游戏模式和游戏状态组成，游戏模式定义游戏规则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏",
+      "predicate": "由组成",
+      "object": "游戏状态",
+      "context": "游戏由游戏模式和游戏状态组成，游戏状态追踪游戏进度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家控制器",
+      "predicate": "关联",
+      "object": "玩家",
+      "context": "玩家控制器与人类玩家相关联，代表玩家的意愿",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色",
+      "predicate": "包含",
+      "object": "胶囊组件",
+      "context": "角色默认带有胶囊组件用于碰撞检测",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色",
+      "predicate": "包含",
+      "object": "角色移动组件",
+      "context": "角色带有角色移动组件，支持类似人类的基本动作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏模式",
+      "predicate": "仅存在于",
+      "object": "服务器",
+      "context": "游戏模式仅存在于服务器上，不包含客户端需要了解的临时数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏状态",
+      "predicate": "存在于",
+      "object": "服务器和客户端",
+      "context": "游戏状态存在于服务器和所有客户端上，可以自由复制以保持同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:10:54.412Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6491,
+    "contentLength": 4083,
+    "processingTimeMs": 47399
+  }
+}

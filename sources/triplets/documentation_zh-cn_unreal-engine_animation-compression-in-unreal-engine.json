@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-compression-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-compression-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "动画压缩",
+      "predicate": "用于",
+      "object": "降低文件尺寸和内存开销",
+      "context": "动画压缩的主要目的是减少动画数据的存储空间和运行时内存占用，这对项目性能优化至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "动画压缩",
+      "predicate": "影响",
+      "object": "动画质量",
+      "context": "压缩程度与动画质量成反比关系，这是学习者需要权衡的重要参数",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼压缩设置",
+      "predicate": "属于",
+      "object": "动画压缩",
+      "context": "骨骼压缩是动画压缩的两大核心组件之一，专门处理骨骼运动数据的压缩",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "曲线压缩设置",
+      "predicate": "属于",
+      "object": "动画压缩",
+      "context": "曲线压缩是动画压缩的两大核心组件之一，专门处理动画曲线数据的压缩",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "压缩编码解码器",
+      "predicate": "实现",
+      "object": "动画压缩算法",
+      "context": "编码解码器是具体执行压缩算法的技术实现，不同编码解码器对应不同的压缩策略",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼压缩设置",
+      "predicate": "包含",
+      "object": "编码解码器列表",
+      "context": "骨骼压缩设置通过配置多个编码解码器来测试最优压缩方案，这是其核心工作方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "误差阈值",
+      "predicate": "控制",
+      "object": "压缩质量",
+      "context": "误差阈值是调节压缩精度的重要参数，直接影响最终动画质量",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "动画序列编辑器",
+      "predicate": "用于",
+      "object": "分配压缩设置",
+      "context": "这是实际操作中应用压缩设置的关键界面，学习者需要掌握这个工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衍生数据缓存",
+      "predicate": "管理",
+      "object": "压缩数据更新",
+      "context": "DDC系统自动检测压缩设置的变更并触发重新压缩，这是重要的底层机制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "骨骼压缩",
+      "predicate": "优化",
+      "object": "骨骼运动数据",
+      "context": "专门针对骨骼变换数据进行优化，是动画压缩的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "曲线压缩",
+      "predicate": "优化",
+      "object": "动画曲线数据",
+      "context": "专门针对动画曲线数据进行优化，与骨骼压缩形成互补关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "误差采样率",
+      "predicate": "影响",
+      "object": "压缩精度评估",
+      "context": "采样率设置决定了压缩过程中质量检测的精细程度",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画压缩编码解码器参考",
+      "predicate": "扩展",
+      "object": "压缩技术知识",
+      "context": "该参考文档提供了各种编码解码器的详细信息，是深入学习压缩技术的必要资源",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "强制低于阈值",
+      "predicate": "优先考虑",
+      "object": "压缩质量",
+      "context": "这个选项允许开发者优先保证质量而非文件大小，体现了重要的设计取舍",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:01:37.291Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9693,
+    "contentLength": 5711,
+    "processingTimeMs": 53283
+  }
+}

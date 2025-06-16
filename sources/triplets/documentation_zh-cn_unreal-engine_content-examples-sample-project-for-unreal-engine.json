@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_content-examples-sample-project-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_content-examples-sample-project-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "内容示例",
+      "predicate": "包含",
+      "object": "关卡",
+      "context": "内容示例项目由一系列关卡组成，每个关卡介绍引擎的不同方面，帮助学习者通过实际示例理解技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡",
+      "predicate": "展示",
+      "object": "技术示例",
+      "context": "每个关卡中的展台展示特定主题的示例资产，帮助学习者直观理解技术应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画关卡",
+      "predicate": "介绍",
+      "object": "动画应用技术",
+      "context": "展示如何通过不同方式向Actor应用动画，包括蓝图和动画蓝图，是学习动画系统的重要入口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画重定向关卡",
+      "predicate": "演示",
+      "object": "IK Rig技术",
+      "context": "展示如何在不同角色上重用动画，涉及IK Rig和重定向器等关键技术，对角色动画开发至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara粒子关卡",
+      "predicate": "替代",
+      "object": "Cascade粒子系统",
+      "context": "文档明确指出Cascade已废弃，Niagara是推荐的现代粒子系统，学习者应优先掌握",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图概述关卡",
+      "predicate": "前置学习",
+      "object": "蓝图高级技术关卡",
+      "context": "建议先掌握蓝图基础知识再学习高级技术，形成合理的学习路径",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质实例关卡",
+      "predicate": "基于",
+      "object": "材质属性关卡",
+      "context": "理解材质属性是创建材质实例的基础，两者存在明确的学习依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Control Rig",
+      "predicate": "扩展",
+      "object": "动画系统",
+      "context": "Control Rig提供了动态操纵骨骼网格体的能力，扩展了传统动画系统的功能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流送",
+      "predicate": "优化",
+      "object": "大型关卡管理",
+      "context": "关卡流送技术是管理大型开放世界内容的关键优化手段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理系统动画",
+      "predicate": "结合",
+      "object": "物理系统",
+      "context": "展示如何将角色动画与物理模拟结合，是高级角色控制的重要技术",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "支持",
+      "object": "AI寻路",
+      "context": "NavMesh是实现AI导航的基础技术，对游戏AI开发至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理",
+      "predicate": "影响",
+      "object": "视觉效果",
+      "context": "后期处理效果可以显著改变关卡的整体视觉风格，是画面调优的关键环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "程序化网格体",
+      "predicate": "替代",
+      "object": "静态网格体",
+      "context": "程序化网格体提供了动态生成几何体的能力，与静态网格体形成互补关系",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻示意图形(UMG)",
+      "predicate": "用于",
+      "object": "用户界面开发",
+      "context": "UMG是虚幻引擎中创建游戏UI的核心工具，与CommonUI形成技术栈",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos破坏系统",
+      "predicate": "实现",
+      "object": "物理破坏效果",
+      "context": "Chaos引擎提供了高级的物理破坏模拟能力，是现代游戏物理效果的关键技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形工具",
+      "predicate": "包含",
+      "object": "植被工具",
+      "context": "地形系统中包含专门用于散布植被的辅助工具，是环境创作的重要部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络功能",
+      "predicate": "依赖",
+      "object": "蓝图系统",
+      "context": "网络功能的实现通常需要与蓝图系统配合使用，是多玩家游戏开发的基础",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Paper2D",
+      "predicate": "专门用于",
+      "object": "2D游戏开发",
+      "context": "Paper2D插件提供了专门的2D游戏开发功能，与3D开发形成技术对比",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质高级设置",
+      "predicate": "扩展",
+      "object": "材质节点知识",
+      "context": "高级材质设置建立在基础材质节点知识之上，形成递进学习关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:33:24.571Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 13718,
+    "contentLength": 6938,
+    "processingTimeMs": 65562
+  }
+}

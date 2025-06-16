@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_post-process-materials-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_post-process-materials-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "后期处理材质",
+      "predicate": "属于",
+      "object": "材质",
+      "context": "后期处理材质是材质的一种特殊类型，专门用于后期处理效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理材质",
+      "predicate": "插入",
+      "object": "后期处理图表",
+      "context": "后期处理材质可以插入到后期处理图表的特定位置，扩展引擎的后期处理功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理材质",
+      "predicate": "使用",
+      "object": "用户场景纹理",
+      "context": "开发者可以使用用户场景纹理创建自己的中间渲染目标，用于后期处理材质",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "后期处理材质",
+      "predicate": "替代",
+      "object": "后期处理体积设置",
+      "context": "在需要自定义效果时，后期处理材质可以替代后期处理体积中的固有设置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "后期处理材质",
+      "predicate": "依赖",
+      "object": "自发光颜色输出",
+      "context": "后期处理材质必须使用自发光颜色来输出新颜色，这是其核心工作机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理材质",
+      "predicate": "包含",
+      "object": "可混合位置设置",
+      "context": "后期处理材质需要设置可混合位置（如色调映射前/后），决定在渲染管线的哪个阶段应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理材质",
+      "predicate": "混合",
+      "object": "材质实例",
+      "context": "可以通过后期处理体积混合多个材质实例，实现效果的平滑过渡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理材质",
+      "predicate": "使用",
+      "object": "SceneTexture表达式",
+      "context": "SceneTexture表达式是后期处理材质中访问各种缓冲区数据的关键工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理材质",
+      "predicate": "访问",
+      "object": "GBuffer属性",
+      "context": "在延迟渲染路径下，后期处理材质可以访问GBuffer中的材质和对象属性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "后期处理材质",
+      "predicate": "可视化",
+      "object": "自定义深度",
+      "context": "后期处理材质可以可视化自定义深度缓冲区，用于特殊效果如对象轮廓",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理材质",
+      "predicate": "可视化",
+      "object": "自定义深度模具",
+      "context": "后期处理材质可以可视化自定义深度模具值，实现基于模具值的特效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理材质",
+      "predicate": "受限于",
+      "object": "时间抗锯齿",
+      "context": "时间抗锯齿会影响后期处理材质的效果稳定性，需要特别注意处理位置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "后期处理材质",
+      "predicate": "使用",
+      "object": "ScreenPosition表达式",
+      "context": "ScreenPosition表达式帮助后期处理材质正确处理屏幕空间坐标",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "后期处理材质",
+      "predicate": "可以替换",
+      "object": "色调映射器",
+      "context": "通过特定设置，后期处理材质可以替换引擎默认的色调映射器",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "GBuffer",
+      "predicate": "包含",
+      "object": "材质属性",
+      "context": "GBuffer存储了材质属性如次表面颜色、高光颜色、粗糙度等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GBuffer",
+      "predicate": "包含",
+      "object": "对象属性",
+      "context": "GBuffer存储了对象属性如法线、深度等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义深度",
+      "predicate": "扩展为",
+      "object": "自定义深度模具",
+      "context": "自定义深度模具是自定义深度的扩展，增加了模具值功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理体积",
+      "predicate": "控制",
+      "object": "后期处理材质混合",
+      "context": "后期处理体积通过混合半径和优先级设置控制多个后期处理材质的混合方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SceneTexture表达式",
+      "predicate": "提供",
+      "object": "缓冲区访问",
+      "context": "SceneTexture表达式提供了访问各种渲染缓冲区的接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间抗锯齿",
+      "predicate": "影响",
+      "object": "GBuffer稳定性",
+      "context": "时间抗锯齿会导致GBuffer数据每帧亚像素偏移，影响后期处理效果稳定性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:26:44.873Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15327 字符)",
+      "timestamp": "2025-06-15T20:25:44.963Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 25735,
+    "contentLength": 15327,
+    "processingTimeMs": 59922
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_interacting-with-the-pixel-streaming-system-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_interacting-with-the-pixel-streaming-system-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "像素流送系统",
+      "predicate": "包含",
+      "object": "冻结帧功能",
+      "context": "冻结帧功能是像素流送系统的一部分，用于优化带宽和GPU资源使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "冻结帧功能",
+      "predicate": "实现",
+      "object": "Freeze Frame节点",
+      "context": "Freeze Frame节点用于暂停帧编码和发送，显示静态图像",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "冻结帧功能",
+      "predicate": "实现",
+      "object": "Unfreeze Frame节点",
+      "context": "Unfreeze Frame节点用于恢复每帧流送",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送系统",
+      "predicate": "支持",
+      "object": "UE5到播放器页面的通信",
+      "context": "像素流送系统允许虚幻引擎应用程序向播放器HTML页面发送自定义事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE5到播放器页面的通信",
+      "predicate": "使用",
+      "object": "Send Pixel Streaming Response节点",
+      "context": "Send Pixel Streaming Response节点用于向播放器页面发送自定义事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送系统",
+      "predicate": "提供",
+      "object": "像素流送事件响应",
+      "context": "像素流送系统提供事件响应机制，允许应用程序响应像素流送会话中的事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送事件响应",
+      "predicate": "包含",
+      "object": "蓝图事件",
+      "context": "蓝图事件是像素流送事件响应的一种形式，可通过蓝图编辑器访问",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送事件响应",
+      "predicate": "包含",
+      "object": "C++事件",
+      "context": "C++事件是像素流送事件响应的一种形式，可通过原生代码访问",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图事件",
+      "predicate": "包括",
+      "object": "OnNewConnection",
+      "context": "OnNewConnection是新客户端连接时触发的事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图事件",
+      "predicate": "包括",
+      "object": "OnConnectionClosed",
+      "context": "OnConnectionClosed是客户端断开连接时触发的事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图事件",
+      "predicate": "包括",
+      "object": "OnAllConnectionsClosed",
+      "context": "OnAllConnectionsClosed是最后一个客户端断开连接时触发的事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图事件",
+      "predicate": "包括",
+      "object": "OnStatChanged",
+      "context": "OnStatChanged是报告像素流统计数据变化的事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送系统",
+      "predicate": "依赖",
+      "object": "像素流送插件",
+      "context": "像素流送系统依赖于像素流送插件来实现其功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送插件",
+      "predicate": "提供",
+      "object": "像素流送器委托类",
+      "context": "像素流送插件提供像素流送器委托类，用于绑定和响应事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送器委托类",
+      "predicate": "用于",
+      "object": "绑定蓝图事件",
+      "context": "像素流送器委托类用于绑定蓝图事件，响应像素流送系统中的事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE5到播放器页面的通信",
+      "predicate": "使用",
+      "object": "JSON格式",
+      "context": "UE5到播放器页面的通信可以使用JSON格式传递复杂数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "播放器页面",
+      "predicate": "响应",
+      "object": "自定义事件处理程序",
+      "context": "播放器页面通过自定义事件处理程序响应从UE5发送的事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义事件处理程序",
+      "predicate": "注册",
+      "object": "addResponseEventListener",
+      "context": "自定义事件处理程序通过addResponseEventListener函数注册",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C++事件",
+      "predicate": "基于",
+      "object": "多播代理",
+      "context": "C++事件基于虚幻引擎的多播代理机制实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:37:26.362Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11908,
+    "contentLength": 7924,
+    "processingTimeMs": 77150
+  }
+}

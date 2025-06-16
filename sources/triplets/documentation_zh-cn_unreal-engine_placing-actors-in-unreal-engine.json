@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_placing-actors-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_placing-actors-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Actor",
+      "predicate": "属于",
+      "object": "关卡",
+      "context": "Actor是可以在关卡中放置的基本对象，理解这一关系是构建游戏世界的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "静态网格体",
+      "context": "静态网格体是Actor的一种具体类型，了解这种包含关系有助于理解场景构建元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "点光源",
+      "context": "点光源是Actor的一种具体类型，理解这种关系有助于学习场景光照设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "放置Actor面板",
+      "predicate": "用于",
+      "object": "放置Actor",
+      "context": "放置Actor面板是编辑器中专用于放置Actor的工具界面，理解这一关系对学习场景编辑至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "放置Actor面板",
+      "predicate": "包含",
+      "object": "资产视图",
+      "context": "资产视图是放置Actor面板的组成部分，了解这一结构关系有助于高效使用编辑器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界大纲视图",
+      "predicate": "显示",
+      "object": "Actor",
+      "context": "世界大纲视图会自动显示关卡中的所有Actor，理解这一关系对场景管理很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "用于",
+      "object": "选择Actor",
+      "context": "内容浏览器是选择并放置Actor的重要工具，理解这一关系有助于资产管理工作流",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "快捷菜单",
+      "predicate": "支持",
+      "object": "放置Actor",
+      "context": "快捷菜单提供了另一种放置Actor的方式，了解这一关系可以扩展学习者的操作技能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "拖放操作",
+      "predicate": "实现",
+      "object": "放置Actor",
+      "context": "拖放是从内容浏览器放置Actor的直观方式，理解这一交互关系对提高工作效率很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "类查看器",
+      "predicate": "提供",
+      "object": "高级Actor放置",
+      "context": "类查看器提供了基于类层级的Actor放置方式，适合高级用户使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "是",
+      "object": "资产",
+      "context": "理解静态网格体作为资产的属性有助于学习资源管理系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "生成",
+      "object": "Actor实例",
+      "context": "拖放蓝图会创建其实例，这一关系对理解蓝图系统的工作机制很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "替换Actor功能",
+      "predicate": "基于",
+      "object": "快捷菜单",
+      "context": "替换Actor功能通过快捷菜单实现，理解这一关系可以提升批量编辑效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第三人称模板",
+      "predicate": "包含",
+      "object": "预设Actor",
+      "context": "项目模板包含预设Actor，理解这一关系有助于快速启动项目开发",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "资产视图",
+      "predicate": "显示",
+      "object": "可放置Actor",
+      "context": "资产视图显示筛选后的可放置Actor，理解这一关系有助于快速定位所需资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:24:07.375Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10768,
+    "contentLength": 6967,
+    "processingTimeMs": 45219
+  }
+}

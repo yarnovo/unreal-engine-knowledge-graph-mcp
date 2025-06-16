@@ -1,0 +1,149 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-cooking-insights-in-unreal-engine-5",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-cooking-insights-in-unreal-engine-5.md",
+  "triples": [
+    {
+      "subject": "Unreal Cooking Insights",
+      "predicate": "用于",
+      "object": "数据包烘焙分析",
+      "context": "Unreal Cooking Insights 的主要功能是采集和显示项目中数据包烘焙的信息，帮助开发者优化烘焙过程。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Cooking Insights",
+      "predicate": "支持",
+      "object": "命令行跟踪",
+      "context": "开发者可以通过命令行运行跟踪命令来使用 Unreal Cooking Insights 功能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据包",
+      "predicate": "包含",
+      "object": "加载时间",
+      "context": "数据包表中会显示每个数据包的加载时间，这是分析烘焙性能的重要指标。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据包",
+      "predicate": "包含",
+      "object": "保存时间",
+      "context": "数据包表中会显示每个数据包的保存时间，这是分析烘焙性能的重要指标。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据包",
+      "predicate": "包含",
+      "object": "烘焙时间",
+      "context": "数据包表中会显示每个数据包的烘焙时间，这是分析烘焙性能的核心指标。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "层级排序",
+      "predicate": "提供",
+      "object": "分组选项",
+      "context": "层级排序功能提供了多种分组选项，帮助开发者以不同维度分析数据包。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预设选项",
+      "predicate": "用于",
+      "object": "配置树状图",
+      "context": "预设选项允许开发者配置数据包数据的显示方式，便于分析。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "列排序",
+      "predicate": "支持",
+      "object": "升序/降序排序",
+      "context": "列排序功能支持按升序或降序排列数据，便于开发者快速定位性能瓶颈。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Cooking Insights",
+      "predicate": "属于",
+      "object": "虚幻引擎5.6",
+      "context": "Unreal Cooking Insights 是虚幻引擎5.6版本中的一个工具。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据包路径",
+      "predicate": "是",
+      "object": "预设选项",
+      "context": "数据包路径是预设选项之一，用于按路径对数据包进行分组。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产类",
+      "predicate": "是",
+      "object": "预设选项",
+      "context": "资产类是预设选项之一，用于按资产类型对数据包进行分组。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BeginCache",
+      "predicate": "测量",
+      "object": "函数执行时间",
+      "context": "BeginCache列测量数据包中特定函数的执行时间，帮助分析性能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IsCachedCooked",
+      "predicate": "测量",
+      "object": "函数执行时间",
+      "context": "IsCachedCooked列测量数据包中特定函数的执行时间，帮助分析性能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Cooking Insights",
+      "predicate": "关联",
+      "object": "性能优化",
+      "context": "该工具主要用于帮助开发者分析和优化项目的烘焙性能。",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "层级分组选项",
+      "predicate": "包括",
+      "object": "扁平（全部）",
+      "context": "扁平（全部）是层级分组的一个选项，将所有项目放在单个组中。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "层级分组选项",
+      "predicate": "包括",
+      "object": "唯一值 - 资产类",
+      "context": "唯一值 - 资产类是层级分组的一个选项，按资产类创建分组。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "层级分组选项",
+      "predicate": "包括",
+      "object": "路径详细分解 - 数据包名称",
+      "context": "路径详细分解 - 数据包名称是层级分组的一个选项，按路径结构创建树层级。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:06:47.336Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4592,
+    "contentLength": 3172,
+    "processingTimeMs": 48770
+  }
+}

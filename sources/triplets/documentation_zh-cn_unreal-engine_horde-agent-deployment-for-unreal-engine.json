@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_horde-agent-deployment-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_horde-agent-deployment-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Horde代理",
+      "predicate": "支持",
+      "object": "MSI安装程序",
+      "context": "MSI安装程序是Horde代理在Windows系统上的一种安装方式，同时安装后台应用程序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde代理",
+      "predicate": "支持",
+      "object": "从服务器下载",
+      "context": "Horde代理可以通过服务器下载方式安装，并支持自动升级",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde代理",
+      "predicate": "依赖",
+      "object": "Agent.json",
+      "context": "Horde代理的配置通过Agent.json文件进行，该文件覆盖默认的appsettings.json文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Agent.json",
+      "predicate": "包含",
+      "object": "ServerProfiles",
+      "context": "Agent.json文件中的ServerProfiles属性用于配置连接多个Horde服务器的设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde代理",
+      "predicate": "支持",
+      "object": "作为服务运行",
+      "context": "Horde代理可以在Windows、Mac和Linux系统上作为服务运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde代理",
+      "predicate": "使用",
+      "object": "工作目录",
+      "context": "Horde代理使用工作目录存储数据，如Perforce工作空间、缓存等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde代理",
+      "predicate": "支持",
+      "object": "安装网络共享",
+      "context": "Horde代理可以通过Agent.json文件配置挂载网络共享",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde代理",
+      "predicate": "需要",
+      "object": "GPU访问",
+      "context": "某些Horde代理作业需要访问GPU，特别是在运行测试类作业时",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde代理",
+      "predicate": "支持",
+      "object": "Linux和Wine",
+      "context": "Horde代理可以在Linux系统上通过Wine运行Windows应用程序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Wine",
+      "predicate": "用于",
+      "object": "运行Windows应用程序",
+      "context": "Wine是一个兼容层，允许在类Unix系统上运行Windows应用程序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde代理",
+      "predicate": "生成",
+      "object": "连接令牌",
+      "context": "Horde代理第一次连接到服务器时会生成唯一的连接令牌",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde代理",
+      "predicate": "配置",
+      "object": "服务器配置文件",
+      "context": "Horde代理可以通过服务器配置文件连接多个Horde服务器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde代理",
+      "predicate": "使用",
+      "object": "PowerShell",
+      "context": "在Windows系统上，Horde代理可以通过PowerShell命令进行安装和配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde代理",
+      "predicate": "使用",
+      "object": "curl",
+      "context": "在Mac和Linux系统上，Horde代理可以通过curl命令进行下载和安装",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde代理",
+      "predicate": "依赖",
+      "object": "管理员用户",
+      "context": "Horde代理的注册和令牌获取需要管理员用户权限",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:19:34.119Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9843 字符)",
+      "timestamp": "2025-06-15T19:18:38.900Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13705,
+    "contentLength": 9843,
+    "processingTimeMs": 55223
+  }
+}

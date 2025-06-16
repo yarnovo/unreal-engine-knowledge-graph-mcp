@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_setting-up-unreal-engine-projects-for-android-development",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_setting-up-unreal-engine-projects-for-android-development.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "Android开发",
+      "context": "文档详细说明了如何设置虚幻引擎项目以进行Android游戏开发，表明虚幻引擎具备对Android平台的支持能力",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Android开发",
+      "predicate": "依赖",
+      "object": "Android SDK和NDK",
+      "context": "文档明确指出进行Android开发需要安装Android Studio并设置SDK组件，这是开发的基础依赖",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编辑器",
+      "predicate": "用于",
+      "object": "配置Android项目",
+      "context": "文档描述了通过虚幻编辑器进行项目设置、打包和预览的操作，说明编辑器是配置Android项目的核心工具",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PIE模式",
+      "predicate": "用于",
+      "object": "移动预览",
+      "context": "文档说明可以通过PIE模式预览移动渲染效果，这是测试移动设备表现的重要功能",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "APK打包",
+      "predicate": "生成",
+      "object": "Android应用",
+      "context": "文档详细描述了APK打包过程，这是生成最终Android应用的必经步骤",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "移动预览器",
+      "predicate": "模拟",
+      "object": "移动设备渲染",
+      "context": "文档提到移动预览器可以模拟移动设备的渲染效果和宽高比，帮助开发者在编辑器中预览",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "蓝图第三人称模板",
+      "predicate": "适用于",
+      "object": "Android快速开发",
+      "context": "文档建议使用该模板作为Android开发的起点，说明其特别适合移动平台快速开发",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Android设备",
+      "predicate": "需要",
+      "object": "开发者模式",
+      "context": "文档明确说明测试设备需要开启开发者模式和USB调试，这是设备连接调试的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "包含",
+      "object": "Android平台配置",
+      "context": "文档描述了在项目设置中专门有Android平台的配置选项，这是项目适配Android的关键设置区域",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "打包项目",
+      "predicate": "产生",
+      "object": "APK和OBB文件",
+      "context": "文档说明打包过程会生成APK和OBB文件，这是Android应用的发布格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动设备/平板电脑",
+      "predicate": "作为",
+      "object": "目标硬件选项",
+      "context": "文档提到创建项目时需要选择此选项，这是针对移动平台开发的重要设置",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "可缩放3D或2D",
+      "predicate": "适用于",
+      "object": "移动设备质量设置",
+      "context": "文档建议选择此质量级别以适应移动设备性能，这是移动开发的优化选项",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Android开发",
+      "predicate": "涉及",
+      "object": "设备驱动程序安装",
+      "context": "文档提到需要允许计算机安装设备驱动程序，这是开发环境设置的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.75
+    },
+    {
+      "subject": "虚幻项目浏览器",
+      "predicate": "用于",
+      "object": "创建Android项目",
+      "context": "文档描述了通过项目浏览器创建新Android项目的步骤，这是项目初始化的入口",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "Android包命名",
+      "predicate": "属于",
+      "object": "项目必要配置",
+      "context": "文档强调需要正确配置包名，这是Android应用的唯一标识符",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:46:27.280Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9252 字符)",
+      "timestamp": "2025-06-15T20:45:40.700Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12948,
+    "contentLength": 9252,
+    "processingTimeMs": 46581
+  }
+}

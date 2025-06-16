@@ -1,0 +1,157 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_electra-media-player-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_electra-media-player-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Electra媒体播放器",
+      "predicate": "是",
+      "object": "虚幻引擎的媒体播放器插件",
+      "context": "明确说明Electra媒体播放器的定位和功能",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "Electra媒体播放器",
+      "predicate": "支持",
+      "object": "HTTP实时流送(HLS)",
+      "context": "文档明确指出Electra使用HLS格式进行流送",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "Electra媒体播放器",
+      "predicate": "支持",
+      "object": ".mp4渐进式下载",
+      "context": "文档说明Electra支持.mp4文件的渐进式下载",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "Electra媒体播放器",
+      "predicate": "支持",
+      "object": "本地播放.mp4文件",
+      "context": "文档说明Electra支持本地播放.mp4文件",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "Electra媒体播放器",
+      "predicate": "支持",
+      "object": "公用媒体应用格式(CMAF)",
+      "context": "文档说明CMAF是.mp4的专业化版本，Electra支持",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "Electra媒体播放器",
+      "predicate": "支持",
+      "object": "H.264/AVC编解码器",
+      "context": "文档列出支持的视频编解码器",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "Electra媒体播放器",
+      "predicate": "支持",
+      "object": "AAC音频编解码器",
+      "context": "文档列出支持的音频编解码器",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "Electra媒体播放器",
+      "predicate": "依赖",
+      "object": "主播放列表",
+      "context": "文档说明HLS变体流送需要主播放列表定义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Electra媒体播放器",
+      "predicate": "要求",
+      "object": "音频组",
+      "context": "文档说明主播放列表中必须指定音频组",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Electra媒体播放器",
+      "predicate": "要求",
+      "object": "CODECS和RESOLUTION属性",
+      "context": "文档说明这些属性在RFC-8216中可选但对Electra必需",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Electra媒体播放器",
+      "predicate": "建议使用",
+      "object": "FRAME-RATE属性",
+      "context": "文档建议使用FRAME-RATE属性以优化播放",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Electra媒体播放器",
+      "predicate": "不支持",
+      "object": "帧准确搜索",
+      "context": "文档明确说明不支持帧准确搜索",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "Electra媒体播放器",
+      "predicate": "不支持",
+      "object": "SAMPLE-AES加密",
+      "context": "文档说明仅支持AES-128加密",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "Electra媒体播放器",
+      "predicate": "忽略",
+      "object": "EXT-X-DISCONTINUITY等标签",
+      "context": "文档列出Electra会忽略的HLS标签",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "Electra媒体播放器",
+      "predicate": "适用于",
+      "object": "多平台",
+      "context": "文档列出支持的各种平台",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "HLS",
+      "predicate": "使用",
+      "object": "片段索引文件",
+      "context": "文档说明HLS通过片段索引文件实现流送",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变体流送",
+      "predicate": "需要",
+      "object": "相同片段划分",
+      "context": "文档说明Electra要求变体流具有相同的片段划分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视频片段",
+      "predicate": "必须包含",
+      "object": "IDR帧作为第一帧",
+      "context": "文档说明视频片段必须以IDR帧开始",
+      "direction": "unidirectional",
+      "confidence": 1
+    }
+  ],
+  "timestamp": "2025-06-15T18:58:00.324Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10446,
+    "contentLength": 6954,
+    "processingTimeMs": 74692
+  }
+}

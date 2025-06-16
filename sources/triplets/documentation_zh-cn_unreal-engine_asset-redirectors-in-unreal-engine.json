@@ -1,0 +1,77 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_asset-redirectors-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_asset-redirectors-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "资产重定向器",
+      "predicate": "用于",
+      "object": "资产引用维护",
+      "context": "重定向器在资产移动或重命名后保留在旧位置，确保未加载的包仍能找到资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产重定向器",
+      "predicate": "关联",
+      "object": "命名规范",
+      "context": "遵循良好的命名规范可以减少重定向器的使用需求",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "支持",
+      "object": "重定向器查看",
+      "context": "内容浏览器提供筛选器功能来查看重定向器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "修复操作",
+      "predicate": "用于",
+      "object": "清理重定向器",
+      "context": "通过修复操作可以重新保存引用并删除重定向器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ResavePackages命令",
+      "predicate": "支持",
+      "object": "批量清理重定向器",
+      "context": "使用ResavePackages命令可以批量修复和清理项目中的重定向器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重定向器",
+      "predicate": "可能导致",
+      "object": "引用错误",
+      "context": "在特定重命名和删除操作下，重定向器可能导致引用错误",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "资产管理",
+      "predicate": "包含",
+      "object": "重定向器处理",
+      "context": "重定向器是资产管理中的一个重要方面，特别是在资产移动和重命名时",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "版本控制系统",
+      "predicate": "配合使用",
+      "object": "ResavePackages命令",
+      "context": "ResavePackages命令可以与版本控制系统配合，自动签出和签入需要修复的文件",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T18:05:56.880Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6146,
+    "contentLength": 4312,
+    "processingTimeMs": 36418
+  }
+}

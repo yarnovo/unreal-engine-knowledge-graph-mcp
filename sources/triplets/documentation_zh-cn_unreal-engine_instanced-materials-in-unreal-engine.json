@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_instanced-materials-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_instanced-materials-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "材质实例化",
+      "predicate": "避免",
+      "object": "材质重新编译",
+      "context": "材质实例化允许在不重新编译材质的情况下更改材质外观，提高工作效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质实例",
+      "predicate": "继承",
+      "object": "父材质",
+      "context": "材质实例从父材质继承所有属性，形成层级父子关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质实例编辑器",
+      "predicate": "用于",
+      "object": "自定义材质实例",
+      "context": "材质实例编辑器提供了界面来编辑材质实例的参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "参数化材质",
+      "predicate": "包含",
+      "object": "参数",
+      "context": "参数化材质通过参数节点使材质属性在实例中可编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "标量参数",
+      "predicate": "用于",
+      "object": "控制单值效果",
+      "context": "标量参数包含单个浮点值，常用于控制粗糙度、金属感等单值属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "向量参数",
+      "predicate": "用于",
+      "object": "提供可配置颜色",
+      "context": "向量参数包含4通道向量值，常用于提供可配置的颜色或位置数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理参数",
+      "predicate": "允许",
+      "object": "更改材质实例中的纹理",
+      "context": "纹理参数如TextureSampleParameter2D允许在材质实例中更换纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态参数",
+      "predicate": "在",
+      "object": "编译时应用",
+      "context": "静态参数在编译时应用，不能在运行时编辑，但可以优化材质性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "常量材质实例",
+      "predicate": "在",
+      "object": "运行前计算",
+      "context": "常量材质实例在运行前计算一次，不能在Gameplay期间改变",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态材质实例",
+      "predicate": "可以在",
+      "object": "运行时计算",
+      "context": "动态材质实例可以在Gameplay期间通过脚本更改材质参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质实例",
+      "predicate": "基于",
+      "object": "参数化材质",
+      "context": "材质实例需要基于参数化的父材质创建，才能编辑特定属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质实例化",
+      "predicate": "提高",
+      "object": "材质性能",
+      "context": "材质实例化通过避免重新编译提高了材质性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动态材质实例",
+      "predicate": "创建自",
+      "object": "常量材质实例",
+      "context": "动态材质实例可以在运行时从常量材质实例创建",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "静态开关参数",
+      "predicate": "属于",
+      "object": "静态参数",
+      "context": "静态开关参数是一种静态参数类型，用于遮罩材质分支",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质实例命名规范",
+      "predicate": "有助于",
+      "object": "识别父材质和实例",
+      "context": "使用M_前缀表示父材质，MI_前缀表示材质实例的命名规范有助于内容管理",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:35:46.078Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8219 字符)",
+      "timestamp": "2025-06-15T19:34:57.582Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13447,
+    "contentLength": 8219,
+    "processingTimeMs": 48507
+  }
+}

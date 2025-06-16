@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_creating-oidc-tokens-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_creating-oidc-tokens-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "OIDC令牌",
+      "predicate": "用于",
+      "object": "云服务",
+      "context": "OIDC令牌用于与虚幻编辑器结合使用的云服务，如云DDC，帮助学习者理解令牌在云服务集成中的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OIDC令牌",
+      "predicate": "生成",
+      "object": "身份提供商",
+      "context": "OIDC令牌由身份提供商生成，学习者需要了解令牌的来源和生成机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "身份提供商",
+      "predicate": "支持",
+      "object": "OIDC兼容",
+      "context": "身份提供商需要支持OIDC协议才能生成有效的OIDC令牌，这是学习者配置身份提供商时的关键点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Okta",
+      "predicate": "作为",
+      "object": "身份提供商",
+      "context": "Okta可以作为身份提供商用于生成OIDC令牌，学习者需要掌握其配置步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Microsoft Entra",
+      "predicate": "作为",
+      "object": "身份提供商",
+      "context": "Microsoft Entra（AzureAD）也可以作为身份提供商，学习者需要了解不同身份提供商的配置差异",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Okta",
+      "predicate": "需要",
+      "object": "自定义身份验证服务器",
+      "context": "Okta需要自定义身份验证服务器来处理OIDC登录，这是学习者配置Okta时的必要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Microsoft Entra",
+      "predicate": "需要",
+      "object": "应用程序注册",
+      "context": "Microsoft Entra需要应用程序注册来配置OIDC令牌，学习者需要掌握Azure门户中的相关操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OIDC令牌",
+      "predicate": "依赖",
+      "object": "配置文件",
+      "context": "OIDC令牌的生成依赖配置文件（如oidc-configuration.json），学习者需要了解配置文件的结构和位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "配置文件",
+      "predicate": "包含",
+      "object": "Providers配置",
+      "context": "配置文件中包含Providers配置，用于指定身份提供商的详细信息，学习者需要掌握其参数含义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Okta",
+      "predicate": "支持",
+      "object": "交互式登录",
+      "context": "Okta支持交互式登录和无人值守登录两种方式，学习者需要根据场景选择合适的登录方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Microsoft Entra",
+      "predicate": "支持",
+      "object": "单一租户",
+      "context": "Microsoft Entra支持单一租户配置，学习者需要了解租户概念及其在配置中的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OIDC令牌",
+      "predicate": "用于",
+      "object": "云DDC",
+      "context": "OIDC令牌特别适用于云DDC（派生数据缓存）等云服务，帮助学习者理解令牌的具体应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "身份提供商",
+      "predicate": "提供",
+      "object": "访问控制",
+      "context": "身份提供商通过组和角色提供访问控制机制，学习者需要掌握如何配置和管理访问权限",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Okta",
+      "predicate": "需要",
+      "object": "组声明",
+      "context": "Okta需要配置组声明来管理用户权限，这是学习者实现精细访问控制的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Microsoft Entra",
+      "predicate": "需要",
+      "object": "安全组",
+      "context": "Microsoft Entra需要创建安全组来分配用户角色，学习者需要掌握Azure中的组管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:42:32.249Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10535,
+    "contentLength": 6667,
+    "processingTimeMs": 53740
+  }
+}

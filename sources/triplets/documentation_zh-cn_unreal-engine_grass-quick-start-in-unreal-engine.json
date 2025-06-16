@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_grass-quick-start-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_grass-quick-start-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "草地工具",
+      "predicate": "依赖",
+      "object": "地形Actor",
+      "context": "草地系统仅能与地形Actor配合使用，在其他Actor类型上无法生成草地",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形草地类型",
+      "predicate": "用于",
+      "object": "草地工具",
+      "context": "地形草地类型是草地工具的核心配置，定义了草地的静态网格体和生成参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "草地网格体",
+      "predicate": "属于",
+      "object": "地形草地类型",
+      "context": "草地网格体是地形草地类型的组成部分，用于实际表现草地外观",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形材质",
+      "predicate": "控制",
+      "object": "草地生成",
+      "context": "地形材质通过Landscape Grass Output节点控制草地的生成区域和方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Landscape Layer Blend",
+      "predicate": "属于",
+      "object": "地形材质",
+      "context": "Landscape Layer Blend节点用于混合不同的地形图层，是地形材质的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形绘图工具",
+      "predicate": "用于",
+      "object": "定义草地区域",
+      "context": "地形绘图工具用于在地形上绘制草地区域，决定草地的生成位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Open World Demo Collection",
+      "predicate": "包含",
+      "object": "草地资源",
+      "context": "Open World Demo Collection提供了草地工具所需的静态网格体和纹理资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "噪点工具",
+      "predicate": "用于",
+      "object": "地形雕刻",
+      "context": "噪点工具是地形雕刻工具的一种，用于为地形添加自然的不规则表面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "草地密度",
+      "predicate": "影响",
+      "object": "草地视觉效果",
+      "context": "草地密度参数控制单位面积内草地网格体的数量，直接影响草地的茂密程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "随机旋转",
+      "predicate": "增强",
+      "object": "草地自然感",
+      "context": "启用随机旋转可以使草地网格体呈现更自然、多样的分布效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对齐到表面",
+      "predicate": "确保",
+      "object": "草地贴合地形",
+      "context": "对齐到表面属性使草地网格体能够正确贴合地形表面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Landscape Grass Output",
+      "predicate": "连接",
+      "object": "地形草地类型",
+      "context": "Landscape Grass Output节点将地形材质与地形草地类型关联起来",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形图层",
+      "predicate": "对应",
+      "object": "材质混合",
+      "context": "每个地形图层对应材质中的一个混合通道，如草地和岩石图层",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "程序性植被工具",
+      "predicate": "扩展",
+      "object": "草地系统",
+      "context": "程序性植被工具可以与草地系统配合使用，创建更丰富的植被效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "地形雕刻工具",
+      "predicate": "前置",
+      "object": "草地布置",
+      "context": "使用地形雕刻工具创建地形特征后，才能在其上布置草地",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "定向光源",
+      "predicate": "影响",
+      "object": "草地视觉效果",
+      "context": "调整定向光源可以改变草地的光照效果，如清晨或黄昏的光照",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "植被系统",
+      "predicate": "补充",
+      "object": "草地工具",
+      "context": "植被系统工具可以用于微调由草地工具生成的植被分布",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "用于",
+      "object": "展示草地效果",
+      "context": "可以使用Sequencer创建摄像机动画来展示草地效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "笔刷大小",
+      "predicate": "控制",
+      "object": "草地绘制范围",
+      "context": "笔刷大小参数决定了绘制草地时的影响范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具强度",
+      "predicate": "控制",
+      "object": "草地绘制密度",
+      "context": "工具强度参数决定了绘制草地时的密度变化速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:16:58.287Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (16080 字符)",
+      "timestamp": "2025-06-15T19:16:01.722Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 22242,
+    "contentLength": 16080,
+    "processingTimeMs": 56568
+  }
+}

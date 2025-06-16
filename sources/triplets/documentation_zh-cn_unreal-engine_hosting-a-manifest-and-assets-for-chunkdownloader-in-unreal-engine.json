@@ -1,0 +1,115 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_hosting-a-manifest-and-assets-for-chunkdownloader-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_hosting-a-manifest-and-assets-for-chunkdownloader-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "ChunkDownloader",
+      "predicate": "依赖",
+      "object": "清单文件",
+      "context": "ChunkDownloader修补解决方案需要清单文件来获取要下载的.pak文件信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "清单文件",
+      "predicate": "包含",
+      "object": ".pak文件信息",
+      "context": "清单文件记录了所有需要下载的.pak文件的名称、大小、版本和路径等信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ChunkDownloader",
+      "predicate": "下载",
+      "object": ".pak文件",
+      "context": "ChunkDownloader根据清单文件中的信息逐个下载.pak文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "启用",
+      "object": "使用Pak文件",
+      "context": "在项目设置中启用'使用Pak文件'选项是使用ChunkDownloader的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "启用",
+      "object": "生成块",
+      "context": "启用'生成块'选项允许将资产分块打包为.pak文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主要资产标签",
+      "predicate": "关联",
+      "object": "文件块索引",
+      "context": "主要资产标签的文件块索引需要与清单文件中的.pak编号匹配",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "IIS",
+      "predicate": "托管",
+      "object": ".pak文件",
+      "context": "需要配置IIS服务器来托管.pak文件，以便ChunkDownloader可以下载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MIME类型",
+      "predicate": "配置",
+      "object": ".pak文件下载",
+      "context": "在IIS中添加.pak文件的MIME类型配置确保服务器可以正确提供.pak文件下载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DefaultGame.ini",
+      "predicate": "配置",
+      "object": "CDN基本URL",
+      "context": "在DefaultGame.ini中配置CDN基本URL指向托管.pak文件的服务器位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ChunkDownloader插件",
+      "predicate": "前置条件",
+      "object": "C++项目",
+      "context": "使用ChunkDownloader插件需要基于空白模板创建C++项目",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "打包流程",
+      "predicate": "生成",
+      "object": ".pak文件",
+      "context": "打包项目时会生成包含资产的.pak文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据资产",
+      "predicate": "调整",
+      "object": "主要资产标签",
+      "context": "需要为添加的资产调整数据资产，基于主要资产标签",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:22:24.214Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8024 字符)",
+      "timestamp": "2025-06-15T19:21:32.852Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 10738,
+    "contentLength": 8024,
+    "processingTimeMs": 51371
+  }
+}

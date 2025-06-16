@@ -1,0 +1,163 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-blueprint-node-functions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-blueprint-node-functions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "动画节点函数",
+      "predicate": "属于",
+      "object": "函数图表",
+      "context": "动画节点函数是函数图表的一种特殊类型，专门用于动画蓝图节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画节点函数",
+      "predicate": "绑定到",
+      "object": "动画蓝图节点",
+      "context": "动画节点函数可以绑定到动画蓝图节点的特定更新点，如On Initial Update、On Become Relevant等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画节点函数",
+      "predicate": "提高",
+      "object": "动画系统性能",
+      "context": "通过仅在特定点执行逻辑，动画节点函数可以减少不必要的计算，提高性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "On Initial Update",
+      "predicate": "用于",
+      "object": "设置常量值",
+      "context": "首次更新节点前调用，适合设置不会变化的组件引用或静态值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "On Become Relevant",
+      "predicate": "用于",
+      "object": "设置动态值",
+      "context": "节点变得相关时调用，适合设置节点需要的动态值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "On Update",
+      "predicate": "用于",
+      "object": "更新动态值",
+      "context": "每次更新节点时调用，适合设置节点更新期间需要的动态值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画节点函数",
+      "predicate": "包含",
+      "object": "输入引脚",
+      "context": "函数自动创建输入引脚，用于从动画蓝图节点传递数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "上下文引脚",
+      "predicate": "传递",
+      "object": "增量时间",
+      "context": "上下文引脚可以传递与节点相关的数据，如增量时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "节点引脚",
+      "predicate": "传递",
+      "object": "节点自身",
+      "context": "节点引脚允许节点将自身传递给函数，通常需要转换为特定节点类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequence Player节点",
+      "predicate": "用于",
+      "object": "播放动画序列",
+      "context": "Sequence Player节点可以直接在动画节点函数中与动画序列交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Set Sequence",
+      "predicate": "设置",
+      "object": "动画序列",
+      "context": "Set Sequence节点用于设置Sequence Player或Evaluator节点播放的动画序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Set State节点",
+      "predicate": "用于",
+      "object": "设置动画状态",
+      "context": "Set State节点可以直接设置动画状态机的状态，无需过渡逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get State节点",
+      "predicate": "用于",
+      "object": "获取当前状态",
+      "context": "Get State节点可以确定当前激活的动画状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Is State Blending In/Out节点",
+      "predicate": "用于",
+      "object": "确定混合状态",
+      "context": "这些节点可以确定当前状态是向内还是向外混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Convert节点",
+      "predicate": "用于",
+      "object": "转换节点类型",
+      "context": "Convert节点可以将节点数据转换为特定类型，如Sequence Player或Animation State Machine",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画节点函数",
+      "predicate": "可以绑定到",
+      "object": "动画状态",
+      "context": "函数可以直接绑定到动画状态的输出节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画节点函数",
+      "predicate": "参考示例",
+      "object": "距离匹配",
+      "context": "距离匹配文档提供了使用动画节点函数的示例工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画节点函数",
+      "predicate": "学习资源",
+      "object": "Lyra示例项目",
+      "context": "Lyra示例项目提供了动画节点函数的使用示例",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:00:21.028Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11569 字符)",
+      "timestamp": "2025-06-15T17:59:22.063Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17601,
+    "contentLength": 11569,
+    "processingTimeMs": 58977
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_input-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_input-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "PlayerInput",
+      "predicate": "转换",
+      "object": "硬件输入",
+      "context": "PlayerInput负责将玩家的硬件输入转换为游戏事件和运动，这是理解输入处理流程的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PlayerInput",
+      "predicate": "属于",
+      "object": "输入处理流程",
+      "context": "PlayerInput是输入处理流程的一部分，帮助学习者理解输入系统的整体架构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入处理流程",
+      "predicate": "包含",
+      "object": "玩家输入映射",
+      "context": "输入处理流程通过玩家输入映射实现输入转换，这是输入系统的重要组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入处理流程",
+      "predicate": "包含",
+      "object": "输入组件",
+      "context": "输入组件是输入处理流程的另一重要组成部分，帮助学习者理解输入系统的模块化设计",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PlayerInput",
+      "predicate": "服务于",
+      "object": "PlayerControllers",
+      "context": "PlayerInput将输入数据转换为PlayerControllers可以理解的形式，这是玩家控制角色的关键环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PlayerInput",
+      "predicate": "服务于",
+      "object": "Pawn",
+      "context": "PlayerInput也将输入数据转换为Pawn可以理解的形式，Pawn是游戏中可控制实体的基类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "增强输入插件",
+      "predicate": "扩展",
+      "object": "输入处理流程",
+      "context": "增强输入插件是对基础输入系统的扩展，为学习者提供了更高级的输入处理选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RawInput插件",
+      "predicate": "提供",
+      "object": "低级输入访问",
+      "context": "RawInput插件提供了对硬件输入的低级访问，适合需要精细控制输入的学习者",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "力反馈",
+      "predicate": "实现",
+      "object": "触觉反馈",
+      "context": "力反馈系统通过移动设备和控制器的振动功能实现触觉反馈，增强游戏沉浸感",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入概述",
+      "predicate": "前置学习",
+      "object": "设置Actor的输入",
+      "context": "理解输入概述是学习如何为Actor设置输入的基础",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "设置用户输入",
+      "predicate": "依赖",
+      "object": "输入映射",
+      "context": "设置用户输入需要理解和配置输入映射，这是输入系统的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "增强输入插件",
+      "predicate": "替代",
+      "object": "传统输入系统",
+      "context": "增强输入插件提供了比传统输入系统更强大的功能，学习者可以了解输入系统的演进",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "PlayerControllers",
+      "predicate": "控制",
+      "object": "Pawn",
+      "context": "PlayerControllers通常控制Pawn的行为，这是理解玩家输入如何影响游戏实体的重要关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:35:43.367Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3042,
+    "contentLength": 2412,
+    "processingTimeMs": 45796
+  }
+}

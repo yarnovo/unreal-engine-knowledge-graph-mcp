@@ -1,0 +1,157 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_cinematic-workflow-guides-and-examples-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_cinematic-workflow-guides-and-examples-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Sequencer",
+      "predicate": "用于",
+      "object": "过场动画制作",
+      "context": "Sequencer是虚幻引擎中专门用于创建和编辑过场动画的核心工具",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "关卡序列",
+      "predicate": "基于",
+      "object": "Sequencer",
+      "context": "关卡序列是Sequencer中创建的基本过场动画单元",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态变换",
+      "predicate": "应用于",
+      "object": "关卡序列",
+      "context": "动态变换技术允许在运行时改变关卡序列的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "混合",
+      "object": "Sequencer动画",
+      "context": "动画蓝图可以与Sequencer中的动画进行无缝混合",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质切换",
+      "predicate": "实现于",
+      "object": "Sequencer",
+      "context": "Sequencer提供了在序列中动态改变Actor材质的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家引用",
+      "predicate": "通过",
+      "object": "代理替代项",
+      "context": "在Sequencer中引用玩家需要使用代理替代项技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视频渲染",
+      "predicate": "输出",
+      "object": "过场动画序列",
+      "context": "Sequencer可以将过场动画序列渲染为视频文件",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "多摄像机渲染",
+      "predicate": "支持",
+      "object": "Sequencer",
+      "context": "Sequencer支持从多个摄像机角度渲染同一序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件轨迹",
+      "predicate": "触发",
+      "object": "蓝图事件",
+      "context": "Sequencer的事件轨迹可以触发蓝图中的事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头试拍录制器",
+      "predicate": "用于",
+      "object": "动作捕捉",
+      "context": "镜头试拍录制器可用于记录动作捕捉数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头切换",
+      "predicate": "创建于",
+      "object": "Sequencer",
+      "context": "Sequencer提供了创建专业镜头切换的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态对象",
+      "predicate": "重新绑定",
+      "object": "Sequencer",
+      "context": "Sequencer支持在运行时将序列重新绑定到动态对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG",
+      "predicate": "应用",
+      "object": "烧入内容",
+      "context": "UMG覆层可以应用到Sequencer渲染的影片中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画实例",
+      "predicate": "控制",
+      "object": "Sequencer",
+      "context": "Sequencer可以控制动画实例上的变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑决策表(EDL)",
+      "predicate": "导入导出",
+      "object": "视频编辑软件",
+      "context": "EDL支持与外部视频编辑软件交换数据",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏事件",
+      "predicate": "触发",
+      "object": "序列播放",
+      "context": "游戏中的事件可以触发Sequencer序列的播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer修改",
+      "predicate": "保存",
+      "object": "初始状态",
+      "context": "Sequencer的修改可以被保存或恢复到初始状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "获取姿势",
+      "object": "关卡序列",
+      "context": "动画蓝图的姿势可以与关卡序列中的动画混合",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:24:33.167Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7399,
+    "contentLength": 5597,
+    "processingTimeMs": 59672
+  }
+}

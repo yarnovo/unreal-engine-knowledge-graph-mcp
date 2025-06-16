@@ -1,0 +1,163 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_modifying-the-navigation-mesh-preparation-guide-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_modifying-the-navigation-mesh-preparation-guide-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "导航网格体边界体积",
+      "predicate": "用于",
+      "object": "生成导航网格体",
+      "context": "导航网格体边界体积用于定义导航网格体的生成范围，是导航系统的基础组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RecastNavMesh-Default",
+      "predicate": "实现",
+      "object": "导航网格体",
+      "context": "RecastNavMesh-Default是虚幻引擎默认的导航网格体实现，负责实际导航数据的生成和管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导航系统",
+      "predicate": "依赖",
+      "object": "导航网格体",
+      "context": "导航系统需要导航网格体数据才能进行路径计算和AI移动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI代理",
+      "predicate": "使用",
+      "object": "导航系统",
+      "context": "AI代理通过导航系统在关卡中移动和寻路",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI MoveTo节点",
+      "predicate": "控制",
+      "object": "AI代理移动",
+      "context": "AI MoveTo节点是蓝图中的关键节点，用于控制AI代理移动到指定位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第三人称模板",
+      "predicate": "包含",
+      "object": "ThirdPersonCharacter蓝图",
+      "context": "第三人称模板项目默认包含ThirdPersonCharacter蓝图，可作为AI代理的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_NPC_ModNavMesh",
+      "predicate": "继承",
+      "object": "ThirdPersonCharacter蓝图",
+      "context": "BP_NPC_ModNavMesh是基于ThirdPersonCharacter蓝图修改而来，用于创建导航系统演示的AI代理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "目标列表",
+      "predicate": "存储",
+      "object": "目标Actor",
+      "context": "目标列表变量用于存储AI代理需要移动到的目标Actor引用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Random Reachable Point In Radius节点",
+      "predicate": "生成",
+      "object": "可达位置",
+      "context": "该节点在目标Actor周围生成随机可达位置，使AI移动更加自然",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导航系统设置",
+      "predicate": "控制",
+      "object": "自动生成导航数据",
+      "context": "项目设置中的导航系统选项控制是否自动生成导航数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基本关卡",
+      "predicate": "用于",
+      "object": "导航系统测试",
+      "context": "基本关卡模板常用于快速搭建导航系统测试环境",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "组成",
+      "object": "测试关卡",
+      "context": "地板、墙壁等静态网格体是构建测试关卡的基本元素",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "蓝图编辑器",
+      "predicate": "用于",
+      "object": "修改AI行为",
+      "context": "蓝图编辑器是可视化编程工具，用于修改和扩展AI代理的行为逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件图表",
+      "predicate": "包含",
+      "object": "AI逻辑",
+      "context": "蓝图的事件图表包含AI移动和决策的核心逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Delay节点",
+      "predicate": "控制",
+      "object": "AI移动间隔",
+      "context": "Delay节点用于控制AI到达目标后的等待时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导航网格体",
+      "predicate": "影响",
+      "object": "AI移动路径",
+      "context": "导航网格体的形状和覆盖范围直接影响AI的可移动路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞预设",
+      "predicate": "影响",
+      "object": "导航生成",
+      "context": "Actor的碰撞设置会影响导航网格体的生成结果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "模拟模式",
+      "predicate": "用于",
+      "object": "测试AI行为",
+      "context": "编辑器的模拟模式允许开发者实时测试AI在关卡中的行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:58:49.078Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (17449 字符)",
+      "timestamp": "2025-06-15T19:57:51.513Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 21663,
+    "contentLength": 17449,
+    "processingTimeMs": 57577
+  }
+}

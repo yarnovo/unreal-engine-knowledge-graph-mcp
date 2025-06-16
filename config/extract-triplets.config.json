@@ -13,7 +13,9 @@
   "processing": {
     "delayBetweenRequests": 1000,
     "maxRetries": 3,
-    "timeoutMs": 30000
+    "timeoutMs": 30000,
+    "concurrency": 15,
+    "batchDelayMs": 1500
   },
   "output": {
     "includeWarnings": true,

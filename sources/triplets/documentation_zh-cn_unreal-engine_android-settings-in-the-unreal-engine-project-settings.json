@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_android-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_android-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "APK打包",
+      "predicate": "属于",
+      "object": "Android设置",
+      "context": "APK打包是Android设置中的一个重要配置部分，包含多个与Android应用打包相关的设置项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android包名",
+      "predicate": "影响",
+      "object": "Play Store发布",
+      "context": "Android包名是应用在Play Store上的唯一标识，必须符合特定格式要求才能发布",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "最低SDK版本",
+      "predicate": "限制",
+      "object": "设备兼容性",
+      "context": "最低SDK版本设置决定了应用可以安装的最低Android系统版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "目标SDK版本",
+      "predicate": "影响",
+      "object": "应用行为",
+      "context": "目标SDK版本决定了应用将使用哪些API特性，影响应用在不同Android版本上的行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "安装位置",
+      "predicate": "控制",
+      "object": "存储位置",
+      "context": "安装位置设置决定了应用是安装在内部存储还是外部存储上",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AAB程序包",
+      "predicate": "替代",
+      "object": "APK",
+      "context": "AAB是Google Play推荐的应用发布格式，相比APK有更好的分发效率",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "OpenGL ES3.2",
+      "predicate": "支持",
+      "object": "高级图形效果",
+      "context": "启用OpenGL ES3.2支持可以让应用使用更先进的图形渲染技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Vulkan",
+      "predicate": "提供",
+      "object": "高性能渲染",
+      "context": "Vulkan支持可以提供比OpenGL更高效的图形渲染性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ARM64支持",
+      "predicate": "需要",
+      "object": "NDK r11c",
+      "context": "启用ARM64架构支持需要至少NDK r11c版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发行版签名",
+      "predicate": "需要",
+      "object": "密钥库",
+      "context": "为应用进行发行版签名需要提供有效的密钥库文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Google Play服务",
+      "predicate": "包含",
+      "object": "成就系统",
+      "context": "Google Play服务设置中包含成就和排行榜的映射配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频设置",
+      "predicate": "影响",
+      "object": "音频性能",
+      "context": "音频设置中的采样率、缓冲区大小等参数直接影响应用的音频性能和延迟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理格式",
+      "predicate": "影响",
+      "object": "内存占用",
+      "context": "不同的纹理格式(ETC2、ASTC等)对内存占用和渲染性能有不同影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AndroidManifest.xml",
+      "predicate": "由",
+      "object": "引擎生成",
+      "context": "现代虚幻引擎版本会自动生成AndroidManifest.xml文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gradle",
+      "predicate": "需要",
+      "object": "SDK许可证",
+      "context": "使用Gradle构建系统需要先接受SDK许可证协议",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "沉浸式全屏",
+      "predicate": "隐藏",
+      "object": "导航按钮",
+      "context": "启用沉浸式全屏模式可以隐藏Android系统的软件导航按钮",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟键盘",
+      "predicate": "影响",
+      "object": "输入体验",
+      "context": "虚拟键盘设置决定了用户输入文本时的交互方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "方向设置",
+      "predicate": "控制",
+      "object": "屏幕方向",
+      "context": "方向设置决定了应用支持的屏幕方向(纵向、横向等)",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lint检查",
+      "predicate": "帮助",
+      "object": "代码质量",
+      "context": "启用Lint检查可以帮助发现Java代码中的潜在问题",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "OBB文件",
+      "predicate": "替代",
+      "object": "APK内数据",
+      "context": "OBB文件可以用来存储大型游戏数据，避免APK文件过大",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:57:52.084Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (19022 字符)",
+      "timestamp": "2025-06-15T17:56:50.847Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 30699,
+    "contentLength": 19022,
+    "processingTimeMs": 61244
+  }
+}

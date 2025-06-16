@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_rendering-from-multiple-camera-angles-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_rendering-from-multiple-camera-angles-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "影片渲染队列",
+      "predicate": "用于",
+      "object": "多摄像机角度渲染",
+      "context": "影片渲染队列是专门用于从多个摄像机角度渲染序列的工具，帮助学习者理解其在多角度渲染工作流中的核心作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "过场动画摄像机",
+      "predicate": "生成",
+      "object": "镜头切换轨道",
+      "context": "创建过场动画摄像机会自动生成关联的镜头切换轨道，这是理解摄像机与序列编辑基础关联的关键知识点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "包含",
+      "object": "摄像机轨道",
+      "context": "Sequencer通过摄像机轨道管理多个摄像机视角，这是学习多摄像机工作流的基础结构关系",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染队列插件",
+      "predicate": "依赖",
+      "object": "渲染模块",
+      "context": "该插件属于引擎渲染模块的扩展组件，理解这种依赖关系有助于掌握引擎模块化架构",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "多摄像机渲染",
+      "predicate": "替代",
+      "object": "镜头试拍",
+      "context": "文档明确指出多摄像机渲染可以避免使用镜头试拍导致的资产分散问题，这是重要的技术选型知识",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "摄像机设置",
+      "predicate": "包含",
+      "object": "关键帧动画",
+      "context": "摄像机设置过程包含关键帧动画制作，这是学习摄像机工作流的重要步骤关联",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染队列",
+      "predicate": "支持",
+      "object": "格式字符串",
+      "context": "支持{camera_name}等格式字符串实现自动化命名，这是输出管理的重要功能特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染设置",
+      "predicate": "控制",
+      "object": "输出目录结构",
+      "context": "通过渲染设置可以精细控制输出目录结构，这是学习渲染输出管理的核心配置项",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "可生成摄像机Actor",
+      "predicate": "属于",
+      "object": "过场动画摄像机类型",
+      "context": "明确摄像机Actor的类型归属，帮助学习者建立引擎对象分类认知",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "摄像机参数",
+      "predicate": "包含",
+      "object": "光圈/焦距/对焦距离",
+      "context": "这些专业参数是影视级摄像机控制的核心属性，对学习电影化制作至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:36:59.932Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9433,
+    "contentLength": 6527,
+    "processingTimeMs": 32407
+  }
+}

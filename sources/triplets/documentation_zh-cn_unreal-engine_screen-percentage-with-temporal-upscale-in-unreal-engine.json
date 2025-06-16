@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_screen-percentage-with-temporal-upscale-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_screen-percentage-with-temporal-upscale-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "屏幕百分比",
+      "predicate": "是",
+      "object": "分辨率调节技术",
+      "context": "屏幕百分比用于调节渲染分辨率与显示分辨率之间的关系，帮助平衡性能与图像质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主要空间放大",
+      "predicate": "替代",
+      "object": "屏幕百分比",
+      "context": "在UE4 4.19版之后，主要空间放大取代了原有的屏幕百分比功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "次要空间放大",
+      "predicate": "补充",
+      "object": "主要空间放大",
+      "context": "次要空间放大作为第二次空间放大传递，与主要空间放大共同完成分辨率调节",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "上采样",
+      "predicate": "是",
+      "object": "低分辨率放大技术",
+      "context": "当使用较低屏幕百分比时，通过上采样将图像放大到目标分辨率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "超级取样",
+      "predicate": "是",
+      "object": "高分辨率缩小技术",
+      "context": "当使用较高屏幕百分比时，通过超级取样将图像缩小到目标分辨率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时序抗锯齿上采样(TAAU)",
+      "predicate": "结合",
+      "object": "时序抗锯齿(TAA)",
+      "context": "TAAU将TAA与上采样过程结合，同时执行临时集成和放大",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TAAU",
+      "predicate": "提供",
+      "object": "更锐利的图像",
+      "context": "相比单独使用空间放大，TAAU能产生更锐利的图像，但计算成本更高",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Automatic View Mip Bias",
+      "predicate": "用于",
+      "object": "纹理锐度保持",
+      "context": "在低屏幕百分比下，Automatic View Mip Bias帮助保持纹理输出的锐度",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "次要空间放大",
+      "predicate": "适用于",
+      "object": "高DPI显示器",
+      "context": "次要空间放大特别适合高DPI显示器，可以避免过高的渲染分辨率",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "VR像素密度",
+      "predicate": "替代",
+      "object": "VR屏幕百分比",
+      "context": "在VR开发中，像素密度取代了原来的屏幕百分比控制方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.Upscale.Quality",
+      "predicate": "控制",
+      "object": "空间放大质量",
+      "context": "该控制台变量用于设置空间放大的质量级别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.TemporalAA.Upsampling",
+      "predicate": "启用",
+      "object": "TAAU",
+      "context": "该控制台变量用于启用或禁用时序抗锯齿上采样",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Screen Position表达式",
+      "predicate": "提供",
+      "object": "高精度像素位置",
+      "context": "更新后的Screen Position表达式提供更准确的像素位置信息",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质后期处理",
+      "predicate": "受影响于",
+      "object": "TAAU",
+      "context": "在TAAU之后运行的材质后期处理需要考虑分辨率变化的影响",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动态分辨率",
+      "predicate": "协同工作",
+      "object": "屏幕百分比",
+      "context": "动态分辨率可以与屏幕百分比技术配合使用，更好地匹配GPU预算",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T20:40:35.063Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13397 字符)",
+      "timestamp": "2025-06-15T20:39:43.127Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 22645,
+    "contentLength": 13397,
+    "processingTimeMs": 51938
+  }
+}

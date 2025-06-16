@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_city-sample-quick-start-for-generating-a-city-and-freeway-in-unreal-engine-5",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_city-sample-quick-start-for-generating-a-city-and-freeway-in-unreal-engine-5.md",
+  "triples": [
+    {
+      "subject": "城市示例项目",
+      "predicate": "使用",
+      "object": "Houdini Engine",
+      "context": "城市示例项目利用Houdini Engine的程序化生成数据来创建模拟世界",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Houdini Engine",
+      "predicate": "生成",
+      "object": "程序化数据",
+      "context": "Houdini Engine用于生成城市和高速公路的程序化数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "程序化数据",
+      "predicate": "控制",
+      "object": "AI模拟",
+      "context": "从Houdini生成的数据用于控制AI模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "程序化数据",
+      "predicate": "控制",
+      "object": "音效模拟",
+      "context": "从Houdini生成的数据用于控制音效模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "规则处理器",
+      "predicate": "处理",
+      "object": "点云数据",
+      "context": "规则处理器用于处理从Houdini导入的点云数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "点云数据",
+      "predicate": "用于",
+      "object": "区域图表",
+      "context": "点云数据用于生成交通模拟的区域图表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区",
+      "predicate": "支持",
+      "object": "层级细节级别网格体",
+      "context": "世界分区系统支持生成层级细节级别网格体，用于远距离显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "城市示例项目",
+      "predicate": "依赖",
+      "object": "Houdini Engine插件",
+      "context": "城市示例项目需要启用Houdini Engine插件才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交通模拟",
+      "predicate": "基于",
+      "object": "点云数据",
+      "context": "交通模拟基于从Houdini生成的点云数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "区域图表生成功能",
+      "predicate": "使用",
+      "object": "编辑器工具控件",
+      "context": "区域图表生成功能通过专门的编辑器工具控件执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区HLOD",
+      "predicate": "优化",
+      "object": "远距离渲染",
+      "context": "世界分区的层级细节级别网格体优化了远距离对象的渲染性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "城市生成流程",
+      "predicate": "包含",
+      "object": "数据导入",
+      "context": "城市生成流程包含将Houdini生成的数据导入虚幻引擎的步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "城市生成流程",
+      "predicate": "包含",
+      "object": "规则处理",
+      "context": "城市生成流程包含使用规则处理器处理导入数据的步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "城市生成流程",
+      "predicate": "包含",
+      "object": "HLOD生成",
+      "context": "城市生成流程包含为世界分区生成层级细节级别网格体的步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CityTrafficBuilder_BP",
+      "predicate": "使用",
+      "object": "点云数据",
+      "context": "CityTrafficBuilder_BP蓝图使用点云数据来生成城市交通",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FreewayTrafficBuilder_BP",
+      "predicate": "使用",
+      "object": "点云数据",
+      "context": "FreewayTrafficBuilder_BP蓝图使用点云数据来生成高速公路交通",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WBP_CitySampleZoneGraphBuilder",
+      "predicate": "执行",
+      "object": "区域图表生成",
+      "context": "WBP_CitySampleZoneGraphBuilder编辑器工具控件专门用于执行区域图表生成任务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家出生点",
+      "predicate": "确定",
+      "object": "游戏起始位置",
+      "context": "玩家出生点确定了在编辑器中运行项目时的玩家开始位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "用于",
+      "object": "资产管理",
+      "context": "内容浏览器用于管理城市生成过程中使用的各种资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界大纲视图",
+      "predicate": "用于",
+      "object": "蓝图管理",
+      "context": "世界大纲视图用于查找和管理城市生成相关的蓝图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:24:55.705Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (21663 字符)",
+      "timestamp": "2025-06-15T18:23:33.502Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 32293,
+    "contentLength": 21663,
+    "processingTimeMs": 82209
+  }
+}

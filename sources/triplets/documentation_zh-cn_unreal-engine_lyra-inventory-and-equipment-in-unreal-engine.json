@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_lyra-inventory-and-equipment-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_lyra-inventory-and-equipment-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "物品栏",
+      "predicate": "包含",
+      "object": "物品栏片段",
+      "context": "物品栏片段是物品栏物品的重要组成部分，用于影响Gameplay和演示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物品栏物品",
+      "predicate": "关联",
+      "object": "装备物品",
+      "context": "物品栏物品可以配备为装备物品，两者在Lyra系统中紧密关联",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InventoryFragment_EquippableItem",
+      "predicate": "指定",
+      "object": "EquipmentDefinition",
+      "context": "该片段用于将物品栏物品与对应的装备定义配对",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InventoryManagerComponent",
+      "predicate": "管理",
+      "object": "InventoryItemInstance",
+      "context": "该组件负责管理物品栏物品实例的创建和维护",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EquipmentManagerComponent",
+      "predicate": "管理",
+      "object": "EquipmentInstance",
+      "context": "该组件负责管理装备物品实例的创建和维护",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InventoryItemDefinition",
+      "predicate": "包含",
+      "object": "InventoryFragment",
+      "context": "物品定义包含多个片段，用于描述物品的不同方面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EquipmentDefinition",
+      "predicate": "定义",
+      "object": "EquipmentInstance",
+      "context": "装备定义用于创建对应的装备实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "快速栏",
+      "predicate": "显示",
+      "object": "物品栏物品",
+      "context": "快速栏用于显示可配备的物品栏物品，方便玩家操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InventoryFragment_ReticleConfig",
+      "predicate": "指定",
+      "object": "自定义准星",
+      "context": "该片段用于指定配备物品时使用的准星配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ALyraWeaponSpawner",
+      "predicate": "实现",
+      "object": "物品拾取",
+      "context": "该类展示了物品拾取功能的具体实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RangedWeaponInstance",
+      "predicate": "继承",
+      "object": "EquipmentInstance",
+      "context": "远程武器实例是装备实例的特化版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InventoryItemInstance",
+      "predicate": "引用",
+      "object": "InventoryItemDefinition",
+      "context": "物品实例需要引用其原始定义以获取基本信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AppliedEquipmentEntry",
+      "predicate": "记录",
+      "object": "EquipmentInstance",
+      "context": "该条目用于记录装备实例与其源定义的对应关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InventoryFragment_SetStats",
+      "predicate": "授予",
+      "object": "Gameplay标签",
+      "context": "该片段用于授予基于Gameplay标签的堆栈，如弹药数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EquipmentInstance",
+      "predicate": "授予",
+      "object": "技能",
+      "context": "装备实例可以授予Pawn特定的技能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PickupDefinition",
+      "predicate": "定义",
+      "object": "物品拾取行为",
+      "context": "该资产类型定义了物品拾取的相关属性和行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物品栏",
+      "predicate": "独立于",
+      "object": "装备系统",
+      "context": "虽然Lyra中两者关联，但物品栏系统可以独立运行",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "W_QuickBar",
+      "predicate": "实现",
+      "object": "快速栏功能",
+      "context": "该控件蓝图实现了快速栏的UI功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "W_WeaponReticleHost",
+      "predicate": "实现",
+      "object": "自定义准星",
+      "context": "该控件蓝图实现了武器准星的显示功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InventoryFragment_PickupIcon",
+      "predicate": "定义",
+      "object": "拾取物品表示",
+      "context": "该片段定义了物品在世界中的拾取表示方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:48:15.692Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9547,
+    "contentLength": 5979,
+    "processingTimeMs": 66678
+  }
+}

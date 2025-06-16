@@ -1,0 +1,213 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_groom-scalability-and-performance-with-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_groom-scalability-and-performance-with-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Groom",
+      "predicate": "支持",
+      "object": "发束几何体",
+      "context": "Groom可以使用发束几何体来提供自然的毛发动态和外观，但需要分配性能预算",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom",
+      "predicate": "支持",
+      "object": "Groom发片",
+      "context": "如果无法使用发束几何体，Groom可以使用Groom发片作为替代方案",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom",
+      "predicate": "支持",
+      "object": "Groom网格体",
+      "context": "Groom可以使用Groom网格体作为发束几何体的替代方案",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发束几何体",
+      "predicate": "依赖",
+      "object": "平台支持",
+      "context": "发束几何体并非所有平台都支持，需要根据平台支持和可伸缩性设置选择使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom发片",
+      "predicate": "生成",
+      "object": "发片生成器插件",
+      "context": "Groom发片可以通过发片生成器插件导入或生成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom",
+      "predicate": "包含",
+      "object": "曲线",
+      "context": "Groom的复杂程度由其内含的曲线数量决定，曲线数量影响整体性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom",
+      "predicate": "包含",
+      "object": "点",
+      "context": "Groom的复杂程度由其内含的点数量决定，点数量影响整体性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom编辑器",
+      "predicate": "控制",
+      "object": "曲线/点数量",
+      "context": "可以在Groom编辑器的发束面板下减少曲线/点的数量以优化性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动LOD偏差",
+      "predicate": "减少",
+      "object": "曲线数量",
+      "context": "自动LOD偏差有助于更快地减少曲线的数量，从而优化性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发束渲染管线",
+      "predicate": "包含",
+      "object": "模拟",
+      "context": "发束渲染管线的第一阶段是模拟，导线的运动根据场景环境和Groom组件运动来模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发束渲染管线",
+      "predicate": "包含",
+      "object": "插值",
+      "context": "发束渲染管线的第二阶段是插值，导线的运动会转移到渲染发束",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发束渲染管线",
+      "predicate": "包含",
+      "object": "体素化",
+      "context": "发束渲染管线的第三阶段是体素化，毛发曲线被体素化以生成密度体积",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发束渲染管线",
+      "predicate": "包含",
+      "object": "主可视性",
+      "context": "发束渲染管线的第四阶段是主可视性，毛发曲线会针对当前摄像机视口进行光栅化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发束渲染管线",
+      "predicate": "包含",
+      "object": "光照",
+      "context": "发束渲染管线的第五阶段是光照，所有毛发样本在被照亮时都使用体素或深度阴影数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发束渲染管线",
+      "predicate": "包含",
+      "object": "合成",
+      "context": "发束渲染管线的最后阶段是合成，所有毛发样本重新组合并将最终的毛发像素合成到场景颜色缓冲区中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插值",
+      "predicate": "依赖",
+      "object": "模拟",
+      "context": "Groom在启用模拟时会运行插值步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插值",
+      "predicate": "依赖",
+      "object": "蒙皮绑定",
+      "context": "Groom在带有蒙皮绑定时会运行插值步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插值",
+      "predicate": "依赖",
+      "object": "径向偏差函数",
+      "context": "Groom在启用径向偏差函数时会运行插值步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "刚性绑定",
+      "predicate": "减少",
+      "object": "插值开销",
+      "context": "如果Groom绑定被设为刚性，则不会运行插值，可以节省部分开销",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "阴影投射",
+      "predicate": "依赖",
+      "object": "体素化",
+      "context": "Groom投射的所有阴影均由Groom的体素化产生",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "阴影质量",
+      "predicate": "依赖",
+      "object": "体素大小",
+      "context": "阴影的质量与体素大小相关，体素大小越大，阴影的外观越粗糙，但开销越低",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "阴影质量",
+      "predicate": "依赖",
+      "object": "体素的像素大小",
+      "context": "阴影的质量与体素的像素大小相关，可以降低体素化和照明的开销",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光线追踪",
+      "predicate": "禁用",
+      "object": "毛发发束几何体",
+      "context": "默认情况下，毛发发束的光线追踪几何体是禁用的，可以按资产和实例逐个选择是否启用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光线追踪",
+      "predicate": "耗费",
+      "object": "内存",
+      "context": "光线追踪Groom的几何体会耗费大量内存",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光线追踪",
+      "predicate": "耗费",
+      "object": "更新成本",
+      "context": "如果Groom带有动画，其光线追踪几何体的更新成本也不容忽视",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:17:13.070Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10385,
+    "contentLength": 6153,
+    "processingTimeMs": 71349
+  }
+}

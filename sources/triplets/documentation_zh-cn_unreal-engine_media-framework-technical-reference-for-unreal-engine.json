@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_media-framework-technical-reference-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_media-framework-technical-reference-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎媒体框架",
+      "predicate": "支持",
+      "object": "Electra媒体播放器",
+      "context": "文档明确指出Electra媒体播放器是虚幻引擎媒体框架的核心组件，支持多种文件格式和URL",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "H.264编码",
+      "predicate": "推荐用于",
+      "object": "MP4容器文件",
+      "context": "文档建议使用H.264编码的MP4容器文件以获得最佳兼容性和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WMF媒体插件",
+      "predicate": "依赖",
+      "object": "Windows Media Foundation",
+      "context": "WMF媒体插件基于Windows Media Foundation技术实现，用于处理Windows平台上的媒体播放和录制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WMF媒体插件",
+      "predicate": "支持",
+      "object": "自定义编码解码器",
+      "context": "文档说明可以在项目设置中为WMF媒体插件启用和允许非标准编码解码器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HAP编码解码器",
+      "predicate": "支持",
+      "object": "高质量媒体播放",
+      "context": "HAP编码解码器允许以较低的CPU/GPU处理能力播放高质量的媒体文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体框架",
+      "predicate": "包含",
+      "object": "故障排除功能",
+      "context": "文档详细介绍了媒体框架的故障排除方法，包括日志记录和输出日志检查",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WMF媒体插件",
+      "predicate": "提供",
+      "object": "播放优化选项",
+      "context": "WMF媒体插件提供了低延迟和硬件加速视频解码等播放优化选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬件加速视频解码",
+      "predicate": "是",
+      "object": "实验性功能",
+      "context": "文档明确指出硬件加速视频解码是实验性功能，不建议在发布项目中使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体框架",
+      "predicate": "存在",
+      "object": "平台特定限制",
+      "context": "文档列出了多个平台（如Android、Windows、Linux）上的已知问题和限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体播放器资源",
+      "predicate": "显示",
+      "object": "媒体源信息",
+      "context": "文档说明可以在媒体播放器资源的信息面板中查看媒体源的详细信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Electra媒体播放器",
+      "predicate": "支持",
+      "object": "多种文件格式",
+      "context": "文档提供了详细的文件格式支持表格，说明Electra媒体播放器支持多种文件扩展名",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "采集设备支持",
+      "predicate": "适用于",
+      "object": "Windows和Android",
+      "context": "文档说明从4.18版开始，媒体框架支持Windows和Android上的音频/视频采集硬件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体框架",
+      "predicate": "使用",
+      "object": "开发者工具进行故障排除",
+      "context": "文档建议使用开发者工具下的输出日志来诊断媒体源无法打开或播放的问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HAP编码解码器",
+      "predicate": "不支持",
+      "object": "嵌入式音频",
+      "context": "文档明确指出从4.23版起，HAP播放功能不支持嵌入式音频或时间码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WMF媒体插件",
+      "predicate": "有",
+      "object": "MP4容器限制",
+      "context": "文档指出WMF媒体插件对MP4容器有许多限制，并提供了Microsoft相关文档链接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:53:09.310Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11989,
+    "contentLength": 7607,
+    "processingTimeMs": 57717
+  }
+}

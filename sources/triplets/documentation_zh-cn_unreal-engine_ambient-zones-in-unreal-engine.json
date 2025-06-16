@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_ambient-zones-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_ambient-zones-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "环境区域",
+      "predicate": "是",
+      "object": "内部/外部环境音效解决方案",
+      "context": "环境区域是一种廉价的内部/外部环境音效解决方案，帮助学习者理解其基本功能和用途",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境区域",
+      "predicate": "控制",
+      "object": "音效Actor",
+      "context": "环境区域通过设置控制音效Actor的音量和LPF效果，帮助学习者理解其核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境区域",
+      "predicate": "依赖",
+      "object": "音频体积",
+      "context": "环境区域的设置需要通过音频体积的详细信息面板进行配置，帮助学习者理解其依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频体积",
+      "predicate": "包含",
+      "object": "环境区域设置",
+      "context": "音频体积的属性中包含环境区域设置，帮助学习者理解其结构关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境区域",
+      "predicate": "影响",
+      "object": "音效Actor的音量和LPF",
+      "context": "环境区域根据玩家位置动态调整音效Actor的音量和LPF，帮助学习者理解其动态行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效Actor",
+      "predicate": "属于",
+      "object": "Sound Class",
+      "context": "音效Actor需要分配到一个Sound Class，并且该Sound Class需要启用Apply Ambient Volumes，帮助学习者理解其配置要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sound Class",
+      "predicate": "支持",
+      "object": "Apply Ambient Volumes",
+      "context": "Sound Class的属性中需要启用Apply Ambient Volumes以支持环境区域功能，帮助学习者理解其配置步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境区域",
+      "predicate": "需要",
+      "object": "重新构建几何体",
+      "context": "在环境区域体积中放置音效Actor后需要重新构建几何体以检测位置，帮助学习者理解其操作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境区域",
+      "predicate": "降低",
+      "object": "音效设计师的工作量",
+      "context": "环境区域减少了音效Actor的数量，从而降低了音效设计师的工作量，帮助学习者理解其优势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境区域",
+      "predicate": "降低",
+      "object": "游戏系统的性能消耗",
+      "context": "环境区域减少了音效Actor的数量，从而降低了性能消耗，帮助学习者理解其性能优势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境区域设置",
+      "predicate": "包含",
+      "object": "Exterior Volume",
+      "context": "环境区域设置包含Exterior Volume属性，用于控制外部声音的音量，帮助学习者理解其配置选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境区域设置",
+      "predicate": "包含",
+      "object": "Interior Volume",
+      "context": "环境区域设置包含Interior Volume属性，用于控制内部声音的音量，帮助学习者理解其配置选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境区域设置",
+      "predicate": "包含",
+      "object": "Exterior LPF",
+      "context": "环境区域设置包含Exterior LPF属性，用于控制外部声音的低通滤波器，帮助学习者理解其配置选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境区域设置",
+      "predicate": "包含",
+      "object": "Interior LPF",
+      "context": "环境区域设置包含Interior LPF属性，用于控制内部声音的低通滤波器，帮助学习者理解其配置选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:56:20.591Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6819,
+    "contentLength": 4033,
+    "processingTimeMs": 52524
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_cross-compiler-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_cross-compiler-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "HLSL交叉编译器",
+      "predicate": "编译",
+      "object": "HLSL源代码",
+      "context": "HLSL交叉编译器的主要功能是将HLSL源代码编译成中间表示法，这是学习着色器编译流程的第一步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HLSL交叉编译器",
+      "predicate": "生成",
+      "object": "GLSL源代码",
+      "context": "编译器最终输出是GLSL兼容代码，这是跨平台着色器开发的关键转换步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HLSL交叉编译器",
+      "predicate": "基于",
+      "object": "Mesa GLSL编译器",
+      "context": "理解编译器架构需要知道其核心基于Mesa项目，这对研究编译器实现原理很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编译流程",
+      "predicate": "包含",
+      "object": "预处理阶段",
+      "context": "预处理是可选的初始阶段，学习者需要了解其与后续阶段的衔接关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编译流程",
+      "predicate": "包含",
+      "object": "解析阶段",
+      "context": "解析阶段生成AST，是理解编译器工作原理的关键环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编译流程",
+      "predicate": "包含",
+      "object": "优化阶段",
+      "context": "优化阶段对IR进行多遍处理，是性能优化的核心环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "抽象语法树(AST)",
+      "predicate": "转换为",
+      "object": "Mesa中间表示法(IR)",
+      "context": "AST到IR的转换是编译器前端到后端的关键过渡，涉及类型转换等重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "词法分析器",
+      "predicate": "生成",
+      "object": "标记流",
+      "context": "词法分析是编译的第一步，使用flex工具实现，对理解编译器构造很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "解析器",
+      "predicate": "使用",
+      "object": "bison工具",
+      "context": "了解解析器生成工具是扩展编译器功能的前提知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IR优化",
+      "predicate": "包括",
+      "object": "常量传播",
+      "context": "了解具体优化技术有助于编写更高效的着色器代码",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "扩展编译器",
+      "predicate": "需要修改",
+      "object": "ir_expression_operation枚举",
+      "context": "添加新表达式需要了解编译器内部数据结构，对高级开发者很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "内部函数",
+      "predicate": "通过",
+      "object": "_mesa_glsl_initialize_functions添加",
+      "context": "了解内部函数注册机制是扩展HLSL功能集的关键",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "一致变量打包",
+      "predicate": "优化",
+      "object": "运行时性能",
+      "context": "理解变量打包机制有助于编写GPU友好的着色器代码",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "GLSL生成",
+      "predicate": "基于",
+      "object": "ir_gen_glsl_visitor类",
+      "context": "了解访问者模式在代码生成中的应用，是编译器设计的典型模式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "函数重载解析",
+      "predicate": "使用",
+      "object": "rank_parameter_lists函数",
+      "context": "理解重载解析算法有助于掌握HLSL的类型系统特性",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "纹理操作",
+      "predicate": "通过",
+      "object": "gen_texture_op处理",
+      "context": "纹理操作是图形编程核心概念，了解其编译过程有助调试",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UnrealBuildTool",
+      "predicate": "不检测",
+      "object": "HLSLCC库变更",
+      "context": "了解构建系统限制对实际开发工作流很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "新类型添加",
+      "predicate": "需要修改",
+      "object": "glsl_type系统",
+      "context": "扩展类型系统需要理解编译器的类型表示架构",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "属性支持",
+      "predicate": "需要扩展",
+      "object": "解析器语法规则",
+      "context": "添加新属性是常见的编译器扩展场景，需要掌握语法规则修改方法",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "HLSL",
+      "predicate": "转换为",
+      "object": "GLSL",
+      "context": "这是跨平台渲染开发的核心技术，理解转换过程有助于解决平台兼容性问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:42:43.142Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10732,
+    "contentLength": 5750,
+    "processingTimeMs": 64631
+  }
+}

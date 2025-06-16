@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_optimizing-user-interfaces-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_optimizing-user-interfaces-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Slate",
+      "predicate": "支持",
+      "object": "活跃计时器系统",
+      "context": "活跃计时器系统允许Slate在无需更新UI时进入休眠状态，帮助学习者理解Slate的性能优化机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "活跃计时器系统",
+      "predicate": "用于",
+      "object": "UI性能优化",
+      "context": "活跃计时器系统通过控制UI更新频率来优化性能，是UI优化的重要技术手段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG",
+      "predicate": "遵循",
+      "object": "优化准则",
+      "context": "优化准则文档提供了减少UMG控件资源占用量的最佳实践，帮助学习者掌握UMG性能优化方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UI无效化",
+      "predicate": "实现",
+      "object": "选择性重绘",
+      "context": "UI无效化技术通过标记更改的控件实现选择性重绘，帮助学习者理解高效UI更新的原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UI无效化",
+      "predicate": "减少",
+      "object": "CPU使用量",
+      "context": "UI无效化通过避免不必要的重绘来节省CPU资源，是性能优化的重要技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate",
+      "predicate": "包含",
+      "object": "UI无效化机制",
+      "context": "Slate框架内置了UI无效化功能，帮助学习者理解Slate的核心优化特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG",
+      "predicate": "基于",
+      "object": "Slate",
+      "context": "UMG是构建在Slate框架之上的UI系统，理解这个关系有助于掌握虚幻引擎UI系统的层次结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HUD",
+      "predicate": "适用于",
+      "object": "优化准则",
+      "context": "优化准则同样适用于HUD的资源优化，帮助学习者将优化技术应用到不同UI组件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UI性能优化",
+      "predicate": "包含",
+      "object": "活跃计时器系统",
+      "context": "活跃计时器是UI性能优化的关键技术之一，帮助学习者建立完整的优化知识体系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UI性能优化",
+      "predicate": "包含",
+      "object": "UI无效化",
+      "context": "UI无效化是UI性能优化的另一项关键技术，与活跃计时器系统共同构成优化方案",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:14:04.473Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2074,
+    "contentLength": 1710,
+    "processingTimeMs": 37446
+  }
+}

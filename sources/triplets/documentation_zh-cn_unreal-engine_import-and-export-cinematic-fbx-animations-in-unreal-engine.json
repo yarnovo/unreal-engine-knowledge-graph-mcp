@@ -1,0 +1,181 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_import-and-export-cinematic-fbx-animations-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_import-and-export-cinematic-fbx-animations-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Sequencer",
+      "predicate": "导出",
+      "object": "FBX文件",
+      "context": "Sequencer可以将场景导出为FBX文件，以便在第三方应用程序中进行修改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX文件",
+      "predicate": "导入",
+      "object": "Sequencer",
+      "context": "修改后的FBX文件可以重新导入Sequencer，更新场景中的动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX导出选项",
+      "predicate": "包含",
+      "object": "FBX导出兼容性",
+      "context": "FBX导出选项窗口允许设置FBX导出兼容性版本，影响导出文件的兼容性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX导出选项",
+      "predicate": "包含",
+      "object": "顶点颜色",
+      "context": "导出时可以设置是否包含骨架网格体的顶点颜色信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX导出选项",
+      "predicate": "包含",
+      "object": "细节层级",
+      "context": "导出时可以设置是否包含骨架网格体的细节层级信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX导出选项",
+      "predicate": "包含",
+      "object": "碰撞",
+      "context": "导出时可以设置是否包含骨架网格体的碰撞信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX导出选项",
+      "predicate": "包含",
+      "object": "将骨骼运动映射到根",
+      "context": "启用该选项会将骨骼Actor运动映射到骨架的根骨骼",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "支持",
+      "object": "本地时间导出",
+      "context": "Sequencer支持按本地时间导出镜头，适用于逐一处理镜头的情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "支持",
+      "object": "主时间导出",
+      "context": "Sequencer支持按主时间导出镜头，适用于整体观看动画并与其他镜头对比的情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Maya",
+      "predicate": "需要",
+      "object": "时间设置对齐",
+      "context": "在Maya中编辑FBX文件前，需要将时间的工作单位设置成与虚幻引擎中使用的时率一致",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX文件",
+      "predicate": "导入",
+      "object": "Maya",
+      "context": "FBX文件可以导入Maya进行编辑，如修改摄像机移动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Maya",
+      "predicate": "导出",
+      "object": "FBX文件",
+      "context": "在Maya中完成编辑后，可以将场景导出为FBX文件以便重新导入虚幻引擎",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX导入选项",
+      "predicate": "包含",
+      "object": "强制执行顺X轴前视口",
+      "context": "导入FBX时可以启用强制执行顺X轴前视口选项，以正确转换坐标系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX导入选项",
+      "predicate": "包含",
+      "object": "创建摄像机",
+      "context": "导入FBX时可以启用创建摄像机选项，如果关卡中尚无摄像机",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "匹配",
+      "object": "物体名称",
+      "context": "导入FBX时，Sequencer会尝试匹配FBX文件和序列中的物体名称，以应用正确的修改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX文件",
+      "predicate": "应用于",
+      "object": "摄像机变换",
+      "context": "导入的FBX文件可以应用于摄像机的变换数据，更新其在场景中的移动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX文件",
+      "predicate": "应用于",
+      "object": "焦距关键帧",
+      "context": "导入的FBX文件可以设置焦距关键帧，改变镜头的外观",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "与",
+      "object": "Maya",
+      "context": "虚幻引擎和Maya可以通过FBX文件交换动画数据，实现跨平台工作流",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "不适用于",
+      "object": "主序列",
+      "context": "FBX导出/导入功能不适用于主序列，仅适用于普通关卡序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "不适用于",
+      "object": "镜头",
+      "context": "FBX导出/导入功能不适用于主序列中的镜头",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "不适用于",
+      "object": "子场景",
+      "context": "FBX导出/导入功能不适用于子场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:31:42.228Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8514,
+    "contentLength": 4916,
+    "processingTimeMs": 64653
+  }
+}

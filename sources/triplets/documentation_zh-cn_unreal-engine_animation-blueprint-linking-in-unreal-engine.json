@@ -1,0 +1,155 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-blueprint-linking-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-blueprint-linking-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "动画图表",
+      "context": "动画图表是动画蓝图的核心组成部分，用于定义动画逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "支持",
+      "object": "链接的动画图表",
+      "context": "动画蓝图可以通过Linked Anim Graph节点引用其他动画蓝图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "链接的动画图表",
+      "predicate": "引用",
+      "object": "动画蓝图",
+      "context": "Linked Anim Graph节点可以引用其他动画蓝图实现功能复用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "链接的动画图表",
+      "predicate": "包含",
+      "object": "输入姿势",
+      "context": "输入姿势节点允许链接的动画蓝图接收外部动画输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "链接的动画图表",
+      "predicate": "公开",
+      "object": "输入变量",
+      "context": "通过设置变量为实例可编辑，可以将变量公开给链接的动画图表使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "支持",
+      "object": "链接的动画层",
+      "context": "链接的动画层提供更标准化的动画蓝图复用方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "链接的动画层",
+      "predicate": "依赖",
+      "object": "动画层接口",
+      "context": "使用链接的动画层需要先创建定义预设层的动画层接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画层接口",
+      "predicate": "定义",
+      "object": "动画层",
+      "context": "动画层接口用于预定义动画蓝图中使用的共享动画层",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基础动画蓝图",
+      "predicate": "继承",
+      "object": "动画层接口",
+      "context": "基础动画蓝图通过绑定动画层接口来构建通用结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "特定动画蓝图",
+      "predicate": "扩展",
+      "object": "基础动画蓝图",
+      "context": "特定动画蓝图在基础蓝图结构上添加具体逻辑实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Link Anim Class Layers节点",
+      "predicate": "连接",
+      "object": "特定动画蓝图",
+      "context": "该节点用于将特定动画蓝图绑定到动画层系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图模板",
+      "predicate": "复用",
+      "object": "动画蓝图逻辑",
+      "context": "模板允许不绑定特定骨架的情况下复用动画逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图模板",
+      "predicate": "公开",
+      "object": "变量",
+      "context": "模板通过公开变量实现逻辑参数化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "链接的动画层",
+      "predicate": "优于",
+      "object": "链接的动画图表",
+      "context": "链接的动画层提供更标准化的复用方式，适合复杂项目",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "支持",
+      "object": "动画通知",
+      "context": "动画蓝图可以处理骨架动画通知",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "支持",
+      "object": "动画蒙太奇",
+      "context": "动画蓝图可以与动画蒙太奇配合使用",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "支持",
+      "object": "状态机",
+      "context": "状态机是动画蓝图中常用的动画控制方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:00:21.369Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11126 字符)",
+      "timestamp": "2025-06-15T17:59:22.056Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 18798,
+    "contentLength": 11126,
+    "processingTimeMs": 59319
+  }
+}

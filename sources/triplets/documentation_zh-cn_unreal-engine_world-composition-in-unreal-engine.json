@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_world-composition-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_world-composition-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "World Composition",
+      "predicate": "替代",
+      "object": "持久关卡",
+      "context": "World Composition旨在简化大型世界场景的管理，避免使用持久关卡来存储流送信息，从而解决团队协作中的瓶颈问题。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Composition",
+      "predicate": "依赖",
+      "object": "世界场景原点移位",
+      "context": "World Composition依赖于世界场景原点移位功能，以支持基于距离的关卡流送，突破引擎中WORLD_MAX常量的限制。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Composition",
+      "predicate": "被替代",
+      "object": "World Partition",
+      "context": "文档明确指出World Composition是旧版系统，推荐使用虚幻引擎5.0或更高版本中的World Partition来实现关卡流送。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Composition",
+      "predicate": "包含",
+      "object": "关卡层级",
+      "context": "激活World Composition后，项目中的所有关卡将显示在关卡窗口中，形成世界场景的层级结构。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Composition",
+      "predicate": "包含",
+      "object": "图层",
+      "context": "World Composition中的关卡可以分配到不同的图层，图层存储流送距离信息，影响关卡的加载行为。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Composition",
+      "predicate": "包含",
+      "object": "小地图",
+      "context": "小地图功能用于预览世界场景布局，显示关卡的位置和图像，支持拖动调整关卡位置。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Composition",
+      "predicate": "包含",
+      "object": "LOD设置",
+      "context": "World Composition支持为关卡设置LOD流送关卡，根据流送距离自动替换为简化版本，优化性能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Composition",
+      "predicate": "用于",
+      "object": "大型世界场景管理",
+      "context": "World Composition的主要目的是简化大型世界场景的管理，支持基于距离的关卡流送和世界场景原点移位。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Composition",
+      "predicate": "支持",
+      "object": "关卡流送",
+      "context": "World Composition通过扫描文件夹并将找到的关卡视为流送关卡，实现动态加载和卸载世界场景部分。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Composition",
+      "predicate": "支持",
+      "object": "地形关卡创建",
+      "context": "World Composition提供工具和功能支持创建和导入拼贴地形关卡，便于构建大型开放世界。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Composition",
+      "predicate": "支持",
+      "object": "多人游戏",
+      "context": "World Composition支持多人游戏场景，但需要注意世界场景原点移位的限制和解决方案。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "World Composition",
+      "predicate": "支持",
+      "object": "关卡细节查看",
+      "context": "World Composition提供关卡细节窗口，显示关卡的包名称、位置、LOD设置等信息，便于管理和调试。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Composition",
+      "predicate": "支持",
+      "object": "关卡边界Actor",
+      "context": "World Composition自动创建关卡边界Actor用于计算关卡大小，支持手动调整以优化小地图显示。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Composition",
+      "predicate": "支持",
+      "object": "安全编辑区域",
+      "context": "World Composition通过安全编辑区域和聚焦功能，确保编辑大型世界场景时的稳定性和精确性。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Composition",
+      "predicate": "支持",
+      "object": "自动LOD生成",
+      "context": "World Composition提供自动LOD生成功能，通过合并静态网格体Actor创建简化版本的关卡。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Composition",
+      "predicate": "支持",
+      "object": "拼贴地形导入",
+      "context": "World Composition支持从拼贴高度图导入地形关卡，便于从外部工具如World Machine导入数据。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Composition",
+      "predicate": "支持",
+      "object": "关卡蓝图",
+      "context": "World Composition允许通过关卡窗口中的按钮直接打开关卡蓝图，便于脚本编写和逻辑控制。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Composition",
+      "predicate": "支持",
+      "object": "实时编辑",
+      "context": "World Composition需要在视口中启用实时功能，以确保关卡边界Actor等功能的正常工作。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Composition",
+      "predicate": "支持",
+      "object": "地形Actor对齐",
+      "context": "World Composition确保地形Actor在不同关卡之间对齐，支持无缝编辑和拼接。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Composition",
+      "predicate": "支持",
+      "object": "UI键",
+      "context": "World Composition提供UI键功能，显示图层、WORLD_MAX、世界场景原点等关键信息，便于导航和管理。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:35:15.063Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8095 字符)",
+      "timestamp": "2025-06-15T21:34:15.932Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14866,
+    "contentLength": 8095,
+    "processingTimeMs": 59140
+  }
+}

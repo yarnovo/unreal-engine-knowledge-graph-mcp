@@ -1,0 +1,147 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_integrating-third-party-libraries-into-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_integrating-third-party-libraries-into-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "包含",
+      "object": "第三方库",
+      "context": "虚幻引擎的源代码包含多个第三方库，存储在特定目录下，这是引擎模块的规则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第三方插件模板",
+      "predicate": "用于",
+      "object": "集成第三方库",
+      "context": "插件浏览器中的第三方插件模板专门用于新建集成第三方库的插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": ".build.cs文件",
+      "predicate": "配置",
+      "object": "模块设置",
+      "context": ".build.cs文件用于配置虚幻引擎C++模块，包括第三方库的模块设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ModuleType.External",
+      "predicate": "指示",
+      "object": "无源代码模块",
+      "context": "设置ModuleType.External告知引擎不要查找或编译源代码，适用于无源代码的第三方库模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FPlatformProcess::GetDllHandle",
+      "predicate": "用于",
+      "object": "显式加载DLL",
+      "context": "该函数用于显式加载DLL，并处理DLL依赖性的解析，有助于解决Windows平台DLL加载问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "延迟加载DLL",
+      "predicate": "实现",
+      "object": "动态库加载策略",
+      "context": "延迟加载DLL是一种策略，允许在特定位置显式加载DLL，适用于引擎通常无法搜索到的路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Dependency Walker",
+      "predicate": "用于",
+      "object": "调试DLL加载问题",
+      "context": "Dependency Walker工具适用于检查模块中导入的DLL和函数，帮助解决DLL加载问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "macOS",
+      "predicate": "使用",
+      "object": "@rpath",
+      "context": "macOS使用@rpath作为动态库的安装名称，提供了灵活的路径解析方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "otool",
+      "predicate": "用于",
+      "object": "调试动态库加载问题",
+      "context": "otool命令行工具适用于检查可执行文件或动态库的运行时依赖性，帮助调试加载问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Linux",
+      "predicate": "使用",
+      "object": "RPATH",
+      "context": "Linux平台通过设置RPATH来指定动态库的搜索路径，解决运行时依赖性问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RuntimeDependencies",
+      "predicate": "用于",
+      "object": "暂存第三方DLL",
+      "context": "RuntimeDependencies用于在打包游戏时暂存第三方DLL到可执行文件旁，确保运行时可用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Windows.h",
+      "predicate": "包含",
+      "object": "WindowsHWrapper.h",
+      "context": "通过WindowsHWrapper.h包含标准Windows标头，避免宏定义冲突和编译问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "THIRD_PARTY_INCLUDES_START/END",
+      "predicate": "用于",
+      "object": "禁用警告",
+      "context": "这对宏用于临时禁用第三方代码中的常见警告，避免编译错误",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PRAGMA_PUSH_PLATFORM_DEFAULT_PACKING",
+      "predicate": "恢复",
+      "object": "默认打包和对齐",
+      "context": "这对宏用于恢复第三方代码中的默认打包和对齐设置，解决结构体对齐问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RTTI",
+      "predicate": "影响",
+      "object": "动态类型转换",
+      "context": "RTTI的启用或禁用会影响动态类型转换的行为，特别是在非UObject类型上",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealBuildTool",
+      "predicate": "自动处理",
+      "object": "RPATH",
+      "context": "UnrealBuildTool自动将RPATH搜索路径添加到构建的第三方动态库中，简化macOS和Linux平台的库加载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:37:11.914Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10920 字符)",
+      "timestamp": "2025-06-15T19:36:09.218Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17170,
+    "contentLength": 10920,
+    "processingTimeMs": 62702
+  }
+}

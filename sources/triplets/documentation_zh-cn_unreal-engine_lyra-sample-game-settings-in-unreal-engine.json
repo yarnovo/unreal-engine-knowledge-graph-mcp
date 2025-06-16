@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_lyra-sample-game-settings-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_lyra-sample-game-settings-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Lyra游戏设置插件",
+      "predicate": "管理",
+      "object": "用户界面及其底层数据",
+      "context": "Lyra游戏设置插件简化了UI和数据创建过程，帮助开发者集中管理配置数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGameSettingRegistry",
+      "predicate": "包含",
+      "object": "UGameSetting",
+      "context": "游戏设置注册表是一组设置的集合，每个设置都是UGameSetting的实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGameSetting",
+      "predicate": "是基类",
+      "object": "UGameSettingValue",
+      "context": "UGameSettingValue继承自UGameSetting，实现了有值设置的通用功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGameSettingValue",
+      "predicate": "有子类",
+      "object": "UGameSettingValueScalarDynamic",
+      "context": "UGameSettingValueScalarDynamic是处理标量值的具体实现类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGameSettingCollection",
+      "predicate": "组织",
+      "object": "UGameSetting",
+      "context": "游戏设置集合用于将相关设置分组，如创建标题组",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FGameSettingEditCondition",
+      "predicate": "控制",
+      "object": "UGameSetting",
+      "context": "编辑条件决定设置是否可编辑、隐藏或销毁，影响设置的可用性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FWhenPlatformHasTrait",
+      "predicate": "是子类",
+      "object": "FGameSettingEditCondition",
+      "context": "FWhenPlatformHasTrait专门处理基于平台特征的编辑条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGameSettingPanel",
+      "predicate": "显示",
+      "object": "UGameSetting",
+      "context": "游戏设置面板负责展示设置内容，需要注册表提供设置数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGameSettingVisualData",
+      "predicate": "定义",
+      "object": "UGameSettingListEntryBase",
+      "context": "可视化数据决定如何将设置类映射到UI列表条目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FGameSettingDataSourceDynamic",
+      "predicate": "实现",
+      "object": "动态Getter/Setter",
+      "context": "数据源动态类支持运行时访问设置值，减少冗余代码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "元数据属性说明符",
+      "predicate": "支持",
+      "object": "DynamicGetter/Setter",
+      "context": "UFUNCTION/UPROPERTY说明符确保数据访问在初始化时有效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGameSettingValueDiscrete_Language",
+      "predicate": "处理",
+      "object": "语言和文化设置",
+      "context": "专门的语言设置类直接操作引擎的语言配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FWhenCondition",
+      "predicate": "允许",
+      "object": "内联条件逻辑",
+      "context": "通过lambda表达式实现灵活的编辑条件判断",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分辨率设置",
+      "predicate": "依赖",
+      "object": "窗口模式设置",
+      "context": "分辨率设置的可用性取决于当前窗口模式的选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lyra游戏设置插件",
+      "predicate": "适用于",
+      "object": "服务器数据管理",
+      "context": "插件可以管理服务器上的数据，实现与关卡逻辑的交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:49:28.238Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9190,
+    "contentLength": 6330,
+    "processingTimeMs": 56414
+  }
+}

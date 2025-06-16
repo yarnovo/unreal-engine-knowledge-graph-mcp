@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_cameras-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_cameras-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "摄像机",
+      "predicate": "代表",
+      "object": "玩家视角",
+      "context": "摄像机定义了玩家如何查看游戏世界，是游戏视觉呈现的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PlayerController",
+      "predicate": "指定",
+      "object": "摄像机类",
+      "context": "PlayerController负责实例化和管理摄像机，控制玩家的视角",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CameraActor",
+      "predicate": "包含",
+      "object": "CameraComponent",
+      "context": "CameraActor是CameraComponent的包装器，便于在关卡中直接放置摄像机",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CameraComponent",
+      "predicate": "设置",
+      "object": "摄像机属性",
+      "context": "CameraComponent负责配置摄像机的投射类型、视野和后期处理效果等核心参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PlayerCameraManager",
+      "predicate": "管理",
+      "object": "摄像机",
+      "context": "PlayerCameraManager负责协调和管理玩家的摄像机，处理视角混合和特效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ViewTarget",
+      "predicate": "提供",
+      "object": "视角信息",
+      "context": "ViewTarget向PlayerCameraManager提供理想的视角参数，包括位置、旋转等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CameraComponent",
+      "predicate": "支持",
+      "object": "后期处理效果",
+      "context": "CameraComponent可以添加和调整后期处理效果，增强视觉表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PlayerController",
+      "predicate": "控制",
+      "object": "Pawn",
+      "context": "PlayerController通过控制Pawn来间接影响摄像机行为",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "CameraActor",
+      "predicate": "用于",
+      "object": "关卡设计",
+      "context": "CameraActor可以直接放置在关卡中，便于设计师配置摄像机",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "PlayerCameraManager",
+      "predicate": "混合",
+      "object": "摄像机视角",
+      "context": "PlayerCameraManager可以在不同摄像机之间平滑过渡，实现视角切换效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机",
+      "predicate": "包含",
+      "object": "透视模式",
+      "context": "摄像机支持透视模式，可以设置垂直视野（FOV）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机",
+      "predicate": "包含",
+      "object": "正交模式",
+      "context": "摄像机支持正交模式，可以用世界单位设置宽度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FrustumComponent",
+      "predicate": "显示",
+      "object": "摄像机视场",
+      "context": "FrustumComponent用于在编辑器中可视化摄像机的视场范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PlayerCameraManager",
+      "predicate": "继承自",
+      "object": "APlayerCameraManager",
+      "context": "开发者可以通过继承APlayerCameraManager创建自定义摄像机管理逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "BlueprintUpdateCamera",
+      "predicate": "实现",
+      "object": "自定义摄像机逻辑",
+      "context": "BlueprintUpdateCamera函数允许在蓝图中扩展摄像机行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机责任链",
+      "predicate": "传递",
+      "object": "摄像机数据",
+      "context": "摄像机数据通过责任链传递给渲染系统，最终形成场景视图",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "CameraAnim",
+      "predicate": "用于",
+      "object": "摄像机动画",
+      "context": "CameraAnim功能可以在摄像机上分层放置动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "正交摄像机",
+      "predicate": "是",
+      "object": "摄像机类型",
+      "context": "正交摄像机是一种特殊的摄像机类型，使用正交投影",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CalcCamera",
+      "predicate": "计算",
+      "object": "摄像机视图",
+      "context": "CalcCamera函数负责计算Actor或PlayerController的摄像机视图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UpdateViewTarget",
+      "predicate": "查询",
+      "object": "ViewTarget",
+      "context": "UpdateViewTarget函数获取当前ViewTarget的视角信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:19:23.031Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8822,
+    "contentLength": 6166,
+    "processingTimeMs": 63206
+  }
+}

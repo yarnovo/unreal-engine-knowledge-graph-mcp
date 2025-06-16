@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_lidar-point-cloud-plugin-quick-start-guide-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_lidar-point-cloud-plugin-quick-start-guide-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "LiDAR点云插件",
+      "predicate": "包含",
+      "object": "LiDAR点云支持插件",
+      "context": "LiDAR点云插件需要启用LiDAR点云支持插件才能使用，这是插件功能的基础依赖",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiDAR点云插件",
+      "predicate": "生成",
+      "object": "LidarPointCloudActor",
+      "context": "导入点云时会自动创建LidarPointCloudActor实例，这是插件处理点云数据的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LidarPointCloudActor",
+      "predicate": "支持",
+      "object": "点云碰撞构建",
+      "context": "LidarPointCloudActor需要构建碰撞才能实现实时探索功能，这是点云交互的基础",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiDAR点云插件",
+      "predicate": "提供",
+      "object": "点云编辑工具",
+      "context": "插件提供多种点云选择编辑工具（框形/多边形/套索/绘制选择），这是点云数据处理的核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "点云编辑工具",
+      "predicate": "包含",
+      "object": "隐藏/删除/裁剪功能",
+      "context": "编辑工具提供对选中点的基本操作功能，这是点云编辑的工作流程组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiDAR点云插件",
+      "predicate": "兼容",
+      "object": "Eye-Dome Lighting",
+      "context": "插件支持启用Eye-Dome Lighting增强深度感知，这是可视化效果的扩展功能",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "LiDAR点云插件",
+      "predicate": "依赖",
+      "object": "第三人称模板",
+      "context": "建议使用包含角色控制器的模板作为开发基础，这是插件使用的典型场景配置",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "点云碰撞构建",
+      "predicate": "需要",
+      "object": "Lidar模式",
+      "context": "构建碰撞需要在专用Lidar模式下操作，这是工作流程的必要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "点云编辑",
+      "predicate": "要求",
+      "object": "碰撞重建",
+      "context": "编辑点云后必须重建碰撞以保持功能完整性，这是数据修改后的必要操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiDAR点云插件",
+      "predicate": "关联",
+      "object": "玩家出生点组件",
+      "context": "测试碰撞功能时需要放置玩家出生点组件，这是功能验证的标准配置元素",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T19:44:18.583Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6308,
+    "contentLength": 4742,
+    "processingTimeMs": 55106
+  }
+}

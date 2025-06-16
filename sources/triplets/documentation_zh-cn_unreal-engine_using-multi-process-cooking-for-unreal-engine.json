@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-multi-process-cooking-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-multi-process-cooking-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "多进程烘焙",
+      "predicate": "包含",
+      "object": "worker子进程",
+      "context": "多进程烘焙通过多个worker子进程并行处理资产组，提高烘焙效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多进程烘焙",
+      "predicate": "包含",
+      "object": "director进程",
+      "context": "director进程负责分配资产组给worker并整理结果，是多进程烘焙的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多进程烘焙",
+      "predicate": "依赖",
+      "object": "CPU核心",
+      "context": "多进程烘焙的性能受限于可用CPU核心数量，核心不足会导致worker以单线程运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多进程烘焙",
+      "predicate": "依赖",
+      "object": "内存资源",
+      "context": "多进程烘焙需要比单进程更多的内存资源，内存不足会触发频繁垃圾回收",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多进程烘焙",
+      "predicate": "适用于",
+      "object": "大型项目",
+      "context": "对于资产量大的项目，多进程烘焙可显著缩短构建时间（测试显示约40%提升）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多进程烘焙",
+      "predicate": "不适用于",
+      "object": "小型项目",
+      "context": "如Lyra等小型项目可能因处理开销超过收益而不适合使用多进程烘焙",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "多进程烘焙",
+      "predicate": "配置参数",
+      "object": "CookProcessCount",
+      "context": "CookProcessCount是控制worker数量的核心参数，需要根据项目规模和硬件资源调整",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "多进程烘焙",
+      "predicate": "影响",
+      "object": "垃圾回收频率",
+      "context": "内存不足时多进程烘焙会触发更频繁的垃圾回收，反而降低性能",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "多进程烘焙",
+      "predicate": "增加",
+      "object": "调试复杂度",
+      "context": "多进程架构使得需要连接调试器的问题更难诊断，但提供了日志聚合功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "IMPCollector API",
+      "predicate": "用于",
+      "object": "多进程数据聚合",
+      "context": "高级插件开发者需要使用IMPCollector API在worker和director之间同步数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目启动程序",
+      "predicate": "支持",
+      "object": "AdditionalCookerOptions",
+      "context": "通过项目启动程序可以设置AdditionalCookerOptions参数来传递多进程配置",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "CookSettings配置节",
+      "predicate": "包含",
+      "object": "内存控制参数",
+      "context": "MemoryMinFreePhysical等参数可以调节烘焙器的内存使用行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区关卡",
+      "predicate": "限制",
+      "object": "工作负载平衡",
+      "context": "当前版本中世界分区关卡无法拆分到多个worker，导致工作转移失败",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UnrealAutomationTool",
+      "predicate": "支持",
+      "object": "多进程参数传递",
+      "context": "UAT可以通过AdditionalCookerOptions将多进程配置传递给烘焙器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:20:33.981Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8365,
+    "contentLength": 5139,
+    "processingTimeMs": 39195
+  }
+}

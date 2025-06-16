@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_adding-detail-textures-to-unreal-engine-materials",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_adding-detail-textures-to-unreal-engine-materials.md",
+  "triples": [
+    {
+      "subject": "细节纹理",
+      "predicate": "用于",
+      "object": "防止材质像素化",
+      "context": "细节纹理通过在原始纹理上叠加高度重复的纹理来改善材质的近距离外观",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节纹理化",
+      "predicate": "包含",
+      "object": "漫反射细节纹理",
+      "context": "细节纹理化技术需要同时使用漫反射和法线细节纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节纹理化",
+      "predicate": "包含",
+      "object": "法线细节纹理",
+      "context": "完整的细节纹理化需要同时处理漫反射和法线通道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节纹理材质函数",
+      "predicate": "实现",
+      "object": "细节纹理化",
+      "context": "材质函数封装了细节纹理化的完整逻辑，提供快速实现方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理对象",
+      "predicate": "需要",
+      "object": "细节纹理材质函数",
+      "context": "材质函数要求输入必须是纹理对象而非普通纹理采样",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理采样",
+      "predicate": "可转换为",
+      "object": "纹理对象",
+      "context": "通过右键菜单可将常规纹理采样节点转换为纹理对象",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缩放参数",
+      "predicate": "控制",
+      "object": "细节纹理平铺密度",
+      "context": "缩放值越大细节纹理平铺次数越多，视觉效果越精细",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "强度参数",
+      "predicate": "调节",
+      "object": "细节纹理可见度",
+      "context": "漫反射强度和法线强度参数分别控制对应细节纹理的混合程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "手动细节纹理设置",
+      "predicate": "替代",
+      "object": "细节纹理材质函数",
+      "context": "当无法使用预制函数时，可通过组合多个材质表达式节点手动实现相同效果",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "基于距离的纹理混合",
+      "predicate": "扩展",
+      "object": "细节纹理技术",
+      "context": "通过摄像机距离控制细节纹理的显示，解决大表面纹理重复问题",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "全局位置节点",
+      "predicate": "用于",
+      "object": "基于距离的混合",
+      "context": "计算物体表面位置与摄像机的距离关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "线性插值节点",
+      "predicate": "实现",
+      "object": "纹理过渡效果",
+      "context": "Lerp节点根据Alpha值在两个纹理之间平滑过渡",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "细节纹理",
+      "predicate": "影响",
+      "object": "渲染性能",
+      "context": "额外的纹理查找可能对移动平台性能产生负面影响",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "材质编辑器",
+      "predicate": "支持",
+      "object": "细节纹理实现",
+      "context": "提供可视化节点编辑环境来构建细节纹理材质",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "起步内容包",
+      "predicate": "包含",
+      "object": "测试用纹理资源",
+      "context": "提供现成的纹理资源用于细节纹理技术的学习和实践",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T17:54:59.437Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12300 字符)",
+      "timestamp": "2025-06-15T17:54:05.937Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 18358,
+    "contentLength": 12300,
+    "processingTimeMs": 53513
+  }
+}

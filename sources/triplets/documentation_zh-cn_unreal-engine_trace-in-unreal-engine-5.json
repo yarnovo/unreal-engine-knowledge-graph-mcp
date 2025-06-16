@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_trace-in-unreal-engine-5",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_trace-in-unreal-engine-5.md",
+  "triples": [
+    {
+      "subject": "Trace",
+      "predicate": "包含",
+      "object": "Tracelog",
+      "context": "Tracelog是Trace框架的重要组成部分，用于记录运行进程中的事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace",
+      "predicate": "包含",
+      "object": "TraceAnalysis",
+      "context": "TraceAnalysis是Trace框架的重要组成部分，用于分析追踪数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace",
+      "predicate": "依赖",
+      "object": "虚幻Trace服务器",
+      "context": "Trace框架需要虚幻Trace服务器来接收和记录追踪数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻Trace服务器",
+      "predicate": "组成",
+      "object": "Trace记录器",
+      "context": "Trace记录器是虚幻Trace服务器的核心组件，负责监听和记录追踪连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻Trace服务器",
+      "predicate": "组成",
+      "object": "Trace存储",
+      "context": "Trace存储是虚幻Trace服务器的核心组件，负责存储追踪数据文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace存储",
+      "predicate": "生成",
+      "object": "Trace数据文件",
+      "context": "Trace存储会将记录的追踪数据保存为文件，供Unreal Insights使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace Insights控件",
+      "predicate": "控制",
+      "object": "Trace数据",
+      "context": "Trace Insights控件提供界面来管理和控制Trace数据的记录和分析",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace数据",
+      "predicate": "包含",
+      "object": "通道",
+      "context": "通道控制Trace记录的数据类型和速率，是Trace数据的核心组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通道",
+      "predicate": "控制",
+      "object": "事件类型",
+      "context": "每个事件类型都与特定通道关联，通道决定哪些事件会被记录",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace截图",
+      "predicate": "属于",
+      "object": "Trace数据",
+      "context": "Trace截图是Trace数据的一种特殊类型，记录项目视口的图片",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace书签",
+      "predicate": "属于",
+      "object": "Trace数据",
+      "context": "Trace书签是Trace数据的一种特殊类型，用于标记重要事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "统计数据名称事件",
+      "predicate": "提供",
+      "object": "分析指标",
+      "context": "统计数据名称事件为Trace提供额外的性能分析指标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace目标",
+      "predicate": "决定",
+      "object": "Trace数据存储位置",
+      "context": "Trace目标设置决定了Trace数据是存储在Trace库还是特定文件中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "分析",
+      "object": "Trace数据",
+      "context": "Unreal Insights是专门用于分析和可视化Trace数据的工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace状态",
+      "predicate": "显示",
+      "object": "连接信息",
+      "context": "Trace状态命令可以查看Trace系统的连接状态和性能指标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "尾部追踪",
+      "predicate": "记录",
+      "object": "最近事件",
+      "context": "尾部追踪功能专门记录最近几秒内的事件，用于实时分析",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "延迟连接",
+      "predicate": "支持",
+      "object": "远程追踪",
+      "context": "延迟连接功能允许远程机器连接到Trace服务器进行追踪",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace用户指南",
+      "predicate": "指导",
+      "object": "Trace工作流程",
+      "context": "Trace用户指南文档提供了使用Trace系统的详细工作流程说明",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trace开发者指南",
+      "predicate": "指导",
+      "object": "自定义追踪器开发",
+      "context": "Trace开发者指南文档提供了开发自定义追踪器的技术指导",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:03:10.268Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13055 字符)",
+      "timestamp": "2025-06-15T21:02:21.335Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 18955,
+    "contentLength": 13055,
+    "processingTimeMs": 48944
+  }
+}

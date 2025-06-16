@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_configure-automation-tests-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_configure-automation-tests-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "测试组",
+      "predicate": "基于",
+      "object": "测试名称筛选条件",
+      "context": "测试组是通过测试名称的筛选条件来定义的，理解这一点有助于学习者掌握如何组织和分类测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "测试组",
+      "predicate": "通过",
+      "object": "DefaultEngine.ini配置",
+      "context": "测试组的定义需要在DefaultEngine.ini文件中进行配置，这是配置测试组的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "测试组",
+      "predicate": "引用方式",
+      "object": "命令行参数或测试自动化窗口",
+      "context": "测试组可以通过命令行参数或测试自动化窗口的筛选条件来引用，这为学习者提供了多种操作方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "排除测试",
+      "predicate": "通过",
+      "object": "DefaultEngine.ini配置",
+      "context": "排除测试需要在DefaultEngine.ini文件或平台配置文件中进行配置，这是管理测试排除的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "排除测试",
+      "predicate": "支持",
+      "object": "RHI条件排除",
+      "context": "排除测试可以基于渲染硬件接口（RHI）条件进行，这为学习者提供了更灵活的测试管理方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "排除测试",
+      "predicate": "显示为",
+      "object": "跳过（Skipped）",
+      "context": "被排除的测试将显示为跳过状态，并附带原因信息，这有助于学习者理解测试执行结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "测试自动化窗口",
+      "predicate": "提供",
+      "object": "排除测试功能",
+      "context": "测试自动化窗口提供了排除测试的功能，这是图形化界面中管理测试的重要方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化测试框架",
+      "predicate": "包含",
+      "object": "测试组功能",
+      "context": "测试组是自动化测试框架的重要组成部分，理解这一点有助于掌握测试的组织方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "自动化测试框架",
+      "predicate": "包含",
+      "object": "排除测试功能",
+      "context": "排除测试是自动化测试框架的重要功能，理解这一点有助于掌握测试的管理方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Gauntlet",
+      "predicate": "使用",
+      "object": "测试组",
+      "context": "Gauntlet测试框架可以使用测试组来引用测试，这扩展了测试组的应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:30:07.784Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2774,
+    "contentLength": 2018,
+    "processingTimeMs": 36449
+  }
+}

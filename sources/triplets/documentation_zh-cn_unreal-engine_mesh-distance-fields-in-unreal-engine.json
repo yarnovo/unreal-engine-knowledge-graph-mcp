@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_mesh-distance-fields-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_mesh-distance-fields-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "网格体距离场",
+      "predicate": "实现",
+      "object": "动态环境光遮蔽",
+      "context": "网格体距离场用于实现游戏中静态网格体Actor的动态环境光遮蔽效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体距离场",
+      "predicate": "实现",
+      "object": "动态阴影",
+      "context": "网格体距离场可用于生成动态阴影效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体距离场",
+      "predicate": "用于",
+      "object": "GPU粒子碰撞",
+      "context": "网格体距离场表达可用于GPU粒子碰撞计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体距离场",
+      "predicate": "基于",
+      "object": "有向距离场(SDF)",
+      "context": "网格体距离场技术使用有向距离场来表示静态网格体表面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "有向距离场(SDF)",
+      "predicate": "支持",
+      "object": "球体追踪",
+      "context": "有向距离场的属性使其适合用于球体追踪算法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "球体追踪",
+      "predicate": "用于",
+      "object": "光线追踪",
+      "context": "球体追踪是一种高效的光线追踪方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体距离场",
+      "predicate": "控制",
+      "object": "距离场分辨率比例",
+      "context": "网格体距离场的质量由距离场分辨率比例控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全局距离场",
+      "predicate": "基于",
+      "object": "网格体距离场",
+      "context": "全局距离场由各个网格体距离场合成而来",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "植被",
+      "predicate": "支持",
+      "object": "双面距离场",
+      "context": "高密度植被如树木可以使用双面距离场来表现复杂表面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体距离场",
+      "predicate": "依赖",
+      "object": "静态网格体",
+      "context": "网格体距离场主要支持静态网格体，不支持骨架网格体的变形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体距离场",
+      "predicate": "用于",
+      "object": "距离场环境光遮蔽",
+      "context": "网格体距离场是实现距离场环境光遮蔽的基础技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体距离场",
+      "predicate": "用于",
+      "object": "距离场柔和阴影",
+      "context": "网格体距离场可用于创建动态柔和区域阴影",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体距离场",
+      "predicate": "用于",
+      "object": "距离场间接阴影",
+      "context": "网格体距离场可用于实现间接阴影效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体距离场",
+      "predicate": "可视化",
+      "object": "网格体距离场视图模式",
+      "context": "可以通过专门的视图模式来可视化网格体距离场",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体距离场",
+      "predicate": "依赖",
+      "object": "Feature Level 5",
+      "context": "网格体距离场技术需要DX11或更高版本的图形API支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "植被工具",
+      "predicate": "控制",
+      "object": "影响距离场照明",
+      "context": "植被工具中的设置可以控制植被是否影响距离场照明",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体编辑器",
+      "predicate": "包含",
+      "object": "距离场构建设置",
+      "context": "静态网格体编辑器中包含网格体距离场的构建设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "控制",
+      "object": "生成网格体距离场",
+      "context": "需要在项目设置中启用网格体距离场生成功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形",
+      "predicate": "使用",
+      "object": "高度场",
+      "context": "地形使用高度场而非网格体距离场来处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "双面距离场",
+      "predicate": "增加",
+      "object": "计算消耗",
+      "context": "启用双面距离场会增加光线行进的计算消耗",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:54:47.955Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13899 字符)",
+      "timestamp": "2025-06-15T19:53:39.728Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 20199,
+    "contentLength": 13899,
+    "processingTimeMs": 68228
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_physics-asset-editor-in-unreal-engine---skeleton-tree",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_physics-asset-editor-in-unreal-engine---skeleton-tree.md",
+  "triples": [
+    {
+      "subject": "物理资产编辑器",
+      "predicate": "包含",
+      "object": "骨架树面板",
+      "context": "骨架树面板是物理资产编辑器的重要组成部分，用于显示和管理骨骼层级及相关物理资源",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "骨架树面板",
+      "predicate": "显示",
+      "object": "骨骼层级",
+      "context": "骨架树面板的核心功能是可视化展示骨架资产的骨骼层级结构",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "骨架树面板",
+      "predicate": "管理",
+      "object": "碰撞体",
+      "context": "开发者可以通过骨架树面板创建和编辑与骨骼关联的碰撞体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架树面板",
+      "predicate": "管理",
+      "object": "约束",
+      "context": "约束控制形体间的运动关系，骨架树提供对其的创建和编辑功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼",
+      "predicate": "关联",
+      "object": "形体",
+      "context": "每个骨骼可以关联一个或多个物理形体，形成物理模拟的基础",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "形体",
+      "predicate": "包含",
+      "object": "图元",
+      "context": "形体由基本图元（如盒体、球体、胶囊体）组成，构成碰撞体积",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "约束",
+      "predicate": "连接",
+      "object": "形体",
+      "context": "约束定义了两个形体之间的运动关系和限制",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "预览资产",
+      "predicate": "临时附加",
+      "object": "骨骼",
+      "context": "预览资产可临时附加到骨骼上，用于预览装备效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理材质",
+      "predicate": "应用于",
+      "object": "形体",
+      "context": "物理材质决定形体的物理特性（如摩擦、弹性），可批量应用到形体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理动画配置文件",
+      "predicate": "管理",
+      "object": "形体分配",
+      "context": "通过配置文件可以批量管理形体的物理模拟属性分配",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "搜索行",
+      "predicate": "过滤",
+      "object": "骨骼层级",
+      "context": "搜索功能帮助开发者快速定位特定骨骼或资源，提高工作效率",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "镜像功能",
+      "predicate": "复制",
+      "object": "对称形体",
+      "context": "镜像功能可自动复制对称侧的形体和约束，简化角色物理设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架选项",
+      "predicate": "控制",
+      "object": "显示过滤",
+      "context": "显示选项允许开发者按类型（形体/约束/骨骼）过滤视图，聚焦关键元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "快捷菜单",
+      "predicate": "提供",
+      "object": "上下文操作",
+      "context": "不同类型的资源（骨骼/形体/约束）有专属的右键快捷菜单，提供相关操作",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "物理模拟",
+      "predicate": "依赖",
+      "object": "形体与约束系统",
+      "context": "逼真的物理模拟效果依赖于正确设置的形体碰撞体积和约束关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:22:01.639Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10111 字符)",
+      "timestamp": "2025-06-15T20:21:01.249Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16405,
+    "contentLength": 10111,
+    "processingTimeMs": 60403
+  }
+}

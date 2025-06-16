@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_python-plugin-dependency-management-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_python-plugin-dependency-management-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Python脚本插件",
+      "predicate": "依赖",
+      "object": "Python代码包",
+      "context": "Python脚本插件需要依赖Python代码包来实现功能，这是理解插件运行机制的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python脚本插件",
+      "predicate": "使用",
+      "object": "PyPI",
+      "context": "插件可以通过PyPI获取Python代码包，这是Python生态系统的核心资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编辑器",
+      "predicate": "支持",
+      "object": "Python环境",
+      "context": "了解编辑器如何支持Python环境对开发Python插件至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Content/Python子目录",
+      "predicate": "用于",
+      "object": "打包Python依赖项",
+      "context": "这是插件打包Python依赖项的两种主要方法之一，需要掌握其路径结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "pip安装",
+      "predicate": "替代",
+      "object": "手动打包依赖项",
+      "context": "pip安装提供了自动管理依赖项的替代方案，简化了插件开发流程",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "PythonRequirements",
+      "predicate": "配置",
+      "object": ".uplugin文件",
+      "context": "在.uplugin文件中配置PythonRequirements是使用pip安装的前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "包含",
+      "object": "Pip安装配置",
+      "context": "项目设置中的Pip配置选项影响整个项目的依赖项管理方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "严格哈希校验",
+      "predicate": "确保",
+      "object": "包安全性",
+      "context": "理解哈希校验的作用有助于开发安全的插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编译工具(UBT)",
+      "predicate": "支持",
+      "object": "命令行Pip安装",
+      "context": "UBT提供了另一种运行pip安装的方式，对自动化流程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "离线安装",
+      "predicate": "解决",
+      "object": "网络限制问题",
+      "context": "离线安装方案帮助开发者在受限环境中部署插件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "平台特定依赖",
+      "predicate": "需要",
+      "object": "不同requirements配置",
+      "context": "处理跨平台插件时需要了解如何配置平台特定的依赖项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ExtraIndexUrls",
+      "predicate": "扩展",
+      "object": "包来源",
+      "context": "了解如何配置额外包源对使用非PyPI包很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python插件开发",
+      "predicate": "涉及",
+      "object": "依赖项管理",
+      "context": "依赖项管理是Python插件开发的核心环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "site-packages目录",
+      "predicate": "存储",
+      "object": "安装的Python包",
+      "context": "了解包安装位置有助于调试和问题排查",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "开发环境",
+      "predicate": "建议",
+      "object": "禁用严格哈希校验",
+      "context": "开发阶段禁用哈希校验可以提高效率",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:30:40.915Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10649 字符)",
+      "timestamp": "2025-06-15T20:29:52.232Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14217,
+    "contentLength": 10649,
+    "processingTimeMs": 48696
+  }
+}

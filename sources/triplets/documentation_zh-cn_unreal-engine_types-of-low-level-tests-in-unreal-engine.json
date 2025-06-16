@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_types-of-low-level-tests-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_types-of-low-level-tests-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "低级别测试",
+      "predicate": "包含",
+      "object": "显式测试",
+      "context": "显式测试是低级别测试框架中的一种测试类型，学习者需要理解不同类型的低级别测试及其适用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "显式测试",
+      "predicate": "需要",
+      "object": ".Build.cs文件",
+      "context": "创建显式测试必须包含.Build.cs文件，这是显式测试的核心配置要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "显式测试",
+      "predicate": "需要",
+      "object": ".Target.cs文件",
+      "context": "创建显式测试必须包含.Target.cs文件，用于定义测试目标规则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TestModuleRules",
+      "predicate": "继承自",
+      "object": "ModuleRules",
+      "context": "理解TestModuleRules的继承关系有助于掌握如何扩展模块规则来支持测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TestTargetRules",
+      "predicate": "继承自",
+      "object": "TargetRules",
+      "context": "理解TestTargetRules的继承关系有助于掌握如何扩展目标规则来支持测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "显式测试",
+      "predicate": "使用",
+      "object": "Catch2",
+      "context": "大多数显式测试使用Catch2作为测试框架，这是编写测试代码的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "引擎测试",
+      "predicate": "是",
+      "object": "显式测试",
+      "context": "引擎测试是一种特殊的显式测试，需要理解其与普通显式测试的区别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "引擎测试",
+      "predicate": "需要",
+      "object": "bMockEngineDefaults",
+      "context": "引擎测试需要设置bMockEngineDefaults标记来模拟引擎默认行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "用于",
+      "object": "构建和运行测试",
+      "context": "BuildGraph是构建和运行低级别测试的重要工具，学习者需要了解其作用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Metadata对象",
+      "predicate": "用于",
+      "object": "生成BuildGraph脚本",
+      "context": "Metadata对象包含生成BuildGraph脚本所需的信息，是自动化测试流程的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "低级别测试",
+      "predicate": "前置知识",
+      "object": "编写低级别测试",
+      "context": "理解低级别测试类型是学习如何编写低级别测试的前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "低级别测试",
+      "predicate": "前置知识",
+      "object": "构建和运行低级别测试",
+      "context": "理解低级别测试类型是学习如何构建和运行测试的前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TestModuleRules",
+      "predicate": "覆盖",
+      "object": "默认UBT标记",
+      "context": "TestModuleRules会覆盖默认UBT标记以减少编译膨胀，这是测试模块的重要特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TestTargetRules",
+      "predicate": "设置",
+      "object": "默认UBT标记",
+      "context": "TestTargetRules会设置默认UBT标记来禁用不必要的UE功能，这是测试目标的重要特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "引擎测试",
+      "predicate": "需要",
+      "object": "初始化事件",
+      "context": "引擎测试需要提供初始化事件来初始化和清理引擎组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:04:20.944Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9112 字符)",
+      "timestamp": "2025-06-15T21:03:33.797Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13544,
+    "contentLength": 9112,
+    "processingTimeMs": 47152
+  }
+}

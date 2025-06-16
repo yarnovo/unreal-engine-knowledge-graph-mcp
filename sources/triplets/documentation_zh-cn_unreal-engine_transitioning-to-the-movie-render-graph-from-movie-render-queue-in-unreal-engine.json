@@ -1,0 +1,123 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_transitioning-to-the-movie-render-graph-from-movie-render-queue-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_transitioning-to-the-movie-render-graph-from-movie-render-queue-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "影片渲染图表",
+      "predicate": "替代",
+      "object": "影片渲染队列",
+      "context": "影片渲染图表是虚幻引擎5.6中更强大、灵活和易用的渲染工具，旨在替代影片渲染队列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染图表",
+      "predicate": "基于",
+      "object": "节点系统",
+      "context": "影片渲染图表采用基于节点的架构，这是其灵活性和可配置性的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "File Type Output节点",
+      "predicate": "控制",
+      "object": "文件名格式",
+      "context": "文件名格式设置从全局配置转移到File Type Output节点，实现逐图层控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sampling Method节点",
+      "predicate": "设置",
+      "object": "时间取样",
+      "context": "时间取样作为全局设置被集中到Sampling Method节点中管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Renderer节点",
+      "predicate": "控制",
+      "object": "空间取样",
+      "context": "空间取样和抗锯齿方法可以在Renderer节点中逐渲染图层配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Game Overrides节点",
+      "predicate": "影响",
+      "object": "渲染控制",
+      "context": "该节点默认连接时控制渲染行为，断开后将失去控制能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染图表",
+      "predicate": "不支持",
+      "object": "nDisplay渲染",
+      "context": "当前版本暂不支持MRQ已有的nDisplay渲染功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Debug Settings节点",
+      "predicate": "包含",
+      "object": "Insights追踪功能",
+      "context": "原Render Dock的调试功能被整合到专门的Debug Settings节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染图表",
+      "predicate": "提供",
+      "object": "分层渲染控制",
+      "context": "通过各专业节点实现比MRQ更精细的逐图层控制能力",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Meerkat示例项目",
+      "predicate": "展示",
+      "object": "影片渲染图表应用",
+      "context": "官方示例项目提供了图表系统的实践案例，有助于学习过渡",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Renderer节点",
+      "predicate": "集成",
+      "object": "色调曲线控制",
+      "context": "原分散的色调曲线设置被整合到Renderer节点统一管理",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "影片渲染图表",
+      "predicate": "支持",
+      "object": "路径追踪器",
+      "context": "可通过连接相应节点选择路径追踪器作为渲染路径",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "预热设置",
+      "predicate": "简化",
+      "object": "专用节点",
+      "context": "该功能被简化为独立节点，提高配置效率",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T21:02:57.576Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8476 字符)",
+      "timestamp": "2025-06-15T21:02:21.332Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 10132,
+    "contentLength": 8476,
+    "processingTimeMs": 36251
+  }
+}

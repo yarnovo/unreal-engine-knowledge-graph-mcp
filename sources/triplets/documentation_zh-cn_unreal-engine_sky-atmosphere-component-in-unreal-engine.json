@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_sky-atmosphere-component-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_sky-atmosphere-component-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "天空大气组件",
+      "predicate": "基于",
+      "object": "物理渲染技术",
+      "context": "天空大气组件使用基于物理的渲染技术来模拟真实天空和大气效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空大气组件",
+      "predicate": "实现",
+      "object": "空气透视",
+      "context": "天空大气组件能够模拟从地面到太空的过渡效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空大气组件",
+      "predicate": "依赖",
+      "object": "定向光源",
+      "context": "天空大气效果需要定向光源来模拟太阳光在大气中的表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空大气组件",
+      "predicate": "使用",
+      "object": "Rayleigh散射",
+      "context": "用于模拟光与大气中微小粒子的相互作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空大气组件",
+      "predicate": "使用",
+      "object": "Mie散射",
+      "context": "用于模拟光与大气中较大粒子的相互作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Rayleigh散射",
+      "predicate": "影响",
+      "object": "天空颜色",
+      "context": "Rayleigh散射决定了白天天空呈现蓝色，日落时呈现红色的效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mie散射",
+      "predicate": "产生",
+      "object": "光晕效果",
+      "context": "Mie散射会在光源周围产生明亮的光晕",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空大气组件",
+      "predicate": "控制",
+      "object": "高度分布",
+      "context": "通过地面半径、大气高度等参数控制大气的高度分布",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空大气组件",
+      "predicate": "替代",
+      "object": "指数高度雾组件",
+      "context": "天空大气本身包含高度雾模拟功能，可以替代指数高度雾组件",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "天空大气组件",
+      "predicate": "支持",
+      "object": "Skydome网格体",
+      "context": "可以与自定义的Skydome网格体配合使用来渲染天空",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空大气组件",
+      "predicate": "包含",
+      "object": "美术方向控制",
+      "context": "提供空气透视比例等参数供美术师调整视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空大气组件",
+      "predicate": "支持",
+      "object": "太空视角",
+      "context": "可以从太空视角观察行星大气层效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空大气组件",
+      "predicate": "使用",
+      "object": "查找表(LUT)",
+      "context": "使用多种LUT来优化渲染性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定向光源",
+      "predicate": "控制",
+      "object": "大气阳光光束",
+      "context": "定向光源可以产生大气中的阳光光束效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空大气组件",
+      "predicate": "影响",
+      "object": "体积云阴影",
+      "context": "天空大气设置会影响体积云的阴影质量",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "天空大气组件",
+      "predicate": "提供",
+      "object": "可视化调试工具",
+      "context": "提供专门的视图来调试和可视化大气效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空大气组件",
+      "predicate": "支持",
+      "object": "多平台",
+      "context": "支持从移动端到高端PC的多种平台",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mie散射",
+      "predicate": "控制",
+      "object": "Mie各向异性",
+      "context": "通过Mie各向异性参数控制光散射的均匀程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空大气组件",
+      "predicate": "包含",
+      "object": "大气吸收控制",
+      "context": "提供吸收比例和吸收颜色参数控制大气吸收效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空大气组件",
+      "predicate": "支持",
+      "object": "一天时间变化",
+      "context": "可以模拟从日出到日落的一天时间变化效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:49:46.857Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (25846 字符)",
+      "timestamp": "2025-06-15T20:48:52.126Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 41084,
+    "contentLength": 25846,
+    "processingTimeMs": 54734
+  }
+}

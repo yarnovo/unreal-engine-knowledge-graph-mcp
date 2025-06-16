@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_blueprint-editor-defaults-tab",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_blueprint-editor-defaults-tab.md",
+  "triples": [
+    {
+      "subject": "蓝图编辑器",
+      "predicate": "包含",
+      "object": "类默认值选项卡",
+      "context": "类默认值选项卡是蓝图编辑器的重要组成部分，用于查看和修改蓝图的默认设置和属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "类默认值选项卡",
+      "predicate": "包含",
+      "object": "默认部分",
+      "context": "默认部分列出了所有未指定类别的变量及其值，是类默认值选项卡的核心组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "类默认值选项卡",
+      "predicate": "包含",
+      "object": "渲染部分",
+      "context": "渲染部分包含关于如何渲染基于蓝图的Actor的属性信息，是类默认值选项卡的重要功能区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "类默认值选项卡",
+      "predicate": "包含",
+      "object": "复制部分",
+      "context": "复制部分包含网络游戏中Actor行为的属性信息，是类默认值选项卡的网络相关功能区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "类默认值选项卡",
+      "predicate": "包含",
+      "object": "输入部分",
+      "context": "输入部分包含Actor如何响应输入的信息，是类默认值选项卡的输入处理功能区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "类默认值选项卡",
+      "predicate": "包含",
+      "object": "Actor部分",
+      "context": "Actor部分包含基于蓝图的Actor信息，如是否可被损坏，是类默认值选项卡的Actor相关属性区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "获取类默认值节点",
+      "predicate": "访问",
+      "object": "类默认值",
+      "context": "获取类默认值节点允许在运行时访问类默认值中定义的属性，是动态获取默认值的重要方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "需要编译",
+      "object": "类默认值选项卡显示变量",
+      "context": "必须编译蓝图才能在类默认值选项卡上显示其变量，这是查看变量值的必要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "获取类默认值节点",
+      "predicate": "支持",
+      "object": "纯数据蓝图类",
+      "context": "获取类默认值节点特别适用于纯数据蓝图类类型，这是其主要目标用例之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "获取类默认值节点",
+      "predicate": "显示",
+      "object": "蓝图可见属性",
+      "context": "获取类默认值节点只公开蓝图可见或蓝图只读属性，这与变量Get节点的行为一致",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "类默认值选项卡",
+      "predicate": "显示",
+      "object": "自定义变量类别",
+      "context": "为变量创建自定义类别后，编译蓝图会在类默认值选项卡中显示这些类别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "获取类默认值节点",
+      "predicate": "基于",
+      "object": "UObject派生类",
+      "context": "获取类默认值节点的类输入下拉列表列出了所有UObject派生的类类型，包括引擎类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "类默认值选项卡",
+      "predicate": "用于",
+      "object": "修改蓝图默认设置",
+      "context": "类默认值选项卡的主要功能是查看和修改蓝图的默认设置和属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染部分",
+      "predicate": "控制",
+      "object": "Actor渲染",
+      "context": "渲染部分包含控制基于蓝图的Actor如何(以及是否)在游戏中渲染的属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制部分",
+      "predicate": "管理",
+      "object": "网络行为",
+      "context": "复制部分包含管理Actor在网络游戏中的行为的属性，如网络优先级和相关性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:14:15.420Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4906,
+    "contentLength": 2878,
+    "processingTimeMs": 62423
+  }
+}

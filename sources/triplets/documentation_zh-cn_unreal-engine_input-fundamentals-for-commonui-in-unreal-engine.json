@@ -1,0 +1,147 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_input-fundamentals-for-commonui-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_input-fundamentals-for-commonui-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "CommonUI",
+      "predicate": "扩展",
+      "object": "Slate/UMG框架",
+      "context": "CommonUI是Slate/UMG框架的扩展，提供了更高级的用户界面功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CommonUI",
+      "predicate": "依赖",
+      "object": "Slate输入系统",
+      "context": "CommonUI实现了路由输入的方法，但仍依赖Slate的现有输入系统的底层逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入配置",
+      "predicate": "用于",
+      "object": "可激活控件",
+      "context": "输入配置用于控制可激活控件的输入处理方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCommonActivatableWidget",
+      "predicate": "包含",
+      "object": "GetDesiredInputConfig函数",
+      "context": "可激活控件通过GetDesiredInputConfig函数获取输入配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FUIInputConfig",
+      "predicate": "跟踪",
+      "object": "输入状态",
+      "context": "FUIInputConfig结构体用于跟踪多个输入方法的状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ECommonInputMode",
+      "predicate": "控制",
+      "object": "输入模式",
+      "context": "ECommonInputMode枚举定义了CommonUI的内部输入模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FReply",
+      "predicate": "处理",
+      "object": "输入事件",
+      "context": "FReply用于跟踪和处理输入事件的已处理/未处理状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FReply",
+      "predicate": "支持",
+      "object": "输入路由",
+      "context": "FReply可以控制输入如何路由到其他控件或输入系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FNavigationConfig",
+      "predicate": "定义",
+      "object": "基本方向键映射",
+      "context": "浏览配置定义了哪些键映射到基本方向（左、右、上、下等）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCommonActivatableWidget",
+      "predicate": "包含",
+      "object": "GetDesiredFocusTarget函数",
+      "context": "可激活控件通过GetDesiredFocusTarget函数确定激活时的焦点目标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBindUIActionArgs",
+      "predicate": "控制",
+      "object": "触发输入操作",
+      "context": "FBindUIActionArgs用于配置触发输入操作的条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CommonUI控制台变量",
+      "predicate": "配置",
+      "object": "CommonUI行为",
+      "context": "控制台变量可用于配置CommonUI的运作方式和获取调试信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入配置",
+      "predicate": "替代",
+      "object": "标准输入配置方法",
+      "context": "推荐使用输入配置而非标准输入配置方法以避免冲突",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FReply",
+      "predicate": "优于",
+      "object": "直接调用FSlateApplication函数",
+      "context": "推荐使用FReply而非直接调用FSlateApplication函数来处理输入更改",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "显式浏览设置",
+      "predicate": "解决",
+      "object": "非直观自动浏览问题",
+      "context": "当控件布局导致自动浏览不直观时，可以使用显式浏览设置来指定目标",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Lyra示例项目",
+      "predicate": "展示",
+      "object": "CommonUI最佳实践",
+      "context": "Lyra示例项目展示了CommonUI的推荐实现方案",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:35:50.851Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10979 字符)",
+      "timestamp": "2025-06-15T19:34:57.576Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17747,
+    "contentLength": 10979,
+    "processingTimeMs": 53280
+  }
+}

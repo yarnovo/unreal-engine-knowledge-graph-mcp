@@ -1,0 +1,187 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_control-rig-full-body-ik-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_control-rig-full-body-ik-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "全身逆向运动学(FBIK)",
+      "predicate": "基于",
+      "object": "基于位置IK框架",
+      "context": "FBIK在基于位置IK框架的基础上构建，提供了更快的绑定性能和更多功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全身逆向运动学(FBIK)",
+      "predicate": "属于",
+      "object": "控制绑定图表",
+      "context": "FBIK是控制绑定图表中的节点，用于程序化调整角色绑定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全身逆向运动学(FBIK)",
+      "predicate": "依赖",
+      "object": "FullBodyIK插件",
+      "context": "必须启用FullBodyIK插件才能使用FBIK功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全身逆向运动学(FBIK)",
+      "predicate": "连接",
+      "object": "正向解算节点",
+      "context": "FBIK节点需要连接到正向解算节点才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全身逆向运动学(FBIK)",
+      "predicate": "包含",
+      "object": "根骨骼",
+      "context": "FBIK系统需要设置根骨骼属性，通常是臀部或骨盆骨",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全身逆向运动学(FBIK)",
+      "predicate": "使用",
+      "object": "功能按钮",
+      "context": "FBIK系统通过功能按钮控制角色的四肢运动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全身逆向运动学(FBIK)",
+      "predicate": "包含",
+      "object": "执行器",
+      "context": "每个功能按钮需要对应一个执行器来控制骨骼变换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全身逆向运动学(FBIK)",
+      "predicate": "包含",
+      "object": "骨骼设置",
+      "context": "骨骼设置用于控制每个受FBIK影响的骨骼的具体行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼设置",
+      "predicate": "控制",
+      "object": "旋转/位置刚度",
+      "context": "旋转和位置刚度属性决定骨骼受IK影响的程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼设置",
+      "predicate": "包含",
+      "object": "偏好角度",
+      "context": "偏好角度可以优先关节沿特定轴旋转，解决僵硬问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼设置",
+      "predicate": "包含",
+      "object": "限值",
+      "context": "限值可以限制骨骼旋转范围或完全锁定旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全身逆向运动学(FBIK)",
+      "predicate": "包含",
+      "object": "排除骨骼",
+      "context": "可以从FBIK解算中排除特定骨骼以简化行为或纠正不自然姿势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全身逆向运动学(FBIK)",
+      "predicate": "包含",
+      "object": "迭代设置",
+      "context": "迭代次数影响FBIK链的收敛速度和CPU开销",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全身逆向运动学(FBIK)",
+      "predicate": "包含",
+      "object": "质量乘数",
+      "context": "质量乘数影响骨骼对旋转和平移的抵抗程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全身逆向运动学(FBIK)",
+      "predicate": "包含",
+      "object": "根行为设置",
+      "context": "根行为设置决定解算器根的行为方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全身逆向运动学(FBIK)",
+      "predicate": "依赖",
+      "object": "控制绑定快速入门指南",
+      "context": "使用FBIK前需要了解如何创建控制绑定资产和功能按钮",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "全身逆向运动学(FBIK)",
+      "predicate": "依赖",
+      "object": "控制绑定编辑器",
+      "context": "使用FBIK需要了解控制绑定编辑器的基本操作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "执行器",
+      "predicate": "连接",
+      "object": "获取变换节点",
+      "context": "执行器需要通过获取变换节点连接到功能按钮",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "功能按钮",
+      "predicate": "对应",
+      "object": "链的主要结束骨骼",
+      "context": "功能按钮通常对应于要影响的四肢，基于链的主要结束骨骼",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全身逆向运动学(FBIK)",
+      "predicate": "用于",
+      "object": "地面对齐",
+      "context": "FBIK可作为程序调整工具用于地面对齐等行为",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "全身逆向运动学(FBIK)",
+      "predicate": "用于",
+      "object": "手臂伸展行为",
+      "context": "FBIK可作为程序调整工具用于手臂伸展等行为",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:33:27.996Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10071 字符)",
+      "timestamp": "2025-06-15T18:32:19.020Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16217,
+    "contentLength": 10071,
+    "processingTimeMs": 68987
+  }
+}

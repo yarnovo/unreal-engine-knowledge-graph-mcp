@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_cpp-only-example",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_cpp-only-example.md",
+  "triples": [
+    {
+      "subject": "C++类向导",
+      "predicate": "创建",
+      "object": "LightSwitchCodeOnly类",
+      "context": "C++类向导是创建新C++类的主要工具，理解其功能对学习UE5的C++开发至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LightSwitchCodeOnly",
+      "predicate": "继承",
+      "object": "AActor",
+      "context": "了解类继承关系是掌握UE5对象体系的基础，AActor是所有可放置对象的基类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCLASS宏",
+      "predicate": "注册",
+      "object": "LightSwitchCodeOnly",
+      "context": "UCLASS宏使引擎能识别自定义类，是UE反射系统的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LightSwitchCodeOnly",
+      "predicate": "包含",
+      "object": "UPointLightComponent",
+      "context": "组件是UE中构建复杂对象的基础，理解组件系统对开发交互式对象很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LightSwitchCodeOnly",
+      "predicate": "包含",
+      "object": "USphereComponent",
+      "context": "碰撞检测组件是实现交互功能的关键组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UPROPERTY宏",
+      "predicate": "暴露",
+      "object": "类属性",
+      "context": "UPROPERTY宏使C++变量在编辑器和蓝图中可见，是重要的开发技巧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UFUNCTION宏",
+      "predicate": "暴露",
+      "object": "类方法",
+      "context": "UFUNCTION宏使C++函数可被蓝图调用，是实现C++与蓝图交互的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnComponentBeginOverlap",
+      "predicate": "触发",
+      "object": "OnOverlapBegin",
+      "context": "理解碰撞事件处理机制是开发交互式游戏功能的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PointLight1",
+      "predicate": "附加到",
+      "object": "RootComponent",
+      "context": "理解组件层级关系是构建复杂游戏对象的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sphere1",
+      "predicate": "附加到",
+      "object": "RootComponent",
+      "context": "组件附加关系决定了游戏对象的结构和行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LightSwitchCodeOnly",
+      "predicate": "可扩展为",
+      "object": "蓝图类",
+      "context": "了解C++类如何被蓝图扩展是混合编程的重要概念",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C++项目",
+      "predicate": "需要",
+      "object": "编译",
+      "context": "理解编译流程是C++开发的基本要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "类查看器",
+      "predicate": "包含",
+      "object": "LightSwitchCodeOnly",
+      "context": "了解如何在编辑器中访问和使用自定义类是实际开发的重要环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DesiredIntensity",
+      "predicate": "控制",
+      "object": "PointLight1强度",
+      "context": "理解属性如何影响组件行为是调试和优化游戏功能的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ToggleLight",
+      "predicate": "切换",
+      "object": "PointLight1可见性",
+      "context": "方法如何操作组件是理解游戏逻辑实现的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USphereComponent",
+      "predicate": "检测",
+      "object": "碰撞事件",
+      "context": "理解碰撞检测原理是开发交互式游戏功能的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UPointLightComponent",
+      "predicate": "实现",
+      "object": "光照效果",
+      "context": "了解各种光源组件的特性是场景照明设计的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CreateDefaultSubobject",
+      "predicate": "创建",
+      "object": "组件实例",
+      "context": "掌握组件创建方法是构建自定义游戏对象的基本技能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AddDynamic",
+      "predicate": "绑定",
+      "object": "事件委托",
+      "context": "理解委托系统是实现事件驱动编程的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GENERATED_BODY宏",
+      "predicate": "生成",
+      "object": "反射代码",
+      "context": "了解反射系统的工作原理是深入UE开发的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:37:52.382Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8492 字符)",
+      "timestamp": "2025-06-15T18:36:45.868Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 11270,
+    "contentLength": 8492,
+    "processingTimeMs": 66517
+  }
+}

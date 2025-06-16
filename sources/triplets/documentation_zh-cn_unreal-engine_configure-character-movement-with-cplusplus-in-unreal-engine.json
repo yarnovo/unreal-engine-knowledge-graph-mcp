@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_configure-character-movement-with-cplusplus-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_configure-character-movement-with-cplusplus-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "角色类",
+      "predicate": "继承",
+      "object": "ACharacter",
+      "context": "角色类继承自虚幻引擎的ACharacter基类，提供了角色移动的基本功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "增强输入系统",
+      "predicate": "依赖",
+      "object": "EnhancedInput模块",
+      "context": "使用增强输入系统需要在项目中添加EnhancedInput模块依赖",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入映射上下文",
+      "predicate": "包含",
+      "object": "输入操作",
+      "context": "输入映射上下文将按键映射到具体的输入操作(如IA_Jump, IA_Move)",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PlayerController",
+      "predicate": "控制",
+      "object": "角色",
+      "context": "PlayerController作为玩家和角色之间的桥梁，处理输入并控制角色行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "增强输入本地玩家子系统",
+      "predicate": "管理",
+      "object": "输入映射上下文",
+      "context": "该子系统负责在运行时管理玩家的输入上下文和映射",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Move函数",
+      "predicate": "处理",
+      "object": "2D移动输入",
+      "context": "Move函数接收FInputActionValue参数，处理来自IA_Move的2D移动输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AddMovementInput",
+      "predicate": "实现",
+      "object": "角色移动",
+      "context": "该函数根据输入值和方向向量实际移动角色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SetupPlayerInputComponent",
+      "predicate": "绑定",
+      "object": "输入操作与函数",
+      "context": "此函数将输入操作(如IA_Jump)绑定到对应的处理函数(如Jump)",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BeginPlay",
+      "predicate": "初始化",
+      "object": "输入映射上下文",
+      "context": "在游戏开始时将输入映射上下文添加到增强输入子系统中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IA_Move",
+      "predicate": "生成",
+      "object": "FVector2D移动值",
+      "context": "IA_Move输入操作产生包含X/Y轴的2D移动值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetActorRightVector",
+      "predicate": "获取",
+      "object": "右方向向量",
+      "context": "用于确定角色左右移动的世界空间方向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetActorForwardVector",
+      "predicate": "获取",
+      "object": "前方向向量",
+      "context": "用于确定角色前后移动的世界空间方向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "可视化",
+      "object": "输入逻辑",
+      "context": "BP_FirstPersonCharacter蓝图展示了输入操作与移动逻辑的可视化连接方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C++实现",
+      "predicate": "对应",
+      "object": "蓝图逻辑",
+      "context": "文档指导如何将蓝图中的输入处理逻辑转换为C++代码实现",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入操作",
+      "predicate": "触发",
+      "object": "事件",
+      "context": "输入操作可以触发Started/Triggered/Completed等不同类型的事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Jump函数",
+      "predicate": "实现",
+      "object": "跳跃行为",
+      "context": "ACharacter内置的Jump函数处理角色的跳跃物理行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StopJumping函数",
+      "predicate": "终止",
+      "object": "跳跃行为",
+      "context": "当跳跃输入释放时调用此函数结束跳跃",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色移动配置",
+      "predicate": "前置要求",
+      "object": "创建玩家角色",
+      "context": "配置角色移动前需要先完成创建玩家角色和输入系统的基础设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "增强输入组件",
+      "predicate": "替换",
+      "object": "传统输入组件",
+      "context": "UEnhancedInputComponent提供了比传统输入系统更强大的功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "输入值",
+      "predicate": "决定",
+      "object": "移动方向和幅度",
+      "context": "输入值的正负和大小决定了角色移动的方向和速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:30:40.112Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (23033 字符)",
+      "timestamp": "2025-06-15T18:29:31.344Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 32012,
+    "contentLength": 23033,
+    "processingTimeMs": 68777
+  }
+}

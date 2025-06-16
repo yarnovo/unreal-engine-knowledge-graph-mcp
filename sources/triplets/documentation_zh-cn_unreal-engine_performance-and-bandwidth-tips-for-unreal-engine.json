@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_performance-and-bandwidth-tips-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_performance-and-bandwidth-tips-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "复制Actor",
+      "predicate": "影响",
+      "object": "性能",
+      "context": "复制Actor是一个耗费时间的过程，直接影响引擎性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor::SetReplicates",
+      "predicate": "控制",
+      "object": "复制Actor",
+      "context": "通过设置SetReplicates(false)可以关闭Actor复制，提高性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NetUpdateFrequency",
+      "predicate": "影响",
+      "object": "复制效率",
+      "context": "降低NetUpdateFrequency值可以减少Actor更新次数，提高复制效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FVector_NetQuantize",
+      "predicate": "优化",
+      "object": "网络带宽",
+      "context": "使用量化函数如FVector_NetQuantize可以减少网络传输数据量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FName",
+      "predicate": "消耗",
+      "object": "网络资源",
+      "context": "FName变量在网络传输中不会被压缩，会消耗较多资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络复制",
+      "predicate": "涉及",
+      "object": "相关性检查",
+      "context": "服务器在复制时会检查Actor的相关性、更新频度等属性",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "性能优化",
+      "predicate": "包含",
+      "object": "网络复制优化",
+      "context": "网络复制优化是性能优化的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "多人在线游戏",
+      "predicate": "依赖",
+      "object": "网络复制",
+      "context": "多人在线游戏开发需要特别关注网络复制性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "NetClientTicksPerSecond",
+      "predicate": "影响",
+      "object": "客户端更新频率",
+      "context": "该参数控制客户端接收更新的频率，影响网络性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor休眠",
+      "predicate": "影响",
+      "object": "复制效率",
+      "context": "休眠状态的Actor会影响服务器的复制检查效率",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:21:41.922Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2721,
+    "contentLength": 1753,
+    "processingTimeMs": 40687
+  }
+}

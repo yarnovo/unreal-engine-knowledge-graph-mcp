@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_paper2d-import-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_paper2d-import-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "Sprite",
+      "predicate": "使用",
+      "object": "材质",
+      "context": "Sprite的创建和渲染需要依赖不同类型的材质，理解材质类型有助于正确配置Sprite的视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sprite",
+      "predicate": "具有",
+      "object": "默认像素比例",
+      "context": "Sprite的尺寸与虚幻单位之间的转换关系影响其在场景中的实际大小，是2D资产导入的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图块贴图",
+      "predicate": "继承自",
+      "object": "Sprite",
+      "context": "图块贴图是Sprite的特殊类型，共享Sprite的基本特性但专门用于瓦片地图系统",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质",
+      "predicate": "分为",
+      "object": "光照材质/无光照材质",
+      "context": "材质的光照属性选择直接影响2D资产的渲染效果和性能消耗，是重要的技术选型点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质",
+      "predicate": "包含",
+      "object": "不透明/半透明/遮罩材质",
+      "context": "不同透明度类型的材质适用于不同的视觉效果需求，理解区别有助于优化渲染管线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理压缩",
+      "predicate": "影响",
+      "object": "Sprite渲染质量",
+      "context": "压缩设置的选择需要在内存占用和视觉质量之间取得平衡，特别是对复古像素风格游戏尤为重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "法线贴图纹理后缀",
+      "predicate": "用于",
+      "object": "Sprite法线贴图识别",
+      "context": "后缀命名规范帮助引擎自动关联主纹理和法线贴图，是2D资产工作流自动化的重要设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认Sprite纹理组",
+      "predicate": "决定",
+      "object": "纹理优化策略",
+      "context": "UI和2D像素两种预设针对不同风格的2D游戏提供最优的纹理处理方案",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Pick Best Material功能",
+      "predicate": "自动选择",
+      "object": "合适材质",
+      "context": "该功能通过分析纹理特性自动匹配最佳材质类型，简化了2D资产创建工作流",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "半透明材质",
+      "predicate": "相比",
+      "object": "遮罩材质",
+      "context": "半透明材质支持平滑过渡的透明度但渲染成本更高，这种对比帮助开发者做出合理的技术选择",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "现代2D风格",
+      "predicate": "对应",
+      "object": "UI纹理组",
+      "context": "这种预设关联帮助开发者快速配置适合高清2D游戏的纹理处理方式",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "复古2D风格",
+      "predicate": "对应",
+      "object": "2D像素纹理组",
+      "context": "这种预设关联为像素风格游戏提供了保持原始视觉特征的纹理处理方案",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质分析",
+      "predicate": "考虑",
+      "object": "不透明材质适用性",
+      "context": "Analysis Can Use Opaque设置控制材质自动选择时是否包含不透明材质，影响分析结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sprite创建流程",
+      "predicate": "依赖",
+      "object": "导入设置",
+      "context": "法线贴图后缀、基础贴图后缀等设置直接影响Sprite资产的自动生成质量",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:19:07.813Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5602,
+    "contentLength": 3614,
+    "processingTimeMs": 46177
+  }
+}

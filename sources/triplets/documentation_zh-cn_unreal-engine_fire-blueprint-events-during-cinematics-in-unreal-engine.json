@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_fire-blueprint-events-during-cinematics-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_fire-blueprint-events-during-cinematics-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Sequencer",
+      "predicate": "触发",
+      "object": "事件",
+      "context": "Sequencer播放过场动画时可以通过事件轨迹触发特定事件，这是实现游戏逻辑与过场动画同步的关键机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件轨迹",
+      "predicate": "属于",
+      "object": "Sequencer",
+      "context": "事件轨迹是Sequencer的功能组件，用于在特定时间点触发事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件轨迹",
+      "predicate": "调用",
+      "object": "蓝图事件",
+      "context": "事件轨迹可以直接调用蓝图中定义的自定义事件，无需访问蓝图编辑器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件轨迹",
+      "predicate": "支持",
+      "object": "参数传递",
+      "context": "事件轨迹可以向调用的蓝图事件传递参数，如字符串参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图第三人称模板",
+      "predicate": "用作",
+      "object": "示例项目",
+      "context": "文档使用蓝图第三人称模板项目作为示例，展示如何在Sequencer中使用事件轨迹",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ThirdPersonCharacter",
+      "predicate": "包含",
+      "object": "自定义事件",
+      "context": "ThirdPersonCharacter蓝图中可以定义自定义事件，供Sequencer的事件轨迹调用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Print String",
+      "predicate": "连接",
+      "object": "自定义事件",
+      "context": "自定义事件可以通过Print String节点在屏幕上显示文本，这是调试和游戏反馈的常用方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件轨迹",
+      "predicate": "实现",
+      "object": "物理模拟控制",
+      "context": "通过事件轨迹可以调用Set All Bodies to Simulate Physics等节点控制角色物理状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件轨迹",
+      "predicate": "实现",
+      "object": "移动控制",
+      "context": "事件轨迹可以调用Disable Movement等节点控制角色移动能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "序列导演蓝图",
+      "predicate": "扩展",
+      "object": "事件功能",
+      "context": "通过序列导演蓝图可以为事件添加更复杂的功能，如设置碰撞属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SetCollisionEnabled",
+      "predicate": "增强",
+      "object": "物理模拟",
+      "context": "在序列导演蓝图中使用SetCollisionEnabled节点可以增强物理模拟的真实性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件轨迹",
+      "predicate": "用于",
+      "object": "UI控制",
+      "context": "事件轨迹不仅可以控制游戏角色，还可以用于执行UI控件蓝图中的脚本",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "事件轨迹",
+      "predicate": "支持",
+      "object": "蓝图接口通信",
+      "context": "事件轨迹可以通过蓝图接口与多个蓝图进行通信",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "包含",
+      "object": "自动播放功能",
+      "context": "Sequencer的自动播放功能可以让过场动画自动开始，无需玩家触发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件轨迹关键帧",
+      "predicate": "支持",
+      "object": "参数动态变化",
+      "context": "可以通过复制和修改事件轨迹关键帧来实现参数的动态变化，如倒计时效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:04:51.775Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7882,
+    "contentLength": 5306,
+    "processingTimeMs": 51986
+  }
+}

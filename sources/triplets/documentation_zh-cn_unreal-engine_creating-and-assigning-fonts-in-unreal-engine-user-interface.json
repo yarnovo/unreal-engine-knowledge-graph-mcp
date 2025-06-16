@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_creating-and-assigning-fonts-in-unreal-engine-user-interface",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_creating-and-assigning-fonts-in-unreal-engine-user-interface.md",
+  "triples": [
+    {
+      "subject": "字体资源",
+      "predicate": "包含",
+      "object": "字体风格资源",
+      "context": "字体资源可以包含一个或多个字体风格资源，这是字体系统的基本组成关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字体编辑器",
+      "predicate": "用于",
+      "object": "编辑字体资源",
+      "context": "字体编辑器是专门用于创建和修改字体资源的工具界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TTF/OTF字体文件",
+      "predicate": "导入为",
+      "object": "字体风格资源",
+      "context": "外部字体文件可以导入成为虚幻引擎可用的字体风格资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG UI设计器",
+      "predicate": "使用",
+      "object": "字体资源",
+      "context": "创建好的字体资源可以直接在UMG UI设计器中使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Content Browser",
+      "predicate": "包含",
+      "object": "字体资源创建功能",
+      "context": "Content Browser是创建新字体资源的入口点",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "字体风格资源",
+      "predicate": "指定给",
+      "object": "字体槽",
+      "context": "字体编辑器中的每个字体槽可以指定一个具体的字体风格资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成字体资源",
+      "predicate": "是",
+      "object": "字体资源类型",
+      "context": "新建的字体资源默认是合成字体资源类型",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "字体编辑器",
+      "predicate": "提供",
+      "object": "字体槽管理功能",
+      "context": "字体编辑器允许添加和管理多个字体槽",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字体资源",
+      "predicate": "需要",
+      "object": "保存操作",
+      "context": "新建或修改后的字体资源需要通过Save All按钮保存",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blank Template",
+      "predicate": "适用于",
+      "object": "字体资源创建教程",
+      "context": "文档使用Blank Template作为创建字体资源的示例环境",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T18:38:53.855Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4845,
+    "contentLength": 3785,
+    "processingTimeMs": 35976
+  }
+}

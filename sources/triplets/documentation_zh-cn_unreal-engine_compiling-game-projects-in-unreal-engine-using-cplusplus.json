@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_compiling-game-projects-in-unreal-engine-using-cplusplus",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_compiling-game-projects-in-unreal-engine-using-cplusplus.md",
+  "triples": [
+    {
+      "subject": "UnrealBuildTool",
+      "predicate": "处理",
+      "object": "项目编译",
+      "context": "UnrealBuildTool是虚幻引擎中负责处理项目编译的核心工具，理解其作用有助于掌握项目构建流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealBuildTool",
+      "predicate": "使用",
+      "object": ".Build.cs文件",
+      "context": ".Build.cs文件是UnrealBuildTool用于配置项目构建的重要文件，了解这种关系有助于项目配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealBuildTool",
+      "predicate": "使用",
+      "object": ".Target.cs文件",
+      "context": ".Target.cs文件定义了项目的构建目标，这对理解不同构建配置至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "构建配置",
+      "predicate": "包含",
+      "object": "状态配置",
+      "context": "构建配置由状态配置和目标类型组成，理解这种包含关系有助于正确选择构建选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "构建配置",
+      "predicate": "包含",
+      "object": "目标类型",
+      "context": "目标类型决定了构建产物的用途，这对项目部署很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试配置",
+      "predicate": "适用于",
+      "object": "代码调试",
+      "context": "调试配置牺牲性能优化来方便调试，这是开发过程中的重要选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "开发配置",
+      "predicate": "适用于",
+      "object": "日常开发",
+      "context": "开发配置在功能和性能间取得平衡，是开发者的常用选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交付配置",
+      "predicate": "适用于",
+      "object": "最终发布",
+      "context": "交付配置提供最佳性能但移除了调试工具，是发布版本的选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器目标",
+      "predicate": "用于",
+      "object": "虚幻编辑器",
+      "context": "要在编辑器中看到代码变化，必须使用编辑器目标构建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏目标",
+      "predicate": "生成",
+      "object": "独立可执行文件",
+      "context": "游戏目标生成可独立运行的游戏版本，需要烘焙内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Visual Studio",
+      "predicate": "用于",
+      "object": "构建虚幻项目",
+      "context": "Visual Studio是构建虚幻C++项目的主要IDE，这是开发环境设置的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "解决方案平台",
+      "predicate": "指定",
+      "object": "构建目标平台",
+      "context": "解决方案平台设置决定了项目将构建为何种平台版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Win64平台",
+      "predicate": "是",
+      "object": "默认解决方案平台",
+      "context": "Win64是虚幻引擎默认支持的开发平台，这是环境配置的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "构建配置",
+      "predicate": "需要匹配",
+      "object": "引擎可执行文件",
+      "context": "运行引擎时必须使用与项目构建配置匹配的引擎可执行文件，这是项目运行的重要前提",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "未烘焙配置",
+      "predicate": "需要",
+      "object": "-game标志",
+      "context": "使用未烘焙配置构建的项目运行时需要添加-game标志，这是运行参数设置的重要知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试配置",
+      "predicate": "需要",
+      "object": "-debug标志",
+      "context": "使用调试配置构建的项目运行时需要添加-debug标志，这对调试过程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:30:28.270Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9248,
+    "contentLength": 5584,
+    "processingTimeMs": 56937
+  }
+}

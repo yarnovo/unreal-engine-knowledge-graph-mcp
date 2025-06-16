@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-blueprint-transform-bone-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-blueprint-transform-bone-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Transform Bone节点",
+      "predicate": "属于",
+      "object": "动画蓝图",
+      "context": "Transform Bone节点是动画蓝图中的一个功能节点，用于控制骨骼的变换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Transform Bone节点",
+      "predicate": "控制",
+      "object": "骨骼变换",
+      "context": "该节点专门用于对指定骨骼进行平移、旋转和缩放变换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼变换",
+      "predicate": "包含",
+      "object": "平移/旋转/缩放",
+      "context": "骨骼变换由三种基本变换操作组成，这是动画控制的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Transform Bone节点",
+      "predicate": "依赖",
+      "object": "组件空间",
+      "context": "节点在组件空间中运行，需要理解组件空间的概念才能正确使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "组件空间",
+      "predicate": "需要",
+      "object": "空间转换",
+      "context": "在动画蓝图中使用组件空间时需要空间转换，这是重要的实现细节",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Transform Bone节点",
+      "predicate": "使用",
+      "object": "骨架",
+      "context": "节点需要从骨架中选择要控制的骨骼，骨架是骨骼动画的基础资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架",
+      "predicate": "关联",
+      "object": "骨骼网格体",
+      "context": "骨架与骨骼网格体共同构成角色动画的基础资源，需要配合使用",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平移模式",
+      "predicate": "包含",
+      "object": "忽略/替换现有/添加到现有",
+      "context": "理解不同的平移模式对动画控制效果的影响很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "旋转模式",
+      "predicate": "包含",
+      "object": "忽略/替换现有/添加到现有",
+      "context": "理解不同的旋转模式对动画控制效果的影响很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缩放模式",
+      "predicate": "包含",
+      "object": "忽略/替换现有/添加到现有",
+      "context": "理解不同的缩放模式对动画控制效果的影响很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换空间",
+      "predicate": "包含",
+      "object": "世界空间/组件空间/父骨骼空间/骨骼空间",
+      "context": "不同的变换空间决定了变换的参考坐标系，是动画控制的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Transform Bone节点",
+      "predicate": "适用于",
+      "object": "骨骼控制",
+      "context": "该节点是骨骼控制的重要工具，属于骨骼动画技术栈",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "AnimGraph",
+      "context": "AnimGraph是动画蓝图的核心组成部分，Transform Bone节点在其中使用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Transform Bone节点",
+      "predicate": "实现",
+      "object": "骨骼动画控制",
+      "context": "该节点是实现高级骨骼动画控制的基础工具之一",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:00:13.414Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5981,
+    "contentLength": 3799,
+    "processingTimeMs": 51360
+  }
+}

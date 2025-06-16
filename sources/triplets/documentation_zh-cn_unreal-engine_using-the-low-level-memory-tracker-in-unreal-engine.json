@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-the-low-level-memory-tracker-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-the-low-level-memory-tracker-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "低级内存跟踪器(LLM)",
+      "predicate": "属于",
+      "object": "虚幻引擎(UE)",
+      "context": "LLM是虚幻引擎中用于跟踪内存使用情况的工具，帮助开发者理解和管理项目内存分配",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LLM跟踪器",
+      "predicate": "包含",
+      "object": "默认跟踪器",
+      "context": "默认跟踪器是LLM的两个主要跟踪器之一，记录通过FMemory类函数Malloc进行的分配",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LLM跟踪器",
+      "predicate": "包含",
+      "object": "平台跟踪器",
+      "context": "平台跟踪器是LLM的另一个主要跟踪器，记录从操作系统进行的所有分配",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认跟踪器",
+      "predicate": "依赖",
+      "object": "平台跟踪器",
+      "context": "默认跟踪器统计信息是平台跟踪器统计信息的子集，理解平台跟踪器有助于全面了解内存分配情况",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "LLM",
+      "predicate": "支持",
+      "object": "stat LLM命令",
+      "context": "stat LLM命令用于显示LLM摘要统计信息，是使用LLM功能的主要方式之一",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LLM",
+      "predicate": "支持",
+      "object": "stat LLMFULL命令",
+      "context": "stat LLMFULL命令显示所有LLM统计信息，提供更详细的内存使用数据",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LLM",
+      "predicate": "生成",
+      "object": "CSV文件",
+      "context": "LLM可以将内存统计信息写入CSV文件，便于开发者进行后续分析和优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LLM标记",
+      "predicate": "用于",
+      "object": "内存分类",
+      "context": "LLM标记系统用于标识内存分配的类别，帮助开发者理解不同类型的内存使用情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UObject",
+      "predicate": "属于",
+      "object": "LLM标记",
+      "context": "UObject是LLM的一个标记类别，用于跟踪从UObject继承的类及其序列化内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EngineMisc",
+      "predicate": "属于",
+      "object": "LLM标记",
+      "context": "EngineMisc标记用于跟踪其他类别中未包含的低级内存",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StaticMesh",
+      "predicate": "属于",
+      "object": "LLM标记",
+      "context": "StaticMesh标记专门用于跟踪UStaticMesh类和相关属性的内存使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LLM_SCOPE宏",
+      "predicate": "用于",
+      "object": "应用标记范围",
+      "context": "LLM_SCOPE宏用于在代码中设置标记范围，帮助开发者精确控制内存跟踪的区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LLM",
+      "predicate": "依赖",
+      "object": "FLLMThreadState类",
+      "context": "FLLMThreadState类用于跟踪每个标记的帧增量，是LLM实现多线程安全的重要组件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "LLM",
+      "predicate": "使用",
+      "object": "ELLMTag枚举",
+      "context": "ELLMTag枚举定义了所有可用的LLM标记类型，是扩展LLM功能的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "标记集",
+      "predicate": "扩展",
+      "object": "LLM功能",
+      "context": "标记集是LLM的实验性功能，可以进一步细分内存跟踪粒度，但会增加性能开销",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "LLM",
+      "predicate": "适用于",
+      "object": "内存优化",
+      "context": "LLM是进行内存优化的重要工具，帮助开发者识别和解决内存相关问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LLM",
+      "predicate": "支持",
+      "object": "多平台开发",
+      "context": "LLM支持虚幻引擎使用的所有平台，是跨平台开发的重要调试工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LLMAlloc函数",
+      "predicate": "用于",
+      "object": "LLM内存管理",
+      "context": "LLMAlloc函数是LLM内部专用的内存分配函数，避免递归跟踪问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LLM",
+      "predicate": "依赖",
+      "object": "ENABLE_LOW_LEVEL_MEM_TRACKER宏",
+      "context": "ENABLE_LOW_LEVEL_MEM_TRACKER宏控制LLM的编译启用状态，影响不同构建配置下的功能可用性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:24:59.233Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8207,
+    "contentLength": 4607,
+    "processingTimeMs": 55297
+  }
+}

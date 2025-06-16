@@ -1,0 +1,219 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-engine-behavior-tree-node-reference-decorators",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-engine-behavior-tree-node-reference-decorators.md",
+  "triples": [
+    {
+      "subject": "装饰器节点",
+      "predicate": "属于",
+      "object": "行为树节点",
+      "context": "装饰器节点是行为树节点的一种特殊类型，用于定义树中的分支或节点是否可以执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "装饰器节点",
+      "predicate": "连接",
+      "object": "合成节点",
+      "context": "装饰器节点可以连接到合成节点，影响其执行逻辑",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "装饰器节点",
+      "predicate": "连接",
+      "object": "任务节点",
+      "context": "装饰器节点可以连接到任务节点，影响其执行逻辑",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "黑板节点",
+      "predicate": "检查",
+      "object": "黑板键",
+      "context": "黑板节点用于检查给定的黑板键是否设置了值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "黑板节点",
+      "predicate": "支持",
+      "object": "通知观察者",
+      "context": "黑板节点支持设置通知观察者选项，决定何时重新计算条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "黑板节点",
+      "predicate": "支持",
+      "object": "观察者中止",
+      "context": "黑板节点支持设置观察者中止选项，决定何时中止执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "检查Gameplay标签条件",
+      "predicate": "使用",
+      "object": "Gameplay标签",
+      "context": "检查Gameplay标签条件节点使用Gameplay标签来匹配条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "比较黑板条目",
+      "predicate": "比较",
+      "object": "黑板键",
+      "context": "比较黑板条目节点用于比较两个黑板键的值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成装饰器",
+      "predicate": "扩展",
+      "object": "装饰器节点",
+      "context": "合成装饰器节点扩展了装饰器节点的功能，允许设置更高级的逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成装饰器",
+      "predicate": "包含",
+      "object": "AND节点",
+      "context": "合成装饰器可以包含AND节点来创建高级逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成装饰器",
+      "predicate": "包含",
+      "object": "OR节点",
+      "context": "合成装饰器可以包含OR节点来创建高级逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成装饰器",
+      "predicate": "包含",
+      "object": "NOT节点",
+      "context": "合成装饰器可以包含NOT节点来创建高级逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "条件语句循环",
+      "predicate": "控制",
+      "object": "循环执行",
+      "context": "条件语句循环装饰器控制其所连接节点的循环执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "椎体检查",
+      "predicate": "使用",
+      "object": "矢量键",
+      "context": "椎体检查装饰器使用三个矢量键来确定锥体的位置和方向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "冷却",
+      "predicate": "锁定",
+      "object": "节点执行",
+      "context": "冷却装饰器锁定节点或分支的执行，直到冷却时间结束",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义装饰器",
+      "predicate": "实现",
+      "object": "自定义逻辑",
+      "context": "自定义装饰器允许开发者实现自己的自定义蓝图逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "路径是否存在",
+      "predicate": "检查",
+      "object": "路径",
+      "context": "路径是否存在节点检查两个位置之间是否可以创建路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "强制成功",
+      "predicate": "改变",
+      "object": "节点结果",
+      "context": "强制成功装饰器将节点结果更改为成功",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在位置处",
+      "predicate": "检查",
+      "object": "位置",
+      "context": "在位置处装饰器检查AI控制的Pawn是否位于给定位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Is BBEntry Of Class",
+      "predicate": "确定",
+      "object": "类类型",
+      "context": "Is BBEntry Of Class装饰器确定黑板键是否属于指定的类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "保持于椎体内",
+      "predicate": "检查",
+      "object": "锥体内部",
+      "context": "保持于椎体内装饰器检查所观察的位置是否仍位于锥体内部",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "循环",
+      "predicate": "控制",
+      "object": "循环次数",
+      "context": "循环装饰器控制节点或分支的循环次数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设置标签冷却",
+      "predicate": "设置",
+      "object": "Gameplay标签冷却",
+      "context": "设置标签冷却装饰器设置Gameplay标签的冷却时长",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "标签冷却",
+      "predicate": "检查",
+      "object": "冷却计时器",
+      "context": "标签冷却装饰器检查Gameplay标签的冷却计时器是否过期",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间限制",
+      "predicate": "设置",
+      "object": "执行时间限制",
+      "context": "时间限制装饰器设置节点或分支在终止前可以运行的时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:08:00.464Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (14294 字符)",
+      "timestamp": "2025-06-15T21:06:57.640Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 21753,
+    "contentLength": 14294,
+    "processingTimeMs": 62829
+  }
+}

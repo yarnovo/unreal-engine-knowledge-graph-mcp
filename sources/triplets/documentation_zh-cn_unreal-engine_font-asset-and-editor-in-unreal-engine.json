@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_font-asset-and-editor-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_font-asset-and-editor-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "字体资源",
+      "predicate": "包含",
+      "object": "字体风格资源",
+      "context": "字体资源可以引用多个字体风格资源，这是理解字体资源组成的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字体资源",
+      "predicate": "支持",
+      "object": "Runtime缓存",
+      "context": "字体资源支持Runtime缓存方法，这是现代字体处理方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字体资源",
+      "predicate": "支持",
+      "object": "Offline缓存",
+      "context": "字体资源也支持传统的Offline缓存方法，这是向后兼容的重要特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字体风格资源",
+      "predicate": "包含",
+      "object": "Hinting设置",
+      "context": "字体风格资源包含Hinting设置，这是影响字体渲染质量的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字体风格资源",
+      "predicate": "包含",
+      "object": "Loading Policy",
+      "context": "字体风格资源包含Loading Policy设置，这决定了字体加载的内存和性能特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字体编辑器",
+      "predicate": "用于",
+      "object": "编辑字体资源",
+      "context": "字体编辑器是专门用于编辑字体资源的工具，这是字体工作流的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字体编辑器",
+      "predicate": "包含",
+      "object": "工具栏菜单",
+      "context": "工具栏菜单是字体编辑器的重要组成部分，提供常用操作功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字体编辑器",
+      "predicate": "包含",
+      "object": "默认字体群",
+      "context": "默认字体群是字体编辑器中定义主字体的区域，是字体配置的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字体编辑器",
+      "predicate": "包含",
+      "object": "子字体群",
+      "context": "子字体群允许为特定字符范围指定不同字体，支持多语言字体配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字体编辑器",
+      "predicate": "包含",
+      "object": "预览窗口",
+      "context": "预览窗口是字体编辑器中实时查看字体效果的重要组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字体编辑器",
+      "predicate": "包含",
+      "object": "Draw Font Metrics",
+      "context": "Draw Font Metrics功能帮助开发者理解字体的布局特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字体编辑器",
+      "predicate": "包含",
+      "object": "详情面板",
+      "context": "详情面板提供字体资源的详细参数设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Runtime缓存",
+      "predicate": "替代",
+      "object": "Offline缓存",
+      "context": "Runtime缓存是Offline缓存的现代替代方案，但两者可以共存",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "默认字体群",
+      "predicate": "引用",
+      "object": "字体风格资源",
+      "context": "默认字体群可以引用一个或多个字体风格资源，这是字体组合的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子字体群",
+      "predicate": "引用",
+      "object": "字体风格资源",
+      "context": "子字体群也可以引用字体风格资源，用于特定字符范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Hinting设置",
+      "predicate": "影响",
+      "object": "字体渲染质量",
+      "context": "Hinting设置直接影响字体在不同显示条件下的渲染效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Loading Policy",
+      "predicate": "决定",
+      "object": "内存使用和性能",
+      "context": "Loading Policy设置决定了字体加载时的内存占用和性能特性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "字体风格资源",
+      "predicate": "共享",
+      "object": "字体数据",
+      "context": "多个字体资源可以共享同一个字体风格资源的数据，减少内存消耗",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成字体",
+      "predicate": "包含",
+      "object": "默认字体群",
+      "context": "合成字体必须包含默认字体群，这是合成字体的基本要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成字体",
+      "predicate": "可选包含",
+      "object": "子字体群",
+      "context": "合成字体可以选择性地包含子字体群，用于特殊字符处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:06:24.308Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9990,
+    "contentLength": 6630,
+    "processingTimeMs": 62686
+  }
+}

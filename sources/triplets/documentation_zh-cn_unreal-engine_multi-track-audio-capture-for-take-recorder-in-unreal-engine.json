@@ -1,0 +1,85 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_multi-track-audio-capture-for-take-recorder-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_multi-track-audio-capture-for-take-recorder-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Take Recorder",
+      "predicate": "支持",
+      "object": "多轨道音频捕捉",
+      "context": "Take Recorder提供了多轨道音频捕捉功能，这是其核心功能之一，学习者需要了解这一功能以充分利用音频录制能力",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多轨道音频捕捉",
+      "predicate": "包含",
+      "object": "麦克风音频源",
+      "context": "多轨道音频捕捉功能允许创建多个麦克风音频源，这是实现多轨道录制的关键组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "麦克风音频源",
+      "predicate": "关联",
+      "object": "音频输入设备通道",
+      "context": "每个麦克风音频源都需要指定一个音频输入设备通道，这是配置音频录制的必要步骤",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多轨道音频捕捉",
+      "predicate": "依赖",
+      "object": "Windows音频会话API",
+      "context": "多轨道音频捕捉功能通过Windows音频会话API实现，了解这一依赖关系有助于解决兼容性问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Windows音频会话API",
+      "predicate": "支持",
+      "object": "8个通道",
+      "context": "Windows音频会话API最多支持8个通道，这是多轨道音频捕捉的技术限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多轨道音频捕捉",
+      "predicate": "需要",
+      "object": "Windows WDM多通道支持",
+      "context": "实现8通道音频录制需要音频设备具备Windows WDM多通道支持，这是硬件兼容性要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "麦克风音频录制器",
+      "predicate": "扩展",
+      "object": "Take Recorder功能",
+      "context": "麦克风音频录制器是Take Recorder的扩展功能，专门用于音频录制设置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "音频输入设备",
+      "predicate": "配置",
+      "object": "麦克风音频源",
+      "context": "音频输入设备的配置直接影响麦克风音频源的工作方式，这是音频录制的重要设置环节",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "第三方音频设备",
+      "predicate": "提供",
+      "object": "Windows WDM多通道支持",
+      "context": "某些第三方音频设备制造商提供Windows WDM多通道支持，这是实现完整多轨道音频捕捉的硬件基础",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:01:21.443Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 1812,
+    "contentLength": 1292,
+    "processingTimeMs": 43088
+  }
+}

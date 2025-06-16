@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_volumetric-lightmaps-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_volumetric-lightmaps-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "体积光照贴图",
+      "predicate": "替代",
+      "object": "间接光照缓存",
+      "context": "体积光照贴图是虚幻引擎5.6中推荐的新技术，用于取代旧的间接光照缓存方法",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "体积光照贴图",
+      "predicate": "替代",
+      "object": "体积光照取样",
+      "context": "体积光照贴图提供了更先进的采样和插值方法，取代了传统的体积光照取样技术",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "体积光照贴图",
+      "predicate": "用于",
+      "object": "动态对象间接光照",
+      "context": "体积光照贴图专门用于为动态对象提供高质量的间接光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积光照贴图",
+      "predicate": "基于",
+      "object": "Lightmass",
+      "context": "体积光照贴图的数据是由Lightmass在构建时生成的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积光照贴图",
+      "predicate": "支持",
+      "object": "体积雾",
+      "context": "体积光照贴图可以为体积雾提供预计算光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积光照贴图",
+      "predicate": "实现",
+      "object": "逐像素插值",
+      "context": "相比间接光照缓存的逐个对象插值，体积光照贴图实现了更精确的逐像素插值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积光照贴图",
+      "predicate": "依赖",
+      "object": "Lightmass重要体积",
+      "context": "体积光照贴图的采样和砖块构建依赖于Lightmass重要体积的设置",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "体积光照贴图",
+      "predicate": "控制",
+      "object": "体积光照贴图密度体积",
+      "context": "可以通过体积光照贴图密度体积来局部控制场景中的采样密度",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "体积光照贴图",
+      "predicate": "影响",
+      "object": "内存使用",
+      "context": "体积光照贴图的细节设置会显著影响内存使用量",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "体积光照贴图",
+      "predicate": "优于",
+      "object": "间接光照缓存",
+      "context": "在光照精度、漏光控制和性能方面，体积光照贴图都优于间接光照缓存",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积光照贴图",
+      "predicate": "包含",
+      "object": "球谐函数",
+      "context": "体积光照贴图使用三阶球谐函数存储所有方向传来的光照信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积光照贴图",
+      "predicate": "适用于",
+      "object": "关卡流送",
+      "context": "体积光照贴图支持关卡流送功能，但要求所有关卡同时构建",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "体积光照贴图",
+      "predicate": "可视化",
+      "object": "体积光照贴图视图模式",
+      "context": "可以通过体积光照贴图视图模式在关卡视口中可视化光照采样",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积光照贴图",
+      "predicate": "设置",
+      "object": "世界场景设置",
+      "context": "体积光照贴图的相关设置可以在世界场景设置的Lightmass设置中找到",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积光照贴图",
+      "predicate": "影响",
+      "object": "构建时间",
+      "context": "体积光照贴图的细节设置会显著影响光照构建时间",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "体积光照贴图",
+      "predicate": "改进",
+      "object": "漏光现象",
+      "context": "相比间接光照缓存，体积光照贴图显著减少了漏光现象",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "体积光照贴图",
+      "predicate": "支持",
+      "object": "静态光照",
+      "context": "体积光照贴图可以处理静态光照的静态和自发光效果",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "体积光照贴图",
+      "predicate": "影响",
+      "object": "GPU性能",
+      "context": "体积光照贴图的插值计算主要在GPU上进行，会影响GPU性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "体积光照贴图",
+      "predicate": "使用",
+      "object": "砖块数据结构",
+      "context": "体积光照贴图使用4x4x4单元格组成的砖块结构来组织光照采样",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积光照贴图",
+      "predicate": "关联",
+      "object": "表面光照贴图",
+      "context": "体积光照贴图和表面光照贴图都是Lightmass生成的光照解决方案，分别用于动态和静态对象",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T21:31:38.742Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11679 字符)",
+      "timestamp": "2025-06-15T21:30:43.314Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19105,
+    "contentLength": 11679,
+    "processingTimeMs": 55430
+  }
+}

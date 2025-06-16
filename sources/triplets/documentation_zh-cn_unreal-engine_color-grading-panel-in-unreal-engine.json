@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_color-grading-panel-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_color-grading-panel-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Color Grading Panel",
+      "predicate": "包含",
+      "object": "Toolbar",
+      "context": "Color Grading Panel界面包含Toolbar，用于配置场景中的各种元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Color Grading Panel",
+      "predicate": "包含",
+      "object": "Object Mixer Panel",
+      "context": "Object Mixer Panel列出了场景中所有支持颜色分级的actors",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Color Grading Panel",
+      "predicate": "包含",
+      "object": "Color Grading Properties",
+      "context": "Color Grading Properties是面板的主要部分，显示色调颜色分级属性和色轮",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Object Mixer Panel",
+      "predicate": "支持",
+      "object": "Post Process Volume",
+      "context": "Object Mixer Panel支持Post Process Volume类型的actors",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Object Mixer Panel",
+      "predicate": "支持",
+      "object": "Cine Camera Actor",
+      "context": "Object Mixer Panel支持Cine Camera Actor类型的actors",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Object Mixer Panel",
+      "predicate": "支持",
+      "object": "Color Correction Region",
+      "context": "Object Mixer Panel支持Color Correction Region类型的actors",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Color Grading Properties",
+      "predicate": "包含",
+      "object": "Tonal Ranges",
+      "context": "Color Grading Properties包含Global, Shadows, Midtones, Highlights等Tonal Ranges",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Tonal Ranges",
+      "predicate": "包含",
+      "object": "Color Wheels",
+      "context": "每个Tonal Range包含Saturation, Contrast, Gamma, Gain, Offset等Color Wheels",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Color Grading Panel",
+      "predicate": "用于",
+      "object": "nDisplay",
+      "context": "Color Grading Panel可用于nDisplay内容，提供额外的颜色分级功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay",
+      "predicate": "依赖",
+      "object": "nDisplay插件",
+      "context": "使用nDisplay功能需要先启用nDisplay插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Color Grading Panel",
+      "predicate": "集成于",
+      "object": "In-Camera VFX Editor",
+      "context": "Color Grading Panel集成在In-Camera VFX Editor中，可通过快捷键调用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Object Mixer Panel",
+      "predicate": "同步于",
+      "object": "Outliner",
+      "context": "Object Mixer Panel中的actors组织方式与Outliner同步",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Color Grading Panel",
+      "predicate": "替代",
+      "object": "Details panel",
+      "context": "Color Grading Panel提供了更直接的颜色分级配置方式，替代了通过单个actor的Details panel进行配置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Color Grading Properties",
+      "predicate": "支持",
+      "object": "RGB/HSV Color Models",
+      "context": "Color Grading Properties支持在RGB和HSV颜色模型之间切换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Toolbar",
+      "predicate": "用于",
+      "object": "管理Collections",
+      "context": "Toolbar中的Collections功能用于组织和管理颜色分级actors的分组",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay",
+      "predicate": "支持",
+      "object": "Per-Viewport Grouping",
+      "context": "nDisplay支持为不同视口创建单独的颜色分级组",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay",
+      "predicate": "支持",
+      "object": "Per-Node Grouping",
+      "context": "nDisplay支持为不同节点创建单独的颜色分级组",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Color Grading Panel",
+      "predicate": "适用于",
+      "object": "虚拟制作",
+      "context": "Color Grading Panel特别适用于虚拟制作工作流程，尤其是In-Camera VFX",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Object Mixer Panel",
+      "predicate": "提供",
+      "object": "Actor可见性控制",
+      "context": "Object Mixer Panel提供眼睛图标来控制actors在场景中的可见性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Object Mixer Panel",
+      "predicate": "提供",
+      "object": "Actor隔离功能",
+      "context": "Object Mixer Panel提供耳机图标来隔离查看特定actors",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:27:53.085Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (23474 字符)",
+      "timestamp": "2025-06-15T18:26:45.385Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 23584,
+    "contentLength": 23474,
+    "processingTimeMs": 67711
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_compiler-overview-for-blueprints-visual-scripting-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_compiler-overview-for-blueprints-visual-scripting-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "蓝图编译器",
+      "predicate": "包含",
+      "object": "FKismetCompilerContext",
+      "context": "FKismetCompilerContext是执行蓝图编译工作的核心类，理解它有助于掌握编译过程的整体架构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FKismetCompilerContext",
+      "predicate": "生成",
+      "object": "FKismetFunctionContext",
+      "context": "每个函数编译都需要创建对应的FKismetFunctionContext，这是理解函数级编译的关键环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FKismetFunctionContext",
+      "predicate": "包含",
+      "object": "FKismetTerm",
+      "context": "FKismetTerm表示数据引脚连接的终端，理解它有助于掌握蓝图数据流的具体实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FNodeHandlingFunctor",
+      "predicate": "处理",
+      "object": "蓝图节点",
+      "context": "节点处理器负责特定类型节点的编译逻辑，这是理解不同节点如何被转换为可执行代码的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图编译过程",
+      "predicate": "包含",
+      "object": "清理类",
+      "context": "清理类是编译过程的第一步，了解它可以避免对编译重用机制的误解",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图编译过程",
+      "predicate": "包含",
+      "object": "创建类属性",
+      "context": "创建类属性阶段将蓝图变量转换为UProperty，这是理解蓝图变量如何映射到C++的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CreateAndProcessUberGraph",
+      "predicate": "处理",
+      "object": "事件图表",
+      "context": "理解事件图表的合并处理过程对调试复杂事件逻辑非常重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ProcessOneFunctionGraph",
+      "predicate": "处理",
+      "object": "函数图表",
+      "context": "函数图表的独立处理过程展示了蓝图函数的编译隔离性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PrecompileFunction",
+      "predicate": "执行",
+      "object": "数据依赖分析",
+      "context": "预编译阶段的数据流分析是理解蓝图执行顺序优化的核心",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FKismetCompilerVMBackend",
+      "predicate": "转换",
+      "object": "UnrealScript VM字节码",
+      "context": "VM后端将中间表示转换为虚拟机字节码，这是理解蓝图运行时执行的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBlueprintCompileReinstancer",
+      "predicate": "处理",
+      "object": "类重新实例化",
+      "context": "重新实例化机制解释了为什么修改蓝图后现有实例会自动更新",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图节点",
+      "predicate": "转换为",
+      "object": "FKismetCompiledStatement",
+      "context": "节点到语句的转换过程揭示了蓝图可视化脚本到可执行代码的映射关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UBlueprintGeneratedClass",
+      "predicate": "重用",
+      "object": "编译过程",
+      "context": "理解类的现场重用机制可以避免内存管理方面的误解",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CopyPropertiesForUnrelatedObjects",
+      "predicate": "用于",
+      "object": "属性迁移",
+      "context": "该函数保证了蓝图重新编译时不丢失已有属性值，对理解数据持久化很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件图表",
+      "predicate": "区别于",
+      "object": "函数图表",
+      "context": "区分两种图表类型有助于合理组织蓝图逻辑结构",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FKismetTerm",
+      "predicate": "表示",
+      "object": "数据引脚连接",
+      "context": "理解Term对象有助于调试蓝图数据流问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编译过程",
+      "predicate": "生成",
+      "object": "类默认对象(CDO)",
+      "context": "CDO的生成过程解释了蓝图默认值的工作原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绑定和链接类",
+      "predicate": "需要",
+      "object": "UProperty和UFunction",
+      "context": "此阶段展示了C++反射系统与蓝图的集成方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后端",
+      "predicate": "包含",
+      "object": "FKismetCppBackend",
+      "context": "C++后端虽然仅用于调试，但可以帮助理解蓝图到C++的转换逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重新实例化",
+      "predicate": "使用",
+      "object": "TObjectIterator",
+      "context": "了解实例查找机制有助于处理大型场景中的蓝图更新问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:29:29.800Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9939,
+    "contentLength": 6927,
+    "processingTimeMs": 70414
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-lighting-channels-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-lighting-channels-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "光照通道",
+      "predicate": "控制",
+      "object": "动态光源",
+      "context": "光照通道决定了动态光源对哪些Actor产生影响，帮助学习者理解光照系统的核心控制机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光照通道",
+      "predicate": "适用于",
+      "object": "动画制作",
+      "context": "文档明确指出光照通道主要用于动画领域，帮助学习者建立特定功能与使用场景的关联",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光照通道",
+      "predicate": "支持",
+      "object": "3种通道",
+      "context": "了解引擎对光照通道数量的限制是系统配置的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光照通道",
+      "predicate": "依赖",
+      "object": "光源和Actor的双向启用",
+      "context": "必须同时在光源和Actor上启用相同通道才能生效，这是实现功能的关键前提条件",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光照通道",
+      "predicate": "不适用于",
+      "object": "静态光源",
+      "context": "明确光照通道的使用限制，避免学习者在错误场景中尝试应用该功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光照通道",
+      "predicate": "要求",
+      "object": "可移动性光源",
+      "context": "使用光照通道需要特定类型的光源移动性设置，这是功能实现的必要条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光照通道",
+      "predicate": "影响",
+      "object": "渲染性能",
+      "context": "性能数据展示光照通道会带来额外计算开销，帮助学习者权衡功能使用与性能消耗",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "光照通道",
+      "predicate": "支持",
+      "object": "移动平台渲染",
+      "context": "了解光照通道在移动端的特殊支持情况，对跨平台开发至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "光照通道",
+      "predicate": "不适用于",
+      "object": "半透明材质",
+      "context": "明确材质类型的限制条件，防止学习者在错误材质类型上尝试使用该功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定向光源",
+      "predicate": "默认启用",
+      "object": "Lighting Channel 0",
+      "context": "了解默认配置有助于快速开始使用光照系统而无需额外设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "可配置",
+      "object": "光照通道属性",
+      "context": "掌握可配置光照通道的Actor类型是灵活运用该功能的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "包含",
+      "object": "光照通道设置",
+      "context": "明确功能配置界面的位置，提高学习者的实际操作效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:19:15.278Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4404,
+    "contentLength": 3082,
+    "processingTimeMs": 33974
+  }
+}

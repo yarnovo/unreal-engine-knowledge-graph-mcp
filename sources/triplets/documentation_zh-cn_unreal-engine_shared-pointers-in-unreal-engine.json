@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_shared-pointers-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_shared-pointers-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "共享指针",
+      "predicate": "是",
+      "object": "智能指针",
+      "context": "共享指针是一种智能指针，具有智能指针的所有优点，如避免内存泄漏和悬挂指针",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享指针",
+      "predicate": "支持",
+      "object": "共享所有权",
+      "context": "共享指针通过引用计数支持多个指针共享同一个对象的所有权",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享指针",
+      "predicate": "支持",
+      "object": "自动失效",
+      "context": "共享指针可以安全引用易变对象，无需担心悬挂指针问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享指针",
+      "predicate": "支持",
+      "object": "弱引用",
+      "context": "共享指针可以与弱指针配合使用，中断引用循环",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享指针",
+      "predicate": "区别于",
+      "object": "共享引用",
+      "context": "共享指针可以为空，而共享引用不可为空，这是两者主要区别",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享指针",
+      "predicate": "可转换为",
+      "object": "共享引用",
+      "context": "共享指针可以通过ToSharedRef方法转换为共享引用，前提是共享指针非空",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享指针",
+      "predicate": "支持",
+      "object": "自定义删除器",
+      "context": "共享指针可以在创建时指定自定义删除器，用于自定义对象销毁逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享指针",
+      "predicate": "用于",
+      "object": "对象生命周期管理",
+      "context": "共享指针主要用于管理对象的生命周期，确保对象在不再被引用时自动销毁",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享指针",
+      "predicate": "基于",
+      "object": "引用计数",
+      "context": "共享指针的实现基于引用计数机制，用于跟踪对象的引用数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享指针",
+      "predicate": "支持",
+      "object": "线程安全",
+      "context": "共享指针可以配置为线程安全模式，适用于多线程环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享指针",
+      "predicate": "可初始化为",
+      "object": "空指针",
+      "context": "共享指针可以初始化为空指针，这是它与共享引用的一个重要区别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享指针",
+      "predicate": "可通过",
+      "object": "MoveTemp转移",
+      "context": "共享指针的内容可以通过MoveTemp函数转移到另一个共享指针",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享指针",
+      "predicate": "支持",
+      "object": "相等性比较",
+      "context": "共享指针可以比较相等性，判断是否引用同一个对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享指针",
+      "predicate": "可通过",
+      "object": "IsValid检查有效性",
+      "context": "可以通过IsValid方法检查共享指针是否引用有效对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享指针",
+      "predicate": "可解引用",
+      "object": "访问对象成员",
+      "context": "共享指针可以像普通指针一样解引用，访问对象的成员和方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:47:26.456Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7607,
+    "contentLength": 4907,
+    "processingTimeMs": 47554
+  }
+}

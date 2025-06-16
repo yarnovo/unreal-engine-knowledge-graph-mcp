@@ -1,0 +1,163 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_android-multiview-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_android-multiview-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Android Multi-View",
+      "predicate": "requires",
+      "object": "Android Single Instance Service (ASIS)",
+      "context": "Multiview functionality in Unreal Engine 5.6 requires the ASIS plugin to be enabled first",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ASIS Plugin",
+      "predicate": "depends on",
+      "object": "Android SDK/NDK",
+      "context": "To use ASIS plugin, developers must first setup Android SDK and NDK development environment",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Engine Android Development",
+      "predicate": "uses",
+      "object": "Android Studio",
+      "context": "UE uses Android Studio and Android SDK Command-Line Tools for Android project development",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ASIS Plugin",
+      "predicate": "contains",
+      "object": "TP_HMI_ASIS Template",
+      "context": "The ASIS plugin includes a specialized template for automotive HMI and vehicle cockpit development",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ASISConnection",
+      "predicate": "implements",
+      "object": "ASISConnectionCallBacks",
+      "context": "ASISConnection class implements callback interfaces for handling service connection events",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ASISConnection",
+      "predicate": "implements",
+      "object": "EngineMessagesListener",
+      "context": "ASISConnection class implements message listener interface for engine communication",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Multiview",
+      "predicate": "uses",
+      "object": "Camera Actors",
+      "context": "Multiview implementation requires creating and registering multiple Camera Actors in the level",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ASIS Plugin",
+      "predicate": "generates",
+      "object": "ASIS Client Libraries",
+      "context": "The plugin generates client libraries (aar/jar) that are used in Android client applications",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android Client App",
+      "predicate": "communicates with",
+      "object": "ASIS Service",
+      "context": "Client applications use ASIS client libraries to establish communication with the Unreal Engine service",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ASISConnection",
+      "predicate": "controls",
+      "object": "Surface Attachment",
+      "context": "ASISConnection class provides methods for attaching/detaching surfaces for rendering",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Engine Project",
+      "predicate": "requires",
+      "object": "TemplateCategories.ini Configuration",
+      "context": "Adding ASIS templates requires modifying TemplateCategories.ini file in the engine",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ASIS Plugin",
+      "predicate": "works with",
+      "object": "MultiWindow Plugin",
+      "context": "ASIS plugin needs MultiWindow plugin remapping when adding to existing projects",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Android Packaging",
+      "predicate": "produces",
+      "object": "Service APK",
+      "context": "Packaging an Unreal Engine project with ASIS generates a service APK for Android",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ConnectionBuilder",
+      "predicate": "creates",
+      "object": "ASISConnection",
+      "context": "ConnectionBuilder class follows builder pattern to create configured ASISConnection instances",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Multiview",
+      "predicate": "requires",
+      "object": "Camera Registration",
+      "context": "For Multiview to work, cameras must be registered with ASIS using specific camera IDs",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ASIS Service",
+      "predicate": "handles",
+      "object": "Touch Events",
+      "context": "The service can receive and process touch events from attached surfaces",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android Development",
+      "predicate": "uses",
+      "object": "ADB",
+      "context": "Android development with Unreal Engine involves using ADB for installing and running APKs",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "ASIS Architecture",
+      "predicate": "supports",
+      "object": "Multiple Communication Approaches",
+      "context": "The architecture diagram shows different supported communication patterns between client and service",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T17:57:56.583Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (27083 字符)",
+      "timestamp": "2025-06-15T17:56:50.843Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 27922,
+    "contentLength": 27083,
+    "processingTimeMs": 65743
+  }
+}

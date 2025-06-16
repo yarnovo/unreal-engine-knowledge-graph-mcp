@@ -1,0 +1,131 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_skeletal-mesh-sockets-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_skeletal-mesh-sockets-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "骨骼网格体插槽",
+      "predicate": "用于",
+      "object": "偏移绑定对象",
+      "context": "插槽可以相对于父骨骼进行变换，用于精确控制绑定对象的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体插槽",
+      "predicate": "创建于",
+      "object": "骨架树",
+      "context": "插槽通过骨架树的右键菜单创建，是骨架层级结构的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架树",
+      "predicate": "位于",
+      "object": "动画编辑器",
+      "context": "骨架树是动画编辑器的主要功能模块，用于管理骨骼和插槽",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体插槽",
+      "predicate": "可附加",
+      "object": "Actor",
+      "context": "插槽的主要功能是作为绑定点用于附加各种Actor对象",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "网格体插槽",
+      "predicate": "特殊类型",
+      "object": "骨骼网格体插槽",
+      "context": "网格体插槽是存在于骨骼网格体上的特殊插槽，不共享于骨架",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插槽细节面板",
+      "predicate": "控制",
+      "object": "插槽变换属性",
+      "context": "细节面板提供对插槽相对位置/旋转/比例的精确控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插槽对齐功能",
+      "predicate": "简化",
+      "object": "对象附加流程",
+      "context": "启用插槽对齐后可以直观地在视口中完成对象附加",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "蓝图附加",
+      "predicate": "提供",
+      "object": "动态控制能力",
+      "context": "通过蓝图函数可以实现运行时动态附加/脱离控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AttachActorToComponent",
+      "predicate": "是",
+      "object": "动态附加函数",
+      "context": "该蓝图函数用于在运行时将Actor附加到组件插槽",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "依赖",
+      "object": "骨架资产",
+      "context": "骨骼网格体需要基于骨架资产创建，插槽也存储在骨架资产中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插槽复制粘贴",
+      "predicate": "支持",
+      "object": "快速插槽复用",
+      "context": "允许将插槽复制到相同或不同骨骼，提高工作效率",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "ForceAlwaysAnimated",
+      "predicate": "影响",
+      "object": "骨骼动画计算",
+      "context": "该属性强制插槽的父骨骼始终参与动画计算，不受LOD影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体编辑器",
+      "predicate": "用于",
+      "object": "管理网格体插槽",
+      "context": "网格体插槽需要在骨骼网格体编辑器中进行创建和管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插槽变换规则",
+      "predicate": "决定",
+      "object": "附加后对象行为",
+      "context": "KeepRelative/KeepWorld/SnapToTarget三种规则控制附加后的对象变换方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:48:17.852Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8901 字符)",
+      "timestamp": "2025-06-15T20:47:35.966Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13291,
+    "contentLength": 8901,
+    "processingTimeMs": 41893
+  }
+}

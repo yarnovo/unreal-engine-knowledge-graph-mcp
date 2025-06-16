@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_linux-development-quickstart-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_linux-development-quickstart-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "Linux开发",
+      "context": "文档明确说明虚幻引擎支持在Linux设备上开发，帮助学习者了解跨平台开发能力",
+      "direction": "bidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "Linux开发",
+      "predicate": "需要",
+      "object": "glibc 2.28或更高版本",
+      "context": "glibc版本是Linux开发的基础依赖项，影响虚幻编辑器的启动性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编辑器",
+      "predicate": "推荐使用",
+      "object": "Ubuntu 22.04",
+      "context": "Ubuntu 22.04是官方推荐的开发操作系统，确保最佳兼容性和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Linux开发",
+      "predicate": "依赖",
+      "object": "Vulkan RHI",
+      "context": "Linux平台使用Vulkan作为渲染硬件接口，对VRAM要求较高",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Vulkan RHI",
+      "predicate": "需要",
+      "object": "专用GPU",
+      "context": "Vulkan在Linux上对显存要求较高，建议使用高性能显卡",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "C++开发",
+      "predicate": "需要",
+      "object": "Clang工具链",
+      "context": "Linux上的C++项目开发需要配置Clang编译工具链",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Visual Studio Code",
+      "predicate": "适用于",
+      "object": "虚幻引擎开发",
+      "context": "VS Code是官方推荐的IDE之一，支持C++和C#扩展",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目构建",
+      "predicate": "可通过",
+      "object": "RunUAT脚本",
+      "context": "BuildCookRun命令是自动化构建项目的核心工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "源代码构建",
+      "predicate": "替代",
+      "object": "预编译版本",
+      "context": "开发者可以选择从源代码构建引擎而非使用预编译版本",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Linux开发环境",
+      "predicate": "包含",
+      "object": "SetupToolchain.sh",
+      "context": "该脚本是配置Linux开发工具链的关键组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "多Linux发行版",
+      "context": "兼容Rocky Linux/Redhat/Ubuntu等多个发行版",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目打包",
+      "predicate": "使用",
+      "object": "BuildCookRun命令",
+      "context": "命令行构建流程的核心命令，包含构建/烘焙/打包全流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IDE配置",
+      "predicate": "需要",
+      "object": "BaseEngine.ini修改",
+      "context": "设置首选代码编辑器需要修改引擎配置文件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Linux开发",
+      "predicate": "建议",
+      "object": "32GB内存",
+      "context": "官方推荐硬件配置确保编辑器流畅运行",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:45:26.109Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10230,
+    "contentLength": 7020,
+    "processingTimeMs": 46456
+  }
+}

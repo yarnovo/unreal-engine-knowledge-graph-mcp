@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_fname-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_fname-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "FName",
+      "predicate": "用于",
+      "object": "高效字符串处理",
+      "context": "FName是虚幻引擎中用于高效字符串处理的轻量级类型，特别适合需要频繁比较的字符串场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FName",
+      "predicate": "依赖",
+      "object": "全局唯一字符串表",
+      "context": "FName通过索引引用全局唯一字符串表中的字符串来实现高效查找和访问",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FName",
+      "predicate": "使用",
+      "object": "哈希表格",
+      "context": "FName子系统使用哈希表格来加速字符串到FName的转换过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FName",
+      "predicate": "适用于",
+      "object": "对象名称",
+      "context": "FName特别适合用于表示对象名称、标识符等需要频繁比较的字符串",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FName",
+      "predicate": "用于",
+      "object": "骨骼网格体",
+      "context": "在骨骼网格体组件中，FName用于标识和访问特定骨骼（如'pelvis'）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FName",
+      "predicate": "可转换为",
+      "object": "FString",
+      "context": "FName可以转换为FString，但需要注意大小写不敏感带来的信息损失",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FName",
+      "predicate": "可转换为",
+      "object": "FText",
+      "context": "FName可以转换为FText，但不会受益于FText的自动本地化功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FName",
+      "predicate": "对比方式",
+      "object": "索引数值比较",
+      "context": "FName使用索引数值比较而非字符串比较，这大大降低了CPU开销",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FName",
+      "predicate": "具有特性",
+      "object": "不区分大小写",
+      "context": "FName不区分大小写，这是学习使用FName时需要特别注意的特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FName",
+      "predicate": "具有特性",
+      "object": "不可变",
+      "context": "FName一旦创建就不可更改，这是其高效性的重要保证",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FName",
+      "predicate": "用于",
+      "object": "动态材质实例",
+      "context": "在修改动态材质实例参数时会使用FName来标识参数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FName",
+      "predicate": "用于",
+      "object": "内容浏览器",
+      "context": "在内容浏览器中命名新资产时会使用FName",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FName",
+      "predicate": "前置知识",
+      "object": "字符串处理",
+      "context": "理解FName需要先掌握基本的字符串处理概念",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "FName",
+      "predicate": "相关概念",
+      "object": "哈希表",
+      "context": "了解哈希表的工作原理有助于理解FName的高效实现",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T19:06:13.433Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4957,
+    "contentLength": 3397,
+    "processingTimeMs": 51811
+  }
+}

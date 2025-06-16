@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_re-parent-control-rig-controls-in-real-time-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_re-parent-control-rig-controls-in-real-time-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "控制绑定空间切换",
+      "predicate": "用于",
+      "object": "动画制作",
+      "context": "控制绑定空间切换功能主要用于动画制作中动态调整控制点的变换空间，帮助实现复杂的动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定空间切换",
+      "predicate": "实现于",
+      "object": "控制绑定资产",
+      "context": "空间切换功能可以在控制绑定资产中预定义，为动画制作提供基础支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定空间切换",
+      "predicate": "应用于",
+      "object": "Sequencer",
+      "context": "空间切换功能可以在Sequencer中动态应用，为动画制作提供灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定资产",
+      "predicate": "包含",
+      "object": "控制点",
+      "context": "控制绑定资产中包含控制点，这些控制点是空间切换操作的主要对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制点",
+      "predicate": "支持",
+      "object": "空间切换",
+      "context": "控制点支持空间切换功能，可以动态改变其变换空间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "空间切换",
+      "predicate": "支持",
+      "object": "父节点空间",
+      "context": "空间切换支持将控制点设置为父节点空间，这是默认的变换空间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "空间切换",
+      "predicate": "支持",
+      "object": "世界空间",
+      "context": "空间切换支持将控制点设置为世界空间，使其相对于绝对世界坐标变换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "空间切换",
+      "predicate": "支持",
+      "object": "自定义空间",
+      "context": "空间切换支持使用控制点、骨骼或Null作为自定义空间，提供更灵活的变换选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "依赖",
+      "object": "动画模式",
+      "context": "在Sequencer中使用空间切换功能需要先启用动画模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "空间关键帧",
+      "predicate": "生成于",
+      "object": "空间切换",
+      "context": "当控制点切换空间时，会自动生成空间关键帧，记录空间变换信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换关键帧",
+      "predicate": "生成于",
+      "object": "空间切换",
+      "context": "空间切换时会生成补偿性的变换关键帧，以维持控制点的视觉效果位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "烘焙",
+      "predicate": "用于",
+      "object": "空间切换",
+      "context": "烘焙功能可以将空间切换的最终效果稳定到默认父节点空间或其他指定空间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态层级节点",
+      "predicate": "用于",
+      "object": "控制绑定图表",
+      "context": "动态层级节点可以在控制绑定图表中绘制空间切换功能的逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "添加父节点",
+      "predicate": "属于",
+      "object": "动态层级节点",
+      "context": "添加父节点是动态层级节点的一种，用于为绑定元素添加额外的父节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "获取父节点权重",
+      "predicate": "属于",
+      "object": "动态层级节点",
+      "context": "获取父节点权重是动态层级节点的一种，用于查询绑定元素的父节点权重",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设置父节点权重",
+      "predicate": "属于",
+      "object": "动态层级节点",
+      "context": "设置父节点权重是动态层级节点的一种，用于调整绑定元素的父节点权重",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "切换父节点",
+      "predicate": "属于",
+      "object": "动态层级节点",
+      "context": "切换父节点是动态层级节点的一种，用于改变绑定元素的父节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定空间切换",
+      "predicate": "基于",
+      "object": "动态层级系统",
+      "context": "空间切换功能基于动态层级系统构建，可以在控制绑定资产中预览和调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器偏好设置",
+      "predicate": "控制",
+      "object": "空间关键帧颜色",
+      "context": "编辑器偏好设置中可以自定义Sequencer中使用的空间关键帧颜色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:33:39.516Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10012 字符)",
+      "timestamp": "2025-06-15T20:32:31.633Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15738,
+    "contentLength": 10012,
+    "processingTimeMs": 67888
+  }
+}

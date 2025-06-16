@@ -1,0 +1,163 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_hardware-ray-tracing-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_hardware-ray-tracing-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "硬件光线追踪",
+      "predicate": "实现",
+      "object": "高质量图像渲染",
+      "context": "硬件光线追踪能够产出高质量且自然的图像，提供物理维度上精确的投影、环境光遮蔽、反射和全局光照效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬件光线追踪",
+      "predicate": "依赖",
+      "object": "支持的计算皮肤缓存",
+      "context": "启用硬件光线追踪需要同时启用支持计算皮肤缓存功能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬件光线追踪",
+      "predicate": "集成",
+      "object": "Lumen全局光照和反射系统",
+      "context": "大多数核心光追功能都内置在Lumen全局光照和反射系统中，硬件光线追踪可以与Lumen结合使用。",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬件光线追踪",
+      "predicate": "支持",
+      "object": "Sequencer和影片渲染队列",
+      "context": "硬件光线追踪可以与Sequencer和影片渲染队列一起使用，产出高质量的渲染结果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬件光线追踪",
+      "predicate": "结合",
+      "object": "传统光栅技术",
+      "context": "硬件光线追踪功能结合了传统的光栅技术，减少每帧需要逐像素取样的光线数量，结合降噪算法后能产出更接近离线渲染器的结果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬件光线追踪阴影",
+      "predicate": "属于",
+      "object": "硬件光线追踪的独立功能",
+      "context": "光线追踪阴影是硬件光线追踪的独立功能，能够模拟环境中对象的柔和区域投影。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬件光线追踪阴影",
+      "predicate": "替代",
+      "object": "虚拟阴影贴图",
+      "context": "光线追踪阴影比虚拟阴影贴图更为精准，可以具有硬接触阴影，而阴影投射物距离接收表面越远，阴影就越柔和。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光线追踪环境光遮蔽",
+      "predicate": "禁用",
+      "object": "Lumen的全局光照",
+      "context": "禁用Lumen的全局光照才能使用光线追踪环境光遮蔽的独立功能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen的硬件光线追踪反射",
+      "predicate": "支持",
+      "object": "更多几何体类型",
+      "context": "Lumen的硬件光线追踪反射比软件光线追踪模式支持更多几何体类型，特别是蒙皮网格体。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理体积",
+      "predicate": "控制",
+      "object": "光线追踪功能",
+      "context": "后期处理体积包含了配置硬件光线追踪功能所需的大部分设置，可用于配置全局或特定区域的光线追踪使用。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源",
+      "predicate": "影响",
+      "object": "阴影外观",
+      "context": "光源的尺寸和角度会影响物体阴影的外观，尺寸和角度越大，阴影越柔和。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Vulkan",
+      "predicate": "支持",
+      "object": "光线追踪功能",
+      "context": "Vulkan支持光线追踪功能，包括与DirectX 12和Shader Model 6对等的功能，可以使用全套光线追踪功能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬件光线追踪",
+      "predicate": "支持",
+      "object": "动态开关",
+      "context": "可以在运行时动态地为PC游戏项目打开或关闭硬件光线追踪，无需重新启动游戏。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Nanite",
+      "predicate": "使用",
+      "object": "回退目标",
+      "context": "如果为对象启用了Nanite，光线追踪功能将使用Nanite回退目标为独立的光线追踪阴影投射阴影。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬件光线追踪",
+      "predicate": "支持",
+      "object": "多种几何体类型",
+      "context": "硬件光线追踪支持多种几何体类型，包括静态网格体、蒙皮网格体、地形等。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬件光线追踪",
+      "predicate": "支持",
+      "object": "多种光源类型",
+      "context": "硬件光线追踪支持多种光源类型，包括定向光源、点光源、聚光源、矩形光源等。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬件光线追踪",
+      "predicate": "支持",
+      "object": "多种材质功能",
+      "context": "硬件光线追踪支持多种材质功能，包括默认光照、次表面、透明涂层等。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬件光线追踪",
+      "predicate": "支持",
+      "object": "系统功能",
+      "context": "硬件光线追踪支持多种系统功能，包括Sequencer影片渲染队列、正色摄像机投影等。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:18:32.322Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15504 字符)",
+      "timestamp": "2025-06-15T19:17:27.474Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 25340,
+    "contentLength": 15504,
+    "processingTimeMs": 64853
+  }
+}

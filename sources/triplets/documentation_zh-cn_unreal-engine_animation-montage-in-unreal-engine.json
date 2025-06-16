@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-montage-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-montage-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "动画蒙太奇",
+      "predicate": "合并",
+      "object": "动画序列",
+      "context": "动画蒙太奇可以将多个动画序列合并为单个资产，便于管理和播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蒙太奇",
+      "predicate": "包含",
+      "object": "蒙太奇分段",
+      "context": "蒙太奇可以切分为多个分段，便于按逻辑动态播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蒙太奇",
+      "predicate": "使用",
+      "object": "插槽组",
+      "context": "动画序列通过插槽组分类，便于在不同部位播放不同动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蒙太奇",
+      "predicate": "使用",
+      "object": "插槽",
+      "context": "插槽用于划分和播放动画序列，一个插槽可以有多个动画序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蒙太奇",
+      "predicate": "支持",
+      "object": "根位移",
+      "context": "动画蒙太奇可用于在网络游戏中复制根位移动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蒙太奇",
+      "predicate": "基于",
+      "object": "骨架",
+      "context": "创建动画蒙太奇时需要选择应用的骨架",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蒙太奇",
+      "predicate": "生成",
+      "object": "子蒙太奇",
+      "context": "可以从动画蒙太奇创建子蒙太奇，沿用父级属性并适用于不同场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蒙太奇",
+      "predicate": "控制",
+      "object": "动画通知",
+      "context": "蒙太奇轨道中可以管理动画通知的计时指示器",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "蒙太奇分段",
+      "predicate": "包含",
+      "object": "动画序列",
+      "context": "蒙太奇分段中可以包含多个动画序列，按逻辑动态播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蒙太奇分段",
+      "predicate": "控制",
+      "object": "播放顺序",
+      "context": "蒙太奇分段面板可以设置分段的默认播放顺序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插槽组",
+      "predicate": "包含",
+      "object": "插槽",
+      "context": "插槽组包含多个插槽，用于在不同部位播放不同动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插槽",
+      "predicate": "播放",
+      "object": "动画序列",
+      "context": "插槽用于播放动画序列，同一插槽的序列会相互覆盖",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子蒙太奇",
+      "predicate": "继承",
+      "object": "动画蒙太奇",
+      "context": "子蒙太奇继承父级蒙太奇的所有属性，并可进行自定义修改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画序列",
+      "predicate": "用于",
+      "object": "动画蒙太奇",
+      "context": "动画序列是动画蒙太奇的基本组成部分，可以合并为蒙太奇",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "控制",
+      "object": "动画蒙太奇",
+      "context": "蓝图可以用于播放动画蒙太奇，并控制分段之间的复杂过渡行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蒙太奇",
+      "predicate": "用于",
+      "object": "网络游戏",
+      "context": "动画蒙太奇可用于网络游戏中复制根位移动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RPC",
+      "predicate": "调用",
+      "object": "播放蒙太奇",
+      "context": "在网络游戏中使用RPC调用播放蒙太奇节点，实现根位移的复制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间轴",
+      "predicate": "显示",
+      "object": "蒙太奇轨道",
+      "context": "时间轴中显示蒙太奇轨道，便于管理和预览动画序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "编辑",
+      "object": "动画蒙太奇",
+      "context": "细节面板用于编辑和管理动画蒙太奇中的各种属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:03:40.158Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8539 字符)",
+      "timestamp": "2025-06-15T18:02:30.406Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13671,
+    "contentLength": 8539,
+    "processingTimeMs": 69760
+  }
+}

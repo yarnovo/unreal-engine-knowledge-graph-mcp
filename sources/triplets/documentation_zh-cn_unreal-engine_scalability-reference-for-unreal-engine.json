@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_scalability-reference-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_scalability-reference-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "可延展性设置",
+      "predicate": "包含",
+      "object": "分辨率缩放",
+      "context": "可延展性设置是调节游戏性能的核心功能，分辨率缩放是其重要组成部分，帮助学习理解性能优化的主要手段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可延展性设置",
+      "predicate": "包含",
+      "object": "视图距离",
+      "context": "视图距离作为可延展性设置的子项，直接影响场景渲染性能，是学习LOD技术的基础概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分辨率缩放",
+      "predicate": "受益于",
+      "object": "抗锯齿质量",
+      "context": "文档明确指出分辨率缩放效果会因抗锯齿质量提升而改善，这对理解图形处理管线优化有重要意义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "抗锯齿",
+      "predicate": "实现方式包括",
+      "object": "FXAA",
+      "context": "帮助学习者理解不同抗锯齿技术的选择与质量设置的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "抗锯齿",
+      "predicate": "实现方式包括",
+      "object": "临时AA",
+      "context": "展示抗锯齿技术的多样性，为学习图形渲染技术提供完整知识框架",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理质量",
+      "predicate": "控制",
+      "object": "运动模糊",
+      "context": "建立后期处理质量与具体效果参数的关联，帮助理解质量设置的实际影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理质量",
+      "predicate": "控制",
+      "object": "环境光遮蔽",
+      "context": "展示后期处理质量对光照效果的影响，重要学习渲染管线知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "阴影质量",
+      "predicate": "影响",
+      "object": "级联阴影映射",
+      "context": "揭示阴影质量设置与具体渲染技术的直接关系，帮助深入理解实时阴影实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理质量",
+      "predicate": "关联",
+      "object": "各向异性过滤",
+      "context": "理解纹理质量不仅影响内存使用，还影响纹理采样方式，全面认识性能优化",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "效果质量",
+      "predicate": "包含",
+      "object": "屏幕空间反射",
+      "context": "展示效果质量设置涵盖的具体技术，帮助学习者构建完整的渲染知识体系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质质量级别",
+      "predicate": "使用",
+      "object": "质量开关节点",
+      "context": "解释材质质量级别的实现机制，对学习材质优化技术至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体LOD偏差",
+      "predicate": "影响",
+      "object": "网格体细节层次",
+      "context": "展示LOD系统与可延展性设置的关联，帮助理解性能与质量的平衡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "植被可延展性",
+      "predicate": "依赖",
+      "object": "密度缩放",
+      "context": "揭示植被渲染优化的核心技术参数，对学习大规模场景渲染很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BaseScalability.ini",
+      "predicate": "存储",
+      "object": "默认可延展性设置",
+      "context": "理解引擎配置文件的角色和作用，对项目配置管理学习很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DefaultScalability.ini",
+      "predicate": "扩展",
+      "object": "BaseScalability.ini",
+      "context": "展示项目自定义配置与引擎默认配置的关系，重要学习项目配置管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可延展性设置",
+      "predicate": "适用于",
+      "object": "多平台开发",
+      "context": "阐明可延展性设置的核心价值，帮助理解跨平台开发的关键技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.ScreenPercentage",
+      "predicate": "控制",
+      "object": "分辨率缩放",
+      "context": "展示控制台变量与实际功能的对应关系，重要学习引擎调试技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.ViewDistanceScale",
+      "predicate": "调节",
+      "object": "视图距离",
+      "context": "建立控制台命令与可视化效果的直接关联，帮助理解参数调节方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.PostProcessAAQuality",
+      "predicate": "设置",
+      "object": "抗锯齿质量",
+      "context": "揭示控制台命令与质量设置的对应关系，重要学习引擎调试方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节模式",
+      "predicate": "影响",
+      "object": "Actor渲染细节",
+      "context": "展示细节模式对场景对象的具体影响，帮助理解场景优化技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:40:46.525Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13922 字符)",
+      "timestamp": "2025-06-15T20:39:43.134Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 18998,
+    "contentLength": 13922,
+    "processingTimeMs": 63400
+  }
+}

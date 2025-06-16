@@ -1,0 +1,147 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_manage-item-and-data-in-an-unreal-engine-game",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_manage-item-and-data-in-an-unreal-engine-game.md",
+  "triples": [
+    {
+      "subject": "数据驱动型Gameplay",
+      "predicate": "替代",
+      "object": "硬编码数值",
+      "context": "数据驱动型Gameplay通过集中管理数据来提高效率，避免为每种物品类型创建单独的类和蓝图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物品数据结构体",
+      "predicate": "定义",
+      "object": "数据表字段",
+      "context": "物品数据结构体定义了数据表中各个物品应具有的数据或属性，类似于表格的列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据表",
+      "predicate": "存储",
+      "object": "物品数据",
+      "context": "数据表用于集中组织和显示物品数据，根据物品数据结构体存储实际的数据条目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据资产",
+      "predicate": "扩展",
+      "object": "物品数据结构体",
+      "context": "数据资产允许在编辑器中使用和引用物品数据，是对物品数据结构体的扩展",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UItemDefinition",
+      "predicate": "继承",
+      "object": "UDataAsset",
+      "context": "UItemDefinition类继承自UDataAsset，使其可以在编辑器中直接创建和使用实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FItemData",
+      "predicate": "继承",
+      "object": "FTableRowBase",
+      "context": "FItemData结构体继承自FTableRowBase，使其可以在数据表资产中使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSoftObjectPtr",
+      "predicate": "用于",
+      "object": "异步加载资产",
+      "context": "TSoftObjectPtr是一种弱指针，用于按需加载大型资产，避免游戏启动时加载所有资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TObjectPtr",
+      "predicate": "用于",
+      "object": "安全引用UObject",
+      "context": "TObjectPtr是虚幻引擎中的智能指针类型，用于安全引用UObject派生类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EItemType",
+      "predicate": "包含",
+      "object": "物品类型枚举",
+      "context": "EItemType枚举定义了物品的类型，如工具和消耗品",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FItemText",
+      "predicate": "包含",
+      "object": "物品文本数据",
+      "context": "FItemText结构体包含物品的名称和描述等文本数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UItemDefinition",
+      "predicate": "引用",
+      "object": "FItemData",
+      "context": "UItemDefinition类通过ItemBase字段引用FItemData结构体中的数据",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据表",
+      "predicate": "引用",
+      "object": "数据资产",
+      "context": "数据表通过ItemBase字段引用数据资产实例",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据驱动型Gameplay",
+      "predicate": "依赖",
+      "object": "数据表",
+      "context": "数据驱动型Gameplay依赖数据表来集中管理和组织数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据驱动型Gameplay",
+      "predicate": "依赖",
+      "object": "数据资产",
+      "context": "数据驱动型Gameplay依赖数据资产来存储和引用物品的具体数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物品数据结构体",
+      "predicate": "包含",
+      "object": "物品属性",
+      "context": "物品数据结构体定义了物品的基本属性，如ID、物品类型和物品文本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UItemDefinition",
+      "predicate": "包含",
+      "object": "物品属性",
+      "context": "UItemDefinition类包含了物品的基本属性，如ID、物品类型和物品文本，以及世界网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:49:29.311Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (18245 字符)",
+      "timestamp": "2025-06-15T19:48:31.839Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 27035,
+    "contentLength": 18245,
+    "processingTimeMs": 57484
+  }
+}

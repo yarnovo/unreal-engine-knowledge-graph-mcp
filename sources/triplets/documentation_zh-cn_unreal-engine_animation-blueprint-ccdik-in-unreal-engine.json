@@ -1,0 +1,157 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-blueprint-ccdik-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-blueprint-ccdik-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "CCDIK",
+      "predicate": "是",
+      "object": "动画蓝图节点",
+      "context": "CCDIK是虚幻引擎中的一个动画蓝图节点，用于实现逆向运动学解算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CCDIK",
+      "predicate": "类似",
+      "object": "FABRIK",
+      "context": "CCDIK与FABRIK都是IK解算器，但CCDIK提供了定义角约束的功能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CCDIK",
+      "predicate": "用于",
+      "object": "骨骼链驱动",
+      "context": "CCDIK节点用于将骨骼链驱动至执行器位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CCDIK",
+      "predicate": "支持",
+      "object": "角约束",
+      "context": "CCDIK提供了定义角约束的功能，适用于需要限制骨骼旋转的场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CCDIK",
+      "predicate": "运行于",
+      "object": "组件空间",
+      "context": "CCDIK节点在组件空间中运行，需要空间转换才能应用到动画蓝图中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CCDIK",
+      "predicate": "包含",
+      "object": "执行器位置",
+      "context": "执行器位置是CCDIK节点的关键属性，用于指定骨骼链的目标位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CCDIK",
+      "predicate": "包含",
+      "object": "末端骨骼",
+      "context": "末端骨骼是CCDIK节点需要调节至执行器位置的骨骼",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CCDIK",
+      "predicate": "包含",
+      "object": "根骨骼",
+      "context": "根骨骼定义了骨骼链的起点，将动作锁定在本地根骨骼点上",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CCDIK",
+      "predicate": "包含",
+      "object": "旋转限制",
+      "context": "CCDIK节点可以启用旋转限制，避免不想要的几何体重叠和关节过度伸展",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CCDIK",
+      "predicate": "应用于",
+      "object": "骨骼网格体",
+      "context": "CCDIK节点通过调节骨骼网格体的骨骼来实现动态互动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CCDIK",
+      "predicate": "需要",
+      "object": "空间转换",
+      "context": "由于CCDIK在组件空间中运行，需要空间转换才能应用到角色的动画蓝图中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CCDIK",
+      "predicate": "控制",
+      "object": "Alpha值",
+      "context": "通过Alpha值可以控制姿势中的运动角度，影响输出姿势的使用程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "执行器位置",
+      "predicate": "可设置为",
+      "object": "世界空间",
+      "context": "执行器位置可以设置为世界空间，用于计算关卡中的目标向量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "执行器位置",
+      "predicate": "可设置为",
+      "object": "骨骼空间",
+      "context": "执行器位置也可以设置为骨骼空间，此时需要定义目标骨骼",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "动画图表",
+      "context": "CCDIK节点被添加到动画蓝图的动画图表中使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "包含",
+      "object": "骨架",
+      "context": "骨骼网格体依赖于骨架定义骨骼结构和关节关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CCDIK",
+      "predicate": "用于实现",
+      "object": "角色与物体互动",
+      "context": "CCDIK可用于实现角色与游戏世界中物体的动态互动，如按下按钮",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CCDIK",
+      "predicate": "是",
+      "object": "Experimental功能",
+      "context": "CCDIK目前标记为Experimental功能，在产品发布中需要谨慎使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:59:08.669Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8516,
+    "contentLength": 5550,
+    "processingTimeMs": 67247
+  }
+}

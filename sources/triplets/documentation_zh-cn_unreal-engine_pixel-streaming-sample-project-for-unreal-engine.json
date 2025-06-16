@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_pixel-streaming-sample-project-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_pixel-streaming-sample-project-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "像素流送示例项目",
+      "predicate": "包含",
+      "object": "HTML播放器页面",
+      "context": "示例项目包含一个HTML播放器页面，用于播放UE应用程序生成的媒体流送，并提供自定义UI元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送示例项目",
+      "predicate": "包含",
+      "object": "UE5项目",
+      "context": "示例项目包含一个已配置好的UE5项目，用于生成媒体流送并响应HTML播放器的命令",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送示例项目",
+      "predicate": "基于",
+      "object": "像素流送插件",
+      "context": "示例项目基于像素流送插件实现媒体流送功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HTML播放器页面",
+      "predicate": "控制",
+      "object": "UE5应用程序",
+      "context": "HTML播放器页面通过自定义UI元素远程控制UE5应用程序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送系统",
+      "predicate": "依赖",
+      "object": "像素流送基础架构",
+      "context": "像素流送系统需要匹配版本的像素流送基础架构才能正常运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送基础架构",
+      "predicate": "包含",
+      "object": "信令服务器",
+      "context": "基础架构包含信令服务器，用于协调流送过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送基础架构",
+      "predicate": "包含",
+      "object": "Web服务器",
+      "context": "基础架构包含Web服务器，用于托管HTML播放器页面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "showcase.html",
+      "predicate": "实现",
+      "object": "自定义UI交互",
+      "context": "showcase.html页面实现了与UE5应用程序交互的自定义UI功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "emitUIInteraction函数",
+      "predicate": "传递",
+      "object": "JSON数据",
+      "context": "emitUIInteraction函数将JSON数据从HTML页面传递到UE5应用程序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Orbit_Controller蓝图",
+      "predicate": "处理",
+      "object": "UI交互事件",
+      "context": "Orbit_Controller蓝图类负责处理从HTML页面发送的UI交互事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送控件",
+      "predicate": "演示",
+      "object": "流送功能",
+      "context": "游戏窗口中的像素流送控件演示了各种流送功能，如冻结帧、音频组件等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频组件",
+      "predicate": "流送",
+      "object": "麦克风输入",
+      "context": "音频组件功能允许通过WebRTC流送麦克风音频输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视频组件",
+      "predicate": "流送",
+      "object": "网络摄像机输入",
+      "context": "视频组件功能允许通过WebRTC流送网络摄像机输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对等组件",
+      "predicate": "接收",
+      "object": "现有流送",
+      "context": "对等组件功能可以接收并播放现有的流送内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送示例项目",
+      "predicate": "需要",
+      "object": "像素流送基础知识",
+      "context": "使用示例项目前需要了解像素流送系统的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送示例项目",
+      "predicate": "需要",
+      "object": "入门指南",
+      "context": "使用示例项目前需要完成像素流送入门的指南步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送插件",
+      "predicate": "支持",
+      "object": "WebRTC技术",
+      "context": "像素流送插件使用WebRTC技术实现实时流送功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "HTML播放器页面",
+      "predicate": "使用",
+      "object": "JavaScript",
+      "context": "HTML播放器页面使用JavaScript实现与UE5的交互功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UE5项目",
+      "predicate": "包含",
+      "object": "蓝图系统",
+      "context": "UE5项目使用蓝图系统处理来自HTML页面的交互事件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:24:21.873Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8385 字符)",
+      "timestamp": "2025-06-15T20:23:22.163Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12621,
+    "contentLength": 8385,
+    "processingTimeMs": 59717
+  }
+}

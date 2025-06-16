@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_advanced-multi-user-networking-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_advanced-multi-user-networking-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "多用户编辑系统",
+      "predicate": "依赖",
+      "object": "UDP消息传输",
+      "context": "多用户编辑系统的网络通信依赖于UDP消息传输机制来实现服务器与客户端之间的数据交换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户编辑服务器",
+      "predicate": "使用",
+      "object": "单播端点配置",
+      "context": "服务器需要配置单播端点IP地址来指定网络接口，这是建立多用户编辑连接的基础配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编辑器",
+      "predicate": "配置",
+      "object": "静态端点",
+      "context": "当跨子网连接时，编辑器需要配置静态端点来指定服务器的IP和端口，这对理解网络拓扑配置很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UDP消息设置",
+      "predicate": "包含",
+      "object": "单播端点",
+      "context": "UDP消息传输的核心配置包含单播端点设置，这是学习网络配置时必须掌握的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户编辑",
+      "predicate": "支持",
+      "object": "LAN环境",
+      "context": "文档明确说明多用户编辑功能主要支持LAN环境下的协作，这是该功能的基础应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "包含",
+      "object": "多用户编辑配置",
+      "context": "项目设置是配置多用户编辑参数的主要入口，包含服务器端口等关键设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "相同子网配置",
+      "predicate": "对比",
+      "object": "不同子网配置",
+      "context": "理解相同子网和不同子网的配置差异有助于掌握网络环境适配的核心原理",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "服务器端口",
+      "predicate": "影响",
+      "object": "编辑器连接",
+      "context": "服务器端口设置直接影响编辑器实例的连接方式，是网络配置的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户编辑系统",
+      "predicate": "基于",
+      "object": "客户端-服务器架构",
+      "context": "系统采用客户端-服务器架构，这是理解其工作原理的基础架构模式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Engine.ini配置文件",
+      "predicate": "存储",
+      "object": "UDP消息设置",
+      "context": "手动配置服务器时需要修改Engine.ini文件来存储UDP消息传输的持久化设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户编辑",
+      "predicate": "属于",
+      "object": "Beta功能",
+      "context": "文档明确指出该功能目前处于Beta阶段，这对评估功能稳定性有重要参考价值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动发现",
+      "predicate": "依赖",
+      "object": "组播流量",
+      "context": "自动发现机制依赖于正确的组播流量配置，这是理解网络发现故障排查的关键",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "静态端点",
+      "predicate": "替代",
+      "object": "自动发现",
+      "context": "当自动发现失效时，静态端点配置可以替代实现连接，这是重要的故障解决方案",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T17:55:00.929Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8226,
+    "contentLength": 5128,
+    "processingTimeMs": 55004
+  }
+}

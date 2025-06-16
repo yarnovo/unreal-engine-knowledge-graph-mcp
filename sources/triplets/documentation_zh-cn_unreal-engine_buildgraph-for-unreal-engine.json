@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_buildgraph-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_buildgraph-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "BuildGraph",
+      "predicate": "整合",
+      "object": "UnrealBuildTool",
+      "context": "BuildGraph整合了UnrealBuildTool，说明学习BuildGraph需要了解UnrealBuildTool的基本功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "整合",
+      "object": "AutomationTool",
+      "context": "BuildGraph整合了AutomationTool，表明AutomationTool是BuildGraph的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "整合",
+      "object": "编辑器",
+      "context": "BuildGraph整合了编辑器，说明编辑器在构建流程中扮演重要角色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "基于",
+      "object": "XML脚本",
+      "context": "BuildGraph脚本以XML编写，学习BuildGraph需要掌握XML语法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "包含",
+      "object": "任务",
+      "context": "任务是构建过程的基本执行单元，理解任务是学习BuildGraph的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "包含",
+      "object": "节点",
+      "context": "节点是排序任务的命名序列，是BuildGraph的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "包含",
+      "object": "代理",
+      "context": "代理是在相同机器上执行的一组节点，理解代理有助于分布式构建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "包含",
+      "object": "触发",
+      "context": "触发是手动介入后才会执行的群组，了解触发机制有助于构建流程控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "包含",
+      "object": "聚合",
+      "context": "聚合是通过单一命名进行引用的节点和命名输出群组，简化复杂构建流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "支持",
+      "object": "属性定义",
+      "context": "属性定义是脚本中可重复使用的值，掌握属性定义提高脚本编写效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "支持",
+      "object": "条件定义",
+      "context": "条件定义允许单元根据条件执行，是构建复杂逻辑的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "支持",
+      "object": "文件处理",
+      "context": "文件处理功能是打包游戏的关键能力，理解文件处理对游戏发布很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "支持",
+      "object": "标记系统",
+      "context": "标记系统用于文件集合操作，是高级构建流程的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "用于",
+      "object": "虚幻引擎二进制版本准备",
+      "context": "了解BuildGraph在引擎发布流程中的应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "用于",
+      "object": "游戏样本包制作",
+      "context": "理解BuildGraph在市场样本包制作中的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "用于",
+      "object": "游戏开发流程",
+      "context": "了解BuildGraph在实际游戏开发中的应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph脚本",
+      "predicate": "基于",
+      "object": "XML模式",
+      "context": "XML模式提供了脚本验证和智能感知功能，提高开发效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "节点",
+      "predicate": "依赖",
+      "object": "其他节点",
+      "context": "理解节点间的依赖关系是构建复杂流程的关键",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "任务",
+      "predicate": "生成",
+      "object": "输出",
+      "context": "任务是构建流程的基本执行单元，理解任务如何产生输出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性",
+      "predicate": "引用",
+      "object": "环境变量",
+      "context": "了解如何将环境变量导入属性，实现灵活配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:16:35.016Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7538,
+    "contentLength": 4796,
+    "processingTimeMs": 63883
+  }
+}

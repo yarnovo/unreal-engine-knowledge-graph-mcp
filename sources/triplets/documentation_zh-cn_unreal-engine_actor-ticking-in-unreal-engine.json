@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_actor-ticking-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_actor-ticking-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "Tick函数",
+      "context": "Actor通过Tick函数实现每帧更新，理解Tick函数是掌握Actor行为的基础",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Tick函数",
+      "predicate": "属于",
+      "object": "Tick组",
+      "context": "Tick函数必须归属于某个Tick组，Tick组决定了函数在帧中的执行顺序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Tick组",
+      "predicate": "包含",
+      "object": "TG_PrePhysics",
+      "context": "TG_PrePhysics是最早执行的Tick组，用于需要在物理模拟前完成的行为",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Tick组",
+      "predicate": "包含",
+      "object": "TG_DuringPhysics",
+      "context": "TG_DuringPhysics在物理模拟期间执行，适用于对物理数据不敏感的逻辑",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Tick组",
+      "predicate": "包含",
+      "object": "TG_PostPhysics",
+      "context": "TG_PostPhysics在物理模拟完成后执行，适用于需要精确物理数据的逻辑",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Tick组",
+      "predicate": "包含",
+      "object": "TG_PostUpdateWork",
+      "context": "TG_PostUpdateWork是帧中最后执行的Tick组，适用于需要最新摄像机信息的逻辑",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Tick依赖性",
+      "predicate": "控制",
+      "object": "Tick顺序",
+      "context": "Tick依赖性允许开发者精确控制不同Actor或组件之间的Tick执行顺序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "支持",
+      "object": "Tick依赖性",
+      "context": "Actor可以通过AddTickPrerequisiteActor函数设置Tick依赖性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "组件",
+      "predicate": "支持",
+      "object": "Tick依赖性",
+      "context": "组件可以通过AddTickPrerequisiteComponent函数设置Tick依赖性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PrimaryActorTick",
+      "predicate": "控制",
+      "object": "Actor的Tick行为",
+      "context": "PrimaryActorTick结构体用于配置Actor的Tick组、启用状态等核心Tick属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PrimaryComponentTick",
+      "predicate": "控制",
+      "object": "组件的Tick行为",
+      "context": "PrimaryComponentTick结构体用于配置组件的Tick组、启用状态等核心Tick属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FTickFunction",
+      "predicate": "扩展",
+      "object": "Tick功能",
+      "context": "继承自FTickFunction可以创建自定义的Tick函数，实现高级Tick功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TG_PrePhysics",
+      "predicate": "适用于",
+      "object": "动画Actor",
+      "context": "动画Actor需要在物理模拟前完成动画更新，因此适合放在TG_PrePhysics组",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "TG_DuringPhysics",
+      "predicate": "适用于",
+      "object": "HUD更新",
+      "context": "HUD更新不依赖精确的物理数据，可以容忍一帧延迟，适合TG_DuringPhysics",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "TG_PostPhysics",
+      "predicate": "适用于",
+      "object": "标线Actor",
+      "context": "标线Actor需要准确的物理碰撞结果，必须在物理模拟完成后更新",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "TG_PostUpdateWork",
+      "predicate": "适用于",
+      "object": "粒子效果",
+      "context": "粒子效果需要基于最新的摄像机位置更新，适合放在最后执行的Tick组",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Tick依赖性",
+      "predicate": "替代",
+      "object": "Tick组调整",
+      "context": "在某些情况下，使用Tick依赖性比调整Tick组更高效，可以精确控制执行顺序而不影响其他逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "RegisterActorTickFunctions",
+      "predicate": "管理",
+      "object": "自定义Tick函数",
+      "context": "重写RegisterActorTickFunctions是注册和启用自定义Tick函数的标准方法",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "AddPrerequisite",
+      "predicate": "设置",
+      "object": "Tick依赖关系",
+      "context": "AddPrerequisite函数用于手动设置自定义Tick函数之间的依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:53:51.966Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11162,
+    "contentLength": 6418,
+    "processingTimeMs": 63122
+  }
+}

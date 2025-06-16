@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_debugging-localization-keys-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_debugging-localization-keys-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "本地化键调试文化",
+      "predicate": "属于",
+      "object": "本地化文化",
+      "context": "本地化键调试文化是本地化文化的一种特殊类型，用于调试本地化文本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "本地化键调试文化",
+      "predicate": "用于",
+      "object": "调试本地化文本",
+      "context": "设置本地化键调试文化后，UI中会显示本地化键而非文本，便于调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "本地化键调试文化",
+      "predicate": "支持",
+      "object": "字符串表",
+      "context": "本地化键调试文化可以显示字符串表中的本地化键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "本地化键调试文化",
+      "predicate": "支持",
+      "object": "LOCTEXT宏",
+      "context": "本地化键调试文化可以显示通过LOCTEXT宏本地化的文本键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "本地化键调试文化",
+      "predicate": "激活方式",
+      "object": "控制台命令",
+      "context": "通过在控制台输入-culture=keys命令可以激活本地化键调试文化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate.LogPaintedText",
+      "predicate": "用于",
+      "object": "显示完整本地化键",
+      "context": "设置Slate.LogPaintedText为true可以在日志中记录完整的本地化键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "本地化键调试文化",
+      "predicate": "适用于",
+      "object": "开发/调试版本",
+      "context": "文档建议在开发或调试版本中使用本地化键调试文化，而非编辑器环境",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "本地化键调试文化",
+      "predicate": "帮助识别",
+      "object": "问题本地化文本",
+      "context": "通过显示本地化键而非文本，可以更容易识别出有问题的本地化文本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台",
+      "predicate": "用于",
+      "object": "更改本地化文化",
+      "context": "在虚幻编辑器中可以通过控制台更改本地化文化设置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "字符串表",
+      "predicate": "用于",
+      "object": "文本本地化",
+      "context": "字符串表是虚幻引擎中用于管理本地化文本的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:48:01.495Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3320,
+    "contentLength": 2136,
+    "processingTimeMs": 36094
+  }
+}

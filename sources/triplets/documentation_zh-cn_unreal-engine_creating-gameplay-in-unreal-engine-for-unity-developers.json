@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_creating-gameplay-in-unreal-engine-for-unity-developers",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_creating-gameplay-in-unreal-engine-for-unity-developers.md",
+  "triples": [
+    {
+      "subject": "Instantiate",
+      "predicate": "对应",
+      "object": "SpawnActor",
+      "context": "Unity中的Instantiate函数在虚幻引擎中对应SpawnActor函数，用于生成Actor实例",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ScriptableObject",
+      "predicate": "对应",
+      "object": "UObject",
+      "context": "Unity中的ScriptableObject在虚幻引擎中对应UObject，用于创建不需要生成到世界中的Gameplay类",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor",
+      "predicate": "继承自",
+      "object": "UObject",
+      "context": "AActor是UObject的子类，具有更多游戏世界中的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CreateDefaultSubobject",
+      "predicate": "用于",
+      "object": "组件初始化",
+      "context": "CreateDefaultSubobject函数用于在AActor构造函数中初始化组件并设置默认属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Cast",
+      "predicate": "实现",
+      "object": "类型转换",
+      "context": "虚幻引擎中的Cast函数用于实现类似Unity中的as操作符的类型转换功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Destroy",
+      "predicate": "对应",
+      "object": "SetLifeSpan",
+      "context": "Unity中的Destroy函数在虚幻引擎中对应SetLifeSpan方法实现延迟销毁",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SetActive",
+      "predicate": "分解为",
+      "object": "多个功能",
+      "context": "Unity中的SetActive(false)在虚幻引擎中分解为SetActorHiddenInGame、SetActorEnableCollision和SetActorTickEnabled等多个独立功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetComponent",
+      "predicate": "对应",
+      "object": "FindComponentByClass",
+      "context": "Unity中的GetComponent在虚幻引擎中对应FindComponentByClass方法",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UPrimitiveComponent",
+      "predicate": "组合",
+      "object": "碰撞和渲染",
+      "context": "UPrimitiveComponent将Unity中分开的碰撞和可视性功能组合到单个组件中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Physics.Raycast",
+      "predicate": "对应",
+      "object": "LineTraceSingle",
+      "context": "Unity中的Physics.Raycast在虚幻引擎中对应LineTraceSingle方法",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnTriggerEnter",
+      "predicate": "对应",
+      "object": "NotifyActorBeginOverlap",
+      "context": "Unity中的OnTriggerEnter在虚幻引擎中对应NotifyActorBeginOverlap事件",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Input.GetButtonDown",
+      "predicate": "对应",
+      "object": "BindAction",
+      "context": "Unity中的Input.GetButtonDown在虚幻引擎中通过BindAction绑定输入事件",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay框架",
+      "predicate": "包含",
+      "object": "核心游戏系统",
+      "context": "Gameplay框架文档介绍了虚幻引擎中的核心游戏系统，如游戏模式、玩家状态等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "可视化实现",
+      "object": "C++功能",
+      "context": "蓝图系统提供了可视化方式来实现大部分C++的Gameplay功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unity开发者",
+      "predicate": "学习路径",
+      "object": "虚幻引擎概念映射",
+      "context": "本文档专门为Unity开发者提供了从Unity概念到虚幻引擎概念的映射学习路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:40:24.639Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (18907 字符)",
+      "timestamp": "2025-06-15T18:39:37.727Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 21731,
+    "contentLength": 18907,
+    "processingTimeMs": 46922
+  }
+}

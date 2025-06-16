@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_horde-devices-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_horde-devices-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Horde设备管理器",
+      "predicate": "管理",
+      "object": "移动端和主机开发套件资源",
+      "context": "Horde设备管理器是核心组件，负责管理所有设备资源，这是学习Horde系统的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde设备管理器",
+      "predicate": "包含",
+      "object": "共享池",
+      "context": "共享池是Horde的核心功能模块，理解其与设备管理器的包含关系有助于掌握系统架构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde设备管理器",
+      "predicate": "包含",
+      "object": "自动化池",
+      "context": "自动化池是另一个核心功能模块，与共享池并列，共同组成设备管理器的功能体系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享池",
+      "predicate": "支持",
+      "object": "设备检出",
+      "context": "设备检出是共享池的核心功能，理解这一关系对学习设备使用流程至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享池",
+      "predicate": "支持",
+      "object": "自动化作业",
+      "context": "共享池不仅支持手动设备使用，也支持自动化作业，这对理解完整功能范围很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "自动化池",
+      "predicate": "专门用于",
+      "object": "自动化测试",
+      "context": "自动化池与共享池的功能区分是学习重点，这决定了不同场景下的资源使用方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde设备管理器",
+      "predicate": "集成",
+      "object": "Gauntlet自动化框架",
+      "context": "Gauntlet集成是Horde的重要扩展功能，理解这一关系有助于学习自动化测试工作流",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gauntlet",
+      "predicate": "依赖",
+      "object": "Horde设备管理器",
+      "context": "Gauntlet测试需要Horde提供的设备资源，这对理解自动化测试基础设施很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "平台配置",
+      "predicate": "基于",
+      "object": "globals.json",
+      "context": "理解配置文件的存储位置和格式是系统配置的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设备平台",
+      "predicate": "划分到",
+      "object": "设备池",
+      "context": "平台与池的划分关系是理解Horde资源组织方式的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde操作面板",
+      "predicate": "用于",
+      "object": "设备管理",
+      "context": "操作面板是用户与Horde系统交互的主要界面，理解其功能定位很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "调用",
+      "object": "Horde设备管理器",
+      "context": "BuildGraph与Horde的集成示例展示了自动化测试中设备预留的实际应用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "设备配置",
+      "predicate": "包含",
+      "object": "维护模式设置",
+      "context": "维护模式是设备管理的重要功能，理解其所属位置有助于系统操作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "设备配置",
+      "predicate": "包含",
+      "object": "遥测数据查看",
+      "context": "遥测数据是设备健康状态监控的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "共享池",
+      "predicate": "支持",
+      "object": "使用历史记录",
+      "context": "使用历史记录功能帮助开发者追踪设备使用情况，是重要的管理功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:20:46.593Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5957,
+    "contentLength": 4229,
+    "processingTimeMs": 51880
+  }
+}

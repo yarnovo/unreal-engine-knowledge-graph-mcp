@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-blueprint-modify-curve-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-blueprint-modify-curve-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Modify Curve节点",
+      "predicate": "属于",
+      "object": "动画蓝图",
+      "context": "Modify Curve节点是动画蓝图中的一个功能节点，用于在运行时操作动画曲线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Modify Curve节点",
+      "predicate": "操作",
+      "object": "动画曲线",
+      "context": "Modify Curve节点的主要功能是混合、缩放和重新映射动画曲线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Modify Curve节点",
+      "predicate": "包含",
+      "object": "曲线映射",
+      "context": "曲线映射是Modify Curve节点的一个属性，用于关联键与值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Modify Curve节点",
+      "predicate": "包含",
+      "object": "曲线值",
+      "context": "曲线值是Modify Curve节点的属性，用于驱动曲线修改行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Modify Curve节点",
+      "predicate": "包含",
+      "object": "Alpha",
+      "context": "Alpha是Modify Curve节点的属性，控制修改后曲线姿势和源动画姿势的混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Modify Curve节点",
+      "predicate": "包含",
+      "object": "应用模式",
+      "context": "应用模式是Modify Curve节点的属性，决定如何将修改应用于动画曲线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "应用模式",
+      "predicate": "包括",
+      "object": "添加",
+      "context": "添加是应用模式的一种，将新值添加到输入曲线值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "应用模式",
+      "predicate": "包括",
+      "object": "缩放",
+      "context": "缩放是应用模式的一种，按新值缩放输入值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "应用模式",
+      "predicate": "包括",
+      "object": "混合",
+      "context": "混合是应用模式的一种，使用Alpha将输入与新曲线值混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "应用模式",
+      "predicate": "包括",
+      "object": "加权移动平均线",
+      "context": "加权移动平均线是应用模式的一种，使用Alpha将新曲线值与上一个曲线值混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "应用模式",
+      "predicate": "包括",
+      "object": "重新映射曲线",
+      "context": "重新映射曲线是应用模式的一种，重新映射曲线值条目和1.0之间的新曲线值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Modify Curve节点",
+      "predicate": "用于",
+      "object": "色调偏移曲线",
+      "context": "Modify Curve节点可以用于操作色调偏移曲线，改变角色材质的色调",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "色调偏移曲线",
+      "predicate": "影响",
+      "object": "角色材质",
+      "context": "色调偏移曲线的值可以影响角色材质的颜色显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "正弦波",
+      "predicate": "控制",
+      "object": "色调偏移曲线",
+      "context": "正弦波可以用于动态控制色调偏移曲线的值，实现颜色循环变化效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AnimGraph",
+      "predicate": "包含",
+      "object": "Modify Curve节点",
+      "context": "Modify Curve节点是在AnimGraph中创建和使用的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:00:15.789Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5095,
+    "contentLength": 3679,
+    "processingTimeMs": 53739
+  }
+}

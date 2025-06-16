@@ -1,0 +1,187 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_metasounds-quick-start",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_metasounds-quick-start.md",
+  "triples": [
+    {
+      "subject": "MetaSound",
+      "predicate": "是",
+      "object": "高性能音频系统",
+      "context": "MetaSound被描述为一个高性能的音频系统，让音频设计师完全控制数字信号处理（DSP）图，从而生成声源。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSound",
+      "predicate": "用于",
+      "object": "生成声源",
+      "context": "MetaSound的主要功能是生成声源，音频设计师可以通过它控制DSP图。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSound源",
+      "predicate": "属于",
+      "object": "MetaSound",
+      "context": "MetaSound源是MetaSound系统中的一个组件，用于创建具体的音频效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSound源",
+      "predicate": "包含",
+      "object": "Sound Attenuation资产",
+      "context": "在创建三维空间内的声源时，MetaSound源需要附带Sound Attenuation资产以实现空间化和衰减。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSound编辑器",
+      "predicate": "用于",
+      "object": "编辑MetaSound源",
+      "context": "MetaSound编辑器是用于创建和编辑MetaSound源的工具，用户可以在其中构建和调整音频图表。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSound图表",
+      "predicate": "控制",
+      "object": "MetaSound源发声",
+      "context": "MetaSound图表定义了MetaSound源如何发声，通过连接不同的节点来实现音频效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Wave Player (Mono)",
+      "predicate": "用于",
+      "object": "播放单声道音频",
+      "context": "Wave Player (Mono)节点用于播放单声道音频，可以设置循环和触发停止。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Random Get (WaveAsset:Array)",
+      "predicate": "用于",
+      "object": "随机选择音频资源",
+      "context": "Random Get (WaveAsset:Array)节点用于从数组中随机选择一个音频资源进行播放。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单声道混合器",
+      "predicate": "用于",
+      "object": "混合单声道音频",
+      "context": "单声道混合器节点用于混合多个单声道音频信号，可以调整增益。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "触发器输入",
+      "predicate": "用于",
+      "object": "触发音频事件",
+      "context": "触发器输入节点用于在运行时触发特定的音频事件，如爆炸声。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "用于",
+      "object": "控制MetaSound播放",
+      "context": "蓝图用于设置运行时逻辑，控制MetaSound的播放和触发条件。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成声音附加",
+      "predicate": "用于",
+      "object": "附加音频到组件",
+      "context": "生成声音附加节点用于将音频附加到特定的组件上，实现空间化效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "执行触发参数",
+      "predicate": "用于",
+      "object": "执行触发器",
+      "context": "执行触发参数节点用于在蓝图中执行MetaSound中定义的触发器。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "立体声混合器",
+      "predicate": "用于",
+      "object": "混合立体声音频",
+      "context": "立体声混合器节点用于混合多个立体声音频信号，可以调整左右声道的增益。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "噪音节点",
+      "predicate": "用于",
+      "object": "生成噪音信号",
+      "context": "噪音节点用于生成噪音信号，可以用于模拟风声等环境音效。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "One-Pole Low Pass Filter",
+      "predicate": "用于",
+      "object": "滤波音频信号",
+      "context": "One-Pole Low Pass Filter节点用于对音频信号进行低通滤波，调整截止频率可以改变音色。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LFO",
+      "predicate": "用于",
+      "object": "生成低频振荡信号",
+      "context": "LFO节点用于生成低频振荡信号，可以用于调制其他音频参数，如滤波器的截止频率。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InterpTo",
+      "predicate": "用于",
+      "object": "平滑过渡参数值",
+      "context": "InterpTo节点用于平滑过渡参数值，避免音频参数的突变。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "浮点输入",
+      "predicate": "用于",
+      "object": "接收外部参数",
+      "context": "浮点输入节点用于接收外部传入的浮点参数，如玩家速度，以动态调整音频效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成声音2D",
+      "predicate": "用于",
+      "object": "播放2D音频",
+      "context": "生成声音2D节点用于播放非空间化的2D音频，适合环境音效。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设置浮点参数",
+      "predicate": "用于",
+      "object": "调整音频参数",
+      "context": "设置浮点参数节点用于在运行时调整MetaSound中的浮点参数，如音量或音调。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:54:53.402Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13136 字符)",
+      "timestamp": "2025-06-15T19:53:39.738Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19690,
+    "contentLength": 13136,
+    "processingTimeMs": 73675
+  }
+}

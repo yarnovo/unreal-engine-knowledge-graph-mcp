@@ -1,0 +1,163 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-zen-storage-server-as-cooked-output-store-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-zen-storage-server-as-cooked-output-store-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Zen存储服务器",
+      "predicate": "用于",
+      "object": "虚幻引擎的烘焙输出存储",
+      "context": "Zen存储服务器被设计用来替代传统的文件系统存储，提高大型项目中烘焙操作的效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Zen存储服务器",
+      "predicate": "支持",
+      "object": "增量烘焙",
+      "context": "使用Zen存储服务器为未来实现可靠的增量烘焙提供了基础",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Zen存储服务器",
+      "predicate": "实现",
+      "object": "内容可寻址存储",
+      "context": "Zen存储服务器内部使用内容可寻址存储技术，实现数据去重和高效管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Zen存储服务器",
+      "predicate": "包含",
+      "object": "本地DDC和烘焙输出数据",
+      "context": "Zen存储服务器统一管理派生数据缓存(DDC)和烘焙输出数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "烘焙输出",
+      "predicate": "存储于",
+      "object": "Saved/Cooked/<Platform>文件夹",
+      "context": "传统方式下烘焙输出以大量独立文件形式存储在此目录",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Zen存储服务器",
+      "predicate": "替代",
+      "object": "Saved/Cooked/<Platform>文件夹存储",
+      "context": "使用Zen存储后，大部分烘焙数据不再存储在传统文件夹中，而是存储在Zen服务器中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ue.projectstore文件",
+      "predicate": "描述",
+      "object": "烘焙数据存储位置",
+      "context": "该文件是小型内部描述符，说明烘焙数据的存储位置，引擎需要它来访问数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ZenDashboard",
+      "predicate": "用于",
+      "object": "检查Zen服务器状态",
+      "context": "虚幻Zen操作面板工具可用于检查Zen服务器的基本统计数据并发布控制命令",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Zen存储服务器",
+      "predicate": "影响",
+      "object": "暂存流程",
+      "context": "使用Zen作为烘焙输出存储会影响后续的暂存步骤，需要相应调整",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "暂存流程",
+      "predicate": "分为",
+      "object": "容器文件暂存和零散文件暂存",
+      "context": "根据是否使用容器文件(.pak等)，暂存流程有不同的处理方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Zen流送功能",
+      "predicate": "基于",
+      "object": "Zen存储服务器",
+      "context": "Zen流送功能以Zen存储服务器为基础，实现快速暂存和部署",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "烘焙数据快照",
+      "predicate": "基于",
+      "object": "Zen存储服务器",
+      "context": "烘焙数据快照功能以Zen存储服务器为基础，实现已烘焙状态的轻松导入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Zen存储服务器",
+      "predicate": "执行",
+      "object": "垃圾回收",
+      "context": "Zen服务器会定期执行垃圾回收，清理不再引用的数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "控制",
+      "object": "Zen存储服务器启用",
+      "context": "在项目设置的打包分段中可以启用或禁用使用Zen作为烘焙输出存储",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Io存储",
+      "predicate": "需与",
+      "object": "Zen存储服务器配合使用",
+      "context": "启用Zen作为烘焙输出存储时需要同时启用Io存储功能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Zen存储服务器",
+      "predicate": "优化",
+      "object": "大型项目性能",
+      "context": "通过减少文件系统开销，Zen存储显著提高了大型项目的烘焙效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "命令行参数",
+      "predicate": "控制",
+      "object": "Zen存储行为",
+      "context": "如-skipzenstore参数可以绕过Zen存储，使用传统文件系统方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境变量",
+      "predicate": "配置",
+      "object": "Zen数据路径",
+      "context": "可以通过UE-ZenDataPath等环境变量自定义Zen数据存储位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:26:52.121Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10525 字符)",
+      "timestamp": "2025-06-15T21:26:02.760Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17053,
+    "contentLength": 10525,
+    "processingTimeMs": 49368
+  }
+}

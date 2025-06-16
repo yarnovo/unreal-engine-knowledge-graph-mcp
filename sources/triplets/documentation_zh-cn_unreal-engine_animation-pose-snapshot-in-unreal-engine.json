@@ -1,0 +1,101 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-pose-snapshot-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-pose-snapshot-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "动画姿势快照",
+      "predicate": "用于",
+      "object": "布娃娃状态",
+      "context": "动画姿势快照功能可以在角色进入布娃娃状态时保存骨骼变换数据，便于后续动画混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画姿势快照",
+      "predicate": "通过",
+      "object": "Save Pose Snapshot节点",
+      "context": "在角色蓝图中使用Save Pose Snapshot节点可以保存骨架网格体的动作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画姿势快照",
+      "predicate": "获取方式",
+      "object": "Pose Snapshot节点",
+      "context": "在动画蓝图中通过Pose Snapshot节点可以获取之前保存的姿势快照",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画姿势快照",
+      "predicate": "混合方式",
+      "object": "Blend Poses by bool节点",
+      "context": "使用Blend Poses by bool节点可以将姿势快照与其他动画状态进行混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画姿势快照",
+      "predicate": "替代实现",
+      "object": "Snapshot Pose函数",
+      "context": "Snapshot Pose函数是另一种保存姿势快照的方法，可以将快照保存到变量中",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画姿势快照",
+      "predicate": "应用于",
+      "object": "动画蒙太奇",
+      "context": "保存的姿势快照可以用于混合到动画蒙太奇中，实现角色起身等过渡效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画姿势快照",
+      "predicate": "依赖",
+      "object": "骨架网格体组件",
+      "context": "动画姿势快照功能需要获取骨架网格体组件及其动画实例才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画姿势快照",
+      "predicate": "关联",
+      "object": "LOD级别",
+      "context": "姿势快照的保存和使用需要考虑LOD级别，不同LOD级别的骨骼处理方式不同",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画姿势快照",
+      "predicate": "使用场景",
+      "object": "状态机",
+      "context": "姿势快照可以与状态机配合使用，实现角色从布娃娃状态到正常状态的过渡",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画姿势快照",
+      "predicate": "学习资源",
+      "object": "动画混合教程",
+      "context": "文档提供了动画混合相关的视频教程作为学习资源",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "动画姿势快照",
+      "predicate": "相关文档",
+      "object": "蓝图可视化脚本",
+      "context": "动画姿势快照功能需要与蓝图系统配合使用，相关文档提供了基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T18:03:19.540Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5998,
+    "contentLength": 4238,
+    "processingTimeMs": 49141
+  }
+}

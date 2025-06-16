@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_fk-control-rig-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_fk-control-rig-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "FK控制绑定",
+      "predicate": "属于",
+      "object": "控制绑定",
+      "context": "FK控制绑定是控制绑定的一种特殊类型，专门用于前向动力学控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FK控制绑定",
+      "predicate": "应用于",
+      "object": "骨架网格体",
+      "context": "FK控制绑定可以添加到Sequencer中的任意骨架网格体上，用于控制骨骼动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FK控制绑定",
+      "predicate": "生成于",
+      "object": "Sequencer",
+      "context": "FK控制绑定是通过Sequencer中的添加轨道功能创建的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FK控制绑定",
+      "predicate": "支持",
+      "object": "叠加式动画编辑",
+      "context": "FK控制绑定可以以累加方式应用于动画序列，实现叠加式编辑而非覆盖",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FK控制绑定",
+      "predicate": "支持",
+      "object": "骨骼筛选",
+      "context": "可以筛选FK控制绑定中显示的骨骼列表，只显示与工作流程相关的骨骼",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FK控制绑定",
+      "predicate": "用于",
+      "object": "关键帧动画",
+      "context": "FK控制绑定允许对骨骼进行关键帧设置，创建动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FK控制绑定",
+      "predicate": "可烘焙",
+      "object": "动画序列",
+      "context": "可以将动画序列烘焙到FK控制绑定，实现覆盖性调整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FK控制绑定",
+      "predicate": "可反向烘焙",
+      "object": "动画序列",
+      "context": "编辑后的FK控制绑定动画可以烘焙回动画序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "包含",
+      "object": "FK控制绑定轨道",
+      "context": "FK控制绑定在Sequencer中显示为特定轨道，包含骨骼列表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体",
+      "predicate": "通过",
+      "object": "FK控制绑定",
+      "context": "骨架网格体的骨骼动画可以通过FK控制绑定进行控制和编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "应用于",
+      "object": "FK控制绑定",
+      "context": "可以在FK控制绑定上设置关键帧来创建骨骼动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画序列",
+      "predicate": "可转换为",
+      "object": "FK控制绑定",
+      "context": "动画序列可以烘焙到FK控制绑定进行后续编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FK控制绑定",
+      "predicate": "适用于",
+      "object": "简单骨骼动画",
+      "context": "对于骨骼较少的骨架网格体，使用FK控制绑定制作动画更为简便",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FK控制绑定",
+      "predicate": "替代",
+      "object": "外部动画软件",
+      "context": "在某些情况下，FK控制绑定可以替代外部动画软件进行简单动画制作",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "FK控制绑定",
+      "predicate": "依赖",
+      "object": "骨架网格体轨道",
+      "context": "FK控制绑定的创建和编辑依赖于Sequencer中的骨架网格体轨道",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:06:20.037Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9028,
+    "contentLength": 5668,
+    "processingTimeMs": 58417
+  }
+}

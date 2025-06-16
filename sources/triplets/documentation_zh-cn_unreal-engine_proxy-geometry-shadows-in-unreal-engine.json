@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_proxy-geometry-shadows-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_proxy-geometry-shadows-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "代理几何体",
+      "predicate": "用于",
+      "object": "计算阴影",
+      "context": "代理几何体专门用于计算复杂几何体的阴影，而不必为每个网格体单独计算阴影，从而提高性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体",
+      "predicate": "替代",
+      "object": "复杂几何体",
+      "context": "代理几何体替代复杂几何体进行阴影计算，降低性能开销",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合并Actor工具",
+      "predicate": "用于",
+      "object": "创建代理几何体",
+      "context": "合并Actor工具可以用于创建简化的代理几何体，特别是外形复杂的几何体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体",
+      "predicate": "基于",
+      "object": "简化网格体",
+      "context": "代理几何体是基于简化网格体创建的，用于替代复杂几何体的阴影计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体",
+      "predicate": "禁用",
+      "object": "投射阴影",
+      "context": "在原始网格体上禁用投射阴影，以便代理几何体可以替代其进行阴影计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体",
+      "predicate": "启用",
+      "object": "投射阴影",
+      "context": "在代理几何体上启用投射阴影，使其能够替代原始网格体进行阴影计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体",
+      "predicate": "禁用",
+      "object": "在主通道中渲染",
+      "context": "代理几何体通常不需要在主通道中渲染，只需用于阴影计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体",
+      "predicate": "适用于",
+      "object": "密集型几何体",
+      "context": "代理几何体特别适用于密集型几何体或由大量小型网格体组成的几何体，以提高性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体",
+      "predicate": "适用于",
+      "object": "远距离对象",
+      "context": "代理几何体也适用于那些启用了Far Cascade阴影贴图的远距离对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体",
+      "predicate": "提高",
+      "object": "渲染性能",
+      "context": "使用代理几何体可以显著提高渲染性能，减少阴影计算的开销",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:30:30.932Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3048,
+    "contentLength": 1940,
+    "processingTimeMs": 38714
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_copy-a-pose-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_copy-a-pose-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "从网格体复制姿势节点",
+      "predicate": "用于",
+      "object": "复制动画姿势",
+      "context": "该节点是复制动画姿势的核心工具，学习者需要理解其功能才能实现动画复制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "从网格体复制姿势节点",
+      "context": "动画蓝图是放置和使用该节点的容器，理解这种包含关系有助于构建动画系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体组件",
+      "predicate": "被复制",
+      "object": "动画姿势",
+      "context": "理解骨架网格体组件作为动画数据载体的角色对动画复制至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色引用变量",
+      "predicate": "引用",
+      "object": "骨架网格体组件",
+      "context": "该变量建立了源角色和目标角色之间的连接，是动画复制的关键桥梁",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "驱动",
+      "object": "角色姿势",
+      "context": "理解动画蓝图如何最终控制角色姿势是动画系统学习的核心",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "尝试获取Pawn拥有者节点",
+      "predicate": "连接",
+      "object": "投射到ThirdPersonCharacter1节点",
+      "context": "这些节点的连接展示了如何获取和转换角色引用，是蓝图编程的重要模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "使用连接的父项选项",
+      "predicate": "扩展",
+      "object": "从网格体复制姿势节点功能",
+      "context": "该选项提供了备用源查找机制，理解它可以增强节点使用的灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "复制曲线选项",
+      "predicate": "扩展",
+      "object": "从网格体复制姿势节点功能",
+      "context": "该选项允许复制额外的动画数据，理解它可以实现更复杂的动画复制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画系统",
+      "predicate": "需要重新初始化",
+      "object": "当曲线列表变化时",
+      "context": "理解这种依赖关系有助于避免动画系统运行时的潜在问题",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "第三人称角色蓝图",
+      "predicate": "包含",
+      "object": "角色引用变量",
+      "context": "理解这种包含关系是设置动画复制系统的前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "最终动画姿势",
+      "predicate": "接收",
+      "object": "从网格体复制姿势节点输出",
+      "context": "理解这个连接关系是构建有效动画蓝图的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "不可操作角色",
+      "predicate": "模仿",
+      "object": "玩家角色动画",
+      "context": "这是动画复制功能的最终应用表现，理解这种关系有助于设计NPC行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "配置",
+      "object": "从网格体复制姿势节点",
+      "context": "理解这种关系有助于学习者掌握节点的各种配置选项",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:36:30.432Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6489,
+    "contentLength": 4422,
+    "processingTimeMs": 53293
+  }
+}

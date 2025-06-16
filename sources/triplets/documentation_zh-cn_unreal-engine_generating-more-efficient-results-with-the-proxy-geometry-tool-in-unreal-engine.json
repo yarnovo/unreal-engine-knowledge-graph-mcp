@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_generating-more-efficient-results-with-the-proxy-geometry-tool-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_generating-more-efficient-results-with-the-proxy-geometry-tool-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "代理几何体工具",
+      "predicate": "生成",
+      "object": "代理静态网格体",
+      "context": "代理几何体工具的主要功能是生成新的代理静态网格体，帮助优化场景性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "删除",
+      "object": "不可访问的几何体",
+      "context": "工具通过底层空间取样和重新网格化步骤自动删除不可访问的几何体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "用于",
+      "object": "阻挡物",
+      "context": "添加静态网格体作为阻挡物可以帮助代理几何体工具更好地识别和删除内部结构",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "优化",
+      "object": "纹理空间利用率",
+      "context": "通过删除不必要的内部几何体，工具可以更有效地利用纹理空间",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "代理LOD管线",
+      "predicate": "包含",
+      "object": "空间取样和重新网格化步骤",
+      "context": "代理LOD管线的核心处理步骤包括空间取样和重新网格化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "减少",
+      "object": "最终三角形数量",
+      "context": "工具通过优化几何体可以显著减少最终生成的三角形数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复杂立面",
+      "predicate": "需要",
+      "object": "几何体阻挡物",
+      "context": "对于复杂立面，添加几何体阻挡物可以简化代理生成过程",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "代理静态网格体",
+      "predicate": "用于",
+      "object": "场景优化",
+      "context": "生成的代理静态网格体主要用于场景性能优化",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "适用于",
+      "object": "建筑物内部优化",
+      "context": "工具特别适合优化建筑物内部等包含大量不可见几何体的场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "静态网格体排列",
+      "predicate": "影响",
+      "object": "代理生成效率",
+      "context": "原始静态网格体的排列方式会直接影响代理几何体工具的工作效率",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T19:11:59.753Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3751,
+    "contentLength": 2495,
+    "processingTimeMs": 41325
+  }
+}

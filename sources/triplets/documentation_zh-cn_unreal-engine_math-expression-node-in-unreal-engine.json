@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_math-expression-node-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_math-expression-node-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "数学表达式节点",
+      "predicate": "属于",
+      "object": "特殊节点",
+      "context": "数学表达式节点是虚幻引擎中的一种特殊节点，用于简化数学运算的表示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数学表达式节点",
+      "predicate": "包含",
+      "object": "子图表",
+      "context": "数学表达式节点内部包含一个子图表，用于实现其数学表达式功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数学表达式节点",
+      "predicate": "支持",
+      "object": "蓝图函数",
+      "context": "数学表达式节点支持调用蓝图函数库中的纯函数，如三角函数、区间限定函数等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数学表达式节点",
+      "predicate": "支持",
+      "object": "基本结构体类型",
+      "context": "数学表达式节点支持操作基本结构体类型，如向量、旋转量和变换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数学表达式节点",
+      "predicate": "支持",
+      "object": "操作符",
+      "context": "数学表达式节点支持多种数学和逻辑操作符，如加减乘除、关系操作符等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数学表达式节点",
+      "predicate": "不支持",
+      "object": "条件操作符",
+      "context": "数学表达式节点不支持条件操作符（如?:）和位操作符",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子图表",
+      "predicate": "生成",
+      "object": "变量获取节点",
+      "context": "子图表会根据表达式中的变量名称生成变量获取节点，如果变量已存在于蓝图中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子图表",
+      "predicate": "生成",
+      "object": "函数节点",
+      "context": "子图表会根据表达式中的函数调用生成相应的函数节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子图表",
+      "predicate": "生成",
+      "object": "数学运算节点",
+      "context": "子图表会根据表达式中的数学运算符生成相应的数学运算节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运算顺序",
+      "predicate": "影响",
+      "object": "数学表达式节点",
+      "context": "数学表达式节点的运算顺序遵循数学中的优先级规则，影响表达式的计算结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "向量",
+      "predicate": "别名",
+      "object": "vec",
+      "context": "向量类型在数学表达式节点中有别名，如vec和vect，便于快速输入",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "旋转量",
+      "predicate": "别名",
+      "object": "rot",
+      "context": "旋转量类型在数学表达式节点中有别名，如rot，便于快速输入",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "幂函数",
+      "predicate": "别名",
+      "object": "pow",
+      "context": "幂函数在数学表达式节点中有别名，如pow，便于快速输入",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "三角函数",
+      "predicate": "别名",
+      "object": "arcsin",
+      "context": "反三角函数在数学表达式节点中有别名，如arcsin和asin，便于快速输入",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数学表达式节点",
+      "predicate": "依赖",
+      "object": "蓝图变量",
+      "context": "数学表达式节点可以依赖蓝图中已存在的变量，生成变量获取节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:50:51.634Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7273,
+    "contentLength": 4817,
+    "processingTimeMs": 61152
+  }
+}

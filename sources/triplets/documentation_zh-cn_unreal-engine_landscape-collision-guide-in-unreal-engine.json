@@ -1,0 +1,123 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_landscape-collision-guide-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_landscape-collision-guide-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎地形系统",
+      "predicate": "包含",
+      "object": "碰撞Mip等级",
+      "context": "地形系统通过碰撞Mip等级控制碰撞几何体的复杂度，这是地形碰撞的核心设置之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞Mip等级",
+      "predicate": "控制",
+      "object": "复杂碰撞",
+      "context": "碰撞Mip等级专门用于设置地形的复杂碰撞的复杂度，影响碰撞精度和内存消耗",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简单碰撞Mip等级",
+      "predicate": "控制",
+      "object": "简单碰撞",
+      "context": "简单碰撞Mip等级专门用于设置地形的简单碰撞的复杂度，同样影响碰撞精度和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞Mip等级",
+      "predicate": "影响",
+      "object": "内存消耗",
+      "context": "较低的碰撞Mip等级会增加内存消耗但提高碰撞精度，较高的等级则相反",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家碰撞查看模式",
+      "predicate": "显示",
+      "object": "简单碰撞Mip等级",
+      "context": "玩家碰撞查看模式专门用于可视化简单碰撞Mip等级设置的碰撞几何体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可见碰撞查看模式",
+      "predicate": "显示",
+      "object": "碰撞Mip等级",
+      "context": "可见碰撞查看模式专门用于可视化复杂碰撞Mip等级设置的碰撞几何体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形组件",
+      "predicate": "可设置",
+      "object": "独立碰撞Mip等级",
+      "context": "可以单独为每个地形组件设置不同的碰撞Mip等级，优化非关键区域的性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "包含",
+      "object": "碰撞设置",
+      "context": "地形的所有碰撞相关设置都在细节面板的Collision部分中进行配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞Mip等级",
+      "predicate": "与",
+      "object": "简单碰撞Mip等级",
+      "context": "这两个设置可以独立调整，实现复杂碰撞和简单碰撞在精度和性能上的平衡",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "地形管理标签页",
+      "predicate": "用于",
+      "object": "选择地形组件",
+      "context": "在地形管理标签页中可以选中特定地形组件进行独立的碰撞设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Content Examples项目",
+      "predicate": "包含",
+      "object": "地形碰撞示例",
+      "context": "文档使用Content Examples项目作为学习地形碰撞的实践案例",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "碰撞精度",
+      "predicate": "与",
+      "object": "性能开销",
+      "context": "碰撞Mip等级的设置体现了碰撞精度和性能开销之间的权衡关系",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形Actor",
+      "predicate": "包含",
+      "object": "碰撞设置",
+      "context": "选择地形Actor后可以在细节面板中找到所有碰撞相关的配置选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:40:51.130Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9589 字符)",
+      "timestamp": "2025-06-15T19:39:51.665Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12565,
+    "contentLength": 9589,
+    "processingTimeMs": 59472
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-the-unreal-engine-build-pipeline",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-the-unreal-engine-build-pipeline.md",
+  "triples": [
+    {
+      "subject": "虚幻构建管线",
+      "predicate": "包含",
+      "object": "虚幻编译工具",
+      "context": "虚幻构建管线是一个整体系统，其中虚幻编译工具是核心组件之一，负责源代码编译过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻构建管线",
+      "predicate": "包含",
+      "object": "虚幻头文件分析工具",
+      "context": "虚幻头文件分析工具是构建管线的重要组成部分，专门处理UObject系统的代码生成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻构建管线",
+      "predicate": "包含",
+      "object": "自动工具",
+      "context": "自动工具作为构建管线的组成部分，提供自动化测试和构建功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编译工具",
+      "predicate": "负责",
+      "object": "源代码编译",
+      "context": "UBT专门管理不同编译配置下的引擎源代码编译过程",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "虚幻头文件分析工具",
+      "predicate": "支持",
+      "object": "UObject系统",
+      "context": "UHT是UObject系统的专用工具，提供解析和代码生成功能",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "自动工具",
+      "predicate": "用于",
+      "object": "自动化构建",
+      "context": "自动工具的主要功能是自动化游戏构建过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动工具",
+      "predicate": "用于",
+      "object": "自动化测试",
+      "context": "自动工具系统包含自动化测试功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编译工具",
+      "predicate": "协同工作",
+      "object": "虚幻头文件分析工具",
+      "context": "UBT和UHT在构建过程中需要协同工作，分别处理编译和代码生成",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "虚幻头文件分析工具",
+      "predicate": "生成",
+      "object": "反射代码",
+      "context": "UHT的主要功能是生成UObject系统所需的反射代码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻构建管线",
+      "predicate": "依赖",
+      "object": "虚幻编译工具",
+      "context": "构建管线的正常运作依赖于UBT的正确执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:25:35.101Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 1709,
+    "contentLength": 1307,
+    "processingTimeMs": 28061
+  }
+}

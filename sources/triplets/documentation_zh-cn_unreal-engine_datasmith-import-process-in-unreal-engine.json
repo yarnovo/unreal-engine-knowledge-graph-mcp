@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_datasmith-import-process-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_datasmith-import-process-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Datasmith",
+      "predicate": "转换",
+      "object": "3D设计应用程序场景",
+      "context": "Datasmith将3D设计应用程序中的场景转换为虚幻引擎可用的格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "自动调整",
+      "object": "场景比例",
+      "context": "Datasmith自动调整不同计量单位的场景比例，使其在虚幻引擎中保持真实世界大小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "使用",
+      "object": "厘米",
+      "context": "虚幻引擎中所有距离都用厘米测量，这是其内部标准单位",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "保留",
+      "object": "命名信息",
+      "context": "Datasmith尽可能保留源应用程序中的几何结构命名信息，用于创建的资源和Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "具有",
+      "object": "不同命名方式",
+      "context": "静态网格体在内容浏览器中的标签、磁盘上的文件名和关卡中的Actor名称通常不同",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "使用",
+      "object": "背面剔除",
+      "context": "虚幻引擎使用背面剔除优化性能，不渲染背向摄像机的三角形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "双面材质",
+      "predicate": "解决",
+      "object": "表面不可见问题",
+      "context": "启用双面材质选项可以解决因表面法线方向导致的不可见问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "自动生成",
+      "object": "UV集",
+      "context": "Datasmith为每个静态网格体自动生成UV集，用于光照贴图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光照贴图",
+      "predicate": "需要",
+      "object": "UV通道",
+      "context": "光照贴图需要静态网格体有UV通道映射到2D纹理空间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "导入",
+      "object": "光源",
+      "context": "Datasmith导入支持的文件格式中的光源，并转换为虚幻引擎支持的光源类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DatasmithAreaLightMesh",
+      "predicate": "模拟",
+      "object": "区域光源",
+      "context": "Datasmith使用DatasmithAreaLightMesh蓝图类模拟2D形状或3D体积发出的光线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质实例",
+      "predicate": "继承自",
+      "object": "父材质",
+      "context": "Datasmith创建的材质实例继承自父材质，父材质决定可调整的属性和渲染方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith_Color材质",
+      "predicate": "用于",
+      "object": "CAD模型",
+      "context": "Datasmith_Color材质专门用于导入的CAD模型，处理简单的表面颜色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "导入",
+      "object": "动画",
+      "context": "Datasmith可以导入3D变换动画，创建关卡序列在虚幻引擎中播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡序列",
+      "predicate": "包含",
+      "object": "动画轨迹",
+      "context": "Datasmith创建的关卡序列包含场景中每个动画对象的轨迹",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机切换轨迹",
+      "predicate": "用于",
+      "object": "渲染摄像机动画",
+      "context": "添加摄像机切换轨迹可以指定从哪个摄像机视角渲染动画序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "保留",
+      "object": "图层组织",
+      "context": "Datasmith保留源应用程序中的图层组织，但不支持嵌套图层",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "导入",
+      "object": "元数据",
+      "context": "Datasmith可以导入场景对象的元数据，用于蓝图和Python脚本访问",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "组件标记",
+      "predicate": "存储",
+      "object": "技术元数据",
+      "context": "Datasmith将技术元数据存储在静态网格体组件的组件标记中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体编辑器",
+      "predicate": "用于",
+      "object": "调整三角形朝向",
+      "context": "可以在静态网格体编辑器中调整三角形朝向，解决表面不可见问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:46:53.715Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (22515 字符)",
+      "timestamp": "2025-06-15T18:45:47.747Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 38556,
+    "contentLength": 22515,
+    "processingTimeMs": 65972
+  }
+}

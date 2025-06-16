@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_network-debugging-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_network-debugging-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "提供",
+      "object": "网络调试工具",
+      "context": "虚幻引擎为网络项目开发提供专门的调试工具，帮助开发者解决网络相关问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "基于",
+      "object": "客户端-服务器模型",
+      "context": "虚幻引擎的多人游戏功能基于客户端-服务器模型，这是理解网络调试的基础架构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "客户端-服务器模型",
+      "predicate": "包含",
+      "object": "服务器",
+      "context": "客户端-服务器模型由服务器和客户端组成，服务器对GameState具有权威性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "客户端-服务器模型",
+      "predicate": "包含",
+      "object": "客户端",
+      "context": "客户端-服务器模型由服务器和客户端组成，客户端需要与服务器保持同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络调试",
+      "predicate": "涉及",
+      "object": "网络模拟",
+      "context": "网络调试过程中可以使用网络模拟工具来测试不同网络条件下的表现",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "网络调试",
+      "predicate": "使用",
+      "object": "控制台命令",
+      "context": "开发者可以通过控制台命令获取网络调试信息和调整网络设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络调试",
+      "predicate": "使用",
+      "object": "网络分析器",
+      "context": "网络分析器是网络调试的重要工具，用于分析运行时网络流量和性能信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络调试",
+      "predicate": "需要考虑",
+      "object": "性能与带宽优化",
+      "context": "在网络调试过程中需要考虑Actor复制等操作的性能和带宽优化",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "网络调试",
+      "predicate": "包含",
+      "object": "日志记录",
+      "context": "网络游戏的日志记录是网络调试的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "提供",
+      "object": "多人游戏测试功能",
+      "context": "虚幻引擎提供专门的多人游戏测试功能，帮助开发者调试网络项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GameState",
+      "predicate": "由",
+      "object": "服务器控制",
+      "context": "在客户端-服务器模型中，服务器对GameState具有权威性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络调试",
+      "predicate": "解决",
+      "object": "网络不可靠性问题",
+      "context": "网络调试需要解决网络通信带来的普遍不可靠性和不稳定性问题",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "网络调试",
+      "predicate": "检查",
+      "object": "客户端-服务器功能差异",
+      "context": "网络调试需要检查客户端与服务器上存在的不同功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:05:31.127Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3890,
+    "contentLength": 2856,
+    "processingTimeMs": 40615
+  }
+}

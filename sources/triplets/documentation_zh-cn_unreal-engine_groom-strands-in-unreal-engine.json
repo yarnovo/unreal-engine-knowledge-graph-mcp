@@ -1,0 +1,157 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_groom-strands-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_groom-strands-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Groom发束",
+      "predicate": "属于",
+      "object": "Groom资产",
+      "context": "Groom发束是Groom资产的一部分，用于配置发束几何体的设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom发束",
+      "predicate": "包含",
+      "object": "发束组",
+      "context": "每个Groom分为几组发束，每组有自己的属性和设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发束组",
+      "predicate": "具有",
+      "object": "发束属性",
+      "context": "发束组包含多种属性，如材质、毛发宽度、根部缩放等，用于控制发束的外观和行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发束属性",
+      "predicate": "包括",
+      "object": "毛发宽度",
+      "context": "毛发宽度是发束属性之一，用于指定毛发的宽度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发束属性",
+      "predicate": "包括",
+      "object": "毛发根部缩放",
+      "context": "毛发根部缩放是发束属性之一，用于控制曲线根部的缩放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发束属性",
+      "predicate": "包括",
+      "object": "毛发梢部缩放",
+      "context": "毛发梢部缩放是发束属性之一，用于控制曲线梢部的缩放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发束属性",
+      "predicate": "包括",
+      "object": "毛发阴影密度",
+      "context": "毛发阴影密度是发束属性之一，用于调整毛发透射效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发束属性",
+      "predicate": "包括",
+      "object": "毛发光线追踪半径缩放",
+      "context": "毛发光线追踪半径缩放是发束属性之一，用于调整光线追踪毛发几何体的半径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发束属性",
+      "predicate": "包括",
+      "object": "使用毛发光线追踪几何体",
+      "context": "该属性用于启用或禁用毛发几何体的光线追踪效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发束属性",
+      "predicate": "包括",
+      "object": "体素化",
+      "context": "体素化属性用于启用发束的体素化，主要用于投射阴影和环境遮挡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发束属性",
+      "predicate": "包括",
+      "object": "使用稳定的光栅化",
+      "context": "该属性用于确保毛发几何体与像素对齐，避免锯齿",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发束属性",
+      "predicate": "包括",
+      "object": "散射场景光照",
+      "context": "该属性用于使毛发从周围表面吸收光线，适用于汗毛和短发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom发束",
+      "predicate": "依赖",
+      "object": "Groom资产编辑器",
+      "context": "Groom发束的设置和配置主要在Groom资产编辑器中完成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom资产编辑器",
+      "predicate": "提供",
+      "object": "发束面板",
+      "context": "Groom资产编辑器提供发束面板，用于配置发束几何体的设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发束面板",
+      "predicate": "显示",
+      "object": "发束组统计",
+      "context": "发束面板显示每组毛发的统计数据，如曲线和点的数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发束组",
+      "predicate": "具有",
+      "object": "组ID",
+      "context": "每个发束组有一个组ID，用于在预览窗口中直观显示不同的组",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom发束",
+      "predicate": "适用于",
+      "object": "Metahumans",
+      "context": "Groom发束技术常用于Metahumans等角色模型的毛发渲染",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Groom发束",
+      "predicate": "支持",
+      "object": "硬件光线追踪",
+      "context": "Groom发束支持硬件光线追踪，用于提升毛发渲染效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:17:12.943Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4440,
+    "contentLength": 2878,
+    "processingTimeMs": 71222
+  }
+}

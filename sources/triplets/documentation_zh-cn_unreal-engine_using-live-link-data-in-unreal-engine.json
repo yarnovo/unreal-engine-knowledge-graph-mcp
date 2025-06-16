@@ -1,0 +1,243 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-live-link-data-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-live-link-data-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Live Link",
+      "predicate": "流送",
+      "object": "数据",
+      "context": "Live Link用于从各种源头流送数据到虚幻引擎中的Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link预设",
+      "predicate": "保存",
+      "object": "数据源设置",
+      "context": "Live Link预设可以保存数据源的设置，供以后重复使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link控制器组件",
+      "predicate": "简化",
+      "object": "Live Link信息应用",
+      "context": "Live Link控制器组件简化了将Live Link信息应用于Actor的过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link骨骼动画组件",
+      "predicate": "触发",
+      "object": "OnLiveLinkUpdated事件",
+      "context": "Live Link骨骼动画组件会在每次更新时触发OnLiveLinkUpdated事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link骨骼动画组件",
+      "predicate": "替代",
+      "object": "Live Link组件",
+      "context": "在虚幻引擎4.23版之前，Live Link骨骼动画组件被称为Live Link组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "应用到客户端节点",
+      "predicate": "加载",
+      "object": "Live Link预设",
+      "context": "通过蓝图中的'应用到客户端'节点可以在应用程序启动时加载Live Link预设",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link控制器",
+      "predicate": "分为",
+      "object": "变换/摄像机/光源控制器",
+      "context": "Live Link控制器根据功能分为变换、摄像机和光源三种类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换控制器",
+      "predicate": "应用",
+      "object": "变换数据",
+      "context": "变换控制器将Live Link对象中的变换数据应用于关卡中的Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机控制器",
+      "predicate": "应用",
+      "object": "摄像机设置和移动数据",
+      "context": "摄像机控制器将Live Link对象中的摄像机设置和移动数据应用于关卡中的摄像机Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源控制器",
+      "predicate": "应用",
+      "object": "光源设置",
+      "context": "光源控制器将Live Link对象中的光源设置应用于关卡中的光源Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Live Link Subjects",
+      "predicate": "获取",
+      "object": "有效对象列表",
+      "context": "Get Live Link Subjects节点用于获取Evaluate Live Link Frame函数认为有效的一组对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Evaluate Live Link Frame",
+      "predicate": "获取",
+      "object": "Live Link数据",
+      "context": "Evaluate Live Link Frame函数可以获取与指定对象名称关联的Live Link数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Basic Data",
+      "predicate": "返回",
+      "object": "基本结构数据",
+      "context": "Get Basic Data节点返回当前对象帧中所存对象的基本结构数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Curves",
+      "predicate": "获取",
+      "object": "混合形状/动画曲线",
+      "context": "Get Curves函数可以获取所有混合形状或动画曲线数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Metadata",
+      "predicate": "返回",
+      "object": "对象元数据",
+      "context": "Get Metadata函数返回对象帧中存储的对象元数据结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Root Transform",
+      "predicate": "返回",
+      "object": "根变换数据",
+      "context": "Get Root Transform函数将对象帧的根变换以Live Link变换的形式返回",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Transform By Index",
+      "predicate": "获取",
+      "object": "指定索引变换",
+      "context": "Get Transform By Index函数返回指定索引处的变换数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Transform by Name",
+      "predicate": "获取",
+      "object": "指定名称变换",
+      "context": "Get Transform by Name函数根据名称获取变换数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Number of Transforms",
+      "predicate": "返回",
+      "object": "变换数量",
+      "context": "Number of Transforms函数返回对象帧内的变换数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Transform Names",
+      "predicate": "返回",
+      "object": "变换名称数组",
+      "context": "Get Transform Names函数返回某帧中所有变换的名称数组",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link预设",
+      "predicate": "应用于",
+      "object": "骨骼网格体",
+      "context": "在运行时可以使用'应用到客户端'节点将Live Link预设分配到骨骼网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link",
+      "predicate": "依赖",
+      "object": "Live Link插件",
+      "context": "使用Live Link功能需要先启用Live Link插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link控制器组件",
+      "predicate": "包含",
+      "object": "主题表示",
+      "context": "Live Link控制器组件包含主题表示下拉菜单，用于选择数据源对象",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "OnLiveLinkUpdated事件",
+      "predicate": "替代",
+      "object": "Tick事件",
+      "context": "OnLiveLinkUpdated事件可以替代Tick事件，并且能在编辑器内运行",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "变换控制器",
+      "predicate": "控制",
+      "object": "世界/本地空间变换",
+      "context": "变换控制器可以控制将组件的变换设置为世界空间或本地空间",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "摄像机控制器",
+      "predicate": "控制",
+      "object": "摄像机参数",
+      "context": "摄像机控制器可以控制视野、长宽比、焦距等多种摄像机参数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "光源控制器",
+      "predicate": "控制",
+      "object": "光源参数",
+      "context": "光源控制器可以控制色温、总能量、滤色等多种光源参数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Live Link控制器",
+      "predicate": "可扩展",
+      "object": "外部插件",
+      "context": "可以通过外部插件添加或创建额外的Live Link控制器",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T21:19:53.278Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12657 字符)",
+      "timestamp": "2025-06-15T21:18:41.310Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 18496,
+    "contentLength": 12657,
+    "processingTimeMs": 71973
+  }
+}

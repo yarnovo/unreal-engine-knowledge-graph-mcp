@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_migrate-to-iris-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_migrate-to-iris-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Iris",
+      "predicate": "替代",
+      "object": "Replication Graph",
+      "context": "Iris和Replication Graph是独立的系统，网络驱动只能使用其中之一。Iris旨在替代Replication Graph的功能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris",
+      "predicate": "支持",
+      "object": "Push Model",
+      "context": "Iris旨在完全基于推送模型，但如果不为特定对象启用推送模型复制，Iris会自动回退到基于NetUpdateFrequency的轮询。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris",
+      "predicate": "支持",
+      "object": "Fast Array Replication",
+      "context": "Iris支持现有的快速数组定义，并提供了专门的快速数组序列化器FIrisFastArraySerializer。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris",
+      "predicate": "支持",
+      "object": "Peer-to-Peer",
+      "context": "Iris支持Unreal Engine监听服务器，允许游戏实例作为多人游戏会话的主机同时支持本地玩家。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris",
+      "predicate": "支持",
+      "object": "Remote Procedure Calls",
+      "context": "Iris中远程过程调用（RPC）的声明和执行方式与通用复制系统和复制图中的方式相同。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris",
+      "predicate": "支持",
+      "object": "Replicated Properties",
+      "context": "Iris中的复制属性工作方式与通用复制系统中的相同。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris",
+      "predicate": "需要",
+      "object": "Registered Subobject List",
+      "context": "Iris要求启用注册子对象列表，以便在actor类中使用。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris",
+      "predicate": "支持",
+      "object": "Custom Network Serializers",
+      "context": "Iris支持所有可用于网络序列化的Unreal Engine原始类型，并允许通过配置文件声明自定义NetSerialize方法的结构体。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris",
+      "predicate": "替换",
+      "object": "Virtual Function Calls",
+      "context": "Iris通过显式调用API函数来减少虚拟函数调用，从而最小化复制系统与游戏代码之间的交互次数。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris",
+      "predicate": "替换",
+      "object": "Iris Prioritization",
+      "context": "Iris Prioritization替代了通用复制系统中的Priority功能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris",
+      "predicate": "替换",
+      "object": "Iris Filtering",
+      "context": "Iris Filtering替代了通用复制系统中的Relevancy功能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris",
+      "predicate": "替换",
+      "object": "Iris Subobject Replication",
+      "context": "Iris Subobject Replication替代了通用复制系统中的Subobject Replication功能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris",
+      "predicate": "依赖",
+      "object": "RegisterReplicationFragments",
+      "context": "在Iris中，非AActor或UActorComponent派生的复制子对象必须实现RegisterReplicationFragments虚拟函数以注册其复制属性和函数。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris",
+      "predicate": "基于",
+      "object": "Push Model",
+      "context": "Iris旨在完全基于推送模型，但允许在不启用推送模型时回退到轮询机制。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris",
+      "predicate": "扩展",
+      "object": "Fast Array Replication",
+      "context": "Iris不仅支持现有的快速数组定义，还提供了专门的快速数组序列化器FIrisFastArraySerializer。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:57:18.320Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8568 字符)",
+      "timestamp": "2025-06-15T19:56:29.449Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 8868,
+    "contentLength": 8568,
+    "processingTimeMs": 48878
+  }
+}

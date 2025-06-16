@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_creating-blueprint-classes-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_creating-blueprint-classes-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "蓝图类",
+      "predicate": "创建方式",
+      "object": "内容浏览器",
+      "context": "内容浏览器提供了多种创建蓝图类的方式，是学习蓝图创建的基础途径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图类",
+      "predicate": "创建方式",
+      "object": "关卡编辑器",
+      "context": "关卡编辑器可以将选中的Actor转换为蓝图类，适合从现有场景元素创建蓝图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图类",
+      "predicate": "创建方式",
+      "object": "类查看器",
+      "context": "类查看器可以基于现有类创建蓝图，适合需要特定基类的情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "包含",
+      "object": "新增按钮",
+      "context": "新增按钮是内容浏览器中创建蓝图类的主要入口之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "包含",
+      "object": "资产视图",
+      "context": "资产视图提供了右键菜单创建蓝图类的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "包含",
+      "object": "资产树",
+      "context": "资产树也提供了右键菜单创建蓝图类的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图类",
+      "predicate": "需要选择",
+      "object": "父类",
+      "context": "创建蓝图类时必须选择一个父类，这是理解蓝图继承关系的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡编辑器",
+      "predicate": "支持",
+      "object": "Actor转换",
+      "context": "关卡编辑器可以将选中的Actor转换为蓝图类，保留属性和空间关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor转换",
+      "predicate": "包含方法",
+      "object": "新子类",
+      "context": "新子类方法是最直接的Actor转换方式，适合单个Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor转换",
+      "predicate": "包含方法",
+      "object": "子Actor",
+      "context": "子Actor方法适合多个Actor转换，会创建子Actor组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor转换",
+      "predicate": "包含方法",
+      "object": "收获组件",
+      "context": "收获组件方法适合将多个组件的Actor合并为一个蓝图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "类查看器",
+      "predicate": "支持",
+      "object": "蓝图基类过滤",
+      "context": "类查看器可以过滤显示可作为蓝图基类的类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图类",
+      "predicate": "继承自",
+      "object": "父类",
+      "context": "理解蓝图类的继承关系是掌握蓝图系统的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图类",
+      "predicate": "包含",
+      "object": "Actor属性",
+      "context": "蓝图类可以保留转换前Actor的属性设置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "蓝图类",
+      "predicate": "包含",
+      "object": "组件",
+      "context": "蓝图类可以包含多个组件，特别是通过收获组件方法创建时",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "蓝图类",
+      "predicate": "用于",
+      "object": "可重用资产",
+      "context": "蓝图类的主要用途是创建可重用的游戏资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图类",
+      "predicate": "编辑于",
+      "object": "蓝图编辑器",
+      "context": "创建后的蓝图类会在蓝图编辑器中打开进行进一步编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "与",
+      "object": "关卡编辑器",
+      "context": "两者都是创建蓝图类的重要工具，但适用于不同场景",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "新子类",
+      "predicate": "相比",
+      "object": "子Actor",
+      "context": "理解不同Actor转换方法的区别有助于选择合适的工作流程",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "蓝图类",
+      "predicate": "关联",
+      "object": "蓝图资产类型",
+      "context": "了解不同类型的蓝图资产有助于全面掌握蓝图系统",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T18:40:37.583Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10813,
+    "contentLength": 7829,
+    "processingTimeMs": 59867
+  }
+}

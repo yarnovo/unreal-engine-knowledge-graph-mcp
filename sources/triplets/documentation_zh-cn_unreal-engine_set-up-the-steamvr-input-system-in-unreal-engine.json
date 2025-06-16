@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_set-up-the-steamvr-input-system-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_set-up-the-steamvr-input-system-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "SteamVR输入系统",
+      "predicate": "支持",
+      "object": "虚幻引擎4输入操作和事件系统",
+      "context": "文档明确指出SteamVR输入系统被集成到虚幻引擎4的输入系统中，学习者需要了解这种集成关系才能正确配置VR输入",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SteamVR输入系统",
+      "predicate": "需要启用",
+      "object": "ConsoleVariables.ini配置",
+      "context": "启用SteamVR输入系统需要修改特定配置文件，这是使用该功能的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SteamVR输入系统",
+      "predicate": "使用",
+      "object": "SteamVR绑定编辑器工具",
+      "context": "绑定配置需要通过SteamVR的专用工具完成，这是工作流程的关键环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入操作和轴映射",
+      "predicate": "绑定至",
+      "object": "SteamVR设备输入",
+      "context": "这是实现VR控制器输入的核心机制，理解这种绑定关系对开发VR交互至关重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SteamVR输入系统",
+      "predicate": "与",
+      "object": "现有项目不兼容",
+      "context": "这是重要的兼容性说明，影响项目升级决策",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "2D轴输入",
+      "predicate": "需要特殊处理",
+      "object": "SteamVR 3D输入",
+      "context": "文档详细说明了维度不匹配问题的解决方案，这对实现精确的VR控制很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "操作输入API",
+      "predicate": "响应",
+      "object": "SteamVR输入绑定",
+      "context": "这是系统最终要实现的功能目标，连接了引擎API和外部输入系统",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SteamVR输入配置",
+      "predicate": "需要",
+      "object": "重启SteamVR和虚幻编辑器",
+      "context": "这是配置生效的必要步骤，属于工作流程知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制器输入绑定",
+      "predicate": "通过",
+      "object": "SteamVR设备菜单配置",
+      "context": "指出了具体的配置入口位置，对实际操作有指导意义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SteamVR输入系统",
+      "predicate": "支持",
+      "object": "新型控制器绑定",
+      "context": "这是系统的重要特性，允许支持开发时未知的硬件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:43:00.277Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6168,
+    "contentLength": 4554,
+    "processingTimeMs": 32130
+  }
+}

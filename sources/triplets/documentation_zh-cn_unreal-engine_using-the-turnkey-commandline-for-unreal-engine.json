@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-the-turnkey-commandline-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-the-turnkey-commandline-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Turnkey",
+      "predicate": "属于",
+      "object": "Unreal AutomationTool (UAT)",
+      "context": "Turnkey是UAT的一个脚本，通过RunUAT.bat访问，帮助学习者理解Turnkey在虚幻引擎自动化工具中的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Turnkey",
+      "predicate": "支持",
+      "object": "SDK管理",
+      "context": "Turnkey提供命令行方式来管理SDK，包括安装、验证等操作，帮助学习者掌握SDK管理的高级方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Turnkey",
+      "predicate": "包含",
+      "object": "InstallSdk命令",
+      "context": "InstallSdk是Turnkey的核心功能之一，用于安装不同平台的SDK，学习者需要了解其子命令和选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InstallSdk命令",
+      "predicate": "支持",
+      "object": "多种SDK类型",
+      "context": "包括Full/Auto SDK等不同类型，学习者需要根据开发需求选择合适的SDK类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Turnkey",
+      "predicate": "包含",
+      "object": "VerifySdk命令",
+      "context": "验证SDK安装是否符合虚幻引擎要求，帮助学习者诊断SDK配置问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Turnkey",
+      "predicate": "包含",
+      "object": "ExecuteBuild命令",
+      "context": "用于项目构建，学习者需要掌握如何通过命令行构建不同平台的项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ExecuteBuild命令",
+      "predicate": "依赖",
+      "object": ".uproject文件",
+      "context": "构建命令基于识别出的.uproject文件，学习者需要理解项目文件与构建过程的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Turnkey",
+      "predicate": "包含",
+      "object": "InstallBuild命令",
+      "context": "用于将项目安装到设备，学习者需要了解项目部署流程",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Turnkey",
+      "predicate": "包含",
+      "object": "ListPlatforms命令",
+      "context": "列出平台SDK和设备信息，帮助学习者获取开发环境信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Turnkey",
+      "predicate": "包含",
+      "object": "Control命令",
+      "context": "远程控制设备，与编辑器中的设备管理器功能相同，帮助学习者理解设备管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Turnkey",
+      "predicate": "基于",
+      "object": "命令行参数",
+      "context": "通过命令行参数控制Turnkey行为，学习者需要掌握参数化使用方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Turnkey命令行",
+      "predicate": "扩展",
+      "object": "编辑器功能",
+      "context": "提供比编辑器更详细的SDK管理能力，帮助学习者理解命令行与GUI的互补关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "AutoSDK",
+      "predicate": "替代",
+      "object": "Full SDK",
+      "context": "在某些情况下AutoSDK可以替代Full SDK，学习者需要了解两者的适用场景",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Turnkey",
+      "predicate": "管理",
+      "object": "平台特定设置",
+      "context": "通过ManageSettings命令集中管理各平台配置，帮助学习者理解跨平台开发的配置管理",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Turnkey测试",
+      "predicate": "验证",
+      "object": "开发环境",
+      "context": "通过Test命令检查环境配置，学习者可用其诊断开发环境问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:25:50.239Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8461 字符)",
+      "timestamp": "2025-06-15T21:25:07.044Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12355,
+    "contentLength": 8461,
+    "processingTimeMs": 43199
+  }
+}

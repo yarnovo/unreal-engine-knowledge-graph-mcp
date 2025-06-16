@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_depth-of-field-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_depth-of-field-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "景深",
+      "predicate": "分为",
+      "object": "景深类型",
+      "context": "景深效果在虚幻引擎中有不同的实现方法，分为影片和移动两大类，帮助学习者理解不同平台适用的景深技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "景深类型",
+      "predicate": "包含",
+      "object": "影片景深",
+      "context": "影片景深是景深类型的一种，适用于PC和主机平台，提供影视观感，帮助学习者选择适合的平台技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "景深类型",
+      "predicate": "包含",
+      "object": "移动景深",
+      "context": "移动景深是景深类型的一种，专为移动平台优化，帮助学习者了解移动设备上的景深实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "景深实现",
+      "predicate": "分为",
+      "object": "三层区域",
+      "context": "景深效果通过对焦区域、近景和远景三层的处理实现，帮助学习者理解景深的技术实现细节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "三层区域",
+      "predicate": "包含",
+      "object": "对焦区域",
+      "context": "对焦区域是景深实现的核心部分，物体在此区域内保持清晰，帮助学习者理解景深效果的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "三层区域",
+      "predicate": "包含",
+      "object": "近景",
+      "context": "近景区域是景深实现的一部分，物体在此区域会模糊处理，帮助学习者理解景深效果的分层处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "三层区域",
+      "predicate": "包含",
+      "object": "远景",
+      "context": "远景区域是景深实现的一部分，物体在此区域会模糊处理，帮助学习者理解景深效果的分层处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "景深",
+      "predicate": "可通过",
+      "object": "后期处理体积",
+      "context": "后期处理体积是实现景深效果的一种方法，帮助学习者了解在虚幻编辑器中应用景深的途径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "景深",
+      "predicate": "可通过",
+      "object": "摄像机Actor",
+      "context": "摄像机Actor是实现景深效果的一种方法，帮助学习者了解在虚幻编辑器中应用景深的途径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "景深",
+      "predicate": "可通过",
+      "object": "影片摄像机Actor",
+      "context": "影片摄像机Actor是实现景深效果的一种方法，提供行业标准设置，帮助学习者了解专业影视级景深控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片摄像机Actor",
+      "predicate": "支持",
+      "object": "调试对焦平面",
+      "context": "影片摄像机Actor特有的调试对焦平面功能，帮助学习者可视化对焦位置，理解景深效果的实际应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "景深效果",
+      "predicate": "依赖",
+      "object": "对焦距离",
+      "context": "对焦距离是控制景深效果的关键参数，帮助学习者掌握景深效果调整的核心技术点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "景深效果",
+      "predicate": "依赖",
+      "object": "F制光圈",
+      "context": "F制光圈大小影响景深效果中的模糊程度，帮助学习者理解摄影参数与景深效果的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "景深效果",
+      "predicate": "依赖",
+      "object": "视野(FOV)",
+      "context": "视野大小影响景深效果的呈现范围，帮助学习者理解摄像机参数与景深效果的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编辑器",
+      "predicate": "提供",
+      "object": "景深可视化工具",
+      "context": "虚幻编辑器内置的景深可视化工具，帮助学习者直观理解景深的分层实现原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "景深可视化工具",
+      "predicate": "显示",
+      "object": "景深层",
+      "context": "景深可视化工具可以显示景深的分层情况，帮助学习者调试和优化景深效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片景深",
+      "predicate": "适用于",
+      "object": "PC和主机平台",
+      "context": "影片景深方法专为PC和主机平台设计，帮助学习者根据目标平台选择合适的技术方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动景深",
+      "predicate": "适用于",
+      "object": "移动平台",
+      "context": "移动景深方法专为移动平台优化，帮助学习者了解移动设备上的性能优化方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理体积",
+      "predicate": "包含",
+      "object": "景深属性",
+      "context": "后期处理体积中包含景深效果的调节属性，帮助学习者找到调整景深效果的入口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机Actor",
+      "predicate": "包含",
+      "object": "景深属性",
+      "context": "摄像机Actor中包含景深效果的调节属性，帮助学习者找到调整景深效果的入口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:49:52.368Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10302,
+    "contentLength": 7365,
+    "processingTimeMs": 71839
+  }
+}

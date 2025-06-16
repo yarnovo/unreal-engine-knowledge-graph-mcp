@@ -1,0 +1,203 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_skeletons-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_skeletons-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "骨架",
+      "predicate": "定义",
+      "object": "骨骼网格体",
+      "context": "骨架用于定义骨骼网格体中的骨骼层级结构，是骨骼网格体的基础组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架",
+      "predicate": "包含",
+      "object": "骨骼",
+      "context": "骨架由多个骨骼组成，形成层级结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架",
+      "predicate": "保存",
+      "object": "动画数据",
+      "context": "骨架负责保存动画数据、骨骼层级以及动画序列，并设置它们的关联",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架",
+      "predicate": "关联",
+      "object": "动画序列",
+      "context": "骨架与动画序列关联，用于控制角色的动作",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架",
+      "predicate": "共享",
+      "object": "动画数据",
+      "context": "骨架资产可以通过多种方式进行共享，从而让动画/数据在不同骨架间共享",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架",
+      "predicate": "创建方式",
+      "object": "导入FBX角色",
+      "context": "创建骨架的主要方式是通过导入带蒙皮的FBX角色，它会转换成一个虚幻引擎的骨骼网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架",
+      "predicate": "创建方式",
+      "object": "从骨骼网格体创建副本",
+      "context": "可以从任何骨骼网格体创建一个骨架副本，通过右键点击骨骼网格体并选择创建骨架",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架",
+      "predicate": "编辑工具",
+      "object": "骨架编辑器",
+      "context": "双击骨架资产将打开骨架编辑器，用于编辑和管理骨架",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架",
+      "predicate": "包含",
+      "object": "插槽",
+      "context": "骨架可以包含插槽，用于作为附加点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架",
+      "predicate": "包含",
+      "object": "虚拟骨骼",
+      "context": "骨架可以包含虚拟骨骼，用于跟随其他骨骼的变换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架",
+      "predicate": "储存",
+      "object": "动画通知",
+      "context": "骨架可以储存动画通知，用于在动画序列中触发事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架",
+      "predicate": "储存",
+      "object": "动画曲线",
+      "context": "骨架可以储存动画曲线，用于控制动画的细节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架",
+      "predicate": "储存",
+      "object": "混合配置文件和混合蒙板",
+      "context": "骨架可以储存混合配置文件和混合蒙板，用于控制骨骼的混合效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架",
+      "predicate": "共享规则",
+      "object": "骨骼命名和层级一致",
+      "context": "共享骨架需要骨骼命名和层级结构一致，否则无法正确共享",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架",
+      "predicate": "合并方式",
+      "object": "导入期间合并",
+      "context": "在导入新骨骼网格体时，可以选择合并到现有骨架",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架",
+      "predicate": "兼容性",
+      "object": "可兼容骨架",
+      "context": "可以将其他骨架定义为可兼容，从而在不同骨架之间共享动画资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架",
+      "predicate": "支持功能",
+      "object": "动画重定向",
+      "context": "骨架支持动画重定向功能，用于在不同比例的骨架间共享动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架",
+      "predicate": "支持功能",
+      "object": "IK Rig重定向",
+      "context": "骨架支持IK Rig重定向，用于在不同骨架结构上运行动画序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架",
+      "predicate": "支持功能",
+      "object": "混合遮罩和混合描述",
+      "context": "骨架支持混合遮罩和混合描述，用于屏蔽骨骼或改变混合速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架",
+      "predicate": "支持功能",
+      "object": "骨骼网格体LOD",
+      "context": "骨架支持骨骼网格体LOD，用于生成和修改骨骼网格体的LOD",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架",
+      "predicate": "支持功能",
+      "object": "骨骼网格体插槽",
+      "context": "骨架支持骨骼网格体插槽，用于创建附加点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架",
+      "predicate": "支持功能",
+      "object": "虚拟骨骼",
+      "context": "骨架支持虚拟骨骼，用于解决分层动画问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架",
+      "predicate": "支持功能",
+      "object": "骨架编辑",
+      "context": "骨架支持骨架编辑工具，用于创建和编辑骨架资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:48:35.754Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9765 字符)",
+      "timestamp": "2025-06-15T20:47:35.968Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14889,
+    "contentLength": 9765,
+    "processingTimeMs": 59794
+  }
+}

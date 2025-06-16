@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_rendering-your-niagara-systems",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_rendering-your-niagara-systems.md",
+  "triples": [
+    {
+      "subject": "Niagara系统",
+      "predicate": "渲染",
+      "object": "影片渲染队列(MRQ)",
+      "context": "Niagara系统的渲染需要通过影片渲染队列(MRQ)来完成，这是学习Niagara系统渲染流程的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染队列(MRQ)",
+      "predicate": "依赖",
+      "object": "Niagara MRQ Support插件",
+      "context": "使用MRQ渲染Niagara系统前需要启用Niagara MRQ Support插件，这是功能依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染队列(MRQ)",
+      "predicate": "依赖",
+      "object": "Niagara SIM Caching插件",
+      "context": "MRQ渲染还需要启用Niagara SIM Caching插件，这是另一个必要的功能依赖",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡序列",
+      "predicate": "包含",
+      "object": "过场动画摄像机",
+      "context": "创建关卡序列时需要添加过场动画摄像机，这是序列的基本组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡序列",
+      "predicate": "包含",
+      "object": "镜头切换轨道",
+      "context": "完整的关卡序列需要包含镜头切换轨道，这是序列编辑的重要组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染队列(MRQ)",
+      "predicate": "支持",
+      "object": "FFmpeg编码器",
+      "context": "MRQ可以配置使用FFmpeg进行视频编码，这是重要的输出格式支持",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Sequencer面板",
+      "predicate": "控制",
+      "object": "影片渲染队列(MRQ)",
+      "context": "通过Sequencer面板的场记板按钮可以打开和控制MRQ，这是工作流程的关键操作点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara系统渲染",
+      "predicate": "前置步骤",
+      "object": "插件启用",
+      "context": "渲染Niagara系统前必须完成相关插件的启用，这是重要的准备工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染队列(MRQ)",
+      "predicate": "生成",
+      "object": "渲染帧",
+      "context": "MRQ的主要功能是生成渲染帧，这是理解其核心作用的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡序列创建",
+      "predicate": "位于",
+      "object": "内容浏览器",
+      "context": "创建关卡序列的操作需要在内容浏览器中完成，这是重要的界面位置信息",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:37:10.649Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3138,
+    "contentLength": 2090,
+    "processingTimeMs": 43123
+  }
+}

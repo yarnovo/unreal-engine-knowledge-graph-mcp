@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_multi-user-replication-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_multi-user-replication-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "多用户复制",
+      "predicate": "依赖",
+      "object": "多用户编辑",
+      "context": "多用户复制功能需要通过多用户编辑功能来实现客户端之间的Actor属性实时复制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户复制",
+      "predicate": "用于",
+      "object": "编辑器之间复制对象",
+      "context": "明确说明该功能专门用于编辑器间的对象复制，而非Gameplay复制",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "复制属性",
+      "predicate": "替代",
+      "object": "复制整个Actor",
+      "context": "由于带宽限制，推荐选择单个属性复制而非复制整个Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制速率",
+      "predicate": "包含",
+      "object": "实时模式",
+      "context": "复制速率设置包含实时模式选项，与引擎求值速率同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制速率",
+      "predicate": "包含",
+      "object": "指定速率模式",
+      "context": "可手动设置特定复制速率的重要配置选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性作者",
+      "predicate": "控制",
+      "object": "属性复制权限",
+      "context": "通过更改属性作者可以控制不同客户端对属性的修改权限",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制预设",
+      "predicate": "保存",
+      "object": "Actor-客户端映射关系",
+      "context": "预设功能可以保存复杂的Actor与客户端分配关系供重复使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认属性选择",
+      "predicate": "配置",
+      "object": "自动添加属性",
+      "context": "项目设置中可配置特定组件类默认复制的属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "已添加的默认子对象规则",
+      "predicate": "指定",
+      "object": "默认属性应用范围",
+      "context": "决定默认属性选择规则适用于哪些Actor类的关键配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户服务器",
+      "predicate": "前置条件",
+      "object": "使用多用户复制",
+      "context": "必须先运行多用户服务器并加入会话才能使用复制功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制选项卡",
+      "predicate": "提供接口",
+      "object": "属性复制管理",
+      "context": "主要功能操作界面，包含添加/暂停/配置复制等核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "客户端显示名称",
+      "predicate": "影响",
+      "object": "预设功能有效性",
+      "context": "客户端名称冲突会导致预设失效，需要在项目设置中配置唯一显示名称",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:01:30.547Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8861,
+    "contentLength": 5933,
+    "processingTimeMs": 52191
+  }
+}

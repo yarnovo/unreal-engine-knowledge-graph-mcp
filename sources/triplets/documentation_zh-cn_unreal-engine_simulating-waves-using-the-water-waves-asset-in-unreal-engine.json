@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_simulating-waves-using-the-water-waves-asset-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_simulating-waves-using-the-water-waves-asset-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "水波资产",
+      "predicate": "用于",
+      "object": "水体Actor",
+      "context": "水波资产用于在水体Actor上模拟波浪表面，是水体模拟的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水波资产",
+      "predicate": "包含",
+      "object": "波浪模拟模型",
+      "context": "水波资产包含波浪模拟模型，模型决定了波浪的生成方式和参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "盖斯特纳波模拟模型",
+      "predicate": "属于",
+      "object": "波浪模拟模型",
+      "context": "盖斯特纳波是虚幻引擎默认提供的波浪模拟模型类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水波资产编辑器",
+      "predicate": "用于",
+      "object": "配置波浪参数",
+      "context": "编辑器界面用于调整波浪模拟的各项参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "波浪数量参数",
+      "predicate": "影响",
+      "object": "波浪外观",
+      "context": "Num Waves参数直接影响波浪的视觉复杂度和性能消耗",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "种子参数",
+      "predicate": "控制",
+      "object": "波浪随机性",
+      "context": "Seed参数为波浪生成提供确定性起点，影响随机模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "波长参数",
+      "predicate": "决定",
+      "object": "波浪间距",
+      "context": "最小/最大波长参数控制波浪之间的距离分布",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "振幅参数",
+      "predicate": "控制",
+      "object": "波浪高度",
+      "context": "振幅参数决定波浪的垂直高度变化范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主导风向角",
+      "predicate": "决定",
+      "object": "波浪方向",
+      "context": "风向参数控制波浪的主要传播方向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "陡度参数",
+      "predicate": "影响",
+      "object": "波峰形状",
+      "context": "陡度参数控制波浪波峰的尖锐或圆润程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGerstnerWaterWaveGeneratorBase",
+      "predicate": "用于",
+      "object": "自定义波浪生成",
+      "context": "基类允许开发者通过C++或蓝图实现自定义波浪模型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水材质",
+      "predicate": "补充",
+      "object": "水波资产",
+      "context": "材质负责微观细节表现，与水波资产的宏观模拟形成互补",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "水系统",
+      "predicate": "依赖",
+      "object": "GPU计算",
+      "context": "波浪模拟使用GPU加速计算实现实时性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "波浪模拟",
+      "predicate": "包含",
+      "object": "物理参数",
+      "context": "波长/振幅/陡度等参数共同构成完整的物理模拟系统",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "用于",
+      "object": "创建水波资产",
+      "context": "通过内容浏览器的右键菜单可以创建新的水波资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:47:20.736Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9381 字符)",
+      "timestamp": "2025-06-15T20:46:38.911Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14288,
+    "contentLength": 9381,
+    "processingTimeMs": 41833
+  }
+}

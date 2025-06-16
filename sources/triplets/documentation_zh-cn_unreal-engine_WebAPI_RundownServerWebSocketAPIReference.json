@@ -1,0 +1,243 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_WebAPI_RundownServerWebSocketAPIReference",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_WebAPI_RundownServerWebSocketAPIReference.md",
+  "triples": [
+    {
+      "subject": "Request: Ping",
+      "predicate": "触发",
+      "object": "Message: Pong",
+      "context": "客户端发送Ping请求用于发现服务器，服务器会响应Pong消息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Request: GetServerInfo",
+      "predicate": "获取",
+      "object": "Message: ServerInfo",
+      "context": "获取服务器扩展信息请求会返回ServerInfo消息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Request: GetPlayableAssets",
+      "predicate": "查询",
+      "object": "Message: PlayableAssets",
+      "context": "查询可播放资产列表请求会返回PlayableAssets消息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Request: GetRundowns",
+      "predicate": "获取",
+      "object": "Message: Rundowns",
+      "context": "获取rundown列表请求会返回Rundowns消息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Request: LoadRundown",
+      "predicate": "加载",
+      "object": "Rundown",
+      "context": "加载指定的rundown用于播放操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Rundown",
+      "predicate": "包含",
+      "object": "Page",
+      "context": "一个rundown包含多个页面(page)",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Page",
+      "predicate": "基于",
+      "object": "Template",
+      "context": "页面可以基于模板创建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Request: CreatePage",
+      "predicate": "创建",
+      "object": "Page",
+      "context": "创建新页面的请求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Request: GetPages",
+      "predicate": "获取",
+      "object": "Message: Pages",
+      "context": "获取页面列表请求会返回Pages消息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Request: GetPageDetails",
+      "predicate": "查询",
+      "object": "Message: PageDetails",
+      "context": "查询页面详情请求会返回PageDetails消息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Page",
+      "predicate": "关联",
+      "object": "Channel",
+      "context": "页面可以关联到特定频道",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Request: PageAction",
+      "predicate": "执行",
+      "object": "Enum: PageActions",
+      "context": "页面动作请求使用PageActions枚举定义的动作类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Request: TransitionAction",
+      "predicate": "执行",
+      "object": "Enum: TransitionActions",
+      "context": "转场动作请求使用TransitionActions枚举定义的动作类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Profile",
+      "predicate": "包含",
+      "object": "Channel",
+      "context": "配置文件(profile)包含多个频道配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Request: GetProfiles",
+      "predicate": "获取",
+      "object": "Message: Profiles",
+      "context": "获取配置文件列表请求会返回Profiles消息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Channel",
+      "predicate": "关联",
+      "object": "Device",
+      "context": "频道可以关联输出设备",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Request: GetDevices",
+      "predicate": "查询",
+      "object": "Message: DevicesList",
+      "context": "查询设备列表请求会返回DevicesList消息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Struct: PageInfo",
+      "predicate": "描述",
+      "object": "Page",
+      "context": "PageInfo结构体用于描述页面信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Struct: Channel",
+      "predicate": "描述",
+      "object": "Channel",
+      "context": "Channel结构体用于描述频道信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Enum: BroadcastChannelType",
+      "predicate": "分类",
+      "object": "Channel",
+      "context": "BroadcastChannelType枚举用于分类频道类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Message: PageSequenceEvent",
+      "predicate": "通知",
+      "object": "Page",
+      "context": "页面序列事件消息用于通知页面序列状态变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Message: PageTransitionEvent",
+      "predicate": "通知",
+      "object": "Transition",
+      "context": "页面转场事件消息用于通知转场状态变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Request: ExportRundown",
+      "predicate": "生成",
+      "object": "Message: ExportedRundown",
+      "context": "导出rundown请求会生成ExportedRundown消息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Request: ImportRundown",
+      "predicate": "导入",
+      "object": "Rundown",
+      "context": "导入请求可以从JSON数据或文件创建rundown",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Template",
+      "predicate": "组合",
+      "object": "ComboTemplate",
+      "context": "模板可以组合成组合模板",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "RemoteControlPreset",
+      "predicate": "控制",
+      "object": "Page",
+      "context": "远程控制预设可以控制页面参数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Request: UpdatePageFromRCP",
+      "predicate": "更新",
+      "object": "Page",
+      "context": "从远程控制预设更新页面值的请求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Struct: PlayableRemoteControlValues",
+      "predicate": "存储",
+      "object": "RemoteControlValues",
+      "context": "PlayableRemoteControlValues结构体存储页面的远程控制值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:52:15.706Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (84116 字符)",
+      "timestamp": "2025-06-15T17:50:49.535Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 84342,
+    "contentLength": 84116,
+    "processingTimeMs": 86215
+  }
+}

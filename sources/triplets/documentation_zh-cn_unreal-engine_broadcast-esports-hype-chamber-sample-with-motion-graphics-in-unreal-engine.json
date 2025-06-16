@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_broadcast-esports-hype-chamber-sample-with-motion-graphics-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_broadcast-esports-hype-chamber-sample-with-motion-graphics-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚拟演播室展台示例",
+      "predicate": "基于",
+      "object": "虚幻引擎5.6",
+      "context": "该示例项目是使用虚幻引擎5.6开发的，展示了引擎在动态图形和实时渲染方面的能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_HypeChamber_Controller",
+      "predicate": "控制",
+      "object": "动态图形和动画",
+      "context": "该蓝图控制器负责管理场景中的所有动态图形元素和动画播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DT_Esport_Themes",
+      "predicate": "存储",
+      "object": "战队主题数据",
+      "context": "数据表资产包含所有战队的主题数据，包括名称、颜色等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ST_RL_Design",
+      "predicate": "定义",
+      "object": "战队主题参数",
+      "context": "该结构体定义了战队主题的可配置参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_Esport_Controller",
+      "predicate": "使用",
+      "object": "DT_Esport_Themes",
+      "context": "蓝图控制器通过查询数据表来获取战队主题数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EN_Teams",
+      "predicate": "枚举",
+      "object": "可用战队",
+      "context": "该枚举定义了系统中可用的战队选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RC_Esports",
+      "predicate": "提供",
+      "object": "远程控制功能",
+      "context": "远程控制预设允许通过网络界面控制战队图形和文本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EUW_VersioningUtility",
+      "predicate": "管理",
+      "object": "批量渲染作业",
+      "context": "该编辑器工具控件用于配置和管理影片渲染队列的批量渲染任务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染队列",
+      "predicate": "用于",
+      "object": "批量渲染序列",
+      "context": "该功能可以批量渲染具有不同战队配置的动画序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态图形动画",
+      "predicate": "应用于",
+      "object": "电子竞技节目",
+      "context": "示例展示了如何将动态图形动画应用于电子竞技节目的制作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图工作流",
+      "predicate": "驱动",
+      "object": "图形资产包",
+      "context": "高级蓝图工作流使得图形资产包可以高度自定义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据表",
+      "predicate": "扩展",
+      "object": "战队选项",
+      "context": "通过向数据表添加新行可以扩展可用的战队选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通用媒体输出",
+      "predicate": "配置",
+      "object": "媒体捕获",
+      "context": "用于定义内容的媒体捕获输出设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理体积",
+      "predicate": "影响",
+      "object": "光线追踪效果",
+      "context": "控制场景中光线追踪效果的质量参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "实时渲染技术",
+      "context": "该示例展示了虚幻引擎在实时渲染领域的应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:16:22.572Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9586 字符)",
+      "timestamp": "2025-06-15T18:15:31.138Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14560,
+    "contentLength": 9586,
+    "processingTimeMs": 51440
+  }
+}

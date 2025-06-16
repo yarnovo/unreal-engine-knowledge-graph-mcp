@@ -1,0 +1,163 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-material-layers-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-material-layers-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "材质图层",
+      "predicate": "替代",
+      "object": "分层材质",
+      "context": "材质图层系统提供了比传统分层材质更简单、更灵活的工作流程，减少了技术复杂性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质图层",
+      "predicate": "扩展",
+      "object": "材质函数",
+      "context": "材质图层系统保留了材质函数的可重用性特点，同时在实例化参数控制方面提供了更多灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质图层",
+      "predicate": "依赖",
+      "object": "材质实例编辑器",
+      "context": "材质图层系统通过材质实例编辑器中的专用UI选项卡进行操作，这是其核心工作流程的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质图层资产",
+      "predicate": "组成",
+      "object": "材质图层系统",
+      "context": "材质图层资产是材质图层系统的两大核心组件之一，用于定义单个材质图层的逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质图层混合资产",
+      "predicate": "组成",
+      "object": "材质图层系统",
+      "context": "材质图层混合资产是材质图层系统的另一核心组件，专门处理不同图层间的混合逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质属性图层表达式",
+      "predicate": "控制",
+      "object": "材质图层堆栈",
+      "context": "该表达式是基础材质中引用和管理材质图层堆栈的核心节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质实例",
+      "predicate": "包含",
+      "object": "图层参数选项卡",
+      "context": "材质实例通过专门的图层参数选项卡来管理所有材质图层相关设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质图层",
+      "predicate": "支持",
+      "object": "参数传递",
+      "context": "材质图层系统支持多种参数传递方式，包括图层内部参数和基础材质输入参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质图层混合资产",
+      "predicate": "使用",
+      "object": "BlendMaterialAttributes表达式",
+      "context": "该表达式是混合资产中处理图层混合的核心节点，系统自动包含",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基础材质",
+      "predicate": "依赖",
+      "object": "使用材质属性选项",
+      "context": "使用材质图层系统必须启用主材质节点的'使用材质属性'选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质图层实例",
+      "predicate": "继承",
+      "object": "材质图层资产",
+      "context": "图层实例继承自图层资产，可以覆盖和修改参数化属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Material Attributes表达式",
+      "predicate": "配合使用",
+      "object": "Set Material Attributes表达式",
+      "context": "这两个表达式常一起使用，在基础材质中添加额外的材质属性处理逻辑",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图层堆栈",
+      "predicate": "遵循",
+      "object": "自上而下优先级",
+      "context": "堆栈中上层图层会覆盖下层图层，顺序调整会影响最终材质表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "背景图层",
+      "predicate": "作为",
+      "object": "默认材质",
+      "context": "当没有其他激活图层时，背景图层会作为默认材质显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质图层系统",
+      "predicate": "减少",
+      "object": "基础材质复杂度",
+      "context": "该系统将大部分逻辑转移到图层资产中，显著简化了基础材质图表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质图层",
+      "predicate": "支持",
+      "object": "非破坏性编辑",
+      "context": "通过图层可见性切换功能，可以临时禁用图层而不丢失工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质图层参数",
+      "predicate": "具有",
+      "object": "图层独特性",
+      "context": "即使同一图层多次出现在堆栈中，每个实例的参数设置都是独立的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质图层工作流",
+      "predicate": "优化",
+      "object": "美术师工作流程",
+      "context": "相比传统节点编辑方式，UI驱动的图层系统大大提升了美术师的迭代效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:19:31.172Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12443 字符)",
+      "timestamp": "2025-06-15T21:18:41.313Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19661,
+    "contentLength": 12443,
+    "processingTimeMs": 49867
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-datasmith-with-sketchup-pro-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-datasmith-with-sketchup-pro-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Datasmith",
+      "predicate": "支持",
+      "object": "SketchUp Pro",
+      "context": "Datasmith提供了将SketchUp Pro内容导入虚幻引擎的功能，帮助用户实现场景转换",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导出插件",
+      "predicate": "用于",
+      "object": "SketchUp Pro",
+      "context": "导出插件是Datasmith与SketchUp Pro交互的核心组件，必须安装才能进行内容导出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导入器",
+      "predicate": "处理",
+      "object": ".udatasmith文件",
+      "context": "导入器插件负责将导出的.udatasmith文件转换为虚幻引擎可用的资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Direct Link",
+      "predicate": "实现",
+      "object": "实时预览",
+      "context": "Direct Link功能允许SketchUp和虚幻引擎之间建立实时连接，无需手动重新导入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SketchUp几何结构",
+      "predicate": "转换为",
+      "object": "静态网格体",
+      "context": "Datasmith将SketchUp中的几何结构转换为虚幻引擎中的静态网格体资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "实例化",
+      "predicate": "优化",
+      "object": "运行时性能",
+      "context": "通过实例化重复组件可以减少内存使用和提高渲染效率",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "SketchUp材质",
+      "predicate": "转换为",
+      "object": "材质实例",
+      "context": "Datasmith为每个SketchUp材质创建对应的虚幻材质实例，保持外观一致性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Ruby脚本",
+      "predicate": "用于",
+      "object": "批量导出",
+      "context": "可以通过Ruby脚本实现SketchUp场景的批量导出，提高工作效率",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Datasmith工具栏",
+      "predicate": "提供",
+      "object": "导出功能",
+      "context": "工具栏集成了主要导出操作，包括Direct Link同步和文件导出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "元数据",
+      "predicate": "附加到",
+      "object": "Actor",
+      "context": "SketchUp中的高级属性信息会作为元数据附加到虚幻引擎中的对应Actor上",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "光照贴图",
+      "predicate": "影响",
+      "object": "静态网格体",
+      "context": "大静态网格体需要更高的光照贴图分辨率，这会影响烘焙效果和性能",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "三角形朝向",
+      "predicate": "决定",
+      "object": "渲染可见性",
+      "context": "虚幻引擎会根据三角形朝向决定是否渲染，这与SketchUp的处理方式不同",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质属性",
+      "predicate": "包括",
+      "object": "金属度和粗糙度",
+      "context": "UE扩展属性允许调整导入材质的物理基础渲染属性，提高真实感",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith工作流程",
+      "predicate": "基于",
+      "object": "导出-导入模式",
+      "context": "基本工作流程包括从SketchUp导出和向虚幻引擎导入两个主要阶段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "公告板",
+      "predicate": "转换为",
+      "object": "平面静态网格体",
+      "context": "SketchUp中的旋转公告板在虚幻中会变成固定朝向的平面网格体",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:16:38.701Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (14553 字符)",
+      "timestamp": "2025-06-15T21:15:55.130Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 22290,
+    "contentLength": 14553,
+    "processingTimeMs": 43574
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_mono-video-device",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_mono-video-device.md",
+  "triples": [
+    {
+      "subject": "Mono Video Device",
+      "predicate": "用于",
+      "object": "视频文件导入",
+      "context": "Mono Video设备专门用于将单个视频文件作为单镜头导入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mono Video Device",
+      "predicate": "提取",
+      "object": "音频轨道",
+      "context": "在导入视频文件时，如果视频包含音频轨道，Mono Video设备会同时提取音频",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mono Video Device",
+      "predicate": "包含",
+      "object": "Display Name",
+      "context": "Display Name是Mono Video设备的属性之一，用于在设备列表中显示设备名称",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mono Video Device",
+      "predicate": "包含",
+      "object": "Take Directory",
+      "context": "Take Directory是Mono Video设备的属性之一，用于指定包含视频文件的根文件夹路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mono Video Device",
+      "predicate": "包含",
+      "object": "Video Discovery Expression",
+      "context": "Video Discovery Expression是Mono Video设备的属性之一，用于定义视频文件的命名约定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Video Discovery Expression",
+      "predicate": "使用",
+      "object": "Tokens",
+      "context": "Video Discovery Expression使用Tokens来从文件夹和文件名中提取信息以识别镜头",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Tokens",
+      "predicate": "包括",
+      "object": "<Slate>",
+      "context": "<Slate>是Video Discovery Expression中的一个Token，表示镜头名称",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Tokens",
+      "predicate": "包括",
+      "object": "<Name>",
+      "context": "<Name>是Video Discovery Expression中的一个Token，表示摄像机的标识符",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Tokens",
+      "predicate": "包括",
+      "object": "<Take>",
+      "context": "<Take>是Video Discovery Expression中的一个Token，表示镜头编号",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Tokens",
+      "predicate": "包括",
+      "object": "<Any>",
+      "context": "<Any>是Video Discovery Expression中的一个Token，表示任何有效的字符串",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Tokens",
+      "predicate": "包括",
+      "object": "<Auto>",
+      "context": "<Auto>是Video Discovery Expression中的一个Token，用于基于目录结构自动识别镜头",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Video Discovery Expression",
+      "predicate": "使用分隔符",
+      "object": "_-.\\",
+      "context": "Video Discovery Expression使用分隔符（如_-.\\）来分隔Tokens",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Video Discovery Expression",
+      "predicate": "必须包含",
+      "object": "<Slate>和<Name>",
+      "context": "当不使用<Auto> Token时，Video Discovery Expression必须包含<Slate>和<Name> Tokens",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:58:33.499Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3226,
+    "contentLength": 3018,
+    "processingTimeMs": 41997
+  }
+}

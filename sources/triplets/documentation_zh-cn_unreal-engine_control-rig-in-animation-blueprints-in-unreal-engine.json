@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_control-rig-in-animation-blueprints-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_control-rig-in-animation-blueprints-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "动画蓝图",
+      "predicate": "引用",
+      "object": "控制绑定",
+      "context": "动画蓝图可以通过引用控制绑定来实现程序化的游戏逻辑，如地面对齐或接触点对齐",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定节点",
+      "predicate": "属于",
+      "object": "动画蓝图",
+      "context": "控制绑定节点是动画蓝图中的一个功能节点，用于访问控制绑定内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定节点",
+      "predicate": "需要",
+      "object": "控制绑定类",
+      "context": "控制绑定节点需要指定控制绑定类才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定",
+      "predicate": "包含",
+      "object": "变量",
+      "context": "控制绑定可以包含变量，这些变量可以在动画蓝图中被访问和操控",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定",
+      "predicate": "包含",
+      "object": "控制点",
+      "context": "控制绑定包含控制点，这些控制点可以在动画蓝图中被访问和操控",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "使用",
+      "object": "动画曲线",
+      "context": "动画蓝图可以使用动画曲线来控制控制绑定中的浮点变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定节点",
+      "predicate": "支持",
+      "object": "全局空间传输姿势",
+      "context": "控制绑定节点支持在全局空间中传输姿势，确保全局姿势匹配",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定节点",
+      "predicate": "支持",
+      "object": "本地空间传输姿势",
+      "context": "控制绑定节点支持在本地空间中传输姿势，确保本地变换匹配",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体",
+      "predicate": "需要",
+      "object": "控制绑定资产",
+      "context": "为骨架网格体创建控制绑定资产是使用控制绑定的先决条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体",
+      "predicate": "需要",
+      "object": "动画蓝图资产",
+      "context": "为骨架网格体创建动画蓝图资产是使用控制绑定的先决条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定节点",
+      "predicate": "公开",
+      "object": "变量",
+      "context": "控制绑定节点可以公开控制绑定中的变量，使其在动画蓝图中可用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定节点",
+      "predicate": "公开",
+      "object": "控制点",
+      "context": "控制绑定节点可以公开控制绑定中的控制点，使其在动画蓝图中可用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画曲线",
+      "predicate": "用于",
+      "object": "控制浮点变量",
+      "context": "动画曲线可以用于控制控制绑定中的浮点变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:34:55.999Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7137,
+    "contentLength": 4477,
+    "processingTimeMs": 38701
+  }
+}

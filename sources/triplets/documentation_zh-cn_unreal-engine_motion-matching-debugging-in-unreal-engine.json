@@ -1,0 +1,157 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_motion-matching-debugging-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_motion-matching-debugging-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Pose Search插件",
+      "predicate": "包含",
+      "object": "调试工具",
+      "context": "Pose Search插件提供调试工具用于编辑和调整运动匹配系统，帮助开发者理解系统行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pose Search插件",
+      "predicate": "提供",
+      "object": "Rewind调试器实现",
+      "context": "插件提供自定义Rewind调试器实现，用于观察运动匹配节点的姿势选择过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Rewind调试器",
+      "predicate": "用于",
+      "object": "调试运动匹配系统",
+      "context": "Rewind调试器可以录制和播放Gameplay片段，帮助开发者观察运动匹配系统的决策过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Animation Insights插件",
+      "predicate": "前置",
+      "object": "Pose Search插件",
+      "context": "使用Pose Search插件前需要先启用Animation Insights插件，这是使用运动匹配调试功能的先决条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动匹配系统",
+      "predicate": "依赖",
+      "object": "动画蓝图",
+      "context": "运动匹配系统需要通过动画蓝图驱动角色动画，这是系统运行的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Rewind调试器详情面板",
+      "predicate": "显示",
+      "object": "运动匹配选择表",
+      "context": "详情面板展示运动匹配系统的选择标准，帮助开发者理解姿势选择的决策因素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动匹配选择表",
+      "predicate": "包含",
+      "object": "活动姿势",
+      "context": "选择表中的活动姿势选项卡显示当前选择的姿势，是理解系统决策的关键信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动匹配选择表",
+      "predicate": "包含",
+      "object": "后续姿势",
+      "context": "后续姿势选项卡显示系统即将选择的姿势，帮助开发者预测动画过渡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动匹配选择表",
+      "predicate": "包含",
+      "object": "候选姿势",
+      "context": "候选姿势选项卡列出所有可选姿势，展示系统的决策范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动匹配系统",
+      "predicate": "基于",
+      "object": "姿势搜索数据库",
+      "context": "系统从姿势搜索数据库中选择合适的动画姿势，数据库是系统的核心资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动匹配系统",
+      "predicate": "考虑",
+      "object": "轨迹匹配度",
+      "context": "系统在选择姿势时会评估姿势与查询系统的匹配程度（轨迹总数），这是重要的选择标准",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动匹配系统",
+      "predicate": "考虑",
+      "object": "姿势过渡难度",
+      "context": "系统会评估当前姿势与候选姿势的接近程度（姿势总数），影响过渡的平滑性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动匹配系统",
+      "predicate": "应用",
+      "object": "偏差值",
+      "context": "系统使用偏差值调整姿势选择概率，正值增加选择可能性，负值降低可能性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Rewind调试器详情面板",
+      "predicate": "提供",
+      "object": "热力图可视化",
+      "context": "面板使用颜色编码（绿色/红色）直观展示姿势选择的有利程度，帮助快速理解系统决策",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动匹配调试",
+      "predicate": "需要",
+      "object": "角色蓝图",
+      "context": "调试运动匹配系统需要有一个使用运动匹配节点驱动动画的角色蓝图作为测试对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pose Search插件",
+      "predicate": "扩展",
+      "object": "虚幻引擎动画系统",
+      "context": "该插件为虚幻引擎提供了运动匹配功能，扩展了引擎的动画处理能力",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "运动匹配系统",
+      "predicate": "使用",
+      "object": "动画资产",
+      "context": "系统从动画资产中提取姿势数据用于匹配，资产质量直接影响匹配效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Rewind调试器",
+      "predicate": "支持",
+      "object": "动画系统分析",
+      "context": "调试器不仅可以用于运动匹配系统，也是分析整个动画系统行为的有力工具",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T20:00:30.714Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7831,
+    "contentLength": 4499,
+    "processingTimeMs": 57841
+  }
+}

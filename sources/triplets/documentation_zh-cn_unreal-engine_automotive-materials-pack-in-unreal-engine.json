@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_automotive-materials-pack-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_automotive-materials-pack-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "汽车材质包",
+      "predicate": "包含",
+      "object": "主材质",
+      "context": "汽车材质包由10种主材质生成164种材质实例，帮助学习者理解材质系统的层级结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主材质",
+      "predicate": "生成",
+      "object": "材质实例",
+      "context": "主材质通过参数化设计生成可定制的材质实例，这是虚幻引擎材质工作流的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "汽车材质包",
+      "predicate": "基于",
+      "object": "PBR最佳实践",
+      "context": "所有材质遵循基于物理渲染原则，这是现代3D渲染的重要理论基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PBR材质",
+      "predicate": "使用",
+      "object": "金属度/粗糙度工作流",
+      "context": "文档明确说明不使用高光度输入，采用金属感复选框控制材质类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "三平面映射",
+      "predicate": "替代",
+      "object": "UV映射",
+      "context": "作为解决复杂模型UV问题的关键技术，三平面映射是材质包的核心特性",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "光线追踪",
+      "predicate": "优化",
+      "object": "RayTracingQualitySwitchReplace节点",
+      "context": "专用节点实现光线追踪性能优化，展示高级渲染技术实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "车漆材质",
+      "predicate": "实现",
+      "object": "变色效果",
+      "context": "通过视角相关颜色混合实现高级汽车漆效果，展示材质编程技巧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玻璃材质",
+      "predicate": "依赖",
+      "object": "双网格体技术",
+      "context": "挡风玻璃实现需要内外两层网格体配合，展示复杂材质实现方案",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质实例",
+      "predicate": "避免",
+      "object": "编译开销",
+      "context": "解释为何使用实例化材质而非直接修改主材质的重要设计考量",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Quixel Megascans",
+      "predicate": "提供",
+      "object": "4K纹理素材",
+      "context": "展示行业标准素材库与引擎的整合工作流",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Additive材质",
+      "predicate": "用于",
+      "object": "HUD显示",
+      "context": "说明特定材质类型的典型应用场景，帮助理解材质设计目的",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "织物材质",
+      "predicate": "支持",
+      "object": "次表面散射",
+      "context": "通过柔软度参数实现布料特性，展示材质物理属性模拟",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "粗糙度贴图",
+      "predicate": "控制",
+      "object": "材质光泽度",
+      "context": "PBR工作流中粗糙度与反射清晰度的直接关系说明",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "透明涂层",
+      "predicate": "影响",
+      "object": "表面光泽度",
+      "context": "车漆材质中多层材质效果的实现原理",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "着色材质",
+      "predicate": "配合",
+      "object": "自发光材质",
+      "context": "尾灯效果需要多种材质类型协同工作，展示复合材质应用",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T18:11:46.351Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (14325 字符)",
+      "timestamp": "2025-06-15T18:10:55.701Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 22355,
+    "contentLength": 14325,
+    "processingTimeMs": 50653
+  }
+}

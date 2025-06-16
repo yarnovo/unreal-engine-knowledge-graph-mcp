@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_driving-ui-updates-with-events-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_driving-ui-updates-with-events-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "函数绑定",
+      "predicate": "用于",
+      "object": "UI更新",
+      "context": "函数绑定是一种简单直接的方法，适用于小型和简单的UI系统，通过逐帧检查属性值来更新UI。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性绑定",
+      "predicate": "替代",
+      "object": "函数绑定",
+      "context": "属性绑定比函数绑定开销更低，适用于中等复杂度的UI系统，通过存储引用减少逐帧调用的开销。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件驱动",
+      "predicate": "优化",
+      "object": "UI更新",
+      "context": "事件驱动方法仅在属性变化时更新UI，避免了不必要的逐帧检查，适用于复杂和高性能需求的UI系统。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件调度器",
+      "predicate": "实现",
+      "object": "事件驱动",
+      "context": "事件调度器用于在属性变化时触发UI更新，是实现事件驱动UI更新的核心技术。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件蓝图",
+      "predicate": "包含",
+      "object": "事件图表",
+      "context": "控件蓝图中的事件图表用于处理UI的逻辑和事件响应，是构建UI功能的核心组件。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Event Construct",
+      "predicate": "用于",
+      "object": "初始化引用",
+      "context": "Event Construct事件在控件蓝图初始化时执行，常用于获取和存储对角色蓝图等外部对象的引用。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HUD",
+      "predicate": "显示",
+      "object": "玩家生命值",
+      "context": "HUD用于显示玩家的生命值和能量值，是游戏UI的重要组成部分。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色蓝图",
+      "predicate": "包含",
+      "object": "生命值变量",
+      "context": "角色蓝图中定义了玩家的生命值和能量值变量，这些变量用于UI的显示和更新。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "进度条",
+      "predicate": "绑定",
+      "object": "生命值变量",
+      "context": "进度条控件可以绑定到角色蓝图中的生命值变量，实时显示玩家的生命值变化。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义事件",
+      "predicate": "响应",
+      "object": "事件调度器",
+      "context": "自定义事件可以绑定到事件调度器，在调度器被调用时执行特定的UI更新逻辑。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "函数绑定",
+      "predicate": "导致",
+      "object": "性能降低",
+      "context": "函数绑定在复杂系统中逐帧检查多个属性会导致性能降低，因此不适用于高性能需求的场景。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "属性绑定",
+      "predicate": "优于",
+      "object": "函数绑定",
+      "context": "属性绑定通过减少逐帧调用的开销，在性能上优于函数绑定，适用于更复杂的系统。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "事件驱动",
+      "predicate": "提供",
+      "object": "最佳性能",
+      "context": "事件驱动方法仅在属性变化时更新UI，提供了最佳的性能平衡，特别适合复杂系统。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:54:25.129Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7513,
+    "contentLength": 5283,
+    "processingTimeMs": 53847
+  }
+}

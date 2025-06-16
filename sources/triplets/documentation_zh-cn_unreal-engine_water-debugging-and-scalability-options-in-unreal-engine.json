@@ -1,0 +1,227 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_water-debugging-and-scalability-options-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_water-debugging-and-scalability-options-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "水系统",
+      "predicate": "包含",
+      "object": "水关卡统计数据",
+      "context": "水系统提供了一系列命令用于调试和显示关卡中的水系统信息，帮助开发者了解水系统的运行状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水关卡统计数据",
+      "predicate": "包含",
+      "object": "Stat Water",
+      "context": "Stat Water命令用于显示与水相关的CPU统计数据，帮助开发者优化水系统的性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水关卡统计数据",
+      "predicate": "包含",
+      "object": "Stat WaterMesh",
+      "context": "Stat WaterMesh命令用于显示水网格化和表面渲染的信息，帮助开发者优化水网格的渲染性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Stat Water",
+      "predicate": "包含",
+      "object": "IsUnderwater Test",
+      "context": "IsUnderwater Test用于检测是否激活水下后期处理，是Stat Water命令的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Stat Water",
+      "predicate": "包含",
+      "object": "WaterBody_ComputeWaterInfo",
+      "context": "WaterBody_ComputeWaterInfo用于计算水相关信息，是Stat Water命令的核心部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WaterBody_ComputeWaterInfo",
+      "predicate": "包含",
+      "object": "WaterBody_ComputeWaterDepth",
+      "context": "WaterBody_ComputeWaterDepth用于计算水深度数据，是WaterBody_ComputeWaterInfo的子功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WaterBody_ComputeWaterInfo",
+      "predicate": "包含",
+      "object": "WaterBody_ComputeWaveHeight",
+      "context": "WaterBody_ComputeWaveHeight用于计算水高度数据，是WaterBody_ComputeWaterInfo的子功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WaterBody_ComputeWaterInfo",
+      "predicate": "包含",
+      "object": "WaterBody_ComputeLandscapeDepth",
+      "context": "WaterBody_ComputeLandscapeDepth用于计算地形深度数据，是WaterBody_ComputeWaterInfo的子功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Stat WaterMesh",
+      "predicate": "包含",
+      "object": "绘制的顶点",
+      "context": "绘制的顶点数量是Stat WaterMesh显示的重要统计数据，帮助开发者优化水网格的渲染性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Stat WaterMesh",
+      "predicate": "包含",
+      "object": "绘制的图块",
+      "context": "绘制的图块数量是Stat WaterMesh显示的重要统计数据，帮助开发者理解水网格的分布和渲染效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Stat WaterMesh",
+      "predicate": "包含",
+      "object": "绘制调用",
+      "direction": "unidirectional",
+      "context": "绘制调用数量直接影响CPU开销，是优化水系统性能的关键指标",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水系统",
+      "predicate": "包含",
+      "object": "调试控制台命令",
+      "context": "调试控制台命令是水系统的重要组成部分，用于调试和优化水系统的各种功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试控制台命令",
+      "predicate": "包含",
+      "object": "r.Water.WaterMesh.ShowTileBounds",
+      "context": "该命令用于显示水网格体图块的边界，帮助开发者理解水网格的分布和结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试控制台命令",
+      "predicate": "包含",
+      "object": "r.Water.VisualizeActiveUnderwaterPostProcess",
+      "context": "该命令用于可视化水下后期处理，帮助开发者调试水下效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水系统",
+      "predicate": "包含",
+      "object": "可扩展性控制台命令",
+      "context": "可扩展性控制台命令用于调整水系统的性能和视觉效果，是水系统的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可扩展性控制台命令",
+      "predicate": "包含",
+      "object": "r.Water.WaterMesh.LODCountBias",
+      "context": "该命令用于调整水网格体的LOD数量，影响水系统的渲染质量和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可扩展性控制台命令",
+      "predicate": "包含",
+      "object": "r.Water.WaterSplineResampleMaxDistance",
+      "context": "该命令用于调整水体样条线的重新取样距离，影响水网格体的精度和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水系统",
+      "predicate": "依赖",
+      "object": "Unreal Insights",
+      "context": "文档建议使用Unreal Insights进行更深入的水系统性能分析",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "水网格体",
+      "predicate": "用于",
+      "object": "水表面渲染",
+      "context": "水网格体系统专门用于实现水表面的渲染效果",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水体样条线",
+      "predicate": "影响",
+      "object": "水网格体图块生成",
+      "context": "水体样条线的形状和精度直接影响水网格体图块的生成结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水下后期处理",
+      "predicate": "依赖",
+      "object": "IsUnderwater Test",
+      "context": "水下后期处理的激活状态依赖于IsUnderwater Test的检测结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "浅水流体模拟",
+      "predicate": "受控于",
+      "object": "r.Water.EnableShallowWaterSimulation",
+      "context": "浅水流体模拟的启用状态由该控制台命令直接控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水系统调试",
+      "predicate": "使用",
+      "object": "控制台命令",
+      "context": "水系统的调试主要通过各类控制台命令来实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水网格体优化",
+      "predicate": "涉及",
+      "object": "LOD设置",
+      "context": "水网格体的优化工作主要涉及LOD级别的各种参数设置",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "水体类型",
+      "predicate": "决定",
+      "object": "图块边界颜色",
+      "context": "不同类型的水体(河流/湖泊/海洋)会显示不同颜色的图块边界",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水系统性能",
+      "predicate": "受控于",
+      "object": "可扩展性选项",
+      "context": "水系统的整体性能可以通过各种可扩展性选项进行调节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:31:57.744Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9032 字符)",
+      "timestamp": "2025-06-15T21:30:43.320Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14729,
+    "contentLength": 9032,
+    "processingTimeMs": 74431
+  }
+}

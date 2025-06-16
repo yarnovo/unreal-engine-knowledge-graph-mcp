@@ -1,0 +1,163 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_audio-modulation-quick-start-guide",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_audio-modulation-quick-start-guide.md",
+  "triples": [
+    {
+      "subject": "音频调制",
+      "predicate": "包含",
+      "object": "控制总线",
+      "context": "音频调制系统通过控制总线来动态控制音频参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频调制",
+      "predicate": "依赖",
+      "object": "音频调制插件",
+      "context": "使用音频调制功能需要先启用音频调制插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制总线",
+      "predicate": "用于",
+      "object": "音量控制",
+      "context": "控制总线可以用于调制音频的音量参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制总线",
+      "predicate": "分配给",
+      "object": "声音类",
+      "context": "控制总线需要分配给声音类才能影响音频播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制总线",
+      "predicate": "分配给",
+      "object": "MetaSound源",
+      "context": "控制总线也可以分配给MetaSound源进行音频调制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制总线混音",
+      "predicate": "应用于",
+      "object": "控制总线",
+      "context": "控制总线混音可以应用于一组控制总线进行统一调整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSound源",
+      "predicate": "实现",
+      "object": "音频播放",
+      "context": "MetaSound源用于实现复杂的音频播放逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合矩阵调试器",
+      "predicate": "用于",
+      "object": "调试控制总线",
+      "context": "混合矩阵调试器可以查看控制总线的当前值和状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "控制",
+      "object": "控制总线混音",
+      "context": "可以通过蓝图在运行时激活和调整控制总线混音",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频调制插件",
+      "predicate": "扩展",
+      "object": "虚幻引擎音频功能",
+      "context": "音频调制插件为虚幻引擎提供了额外的音频调制功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "声音类",
+      "predicate": "继承",
+      "object": "主默认声音类",
+      "context": "项目中的声音类通常继承自主默认声音类",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "控制总线混音",
+      "predicate": "包含",
+      "object": "混音级",
+      "context": "控制总线混音由多个混音级组成，每个混音级对应一个控制总线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSound",
+      "predicate": "支持",
+      "object": "音频调制",
+      "context": "MetaSound系统支持音频调制功能",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "音频调制",
+      "predicate": "替代",
+      "object": "传统音频控制",
+      "context": "音频调制系统提供了比传统音频控制更动态和直观的功能",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "控制总线",
+      "predicate": "组成",
+      "object": "音频调制系统",
+      "context": "控制总线是音频调制系统的核心组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "包含",
+      "object": "音频调制配置",
+      "context": "音频调制的全局配置需要在项目设置中进行",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "音量参数",
+      "predicate": "属于",
+      "object": "调制参数",
+      "context": "音量参数是音频调制系统支持的一种调制参数类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试命令",
+      "predicate": "用于",
+      "object": "查看调制状态",
+      "context": "可以通过控制台命令启用音频调制调试功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:09:01.684Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13895 字符)",
+      "timestamp": "2025-06-15T18:08:01.066Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19121,
+    "contentLength": 13895,
+    "processingTimeMs": 60624
+  }
+}

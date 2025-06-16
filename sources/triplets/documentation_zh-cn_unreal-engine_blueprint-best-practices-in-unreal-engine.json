@@ -1,0 +1,157 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_blueprint-best-practices-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_blueprint-best-practices-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "蓝图",
+      "predicate": "用于",
+      "object": "事件驱动的功能",
+      "context": "蓝图最适合创建事件驱动的功能，如处理伤害接收、控制等非每帧调用的操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "不适用于",
+      "object": "每帧调用的复杂计算",
+      "context": "如果蓝图在每个 tick 都执行大量操作和复杂的数学计算，则需要考虑使用本地 C++ 代码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡蓝图",
+      "predicate": "适用于",
+      "object": "关卡限定的功能",
+      "context": "关卡蓝图非常利于对关卡限定的功能，或其中的 Actor 进行设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图类",
+      "predicate": "适用于",
+      "object": "可重用行为",
+      "context": "蓝图类是在项目中实现可重用行为的最佳方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡蓝图",
+      "predicate": "可迁移到",
+      "object": "蓝图类",
+      "context": "如您从关卡蓝图开始，然后决定将行为移入蓝图类，此过程将会非常简单",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "类变量",
+      "predicate": "用于",
+      "object": "多处访问的内容",
+      "context": "需要从蓝图中多处进行访问的内容即为类变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "本地变量",
+      "predicate": "用于",
+      "object": "函数上下文",
+      "context": "本地变量拥有适用范围，意味着它们只会出现在定义的范围中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "函数",
+      "predicate": "可覆写",
+      "object": "子蓝图中的功能",
+      "context": "可覆写子蓝图中的函数功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "宏",
+      "predicate": "不可覆写",
+      "object": "子蓝图中的功能",
+      "context": "宏无法实现此类覆写功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "函数",
+      "predicate": "适用于",
+      "object": "蓝图间通信",
+      "context": "可以函数为目标（如'在另一个对象上调用函数'），而函数则形成蓝图之间的通信",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "宏",
+      "predicate": "适用于",
+      "object": "重复使用的功能",
+      "context": "如果需要在各处重复使用一些功能，最好使用宏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图通信",
+      "predicate": "包含",
+      "object": "直接蓝图通信",
+      "context": "最常见的使用情况是直接蓝图通信",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图通信",
+      "predicate": "包含",
+      "object": "事件分配器",
+      "context": "有时需要实现的功能意味着您将使用事件分配器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图通信",
+      "predicate": "包含",
+      "object": "蓝图接口",
+      "context": "有时需要实现的功能意味着您将使用蓝图接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图编辑器",
+      "predicate": "支持",
+      "object": "搜索功能",
+      "context": "在蓝图编辑器中工作时，可通过几种技巧寻找到需要使用的节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图编辑器",
+      "predicate": "支持",
+      "object": "快捷菜单",
+      "context": "快捷菜单中只显示可连接到拖出引脚的节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图编辑器",
+      "predicate": "支持",
+      "object": "注释",
+      "context": "多使用注释！此外还可变更注释框的颜色，以便识别图表的部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图编辑器",
+      "predicate": "支持",
+      "object": "节点堆栈",
+      "context": "通过节点上下文进行堆栈可使内容在空间上更加紧凑",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:14:12.880Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10125,
+    "contentLength": 5611,
+    "processingTimeMs": 59883
+  }
+}

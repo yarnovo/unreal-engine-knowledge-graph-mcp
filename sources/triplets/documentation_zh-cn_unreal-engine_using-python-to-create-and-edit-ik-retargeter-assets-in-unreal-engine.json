@@ -1,0 +1,187 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-python-to-create-and-edit-ik-retargeter-assets-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-python-to-create-and-edit-ik-retargeter-assets-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "IK重定向器",
+      "predicate": "包含",
+      "object": "源IK Rig",
+      "context": "IK重定向器资产需要源IK Rig来定义重定向关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK重定向器",
+      "predicate": "包含",
+      "object": "目标IK Rig",
+      "context": "IK重定向器资产需要目标IK Rig来定义重定向关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK重定向器",
+      "predicate": "包含",
+      "object": "重定向链映射",
+      "context": "重定向链映射定义源和目标骨骼之间的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK重定向器",
+      "predicate": "包含",
+      "object": "重定向姿势",
+      "context": "重定向姿势用于确定基础姿势来供源或目标重定向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK重定向器",
+      "predicate": "包含",
+      "object": "全局设置",
+      "context": "全局设置影响整个重定向的宏观级设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK重定向器",
+      "predicate": "包含",
+      "object": "根设置",
+      "context": "根设置影响重定向根骨骼的设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK重定向器",
+      "predicate": "包含",
+      "object": "链设置",
+      "context": "链设置影响指定重定向链的设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK重定向器",
+      "predicate": "包含",
+      "object": "预览场景",
+      "context": "预览场景专用于编辑器中预览",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK重定向器",
+      "predicate": "支持",
+      "object": "Python脚本",
+      "context": "可以使用Python脚本控制和自动执行IK重定向器资产工作流程",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK重定向器控制器",
+      "predicate": "用于",
+      "object": "编辑IK重定向器",
+      "context": "控制器是可用于对IK重定向器做出更改的中心对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK重定向器控制器",
+      "predicate": "支持",
+      "object": "自动映射链",
+      "context": "可以使用模糊字符串匹配或精确字符串匹配自动映射链",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK重定向器控制器",
+      "predicate": "支持",
+      "object": "编辑重定向姿势",
+      "context": "可以创建、复制、重命名或删除重定向姿势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK重定向器控制器",
+      "predicate": "支持",
+      "object": "自动对齐重定向姿势",
+      "context": "可以自动对齐所有骨骼或指定骨骼到源姿势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK重定向器控制器",
+      "predicate": "支持",
+      "object": "编辑全局设置",
+      "context": "可以获取和设置影响整个重定向的全局设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK重定向器控制器",
+      "predicate": "支持",
+      "object": "编辑根设置",
+      "context": "可以获取和设置与重定向根骨骼相关的属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK重定向器控制器",
+      "predicate": "支持",
+      "object": "编辑链设置",
+      "context": "可以获取和设置与每个重定向链相关的属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK重定向器控制器",
+      "predicate": "支持",
+      "object": "重定向后阶段操作",
+      "context": "可以添加、编辑、移动和删除重定向后阶段的操作符",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IK重定向器",
+      "predicate": "用于",
+      "object": "动画重定向",
+      "context": "IK重定向器资产用于将动画从一个角色重定向到另一个角色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python脚本",
+      "predicate": "用于",
+      "object": "批量重定向动画",
+      "context": "可以使用Python脚本批量重定向动画序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "包含",
+      "object": "IK Rig",
+      "context": "IK Rig是虚幻引擎中用于角色和对象动画重定向的系统组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "Python脚本",
+      "context": "虚幻引擎支持使用Python脚本进行编辑器脚本编写",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:21:48.238Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (16742 字符)",
+      "timestamp": "2025-06-15T21:20:54.778Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 21696,
+    "contentLength": 16742,
+    "processingTimeMs": 53468
+  }
+}

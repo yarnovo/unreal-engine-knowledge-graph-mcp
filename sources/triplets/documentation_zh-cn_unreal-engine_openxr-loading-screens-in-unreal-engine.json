@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_openxr-loading-screens-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_openxr-loading-screens-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "OpenXR加载界面",
+      "predicate": "用于",
+      "object": "头戴式显示设备(HMD)",
+      "context": "OpenXR加载界面专门为HMD设备设计，用于在关卡切换时提供视觉过渡效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Set Loading Screen节点",
+      "predicate": "配置",
+      "object": "加载界面纹理",
+      "context": "该节点用于指定加载界面使用的纹理资源及其显示参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Show Loading Screen节点",
+      "predicate": "调用",
+      "object": "Set Loading Screen节点",
+      "context": "必须先通过Set Loading Screen配置加载界面参数，才能用Show Loading Screen显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Hide Loading Screen节点",
+      "predicate": "关联",
+      "object": "Show Loading Screen节点",
+      "context": "这两个节点成对使用，分别控制加载界面的显示和隐藏",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Delay节点",
+      "predicate": "延长",
+      "object": "加载界面显示时间",
+      "context": "Delay节点可以确保加载界面保持可见足够长时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Load Stream Level节点",
+      "predicate": "前置",
+      "object": "Hide Loading Screen节点",
+      "context": "通常需要在关卡加载完成后再隐藏加载界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡蓝图",
+      "predicate": "包含",
+      "object": "加载界面控制逻辑",
+      "context": "加载界面的显示/隐藏逻辑通常在关卡蓝图中实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Event BeginPlay",
+      "predicate": "触发",
+      "object": "加载界面显示流程",
+      "context": "常用作加载界面显示逻辑的起点事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OpenXR加载界面",
+      "predicate": "不支持",
+      "object": "媒体框架",
+      "context": "当前版本不支持通过媒体框架播放动态加载内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "加载界面",
+      "predicate": "适用于",
+      "object": "关卡流送",
+      "context": "加载界面常用于关卡流送过程中的过渡效果",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "纹理",
+      "predicate": "作为",
+      "object": "加载界面内容",
+      "context": "加载界面目前仅支持静态纹理内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "偏移向量",
+      "predicate": "控制",
+      "object": "加载界面位置",
+      "context": "用于调整加载界面在HMD视野中的相对位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缩放向量",
+      "predicate": "影响",
+      "object": "加载界面显示大小",
+      "context": "非零缩放值确保纹理能够正常显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:12:49.459Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7494,
+    "contentLength": 5744,
+    "processingTimeMs": 38777
+  }
+}

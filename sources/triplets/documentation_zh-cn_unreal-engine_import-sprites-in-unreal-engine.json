@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_import-sprites-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_import-sprites-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Texture Packer",
+      "predicate": "生成",
+      "object": ".paper2dsprites文件",
+      "context": "Texture Packer是第三方工具，可以生成.paper2dsprites文件用于导入虚幻引擎",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": ".paper2dsprites文件",
+      "predicate": "包含",
+      "object": "sprite表单纹理",
+      "context": ".paper2dsprites文件导入时会自动包含sprite表单纹理，无需单独导入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sprite表单资源",
+      "predicate": "用于生成",
+      "object": "Flipbooks",
+      "context": "Sprite表单资源可以通过右键操作自动生成Flipbooks动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Texture Packer",
+      "predicate": "支持",
+      "object": "UnrealEngine - Paper2d框架",
+      "context": "Texture Packer提供专门针对虚幻引擎Paper2D的导出框架选项",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Tiled",
+      "predicate": "导出",
+      "object": ".json文件",
+      "context": "Tiled地图编辑器可以导出.json格式文件用于导入虚幻引擎",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": ".json文件",
+      "predicate": "生成",
+      "object": "图块集",
+      "context": "导入.json文件会自动生成图块集资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": ".json文件",
+      "predicate": "生成",
+      "object": "图块地图",
+      "context": "导入.json文件会自动生成图块地图资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Paper 2D",
+      "predicate": "支持",
+      "object": "sprite导入",
+      "context": "Paper 2D系统专门支持从外部工具导入sprite资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Flipbooks",
+      "predicate": "基于",
+      "object": "sprite帧序列",
+      "context": "Flipbooks动画是通过组合sprite帧序列创建的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "sprite表单",
+      "predicate": "分解为",
+      "object": "Frames文件夹",
+      "context": "导入的sprite表单会被分解为单独的帧存储在Frames文件夹中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "sprite表单",
+      "predicate": "存储在",
+      "object": "Textures文件夹",
+      "context": "导入的sprite表单纹理存储在Textures文件夹中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Adobe Flash CS6",
+      "predicate": "导出",
+      "object": ".json文件",
+      "context": "Adobe Flash也可以导出.json格式用于导入虚幻引擎",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图块集",
+      "predicate": "用于构建",
+      "object": "图块地图",
+      "context": "图块集是构建图块地图的基础资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "POT(2的幂次方)",
+      "predicate": "是",
+      "object": "纹理尺寸约束",
+      "context": "Texture Packer中需要将纹理尺寸设为2的幂次方以满足引擎要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:31:20.243Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4756,
+    "contentLength": 3458,
+    "processingTimeMs": 42668
+  }
+}

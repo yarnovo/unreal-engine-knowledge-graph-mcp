@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_typed-object-pointer-properties-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_typed-object-pointer-properties-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "TSubclassOf",
+      "predicate": "提供",
+      "object": "UClass类型安全性",
+      "context": "TSubclassOf模板类的主要功能是为UClass提供类型安全性，帮助开发者在编译时捕获类型错误",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "TSubclassOf",
+      "predicate": "用于",
+      "object": "属性选择限制",
+      "context": "TSubclassOf可以限制编辑器属性窗口中可选择的类，确保只显示特定基类的派生类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSubclassOf",
+      "predicate": "替代",
+      "object": "UClass*",
+      "context": "相比直接使用UClass指针，TSubclassOf提供了更好的类型安全性，是更推荐的实现方式",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "TSubclassOf",
+      "predicate": "支持",
+      "object": "编译时类型检查",
+      "context": "TSubclassOf在C++层面提供编译时类型检查，比UClass*的运行时检查更安全",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UDamageType",
+      "predicate": "作为基类",
+      "object": "TSubclassOf模板参数",
+      "context": "UDamageType常被用作TSubclassOf的模板参数，用于限制可选择的伤害类型类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UPROPERTY",
+      "predicate": "修饰",
+      "object": "TSubclassOf属性",
+      "context": "UPROPERTY宏用于修饰TSubclassOf属性，使其在编辑器中可见并可配置",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "TSubclassOf",
+      "predicate": "实现",
+      "object": "类型安全属性系统",
+      "context": "TSubclassOf是实现虚幻引擎类型安全属性系统的关键技术之一",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "UDamageType_Lava",
+      "predicate": "派生自",
+      "object": "UDamageType",
+      "context": "UDamageType_Lava作为UDamageType的派生类，可以被TSubclassOf<UDamageType>引用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StaticClass",
+      "predicate": "获取",
+      "object": "UClass引用",
+      "context": "StaticClass()方法用于获取类的UClass引用，可以与TSubclassOf配合使用",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "TSubclassOf",
+      "predicate": "优于",
+      "object": "UClass*",
+      "context": "在类型安全性方面，TSubclassOf明显优于直接使用UClass指针，是更现代的解决方案",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:04:05.482Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2248,
+    "contentLength": 1642,
+    "processingTimeMs": 31690
+  }
+}

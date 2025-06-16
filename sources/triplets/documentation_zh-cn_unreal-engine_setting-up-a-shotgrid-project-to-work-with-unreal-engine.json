@@ -1,0 +1,99 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_setting-up-a-shotgrid-project-to-work-with-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_setting-up-a-shotgrid-project-to-work-with-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "ShotGrid",
+      "predicate": "集成",
+      "object": "虚幻引擎",
+      "context": "ShotGrid可以与虚幻引擎集成，提供项目管理和工作流工具",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具包引擎",
+      "predicate": "包含",
+      "object": "工具和脚本",
+      "context": "工具包引擎包含一系列工具和脚本，用于让ShotGrid项目了解虚幻引擎",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "tk-config-unrealbasic",
+      "predicate": "扩展",
+      "object": "基本ShotGrid工具包配置",
+      "context": "tk-config-unrealbasic库扩展了基本ShotGrid工具包配置，增加了虚幻集成的元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ShotGrid Desktop",
+      "predicate": "用于",
+      "object": "安装管线配置",
+      "context": "ShotGrid Desktop用于安装和管理管线配置，支持虚幻引擎集成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "管线配置",
+      "predicate": "部署",
+      "object": "分发配置",
+      "context": "管线配置可以通过分发配置在所有项目用户间共享",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "依赖",
+      "object": "ShotGrid插件",
+      "context": "虚幻引擎需要ShotGrid插件以实现与ShotGrid的集成功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "tk-unreal",
+      "predicate": "实现",
+      "object": "虚幻工具包引擎",
+      "context": "tk-unreal库实现了虚幻工具包引擎，包括Python连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Git",
+      "predicate": "用于",
+      "object": "下载配置",
+      "context": "Git用于从GitHub下载tk-config-unrealbasic等配置库",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ShotGrid项目",
+      "predicate": "配置",
+      "object": "管线配置",
+      "context": "ShotGrid项目需要配置管线配置以支持虚幻引擎集成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ShotGrid Desktop",
+      "predicate": "检测",
+      "object": "虚幻引擎安装程序",
+      "context": "ShotGrid Desktop可以检测计算机上的虚幻引擎安装程序并列出可用版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:44:03.884Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9353 字符)",
+      "timestamp": "2025-06-15T20:43:31.771Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12093,
+    "contentLength": 9353,
+    "processingTimeMs": 32118
+  }
+}

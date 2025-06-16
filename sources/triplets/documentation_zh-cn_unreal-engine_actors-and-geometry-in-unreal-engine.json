@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_actors-and-geometry-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_actors-and-geometry-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Actor",
+      "predicate": "是",
+      "object": "AActor",
+      "context": "在C++中，AActor是所有Actor的基类，理解这一继承关系有助于掌握Actor的编程实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "支持",
+      "object": "3D变换",
+      "context": "Actor支持平移、旋转和缩放等3D变换操作，这是操作Actor的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "用于",
+      "object": "创建关卡",
+      "context": "通过放置和操作Actor可以构建游戏关卡环境，这是关卡设计的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "静态网格体Actor",
+      "context": "静态网格体Actor是Actor的一种具体类型，用于构建静态环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "骨骼网格体Actor",
+      "context": "骨骼网格体Actor是Actor的一种具体类型，用于创建可动画化的角色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "摄像机Actor",
+      "context": "摄像机Actor是Actor的一种具体类型，用于控制游戏视角",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "触发器体积Actor",
+      "context": "触发器体积Actor是Actor的一种具体类型，用于实现游戏逻辑触发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "玩家出生点",
+      "context": "玩家出生点是Actor的一种具体类型，用于确定玩家初始位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "几何体笔刷Actor",
+      "context": "几何体笔刷Actor是Actor的一种具体类型，用于快速构建关卡几何体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体Actor",
+      "predicate": "用于",
+      "object": "创建游戏世界",
+      "context": "静态网格体Actor主要用于构建游戏中的静态环境元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体Actor",
+      "predicate": "用于",
+      "object": "创建角色模型",
+      "context": "骨骼网格体Actor支持骨骼动画，适合用于创建玩家角色和NPC",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体笔刷Actor",
+      "predicate": "基于",
+      "object": "BSP技术",
+      "context": "几何体笔刷Actor使用BSP技术快速构建关卡原型，这是关卡设计的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "触发器体积Actor",
+      "predicate": "用于",
+      "object": "激活游戏事件",
+      "context": "触发器体积Actor可以检测玩家进入并触发相应的游戏逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor移动性",
+      "predicate": "控制",
+      "object": "Actor动态行为",
+      "context": "Actor移动性设置决定了Actor在游戏运行时是否能够移动或变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor分组",
+      "predicate": "用于",
+      "object": "管理多个Actor",
+      "context": "Actor分组功能可以帮助开发者同时操作和管理多个相关的Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合并Actor",
+      "predicate": "用于",
+      "object": "优化静态网格体",
+      "context": "合并Actor功能可以将多个静态网格体合并为一个，提高渲染效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机Actor",
+      "predicate": "控制",
+      "object": "游戏视角",
+      "context": "摄像机Actor决定了玩家在游戏中的观察视角，是游戏体验的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "贴花Actor",
+      "predicate": "用于",
+      "object": "表面细节添加",
+      "context": "贴花Actor可以在不修改基础几何体的情况下为表面添加细节效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3D文本Actor",
+      "predicate": "用于",
+      "object": "创建动态图形",
+      "context": "3D文本Actor可以在游戏世界中放置可编辑的3D文字元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:53:55.038Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7809,
+    "contentLength": 6309,
+    "processingTimeMs": 66194
+  }
+}

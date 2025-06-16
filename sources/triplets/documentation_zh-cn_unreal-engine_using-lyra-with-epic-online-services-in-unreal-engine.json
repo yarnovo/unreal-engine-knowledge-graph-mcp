@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-lyra-with-epic-online-services-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-lyra-with-epic-online-services-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Lyra初学者游戏",
+      "predicate": "支持",
+      "object": "在线多人游戏功能",
+      "context": "Lyra初学者游戏示例项目旨在用于开发和发布多人游戏，支持在线多人游戏功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lyra初学者游戏",
+      "predicate": "集成",
+      "object": "Epic在线服务（EOS）",
+      "context": "Lyra初学者游戏集成了Epic在线服务（EOS）后端，用于在线多人游戏功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通用用户插件",
+      "predicate": "使用",
+      "object": "在线子系统（OSSv1）",
+      "context": "通用用户插件使用在线子系统（OSSv1）实现EOS功能，Lyra默认使用在线子系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通用用户插件",
+      "predicate": "使用",
+      "object": "在线服务（OSSv2）",
+      "context": "通用用户插件也可以使用在线服务（OSSv2）实现EOS功能，但需要额外配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线子系统（OSSv1）",
+      "predicate": "替代",
+      "object": "在线服务（OSSv2）",
+      "context": "在线服务（OSSv2）是新一代的在线服务插件，可以替代在线子系统（OSSv1）",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Epic在线服务（EOS）",
+      "predicate": "依赖",
+      "object": "Epic帐户",
+      "context": "要在Lyra中使用EOS，必须设置Epic帐户以访问EOS和虚幻引擎源代码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Epic在线服务（EOS）",
+      "predicate": "依赖",
+      "object": "GitHub",
+      "context": "要启用完整的EOS支持，必须具有一个可以访问虚幻引擎源代码的帐户，需要与GitHub同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Epic在线服务（EOS）",
+      "predicate": "依赖",
+      "object": "双因素身份验证",
+      "context": "需要在Epic帐户上启用双因素身份验证以便访问EOS开发者工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Epic在线服务（EOS）",
+      "predicate": "包含",
+      "object": "Epic帐户服务（EAS）",
+      "context": "Epic帐户服务（EAS）提供旨在与EOS集成的身份验证和社交工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Epic帐户服务（EAS）",
+      "predicate": "用于",
+      "object": "身份验证和社交工具",
+      "context": "EAS提供身份验证和社交工具，Lyra使用EAS执行开发登录以及与Epic Games商城的集成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lyra初学者游戏",
+      "predicate": "使用",
+      "object": "Common User插件",
+      "context": "Lyra初学者游戏可以访问通用用户插件（Common User Plugin）中的Epic在线服务功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Common User插件",
+      "predicate": "支持",
+      "object": "CustomConfig功能",
+      "context": "Common User插件支持CustomConfig功能，用于启用EOS特定的配置文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "开发者身份验证工具",
+      "predicate": "用于",
+      "object": "简化多人游戏测试",
+      "context": "开发者身份验证工具可以简化多人游戏测试，只需登录每个帐户一次",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LyraGameEOS",
+      "predicate": "是",
+      "object": "Lyra的打包版本",
+      "context": "LyraGameEOS是Lyra的打包版本，将-CustomConfig=EOS设置烘焙到可执行文件中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线子系统（OSSv1）",
+      "predicate": "配置",
+      "object": "DefaultEngine.ini",
+      "context": "在线子系统（OSSv1）的配置需要在DefaultEngine.ini文件中进行设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务（OSSv2）",
+      "predicate": "配置",
+      "object": "DefaultEngine.ini",
+      "context": "在线服务（OSSv2）的配置也需要在DefaultEngine.ini文件中进行设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Epic在线服务（EOS）",
+      "predicate": "需要",
+      "object": "产品设置",
+      "context": "在EOS开发者门户中需要设置产品以便在Lyra的本地副本中使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Epic在线服务（EOS）",
+      "predicate": "需要",
+      "object": "客户端设置",
+      "context": "需要为Lyra版本设置客户端和客户端策略以使用EOS",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Epic在线服务（EOS）",
+      "predicate": "需要",
+      "object": "应用程序设置",
+      "context": "需要设置一个应用程序将产品与EAS连接，以便使用EOS进行开发测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lyra初学者游戏",
+      "predicate": "适用于",
+      "object": "跨平台开发",
+      "context": "Lyra设计为在所有受支持的游戏主机、移动平台和PC桌面平台上均可运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:19:40.395Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (18741 字符)",
+      "timestamp": "2025-06-15T21:18:41.312Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 27941,
+    "contentLength": 18741,
+    "processingTimeMs": 59090
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_datasmith-plugins-overview",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_datasmith-plugins-overview.md",
+  "triples": [
+    {
+      "subject": "Datasmith",
+      "predicate": "用于",
+      "object": "非游戏行业",
+      "context": "Datasmith设计用于解决建筑、工程、建造、制造、实时培训等非游戏行业在实时渲染和可视化方面的挑战",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "支持",
+      "object": "3D设计应用程序",
+      "context": "Datasmith支持广泛的3D设计应用程序和文件格式，如Autodesk 3ds Max、Trimble Sketchup、Dassault Systèmes SolidWorks等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "生成",
+      "object": "静态网格体资产",
+      "context": "Datasmith将源场景中的几何结构转换为单独的静态网格体资产，便于在虚幻引擎中处理和渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "生成",
+      "object": "材质资产",
+      "context": "Datasmith为源场景中的每种表面类型创建材质资产，用于定义表面与光线的互动方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "生成",
+      "object": "纹理资产",
+      "context": "Datasmith将源应用程序中的纹理导入为纹理资产，并设置相应的材质引用这些纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "创建",
+      "object": "Datasmith场景资产",
+      "context": "Datasmith场景资产存储导入的静态网格体、材质和纹理的引用，以及原始场景的层级结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith场景资产",
+      "predicate": "包含",
+      "object": "静态网格体资产",
+      "context": "Datasmith场景资产存储对导入的静态网格体资产的引用，便于重新组合场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith场景资产",
+      "predicate": "包含",
+      "object": "材质资产",
+      "context": "Datasmith场景资产存储对导入的材质资产的引用，确保材质正确应用于几何结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith场景资产",
+      "predicate": "包含",
+      "object": "纹理资产",
+      "context": "Datasmith场景资产存储对导入的纹理资产的引用，确保纹理正确应用于材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体资产",
+      "predicate": "引用",
+      "object": "材质资产",
+      "context": "静态网格体资产需要指定材质资产来定义其表面与光线的互动方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质资产",
+      "predicate": "引用",
+      "object": "纹理资产",
+      "context": "材质资产可以引用纹理资产来定义表面的颜色和其他物理属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "生成",
+      "object": "光源Actor",
+      "context": "如果源场景包含照明，Datasmith会生成光源Actor来表示这些照明",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "生成",
+      "object": "摄像机Actor",
+      "context": "如果源场景包含摄像机，Datasmith会生成摄像机Actor来表示这些摄像机",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "跟踪",
+      "object": "属性覆盖",
+      "context": "Datasmith跟踪在虚幻中对导入资产和Actor所做的更改，便于回滚或重新导入时保留这些更改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "支持",
+      "object": "重新导入工作流程",
+      "context": "Datasmith支持重新导入场景时保留在虚幻中所做的覆盖，确保工作流程的连续性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "用于",
+      "object": "实时渲染",
+      "context": "Datasmith的主要目标是将设计内容转换为虚幻引擎能够实时渲染的形式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "扩展",
+      "object": "虚幻引擎",
+      "context": "Datasmith作为一组工具和插件，扩展了虚幻引擎的导入和处理能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:46:44.291Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10488 字符)",
+      "timestamp": "2025-06-15T18:45:47.753Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17918,
+    "contentLength": 10488,
+    "processingTimeMs": 56548
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_fstring-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_fstring-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "FString",
+      "predicate": "区别于",
+      "object": "FName",
+      "context": "FString是可变的字符串类，支持搜索、修改和比较操作，而FName是不可变的，主要用于存储名称标识符",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FString",
+      "predicate": "区别于",
+      "object": "FText",
+      "context": "FString是可变的字符串类，而FText是不可变的，主要用于本地化文本",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FString",
+      "predicate": "可转换为",
+      "object": "FName",
+      "context": "FString可以通过FName(*FString)转换为FName，但转换存在损耗，因为FName不区分大小写",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FString",
+      "predicate": "可转换为",
+      "object": "FText",
+      "context": "FString可以通过FText::FromString()转换为FText，但不会受益于FText的自动本地化功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FString",
+      "predicate": "支持操作",
+      "object": "字符串搜索",
+      "context": "FString提供Contains()和Find()方法用于字符串搜索，支持大小写敏感和搜索方向设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FString",
+      "predicate": "支持操作",
+      "object": "字符串构建",
+      "context": "FString支持通过串联和Printf方法构建字符串，Printf可以格式化数字输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FString",
+      "predicate": "支持操作",
+      "object": "字符串操作",
+      "context": "FString提供Left、Right、Mid、Split、ToUpper、ToLower等方法用于字符串操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FString",
+      "predicate": "用于",
+      "object": "HUD显示",
+      "context": "FString可以通过Canvas的DrawText()方法在HUD中显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FString",
+      "predicate": "用于",
+      "object": "调试信息",
+      "context": "FString可以通过AddOnScreenDebugMessage()打印到视口，或通过UE_LOG打印到输出日志",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FString",
+      "predicate": "基于",
+      "object": "TCHAR数组",
+      "context": "FString类构建在TCHARs的TArray之上，支持多种字符集转换宏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FString::Printf",
+      "predicate": "类似于",
+      "object": "C++ printf",
+      "context": "FString::Printf使用与C++ printf相同的格式说明符，用于构建格式化字符串",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FString",
+      "predicate": "可转换为",
+      "object": "基本数据类型",
+      "context": "FString支持与int、float、bool等基本数据类型之间的转换",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FString",
+      "predicate": "可转换为",
+      "object": "UE对象名称",
+      "context": "FString可以通过UObject的GetName()方法获取对象名称",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FString",
+      "predicate": "支持比较",
+      "object": "字符串比较",
+      "context": "FString支持通过==运算符或Equals()方法进行字符串比较，可以指定大小写敏感度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:08:01.578Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8745 字符)",
+      "timestamp": "2025-06-15T19:06:57.885Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12211,
+    "contentLength": 8745,
+    "processingTimeMs": 63703
+  }
+}

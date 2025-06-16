@@ -1,0 +1,147 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_cinematic-event-track-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_cinematic-event-track-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "事件轨道",
+      "predicate": "实现",
+      "object": "蓝图脚本功能",
+      "context": "事件轨道用于在Sequencer中定义执行蓝图脚本功能的帧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件轨道",
+      "predicate": "包含",
+      "object": "触发器事件",
+      "context": "事件轨道可以创建触发器事件，用于在特定关键帧执行一次",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件轨道",
+      "predicate": "包含",
+      "object": "重复器事件",
+      "context": "事件轨道可以创建重复器事件，用于在分段时长内连续触发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件轨道",
+      "predicate": "绑定到",
+      "object": "Object绑定轨道",
+      "context": "事件轨道可以在Object绑定轨道下创建，将事件绑定到特定对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "触发器事件",
+      "predicate": "求值于",
+      "object": "关键帧",
+      "context": "触发器事件在与关键帧相同的帧上求值一次",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重复器事件",
+      "predicate": "求值于",
+      "object": "分段时长",
+      "context": "重复器事件在事件分段的时长内为每个帧求值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重复器事件",
+      "predicate": "依赖",
+      "object": "每秒帧数",
+      "context": "重复器事件的求值速率取决于序列的每秒帧数设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件轨道",
+      "predicate": "关联",
+      "object": "导演蓝图",
+      "context": "导演蓝图是事件轨道的逻辑中心，包含事件的所有逻辑",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导演蓝图",
+      "predicate": "包含",
+      "object": "事件端点",
+      "context": "导演蓝图中包含事件端点，用于绑定事件并添加逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件端点",
+      "predicate": "支持",
+      "object": "参数",
+      "context": "事件端点可以添加参数，用于在事件触发时传递属性值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件端点",
+      "predicate": "支持",
+      "object": "对象绑定",
+      "context": "事件端点可以绑定到特定对象，便于对序列中的Actor编写脚本函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象绑定",
+      "predicate": "关联",
+      "object": "蓝图接口",
+      "context": "对象绑定可以关联蓝图接口，用于在事件中调用特定函数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "事件轨道",
+      "predicate": "前置",
+      "object": "Sequencer",
+      "context": "使用事件轨道需要先了解Sequencer及其界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件轨道",
+      "predicate": "前置",
+      "object": "蓝图可视化脚本",
+      "context": "使用事件轨道需要先了解蓝图可视化脚本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件轨道",
+      "predicate": "关联",
+      "object": "关卡序列",
+      "context": "每个关卡序列都有自己的导演蓝图，包含该序列中事件的所有逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件轨道",
+      "predicate": "控制",
+      "object": "事件属性",
+      "context": "事件轨道具有多种属性，可以控制事件的触发条件和位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:23:03.247Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9505 字符)",
+      "timestamp": "2025-06-15T18:22:17.773Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13775,
+    "contentLength": 9505,
+    "processingTimeMs": 45477
+  }
+}

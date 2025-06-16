@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_getting-started-with-multi-user-editing-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_getting-started-with-multi-user-editing-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "多用户编辑",
+      "predicate": "属于",
+      "object": "虚幻引擎插件",
+      "context": "多用户编辑是虚幻引擎的一个插件功能，需要先启用才能使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户编辑",
+      "predicate": "依赖",
+      "object": "相同版本虚幻引擎",
+      "context": "所有参与多用户编辑的电脑必须安装相同版本的虚幻引擎",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户编辑",
+      "predicate": "依赖",
+      "object": "局域网/VPN",
+      "context": "多用户编辑需要所有电脑连接到同一局域网或VPN",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户编辑",
+      "predicate": "支持",
+      "object": "版本控制系统",
+      "context": "推荐使用Perforce、Git等版本控制系统保持项目同步",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "多用户编辑",
+      "predicate": "包含",
+      "object": "多用户浏览器",
+      "context": "多用户浏览器是多用户编辑系统的主要管理界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户编辑",
+      "predicate": "包含",
+      "object": "多用户服务器",
+      "context": "需要启动多用户服务器来管理编辑会话",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户编辑",
+      "predicate": "包含",
+      "object": "会话",
+      "context": "多用户编辑通过会话组织协作工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户服务器",
+      "predicate": "管理",
+      "object": "会话",
+      "context": "服务器负责管理多用户编辑会话",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户浏览器",
+      "predicate": "用于",
+      "object": "会话管理",
+      "context": "通过多用户浏览器可以创建、加入和管理会话",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "会话",
+      "predicate": "包含",
+      "object": "客户端",
+      "context": "会话中可以加入多个客户端进行协作编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "会话",
+      "predicate": "同步",
+      "object": "项目更改",
+      "context": "会话中所有用户对项目的更改会实时同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户编辑",
+      "predicate": "支持",
+      "object": "Sequencer同步",
+      "context": "可以配置多用户编辑系统同步Sequencer中的动画操作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "多用户编辑",
+      "predicate": "需要",
+      "object": "项目设置配置",
+      "context": "需要在项目设置中配置多用户编辑相关参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "会话更改",
+      "predicate": "保存到",
+      "object": "本地项目",
+      "context": "会话中的更改需要显式保存才能应用到本地项目文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealGameSync",
+      "predicate": "用于",
+      "object": "简化版本控制",
+      "context": "UGS工具可以简化使用Perforce时的版本控制流程",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "多用户编辑",
+      "predicate": "前置",
+      "object": "插件启用",
+      "context": "使用多用户编辑功能前必须先启用插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户编辑",
+      "predicate": "适用于",
+      "object": "团队协作",
+      "context": "多用户编辑主要用于团队协作开发场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户编辑",
+      "predicate": "支持",
+      "object": "自动连接",
+      "context": "可以配置项目在打开时自动连接到默认会话",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "多用户编辑",
+      "predicate": "参考",
+      "object": "多用户编辑参考文档",
+      "context": "高级配置和详细信息可以参考多用户编辑参考文档",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户编辑",
+      "predicate": "参考",
+      "object": "高级多用户网络配置",
+      "context": "网络连接问题可以参考高级多用户网络配置文档",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:14:28.864Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15361 字符)",
+      "timestamp": "2025-06-15T19:13:23.574Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 23926,
+    "contentLength": 15361,
+    "processingTimeMs": 65298
+  }
+}

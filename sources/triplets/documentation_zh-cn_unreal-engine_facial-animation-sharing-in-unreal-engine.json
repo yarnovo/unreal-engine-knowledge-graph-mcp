@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_facial-animation-sharing-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_facial-animation-sharing-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "面部动画共享",
+      "predicate": "基于",
+      "object": "曲线驱动动画",
+      "context": "面部动画共享技术依赖于曲线驱动动画来实现表情的共享和复用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "曲线驱动动画",
+      "predicate": "需要",
+      "object": "姿势资源",
+      "context": "曲线驱动动画需要通过姿势资源将曲线数据转换为实际的面部动画姿势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势资源",
+      "predicate": "生成自",
+      "object": "动画序列",
+      "context": "姿势资源是从包含所有曲线数据的动画序列创建的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主骨架",
+      "predicate": "共享",
+      "object": "骨架网格体",
+      "context": "主骨架可以被多个骨架网格体共享，前提是它们具有相同的骨骼层级和命名约定",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "使用",
+      "object": "姿势资源",
+      "context": "动画蓝图通过姿势资源节点将曲线数据转换为角色可用的姿势数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子动画蓝图",
+      "predicate": "继承自",
+      "object": "父动画蓝图",
+      "context": "子动画蓝图可以继承父动画蓝图的属性，并覆盖特定的姿势资源以实现角色特定的面部动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画修饰符",
+      "predicate": "用于",
+      "object": "移除骨骼轨道",
+      "context": "动画修饰符可以用于移除动画序列中的特定骨骼轨道，以便共享肢体动画而不影响面部曲线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "面部动画",
+      "predicate": "避免",
+      "object": "骨骼变形数据",
+      "context": "为了实现面部动画的共享，动画序列中不能包含任何骨骼变形数据，只能保留曲线数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画曲线",
+      "predicate": "驱动",
+      "object": "面部表情",
+      "context": "动画曲线通过姿势资源驱动角色的面部表情，实现动态的面部动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架资源",
+      "predicate": "包含",
+      "object": "动画曲线",
+      "context": "骨架资源存储了动画曲线，这些曲线可以被所有使用该骨架的角色访问和共享",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:03:20.436Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11124,
+    "contentLength": 6753,
+    "processingTimeMs": 44278
+  }
+}

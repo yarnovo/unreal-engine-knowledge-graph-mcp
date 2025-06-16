@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_navigation-system-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_navigation-system-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎寻路系统",
+      "predicate": "包含",
+      "object": "寻路网格体",
+      "context": "寻路系统通过生成寻路网格体来实现AI代理的移动功能，理解这一关系有助于掌握系统的基本工作原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "划分为",
+      "object": "图块",
+      "context": "了解网格体如何被划分为图块有助于理解寻路系统的空间划分机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图块",
+      "predicate": "划分为",
+      "object": "多边形",
+      "context": "图块进一步划分为多边形是路径计算的基础，这对理解路径搜索算法很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多边形",
+      "predicate": "具有",
+      "object": "成本",
+      "context": "多边形成本是路径计算的关键因素，理解这一点有助于自定义寻路行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎寻路系统",
+      "predicate": "支持",
+      "object": "生成模式",
+      "context": "了解不同的生成模式可以帮助开发者根据项目需求选择合适的网格体生成方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成模式",
+      "predicate": "包含",
+      "object": "静态模式",
+      "context": "掌握不同生成模式的区别是优化寻路系统性能的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成模式",
+      "predicate": "包含",
+      "object": "动态模式",
+      "context": "动态模式适用于需要实时更新的场景，这对动态环境很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成模式",
+      "predicate": "包含",
+      "object": "仅限动态修改器模式",
+      "context": "了解这种特殊模式有助于处理特定场景下的寻路需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎寻路系统",
+      "predicate": "提供",
+      "object": "避障方法",
+      "context": "避障机制是AI代理行为的重要组成部分，理解这些方法有助于创建更智能的代理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "避障方法",
+      "predicate": "包含",
+      "object": "相对速度障碍物(RVO)",
+      "context": "RVO是常见的避障算法，理解其原理有助于AI行为调优",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "避障方法",
+      "predicate": "包含",
+      "object": "大规模人群绕行避让管理器",
+      "context": "这种管理器专门处理大规模人群的避让问题，对MMO等游戏类型很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "可以连接",
+      "object": "不连续区域",
+      "context": "理解如何连接不连续区域有助于处理复杂关卡设计中的寻路问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路系统",
+      "predicate": "基于",
+      "object": "关卡碰撞几何结构",
+      "context": "了解网格体生成的基础数据来源有助于解决寻路生成中的问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "影响",
+      "object": "代理寻路行为",
+      "context": "理解网格体如何影响代理行为是调优AI移动的关键",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路系统",
+      "predicate": "包含",
+      "object": "寻路组件",
+      "context": "组件是扩展寻路功能的重要方式，理解这一点有助于系统定制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路系统",
+      "predicate": "支持",
+      "object": "自定义寻路区域",
+      "context": "自定义区域功能允许开发者创建特定类型的可导航区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路系统",
+      "predicate": "支持",
+      "object": "查询筛选器",
+      "context": "查询筛选器可用于控制不同代理的寻路行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路系统",
+      "predicate": "支持",
+      "object": "寻路调用程序",
+      "context": "调用程序可以优化大型世界的寻路性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路系统",
+      "predicate": "支持",
+      "object": "世界分区寻路网格体",
+      "context": "世界分区功能对大型开放世界的寻路实现很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路系统",
+      "predicate": "支持",
+      "object": "自动生成寻路链接",
+      "context": "自动链接功能可以简化跨越间隙的寻路设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:04:37.202Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5812,
+    "contentLength": 3998,
+    "processingTimeMs": 69935
+  }
+}

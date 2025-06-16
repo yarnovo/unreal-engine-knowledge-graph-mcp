@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-use-a-solid-mesh-to-create-a-balloon-effect-in-niagara-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-use-a-solid-mesh-to-create-a-balloon-effect-in-niagara-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Niagara插件",
+      "predicate": "启用",
+      "object": "Niagara特效",
+      "context": "使用Niagara创建特效前需要先启用Niagara插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "替代",
+      "object": "Sprite粒子",
+      "context": "使用静态网格体可以增加特效的真实感，替代面向摄像机的Sprite粒子",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Balloon_Material",
+      "predicate": "应用于",
+      "object": "气球网格体",
+      "context": "创建的材质用于使网格体看起来像橡胶气球",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子颜色节点",
+      "predicate": "连接",
+      "object": "基本颜色输入",
+      "context": "粒子颜色节点的RGB输出连接到材质的基本颜色输入，用于控制材质颜色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara系统",
+      "predicate": "基于",
+      "object": "发射器模板",
+      "context": "创建Niagara系统时可以选择基于现有发射器或发射器模板",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "喷泉模板",
+      "predicate": "包含",
+      "object": "Sprite渲染器",
+      "context": "喷泉模板默认包含Sprite渲染器，需要替换为网格体渲染器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体渲染器",
+      "predicate": "替换",
+      "object": "Sprite渲染器",
+      "context": "制作网格体粒子效果需要使用网格体渲染器替换默认的Sprite渲染器",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器更新组",
+      "predicate": "控制",
+      "object": "发射器生命周期",
+      "context": "发射器更新组中的设置可以控制发射器的生命周期模式等参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子生成组",
+      "predicate": "初始化",
+      "object": "粒子属性",
+      "context": "粒子生成组中的模块用于初始化粒子的生命周期、颜色、大小等属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子更新组",
+      "predicate": "更新",
+      "object": "粒子行为",
+      "context": "粒子更新组中的模块用于每帧更新粒子的行为，如重力、阻力等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重力模块",
+      "predicate": "影响",
+      "object": "粒子运动",
+      "context": "重力模块可以模拟重力对粒子的影响，控制粒子的运动轨迹",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "阻力模块",
+      "predicate": "减慢",
+      "object": "粒子速度",
+      "context": "阻力模块可以减慢粒子的运动速度，影响特效的整体效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "球体位置模块",
+      "predicate": "控制",
+      "object": "粒子生成位置",
+      "context": "球体位置模块可以控制粒子生成位置的形状和分布",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Shape_Sphere",
+      "predicate": "作为",
+      "object": "练习网格体",
+      "context": "初学者内容包中的Shape_Sphere可以作为练习用的网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质编辑器",
+      "predicate": "用于",
+      "object": "创建和编辑材质",
+      "context": "材质编辑器是创建和编辑材质的工具，可以设置材质的各种属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara编辑器",
+      "predicate": "用于",
+      "object": "创建和编辑特效系统",
+      "context": "Niagara编辑器是创建和编辑粒子特效系统的工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "系统概述面板",
+      "predicate": "显示",
+      "object": "发射器结构",
+      "context": "系统概述面板显示发射器的结构，可以方便地选择和编辑各个模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "用于",
+      "object": "设置参数值",
+      "context": "细节面板用于设置选中模块或节点的具体参数值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "用于",
+      "object": "管理项目资产",
+      "context": "内容浏览器用于管理项目中的各种资产，如材质、网格体、特效系统等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:28:06.298Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (20828 字符)",
+      "timestamp": "2025-06-15T19:27:03.710Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 27554,
+    "contentLength": 20828,
+    "processingTimeMs": 62596
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_custom-navigation-areas-and-query-filters-preparation-guide-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_custom-navigation-areas-and-query-filters-preparation-guide-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "导航网格体边界体积",
+      "predicate": "用于",
+      "object": "导航系统",
+      "context": "导航网格体边界体积用于定义AI代理可以导航的区域，是导航系统的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ThirdPersonCharacter蓝图",
+      "predicate": "修改为",
+      "object": "BP_NPC_CustomZone",
+      "context": "通过修改ThirdPersonCharacter蓝图创建BP_NPC_CustomZone，使其具备导航功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_NPC_CustomZone",
+      "predicate": "包含",
+      "object": "MoveNPC事件",
+      "context": "BP_NPC_CustomZone包含MoveNPC事件，用于触发AI代理的导航行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_NPC_CustomZone",
+      "predicate": "包含",
+      "object": "Target变量",
+      "context": "BP_NPC_CustomZone包含Target变量，用于指定AI代理的导航目标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Move to Actor节点",
+      "predicate": "用于",
+      "object": "导航到目标",
+      "context": "Move to Actor节点用于实现AI代理导航到指定目标的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI控制器",
+      "predicate": "控制",
+      "object": "BP_NPC_CustomZone",
+      "context": "AI控制器控制BP_NPC_CustomZone的导航行为，是实现AI导航的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导航查询筛选器",
+      "predicate": "影响",
+      "object": "导航路径",
+      "context": "导航查询筛选器影响AI代理的导航路径，可以自定义导航行为",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "导航系统",
+      "predicate": "依赖",
+      "object": "导航网格体边界体积",
+      "context": "导航系统依赖导航网格体边界体积来定义可导航区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_NPC_CustomZone",
+      "predicate": "使用",
+      "object": "导航查询筛选器",
+      "context": "BP_NPC_CustomZone使用导航查询筛选器来自定义导航行为",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "第三人称项目模板",
+      "predicate": "提供",
+      "object": "ThirdPersonCharacter蓝图",
+      "context": "第三人称项目模板提供了基础的ThirdPersonCharacter蓝图，可用于创建自定义AI代理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "测试关卡",
+      "predicate": "包含",
+      "object": "导航网格体边界体积",
+      "context": "测试关卡包含导航网格体边界体积，用于设置AI代理的导航区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "测试关卡",
+      "predicate": "包含",
+      "object": "球体Actor",
+      "context": "测试关卡包含球体Actor，作为AI代理的导航目标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导航系统",
+      "predicate": "支持",
+      "object": "自定义导航区域",
+      "context": "导航系统支持自定义导航区域，允许开发者定义特定的导航行为",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:43:47.585Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10211 字符)",
+      "timestamp": "2025-06-15T18:42:45.364Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12823,
+    "contentLength": 10211,
+    "processingTimeMs": 62225
+  }
+}

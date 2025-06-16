@@ -1,0 +1,123 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_lightweight-emitters-quick-start-for-niagara-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_lightweight-emitters-quick-start-for-niagara-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Niagara轻量级发射器",
+      "predicate": "优化",
+      "object": "性能",
+      "context": "轻量级发射器专门设计用于优化Niagara系统在不同平台上的性能表现",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Niagara轻量级发射器",
+      "predicate": "替代方案",
+      "object": "常规发射器",
+      "context": "轻量级发射器是常规发射器的高性能替代方案，两者可实现相同视觉效果但性能特征不同",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NS_Fountain",
+      "predicate": "使用",
+      "object": "常规发射器",
+      "context": "NS_Fountain系统作为对照组使用常规发射器实现喷泉效果",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "NS_Fountain_LW",
+      "predicate": "使用",
+      "object": "轻量级发射器",
+      "context": "NS_Fountain_LW系统使用轻量级发射器实现相同喷泉效果，用于性能对比",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Niagara调试器",
+      "predicate": "用于",
+      "object": "性能分析",
+      "context": "Niagara调试器提供性能覆层和Stat Unit指标，专门用于分析发射器的性能特征",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏线程平均时间",
+      "predicate": "衡量指标",
+      "object": "发射器性能",
+      "context": "游戏线程平均时间是Niagara调试器显示的关键性能指标，反映发射器的CPU开销",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "帧率(Frame)",
+      "predicate": "关联",
+      "object": "绘制调用(Draw)",
+      "context": "Stat Unit中的帧率和绘制调用次数是评估渲染性能的关联指标，轻量级发射器会同时优化这两个参数",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "生成率(Spawn Rate)",
+      "predicate": "影响",
+      "object": "粒子数量",
+      "context": "发射器的生成率参数直接控制系统产生的粒子数量，是性能测试的关键变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "创建",
+      "object": "Niagara系统",
+      "context": "内容浏览器是创建新Niagara系统的主要入口，支持选择常规或轻量级发射器模板",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "测试关卡",
+      "predicate": "用于",
+      "object": "性能对比",
+      "context": "专门创建的测试关卡用于放置大量系统实例，形成控制变量实验环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "喷泉发射器",
+      "predicate": "包含模块",
+      "object": "初始化粒子",
+      "context": "喷泉发射器包含初始化粒子等标准模块，这些模块在常规和轻量级版本中配置相同",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "轻量级发射器概览",
+      "predicate": "扩展阅读",
+      "object": "Niagara轻量级发射器",
+      "context": "轻量级发射器概览文档提供比快速入门更深入的技术细节，形成学习路径的下一阶段",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "第三人称模板项目",
+      "predicate": "推荐环境",
+      "object": "性能测试",
+      "context": "文档推荐使用游戏类别的第三人称模板作为测试基础，确保环境一致性",
+      "direction": "unidirectional",
+      "confidence": 0.75
+    }
+  ],
+  "timestamp": "2025-06-15T19:45:20.191Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11562 字符)",
+      "timestamp": "2025-06-15T19:44:39.657Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16224,
+    "contentLength": 11562,
+    "processingTimeMs": 40538
+  }
+}

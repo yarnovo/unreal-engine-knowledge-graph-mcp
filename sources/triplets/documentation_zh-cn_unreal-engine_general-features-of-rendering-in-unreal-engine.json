@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_general-features-of-rendering-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_general-features-of-rendering-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Unreal Engine Rendering",
+      "predicate": "包含",
+      "object": "First Person Rendering",
+      "context": "First Person Rendering是Unreal Engine Rendering的一个子系统，用于处理第一人称视角的渲染效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Engine Rendering",
+      "predicate": "包含",
+      "object": "Rendering Components",
+      "context": "Rendering Components是Unreal Engine Rendering的核心组成部分，包括粒子系统、贴花和公告板等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Engine Rendering",
+      "predicate": "包含",
+      "object": "Skeletal Mesh Rendering Paths",
+      "context": "Skeletal Mesh Rendering Paths是Unreal Engine Rendering中处理骨骼网格渲染的路径选择系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Engine Rendering",
+      "predicate": "包含",
+      "object": "Movie Render Queue",
+      "context": "Movie Render Queue是Unreal Engine Rendering中用于渲染高质量帧序列的工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Engine Rendering",
+      "predicate": "包含",
+      "object": "Lightmapping",
+      "context": "Lightmapping是Unreal Engine Rendering中用于静态网格光照贴图的技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Movie Render Queue",
+      "predicate": "支持",
+      "object": "Sequencer",
+      "context": "Movie Render Queue可以与Sequencer配合使用，渲染高质量的过场动画",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Movie Render Queue",
+      "predicate": "支持",
+      "object": "Ray Tracing",
+      "context": "Movie Render Queue特别适用于使用光线追踪技术渲染高质量画面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Skeletal Mesh Rendering Paths",
+      "predicate": "用于",
+      "object": "Animations",
+      "context": "Skeletal Mesh Rendering Paths专门用于处理骨骼网格动画的渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lightmapping",
+      "predicate": "需要",
+      "object": "Static Meshes",
+      "context": "Lightmapping技术需要为静态网格设置光照贴图UV",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Rendering Components",
+      "predicate": "包含",
+      "object": "Particle Systems",
+      "context": "粒子系统是Rendering Components中的一种重要组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Rendering Components",
+      "predicate": "包含",
+      "object": "Decals",
+      "context": "贴花是Rendering Components中的一种重要组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Rendering Components",
+      "predicate": "包含",
+      "object": "Billboards",
+      "context": "公告板是Rendering Components中的一种重要组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Engine Rendering",
+      "predicate": "关联",
+      "object": "World Building Tools",
+      "context": "Unreal Engine Rendering与Hierarchical Level of Detail等世界构建工具有交互",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Unreal Engine Rendering",
+      "predicate": "关联",
+      "object": "Geometry Tools",
+      "context": "Unreal Engine Rendering与几何工具有交互关系",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:12:14.927Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3687,
+    "contentLength": 3501,
+    "processingTimeMs": 56500
+  }
+}

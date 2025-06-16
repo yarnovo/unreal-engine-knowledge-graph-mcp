@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_emitter-settings-reference-for-niagara-effects-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_emitter-settings-reference-for-niagara-effects-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Niagara发射器",
+      "predicate": "包含",
+      "object": "发射器属性项",
+      "context": "所有创建的发射器默认包含发射器属性项，这是理解发射器基础配置的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器属性项",
+      "predicate": "包含",
+      "object": "本地空间设置",
+      "context": "本地空间是发射器属性项的核心参数之一，决定粒子坐标系参考方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器属性项",
+      "predicate": "包含",
+      "object": "确定性设置",
+      "context": "确定性设置控制随机数生成器的行为，影响粒子效果的可重复性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "确定性设置",
+      "predicate": "影响",
+      "object": "随机数生成器",
+      "context": "确定性设置直接决定RNG的工作模式，是理解粒子随机行为的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器属性项",
+      "predicate": "包含",
+      "object": "模拟目标设置",
+      "context": "模拟目标设置决定计算资源分配方式（CPU/GPU），影响性能优化策略",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器属性项",
+      "predicate": "包含",
+      "object": "可扩展性设置",
+      "context": "可扩展性设置是优化多平台适配的重要配置组",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可扩展性设置",
+      "predicate": "分级为",
+      "object": "性能等级（低/中/高/史诗/过场动画）",
+      "context": "五级性能分级体系是理解跨平台效果适配的基础框架",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "性能等级",
+      "predicate": "关联",
+      "object": "目标平台",
+      "context": "不同性能等级对应不同的平台支持组合，指导平台适配决策",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器属性项",
+      "predicate": "包含",
+      "object": "资产选项",
+      "context": "资产选项控制发射器在资源库中的可见性和分类方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产选项",
+      "predicate": "包含",
+      "object": "模板规格设置",
+      "context": "模板规格设置决定发射器在项目中的角色定位（标准/模板/示例）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "本地空间设置",
+      "predicate": "控制",
+      "object": "粒子坐标系",
+      "context": "理解本地/全局空间切换对粒子运动轨迹的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内插生成设置",
+      "predicate": "影响",
+      "object": "粒子生成流畅度",
+      "context": "高移动速度发射器需要理解内插生成对平滑度的改善机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "固定边界设置",
+      "predicate": "限制",
+      "object": "粒子活动范围",
+      "context": "边界控制是优化粒子系统性能的重要技术手段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "确定性设置",
+      "predicate": "依赖",
+      "object": "随机种子",
+      "context": "确定性模式下随机种子是保证效果可重复性的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产选项",
+      "predicate": "包含",
+      "object": "分类设置",
+      "context": "分类设置帮助组织发射器资源库，是项目资产管理的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:57:39.173Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5204,
+    "contentLength": 3463,
+    "processingTimeMs": 53541
+  }
+}

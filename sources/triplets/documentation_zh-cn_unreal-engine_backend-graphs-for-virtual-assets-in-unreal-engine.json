@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_backend-graphs-for-virtual-assets-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_backend-graphs-for-virtual-assets-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚拟资产系统",
+      "predicate": "使用",
+      "object": "后端图表",
+      "context": "虚拟资产系统通过后端图表在多个后端中查找文件，优化数据拉取过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后端图表",
+      "predicate": "包含",
+      "object": "CacheStorageHierarchy",
+      "context": "后端图表由CacheStorageHierarchy和PersistentStorageHierarchy两个核心列表组成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后端图表",
+      "predicate": "包含",
+      "object": "PersistentStorageHierarchy",
+      "context": "后端图表由CacheStorageHierarchy和PersistentStorageHierarchy两个核心列表组成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CacheStorageHierarchy",
+      "predicate": "用于",
+      "object": "快速缓存",
+      "context": "CacheStorageHierarchy列表中的后端速度更快但可靠性较低，用于加快常用文件的拉取速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PersistentStorageHierarchy",
+      "predicate": "用于",
+      "object": "持久存储",
+      "context": "PersistentStorageHierarchy列表中的后端速度较慢但更可靠，用于长期存储所有文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟资产系统",
+      "predicate": "优先访问",
+      "object": "CacheStorageHierarchy",
+      "context": "系统首先尝试从CacheStorageHierarchy拉取数据，找不到时才转向PersistentStorageHierarchy",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后端",
+      "predicate": "包含类型",
+      "object": "FileSystem",
+      "context": "后端可以定义为FileSystem类型，表示使用本地文件系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后端",
+      "predicate": "包含类型",
+      "object": "P4SourceControl",
+      "context": "后端可以定义为P4SourceControl类型，表示使用Perforce源码控制系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后端",
+      "predicate": "包含类型",
+      "object": "DDCBackend",
+      "context": "后端可以定义为DDCBackend类型，表示使用项目的共享DDC",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "P4SourceControl",
+      "predicate": "需要",
+      "object": "DepotRoot",
+      "context": "使用P4SourceControl类型后端时必须提供Perforce库的根路径参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FileSystem",
+      "predicate": "需要",
+      "object": "Path",
+      "context": "使用FileSystem类型后端时必须提供存储负载的根文件夹路径参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后端图表配置",
+      "predicate": "存储在",
+      "object": "DefaultEngine.ini",
+      "context": "后端图表的定义和配置信息存储在DefaultEngine.ini配置文件中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目",
+      "predicate": "通过",
+      "object": "Core.VirtualizationModule",
+      "context": "项目通过Core.VirtualizationModule配置节选择要使用的后端图表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后端图表",
+      "predicate": "可通过命令行",
+      "object": "覆盖",
+      "context": "可以使用-VABackendGraph命令行参数临时覆盖配置文件中的后端图表设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "推荐配置",
+      "predicate": "建议使用",
+      "object": "源码控制+共享DDC",
+      "context": "文档推荐使用源码控制作为持久存储，共享DDC作为缓存存储的标准配置方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "P4SourceControl",
+      "predicate": "需要验证",
+      "object": "payload_metainfo.txt",
+      "context": "P4SourceControl后端需要通过payload_metainfo.txt文件验证Depot路径的正确性和权限",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:11:55.559Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10451,
+    "contentLength": 6517,
+    "processingTimeMs": 59861
+  }
+}

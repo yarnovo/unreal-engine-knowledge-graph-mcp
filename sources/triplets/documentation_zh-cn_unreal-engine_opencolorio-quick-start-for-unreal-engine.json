@@ -1,0 +1,149 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_opencolorio-quick-start-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_opencolorio-quick-start-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "OpenColorIO",
+      "context": "虚幻引擎通过OpenColorIO插件支持颜色管理功能，帮助开发者进行颜色空间转换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OpenColorIO配置资产",
+      "predicate": "管理",
+      "object": "颜色描述",
+      "context": "OpenColorIO配置资产用于管理项目中使用的颜色描述，包含颜色空间转换的详细规范",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OpenColorIO配置资产",
+      "predicate": "引用",
+      "object": "OCIO配置",
+      "context": "OpenColorIO配置资产引用一个OCIO配置，该配置包含颜色空间、显示和视图的集合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OCIO配置",
+      "predicate": "包含",
+      "object": "颜色空间",
+      "context": "OCIO配置包含多个颜色空间，用于定义不同的颜色描述",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OCIO配置",
+      "predicate": "包含",
+      "object": "显示视图",
+      "context": "OCIO配置包含显示视图，用于定义如何在特定显示设备上呈现颜色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "依赖",
+      "object": "OpenColorIO插件",
+      "context": "要在虚幻引擎中使用OCIO功能，必须先启用OpenColorIO插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OpenColorIO插件",
+      "predicate": "提供",
+      "object": "内置OCIO配置",
+      "context": "OpenColorIO插件提供了多个内置的OCIO配置，如默认ACES CG配置，方便开发者快速使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OpenColorIO配置资产",
+      "predicate": "配置",
+      "object": "颜色转换",
+      "context": "通过配置OpenColorIO配置资产，可以定义颜色转换的源和目标颜色空间，实现颜色管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OpenColorIO配置资产",
+      "predicate": "应用于",
+      "object": "视口模式",
+      "context": "配置好的OpenColorIO配置资产可以应用于虚幻引擎的视口模式，实时预览颜色转换效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OpenColorIO配置资产",
+      "predicate": "应用于",
+      "object": "编辑器运行模式",
+      "context": "配置好的OpenColorIO配置资产可以应用于虚幻引擎的编辑器运行模式，确保游戏运行时的颜色一致性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OCIO配置文件",
+      "predicate": "导入",
+      "object": "项目内容文件夹",
+      "context": "开发者可以通过文件资源管理器将自定义的OCIO配置文件导入到项目的内容文件夹中，扩展颜色管理功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OCIO插件",
+      "predicate": "支持",
+      "object": ".ocioz存档文件",
+      "context": "OCIO插件支持.ocioz存档文件，允许开发者将配置文件及其LUT纹理压缩到单个文件中，便于管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "示例OCIO配置文件",
+      "predicate": "位于",
+      "object": "引擎安装文件夹",
+      "context": "Epic提供的示例OCIO配置文件位于引擎安装文件夹中，开发者可以参考这些文件进行自定义配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "不显示",
+      "object": ".ocio文件",
+      "context": "内容浏览器默认不显示.ocio文件，开发者需要使用文件资源管理器来管理这些文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OpenColorIO配置资产",
+      "predicate": "设置",
+      "object": "需要的颜色空间",
+      "context": "在OpenColorIO配置资产中设置需要的颜色空间，可以优化性能并确保只加载必要的颜色描述",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "颜色转换",
+      "predicate": "需要",
+      "object": "源和目标颜色空间",
+      "context": "进行颜色转换时，必须指定源和目标颜色空间，以确保颜色转换的准确性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OpenColorIO",
+      "predicate": "基于",
+      "object": "OCIO v2.2",
+      "context": "虚幻引擎中的OpenColorIO实现基于OCIO v2.2版本，开发者可以参考相关文档了解详细信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:11:33.212Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8900,
+    "contentLength": 6164,
+    "processingTimeMs": 62525
+  }
+}

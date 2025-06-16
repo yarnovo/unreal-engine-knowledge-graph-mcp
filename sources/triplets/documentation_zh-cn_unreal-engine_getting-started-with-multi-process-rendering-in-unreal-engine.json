@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_getting-started-with-multi-process-rendering-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_getting-started-with-multi-process-rendering-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "多进程nDisplay配置",
+      "predicate": "包含",
+      "object": "屏幕内节点",
+      "context": "多进程nDisplay配置由屏幕内节点和屏幕外节点组成，理解这种包含关系有助于学习者掌握配置的整体结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多进程nDisplay配置",
+      "predicate": "包含",
+      "object": "屏幕外节点",
+      "context": "屏幕外节点是多进程nDisplay配置的重要组成部分，用于在次级GPU上进行渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕内节点",
+      "predicate": "使用",
+      "object": "主GPU",
+      "context": "屏幕内节点使用主GPU进行渲染，这是多进程渲染的基础配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕外节点",
+      "predicate": "使用",
+      "object": "次级GPU",
+      "context": "屏幕外节点使用次级GPU进行渲染，这是实现多进程渲染性能优势的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX摄像机",
+      "predicate": "依赖",
+      "object": "共享媒体输入和输出",
+      "context": "ICVFX摄像机通过共享媒体输入和输出实现渲染从屏幕外节点到屏幕内节点的传输",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享媒体输入和输出",
+      "predicate": "用于",
+      "object": "渲染传输",
+      "context": "共享媒体输入和输出是实现ICVFX摄像机渲染传输的核心机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体输出群组",
+      "predicate": "控制",
+      "object": "渲染媒体发送方",
+      "context": "媒体输出群组负责控制被渲染媒体的发送方，是媒体传输流程的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体输入群组",
+      "predicate": "控制",
+      "object": "渲染媒体接收方",
+      "context": "媒体输入群组负责控制被渲染媒体的接收方，与媒体输出群组配合完成媒体传输",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "帧锁定模式",
+      "predicate": "确保",
+      "object": "帧正确配对",
+      "context": "帧锁定模式确保屏幕外节点和屏幕内节点的帧能够正确配对，避免显示问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "零延迟",
+      "predicate": "消除",
+      "object": "延迟",
+      "context": "启用零延迟可以消除媒体传输中的延迟，这对于ICVFX应用至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "管理",
+      "object": "多进程nDisplay配置",
+      "context": "Switchboard用于管理和运行多进程nDisplay配置中的屏幕内和屏幕外节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InCameraVFX模板项目",
+      "predicate": "提供",
+      "object": "参考配置",
+      "context": "InCameraVFX模板项目提供了启用多进程nDisplay的参考配置，有助于学习者快速上手",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多进程渲染",
+      "predicate": "基于",
+      "object": "nDisplay系统",
+      "context": "多进程渲染功能基于虚幻引擎的nDisplay系统实现，理解这种基础关系有助于掌握技术架构",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "屏幕外节点",
+      "predicate": "支持",
+      "object": "无头渲染",
+      "context": "屏幕外节点支持无头渲染模式，这是实现多进程渲染的关键特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图形适配器设置",
+      "predicate": "决定",
+      "object": "GPU分配",
+      "context": "图形适配器设置决定了节点使用哪个GPU进行渲染，是多进程渲染配置的核心参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:14:15.781Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9435,
+    "contentLength": 6207,
+    "processingTimeMs": 52216
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_instrumenting-your-game-with-analytics-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_instrumenting-your-game-with-analytics-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "分析功能",
+      "predicate": "用于",
+      "object": "检测游戏",
+      "context": "分析功能是虚幻引擎中用于检测游戏玩家行为和数据的关键工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分析服务商",
+      "predicate": "注册于",
+      "object": "DefaultEngine.ini文件",
+      "context": "开发者需要在DefaultEngine.ini文件中注册分析服务商以启用分析功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DefaultEngine.ini文件",
+      "predicate": "包含",
+      "object": "分析配置",
+      "context": "DefaultEngine.ini文件包含分析功能的配置信息，如服务商模块名称、API密钥等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分析配置",
+      "predicate": "区分",
+      "object": "不同构建类型",
+      "context": "分析配置可以根据不同的构建类型（开发、测试、生产）设置不同的服务商和账户详情",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IOSApsalar插件",
+      "predicate": "属于",
+      "object": "分析服务商",
+      "context": "IOSApsalar插件是虚幻引擎4.5版本中的一个分析服务商模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分析事件",
+      "predicate": "记录",
+      "object": "玩家行为数据",
+      "context": "通过记录分析事件，开发者可以收集玩家在游戏中的行为数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FAnalytics接口",
+      "predicate": "提供",
+      "object": "会话管理功能",
+      "context": "FAnalytics接口提供了StartSession和EndSession等方法用于管理分析会话",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图分析插件",
+      "predicate": "替代",
+      "object": "FAnalytics接口",
+      "context": "在虚幻引擎4.5及更高版本中，开发者可以使用蓝图分析插件替代直接调用FAnalytics接口",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "玩家滞留数据",
+      "predicate": "基于",
+      "object": "会话管理",
+      "context": "收集玩家滞留数据的基础是正确管理分析会话的开始和结束",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "分析事件",
+      "predicate": "扩展",
+      "object": "玩家行为分析",
+      "context": "通过添加更多分析事件，开发者可以更深入地了解玩家在游戏中的行为",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:36:55.009Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2563,
+    "contentLength": 1623,
+    "processingTimeMs": 45798
+  }
+}

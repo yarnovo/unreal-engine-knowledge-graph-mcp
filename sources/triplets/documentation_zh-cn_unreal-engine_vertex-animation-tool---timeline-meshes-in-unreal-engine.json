@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_vertex-animation-tool---timeline-meshes-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_vertex-animation-tool---timeline-meshes-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "顶点动画工具",
+      "predicate": "用于",
+      "object": "时间轴网格动画",
+      "context": "顶点动画工具专门用于处理时间轴网格动画，将3D网格的顶点位置数据转换为2D纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3Ds Max",
+      "predicate": "用于",
+      "object": "顶点动画内容创建",
+      "context": "3Ds Max是创建和设置时间轴动画网格内容的工具，用于生成顶点动画所需的基础数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "弯曲修改器",
+      "predicate": "应用于",
+      "object": "茶壶网格",
+      "context": "弯曲修改器用于在3Ds Max中对茶壶网格进行动画变形，是顶点动画的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "顶点动画工具",
+      "predicate": "生成",
+      "object": "顶点位置纹理",
+      "context": "顶点动画工具处理动画网格后会生成包含顶点位置数据的.EXR纹理和法线信息的.BMP纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "导入",
+      "object": "顶点动画纹理",
+      "context": "虚幻引擎需要导入从3Ds Max导出的顶点动画纹理，并进行特定设置才能正确工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EXR纹理",
+      "predicate": "包含",
+      "object": "顶点位置数据",
+      "context": ".EXR纹理存储了网格的顶点位置信息，是驱动顶点动画的关键数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BMP纹理",
+      "predicate": "包含",
+      "object": "法线信息",
+      "context": ".BMP纹理存储了网格的法线信息，用于在动画中保持正确的光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格",
+      "predicate": "需要",
+      "object": "特定导入设置",
+      "context": "静态网格导入虚幻引擎时需要禁用自动生成碰撞等特定设置，以确保顶点动画正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MS_VertexAnimationTools_MorphTargets",
+      "predicate": "是",
+      "object": "材质函数",
+      "context": "该材质函数专门用于处理顶点动画效果，是连接纹理数据和最终材质表现的关键组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MAT_Vertex_Animation",
+      "predicate": "使用",
+      "object": "MS_VertexAnimationTools_MorphTargets",
+      "context": "顶点动画材质需要使用专门的材质函数来处理顶点动画数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "顶点动画工具",
+      "predicate": "依赖",
+      "object": "3Ds Max动画",
+      "context": "顶点动画工具的工作流程依赖于3Ds Max中创建的动画作为输入源",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "顶点动画材质",
+      "predicate": "控制",
+      "object": "顶点动画效果",
+      "context": "通过设置顶点动画材质中的参数可以控制动画的表现效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "纹理导入设置",
+      "predicate": "影响",
+      "object": "顶点动画效果",
+      "context": "正确的纹理导入设置对顶点动画在虚幻引擎中的表现至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "定制UV数目",
+      "predicate": "需要设置为",
+      "object": "4",
+      "context": "顶点动画材质需要将定制UV数目设置为4才能正确处理动画数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "顶点动画工具",
+      "predicate": "生成",
+      "object": "MorphExport网格",
+      "context": "处理动画网格后会生成带有_MorphExport后缀的网格，需要导出为FBX文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:27:56.038Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8405 字符)",
+      "timestamp": "2025-06-15T21:27:12.242Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13321,
+    "contentLength": 8405,
+    "processingTimeMs": 43804
+  }
+}

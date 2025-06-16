@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_streaming-settings-of-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_streaming-settings-of-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "包流送",
+      "predicate": "包含",
+      "object": "异步加载线程启用",
+      "context": "异步加载线程启用是包流送的一个设置选项，控制是否启用单独线程进行包流送",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "包流送",
+      "predicate": "包含",
+      "object": "超过时间限制时发出警告",
+      "context": "超过时间限制时发出警告是包流送的一个设置选项，控制是否在超过时间限制时记录日志警告",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "包流送",
+      "predicate": "包含",
+      "object": "异步加载的最小批量数据大小",
+      "context": "异步加载的最小批量数据大小是包流送的一个废弃设置选项，学习者应了解其已被弃用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流送",
+      "predicate": "包含",
+      "object": "使用背景关卡流送",
+      "context": "使用背景关卡流送是关卡流送的一个设置选项，控制是否允许背景关卡流送",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流送",
+      "predicate": "包含",
+      "object": "异步加载时间限制",
+      "context": "异步加载时间限制是关卡流送的一个设置选项，控制执行异步加载所用的最长时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流送",
+      "predicate": "包含",
+      "object": "Actor初始化更新时间限制",
+      "context": "Actor初始化更新时间限制是关卡流送的一个设置选项，控制Actor注册步骤的最长允许时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流送",
+      "predicate": "包含",
+      "object": "组件注册粒度",
+      "context": "组件注册粒度是关卡流送的一个设置选项，控制注册Actor组件的批量粒度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流送",
+      "predicate": "包含",
+      "object": "组件注销更新时间限制",
+      "context": "组件注销更新时间限制是关卡流送的一个设置选项，控制注销组件所用的最长允许时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通用",
+      "predicate": "包含",
+      "object": "退出应用程序时清空流送",
+      "context": "退出应用程序时清空流送是通用的一个设置选项，控制退出时是否清空流送",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "废弃设置",
+      "predicate": "包含",
+      "object": "使用事件驱动的加载程序",
+      "context": "使用事件驱动的加载程序是废弃设置的一个选项，学习者应了解其默认启用且不推荐禁用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "包流送",
+      "predicate": "属于",
+      "object": "流送设置",
+      "context": "包流送是虚幻引擎项目设置中流送设置的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流送",
+      "predicate": "属于",
+      "object": "流送设置",
+      "context": "关卡流送是虚幻引擎项目设置中流送设置的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通用",
+      "predicate": "属于",
+      "object": "流送设置",
+      "context": "通用是虚幻引擎项目设置中流送设置的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "废弃设置",
+      "predicate": "属于",
+      "object": "流送设置",
+      "context": "废弃设置是虚幻引擎项目设置中流送设置的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "异步加载线程启用",
+      "predicate": "影响",
+      "object": "包流送性能",
+      "context": "启用异步加载线程可以提升包流送的加载性能，但需要重启引擎",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "异步加载时间限制",
+      "predicate": "控制",
+      "object": "关卡加载时间",
+      "context": "异步加载时间限制设置直接影响关卡流送的加载时间分配",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "组件注册粒度",
+      "predicate": "影响",
+      "object": "关卡流送效率",
+      "context": "组件注册粒度设置影响关卡流送期间组件注册的批量处理效率",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "使用事件驱动的加载程序",
+      "predicate": "替代",
+      "object": "废弃加载路径",
+      "context": "事件驱动的加载程序(EDL)是推荐的加载方式，替代了废弃加载路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "优先级Actor初始化更新额外时间",
+      "predicate": "关联",
+      "object": "bHighPriorityLoading",
+      "context": "优先级Actor初始化更新额外时间设置与bHighPriorityLoading标记相关联，用于高优先级加载场景",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T20:55:40.931Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5024,
+    "contentLength": 3062,
+    "processingTimeMs": 53620
+  }
+}

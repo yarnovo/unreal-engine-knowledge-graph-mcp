@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_ndisplay-quick-start-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_ndisplay-quick-start-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "nDisplay",
+      "predicate": "依赖",
+      "object": "Switchboard",
+      "context": "nDisplay需要通过Switchboard工具来启动和管理其运行实例，这是nDisplay集群部署的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "控制",
+      "object": "nDisplay集群",
+      "context": "Switchboard用于配置和启动nDisplay集群中的各个节点，是集群管理的关键工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay模板项目",
+      "predicate": "包含",
+      "object": "示例配置文件",
+      "context": "nDisplay模板项目自动包含预配置的示例文件，帮助开发者快速开始nDisplay开发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay配置资产",
+      "predicate": "描述",
+      "object": "nDisplay群集节点",
+      "context": "nDisplay配置资产（如NDC_Basic.uasset）定义了集群节点的配置信息，是部署的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SwitchboardListener",
+      "predicate": "运行于",
+      "object": "集群每台计算机",
+      "context": "SwitchboardListener需要在nDisplay集群的每台计算机上运行，用于接收Switchboard的指令",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay",
+      "predicate": "使用",
+      "object": "外部IP地址",
+      "context": "在多机nDisplay设置中必须使用外部IP地址而非回环地址，以确保集群节点间的通信",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay",
+      "predicate": "支持",
+      "object": "多显示器无缝视图",
+      "context": "nDisplay专门设计用于创建跨多个显示器的无缝渲染视图，是其核心功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay",
+      "predicate": "可扩展",
+      "object": "LiveLink跟踪系统",
+      "context": "通过在集群配置中添加LiveLinkComponent，可以扩展nDisplay支持跟踪系统功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "nDisplay模板项目",
+      "predicate": "自动启用",
+      "object": "Switchboard插件",
+      "context": "使用nDisplay模板创建项目会自动启用必要的Switchboard插件，简化配置过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay Root Actor",
+      "predicate": "用于",
+      "object": "实时配置预览",
+      "context": "nDisplay Root Actor允许开发者在编辑器中实时预览nDisplay集群配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard配置",
+      "predicate": "保存",
+      "object": "nDisplay部署设置",
+      "context": "Switchboard配置保存了nDisplay部署所需的各种设置，可以重复使用和切换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay",
+      "predicate": "需要",
+      "object": "端口通信",
+      "context": "nDisplay集群节点间需要通过特定端口（如41000-41003）进行TCP/IP通信",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay部署",
+      "predicate": "支持",
+      "object": "游戏模式和烘焙版本",
+      "context": "nDisplay可以通过Switchboard以游戏模式或烘焙后的可执行文件形式部署",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "nDisplay",
+      "predicate": "适用于",
+      "object": "电影电视与实况活动",
+      "context": "nDisplay模板位于电影电视与实况活动分类中，表明其主要应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "nDisplay同步",
+      "predicate": "依赖",
+      "object": "genlock设置",
+      "context": "实现多显示器无缝视图需要正确配置nDisplay的同步和genlock设置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:05:42.189Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9910,
+    "contentLength": 6846,
+    "processingTimeMs": 51679
+  }
+}

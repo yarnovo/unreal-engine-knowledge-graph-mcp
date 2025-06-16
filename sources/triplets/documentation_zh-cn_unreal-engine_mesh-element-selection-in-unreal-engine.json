@@ -1,0 +1,221 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_mesh-element-selection-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_mesh-element-selection-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "建模模式",
+      "predicate": "包含",
+      "object": "网格体元素选择",
+      "context": "建模模式是虚幻引擎中的一个功能模块，网格体元素选择是其提供的具体功能之一，帮助美术师直接选择和编辑网格体元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体元素选择",
+      "predicate": "支持",
+      "object": "三角形",
+      "context": "网格体元素选择功能允许用户选择和编辑网格体的三角形元素，这是构成网格体的基本几何元素之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体元素选择",
+      "predicate": "支持",
+      "object": "三角形的顶点",
+      "context": "顶点是三角形的基本组成部分，网格体元素选择功能允许用户直接选择和编辑这些顶点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体元素选择",
+      "predicate": "支持",
+      "object": "三角形的边缘",
+      "context": "边缘是连接三角形顶点的线段，网格体元素选择功能支持对这些边缘的选择和编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体元素选择",
+      "predicate": "支持",
+      "object": "多边形组",
+      "context": "多边形组是由一组三角形组成的更高级别的几何元素，网格体元素选择功能支持对整个多边形组的选择和编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多边形组",
+      "predicate": "由组成",
+      "object": "三角形",
+      "context": "多边形组是由多个三角形组成的，理解这种组成关系有助于更好地使用多边形组进行建模",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体元素选择",
+      "predicate": "支持",
+      "object": "多边形组的边缘",
+      "context": "多边形组的边缘是连接多边形组的边界，网格体元素选择功能支持对这些边缘的选择和编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体元素选择",
+      "predicate": "支持",
+      "object": "多边形组的顶点",
+      "context": "多边形组的顶点是多边形组的角点，网格体元素选择功能支持对这些顶点的选择和编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "建模模式",
+      "predicate": "替代",
+      "object": "多边形组编辑",
+      "context": "建模模式中的网格体元素选择功能提供了一种更直接的工作流程，可以替代传统的多边形组编辑工具",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "建模模式",
+      "predicate": "替代",
+      "object": "三角形编辑",
+      "context": "建模模式中的网格体元素选择功能提供了一种更直接的工作流程，可以替代传统的三角形编辑工具",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "网格体元素选择",
+      "predicate": "使用",
+      "object": "建模小工具",
+      "context": "网格体元素选择功能可以与建模小工具结合使用，实现对选中元素的变换操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体元素选择",
+      "predicate": "使用",
+      "object": "变换面板",
+      "context": "除了使用建模小工具外，还可以通过变换面板进行精确的数字输入来控制元素变换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选择类别工具",
+      "predicate": "包含",
+      "object": "删除",
+      "context": "选择类别工具中包含删除功能，可以删除选中的网格体元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选择类别工具",
+      "predicate": "包含",
+      "object": "清理",
+      "context": "清理功能可以对选中的多边形组进行重新三角剖分，优化网格体拓扑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选择类别工具",
+      "predicate": "包含",
+      "object": "挤压",
+      "context": "挤压工具可以从选定的面中突出几何体，是建模中常用的操作之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选择类别工具",
+      "predicate": "包含",
+      "object": "挤压边缘",
+      "context": "挤压边缘工具专门用于从选定的边缘挤出几何体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选择类别工具",
+      "predicate": "包含",
+      "object": "偏移",
+      "context": "偏移工具可以沿顶点法线移动选定的面，与挤压操作类似但方向控制不同",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选择类别工具",
+      "predicate": "包含",
+      "object": "推拉",
+      "context": "推拉工具可以切掉或桥接网格体部分，是建模中的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选择类别工具",
+      "predicate": "包含",
+      "object": "内嵌",
+      "context": "内嵌工具可以在选定的面组内部创建新的几何体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选择类别工具",
+      "predicate": "包含",
+      "object": "外嵌",
+      "context": "外嵌工具可以向外扩展选定的面组",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选择类别工具",
+      "predicate": "包含",
+      "object": "切割",
+      "context": "切割工具可以沿着绘制的线条分割多边形组面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选择类别工具",
+      "predicate": "包含",
+      "object": "斜边",
+      "context": "斜边工具可以在选定的边缘周围创建倾斜效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选择类别工具",
+      "predicate": "包含",
+      "object": "插入循环",
+      "context": "插入循环工具可以在四边形之间添加新的边缘链",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体元素选择",
+      "predicate": "依赖",
+      "object": "建模模式概述",
+      "context": "要完全理解和使用网格体元素选择功能，需要先了解建模模式的基本概念和工作原理",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "网格体元素选择",
+      "predicate": "依赖",
+      "object": "了解多边形组",
+      "context": "有效使用多边形组选择功能需要先理解多边形组的概念及其与三角形的关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "支持",
+      "object": "网格体元素选择",
+      "context": "网格体元素选择功能特别适用于处理静态网格体，但默认情况下元素分段是锁定的",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:55:03.677Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11856,
+    "contentLength": 7400,
+    "processingTimeMs": 83950
+  }
+}

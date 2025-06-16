@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-blueprint-nodes-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-blueprint-nodes-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "动画蓝图",
+      "predicate": "属于",
+      "object": "蓝图",
+      "context": "动画蓝图是蓝图的一种特殊类型，理解这一点有助于学习者将蓝图的知识迁移到动画蓝图中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "事件图表",
+      "context": "事件图表是动画蓝图的核心组成部分，用于控制动画逻辑和交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "动画图表",
+      "context": "动画图表是动画蓝图的核心组成部分，用于控制物体的动画姿势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件图表",
+      "predicate": "控制",
+      "object": "动画图表",
+      "context": "事件图表处理的数据会用于驱动动画图表中的姿势数据，理解这种控制关系对动画逻辑设计很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画图表",
+      "predicate": "使用",
+      "object": "事件图表数据",
+      "context": "动画图表依赖事件图表提供的数据来决定每一帧的动画姿势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "使用",
+      "object": "节点",
+      "context": "动画蓝图中的所有操作都通过节点实现，这是理解动画蓝图工作原理的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "节点",
+      "predicate": "具有",
+      "object": "输入输出引脚",
+      "context": "理解节点的输入输出引脚是连接不同节点和传递信息的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "节点",
+      "predicate": "具有",
+      "object": "属性引脚",
+      "context": "属性引脚允许通过动画图表和事件图表中的函数修改数据值或变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "节点",
+      "predicate": "显示在",
+      "object": "细节面板",
+      "context": "选中节点时可以在细节面板查看和编辑节点属性，这是调试和配置节点的重要途径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合节点",
+      "predicate": "属于",
+      "object": "动画图表节点",
+      "context": "混合节点是动画图表中的一种重要节点类型，用于将多个动画混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼控制节点",
+      "predicate": "属于",
+      "object": "动画图表节点",
+      "context": "骨骼控制节点用于直接操控目标骨架的骨骼，是动画图表的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "空间转换节点",
+      "predicate": "属于",
+      "object": "动画图表节点",
+      "context": "空间转换节点用于在本地和组件空间之间转换姿势，是动画图表的重要功能节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FABRIK节点",
+      "predicate": "属于",
+      "object": "动画图表节点",
+      "context": "FABRIK节点是动画图表中用于实现特定解算算法的节点类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势观看",
+      "predicate": "用于",
+      "object": "动画调试",
+      "context": "姿势观看功能允许开发者在视口中查看和比较不同节点的姿势输出，是重要的调试工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势观看管理器",
+      "predicate": "控制",
+      "object": "姿势观看",
+      "context": "姿势观看管理器用于管理多个姿势观看节点的显示和颜色设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件图表节点",
+      "predicate": "用于",
+      "object": "动画逻辑控制",
+      "context": "事件图表节点专门用于处理动画逻辑的初始化和更新",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画图表节点",
+      "predicate": "用于",
+      "object": "姿势生成",
+      "context": "动画图表节点的主要功能是根据输入数据生成每一帧的动画姿势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合节点",
+      "predicate": "实现",
+      "object": "动画过渡",
+      "context": "混合节点通过特定条件实现多个动画之间的平滑过渡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼控制节点",
+      "predicate": "应用",
+      "object": "骨骼解算器",
+      "context": "骨骼控制节点通过应用解算器来直接操控骨架骨骼",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:00:25.755Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8128,
+    "contentLength": 6082,
+    "processingTimeMs": 63704
+  }
+}

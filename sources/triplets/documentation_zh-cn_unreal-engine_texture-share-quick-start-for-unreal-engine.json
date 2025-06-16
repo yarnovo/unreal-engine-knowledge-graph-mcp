@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_texture-share-quick-start-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_texture-share-quick-start-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "纹理共享SDK",
+      "predicate": "包含",
+      "object": "TextureShareSDK项目",
+      "context": "纹理共享SDK需要通过构建TextureShareSDK项目来生成必要的库文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理共享API",
+      "predicate": "提供",
+      "object": "纹理共享过程的粒度控制",
+      "context": "纹理共享API允许开发者对纹理共享过程进行精细控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理共享会话",
+      "predicate": "需要",
+      "object": "交换各方之间的连接",
+      "context": "在纹理共享过程中，必须先建立会话才能执行读写操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理共享插件",
+      "predicate": "包含",
+      "object": "BP_TextureShare_Scene蓝图",
+      "context": "纹理共享插件提供了可以直接添加到场景中的蓝图对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理共享插件",
+      "predicate": "包含",
+      "object": "BP_TextureShare_Postprocess蓝图",
+      "context": "纹理共享插件提供了可以直接添加到场景中的蓝图对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_TextureShare_Scene",
+      "predicate": "用于",
+      "object": "共享整个虚幻场景的已渲染帧",
+      "context": "该蓝图专门用于共享整个场景的渲染帧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_TextureShare_Postprocess",
+      "predicate": "用于",
+      "object": "发送和接收特定的纹理对象",
+      "context": "该蓝图专门用于处理特定纹理的发送和接收",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RTT_TextureShare_Backbuffer",
+      "predicate": "用于",
+      "object": "接收外部应用程序的纹理",
+      "context": "该纹理渲染目标用于存储从外部应用程序接收的纹理数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "M_TextureShare_RTTBackbuffer",
+      "predicate": "使用",
+      "object": "RTT_TextureShare_Backbuffer",
+      "context": "该材质对RTT_TextureShare_Backbuffer纹理进行采样并用作自发光颜色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理共享API",
+      "predicate": "支持",
+      "object": "DirectX11和DirectX12",
+      "context": "纹理共享API目前仅支持这两种图形API",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理共享过程",
+      "predicate": "涉及",
+      "object": "同步策略",
+      "context": "纹理共享会话需要定义同步策略来控制同步行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理共享",
+      "predicate": "需要",
+      "object": "纹理注册",
+      "context": "在共享纹理前需要先将纹理注册到纹理共享项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理共享",
+      "predicate": "涉及",
+      "object": "内存锁定机制",
+      "context": "在执行读写操作前需要锁定数据缓冲区，操作完成后解锁",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理共享SDK",
+      "predicate": "生成",
+      "object": ".lib和.dll文件",
+      "context": "构建TextureShareSDK项目后会生成这些库文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理共享插件",
+      "predicate": "依赖",
+      "object": "纹理共享SDK",
+      "context": "插件功能需要SDK提供的底层支持",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "纹理共享流程",
+      "predicate": "包含",
+      "object": "会话管理",
+      "context": "完整的纹理共享流程包括会话的创建、使用和清理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理共享",
+      "predicate": "支持",
+      "object": "帧数据交换",
+      "context": "除了纹理数据，还可以交换帧相关的辅助数据如投影矩阵",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理共享应用",
+      "predicate": "需要",
+      "object": "共享名称一致",
+      "context": "交换各方需要使用相同的共享名称才能建立连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理共享",
+      "predicate": "支持",
+      "object": "双向数据流",
+      "context": "可以同时实现纹理的发送和接收",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:00:12.146Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13812 字符)",
+      "timestamp": "2025-06-15T20:59:16.565Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19190,
+    "contentLength": 13812,
+    "processingTimeMs": 55587
+  }
+}

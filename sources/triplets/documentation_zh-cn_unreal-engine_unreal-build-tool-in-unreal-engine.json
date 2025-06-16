@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-build-tool-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-build-tool-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻编译工具(UBT)",
+      "predicate": "管理",
+      "object": "虚幻引擎(UE)源代码编译",
+      "context": "UBT是专门用于管理UE源代码编译过程的工具，理解这一关系是学习UE编译系统的起点",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "虚幻编译工具(UBT)",
+      "predicate": "读取",
+      "object": "BuildConfiguration.cs",
+      "context": "UBT通过读取BuildConfiguration.cs获取用户配置的编译选项，这是配置编译过程的关键文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "划分为",
+      "object": "模块",
+      "context": "理解UE的模块化架构是掌握其代码组织和编译的基础",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "模块",
+      "predicate": "包含",
+      "object": ".build.cs文件",
+      "context": "每个模块的.build.cs文件控制该模块的编译方式，这是模块化编译的核心配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": ".build.cs文件",
+      "predicate": "定义",
+      "object": "模块相依性",
+      "context": "理解模块间的依赖关系对于解决编译问题和组织代码结构非常重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GenerateProject.bat",
+      "predicate": "生成",
+      "object": "IDE项目文件",
+      "context": "了解如何生成IDE项目文件对于使用Visual Studio等工具进行开发至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编译工具(UBT)",
+      "predicate": "支持",
+      "object": "静态代码分析",
+      "context": "了解UBT支持的静态代码分析功能有助于提高代码质量和安全性",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "虚幻编译工具(UBT)",
+      "predicate": "支持",
+      "object": "IWYU(Include What You Use)",
+      "context": "IWYU是重要的代码优化技术，理解UBT对其的支持有助于编写更高效的代码",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "虚幻编译工具(UBT)",
+      "predicate": "支持",
+      "object": "Clang编译",
+      "context": "了解UBT对Clang的支持对于跨平台开发和特定平台优化很重要",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "模块",
+      "predicate": "编译为",
+      "object": "DLL文件",
+      "context": "理解模块默认编译为DLL有助于掌握UE的运行时模块加载机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildConfiguration.cs",
+      "predicate": "配置",
+      "object": "单块可执行文件编译",
+      "context": "了解如何配置单块可执行文件对于特定部署场景很重要",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "二进制文件版本划分",
+      "predicate": "解决",
+      "object": "DLL版本冲突",
+      "context": "理解BuildID系统如何防止DLL版本冲突对于解决运行时问题很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻编译工具(UBT)",
+      "predicate": "集成",
+      "object": "第三方库",
+      "context": "了解如何通过UBT集成第三方库是扩展引擎功能的重要技能",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "模块相依性",
+      "predicate": "影响",
+      "object": "编译顺序",
+      "context": "理解模块依赖如何影响编译顺序对于解决编译问题和优化构建时间很重要",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "IDE项目文件",
+      "predicate": "同步",
+      "object": "项目目录树",
+      "context": "理解项目文件如何与目录结构同步对于管理大型项目很有帮助",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T21:06:42.007Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4873,
+    "contentLength": 3619,
+    "processingTimeMs": 43441
+  }
+}

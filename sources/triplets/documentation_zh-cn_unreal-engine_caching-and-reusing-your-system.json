@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_caching-and-reusing-your-system",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_caching-and-reusing-your-system.md",
+  "triples": [
+    {
+      "subject": "Niagara发射器",
+      "predicate": "可切换为",
+      "object": "确定性发射器",
+      "context": "确定性发射器可以确保系统重置时随机种子相同，保证结果的可预测性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "确定性",
+      "predicate": "重要性高于",
+      "object": "倒推和前推",
+      "context": "确定性对于可预测的重新渲染至关重要，特别是在需要多次迭代的制片环境中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara模拟",
+      "predicate": "可缓存到",
+      "object": "Niagara模拟缓存资产",
+      "context": "缓存模拟数据可以避免重复计算，提高效率，特别是在处理复杂模拟时",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara模拟缓存资产",
+      "predicate": "可分离自",
+      "object": "关卡序列资产",
+      "context": "分离模拟数据可以避免关卡序列资产过于臃肿，便于管理",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间样本",
+      "predicate": "需要",
+      "object": "内插或外插",
+      "context": "时间样本需要更细粒度的时间步长数据，内插和外插可以补充完整帧之间的数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内插",
+      "predicate": "优先于",
+      "object": "外插",
+      "context": "内插更可靠，但需要粒子存在于周围帧上；外插则基于当前帧速度计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "随机种子偏移",
+      "predicate": "用于创建",
+      "object": "系统变体",
+      "context": "通过调整随机种子偏移，可以在保持确定性的同时创建同一系统的不同变体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "用户参数",
+      "predicate": "支持",
+      "object": "系统变体",
+      "context": "用户参数可以提升到关卡中的Niagara System实例，用于定义同一底层系统的不同变体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "支持",
+      "object": "用户参数轨道",
+      "context": "用户参数可以作为轨道添加到Sequencer中，随时间变化设置关键帧，实现动态变体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara模拟缓存插件",
+      "predicate": "需要加载",
+      "object": "缓存Niagara模拟",
+      "context": "启用缓存功能需要先加载Niagara模拟缓存插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:17:54.311Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5933,
+    "contentLength": 3367,
+    "processingTimeMs": 47829
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_aja-video-io-quick-start-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_aja-video-io-quick-start-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "AJA媒体播放器插件",
+      "predicate": "属于",
+      "object": "媒体播放器分类",
+      "context": "AJA媒体播放器插件是媒体播放器分类下的一个插件，用于支持AJA视频卡的输入输出功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AJA媒体播放器插件",
+      "predicate": "依赖",
+      "object": "媒体框架工具插件",
+      "context": "AJA媒体播放器插件需要媒体框架工具插件的支持才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体束",
+      "predicate": "基于",
+      "object": "媒体框架",
+      "context": "媒体束是媒体框架中的一种资源，用于打包和管理多种媒体资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体束",
+      "predicate": "包含",
+      "object": "Aja媒体源",
+      "context": "媒体束可以包含Aja媒体源，用于从AJA卡获取视频输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体束",
+      "predicate": "用于",
+      "object": "镜头变形校正",
+      "context": "媒体束可以用于设置镜头参数，以校正镜头变形",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "媒体束",
+      "predicate": "用于",
+      "object": "色度抠像",
+      "context": "媒体束可以用于设置色度抠像效果，移除视频背景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Aja媒体输出",
+      "predicate": "用于",
+      "object": "视频输出",
+      "context": "Aja媒体输出用于将虚幻引擎中的视频输出到AJA卡的SDI端口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体采集窗口",
+      "predicate": "控制",
+      "object": "Aja媒体输出",
+      "context": "媒体采集窗口用于控制Aja媒体输出的采集过程，包括启动和停止采集",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "用于",
+      "object": "运行时视频采集",
+      "context": "蓝图可以用于编写脚本，控制运行时的视频采集过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡蓝图",
+      "predicate": "包含",
+      "object": "媒体采集控制逻辑",
+      "context": "关卡蓝图中可以包含控制媒体采集的逻辑，例如通过按键切换采集状态",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "过场动画摄像机Actor",
+      "predicate": "用于",
+      "object": "视频输出视点",
+      "context": "过场动画摄像机Actor用于提供视频输出的视点，可以放置在关卡中的不同位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟工作室示例项目",
+      "predicate": "展示",
+      "object": "AJA视频输入输出",
+      "context": "虚拟工作室示例项目展示了AJA视频输入输出的实际应用，包括UI控制和视频采集",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质实例",
+      "predicate": "用于",
+      "object": "视频效果调整",
+      "context": "材质实例用于调整视频效果，如抠像、颜色校正和镜头变形补偿",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体框架",
+      "predicate": "支持",
+      "object": "AJA媒体组件",
+      "context": "媒体框架支持AJA媒体组件，提供了视频输入输出的基础功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AJA媒体引用",
+      "predicate": "提供",
+      "object": "AJA媒体属性配置",
+      "context": "AJA媒体引用页面提供了AJA媒体源和输出的详细属性配置信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:56:30.175Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (19400 字符)",
+      "timestamp": "2025-06-15T17:55:28.074Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 29028,
+    "contentLength": 19400,
+    "processingTimeMs": 62110
+  }
+}

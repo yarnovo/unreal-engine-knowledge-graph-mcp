@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_mixed-reality-capture-overview-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_mixed-reality-capture-overview-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "混合现实捕捉(MRC)",
+      "predicate": "包含",
+      "object": "视频输入",
+      "context": "MRC框架由三个核心组件组成，视频输入是其中一个关键组成部分，学习者需要理解这是将真实世界画面导入虚拟环境的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合现实捕捉(MRC)",
+      "predicate": "包含",
+      "object": "校准",
+      "context": "校准是MRC框架的核心组件之一，确保虚拟与现实摄像机的空间匹配，这对实现动态镜头效果至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合现实捕捉(MRC)",
+      "predicate": "包含",
+      "object": "游戏内合成",
+      "context": "游戏内合成是MRC框架的最终输出阶段，学习者需要掌握这是将真实玩家与虚拟环境融合的关键技术环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合现实捕捉(MRC)",
+      "predicate": "支持",
+      "object": "网络摄像头",
+      "context": "了解支持的硬件设备是实际应用的基础，网络摄像头是最常见的视频输入设备选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合现实捕捉(MRC)",
+      "predicate": "支持",
+      "object": "HDMI捕捉设备",
+      "context": "HDMI设备提供更专业的视频输入选项，学习者需要根据项目需求选择合适的硬件方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合现实捕捉(MRC)",
+      "predicate": "需要",
+      "object": "绿幕",
+      "context": "文档提到从绿幕视频拉取画面，这是实现高质量合成的常见前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "混合现实捕捉(MRC)",
+      "predicate": "支持",
+      "object": "独立追踪设备",
+      "context": "追踪设备是实现摄像机位置匹配的关键硬件，学习者需要了解这是创建动态镜头的可选方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "校准",
+      "predicate": "生成",
+      "object": "校准设置",
+      "context": "校准过程会产生可重复使用的设置文件，这是提高工作效率的重要特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合现实捕捉(MRC)",
+      "predicate": "属于",
+      "object": "Beta功能",
+      "context": "明确MRC当前的功能状态，提醒学习者在生产环境中需要谨慎使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合现实捕捉(MRC)",
+      "predicate": "用于",
+      "object": "XR体验监视",
+      "context": "这是MRC的主要应用场景之一，帮助学习者理解该技术的实际价值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合现实捕捉(MRC)",
+      "predicate": "前置学习",
+      "object": "混合现实快速入门",
+      "context": "文档推荐通过快速入门指南开始学习，这是掌握MRC的推荐路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏内合成",
+      "predicate": "依赖",
+      "object": "视频输入",
+      "context": "合成阶段需要视频输入作为素材来源，理解这种依赖关系有助于故障排查",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "游戏内合成",
+      "predicate": "依赖",
+      "object": "校准",
+      "context": "准确的校准数据是合成效果真实性的保证，这种依赖关系对理解工作流程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "摄像机位置匹配",
+      "predicate": "实现",
+      "object": "动态镜头",
+      "context": "这是MRC的高级功能，学习者需要理解追踪技术如何提升视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:57:22.415Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2207,
+    "contentLength": 1442,
+    "processingTimeMs": 52972
+  }
+}

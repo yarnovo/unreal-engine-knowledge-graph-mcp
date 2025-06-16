@@ -1,0 +1,131 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_smpte-2110-ux-reference-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_smpte-2110-ux-reference-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "NVIDIA Rivermax",
+      "predicate": "支持",
+      "object": "SMPTE 2110",
+      "context": "NVIDIA Rivermax插件在虚幻引擎中实现了SMPTE 2110标准的支持，帮助开发者处理专业视频流",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Project Settings",
+      "predicate": "包含",
+      "object": "NVIDIA Rivermax插件配置",
+      "context": "项目设置中提供了NVIDIA Rivermax插件的配置选项，包括时间源等关键设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Time Source",
+      "predicate": "控制",
+      "object": "Rivermax时钟",
+      "context": "时间源设置决定了Rivermax库使用的时钟参考，影响整个视频流的同步性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Rivermax Media Source",
+      "predicate": "用于",
+      "object": "接收视频流",
+      "context": "Rivermax媒体源资产用于配置虚幻引擎中要接收的视频流参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Player Mode",
+      "predicate": "决定",
+      "object": "视频采样方式",
+      "context": "播放器模式设置决定了如何处理接收到的视频样本，影响渲染策略",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Framelock模式",
+      "predicate": "适用于",
+      "object": "nDisplay设置",
+      "context": "Framelock模式专门用于多个UE实例同步的场景，如nDisplay配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Use Zero Latency",
+      "predicate": "影响",
+      "object": "帧同步策略",
+      "context": "零延迟选项决定了播放器在framelock模式下如何匹配帧编号，影响同步精度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Rivermax Media Output",
+      "predicate": "用于",
+      "object": "发送视频流",
+      "context": "Rivermax媒体输出资产用于配置从虚幻引擎发送视频流的参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Alignment Mode",
+      "predicate": "控制",
+      "object": "输出帧调度",
+      "context": "对齐模式决定了输出帧的调度方式，影响视频流的时序准确性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Rivermax Custom Timestep",
+      "predicate": "基于",
+      "object": "PTP时钟",
+      "context": "Rivermax自定义时间步长使用PTP时钟进行同步，确保与其他设备的时序对齐",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Use GPUDirect",
+      "predicate": "优化",
+      "object": "内存传输效率",
+      "context": "GPUDirect选项可以绕过系统内存，直接在网络卡和GPU内存间传输数据，提高效率",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Pixel Format",
+      "predicate": "遵循",
+      "object": "2110-20标准",
+      "context": "像素格式设置支持2110-20标准中定义的子集，确保视频流的兼容性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "nDisplay",
+      "predicate": "依赖",
+      "object": "Framelock模式",
+      "context": "nDisplay多机同步渲染场景需要依赖Framelock模式确保各节点帧同步",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "ICVFX",
+      "predicate": "使用",
+      "object": "Frame Creation模式",
+      "context": "ICVFX内视锥渲染流通常使用Frame Creation对齐模式以减少延迟",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T20:50:41.883Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11184 字符)",
+      "timestamp": "2025-06-15T20:49:58.382Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 11320,
+    "contentLength": 11184,
+    "processingTimeMs": 43503
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_texturing-material-functions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_texturing-material-functions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "CylindricalUVs",
+      "predicate": "用于",
+      "object": "圆柱形UV投射",
+      "context": "CylindricalUVs函数专门用于围绕对象平铺纹理，使用圆柱形投射UV，帮助学习者理解如何实现环绕纹理效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DetailTexturing",
+      "predicate": "增强",
+      "object": "纹理细节",
+      "context": "DetailTexturing函数通过叠加高度重复的漫射及法线纹理，增强原始纹理的细节表现，适合需要近距离细腻效果的学习场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LocalAlignedTexture",
+      "predicate": "实现",
+      "object": "局部空间纹理对齐",
+      "context": "该函数在对象的局部空间内平铺纹理，与WorldAlignedTexture形成对比，帮助理解空间坐标系对纹理投射的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ZWorldSpaceFlow",
+      "predicate": "模拟",
+      "object": "表面纹理流动",
+      "context": "通过沿切线空间推送纹理并混合两个偏移版本，实现动态流动效果，适用于流体或动画纹理的学习需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TextureCropping",
+      "predicate": "重新映射",
+      "object": "UV纹理空间",
+      "context": "通过调整UV坐标实现类似裁切的效果，区别于传统图像裁切，帮助理解纹理坐标操作的本质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WorldAlignedNormal",
+      "predicate": "基于",
+      "object": "全局坐标系",
+      "context": "使法线贴图与全局空间而非对象局部对齐，演示了全局空间纹理投射的核心特性及其动画限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WorldAlignedTexture",
+      "predicate": "扩展",
+      "object": "WorldAlignedNormal",
+      "context": "两者均使用全局空间投射，但后者支持多方向投射控制，形成功能进阶关系",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "3DSandMayaUVCoordinates",
+      "predicate": "转换",
+      "object": "UV坐标系",
+      "context": "适配3DS Max/Maya的UV坐标系统，解决跨软件工作流中的纹理翻转问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CustomRotator",
+      "predicate": "改进",
+      "object": "标准Rotator节点",
+      "context": "提供更直观的0-1旋转控制和中心点调整，展示如何扩展基础旋转功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HeightLerp",
+      "predicate": "基于",
+      "object": "高度贴图混合",
+      "context": "通过高度贴图控制两个纹理的过渡区域，是地形材质混合的典型技术实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CameraWorldBlend",
+      "predicate": "响应",
+      "object": "摄像机视角",
+      "context": "根据摄像机角度混合纹理，演示视角相关材质的高级应用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "SubUV_Function",
+      "predicate": "处理",
+      "object": "精灵表动画",
+      "context": "专门用于解析包含多帧动画的纹理表，是2D动画实现的关键技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TwoSidedTexturing",
+      "predicate": "区分",
+      "object": "多边形正反面",
+      "context": "为双面材质提供独立纹理控制，展示背面渲染的特殊处理方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WorldCoordinate3Way",
+      "predicate": "组合",
+      "object": "三平面投射",
+      "context": "在XYZ三个方向投射并混合纹理，是复杂表面纹理处理的典型方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理材质函数",
+      "predicate": "属于",
+      "object": "材质编辑器",
+      "context": "所有纹理函数都是虚幻引擎材质编辑系统的组成部分，建立高级材质创作的基础认知框架",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UV操作",
+      "predicate": "前置知识",
+      "object": "纹理材质函数",
+      "context": "理解UV坐标系统是学习所有纹理函数的基础先决条件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:01:38.174Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13284 字符)",
+      "timestamp": "2025-06-15T21:00:48.297Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 22667,
+    "contentLength": 13284,
+    "processingTimeMs": 49882
+  }
+}

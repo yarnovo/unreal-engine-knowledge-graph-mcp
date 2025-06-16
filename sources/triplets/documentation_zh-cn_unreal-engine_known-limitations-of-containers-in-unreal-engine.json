@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_known-limitations-of-containers-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_known-limitations-of-containers-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎容器",
+      "predicate": "处于",
+      "object": "Beta阶段",
+      "context": "帮助学习者了解容器功能当前的技术成熟度，避免在生产环境中直接使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎容器",
+      "predicate": "包含",
+      "object": "Linux开发镜像",
+      "context": "明确容器当前支持的开发环境类型，指导开发者选择正确的开发平台",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎容器",
+      "predicate": "不包含",
+      "object": "Windows开发镜像",
+      "context": "说明容器功能的当前限制，帮助开发者理解技术限制和法律限制的区别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Windows开发镜像",
+      "predicate": "受限于",
+      "object": "技术和法律限制",
+      "context": "解释为什么没有Windows镜像，帮助开发者理解底层限制因素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流",
+      "predicate": "支持",
+      "object": "Windows运行时镜像",
+      "context": "说明像素流功能的基础运行环境要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Windows像素流镜像",
+      "predicate": "支持",
+      "object": "NVIDIA和AMD GPU加速",
+      "context": "明确不同硬件在Windows环境下的兼容性差异",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Linux像素流镜像",
+      "predicate": "仅支持",
+      "object": "NVIDIA显卡",
+      "context": "说明Linux环境下当前的硬件兼容性限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Linux像素流镜像",
+      "predicate": "未来将支持",
+      "object": "AMD显卡",
+      "context": "提供功能演进信息，帮助学习者规划长期技术路线",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "ue4-docker项目",
+      "predicate": "讨论",
+      "object": "Windows开发镜像技术问题",
+      "context": "为需要深入理解技术限制的学习者提供扩展学习资源",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻引擎容器",
+      "predicate": "属于",
+      "object": "平台交付功能",
+      "context": "帮助学习者将容器功能归类到更大的技术体系中",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T19:40:25.170Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2300,
+    "contentLength": 1732,
+    "processingTimeMs": 33513
+  }
+}

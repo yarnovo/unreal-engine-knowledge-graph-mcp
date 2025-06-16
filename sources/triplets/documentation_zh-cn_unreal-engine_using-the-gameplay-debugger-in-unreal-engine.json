@@ -1,0 +1,187 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-the-gameplay-debugger-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-the-gameplay-debugger-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Gameplay调试程序",
+      "predicate": "用于",
+      "object": "监控运行时数据",
+      "context": "Gameplay调试程序的主要功能是监控游戏运行时的实时数据，帮助开发者调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay调试程序",
+      "predicate": "支持",
+      "object": "联网游戏客户端",
+      "context": "Gameplay调试程序可用于使用复制的联网游戏客户端，支持网络环境下的调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay调试程序",
+      "predicate": "适用于",
+      "object": "PIE和SIE",
+      "context": "Gameplay调试程序可在编辑器中运行（PIE）和在编辑器中模拟（SIE）模式下使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay调试程序",
+      "predicate": "显示",
+      "object": "Pawn基础数据",
+      "context": "Gameplay调试程序可以显示从Pawn获得的基础数据，帮助开发者了解Pawn状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay调试程序",
+      "predicate": "显示",
+      "object": "AI控制器数据",
+      "context": "Gameplay调试程序可以显示从AI控制器获得的基本数据，帮助调试AI行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay调试程序",
+      "predicate": "显示",
+      "object": "行为树和黑板数据",
+      "context": "Gameplay调试程序可以显示行为树和黑板数据的信息，帮助调试AI决策逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay调试程序",
+      "predicate": "显示",
+      "object": "EQS信息",
+      "context": "Gameplay调试程序可以显示已执行环境查询（EQS）的信息，帮助调试环境查询系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay调试程序",
+      "predicate": "显示",
+      "object": "感知系统信息",
+      "context": "Gameplay调试程序可以显示来自感知系统的信息，帮助调试AI感知能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay调试程序",
+      "predicate": "显示",
+      "object": "寻路网格体",
+      "context": "Gameplay调试程序可以显示玩家或所选Pawn周围的寻路网格体，包括链接和区域等细节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay调试程序",
+      "predicate": "使用",
+      "object": "类别系统",
+      "context": "Gameplay调试程序使用类别来限制屏幕上显示的信息量，提高调试效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay调试程序",
+      "predicate": "默认激活方式",
+      "object": "撇号键或EnableGDT命令",
+      "context": "Gameplay调试程序默认可以使用撇号（'）键或EnableGDT作弊激活",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay调试程序",
+      "predicate": "依赖",
+      "object": "GameplayDebugger模块",
+      "context": "GameplayDebugger模块必须添加到项目的依赖性模块才能激活和使用Gameplay调试程序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay调试程序",
+      "predicate": "扩展方式",
+      "object": "C++代码",
+      "context": "Gameplay调试程序只能使用C++代码扩展，对于蓝图项目只能原样使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay调试程序扩展",
+      "predicate": "继承自",
+      "object": "UGameplayDebuggingComponent",
+      "context": "扩展Gameplay调试程序需要创建继承自UGameplayDebuggingComponent的自定义类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay调试程序扩展",
+      "predicate": "继承自",
+      "object": "AGameplayDebuggingHUDComponent",
+      "context": "扩展Gameplay调试程序需要创建继承自AGameplayDebuggingHUDComponent的自定义类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGameplayDebuggingComponent",
+      "predicate": "负责",
+      "object": "数据收集和复制",
+      "context": "UGameplayDebuggingComponent类用于收集并最终复制调试数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AGameplayDebuggingHUDComponent",
+      "predicate": "负责",
+      "object": "数据显示",
+      "context": "AGameplayDebuggingHUDComponent类用于在屏幕上显示所有收集的调试数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay调试程序",
+      "predicate": "配置方式",
+      "object": "DefaultEngine.ini",
+      "context": "Gameplay调试程序的新类信息需要在DefaultEngine.ini配置文件中设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DebugCameraController",
+      "predicate": "提供",
+      "object": "调试功能",
+      "context": "DebugCameraController提供了多种调试功能，如盘旋、缓冲区可视化和视图模式循环",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DebugCameraController",
+      "predicate": "激活方式",
+      "object": "ToggleDebugCamera命令或分号键",
+      "context": "在PIE中可以通过输入ToggleDebugCamera命令或使用分号（;）热键来打开调试相机控制器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PrintString函数",
+      "predicate": "用于",
+      "object": "彩色调试信息输出",
+      "context": "PrintString函数可以在字符串中使用标记来更改活跃颜色，便于用不同颜色绘制调试信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:24:02.417Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9957 字符)",
+      "timestamp": "2025-06-15T21:23:01.706Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12483,
+    "contentLength": 9957,
+    "processingTimeMs": 60717
+  }
+}

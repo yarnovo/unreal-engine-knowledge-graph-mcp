@@ -1,0 +1,181 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_functional-testing-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_functional-testing-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "函数测试",
+      "predicate": "属于",
+      "object": "Actor",
+      "context": "函数测试是一种特殊的Actor类型，用于在虚幻引擎中设置和执行测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "函数测试",
+      "predicate": "包含",
+      "object": "PrepareTest函数",
+      "context": "PrepareTest是函数测试类提供的重要函数之一，用于执行测试所需的初始设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "函数测试",
+      "predicate": "包含",
+      "object": "IsReady函数",
+      "context": "IsReady函数用于检查测试是否准备就绪，是函数测试类的核心功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "函数测试",
+      "predicate": "包含",
+      "object": "OnTestStart代理",
+      "context": "OnTestStart代理在测试开始时被调用，是测试执行流程的关键部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "函数测试",
+      "predicate": "包含",
+      "object": "OnTestFinished代理",
+      "context": "OnTestFinished代理在测试完成后被调用，用于执行清理操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "函数测试",
+      "predicate": "包含",
+      "object": "LogMessage函数",
+      "context": "LogMessage函数用于在测试运行期间记录进度信息到输出日志",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "函数测试",
+      "predicate": "包含",
+      "object": "RegisterAutoDestroyActor函数",
+      "context": "RegisterAutoDestroyActor函数用于自动销毁测试过程中创建的Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "函数测试",
+      "predicate": "实现",
+      "object": "测试功能",
+      "context": "函数测试类提供了实现各种测试功能的基础设施和方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "函数测试",
+      "predicate": "依赖",
+      "object": "函数测试管理器",
+      "context": "函数测试的执行由函数测试管理器控制和协调",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "函数测试",
+      "predicate": "用于",
+      "object": "关卡脚本",
+      "context": "函数测试可以在关卡脚本中被引用和执行，适用于简单测试场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "函数测试",
+      "predicate": "扩展",
+      "object": "子类方法",
+      "context": "通过创建函数测试的子类可以实现更复杂的测试逻辑和复用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "函数测试",
+      "predicate": "支持",
+      "object": "真相数据",
+      "context": "函数测试可以与真相数据系统集成，用于存储和比较预期测试结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡脚本",
+      "predicate": "引用",
+      "object": "函数测试",
+      "context": "关卡脚本可以通过引用函数测试Actor来构建和执行测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子类方法",
+      "predicate": "覆盖",
+      "object": "AFunctionalTest",
+      "context": "通过创建AFunctionalTest的子类可以实现更复杂的测试逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "真相数据",
+      "predicate": "存储",
+      "object": "预期测试结果",
+      "context": "真相数据系统用于存储测试的预期结果，以便后续比较",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "真相数据",
+      "predicate": "比较",
+      "object": "实时测试结果",
+      "context": "真相数据可以与实时测试结果进行比较以验证测试是否通过",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "真相数据",
+      "predicate": "依赖",
+      "object": "函数测试编辑器插件",
+      "context": "使用真相数据功能需要启用函数测试编辑器插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PrepareTest函数",
+      "predicate": "前置",
+      "object": "OnTestStart代理",
+      "context": "PrepareTest函数在OnTestStart代理之前执行，用于测试准备工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IsReady函数",
+      "predicate": "控制",
+      "object": "OnTestStart代理",
+      "context": "IsReady函数返回true时才会触发OnTestStart代理的执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnTestStart代理",
+      "predicate": "前置",
+      "object": "FinishTest节点",
+      "context": "OnTestStart代理执行后会连接到FinishTest节点完成测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnTestFinished代理",
+      "predicate": "用于",
+      "object": "测试清理",
+      "context": "OnTestFinished代理主要用于测试完成后的清理工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:08:10.048Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8787,
+    "contentLength": 4811,
+    "processingTimeMs": 72172
+  }
+}

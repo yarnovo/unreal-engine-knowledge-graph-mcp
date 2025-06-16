@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_connecting-to-and-managing-devices-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_connecting-to-and-managing-devices-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Device Manager",
+      "predicate": "包含",
+      "object": "Device List",
+      "context": "Device Manager窗口包含Device List，用于显示和管理可连接的设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Device Manager",
+      "predicate": "支持",
+      "object": "远程设备控制",
+      "context": "Device Manager支持对远程设备的连接和控制，包括电源管理和进程控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Device Manager",
+      "predicate": "用于",
+      "object": "部署构建版本",
+      "context": "通过Device Manager可以部署和启动打包的构建版本到远程设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Device Manager",
+      "predicate": "依赖",
+      "object": "Unreal Automation Tool (UAT)",
+      "context": "Device Manager的功能依赖于Unreal Automation Tool (UAT)来实现某些自动化任务",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Device List",
+      "predicate": "显示",
+      "object": "设备状态",
+      "context": "Device List显示设备的状态信息，如连接状态和可用性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Device List",
+      "predicate": "支持",
+      "object": "设备筛选",
+      "context": "Device List支持通过筛选和搜索功能快速定位特定设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Device Details",
+      "predicate": "提供",
+      "object": "设备信息",
+      "context": "Device Details面板提供设备的详细信息，包括平台、设备ID和功能兼容性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Device Details",
+      "predicate": "包含",
+      "object": "Feature Compatibility List",
+      "context": "Device Details包含Feature Compatibility List，用于显示设备支持的UE功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Running Processes",
+      "predicate": "显示",
+      "object": "设备进程",
+      "context": "Running Processes面板显示设备上当前运行的进程信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Running Processes",
+      "predicate": "支持",
+      "object": "进程终止",
+      "context": "Running Processes支持终止选定的进程，用于远程设备管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Platforms Menu",
+      "predicate": "提供访问",
+      "object": "Device Manager",
+      "context": "通过Platforms Menu可以访问Device Manager，便于管理远程设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程设备",
+      "predicate": "包括",
+      "object": "PC、智能手机和游戏主机",
+      "context": "远程设备包括PC、智能手机和游戏主机等多种类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Device Manager",
+      "predicate": "支持",
+      "object": "WiFi调试",
+      "context": "Device Manager支持通过WiFi调试连接Android设备",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Device Manager",
+      "predicate": "支持",
+      "object": "设备共享",
+      "context": "Device Manager支持设备共享功能，允许多用户协同使用设备",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Device Manager",
+      "predicate": "支持",
+      "object": "设备添加",
+      "context": "Device Manager支持手动添加未列出的设备，扩展设备管理范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:32:00.732Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13116 字符)",
+      "timestamp": "2025-06-15T18:31:02.863Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13218,
+    "contentLength": 13116,
+    "processingTimeMs": 57875
+  }
+}

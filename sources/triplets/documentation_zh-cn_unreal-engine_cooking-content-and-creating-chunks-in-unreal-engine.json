@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_cooking-content-and-creating-chunks-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_cooking-content-and-creating-chunks-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "内容烘焙",
+      "context": "虚幻引擎通过烘焙功能将游戏资产分成数据块，便于分发和管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容烘焙",
+      "predicate": "生成",
+      "object": "数据块",
+      "context": "烘焙过程将资产划分为带编号的数据块，每个数据块生成.pak文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据块",
+      "predicate": "用于",
+      "object": "DLC和补丁发布",
+      "context": "数据块可以单独发布，适用于DLC和补丁的分发形式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产管理器",
+      "predicate": "管理",
+      "object": "主资产规则",
+      "context": "资产管理器使用主资产规则来决定烘焙时的资产处理方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主资产规则",
+      "predicate": "定义",
+      "object": "数据块ID",
+      "context": "主资产规则通过数据块ID将资产整理到特定数据块中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主资产",
+      "predicate": "管理",
+      "object": "次资产",
+      "context": "主资产对其引用的次资产拥有管理权限，次资产随主资产一起划分数据块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主资产标签",
+      "predicate": "指定",
+      "object": "数据块ID",
+      "context": "主资产标签可以快速将多个资产分配到特定数据块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "包含",
+      "object": "资产管理器配置",
+      "context": "项目设置中的资产管理器部分用于配置主资产规则和数据块划分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DefaultGame.ini",
+      "predicate": "配置",
+      "object": "规则重载",
+      "context": "通过编辑DefaultGame.ini文件可以重载主资产规则，定义特定数据块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据资产",
+      "predicate": "继承",
+      "object": "PrimaryAssetLabel",
+      "context": "PrimaryAssetLabel是一种特殊的数据资产类型，用于数据块管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "打包项目",
+      "predicate": "生成",
+      "object": ".pak文件",
+      "context": "打包过程为每个数据块生成对应的.pak文件，用于分发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产审计窗口",
+      "predicate": "显示",
+      "object": "数据块分配",
+      "context": "资产审计窗口用于查看资产如何分配到不同数据块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大小贴图",
+      "predicate": "可视化",
+      "object": "资产大小和类型",
+      "context": "大小贴图工具直观展示数据块中资产的类型和大小分布",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "引用查看器",
+      "predicate": "展示",
+      "object": "资产引用关系",
+      "context": "引用查看器生成图表显示资产间的引用关系，帮助理解数据块划分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主资产规则",
+      "predicate": "基于",
+      "object": "FPrimaryAssetRules结构体",
+      "context": "主资产规则由FPrimaryAssetRules结构体定义，决定资产处理方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EPrimaryAssetCookRule",
+      "predicate": "定义",
+      "object": "烘焙规则",
+      "context": "EPrimaryAssetCookRule枚举定义了资产在烘焙时的处理规则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据块0",
+      "predicate": "作为",
+      "object": "默认数据块",
+      "context": "未指定数据块ID的资产会被分配到数据块0，这是基本游戏数据块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ShooterGame示例",
+      "predicate": "使用",
+      "object": "三数据块系统",
+      "context": "ShooterGame示例展示了如何将资产划分为三个数据块的实践",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MOBA游戏",
+      "predicate": "适用",
+      "object": "英雄主题数据块划分",
+      "context": "MOBA类游戏可将不同英雄资产划分为独立数据块，便于单独分发",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:36:39.103Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12070 字符)",
+      "timestamp": "2025-06-15T18:35:37.149Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 18480,
+    "contentLength": 12070,
+    "processingTimeMs": 61965
+  }
+}

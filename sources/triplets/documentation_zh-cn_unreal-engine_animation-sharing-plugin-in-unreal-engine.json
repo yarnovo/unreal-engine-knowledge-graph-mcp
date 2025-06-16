@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-sharing-plugin-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-sharing-plugin-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "动画共享插件",
+      "predicate": "优化",
+      "object": "动画系统性能",
+      "context": "动画共享插件通过共享动画评估显著降低大量角色的性能成本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画共享插件",
+      "predicate": "基于",
+      "object": "领导者姿势组件系统",
+      "context": "动画共享插件利用领导者姿势组件系统实现动画状态桶的评估和姿势转移",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画共享插件",
+      "predicate": "替代",
+      "object": "独立动画蓝图评估",
+      "context": "插件允许共享动画评估而非每个角色独立评估动画蓝图",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画共享设置资产",
+      "predicate": "包含",
+      "object": "骨架设置",
+      "context": "资产包含骨架设置用于定义共享动画的骨架和骨骼网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画共享设置资产",
+      "predicate": "包含",
+      "object": "动画状态",
+      "context": "资产定义角色可能处于的动画状态及其对应动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画状态枚举",
+      "predicate": "用于",
+      "object": "动画状态选择",
+      "context": "枚举资产用于在动画共享系统中选择和标识不同的动画状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画共享角色蓝图",
+      "predicate": "注册到",
+      "object": "动画共享管理器",
+      "context": "角色蓝图通过注册到管理器参与动画共享系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画共享状态处理器",
+      "predicate": "控制",
+      "object": "动画状态设置",
+      "context": "状态处理器类用于设置和管理动画共享系统中的动画状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画共享过渡实例",
+      "predicate": "处理",
+      "object": "状态间混合",
+      "context": "特殊动画蓝图类用于处理动画状态之间的过渡混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画共享叠加实例",
+      "predicate": "处理",
+      "object": "叠加动画",
+      "context": "特殊动画蓝图类专用于处理共享的叠加动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画共享状态实例",
+      "predicate": "运行",
+      "object": "共享动画",
+      "context": "动画蓝图类用于在角色间运行共享动画并处理通知传播",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画共享管理器",
+      "predicate": "管理",
+      "object": "运行时动画共享",
+      "context": "管理器节点在运行时协调和执行动画共享功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画共享插件",
+      "predicate": "支持",
+      "object": "随机化技术",
+      "context": "插件支持通过随机实例数量和位置偏移实现动画播放多样化",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "可扩展性设置",
+      "predicate": "配置",
+      "object": "大规模动画共享",
+      "context": "设置属性定义如何在大量Actor间进行动画共享的性能优化",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画共享调试",
+      "predicate": "提供",
+      "object": "可视化反馈",
+      "context": "调试工具提供视觉反馈帮助理解动画共享系统的工作状态",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:03:18.428Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (20209 字符)",
+      "timestamp": "2025-06-15T18:02:30.414Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 30697,
+    "contentLength": 20209,
+    "processingTimeMs": 48028
+  }
+}

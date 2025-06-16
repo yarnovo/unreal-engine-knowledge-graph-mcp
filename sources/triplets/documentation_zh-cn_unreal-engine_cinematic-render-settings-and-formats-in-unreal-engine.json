@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_cinematic-render-settings-and-formats-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_cinematic-render-settings-and-formats-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "影片渲染队列",
+      "predicate": "包含",
+      "object": "渲染设置",
+      "context": "影片渲染队列使用渲染设置来自定义序列的渲染方式，这是渲染流程的核心组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染设置",
+      "predicate": "分为",
+      "object": "设置/导出/渲染",
+      "context": "渲染设置窗口的三个主要功能分类，帮助学习者理解不同类型的设置如何组织",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输出设置",
+      "predicate": "控制",
+      "object": "文件目录/文件名/帧率/分辨率",
+      "context": "输出设置是必要设置，直接影响渲染结果的存储格式和基本参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "抗锯齿设置",
+      "predicate": "使用",
+      "object": "空间采样/时间采样",
+      "context": "理解抗锯齿的两种采样方式对渲染质量的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "颜色输出设置",
+      "predicate": "基于",
+      "object": "OpenColorIO(OCIO)",
+      "context": "颜色管理的重要技术基础，涉及专业影视工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高分辨率设置",
+      "predicate": "采用",
+      "object": "平铺渲染",
+      "context": "解决GPU限制的关键技术，学习者需要了解其工作原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导出格式",
+      "predicate": "包括",
+      "object": "图像序列/音频/视频",
+      "context": "理解不同输出格式的适用场景和技术特点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "命令行编码器",
+      "predicate": "集成",
+      "object": "FFmpeg",
+      "context": "扩展输出能力的第三方工具集成方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "延迟渲染",
+      "predicate": "有变体",
+      "object": "细节光照/仅光照/仅反射/无光照",
+      "context": "理解不同渲染模式的技术差异和应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预设系统",
+      "predicate": "分为",
+      "object": "主预设/镜头预设",
+      "context": "预设管理的核心分类，影响工作流程设计",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主预设",
+      "predicate": "应用于",
+      "object": "整个序列",
+      "context": "基础设置的继承关系理解",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头预设",
+      "predicate": "覆盖",
+      "object": "特定摄像机设置",
+      "context": "特殊镜头处理的灵活性实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染队列",
+      "predicate": "依赖",
+      "object": "Sequencer",
+      "context": "前置知识要求，文档中提到的先决条件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Object ID渲染",
+      "predicate": "需要",
+      "object": "Movie Render Queue Additional Passes插件",
+      "context": "特殊功能的技术依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预设编辑",
+      "predicate": "可通过",
+      "object": "内容浏览器",
+      "context": "工作流程中的重要操作方式",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "抗锯齿",
+      "predicate": "影响",
+      "object": "渲染质量",
+      "context": "核心渲染参数的质量影响",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "颜色输出设置",
+      "predicate": "可禁用",
+      "object": "色调曲线",
+      "context": "高级颜色控制选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台变量",
+      "predicate": "用于",
+      "object": "高质量渲染设置",
+      "context": "实时预览与最终渲染的区别处理",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "游戏覆盖设置",
+      "predicate": "解决",
+      "object": "UI元素干扰",
+      "context": "特定问题的解决方案",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "路径跟踪器",
+      "predicate": "是",
+      "object": "实验性功能",
+      "context": "了解功能成熟度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:23:18.285Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12611 字符)",
+      "timestamp": "2025-06-15T18:22:17.776Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19079,
+    "contentLength": 12611,
+    "processingTimeMs": 60515
+  }
+}

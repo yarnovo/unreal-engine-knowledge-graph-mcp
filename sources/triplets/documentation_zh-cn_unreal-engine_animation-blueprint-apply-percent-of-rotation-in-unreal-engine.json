@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-blueprint-apply-percent-of-rotation-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-blueprint-apply-percent-of-rotation-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "应用旋转百分比节点",
+      "predicate": "属于",
+      "object": "动画蓝图",
+      "context": "应用旋转百分比节点是动画蓝图中的一个功能节点，用于控制骨骼旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "应用旋转百分比节点",
+      "predicate": "依赖",
+      "object": "组件空间",
+      "context": "应用旋转百分比节点在组件空间中运作，需要空间转换才能实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "应用旋转百分比节点",
+      "predicate": "控制",
+      "object": "Alpha属性",
+      "context": "通过Alpha属性可以控制应用旋转的程度，数值1使用生成的输出姿势，数值0输出源姿势",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "应用旋转百分比节点",
+      "predicate": "控制",
+      "object": "乘数属性",
+      "context": "乘数属性允许在源骨骼旋转度的基础上实现更大的旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "应用旋转百分比节点",
+      "predicate": "包含",
+      "object": "源骨骼",
+      "context": "节点细节面板中可以选择源骨骼，用于复制旋转动作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "应用旋转百分比节点",
+      "predicate": "包含",
+      "object": "目标骨骼",
+      "context": "节点细节面板中可以选择目标骨骼，用于应用复制来的旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "应用旋转百分比节点",
+      "predicate": "支持",
+      "object": "叠加",
+      "context": "叠加多个应用旋转百分比节点可以实现多轴旋转，需要启用可叠加属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "目标骨骼",
+      "predicate": "影响",
+      "object": "子骨骼",
+      "context": "目标骨骼的子骨骼会根据父骨骼的动作而运动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "源骨骼",
+      "predicate": "决定",
+      "object": "引用旋转轴",
+      "context": "源骨骼的旋转轴由引用旋转轴属性决定，用于应用到目标骨骼",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可叠加属性",
+      "predicate": "控制",
+      "object": "旋转叠加",
+      "context": "启用可叠加属性可以让应用到骨骼上的旋转动作叠加，禁用则会覆盖之前的所有动作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "空间转换",
+      "context": "动画蓝图中必须有一个空间转换才能实现应用旋转百分比节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼",
+      "predicate": "属于",
+      "object": "角色",
+      "context": "骨骼是角色动画系统的基础组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:58:46.623Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5557,
+    "contentLength": 3697,
+    "processingTimeMs": 45202
+  }
+}

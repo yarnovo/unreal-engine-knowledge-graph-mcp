@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_harmonix-plugin-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_harmonix-plugin-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Harmonix插件",
+      "predicate": "包含",
+      "object": "MetaSound节点",
+      "context": "Harmonix插件提供了一系列针对MIDI生成、筛选和操控的MetaSound节点，这些节点位于节点选择上下文菜单的函数下，帮助开发者创建音乐驱动的体验。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Harmonix插件",
+      "predicate": "包含",
+      "object": "组件",
+      "context": "Harmonix插件提供了可通过蓝图访问的组件，如音乐时钟和音乐节奏量表，这些组件用于驱动音乐的计时和同步。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Harmonix插件",
+      "predicate": "支持",
+      "object": "MIDI文件导入",
+      "context": "Harmonix插件支持将MIDI文件拖放到内容浏览器中导入到项目，这是创建音乐驱动体验的基础功能之一。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "融合配接资产",
+      "predicate": "驱动",
+      "object": "Fusion Sampler节点",
+      "context": "融合配接资产将MIDI音符和速度映射为声波资产，并驱动Fusion Sampler节点的乐器取样器功能，这是音乐合成的关键步骤。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Fusion Sampler节点",
+      "predicate": "支持",
+      "object": "多线程渲染",
+      "context": "Fusion Sampler节点支持多线程渲染，必须将其音频和渲染同步输出连接到Fusion Synchronizer节点以提高性能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Step Sequence Player节点",
+      "predicate": "使用",
+      "object": "MIDI步进序列资产",
+      "context": "Step Sequence Player节点使用MIDI步进序列资产来创建MIDI事件流，这些资产由单元格组成的2D网格表示音符和时间单位。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Clock-Synced Delay节点",
+      "predicate": "同步",
+      "object": "MIDI时钟",
+      "context": "Clock-Synced Delay节点对输入的音频信号应用与给定的MIDI时钟同步的延时效果，产生与音乐同步的音频效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音乐时钟组件",
+      "predicate": "驱动",
+      "object": "MetaSound图表",
+      "context": "音乐时钟组件用于将玩法事件和图形渲染与MetaSound图表中异步渲染的音乐时间同步，提供多种时间上下文。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音乐节奏量表",
+      "predicate": "提供",
+      "object": "音乐时钟组件属性",
+      "context": "音乐节奏量表通过其Actor提供音乐时钟组件的播放属性，并可选择是否更新材质参数集合，用于音乐同步的视觉效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "峰值平缓器",
+      "predicate": "平滑",
+      "object": "音频能级",
+      "context": "峰值平缓器在游戏线程上工作，平滑并压缩MetaSound源的输出或其他值，保持音频能级在平滑取值范围内。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Harmonix插件",
+      "predicate": "用于",
+      "object": "音乐驱动体验",
+      "context": "Harmonix插件通过MIDI序列、音频分析和音乐合成等功能，帮助开发者创建独特的音乐驱动体验。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSound节点",
+      "predicate": "位于",
+      "object": "节点选择上下文菜单",
+      "context": "Harmonix插件提供的MetaSound节点位于节点选择上下文菜单的函数下，方便开发者快速访问和使用。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:18:16.656Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8158,
+    "contentLength": 5120,
+    "processingTimeMs": 49187
+  }
+}

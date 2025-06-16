@@ -1,0 +1,203 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_getting-started-with-texture-graph-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_getting-started-with-texture-graph-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Texture Graph Editor",
+      "predicate": "用于",
+      "object": "程序化创建纹理",
+      "context": "Texture Graph Editor 是艺术家用于程序化创建和编辑纹理的节点式界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Texture Graph Editor",
+      "predicate": "基于",
+      "object": "Material Editor",
+      "context": "Texture Graph Editor 使用类似于 Material Editor 的节点图来创建纹理图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Texture Graph Editor",
+      "predicate": "依赖",
+      "object": "TextureGraph 插件",
+      "context": "Texture Graph Editor 是一个实验性插件，需要手动启用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Texture Graph Editor",
+      "predicate": "结合",
+      "object": "Texture Asset Editor",
+      "context": "Texture Graph Editor 与 Texture Asset Editor 协同工作，后者提供额外的纹理资产管理控制",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Texture Graph Editor",
+      "predicate": "支持",
+      "object": "Blueprints",
+      "context": "Texture Graph Editor 可以与 Blueprints 结合使用，实现各种管道相关功能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Texture Graph Editor",
+      "predicate": "包含",
+      "object": "Node Palette",
+      "context": "Node Palette 包含所有可用于纹理图的节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Texture Graph Editor",
+      "predicate": "包含",
+      "object": "Main Graph",
+      "context": "Main Graph 是组装纹理图的主要视图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Texture Graph Editor",
+      "predicate": "包含",
+      "object": "Node Preview",
+      "context": "Node Preview 显示选定节点的纹理预览",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Texture Graph Editor",
+      "predicate": "包含",
+      "object": "Details Panel",
+      "context": "Details Panel 显示当前选定节点的属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Texture Graph Editor",
+      "predicate": "包含",
+      "object": "3D Viewport",
+      "context": "3D Viewport 显示选定输出贴图在 3D 网格上的效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Texture Graph Editor",
+      "predicate": "支持",
+      "object": "Material Functions",
+      "context": "Texture Graph Editor 可以直接使用一些 Material Functions",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Texture Graph Editor",
+      "predicate": "支持",
+      "object": "Texture Graph Subgraphs",
+      "context": "Texture Graph Editor 支持将纹理图作为子图重用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Texture Graph Editor",
+      "predicate": "生成",
+      "object": "Textures",
+      "context": "Texture Graph Editor 的主要功能是生成纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Textures",
+      "predicate": "用于",
+      "object": "Materials",
+      "context": "纹理主要用于材质和用户界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Materials",
+      "predicate": "使用",
+      "object": "Textures",
+      "context": "材质可能使用多个纹理进行采样和应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Material Functions",
+      "predicate": "扩展",
+      "object": "Texture Graph Editor",
+      "context": "Material Functions 可以扩展 Texture Graph Editor 的功能，无需重新创建复杂函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Texture Graph Subgraphs",
+      "predicate": "重用",
+      "object": "Texture Graphs",
+      "context": "Texture Graph Subgraphs 允许重用自定义的重复操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blueprints",
+      "predicate": "控制",
+      "object": "Texture Graphs",
+      "context": "Blueprints 可以控制现有的纹理图，简化常见任务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Node Palette",
+      "predicate": "提供",
+      "object": "Nodes",
+      "context": "Node Palette 提供所有可用于纹理图的节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Main Graph",
+      "predicate": "组装",
+      "object": "Nodes",
+      "context": "Main Graph 是组装节点的场所，通常从左到右流动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Node Preview",
+      "predicate": "显示",
+      "object": "Texture Preview",
+      "context": "Node Preview 显示选定节点的纹理预览",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Details Panel",
+      "predicate": "显示",
+      "object": "Node Properties",
+      "context": "Details Panel 显示当前选定节点的属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3D Viewport",
+      "predicate": "显示",
+      "object": "Texture on Mesh",
+      "context": "3D Viewport 显示选定输出贴图在 3D 网格上的效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:14:41.840Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15119 字符)",
+      "timestamp": "2025-06-15T19:13:23.575Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15221,
+    "contentLength": 15119,
+    "processingTimeMs": 78274
+  }
+}

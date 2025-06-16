@@ -1,0 +1,227 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_media-framework-overview-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_media-framework-overview-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "媒体框架",
+      "predicate": "包含",
+      "object": "媒体播放器",
+      "context": "媒体框架利用媒体播放器资源来播放视频，是媒体框架的核心组件之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体框架",
+      "predicate": "包含",
+      "object": "媒体源",
+      "context": "媒体框架需要指定媒体源来找到媒体资源，是媒体播放的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体播放器",
+      "predicate": "控制",
+      "object": "媒体源",
+      "context": "媒体播放器资源用于播放和控制媒体源，包括播放、暂停、倒回等操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体播放器",
+      "predicate": "生成",
+      "object": "媒体纹理",
+      "context": "媒体播放器通过媒体纹理资源渲染视频轨迹，实现视频的视觉呈现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体播放器",
+      "predicate": "关联",
+      "object": "媒体音效组件",
+      "context": "媒体播放器通过媒体音效组件播放视频关联的音频，实现音视频同步",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体源",
+      "predicate": "包含",
+      "object": "文件媒体源",
+      "context": "文件媒体源是媒体源的一种类型，用于播放本地或网络文件中的媒体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体源",
+      "predicate": "包含",
+      "object": "图像媒体源",
+      "context": "图像媒体源是媒体源的一种类型，用于播放图像序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体源",
+      "predicate": "包含",
+      "object": "流送媒体源",
+      "context": "流送媒体源是媒体源的一种类型，用于播放网络流媒体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体源",
+      "predicate": "包含",
+      "object": "平台媒体源",
+      "context": "平台媒体源是媒体源的一种类型，用于播放特定平台的媒体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体源",
+      "predicate": "包含",
+      "object": "采集卡媒体源",
+      "context": "采集卡媒体源是媒体源的一种类型，用于播放采集卡流送的内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体播放列表",
+      "predicate": "组成",
+      "object": "媒体源",
+      "context": "媒体播放列表由多个媒体源组成，可以按顺序播放这些媒体源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体纹理",
+      "predicate": "用于",
+      "object": "材质",
+      "context": "媒体纹理可以包含在材质中，应用到网格体上实现视频在游戏世界中的显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体音效组件",
+      "predicate": "关联",
+      "object": "音频设置",
+      "context": "媒体音效组件提供音频相关的设置，如通道、衰减、并发性等，用于定义音效的感知方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "媒体播放器",
+      "predicate": "支持",
+      "object": "蓝图控制",
+      "context": "媒体播放器可以通过蓝图可视化脚本进行控制，实现播放逻辑的编程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体播放器",
+      "predicate": "支持",
+      "object": "C++控制",
+      "context": "媒体播放器可以通过C++进行控制，实现更底层的播放逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "同步",
+      "object": "媒体播放器",
+      "context": "Sequencer可以与媒体播放器实现精确到帧的同步，确保视频与时间线对齐",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "文件媒体源",
+      "predicate": "支持",
+      "object": "预缓存文件",
+      "context": "文件媒体源支持预缓存文件选项，可以将整个媒体文件载入内存进行播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图像媒体源",
+      "predicate": "支持",
+      "object": "图像序列",
+      "context": "图像媒体源用于播放按顺序命名的图像序列，支持帧率覆盖和代理覆盖",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流送媒体源",
+      "predicate": "使用",
+      "object": "URL",
+      "context": "流送媒体源使用URL作为媒体源，从互联网上获取媒体内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平台媒体源",
+      "predicate": "支持",
+      "object": "平台特定媒体",
+      "context": "平台媒体源支持为不同平台指定不同的媒体源，实现平台特定的媒体播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "采集卡媒体源",
+      "predicate": "包含",
+      "object": "AJA采集卡",
+      "context": "AJA采集卡是采集卡媒体源的一种，需要启用特定插件支持",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "采集卡媒体源",
+      "predicate": "包含",
+      "object": "Blackmagic采集卡",
+      "context": "Blackmagic采集卡是采集卡媒体源的一种，需要启用特定插件支持",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "采集卡媒体源",
+      "predicate": "包含",
+      "object": "Rivermax采集卡",
+      "context": "Rivermax采集卡是采集卡媒体源的一种，需要启用特定插件支持",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "媒体播放器",
+      "predicate": "支持",
+      "object": "播放列表随机选择",
+      "context": "媒体播放器可以设置为从播放列表中随机选择媒体源进行播放",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "媒体纹理",
+      "predicate": "支持",
+      "object": "取样器类型设置",
+      "context": "媒体纹理支持不同的取样器类型设置，如外部或颜色，以适应不同的媒体播放器",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "媒体播放器",
+      "predicate": "支持",
+      "object": "循环播放",
+      "context": "媒体播放器可以设置为循环播放媒体源，实现重复播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:53:38.212Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (14203 字符)",
+      "timestamp": "2025-06-15T19:52:11.601Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 21593,
+    "contentLength": 14203,
+    "processingTimeMs": 86619
+  }
+}

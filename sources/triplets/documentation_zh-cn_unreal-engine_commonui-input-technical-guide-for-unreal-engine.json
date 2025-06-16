@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_commonui-input-technical-guide-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_commonui-input-technical-guide-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "CommonUI",
+      "predicate": "管理",
+      "object": "跨平台输入支持",
+      "context": "CommonUI的输入系统专门设计用于管理跨平台输入支持，特别是针对复杂或多层菜单场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成光标",
+      "predicate": "驱动",
+      "object": "游戏手柄交互",
+      "context": "在CommonUI中，多项游戏手柄交互由不可见的合成光标驱动，简化了跨平台输入流",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FCommonAnalogCursor",
+      "predicate": "继承自",
+      "object": "FAnalogCursor",
+      "context": "FCommonAnalogCursor是CommonUI中处理模拟输入的核心类，继承自FAnalogCursor基类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FCommonAnalogCursor",
+      "predicate": "实现",
+      "object": "IInputProcessor接口",
+      "context": "FCommonAnalogCursor通过实现IInputProcessor接口来处理输入事件，这是CommonUI输入处理的关键机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCommonGameViewportClient",
+      "predicate": "处理",
+      "object": "输入路由",
+      "context": "UCommonGameViewportClient是CommonUI输入路由的核心类，负责捕获输入并启动路由过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCommonUIActionRouterBase",
+      "predicate": "控制",
+      "object": "输入处理流程",
+      "context": "UCommonUIActionRouterBase作为操作路由器，控制着CommonUI的整个输入处理流程和决策",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FActivatableTreeNode",
+      "predicate": "组织",
+      "object": "可激活控件",
+      "context": "FActivatableTreeNode将可激活控件抽象化为树结构，这是CommonUI输入路由的基础数据结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成光标",
+      "predicate": "关联",
+      "object": "FWidgetPath",
+      "context": "合成光标的点击处理依赖于FWidgetPath来确定输入路由的目标控件，这是理解输入路由机制的关键",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FSlateApplication",
+      "predicate": "处理",
+      "object": "输入事件",
+      "context": "FSlateApplication是虚幻引擎中处理所有Slate输入事件的核心类，CommonUI构建在其基础之上",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCommonUIActionRouterBase",
+      "predicate": "可扩展",
+      "object": "自定义输入处理",
+      "context": "通过从UCommonUIActionRouterBase派生，开发者可以实现自定义的输入处理逻辑，这是CommonUI的重要扩展点",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "输入路由",
+      "predicate": "依赖",
+      "object": "操作绑定",
+      "context": "CommonUI的输入路由系统依赖于控件上的操作绑定(FActionRouterBindingCollection)来确定如何处理输入",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "CommonUI",
+      "predicate": "基于",
+      "object": "UMG和Slate",
+      "context": "CommonUI构建在虚幻引擎的UMG(虚幻运动图形)和Slate UI框架之上，理解这些基础对掌握CommonUI至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FReply",
+      "predicate": "携带",
+      "object": "导航信息",
+      "context": "FReply类在输入处理过程中携带重要的导航信息，包括浏览方向等上下文数据",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "合成光标",
+      "predicate": "自动对齐",
+      "object": "聚焦控件",
+      "direction": "unidirectional",
+      "context": "FCommonAnalogCursor::Tick会自动将合成光标移动到当前聚焦的控件上并居中，这是实现游戏手柄悬停效果的关键机制",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入路由",
+      "predicate": "涉及",
+      "object": "递归处理",
+      "context": "CommonUI的输入路由采用递归方式处理，从根节点开始逐级尝试处理输入，直到找到合适的处理控件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:29:18.429Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9272 字符)",
+      "timestamp": "2025-06-15T18:28:19.396Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14630,
+    "contentLength": 9272,
+    "processingTimeMs": 59043
+  }
+}

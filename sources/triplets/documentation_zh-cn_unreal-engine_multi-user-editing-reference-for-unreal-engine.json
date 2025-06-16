@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_multi-user-editing-reference-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_multi-user-editing-reference-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "多用户编辑插件",
+      "predicate": "包含",
+      "object": "多用户编辑设置",
+      "context": "插件激活后可在项目设置中访问多用户编辑相关配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户编辑设置",
+      "predicate": "包含",
+      "object": "客户端设置",
+      "context": "客户端设置是多用户编辑的核心配置部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "客户端设置",
+      "predicate": "包含",
+      "object": "自动连接",
+      "context": "自动连接是客户端行为的重要配置项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户编辑系统",
+      "predicate": "依赖",
+      "object": "多用户服务器",
+      "context": "系统运行需要服务器组件支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户服务器",
+      "predicate": "支持",
+      "object": "命令行启动",
+      "context": "服务器可通过命令行参数独立运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "桌面化身Actor类",
+      "predicate": "继承自",
+      "object": "DesktopPresence类",
+      "context": "用户可通过派生内置类实现自定义化身",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户事务设置",
+      "predicate": "控制",
+      "object": "事务同步行为",
+      "context": "专门配置多用户环境中的事务处理规则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "包含对象类过滤器",
+      "predicate": "影响",
+      "object": "事务同步范围",
+      "context": "决定哪些类的事务会被自动同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Concert.DefaultConnect",
+      "predicate": "对应",
+      "object": "工具栏加入按钮",
+      "context": "控制台命令实现了与UI按钮相同的连接功能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户浏览器",
+      "predicate": "用于",
+      "object": "会话管理",
+      "context": "主界面用于查找和加入多用户会话",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR编辑系统",
+      "predicate": "关联",
+      "object": "VR化身Actor类",
+      "context": "VR工作模式下使用特定类型的化身表示",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer播放",
+      "predicate": "受控于",
+      "object": "Concert.EnableSequencePlayer",
+      "context": "控制台命令专门控制Sequencer的同步播放行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高级多用户网络",
+      "predicate": "关联",
+      "object": "服务器端口设置",
+      "context": "网络配置需要与端口设置协调工作",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "包含",
+      "object": "多用户事务设置",
+      "context": "事务设置是项目级的多用户功能配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "排除事务类过滤器",
+      "predicate": "优先级高于",
+      "object": "包含对象类过滤器",
+      "context": "排除列表会覆盖包含列表的设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编辑器",
+      "predicate": "支持",
+      "object": "多用户命令行参数",
+      "context": "编辑器启动时可配置多用户相关参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "会话数据管理",
+      "predicate": "包含",
+      "object": "会话另存为功能",
+      "context": "会话保存是数据管理的重要操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Concert.OpenBrowser",
+      "predicate": "等效于",
+      "object": "窗口菜单选项",
+      "context": "控制台命令提供了访问浏览器窗口的快捷方式",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户编辑系统",
+      "predicate": "依赖",
+      "object": "消息传递系统",
+      "context": "需要-messaging参数支持游戏模式下的通信",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:01:39.411Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11033 字符)",
+      "timestamp": "2025-06-15T20:00:38.369Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19670,
+    "contentLength": 11033,
+    "processingTimeMs": 61055
+  }
+}

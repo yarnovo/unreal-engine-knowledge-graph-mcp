@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_performance-guidelines-for-mobile-devices-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_performance-guidelines-for-mobile-devices-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "LDR模式",
+      "predicate": "属于",
+      "object": "性能层",
+      "context": "LDR是虚幻引擎移动设备性能指南中定义的最低性能层，适用于不需要照明或后期处理功能的游戏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基本照明",
+      "predicate": "属于",
+      "object": "性能层",
+      "context": "基本照明层利用静态照明和完全粗糙的材质创建场景，覆盖更广泛的移动设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全HDR照明",
+      "predicate": "属于",
+      "object": "性能层",
+      "context": "全HDR照明层提供高质量的照明功能，适合高端移动设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "包含来自太阳的逐像素照明的全HDR照明",
+      "predicate": "扩展",
+      "object": "全HDR照明",
+      "context": "该层在全HDR照明基础上增加了定向光源的逐像素照明功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动HDR",
+      "predicate": "控制",
+      "object": "性能层选择",
+      "context": "在项目设置中启用或禁用移动HDR决定了可用的性能层选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "着色器复杂性视图模式",
+      "predicate": "用于",
+      "object": "性能分析",
+      "context": "该视图模式帮助开发者了解材质在目标设备上的性能成本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动内容缩放系数",
+      "predicate": "调整",
+      "object": "分辨率",
+      "context": "通过设置移动内容缩放系数可以优化项目在不同移动设备上的分辨率表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质质量水平系统",
+      "predicate": "支持",
+      "object": "多设备适配",
+      "context": "该系统允许开发者创建单一材质，然后根据设备性能自动调整质量水平",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "质量开关材质表达式",
+      "predicate": "实现",
+      "object": "材质复杂度控制",
+      "context": "该节点允许在单个材质中定义不同质量水平的实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动渲染选项",
+      "predicate": "影响",
+      "object": "移动项目性能",
+      "context": "项目设置中的移动渲染选项直接影响移动项目的照明效果和性能表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动着色器置换减少设置",
+      "predicate": "优化",
+      "object": "应用程序大小",
+      "context": "通过调整这些设置可以减少生成的着色器数量，从而减小应用体积并提高性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算可视性",
+      "predicate": "提升",
+      "object": "渲染性能",
+      "context": "正确设置预计算可视性可以显著提高移动设备的渲染效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态照明",
+      "predicate": "适用于",
+      "object": "基本照明层",
+      "context": "基本照明层推荐使用静态照明以获得最佳性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "完全粗糙材质",
+      "predicate": "推荐用于",
+      "object": "基本照明层",
+      "context": "在基本照明层中，所有材质都应标记为完全粗糙以获得最佳性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动预览器",
+      "predicate": "包含",
+      "object": "着色器复杂性视图模式",
+      "context": "着色器复杂性视图模式是移动预览器中的重要工具，用于分析材质性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质质量水平",
+      "predicate": "影响",
+      "object": "材质表现",
+      "context": "不同的材质质量水平设置会显著改变材质在移动设备上的视觉效果和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动材质选项",
+      "predicate": "控制",
+      "object": "浮点精度",
+      "context": "移动材质选项中的浮点精度模式设置影响像素着色器的计算精度和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动渲染选项",
+      "predicate": "包含",
+      "object": "移动抗锯齿方法",
+      "context": "移动抗锯齿方法是移动渲染选项中的重要设置，影响最终图像质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "性能层",
+      "predicate": "对应",
+      "object": "目标设备性能",
+      "context": "不同的性能层针对不同性能水平的移动设备进行优化",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质质量水平开关",
+      "predicate": "连接",
+      "object": "主材质节点",
+      "context": "质量开关节点需要连接到主材质节点的输入才能发挥作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:22:00.391Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (21186 字符)",
+      "timestamp": "2025-06-15T20:21:01.246Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 34345,
+    "contentLength": 21186,
+    "processingTimeMs": 59156
+  }
+}

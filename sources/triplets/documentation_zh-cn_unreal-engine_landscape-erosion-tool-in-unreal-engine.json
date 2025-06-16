@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_landscape-erosion-tool-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_landscape-erosion-tool-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "地形侵蚀工具",
+      "predicate": "模拟",
+      "object": "热力侵蚀",
+      "context": "地形侵蚀工具通过模拟热力侵蚀过程来调整地形高度图的高度，帮助学习者理解工具背后的物理原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形侵蚀工具",
+      "predicate": "影响",
+      "object": "地形高度图",
+      "context": "工具直接影响地形高度图的高度值，这是学习地形编辑的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形侵蚀效果",
+      "predicate": "取决于",
+      "object": "坡度陡峭程度",
+      "context": "文档明确说明陡峭坡度会产生更快速的侵蚀效果，这是理解地形侵蚀行为的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形侵蚀工具",
+      "predicate": "包含",
+      "object": "Noise模式",
+      "context": "Noise模式是工具的核心设置之一，影响侵蚀效果的自然表现，学习者需要掌握其不同模式的区别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Noise模式",
+      "predicate": "具有",
+      "object": "三种选项(Both/Raise/Lower)",
+      "context": "理解这三种模式的区别对于精确控制侵蚀效果至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形侵蚀工具",
+      "predicate": "使用",
+      "object": "笔刷交互",
+      "context": "工具通过左键笔刷操作应用侵蚀效果，这是实际工作流程的基础操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Tool Strength属性",
+      "predicate": "控制",
+      "object": "单次笔刷效果量",
+      "context": "这是影响侵蚀效果强度的直接参数，学习者需要理解其数值意义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Threshold属性",
+      "predicate": "决定",
+      "object": "最小侵蚀高度差",
+      "context": "该参数控制侵蚀发生的敏感度，是精细调整地形效果的重要设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iterations属性",
+      "predicate": "影响",
+      "object": "侵蚀层数",
+      "context": "迭代次数直接影响侵蚀效果的复杂程度和细节层次",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Noise Scale属性",
+      "predicate": "控制",
+      "object": "噪声过滤器尺寸",
+      "context": "该参数影响侵蚀效果的自然随机性表现，是创造真实地形的关键设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形侵蚀工具",
+      "predicate": "属于",
+      "object": "虚幻引擎景观工具集",
+      "context": "明确工具在引擎工具链中的定位，帮助学习者构建完整的知识体系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Surface Thickness属性",
+      "predicate": "设置",
+      "object": "侵蚀作用深度",
+      "context": "该参数控制侵蚀效果影响的地表厚度，是模拟不同地质条件的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形侵蚀效果",
+      "predicate": "应用于",
+      "object": "自然场景创建",
+      "context": "理解工具的主要应用场景有助于学习者规划学习路径",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:40:48.890Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3383,
+    "contentLength": 2235,
+    "processingTimeMs": 57231
+  }
+}

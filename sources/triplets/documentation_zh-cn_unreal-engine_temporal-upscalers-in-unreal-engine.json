@@ -1,0 +1,219 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_temporal-upscalers-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_temporal-upscalers-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "时序上采样器",
+      "predicate": "包含",
+      "object": "Temporal Anti-Aliasing Upscaling (TAAU)",
+      "context": "TAAU是虚幻引擎4中的时序上采样技术，学习者需要了解不同版本的时序上采样技术演变",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时序上采样器",
+      "predicate": "包含",
+      "object": "Temporal Super Resolution (TSR)",
+      "context": "TSR是虚幻引擎5中的时序上采样技术，是TAAU的升级版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时序上采样器",
+      "predicate": "包含",
+      "object": "DLSS 2+ Super Resolution",
+      "context": "DLSS是NVIDIA提供的第三方时序上采样插件，学习者需要了解引擎对不同厂商技术的支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时序上采样器",
+      "predicate": "包含",
+      "object": "FSR 2.0+",
+      "context": "FSR是AMD提供的第三方时序上采样插件，与DLSS形成竞争关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时序上采样器",
+      "predicate": "包含",
+      "object": "XeSS",
+      "context": "XeSS是Intel提供的第三方时序上采样插件，扩展了学习者的技术选择范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时序上采样器",
+      "predicate": "插入",
+      "object": "后期处理链",
+      "context": "时序上采样器在景深和动态模糊之间插入后期处理链，学习者需要理解其在渲染管线中的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时序上采样器",
+      "predicate": "依赖",
+      "object": "Screen Percentage",
+      "context": "渲染分辨率由Screen Percentage控制，这是时序上采样器工作的基础参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时序上采样器",
+      "predicate": "依赖",
+      "object": "Dynamic Resolution",
+      "context": "在支持时，Dynamic Resolution也会影响渲染分辨率，学习者需要了解这两种分辨率控制方式的区别",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "自动视图纹理Mip偏移",
+      "predicate": "用于",
+      "object": "时序上采样器",
+      "context": "该功能专门用于优化TSR和TAAU等时序抗锯齿方法的输出质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动视图纹理Mip偏移",
+      "predicate": "不适用于",
+      "object": "MSAA",
+      "context": "帮助学习者理解不同抗锯齿技术的实现差异",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动视图纹理Mip偏移",
+      "predicate": "不适用于",
+      "object": "FXAA",
+      "context": "帮助学习者理解不同抗锯齿技术的实现差异",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSR后的后期处理材质",
+      "predicate": "运行于",
+      "object": "完全分辨率",
+      "context": "与视图大小不同，学习者需要理解后期处理材质在不同阶段的分辨率差异",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SceneTexture:PostProcessInput0",
+      "predicate": "提供",
+      "object": "TSR后视图尺寸",
+      "context": "帮助学习者正确获取TSR处理后的实际分辨率信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时序上采样器可视化显示标记",
+      "predicate": "用于",
+      "object": "调试重影问题",
+      "context": "这是学习者诊断时序上采样器问题的关键工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时序上采样器",
+      "predicate": "依赖",
+      "object": "深度缓冲区",
+      "context": "深度信息对时序重投影至关重要，是学习者需要重点理解的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时序上采样器",
+      "predicate": "依赖",
+      "object": "速度缓冲区",
+      "context": "运动矢量信息对时序重投影至关重要，是学习者需要重点理解的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VisualizeMotionBlur",
+      "predicate": "可视化",
+      "object": "速度缓冲区",
+      "context": "帮助学习者直观理解运动矢量的编码方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VisualizeReprojection",
+      "predicate": "显示",
+      "object": "重投影差异",
+      "context": "帮助学习者诊断运动矢量的准确性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后景深半透明",
+      "predicate": "影响",
+      "object": "时序上采样器质量",
+      "context": "半透明材质对时序上采样器是特殊挑战，学习者需要特别注意",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "r.Translucency.AutoBeforeDOF",
+      "predicate": "优化",
+      "object": "半透明排序问题",
+      "context": "这个参数设置可以帮助学习者解决半透明材质引起的时序上采样问题",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "DumpGPU工具",
+      "predicate": "用于",
+      "object": "调试时序上采样器",
+      "context": "学习者需要掌握这个强大的调试工具来分析渲染管线问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预曝光",
+      "predicate": "影响",
+      "object": "时序上采样器性能",
+      "context": "不正确的预曝光会导致重影等问题，是学习者需要注意的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Temporal Super Resolution (TSR)",
+      "predicate": "替代",
+      "object": "Temporal Anti-Aliasing Upscaling (TAAU)",
+      "context": "展示虚幻引擎时序上采样技术的演进路径",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "纹理取样节点",
+      "predicate": "支持",
+      "object": "自动视图纹理Mip偏移",
+      "context": "学习者需要在材质编辑器中正确配置纹理取样以优化时序上采样效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MipBias",
+      "predicate": "补偿",
+      "object": "自动视图纹理Mip偏移",
+      "context": "当自动视图Mip偏移导致细节丢失时的解决方案",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:59:15.051Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9538 字符)",
+      "timestamp": "2025-06-15T20:58:02.741Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15226,
+    "contentLength": 9538,
+    "processingTimeMs": 72313
+  }
+}

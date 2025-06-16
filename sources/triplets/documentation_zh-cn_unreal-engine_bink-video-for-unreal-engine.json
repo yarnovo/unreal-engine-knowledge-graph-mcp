@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_bink-video-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_bink-video-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Bink Media插件",
+      "predicate": "包含",
+      "object": "Bink视频解码功能",
+      "context": "Bink Media插件是虚幻引擎中处理Bink视频的核心组件，了解其包含的解码功能有助于理解视频播放的实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Bink Media插件",
+      "predicate": "支持",
+      "object": "多线程解码",
+      "context": "插件支持多线程解码，这对理解视频播放性能优化很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Bink视频",
+      "predicate": "分为",
+      "object": "全屏开场视频和游戏内非开场视频",
+      "context": "区分这两种视频类型对学习如何在不同场景下配置视频播放很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全屏开场视频",
+      "predicate": "需要",
+      "object": "禁用其他视频播放器插件",
+      "context": "这是配置开场视频的必要步骤，理解这一点可以避免播放失败",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Bink视频",
+      "predicate": "使用",
+      "object": "Bink 2编码器",
+      "context": "了解视频制作工具是视频工作流的重要部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Bink Media播放器",
+      "predicate": "可以生成",
+      "object": "媒体纹理",
+      "context": "这是将视频应用到游戏场景中的重要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体纹理",
+      "predicate": "用于创建",
+      "object": "材质",
+      "context": "理解从视频到材质的转换流程对游戏视觉效果开发很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Bink视频",
+      "predicate": "支持",
+      "object": "字幕",
+      "context": "了解字幕支持对国际化开发很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Bink视频",
+      "predicate": "支持",
+      "object": "立体视频",
+      "context": "这对开发VR/AR应用中的视频播放功能很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Bink插件API",
+      "predicate": "提供",
+      "object": "自定义功能控制",
+      "context": "了解API功能对需要高级视频控制的开发者很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Bink缓冲模式",
+      "predicate": "影响",
+      "object": "视频加载方式",
+      "context": "理解不同缓冲模式对优化视频播放性能很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Bink音轨设置",
+      "predicate": "决定",
+      "object": "音频播放方式",
+      "context": "了解音轨设置对实现多语言和环绕声支持很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Bink视频",
+      "predicate": "需要放置在",
+      "object": "Content/Movies目录",
+      "context": "这是视频文件管理的规范要求，对项目组织很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Bink视频深度",
+      "predicate": "控制",
+      "object": "视频绘制顺序",
+      "context": "理解深度设置对处理多个视频叠加的场景很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Bink插件",
+      "predicate": "内置在",
+      "object": "虚幻引擎4.27+",
+      "context": "了解插件版本兼容性对项目规划很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:12:48.329Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8326 字符)",
+      "timestamp": "2025-06-15T18:11:57.309Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13348,
+    "contentLength": 8326,
+    "processingTimeMs": 51024
+  }
+}

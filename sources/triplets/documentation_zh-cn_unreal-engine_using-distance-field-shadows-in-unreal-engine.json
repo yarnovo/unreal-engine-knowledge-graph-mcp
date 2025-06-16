@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-distance-field-shadows-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-distance-field-shadows-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "距离场阴影",
+      "predicate": "替代",
+      "object": "级联阴影贴图",
+      "context": "在远距离阴影投射方面，距离场阴影可以替代级联阴影贴图，提供更高效的阴影处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "距离场阴影",
+      "predicate": "适用于",
+      "object": "定向光源",
+      "context": "距离场阴影特别适用于定向光源，可以处理超出级联阴影贴图动态阴影距离的阴影",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "距离场阴影",
+      "predicate": "适用于",
+      "object": "点光源",
+      "context": "距离场阴影可以应用于点光源，提供更远的阴影投射能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "距离场阴影",
+      "predicate": "适用于",
+      "object": "聚光源",
+      "context": "距离场阴影可以应用于聚光源，增强阴影投射效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "距离场阴影",
+      "predicate": "依赖",
+      "object": "网格体距离场",
+      "context": "启用距离场阴影需要先在项目设置中启用生成网格体距离场",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "距离场阴影",
+      "predicate": "需要",
+      "object": "可移动或静止光源",
+      "context": "要启用距离场阴影，光源的可移动性必须设置为可移动或静止",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "级联阴影贴图",
+      "predicate": "具有",
+      "object": "动态阴影距离",
+      "context": "级联阴影贴图的动态阴影距离限制了其阴影投射范围，超出该范围需要使用距离场阴影",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体距离场",
+      "predicate": "用于",
+      "object": "距离场阴影",
+      "context": "网格体距离场是生成距离场阴影的基础数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定向光源",
+      "predicate": "可以设置",
+      "object": "动态阴影距离可移动光源",
+      "context": "定向光源可以设置动态阴影距离可移动光源滑块为0，使仅从网格体距离场产生阴影",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "距离场阴影",
+      "predicate": "提供",
+      "object": "艺术控制",
+      "context": "距离场阴影设置允许对阴影的柔和度和投射距离进行艺术控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "距离场阴影",
+      "predicate": "解决",
+      "object": "远距离漏光问题",
+      "context": "距离场阴影可以解决远距离对象因超出CSM阴影距离而导致的漏光问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "距离场阴影",
+      "predicate": "优于",
+      "object": "预计算照明",
+      "context": "在大型开放世界场景中，距离场阴影比预计算照明更高效",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "距离场阴影",
+      "predicate": "可以检测",
+      "object": "距离场质量问题",
+      "context": "通过将动态阴影距离可移动光源设置为0，可以检测场景中潜在的距离场质量问题",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "距离场阴影",
+      "predicate": "需要",
+      "object": "项目设置启用",
+      "context": "使用距离场阴影需要在项目设置的渲染部分中启用生成网格体距离场",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:16:39.779Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6978,
+    "contentLength": 4786,
+    "processingTimeMs": 44651
+  }
+}

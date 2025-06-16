@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-blueprint-trail-controller-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-blueprint-trail-controller-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Trail Controller",
+      "predicate": "属于",
+      "object": "动画蓝图",
+      "context": "Trail Controller是动画蓝图中的一个节点，用于控制骨骼链的动画行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trail Controller",
+      "predicate": "控制",
+      "object": "尾迹骨骼",
+      "context": "Trail Controller通过定义尾迹骨骼来控制骨骼链的动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "尾迹骨骼",
+      "predicate": "影响",
+      "object": "链骨骼",
+      "context": "尾迹骨骼决定了链中有多少骨骼将受到Trail Controller的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trail Controller",
+      "predicate": "支持",
+      "object": "拉伸约束",
+      "context": "Trail Controller支持对骨骼链的拉伸进行约束，通过Limit Stretch属性实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trail Controller",
+      "predicate": "支持",
+      "object": "旋转约束",
+      "context": "Trail Controller支持对骨骼链的旋转进行约束，通过Limit Rotation属性实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trail Controller",
+      "predicate": "支持",
+      "object": "刨刀限制",
+      "context": "Trail Controller支持使用刨刀限制来约束骨骼链的运动，防止跨越平面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trail Controller",
+      "predicate": "依赖",
+      "object": "骨架",
+      "context": "Trail Controller需要依赖角色的骨架来设置驱动骨骼和基础关节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trail Controller",
+      "predicate": "用于",
+      "object": "尾随动画",
+      "context": "Trail Controller主要用于创建角色的带骨骼附件（如尾巴、披风或配饰）的尾随动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "尾迹放松速度图表",
+      "predicate": "控制",
+      "object": "链行为",
+      "context": "尾迹放松速度图表用于控制骨骼链如何返回动画姿势，通过编辑图表的开始点和结束点来实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "旋转限制",
+      "predicate": "应用于",
+      "object": "链关节",
+      "context": "旋转限制属性用于设置链中每个关节处的旋转约束，通过Limit Min和Limit Max属性实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "刨刀限制",
+      "predicate": "依赖",
+      "object": "驱动骨骼",
+      "context": "刨刀限制需要依赖驱动骨骼来设置平面变换，以约束链的运动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trail Controller",
+      "predicate": "支持",
+      "object": "调试绘制",
+      "context": "Trail Controller支持在预览视口中启用调试绘制，帮助开发者调试骨骼链的行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "Trail Controller",
+      "context": "动画蓝图可以包含Trail Controller节点，用于实现复杂的骨骼动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架",
+      "predicate": "提供",
+      "object": "骨骼结构",
+      "context": "骨架为Trail Controller提供了骨骼结构，用于设置尾迹骨骼和基础关节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:00:10.517Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8728,
+    "contentLength": 5192,
+    "processingTimeMs": 48464
+  }
+}

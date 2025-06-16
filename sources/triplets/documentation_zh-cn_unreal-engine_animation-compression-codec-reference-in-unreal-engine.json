@@ -1,0 +1,259 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-compression-codec-reference-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-compression-codec-reference-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "压缩编码解码器",
+      "predicate": "用于",
+      "object": "动画压缩设置",
+      "context": "压缩编码解码器是驱动动画压缩设置资产的核心组件，理解这一关系有助于掌握动画压缩的工作机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼压缩编码解码器",
+      "predicate": "属于",
+      "object": "压缩编码解码器",
+      "context": "骨骼压缩编码解码器是压缩编码解码器的一个子类，专门处理骨骼动画数据的压缩",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "曲线压缩编码解码器",
+      "predicate": "属于",
+      "object": "压缩编码解码器",
+      "context": "曲线压缩编码解码器是压缩编码解码器的另一个子类，专门处理动画曲线的压缩",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画压缩仅按位压缩",
+      "predicate": "属于",
+      "object": "骨骼压缩编码解码器",
+      "context": "该编码解码器是骨骼压缩编码解码器的一种具体实现，专注于按位压缩",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画压缩破坏性最低",
+      "predicate": "属于",
+      "object": "骨骼压缩编码解码器",
+      "context": "该编码解码器是骨骼压缩编码解码器的一种具体实现，旨在最小化压缩对动画数据的破坏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画压缩按每条轨道压缩",
+      "predicate": "属于",
+      "object": "骨骼压缩编码解码器",
+      "context": "该编码解码器是骨骼压缩编码解码器的一种具体实现，采用逐轨道压缩策略",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画压缩按每条轨道压缩",
+      "predicate": "支持",
+      "object": "自适应误差",
+      "context": "该编码解码器支持自适应误差系统，允许根据轨道高度调整误差阈值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画压缩按每条轨道压缩",
+      "predicate": "支持",
+      "object": "线性关键帧移除",
+      "context": "该编码解码器支持线性关键帧移除功能，可优化关键帧数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画压缩隔帧移除",
+      "predicate": "属于",
+      "object": "骨骼压缩编码解码器",
+      "context": "该编码解码器是骨骼压缩编码解码器的一种具体实现，通过移除特定关键帧实现压缩",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画压缩移除线性关键帧",
+      "predicate": "属于",
+      "object": "骨骼压缩编码解码器",
+      "context": "该编码解码器是骨骼压缩编码解码器的一种具体实现，专注于移除线性关键帧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画压缩移除不重要的关键帧",
+      "predicate": "属于",
+      "object": "骨骼压缩编码解码器",
+      "context": "该编码解码器是骨骼压缩编码解码器的一种具体实现，移除对动画影响小的关键帧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "压缩富曲线",
+      "predicate": "属于",
+      "object": "曲线压缩编码解码器",
+      "context": "该编码解码器是曲线压缩编码解码器的一种具体实现，用于压缩富动画曲线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "统一索引",
+      "predicate": "属于",
+      "object": "曲线压缩编码解码器",
+      "context": "该编码解码器是曲线压缩编码解码器的一种具体实现，采用统一索引策略",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "统一采样",
+      "predicate": "属于",
+      "object": "曲线压缩编码解码器",
+      "context": "该编码解码器是曲线压缩编码解码器的一种具体实现，采用统一采样策略",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ACF None",
+      "predicate": "属于",
+      "object": "按位压缩格式",
+      "context": "ACF None是按位压缩格式的一种，不执行压缩，保留原始数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ACF Float 96No W",
+      "predicate": "属于",
+      "object": "按位压缩格式",
+      "context": "该格式是按位压缩格式的一种，以最小精度损失压缩旋转数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ACF Fixed 48No W",
+      "predicate": "属于",
+      "object": "按位压缩格式",
+      "context": "该格式是按位压缩格式的一种，采用16位量化存储旋转数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ACF Interval Fixed 32 No W",
+      "predicate": "属于",
+      "object": "按位压缩格式",
+      "context": "该格式是按位压缩格式的一种，采用范围缩减方式存储数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ACF Fixed 32No W",
+      "predicate": "属于",
+      "object": "按位压缩格式",
+      "context": "该格式是按位压缩格式的一种，采用固定位分配存储数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ACF Float 32No W",
+      "predicate": "属于",
+      "object": "按位压缩格式",
+      "context": "该格式是按位压缩格式的一种，使用自定义浮点格式存储数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ACF Identity",
+      "predicate": "属于",
+      "object": "按位压缩格式",
+      "context": "该格式是按位压缩格式的一种，专门处理旋转轨道的四元数W分量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼压缩编码解码器",
+      "predicate": "使用",
+      "object": "按位压缩格式",
+      "context": "骨骼压缩编码解码器在压缩过程中需要使用按位压缩格式来处理动画数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画压缩仅按位压缩",
+      "predicate": "保留",
+      "object": "所有动画关键帧",
+      "context": "该编码解码器在压缩时会保留所有动画关键帧，只进行按位压缩",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画压缩破坏性最低",
+      "predicate": "恢复",
+      "object": "原始数据",
+      "context": "该编码解码器可将压缩结果恢复成原始数据，破坏性最小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画压缩按每条轨道压缩",
+      "predicate": "单独压缩",
+      "object": "每条轨道",
+      "context": "该编码解码器以单条轨道为基础进行压缩，优化每条轨道的压缩效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画压缩隔帧移除",
+      "predicate": "移除",
+      "object": "特定关键帧",
+      "context": "该编码解码器通过移除所有第奇数个或第偶数个关键帧实现压缩",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画压缩移除线性关键帧",
+      "predicate": "移除",
+      "object": "线性关键帧",
+      "context": "该编码解码器移除与周围关键帧相比未发生变化的关键帧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画压缩移除不重要的关键帧",
+      "predicate": "移除",
+      "object": "不重要关键帧",
+      "context": "该编码解码器移除帧内资产位置和方向未发生变化的关键帧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "压缩富曲线",
+      "predicate": "控制",
+      "object": "最大曲线误差",
+      "context": "该编码解码器通过设置最大曲线误差来控制压缩质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "统一采样",
+      "predicate": "支持",
+      "object": "动画序列采样率",
+      "context": "该编码解码器支持使用动画序列采样率进行压缩",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:02:27.820Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (16618 字符)",
+      "timestamp": "2025-06-15T18:00:44.014Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 28384,
+    "contentLength": 16618,
+    "processingTimeMs": 103812
+  }
+}

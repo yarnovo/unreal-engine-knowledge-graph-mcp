@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_baking-instances-using-mutable-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_baking-instances-using-mutable-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Mutable",
+      "predicate": "用于",
+      "object": "运行时编译动态对象",
+      "context": "Mutable的主要功能是在运行时编译动态对象，这是其核心用途",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mutable",
+      "predicate": "支持",
+      "object": "编辑器编译",
+      "context": "Mutable也可以在编辑器中编译动态对象，并将其转换为标准虚幻引擎资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mutable",
+      "predicate": "生成",
+      "object": "标准虚幻引擎资产",
+      "context": "通过Mutable可以将动态对象转换为骨骼网格体、材质和纹理等标准资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "烘焙实例",
+      "predicate": "通过",
+      "object": "Mutable预览面板",
+      "context": "烘焙实例功能可以在可自定义对象编辑器或可自定义实例编辑器等Mutable预览面板中使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "烘焙实例",
+      "predicate": "生成",
+      "object": "骨骼网格体",
+      "context": "烘焙实例会生成包含所有细节级别的骨骼网格体资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "烘焙实例",
+      "predicate": "生成",
+      "object": "材质实例",
+      "context": "烘焙实例可以生成常量或动态的材质实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "常量材质实例",
+      "predicate": "适用于",
+      "object": "UEFN",
+      "context": "常量材质实例是UEFN所必需的，因为它们在运行时无法更改但更轻量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导出所有使用的资源",
+      "predicate": "创建",
+      "object": "自包含对象",
+      "context": "勾选此选项会生成一个完全自包含的对象，不依赖项目中的共享资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mutable",
+      "predicate": "用于",
+      "object": "制片工具",
+      "context": "一些项目在游戏内容创建时纯粹离线使用Mutable生成最终角色",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Mutable",
+      "predicate": "用于",
+      "object": "调试",
+      "context": "可以通过检查烘焙后的实例来调试和理解Mutable的效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "烘焙实例",
+      "predicate": "需要选择",
+      "object": "目标内容文件夹",
+      "context": "烘焙实例时需要选择保存生成资产的目标文件夹",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可自定义对象编辑器",
+      "predicate": "包含",
+      "object": "Mutable预览面板",
+      "context": "可自定义对象编辑器是支持烘焙实例功能的Mutable预览面板之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可自定义实例编辑器",
+      "predicate": "包含",
+      "object": "Mutable预览面板",
+      "context": "可自定义实例编辑器是支持烘焙实例功能的Mutable预览面板之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:11:38.488Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4154,
+    "contentLength": 2714,
+    "processingTimeMs": 42790
+  }
+}

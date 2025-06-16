@@ -1,0 +1,251 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_networking-overview-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_networking-overview-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "客户端-服务器架构",
+      "context": "虚幻引擎使用客户端-服务器架构作为其网络多人游戏的基础架构，这是理解其网络功能的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "客户端-服务器架构",
+      "predicate": "包含",
+      "object": "服务器",
+      "context": "客户端-服务器架构由服务器和客户端组成，服务器是多人游戏的核心权威",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "客户端-服务器架构",
+      "predicate": "包含",
+      "object": "客户端",
+      "context": "客户端连接到服务器并接收游戏状态信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "服务器",
+      "predicate": "维护",
+      "object": "权威游戏状态",
+      "context": "服务器作为多人游戏的权威，维护真实的游戏状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制",
+      "predicate": "用于",
+      "object": "同步游戏状态",
+      "context": "复制是将服务器上的权威游戏状态同步到客户端的关键机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "支持",
+      "object": "复制",
+      "context": "Actor是虚幻引擎中支持复制功能的主要对象类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor复制",
+      "predicate": "包含",
+      "object": "复制的属性",
+      "context": "Actor复制包括属性复制，这是网络同步的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor复制",
+      "predicate": "包含",
+      "object": "远程程序调用",
+      "context": "RPC是Actor复制的重要组成部分，允许跨网络调用函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "提供",
+      "object": "通用复制系统",
+      "context": "通用复制系统是虚幻引擎默认的网络复制系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "提供",
+      "object": "复制图表",
+      "context": "复制图表是虚幻引擎提供的用于处理大量复制Actor的系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "提供",
+      "object": "Iris复制系统",
+      "context": "Iris是最新加入的复制系统，旨在改进网络复制功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络模式",
+      "predicate": "包含",
+      "object": "单机模式",
+      "context": "网络模式包括单机模式，用于单人游戏或本地多人游戏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络模式",
+      "predicate": "包含",
+      "object": "专用服务器模式",
+      "context": "专用服务器模式是没有本地玩家的服务器模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络模式",
+      "predicate": "包含",
+      "object": "监听服务器模式",
+      "context": "监听服务器模式是有本地玩家的服务器模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络模式",
+      "predicate": "包含",
+      "object": "客户端模式",
+      "context": "客户端模式是连接到远程服务器的模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pawn",
+      "predicate": "受控于",
+      "object": "客户端",
+      "context": "客户端控制其在服务器上的远程Pawn",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送",
+      "predicate": "扩展",
+      "object": "网络功能",
+      "context": "像素流送系统扩展了虚幻引擎的网络功能，支持预渲染帧和音频流送",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通用复制系统",
+      "predicate": "支持",
+      "object": "Actor休眠",
+      "context": "通用复制系统支持Actor休眠功能，控制是否考虑Actor进行复制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通用复制系统",
+      "predicate": "支持",
+      "object": "Actor优先级",
+      "context": "通用复制系统支持设置Actor的复制优先级",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通用复制系统",
+      "predicate": "支持",
+      "object": "Actor相关性",
+      "context": "通用复制系统支持设置Actor对特定连接的相关性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris复制系统",
+      "predicate": "改进",
+      "object": "通用复制系统",
+      "context": "Iris复制系统旨在改进通用复制系统的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris复制系统",
+      "predicate": "支持",
+      "object": "动态筛选",
+      "context": "Iris支持动态复制筛选功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris复制系统",
+      "predicate": "支持",
+      "object": "动态优先级",
+      "context": "Iris支持基于自定义动态优先级的复制安排",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "监听服务器",
+      "predicate": "适用于",
+      "object": "小型多人游戏",
+      "context": "监听服务器适合小型玩家群体的临时合作和竞技游戏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "专用服务器",
+      "predicate": "适用于",
+      "object": "大型多人游戏",
+      "context": "专用服务器更适合需要大量玩家或高性能服务器的游戏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多人游戏开发",
+      "predicate": "需要",
+      "object": "尽早规划网络功能",
+      "context": "文档强调多人游戏开发需要从项目开始就考虑网络功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络调试",
+      "predicate": "是",
+      "object": "多人游戏开发重要部分",
+      "context": "由于网络连接的复杂性，调试是多人游戏开发不可或缺的部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制的属性",
+      "predicate": "优于",
+      "object": "频繁的RPC调用",
+      "context": "文档建议尽可能使用复制的属性而非频繁的RPC调用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络休眠",
+      "predicate": "是",
+      "object": "重要优化手段",
+      "context": "文档指出网络休眠是网络Gameplay中最显著的优化之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:06:15.507Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (17738 字符)",
+      "timestamp": "2025-06-15T20:04:50.525Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 30457,
+    "contentLength": 17738,
+    "processingTimeMs": 84993
+  }
+}

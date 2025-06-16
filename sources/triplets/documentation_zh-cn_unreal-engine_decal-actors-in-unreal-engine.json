@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_decal-actors-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_decal-actors-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "延迟贴花",
+      "predicate": "提供",
+      "object": "更好的性能和维护性",
+      "context": "延迟贴花通过写入GBuffer而非重新计算光照，提供了更好的性能和维护性，这对学习者理解贴花优化的核心机制很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "延迟贴花",
+      "predicate": "支持",
+      "object": "屏幕空间遮罩",
+      "context": "延迟贴花支持屏幕空间遮罩，可以实现一些特殊效果（如潮湿层），这对学习者理解贴花的高级应用场景很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "贴花Actor",
+      "predicate": "通过",
+      "object": "内容浏览器添加",
+      "context": "学习者需要知道如何在场景中添加贴花Actor，这是基础操作知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "贴花Actor",
+      "predicate": "使用",
+      "object": "变形工具调整",
+      "context": "调整贴花大小和方向是基本操作技能，对实际应用很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "非等分缩放控件",
+      "predicate": "控制",
+      "object": "贴花体积参数",
+      "context": "理解如何控制贴花的宽度、高度和远平面距离是精确调整贴花的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "延迟贴花",
+      "predicate": "具有",
+      "object": "排序顺序属性",
+      "context": "排序顺序控制多个贴花堆叠时的渲染顺序，是贴花管理的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DecalBlendMode",
+      "predicate": "定义",
+      "object": "材质属性应用方式",
+      "context": "理解不同混合模式如何影响GBuffer是材质设置的核心知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DBM_ScreenSpaceMask",
+      "predicate": "影响",
+      "object": "SSAO通道",
+      "context": "特殊混合模式的学习有助于实现高级视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "贴花性能",
+      "predicate": "取决于",
+      "object": "着色器复杂性和屏幕边框大小",
+      "context": "理解性能影响因素对优化很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ShaderComplexity视图模式",
+      "predicate": "用于",
+      "object": "分析着色成本",
+      "context": "这是性能分析和优化的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "贴花导数节点",
+      "predicate": "修复",
+      "object": "2x2像素块瑕疵",
+      "context": "了解特定问题的解决方案对实际开发很有帮助",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "延迟贴花",
+      "predicate": "仅支持",
+      "object": "静态对象",
+      "context": "了解当前限制有助于合理规划项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GBuffer",
+      "predicate": "存储",
+      "object": "贴花贡献",
+      "context": "理解GBuffer的作用是掌握延迟贴花工作原理的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "贴花材质",
+      "predicate": "影响",
+      "object": "GBuffer值混合",
+      "context": "材质设置直接影响最终渲染效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CameraVector节点",
+      "predicate": "提供",
+      "object": "贴花本地位置信息",
+      "context": "了解如何获取位置数据对高级材质编写很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:49:42.569Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8875,
+    "contentLength": 5249,
+    "processingTimeMs": 62043
+  }
+}

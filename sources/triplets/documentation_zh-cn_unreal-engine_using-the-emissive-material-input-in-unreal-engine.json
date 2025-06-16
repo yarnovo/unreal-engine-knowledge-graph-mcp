@@ -1,0 +1,163 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-the-emissive-material-input-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-the-emissive-material-input-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "自发光材质",
+      "predicate": "包含",
+      "object": "自发光颜色输入",
+      "context": "自发光颜色输入是创建自发光材质的关键参数，用于控制材质的发光效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自发光材质",
+      "predicate": "支持",
+      "object": "光照着色模型",
+      "context": "自发光材质可以使用光照着色模型来与场景中的光照交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自发光材质",
+      "predicate": "支持",
+      "object": "无光照着色模型",
+      "context": "自发光材质可以使用无光照着色模型来降低渲染成本，适用于不需要与场景光照交互的情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自发光材质",
+      "predicate": "生成",
+      "object": "泛光效果",
+      "context": "当自发光颜色输入的值大于1.0时，材质会产生泛光效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自发光材质",
+      "predicate": "依赖",
+      "object": "主材质节点",
+      "context": "自发光颜色输入需要连接到主材质节点才能生效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光照着色模型",
+      "predicate": "适用于",
+      "object": "部分自发光材质",
+      "context": "当材质需要与场景光照交互或使用其他着色器输入时，应使用光照着色模型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "无光照着色模型",
+      "predicate": "适用于",
+      "object": "完全自发光材质",
+      "context": "当材质不需要与场景光照交互时，使用无光照着色模型可以降低渲染成本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自发光材质",
+      "predicate": "用于",
+      "object": "模拟光源",
+      "context": "自发光材质可以模拟光源的视觉效果，而无需使用标准光源类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自发光材质",
+      "predicate": "与",
+      "object": "流明全局光照",
+      "context": "启用流明全局光照后，自发光材质的光线会自动在场景中传播",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自发光材质",
+      "predicate": "与",
+      "object": "静态光照",
+      "context": "使用静态光照时，需要启用特定设置才能使自发光材质投射光线到场景中",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自发光材质",
+      "predicate": "影响",
+      "object": "泛光效果",
+      "context": "自发光材质的亮度会影响后期处理中的泛光效果强度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自发光材质",
+      "predicate": "使用",
+      "object": "纹理遮罩",
+      "context": "可以使用纹理遮罩定义材质的自发光部分，实现部分自发光效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质实例",
+      "predicate": "扩展",
+      "object": "自发光材质",
+      "context": "材质实例可以覆盖自发光材质的参数，实现动态调整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "向量参数",
+      "predicate": "控制",
+      "object": "自发光颜色",
+      "context": "向量参数用于控制自发光材质的颜色属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "标量参数",
+      "predicate": "控制",
+      "object": "自发光强度",
+      "context": "标量参数用于控制自发光材质的亮度属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU Lightmass",
+      "predicate": "自动支持",
+      "object": "自发光材质光照",
+      "context": "使用GPU Lightmass时，自发光材质的光线会自动传播到烘焙结果中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理体积",
+      "predicate": "控制",
+      "object": "泛光效果",
+      "context": "可以通过后期处理体积调整泛光效果，补偿高亮度自发光材质的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自发光材质",
+      "predicate": "实现",
+      "object": "低成本发光效果",
+      "context": "自发光材质提供了一种成本较低但有效的发光视觉效果实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:23:50.470Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12998 字符)",
+      "timestamp": "2025-06-15T21:23:01.707Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19792,
+    "contentLength": 12998,
+    "processingTimeMs": 48770
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_collision-response-reference-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_collision-response-reference-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "碰撞预设值",
+      "predicate": "包含",
+      "object": "碰撞预设默认值",
+      "context": "碰撞预设值是碰撞属性的子类别，其中包含预设的碰撞配置选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞预设值",
+      "predicate": "包含",
+      "object": "启用碰撞",
+      "context": "启用碰撞是碰撞预设值中的一个属性，用于控制碰撞的启用状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞预设值",
+      "predicate": "包含",
+      "object": "对象类型",
+      "context": "对象类型是碰撞预设值中的一个属性，用于定义Actor的类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞预设值",
+      "predicate": "包含",
+      "object": "碰撞响应",
+      "context": "碰撞响应是碰撞预设值中的一个属性，用于定义物理形体与其他类型的交互方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞预设值",
+      "predicate": "包含",
+      "object": "追踪响应",
+      "context": "追踪响应是碰撞预设值中的一个属性，专门用于追踪（如光线投射）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞预设值",
+      "predicate": "包含",
+      "object": "对象响应",
+      "context": "对象响应是碰撞预设值中的一个属性，用于定义与特定对象类型的交互方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞预设默认值",
+      "predicate": "基于",
+      "object": "项目设置",
+      "context": "碰撞预设默认值基于项目设置中定义的碰撞预设值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启用碰撞",
+      "predicate": "支持",
+      "object": "无碰撞",
+      "context": "启用碰撞属性支持无碰撞状态，用于完全禁用碰撞",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启用碰撞",
+      "predicate": "支持",
+      "object": "仅查询",
+      "context": "启用碰撞属性支持仅查询状态，用于空间查询但不进行物理模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启用碰撞",
+      "predicate": "支持",
+      "object": "仅物理",
+      "context": "启用碰撞属性支持仅物理状态，用于物理模拟但不进行空间查询",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启用碰撞",
+      "predicate": "支持",
+      "object": "启用碰撞",
+      "context": "启用碰撞属性支持完全启用碰撞状态，用于同时进行空间查询和物理模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象类型",
+      "predicate": "包含",
+      "object": "WorldStatic",
+      "context": "对象类型包含WorldStatic，用于不移动的Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象类型",
+      "predicate": "包含",
+      "object": "WorldDynamic",
+      "context": "对象类型包含WorldDynamic，用于受动画或代码影响移动的Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象类型",
+      "predicate": "包含",
+      "object": "Pawn",
+      "context": "对象类型包含Pawn，用于玩家控制的实体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象类型",
+      "predicate": "包含",
+      "object": "PhysicsBody",
+      "context": "对象类型包含PhysicsBody，用于因物理模拟而移动的Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象类型",
+      "predicate": "包含",
+      "object": "Vehicle",
+      "context": "对象类型包含Vehicle，用于载具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象类型",
+      "predicate": "包含",
+      "object": "Destructible",
+      "context": "对象类型包含Destructible，用于可破坏物网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞响应",
+      "predicate": "定义",
+      "object": "忽略",
+      "context": "碰撞响应定义忽略交互，无论其他物理形体的响应如何",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞响应",
+      "predicate": "定义",
+      "object": "重叠",
+      "context": "碰撞响应定义重叠交互，当另一个物理形体设置为重叠或阻挡时发生",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞响应",
+      "predicate": "定义",
+      "object": "阻挡",
+      "context": "碰撞响应定义阻挡交互，当另一个物理形体设置为阻挡时发生",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "追踪响应",
+      "predicate": "用于",
+      "object": "光线投射",
+      "context": "追踪响应专门用于追踪操作，如光线投射",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "追踪响应",
+      "predicate": "包含",
+      "object": "可视性",
+      "context": "追踪响应包含可视性信道，用于泛型可视性测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "追踪响应",
+      "predicate": "包含",
+      "object": "摄像机",
+      "context": "追踪响应包含摄像机信道，通常用于从摄像机到对象的追踪",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象响应",
+      "predicate": "定义",
+      "object": "WorldStatic响应",
+      "context": "对象响应定义与WorldStatic类型交互时的反应",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象响应",
+      "predicate": "定义",
+      "object": "WorldDynamic响应",
+      "context": "对象响应定义与WorldDynamic类型交互时的反应",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象响应",
+      "predicate": "定义",
+      "object": "Pawn响应",
+      "context": "对象响应定义与Pawn类型交互时的反应",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象响应",
+      "predicate": "定义",
+      "object": "PhysicsBody响应",
+      "context": "对象响应定义与PhysicsBody类型交互时的反应",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象响应",
+      "predicate": "定义",
+      "object": "Vehicle响应",
+      "context": "对象响应定义与Vehicle类型交互时的反应",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象响应",
+      "predicate": "定义",
+      "object": "Destructible响应",
+      "context": "对象响应定义与Destructible类型交互时的反应",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理形体",
+      "predicate": "包含",
+      "object": "碰撞属性",
+      "context": "物理形体包含碰撞属性，用于配置碰撞行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞属性",
+      "predicate": "包含",
+      "object": "碰撞预设值",
+      "context": "碰撞属性包含碰撞预设值，用于预设碰撞配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:28:17.861Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9655,
+    "contentLength": 6201,
+    "processingTimeMs": 92487
+  }
+}

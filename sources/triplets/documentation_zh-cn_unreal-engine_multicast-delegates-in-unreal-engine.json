@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_multicast-delegates-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_multicast-delegates-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "多播委托",
+      "predicate": "继承自",
+      "object": "单播委托",
+      "context": "多播委托拥有大部分与单播委托相同的功能，包括弱引用、结构体兼容性等特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多播委托",
+      "predicate": "区别于",
+      "object": "单播委托",
+      "context": "多播委托可以绑定多个函数且不支持返回值，这是与单播委托的核心差异",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DECLARE_MULTICAST_DELEGATE",
+      "predicate": "用于声明",
+      "object": "多播委托",
+      "context": "该宏是创建多播委托的标准方式，开发者需要掌握其用法",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "DECLARE_DYNAMIC_MULTICAST_DELEGATE",
+      "predicate": "扩展自",
+      "object": "DECLARE_MULTICAST_DELEGATE",
+      "context": "动态多播委托在基础多播委托上增加了序列化等动态功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Add()",
+      "predicate": "属于",
+      "object": "多播委托绑定方法",
+      "context": "这是将函数添加到多播委托调用列表的基础方法",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "AddStatic()",
+      "predicate": "专门用于",
+      "object": "全局函数绑定",
+      "context": "该方法专门用于绑定原始C++指针全局函数",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "AddUObject()",
+      "predicate": "专门用于",
+      "object": "UObject成员函数绑定",
+      "context": "这是绑定UObject成员函数的标准安全方式",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "Broadcast()",
+      "predicate": "执行",
+      "object": "多播委托",
+      "context": "调用该方法会触发所有绑定的函数，是多播委托的核心功能",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "多播委托",
+      "predicate": "适用于",
+      "object": "事件通知系统",
+      "context": "文档指出多播委托最适合用于传递一组委托，这是事件系统的典型应用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "RemoveAll()",
+      "predicate": "清理",
+      "object": "对象关联委托",
+      "context": "该方法可高效删除与特定对象关联的所有委托，是资源管理的重要方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DelegateSignatureImpl.inl",
+      "predicate": "包含",
+      "object": "委托实现细节",
+      "context": "该文件包含委托系统的底层实现，是深入理解委托机制的进阶学习资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AddSP()",
+      "predicate": "替代",
+      "object": "AddRaw()",
+      "context": "在需要安全绑定时，基于共享指针的AddSP()应替代不安全的AddRaw()",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "多播委托",
+      "predicate": "支持",
+      "object": "远程调用",
+      "context": "文档明确说明多播委托可以远程加载/保存和触发，这是网络编程的重要特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:03:01.556Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4286,
+    "contentLength": 2492,
+    "processingTimeMs": 52073
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_level-editor-toolbar-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_level-editor-toolbar-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "关卡编辑器工具栏",
+      "predicate": "包含",
+      "object": "保存按钮",
+      "context": "工具栏中的保存按钮用于保存当前关卡，是编辑器基础功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡编辑器工具栏",
+      "predicate": "包含",
+      "object": "编辑器模式选项菜单",
+      "context": "模式选项菜单允许切换不同编辑器模式，是工作流切换的核心入口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器模式选项菜单",
+      "predicate": "关联",
+      "object": "关卡编辑器模式",
+      "context": "点击模式选项菜单会显示对应模式的工具栏，需要理解不同模式的功能差异",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡编辑器工具栏",
+      "predicate": "包含",
+      "object": "快速添加按钮",
+      "context": "该按钮提供内容创建快捷方式，与内容浏览器功能直接关联",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "快速添加按钮",
+      "predicate": "打开",
+      "object": "内容浏览器",
+      "context": "通过该按钮可快速访问项目所有资产，是内容管理的核心跳转点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡编辑器工具栏",
+      "predicate": "包含",
+      "object": "视图设置菜单",
+      "context": "视图设置影响编辑器显示方式，是场景观察的重要控制点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡编辑器工具栏",
+      "predicate": "包含",
+      "object": "蓝图菜单",
+      "context": "蓝图菜单提供关卡逻辑编辑入口，连接可视化编程系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图菜单",
+      "predicate": "打开",
+      "object": "蓝图编辑器",
+      "context": "通过菜单可进入关卡蓝图编辑界面，是逻辑实现的关键路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图菜单",
+      "predicate": "关联",
+      "object": "关卡蓝图",
+      "context": "菜单专门提供对当前关卡蓝图的访问，体现两者紧密关系",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡编辑器工具栏",
+      "predicate": "包含",
+      "object": "过场动画按钮",
+      "context": "该按钮用于创建序列资源，是影视化内容制作入口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "过场动画按钮",
+      "predicate": "创建",
+      "object": "关卡序列",
+      "context": "按钮直接触发序列创建流程，是时序动画制作起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡编辑器工具栏",
+      "predicate": "包含",
+      "object": "PlayIn按钮",
+      "context": "运行测试功能是开发迭代的核心验证手段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PlayIn按钮",
+      "predicate": "关联",
+      "object": "在编辑器中运行",
+      "context": "按钮触发实时测试功能，需要理解不同运行模式的区别",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡编辑器工具栏",
+      "predicate": "包含",
+      "object": "底部工具栏",
+      "context": "底部区域集中了调试和工程管理功能，与主工具栏形成功能互补",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "底部工具栏",
+      "predicate": "包含",
+      "object": "输出日志",
+      "context": "日志是调试信息的主要输出窗口，对问题诊断至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "底部工具栏",
+      "predicate": "包含",
+      "object": "命令控制台",
+      "context": "控制台支持直接输入指令，是高级操作和调试的入口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "底部工具栏",
+      "predicate": "包含",
+      "object": "源控制状态",
+      "context": "版本控制集成对团队协作开发具有关键作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "源控制状态",
+      "predicate": "关联",
+      "object": "源控制点解决方案",
+      "context": "状态显示区域需要配置具体的版本控制系统才能正常工作",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:43:08.668Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5593,
+    "contentLength": 4249,
+    "processingTimeMs": 51390
+  }
+}

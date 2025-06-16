@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_stats-interface-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_stats-interface-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "在线服务统计数据接口",
+      "predicate": "用于",
+      "object": "上传和检索统计数据",
+      "context": "统计数据接口的核心功能是上传和检索统计数据，这是学习该接口的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务统计数据接口",
+      "predicate": "支持",
+      "object": "成就和排行榜接口",
+      "context": "统计数据接口为成就和排行榜接口提供数据支持，理解这种依赖关系有助于学习如何集成这些功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UpdateStats",
+      "predicate": "实现",
+      "object": "统计数据上传",
+      "context": "UpdateStats函数专门用于将统计数据上传到平台，这是接口的核心功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "QueryStats",
+      "predicate": "实现",
+      "object": "统计数据检索",
+      "context": "QueryStats函数用于检索用户统计数据并缓存结果，是数据获取的关键方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BatchQueryStats",
+      "predicate": "扩展",
+      "object": "QueryStats",
+      "context": "BatchQueryStats是QueryStats的批量版本，支持检索一组用户的统计数据",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "GetCachedStats",
+      "predicate": "依赖",
+      "object": "QueryStats或BatchQueryStats",
+      "context": "GetCachedStats用于获取之前查询缓存的统计数据，必须先执行查询操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnStatsUpdated",
+      "predicate": "监听",
+      "object": "统计数据变化",
+      "context": "该事件在用户统计数据变化时触发，是实现实时更新的重要机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StatDefinitions",
+      "predicate": "配置",
+      "object": "统计数据属性",
+      "context": "StatDefinitions定义了统计数据的名称、ID、修改方法和默认值，是使用接口前的必要配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ModifyMethod",
+      "predicate": "控制",
+      "object": "统计数据更新方式",
+      "context": "ModifyMethod决定了统计数据如何更新（如Largest、Smallest、Set、Sum），影响数据行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DefaultEngine.ini",
+      "predicate": "包含",
+      "object": "统计数据接口配置",
+      "context": "配置文件存储了统计数据接口的所有必要配置信息，是系统初始化的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ResetStats",
+      "predicate": "用于",
+      "object": "开发和测试阶段",
+      "context": "ResetStats函数主要用于开发和测试阶段重置统计数据，不应在产品环境中使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Stats.h",
+      "predicate": "提供",
+      "object": "接口详细信息",
+      "context": "Stats.h头文件包含统计数据接口的完整定义，是深入学习的重要资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务概览",
+      "predicate": "包含",
+      "object": "函数参数和返回类型说明",
+      "context": "该文档详细解释了在线服务函数的参数传递和返回值处理方式，是理解接口使用的重要参考",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "控制台指令",
+      "predicate": "用于",
+      "object": "测试接口函数",
+      "context": "通过控制台指令可以直接调用接口函数进行测试，是开发和调试的有力工具",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FOnlineEventDelegateHandle",
+      "predicate": "管理",
+      "object": "事件监听",
+      "context": "该处理器用于管理OnStatsUpdated事件的绑定和解绑，是事件系统的关键组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:55:29.656Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11609 字符)",
+      "timestamp": "2025-06-15T20:54:47.313Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14495,
+    "contentLength": 11609,
+    "processingTimeMs": 42346
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_mobile-patch-utility-nodes-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_mobile-patch-utility-nodes-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "移动补丁工具蓝图库",
+      "predicate": "包含",
+      "object": "Request Content",
+      "context": "移动补丁工具蓝图库提供了Request Content节点用于请求远程内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动补丁工具蓝图库",
+      "predicate": "包含",
+      "object": "Get Disk Free Space",
+      "context": "移动补丁工具蓝图库提供了Get Disk Free Space节点用于检查磁盘空间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动补丁工具蓝图库",
+      "predicate": "包含",
+      "object": "Get Required Disk Space",
+      "context": "移动补丁工具蓝图库提供了Get Required Disk Space节点用于获取所需磁盘空间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动补丁工具蓝图库",
+      "predicate": "包含",
+      "object": "Start Install",
+      "context": "移动补丁工具蓝图库提供了Start Install节点用于开始下载和安装",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动补丁工具蓝图库",
+      "predicate": "包含",
+      "object": "Get Download Size",
+      "context": "移动补丁工具蓝图库提供了Get Download Size节点用于获取下载大小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动补丁工具蓝图库",
+      "predicate": "包含",
+      "object": "Get Download Speed",
+      "context": "移动补丁工具蓝图库提供了Get Download Speed节点用于获取下载速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动补丁工具蓝图库",
+      "predicate": "包含",
+      "object": "Get Download Status Text",
+      "context": "移动补丁工具蓝图库提供了Get Download Status Text节点用于获取下载状态文本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动补丁工具蓝图库",
+      "predicate": "包含",
+      "object": "Get Install Progress",
+      "context": "移动补丁工具蓝图库提供了Get Install Progress节点用于获取安装进度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动补丁工具蓝图库",
+      "predicate": "包含",
+      "object": "Get Total Downloaded Size",
+      "context": "移动补丁工具蓝图库提供了Get Total Downloaded Size节点用于获取已下载总大小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动补丁工具蓝图库",
+      "predicate": "包含",
+      "object": "Get Installed Content",
+      "context": "移动补丁工具蓝图库提供了Get Installed Content节点用于获取已安装内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动补丁工具蓝图库",
+      "predicate": "包含",
+      "object": "Mount",
+      "context": "移动补丁工具蓝图库提供了Mount节点用于装入安装内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动补丁工具蓝图库",
+      "predicate": "支持",
+      "object": "Android",
+      "context": "移动补丁工具蓝图库支持Android平台",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动补丁工具蓝图库",
+      "predicate": "支持",
+      "object": "iOS",
+      "context": "移动补丁工具蓝图库支持iOS平台",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Request Content",
+      "predicate": "前置",
+      "object": "Start Install",
+      "context": "在补丁流程中，Request Content节点需要在Start Install节点之前执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Start Install",
+      "predicate": "前置",
+      "object": "Mount",
+      "context": "在补丁流程中，Start Install节点需要在Mount节点之前执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Disk Free Space",
+      "predicate": "配合使用",
+      "object": "Get Required Disk Space",
+      "context": "这两个节点通常一起使用来比较可用空间和所需空间",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Download Size",
+      "predicate": "配合使用",
+      "object": "Get Download Speed",
+      "context": "这些节点通常一起使用来显示下载进度信息",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Get Download Status Text",
+      "predicate": "配合使用",
+      "object": "Get Install Progress",
+      "context": "这些节点通常一起使用来显示安装进度信息",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Get Total Downloaded Size",
+      "predicate": "配合使用",
+      "object": "Get Install Progress",
+      "context": "这些节点通常一起使用来显示下载和安装进度",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Get Installed Content",
+      "predicate": "配合使用",
+      "object": "Mount",
+      "context": "Get Installed Content节点获取内容后，Mount节点用于装入内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动补丁工具蓝图库",
+      "predicate": "包含",
+      "object": "Get Active Device Profile Name",
+      "context": "移动补丁工具蓝图库提供了Get Active Device Profile Name节点用于获取设备配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动补丁工具蓝图库",
+      "predicate": "包含",
+      "object": "Get Installed Content Size",
+      "context": "移动补丁工具蓝图库提供了Get Installed Content Size节点用于获取已安装内容大小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动补丁工具蓝图库",
+      "predicate": "包含",
+      "object": "Get Supported Platform Names",
+      "context": "移动补丁工具蓝图库提供了Get Supported Platform Names节点用于获取支持平台列表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动补丁工具蓝图库",
+      "predicate": "包含",
+      "object": "Has Active WiFi Connection",
+      "context": "移动补丁工具蓝图库提供了Has Active WiFi Connection节点用于检查WiFi连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:57:49.977Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7987,
+    "contentLength": 5063,
+    "processingTimeMs": 80533
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_world-partition-builder-commandlet-reference",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_world-partition-builder-commandlet-reference.md",
+  "triples": [
+    {
+      "subject": "世界分区",
+      "predicate": "引入",
+      "object": "UWorldPartitionBuilderCommandlet",
+      "context": "世界分区通过UWorldPartitionBuilderCommandlet引入了一个编译器Commandlet框架，这是理解世界分区自动化处理的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区",
+      "predicate": "引入",
+      "object": "UWorldPartitionBuilder",
+      "context": "UWorldPartitionBuilder是世界分区的基类，理解它是掌握世界分区构建器扩展的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UWorldPartitionBuilderCommandlet",
+      "predicate": "用于",
+      "object": "自动化批处理",
+      "context": "Commandlet框架的主要用途是完成自动化批处理，这是学习世界分区自动化工作流的关键概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UWorldPartitionBuilderCommandlet",
+      "predicate": "生成/修改",
+      "object": "世界分区关卡数据",
+      "context": "理解Commandlet可以生成和修改世界分区数据是掌握大型世界管理的重要知识点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区HLOD构建器",
+      "predicate": "生成",
+      "object": "HLOD Actor",
+      "context": "HLOD构建器专门用于生成HLOD Actor，这是优化大型世界渲染性能的关键技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区小地图构建器",
+      "predicate": "生成/更新",
+      "object": "小地图",
+      "context": "小地图构建器用于世界分区编辑器窗口的导航辅助，是大型世界开发的重要可视化工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区重命名复制构建器",
+      "predicate": "重命名/复制",
+      "object": "世界分区关卡",
+      "context": "该构建器处理关卡的重命名和复制操作，是理解世界分区资产管理的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区重新保存Actor构建器",
+      "predicate": "重新保存",
+      "object": "Actor",
+      "context": "该构建器可以批量更新Actor数据，是理解世界分区数据维护的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区植被构建器",
+      "predicate": "修改",
+      "object": "植被网格大小",
+      "context": "植被构建器专门处理植被系统的网格大小调整，是优化大型开放世界植被性能的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区导航数据构建器",
+      "predicate": "重新生成",
+      "object": "寻路网格体",
+      "context": "导航数据构建器处理AI寻路数据，是开发大型世界AI系统的必备知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区智能对象集合构建器",
+      "predicate": "重建",
+      "object": "智能对象集合",
+      "context": "该构建器处理智能对象系统的数据更新，是理解世界分区交互系统的重要组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区PCG构建器",
+      "predicate": "执行",
+      "object": "PCG组件生成",
+      "context": "PCG构建器负责程序化内容生成的调度和执行，是掌握虚幻引擎程序化工作流的核心",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UWorldPartitionBuilder",
+      "predicate": "作为基类",
+      "object": "各种世界分区构建器",
+      "context": "理解UWorldPartitionBuilder是所有具体构建器的基类，有助于掌握构建器的扩展机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区",
+      "predicate": "支持",
+      "object": "部分加载",
+      "context": "世界分区的主要特性是支持大型世界的部分加载，这是理解其架构设计的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HLOD",
+      "predicate": "优化",
+      "object": "大型世界渲染",
+      "context": "HLOD技术是世界分区中优化大型世界渲染性能的关键方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区PCG构建器",
+      "predicate": "支持",
+      "object": "迭代式单元格加载",
+      "context": "PCG构建器的迭代式加载功能是处理超大型世界的关键技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区构建器",
+      "predicate": "使用",
+      "object": "命令行参数",
+      "context": "所有构建器都通过命令行参数控制，这是掌握自动化工作流的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区导航数据构建器",
+      "predicate": "可以",
+      "object": "清理数据包",
+      "context": "导航构建器的清理功能是理解导航数据维护的重要方面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PCG组件",
+      "predicate": "依赖",
+      "object": "异步进程完成",
+      "context": "理解PCG生成需要等待异步进程完成是掌握程序化内容生成时序的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:35:12.818Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9097 字符)",
+      "timestamp": "2025-06-15T21:34:15.932Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12559,
+    "contentLength": 9097,
+    "processingTimeMs": 56895
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_testing-and-debugging-networked-games-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_testing-and-debugging-networked-games-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻编辑器",
+      "predicate": "包含",
+      "object": "多人游戏测试选项",
+      "context": "虚幻编辑器提供了多种设置来测试多人游戏项目，帮助开发者快速验证网络功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多人游戏测试选项",
+      "predicate": "包括",
+      "object": "玩家数量设置",
+      "context": "调整玩家数量是测试多人游戏的基础功能，帮助模拟不同规模的游戏场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多人游戏测试选项",
+      "predicate": "包括",
+      "object": "运行窗口设置",
+      "context": "多窗口运行可以模拟真实的多客户端环境，测试网络同步效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多人游戏测试选项",
+      "predicate": "包括",
+      "object": "专用服务器设置",
+      "context": "专用服务器是多人游戏的核心组件，需要单独测试其功能和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "专用服务器",
+      "predicate": "通过",
+      "object": "编辑器偏好设置配置",
+      "context": "了解如何通过编辑器配置专用服务器是网络游戏开发的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "独立服务器实例",
+      "predicate": "连接方式",
+      "object": "open命令",
+      "context": "掌握open命令连接服务器是网络调试的基本技能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "独立服务器实例",
+      "predicate": "连接方式",
+      "object": "会话接口",
+      "context": "会话接口提供了更高级的服务器连接和管理方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行网络模式",
+      "predicate": "包含",
+      "object": "作为客户端运行",
+      "context": "不同运行模式对应不同的测试场景，是网络调试的基础概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行网络模式",
+      "predicate": "包含",
+      "object": "作为侦听服务器运行",
+      "context": "侦听服务器模式是常见的网络游戏架构，需要单独测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试PIE实例",
+      "predicate": "使用",
+      "object": "GPlayInEditorContextString变量",
+      "context": "该变量帮助开发者识别当前调试的实例，是多人游戏调试的关键技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试PIE实例",
+      "predicate": "使用",
+      "object": "NetDriver's ServerConnection",
+      "context": "该连接信息帮助区分客户端和服务器实例，理解网络架构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetLocalRole函数",
+      "predicate": "用于",
+      "object": "确定Actor角色",
+      "context": "理解Actor在不同实例中的角色是解决网络同步问题的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Networking Insights",
+      "predicate": "属于",
+      "object": "Unreal Insights工具",
+      "context": "该工具是分析网络性能的核心组件，开发者需要掌握其使用方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Networking Insights",
+      "predicate": "提供",
+      "object": "网络流量分析",
+      "context": "详细分析网络流量是优化多人游戏性能的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Network Profiler",
+      "predicate": "替代方案",
+      "object": "Networking Insights",
+      "context": "了解不同网络分析工具的优缺点，选择适合的调试工具",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Gauntlet自动化框架",
+      "predicate": "用于",
+      "object": "多人游戏自动化测试",
+      "context": "自动化测试是保证多人游戏质量的重要手段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "功能测试",
+      "predicate": "适用于",
+      "object": "多人游戏验证",
+      "context": "功能测试帮助验证多人游戏中的特定功能是否正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "ROLE_Authority",
+      "predicate": "表示",
+      "object": "服务器端Actor",
+      "context": "理解不同角色类型是网络游戏开发的基础概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ROLE_AutonomousProxy",
+      "predicate": "表示",
+      "object": "本地控制的Actor",
+      "context": "区分不同代理类型有助于解决网络同步问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ROLE_SimulatedProxy",
+      "predicate": "表示",
+      "object": "远程控制的Actor",
+      "context": "理解模拟代理的行为是网络游戏开发的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NetServerMaxTickRate",
+      "predicate": "控制",
+      "object": "服务器函数更新率",
+      "context": "调整服务器更新率可以优化网络性能和带宽使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:59:09.577Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11176,
+    "contentLength": 7044,
+    "processingTimeMs": 66839
+  }
+}

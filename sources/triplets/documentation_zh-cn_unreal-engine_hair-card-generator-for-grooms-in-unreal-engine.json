@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_hair-card-generator-for-grooms-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_hair-card-generator-for-grooms-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "毛发发片生成器",
+      "predicate": "转换",
+      "object": "基于发束的Groom",
+      "context": "毛发发片生成器插件可以将基于发束的Groom转换成基于发片的表示，帮助学习者理解两种Groom表示方式的转换关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛发发片生成器",
+      "predicate": "属于",
+      "object": "几何体插件类别",
+      "context": "毛发发片生成器插件位于几何体类别下的插件浏览器中，帮助学习者定位插件位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom资产编辑器",
+      "predicate": "包含",
+      "object": "发片面板",
+      "context": "Groom资产编辑器中包含发片面板，学习者需要了解编辑器界面结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发片生成设置对话框",
+      "predicate": "包含",
+      "object": "发片组设置",
+      "context": "发片生成设置对话框中包含高级的发片组设置，帮助学习者理解设置的层级关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发片生成过程",
+      "predicate": "生成",
+      "object": "发片网格体和纹理",
+      "context": "发片生成过程最终会生成发片网格体和纹理资产，帮助学习者理解输出结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发片生成设置",
+      "predicate": "影响",
+      "object": "发片几何体精度",
+      "context": "发片数量和三角形数量设置共同影响发片几何体的精度，帮助学习者理解参数之间的关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "自适应细分",
+      "predicate": "使用",
+      "object": "三角形目标数量",
+      "context": "自适应细分功能使用三角形目标数量设置来确定误差率，帮助学习者理解高级几何体设置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "纹理图集",
+      "predicate": "存储",
+      "object": "发束纹理",
+      "context": "纹理图集中存储生成的发束纹理，帮助学习者理解纹理的组织方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛发发片生成器",
+      "predicate": "依赖",
+      "object": "Groom资产编辑器",
+      "context": "毛发发片生成器需要在Groom资产编辑器中操作，帮助学习者理解工作流程依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发片生成",
+      "predicate": "需要",
+      "object": "插件启用",
+      "context": "使用发片生成功能前需要先启用毛发发片生成器插件，帮助学习者理解前置条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发片组设置",
+      "predicate": "控制",
+      "object": "飘动发片数量",
+      "context": "发片组设置中可以控制最大飘动发片数量，帮助学习者理解高级参数控制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "发束宽度缩放因子",
+      "predicate": "影响",
+      "object": "发束纹理生成",
+      "context": "发束宽度缩放因子会影响发束纹理的生成结果，帮助学习者理解纹理生成参数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "基于发片的Groom",
+      "predicate": "替代",
+      "object": "基于发束的Groom",
+      "context": "基于发片的Groom可以替代基于发束的Groom用于特定场景，帮助学习者理解两种表示的应用场景",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "LOD索引",
+      "predicate": "决定",
+      "object": "发片细节级别",
+      "context": "LOD索引决定了生成的发片网格体的细节级别，帮助学习者理解LOD概念在发片生成中的应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "优化压缩",
+      "predicate": "节省",
+      "object": "纹理空间",
+      "context": "使用优化压缩可以沿发束方向压缩纹理以节省纹理空间，帮助学习者理解纹理优化技术",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:16:53.713Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8688 字符)",
+      "timestamp": "2025-06-15T19:16:01.729Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14360,
+    "contentLength": 8688,
+    "processingTimeMs": 51992
+  }
+}

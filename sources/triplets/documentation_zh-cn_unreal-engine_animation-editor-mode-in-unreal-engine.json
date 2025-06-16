@@ -1,0 +1,219 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-editor-mode-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-editor-mode-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "动画模式",
+      "predicate": "属于",
+      "object": "关卡编辑器模式",
+      "context": "动画模式是虚幻引擎中一种特殊的关卡编辑器模式，专门用于动画工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画模式",
+      "predicate": "依赖",
+      "object": "控制绑定资产",
+      "context": "使用动画模式前需要先创建控制绑定资产，这是动画模式工作的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画模式",
+      "predicate": "依赖",
+      "object": "Sequencer",
+      "context": "动画模式主要依赖于在Sequencer中使用控制绑定，需要掌握Sequencer的基本知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画模式",
+      "predicate": "包含",
+      "object": "动画面板",
+      "context": "动画模式激活后会添加动画面板，其中包含各种动画工具和设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画模式",
+      "predicate": "包含",
+      "object": "动画大纲视图",
+      "context": "动画模式提供专门修改的大纲视图，仅显示选定控制绑定的控制点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画模式",
+      "predicate": "包含",
+      "object": "动画细节面板",
+      "context": "动画模式提供专门的细节面板，仅显示选定控制点的可动画化属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画模式",
+      "predicate": "提供",
+      "object": "姿势工具",
+      "context": "动画模式提供姿势工具用于在控制点上存储和检索姿势数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画模式",
+      "predicate": "提供",
+      "object": "Tween工具",
+      "context": "动画模式提供Tween工具用于调整关键帧之间的插值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画模式",
+      "predicate": "提供",
+      "object": "吸附工具",
+      "context": "动画模式提供吸附工具用于将控制点固定到其他源并烘焙关键帧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画模式",
+      "predicate": "提供",
+      "object": "运动尾迹工具",
+      "context": "动画模式提供运动尾迹工具用于预览和编辑控制点的运动曲线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画模式",
+      "predicate": "提供",
+      "object": "枢轴点工具",
+      "context": "动画模式提供枢轴点工具用于创建临时枢轴点来操纵控制点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势工具",
+      "predicate": "用于",
+      "object": "保存姿势",
+      "context": "姿势工具可以保存控制点的当前姿势作为资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势工具",
+      "predicate": "用于",
+      "object": "应用姿势",
+      "context": "姿势工具可以将保存的姿势应用到选定的控制点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势工具",
+      "predicate": "支持",
+      "object": "镜像姿势",
+      "context": "姿势工具支持将姿势镜像应用到对称的控制点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Tween工具",
+      "predicate": "提供",
+      "object": "混合到相邻帧模式",
+      "context": "Tween工具提供混合到相邻帧模式来调整关键帧位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Tween工具",
+      "predicate": "提供",
+      "object": "推拉模式",
+      "context": "Tween工具提供推拉模式来弱化或加强关键帧数值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Tween工具",
+      "predicate": "提供",
+      "object": "Tween模式",
+      "context": "Tween工具提供Tween模式以绝对值移动关键帧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "吸附工具",
+      "predicate": "需要",
+      "object": "定义子项和父项",
+      "context": "使用吸附工具前需要定义要吸附的子项和被吸附的父项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动尾迹工具",
+      "predicate": "显示",
+      "object": "运动曲线",
+      "context": "运动尾迹工具将控制点的运动绘制为可交互的曲线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动尾迹工具",
+      "predicate": "支持",
+      "object": "编辑关键帧",
+      "context": "运动尾迹工具支持通过曲线上的关键帧直接编辑运动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "枢轴点工具",
+      "predicate": "创建",
+      "object": "临时枢轴点",
+      "context": "枢轴点工具为选定的控制点创建临时枢轴点用于特殊操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画大纲视图",
+      "predicate": "显示",
+      "object": "控制点层级",
+      "context": "动画大纲视图按照控制绑定中定义的层级显示所有可动画化的控制点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画细节面板",
+      "predicate": "显示",
+      "object": "可动画化属性",
+      "context": "动画细节面板显示选定控制点的可动画化的相关属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定",
+      "predicate": "包含",
+      "object": "控制点",
+      "context": "控制绑定由多个控制点组成，用于动画制作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "记录",
+      "object": "动画数据",
+      "context": "关键帧用于记录控制点在特定时间的动画数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:02:01.256Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (20853 字符)",
+      "timestamp": "2025-06-15T18:00:44.017Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 31501,
+    "contentLength": 20853,
+    "processingTimeMs": 77248
+  }
+}

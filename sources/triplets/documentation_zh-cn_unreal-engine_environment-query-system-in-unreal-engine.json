@@ -1,0 +1,101 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_environment-query-system-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_environment-query-system-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "场景查询系统(EQS)",
+      "predicate": "属于",
+      "object": "虚幻引擎5 AI系统",
+      "context": "EQS是UE5 AI系统的一个功能模块，用于从环境中收集数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "场景查询系统(EQS)",
+      "predicate": "被调用",
+      "object": "行为树",
+      "context": "可以从行为树中调用EQS查询，用于AI决策",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EQS查询",
+      "predicate": "包含",
+      "object": "生成器节点",
+      "context": "生成器节点用于生成将被测试及加权的位置或Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EQS查询",
+      "predicate": "包含",
+      "object": "情境节点",
+      "context": "情境节点被用作各种测试和生成器引用的框架",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "场景查询系统(EQS)",
+      "predicate": "用于",
+      "object": "AI决策",
+      "context": "EQS可用于指引AI角色找到最佳攻击位置、最近资源或掩体等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "场景查询系统快速入门",
+      "predicate": "前置学习",
+      "object": "行为树",
+      "context": "建议在了解行为树后从快速入门指南开始学习EQS",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "场景查询系统概述",
+      "predicate": "包含",
+      "object": "EQS节点参考",
+      "context": "概述部分包含详解EQS中可用节点和属性的参考页面",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "场景查询系统概述",
+      "predicate": "包含",
+      "object": "EQS用户指南",
+      "context": "概述部分包含讲述EQS用法的用户指南",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "EQS测试Pawn",
+      "predicate": "用于",
+      "object": "EQS调试",
+      "context": "EQS测试Pawn用于调试并查看EQS查询的执行情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成器节点",
+      "predicate": "生成",
+      "object": "测试位置",
+      "context": "生成器节点生成将被测试及加权的位置或Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "情境节点",
+      "predicate": "提供",
+      "object": "测试框架",
+      "context": "情境节点为各种测试和生成器提供引用框架",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:57:37.040Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5141,
+    "contentLength": 3864,
+    "processingTimeMs": 51407
+  }
+}

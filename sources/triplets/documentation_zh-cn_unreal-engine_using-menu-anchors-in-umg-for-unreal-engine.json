@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-menu-anchors-in-umg-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-menu-anchors-in-umg-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "菜单锚点",
+      "predicate": "属于",
+      "object": "UMG",
+      "context": "菜单锚点是UMG中的一个控件，用于调整弹出菜单的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "菜单锚点",
+      "predicate": "包含",
+      "object": "菜单类",
+      "context": "菜单锚点通过菜单类属性指定要生成的控件蓝图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "菜单锚点",
+      "predicate": "支持",
+      "object": "放置位置",
+      "context": "菜单锚点提供放置位置选项来决定创建的控件的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "菜单锚点",
+      "predicate": "支持",
+      "object": "适应到窗口",
+      "context": "菜单锚点可以设置是否将菜单全部放入窗口中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "菜单锚点",
+      "predicate": "支持",
+      "object": "OnGetMenuContent",
+      "context": "菜单锚点可以通过OnGetMenuContent事件自定义弹出窗口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "菜单锚点",
+      "predicate": "支持",
+      "object": "OnGetUserMenuContent",
+      "context": "菜单锚点可以通过OnGetUserMenuContent事件自定义弹出窗口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "菜单锚点",
+      "predicate": "支持",
+      "object": "OnMenuOpenChanged",
+      "context": "菜单锚点可以通过OnMenuOpenChanged事件响应菜单打开状态的变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "菜单锚点",
+      "predicate": "包含",
+      "object": "蓝图函数",
+      "context": "菜单锚点提供了一系列蓝图函数用于控制菜单的行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "菜单锚点",
+      "predicate": "用于",
+      "object": "库存菜单",
+      "context": "菜单锚点可以用于在库存菜单中显示弹出菜单",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "菜单锚点",
+      "predicate": "依赖",
+      "object": "控件蓝图",
+      "context": "菜单锚点需要指定一个控件蓝图作为弹出的菜单内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "菜单锚点",
+      "predicate": "控制",
+      "object": "弹出菜单",
+      "context": "菜单锚点控制弹出菜单的显示、位置和关闭",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG",
+      "predicate": "包含",
+      "object": "控件蓝图",
+      "context": "UMG使用控件蓝图来设计和实现用户界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件蓝图",
+      "predicate": "用于",
+      "object": "菜单锚点",
+      "context": "控件蓝图可以作为菜单锚点的弹出内容",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "库存菜单",
+      "predicate": "包含",
+      "object": "菜单锚点",
+      "context": "库存菜单可以包含菜单锚点控件来实现物品操作功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "蓝图函数",
+      "predicate": "包括",
+      "object": "打开",
+      "context": "菜单锚点的蓝图函数包括打开菜单的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图函数",
+      "predicate": "包括",
+      "object": "关闭",
+      "context": "菜单锚点的蓝图函数包括关闭菜单的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图函数",
+      "predicate": "包括",
+      "object": "切换打开",
+      "context": "菜单锚点的蓝图函数包括切换菜单打开状态的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MyCharacter蓝图",
+      "predicate": "控制",
+      "object": "HUD控件",
+      "context": "MyCharacter蓝图可以控制HUD控件的显示和隐藏",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "HUD控件",
+      "predicate": "包含",
+      "object": "菜单锚点",
+      "context": "HUD控件可以包含菜单锚点来实现交互功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "OnClick事件",
+      "predicate": "触发",
+      "object": "打开菜单",
+      "context": "按钮的OnClick事件可以触发菜单锚点打开菜单",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:20:44.185Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8962,
+    "contentLength": 5352,
+    "processingTimeMs": 49400
+  }
+}

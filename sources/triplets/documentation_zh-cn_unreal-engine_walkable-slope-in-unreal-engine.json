@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_walkable-slope-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_walkable-slope-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "物理形体",
+      "predicate": "包含",
+      "object": "可行走斜面重写",
+      "context": "物理形体上的可行走斜面重写属性用于调整角色能行走的表面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Character Movement 组件",
+      "predicate": "拥有",
+      "object": "Walkable Floor Angle",
+      "context": "Character Movement 组件默认包含Walkable Floor Angle属性，用于控制角色行走的斜面角度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可行走斜面重写",
+      "predicate": "控制",
+      "object": "Walkable Slope Behavior",
+      "context": "可行走斜面重写通过Walkable Slope Behavior属性来调整角色的行走行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可行走斜面重写",
+      "predicate": "控制",
+      "object": "Walkable Slope Angle",
+      "context": "可行走斜面重写通过Walkable Slope Angle属性来调整角色的行走角度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Walkable Slope Behavior",
+      "predicate": "包含",
+      "object": "Increase Walkable Slope",
+      "context": "Walkable Slope Behavior属性包含Increase Walkable Slope选项，用于增加可行走斜面角度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Walkable Slope Behavior",
+      "predicate": "包含",
+      "object": "Decrease Walkable Slope",
+      "context": "Walkable Slope Behavior属性包含Decrease Walkable Slope选项，用于减小可行走斜面角度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Increase Walkable Slope",
+      "predicate": "影响",
+      "object": "角色行走",
+      "context": "Increase Walkable Slope设置允许角色在更陡的斜面上行走",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Decrease Walkable Slope",
+      "predicate": "影响",
+      "object": "角色行走",
+      "context": "Decrease Walkable Slope设置限制角色在更陡的斜面上行走",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Walkable Slope Angle",
+      "predicate": "决定",
+      "object": "角色行走角度",
+      "context": "Walkable Slope Angle属性决定了角色能够行走的斜面角度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Walkable Floor Angle",
+      "predicate": "默认",
+      "object": "45度",
+      "context": "Walkable Floor Angle属性默认设置为约45度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可行走斜面重写",
+      "predicate": "用于",
+      "object": "调整角色行走",
+      "context": "可行走斜面重写用于调整角色能行走的表面，如楼梯或禁止践踏的区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理形体",
+      "predicate": "关联",
+      "object": "角色",
+      "context": "物理形体上的可行走斜面重写属性直接影响角色的行走行为",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:31:17.181Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4350,
+    "contentLength": 3160,
+    "processingTimeMs": 33869
+  }
+}

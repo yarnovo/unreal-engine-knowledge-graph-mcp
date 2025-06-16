@@ -1,0 +1,147 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_create-an-automation-project-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_create-an-automation-project-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "自动化项目",
+      "predicate": "创建方式",
+      "object": "C#类库",
+      "context": "自动化项目需要通过创建C#类库来实现，这是构建自动化脚本的基础步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化项目",
+      "predicate": "依赖",
+      "object": ".NET 6.0",
+      "context": "自动化项目必须以.NET 6.0为目标框架，否则会发生错误",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化项目",
+      "predicate": "命名规范",
+      "object": "<SCRIPT_NAME>.Automation",
+      "context": "自动化项目需要遵循特定的命名规范以便被虚幻自动化工具正确识别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "原生项目",
+      "predicate": "位置要求",
+      "object": "<UNREAL_ENGINE_ROOT>\\Engine\\Source\\Programs",
+      "context": "原生项目的自动化项目必须放置在引擎源目录的特定位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "外来项目",
+      "predicate": "位置要求",
+      "object": "<PROJECT_ROOT>\\Build\\Scripts",
+      "context": "外来项目的自动化项目需要放置在项目Build目录下的特定位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化项目",
+      "predicate": "需要配置",
+      "object": "构建设置",
+      "context": "自动化项目需要调整构建设置，如将Release配置改为Development",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化项目",
+      "predicate": "需要配置",
+      "object": "项目属性",
+      "context": "自动化项目需要配置输出路径等属性才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化项目",
+      "predicate": "依赖",
+      "object": "AutomationUtils.Automation",
+      "context": "自动化项目需要引用AutomationUtils.Automation才能使用虚幻自动化工具的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化脚本",
+      "predicate": "继承自",
+      "object": "BuildCommand",
+      "context": "所有自动化脚本命令都需要继承自BuildCommand基类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化脚本",
+      "predicate": "包含",
+      "object": "ExecuteBuild方法",
+      "context": "自动化脚本必须实现ExecuteBuild方法来定义命令的执行逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化脚本",
+      "predicate": "支持",
+      "object": "命令行参数解析",
+      "context": "自动化脚本可以通过ParseParamInt等方法解析命令行参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化脚本",
+      "predicate": "支持",
+      "object": "日志记录",
+      "context": "自动化脚本可以使用LogInformation等方法进行日志记录",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化脚本",
+      "predicate": "支持",
+      "object": "帮助文档",
+      "context": "自动化脚本可以通过Help属性为命令添加帮助文档",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RunUAT.bat",
+      "predicate": "用于执行",
+      "object": "自动化脚本",
+      "context": "RunUAT.bat是执行自动化脚本的命令行工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GenerateProjectFiles.bat",
+      "predicate": "用于生成",
+      "object": "Ue5.sln",
+      "context": "GenerateProjectFiles.bat用于生成Visual Studio解决方案文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Visual Studio",
+      "predicate": "用于开发",
+      "object": "自动化项目",
+      "context": "自动化项目需要在Visual Studio中进行开发和配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:37:45.158Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8413 字符)",
+      "timestamp": "2025-06-15T18:36:45.875Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 11744,
+    "contentLength": 8413,
+    "processingTimeMs": 59292
+  }
+}

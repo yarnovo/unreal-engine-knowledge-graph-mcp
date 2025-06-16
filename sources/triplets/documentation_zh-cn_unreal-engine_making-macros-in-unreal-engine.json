@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_making-macros-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_making-macros-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "宏",
+      "predicate": "类似于",
+      "object": "可折叠图表",
+      "context": "宏和蓝图节点中的可折叠图表具有相同的功能，都有进入点和离开点，用于简化蓝图设计",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "宏",
+      "predicate": "包含",
+      "object": "执行引脚",
+      "context": "宏可以包含任意数量的执行或数据引脚，这些引脚在宏节点上可见",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "宏",
+      "predicate": "用于",
+      "object": "检查角色能量",
+      "context": "在教程中创建的宏用于检查角色是否有足够能量进行跳跃",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EnergyCheck宏",
+      "predicate": "包含",
+      "object": "BeginCheck输入",
+      "context": "EnergyCheck宏有一个名为BeginCheck的执行输入引脚，用于启动宏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EnergyCheck宏",
+      "predicate": "包含",
+      "object": "HasEnergy输出",
+      "context": "EnergyCheck宏有一个名为HasEnergy的执行输出引脚，表示角色有足够能量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EnergyCheck宏",
+      "predicate": "包含",
+      "object": "NoEnergy输出",
+      "context": "EnergyCheck宏有一个名为NoEnergy的执行输出引脚，表示角色能量不足",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EnergyCheck宏",
+      "predicate": "依赖",
+      "object": "Energy变量",
+      "context": "EnergyCheck宏依赖一个名为Energy的浮点变量来检查角色能量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Energy变量",
+      "predicate": "类型为",
+      "object": "浮点",
+      "context": "Energy变量是一个浮点类型的变量，用于存储角色的能量值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EnergyCheck宏",
+      "predicate": "使用",
+      "object": "Branch节点",
+      "context": "EnergyCheck宏使用Branch节点来判断角色是否有足够能量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Branch节点",
+      "predicate": "基于",
+      "object": "Greater运算符",
+      "context": "Branch节点的条件基于Greater运算符，用于比较Energy变量是否大于0",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EnergyCheck宏",
+      "predicate": "使用",
+      "object": "Subtract节点",
+      "context": "EnergyCheck宏使用Subtract节点从Energy变量中减去10",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EnergyCheck宏",
+      "predicate": "使用",
+      "object": "PrintString节点",
+      "context": "EnergyCheck宏使用PrintString节点在屏幕上显示能量值或能量不足的消息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PrintString节点",
+      "predicate": "依赖",
+      "object": "Conv_DoubleToString节点",
+      "context": "PrintString节点依赖Conv_DoubleToString节点将Energy变量的浮点值转换为字符串",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EnergyCheck宏",
+      "predicate": "连接",
+      "object": "InputAction Jump",
+      "context": "EnergyCheck宏连接到InputAction Jump的Pressed引脚，在跳跃前检查能量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "宏",
+      "predicate": "提高",
+      "object": "蓝图可读性",
+      "context": "使用宏可以将复杂的脚本合并为一个节点，提高蓝图的易读性和可维护性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "宏",
+      "predicate": "可重用",
+      "object": "多个场景",
+      "context": "宏可以在多个场景中重用，例如检查能量是否足够执行攻击等其他动作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "BP_ThirdPersonCharacter",
+      "predicate": "包含",
+      "object": "EnergyCheck宏",
+      "context": "BP_ThirdPersonCharacter蓝图中包含了EnergyCheck宏，用于管理角色的能量消耗",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图第三人称项目",
+      "predicate": "包含",
+      "object": "BP_ThirdPersonCharacter",
+      "context": "蓝图第三人称项目模板包含了BP_ThirdPersonCharacter蓝图，用于控制第三人称角色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "初学者内容包",
+      "predicate": "用于",
+      "object": "蓝图第三人称项目",
+      "context": "教程中使用的示例基于启用了初学者内容包的蓝图第三人称项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:49:45.135Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (101084 字符)",
+      "timestamp": "2025-06-15T19:48:31.835Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 103736,
+    "contentLength": 101084,
+    "processingTimeMs": 73309
+  }
+}

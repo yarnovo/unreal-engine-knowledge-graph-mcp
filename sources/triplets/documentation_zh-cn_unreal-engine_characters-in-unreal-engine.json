@@ -1,0 +1,101 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_characters-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_characters-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "角色",
+      "predicate": "继承自",
+      "object": "Pawn",
+      "context": "角色类是通过扩展Pawn类并添加特定组件而形成的，理解这一继承关系有助于掌握角色在游戏框架中的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色",
+      "predicate": "包含",
+      "object": "CharacterMovementComponent",
+      "context": "CharacterMovementComponent是实现角色移动功能的核心组件，学习角色必须理解其移动组件的工作原理",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色",
+      "predicate": "包含",
+      "object": "CapsuleComponent",
+      "context": "胶囊体组件处理角色的碰撞检测，是角色物理交互的基础",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色",
+      "predicate": "包含",
+      "object": "SkeletalMeshComponent",
+      "context": "骨架网格体组件使角色能够展示高级动画效果，是角色视觉表现的关键",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CharacterMovementComponent",
+      "predicate": "控制",
+      "object": "角色移动",
+      "context": "该组件专门控制角色的各种移动方式，包括行走、跑动、跳跃等，是角色行为系统的核心",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CapsuleComponent",
+      "predicate": "用于",
+      "object": "运动碰撞",
+      "context": "胶囊体形状特别适合角色移动时的碰撞检测，理解这一点有助于设计角色的物理交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SkeletalMeshComponent",
+      "predicate": "支持",
+      "object": "骨架动画",
+      "context": "该组件使角色能够使用复杂的骨架动画系统，是角色动画实现的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CharacterMovementComponent",
+      "predicate": "依赖",
+      "object": "CapsuleComponent",
+      "context": "移动组件需要胶囊体组件提供的碰撞信息来进行移动计算，这两个组件有紧密的协作关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "角色",
+      "predicate": "属于",
+      "object": "Gameplay Framework",
+      "context": "角色是虚幻引擎游戏框架中的重要组成部分，理解这一归属关系有助于掌握引擎的整体架构",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "SkeletalMeshComponent",
+      "predicate": "关联",
+      "object": "骨架网格体动画系统",
+      "context": "要充分发挥骨架网格体组件的功能，需要进一步学习虚幻引擎的动画系统",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "CharacterMovementComponent",
+      "predicate": "处理",
+      "object": "根运动",
+      "context": "该组件能够处理来自动画的根运动数据，并将其转换为物理运动，这是动画与物理交互的重要机制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:21:40.233Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3300,
+    "contentLength": 2328,
+    "processingTimeMs": 53089
+  }
+}

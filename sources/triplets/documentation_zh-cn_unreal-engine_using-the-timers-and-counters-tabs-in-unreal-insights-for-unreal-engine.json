@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-the-timers-and-counters-tabs-in-unreal-insights-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-the-timers-and-counters-tabs-in-unreal-insights-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Unreal Insights",
+      "predicate": "包含",
+      "object": "计时器面板",
+      "context": "计时器面板是Unreal Insights的核心功能模块之一，用于分析计时器事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "包含",
+      "object": "计数器面板",
+      "context": "计数器面板是Unreal Insights的核心功能模块之一，用于分析统计数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "计时器面板",
+      "predicate": "支持",
+      "object": "聚合模式",
+      "context": "计时器面板提供多种聚合模式来分析计时器数据，这对性能分析至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "聚合模式",
+      "predicate": "包含",
+      "object": "实例模式",
+      "context": "实例模式是聚合模式的一种，用于逐计时器实例计算统计数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "聚合模式",
+      "predicate": "包含",
+      "object": "游戏帧模式",
+      "context": "游戏帧模式是聚合模式的一种，用于逐游戏帧计算统计数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "聚合模式",
+      "predicate": "包含",
+      "object": "渲染帧模式",
+      "context": "渲染帧模式是聚合模式的一种，用于逐渲染帧计算统计数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "计时器面板",
+      "predicate": "支持",
+      "object": "导出功能",
+      "context": "计时器面板提供多种导出选项，便于分析数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导出功能",
+      "predicate": "包含",
+      "object": "导出时序事件",
+      "context": "导出时序事件是导出功能的一部分，用于将时序事件导出为文本文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "计时器面板",
+      "predicate": "显示",
+      "object": "CPU计时器的源文件",
+      "context": "计时器面板可以显示CPU计时器的源文件和行号，这对调试很有帮助",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "计数器面板",
+      "predicate": "支持",
+      "object": "1/帧计数器",
+      "context": "计数器面板支持1/帧计数器，用于分析每帧的最后一个值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "计数器面板",
+      "predicate": "支持",
+      "object": "窗口性能计数器",
+      "context": "计数器面板可以显示窗口性能计数器，前提是满足特定条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "包含",
+      "object": "调用者和被调用者面板",
+      "context": "调用者和被调用者面板用于显示任务事件的层级列表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调用者和被调用者面板",
+      "predicate": "显示",
+      "object": "任务事件层级",
+      "context": "该面板可以显示任务事件的层级关系，帮助理解任务调用关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产加载时间",
+      "predicate": "依赖",
+      "object": "UObject::Serialize",
+      "context": "资产加载时间通道需要为UObject::Serialize启用CPU计时器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图名称追踪",
+      "predicate": "依赖",
+      "object": "statnamedevents参数",
+      "context": "启用蓝图名称追踪需要在命令行中指定statnamedevents参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "计时器面板",
+      "predicate": "关联",
+      "object": "时序面板",
+      "context": "计时器面板显示的是在时序面板中高亮范围内发生的事件",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "计数器面板",
+      "predicate": "关联",
+      "object": "计时器面板",
+      "context": "计数器面板显示与计时器面板相同时间段内的统计数据",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "实例模式",
+      "predicate": "计算",
+      "object": "非独占帧时间",
+      "context": "在实例模式下会计算计时器实例的总非独占时长",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "实例模式",
+      "predicate": "计算",
+      "object": "独占帧时间",
+      "context": "在实例模式下会计算计时器实例的总独占时长",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏帧模式",
+      "predicate": "计算",
+      "object": "平均非独占时间",
+      "context": "在游戏帧模式下会计算每帧的平均非独占时长",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:26:01.227Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11587 字符)",
+      "timestamp": "2025-06-15T21:25:07.043Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19157,
+    "contentLength": 11587,
+    "processingTimeMs": 54188
+  }
+}

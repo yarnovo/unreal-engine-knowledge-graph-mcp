@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_physics-asset-editor-in-unreal-engine---constraints-graph",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_physics-asset-editor-in-unreal-engine---constraints-graph.md",
+  "triples": [
+    {
+      "subject": "约束图",
+      "predicate": "显示",
+      "object": "约束连接",
+      "context": "约束图用于可视化物理资产中形体间的约束关系，帮助开发者理解和管理复杂的物理交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "约束图",
+      "predicate": "关联",
+      "object": "骨架树",
+      "context": "约束图与骨架树协同工作，骨架树中的选择会实时反映在约束图中，形成完整的物理资产编辑工作流",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "约束图",
+      "predicate": "支持",
+      "object": "引脚拖动连接",
+      "context": "通过引脚拖动功能可以直观地创建新约束，这是学习物理系统连接方式的重要交互手段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "形体",
+      "predicate": "包含",
+      "object": "基本形状",
+      "context": "理解形体由基本形状组成是学习物理模拟的基础，约束图中会显示每个形体使用的基本形状数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "约束",
+      "predicate": "连接",
+      "object": "形体",
+      "context": "约束定义了两个形体之间的物理关系，这是学习角色物理动画和刚体动力学的重要概念",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "配置文件",
+      "predicate": "应用于",
+      "object": "形体",
+      "context": "物理动画配置文件可以批量设置形体属性，这是高效管理多个物理参数的重要技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "配置文件",
+      "predicate": "应用于",
+      "object": "约束",
+      "context": "约束配置文件可以标准化多个约束的参数设置，这对保持物理系统一致性很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "约束图",
+      "predicate": "可视化",
+      "object": "配置文件状态",
+      "context": "通过颜色编码显示配置文件的指定状态，帮助学习者快速识别哪些元素已应用特定配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架树",
+      "predicate": "控制",
+      "object": "约束图显示内容",
+      "context": "在骨架树中选择不同形体或约束会改变约束图的显示，这种联动关系是理解编辑器工作流程的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理资产编辑器",
+      "predicate": "包含",
+      "object": "约束图",
+      "context": "约束图是物理资产编辑器的核心组件之一，学习物理系统需要掌握这个工具的使用方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理动画",
+      "predicate": "依赖",
+      "object": "形体配置",
+      "context": "实现高质量的物理动画效果需要正确配置形体属性，这是物理动画开发的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "约束创建",
+      "predicate": "可通过",
+      "object": "右击菜单",
+      "context": "提供多种约束创建方式有助于学习者选择最适合自己工作流程的方法",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:21:45.478Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7355,
+    "contentLength": 5339,
+    "processingTimeMs": 44242
+  }
+}

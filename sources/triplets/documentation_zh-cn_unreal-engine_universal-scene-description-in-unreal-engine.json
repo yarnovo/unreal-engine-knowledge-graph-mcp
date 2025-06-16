@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_universal-scene-description-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_universal-scene-description-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "通用场景描述(USD)",
+      "predicate": "开发于",
+      "object": "皮克斯(Pixar)",
+      "context": "USD是由皮克斯开发的开源格式，用于3D场景数据的交换和增强",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通用场景描述(USD)",
+      "predicate": "支持",
+      "object": "多应用程序协作",
+      "context": "USD提供了一种通用语言，使多个3D应用程序之间可以迁移大量数据，促进多人协作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "通用场景描述(USD)",
+      "context": "虚幻引擎通过USD舞台面板和Python工作流提供对USD的支持",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD舞台",
+      "predicate": "包含",
+      "object": "图元",
+      "context": "USD舞台将3D数据呈现为图元，包括静态网格体、骨骼网格体、材质等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD舞台",
+      "predicate": "支持",
+      "object": "非破坏性属性编辑",
+      "context": "USD舞台允许非破坏性地编辑属性，保持原始数据的完整性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD舞台",
+      "predicate": "支持",
+      "object": "实时更新",
+      "context": "USD舞台可以处理磁盘上源USD文件的实时更新",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD舞台",
+      "predicate": "生成",
+      "object": "关卡序列",
+      "context": "USD舞台可以生成关卡序列，用于访问和编辑存储在USD文件中的动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD舞台",
+      "predicate": "支持",
+      "object": "Python脚本",
+      "context": "USD舞台支持通过Python脚本进行批处理操作和场景编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD舞台",
+      "predicate": "支持",
+      "object": "多用户编辑",
+      "context": "USD舞台支持多用户编辑，包括添加、删除和编辑图元等操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD导入器插件",
+      "predicate": "启用",
+      "object": "USD功能",
+      "context": "在虚幻编辑器中使用USD文件前，需要启用USD导入器插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python脚本",
+      "predicate": "用于",
+      "object": "自动化操作",
+      "context": "Python脚本可以用于自动化隐藏或编辑大量图元的属性等操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD运行时支持",
+      "predicate": "通过",
+      "object": "蓝图节点",
+      "context": "虚幻引擎支持在运行时通过调用蓝图节点加载USD文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Nvidia MDL",
+      "predicate": "支持",
+      "object": "USD表面材质",
+      "context": "虚幻引擎使用Nvidia MDL USD模式支持MDL表面材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD舞台Actor",
+      "predicate": "充当",
+      "object": "USD文件容器",
+      "context": "USD舞台Actor充当已加载USD文件内容的容器，并为关卡中的该数据提供锚点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USD舞台编辑器",
+      "predicate": "用于",
+      "object": "可视化USD场景",
+      "context": "USD舞台编辑器提供场景图和层级的可视化，帮助开发者理解和编辑USD内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:06:41.133Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (17955 字符)",
+      "timestamp": "2025-06-15T21:05:58.571Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 24781,
+    "contentLength": 17955,
+    "processingTimeMs": 42567
+  }
+}

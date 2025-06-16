@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_preparing-unreal-engine-projects-for-release",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_preparing-unreal-engine-projects-for-release.md",
+  "triples": [
+    {
+      "subject": "虚幻编辑器",
+      "predicate": "包含",
+      "object": "工具栏",
+      "context": "工具栏是虚幻编辑器界面的一部分，用于访问各种功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具栏",
+      "predicate": "包含",
+      "object": "平台按钮",
+      "context": "平台按钮位于工具栏中，用于访问平台相关功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平台按钮",
+      "predicate": "用于",
+      "object": "打开项目启动程序",
+      "context": "通过点击平台按钮可以选择打开项目启动程序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目启动程序",
+      "predicate": "用于",
+      "object": "打包项目",
+      "context": "项目启动程序是打包项目发布版本的主要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "打包项目",
+      "predicate": "包含",
+      "object": "构建",
+      "context": "构建是打包过程中的一个重要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "打包项目",
+      "predicate": "包含",
+      "object": "烘焙",
+      "context": "烘焙是打包过程中的一个重要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "打包项目",
+      "predicate": "包含",
+      "object": "打包",
+      "context": "打包是打包过程中的最后一个步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "构建",
+      "predicate": "支持",
+      "object": "发行配置",
+      "context": "构建可以设置为发行配置，用于生成发布版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "烘焙",
+      "predicate": "支持",
+      "object": "按常规方法",
+      "context": "烘焙可以选择按常规方法进行，这是一种标准的烘焙方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "烘焙",
+      "predicate": "生成",
+      "object": "本地化内容",
+      "context": "烘焙过程可以生成针对不同文化的本地化内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "打包",
+      "predicate": "生成",
+      "object": "pak文件",
+      "context": "打包过程会生成pak文件，用于发布版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目启动程序",
+      "predicate": "支持",
+      "object": "自定义启动配置文件",
+      "context": "项目启动程序允许创建自定义启动配置文件，以适应不同的打包需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义启动配置文件",
+      "predicate": "包含",
+      "object": "构建设置",
+      "context": "自定义启动配置文件中可以设置构建相关的参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义启动配置文件",
+      "predicate": "包含",
+      "object": "烘焙设置",
+      "context": "自定义启动配置文件中可以设置烘焙相关的参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义启动配置文件",
+      "predicate": "包含",
+      "object": "打包设置",
+      "context": "自定义启动配置文件中可以设置打包相关的参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻自动化工具",
+      "predicate": "用于",
+      "object": "编译版本",
+      "context": "虚幻自动化工具可以编译为版本的一部分，用于自动化任务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发布版本",
+      "predicate": "包含",
+      "object": "版本号",
+      "context": "发布版本需要指定版本号，用于版本管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "打包",
+      "predicate": "支持",
+      "object": "压缩内容",
+      "context": "打包过程可以启用内容压缩，以减少发布包的大小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "打包",
+      "predicate": "支持",
+      "object": "存储到单个文件",
+      "context": "打包过程可以将所有内容存储到单个文件（UnrealPak）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目启动程序",
+      "predicate": "支持",
+      "object": "多平台打包",
+      "context": "项目启动程序可以针对不同平台进行打包，如Windows、移动设备等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:27:57.830Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8244,
+    "contentLength": 6206,
+    "processingTimeMs": 51724
+  }
+}

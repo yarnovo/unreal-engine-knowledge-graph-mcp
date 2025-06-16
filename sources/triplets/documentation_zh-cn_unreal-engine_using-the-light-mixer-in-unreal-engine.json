@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-the-light-mixer-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-the-light-mixer-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "光源混合器",
+      "predicate": "补充",
+      "object": "环境光源混合器",
+      "context": "光源混合器专注于标准光源类型管理，而环境光源混合器专注于环境光照组件，两者功能互补",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源混合器",
+      "predicate": "包含",
+      "object": "工具栏",
+      "context": "工具栏是光源混合器界面的核心组件，提供添加光源、过滤光源等核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源混合器",
+      "predicate": "包含",
+      "object": "光源混合器面板",
+      "context": "面板显示当前关卡中的所有光源，是进行光源管理的主要界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具栏",
+      "predicate": "支持",
+      "object": "同步选择",
+      "context": "同步选择功能实现光源混合器与大纲视图的选择行为同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具栏",
+      "predicate": "包含",
+      "object": "设置菜单",
+      "context": "设置菜单提供列表视图配置和重建列表等功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源混合器",
+      "predicate": "支持",
+      "object": "光源集合",
+      "context": "光源集合功能允许对光源进行分组管理，提高工作效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源混合器",
+      "predicate": "支持",
+      "object": "自定义光源属性",
+      "context": "用户可以自定义在面板中显示的光源属性，适应不同工作流程需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源混合器",
+      "predicate": "管理",
+      "object": "光源可视性",
+      "context": "通过眼睛图标可以切换光源的可视性，便于非破坏性地调整场景光照",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源混合器",
+      "predicate": "支持",
+      "object": "隔离光源",
+      "context": "单独(Solo)功能可以隔离选定光源，便于分析特定光源的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源混合器",
+      "predicate": "支持",
+      "object": "批量编辑",
+      "context": "可以同时选择和编辑多个光源的共享属性，提高工作效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源混合器",
+      "predicate": "支持",
+      "object": "光源替换",
+      "context": "可以将选定的光源替换为其他光源或Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源混合器",
+      "predicate": "支持",
+      "object": "蓝图光源",
+      "context": "可以识别和管理蓝图中的光源组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源混合器",
+      "predicate": "支持",
+      "object": "Actor光源组件",
+      "context": "可以识别和管理作为其他Actor组件的光源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源集合",
+      "predicate": "继承自",
+      "object": "集合系统",
+      "context": "光源集合基于虚幻引擎的通用集合系统实现",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "环境光源混合器",
+      "predicate": "管理",
+      "object": "天空光照",
+      "context": "环境光源混合器专注于管理天空光照等环境光照组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源混合器",
+      "predicate": "基于",
+      "object": "通用对象混合器",
+      "context": "光源混合器是基于通用对象混合器构建的专用工具",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "光源混合器",
+      "predicate": "支持",
+      "object": "多种光源类型",
+      "context": "可以管理定向光源、聚光源、点光源和矩形区域光源等多种光源类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源混合器",
+      "predicate": "关联",
+      "object": "大纲视图",
+      "context": "通过同步选择功能与大纲视图保持交互一致性",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源混合器",
+      "predicate": "关联",
+      "object": "细节面板",
+      "context": "光源混合器与细节面板配合使用，提供更高效的光源编辑工作流",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:24:53.117Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (14443 字符)",
+      "timestamp": "2025-06-15T21:24:03.940Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 22125,
+    "contentLength": 14443,
+    "processingTimeMs": 49181
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_mutable-real-time-morphs-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_mutable-real-time-morphs-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Mutable",
+      "predicate": "支持",
+      "object": "实时变形目标",
+      "context": "Mutable不仅可以处理烘焙变形，还能向生成的网格体添加实时变形目标，这是其核心功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "实时变形目标",
+      "predicate": "需要启用",
+      "object": "编译选项",
+      "context": "要在Mutable中使用实时变形目标，必须在每个可自定义对象的编译选项中显式启用此功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编译选项",
+      "predicate": "位于",
+      "object": "对象属性选项卡",
+      "context": "启用实时变形目标的编译选项位于对象属性选项卡中，这是配置Mutable功能的重要界面位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形目标选择",
+      "predicate": "包含方法",
+      "object": "SkeletalMesh节点",
+      "context": "SkeletalMesh节点提供了一种选择变形目标的方法，这是三种主要选择方式之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形目标选择",
+      "predicate": "包含方法",
+      "object": "表格",
+      "context": "使用数据表时，变形目标的选择依赖于默认骨骼网格体的设置，这是第二种选择方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形目标选择",
+      "predicate": "包含方法",
+      "object": "全局选择",
+      "context": "全局选择允许为图表中的所有网格体统一选择变形目标，这是第三种选择方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SkeletalMesh节点",
+      "predicate": "显示",
+      "object": "变形目标列表",
+      "context": "在SkeletalMesh节点的属性视图中，会显示骨骼网格体中找到的所有变形目标，供开发者选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "表格",
+      "predicate": "依赖",
+      "object": "默认骨骼网格体",
+      "context": "使用表格选择变形目标时，系统会参考默认骨骼网格体的变形目标列表来确定选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全局选择",
+      "predicate": "通过",
+      "object": "节点属性面板",
+      "context": "全局选择功能需要在图表根基础对象的节点属性面板中进行配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "实时变形重载选择",
+      "predicate": "提供选项",
+      "object": "无重载/启用/禁用",
+      "context": "全局选择功能提供了三种重载选项来控制变形目标的选择行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体重载",
+      "predicate": "优先于",
+      "object": "变形目标重载",
+      "context": "在冲突情况下，针对特定骨骼网格体的重载设置会覆盖全局的变形目标重载设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成的网格体",
+      "predicate": "包含",
+      "object": "常规骨骼网格体变形目标",
+      "context": "Mutable生成的网格体中的实时变形目标与常规骨骼网格体变形目标性质相同，工作流程也一致",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体查看器",
+      "predicate": "用于检查",
+      "object": "变形目标预览",
+      "context": "开发者可以使用骨骼网格体查看器的变形目标预览选项卡来检查生成的网格体中使用的变形目标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "实时变形目标",
+      "predicate": "是",
+      "object": "Beta功能",
+      "context": "文档明确指出实时变形目标目前是Beta功能，在产品发布中需要谨慎使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "相同名称变形目标",
+      "predicate": "会合并",
+      "object": "受影响顶点",
+      "context": "当构成生成网格体的多个网格体存在同名变形目标时，这些变形目标会自动合并，统一驱动相关顶点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:03:04.421Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5634,
+    "contentLength": 3526,
+    "processingTimeMs": 54936
+  }
+}

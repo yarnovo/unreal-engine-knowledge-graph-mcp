@@ -1,0 +1,259 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_horde-schema-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_horde-schema-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Horde Schema",
+      "predicate": "包含",
+      "object": "ACL Actions",
+      "context": "ACL Actions是Horde Schema的核心组成部分，定义了权限控制相关的操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ACL Actions",
+      "predicate": "包含",
+      "object": "Accounts",
+      "context": "Accounts是ACL Actions的子模块，处理账户相关的权限操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ACL Actions",
+      "predicate": "包含",
+      "object": "Agents",
+      "context": "Agents是ACL Actions的子模块，处理代理相关的权限操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ACL Actions",
+      "predicate": "包含",
+      "object": "Compute",
+      "context": "Compute是ACL Actions的子模块，处理计算任务相关的权限操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde Schema",
+      "predicate": "包含",
+      "object": "Dashboard",
+      "context": "Dashboard是Horde Schema的配置部分，定义了仪表板的功能设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Dashboard",
+      "predicate": "包含",
+      "object": "DashboardAgentCategoryConfig",
+      "context": "DashboardAgentCategoryConfig是Dashboard的子配置，用于定义代理分类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Dashboard",
+      "predicate": "包含",
+      "object": "DashboardPoolCategoryConfig",
+      "context": "DashboardPoolCategoryConfig是Dashboard的子配置，用于定义池分类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde Schema",
+      "predicate": "包含",
+      "object": "Globals",
+      "context": "Globals是Horde Schema的全局配置部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Globals",
+      "predicate": "包含",
+      "object": "ComputeConfig",
+      "context": "ComputeConfig是Globals的子配置，定义了计算系统的设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ComputeConfig",
+      "predicate": "依赖",
+      "object": "AclConfig",
+      "context": "ComputeConfig使用AclConfig来定义访问控制列表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ComputeConfig",
+      "predicate": "包含",
+      "object": "PoolConfig",
+      "context": "PoolConfig是ComputeConfig的子配置，定义了池的设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PoolConfig",
+      "predicate": "使用",
+      "object": "PoolSizeStrategy",
+      "context": "PoolConfig使用PoolSizeStrategy来定义池大小调整策略",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde Schema",
+      "predicate": "包含",
+      "object": "Project",
+      "context": "Project是Horde Schema的项目配置部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Project",
+      "predicate": "包含",
+      "object": "Stream",
+      "context": "Stream是Project的子配置，定义了流的相关设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Stream",
+      "predicate": "使用",
+      "object": "JobOptions",
+      "context": "Stream使用JobOptions来定义作业执行的默认设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "JobOptions",
+      "predicate": "包含",
+      "object": "JobContainerOptions",
+      "context": "JobContainerOptions是JobOptions的子配置，定义了容器执行选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde Schema",
+      "predicate": "包含",
+      "object": "Telemetry",
+      "context": "Telemetry是Horde Schema的遥测配置部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Telemetry",
+      "predicate": "包含",
+      "object": "MetricConfig",
+      "context": "MetricConfig是Telemetry的子配置，定义了要聚合的指标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetricConfig",
+      "predicate": "使用",
+      "object": "AggregationFunction",
+      "context": "MetricConfig使用AggregationFunction来定义如何聚合样本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AclConfig",
+      "predicate": "包含",
+      "object": "AclEntryConfig",
+      "context": "AclEntryConfig是AclConfig的条目配置，定义单个ACL条目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AclEntryConfig",
+      "predicate": "使用",
+      "object": "AclClaimConfig",
+      "context": "AclEntryConfig使用AclClaimConfig来定义用户或组的声明",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AclConfig",
+      "predicate": "包含",
+      "object": "AclProfileConfig",
+      "context": "AclProfileConfig是AclConfig的子配置，定义预设的权限组",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PoolConfig",
+      "predicate": "使用",
+      "object": "FleetManagerInfo",
+      "context": "PoolConfig使用FleetManagerInfo来定义和管理代理池的舰队管理器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FleetManagerInfo",
+      "predicate": "使用",
+      "object": "FleetManagerType",
+      "context": "FleetManagerInfo使用FleetManagerType来指定舰队管理器的类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildConfig",
+      "predicate": "包含",
+      "object": "PerforceCluster",
+      "context": "PerforceCluster是BuildConfig的子配置，定义Perforce服务器集群信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PerforceCluster",
+      "predicate": "包含",
+      "object": "PerforceServer",
+      "context": "PerforceServer是PerforceCluster的子配置，定义单个Perforce服务器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StorageConfig",
+      "predicate": "包含",
+      "object": "BackendConfig",
+      "context": "BackendConfig是StorageConfig的子配置，定义存储后端设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BackendConfig",
+      "predicate": "使用",
+      "object": "StorageBackendType",
+      "context": "BackendConfig使用StorageBackendType来指定存储后端类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TemplateRefConfig",
+      "predicate": "使用",
+      "object": "ScheduleConfig",
+      "context": "TemplateRefConfig使用ScheduleConfig来定义模板的调度参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ScheduleConfig",
+      "predicate": "使用",
+      "object": "ChangeContentFlags",
+      "context": "ScheduleConfig使用ChangeContentFlags来指定触发作业的变更类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:21:31.331Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (93363 字符)",
+      "timestamp": "2025-06-15T19:19:54.727Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 93465,
+    "contentLength": 93363,
+    "processingTimeMs": 96615
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_skeletal-mesh-rendering-paths-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_skeletal-mesh-rendering-paths-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "骨骼网格体",
+      "predicate": "包含",
+      "object": "分段",
+      "context": "骨骼网格体按分段分割，每个分段与一种材质相关联",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "包含",
+      "object": "数据块",
+      "context": "当分段的几何体太复杂时，会分割为数据块，影响绘制调用数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分段",
+      "predicate": "映射到",
+      "object": "材质",
+      "context": "骨骼网格体编辑器中的分段将映射到材质",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "8位骨骼索引",
+      "predicate": "支持",
+      "object": "256个骨骼",
+      "context": "8位骨骼索引最多支持每个分段256个骨骼",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "16位骨骼索引",
+      "predicate": "支持",
+      "object": "超过256个骨骼",
+      "context": "16位骨骼索引支持高于256个骨骼的任何数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU蒙皮顶点工厂",
+      "predicate": "实现",
+      "object": "骨骼网格体渲染",
+      "context": "GPU蒙皮顶点工厂是骨骼网格体的三种渲染路径之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU蒙皮顶点工厂",
+      "predicate": "支持",
+      "object": "默认骨骼影响模式",
+      "context": "GPU蒙皮顶点工厂同时支持默认骨骼影响和无限制骨骼影响模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU蒙皮顶点工厂",
+      "predicate": "支持",
+      "object": "无限制骨骼影响模式",
+      "context": "GPU蒙皮顶点工厂同时支持默认骨骼影响和无限制骨骼影响模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "皮肤缓存系统",
+      "predicate": "实现",
+      "object": "骨骼网格体渲染",
+      "context": "皮肤缓存系统是骨骼网格体的三种渲染路径之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "皮肤缓存系统",
+      "predicate": "使用",
+      "object": "计算着色器",
+      "context": "皮肤缓存系统使用计算着色器对位置和法线/切线蒙皮",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图表插件",
+      "predicate": "实现",
+      "object": "骨骼网格体渲染",
+      "context": "变形器图表插件是骨骼网格体的三种渲染路径之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图表插件",
+      "predicate": "用于",
+      "object": "GPU顶点变形管线",
+      "context": "变形器图表插件用于构造专门在GPU上运行的顶点变形管线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬件光线追踪",
+      "predicate": "依赖",
+      "object": "皮肤缓存系统",
+      "context": "硬件光线追踪需要皮肤缓存路径才能渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛发发束渲染",
+      "predicate": "依赖",
+      "object": "皮肤缓存系统",
+      "context": "毛发发束渲染需要皮肤缓存路径才能渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "皮肤缓存系统",
+      "predicate": "支持",
+      "object": "重新计算切线",
+      "context": "皮肤缓存系统支持在蒙皮通道后重新计算切线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "支持",
+      "object": "LOD",
+      "context": "骨骼网格体支持细节级别(LOD)设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "控制",
+      "object": "骨骼影响限制",
+      "context": "项目设置中可以设置全局默认的骨骼影响限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "覆盖",
+      "object": "皮肤缓存行为",
+      "context": "单独的骨骼网格体LOD可以覆盖皮肤缓存行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "皮肤缓存系统",
+      "predicate": "提供",
+      "object": "调试可视化",
+      "context": "皮肤缓存系统提供多种调试可视化工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图表插件",
+      "predicate": "处于",
+      "object": "测试版",
+      "context": "变形器图表插件目前为测试版功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:48:28.011Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15680 字符)",
+      "timestamp": "2025-06-15T20:47:35.970Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 25732,
+    "contentLength": 15680,
+    "processingTimeMs": 52052
+  }
+}

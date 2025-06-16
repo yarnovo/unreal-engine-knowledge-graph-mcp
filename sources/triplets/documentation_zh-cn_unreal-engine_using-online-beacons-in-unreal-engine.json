@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-online-beacons-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-online-beacons-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "在线信标",
+      "predicate": "派生自",
+      "object": "AActor",
+      "context": "在线信标是虚幻引擎中用于轻量级通信的特殊Actor类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线信标",
+      "predicate": "包含",
+      "object": "AOnlineBeaconClient",
+      "context": "在线信标框架包含客户端实现类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线信标",
+      "predicate": "包含",
+      "object": "AOnlineBeaconHost",
+      "context": "在线信标框架包含主机实现类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线信标",
+      "predicate": "包含",
+      "object": "AOnlineBeaconHostObject",
+      "context": "在线信标框架包含主机对象类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AOnlineBeaconClient",
+      "predicate": "用于",
+      "object": "客户端通信",
+      "context": "客户端使用此类与服务器建立连接并进行通信",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AOnlineBeaconHost",
+      "predicate": "用于",
+      "object": "服务器通信",
+      "context": "服务器使用此类管理客户端连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AOnlineBeaconHostObject",
+      "predicate": "处理",
+      "object": "客户端流量",
+      "context": "此类负责处理来自客户端的通信请求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线信标",
+      "predicate": "替代",
+      "object": "普通网络连接",
+      "context": "提供轻量级通信机制，避免使用普通UE网络游戏连接",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "在线信标",
+      "predicate": "支持",
+      "object": "RPC调用",
+      "context": "允许客户端和服务器之间进行远程过程调用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线信标",
+      "predicate": "用于",
+      "object": "计算连接ping",
+      "context": "常见用例之一",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "在线信标",
+      "predicate": "用于",
+      "object": "游戏会话预订",
+      "context": "常见用例之一",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "在线信标",
+      "predicate": "用于",
+      "object": "查询游戏信息",
+      "context": "常见用例之一",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "AOnlineBeaconClient",
+      "predicate": "依赖",
+      "object": "UNetDriver",
+      "context": "使用UNetDriver建立与服务器的连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AOnlineBeaconHost",
+      "predicate": "依赖",
+      "object": "UNetDriver",
+      "context": "使用UNetDriver监听客户端连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线信标",
+      "predicate": "需要配置",
+      "object": "DefaultEngine.ini",
+      "context": "使用前需要在引擎配置文件中进行设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "测试信标",
+      "predicate": "是",
+      "object": "示例实现",
+      "context": "引擎提供的简单在线信标实现示例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Ping信标",
+      "predicate": "是",
+      "object": "扩展实现",
+      "context": "文档提供的计算RTT的完整实现示例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线信标",
+      "predicate": "使用",
+      "object": "IpNetDriver",
+      "context": "默认使用IpNetDriver作为网络驱动程序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线信标",
+      "predicate": "记录日志",
+      "object": "LogBeacon",
+      "context": "使用专用日志类别记录网络流量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线信标实现",
+      "predicate": "涉及",
+      "object": "C++和蓝图",
+      "context": "典型实现需要结合C++和蓝图可视化脚本",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:22:03.157Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (209793 字符)",
+      "timestamp": "2025-06-15T21:20:54.776Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 217388,
+    "contentLength": 209793,
+    "processingTimeMs": 68389
+  }
+}

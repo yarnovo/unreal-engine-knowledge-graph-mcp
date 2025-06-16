@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_achievements-interface-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_achievements-interface-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "成就",
+      "predicate": "用于",
+      "object": "激励玩家",
+      "context": "成就可以作为游戏设计工具来激励玩家完成特定任务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "成就",
+      "predicate": "用于",
+      "object": "提高重玩价值",
+      "context": "成就可以增加游戏的重复可玩性，鼓励玩家多次体验",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "成就",
+      "predicate": "用于",
+      "object": "支持玩家竞争",
+      "context": "成就系统可以促进玩家之间的比较和竞争",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务成就接口",
+      "predicate": "提供",
+      "object": "成就管理工具",
+      "context": "该接口提供了读取成就定义和更新成就状态的工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "成就接口",
+      "predicate": "不处理",
+      "object": "成就创建/删除",
+      "context": "成就创建、删除和修改由各平台的后端系统处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平台服务管理",
+      "predicate": "自动解锁",
+      "object": "成就",
+      "context": "当关联统计数据达到阈值时，平台服务会自动解锁成就",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "作品管理(自动)",
+      "predicate": "自动解锁",
+      "object": "成就",
+      "context": "当统计数据达到阈值时，游戏作品会自动解锁成就",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "作品管理(手动)",
+      "predicate": "手动解锁",
+      "object": "成就",
+      "context": "通过调用UnlockAchievements函数手动解锁成就",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FAchievementDefinition",
+      "predicate": "包含",
+      "object": "成就元数据",
+      "context": "该结构体存储成就的ID、显示名称、描述、图标等元数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FAchievementStatDefinition",
+      "predicate": "定义",
+      "object": "成就解锁条件",
+      "context": "该结构体定义了成就解锁所需的统计数据和阈值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FAchievementState",
+      "predicate": "记录",
+      "object": "成就进度",
+      "context": "该结构体记录成就的解锁进度和时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "成就接口",
+      "predicate": "依赖",
+      "object": "统计数据接口",
+      "context": "自动解锁的成就需要与统计数据接口配合使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "bIsTitleManaged",
+      "predicate": "控制",
+      "object": "自动成就更新",
+      "context": "该标记决定是否基于统计数据变化自动更新成就状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnlockRules",
+      "predicate": "定义",
+      "object": "成就解锁规则",
+      "context": "配置文件中定义成就解锁的具体条件和阈值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "QueryAchievementDefinitions",
+      "predicate": "获取",
+      "object": "成就定义",
+      "context": "该函数用于查询和缓存成就定义数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "QueryAchievementStates",
+      "predicate": "获取",
+      "object": "成就状态",
+      "context": "该函数用于查询玩家的成就状态信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnlockAchievements",
+      "predicate": "执行",
+      "object": "手动解锁",
+      "context": "该函数用于手动解锁指定的成就",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnAchievementStateUpdated",
+      "predicate": "响应",
+      "object": "成就状态变更",
+      "context": "该事件在玩家成就状态发生变化时触发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "成就系统",
+      "predicate": "基于",
+      "object": "统计数据系统",
+      "context": "自动解锁的成就依赖于统计数据系统的支持",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "成就接口",
+      "predicate": "属于",
+      "object": "在线服务系统",
+      "context": "成就接口是虚幻引擎在线服务系统的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T17:51:53.581Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11094 字符)",
+      "timestamp": "2025-06-15T17:50:49.540Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15356,
+    "contentLength": 11094,
+    "processingTimeMs": 64090
+  }
+}

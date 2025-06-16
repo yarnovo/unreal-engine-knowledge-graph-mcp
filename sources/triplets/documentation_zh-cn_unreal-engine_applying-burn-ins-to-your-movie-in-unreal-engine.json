@@ -1,0 +1,77 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_applying-burn-ins-to-your-movie-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_applying-burn-ins-to-your-movie-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "烧入内容",
+      "predicate": "用于",
+      "object": "影片渲染",
+      "context": "烧入内容在渲染时被烧入影片中，为导演、剪辑师或查看片段的人士提供片段的相关信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "支持",
+      "object": "烧入内容",
+      "context": "利用Sequencer可将烧入内容应用到渲出的影片，此外还提供包含镜头总体信息的默认烧入选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DefaultBurnIn",
+      "predicate": "是",
+      "object": "默认烧入选项",
+      "context": "在Burn in Class下拉菜单中选择DefaultBurnIn可以定义烧入设置",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡序列",
+      "predicate": "包含",
+      "object": "烧入内容",
+      "context": "在关卡序列中点击渲染影片按钮，可以设置烧入内容",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Render Movie Settings",
+      "predicate": "提供",
+      "object": "Burn in Options",
+      "context": "在Render Movie Settings窗口中可以设置Burn in Options",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DefaultBurnIn",
+      "predicate": "显示",
+      "object": "场景信息",
+      "context": "默认烧入在画面上方居中显示关卡序列的名称和当前日期，当前镜头名称显示在画面上面居左位置，画面下方居中显示Master序列的时间和帧数，画面右下显示当前镜头的帧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Burn in Options",
+      "predicate": "允许",
+      "object": "自定义文本",
+      "context": "在Burn in Options中的Settings部分中即可对每个选项进行修改，显示自定义文本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图第三人称模板",
+      "predicate": "用于",
+      "object": "过场动画范例",
+      "context": "此指南中使用蓝图第三人称模板创建了一个小型过场动画范例",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:04:38.005Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3312,
+    "contentLength": 2166,
+    "processingTimeMs": 29575
+  }
+}

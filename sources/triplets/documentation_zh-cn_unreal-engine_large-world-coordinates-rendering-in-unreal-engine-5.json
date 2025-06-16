@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_large-world-coordinates-rendering-in-unreal-engine-5",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_large-world-coordinates-rendering-in-unreal-engine-5.md",
+  "triples": [
+    {
+      "subject": "大型世界坐标（LWC）",
+      "predicate": "基于",
+      "object": "DoubleFloat数学库",
+      "context": "LWC使用DoubleFloat数学库来模拟双精度浮点运算，这是理解LWC实现的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DoubleFloat数学库",
+      "predicate": "包含",
+      "object": "FDFScalar/FDFVector2/3/4",
+      "context": "这些是DoubleFloat库中的核心数据类型，用于高精度数学运算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DoubleFloat数学库",
+      "predicate": "包含",
+      "object": "FDFMatrix/FDFInverseMatrix",
+      "context": "这些矩阵类型是DoubleFloat库的重要组成部分，用于空间变换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FLWCVector",
+      "predicate": "替代",
+      "object": "DoubleFloat类型",
+      "context": "在UE5.4之前使用FLWC类型，但DoubleFloat提供了更好的精度",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质系统",
+      "predicate": "使用",
+      "object": "LWC值",
+      "context": "材质中的世界空间位置节点会输出LWC值，影响材质编写方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "转译的世界空间",
+      "predicate": "优化",
+      "object": "LWC性能",
+      "context": "使用转译的世界空间可以提高LWC的精度和性能，是重要的优化手段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE4到UE5迁移",
+      "predicate": "需要",
+      "object": "LWC适配",
+      "context": "从UE4迁移到UE5需要将着色器代码适配LWC类型，这是重要的升级考虑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FDFVector",
+      "predicate": "由...组成",
+      "object": "High和Low组件",
+      "context": "理解FDFVector的结构对于正确使用DoubleFloat库很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LWCHackToFloat",
+      "predicate": "用于",
+      "object": "兼容性转换",
+      "context": "这个函数帮助将LWC代码临时转换为非LWC代码，在迁移过程中很有用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "摄像机相对世界空间",
+      "predicate": "是",
+      "object": "转译的世界空间",
+      "context": "这两个概念指的是同一种优化技术，理解这个关系有助于材质优化",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DoubleFloat运算",
+      "predicate": "有",
+      "object": "性能成本",
+      "context": "使用DoubleFloat的数学运算比常规浮点运算更耗时，这是重要的性能考量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FLWC类型",
+      "predicate": "使用",
+      "object": "图块-偏移系统",
+      "context": "理解FLWC的图块-偏移实现方式有助于解决精度问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PrimaryView",
+      "predicate": "替换",
+      "object": "View",
+      "context": "在UE5中访问全局统一缓冲区时需要使用PrimaryView而非View",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "DFFastToTranslatedWorld",
+      "predicate": "优化",
+      "object": "空间转换",
+      "context": "这个函数提供了最高效的世界空间到转译世界空间的转换方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质图表",
+      "predicate": "仍使用",
+      "object": "图块-偏移系统",
+      "context": "尽管后端使用DoubleFloat，材质图表仍保持图块-偏移系统，这是重要的实现细节",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:43:07.905Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8684 字符)",
+      "timestamp": "2025-06-15T19:42:17.281Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14708,
+    "contentLength": 8684,
+    "processingTimeMs": 50627
+  }
+}

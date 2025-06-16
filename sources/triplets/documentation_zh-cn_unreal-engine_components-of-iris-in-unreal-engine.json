@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_components-of-iris-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_components-of-iris-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Iris复制系统",
+      "predicate": "属于",
+      "object": "虚幻引擎",
+      "context": "Iris复制系统是虚幻引擎中的一个核心组件，用于处理网络复制功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris复制系统",
+      "predicate": "依赖",
+      "object": "复制网桥",
+      "context": "复制网桥是Iris复制系统与Gameplay代码之间的桥梁，负责管理网络对象和协议的生命周期",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制网桥",
+      "predicate": "管理",
+      "object": "网络引用句柄",
+      "context": "复制网桥负责创建和管理网络引用句柄，用于唯一标识网络对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络引用句柄",
+      "predicate": "映射",
+      "object": "Gameplay实例",
+      "context": "网络引用句柄将网络对象映射到其关联的Gameplay实例（如UObject、UActorComponent或AActor）",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制网桥",
+      "predicate": "控制",
+      "object": "复制协议",
+      "context": "复制网桥在BeginReplication期间管理复制协议的创建，描述与对象关联的复制数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制协议",
+      "predicate": "共享",
+      "object": "同一类型的所有实例",
+      "context": "复制协议对同一类型的所有实例共享，描述复制的数据的各个方面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制系统",
+      "predicate": "使用",
+      "object": "复制状态",
+      "context": "复制系统使用复制状态来跟踪和管理需要通过网络复制的数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制状态",
+      "predicate": "包含",
+      "object": "脏污度跟踪",
+      "context": "复制状态包含对成员脏污度的位域跟踪，用于标识需要更新的数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris复制系统",
+      "predicate": "支持",
+      "object": "并行执行",
+      "context": "Iris通过共享工作和并行执行来提高性能和资源利用率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发送计算机",
+      "predicate": "包含",
+      "object": "发送前更新",
+      "context": "发送计算机的复制过程包括发送前更新和发送更新两个步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发送前更新",
+      "predicate": "执行",
+      "object": "状态量化",
+      "context": "发送前更新阶段会量化所有脏污状态数据，为网络传输做准备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "接收计算机",
+      "predicate": "处理",
+      "object": "数据包",
+      "context": "接收计算机处理传入的数据包，更新Gameplay对象的状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制系统",
+      "predicate": "提供",
+      "object": "API",
+      "context": "复制系统提供API用于自定义对象的复制行为，如筛选和优先级安排",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iris复制系统",
+      "predicate": "适用于",
+      "object": "多人游戏",
+      "context": "Iris复制系统专门用于处理多人游戏中的网络复制需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:30:18.191Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 12488,
+    "contentLength": 7718,
+    "processingTimeMs": 46857
+  }
+}

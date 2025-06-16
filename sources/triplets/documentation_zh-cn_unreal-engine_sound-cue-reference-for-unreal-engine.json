@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_sound-cue-reference-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_sound-cue-reference-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Sound Cue",
+      "predicate": "包含",
+      "object": "节点式图表",
+      "context": "Sound Cue是虚幻引擎中的音频资产，通过节点式图表封装复杂的声音设计逻辑，帮助音效设计人员动态调整音效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sound Cue Editor",
+      "predicate": "包含",
+      "object": "控制板面板",
+      "context": "Sound Cue Editor是编辑Sound Cue的工具，控制板面板列出了各种声音节点类型，供用户选择和使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sound Cue Editor",
+      "predicate": "包含",
+      "object": "视口面板",
+      "context": "视口面板是Sound Cue Editor的一部分，用于显示和操作节点图表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sound Cue Editor",
+      "predicate": "包含",
+      "object": "细节面板",
+      "context": "细节面板显示选中节点的属性，是配置节点参数的主要界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "命名参数",
+      "predicate": "用于",
+      "object": "动态控制节点行为",
+      "context": "命名参数允许通过蓝图或代码动态控制声音节点的行为，如分支节点的条件判断",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输出节点",
+      "predicate": "终止",
+      "object": "音频信号",
+      "context": "输出节点是Sound Cue中音频信号的终止点，影响所有音频输出的属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减节点",
+      "predicate": "控制",
+      "object": "音量随距离变化",
+      "context": "衰减节点基于声音源和听者之间的距离控制音量，模拟真实世界的声音传播效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减节点",
+      "predicate": "支持",
+      "object": "声音衰减资产",
+      "context": "衰减节点可以引用预定义的声音衰减资产，或通过重载衰减设置手动配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分支节点",
+      "predicate": "基于",
+      "object": "布尔参数",
+      "context": "分支节点根据布尔参数值选择不同的子节点路径，实现条件音频播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "连续调制器节点",
+      "predicate": "实时控制",
+      "object": "音量和音高",
+      "context": "连续调制器节点允许通过游戏进程参数实时控制音效的音量和音高变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "按距离交叉淡化节点",
+      "predicate": "实现",
+      "object": "音效淡入淡出",
+      "context": "该节点根据听者距离在不同音效之间实现平滑过渡，适用于远近不同音效的场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "按参数交叉淡化节点",
+      "predicate": "编程控制",
+      "object": "音效过渡",
+      "context": "与按距离交叉淡化类似，但过渡由代码或蓝图控制的参数驱动，提供更大灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多普勒节点",
+      "predicate": "模拟",
+      "object": "多普勒效应",
+      "context": "多普勒节点模拟声源与听者相对运动时的音高变化，如移动车辆的引擎声",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "随机节点",
+      "predicate": "选择",
+      "object": "随机音效",
+      "context": "随机节点从一组可能的音效中随机选择播放，权重值控制各音效的触发概率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "声波播放器节点",
+      "predicate": "引用",
+      "object": "声波资产",
+      "context": "声波播放器节点包含对具体声波资产的引用，是Sound Cue中播放音频的基础组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sound Cue",
+      "predicate": "使用",
+      "object": "Sound Cue Editor",
+      "context": "Sound Cue需要通过Sound Cue Editor进行编辑和配置，两者是创作和使用的关系",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减节点",
+      "predicate": "关联",
+      "object": "空间化",
+      "context": "衰减节点中的空间化设置控制3D音效的空间定位方式，影响声音的方位感",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "混音器节点",
+      "predicate": "混合",
+      "object": "多个音效",
+      "context": "混音器节点允许将多个音效混合在一起，每个输入的音量可以独立控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调制器节点",
+      "predicate": "添加",
+      "object": "随机调制",
+      "context": "调制器节点为音效添加随机音量和音高变化，增加音频的自然感和变化性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "循环节点",
+      "predicate": "重复播放",
+      "object": "音效",
+      "context": "循环节点使音效按指定次数或无限循环播放，适用于背景音乐等场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:51:00.097Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (28507 字符)",
+      "timestamp": "2025-06-15T20:49:58.384Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 50545,
+    "contentLength": 28507,
+    "processingTimeMs": 61717
+  }
+}

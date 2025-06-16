@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_referencing-assets-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_referencing-assets-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "提供",
+      "object": "资产引用机制",
+      "context": "虚幻引擎提供了多种资产引用机制，帮助开发者控制资源加载方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产引用",
+      "predicate": "分为",
+      "object": "硬性引用",
+      "context": "资产引用分为硬性引用和软性引用两种主要类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产引用",
+      "predicate": "分为",
+      "object": "软性引用",
+      "context": "资产引用分为硬性引用和软性引用两种主要类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬性引用",
+      "predicate": "导致",
+      "object": "自动加载",
+      "context": "硬性引用会导致被引用对象在引用对象加载时自动加载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "软性引用",
+      "predicate": "使用",
+      "object": "间接机制",
+      "context": "软性引用通过字符串路径等间接机制引用对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "直接属性引用",
+      "predicate": "实现方式",
+      "object": "UPROPERTY宏",
+      "context": "直接属性引用通过UPROPERTY宏实现，允许设计人员在蓝图中指定资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "构造时引用",
+      "predicate": "使用",
+      "object": "ConstructorHelpers类",
+      "context": "构造时引用使用ConstructorHelpers类在对象构造阶段查找和加载资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "间接属性引用",
+      "predicate": "使用",
+      "object": "TSoftObjectPtr",
+      "context": "间接属性引用使用TSoftObjectPtr模板类实现延迟加载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSoftObjectPtr",
+      "predicate": "需要",
+      "object": "手动加载",
+      "context": "使用TSoftObjectPtr引用的资源需要手动加载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "查找对象",
+      "predicate": "使用",
+      "object": "FindObject函数",
+      "context": "查找已加载对象使用FindObject函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "加载对象",
+      "predicate": "使用",
+      "object": "LoadObject函数",
+      "context": "加载未加载对象使用LoadObject函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "加载类",
+      "predicate": "使用",
+      "object": "LoadClass函数",
+      "context": "加载UClass有专门的LoadClass函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬性引用",
+      "predicate": "适用于",
+      "object": "确定加载时机",
+      "context": "硬性引用适用于确定需要立即加载的资源",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "软性引用",
+      "predicate": "适用于",
+      "object": "延迟加载",
+      "context": "软性引用适用于需要延迟加载或运行时决定的资源",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "直接属性引用",
+      "predicate": "主要用于",
+      "object": "蓝图配置",
+      "context": "直接属性引用主要用于蓝图中的资源配置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "构造时引用",
+      "predicate": "主要用于",
+      "object": "程序化资源加载",
+      "context": "构造时引用主要用于程序化确定和加载资源",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "TSoftObjectPtr",
+      "predicate": "检查状态",
+      "object": "IsPending方法",
+      "context": "TSoftObjectPtr使用IsPending方法检查资源是否已加载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LoadObject",
+      "predicate": "内部调用",
+      "object": "FindObject",
+      "context": "LoadObject函数内部会先调用FindObject",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "异步资产加载",
+      "predicate": "替代方案",
+      "object": "同步加载",
+      "context": "异步资产加载文档提供了同步加载的替代方案",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "TSoftClassPtr",
+      "predicate": "类似",
+      "object": "TSoftObjectPtr",
+      "context": "TSoftClassPtr与TSoftObjectPtr工作方式类似，但用于引用UClass",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:34:40.501Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7477,
+    "contentLength": 4561,
+    "processingTimeMs": 52407
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_setting-up-ios-tvos-and-ipados-provisioning-profiles-and-signing-certificates-for-unreal-engine-projects",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_setting-up-ios-tvos-and-ipados-provisioning-profiles-and-signing-certificates-for-unreal-engine-projects.md",
+  "triples": [
+    {
+      "subject": "iOS项目发布",
+      "predicate": "需要",
+      "object": "代码签名证书",
+      "context": "发布iOS平台游戏必须拥有有效的代码签名证书来验证开发者身份",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS项目发布",
+      "predicate": "需要",
+      "object": "预配配置文件",
+      "context": "预配配置文件定义了应用程序所需的服务和权限，是发布必需文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎构建系统",
+      "predicate": "依赖",
+      "object": "Xcode",
+      "context": "虽然虚幻引擎可以打包项目，但最终构建需要Xcode完成",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "自动管理签名",
+      "predicate": "简化",
+      "object": "开发证书生成",
+      "context": "Xcode的自动签名功能可以自动处理开发证书的生成流程",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "Bundle ID",
+      "predicate": "必须匹配",
+      "object": "项目名称",
+      "context": "苹果开发者账号、Xcode项目和虚幻引擎项目设置中的Bundle ID必须保持一致",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "手动签名证书",
+      "predicate": "适用于",
+      "object": "团队开发",
+      "context": "手动创建的证书可以共享给团队成员使用，而自动生成的证书仅限单机",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "预配配置文件",
+      "predicate": "关联",
+      "object": "应用程序ID",
+      "context": "创建预配配置文件时需要选择之前注册的应用程序ID",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WWDR证书",
+      "predicate": "是",
+      "object": "构建前提条件",
+      "context": "苹果要求所有iOS应用构建必须包含有效的WWDR中间证书",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "仅蓝图项目",
+      "predicate": "支持",
+      "object": "免签名测试",
+      "context": "纯蓝图项目可以在不配置签名的情况下进行测试构建",
+      "direction": "unidirectional",
+      "confidence": 0.75
+    },
+    {
+      "subject": "远程构建",
+      "predicate": "实现",
+      "object": "Windows开发iOS",
+      "context": "通过连接Mac设备实现Windows环境下进行iOS项目开发和测试",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "签名证书",
+      "predicate": "必须匹配",
+      "object": "预配配置文件",
+      "context": "项目设置中使用的签名证书必须与生成预配配置文件的证书一致",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "钥匙串访问",
+      "predicate": "用于",
+      "object": "证书管理",
+      "context": "MacOS的钥匙串访问工具是管理开发者证书的核心系统工具",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "团队开发",
+      "predicate": "推荐",
+      "object": "共享开发者账户",
+      "context": "UE5.3+建议使用共享Apple账户实现团队成员自动签名",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "iOS打包",
+      "predicate": "通过",
+      "object": "虚幻编辑器",
+      "context": "最终打包操作在虚幻编辑器的平台菜单中选择iOS选项执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设备部署",
+      "predicate": "需要",
+      "object": "注册测试设备",
+      "context": "iOS设备必须先在开发者账号注册才能安装测试版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:45:15.732Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12015 字符)",
+      "timestamp": "2025-06-15T20:44:34.025Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 18873,
+    "contentLength": 12015,
+    "processingTimeMs": 41712
+  }
+}

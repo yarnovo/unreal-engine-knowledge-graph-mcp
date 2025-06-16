@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-datasmith-with-deltagen-and-vred-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-datasmith-with-deltagen-and-vred-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Datasmith",
+      "predicate": "支持",
+      "object": "Deltagen",
+      "context": "Datasmith可以将Deltagen中的场景导入虚幻编辑器，帮助学习者理解如何将Deltagen内容转换为虚幻引擎可用的格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "支持",
+      "object": "VRED",
+      "context": "Datasmith可以将VRED中的场景导入虚幻编辑器，帮助学习者理解如何将VRED内容转换为虚幻引擎可用的格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith FBX导入器",
+      "predicate": "依赖",
+      "object": "Datasmith",
+      "context": "Datasmith FBX导入器是Datasmith的一部分，用于导入Deltagen和VRED导出的FBX文件，学习者需要了解其依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Deltagen",
+      "predicate": "导出",
+      "object": "FBX文件",
+      "context": "Deltagen使用内置导出功能将场景导出为FBX文件，学习者需要掌握这一步骤以实现内容导入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VRED",
+      "predicate": "导出",
+      "object": "FBX文件",
+      "context": "VRED通过插件脚本将场景导出为FBX文件，学习者需要掌握这一步骤以实现内容导入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变体管理器",
+      "predicate": "管理",
+      "object": "LevelVariantSets",
+      "context": "变体管理器用于管理从Deltagen或VRED导入的变体和变体集，学习者需要了解其功能以实现场景变体的切换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LevelVariantSets",
+      "predicate": "包含",
+      "object": "变体集",
+      "context": "LevelVariantSets资源包含从Deltagen或VRED导入的变体和变体集，学习者需要理解其结构以进行后续操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "编辑",
+      "object": "动画",
+      "context": "Sequencer工具用于编辑从Deltagen或VRED导入的动画，学习者需要掌握其使用方法以实现动画的控制和播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VRED Professional",
+      "predicate": "支持",
+      "object": "Datasmith",
+      "context": "Datasmith仅支持VRED Professional版本，学习者需要了解这一限制以避免使用不支持的版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "不兼容",
+      "object": "VRED Design",
+      "context": "Datasmith不支持VRED Design版本，学习者需要了解这一限制以避免使用不支持的版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith FBX导入器",
+      "predicate": "导入",
+      "object": "FBX文件",
+      "context": "Datasmith FBX导入器用于将Deltagen或VRED导出的FBX文件导入虚幻编辑器，学习者需要掌握这一步骤以实现内容转换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变体管理器",
+      "predicate": "切换",
+      "object": "变体",
+      "context": "变体管理器可以在不同变体和变体集间切换，学习者需要了解其功能以实现场景的动态变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "控制",
+      "object": "变体",
+      "context": "蓝图函数可以用于在运行时控制变体的切换，学习者需要掌握这一功能以实现交互式场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "播放",
+      "object": "动画",
+      "context": "Sequencer可以用于播放从Deltagen或VRED导入的动画，学习者需要掌握这一功能以实现动画的实时控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:15:24.166Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6162,
+    "contentLength": 4241,
+    "processingTimeMs": 44070
+  }
+}

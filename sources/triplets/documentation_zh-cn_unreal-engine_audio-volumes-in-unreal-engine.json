@@ -1,0 +1,195 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_audio-volumes-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_audio-volumes-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "音频体积Actor",
+      "predicate": "用于",
+      "object": "处理声音",
+      "context": "音频体积Actor是用于定义区域并处理声音的核心组件，学习者需要理解其基本用途",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "音频体积Actor",
+      "predicate": "包含",
+      "object": "变换设置",
+      "context": "变换设置是音频体积Actor的重要组成部分，用于控制其位置、旋转和缩放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换设置",
+      "predicate": "包含",
+      "object": "位置",
+      "context": "位置是变换设置的关键参数之一，学习者需要理解如何设置音频体积的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换设置",
+      "predicate": "包含",
+      "object": "旋转",
+      "context": "旋转是变换设置的关键参数之一，影响音频体积的方向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换设置",
+      "predicate": "包含",
+      "object": "缩放",
+      "context": "缩放是变换设置的关键参数之一，决定音频体积的大小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频体积Actor",
+      "predicate": "包含",
+      "object": "音频体积设置",
+      "context": "音频体积设置是音频体积Actor的核心功能模块，控制优先级和启用状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频体积设置",
+      "predicate": "包含",
+      "object": "优先级",
+      "context": "优先级设置决定重叠音频体积的应用顺序，是音频设计中的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频体积Actor",
+      "predicate": "包含",
+      "object": "混响设置",
+      "context": "混响设置是音频体积Actor的重要功能，用于控制声音效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混响设置",
+      "predicate": "包含",
+      "object": "混响效果",
+      "context": "混响效果资产的选择直接影响音频体积的声音表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混响设置",
+      "predicate": "包含",
+      "object": "消退时间",
+      "context": "消退时间控制混响效果的过渡平滑度，是音频设计中的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频体积Actor",
+      "predicate": "包含",
+      "object": "笔刷设置",
+      "context": "笔刷设置决定音频体积的形状和大小，是构建音频区域的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "笔刷设置",
+      "predicate": "包含",
+      "object": "笔刷形状",
+      "context": "笔刷形状选择是创建不同音频体积的基础，学习者需要了解各种形状的适用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "笔刷形状",
+      "predicate": "包含",
+      "object": "盒体",
+      "context": "盒体是最基本的笔刷形状，适合大多数常规音频区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "笔刷形状",
+      "predicate": "包含",
+      "object": "锥体",
+      "context": "锥体形状适合特殊音频效果区域，学习者需要了解其参数设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "笔刷形状",
+      "predicate": "包含",
+      "object": "圆柱体",
+      "context": "圆柱体形状适合柱状空间的声音处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "笔刷形状",
+      "predicate": "包含",
+      "object": "球体",
+      "context": "球体形状适合全方位的声音处理区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频体积设置",
+      "predicate": "影响",
+      "object": "混响设置",
+      "context": "音频体积的启用状态会影响混响效果的应用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "变换设置",
+      "predicate": "影响",
+      "object": "笔刷设置",
+      "context": "变换中的缩放参数会影响笔刷设置的初始大小",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "优先级",
+      "predicate": "决定",
+      "object": "重叠音频体积的应用",
+      "context": "理解优先级如何决定重叠音频体积的应用是音频设计的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体编辑模式",
+      "predicate": "用于",
+      "object": "定制笔刷形状",
+      "context": "几何体编辑模式允许创建自定义形状的音频体积，扩展了基本笔刷形状的功能",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "混响插件效果",
+      "predicate": "扩展",
+      "object": "混响功能",
+      "context": "混响插件效果支持第三方音频插件，扩展了引擎的混响功能",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "音频体积Actor",
+      "predicate": "支持",
+      "object": "声音遮挡模拟",
+      "context": "音频体积Actor可以用于模拟声音遮挡效果，这是其重要功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T18:09:16.625Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8794 字符)",
+      "timestamp": "2025-06-15T18:08:01.071Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15152,
+    "contentLength": 8794,
+    "processingTimeMs": 75565
+  }
+}

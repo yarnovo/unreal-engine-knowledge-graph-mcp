@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_image-adjustment-material-functions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_image-adjustment-material-functions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "图像调整材质函数",
+      "predicate": "包含",
+      "object": "3ColorBlend",
+      "context": "3ColorBlend是图像调整材质函数的一种，用于对三种输入颜色进行混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图像调整材质函数",
+      "predicate": "包含",
+      "object": "CheapContrast",
+      "context": "CheapContrast是图像调整材质函数的一种，用于提升输入的对比度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图像调整材质函数",
+      "predicate": "包含",
+      "object": "CheapContrast_RGB",
+      "context": "CheapContrast_RGB是图像调整材质函数的一种，用于对彩色图像执行对比度操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图像调整材质函数",
+      "predicate": "包含",
+      "object": "SCurve",
+      "context": "SCurve是图像调整材质函数的一种，用于通过S曲线提升图像的对比度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图像调整材质函数",
+      "predicate": "包含",
+      "object": "3PointLevels",
+      "context": "3PointLevels是图像调整材质函数的一种，用于在三个点之间重新映射每个通道的值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图像调整材质函数",
+      "predicate": "包含",
+      "object": "HueShift",
+      "context": "HueShift是图像调整材质函数的一种，用于改变输入颜色的色调值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图像调整材质函数",
+      "predicate": "包含",
+      "object": "SmoothThreshold",
+      "context": "SmoothThreshold是图像调整材质函数的一种，用于对渐变应用平滑对比度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CheapContrast",
+      "predicate": "扩展",
+      "object": "CheapContrast_RGB",
+      "context": "CheapContrast_RGB是CheapContrast的扩展版本，支持对彩色图像执行对比度操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3ColorBlend",
+      "predicate": "使用",
+      "object": "灰阶阿尔法",
+      "context": "3ColorBlend函数根据灰阶阿尔法对三种输入颜色进行混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CheapContrast",
+      "predicate": "类似于",
+      "object": "Photoshop色阶调整",
+      "context": "CheapContrast函数的功能类似于Photoshop中的色阶调整",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "SCurve",
+      "predicate": "类似于",
+      "object": "Photoshop曲线调整",
+      "context": "SCurve函数的功能类似于Photoshop中的曲线调整",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "3PointLevels",
+      "predicate": "类似于",
+      "object": "Photoshop色阶调整",
+      "context": "3PointLevels函数的功能类似于Photoshop中的色阶调整，但提供了更全面的控制",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "HueShift",
+      "predicate": "基于",
+      "object": "色环",
+      "context": "HueShift函数基于色环来改变输入颜色的色调值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SmoothThreshold",
+      "predicate": "应用于",
+      "object": "渐变",
+      "context": "SmoothThreshold函数接收渐变并对其应用平滑对比度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图像调整材质函数",
+      "predicate": "用于",
+      "object": "颜色校正",
+      "context": "图像调整材质函数用于对纹理执行基本的颜色校正操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图像调整材质函数",
+      "predicate": "避免",
+      "object": "内存开销",
+      "context": "使用图像调整材质函数可以避免因单独版本装入内存而产生的开销",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:31:32.914Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9368,
+    "contentLength": 6020,
+    "processingTimeMs": 55342
+  }
+}

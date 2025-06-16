@@ -1,0 +1,195 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_constant-material-expressions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_constant-material-expressions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Constant",
+      "predicate": "属于",
+      "object": "常量材质表达式",
+      "context": "Constant是最基础的常量材质表达式，输出单个浮点值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Constant2Vector",
+      "predicate": "扩展",
+      "object": "Constant",
+      "context": "Constant2Vector是Constant的扩展版本，输出双通道矢量值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Constant3Vector",
+      "predicate": "扩展",
+      "object": "Constant2Vector",
+      "context": "Constant3Vector进一步扩展为三通道矢量值，常用于定义RGB颜色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Constant4Vector",
+      "predicate": "扩展",
+      "object": "Constant3Vector",
+      "context": "Constant4Vector在RGB基础上增加Alpha通道，形成RGBA颜色定义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DistanceCullFade",
+      "predicate": "用于",
+      "object": "CullDistanceVolume",
+      "context": "DistanceCullFade表达式专门用于CullDistanceVolume中的对象平滑消退效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ParticleColor",
+      "predicate": "绑定",
+      "object": "级联粒子系统",
+      "context": "ParticleColor表达式绑定到级联粒子系统中定义的每粒子颜色数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ParticleDirection",
+      "predicate": "输出",
+      "object": "粒子运动方向",
+      "context": "ParticleDirection表达式输出粒子当前运动方向的矢量数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ParticleMotionBlurFade",
+      "predicate": "表示",
+      "object": "动态模糊程度",
+      "context": "ParticleMotionBlurFade表达式输出值表示粒子因动态模糊产生的淡出量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ParticleRadius",
+      "predicate": "输出",
+      "object": "粒子半径",
+      "context": "ParticleRadius表达式输出每个粒子的半径值，可用于材质条件控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ParticleRelativeTime",
+      "predicate": "表示",
+      "object": "粒子生命周期",
+      "context": "ParticleRelativeTime表达式输出0-1的值表示粒子从出生到死亡的相对时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ParticleSize",
+      "predicate": "输出",
+      "object": "粒子尺寸",
+      "context": "ParticleSize表达式输出粒子sprite的X和Y尺寸数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ParticleSpeed",
+      "predicate": "输出",
+      "object": "粒子速度",
+      "context": "ParticleSpeed表达式输出每个粒子的当前运动速度值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PerInstanceFadeAmount",
+      "predicate": "用于",
+      "object": "实例化静态网格",
+      "context": "PerInstanceFadeAmount专门用于实例化静态网格(如植被)的渐入渐出效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PerInstanceRandom",
+      "predicate": "生成",
+      "object": "实例随机值",
+      "context": "PerInstanceRandom为每个静态网格实例生成不同的随机值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Time",
+      "predicate": "驱动",
+      "object": "动态材质",
+      "context": "Time节点用于驱动随时间变化的材质效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TwoSidedSign",
+      "predicate": "修正",
+      "object": "双面材质法线",
+      "context": "TwoSidedSign表达式用于修正双面材质背面的法线方向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VertexColor",
+      "predicate": "使用",
+      "object": "网格顶点颜色",
+      "context": "VertexColor表达式允许材质使用静态网格体的顶点颜色数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ViewProperty",
+      "predicate": "输出",
+      "object": "视图相关属性",
+      "context": "ViewProperty表达式输出与视图相关的属性如视野或渲染目标大小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PrecomputedAOMask",
+      "predicate": "访问",
+      "object": "烘焙光照AO",
+      "context": "PrecomputedAOMask节点用于访问材质中烘焙光照计算的环境光遮蔽数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Constant3Vector",
+      "predicate": "用于",
+      "object": "定义RGB颜色",
+      "context": "Constant3Vector常被用于定义实心的RGB颜色值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Constant4Vector",
+      "predicate": "用于",
+      "object": "定义RGBA颜色",
+      "context": "Constant4Vector可用于定义包含透明通道的RGBA颜色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VertexColor",
+      "predicate": "用于",
+      "object": "纹理混合",
+      "context": "VertexColor节点常用于网格体绘制模式中的纹理混合遮罩",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:32:17.500Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13328 字符)",
+      "timestamp": "2025-06-15T18:31:02.869Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 20543,
+    "contentLength": 13328,
+    "processingTimeMs": 74640
+  }
+}

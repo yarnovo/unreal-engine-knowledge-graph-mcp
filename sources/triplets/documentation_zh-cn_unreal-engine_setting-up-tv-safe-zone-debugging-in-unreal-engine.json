@@ -1,0 +1,115 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_setting-up-tv-safe-zone-debugging-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_setting-up-tv-safe-zone-debugging-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "电视安全区调试工具",
+      "predicate": "用于",
+      "object": "避免UI元素和文本失真",
+      "context": "帮助开发者在开发虚幻引擎项目时确保UI元素和文本不会因靠近屏幕边缘而失真",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "电视安全区",
+      "predicate": "包含",
+      "object": "标题安全区",
+      "context": "电视安全区包含标题安全区，用于确保UI或文本在查看时不会出现截断或失真",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "电视安全区",
+      "predicate": "包含",
+      "object": "动作安全区",
+      "context": "电视安全区包含动作安全区，用于确保角色或敌人移动时身体部分不会出屏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "标题安全区",
+      "predicate": "区别于",
+      "object": "动作安全区",
+      "context": "标题安全区主要用于UI和文本，而动作安全区主要用于角色和动作，两者有不同的用途和标准",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.DebugSafeZone.Mode",
+      "predicate": "控制",
+      "object": "标题安全区显示",
+      "context": "通过设置r.DebugSafeZone.Mode为1，可以启用标题安全区的显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.DebugSafeZone.Mode",
+      "predicate": "控制",
+      "object": "动作安全区显示",
+      "context": "通过设置r.DebugSafeZone.Mode为2，可以启用动作安全区的显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.DebugSafeZone.OverlayAlpha",
+      "predicate": "控制",
+      "object": "安全区覆层透明度",
+      "context": "通过调整r.DebugSafeZone.OverlayAlpha的值，可以控制安全区和动作区覆层的透明度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.DebugSafeZone.TitleRatio",
+      "predicate": "控制",
+      "object": "标题安全区大小",
+      "context": "通过调整r.DebugSafeZone.TitleRatio的值，可以控制标题安全区的大小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.DebugActionZone.ActionRatio",
+      "predicate": "控制",
+      "object": "动作安全区大小",
+      "context": "通过调整r.DebugActionZone.ActionRatio的值，可以控制动作安全区的大小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "电视安全区调试",
+      "predicate": "需要",
+      "object": "全屏或窗口全屏模式",
+      "context": "为了正确显示安全区的比例，必须在全屏或窗口全屏模式下运行项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DefaultEngine.ini",
+      "predicate": "配置",
+      "object": "电视安全区命令",
+      "context": "可以在DefaultEngine.ini文件的[SystemSettings]部分下配置电视安全区命令",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PS4",
+      "predicate": "使用",
+      "object": "电视安全区调试工具",
+      "context": "在PS4上使用电视安全区调试工具时，只需要第一个命令r.DebugSafeZone.Mode 1，因为可以在PS4操作系统菜单中选择系统设置决定安全区数值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:46:16.927Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8494 字符)",
+      "timestamp": "2025-06-15T20:45:40.701Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12342,
+    "contentLength": 8494,
+    "processingTimeMs": 36229
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_layering-materials-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_layering-materials-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "提供",
+      "object": "分层材质方法",
+      "context": "虚幻引擎提供了两种主要的分层材质方法，帮助开发者创建复杂的混合效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分层材质方法",
+      "predicate": "包含",
+      "object": "材质函数分层",
+      "context": "分层材质方法之一是材质函数系统的扩展，用于创建复杂的材质混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分层材质方法",
+      "predicate": "包含",
+      "object": "材质层系统",
+      "context": "分层材质方法之二是材质层系统，通过材质实例编辑器提供更直观的编辑体验",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质函数分层",
+      "predicate": "基于",
+      "object": "材质函数",
+      "context": "材质函数分层方法是材质函数系统的扩展，使用材质属性表达式定义各层",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质函数分层",
+      "predicate": "需要",
+      "object": "基类材质",
+      "context": "材质函数分层方法需要创建一个基类材质，包含各层混合所需的逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质层系统",
+      "predicate": "实现于",
+      "object": "材质实例编辑器",
+      "context": "材质层系统通过材质实例编辑器中的层参数选项卡提供直观的编辑界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质层系统",
+      "predicate": "适用于",
+      "object": "美术师和设计师",
+      "context": "材质层系统特别适合美术师和设计师使用，因为它提供了无需编辑节点图表的友好界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质层系统",
+      "predicate": "提供",
+      "object": "更快的迭代体验",
+      "context": "材质层系统为美术师和设计师提供了更快、更易迭代的用户体验",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质函数分层",
+      "predicate": "对比",
+      "object": "材质层系统",
+      "context": "两种分层方法各有优势，材质函数分层更灵活，材质层系统更易用",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "分层材质",
+      "predicate": "替代",
+      "object": "基于纹理遮罩的方法",
+      "context": "分层材质方法可以替代传统的基于纹理遮罩和像素逻辑的材质混合方法",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "分层材质",
+      "predicate": "生成",
+      "object": "更可读的材质图表",
+      "context": "分层材质方法相比传统方法能生成更可读的材质图表",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "分层材质",
+      "predicate": "便于",
+      "object": "材质修改",
+      "context": "分层材质方法使材质的后期修改对美术师更加友好",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质属性表达式",
+      "predicate": "用于",
+      "object": "定义材质层",
+      "context": "材质属性表达式用于在材质函数中定义各材质层的属性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "层参数选项卡",
+      "predicate": "允许",
+      "object": "切换材质层",
+      "context": "材质实例编辑器中的层参数选项卡允许用户直观地切换和调整材质层",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "层参数选项卡",
+      "predicate": "允许",
+      "object": "修改混合方式",
+      "context": "层参数选项卡允许用户修改材质层的混合方式，无需编辑基础材质图表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:43:06.362Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4276,
+    "contentLength": 2884,
+    "processingTimeMs": 49084
+  }
+}

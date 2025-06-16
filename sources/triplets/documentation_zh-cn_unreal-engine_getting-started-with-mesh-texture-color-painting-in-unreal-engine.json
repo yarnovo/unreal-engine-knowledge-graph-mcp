@@ -1,0 +1,155 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_getting-started-with-mesh-texture-color-painting-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_getting-started-with-mesh-texture-color-painting-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "纹理颜色模式",
+      "predicate": "写入",
+      "object": "网格体绘制纹理",
+      "context": "纹理颜色模式将颜色绘制到网格体上，并将绘制内容写入网格体绘制纹理中，这是该模式的核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体绘制纹理",
+      "predicate": "存储在",
+      "object": "网格体实例",
+      "context": "网格体绘制纹理存储在正在绘制的网格体实例上，这是纹理颜色模式的数据存储方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理颜色模式",
+      "predicate": "优于",
+      "object": "顶点颜色模式",
+      "context": "纹理颜色模式不受顶点密度影响，可以在不需要高绘制分辨率时提供更好的性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Nanite网格体",
+      "predicate": "不支持",
+      "object": "顶点颜色绘制",
+      "context": "Nanite网格体不支持顶点颜色绘制，只能使用纹理颜色绘制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理颜色模式",
+      "predicate": "需要",
+      "object": "虚拟纹理",
+      "context": "使用纹理颜色模式前必须为项目启用虚拟纹理功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体绘制纹理",
+      "predicate": "通过",
+      "object": "MeshPaintTextureObject材质表达式",
+      "context": "需要使用MeshPaintTextureObject材质表达式来引用网格体绘制纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "需要",
+      "object": "合适的UV参数化",
+      "context": "有效的纹理颜色绘制需要静态网格体具有合适的UV参数化，避免重叠和重复",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成光照贴图UV",
+      "predicate": "用于",
+      "object": "创建唯一UV图表",
+      "context": "可以使用生成光照贴图UV属性为网格体创建具有唯一ID的UV图表",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "网格体绘制纹理分辨率",
+      "predicate": "基于",
+      "object": "顶点数量",
+      "context": "默认情况下，网格体绘制纹理分辨率基于LOD0网格体中的顶点数量计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟纹理",
+      "predicate": "支持",
+      "object": "按需流送",
+      "context": "网格体绘制纹理作为虚拟纹理，支持按需流送以优化内存使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理颜色模式",
+      "predicate": "使用",
+      "object": "Texture Sample节点",
+      "context": "在材质中，纹理颜色模式需要通过Texture Sample节点来使用网格体绘制纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MeshPaintTextureReplace",
+      "predicate": "提供",
+      "object": "回退选项",
+      "context": "MeshPaintTextureReplace表达式为共享材质的网格体提供了回退选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "支持纹理颜色网格体绘制",
+      "predicate": "控制",
+      "object": "按网格体设置",
+      "context": "可以通过静态网格体编辑器中的设置按网格体启用或禁用纹理颜色绘制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启用纹理颜色网格体绘制",
+      "predicate": "控制",
+      "object": "按实例设置",
+      "context": "可以通过细节面板中的设置按实例启用或禁用纹理颜色绘制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体绘制纹理分辨率",
+      "predicate": "可设置",
+      "object": "按资产或实例",
+      "context": "可以在网格体资产上设置纹理分辨率，也可以按实例进行重载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟纹理设置",
+      "predicate": "包含",
+      "object": "网格体绘制设置",
+      "context": "项目设置的虚拟纹理类别中包含专门的网格体绘制设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体绘制纹理",
+      "predicate": "使用",
+      "object": "压缩格式",
+      "context": "默认情况下网格体绘制纹理使用压缩格式以减少GPU内存占用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:14:24.939Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8376 字符)",
+      "timestamp": "2025-06-15T19:13:23.572Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14141,
+    "contentLength": 8376,
+    "processingTimeMs": 61375
+  }
+}

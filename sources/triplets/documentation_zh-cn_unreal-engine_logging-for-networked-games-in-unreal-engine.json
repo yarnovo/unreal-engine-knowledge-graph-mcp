@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_logging-for-networked-games-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_logging-for-networked-games-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "客户端",
+      "predicate": "生成",
+      "object": "日志",
+      "context": "客户端日志用于识别和调试网络问题，是网络游戏开发中的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "服务器",
+      "predicate": "生成",
+      "object": "日志",
+      "context": "服务器日志对于诊断网络问题和理解系统行为至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LogNet",
+      "predicate": "属于",
+      "object": "日志类别",
+      "context": "LogNet是网络日志的主要类别，包含多种网络相关日志",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LogNetTraffic",
+      "predicate": "记录",
+      "object": "网络流量",
+      "context": "当设置为VeryVerbose时，LogNetTraffic会记录所有网络流量信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LogNetPackageMap",
+      "predicate": "记录",
+      "object": "NetGUID信息",
+      "context": "该日志类别专门记录NetGUID的发送、接收和确认过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LogNetVersion",
+      "predicate": "记录",
+      "object": "属性复制",
+      "context": "该日志记录FRepLayout和FObjectReplicator使用的属性复制和RepNotify函数信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LogRepProperties",
+      "predicate": "记录",
+      "object": "复制属性",
+      "context": "专门记录发送和接收复制属性的详细信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PacketHandlerLog",
+      "predicate": "包含",
+      "object": "数据包处理组件日志",
+      "context": "包含各种数据包处理组件的子类别日志，如DTLSHandler和OodleNetworkHandler",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LogDemo",
+      "predicate": "记录",
+      "object": "回放信息",
+      "context": "记录关于录制和播放的信息，包含多种回放流送器日志",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "命令行参数",
+      "predicate": "控制",
+      "object": "日志冗长度",
+      "context": "通过LogCmds参数可以设置特定日志类别的冗长度级别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台命令",
+      "predicate": "调整",
+      "object": "日志设置",
+      "context": "使用Log命令可以动态调整日志类别的冗长度设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DefaultEngine.ini",
+      "predicate": "配置",
+      "object": "日志系统",
+      "context": "引擎配置文件可以预设各种日志类别的默认冗长度级别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UEngine::BroadcastNetworkFailure",
+      "predicate": "报告",
+      "object": "网络故障",
+      "context": "当网络驱动程序遇到重大错误时会触发此报错，包含详细的错误信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UNetConnection::Close",
+      "predicate": "记录",
+      "object": "连接关闭",
+      "context": "记录网络连接关闭时的详细信息，有助于诊断连接问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UActorChannel::Close",
+      "predicate": "记录",
+      "object": "Actor通道关闭",
+      "context": "在LogNetTraffic类别中记录Actor通道关闭的详细信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LogTrace",
+      "predicate": "需要",
+      "object": "NetcodeUnitTest",
+      "context": "LogTrace功能需要启用NetcodeUnitTest才能使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DumpRPCs",
+      "predicate": "需要",
+      "object": "NetcodeUnitTest",
+      "context": "DumpRPCs功能同样需要启用NetcodeUnitTest",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络日志系统",
+      "predicate": "包含",
+      "object": "多种日志类别",
+      "context": "网络日志系统由多个专门的日志类别组成，每个类别关注不同的网络子系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "日志系统",
+      "predicate": "支持",
+      "object": "三种配置方式",
+      "context": "可以通过命令行参数、控制台命令和引擎配置文件三种方式配置日志系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:48:10.912Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4672,
+    "contentLength": 3154,
+    "processingTimeMs": 61900
+  }
+}

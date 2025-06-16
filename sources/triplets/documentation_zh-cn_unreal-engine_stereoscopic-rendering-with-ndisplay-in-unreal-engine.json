@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_stereoscopic-rendering-with-ndisplay-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_stereoscopic-rendering-with-ndisplay-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "nDisplay",
+      "predicate": "支持",
+      "object": "立体渲染",
+      "context": "nDisplay群集节点可以为左眼和右眼生成图像，实现立体渲染效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "立体渲染",
+      "predicate": "使用",
+      "object": "立体图像格式",
+      "context": "立体渲染需要选择标准立体图像格式对输出图像进行编码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay 3D配置编辑器",
+      "predicate": "用于",
+      "object": "调整立体渲染",
+      "context": "在nDisplay 3D配置编辑器中可以调整瞳距和交换眼睛设置，优化立体渲染效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视图原点组件",
+      "predicate": "包含",
+      "object": "瞳距设置",
+      "context": "视图原点组件的细节面板中可以设置瞳距，这是立体渲染的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "控制",
+      "object": "立体渲染模式",
+      "context": "在Switchboard设置中可以设置立体渲染模式，如并排或垂直排列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "帧顺序模式",
+      "predicate": "属于",
+      "object": "立体渲染格式",
+      "context": "帧顺序模式是nDisplay支持的立体渲染格式之一，需要GPU专门支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "并排模式",
+      "predicate": "属于",
+      "object": "立体渲染格式",
+      "context": "并排模式是nDisplay支持的立体渲染格式之一，图像分为左右两部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "垂直排列模式",
+      "predicate": "属于",
+      "object": "立体渲染格式",
+      "context": "垂直排列模式是nDisplay支持的立体渲染格式之一，图像分为上下两部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "带立体偏移的单视场渲染",
+      "predicate": "实现",
+      "object": "立体像对",
+      "context": "通过在不同视口中设置不同的视图原点立体偏移，可以生成立体像对",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视图原点",
+      "predicate": "设置",
+      "object": "立体偏移",
+      "context": "视图原点的立体偏移可以设置为左眼或右眼，用于生成不同的视角",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "立体渲染",
+      "predicate": "依赖",
+      "object": "显卡和显示驱动程序",
+      "context": "立体渲染需要正确设置显卡和显示驱动程序以解译和传送立体图像",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "并排模式",
+      "predicate": "对比",
+      "object": "垂直排列模式",
+      "context": "并排模式和垂直排列模式都是将图像分成两部分，但分割方向不同",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "立体渲染",
+      "predicate": "适用于",
+      "object": "多GPU硬件",
+      "context": "带立体偏移的单视场渲染方法可以利用多GPU硬件提升渲染速度",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T20:55:25.659Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6348,
+    "contentLength": 4018,
+    "processingTimeMs": 38348
+  }
+}

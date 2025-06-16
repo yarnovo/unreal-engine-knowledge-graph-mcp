@@ -1,0 +1,205 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_world-position-offset-material-functions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_world-position-offset-material-functions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "WorldPositionOffset",
+      "predicate": "包含",
+      "object": "SimpleGrassWind",
+      "context": "SimpleGrassWind是WorldPositionOffset类别下的一个函数，用于对植物叶子应用基本的风运算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SimpleGrassWind",
+      "predicate": "用于",
+      "object": "植物叶子",
+      "context": "SimpleGrassWind专门用于模拟植物叶子在风中的移动效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SimpleGrassWind",
+      "predicate": "控制",
+      "object": "风力",
+      "context": "SimpleGrassWind通过WindIntensity参数控制风影响网格体的程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SimpleGrassWind",
+      "predicate": "使用",
+      "object": "风权重贴图",
+      "context": "SimpleGrassWind使用WindWeight参数（灰阶贴图）控制网格体顶点对风的反应程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WorldPositionOffset",
+      "predicate": "包含",
+      "object": "SplineThicken",
+      "context": "SplineThicken是WorldPositionOffset类别下的一个函数，用于使薄多边形在渲染时显示为略厚",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SplineThicken",
+      "predicate": "适用于",
+      "object": "线缆、头发、草",
+      "context": "SplineThicken特别适用于处理线缆、头发、草等极薄对象的渲染效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SplineThicken",
+      "predicate": "依赖",
+      "object": "UV布局",
+      "context": "SplineThicken要求对象使用规格化的UV布局才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WorldPositionOffset",
+      "predicate": "包含",
+      "object": "CameraOffset",
+      "context": "CameraOffset是WorldPositionOffset类别下的一个函数，用于在摄像机空间中移动对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CameraOffset",
+      "predicate": "用于",
+      "object": "深度排序",
+      "context": "CameraOffset主要用于帮助进行深度排序，使对象靠近或远离摄像机",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WorldPositionOffset",
+      "predicate": "包含",
+      "object": "ObjectPivotPoint",
+      "context": "ObjectPivotPoint是WorldPositionOffset类别下的一个函数，返回全局空间中对象的枢轴点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ObjectPivotPoint",
+      "predicate": "用于",
+      "object": "顶点着色器",
+      "context": "ObjectPivotPoint函数只能与顶点着色器配合工作，与像素着色器不兼容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WorldPositionOffset",
+      "predicate": "包含",
+      "object": "ObjectScale",
+      "context": "ObjectScale是WorldPositionOffset类别下的一个函数，返回对象的XYZ比例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ObjectScale",
+      "predicate": "用于",
+      "object": "自发光控制",
+      "context": "ObjectScale的输出可以作为自发光输入的乘数，控制对象的亮度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WorldPositionOffset",
+      "predicate": "包含",
+      "object": "PivotAxis",
+      "context": "PivotAxis是WorldPositionOffset类别下的一个函数，用于在任意的轴上创建公共枢轴点位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PivotAxis",
+      "predicate": "用于",
+      "object": "旗帜运动",
+      "context": "PivotAxis特别适合用于创建更加现实的旗帜运动效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WorldPositionOffset",
+      "predicate": "包含",
+      "object": "RotateAboutWorldAxis_cheap",
+      "context": "RotateAboutWorldAxis_cheap是WorldPositionOffset类别下的一个函数，以低成本方式使对象绕全局轴旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RotateAboutWorldAxis_cheap",
+      "predicate": "用于",
+      "object": "低成本旋转",
+      "context": "RotateAboutWorldAxis_cheap专门用于实现低成本的物体旋转效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WorldPositionOffset",
+      "predicate": "包含",
+      "object": "StaticMeshMorphTargets",
+      "context": "StaticMeshMorphTargets是WorldPositionOffset类别下的一个函数，用于解包变形目标数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StaticMeshMorphTargets",
+      "predicate": "处理",
+      "object": "变形目标数据",
+      "context": "StaticMeshMorphTargets专门处理通过3ds Max的Morph Packer MAXScript添加的变形目标数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WorldPositionOffset",
+      "predicate": "包含",
+      "object": "Wind",
+      "context": "Wind是WorldPositionOffset类别下的一个函数，提供风力、速度乘以时间以及规范化风矢量的输出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Wind",
+      "predicate": "提供",
+      "object": "风矢量",
+      "context": "Wind函数提供规范化风矢量输出，可用于各种风效果模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SimpleGrassWind",
+      "predicate": "扩展",
+      "object": "Wind",
+      "context": "SimpleGrassWind是基于Wind函数的更高级实现，专门用于植物叶子的风效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "WorldPositionOffset",
+      "predicate": "属于",
+      "object": "材质系统",
+      "context": "WorldPositionOffset是虚幻引擎材质系统的一部分，用于顶点操作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "WorldPositionOffset函数",
+      "predicate": "可以链接",
+      "object": "递增效应",
+      "context": "多个WorldPositionOffset函数可以链接到一起，产生递增的顶点操作效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:35:22.235Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11269,
+    "contentLength": 6827,
+    "processingTimeMs": 66312
+  }
+}

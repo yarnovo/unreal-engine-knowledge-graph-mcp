@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_asset-management-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_asset-management-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "资产管理器",
+      "predicate": "管理",
+      "object": "主资产",
+      "context": "资产管理器负责主资产的发现与加载，是学习资产管理的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主资产",
+      "predicate": "包含",
+      "object": "主资产ID",
+      "context": "主资产通过主资产ID进行标识和操作，是理解资产标识系统的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主资产ID",
+      "predicate": "由",
+      "object": "主资产类型和资产名称",
+      "context": "主资产ID由类型和名称组成，这是资产唯一标识的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产管理器",
+      "predicate": "使用",
+      "object": "可流送管理器",
+      "context": "可流送管理器执行实际的异步加载操作，是资产管理器功能实现的关键依赖",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主资产",
+      "predicate": "分为",
+      "object": "蓝图类资产和非蓝图资产",
+      "context": "了解这两种资产类型的区别对资产创建和管理的学习很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图类资产",
+      "predicate": "继承自",
+      "object": "UPrimaryDataAsset",
+      "context": "这是创建可管理蓝图类资产的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产包",
+      "predicate": "关联",
+      "object": "主资产",
+      "context": "资产包是组织相关资产的重要机制，理解这种关系有助于资产优化",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UAssetManager",
+      "predicate": "可扩展",
+      "object": "自定义资产管理器",
+      "context": "了解如何扩展基础资产管理器对项目特定需求很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主资产",
+      "predicate": "可动态创建",
+      "object": "动态主资产",
+      "context": "理解运行时资产创建机制对高级资产管理很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产管理器",
+      "predicate": "提供",
+      "object": "资产审核工具",
+      "context": "这些工具对优化资产组织和内存使用很关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UPrimaryDataAsset",
+      "predicate": "支持",
+      "object": "资产包数据",
+      "context": "这是实现资产分组和按需加载的基础功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产管理器",
+      "predicate": "控制",
+      "object": "资产加载时机",
+      "context": "这是精确控制资源使用的关键能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FStreamableManager",
+      "predicate": "执行",
+      "object": "异步加载",
+      "context": "理解异步加载机制对性能优化很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产包",
+      "predicate": "通过",
+      "object": "AssetBundles元标签创建",
+      "context": "这是标记资产分组的常用方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主资产",
+      "predicate": "默认包含",
+      "object": "UWorld资产",
+      "context": "了解引擎默认设置对资产管理很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "非蓝图资产",
+      "predicate": "更节省内存",
+      "object": "蓝图类资产",
+      "context": "理解这两种资产类型的性能差异对项目规划很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "资产管理器",
+      "predicate": "支持",
+      "object": "资产重定向",
+      "context": "这是处理资产迁移和重构的重要功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "ExtractSoftObjectPaths",
+      "predicate": "用于",
+      "object": "识别资产引用",
+      "context": "这是动态资产包创建的关键函数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "RecursivelyExpandBundleData",
+      "predicate": "用于",
+      "object": "解析资产依赖",
+      "context": "这是处理复杂资产关系的重要函数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "资产管理器",
+      "predicate": "集成",
+      "object": "内容浏览器",
+      "context": "理解这两个组件的交互对资产管理工作流程很重要",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T18:06:24.653Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10172 字符)",
+      "timestamp": "2025-06-15T18:05:20.466Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16556,
+    "contentLength": 10172,
+    "processingTimeMs": 64191
+  }
+}

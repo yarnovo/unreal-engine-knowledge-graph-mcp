@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_dataprep-operation-reference-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_dataprep-operation-reference-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Visual Dataprep系统",
+      "predicate": "包含",
+      "object": "操作块",
+      "context": "Visual Dataprep系统通过操作块来修改资产和场景元素，理解操作块是掌握Dataprep系统的关键",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "操作块",
+      "predicate": "应用于",
+      "object": "Select By条件匹配的元素",
+      "context": "操作块仅对符合Select By条件的资产或Actor生效，这是Dataprep工作流的核心筛选机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "On Actor操作",
+      "predicate": "专门用于",
+      "object": "Actor修改",
+      "context": "On Actor类操作专门针对场景中的Actor对象进行修改，与资产操作形成明确区分",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "添加标签操作",
+      "predicate": "实现",
+      "object": "Actor标记",
+      "context": "该操作为Actor添加标签是实现场景元素分类管理的基础技术",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "创建代理网格体",
+      "predicate": "依赖",
+      "object": "代理几何体工具",
+      "context": "该操作底层使用代理几何体工具实现几何体合并，理解工具原理有助于掌握操作特性",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "随机偏移变换",
+      "predicate": "用于",
+      "object": "场景自然化",
+      "context": "通过随机变换参数可使场景元素分布更自然，是环境设计的重要技术",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "On Asset操作",
+      "predicate": "专门用于",
+      "object": "资产处理",
+      "context": "与On Actor操作形成对比，这类操作专门处理内容浏览器中的资产资源",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "输出到文件夹",
+      "predicate": "实现",
+      "object": "资产组织",
+      "context": "该操作是项目资源管理系统的基础，通过自动化分类提升工作流效率",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "On Mesh操作",
+      "predicate": "专门用于",
+      "object": "静态网格体处理",
+      "context": "这类操作针对静态网格体特有的几何和UV特性进行处理，需要专门的3D知识",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "生成展开的UV",
+      "predicate": "影响",
+      "object": "纹理映射质量",
+      "context": "UV展开质量直接影响材质表现，是静态网格体处理的关键环节",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "设置LOD组",
+      "predicate": "关联",
+      "object": "性能优化",
+      "context": "LOD设置是场景性能优化的重要手段，需要与渲染管线知识结合理解",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "On Object操作",
+      "predicate": "适用于",
+      "object": "通用场景元素",
+      "context": "这类操作不区分对象类型，提供最基础的对象管理功能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "替代材质",
+      "predicate": "支持",
+      "object": "批量材质替换",
+      "context": "通过字符串匹配实现批量材质替换，是场景风格统一化的高效工具",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "按表格替代材质",
+      "predicate": "扩展",
+      "object": "替代材质",
+      "context": "基于数据表的版本提供了更复杂的材质替换逻辑，是基础操作的进阶用法",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Dataprep图表",
+      "predicate": "组合使用",
+      "object": "多种操作块",
+      "context": "完整的工作流需要组合不同类型的操作块，理解各操作类型的关系是构建高效图表的关键",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大纲视图预览",
+      "predicate": "显示",
+      "object": "Actor操作结果",
+      "context": "该面板专门显示Actor相关操作的效果，是调试On Actor操作的主要视图",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "内容浏览器预览",
+      "predicate": "显示",
+      "object": "资产操作结果",
+      "context": "与大纲视图互补，该面板显示资产操作的效果，构成完整的调试环境",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "生成",
+      "object": "简化网格体",
+      "context": "理解该工具的工作原理有助于掌握创建代理网格体操作的质量参数设置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "静态网格体编辑器",
+      "predicate": "关联",
+      "object": "LOD设置",
+      "context": "Dataprep中的LOD操作与静态网格体编辑器的LOD功能同源，知识可迁移",
+      "direction": "bidirectional",
+      "confidence": 0.75
+    },
+    {
+      "subject": "材质实例",
+      "predicate": "继承自",
+      "object": "基础材质",
+      "context": "理解材质继承关系有助于合理使用材质替换类操作",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T18:45:22.771Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (27259 字符)",
+      "timestamp": "2025-06-15T18:44:12.836Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 41641,
+    "contentLength": 27259,
+    "processingTimeMs": 69948
+  }
+}

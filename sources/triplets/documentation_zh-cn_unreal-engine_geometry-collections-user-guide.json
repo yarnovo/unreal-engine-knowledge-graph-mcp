@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_geometry-collections-user-guide",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_geometry-collections-user-guide.md",
+  "triples": [
+    {
+      "subject": "几何体集合",
+      "predicate": "属于",
+      "object": "Chaos破坏系统",
+      "context": "几何体集合是Chaos破坏系统的核心资产类型，理解这一关系有助于学习者掌握破坏系统的整体架构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体集合",
+      "predicate": "可由",
+      "object": "静态网格体",
+      "context": "学习者需要知道几何体集合可以从静态网格体转换而来，这是创建破坏效果的基础工作流程",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "几何体集合",
+      "predicate": "可由",
+      "object": "蓝图Actor",
+      "context": "包含静态网格体组件的蓝图也可以转换为几何体集合，扩展了创建来源的可能性",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体集合",
+      "predicate": "可由",
+      "object": "其他几何体集合",
+      "context": "几何体集合可以合并形成新的集合，这种递归关系对复杂破坏效果的构建很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "破裂模式",
+      "predicate": "用于",
+      "object": "几何体集合",
+      "context": "破裂模式是专门处理几何体集合破裂的工具，掌握这个工具对实现破坏效果至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "均匀Voronoi",
+      "predicate": "是",
+      "object": "破裂方法",
+      "context": "了解不同类型的破裂方法有助于学习者选择最适合其需求的破坏效果实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体集合",
+      "predicate": "包含",
+      "object": "内部表面材质",
+      "context": "理解几何体集合的材质系统可以帮助学习者创建更真实的破坏视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "几何体集合",
+      "predicate": "需要满足",
+      "object": "不漏水要求",
+      "context": "了解几何体集合的最佳实践可以避免模拟时出现问题，这对实际开发很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体集合",
+      "predicate": "需要避免",
+      "object": "相交几何体",
+      "context": "这是创建有效几何体集合的关键要求，影响模拟结果的准确性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos解算器",
+      "predicate": "处理",
+      "object": "几何体集合模拟",
+      "context": "了解底层物理系统如何与几何体集合交互有助于调试和优化破坏效果",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "静态网格体组件",
+      "predicate": "转换为",
+      "object": "几何体集合元素",
+      "context": "理解这个转换过程有助于学习者掌握从常规模型到可破坏模型的转换机制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "破裂模式窗口",
+      "predicate": "提供",
+      "object": "破裂工具集",
+      "context": "熟悉破裂模式窗口的界面和功能是操作几何体集合的必要技能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体集合枢轴点",
+      "predicate": "由",
+      "object": "首个选定Actor决定",
+      "context": "这个细节对多对象合并时的定位和后续模拟行为有重要影响",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "显示骨骼颜色",
+      "predicate": "控制",
+      "object": "几何体集合可视化",
+      "context": "这个选项帮助开发者区分几何体集合的不同部分，对调试很有用",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "材质ID",
+      "predicate": "从",
+      "object": "源资产复制",
+      "context": "理解材质如何从源对象继承有助于材质系统的正确配置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:12:12.104Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11397 字符)",
+      "timestamp": "2025-06-15T19:11:18.434Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16085,
+    "contentLength": 11397,
+    "processingTimeMs": 53676
+  }
+}

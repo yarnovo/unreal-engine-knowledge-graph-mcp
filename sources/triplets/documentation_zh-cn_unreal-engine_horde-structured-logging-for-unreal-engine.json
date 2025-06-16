@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_horde-structured-logging-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_horde-structured-logging-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Horde",
+      "predicate": "使用",
+      "object": "结构化日志记录",
+      "context": "Horde使用结构化日志记录来提供比纯文本日志更多的特定上下文信息，帮助开发者更好地诊断自动化流程中的问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "结构化日志记录",
+      "predicate": "提供",
+      "object": "特定上下文信息",
+      "context": "结构化日志记录提供如人工可读消息、诊断来源、触发错误的文件、行号、严重程度、错误代码等特定上下文信息，有助于问题诊断",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "结构化日志记录",
+      "predicate": "基于",
+      "object": "消息模板语法",
+      "context": "虚幻引擎使用标准的消息模板语法编写错误日志，这有助于日志的格式化和后续处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AutomationTool",
+      "predicate": "支持",
+      "object": "NET ILogger API",
+      "context": "AutomationTool支持使用NET ILogger API编写日志事件，取代旧版的静态日志方法，提供更灵活的日志记录方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎运行时",
+      "predicate": "支持",
+      "object": "UE_LOGFMT宏",
+      "context": "虚幻引擎运行时支持使用UE_LOGFMT宏编写结构化日志事件，这是C++环境下记录结构化日志的主要方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "设置",
+      "object": "UE_LOG_JSON_TO_STDOUT环境变量",
+      "context": "Horde通过设置UE_LOG_JSON_TO_STDOUT环境变量，指示工具将JSON输出直接发送到stdout，便于日志的采集和呈现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "旧版日志输出",
+      "predicate": "依赖",
+      "object": "正则表达式库",
+      "context": "对于不支持结构化日志的外部工具，Horde使用正则表达式库从纯文本输出中构建结构化日志事件，这是处理旧版日志的关键技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LogEventParser",
+      "predicate": "使用",
+      "object": "ILogEventMatcher接口",
+      "context": "LogEventParser类使用ILogEventMatcher接口来解析纯文本日志，开发者可以通过实现该接口来添加新的日志匹配器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "结构化日志记录",
+      "predicate": "优于",
+      "object": "纯文本日志",
+      "context": "结构化日志记录比纯文本日志提供更多上下文信息和更好的可搜索性，有助于更高效的问题诊断和构建健康管理",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "实现",
+      "object": "构建健康系统",
+      "context": "Horde利用结构化日志记录实现构建健康系统，能够更准确地识别构建问题并追踪责任人",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:22:17.491Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6345,
+    "contentLength": 3909,
+    "processingTimeMs": 44649
+  }
+}

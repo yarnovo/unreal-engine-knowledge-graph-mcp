@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_refraction-using-pixel-normal-offset-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_refraction-using-pixel-normal-offset-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "折射率",
+      "predicate": "是",
+      "object": "物理折射模型",
+      "context": "折射率是基于物理的折射模型的核心参数，理解它有助于掌握物理折射的基本原理",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素法线偏移",
+      "predicate": "是",
+      "object": "非物理折射模型",
+      "context": "像素法线偏移提供了一种不同于物理模型的折射实现方式，特别适合大平面",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "折射模式",
+      "predicate": "包含",
+      "object": "折射率",
+      "context": "折射模式是材质的一个设置选项，包含折射率模式，这是学习材质设置的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "折射模式",
+      "predicate": "包含",
+      "object": "像素法线偏移",
+      "context": "折射模式下拉菜单中包含像素法线偏移选项，了解这一点有助于掌握材质编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素法线偏移",
+      "predicate": "依赖",
+      "object": "法线贴图",
+      "context": "像素法线偏移模式需要法线贴图才能产生折射效果，这是使用该模式的重要前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "折射率",
+      "predicate": "不依赖",
+      "object": "法线贴图",
+      "context": "折射率模式可以在没有法线贴图的情况下工作，这是两种折射模式的重要区别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素法线偏移",
+      "predicate": "适用于",
+      "object": "大平面",
+      "context": "像素法线偏移特别适合水面、窗户等大平面，这是选择折射模式的重要依据",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "折射率",
+      "predicate": "适用于",
+      "object": "小物体",
+      "context": "折射率模式适合玻璃杯等小物体，帮助学习者根据对象大小选择合适的折射模式",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质编辑器",
+      "predicate": "提供",
+      "object": "像素法线偏移",
+      "context": "材质编辑器是设置像素法线偏移的工具界面，了解这一关系有助于定位功能位置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "用于",
+      "object": "修改折射模式",
+      "context": "细节面板是调整折射模式的界面位置，这是材质编辑的基本操作知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "折射值",
+      "predicate": "影响",
+      "object": "折射效果强度",
+      "context": "调整折射值可以控制折射的明显程度，这是微调视觉效果的重要参数",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "玻璃材质",
+      "predicate": "可以使用",
+      "object": "像素法线偏移",
+      "context": "玻璃材质特别适合使用像素法线偏移来避免瑕疵，这是材质应用的典型案例",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "法线贴图",
+      "predicate": "决定",
+      "object": "折射细节",
+      "context": "法线贴图的细节程度直接影响像素法线偏移的折射效果，理解这一关系有助于创建更真实的材质",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "物理折射模型",
+      "predicate": "衍生自",
+      "object": "折射率值",
+      "context": "理解物理折射模型与折射率的关系是掌握光学材质的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素法线偏移",
+      "predicate": "基于",
+      "object": "顶点法线",
+      "context": "像素法线偏移的计算基于顶点法线，这是理解该技术原理的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "折射",
+      "predicate": "属于",
+      "object": "材质属性",
+      "context": "折射是材质的一个重要视觉效果属性，这是材质系统的基础分类知识",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质",
+      "predicate": "包含",
+      "object": "折射设置",
+      "context": "材质包含折射相关的各种设置，这是材质系统的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "使用折射",
+      "predicate": "扩展",
+      "object": "折射知识",
+      "context": "相关文档'使用折射'可以扩展对折射原理的理解，这是重要的学习资源",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "材质编辑器指南",
+      "predicate": "包含",
+      "object": "像素法线偏移实现",
+      "context": "材质编辑器文档包含像素法线偏移的具体实现方法，这是深入学习的参考资料",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "折射瑕疵",
+      "predicate": "可通过",
+      "object": "像素法线偏移解决",
+      "context": "像素法线偏移可以解决大平面的折射瑕疵问题，这是选择该技术方案的重要理由",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:34:50.339Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7747,
+    "contentLength": 5095,
+    "processingTimeMs": 62245
+  }
+}

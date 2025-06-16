@@ -1,0 +1,197 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_overview-of-state-tree-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_overview-of-state-tree-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "StateTree",
+      "predicate": "组合",
+      "object": "行为树",
+      "context": "StateTree结合了行为树的选择器机制，学习者需要理解行为树的基本概念才能掌握StateTree的选择逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StateTree",
+      "predicate": "组合",
+      "object": "状态机",
+      "context": "StateTree继承了状态机的状态和过渡机制，学习者需要了解状态机的基本原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StateTree",
+      "predicate": "包含",
+      "object": "状态",
+      "context": "状态是StateTree的基本组成单元，理解状态概念是学习StateTree的基础",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "状态",
+      "predicate": "包含",
+      "object": "任务",
+      "context": "任务在状态激活时执行，理解任务与状态的关系是掌握StateTree执行流程的关键",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "状态",
+      "predicate": "包含",
+      "object": "过渡",
+      "context": "过渡定义了状态切换的条件，理解过渡机制对设计状态流程很重要",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "StateTree",
+      "predicate": "支持",
+      "object": "数据绑定",
+      "context": "数据绑定功能是StateTree实现数据流的关键机制，学习者需要掌握数据绑定概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StateTree",
+      "predicate": "集成",
+      "object": "蓝图",
+      "context": "StateTree可以通过蓝图扩展，理解蓝图集成对自定义功能开发很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "任务",
+      "predicate": "生成",
+      "object": "输出",
+      "context": "任务输出驱动StateTree的执行流程，理解输出机制对设计任务很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "过渡",
+      "predicate": "触发",
+      "object": "状态选择",
+      "context": "过渡条件满足时会触发状态选择过程，这是StateTree状态切换的核心机制",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "根状态",
+      "predicate": "是",
+      "object": "初始状态",
+      "context": "理解根状态作为StateTree的起点对掌握状态选择流程很重要",
+      "direction": "bidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "选择器状态",
+      "predicate": "包含",
+      "object": "子状态",
+      "context": "选择器状态通过子状态实现状态分层，理解这种结构对设计复杂状态逻辑很重要",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "状态进入条件",
+      "predicate": "控制",
+      "object": "状态选择",
+      "context": "进入条件决定状态是否可被选择，理解条件机制对状态流程控制很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UStateTreeTaskBlueprintBase",
+      "predicate": "是",
+      "object": "任务基类",
+      "context": "理解任务基类对通过蓝图扩展自定义任务很重要",
+      "direction": "bidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "UStateTreeEvaluatorBlueprintBase",
+      "predicate": "是",
+      "object": "求值器基类",
+      "context": "理解求值器基类对通过蓝图扩展数据求值功能很重要",
+      "direction": "bidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "UStateTreeConditionBlueprintBase",
+      "predicate": "是",
+      "object": "条件基类",
+      "context": "理解条件基类对通过蓝图扩展自定义条件很重要",
+      "direction": "bidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "状态树参数",
+      "predicate": "用于",
+      "object": "自定义行为",
+      "context": "参数机制允许运行时自定义StateTree行为，理解参数对实现灵活设计很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "上下文数据",
+      "predicate": "提供",
+      "object": "运行时信息",
+      "context": "上下文数据为StateTree提供执行环境信息，理解数据来源对调试很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "求值器",
+      "predicate": "扩展",
+      "object": "数据源",
+      "context": "求值器可以补充参数和上下文数据之外的数据源，理解这种扩展机制对复杂系统设计很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全局任务",
+      "predicate": "提供",
+      "object": "持久数据",
+      "context": "全局任务可以在整个StateTree生命周期提供数据，理解这种机制对共享数据设计很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "任务分组",
+      "predicate": "实现",
+      "object": "共享过渡",
+      "context": "任务分组模式可以共享过渡逻辑，理解这种模式对状态组织很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Next过渡",
+      "predicate": "简化",
+      "object": "状态序列",
+      "context": "Next过渡专门用于简化序列流程的实现，理解这种特殊过渡对线性流程设计很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分层处理",
+      "predicate": "实现",
+      "object": "失败处理",
+      "context": "分层处理机制提供了优雅的错误处理方式，理解这种模式对健壮性设计很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "任务数据共享",
+      "predicate": "提高",
+      "object": "效率",
+      "context": "任务间的数据共享可以减少重复计算，理解这种机制对性能优化很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:16:52.456Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 14577,
+    "contentLength": 7671,
+    "processingTimeMs": 81926
+  }
+}

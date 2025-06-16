@@ -1,0 +1,131 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_detect-oculus-rift-guardian-system-activation-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_detect-oculus-rift-guardian-system-activation-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Oculus Guardian系统",
+      "predicate": "用于",
+      "object": "显示VR交互区域的边界",
+      "context": "Oculus Guardian系统的主要功能是显示VR交互区域的边界，帮助用户避免碰撞",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Oculus Runtime",
+      "predicate": "提供",
+      "object": "可视提示",
+      "context": "当追踪设备靠近边界时，Oculus Runtime会自动提供可视提示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Is Outer Boundary Displayed节点",
+      "predicate": "检测",
+      "object": "设备靠近边界",
+      "context": "该节点用于检测用户设备是否靠近Oculus Guardian边界",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Event Tick",
+      "predicate": "驱动",
+      "object": "边界检测逻辑",
+      "context": "Event Tick节点用于持续检查边界状态，实现实时检测",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Get Play Area Points节点",
+      "predicate": "获取",
+      "object": "交互区域点数据",
+      "context": "该节点用于获取定义交互区域的3D点数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "For Loop",
+      "predicate": "处理",
+      "object": "交互区域点数据",
+      "context": "For Loop节点用于遍历所有交互区域点，进行可视化处理",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "DrawDebugPoint",
+      "predicate": "可视化",
+      "object": "交互区域点",
+      "context": "该函数用于在场景中绘制交互区域的点标记",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DrawDebugLine",
+      "predicate": "连接",
+      "object": "交互区域点",
+      "context": "该函数用于连接交互区域的点，形成可视边界",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OculusRiftBoundaryComponent",
+      "predicate": "包含",
+      "object": "边界检测功能",
+      "context": "该组件封装了与Oculus Rift边界相关的功能方法",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "运动控制器组件设置",
+      "predicate": "是前置知识",
+      "object": "Oculus Guardian系统检测",
+      "context": "文档指出理解运动控制器组件是学习本内容的前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Kismet系统库",
+      "predicate": "提供",
+      "object": "调试绘制功能",
+      "context": "KismetSystemLibrary包含DrawDebugPoint和DrawDebugLine等调试绘制函数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Kismet数学库",
+      "predicate": "提供",
+      "object": "数学运算功能",
+      "context": "KismetMathLibrary包含处理点数据所需的数学运算方法",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "VR预览模式",
+      "predicate": "用于",
+      "object": "测试Guardian系统",
+      "context": "最终需要在VR预览模式下测试Guardian边界检测功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Oculus应用程序",
+      "predicate": "配置",
+      "object": "Guardian系统",
+      "context": "Guardian系统需要先在Oculus应用程序中进行设置才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:50:47.809Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (80185 字符)",
+      "timestamp": "2025-06-15T18:49:54.758Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 81915,
+    "contentLength": 80185,
+    "processingTimeMs": 53056
+  }
+}

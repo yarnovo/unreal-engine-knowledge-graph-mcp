@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_color-management-in-ndisplay-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_color-management-in-ndisplay-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "nDisplay",
+      "predicate": "包含",
+      "object": "颜色管理工具",
+      "context": "nDisplay提供颜色管理工具用于调整显示设备上的颜色分级和OCIO配置，帮助学习者理解nDisplay的功能模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "颜色管理工具",
+      "predicate": "支持",
+      "object": "颜色分级",
+      "context": "颜色管理工具支持颜色分级功能，帮助学习者了解如何调整显示设备上的颜色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "颜色管理工具",
+      "predicate": "支持",
+      "object": "OpenColorIO(OCIO)",
+      "context": "颜色管理工具支持OCIO配置，帮助学习者了解如何使用OCIO进行颜色管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "颜色分级",
+      "predicate": "应用于",
+      "object": "视口",
+      "context": "颜色分级可以应用于视口，帮助学习者理解颜色分级的具体应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "颜色分级",
+      "predicate": "应用于",
+      "object": "内视锥体",
+      "context": "颜色分级可以应用于内视锥体，帮助学习者理解颜色分级在内视锥体中的使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "颜色分级",
+      "predicate": "叠加算法",
+      "object": "顺序应用",
+      "context": "颜色分级采用叠加算法，按顺序应用多个设置，帮助学习者理解颜色分级的工作原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay Root Actor",
+      "predicate": "控制",
+      "object": "颜色分级",
+      "context": "nDisplay Root Actor可以控制颜色分级的设置，帮助学习者了解如何通过Root Actor进行颜色管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX摄像机组件",
+      "predicate": "控制",
+      "object": "内视锥体颜色分级",
+      "context": "ICVFX摄像机组件可以控制内视锥体的颜色分级，帮助学习者了解内视锥体的颜色管理方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OpenColorIO(OCIO)",
+      "predicate": "覆盖",
+      "object": "编辑器OCIO配置",
+      "context": "nDisplay的OCIO配置会覆盖编辑器的OCIO配置，帮助学习者理解OCIO配置的优先级",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OpenColorIO(OCIO)",
+      "predicate": "应用于",
+      "object": "视口",
+      "context": "OCIO配置可以应用于视口，帮助学习者了解OCIO的具体应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OpenColorIO(OCIO)",
+      "predicate": "应用于",
+      "object": "内视锥体",
+      "context": "OCIO配置可以应用于内视锥体，帮助学习者了解OCIO在内视锥体中的使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理体积",
+      "predicate": "影响",
+      "object": "颜色分级",
+      "context": "后期处理体积会影响颜色分级的结果，帮助学习者理解颜色分级的应用顺序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay群集",
+      "predicate": "包含",
+      "object": "视口",
+      "context": "nDisplay群集包含多个视口，帮助学习者理解群集的结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay群集",
+      "predicate": "包含",
+      "object": "内视锥体",
+      "context": "nDisplay群集包含内视锥体，帮助学习者理解群集的结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "mGPU",
+      "predicate": "影响",
+      "object": "内视锥体共享",
+      "context": "mGPU启用时，内视锥体可以在多个视口之间共享，帮助学习者理解内视锥体的共享机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:29:23.058Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9243,
+    "contentLength": 5933,
+    "processingTimeMs": 63673
+  }
+}

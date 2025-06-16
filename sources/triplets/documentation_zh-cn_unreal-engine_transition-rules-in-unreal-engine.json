@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_transition-rules-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_transition-rules-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "转换",
+      "predicate": "连接",
+      "object": "状态",
+      "context": "转换用于连接不同的状态，定义了状态机中状态之间的过渡关系",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "转换规则",
+      "predicate": "控制",
+      "object": "转换",
+      "context": "转换规则决定了状态何时可以转换到下一个状态，是转换的核心逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "转换规则",
+      "predicate": "输出",
+      "object": "布尔值",
+      "context": "转换规则通过蓝图逻辑最终输出布尔值，决定是否允许状态转换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "转换函数",
+      "predicate": "增强",
+      "object": "转换规则",
+      "context": "转换函数提供了专门用于转换规则的逻辑增强功能，如获取状态时间、动画剩余时间等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画通知函数",
+      "predicate": "用于",
+      "object": "转换规则",
+      "context": "动画通知函数可以在转换规则中使用，用于检测动画通知的触发情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "转换中断",
+      "predicate": "链接",
+      "object": "动画通知",
+      "context": "转换中断时可以链接特定的动画通知，在中断发生时执行这些通知",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "标准混合",
+      "predicate": "是",
+      "object": "转换混合类型",
+      "context": "标准混合是三种主要转换混合类型之一，包含基本的混合设置如时长和曲线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "惯性化",
+      "predicate": "是",
+      "object": "转换混合类型",
+      "context": "惯性化是一种转换混合类型，利用动画速度和加速来推动运动过渡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义混合",
+      "predicate": "是",
+      "object": "转换混合类型",
+      "context": "自定义混合允许开发者在动画图表中自定义混合逻辑，提供更大的灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "惯性化",
+      "predicate": "依赖",
+      "object": "Inertialization节点",
+      "context": "使用惯性化混合类型时，必须在动画图表中使用Inertialization节点，且该节点需放置在状态机求值之后",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义混合",
+      "predicate": "使用",
+      "object": "特殊函数",
+      "context": "自定义混合图表中可以使用特殊函数来读取转换时间和状态权重信息，以自定义混合逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "转换属性",
+      "predicate": "包含",
+      "object": "优先级顺序",
+      "context": "转换属性中的优先级顺序决定了多个转换同时成立时的选择顺序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "转换属性",
+      "predicate": "包含",
+      "object": "混合逻辑",
+      "context": "混合逻辑属性用于选择转换混合类型（标准、惯性化或自定义）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "转换属性",
+      "predicate": "包含",
+      "object": "转换规则共享",
+      "context": "转换规则共享属性允许在不同转换之间共享转换图表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "转换属性",
+      "predicate": "包含",
+      "object": "转换中断设置",
+      "context": "转换属性中包含转换中断的相关设置，如链接的通知或通知状态类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "状态机",
+      "predicate": "包含",
+      "object": "转换",
+      "context": "状态机通过转换来定义状态之间的过渡关系和结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "状态",
+      "predicate": "通过",
+      "object": "转换",
+      "context": "状态之间通过转换进行过渡，转换定义了状态之间的连接关系",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "空闲状态",
+      "predicate": "连接",
+      "object": "奔跑状态",
+      "context": "空闲状态和奔跑状态可以通过双向转换连接，这是状态机中常见的连接方式",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "转换规则",
+      "predicate": "基于",
+      "object": "运动组件",
+      "context": "转换规则通常由运动组件和其他角色变量提供信息，用于决定状态转换的条件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "转换混合类型",
+      "predicate": "影响",
+      "object": "动画过渡效果",
+      "context": "不同的转换混合类型（标准、惯性化、自定义）会影响状态之间动画过渡的效果和表现",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:03:14.706Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12569 字符)",
+      "timestamp": "2025-06-15T21:02:21.331Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19809,
+    "contentLength": 12569,
+    "processingTimeMs": 53381
+  }
+}

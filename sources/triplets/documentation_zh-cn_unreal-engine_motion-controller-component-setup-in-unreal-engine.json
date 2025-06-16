@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_motion-controller-component-setup-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_motion-controller-component-setup-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "运动控制器组件",
+      "predicate": "支持",
+      "object": "Oculus VR",
+      "context": "运动控制器组件适用于Oculus VR平台，帮助开发者在该平台上实现VR交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动控制器组件",
+      "predicate": "支持",
+      "object": "Steam VR",
+      "context": "运动控制器组件适用于Steam VR平台，帮助开发者在该平台上实现VR交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动控制器组件",
+      "predicate": "支持",
+      "object": "Gear VR",
+      "context": "运动控制器组件适用于Gear VR平台，帮助开发者在该平台上实现VR交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动控制器组件",
+      "predicate": "支持",
+      "object": "Playstation VR",
+      "context": "运动控制器组件适用于Playstation VR平台，帮助开发者在该平台上实现VR交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动控制器组件",
+      "predicate": "支持",
+      "object": "Google VR",
+      "context": "运动控制器组件适用于Google VR平台，帮助开发者在该平台上实现VR交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动控制器组件",
+      "predicate": "包含",
+      "object": "静态网格体组件",
+      "context": "运动控制器组件可以包含静态网格体组件，用于可视化控制器的外观",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体组件",
+      "predicate": "依附于",
+      "object": "运动控制器组件",
+      "context": "静态网格体组件需要作为运动控制器组件的子代，以确保其跟随控制器移动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动控制器组件",
+      "predicate": "设置",
+      "object": "手部设置",
+      "context": "运动控制器组件可以设置为左手或右手，以适应不同的VR控制器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动控制器组件",
+      "predicate": "可视化",
+      "object": "显示设备模型",
+      "context": "运动控制器组件提供可视化选项，可以显示与设备关联的模型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动控制器组件",
+      "predicate": "可视化",
+      "object": "自定义显示网格体",
+      "context": "运动控制器组件允许使用自定义网格体来覆盖默认的显示模型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动控制器组件",
+      "predicate": "可视化",
+      "object": "显示网格体材质覆盖",
+      "context": "运动控制器组件允许覆盖显示网格体的材质，以实现不同的视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动控制器组件",
+      "predicate": "用于",
+      "object": "VR交互",
+      "context": "运动控制器组件主要用于实现VR环境中的交互功能，提升沉浸感",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家Pawn",
+      "predicate": "包含",
+      "object": "运动控制器组件",
+      "context": "玩家Pawn可以包含运动控制器组件，以实现VR环境中的控制器功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR头戴式显示器",
+      "predicate": "配合",
+      "object": "运动控制器组件",
+      "context": "运动控制器组件需要与VR头戴式显示器配合使用，以实现完整的VR体验",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:00:20.212Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8420,
+    "contentLength": 6078,
+    "processingTimeMs": 47339
+  }
+}

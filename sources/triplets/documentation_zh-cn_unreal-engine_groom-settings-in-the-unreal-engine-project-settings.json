@@ -1,0 +1,53 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_groom-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_groom-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "Groom",
+      "predicate": "包含",
+      "object": "Groom缓存",
+      "context": "Groom是虚幻引擎中处理毛发和毛发模拟的系统，Groom缓存是其功能的一部分，用于优化毛发动画的流送和预加载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom缓存",
+      "predicate": "用于",
+      "object": "毛发动画流送",
+      "context": "Groom缓存专门用于优化毛发动画的流送性能，通过预加载动画数据来减少运行时延迟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预读缓冲区",
+      "predicate": "控制",
+      "object": "Groom缓存预加载量",
+      "context": "预读缓冲区设置决定了流送管理器要提前预加载的Groom缓存动画数量（以秒为单位），直接影响毛发动画的流畅性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom缓存",
+      "predicate": "依赖",
+      "object": "流送管理器",
+      "context": "Groom缓存功能的实现依赖于虚幻引擎的流送管理器系统来预加载和调度动画数据",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Groom设置",
+      "predicate": "属于",
+      "object": "项目设置",
+      "context": "Groom相关的配置选项位于虚幻引擎的项目设置中，是项目全局配置的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:16:21.105Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 1261,
+    "contentLength": 1039,
+    "processingTimeMs": 19384
+  }
+}

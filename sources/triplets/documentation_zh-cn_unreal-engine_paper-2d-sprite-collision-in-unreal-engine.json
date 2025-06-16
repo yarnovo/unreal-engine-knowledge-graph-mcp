@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_paper-2d-sprite-collision-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_paper-2d-sprite-collision-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Sprite",
+      "predicate": "支持",
+      "object": "碰撞计算",
+      "context": "Sprite可以定义碰撞形态，用于与场景中其他几何体的碰撞计算，这是2D游戏开发中的重要功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sprite碰撞域",
+      "predicate": "包含",
+      "object": "碰撞类型",
+      "context": "Sprite碰撞域属性定义了三种不同的碰撞计算方法，学习者需要理解这些类型的选择对游戏物理效果的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "使用2D物理",
+      "predicate": "基于",
+      "object": "Box2D",
+      "context": "2D物理选项使用Box2D物理引擎进行碰撞计算，这是2D游戏开发中常用的物理引擎",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "使用3D物理",
+      "predicate": "基于",
+      "object": "PhysX",
+      "context": "3D物理选项使用PhysX物理引擎，将2D碰撞几何体突出为3D碰撞几何体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞几何体",
+      "predicate": "包含",
+      "object": "几何体类型",
+      "context": "碰撞几何体有多种生成算法类型，影响碰撞精度和性能，学习者需要根据游戏需求选择合适的类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "源边界框式",
+      "predicate": "使用",
+      "object": "源区边界框",
+      "context": "这种碰撞几何体类型直接使用Sprite源区的边界框，是最简单的碰撞计算方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "严格边界框式",
+      "predicate": "排除",
+      "object": "全透明区域",
+      "context": "这种类型生成更精确的边界框，排除透明区域，适合需要精确碰撞的游戏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "收缩包裹式",
+      "predicate": "匹配",
+      "object": "不透明区域",
+      "context": "这种类型生成最真实的碰撞效果，但可能影响性能，适合对碰撞精度要求高的场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Box2D",
+      "predicate": "支持",
+      "object": "碰撞检测和响应",
+      "context": "Box2D整合版支持基本的碰撞检测和响应功能，但某些高级功能尚未实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Box2D",
+      "predicate": "支持",
+      "object": "刚体模拟",
+      "context": "Box2D支持刚体物理模拟，这是2D物理游戏的基础功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Box2D",
+      "predicate": "支持",
+      "object": "光线投射",
+      "context": "Box2D支持光线投射功能，可用于游戏中的视线检测等玩法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑碰撞模式",
+      "predicate": "允许",
+      "object": "自定义碰撞几何体",
+      "context": "在编辑模式下可以手动调整碰撞几何体，适合需要特殊碰撞形状的情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sprite",
+      "predicate": "关联",
+      "object": "材质",
+      "context": "Sprite通常需要配合材质使用，这是相关文档中提到的关联概念",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Sprite",
+      "predicate": "关联",
+      "object": "纹理",
+      "context": "Sprite通常基于纹理创建，这是相关文档中提到的关联概念",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "使用3D物理",
+      "predicate": "需要",
+      "object": "碰撞厚度",
+      "context": "3D物理选项需要定义碰撞厚度参数来生成3D碰撞几何体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Box2D",
+      "predicate": "是",
+      "object": "实验性功能",
+      "context": "当前Box2D整合是实验性的，不建议用于正式游戏开发，学习者需要注意这一限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:19:14.213Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5383,
+    "contentLength": 3447,
+    "processingTimeMs": 52578
+  }
+}

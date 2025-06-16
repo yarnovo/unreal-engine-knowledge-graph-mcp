@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_play-in-editor-multiplayer-options-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_play-in-editor-multiplayer-options-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "在编辑器中运行（PIE）",
+      "predicate": "支持",
+      "object": "多玩家测试",
+      "context": "PIE模式允许在编辑器中创建多个客户端世界，便于开发者测试联网功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在编辑器中运行（PIE）",
+      "predicate": "包含",
+      "object": "网络模式选项",
+      "context": "PIE提供多种网络模式选项，包括单机运行、监听服务器和客户端模式，帮助开发者测试不同网络场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络模式",
+      "predicate": "包含",
+      "object": "单机运行（Play Standalone）",
+      "context": "单机运行模式用于测试非联网Gameplay，是网络模式的基础选项之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络模式",
+      "predicate": "包含",
+      "object": "作为监听服务器运行（Play as Listen Server）",
+      "context": "监听服务器模式允许编辑器同时充当服务器和客户端，适用于简单的多玩家测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络模式",
+      "predicate": "包含",
+      "object": "作为客户端运行（Play as Client）",
+      "context": "客户端模式配合专用服务器使用，可以测试纯客户端功能和服务端逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "专用服务器",
+      "predicate": "用于",
+      "object": "测试服务器专属漏洞",
+      "context": "使用专用服务器可以测试那些仅发生在服务器端的逻辑问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图编辑器",
+      "predicate": "支持",
+      "object": "多世界调试",
+      "context": "在多玩家测试时，蓝图编辑器提供世界选择功能，方便开发者调试特定客户端或服务器的蓝图逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络模拟设置",
+      "predicate": "用于",
+      "object": "测试网络问题",
+      "context": "网络模拟可以模拟各种网络条件（如延迟、丢包），帮助开发者测试游戏在网络不佳时的表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡编辑器",
+      "predicate": "包含",
+      "object": "运行位置设置",
+      "context": "运行位置设置是关卡编辑器的一部分，提供高级的多玩家测试配置选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在编辑器中运行（PIE）",
+      "predicate": "支持",
+      "object": "快速迭代",
+      "context": "PIE模式直接在编辑器中运行游戏，避免了独立构建和启动的时间，加速开发迭代",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多玩家测试",
+      "predicate": "依赖",
+      "object": "网络模式",
+      "context": "进行多玩家测试需要选择合适的网络模式，以模拟不同的网络架构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试蓝图",
+      "predicate": "依赖",
+      "object": "世界选择",
+      "context": "在多玩家环境下调试蓝图需要先选择要调试的特定世界（客户端或服务器）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络模拟",
+      "predicate": "包含",
+      "object": "输入流量设置",
+      "context": "输入流量设置是网络模拟的一部分，可以配置数据包延迟和丢失率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络模拟",
+      "predicate": "包含",
+      "object": "外发流量设置",
+      "context": "外发流量设置允许配置从客户端或服务器发出的数据包的网络条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "客户端设置",
+      "predicate": "包含",
+      "object": "游戏手柄输入路由",
+      "context": "在多玩家测试时可以配置游戏手柄输入如何分配给不同的客户端窗口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "服务器设置",
+      "predicate": "包含",
+      "object": "服务器端口",
+      "context": "服务器端口设置决定了游戏使用的网络端口，是多玩家联网的基础配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在编辑器中运行（PIE）",
+      "predicate": "支持",
+      "object": "多进程测试",
+      "context": "PIE可以选择在单个进程或多个进程下运行，模拟不同的运行时环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试绘图",
+      "predicate": "用于",
+      "object": "可视化服务器逻辑",
+      "context": "服务器调试绘图功能可以帮助开发者可视化服务器端的逻辑和状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频设备设置",
+      "predicate": "影响",
+      "object": "多玩家音频表现",
+      "context": "为每个玩家创建独立音频设备可以提供更准确的音效，但会增加CPU开销",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "固定FPS设置",
+      "predicate": "用于",
+      "object": "性能测试",
+      "context": "固定客户端和服务器的FPS可以测试游戏在不同帧率下的表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:25:43.440Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10621,
+    "contentLength": 5927,
+    "processingTimeMs": 67416
+  }
+}

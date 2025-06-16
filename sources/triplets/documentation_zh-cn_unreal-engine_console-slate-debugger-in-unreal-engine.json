@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_console-slate-debugger-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_console-slate-debugger-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "控制台Slate调试器",
+      "predicate": "用于",
+      "object": "调试Slate",
+      "context": "控制台Slate调试器是UI开发人员在开发用户界面时用于调试Slate的工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台Slate调试器",
+      "predicate": "挂接",
+      "object": "FSlateDebugging",
+      "context": "控制台Slate调试器通过挂接到FSlateDebugging系统来打印内部Slate数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台Slate调试器",
+      "predicate": "包含",
+      "object": "GlobalInvalidation",
+      "context": "控制台Slate调试器包含GlobalInvalidation功能，用于识别处理高成本帧的控件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台Slate调试器",
+      "predicate": "包含",
+      "object": "绘制选项",
+      "context": "控制台Slate调试器包含绘制选项，用于显示在给定帧中绘制的控件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台Slate调试器",
+      "predicate": "包含",
+      "object": "附加路由选项",
+      "context": "控制台Slate调试器包含附加路由选项，用于查看系统如何选择控件作为事件处理程序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SlateDebugger",
+      "predicate": "属于",
+      "object": "控制台Slate调试器",
+      "context": "SlateDebugger是控制台Slate调试器的一部分，提供多种调试命令",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SlateDebugger.Event",
+      "predicate": "包含",
+      "object": "Start",
+      "context": "SlateDebugger.Event包含Start命令，用于启动Slate控制台调试器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SlateDebugger.Event",
+      "predicate": "包含",
+      "object": "Stop",
+      "context": "SlateDebugger.Event包含Stop命令，用于停止Slate控制台调试器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SlateDebugger.Invalidate",
+      "predicate": "用于",
+      "object": "显示无效的界面控件",
+      "context": "SlateDebugger.Invalidate命令用于显示无效的界面控件，帮助开发者识别问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SlateDebugger.Paint",
+      "predicate": "用于",
+      "object": "突出显示绘制的控件",
+      "context": "SlateDebugger.Paint命令用于突出显示在每个帧中绘制的控件，帮助识别性能问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SlateDebugger.Update",
+      "predicate": "用于",
+      "object": "突出显示更新频率过高的控件",
+      "context": "SlateDebugger.Update命令用于突出显示更新频率超过需求的控件，帮助优化性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台Slate调试器",
+      "predicate": "前置",
+      "object": "运行和模拟",
+      "context": "理解和使用控制台Slate调试器需要先熟悉运行和模拟的相关知识",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "SlateDebugger",
+      "predicate": "生成",
+      "object": "日志文件",
+      "context": "SlateDebugger生成的日志通常被写入到项目目录下的日志文件中，便于开发者分析",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "SlateDebugger.Event",
+      "predicate": "支持",
+      "object": "输入事件记录",
+      "context": "SlateDebugger.Event支持记录输入事件，帮助开发者调试输入处理逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "SlateDebugger.Event",
+      "predicate": "支持",
+      "object": "焦点事件记录",
+      "context": "SlateDebugger.Event支持记录焦点事件，帮助开发者调试焦点处理逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:32:06.177Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8375,
+    "contentLength": 5597,
+    "processingTimeMs": 63318
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_data-registries-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_data-registries-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "包含",
+      "object": "蓝图可视化脚本",
+      "context": "蓝图是虚幻引擎内置的可视化编程系统，学习蓝图可以帮助开发者无需编写代码即可实现游戏逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "C++编程",
+      "context": "虚幻引擎提供完整的C++编程支持，这是实现高性能游戏逻辑的主要方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "包含",
+      "object": "Niagara视觉效果系统",
+      "context": "Niagara是虚幻引擎内置的高级粒子系统，用于创建复杂的视觉特效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "包含",
+      "object": "渲染子系统",
+      "context": "渲染子系统负责处理光照、阴影、材质等图形效果，是引擎核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图可视化脚本",
+      "predicate": "替代",
+      "object": "C++编程",
+      "context": "蓝图可以替代部分C++功能，适合快速原型开发和非程序员使用",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "渲染子系统",
+      "predicate": "包含",
+      "object": "光照阴影",
+      "context": "光照阴影是渲染子系统的核心功能之一，影响场景视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染子系统",
+      "predicate": "包含",
+      "object": "材质纹理",
+      "context": "材质系统控制物体表面属性，是渲染的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "移动端开发",
+      "context": "虚幻引擎提供专门的工具和优化方案支持移动平台开发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "包含",
+      "object": "动画系统",
+      "context": "动画系统处理角色和物体的2D/3D动画，是游戏开发的关键组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "包含",
+      "object": "UMG界面系统",
+      "context": "UMG是虚幻引擎的用户界面创建工具，用于制作游戏UI",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "包含",
+      "object": "音频系统",
+      "context": "音频系统处理SoundCue等音效资产，管理游戏内声音播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "虚拟制片",
+      "context": "引擎提供媒体框架支持虚拟制片工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "C++编程",
+      "predicate": "扩展",
+      "object": "蓝图可视化脚本",
+      "context": "C++可以创建自定义节点扩展蓝图功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "渲染子系统",
+      "predicate": "依赖",
+      "object": "材质纹理",
+      "context": "渲染效果高度依赖材质系统的正确配置",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画系统",
+      "predicate": "用于",
+      "object": "角色动画",
+      "context": "动画系统专门用于处理角色骨骼动画和变形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara视觉效果系统",
+      "predicate": "生成",
+      "object": "粒子效果",
+      "context": "Niagara系统专门用于创建和实时预览各种粒子效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG界面系统",
+      "predicate": "基于",
+      "object": "Slate框架",
+      "context": "UMG是建立在Slate UI框架之上的更易用的界面系统",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "提供",
+      "object": "开发流程工具",
+      "context": "引擎提供各种工具支持团队协作和高效开发",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "多平台发布",
+      "context": "引擎内置功能支持将项目发布到多个目标平台",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:45:14.385Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8135,
+    "contentLength": 6563,
+    "processingTimeMs": 61563
+  }
+}

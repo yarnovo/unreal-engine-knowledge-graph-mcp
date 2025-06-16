@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_texture-layouts",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_texture-layouts.md",
+  "triples": [
+    {
+      "subject": "Mutable",
+      "predicate": "管理",
+      "object": "UV布局",
+      "context": "Mutable可以管理每个网格体的UV布局，以优化其使用效果，帮助学习者理解Mutable的核心功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理合并",
+      "predicate": "基于",
+      "object": "共享材质",
+      "context": "当不同网格体共享材质时，Mutable可以合并这些网格体的纹理，这是纹理合并的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "扩展网格体修饰符",
+      "predicate": "添加",
+      "object": "网格体片段",
+      "context": "扩展网格体修饰符可以向基础网格体添加带有纹理的网格体片段，展示如何扩展网格体结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体节点",
+      "predicate": "设置",
+      "object": "块分辨率",
+      "context": "在骨骼网格体节点的属性中可以设置用于创建块的网格分辨率，这是控制UV布局的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基础网格体",
+      "predicate": "决定",
+      "object": "子网格体分辨率",
+      "context": "基础网格体的网格体布局分辨率决定了同一可自定义对象层级中所有子网格体的分辨率，展示层级关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Remove Mesh Blocks修饰符",
+      "predicate": "删除",
+      "object": "网格体块",
+      "context": "该修饰符允许通过选择UV布局中的块来删除网格体，展示网格体编辑的重要功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UV布局规划",
+      "predicate": "影响",
+      "object": "纹理质量",
+      "context": "创建资产时需要规划纹理大小和块分辨率以获得最优化的质量和外观效果，强调前期规划的重要性",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "纹理参数",
+      "predicate": "控制",
+      "object": "颜色纹理贴图",
+      "context": "共享材质通常只有一个纹理参数即颜色纹理贴图，展示材质与纹理的基本关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "块结构",
+      "predicate": "决定",
+      "object": "最终UV布局",
+      "context": "网格体布局节点属性中设置的块结构直接影响最终UV布局的呈现方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Mutable编辑器",
+      "predicate": "提供",
+      "object": "UV预览功能",
+      "context": "通过预览实例视口中的UV按钮可以查看每个网格体部分的最终UV布局，这是重要的调试工具",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "纹理布局",
+      "predicate": "属于",
+      "object": "Mutable功能",
+      "context": "纹理布局是Mutable系统的核心功能模块之一，帮助定位技术范畴",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "网格体部分",
+      "predicate": "通过",
+      "object": "标签标识",
+      "context": "扩展网格体修饰符根据标签识别要修改的网格体部分，展示对象识别机制",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T20:59:59.467Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10075,
+    "contentLength": 6863,
+    "processingTimeMs": 42908
+  }
+}

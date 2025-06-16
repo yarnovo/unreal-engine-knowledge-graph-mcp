@@ -1,0 +1,157 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_privileges-interface-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_privileges-interface-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Online Services Privileges Interface",
+      "predicate": "管理",
+      "object": "玩家在线权限",
+      "context": "权限接口是管理玩家在线权限的核心组件，帮助开发者控制玩家在游戏中的各种在线行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "QueryUserPrivilege",
+      "predicate": "查询",
+      "object": "用户权限",
+      "context": "QueryUserPrivilege是权限接口的核心函数，用于查询特定用户是否拥有某项权限",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EUserPrivileges",
+      "predicate": "定义",
+      "object": "用户权限类型",
+      "context": "EUserPrivileges枚举类定义了各种用户权限类型，是权限系统的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EPrivilegeResults",
+      "predicate": "表示",
+      "object": "权限状态",
+      "context": "EPrivilegeResults枚举类表示权限查询的结果状态，帮助开发者理解权限被拒绝的原因",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CanPlayOnline",
+      "predicate": "属于",
+      "object": "EUserPrivileges",
+      "context": "CanPlayOnline是EUserPrivileges枚举中的一个值，表示用户是否可以在线玩游戏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CanCrossPlay",
+      "predicate": "属于",
+      "object": "EUserPrivileges",
+      "context": "CanCrossPlay是EUserPrivileges枚举中的一个值，表示用户是否可以参与跨平台游戏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NoFailures",
+      "predicate": "属于",
+      "object": "EPrivilegeResults",
+      "context": "NoFailures是EPrivilegeResults枚举中的一个值，表示用户拥有请求的权限",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AgeRestrictionFailure",
+      "predicate": "属于",
+      "object": "EPrivilegeResults",
+      "context": "AgeRestrictionFailure是EPrivilegeResults枚举中的一个值，表示权限由于家长控制失败而受限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "QueryUserPrivilege",
+      "predicate": "返回",
+      "object": "EPrivilegeResults",
+      "context": "QueryUserPrivilege函数返回EPrivilegeResults值，告知开发者权限查询的结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Privileges.h",
+      "predicate": "包含",
+      "object": "权限接口定义",
+      "context": "Privileges.h头文件包含了权限接口的定义，是开发者深入了解权限系统的关键资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Online Services Privileges Interface",
+      "predicate": "属于",
+      "object": "Online Services",
+      "context": "权限接口是虚幻引擎在线服务的一部分，与其他在线服务组件协同工作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "CanCommunicateViaTextOnline",
+      "predicate": "关联",
+      "object": "CanCommunicateViaVoiceOnline",
+      "context": "这两个权限都涉及玩家的在线通信能力，是相关的权限类型",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "CanUseUserGeneratedContent",
+      "predicate": "关联",
+      "object": "UGCRestriction",
+      "context": "CanUseUserGeneratedContent权限与UGCRestriction结果直接相关，后者表示用户被禁止访问UGC",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "OnlinePlayRestricted",
+      "predicate": "关联",
+      "object": "CanPlayOnline",
+      "context": "OnlinePlayRestricted结果与CanPlayOnline权限直接相关，表示在线游戏被限制",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "权限接口",
+      "predicate": "需要",
+      "object": "本地账户ID",
+      "context": "使用权限接口查询用户权限时需要提供用户的本地账户ID作为参数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "权限接口",
+      "predicate": "适用于",
+      "object": "跨平台游戏开发",
+      "context": "权限接口特别适用于需要处理跨平台游戏权限的开发场景",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "权限接口",
+      "predicate": "支持",
+      "object": "家长控制系统",
+      "context": "通过AgeRestrictionFailure结果，权限接口支持与家长控制系统的集成",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "权限接口",
+      "predicate": "依赖",
+      "object": "网络连接",
+      "context": "NetworkConnectionUnavailable结果表明权限接口的功能依赖于网络连接",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T20:28:00.698Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6326,
+    "contentLength": 4458,
+    "processingTimeMs": 54590
+  }
+}

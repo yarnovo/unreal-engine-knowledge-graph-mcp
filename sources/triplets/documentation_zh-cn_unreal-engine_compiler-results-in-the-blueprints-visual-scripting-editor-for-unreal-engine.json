@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_compiler-results-in-the-blueprints-visual-scripting-editor-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_compiler-results-in-the-blueprints-visual-scripting-editor-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "蓝图编辑器",
+      "predicate": "包含",
+      "object": "编译器结果面板",
+      "context": "编译器结果面板是蓝图编辑器的一部分，用于显示编译反馈信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编译器结果面板",
+      "predicate": "显示",
+      "object": "编译反馈",
+      "context": "该面板专门用于展示蓝图脚本的编译结果，包括成功、警告和错误信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编译反馈",
+      "predicate": "包含",
+      "object": "错误信息",
+      "context": "编译反馈中会明确区分错误和警告信息，帮助开发者定位问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编译反馈",
+      "predicate": "包含",
+      "object": "警告信息",
+      "context": "编译反馈中会明确区分错误和警告信息，帮助开发者定位问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编译器结果面板",
+      "predicate": "提供",
+      "object": "超链接导航",
+      "context": "面板中的错误/警告信息包含超链接，可直接跳转到问题节点，提高调试效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "超链接导航",
+      "predicate": "跳转到",
+      "object": "问题节点",
+      "context": "通过点击错误信息的超链接，开发者可以快速定位到图表视图中的问题节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编译器结果面板",
+      "predicate": "支持",
+      "object": "悬停提示",
+      "context": "鼠标悬停在信息条目上会显示详细说明，帮助理解错误/警告的具体含义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图编辑器",
+      "predicate": "通过",
+      "object": "窗口菜单",
+      "context": "编译器结果面板可以通过蓝图编辑器的窗口菜单手动打开",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编译器结果面板",
+      "predicate": "自动显示",
+      "object": "编译错误",
+      "context": "当编译过程中出现错误或警告时，面板会自动弹出，提醒开发者注意",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编译器结果面板",
+      "predicate": "位于",
+      "object": "图表面板底部",
+      "context": "面板默认出现在图表视图下方，便于对照查看代码和编译结果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "结果列表",
+      "predicate": "属于",
+      "object": "编译器结果面板",
+      "context": "结果列表是面板的核心组件，负责显示所有编译信息条目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "清除按钮",
+      "predicate": "属于",
+      "object": "编译器结果面板",
+      "context": "清除按钮是面板的界面元素，用于清空当前显示的结果列表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图脚本",
+      "predicate": "生成",
+      "object": "编译反馈",
+      "context": "编译反馈是通过对蓝图脚本进行编译过程产生的直接结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编译时间",
+      "predicate": "显示在",
+      "object": "结果列表",
+      "context": "成功编译后，结果列表会显示总编译耗时（毫秒），帮助性能优化",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:30:16.881Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4200,
+    "contentLength": 2740,
+    "processingTimeMs": 45549
+  }
+}

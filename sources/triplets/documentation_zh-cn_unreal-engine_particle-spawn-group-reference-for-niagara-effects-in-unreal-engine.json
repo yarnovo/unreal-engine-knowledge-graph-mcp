@@ -1,0 +1,291 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_particle-spawn-group-reference-for-niagara-effects-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_particle-spawn-group-reference-for-niagara-effects-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "粒子生成模块",
+      "predicate": "包含",
+      "object": "光束模块",
+      "context": "光束模块是粒子生成模块的一个子类，用于控制光束特效的生成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光束模块",
+      "predicate": "包含",
+      "object": "光束宽度",
+      "context": "光束宽度模块用于控制生成光束的宽度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光束模块",
+      "predicate": "包含",
+      "object": "生成光束",
+      "context": "生成光束模块用于沿贝塞尔样条或直线放置粒子",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子生成模块",
+      "predicate": "包含",
+      "object": "摄像机模块",
+      "context": "摄像机模块用于处理粒子与摄像机之间的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机模块",
+      "predicate": "包含",
+      "object": "摄像机偏移",
+      "context": "摄像机偏移模块用于在粒子与摄像机之间沿向量偏移粒子",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机模块",
+      "predicate": "包含",
+      "object": "保持摄像机粒子比例",
+      "context": "保持摄像机粒子比例模块用于保持摄像机内的粒子大小",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子生成模块",
+      "predicate": "包含",
+      "object": "力模块",
+      "context": "力模块用于控制粒子受到的各种力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "力模块",
+      "predicate": "包含",
+      "object": "加速力",
+      "context": "加速力模块用于将力平移到加速中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "力模块",
+      "predicate": "包含",
+      "object": "重力",
+      "context": "重力模块用于将重力应用于粒子",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子生成模块",
+      "predicate": "包含",
+      "object": "初始化模块",
+      "context": "初始化模块用于设置粒子的初始参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "初始化模块",
+      "predicate": "包含",
+      "object": "初始化粒子",
+      "context": "初始化粒子模块用于设置常用粒子参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "初始化模块",
+      "predicate": "包含",
+      "object": "初始化条带",
+      "context": "初始化条带模块用于设置条带的常见参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子生成模块",
+      "predicate": "包含",
+      "object": "位置模块",
+      "context": "位置模块用于控制粒子的生成位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "位置模块",
+      "predicate": "包含",
+      "object": "盒体位置",
+      "context": "盒体位置模块用于生成矩形盒体形状的粒子",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "位置模块",
+      "predicate": "包含",
+      "object": "球体位置",
+      "context": "球体位置模块用于生成球形粒子",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子生成模块",
+      "predicate": "包含",
+      "object": "速度模块",
+      "context": "速度模块用于控制粒子的速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "速度模块",
+      "predicate": "包含",
+      "object": "添加速度",
+      "context": "添加速度模块用于向已生成粒子分配速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "速度模块",
+      "predicate": "包含",
+      "object": "继承速度",
+      "context": "继承速度模块用于添加来自另一个源的继承速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子生成模块",
+      "predicate": "包含",
+      "object": "纹理模块",
+      "context": "纹理模块用于处理粒子的纹理取样",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理模块",
+      "predicate": "包含",
+      "object": "取样纹理",
+      "context": "取样纹理模块用于在特定的UV位置取样纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理模块",
+      "predicate": "包含",
+      "object": "子UV纹理取样",
+      "context": "子UV纹理取样模块用于以行列方式取样单个纹理像素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "初始化粒子",
+      "predicate": "设置",
+      "object": "粒子生命周期",
+      "context": "初始化粒子模块可以设置粒子的生命周期参数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "初始化粒子",
+      "predicate": "设置",
+      "object": "粒子位置",
+      "context": "初始化粒子模块可以设置粒子的初始位置参数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "初始化粒子",
+      "predicate": "设置",
+      "object": "粒子颜色",
+      "context": "初始化粒子模块可以设置粒子的初始颜色参数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "解算力和速度",
+      "predicate": "依赖",
+      "object": "Physics.Force",
+      "context": "解算力和速度模块需要Physics.Force参数来计算粒子位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "解算力和速度",
+      "predicate": "依赖",
+      "object": "Particles.PreviousVelocity",
+      "context": "解算力和速度模块需要Particles.PreviousVelocity参数来计算粒子位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光束宽度",
+      "predicate": "写入",
+      "object": "Particles.RibbonWidth",
+      "context": "光束宽度模块将宽度值写入Particles.RibbonWidth参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成光束",
+      "predicate": "使用",
+      "object": "条带渲染器",
+      "context": "生成光束模块可以与条带渲染器一起使用创建经典式光束",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "初始化网格体复制Sprite",
+      "predicate": "需要",
+      "object": "更新网格体复制Sprite",
+      "context": "初始化网格体复制Sprite模块需要更新网格体复制Sprite模块来在效果期间更新朝向模式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "初始化网格体复制Sprite",
+      "predicate": "建议",
+      "object": "自定义对齐",
+      "context": "初始化网格体复制Sprite模块建议将Sprite的渲染对齐设为自定义对齐",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "初始化网格体复制Sprite",
+      "predicate": "建议",
+      "object": "自定义朝向",
+      "context": "初始化网格体复制Sprite模块建议将Sprite的朝向模式设为自定义朝向",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "粒子生成模块",
+      "predicate": "执行顺序",
+      "object": "堆栈顶部到底部",
+      "context": "粒子生成模块按照从堆栈顶部到底部的顺序执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "使用内插生成",
+      "predicate": "影响",
+      "object": "粒子生成阶段",
+      "context": "设置使用内插生成会影响某些模块在粒子生成阶段而非粒子更新阶段更新",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Niagara发射器",
+      "predicate": "支持",
+      "object": "自定义模块",
+      "context": "Niagara发射器支持为任何部分创建自定义模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:19:54.267Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (20842 字符)",
+      "timestamp": "2025-06-15T20:18:21.645Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 36551,
+    "contentLength": 20842,
+    "processingTimeMs": 92630
+  }
+}

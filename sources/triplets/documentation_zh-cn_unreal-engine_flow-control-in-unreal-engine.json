@@ -1,0 +1,283 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_flow-control-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_flow-control-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "开关节点",
+      "predicate": "包含",
+      "object": "Int开关",
+      "context": "开关节点根据数据类型分为Int、String、Name和Enum四种类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "开关节点",
+      "predicate": "包含",
+      "object": "String开关",
+      "context": "开关节点根据数据类型分为Int、String、Name和Enum四种类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "开关节点",
+      "predicate": "包含",
+      "object": "Name开关",
+      "context": "开关节点根据数据类型分为Int、String、Name和Enum四种类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "开关节点",
+      "predicate": "包含",
+      "object": "Enum开关",
+      "context": "开关节点根据数据类型分为Int、String、Name和Enum四种类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Int开关",
+      "predicate": "支持",
+      "object": "自定义输出引脚",
+      "context": "Int开关允许用户自定义输出执行引脚",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "String开关",
+      "predicate": "支持",
+      "object": "自定义输出引脚",
+      "context": "String开关允许用户自定义输出执行引脚",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Name开关",
+      "predicate": "支持",
+      "object": "自定义输出引脚",
+      "context": "Name开关允许用户自定义输出执行引脚",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Enum开关",
+      "predicate": "自动生成",
+      "object": "输出执行引脚",
+      "context": "Enum开关会自动从Enum属性中生成输出执行引脚",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Branch节点",
+      "predicate": "用于",
+      "object": "条件判断",
+      "context": "Branch节点用于基于布尔值的条件判断，控制执行流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DoN节点",
+      "predicate": "用于",
+      "object": "有限次执行",
+      "context": "DoN节点用于限制执行次数，达到限制后需要重置才能继续执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DoOnce节点",
+      "predicate": "是",
+      "object": "DoN节点的特例",
+      "context": "DoOnce节点相当于N=1的DoN节点，只执行一次",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FlipFlop节点",
+      "predicate": "用于",
+      "object": "交替执行",
+      "context": "FlipFlop节点在两个执行输出间交替切换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ForLoop节点",
+      "predicate": "用于",
+      "object": "固定次数循环",
+      "context": "ForLoop节点用于在指定索引范围内循环执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ForLoopWithBreak节点",
+      "predicate": "扩展",
+      "object": "ForLoop节点",
+      "context": "ForLoopWithBreak节点在ForLoop基础上增加了中断功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gate节点",
+      "predicate": "用于",
+      "object": "执行流控制",
+      "context": "Gate节点用于开启或关闭执行流",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MultiGate节点",
+      "predicate": "用于",
+      "object": "多路分发",
+      "context": "MultiGate节点将单个输入脉冲分发到多个潜在输出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequence节点",
+      "predicate": "用于",
+      "object": "顺序执行",
+      "context": "Sequence节点使单个执行脉冲能按顺序触发一系列事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WhileLoop节点",
+      "predicate": "用于",
+      "object": "条件循环",
+      "context": "WhileLoop节点在条件满足时循环执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流程控制节点",
+      "predicate": "包含",
+      "object": "Branch节点",
+      "context": "Branch节点是标准流程控制节点之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流程控制节点",
+      "predicate": "包含",
+      "object": "DoN节点",
+      "context": "DoN节点是标准流程控制节点之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流程控制节点",
+      "predicate": "包含",
+      "object": "DoOnce节点",
+      "context": "DoOnce节点是标准流程控制节点之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流程控制节点",
+      "predicate": "包含",
+      "object": "FlipFlop节点",
+      "context": "FlipFlop节点是标准流程控制节点之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流程控制节点",
+      "predicate": "包含",
+      "object": "ForLoop节点",
+      "context": "ForLoop节点是标准流程控制节点之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流程控制节点",
+      "predicate": "包含",
+      "object": "ForLoopWithBreak节点",
+      "context": "ForLoopWithBreak节点是标准流程控制节点之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流程控制节点",
+      "predicate": "包含",
+      "object": "Gate节点",
+      "context": "Gate节点是标准流程控制节点之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流程控制节点",
+      "predicate": "包含",
+      "object": "MultiGate节点",
+      "context": "MultiGate节点是标准流程控制节点之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流程控制节点",
+      "predicate": "包含",
+      "object": "Sequence节点",
+      "context": "Sequence节点是标准流程控制节点之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流程控制节点",
+      "predicate": "包含",
+      "object": "WhileLoop节点",
+      "context": "WhileLoop节点是标准流程控制节点之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ForLoop节点",
+      "predicate": "前置",
+      "object": "First Index",
+      "context": "ForLoop节点需要设置First Index作为循环起始索引",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ForLoop节点",
+      "predicate": "前置",
+      "object": "Last Index",
+      "context": "ForLoop节点需要设置Last Index作为循环结束索引",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WhileLoop节点",
+      "predicate": "依赖",
+      "object": "Condition",
+      "context": "WhileLoop节点依赖Condition输入作为循环条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gate节点",
+      "predicate": "支持",
+      "object": "Toggle操作",
+      "context": "Gate节点支持Toggle操作来切换开启/关闭状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MultiGate节点",
+      "predicate": "支持",
+      "object": "随机分发",
+      "context": "MultiGate节点支持随机顺序选择输出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:06:56.353Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13762 字符)",
+      "timestamp": "2025-06-15T19:05:21.627Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 21546,
+    "contentLength": 13762,
+    "processingTimeMs": 94732
+  }
+}

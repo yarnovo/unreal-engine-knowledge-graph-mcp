@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_primitive-debugger-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_primitive-debugger-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "图元调试器",
+      "predicate": "属于",
+      "object": "虚幻引擎调试工具",
+      "context": "图元调试器是虚幻引擎提供的一项专门用于运行时调试的工具，帮助开发者分析渲染图元的相关信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图元调试器",
+      "predicate": "用于",
+      "object": "开发构建",
+      "context": "图元调试器只能在开发或测试客户端中使用，不能在编辑器或发布产品中直接使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图元调试器",
+      "predicate": "提供",
+      "object": "列表与细节视图",
+      "context": "图元调试器提供列表和细节视图功能，帮助开发者筛选和查看图元的详细信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图元调试器",
+      "predicate": "支持",
+      "object": "调试控制及可视化功能",
+      "context": "图元调试器提供多种调试控制和可视化功能，如强制LOD、禁用Nanite渲染、显示骨架和边界框等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图元调试器",
+      "predicate": "支持",
+      "object": "保存快照",
+      "context": "图元调试器允许将当前图元列表和细节保存为CSV文件，便于后续分析和参考",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图元调试器",
+      "predicate": "依赖",
+      "object": "开发配置",
+      "context": "图元调试器的某些高级功能（如调试可视化）仅在开发配置下可用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图元调试器",
+      "predicate": "显示",
+      "object": "绘制调用信息",
+      "context": "图元调试器可以显示图元的绘制调用信息，帮助开发者优化渲染性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图元调试器",
+      "predicate": "显示",
+      "object": "LOD信息",
+      "context": "图元调试器可以显示非Nanite网格体的当前LOD和所有可用LOD信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图元调试器",
+      "predicate": "支持",
+      "object": "Nanite网格体",
+      "context": "图元调试器提供对Nanite网格体的支持，包括强制禁用Nanite渲染的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图元调试器",
+      "predicate": "支持",
+      "object": "骨架网格体",
+      "context": "图元调试器支持骨架网格体的骨骼数量显示和骨架调试可视化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图元调试器",
+      "predicate": "支持",
+      "object": "材质和纹理分析",
+      "context": "图元调试器可以显示图元使用的材质和纹理名称，帮助开发者进行材质优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图元调试器",
+      "predicate": "适用于",
+      "object": "性能分析和调试",
+      "context": "图元调试器主要用于性能分析和渲染调试，帮助开发者发现和解决渲染相关问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图元调试器",
+      "predicate": "具有",
+      "object": "已知限制",
+      "context": "图元调试器目前存在一些限制，如仅支持开发配置、对非网格体图元支持有限等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图元调试器",
+      "predicate": "使用",
+      "object": "PrimitiveDebugger.Open命令",
+      "context": "图元调试器需要通过控制台输入PrimitiveDebugger.Open命令来启动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图元调试器",
+      "predicate": "使用",
+      "object": "DumpDetailedPrimitives命令",
+      "context": "图元调试器支持通过DumpDetailedPrimitives命令将图元信息导出到CSV文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图元调试器",
+      "predicate": "提供",
+      "object": "调试边界可视化",
+      "context": "图元调试器可以在开发构建中显示图元的调试边界框，帮助开发者理解图元在三维空间中的范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图元调试器",
+      "predicate": "提供",
+      "object": "骨架调试可视化",
+      "context": "图元调试器可以在开发构建中显示骨架网格体的骨架结构，帮助发现动画或绑定错误",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图元调试器",
+      "predicate": "自动移除",
+      "object": "被销毁的图元",
+      "context": "图元调试器会自动从列表中移除游戏过程中被销毁的图元，保持列表的实时性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图元调试器",
+      "predicate": "支持",
+      "object": "搜索筛选",
+      "context": "图元调试器提供搜索栏，支持按多种属性（如图元名称、Actor名称、材质名称等）筛选图元",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图元调试器",
+      "predicate": "支持",
+      "object": "图元可见性控制",
+      "context": "图元调试器允许开发者开关列表中图元的可见性，便于聚焦特定图元的分析",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:28:11.860Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6577,
+    "contentLength": 4161,
+    "processingTimeMs": 65753
+  }
+}

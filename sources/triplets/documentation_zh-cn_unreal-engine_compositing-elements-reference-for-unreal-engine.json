@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_compositing-elements-reference-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_compositing-elements-reference-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "合成元素",
+      "predicate": "属于",
+      "object": "虚幻引擎合成系统",
+      "context": "合成元素是虚幻引擎合成系统的基本构建块，理解这一点有助于学习者掌握合成系统的整体架构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "空白合成镜头",
+      "predicate": "是",
+      "object": "基础合成元素",
+      "context": "空白合成镜头是合成的基础起点，了解其定位有助于学习者构建合成流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体板元素",
+      "predicate": "支持",
+      "object": "色度镶迭",
+      "context": "媒体板元素专门用于视频合成并支持色度镶迭，这对学习视频处理技术很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CG图层元素",
+      "predicate": "用于",
+      "object": "渲染虚拟场景",
+      "context": "CG图层元素负责渲染虚拟场景中的actor，这是理解场景合成的关键概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CG遮片元素",
+      "predicate": "继承自",
+      "object": "CG图层元素",
+      "context": "CG遮片元素基于CG图层元素但专门生成遮罩纹理，这种继承关系展示了功能的扩展",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理元素",
+      "predicate": "用于",
+      "object": "导入外部纹理",
+      "context": "纹理元素是将外部资源引入合成系统的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高级元素类型",
+      "predicate": "基于",
+      "object": "蓝图系统",
+      "context": "高级元素通过蓝图创建和修改，展示了虚幻引擎的可扩展性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "深度元素",
+      "predicate": "类似于",
+      "object": "CG图层元素",
+      "context": "深度元素与CG图层元素相似但生成深度图像，这种对比有助于理解不同元素的功能差异",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "ACompositingElement",
+      "predicate": "是",
+      "object": "自定义元素基类",
+      "context": "了解ACompositingElement类对于创建自定义合成元素至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成元素",
+      "predicate": "可以",
+      "object": "设置蓝图",
+      "context": "合成元素支持蓝图设置，这是理解元素可定制性的重要方面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CG遮片元素",
+      "predicate": "用于",
+      "object": "垃圾遮片",
+      "context": "CG遮片元素可用于创建垃圾遮片，这是合成中常用的技术",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "采集Actor属性",
+      "predicate": "控制",
+      "object": "CG图层元素内容",
+      "context": "采集Actor属性决定了CG图层元素包含哪些actor，这是控制场景内容的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "遮片类型属性",
+      "predicate": "控制",
+      "object": "CG遮片元素输出",
+      "context": "遮片类型属性可以翻转遮罩输出，这是理解遮片元素功能的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:30:17.519Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6680,
+    "contentLength": 5342,
+    "processingTimeMs": 46185
+  }
+}

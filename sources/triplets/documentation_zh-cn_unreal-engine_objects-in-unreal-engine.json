@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_objects-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_objects-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "UObject",
+      "predicate": "是基类",
+      "object": "虚幻引擎中所有对象",
+      "context": "UObject是虚幻引擎中所有对象的基类，理解这一点是学习虚幻引擎对象系统的基础",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "UCLASS宏",
+      "predicate": "标记",
+      "object": "UObject的子类",
+      "context": "UCLASS宏用于标记UObject的子类，使其能够被UObject处理系统识别",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "UCLASS",
+      "predicate": "包含",
+      "object": "类默认对象（CDO）",
+      "context": "每个UCLASS都保留一个类默认对象（CDO），这是由类构建函数生成的默认模板对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UObject",
+      "predicate": "支持",
+      "object": "垃圾回收",
+      "context": "UObject系统支持垃圾回收，这是其核心功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UObject",
+      "predicate": "支持",
+      "object": "反射",
+      "context": "UObject系统支持反射，这是其核心功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UObject",
+      "predicate": "支持",
+      "object": "序列化",
+      "context": "UObject系统支持序列化，这是其核心功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UObject",
+      "predicate": "不支持",
+      "object": "构造器参数",
+      "context": "UObjects不支持构造器参数，所有C++ UObject都会在引擎启动时初始化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UObject",
+      "predicate": "应使用",
+      "object": "NewObject",
+      "context": "UObject应该在运行时使用NewObject构建，而不是使用new运算符",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UObject",
+      "predicate": "应使用",
+      "object": "CreateDefaultSubobject",
+      "context": "UObject在构造器中应使用CreateDefaultSubobject创建组件或子对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UObject",
+      "predicate": "不应使用",
+      "object": "new运算符",
+      "context": "UObjects永远都不应使用new运算符，所有UObjects都由虚幻引擎管理内存和垃圾回收",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "UObject",
+      "predicate": "继承自",
+      "object": "FTickableGameObject",
+      "context": "UObject可以通过继承FTickableGameObject来添加更新能力，实现Tick函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UObject",
+      "predicate": "销毁方式",
+      "object": "垃圾回收",
+      "context": "UObject在不被引用后，垃圾回收系统将自动进行销毁",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UObject",
+      "predicate": "销毁方式",
+      "object": "MarkAsGarbage",
+      "context": "可以调用MarkAsGarbage函数来标记对象为垃圾，将在下一次垃圾回收时销毁",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UObject",
+      "predicate": "依赖",
+      "object": "虚幻头文件工具（UHT）",
+      "context": "UObject派生类型需要虚幻头文件工具（UHT）执行预处理步骤，以核对需要的信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UObject",
+      "predicate": "与",
+      "object": "UStruct",
+      "context": "UStruct有着和UObject一样的反射和序列化能力，但被当作数值类型处理并且不会垃圾回收",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UObject",
+      "predicate": "与",
+      "object": "Actor",
+      "context": "Actor是UObject的子类，但具有额外的功能如自动调用Tick函数",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UObject",
+      "predicate": "与",
+      "object": "Actor组件",
+      "context": "Actor组件是UObject的子类，具有与Actor类似的更新机制",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UObject",
+      "predicate": "与",
+      "object": "智能指针",
+      "context": "智能指针不适用于UObject，应该使用弱指针或普通指针",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UObject",
+      "predicate": "与",
+      "object": "弱指针",
+      "context": "弱指针可以用于UObject，不会影响垃圾回收",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UObject",
+      "predicate": "与",
+      "object": "IsValid",
+      "context": "IsValid函数用于检查UObject是否为null或垃圾",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:08:28.463Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10776,
+    "contentLength": 6386,
+    "processingTimeMs": 57368
+  }
+}

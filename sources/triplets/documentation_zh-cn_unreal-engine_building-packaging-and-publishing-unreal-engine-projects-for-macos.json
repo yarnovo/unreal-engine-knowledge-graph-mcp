@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_building-packaging-and-publishing-unreal-engine-projects-for-macos",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_building-packaging-and-publishing-unreal-engine-projects-for-macos.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎项目",
+      "predicate": "支持",
+      "object": "macOS平台",
+      "context": "文档专门讲解在macOS上构建、打包和发布虚幻引擎项目的方法，说明虚幻引擎项目可以支持macOS平台",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "macOS平台",
+      "predicate": "要求",
+      "object": "通用二进制文件",
+      "context": "Apple要求在Mac上同时支持ARM64和x86-64架构，因此macOS平台对通用二进制文件有明确要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通用二进制文件",
+      "predicate": "包含",
+      "object": "ARM64架构",
+      "context": "通用二进制文件需要包含ARM64架构以支持Apple Silicon芯片的Mac",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通用二进制文件",
+      "predicate": "包含",
+      "object": "x86-64架构",
+      "context": "通用二进制文件需要包含x86-64架构以支持Intel芯片的Mac",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎项目",
+      "predicate": "需要构建",
+      "object": "通用二进制文件",
+      "context": "为了在macOS平台上发布虚幻引擎项目，开发者需要构建支持两种架构的通用二进制文件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Apple Arcade",
+      "predicate": "需要",
+      "object": "合并的二进制文件",
+      "context": "为Apple Arcade创建项目时，需要特殊的合并二进制文件格式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "macOS发布流程",
+      "predicate": "包含",
+      "object": "构建",
+      "context": "完整的macOS发布流程包含构建阶段，这是发布前的必要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "macOS发布流程",
+      "predicate": "包含",
+      "object": "打包",
+      "context": "打包是将项目准备为可发布格式的重要步骤，属于macOS发布流程的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "macOS发布流程",
+      "predicate": "包含",
+      "object": "发布",
+      "context": "发布是macOS项目开发的最终阶段，将打包好的项目交付给用户",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎文档",
+      "predicate": "提供指导",
+      "object": "macOS平台开发",
+      "context": "此文档专门为开发者提供在macOS平台上构建、打包和发布虚幻引擎项目的指导",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:17:43.533Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 1649,
+    "contentLength": 1367,
+    "processingTimeMs": 37054
+  }
+}

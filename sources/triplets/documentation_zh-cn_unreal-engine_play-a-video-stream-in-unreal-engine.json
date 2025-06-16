@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_play-a-video-stream-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_play-a-video-stream-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "流媒体源",
+      "predicate": "用于",
+      "object": "视频流播放",
+      "context": "流媒体源是播放视频流的基础资源，学习者需要先创建流媒体源才能进行后续的视频播放操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体播放器",
+      "predicate": "播放",
+      "object": "流媒体源",
+      "context": "媒体播放器负责加载和播放流媒体源中的视频内容，这是视频播放流程的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体纹理",
+      "predicate": "关联",
+      "object": "媒体播放器",
+      "context": "媒体纹理与媒体播放器自动关联，用于将视频内容可视化呈现，理解这种关联有助于视频渲染的实现",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质",
+      "predicate": "使用",
+      "object": "媒体纹理",
+      "context": "材质通过使用媒体纹理来实现视频在UI或场景中的显示，这是视频可视化的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "小部件蓝图",
+      "predicate": "包含",
+      "object": "图像控件",
+      "context": "小部件蓝图中的图像控件用于显示视频内容，理解这种包含关系有助于UI视频播放的实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图像控件",
+      "predicate": "应用",
+      "object": "材质",
+      "context": "图像控件通过应用包含媒体纹理的材质来显示视频，这是视频在UI中呈现的关键环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡蓝图",
+      "predicate": "控制",
+      "object": "媒体播放流程",
+      "context": "关卡蓝图负责协调整个媒体播放流程，包括创建UI、设置声音组件和触发播放，理解这种控制关系有助于实现自动化播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体声音组件",
+      "predicate": "关联",
+      "object": "媒体播放器",
+      "context": "媒体声音组件需要关联到媒体播放器才能播放视频中的音频，这是实现视频声音输出的必要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG",
+      "predicate": "用于创建",
+      "object": "用户界面",
+      "context": "UMG是创建视频播放UI的工具，理解这种关系有助于学习者掌握UI视频播放的实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流媒体源",
+      "predicate": "支持",
+      "object": "多种URL格式",
+      "context": "流媒体源支持多种URL格式的视频流，了解这一点有助于学习者选择合适的视频源",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Electra媒体播放器",
+      "predicate": "需要特殊设置",
+      "object": "媒体纹理",
+      "context": "使用Electra媒体播放器时需要特殊设置媒体纹理，这是平台特定的技术要点",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质域",
+      "predicate": "决定",
+      "object": "材质用途",
+      "context": "将材质域设置为用户界面是使材质适用于UI视频播放的关键设置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "锚点设置",
+      "predicate": "影响",
+      "object": "UI元素定位",
+      "context": "设置锚点可以确保视频UI在不同分辨率下保持正确位置，这是UI适配的重要知识点",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "文件媒体源",
+      "predicate": "替代方案",
+      "object": "流媒体源",
+      "context": "文件媒体源是流媒体源的本地文件替代方案，了解这种替代关系有助于学习者根据需求选择合适方案",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "媒体框架",
+      "predicate": "包含",
+      "object": "多种媒体组件",
+      "context": "媒体框架包含流媒体源、媒体播放器等组件，理解这种包含关系有助于掌握媒体系统的整体架构",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:25:28.257Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9672 字符)",
+      "timestamp": "2025-06-15T20:24:36.034Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13636,
+    "contentLength": 9672,
+    "processingTimeMs": 52234
+  }
+}

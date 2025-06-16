@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_mesh-distance-fields-properties-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_mesh-distance-fields-properties-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "网格体距离场",
+      "predicate": "用于",
+      "object": "距离场阴影",
+      "context": "网格体距离场系统可以用于生成距离场阴影，这是其核心功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体距离场",
+      "predicate": "用于",
+      "object": "距离场环境光遮蔽",
+      "context": "网格体距离场系统可以用于实现距离场环境光遮蔽效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成网格体距离场",
+      "predicate": "控制",
+      "object": "网格体距离场系统",
+      "context": "项目设置中的'生成网格体距离场'选项控制是否启用整个网格体距离场系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "距离场体素密度",
+      "predicate": "影响",
+      "object": "网格体距离场质量",
+      "context": "距离场体素密度设置直接影响生成的网格体距离场的精度和质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定向光源",
+      "predicate": "支持",
+      "object": "距离场阴影",
+      "context": "定向光源组件支持距离场阴影功能，可以产生柔和的区域阴影效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光源角度",
+      "predicate": "控制",
+      "object": "阴影柔和度",
+      "context": "定向光源的光源角度参数控制阴影的柔和程度，角度越大阴影越柔和",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "级联阴影贴图",
+      "predicate": "互补",
+      "object": "距离场阴影",
+      "context": "级联阴影贴图适合近距离细腻阴影，距离场阴影适合远距离阴影，两者可以互补使用",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "距离场追踪距离",
+      "predicate": "限制",
+      "object": "阴影投射范围",
+      "context": "距离场追踪距离参数限制单个网格体点能够投射阴影的最大距离",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "点光源/聚光源",
+      "predicate": "支持",
+      "object": "距离场阴影",
+      "context": "点光源和聚光源组件也支持距离场阴影功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "源半径",
+      "predicate": "影响",
+      "object": "阴影柔和度",
+      "context": "点光源/聚光源的源半径参数影响阴影的柔和程度，类似于定向光源的光源角度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空光照",
+      "predicate": "使用",
+      "object": "距离场环境光遮蔽",
+      "context": "天空光照组件使用距离场环境光遮蔽来增强场景的环境遮蔽效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "遮蔽最大距离",
+      "predicate": "控制",
+      "object": "DFAO影响范围",
+      "context": "遮蔽最大距离参数控制距离场环境光遮蔽效果能够影响的最大距离",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "遮蔽对比度",
+      "predicate": "调整",
+      "object": "DFAO明暗对比",
+      "context": "遮蔽对比度参数调整距离场环境光遮蔽效果的明暗对比程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "遮蔽指数",
+      "predicate": "控制",
+      "object": "DFAO亮度曲线",
+      "context": "遮蔽指数参数控制距离场环境光遮蔽效果的亮度变化曲线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体编辑器",
+      "predicate": "提供",
+      "object": "网格体距离场设置",
+      "context": "静态网格体编辑器提供针对单个网格体的距离场相关设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "距离场分辨率比例",
+      "predicate": "控制",
+      "object": "单个网格体距离场质量",
+      "context": "距离场分辨率比例参数可以单独控制某个网格体的距离场生成质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "双面距离场生成",
+      "predicate": "启用",
+      "object": "植被阴影效果",
+      "context": "双面距离场生成选项特别适合植被等需要双面阴影效果的网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "距离场间接阴影",
+      "predicate": "依赖",
+      "object": "网格体距离场",
+      "context": "距离场间接阴影功能依赖于网格体距离场的生成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Ray Start Offset Depth Scale",
+      "predicate": "减少",
+      "object": "自身阴影瑕疵",
+      "context": "Ray Start Offset Depth Scale参数可以帮助减少低分辨率距离场导致的自身阴影瑕疵",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "遮蔽合并模式",
+      "predicate": "控制",
+      "object": "SSAO与DFAO交互",
+      "context": "遮蔽合并模式参数控制屏幕空间环境光遮蔽(SSAO)与距离场环境光遮蔽(DFAO)的交互方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:54:48.712Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (19216 字符)",
+      "timestamp": "2025-06-15T19:53:39.732Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 29382,
+    "contentLength": 19216,
+    "processingTimeMs": 68985
+  }
+}

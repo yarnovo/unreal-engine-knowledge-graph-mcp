@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_professional-video-io-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_professional-video-io-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "专业视频I/O",
+      "context": "文档明确说明虚幻引擎支持专业级别的视频和音频输入输出功能，这是学习专业视频处理的基础",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "专业视频I/O",
+      "predicate": "包含",
+      "object": "AJA视频输入/输出",
+      "context": "AJA是专业视频I/O的一种具体实现方式，学习专业视频I/O需要了解其支持的硬件类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "专业视频I/O",
+      "predicate": "包含",
+      "object": "Blackmagic视频输入/输出",
+      "context": "Blackmagic是另一种专业视频I/O的实现方式，与AJA并列作为主要学习内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "专业视频I/O",
+      "predicate": "需要",
+      "object": "时间码和同步锁定",
+      "context": "视频输入输出需要处理时间同步问题，这是专业视频工作流的关键技术点",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "专业视频I/O",
+      "predicate": "使用",
+      "object": "媒体配置文件",
+      "context": "媒体配置文件是配置视频输入输出的重要工具，学习专业视频I/O必须掌握其使用方法",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "虚拟工作室示例项目",
+      "predicate": "演示",
+      "object": "专业视频I/O",
+      "context": "示例项目展示了专业视频I/O的实际应用，是学习该功能的实践参考",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "专业视频I/O",
+      "predicate": "支持",
+      "object": "视频效果处理",
+      "context": "文档提到可以应用色度抠像、镜头不失真等效果，这是视频处理的重要功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "AJA媒体框架",
+      "predicate": "属于",
+      "object": "专业视频I/O",
+      "context": "AJA框架是实现专业视频I/O的具体技术组件，学习专业视频I/O需要了解其API",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blackmagic媒体框架",
+      "predicate": "属于",
+      "object": "专业视频I/O",
+      "context": "Blackmagic框架是另一种实现专业视频I/O的技术组件，与AJA框架并列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "专业视频I/O",
+      "predicate": "用于",
+      "object": "增强现实体验",
+      "context": "文档开头说明专业视频I/O用于将2D视频与3D环境结合的AR体验",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "时间码和同步锁定",
+      "predicate": "依赖",
+      "object": "AJA视频输入",
+      "context": "时间码同步功能需要从AJA视频输入获取时间码，这是工作流中的重要依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "媒体配置文件",
+      "predicate": "集中管理",
+      "object": "视频输入输出设置",
+      "context": "媒体配置文件将输入输出、时间码等设置集中管理，是配置工作流的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T20:29:20.588Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4922,
+    "contentLength": 3642,
+    "processingTimeMs": 42966
+  }
+}

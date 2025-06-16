@@ -1,0 +1,213 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-alembic-for-grooms-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-alembic-for-grooms-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Alembic",
+      "predicate": "用于",
+      "object": "毛发梳理导入",
+      "context": "Alembic文件用于标准化毛发梳理的导入操作，将毛发信息导入虚幻引擎",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛发渲染与模拟",
+      "predicate": "使用",
+      "object": "Alembic导入的毛发信息",
+      "context": "毛发渲染与模拟功能使用通过Alembic导入的毛发信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Maya",
+      "predicate": "用于",
+      "object": "毛发造型或梳理",
+      "context": "毛发的造型或梳理需要在Maya等第三方DCC工具中用XGen工具或插件执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "XGen",
+      "predicate": "用于",
+      "object": "毛发造型或梳理",
+      "context": "XGen工具用于在Maya中进行毛发造型或梳理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "剃毛和理发（Shave and a Haircut）",
+      "predicate": "用于",
+      "object": "毛发造型或梳理",
+      "context": "剃毛和理发插件用于在Maya中进行毛发造型或梳理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Ornatrix",
+      "predicate": "用于",
+      "object": "毛发造型或梳理",
+      "context": "Ornatrix是可用于毛发造型或梳理的工具之一",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Yeti",
+      "predicate": "用于",
+      "object": "毛发造型或梳理",
+      "context": "Yeti是可用于毛发造型或梳理的工具之一",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Houdini",
+      "predicate": "用于",
+      "object": "毛发造型或梳理",
+      "context": "Houdini是可用于毛发造型或梳理的工具之一",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Alembic::AbcGeom::ICurves",
+      "predicate": "读取",
+      "object": "毛发的常规形状",
+      "context": "从标准Alembic曲线模式中读取毛发的常规形状",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "groom_width",
+      "predicate": "映射到",
+      "object": "Maya的宽度数值",
+      "context": "在Maya中，宽度数值直接导出到曲线行，因此不需要导出自定义的groom_width属性；导入程序将会把Maya的宽度数值转换成groom_width属性",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GeometryScope::kConstantScope",
+      "predicate": "用于",
+      "object": "存储曲线宽度",
+      "context": "使用GeometryScope::kConstantScope可为每个ICurve存储曲线宽度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GeometryScope::kUniformScope",
+      "predicate": "用于",
+      "object": "存储曲线宽度",
+      "context": "使用GeometryScope::kUniformScope可为每个曲线存储曲线宽度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GeometryScope::kVertexScope",
+      "predicate": "用于",
+      "object": "存储曲线宽度",
+      "context": "使用GeometryScope::kVertexScope可为每个cv存储曲线宽度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "groom_<attr>",
+      "predicate": "是",
+      "object": "属性名前缀",
+      "context": "所有属性必须使用groom_<attr>前缀，例如groom_id、groom_color或groom_width",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "groom_version_major",
+      "predicate": "识别",
+      "object": "梳理方案的主要版本",
+      "context": "groom_version_major用于识别此文件符合梳理方案的哪个主要版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "groom_version_minor",
+      "predicate": "识别",
+      "object": "梳理方案的次要版本",
+      "context": "groom_version_minor用于识别此文件符合梳理方案的哪个次要版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "groom_tool",
+      "predicate": "记录",
+      "object": "生成文件的工具名称和版本",
+      "context": "groom_tool用于记录生成此文件的工具的名称和版本，用于调试和跟踪问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "groom_properties",
+      "predicate": "描述",
+      "object": "生成梳理的参数",
+      "context": "groom_properties描述用于生成此梳理的参数，这些是工具专属的选项，用于调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "groom_guide",
+      "predicate": "生成",
+      "object": "导线",
+      "context": "groom_guide属性根据导入的发束和抽取设置生成导线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "groom_group_id",
+      "predicate": "组合",
+      "object": "发束",
+      "context": "groom_group_id属性将所有发束组合到一起",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "groom_root_uv",
+      "predicate": "计算",
+      "object": "根UV",
+      "context": "groom_root_uv属性通过将发束的根投射到球体上来计算根UV",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "groom_id",
+      "predicate": "标识",
+      "object": "发束",
+      "context": "groom_id属性用于标识发束，应在调试中使用，与groom_closest_guides属性搭配",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "groom_color",
+      "predicate": "指定",
+      "object": "毛发颜色",
+      "context": "groom_color属性用于指定毛发颜色，如果未指定则后退到黑色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "groom_closest_guides",
+      "predicate": "用于",
+      "object": "插值数据",
+      "context": "groom_closest_guides属性计划专门用于在虚幻引擎外计算的插值数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "groom_guide_weights",
+      "predicate": "用于",
+      "object": "插值数据",
+      "context": "groom_guide_weights属性计划专门用于在虚幻引擎外计算的插值数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:14:38.584Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6634,
+    "contentLength": 4288,
+    "processingTimeMs": 69396
+  }
+}

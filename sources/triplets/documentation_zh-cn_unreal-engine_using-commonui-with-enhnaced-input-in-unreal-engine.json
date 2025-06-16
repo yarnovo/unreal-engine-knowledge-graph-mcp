@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-commonui-with-enhnaced-input-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-commonui-with-enhnaced-input-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "CommonUI插件",
+      "predicate": "支持",
+      "object": "增强输入",
+      "context": "CommonUI插件为增强输入操作提供有限支持，这是两个系统集成的关键点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "增强输入支持",
+      "predicate": "需要启用",
+      "object": "项目设置中的Common Input Settings",
+      "context": "要在CommonUI中使用增强输入功能，必须在项目设置中明确启用支持选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "泛型输入操作",
+      "predicate": "用于",
+      "object": "UI元素绑定",
+      "context": "泛型输入操作专门设计用于绑定UI元素，避免全局输入绑定导致的冲突问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IComonMappingContextMetadataInterface",
+      "predicate": "实现",
+      "object": "输入操作元数据",
+      "context": "该接口是创建灵活输入操作元数据的基础，允许元数据同时适用于CommonUI和其他系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCommonMappingContextMetadata",
+      "predicate": "继承自",
+      "object": "UCommonInputMetadata",
+      "context": "这是默认的元数据实现，开发者可以通过继承来扩展更多元数据功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "输入映射上下文(IMC)",
+      "predicate": "应用于",
+      "object": "可激活控件",
+      "context": "IMC可以在可激活控件的激活/停用状态变化时动态应用或移除，这是输入系统与UI系统的重要集成点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CommonButtonBase",
+      "predicate": "使用",
+      "object": "输入操作",
+      "context": "按钮控件可以直接使用输入操作来定义其行为，这是UI元素与输入系统集成的典型示例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CommonActionWidget",
+      "predicate": "显示",
+      "object": "非UI输入操作",
+      "context": "该控件专门用于显示非UI输入的键位映射，帮助玩家理解游戏控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Common UI Input Data",
+      "predicate": "定义",
+      "object": "默认导航操作",
+      "context": "这是配置UI导航行为的关键数据资产，包含基本的接受/返回等操作定义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PlayerMappableKeySettings",
+      "predicate": "包含",
+      "object": "IComonMappingContextMetadataInterface实现",
+      "context": "键位映射设置需要包含符合该接口的元数据，这是确保输入系统与UI系统兼容的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "增强输入",
+      "predicate": "前置知识",
+      "object": "Common UI概览",
+      "context": "理解CommonUI基础是学习增强输入集成的必要前提",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "数据资产",
+      "predicate": "用于创建",
+      "object": "输入操作元数据",
+      "context": "开发者需要通过创建数据资产来配置输入操作的元数据信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导航栏优先级",
+      "predicate": "影响",
+      "object": "UI元素导航顺序",
+      "context": "该设置控制UI元素在导航时的优先级，是设计复杂UI的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:15:19.227Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10168,
+    "contentLength": 7216,
+    "processingTimeMs": 39133
+  }
+}

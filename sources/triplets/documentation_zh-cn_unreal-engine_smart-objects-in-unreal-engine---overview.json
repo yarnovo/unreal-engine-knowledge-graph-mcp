@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_smart-objects-in-unreal-engine---overview",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_smart-objects-in-unreal-engine---overview.md",
+  "triples": [
+    {
+      "subject": "智能对象",
+      "predicate": "属于",
+      "object": "全局数据库",
+      "context": "智能对象隶属于全局数据库，便于运行时查询和管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "智能对象",
+      "predicate": "包含",
+      "object": "交互信息",
+      "context": "智能对象包含与AI代理和玩家交互所需的所有信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "智能对象子系统",
+      "predicate": "管理",
+      "object": "智能对象",
+      "context": "智能对象子系统负责跟踪和管理关卡中的所有智能对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "智能对象持久集合",
+      "predicate": "包含",
+      "object": "智能对象",
+      "context": "智能对象持久集合包含一组智能对象，确保它们在运行时始终可用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "智能对象容器",
+      "predicate": "跟踪",
+      "object": "智能对象",
+      "context": "智能对象容器用于跟踪一组智能对象，支持子系统和持久集合的操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SmartObject组件",
+      "predicate": "标记",
+      "object": "Actor",
+      "context": "SmartObject组件可以添加到Actor，将其标记为智能对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "智能对象定义",
+      "predicate": "存储",
+      "object": "配置数据",
+      "context": "智能对象定义存储智能对象模板的配置数据，包括标签和行为定义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "智能对象行为定义",
+      "predicate": "提供",
+      "object": "交互数据",
+      "context": "智能对象行为定义包含代理或玩家进行交互所需的数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理",
+      "predicate": "搜索",
+      "object": "智能对象",
+      "context": "代理通过智能对象子系统搜索附近的智能对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "智能对象子系统",
+      "predicate": "返回",
+      "object": "智能对象结果",
+      "context": "智能对象子系统返回匹配的智能对象及其空闲插槽给代理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理",
+      "predicate": "认领",
+      "object": "智能对象插槽",
+      "context": "代理通过智能对象子系统认领智能对象的可用插槽",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "智能对象插槽",
+      "predicate": "具有",
+      "object": "状态",
+      "context": "智能对象插槽具有空闲、已认领和已占用三种状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理",
+      "predicate": "释放",
+      "object": "智能对象插槽",
+      "context": "代理在行为完成或中止后释放已认领的智能对象插槽",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "智能对象定义",
+      "predicate": "包含",
+      "object": "默认行为定义",
+      "context": "智能对象定义包含用于所有插槽的默认行为定义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "智能对象插槽",
+      "predicate": "覆盖",
+      "object": "默认行为定义",
+      "context": "智能对象插槽可以覆盖智能对象定义中的默认行为定义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "批量实体行为",
+      "predicate": "属于",
+      "object": "智能对象行为定义",
+      "context": "批量实体行为是智能对象行为定义的一种类型，用于配置批量实体使用的智能对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay行为",
+      "predicate": "属于",
+      "object": "智能对象行为定义",
+      "context": "Gameplay行为是智能对象行为定义的一种类型，用于配置Gameplay行为插件使用的智能对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "智能对象子系统",
+      "predicate": "使用",
+      "object": "智能对象容器",
+      "context": "智能对象子系统使用智能对象容器对智能对象执行特定操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "智能对象持久集合",
+      "predicate": "使用",
+      "object": "智能对象容器",
+      "context": "智能对象持久集合使用智能对象容器对智能对象执行特定操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "智能对象",
+      "predicate": "依赖",
+      "object": "智能对象定义",
+      "context": "智能对象依赖智能对象定义来获取其配置和行为数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:49:46.400Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 13101,
+    "contentLength": 7983,
+    "processingTimeMs": 54275
+  }
+}

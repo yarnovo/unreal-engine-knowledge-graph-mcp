@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_fbx-test-builder-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_fbx-test-builder-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "FBX Test Builder",
+      "predicate": "属于",
+      "object": "自动化系统",
+      "context": "FBX Test Builder是自动化系统的一部分，用于为FBX文件创建测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX Test Builder",
+      "predicate": "生成",
+      "object": "测试计划",
+      "context": "FBX Test Builder为单个FBX文件创建测试计划，用于执行导入或重新导入操作并检查预期结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "测试计划",
+      "predicate": "包含",
+      "object": "操作",
+      "context": "测试计划包含对FBX文件执行的操作，如导入、重新导入等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "测试计划",
+      "predicate": "包含",
+      "object": "预期结果",
+      "context": "测试计划包含预期结果数组，用于验证操作是否成功",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "操作",
+      "predicate": "包括",
+      "object": "导入",
+      "context": "操作包括导入FBX文件并验证预期结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "操作",
+      "predicate": "包括",
+      "object": "重新导入",
+      "context": "操作包括重新导入FBX文件并验证预期结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "操作",
+      "predicate": "包括",
+      "object": "添加LOD",
+      "context": "操作包括添加细节层级（LOD）并验证预期结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "操作",
+      "predicate": "包括",
+      "object": "重新导入LOD",
+      "context": "操作包括重新导入之前已导入的LOD",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "操作",
+      "predicate": "包括",
+      "object": "导入加载",
+      "context": "操作包括导入FBX文件、保存文件包、卸载并重新加载UObject",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预期结果",
+      "predicate": "包括",
+      "object": "预期预设类型",
+      "context": "预期结果包括预期预设类型，用于检查预定义数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预期结果",
+      "predicate": "包括",
+      "object": "预期预设数据整型",
+      "context": "预期结果包括整型数据，用于验证FBX文件的特定数值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预期结果",
+      "predicate": "包括",
+      "object": "预期预设数据浮点型",
+      "context": "预期结果包括浮点型数据，用于验证FBX文件的特定数值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预期结果",
+      "predicate": "包括",
+      "object": "预期预设数据字符串型",
+      "context": "预期结果包括字符串型数据，用于验证FBX文件的特定数值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX Test Builder",
+      "predicate": "依赖",
+      "object": "FBXAutomationTestBuilder插件",
+      "context": "使用FBX Test Builder前需要启用FBXAutomationTestBuilder插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX Test Builder",
+      "predicate": "用于",
+      "object": "自动化测试",
+      "context": "FBX Test Builder用于创建和执行FBX文件的自动化测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "测试计划",
+      "predicate": "存储为",
+      "object": "JSON文件",
+      "context": "测试计划以JSON文件的形式存储，文件名与所测试的FBX文件相同",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX Test Builder",
+      "predicate": "支持",
+      "object": "导入选项",
+      "context": "FBX Test Builder支持设置导入选项，以确保正确导入FBX文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导入选项",
+      "predicate": "包括",
+      "object": "导入材质",
+      "context": "导入选项包括导入材质，用于测试FBX文件中的材质数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导入选项",
+      "predicate": "包括",
+      "object": "导入纹理",
+      "context": "导入选项包括导入纹理，用于测试FBX文件中的纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX Test Builder",
+      "predicate": "用于",
+      "object": "验证FBX文件",
+      "context": "FBX Test Builder用于验证FBX文件的导入和重新导入操作是否符合预期",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:04:58.907Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11415 字符)",
+      "timestamp": "2025-06-15T19:03:59.799Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16433,
+    "contentLength": 11415,
+    "processingTimeMs": 59118
+  }
+}

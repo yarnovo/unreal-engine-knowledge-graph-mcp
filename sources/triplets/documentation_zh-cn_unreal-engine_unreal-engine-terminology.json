@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-engine-terminology",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-engine-terminology.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎5项目",
+      "predicate": "包含",
+      "object": "虚幻编辑器",
+      "context": "项目是游戏内容的容器，虚幻编辑器用于编辑项目内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎5项目",
+      "predicate": "包含",
+      "object": "内容浏览器",
+      "context": "内容浏览器显示项目文件夹结构，帮助管理项目资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "用于",
+      "object": "gameplay脚本",
+      "context": "蓝图系统用于创建gameplay元素，是可视化脚本工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Object",
+      "predicate": "是基类",
+      "object": "Actor",
+      "context": "Object是虚幻引擎中最基本的类，Actor继承自Object",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "类",
+      "predicate": "继承",
+      "object": "父类",
+      "context": "类通过继承获得父类的行为和属性，是面向对象编程的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "组件",
+      "context": "Actor可以添加组件来扩展功能，组件必须依附于Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pawn",
+      "predicate": "继承",
+      "object": "Actor",
+      "context": "Pawn是Actor的子类，代表游戏中的角色或形象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色",
+      "predicate": "继承",
+      "object": "Pawn",
+      "context": "角色是Pawn的子类，专门用于玩家角色，包含移动和输入功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家控制器",
+      "predicate": "控制",
+      "object": "Pawn",
+      "context": "玩家控制器将玩家输入转换为游戏互动，通常控制Pawn或角色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI控制器",
+      "predicate": "控制",
+      "object": "Pawn",
+      "context": "AI控制器操控Pawn作为非玩家角色，与玩家控制器功能类似但用于AI",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏模式",
+      "predicate": "定义",
+      "object": "游戏规则",
+      "context": "游戏模式设置游戏的规则，如玩家加入方式和获胜条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏状态",
+      "predicate": "包含",
+      "object": "游戏信息",
+      "context": "游戏状态存储并复制游戏中的共享信息，如得分和比赛状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡",
+      "predicate": "组成",
+      "object": "世界",
+      "context": "世界是关卡的容器，处理关卡的流送和动态Actor生成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积",
+      "predicate": "用于",
+      "object": "触发事件",
+      "context": "体积是3D空间，可以触发特定事件，如伤害或阻挡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "类型转换",
+      "predicate": "用于",
+      "object": "访问特定功能",
+      "context": "类型转换允许将Actor视为特定类以访问其功能，是游戏逻辑中的常用技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:10:32.054Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8716 字符)",
+      "timestamp": "2025-06-15T21:09:51.253Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14380,
+    "contentLength": 8716,
+    "processingTimeMs": 40806
+  }
+}

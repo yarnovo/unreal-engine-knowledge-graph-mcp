@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_umg-safe-zones-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_umg-safe-zones-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "安全区控件",
+      "predicate": "用于",
+      "object": "UI开发",
+      "context": "安全区控件是开发多设备兼容UI的关键组件，帮助开发者避免UI元素被设备边缘遮挡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "安全区控件",
+      "predicate": "控制",
+      "object": "子控件缩放",
+      "context": "安全区控件会自动缩放其子控件，确保它们避开设备的不安全区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG设计器",
+      "predicate": "支持",
+      "object": "安全区测试",
+      "context": "UMG设计器提供安全区测试功能，允许开发者在不同设备分辨率和旋转状态下预览UI效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "统一安全区",
+      "predicate": "用于",
+      "object": "除错目的",
+      "context": "统一安全区以红色区域显示，专门用于测试和除错，帮助开发者识别不安全区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设备配置文件",
+      "predicate": "影响",
+      "object": "屏幕大小选择",
+      "context": "设备配置文件决定了UMG设计器中可选的屏幕大小，考虑移动内容缩放系数等参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动内容缩放系数",
+      "predicate": "影响",
+      "object": "最终分辨率",
+      "context": "移动内容缩放系数是设备配置文件的一部分，会影响UI在移动设备上的最终显示分辨率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG设计器",
+      "predicate": "提供",
+      "object": "屏幕方向切换",
+      "context": "UMG设计器允许开发者在纵向和横向模式之间切换，测试UI在不同方向下的表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "除错安全区",
+      "predicate": "显示为",
+      "object": "红色区域",
+      "context": "除错安全区默认启用，以红色区域标识不安全区域，帮助开发者调整UI布局",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PIE测试",
+      "predicate": "支持",
+      "object": "设备分辨率模拟",
+      "context": "在编辑器播放(PIE)模式下，开发者可以模拟不同设备的屏幕分辨率，测试UI适配性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器首选项",
+      "predicate": "包含",
+      "object": "游戏视口设置",
+      "context": "编辑器首选项中的游戏视口设置允许开发者配置常用设备分辨率，用于PIE和单机游戏测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "安全区控件",
+      "predicate": "适用于",
+      "object": "多设备UI开发",
+      "context": "安全区控件专门用于解决不同设备(如电视、手机)屏幕边缘UI显示问题，是多设备开发的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iPhoneX",
+      "predicate": "具有",
+      "object": "自定义不安全区域",
+      "context": "iPhoneX等设备有特定的不安全区域(如刘海和主页栏)，UMG设计器会特别标识这些区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "层级面板",
+      "predicate": "管理",
+      "object": "控件父子关系",
+      "context": "层级面板中安全区控件与其子控件的关系决定了哪些UI元素会受到安全区影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DPI缩放",
+      "predicate": "影响",
+      "object": "UI最终显示",
+      "context": "DPI缩放是设备配置文件的重要参数，会影响UI在不同设备上的最终显示效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "非统一安全区域",
+      "predicate": "需要",
+      "object": "翻转测试",
+      "context": "对于非统一安全区域，开发者需要使用翻转按钮模拟设备旋转，全面测试UI适配性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:05:11.562Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6840,
+    "contentLength": 4536,
+    "processingTimeMs": 46018
+  }
+}

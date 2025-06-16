@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_basic-navigation-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_basic-navigation-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎寻路系统",
+      "predicate": "用于",
+      "object": "AI代理寻路",
+      "context": "寻路系统为AI代理提供在场景中移动的路径计算功能",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "基于",
+      "object": "场景碰撞体",
+      "context": "寻路网格体通过分析场景中的碰撞体来生成可导航区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体边界体积",
+      "predicate": "控制",
+      "object": "寻路网格体生成范围",
+      "context": "通过调整边界体积可以指定需要生成寻路网格体的区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RecastNavMesh-Default",
+      "predicate": "实现",
+      "object": "寻路网格体可视化",
+      "context": "通过RecastNavMesh可以调整和可视化寻路网格体的显示效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI Move To节点",
+      "predicate": "依赖",
+      "object": "寻路网格体",
+      "context": "AI移动行为需要依赖预先生成的寻路网格体来计算路径",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "获取半径内的随机可达点",
+      "predicate": "使用",
+      "object": "寻路网格体",
+      "context": "该功能需要基于寻路网格体数据来寻找可达位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "包含",
+      "object": "多边形区块",
+      "context": "寻路网格体由多个带有成本值的多边形区块组成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路算法",
+      "predicate": "计算",
+      "object": "最低成本路径",
+      "context": "寻路系统会计算多边形区块间总成本最低的路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_NPC_NavMesh",
+      "predicate": "扩展",
+      "object": "ThirdPersonCharacter",
+      "context": "导航代理蓝图是基于第三人称角色蓝图的扩展实现",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "寻路网格体可视化",
+      "predicate": "辅助",
+      "object": "寻路调试",
+      "context": "可视化功能帮助开发者调试和优化寻路网格体",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "绘制偏移",
+      "predicate": "调整",
+      "object": "寻路网格体显示高度",
+      "context": "该参数可以解决寻路网格体在复杂地形上的显示问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路系统",
+      "predicate": "包含",
+      "object": "寻路网格体生成",
+      "context": "寻路系统的主要功能之一是生成导航用的网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路系统",
+      "predicate": "包含",
+      "object": "路径搜索算法",
+      "context": "系统内置了高效的路径搜索算法实现",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "AI代理",
+      "predicate": "使用",
+      "object": "AI Move To节点",
+      "context": "代理通过该节点实现基于寻路的移动行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第三人称模板",
+      "predicate": "提供",
+      "object": "基础角色蓝图",
+      "context": "该模板为寻路实验提供了可扩展的基础角色",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T18:11:45.169Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10967 字符)",
+      "timestamp": "2025-06-15T18:10:55.706Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14851,
+    "contentLength": 10967,
+    "processingTimeMs": 49470
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_global-illumination-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_global-illumination-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "全局光照",
+      "predicate": "包含",
+      "object": "间接照明",
+      "context": "全局光照有时也称为间接照明和间接光照，帮助学习者理解这两个术语的等价关系",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全局光照",
+      "predicate": "包含",
+      "object": "间接光照",
+      "context": "全局光照有时也称为间接照明和间接光照，帮助学习者理解这两个术语的等价关系",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全局光照",
+      "predicate": "实现方式",
+      "object": "预计算的全局光照",
+      "context": "帮助学习者理解全局光照的两种主要实现方式之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全局光照",
+      "predicate": "实现方式",
+      "object": "动态全局光照",
+      "context": "帮助学习者理解全局光照的两种主要实现方式之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算的全局光照",
+      "predicate": "使用",
+      "object": "Lightmass",
+      "context": "Lightmass是虚幻引擎中用于预计算全局光照的核心系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lightmass",
+      "predicate": "有两种实现",
+      "object": "基于CPU的Lightmass",
+      "context": "帮助学习者理解Lightmass的不同计算方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lightmass",
+      "predicate": "有两种实现",
+      "object": "基于GPU的Lightmass",
+      "context": "帮助学习者理解Lightmass的不同计算方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基于CPU的Lightmass",
+      "predicate": "依赖",
+      "object": "Unreal Swarm",
+      "context": "基于CPU的Lightmass使用Unreal Swarm进行任务分配和计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算的全局光照",
+      "predicate": "相关技术",
+      "object": "间接光照缓存",
+      "context": "间接光照缓存是预计算全局光照的辅助技术",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "预计算的全局光照",
+      "predicate": "相关技术",
+      "object": "体积光照贴图",
+      "context": "体积光照贴图是预计算全局光照的辅助技术",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "预计算的全局光照",
+      "predicate": "相关技术",
+      "object": "Lightmass门户",
+      "context": "Lightmass门户用于提升室内光照烘焙质量",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动态全局光照",
+      "predicate": "主要技术",
+      "object": "Lumen",
+      "context": "Lumen是虚幻引擎中主要的动态全局光照系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen",
+      "predicate": "支持",
+      "object": "硬件光线追踪",
+      "context": "Lumen可以使用硬件光线追踪来提高效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动态全局光照",
+      "predicate": "包含",
+      "object": "屏幕空间全局光照(SSGI)",
+      "context": "SSGI是动态全局光照的一种方法，虽然即将被废弃",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "全局光照",
+      "predicate": "需要考虑",
+      "object": "光照贴图UV",
+      "context": "使用预计算全局光照时，静态网格体需要设置光照贴图UV",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "预计算的全局光照",
+      "predicate": "适用于",
+      "object": "静态场景",
+      "context": "预计算光照非常适合无需变更光照的场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态全局光照",
+      "predicate": "适用于",
+      "object": "动态场景",
+      "context": "动态光照非常适合需要变更光照的场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen",
+      "predicate": "包含功能",
+      "object": "全局光照",
+      "context": "Lumen是一套全动态全局光照系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen",
+      "predicate": "包含功能",
+      "object": "反射",
+      "context": "Lumen同时提供反射功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算的全局光照",
+      "predicate": "可以结合",
+      "object": "动态光照",
+      "context": "两种光照方法可以无缝混合使用",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:15:46.185Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10552,
+    "contentLength": 7296,
+    "processingTimeMs": 62835
+  }
+}

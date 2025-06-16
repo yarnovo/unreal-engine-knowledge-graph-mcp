@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_volume-actors-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_volume-actors-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "体积Actor",
+      "predicate": "属于",
+      "object": "Actor",
+      "context": "体积是Actor的一种特殊类型，理解这一点有助于学习者将体积的特性与Actor的基本特性联系起来",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积Actor",
+      "predicate": "用于",
+      "object": "区域行为调整",
+      "context": "体积的主要功能是调整关卡中特定区域的行为和特征，这是其核心用途",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积Actor",
+      "predicate": "支持",
+      "object": "触发器功能",
+      "context": "体积可以检测特定Actor进入区域并触发效果，这是游戏逻辑实现的重要方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "施加伤害体积",
+      "predicate": "是",
+      "object": "体积Actor",
+      "context": "施加伤害体积是体积的一种具体类型，了解这种分类有助于组织知识结构",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "施加伤害体积",
+      "predicate": "需要",
+      "object": "视觉表示",
+      "context": "为了让玩家感知危险区域，施加伤害体积通常需要配合视觉元素，这是游戏设计的重要考虑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "阻挡体积",
+      "predicate": "替代",
+      "object": "碰撞表面",
+      "context": "阻挡体积可以替代复杂几何体的碰撞表面，这是优化碰撞性能的重要技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机阻挡体积",
+      "predicate": "专门用于",
+      "object": "摄像机控制",
+      "context": "这种体积专门用于控制摄像机行为，与其他体积的功能有明显区别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "触发器体积",
+      "predicate": "连接",
+      "object": "关卡蓝图",
+      "context": "触发器体积常与关卡蓝图配合使用，这是实现游戏事件的重要方式",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理体积",
+      "predicate": "控制",
+      "object": "视觉效果",
+      "context": "后期处理体积用于控制区域内的视觉效果，是画面表现的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体边界体积",
+      "predicate": "影响",
+      "object": "AI寻路",
+      "context": "这种体积直接影响AI的寻路行为，是AI系统的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lightmass重要体积",
+      "predicate": "优化",
+      "object": "光照计算",
+      "context": "这种体积可以优化光照计算，是光照系统性能优化的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积Actor",
+      "predicate": "放置方式类似",
+      "object": "普通Actor",
+      "context": "体积的放置方式与普通Actor相同，这一知识可以迁移应用",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "物理体积",
+      "predicate": "影响",
+      "object": "角色移动",
+      "context": "物理体积可以改变角色的移动特性，如水下移动，这是游戏物理系统的重要部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "销毁Z体积",
+      "predicate": "处理",
+      "object": "越界对象",
+      "context": "这种体积专门处理游戏对象越界的情况，是游戏边界管理的重要机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流送体积",
+      "predicate": "管理",
+      "object": "关卡加载",
+      "context": "这种体积用于管理关卡的流式加载，是大型关卡优化的重要技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算可视性体积",
+      "predicate": "优化",
+      "object": "渲染性能",
+      "context": "这类体积通过预计算可视性来优化渲染性能，是图形优化的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频体积",
+      "predicate": "控制",
+      "object": "声音区域",
+      "context": "音频体积用于定义声音的播放区域，是音频系统的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积Actor",
+      "predicate": "可以组合",
+      "object": "视觉元素",
+      "context": "体积可以与视觉元素组合成单个Actor，这是游戏对象组织的重要技巧",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "分层LOD体积",
+      "predicate": "用于",
+      "object": "HLOD系统",
+      "context": "这种体积专门用于分层细节级别系统，是LOD管理的重要部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体合并剔除体积",
+      "predicate": "优化",
+      "object": "渲染效率",
+      "context": "这种体积通过合并网格体来提高渲染效率，是性能优化的重要技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:30:36.791Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9828 字符)",
+      "timestamp": "2025-06-15T21:29:42.586Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16010,
+    "contentLength": 9828,
+    "processingTimeMs": 54212
+  }
+}

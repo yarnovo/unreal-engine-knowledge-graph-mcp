@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_cooked-data-snapshots-with-zen-storage-server-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_cooked-data-snapshots-with-zen-storage-server-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Zen存储服务器",
+      "predicate": "支持",
+      "object": "烘焙数据快照",
+      "context": "Zen存储服务器作为烘焙输出存储，支持导出和导入烘焙数据快照，帮助开发者避免重复烘焙和实现增量烘焙",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "烘焙数据快照",
+      "predicate": "用于",
+      "object": "增量烘焙",
+      "context": "烘焙数据快照的主要用途之一是支持增量烘焙，允许开发者在已有烘焙数据基础上进行本地修改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "快照描述符",
+      "predicate": "描述",
+      "object": "烘焙数据快照",
+      "context": "快照描述符以JSON格式存储烘焙数据的存储方式、位置和内容信息，是使用快照的关键元数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildAndTestProject.xml",
+      "predicate": "包含",
+      "object": "快照导出功能",
+      "context": "引擎提供的构建图表包含导出快照的基础结构，开发者可以直接利用它来生成和存储快照",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻云DDC",
+      "predicate": "存储",
+      "object": "烘焙数据快照",
+      "context": "虚幻云DDC是烘焙数据快照的三种主要存储机制之一，适合分布式团队协作开发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ZenExportSnapshot任务",
+      "predicate": "实现",
+      "object": "快照导出",
+      "context": "自定义构建图表可以通过ZenExportSnapshot任务将本地Zenserver中的烘焙数据导出到不同存储目标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": ".zen命令",
+      "predicate": "用于",
+      "object": "快照导入",
+      "context": "在ushell中使用.zen importsnapshot命令可以导入快照描述符文件描述的烘焙数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Zen流送",
+      "predicate": "依赖",
+      "object": "烘焙数据快照",
+      "context": "导入快照后可以使用Zen流送功能运行游戏，这是快照使用的重要场景之一",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "快照描述符",
+      "predicate": "引用",
+      "object": "虚幻云DDC存储",
+      "context": "当快照存储在虚幻云DDC时，描述符文件包含服务器主机、命名空间和存储桶等关键信息",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "增量烘焙",
+      "predicate": "依赖",
+      "object": "快照基础版本",
+      "context": "为了优化增量烘焙效果，需要确定快照的基础版本以减少数据重复存储",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "自动化构建系统",
+      "predicate": "生成",
+      "object": "烘焙数据快照",
+      "context": "文档重点介绍了如何在自动化构建流程中集成快照生成功能，提高开发效率",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "烘焙数据快照",
+      "predicate": "支持",
+      "object": "Delta下载",
+      "context": "快照机制允许只下载本地缺失的烘焙数据片段，提高数据传输效率",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Zen存储服务器",
+      "predicate": "替代",
+      "object": "传统文件存储",
+      "context": "使用Zen存储服务器作为烘焙输出存储可以替代传统的文件系统存储方式",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "快照描述符",
+      "predicate": "包含",
+      "object": "目标平台信息",
+      "context": "描述符文件中包含目标平台字段，确保快照与特定平台兼容",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "ushell",
+      "predicate": "支持",
+      "object": "快照工作流",
+      "context": "ushell提供完整的快照导入、构建、部署和运行命令链，支持端到端的快照使用流程",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T18:36:30.768Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8172 字符)",
+      "timestamp": "2025-06-15T18:35:37.145Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 11908,
+    "contentLength": 8172,
+    "processingTimeMs": 53631
+  }
+}

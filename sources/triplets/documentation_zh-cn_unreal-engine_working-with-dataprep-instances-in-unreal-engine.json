@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_working-with-dataprep-instances-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_working-with-dataprep-instances-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Dataprep资产",
+      "predicate": "包含",
+      "object": "Dataprep图表",
+      "context": "Dataprep资产的核心功能通过Dataprep图表实现，理解图表是掌握资产使用的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Dataprep图表",
+      "predicate": "支持",
+      "object": "参数化设置",
+      "context": "图表中的设置可以公开为参数，这是实现灵活配置的基础机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Dataprep实例",
+      "predicate": "继承自",
+      "object": "Dataprep资产",
+      "context": "实例基于资产创建，保留了核心逻辑但允许参数修改，这是重要的继承关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Dataprep实例",
+      "predicate": "仅修改",
+      "object": "公开参数",
+      "context": "实例的核心价值在于限制用户只能修改预设参数，保护底层逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "参数化设置",
+      "predicate": "显示在",
+      "object": "设置面板",
+      "context": "参数集中管理的位置对用户可见性很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Dataprep实例编辑器",
+      "predicate": "隐藏",
+      "object": "图表编辑器",
+      "context": "这是实例与资产编辑器的关键区别，体现设计意图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质实例",
+      "predicate": "类比",
+      "object": "Dataprep实例",
+      "context": "文档明确说明两者概念相似，这对熟悉材质系统的学习者很有帮助",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "过滤器块",
+      "predicate": "属于",
+      "object": "Dataprep块类型",
+      "context": "理解不同类型的块是掌握Dataprep功能的基础",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "操作块",
+      "predicate": "属于",
+      "object": "Dataprep块类型",
+      "context": "分类认知有助于系统学习图表构建",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "变换块",
+      "predicate": "属于",
+      "object": "Dataprep块类型",
+      "context": "完整的类型认知对复杂图表设计很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Visual Dataprep系统",
+      "predicate": "包含",
+      "object": "Dataprep资产",
+      "context": "明确系统与资产的关系有助于架构理解",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "参数链接",
+      "predicate": "标记为",
+      "object": "链接图标",
+      "context": "可视化标识对用户操作有重要提示作用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Dataprep实例",
+      "predicate": "适用于",
+      "object": "团队协作场景",
+      "context": "文档强调实例在组织中的价值，这是重要的应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "设置面板",
+      "predicate": "包含",
+      "object": "参数化分段",
+      "context": "界面组织结构影响用户操作流程",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Dataprep图表",
+      "predicate": "生成",
+      "object": "修改后的场景数据",
+      "context": "这是图表的核心功能输出",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T21:33:36.132Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8172,
+    "contentLength": 5192,
+    "processingTimeMs": 39780
+  }
+}

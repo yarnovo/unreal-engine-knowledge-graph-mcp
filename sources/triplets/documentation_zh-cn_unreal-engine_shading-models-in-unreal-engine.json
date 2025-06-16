@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_shading-models-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_shading-models-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "着色模型",
+      "predicate": "控制",
+      "object": "材质反射",
+      "context": "着色模型决定了材质如何反射入射光线，影响最终外观效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认光照着色模型",
+      "predicate": "属于",
+      "object": "着色模型",
+      "context": "默认光照是虚幻引擎中最常用的基础着色模型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "无光照着色模型",
+      "predicate": "适用于",
+      "object": "自发光效果",
+      "context": "专门用于不需要光照计算的发光物体，如火焰和发光体",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "次表面着色模型",
+      "predicate": "模拟",
+      "object": "次表面散射",
+      "context": "用于模拟光线穿透表面并在物体内部散射的效果，如皮肤和冰",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预整合皮肤着色模型",
+      "predicate": "优化",
+      "object": "次表面着色模型",
+      "context": "提供相似的次表面效果但性能更好，适合角色皮肤渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "透明涂层着色模型",
+      "predicate": "模拟",
+      "object": "多层材质",
+      "context": "专门用于模拟表面有透明涂层的材质，如车漆和喷漆",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "双法线透明涂层",
+      "predicate": "扩展",
+      "object": "透明涂层着色模型",
+      "context": "增加第二个法线贴图支持，用于更复杂的材质如碳纤维",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "次表面轮廓着色模型",
+      "predicate": "专用于",
+      "object": "高端皮肤渲染",
+      "context": "提供最精确的人类皮肤渲染效果",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "双面植被着色模型",
+      "predicate": "解决",
+      "object": "薄表面透光问题",
+      "context": "专门优化树叶等薄表面的光线透射效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛发着色模型",
+      "predicate": "模拟",
+      "object": "毛发高光特性",
+      "context": "通过多重高光模拟毛发与光线的复杂交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "布料着色模型",
+      "predicate": "包含",
+      "object": "绒毛效果",
+      "context": "专门模拟布料表面的绒毛层光线交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "眼睛着色模型",
+      "predicate": "依赖",
+      "object": "UV布局",
+      "context": "需要特定的几何体形状和UV布局才能正确工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单层水着色模型",
+      "predicate": "替代",
+      "object": "透明混合模式",
+      "context": "用不透明混合模式实现水面效果，降低性能开销",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "薄半透明着色模型",
+      "predicate": "改进",
+      "object": "透明材质",
+      "context": "提供更物理准确的彩色玻璃效果，正确处理高光和背景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基于材质表达式着色模型",
+      "predicate": "允许",
+      "object": "混合着色模型",
+      "context": "高级功能，支持在单个材质中组合多个着色模型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen",
+      "predicate": "支持",
+      "object": "自发光投射",
+      "context": "当启用Lumen时，无光照材质的自发光可以向场景投射光线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "次表面颜色输入",
+      "predicate": "影响",
+      "object": "次表面散射效果",
+      "context": "定义光线在表面下散射时呈现的颜色，对次表面类模型至关重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质图表",
+      "predicate": "控制",
+      "object": "基于材质表达式着色模型",
+      "context": "通过材质图表中的逻辑动态选择着色模型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数字人类项目",
+      "predicate": "提供",
+      "object": "眼睛着色参考",
+      "context": "建议初学者直接使用该项目中的眼睛实现作为模板",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:47:32.330Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12582 字符)",
+      "timestamp": "2025-06-15T20:46:38.905Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19278,
+    "contentLength": 12582,
+    "processingTimeMs": 53428
+  }
+}

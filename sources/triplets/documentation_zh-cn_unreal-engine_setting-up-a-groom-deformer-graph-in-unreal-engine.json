@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_setting-up-a-groom-deformer-graph-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_setting-up-a-groom-deformer-graph-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "变形器图表",
+      "predicate": "属于",
+      "object": "插件",
+      "context": "变形器图表是虚幻引擎中的一个插件，用于创建和编辑变形器图表资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图表",
+      "predicate": "用于",
+      "object": "蒙皮网格体",
+      "context": "变形器图表可以为虚幻引擎中的任何蒙皮网格体执行和自定义网格体变形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图表",
+      "predicate": "包含",
+      "object": "Custom Compute Kernel节点",
+      "context": "Custom Compute Kernel节点是变形器图表中的关键元素，用于定义变形逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图表",
+      "predicate": "包含",
+      "object": "Primary节点",
+      "context": "Primary节点是变形器图表中的关键元素，提供与其所提供数据类型的绑定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图表",
+      "predicate": "包含",
+      "object": "Groom输入节点",
+      "context": "Groom输入节点是变形器图表中的关键元素，提供对Groom数据的访问",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图表",
+      "predicate": "包含",
+      "object": "导线输入节点",
+      "context": "导线输入节点是变形器图表中的关键元素，提供对导线数据的访问",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图表",
+      "predicate": "包含",
+      "object": "Write Groom输出节点",
+      "context": "Write Groom输出节点是变形器图表中的关键元素，用于写出修改后的Groom数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图表",
+      "predicate": "包含",
+      "object": "着色器文本编辑器",
+      "context": "着色器文本编辑器是变形器图表的一部分，用于编辑Custom Compute Kernel节点的HLSL代码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Custom Compute Kernel节点",
+      "predicate": "实现",
+      "object": "变形逻辑",
+      "context": "Custom Compute Kernel节点包含处理变形的代码，实现Groom和导线的变形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Primary节点",
+      "predicate": "绑定",
+      "object": "Groom组件",
+      "context": "Primary节点应设置为Groom组件，以提供与其所提供数据类型的绑定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom输入节点",
+      "predicate": "提供",
+      "object": "Groom数据",
+      "context": "Groom输入节点提供对主Groom的所有属性的访问",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导线输入节点",
+      "predicate": "提供",
+      "object": "导线数据",
+      "context": "导线输入节点提供对导线数据的访问",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Write Groom输出节点",
+      "predicate": "写出",
+      "object": "Groom数据",
+      "context": "Write Groom输出节点将写出修改后的Groom数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "着色器文本编辑器",
+      "predicate": "用于",
+      "object": "编辑HLSL代码",
+      "context": "着色器文本编辑器用于编辑Custom Compute Kernel节点的HLSL代码，以控制特定的网格体变形行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图表",
+      "predicate": "应用于",
+      "object": "Groom组件",
+      "context": "设置好变形器图表后，可以将其应用于添加到骨骼网格体的Groom组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom组件",
+      "predicate": "使用",
+      "object": "网格体变形器",
+      "context": "使用网格体变形器选择框来应用创建的Groom变形器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图表",
+      "predicate": "依赖",
+      "object": "HLSL",
+      "context": "变形器图表使用HLSL代码来定义变形逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Custom Compute Kernel节点",
+      "predicate": "使用",
+      "object": "GPU线程",
+      "context": "Custom Compute Kernel节点的执行域可以设置为曲线或控制点，每条曲线或每个控制点使用一个GPU线程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图表",
+      "predicate": "用于",
+      "object": "微调角色皮肤",
+      "context": "变形器图表通常用于微调角色的皮肤、织物和Groom在运动中的行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图表",
+      "predicate": "用于",
+      "object": "一次性动画",
+      "context": "变形器图表可以用于一次性动画，因为使用变形逻辑比手工制作动画更容易创建这类动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:43:23.168Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11755,
+    "contentLength": 7735,
+    "processingTimeMs": 55020
+  }
+}

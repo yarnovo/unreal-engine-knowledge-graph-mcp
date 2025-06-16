@@ -1,0 +1,229 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_groom-asset-editor-user-guide-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_groom-asset-editor-user-guide-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "毛发造型系统",
+      "predicate": "处理",
+      "object": "Alembic .abc文件",
+      "context": "毛发造型系统主要用于处理导入的Alembic .abc文件中的毛发发束，这是其核心功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛发造型系统",
+      "predicate": "支持",
+      "object": "发片",
+      "context": "出于扩展考虑，毛发造型系统支持发片等其他几何体形式来表现毛发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛发造型系统",
+      "predicate": "支持",
+      "object": "网格体",
+      "context": "出于扩展考虑，毛发造型系统支持网格体等其他几何体形式来表现毛发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛发资产编辑器",
+      "predicate": "管理",
+      "object": "毛发资产",
+      "context": "毛发资产编辑器负责管理毛发的大部分内容，是操作毛发资产的主要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛发资产编辑器",
+      "predicate": "修改",
+      "object": "毛发渲染方式",
+      "context": "用户可以通过毛发资产编辑器修改毛发的渲染方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛发资产编辑器",
+      "predicate": "控制",
+      "object": "毛发物理模拟",
+      "context": "毛发资产编辑器可以控制毛发的物理模拟方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛发资产编辑器",
+      "predicate": "创建",
+      "object": "毛发LOD",
+      "context": "毛发资产编辑器可以创建并管理毛发的LOD（细节层次）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛发资产编辑器",
+      "predicate": "包含",
+      "object": "视口显示选项",
+      "context": "视口显示选项是毛发资产编辑器界面的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛发资产编辑器",
+      "predicate": "包含",
+      "object": "视口",
+      "context": "视口是毛发资产编辑器界面的核心区域，用于查看和编辑毛发资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛发资产编辑器",
+      "predicate": "包含",
+      "object": "细节面板",
+      "context": "细节面板是毛发资产编辑器的重要组成部分，用于控制毛发的各种特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视口显示选项",
+      "predicate": "提供",
+      "object": "渲染选项",
+      "context": "视口显示选项工具栏提供基本的渲染选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视口显示选项",
+      "predicate": "提供",
+      "object": "可视化选项",
+      "context": "视口显示选项工具栏提供基本的可视化选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视口选项",
+      "predicate": "属于",
+      "object": "视口显示选项",
+      "context": "视口选项是视口显示选项的下拉菜单之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视角",
+      "predicate": "属于",
+      "object": "视口显示选项",
+      "context": "视角是视口显示选项的下拉菜单之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视图模式",
+      "predicate": "属于",
+      "object": "视口显示选项",
+      "context": "视图模式是视口显示选项的下拉菜单之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "显示",
+      "predicate": "属于",
+      "object": "视口显示选项",
+      "context": "显示是视口显示选项的下拉菜单之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD",
+      "predicate": "属于",
+      "object": "视口显示选项",
+      "context": "LOD是视口显示选项的下拉菜单之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "包含",
+      "object": "细节级别",
+      "context": "细节级别面板是细节面板的一部分，用于配置毛发的LOD",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "包含",
+      "object": "插值",
+      "context": "插值面板是细节面板的一部分，用于定义毛发的曲线移动方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "包含",
+      "object": "发束",
+      "context": "发束面板是细节面板的一部分，用于配置毛发的发束几何体属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "包含",
+      "object": "发片",
+      "context": "发片面板是细节面板的一部分，用于为毛发的LOD配置和生成发片几何体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "包含",
+      "object": "网格体",
+      "context": "网格体面板是细节面板的一部分，用于为毛发的LOD配置和生成网格体几何体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "包含",
+      "object": "材质",
+      "context": "材质面板是细节面板的一部分，用于为毛发分配材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "包含",
+      "object": "物理",
+      "context": "物理面板是细节面板的一部分，用于设置毛发的物理模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD自动",
+      "predicate": "基于",
+      "object": "细节层次面板",
+      "context": "LOD自动选项根据细节层次面板中指定的选项自动切换LOD",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛发资产",
+      "predicate": "显示在",
+      "object": "视口",
+      "context": "视口用于查看导入的毛发资产，并在其不同的细节面板中进行更改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "毛发资产",
+      "predicate": "通过",
+      "object": "内容浏览器",
+      "context": "用户可以通过内容浏览器中的毛发资产打开毛发资产编辑器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:17:25.948Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10667,
+    "contentLength": 7658,
+    "processingTimeMs": 84228
+  }
+}

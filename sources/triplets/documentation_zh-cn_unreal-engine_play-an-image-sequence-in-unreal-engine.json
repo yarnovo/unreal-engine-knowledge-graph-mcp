@@ -1,0 +1,131 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_play-an-image-sequence-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_play-an-image-sequence-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "图像媒体源",
+      "predicate": "属于",
+      "object": "媒体框架工具",
+      "context": "图像媒体源是媒体框架工具的一部分，用于播放图像序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图像媒体源",
+      "predicate": "类似于",
+      "object": "文件媒体源",
+      "context": "图像媒体源与文件媒体源功能类似，但用于播放图像序列而非视频文件",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图像媒体源",
+      "predicate": "支持",
+      "object": "代理覆盖",
+      "context": "图像媒体源支持代理覆盖功能，允许使用低分辨率图像进行开发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体播放器",
+      "predicate": "用于",
+      "object": "播放图像序列",
+      "context": "媒体播放器资源用于播放图像媒体源中的图像序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体播放器",
+      "predicate": "关联",
+      "object": "媒体纹理",
+      "context": "媒体播放器与媒体纹理资源关联，用于在材质中显示图像序列",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体纹理",
+      "predicate": "应用于",
+      "object": "平面Actor",
+      "context": "媒体纹理可以应用于平面Actor，用于在关卡中显示图像序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "控制",
+      "object": "媒体播放器",
+      "context": "蓝图可以用于控制媒体播放器的行为，如在游戏开始时播放图像序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Electra媒体播放器",
+      "predicate": "不支持",
+      "object": "图像序列播放",
+      "context": "Electra媒体播放器目前不支持图像序列播放，需要使用其他方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体板Actor",
+      "predicate": "替代",
+      "object": "手动工作流程",
+      "context": "媒体板Actor可以替代手动工作流程，提供更便捷的图像序列播放方法",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "图像序列",
+      "predicate": "需要",
+      "object": "命名约定",
+      "context": "图像序列需要遵循命名约定以确保按正确顺序播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理覆盖",
+      "predicate": "优化",
+      "object": "开发效率",
+      "context": "代理覆盖功能可以优化开发效率，减少内存使用和性能问题",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "媒体框架工具",
+      "predicate": "包含",
+      "object": "图像媒体源",
+      "context": "媒体框架工具包含图像媒体源，用于处理图像序列播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体框架工具",
+      "predicate": "包含",
+      "object": "文件媒体源",
+      "context": "媒体框架工具包含文件媒体源，用于处理视频文件播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体框架工具",
+      "predicate": "包含",
+      "object": "媒体播放器",
+      "context": "媒体框架工具包含媒体播放器，用于播放媒体源内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:25:18.831Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8669 字符)",
+      "timestamp": "2025-06-15T20:24:36.030Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12593,
+    "contentLength": 8669,
+    "processingTimeMs": 42808
+  }
+}

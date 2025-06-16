@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_pose-warping-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_pose-warping-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "姿势扭曲",
+      "predicate": "包含",
+      "object": "方向扭曲",
+      "context": "方向扭曲是姿势扭曲的三种主要实现方式之一，用于调整动画姿势的方向性补偿",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "姿势扭曲",
+      "predicate": "包含",
+      "object": "步幅扭曲",
+      "context": "步幅扭曲是姿势扭曲的核心组件，用于动态调整角色步幅长度",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "姿势扭曲",
+      "predicate": "包含",
+      "object": "斜面扭曲",
+      "context": "斜面扭曲是姿势扭曲的组成部分，专门处理斜坡和楼梯的动画过渡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势扭曲",
+      "predicate": "依赖",
+      "object": "动画扭曲插件",
+      "context": "使用姿势扭曲功能前必须启用动画扭曲插件",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "姿势扭曲",
+      "predicate": "依赖",
+      "object": "动画蓝图",
+      "context": "姿势扭曲功能完全集成在动画蓝图工作流中实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势扭曲",
+      "predicate": "依赖",
+      "object": "根骨骼运动",
+      "context": "姿势扭曲需要启用根骨骼运动的动画作为基础输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "方向扭曲",
+      "predicate": "调整",
+      "object": "脊柱骨骼",
+      "context": "方向扭曲通过逐步扭转脊柱骨骼来保持角色面向角度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "方向扭曲",
+      "predicate": "控制",
+      "object": "IK足部骨骼",
+      "context": "方向扭曲会隔离并调整腿部IK骨骼的位置和旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "步幅扭曲",
+      "predicate": "调整",
+      "object": "足部位置",
+      "context": "步幅扭曲通过修改足部间距来匹配移动速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "步幅扭曲",
+      "predicate": "依赖",
+      "object": "骨盆骨骼",
+      "context": "步幅扭曲需要正确定义骨盆骨骼作为调整参考点",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "斜面扭曲",
+      "predicate": "适配",
+      "object": "地板法线",
+      "context": "斜面扭曲通过适配地板法线使足部位置更自然",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "实现",
+      "object": "姿势扭曲",
+      "context": "姿势扭曲功能主要通过动画蓝图节点网络实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Local To Component节点",
+      "predicate": "前置",
+      "object": "Orientation Warping节点",
+      "context": "在动画蓝图中需要先进行空间转换才能应用姿势扭曲",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Orientation Warping节点",
+      "predicate": "连接",
+      "object": "Leg IK节点",
+      "context": "方向扭曲的效果需要通过Leg IK节点传递到FK骨骼",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "姿势扭曲",
+      "predicate": "减少",
+      "object": "混合空间依赖",
+      "context": "姿势扭曲可以减少不同动画序列间过渡对混合空间的依赖",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "方向扭曲",
+      "predicate": "使用",
+      "object": "移动角度变量",
+      "context": "方向扭曲可以通过图表驱动的移动角度变量实现动态调整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "步幅扭曲",
+      "predicate": "计算",
+      "object": "步幅比例",
+      "context": "步幅扭曲通过公式计算步幅比例来匹配移动速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "斜面扭曲",
+      "predicate": "控制",
+      "object": "骨盆偏移",
+      "context": "斜面扭曲通过骨盆偏移插值器调整角色在斜坡上的姿势",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "姿势扭曲",
+      "predicate": "支持",
+      "object": "调试绘制",
+      "context": "姿势扭曲提供可视化调试工具帮助开发者验证效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "方向扭曲",
+      "predicate": "保留",
+      "object": "面向角度",
+      "context": "方向扭曲在调整腿部方向时能保持上半身的原始面向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:26:40.232Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (14749 字符)",
+      "timestamp": "2025-06-15T20:25:44.963Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 25557,
+    "contentLength": 14749,
+    "processingTimeMs": 55282
+  }
+}

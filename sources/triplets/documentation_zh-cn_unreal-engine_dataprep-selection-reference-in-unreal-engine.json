@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_dataprep-selection-reference-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_dataprep-selection-reference-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Visual Dataprep系统",
+      "predicate": "包含",
+      "object": "Select By方法块",
+      "context": "Select By方法块是Visual Dataprep系统的核心组件，用于确定哪些场景元素需要执行操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Select By方法块",
+      "predicate": "用于",
+      "object": "场景元素筛选",
+      "context": "Select By方法块的主要功能是根据条件筛选场景元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "按条件选择块",
+      "predicate": "属于",
+      "object": "Select By方法块",
+      "context": "按条件选择是Select By方法块的一种具体类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Is Class Of块",
+      "predicate": "属于",
+      "object": "按条件选择块",
+      "context": "Is Class Of是按条件选择块的一种具体实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Is Class Of块",
+      "predicate": "依赖",
+      "object": "类名称匹配",
+      "context": "Is Class Of块通过匹配类名称来筛选场景元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "包壳/选择隐藏项块",
+      "predicate": "依赖",
+      "object": "Dataprep几何体操作插件",
+      "context": "使用包壳/选择隐藏项功能需要先启用Dataprep几何体操作插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "按浮点选择块",
+      "predicate": "用于",
+      "object": "数值属性比较",
+      "context": "按浮点选择块用于比较场景元素的数值属性与给定阈值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "边界体积块",
+      "predicate": "属于",
+      "object": "按浮点选择块",
+      "context": "边界体积是按浮点选择块的一种具体实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "按整数选择块",
+      "predicate": "用于",
+      "object": "整数属性比较",
+      "context": "按整数选择块用于比较场景元素的整数属性与给定阈值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "三角形数量块",
+      "predicate": "属于",
+      "object": "按整数选择块",
+      "context": "三角形数量是按整数选择块的一种具体实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "顶点数量块",
+      "predicate": "属于",
+      "object": "按整数选择块",
+      "context": "顶点数量是按整数选择块的一种具体实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "按字符串选择块",
+      "predicate": "用于",
+      "object": "字符串属性匹配",
+      "context": "按字符串选择块用于匹配场景元素的字符串属性与指定模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor标签块",
+      "predicate": "属于",
+      "object": "按字符串选择块",
+      "context": "Actor标签是按字符串选择块的一种具体实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Metadata值块",
+      "predicate": "属于",
+      "object": "按字符串选择块",
+      "context": "Metadata值是按字符串选择块的一种具体实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Object Name块",
+      "predicate": "属于",
+      "object": "按字符串选择块",
+      "context": "Object Name是按字符串选择块的一种具体实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor层块",
+      "predicate": "属于",
+      "object": "按字符串选择块",
+      "context": "Actor层是按字符串选择块的一种具体实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "标签值块",
+      "predicate": "属于",
+      "object": "按字符串选择块",
+      "context": "标签值是按字符串选择块的一种具体实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Dataprep导入自定义",
+      "predicate": "扩展",
+      "object": "Visual Dataprep系统",
+      "context": "Dataprep导入自定义提供了Visual Dataprep系统的背景信息和扩展功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Dataprep操作参考",
+      "predicate": "补充",
+      "object": "Select By方法块",
+      "context": "Dataprep操作参考说明了可以对Select By方法块筛选出的场景元素执行的操作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Datasmith元数据",
+      "predicate": "用于",
+      "object": "Metadata值块",
+      "context": "Metadata值块使用Datasmith元数据进行场景元素筛选",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:46:45.802Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12316 字符)",
+      "timestamp": "2025-06-15T18:45:47.744Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 18378,
+    "contentLength": 12316,
+    "processingTimeMs": 58060
+  }
+}

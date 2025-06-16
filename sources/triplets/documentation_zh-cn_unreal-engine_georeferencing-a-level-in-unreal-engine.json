@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_georeferencing-a-level-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_georeferencing-a-level-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "地理配准",
+      "predicate": "属于",
+      "object": "虚幻引擎功能模块",
+      "context": "地理配准是虚幻引擎中用于将虚拟场景与物理空间位置关联的功能模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地理配准",
+      "predicate": "依赖",
+      "object": "地理配准插件",
+      "context": "使用地理配准功能需要先启用地理配准插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "坐标参考系(CRS)",
+      "predicate": "包含",
+      "object": "地理CRS",
+      "context": "坐标参考系包含使用极坐标表示位置的地理CRS",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "坐标参考系(CRS)",
+      "predicate": "包含",
+      "object": "地心CRS",
+      "context": "坐标参考系包含使用笛卡尔坐标表示位置的地心CRS",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "坐标参考系(CRS)",
+      "predicate": "包含",
+      "object": "投影CRS",
+      "context": "坐标参考系包含使用地图投影将球面转换为平面的投影CRS",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WGS84",
+      "predicate": "是",
+      "object": "椭圆体模型",
+      "context": "WGS84是表示地球的最著名椭圆体模型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地理CRS",
+      "predicate": "使用",
+      "object": "纬度/经度/海拔",
+      "context": "地理CRS使用纬度、经度和海拔来表示位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地心CRS",
+      "predicate": "使用",
+      "object": "笛卡尔坐标",
+      "context": "地心CRS使用以地球中心为原点的笛卡尔坐标表示位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "投影CRS",
+      "predicate": "包含",
+      "object": "墨卡托投影",
+      "context": "投影CRS包含多种投影方式，墨卡托投影是其中最常用的之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UTM投影",
+      "predicate": "是",
+      "object": "墨卡托投影变体",
+      "context": "通用横轴墨卡托投影(UTM)是墨卡托投影的一种变体，广泛用于模拟行业",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地理配准插件",
+      "predicate": "支持",
+      "object": "CRS转换",
+      "context": "地理配准插件支持在不同坐标参考系之间进行坐标转换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地理配准系Actor",
+      "predicate": "用于",
+      "object": "设置CRS参数",
+      "context": "地理配准系Actor用于在关卡中设置坐标参考系的各项参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "扁平行星",
+      "predicate": "适用于",
+      "object": "小范围场景",
+      "context": "扁平行星模式适用于几百千米范围内的小规模场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "圆形行星",
+      "predicate": "适用于",
+      "object": "大范围场景",
+      "context": "圆形行星模式适用于需要考虑行星曲率的大规模场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎坐标系",
+      "predicate": "使用",
+      "object": "左手系",
+      "context": "虚幻引擎使用左手坐标系，而地理空间行业通常使用右手系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地理配准插件",
+      "predicate": "提供",
+      "object": "坐标转换函数",
+      "context": "地理配准插件提供了在虚幻引擎坐标系与各种CRS之间转换坐标的函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FCartesianCoordinates",
+      "predicate": "用于",
+      "object": "存储笛卡尔坐标",
+      "context": "FCartesianCoordinates结构用于存储双精度笛卡尔坐标值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FGeographicCoordinates",
+      "predicate": "用于",
+      "object": "存储地理坐标",
+      "context": "FGeographicCoordinates结构用于存储双精度地理坐标值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地理配准状态栏",
+      "predicate": "显示",
+      "object": "当前视图位置",
+      "context": "地理配准状态栏控件可以显示当前视图在各种CRS中的位置信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_LocationProbe",
+      "predicate": "用于",
+      "object": "坐标测量",
+      "context": "BP_LocationProbe蓝图可用于在游戏内进行坐标测量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:12:30.448Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15251 字符)",
+      "timestamp": "2025-06-15T19:11:18.437Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 24296,
+    "contentLength": 15251,
+    "processingTimeMs": 72020
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_in-camera-vfx-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_in-camera-vfx-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "摄像机内视效(ICVFX)",
+      "predicate": "依赖",
+      "object": "LED光照",
+      "context": "ICVFX技术需要LED光照来实现前景演员和虚拟背景之间的无缝过渡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机内视效(ICVFX)",
+      "predicate": "依赖",
+      "object": "实时摄像机追踪",
+      "context": "ICVFX技术需要实时摄像机追踪来同步虚拟背景与实景拍摄",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机内视效(ICVFX)",
+      "predicate": "依赖",
+      "object": "离轴投影下的实时渲染",
+      "context": "ICVFX技术需要离轴投影下的实时渲染来确保视觉效果的正确呈现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机内视效(ICVFX)",
+      "predicate": "替代",
+      "object": "绿幕合成",
+      "context": "ICVFX的主要目的是取代传统的绿幕合成技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX编辑器",
+      "predicate": "属于",
+      "object": "虚拟制片工具",
+      "context": "ICVFX编辑器是专门为虚拟制片设计的集成工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX项目结构示例",
+      "predicate": "用于",
+      "object": "文件结构整理",
+      "context": "该项目结构示例指导如何组织ICVFX项目的文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX颜色校准",
+      "predicate": "用于",
+      "object": "LED墙显示校准",
+      "context": "颜色校准确保LED墙上显示的内容能正确被摄像机捕获",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Aruco标识",
+      "predicate": "用于",
+      "object": "LED墙对齐",
+      "context": "Aruco标识用于将光学追踪系统对齐到LED墙",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX模板",
+      "predicate": "包含",
+      "object": "项目结构和设置",
+      "context": "ICVFX模板提供了项目结构和设置的参考",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX制片测试",
+      "predicate": "探究",
+      "object": "制片功能",
+      "context": "制片测试示例用于探究制片期间使用的功能和设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟制片",
+      "predicate": "包含",
+      "object": "ICVFX",
+      "context": "ICVFX是虚拟制片技术的重要组成部分",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX",
+      "predicate": "关联",
+      "object": "Live Link",
+      "context": "ICVFX通常与Live Link技术结合使用以实现实时数据同步",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "ICVFX",
+      "predicate": "关联",
+      "object": "nDisplay",
+      "context": "nDisplay技术可用于ICVFX的多屏幕显示需求",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "ICVFX",
+      "predicate": "关联",
+      "object": "多用户编辑",
+      "context": "ICVFX项目常需要多用户协作编辑",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T19:34:30.504Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5774,
+    "contentLength": 4690,
+    "processingTimeMs": 45088
+  }
+}

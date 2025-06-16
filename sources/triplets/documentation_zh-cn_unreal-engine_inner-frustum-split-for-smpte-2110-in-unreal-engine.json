@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_inner-frustum-split-for-smpte-2110-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_inner-frustum-split-for-smpte-2110-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "SMPTE 2110",
+      "predicate": "支持",
+      "object": "内视锥体分割",
+      "context": "SMPTE 2110标准允许nDisplay渲染节点专门渲染内视锥体，这是实现高质量内视锥体渲染的基础",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay",
+      "predicate": "实现",
+      "object": "内视锥体分割",
+      "context": "nDisplay系统通过配置多个节点和GPU来专门渲染内视锥体，是实现内视锥体分割的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX摄像机",
+      "predicate": "用于",
+      "object": "内视锥体分割",
+      "context": "ICVFX摄像机组件是配置内视锥体分割的主要对象，通过其细节面板可以设置内视锥体类型和图块布局",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内视锥体分割",
+      "predicate": "依赖",
+      "object": "图块分割布局",
+      "context": "内视锥体的分割需要明确指定水平和垂直方向的图块数量，这是实现分割的基础配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图块过扫描",
+      "predicate": "优化",
+      "object": "图块混合",
+      "context": "通过设置过扫描值可以优化图块之间的混合效果，提升最终渲染质量",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "NVIDIA Rivermax",
+      "predicate": "用于",
+      "object": "SMPTE 2110流送",
+      "context": "NVIDIA Rivermax输出是实现SMPTE 2110标准流送的关键组件，负责将渲染结果通过网络传输",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体图块配置向导",
+      "predicate": "简化",
+      "object": "内视锥体分割配置",
+      "context": "媒体图块配置向导提供自动化流程来配置图块分割，大大降低了手动配置的复杂度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多进程渲染",
+      "predicate": "扩展",
+      "object": "内视锥体分割",
+      "context": "多进程渲染可以与内视锥体分割结合，为各个视口和图块投入更多资源，提升系统扩展性",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "GPU Direct",
+      "predicate": "支持",
+      "object": "高性能流送",
+      "context": "通过设置帧锁定模式和对齐模式，GPU Direct可以实现高性能的媒体流送",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "媒体输出群组",
+      "predicate": "映射",
+      "object": "渲染节点",
+      "context": "媒体输出群组需要与实际的渲染节点建立映射关系，确保每个图块由正确的节点渲染",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体输入群组",
+      "predicate": "接收",
+      "object": "内视锥体图块",
+      "context": "媒体输入群组配置哪些节点将接收渲染完成的内视锥体图块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "无头渲染",
+      "predicate": "用于",
+      "object": "内视锥体专用节点",
+      "context": "专门渲染内视锥体的节点可以启用无头渲染设置，避免不必要的视口渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享内存",
+      "predicate": "替代",
+      "object": "网络流送",
+      "context": "在同一主机内的进程间可以使用共享内存代替网络流送，提高数据传输效率",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:35:53.044Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11984,
+    "contentLength": 7536,
+    "processingTimeMs": 55473
+  }
+}

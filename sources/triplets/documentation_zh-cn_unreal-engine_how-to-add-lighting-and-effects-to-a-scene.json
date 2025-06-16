@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-add-lighting-and-effects-to-a-scene",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-add-lighting-and-effects-to-a-scene.md",
+  "triples": [
+    {
+      "subject": "Sequencer",
+      "predicate": "用于",
+      "object": "动画制作",
+      "context": "Sequencer是Unreal Engine中用于创建和编辑动画的工具，学习者可以通过它理解动画制作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Directional Light",
+      "predicate": "影响",
+      "object": "场景氛围",
+      "context": "方向光(Directional Light)的设置会直接影响场景的整体光照和颜色表现，这是学习光照系统的基础概念",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Post Process Volume",
+      "predicate": "控制",
+      "object": "场景视觉效果",
+      "context": "后处理体积(Post Process Volume)可以全局或局部地控制场景的色彩、色调映射等视觉效果，是学习场景美化的关键组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Cine Camera Actor",
+      "predicate": "包含",
+      "object": "Post Process设置",
+      "context": "电影摄影机(Cine Camera Actor)内置后处理设置，学习者可以理解如何为特定镜头创建独特的视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Content Browser",
+      "predicate": "存储",
+      "object": "项目资产",
+      "context": "内容浏览器(Content Browser)是管理项目中所有资产(如材质、模型等)的核心工具，对学习资源管理很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Details Panel",
+      "predicate": "显示",
+      "object": "Actor属性",
+      "context": "细节面板(Details Panel)显示选中Actor的所有可编辑属性，是学习对象属性调整的主要界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Exponential Height Fog",
+      "predicate": "创建",
+      "object": "体积雾效果",
+      "context": "指数高度雾(Exponential Height Fog)可以创建具有高度衰减特性的雾效，是学习环境效果的重要组件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Starter Content",
+      "predicate": "包含",
+      "object": "基础学习资源",
+      "context": "初学者内容包(Starter Content)提供了各种基础资源，帮助学习者快速开始场景构建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Volumetric Clouds",
+      "predicate": "依赖",
+      "object": "Sky and Atmosphere系统",
+      "context": "体积云(Volumetric Clouds)的效果依赖于天空和大气系统(Sky and Atmosphere)的设置，学习者需要理解这些组件的相互关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Light Shafts",
+      "predicate": "受控于",
+      "object": "Directional Light设置",
+      "context": "光线效果(Light Shafts)如光晕和遮挡可以通过方向光的属性进行控制，这是学习高级光照技术的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Movie Render Pipeline",
+      "predicate": "用于",
+      "object": "最终渲染输出",
+      "context": "电影渲染管线(Movie Render Pipeline)是将场景和动画输出为最终图像或视频的工具，是学习渲染流程的最后一步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Real-Time Editor",
+      "predicate": "支持",
+      "object": "即时视觉反馈",
+      "context": "虚幻引擎的实时编辑器特性允许学习者立即看到修改效果，这对理解参数调整的影响至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Control Rig",
+      "predicate": "用于",
+      "object": "道具动画",
+      "context": "控制绑定(Control Rig)系统用于创建道具动画，是学习角色和物体动画的基础",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Post Process Materials",
+      "predicate": "扩展",
+      "object": "视觉效果可能性",
+      "context": "后处理材质(Post Process Materials)可以创建自定义视觉效果，扩展了引擎的视觉表现能力",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Outliner",
+      "predicate": "组织",
+      "object": "场景Actor",
+      "context": "大纲视图(Outliner)帮助组织和管理场景中的所有Actor，是学习场景结构的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:22:34.582Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (24503 字符)",
+      "timestamp": "2025-06-15T19:21:32.855Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 24822,
+    "contentLength": 24503,
+    "processingTimeMs": 61739
+  }
+}

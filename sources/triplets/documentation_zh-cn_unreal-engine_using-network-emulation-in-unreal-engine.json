@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-network-emulation-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-network-emulation-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "网络模拟",
+      "predicate": "用于",
+      "object": "多人游戏测试",
+      "context": "网络模拟功能主要用于模拟多人游戏中的网络延迟和数据包丢失，帮助开发者测试游戏在网络环境不佳时的表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络模拟",
+      "predicate": "包含",
+      "object": "PktLag",
+      "context": "PktLag是网络模拟中的一个设置参数，用于控制数据包的延迟时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络模拟",
+      "predicate": "包含",
+      "object": "PktLoss",
+      "context": "PktLoss是网络模拟中的一个设置参数，用于模拟数据包丢失的百分比",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络模拟",
+      "predicate": "包含",
+      "object": "PktDup",
+      "context": "PktDup是网络模拟中的一个设置参数，用于控制发送重复数据包的百分比",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络模拟",
+      "predicate": "包含",
+      "object": "PktOrder",
+      "context": "PktOrder是网络模拟中的一个设置参数，用于控制是否以乱序发送数据包",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络模拟",
+      "predicate": "包含",
+      "object": "PktLagVariance",
+      "context": "PktLagVariance是网络模拟中的一个设置参数，用于为数据包的延迟时间提供随机性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络模拟",
+      "predicate": "配置方式",
+      "object": "命令行",
+      "context": "网络模拟可以通过命令行参数进行配置，例如设置PktLag=100",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络模拟",
+      "predicate": "配置方式",
+      "object": "控制台",
+      "context": "网络模拟可以在控制台中使用Net命令进行配置，例如Net PktLoss=10",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络模拟",
+      "predicate": "配置方式",
+      "object": "DefaultEngine.ini",
+      "context": "网络模拟可以通过修改DefaultEngine.ini文件中的PacketSimulationSettings部分进行配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多人游戏测试",
+      "predicate": "需要",
+      "object": "网络模拟",
+      "context": "为了全面测试多人游戏在不同网络条件下的表现，需要使用网络模拟功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "包含",
+      "object": "多人游戏选项",
+      "context": "网络模拟的启用选项位于项目设置中的多人游戏选项部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多人游戏选项",
+      "predicate": "包含",
+      "object": "启用网络模拟",
+      "context": "在多人游戏选项中可以找到启用网络模拟的设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PktLag",
+      "predicate": "影响",
+      "object": "网络延迟",
+      "context": "PktLag参数直接影响模拟的网络延迟时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PktLoss",
+      "predicate": "影响",
+      "object": "数据包丢失率",
+      "context": "PktLoss参数直接影响模拟的数据包丢失百分比",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PktDup",
+      "predicate": "影响",
+      "object": "数据包重复率",
+      "context": "PktDup参数直接影响模拟的数据包重复发送百分比",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PktOrder",
+      "predicate": "影响",
+      "object": "数据包顺序",
+      "context": "PktOrder参数控制是否模拟数据包乱序传输的情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PktLagVariance",
+      "predicate": "影响",
+      "object": "延迟随机性",
+      "context": "PktLagVariance参数为数据包延迟时间添加随机变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络模拟",
+      "predicate": "有助于",
+      "object": "漏洞发现",
+      "context": "使用网络模拟可以在开发早期发现网络相关的问题和漏洞",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "网络模拟",
+      "predicate": "有助于",
+      "object": "性能优化",
+      "context": "通过模拟恶劣网络条件，可以推动网络性能的优化工作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:21:45.191Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4095,
+    "contentLength": 2523,
+    "processingTimeMs": 50423
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_morph-target-previewer",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_morph-target-previewer.md",
+  "triples": [
+    {
+      "subject": "变形目标预览器",
+      "predicate": "用于",
+      "object": "预览变形目标",
+      "context": "变形目标预览器的主要功能是预览应用到骨架网格体的变形目标，帮助开发者直观地观察变形效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形目标",
+      "predicate": "应用于",
+      "object": "骨架网格体",
+      "context": "变形目标通过附加混合到骨架网格体的几何体中，实现顶点驱动的动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形目标",
+      "predicate": "组合",
+      "object": "复杂顶点驱动动画",
+      "context": "多个变形目标可以组合使用，创建复杂的顶点驱动动画，特别适合处理面部表情等精细动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形目标预览器",
+      "predicate": "包含",
+      "object": "搜索栏",
+      "context": "变形目标预览器界面包含搜索栏，用于快速过滤和查找变形目标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形目标预览器",
+      "predicate": "包含",
+      "object": "变形目标列表",
+      "context": "变形目标预览器界面包含变形目标列表，显示所有可用的变形目标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形目标",
+      "predicate": "导入格式",
+      "object": "FBX",
+      "context": "变形目标可以作为骨架网格体的一部分或独立导入，导入文件格式为FBX",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形目标",
+      "predicate": "使用",
+      "object": "动画蓝图",
+      "context": "变形目标需要通过动画蓝图中的Set Morph Target节点进行设置和利用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Set Morph Target节点",
+      "predicate": "控制",
+      "object": "变形目标值",
+      "context": "Set Morph Target节点通过输入浮点值（0.0到1.0之间）来控制变形目标的效果强度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形目标调试视图模式",
+      "predicate": "用于",
+      "object": "查看受影响顶点",
+      "context": "变形目标调试视图模式可以帮助开发者直观地查看哪些顶点受到每个变形目标的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU计算",
+      "predicate": "优化",
+      "object": "变形目标性能",
+      "context": "启用GPU计算可以优化变形目标的性能，特别是在CPU受限的情况下，将计算任务转移到GPU",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU计算",
+      "predicate": "启用位置",
+      "object": "项目设置",
+      "context": "GPU计算功能可以在项目设置的Rendering部分中的Optimizations类目中启用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形目标预览器",
+      "predicate": "默认显示于",
+      "object": "动画编辑器",
+      "context": "打开动画编辑器后，变形目标预览器窗口会默认显示，方便开发者进行变形目标的预览和调整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:58:32.793Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5053,
+    "contentLength": 3593,
+    "processingTimeMs": 41291
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_retessellating-cad-geometry-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_retessellating-cad-geometry-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Datasmith导入器",
+      "predicate": "支持",
+      "object": "CAD文件导入",
+      "context": "Datasmith导入器是处理CAD文件导入的核心工具，学习者需要理解其功能才能有效导入CAD几何体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "二次曲面细分",
+      "predicate": "应用于",
+      "object": "静态网格体资源",
+      "context": "二次曲面细分操作直接作用于静态网格体资源，这是提高CAD几何体质量的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "二次曲面细分",
+      "predicate": "替代方案",
+      "object": "重新导入",
+      "context": "二次曲面细分和重新导入都是更新CAD几何体的方法，但前者更快且不需要原始文件，学习者需要理解两者的适用场景",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "曲面细分质量设置",
+      "predicate": "控制",
+      "object": "三角形网格体保真度",
+      "context": "曲面细分质量设置直接影响生成的三角形网格体与原始参数表面的匹配程度，是平衡性能和质量的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NURBS表面",
+      "predicate": "分类为",
+      "object": "无损/已修改/已删除",
+      "context": "理解NURBS表面的三种状态有助于学习者正确设置二次曲面细分规则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "二次曲面细分规则",
+      "predicate": "包含",
+      "object": "全部/跳过删除的表面",
+      "context": "二次曲面细分规则选项决定了哪些表面会被处理，这是精细化控制曲面细分的关键知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith场景",
+      "predicate": "包含",
+      "object": "静态网格体资源",
+      "context": "理解Datasmith场景与静态网格体资源的包含关系是组织CAD导入内容的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "替代方案",
+      "object": "二次曲面细分",
+      "context": "当无法进行二次曲面细分时，代理几何体工具是简化几何体的替代方案，学习者需要了解不同工具的适用场景",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "细节层级",
+      "predicate": "关联",
+      "object": "视觉质量",
+      "context": "细节层级(LOD)与视觉质量直接相关，这是优化CAD模型性能时需要权衡的重要因素",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "参数曲线定义表面",
+      "predicate": "转换为",
+      "object": "三角形网格体",
+      "context": "理解CAD文件中参数曲线表面到三角形网格体的转换过程是掌握曲面细分的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "用于",
+      "object": "选择静态网格体资源",
+      "context": "内容浏览器是执行二次曲面细分操作时选择目标资源的界面，学习者需要熟悉其使用方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导入速度",
+      "predicate": "权衡",
+      "object": "模型复杂性",
+      "context": "在CAD导入过程中需要在导入速度与模型复杂性之间做出权衡，这是项目优化的重要考量",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:38:33.028Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6089,
+    "contentLength": 3501,
+    "processingTimeMs": 49441
+  }
+}

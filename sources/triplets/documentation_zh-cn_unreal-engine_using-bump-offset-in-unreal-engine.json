@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-bump-offset-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-bump-offset-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "凹凸贴图偏移",
+      "predicate": "是",
+      "object": "视差贴图",
+      "context": "文档明确指出凹凸贴图偏移是虚幻引擎术语，对应通常所说的视差贴图，帮助学习者理解概念对应关系",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "凹凸贴图偏移",
+      "predicate": "使用",
+      "object": "高度贴图",
+      "context": "凹凸贴图偏移依赖灰阶高度贴图提供深度信息，这是实现其效果的核心资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高度贴图",
+      "predicate": "控制",
+      "object": "凸出效果",
+      "context": "高度贴图中较亮的值会产生更明显的凸出效果，这是理解贴图与视觉效果关系的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "凹凸贴图偏移",
+      "predicate": "修改",
+      "object": "UV坐标",
+      "context": "这是凹凸贴图偏移的核心技术原理，通过UV坐标修改实现深度错觉",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "凹凸贴图偏移",
+      "predicate": "替代",
+      "object": "额外几何体",
+      "context": "文档强调该技术可以在不增加几何体的情况下实现深度效果，这是其核心价值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高级凹凸贴图偏移",
+      "predicate": "扩展",
+      "object": "凹凸贴图偏移",
+      "context": "高级版本提供更多输入输出控制，但核心功能相同，这是技术演进关系",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "凹凸贴图偏移",
+      "predicate": "需要",
+      "object": "材质编辑器",
+      "context": "实现该效果必须通过材质编辑器进行操作，这是必备工具认知",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "凹凸贴图偏移",
+      "predicate": "连接",
+      "object": "纹理样本UV输入",
+      "context": "这是实现效果的关键操作步骤，必须将节点连接到纹理的UV输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高度比参数",
+      "predicate": "控制",
+      "object": "视差强度",
+      "context": "调整高度比可以防止UV漂浮现象，这是重要的参数调节知识",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "凹凸贴图偏移",
+      "predicate": "适用于",
+      "object": "静态深度效果",
+      "context": "文档指出在摄像机平行表面等情况下可能失效，这是重要的技术限制认知",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "凹凸贴图偏移",
+      "predicate": "常配合",
+      "object": "法线贴图",
+      "context": "教程示例中同时使用法线贴图输入，这是常见的组合使用方案",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "起步内容",
+      "predicate": "包含",
+      "object": "示例纹理",
+      "context": "教程使用起步内容中的纹理资源，说明这是快速获取示例资源的途径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质编辑器",
+      "predicate": "支持",
+      "object": "快捷键操作",
+      "context": "B键快速添加凹凸贴图偏移节点，这是提高工作效率的重要技巧",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T21:14:06.294Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9717,
+    "contentLength": 5989,
+    "processingTimeMs": 37106
+  }
+}

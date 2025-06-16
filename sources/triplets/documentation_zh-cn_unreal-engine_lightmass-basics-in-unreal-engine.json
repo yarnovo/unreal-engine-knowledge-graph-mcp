@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_lightmass-basics-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_lightmass-basics-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "全局光照（Lightmass）",
+      "predicate": "用于",
+      "object": "预计算光源的光照贡献",
+      "context": "Lightmass主要用于预计算固定和静态运动性光源的光照贡献，帮助学习者理解其核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全局光照（Lightmass）",
+      "predicate": "创建",
+      "object": "复杂光交互作用的光照图",
+      "context": "Lightmass能够创建包含区域阴影和漫反射等复杂光交互作用的光照图，这是其核心功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全局光照重要体积",
+      "predicate": "控制",
+      "object": "光子发射区域",
+      "context": "全局光照重要体积用于控制光子发射的区域，帮助学习者理解如何优化光照构建过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全局光照重要体积",
+      "predicate": "影响",
+      "object": "光照构建时间",
+      "context": "通过限制光子发射区域，全局光照重要体积可以显著减少光照构建时间，这对性能优化很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "全局光照重要体积",
+      "predicate": "添加方式",
+      "object": "放置Actor菜单",
+      "context": "学习者需要知道如何通过放置Actor菜单添加全局光照重要体积，这是实际操作中的重要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全局光照重要体积",
+      "predicate": "添加方式",
+      "object": "转换Actor",
+      "context": "另一种添加全局光照重要体积的方法是通过转换现有Actor，这提供了工作流程灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "构建光照",
+      "predicate": "包含选项",
+      "object": "仅构建光照",
+      "context": "学习者需要了解构建光照的具体选项，这是光照工作流程的关键部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "构建光照",
+      "predicate": "包含选项",
+      "object": "构建所有关卡",
+      "context": "构建所有关卡是另一种构建选项，学习者需要了解不同构建选项的区别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "画质模式",
+      "predicate": "包含",
+      "object": "产品级",
+      "context": "画质模式包含多个预设，产品级提供最高质量的光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "画质模式",
+      "predicate": "包含",
+      "object": "高级",
+      "context": "高级画质模式在质量和时间之间提供平衡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "画质模式",
+      "predicate": "包含",
+      "object": "中级",
+      "context": "中级画质模式提供适中的质量和构建时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "画质模式",
+      "predicate": "包含",
+      "object": "预览级",
+      "context": "预览级画质模式提供快速但较低质量的光照预览",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "画质模式",
+      "predicate": "影响",
+      "object": "光照构建时间",
+      "context": "不同画质模式直接影响光照构建所需时间，这是学习者需要权衡的重要因素",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "画质模式",
+      "predicate": "影响",
+      "object": "光照质量",
+      "context": "画质模式选择直接影响最终光照效果的质量，帮助学习者理解质量与时间的权衡",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "全局光照（Lightmass）",
+      "predicate": "依赖",
+      "object": "全局光照重要体积",
+      "context": "Lightmass的光照计算效果依赖于全局光照重要体积的设置，这是优化工作流程的关键",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "全局光照（Lightmass）",
+      "predicate": "受控于",
+      "object": "画质模式",
+      "context": "Lightmass的最终输出质量受所选画质模式的控制，这是学习者需要理解的重要关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:45:34.639Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5880,
+    "contentLength": 4092,
+    "processingTimeMs": 54986
+  }
+}

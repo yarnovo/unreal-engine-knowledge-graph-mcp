@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_cinematic-tags-and-groups-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_cinematic-tags-and-groups-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Sequencer",
+      "predicate": "支持",
+      "object": "标签",
+      "context": "Sequencer允许使用标签作为元数据标记轨道，这是其核心功能之一",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "支持",
+      "object": "分组",
+      "context": "Sequencer提供分组功能来管理轨道的显示和选择",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "标签",
+      "predicate": "应用于",
+      "object": "Object绑定轨道",
+      "context": "标签可以指定给Object绑定轨道，这是标签的主要应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "标签",
+      "predicate": "可被引用",
+      "object": "蓝图",
+      "context": "标签可以在蓝图中通过特定节点引用，这是标签的重要功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绑定标签管理器",
+      "predicate": "用于管理",
+      "object": "标签",
+      "context": "绑定标签管理器是专门用于查看和管理Sequencer中标签的工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分组",
+      "predicate": "用于组织",
+      "object": "轨道",
+      "context": "分组的主要目的是帮助组织和管理Sequencer中的轨道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer分组管理器",
+      "predicate": "用于管理",
+      "object": "分组",
+      "context": "分组管理器是专门用于管理Sequencer中分组的工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "包含",
+      "object": "By Tag绑定函数",
+      "context": "蓝图提供By Tag绑定函数来操作带标签的Actor绑定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Object绑定轨道",
+      "predicate": "属于",
+      "object": "Sequencer",
+      "context": "Object绑定轨道是Sequencer中的一种轨道类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "依赖",
+      "object": "蓝图可视化脚本",
+      "context": "使用Sequencer的标签功能需要了解蓝图可视化脚本知识",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "分组",
+      "predicate": "支持",
+      "object": "筛选功能",
+      "context": "分组可以用于筛选Sequencer大纲视图中的轨道",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "标签",
+      "predicate": "支持",
+      "object": "多标签指定",
+      "context": "一个Actor可以指定多个标签，这是标签系统的特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分组",
+      "predicate": "支持",
+      "object": "拖放添加",
+      "context": "可以通过拖放方式将轨道添加到分组中",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "By Tag绑定函数",
+      "predicate": "包含",
+      "object": "绑定标签参数",
+      "context": "By Tag绑定函数需要指定绑定标签作为输入参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "包含",
+      "object": "操作菜单",
+      "context": "操作菜单是Sequencer界面的一部分，用于访问标签和分组管理器",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:23:08.045Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8881,
+    "contentLength": 6559,
+    "processingTimeMs": 50275
+  }
+}

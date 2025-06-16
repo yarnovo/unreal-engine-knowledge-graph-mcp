@@ -1,0 +1,187 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_setting-up-a-character-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_setting-up-a-character-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "角色设置",
+      "predicate": "包含",
+      "object": "美术资产创建",
+      "context": "角色设置的第一步是创建美术资产，包括骨架网格体和动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色设置",
+      "predicate": "包含",
+      "object": "玩家控制器创建",
+      "context": "玩家控制器用于处理玩家输入并驱动角色事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色设置",
+      "predicate": "包含",
+      "object": "角色蓝图创建",
+      "context": "角色蓝图用于解析输入并控制角色的实际移动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色设置",
+      "predicate": "包含",
+      "object": "动画蓝图创建",
+      "context": "动画蓝图用于将角色移动数据转换为骨架动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色设置",
+      "predicate": "包含",
+      "object": "游戏模式设置",
+      "context": "游戏模式定义了游戏的基本类，包括玩家控制器和角色类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家控制器",
+      "predicate": "解析",
+      "object": "玩家输入",
+      "context": "玩家控制器的主要目的是将玩家输入解析为可以驱动角色的事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色类",
+      "predicate": "扩展",
+      "object": "Pawn类",
+      "context": "角色类是Pawn类的扩展，添加了玩家物理和对特定网格体的支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色类",
+      "predicate": "包含",
+      "object": "骨架网格体",
+      "context": "角色类包含一个骨架网格体的引用，这是玩家在游戏中看到的内容的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色类",
+      "predicate": "控制",
+      "object": "角色移动",
+      "context": "角色类负责接收玩家控制器的事件并使用它们来控制角色的移动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "使用",
+      "object": "角色移动数据",
+      "context": "动画蓝图使用角色类中的移动数据来驱动状态机、混合空间和其他动画资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "生成",
+      "object": "骨架动画",
+      "context": "动画蓝图将最终结果应用到骨架网格体，生成游戏中的角色动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏模式",
+      "predicate": "指定",
+      "object": "玩家控制器类",
+      "context": "游戏模式定义了游戏中使用的玩家控制器类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏模式",
+      "predicate": "指定",
+      "object": "角色类",
+      "context": "游戏模式定义了游戏中使用的角色类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界场景设置",
+      "predicate": "使用",
+      "object": "游戏模式",
+      "context": "世界场景设置用于确保当前关卡使用自定义的游戏模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体",
+      "predicate": "导入",
+      "object": "FBX文件",
+      "context": "骨架网格体通过FBX文件导入到虚幻引擎中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画序列",
+      "predicate": "来自",
+      "object": "FBX文件",
+      "context": "动画序列数据来自FBX文件中的骨架动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "使用",
+      "object": "动画序列",
+      "context": "动画蓝图使用动画序列来动画化角色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色蓝图",
+      "predicate": "分配",
+      "object": "动画蓝图",
+      "context": "角色蓝图需要将动画蓝图分配给网格体组件的动画蓝图生成的类属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第一人称模板",
+      "predicate": "包含",
+      "object": "角色蓝图",
+      "context": "第一人称模板项目包含角色蓝图的示例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第三人称模板",
+      "predicate": "包含",
+      "object": "角色蓝图",
+      "context": "第三人称模板项目包含角色蓝图的示例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容示例",
+      "predicate": "展示",
+      "object": "动画蓝图",
+      "context": "内容示例项目展示了动画蓝图在角色上的各种应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:43:24.266Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10015 字符)",
+      "timestamp": "2025-06-15T20:42:28.158Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17751,
+    "contentLength": 10015,
+    "processingTimeMs": 56119
+  }
+}

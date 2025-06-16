@@ -1,0 +1,227 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_chaos-modular-vehicles-quickstart",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_chaos-modular-vehicles-quickstart.md",
+  "triples": [
+    {
+      "subject": "Chaos Modular Vehicle Plugin",
+      "predicate": "包含",
+      "object": "Geometry Collection Assets",
+      "context": "用于构建模块化车辆的部件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos Modular Vehicle Plugin",
+      "predicate": "包含",
+      "object": "Vehicle Blueprint",
+      "context": "用于定义和控制模块化车辆的行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Geometry Collection Assets",
+      "predicate": "生成自",
+      "object": "Static Meshes",
+      "context": "通过破坏工具将静态网格体转换为几何体集合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Vehicle Blueprint",
+      "predicate": "基于",
+      "object": "ModularVehicleClusterPawn",
+      "context": "作为模块化车辆的父类蓝图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Vehicle Blueprint",
+      "predicate": "包含",
+      "object": "Vehicle Simulation Component",
+      "context": "负责模块化车辆的物理模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Vehicle Blueprint",
+      "predicate": "包含",
+      "object": "Network Physics Component",
+      "context": "用于网络同步和物理预测",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Vehicle Simulation Component",
+      "predicate": "控制",
+      "object": "Simulation Modules",
+      "context": "管理车辆各部件的物理模拟行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Simulation Modules",
+      "predicate": "包括",
+      "object": "Wheel",
+      "context": "用于模拟车辆的轮胎行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Simulation Modules",
+      "predicate": "包括",
+      "object": "Suspension",
+      "context": "用于模拟车辆的悬挂系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Simulation Modules",
+      "predicate": "包括",
+      "object": "Engine",
+      "context": "用于模拟车辆的引擎行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Simulation Modules",
+      "predicate": "包括",
+      "object": "Transmission",
+      "context": "用于模拟车辆的变速器行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Simulation Modules",
+      "predicate": "包括",
+      "object": "Clutch",
+      "context": "用于模拟车辆的离合器行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Simulation Modules",
+      "predicate": "包括",
+      "object": "Thruster",
+      "context": "用于模拟推进器行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Simulation Modules",
+      "predicate": "包括",
+      "object": "Aerofoil",
+      "context": "用于模拟空气动力学表面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Engine",
+      "predicate": "连接",
+      "object": "Clutch",
+      "context": "引擎通过离合器传递扭矩",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Clutch",
+      "predicate": "连接",
+      "object": "Transmission",
+      "context": "离合器将扭矩传递到变速器",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Transmission",
+      "predicate": "连接",
+      "object": "Wheel",
+      "context": "变速器将动力传递到车轮",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Wheel",
+      "predicate": "依赖",
+      "object": "Suspension",
+      "context": "车轮需要悬挂系统来模拟地面接触和悬挂效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Vehicle Inputs",
+      "predicate": "控制",
+      "object": "Simulation Modules",
+      "context": "输入动作（如油门、刹车）控制模拟模块的行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ModularVehicleAnimationInstance",
+      "predicate": "驱动",
+      "object": "Skeletal Mesh",
+      "context": "动画蓝图用于驱动骨骼网格体的动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ModularVehicleGameMode",
+      "predicate": "指定",
+      "object": "Default Pawn Class",
+      "context": "游戏模式指定默认的车辆蓝图作为玩家控制的角色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Physics Prediction",
+      "predicate": "启用",
+      "object": "Network Physics Component",
+      "context": "物理预测设置优化网络同步和物理模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Physics History Capture",
+      "predicate": "启用",
+      "object": "Network Physics Component",
+      "context": "物理历史捕获设置优化网络同步和物理模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Traditional Automobile",
+      "predicate": "包含",
+      "object": "Engine, Clutch, Transmission, Wheel, Suspension",
+      "context": "传统汽车由引擎、离合器、变速器、车轮和悬挂系统组成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Aircraft",
+      "predicate": "包含",
+      "object": "Thruster, Aerofoil, Wheel, Suspension",
+      "context": "飞机由推进器、空气动力学表面、车轮和悬挂系统组成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Hovercraft",
+      "predicate": "包含",
+      "object": "Suspension, Thruster, Aerofoil",
+      "context": "气垫船由悬挂系统、推进器和空气动力学表面组成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:22:04.416Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (26340 字符)",
+      "timestamp": "2025-06-15T18:20:47.148Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 26446,
+    "contentLength": 26340,
+    "processingTimeMs": 77272
+  }
+}

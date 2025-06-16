@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_physics-damping-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_physics-damping-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "物理形体",
+      "predicate": "包含",
+      "object": "线速度阻尼",
+      "context": "物理形体具有线速度阻尼属性，用于控制抵抗平移的程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理形体",
+      "predicate": "包含",
+      "object": "角速度阻尼",
+      "context": "物理形体具有角速度阻尼属性，用于控制抵抗旋转的程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理约束",
+      "predicate": "包含",
+      "object": "线速度阻尼",
+      "context": "物理约束具有线速度阻尼属性，用于在运动超过限制时抵抗平移",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理约束",
+      "predicate": "包含",
+      "object": "角速度阻尼",
+      "context": "物理约束具有角速度阻尼属性，用于在运动超过限制时抵抗旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理约束",
+      "predicate": "包含",
+      "object": "限制刚度",
+      "context": "物理约束具有限制刚度属性，影响约束尝试停止不良运动的积极性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理约束",
+      "predicate": "包含",
+      "object": "限制阻尼",
+      "context": "物理约束具有限制阻尼属性，用于吸收动量直到物理形体停止运动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "线速度阻尼",
+      "predicate": "用于",
+      "object": "模拟阻力",
+      "context": "线速度阻尼主要用于模拟阻力，即使值为1.0时也将对物理形体产生实质效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角速度阻尼",
+      "predicate": "用于",
+      "object": "模拟阻力",
+      "context": "角速度阻尼主要用于模拟阻力，很小的值便可迅速降低旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "限制刚度",
+      "predicate": "影响",
+      "object": "运动",
+      "context": "限制刚度影响约束尝试停止不良运动的积极性，值越高运动越容易被停止",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "限制阻尼",
+      "predicate": "影响",
+      "object": "运动",
+      "context": "限制阻尼定义运动减缓的量，吸收动量直到物理形体停止运动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理约束",
+      "predicate": "参考",
+      "object": "物理约束参考",
+      "context": "物理约束的详细属性可以参考物理约束参考文档",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理约束",
+      "predicate": "参考",
+      "object": "关于约束的用户指南",
+      "context": "物理约束的更多相关信息可以参考关于约束的用户指南",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理形体",
+      "predicate": "相互作用",
+      "object": "物理约束",
+      "context": "多个物理形体可以通过物理约束相互作用，影响所需的阻尼量",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "限制刚度",
+      "predicate": "共同作用",
+      "object": "限制阻尼",
+      "context": "限制刚度和限制阻尼共同创造出不同效果，如刚度较高而阻尼较低呈现硬性限制效果，两者较高则呈现柔和停止效果",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:22:50.333Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4234,
+    "contentLength": 2530,
+    "processingTimeMs": 41440
+  }
+}

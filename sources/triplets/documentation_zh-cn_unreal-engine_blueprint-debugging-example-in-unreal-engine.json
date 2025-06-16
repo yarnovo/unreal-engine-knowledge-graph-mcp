@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_blueprint-debugging-example-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_blueprint-debugging-example-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "蓝图调试",
+      "predicate": "支持",
+      "object": "PIE模式",
+      "context": "蓝图调试功能在PIE模式下可用，帮助开发者在编辑器中调试游戏逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图调试",
+      "predicate": "支持",
+      "object": "SIE模式",
+      "context": "蓝图调试功能在SIE模式下同样可用，适用于模拟环境调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图调试",
+      "predicate": "使用",
+      "object": "断点",
+      "context": "断点是蓝图调试的核心工具，用于暂停游戏执行并检查状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图调试器",
+      "predicate": "控制",
+      "object": "游戏执行",
+      "context": "蓝图调试器在PIE/SIE会话期间控制游戏的执行流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试功能按钮",
+      "predicate": "属于",
+      "object": "蓝图调试器",
+      "context": "功能按钮是调试器的交互界面组件，用于执行调试操作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "断点",
+      "predicate": "暂停",
+      "object": "游戏执行",
+      "context": "断点命中时会暂停游戏执行，允许开发者检查变量和流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "断点",
+      "predicate": "显示在",
+      "object": "调试选项卡",
+      "context": "所有断点都集中显示在调试选项卡中便于管理",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "查看功能",
+      "predicate": "追踪",
+      "object": "节点引脚值",
+      "context": "查看功能用于实时监控特定节点引脚的值变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试窗口",
+      "predicate": "包含",
+      "object": "调用堆栈",
+      "context": "调用堆栈是调试窗口的核心组件，显示执行路径信息",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "调用堆栈",
+      "predicate": "揭示",
+      "object": "执行流程",
+      "context": "调用堆栈同时显示蓝图脚本和C++代码的执行路径关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "执行追踪",
+      "predicate": "显示",
+      "object": "节点执行顺序",
+      "context": "执行追踪堆栈按时间顺序记录已执行的节点，帮助理解逻辑流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图调试",
+      "predicate": "依赖",
+      "object": "蓝图编辑器",
+      "context": "调试功能需要蓝图编辑器作为运行环境",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "调试对象选择",
+      "predicate": "前置条件",
+      "object": "蓝图调试",
+      "context": "必须指定具体蓝图实例才能开始调试会话",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图查看窗口",
+      "predicate": "扩展",
+      "object": "查看功能",
+      "context": "查看窗口提供了更强大的数据查看和导航能力",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:13:55.457Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 12165,
+    "contentLength": 7201,
+    "processingTimeMs": 42460
+  }
+}

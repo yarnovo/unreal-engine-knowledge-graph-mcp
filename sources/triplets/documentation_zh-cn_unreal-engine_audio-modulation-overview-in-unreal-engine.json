@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_audio-modulation-overview-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_audio-modulation-overview-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "音频调制",
+      "predicate": "包含",
+      "object": "调制参数",
+      "context": "音频调制系统使用调制参数来定义值的显示、混合和转换方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频调制",
+      "predicate": "包含",
+      "object": "调制目标",
+      "context": "调制目标是音频调制系统中接收调制值的端点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频调制",
+      "predicate": "包含",
+      "object": "调制源",
+      "context": "调制源是生成调制值的资产类型，如控制总线、调制发生器等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频调制",
+      "predicate": "基于",
+      "object": "音频调制插件",
+      "context": "音频调制功能封装在音频调制插件中，并实现轻量级引擎端API",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调制目标",
+      "predicate": "引用",
+      "object": "调制源",
+      "context": "调制目标通过引用的调制源来获取调制值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调制源",
+      "predicate": "包含",
+      "object": "控制总线",
+      "context": "控制总线是调制源的一种类型，用于传递规格化浮点值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调制源",
+      "predicate": "包含",
+      "object": "调制发生器",
+      "context": "调制发生器是调制源的一种类型，可以随时间按程序生成值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调制源",
+      "predicate": "包含",
+      "object": "调制接线",
+      "context": "调制接线是调制源的一种类型，用于组合和重映射总线值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制总线",
+      "predicate": "驱动",
+      "object": "调制接线",
+      "context": "控制总线可以驱动调制接线，将值传递给目标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调制发生器",
+      "predicate": "驱动",
+      "object": "控制总线",
+      "context": "调制发生器可以通过算法驱动控制总线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调制发生器",
+      "predicate": "包含",
+      "object": "LFO",
+      "context": "LFO是调制发生器的一种类型，生成周期性波形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调制发生器",
+      "predicate": "包含",
+      "object": "包络跟踪器",
+      "context": "包络跟踪器是调制发生器的一种类型，根据音频输入振幅生成包络",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调制参数",
+      "predicate": "定义",
+      "object": "调制值转换",
+      "context": "调制参数定义了如何在单元空间和规格化空间之间转换值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制总线混音",
+      "predicate": "驱动",
+      "object": "控制总线",
+      "context": "控制总线混音用于动态驱动和分组控制总线值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调制接线",
+      "predicate": "组合",
+      "object": "总线值",
+      "context": "调制接线组合总线值并将它们串行混合到一个或多个目标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频调制",
+      "predicate": "提供",
+      "object": "蓝图API",
+      "context": "音频调制系统提供蓝图API用于手动控制调制器和混音",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LFO",
+      "predicate": "生成",
+      "object": "周期性波形",
+      "context": "LFO生成正弦波、方波等周期性波形作为调制信号",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "包络跟踪器",
+      "predicate": "生成",
+      "object": "音频包络",
+      "context": "包络跟踪器根据音频输入振幅生成平滑的包络信号",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调制目标",
+      "predicate": "应用于",
+      "object": "音频源",
+      "context": "调制目标可以应用于SoundWave、MetaSound等音频源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调制目标",
+      "predicate": "应用于",
+      "object": "音频效果",
+      "context": "调制目标可以应用于子混合效果和源效果预设",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:09:03.662Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (17226 字符)",
+      "timestamp": "2025-06-15T18:08:01.067Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 26854,
+    "contentLength": 17226,
+    "processingTimeMs": 62602
+  }
+}

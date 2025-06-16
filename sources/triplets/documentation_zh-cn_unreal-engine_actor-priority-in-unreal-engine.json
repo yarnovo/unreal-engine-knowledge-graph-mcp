@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_actor-priority-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_actor-priority-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Actor优先级",
+      "predicate": "用于",
+      "object": "网络复制负载均衡",
+      "context": "Actor优先级系统用于在网络带宽有限的情况下，合理分配带宽资源给不同的Actor，确保重要的Actor优先被复制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor",
+      "predicate": "包含属性",
+      "object": "NetPriority",
+      "context": "AActor类包含NetPriority属性，用于定义Actor在网络复制中的基础优先级",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "APawn",
+      "predicate": "继承自",
+      "object": "AActor",
+      "context": "APawn继承自AActor，因此也继承了NetPriority属性，但默认优先级更高(3.0)",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetNetPriority",
+      "predicate": "计算",
+      "object": "Actor当前优先级",
+      "context": "GetNetPriority函数根据多种因素计算Actor的当前网络优先级，包括基础NetPriority、距离和视线等因素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor优先级",
+      "predicate": "基于",
+      "object": "距离和视线因素",
+      "context": "Actor的最终优先级计算会考虑与观看者的距离、是否在视线内等因素，这些因素会影响最终的优先级乘数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "bNetUseOwnerRelevancy",
+      "predicate": "控制",
+      "object": "是否使用所有者优先级",
+      "context": "当bNetUseOwnerRelevancy为true时，Actor会使用其所有者的网络优先级而不是自己的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络复制系统",
+      "predicate": "调用",
+      "object": "GetNetPriority",
+      "context": "网络驱动程序在决定复制哪些Actor时会自动调用GetNetPriority函数来获取每个Actor的当前优先级",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "APlayerController",
+      "predicate": "具有",
+      "object": "高基础优先级(3.0)",
+      "context": "APlayerController类默认具有较高的基础优先级(3.0)，因为玩家控制器对游戏体验至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetReplayPriority",
+      "predicate": "类似于",
+      "object": "GetNetPriority",
+      "context": "GetReplayPriority函数与GetNetPriority类似，但专门用于重播录制时的优先级计算",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "NetworkingDistanceConstants.h",
+      "predicate": "定义",
+      "object": "距离阈值常量",
+      "context": "该头文件定义了用于优先级计算的各种距离阈值常量，如CLOSEPROXIMITY、NEARSIGHTTHRESHOLD等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor优先级系统",
+      "predicate": "解决",
+      "object": "网络带宽饱和问题",
+      "context": "当网络连接饱和时，Actor优先级系统通过优先级分配机制确保最重要的Actor能够获得足够的带宽",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重载GetNetPriority",
+      "predicate": "需要",
+      "object": "谨慎处理",
+      "context": "文档特别提醒开发者重载GetNetPriority时需要谨慎，因为不当的实现可能导致意外的网络行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pawn Actor",
+      "predicate": "自动获得",
+      "object": "优先级提升",
+      "context": "如果一个Actor是当前网络连接的Pawn，它会自动获得更高的网络优先级",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ViewTarget",
+      "predicate": "影响",
+      "object": "Actor优先级计算",
+      "context": "ViewTarget(通常是Pawn)作为观看者当前控制的Actor，会影响其他Actor的优先级计算",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T17:53:49.989Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7880,
+    "contentLength": 5318,
+    "processingTimeMs": 61145
+  }
+}

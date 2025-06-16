@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_what-happens-when-my-cinematic-ends-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_what-happens-when-my-cinematic-ends-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Sequencer",
+      "predicate": "支持",
+      "object": "When Finished 属性",
+      "context": "Sequencer 允许用户通过 When Finished 属性控制动画结束后 Actor 状态的保留或恢复，这对学习动画状态管理至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "When Finished 属性",
+      "predicate": "控制",
+      "object": "Actor 状态",
+      "context": "该属性决定动画结束后是否保留对 Actor 的修改（如门的状态或光照颜色），是学习动画持久化效果的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Keep State",
+      "predicate": "是",
+      "object": "When Finished 属性选项",
+      "context": "选择此选项会使动画修改在结束后保留（如门保持开启），与 Restore State 形成对比，帮助理解状态持久化机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Restore State",
+      "predicate": "是",
+      "object": "When Finished 属性默认选项",
+      "context": "默认情况下动画结束后恢复原始状态（如光照颜色还原），这对理解非破坏性动画工作流很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Level Sequence Actor",
+      "predicate": "包含",
+      "object": "全局 Restore State 选项",
+      "context": "该全局设置会覆盖轨道的本地 When Finished 设置，学习时需注意层级优先级关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头轨道(Shot Track)",
+      "predicate": "用于",
+      "object": "过场动画分段",
+      "context": "将长序列切分为独立镜头进行管理，是学习复杂动画编排的基础功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Transform 轨道",
+      "predicate": "记录",
+      "object": "Actor 变换数据",
+      "context": "通过该轨道可动画化物体的移动/旋转/缩放（如门的开启），是学习物体动画的基础组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Light Color 轨道",
+      "predicate": "控制",
+      "object": "光照颜色变化",
+      "context": "专门用于动画化光源颜色参数（如从白变绿），学习光照动画必须掌握此轨道类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Auto Play 选项",
+      "predicate": "启用",
+      "object": "序列自动播放",
+      "context": "设置后序列会在关卡启动时自动播放，对学习序列触发机制很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "依赖",
+      "object": "Level Sequence Actor",
+      "context": "序列动画需要通过 Level Sequence Actor 在关卡中实例化和控制，体现核心工作流程依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "When Finished 属性",
+      "predicate": "适用于",
+      "object": "所有动画轨道",
+      "context": "该属性可应用于 Transform、材质参数、光照等各类轨道，是跨模块的统一控制机制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Build Lighting Only",
+      "predicate": "前置条件",
+      "object": "光照动画预览",
+      "context": "修改光照颜色后必须重建光照才能正确预览效果，这是学习光照工作流的重要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T21:32:38.569Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8940,
+    "contentLength": 6510,
+    "processingTimeMs": 39299
+  }
+}

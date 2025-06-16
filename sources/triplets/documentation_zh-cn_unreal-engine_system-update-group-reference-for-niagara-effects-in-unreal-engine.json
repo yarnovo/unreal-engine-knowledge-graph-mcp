@@ -1,0 +1,157 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_system-update-group-reference-for-niagara-effects-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_system-update-group-reference-for-niagara-effects-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "系统更新模块",
+      "predicate": "包含",
+      "object": "系统状态模块",
+      "context": "系统状态模块是系统更新组中的一个重要组成部分，用于管理系统的执行状态和循环行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "系统状态模块",
+      "predicate": "控制",
+      "object": "System.ExecutionState",
+      "context": "系统状态模块通过System.ExecutionState参数影响系统状态，学习者需要理解这个参数如何控制系统行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "系统状态模块",
+      "predicate": "管理",
+      "object": "循环行为",
+      "context": "系统状态模块中的Loop Behavior参数决定了系统循环重复的方式，是理解系统生命周期的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "新建暂存区模块",
+      "predicate": "用于",
+      "object": "创建自定义模块",
+      "context": "暂存区模块允许开发者创建自定义模块和动态输入，扩展Niagara系统的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设置参数模块",
+      "predicate": "修改",
+      "object": "System.LocalSpace",
+      "context": "设置参数模块可以修改System.LocalSpace参数，决定粒子位置是基于世界空间还是本地空间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "System.NormalizedLoopAge",
+      "predicate": "基于",
+      "object": "System.LoopedAge",
+      "context": "NormalizedLoopAge是通过LoopedAge除以CurrentLoopDuration计算得出的，理解这个关系有助于掌握系统时间管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ENiagaraCoordinateSpace",
+      "predicate": "用于",
+      "object": "坐标空间定义",
+      "context": "这个枚举类型用于区分模拟、世界和本地坐标空间，是理解粒子位置计算的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子属性读取器",
+      "predicate": "替代",
+      "object": "事件系统",
+      "context": "粒子属性读取器有时比事件系统更易于使用，可以查询其他发射器的粒子数据",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Grid2D集合",
+      "predicate": "配合使用",
+      "object": "模拟阶段",
+      "context": "Grid2D集合数据接口需要与模拟阶段配合使用，用于处理2D数据数组",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara ID",
+      "predicate": "用于",
+      "object": "粒子追踪",
+      "context": "Niagara ID结构体用于唯一标识和追踪粒子，是粒子管理系统中的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "遮挡查询",
+      "predicate": "仅适用于",
+      "object": "GPU发射器",
+      "context": "遮挡查询数据接口只能与GPU发射器一起使用，这个限制对性能优化很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简单计数器",
+      "predicate": "仅适用于",
+      "object": "CPU发射器",
+      "context": "简单计数器数据接口只能与CPU发射器一起使用，这个限制对性能优化很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ENiagaraBooleanLogicOps",
+      "predicate": "用于",
+      "object": "逻辑测试",
+      "context": "这个枚举类型提供了各种布尔逻辑操作，是条件判断和流程控制的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "系统更新模块",
+      "predicate": "执行顺序",
+      "object": "堆栈顺序",
+      "context": "系统更新模块按照从堆栈顶部到底部的顺序执行，理解这个顺序对调试和优化很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "System.Age",
+      "predicate": "表示",
+      "object": "系统存在时间",
+      "context": "System.Age参数记录了系统的存在时间，是理解系统生命周期的基础概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频频谱",
+      "predicate": "基于",
+      "object": "频率响应",
+      "context": "音频频谱模块可以根据音频在特定频率下的响度来驱动可视化效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "矢量场",
+      "predicate": "用于",
+      "object": "矢量查询",
+      "context": "矢量场数据接口能够查询矢量场信息，用于复杂的粒子运动控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成信息",
+      "predicate": "定义",
+      "object": "粒子生成参数",
+      "context": "生成信息结构体定义了粒子生成的数量、时间间隔等关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:57:32.842Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 13260,
+    "contentLength": 7613,
+    "processingTimeMs": 53842
+  }
+}

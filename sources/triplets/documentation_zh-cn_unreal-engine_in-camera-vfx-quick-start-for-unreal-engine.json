@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_in-camera-vfx-quick-start-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_in-camera-vfx-quick-start-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "ICVFX",
+      "predicate": "依赖",
+      "object": "nDisplay",
+      "context": "ICVFX插件需要nDisplay技术来实现多屏渲染和同步群集",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX",
+      "predicate": "使用",
+      "object": "Live Link",
+      "context": "ICVFX通过Live Link整合实时摄像机追踪系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay",
+      "predicate": "支持",
+      "object": "多视锥体拍摄",
+      "context": "nDisplay配置资产中可以出现多个内视锥体，支持多视锥体拍摄",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay",
+      "predicate": "包含",
+      "object": "nDisplay根Actor",
+      "context": "nDisplay根Actor是nDisplay配置资产的实例，用于在关卡中管理nDisplay群集",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay根Actor",
+      "predicate": "控制",
+      "object": "LED面板几何体",
+      "context": "nDisplay根Actor通过静态网格体组件定义和管理LED面板的几何体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link",
+      "predicate": "支持",
+      "object": "XR设备",
+      "context": "Live Link可以从XR设备（如Vive Tracker）采集实时数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "用于",
+      "object": "启动nDisplay群集",
+      "context": "Switchboard是用于在多用户会话中启动nDisplay节点和其他虚拟制片设备实例的应用程序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多用户编辑",
+      "predicate": "同步",
+      "object": "nDisplay群集",
+      "context": "多用户编辑系统确保在nDisplay群集中的所有计算机上同步更改",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX",
+      "predicate": "支持",
+      "object": "色键标识",
+      "context": "ICVFX可以启用内视锥体的色键功能，用于绿幕合成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OpenColorIO",
+      "predicate": "用于",
+      "object": "颜色管理",
+      "context": "OpenColorIO插件提供颜色管理支持，可以逐视口配置颜色空间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制API",
+      "predicate": "提供",
+      "object": "场景控制",
+      "context": "远程控制API允许通过REST API、WebSocket和C++远程控制引擎",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发光板",
+      "predicate": "用于",
+      "object": "外视锥体投影",
+      "context": "发光板Actor用于控制外视锥体的视点，优化投影效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX",
+      "predicate": "包含",
+      "object": "ICVFXCamera组件",
+      "context": "ICVFXCamera组件提供内视锥体功能按钮和功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay",
+      "predicate": "支持",
+      "object": "多GPU渲染",
+      "context": "nDisplay支持在多GPU机器上渲染多个视口，跨越更大的显示分辨率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link",
+      "predicate": "支持",
+      "object": "多用户会话",
+      "context": "Live Link可以通过转播主题与多用户会话中的其他计算机共享追踪数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX",
+      "predicate": "使用",
+      "object": "颜色校正区域",
+      "context": "ICVFX使用颜色校正区域插件匹配现实世界场景与LED墙上显示的环境之间的光照和阴影",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX",
+      "predicate": "使用",
+      "object": "关卡快照",
+      "context": "ICVFX可以使用关卡快照保存和恢复每个镜头试拍的Actor状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX",
+      "predicate": "使用",
+      "object": "Composure",
+      "context": "ICVFX可以通过Composure进行实时复合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX",
+      "predicate": "使用",
+      "object": "舞台监视器",
+      "context": "ICVFX可以使用舞台监视器从网络中的每台机器接收和监视事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX",
+      "predicate": "使用",
+      "object": "定时数据监视器",
+      "context": "ICVFX可以使用定时数据监视器监视、校准和查看传入的定时数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:34:54.263Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (36418 字符)",
+      "timestamp": "2025-06-15T19:33:45.426Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 53854,
+    "contentLength": 36418,
+    "processingTimeMs": 68847
+  }
+}

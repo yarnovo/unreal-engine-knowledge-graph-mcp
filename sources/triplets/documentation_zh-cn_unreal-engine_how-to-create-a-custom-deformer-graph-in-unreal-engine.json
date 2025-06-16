@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-create-a-custom-deformer-graph-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-create-a-custom-deformer-graph-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "变形器图表",
+      "predicate": "属于",
+      "object": "虚幻引擎",
+      "context": "变形器图表是虚幻引擎中的一个功能模块，用于创建自定义网格体变形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图表",
+      "predicate": "依赖",
+      "object": "变形器图表插件",
+      "context": "使用变形器图表功能需要先启用变形器图表插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图表",
+      "predicate": "包含",
+      "object": "变形器图表编辑器",
+      "context": "变形器图表编辑器是用于编辑变形器图表的专用工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图表编辑器",
+      "predicate": "使用",
+      "object": "蓝图节点",
+      "context": "变形器图表编辑器使用一组独特的蓝图节点来编辑网格体变形系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图表",
+      "predicate": "扩展",
+      "object": "变形目标",
+      "context": "变形器图表可以用于扩展现有的变形目标系统",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "变形器图表",
+      "predicate": "扩展",
+      "object": "布料模拟",
+      "context": "变形器图表可以用于扩展现有的布料模拟系统",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "变形器图表",
+      "predicate": "用于",
+      "object": "线性蒙皮网格体",
+      "context": "变形器图表可以为线性蒙皮网格体创建新的网格体变形系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义变形器图表",
+      "predicate": "基于",
+      "object": "骨骼网格体",
+      "context": "创建自定义变形器图表需要项目包含骨骼网格体角色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图表编辑器",
+      "predicate": "包含",
+      "object": "Custom Compute Kernel",
+      "context": "Custom Compute Kernel是变形器图表编辑器中的关键节点，用于执行HLSL编程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Custom Compute Kernel",
+      "predicate": "使用",
+      "object": "HLSL",
+      "context": "Custom Compute Kernel使用高级着色器语言(HLSL)来执行网格体变形计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图表",
+      "predicate": "控制",
+      "object": "网格体变形",
+      "context": "变形器图表的主要功能是控制网格体的变形行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体组件绑定",
+      "predicate": "提供",
+      "object": "网格体数据",
+      "context": "骨骼网格体组件绑定节点用于读取网格体的数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Write Skinned Mesh",
+      "predicate": "修改",
+      "object": "网格体位置数据",
+      "context": "Write Skinned Mesh节点用于重新编写网格体的位置数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Execute Skinned Mesh",
+      "predicate": "设置",
+      "object": "网格体变形域",
+      "context": "Execute Skinned Mesh节点用于设置网格体变形的域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Scene Data",
+      "predicate": "提取",
+      "object": "场景信息",
+      "context": "Scene Data节点用于提取网格体所占据场景的信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Skinned Mesh",
+      "predicate": "提供",
+      "object": "顶点位置数据",
+      "context": "Skinned Mesh节点提供角色网格体顶点的位置、切线坐标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Float Constant",
+      "predicate": "设置",
+      "object": "变形参数",
+      "context": "Float Constant节点用于设置自定义函数的扭曲、开始和结束值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图表",
+      "predicate": "关联",
+      "object": "动画曲线",
+      "context": "变形器图表可以使用动画曲线而非常量值来驱动变形",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "HLSL",
+      "predicate": "实现",
+      "object": "网格体变形计算",
+      "context": "HLSL编程用于执行实际的网格体变形计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形器图表",
+      "predicate": "应用于",
+      "object": "第三人称模板",
+      "context": "文档示例中使用了第三人称模板中的虚幻引擎人体模型",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:25:42.972Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12073 字符)",
+      "timestamp": "2025-06-15T19:24:31.746Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17087,
+    "contentLength": 12073,
+    "processingTimeMs": 71230
+  }
+}

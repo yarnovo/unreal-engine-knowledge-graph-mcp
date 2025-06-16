@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_setting-up-turnkey-for-your-organization-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_setting-up-turnkey-for-your-organization-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Turnkey",
+      "predicate": "用于",
+      "object": "SDK分发",
+      "context": "Turnkey是虚幻引擎中用于自动下载和安装SDK的工具，帮助组织管理SDK的分发流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Turnkey",
+      "predicate": "依赖",
+      "object": "TurnkeyManifest.xml",
+      "context": "Turnkey通过读取TurnkeyManifest.xml文件来确定需要哪些SDK，这是其运行的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TurnkeyManifest.xml",
+      "predicate": "包含",
+      "object": "FileSource条目",
+      "context": "TurnkeyManifest.xml文件中包含FileSource条目，这些条目定义了可用的SDK及其相关信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FileSource条目",
+      "predicate": "定义",
+      "object": "SDK信息",
+      "context": "FileSource条目中包含了SDK的平台、类型、版本、名称和源等信息，用于Turnkey识别和安装SDK",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TurnkeyManifest.xml",
+      "predicate": "链接到",
+      "object": "AdditionalManifests",
+      "context": "TurnkeyManifest.xml可以链接到其他清单文件，通过AdditionalManifests标签扩展SDK信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Turnkey",
+      "predicate": "支持",
+      "object": "多种存储方式",
+      "context": "Turnkey支持从Perforce仓库、本地机器或Google Drive中获取SDK文件，提供了灵活的存储选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Turnkey",
+      "predicate": "使用",
+      "object": "副本提供方",
+      "context": "Turnkey通过副本提供方（如file、perforce、googledrive）来解析文件路径，确定SDK的存储位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FileSource条目",
+      "predicate": "使用",
+      "object": "捕获变量",
+      "context": "FileSource条目中可以使用捕获变量（如$[ExpVersion]）来动态匹配SDK路径，减少显式列出所有路径的需要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Turnkey",
+      "predicate": "依赖",
+      "object": "TurnkeyStudioSettings.xml",
+      "context": "Turnkey需要TurnkeyStudioSettings.xml文件来获取全局信息，如Google Drive凭证或签名证书",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SDK",
+      "predicate": "分为",
+      "object": "Full/AutoSDK/Flash",
+      "context": "SDK根据类型分为完整安装（Full）、自动配置（AutoSDK）和简易版（Flash），满足不同开发需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AutoSDK",
+      "predicate": "优先于",
+      "object": "Full SDK",
+      "context": "当AutoSDK和完整SDK都存在时，Turnkey会优先选择AutoSDK进行安装",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Turnkey",
+      "predicate": "支持",
+      "object": "列表扩展",
+      "context": "Turnkey支持使用listexpansion前缀定义变量列表，无需查询服务器即可生成多个FileSource对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Turnkey",
+      "predicate": "使用",
+      "object": "内置变量",
+      "context": "Turnkey支持使用内置变量（如$(EngineDir)、$(HOST_PLATFORM_NAME)）来动态构建文件路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TurnkeyManifest.xml",
+      "predicate": "位于",
+      "object": "Engine/Build/Turnkey目录",
+      "context": "TurnkeyManifest.xml文件默认位于虚幻引擎安装目录下的Engine/Build/Turnkey目录中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Platform Owner",
+      "predicate": "分发",
+      "object": "SDK",
+      "context": "平台所有者（Platform Owner）负责将SDK分发到组织，Turnkey协助完成下载和安装",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:46:29.621Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13596 字符)",
+      "timestamp": "2025-06-15T20:45:40.703Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 21126,
+    "contentLength": 13596,
+    "processingTimeMs": 48923
+  }
+}

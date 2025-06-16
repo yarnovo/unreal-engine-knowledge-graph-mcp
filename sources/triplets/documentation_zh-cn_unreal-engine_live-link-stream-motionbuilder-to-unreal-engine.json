@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_live-link-stream-motionbuilder-to-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_live-link-stream-motionbuilder-to-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Live Link插件",
+      "predicate": "支持",
+      "object": "Motionbuilder",
+      "context": "Live Link插件可以连接到Motionbuilder，实现实时内容流送",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link插件",
+      "predicate": "支持",
+      "object": "Maya",
+      "context": "Live Link插件也可以连接到Maya等其他DCC工具",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Live Link插件",
+      "predicate": "属于",
+      "object": "动画模块",
+      "context": "Live Link插件位于虚幻引擎的动画模块下",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link流送管理器",
+      "predicate": "控制",
+      "object": "Live Link连接",
+      "context": "通过Live Link流送管理器可以管理连接到Motionbuilder的Live Link连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Motionbuilder插件",
+      "predicate": "实现",
+      "object": "Live Link连接",
+      "context": "Motionbuilder插件实现了与虚幻引擎的Live Link连接功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link预览控制器",
+      "predicate": "用于",
+      "object": "预览流送内容",
+      "context": "Live Link预览控制器用于在虚幻引擎中预览从Motionbuilder流送的内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流类型",
+      "predicate": "定义",
+      "object": "数据流送方式",
+      "context": "流类型定义了从Motionbuilder到虚幻引擎的数据流送方式，如仅根、全层级等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主题名称",
+      "predicate": "标识",
+      "object": "流送内容",
+      "context": "主题名称用于标识从Motionbuilder流送到虚幻引擎的内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link组件",
+      "predicate": "替代",
+      "object": "Live Link预览控制器",
+      "context": "除了使用预览控制器，也可以使用Live Link组件附加到Actor上来处理流送数据",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "蓝图函数",
+      "predicate": "替代",
+      "object": "Live Link UI",
+      "context": "可以使用蓝图函数而非Live Link UI窗口来建立连接",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Motionbuilder",
+      "predicate": "生成",
+      "object": "动画数据",
+      "context": "Motionbuilder可以生成动画数据并通过Live Link流送到虚幻引擎",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "预览",
+      "object": "Motionbuilder内容",
+      "context": "虚幻引擎可以实时预览从Motionbuilder流送的内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机同步",
+      "predicate": "实现",
+      "object": "多软件视角一致",
+      "context": "启用摄像机同步可以在Motionbuilder和虚幻引擎之间保持视角一致",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "始终刷新查看器",
+      "predicate": "解决",
+      "object": "流送卡顿问题",
+      "context": "启用始终刷新查看器选项可以解决Motionbuilder变成后台应用时的流送卡顿问题",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:46:38.749Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10546,
+    "contentLength": 6665,
+    "processingTimeMs": 46910
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_horde-automation-hub-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_horde-automation-hub-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Horde自动化中心",
+      "predicate": "显示",
+      "object": "Gauntlet测试结果",
+      "context": "Horde自动化中心的主要功能是展示Gauntlet测试框架的测试结果，帮助开发者快速查看和分析测试数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde自动化中心",
+      "predicate": "生成",
+      "object": "可搜索元数据",
+      "context": "Horde能够高效生成关于流送、平台、配置、渲染API等的元数据，便于开发者搜索和分析",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde自动化中心",
+      "predicate": "依赖",
+      "object": "Horde构建自动化",
+      "context": "要显示测试结果，需要启用Horde构建自动化，这是Horde自动化中心正常运行的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gauntlet测试",
+      "predicate": "需要",
+      "object": "-WriteTestResultsForHorde参数",
+      "context": "在Gauntlet测试命令行中添加该参数是Horde自动化中心显示测试结果的必要配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde自动化中心",
+      "predicate": "提供",
+      "object": "历史数据和视图",
+      "context": "该功能允许开发者查看测试历史记录和详细数据，有助于问题诊断和性能分析",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化筛选器",
+      "predicate": "属于",
+      "object": "Horde自动化中心",
+      "context": "自动化筛选器是Horde自动化中心的UI组件，用于按多种条件筛选测试结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "测试图块",
+      "predicate": "属于",
+      "object": "Horde自动化中心",
+      "context": "测试图块是Horde自动化中心展示测试结果的主要形式，可以展开查看详细信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "测试套件",
+      "predicate": "包含",
+      "object": "单元测试",
+      "context": "Gauntlet测试套件可能包含数千个单元测试，Horde自动化中心可以对这些测试的历史数据进行深入研究",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "用于",
+      "object": "配置Horde测试",
+      "context": "BuildGraph脚本用于声明Horde服务器属性和设备池，并配置测试节点以生成Horde可用的测试数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde CI",
+      "predicate": "关联",
+      "object": "测试图块",
+      "context": "测试图块中的变更列表等信息会与Horde CI作业步骤关联，帮助开发者调查问题",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Horde自动化中心",
+      "predicate": "支持",
+      "object": "跨平台比较",
+      "context": "该功能允许开发者比较不同平台上的测试结果，便于诊断跨平台问题",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "测试事件",
+      "predicate": "包含",
+      "object": "日志记录和屏幕截图",
+      "context": "测试事件可以包含多种诊断数据，这些数据对于问题分析和性能优化非常重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:19:28.748Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5230,
+    "contentLength": 3744,
+    "processingTimeMs": 49852
+  }
+}

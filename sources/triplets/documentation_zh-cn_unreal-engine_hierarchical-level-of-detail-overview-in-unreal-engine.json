@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_hierarchical-level-of-detail-overview-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_hierarchical-level-of-detail-overview-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "分层细节级别（HLOD）",
+      "predicate": "组合",
+      "object": "静态网格体Actor",
+      "context": "HLOD通过将多个静态网格体Actor组合为单一的代理模型来提升性能，这是理解HLOD核心功能的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分层细节级别（HLOD）",
+      "predicate": "依赖",
+      "object": "HLOD系统",
+      "context": "使用HLOD功能需要先在关卡中启用HLOD系统，这是使用HLOD的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理模型",
+      "predicate": "包含",
+      "object": "图谱纹理",
+      "context": "代理模型将多个静态网格体的纹理合并为单一的图谱纹理，这是理解代理模型组成的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理模型",
+      "predicate": "支持",
+      "object": "材质元素ID",
+      "context": "当禁用合并纹理选项时，代理模型会保留原始材质的材质元素ID，这对理解材质处理方式很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "分层LOD体积域",
+      "predicate": "用于",
+      "object": "定义HLOD群集",
+      "context": "分层LOD体积域是手动创建HLOD群集的工具，理解其用途是掌握HLOD工作流程的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分层LOD体积域",
+      "predicate": "关联",
+      "object": "HLOD大纲视图",
+      "context": "在体积域中放置Actor后，需要通过HLOD大纲视图生成群集，这两个概念在操作流程上紧密相关",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "HLOD覆盖",
+      "predicate": "修改",
+      "object": "分层LOD设置",
+      "context": "通过HLOD覆盖可以针对特定LOD Actor修改默认设置，这是理解HLOD定制化功能的重要部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HLOD可视化",
+      "predicate": "提供",
+      "object": "LOD着色方法",
+      "context": "HLOD可视化模式允许开发者查看不同LOD级别，这对性能优化和调试很有帮助",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体Actor",
+      "predicate": "被替代",
+      "object": "HLOD代理模型",
+      "context": "理解静态网格体Actor在HLOD系统中被代理模型替代的关系是掌握HLOD优化原理的核心",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合并纹理选项",
+      "predicate": "影响",
+      "object": "透明通道处理",
+      "context": "合并纹理选项的启用与否直接影响透明通道的处理方式，这对材质效果的理解很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "生成群集",
+      "predicate": "依赖",
+      "object": "HLOD体积域",
+      "context": "生成群集操作需要先在场景中放置HLOD体积域，这是工作流程中的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "LODActor",
+      "predicate": "包含",
+      "object": "群集边界",
+      "context": "LODActor会显示创建的群集和群集边界，这是理解HLOD空间组织的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "HLOD系统",
+      "predicate": "支持",
+      "object": "性能优化",
+      "context": "HLOD系统的主要目的是通过减少绘制调用来提升性能，这是理解其价值的核心",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:18:19.374Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7059,
+    "contentLength": 5089,
+    "processingTimeMs": 51904
+  }
+}

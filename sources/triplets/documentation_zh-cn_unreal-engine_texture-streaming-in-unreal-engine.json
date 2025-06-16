@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_texture-streaming-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_texture-streaming-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "纹理流送系统",
+      "predicate": "负责",
+      "object": "提高和降低纹理分辨率",
+      "context": "纹理流送系统是引擎中负责动态调整纹理分辨率的核心组件，理解这一功能是学习纹理优化的基础",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "纹理流送系统",
+      "predicate": "用于",
+      "object": "内存管理",
+      "context": "系统通过动态调整纹理分辨率来优化内存使用，这是性能优化的重要知识点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理流送概述",
+      "predicate": "解释",
+      "object": "纹理流送基本原理",
+      "context": "概述文档是学习纹理流送系统的起点，包含流送决策的核心算法说明",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "构建纹理流送数据",
+      "predicate": "包含",
+      "object": "精细级别(LOD)设置",
+      "context": "构建过程涉及LOD配置，这是理解纹理流送分级加载的关键概念",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "纹理流送指标",
+      "predicate": "使用",
+      "object": "STAT命令",
+      "context": "STAT命令是调试流送性能的重要工具，学习指标分析需要掌握相关调试命令",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "纹理流送配置",
+      "predicate": "控制",
+      "object": "纹理加载/卸载策略",
+      "context": "配置系统决定了运行时纹理资源的管理方式，是性能调优的核心环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理流送系统",
+      "predicate": "属于",
+      "object": "渲染系统",
+      "context": "纹理流送是渲染管线的组成部分，需要结合渲染流程整体理解",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "纹理流送系统",
+      "predicate": "影响",
+      "object": "视觉效果质量",
+      "context": "系统在内存管理和画质表现间取得平衡，这是图形编程的重要权衡点",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "纹理流送数据",
+      "predicate": "依赖",
+      "object": "纹理资产准备",
+      "context": "有效的流送需要正确配置纹理的mipmap等属性，这是内容制作的前置知识",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "纹理流送指标",
+      "predicate": "反映",
+      "object": "流送系统性能",
+      "context": "指标数据是诊断流送瓶颈的直接依据，对性能优化至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:59:51.712Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3071,
+    "contentLength": 2527,
+    "processingTimeMs": 35153
+  }
+}

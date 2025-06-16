@@ -1,0 +1,77 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_player-controllers-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_player-controllers-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "PlayerController",
+      "predicate": "是接口",
+      "object": "Pawn和人类玩家",
+      "context": "PlayerController作为Pawn和人类玩家之间的桥梁，帮助学习者理解游戏控制架构的核心组件关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PlayerController",
+      "predicate": "处理输入",
+      "object": "复杂游戏逻辑",
+      "context": "文档明确说明在复杂场景（如多玩家/动态功能修改）时应在PlayerController中处理输入，这对学习输入处理的分层设计很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PlayerController",
+      "predicate": "持久存在",
+      "object": "游戏会话",
+      "context": "与临时存在的Pawn对比，理解游戏状态保存的设计选择（如分数存储位置）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pawn",
+      "predicate": "接收命令",
+      "object": "PlayerController",
+      "context": "展示控制流方向，帮助理解\"控制器-被控对象\"的经典游戏架构模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PlayerController",
+      "predicate": "决定动作",
+      "object": "Pawn行为",
+      "context": "体现控制逻辑与行为执行的分离，对学习游戏架构的职责划分至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "死亡竞技模式",
+      "predicate": "演示",
+      "object": "PlayerController持久性",
+      "context": "通过具体游戏模式案例说明设计选择，增强学习者对理论的应用理解",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "PlayerController",
+      "predicate": "属于",
+      "object": "Gameplay Framework",
+      "context": "通过文档标签建立与高层框架的归属关系，帮助定位知识体系位置",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "简单游戏逻辑",
+      "predicate": "适用于",
+      "object": "Pawn输入处理",
+      "context": "提供输入处理方案的选择标准，帮助学习者根据项目复杂度做技术决策",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:25:08.980Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2276,
+    "contentLength": 1486,
+    "processingTimeMs": 32956
+  }
+}

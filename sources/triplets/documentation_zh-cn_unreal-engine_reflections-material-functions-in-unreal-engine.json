@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_reflections-material-functions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_reflections-material-functions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "ViewAlignedReflection",
+      "predicate": "接收",
+      "object": "反射矢量",
+      "context": "ViewAlignedReflection函数需要反射矢量作为输入，以便执行与视图一致的计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ViewAlignedReflection",
+      "predicate": "接收",
+      "object": "反射纹理",
+      "context": "ViewAlignedReflection函数需要球形反射纹理作为输入，以便生成基于视图的反射纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ViewAlignedReflection",
+      "predicate": "生成",
+      "object": "基于视图的反射纹理",
+      "context": "ViewAlignedReflection的主要功能是生成与视图一致的反射纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WorldAlignedReflection",
+      "predicate": "接收",
+      "object": "反射矢量",
+      "context": "WorldAlignedReflection函数需要反射矢量作为输入，以便执行与全局坐标一致的计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WorldAlignedReflection",
+      "predicate": "接收",
+      "object": "反射纹理",
+      "context": "WorldAlignedReflection函数需要球形反射纹理作为输入，以便生成基于全局的反射纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WorldAlignedReflection",
+      "predicate": "生成",
+      "object": "全局反射",
+      "context": "WorldAlignedReflection的主要功能是生成与全局坐标一致的反射纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WorldAlignedReflection",
+      "predicate": "生成",
+      "object": "阴影全局反射",
+      "context": "WorldAlignedReflection可以生成对比度更高的纹理版本，适用于阴影区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CustomReflectionVector",
+      "predicate": "使用",
+      "object": "法线贴图",
+      "context": "CustomReflectionVector函数使用法线贴图作为输入来生成独立的反射矢量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CustomReflectionVector",
+      "predicate": "生成",
+      "object": "反射矢量",
+      "context": "CustomReflectionVector的主要功能是生成独立于默认反射矢量的定制反射矢量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ViewAlignedReflection",
+      "predicate": "与",
+      "object": "WorldAlignedReflection",
+      "context": "这两个函数都是处理反射的函数，但ViewAlignedReflection与视图一致，而WorldAlignedReflection与全局坐标一致",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "反射材质函数",
+      "predicate": "包含",
+      "object": "ViewAlignedReflection",
+      "context": "ViewAlignedReflection是虚幻引擎反射材质函数中的一个具体实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "反射材质函数",
+      "predicate": "包含",
+      "object": "WorldAlignedReflection",
+      "context": "WorldAlignedReflection是虚幻引擎反射材质函数中的一个具体实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "反射材质函数",
+      "predicate": "包含",
+      "object": "CustomReflectionVector",
+      "context": "CustomReflectionVector是虚幻引擎反射材质函数中的一个具体实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "反射材质函数",
+      "predicate": "用于",
+      "object": "实时反射",
+      "context": "反射材质函数专门用于处理虚幻引擎中的实时反射效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "反射材质函数",
+      "predicate": "适用于",
+      "object": "复杂环境细节",
+      "context": "反射材质函数特别适用于处理地铁站等具有复杂环境细节的场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:34:31.945Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3668,
+    "contentLength": 2550,
+    "processingTimeMs": 43851
+  }
+}

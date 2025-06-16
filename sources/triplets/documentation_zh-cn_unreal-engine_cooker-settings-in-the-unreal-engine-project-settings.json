@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_cooker-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_cooker-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "Enable Cook on the Side",
+      "predicate": "支持",
+      "object": "Launch On",
+      "context": "启用此设置后，Launch On功能可以利用网络在编辑器后台进行烹饪，帮助学习者理解网络烹饪与Launch On功能的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Enable Build DDC In Background",
+      "predicate": "加速",
+      "object": "Launch On",
+      "context": "后台生成DDC数据可以加快Launch On操作，帮助学习者理解DDC数据生成与构建效率的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iterative Cooking for Launch On",
+      "predicate": "启用",
+      "object": "-iterate flag",
+      "context": "此设置专门为Launch On启用迭代烹饪标志，帮助学习者理解迭代烹饪与构建流程的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iterative Cooking for File Cook Content",
+      "predicate": "启用",
+      "object": "-iterate flag",
+      "context": "此设置专门为文件菜单中的烹饪操作启用迭代烹饪标志，帮助学习者理解不同烹饪入口的配置关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Cook on the Fly for Launch On",
+      "predicate": "启用",
+      "object": "-cookonthefly flag",
+      "context": "此设置专门为Launch On启用实时烹饪标志，帮助学习者理解实时烹饪模式的应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Generate Optimized Blueprint Component Data",
+      "predicate": "依赖",
+      "object": "Event-Driven Loading (EDL)",
+      "context": "优化蓝图组件数据生成需要EDL支持，帮助学习者理解运行时优化与加载系统的依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ASTC Compression Quality vs Speed",
+      "predicate": "控制",
+      "object": "ASTC纹理压缩速度",
+      "context": "此参数直接控制ASTC压缩的速度与质量权衡，帮助学习者理解纹理压缩的性能调优参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ASTC Compression Quality vs Size",
+      "predicate": "控制",
+      "object": "ASTC纹理压缩尺寸",
+      "context": "此参数直接控制ASTC压缩的输出尺寸与质量权衡，帮助学习者理解纹理压缩的空间效率参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ASTC Texture Compressor",
+      "predicate": "包含",
+      "object": "Intel ISPC",
+      "context": "ASTC压缩器选项包含Intel ISPC实现，帮助学习者理解不同硬件厂商提供的压缩解决方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ASTC Texture Compressor",
+      "predicate": "包含",
+      "object": "ARM",
+      "context": "ASTC压缩器选项包含ARM实现，帮助学习者理解移动平台专用的压缩解决方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ASTC HDR Profile",
+      "predicate": "支持",
+      "object": "特定硬件设备",
+      "context": "ASTC HDR格式需要特定硬件支持，帮助学习者理解高级纹理格式的设备兼容性要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Allow Cooked Content in the Editor",
+      "predicate": "限制",
+      "object": "支持的资源类型",
+      "context": "编辑器对烹饪后资源的支持受限于特定资源类型，帮助学习者理解编辑器与运行时资源的差异",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Cooker Settings",
+      "predicate": "包含",
+      "object": "Textures Settings",
+      "context": "纹理压缩设置是烹饪器设置的一部分，帮助学习者理解烹饪流程中的纹理处理环节",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Cooker Settings",
+      "predicate": "包含",
+      "object": "Editor Settings",
+      "context": "编辑器相关设置是烹饪器设置的一部分，帮助学习者理解编辑器与烹饪流程的交互配置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Iterative Cooking",
+      "predicate": "忽略",
+      "object": ".ini文件变更",
+      "context": "迭代烹饪可以配置为忽略ini文件变更，帮助学习者理解构建系统的增量更新策略",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Iterative Cooking",
+      "predicate": "忽略",
+      "object": "脚本包变更",
+      "context": "迭代烹饪可以配置为忽略脚本包变更，帮助学习者理解构建系统对代码变更的处理方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:36:44.281Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4614,
+    "contentLength": 4512,
+    "processingTimeMs": 67144
+  }
+}

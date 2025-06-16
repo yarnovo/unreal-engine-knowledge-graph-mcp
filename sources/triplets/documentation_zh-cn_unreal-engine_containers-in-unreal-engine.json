@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_containers-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_containers-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎容器",
+      "predicate": "包含",
+      "object": "TArray",
+      "context": "TArray是虚幻引擎中主要的数组容器类型，学习容器系统需要首先掌握TArray",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "虚幻引擎容器",
+      "predicate": "包含",
+      "object": "TMap",
+      "context": "TMap是虚幻引擎中实现键值对映射的核心容器，与TArray形成互补关系",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "虚幻引擎容器",
+      "predicate": "包含",
+      "object": "TSet",
+      "context": "TSet提供快速唯一元素存储，是虚幻引擎容器系统的重要组成部分",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "TArray",
+      "predicate": "对比",
+      "object": "TSet",
+      "context": "TArray保持元素顺序而TSet不保证顺序，这是选择容器时的重要考量因素",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TMap",
+      "predicate": "对比",
+      "object": "TSet",
+      "context": "TMap存储键值对而TSet只存储唯一值，理解差异有助于正确选择数据结构",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TArray",
+      "predicate": "适用于",
+      "object": "顺序元素存储",
+      "context": "当需要保持元素插入顺序时，TArray是最合适的容器选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TMap",
+      "predicate": "适用于",
+      "object": "键值关联存储",
+      "context": "TMap专门用于需要按键快速查找对应值的场景",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "TSet",
+      "predicate": "适用于",
+      "object": "唯一元素快速查找",
+      "context": "TSet针对元素唯一性和查找速度进行了优化，适合不需要顺序的场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎容器",
+      "predicate": "基于",
+      "object": "C++模板",
+      "context": "理解这些容器基于C++模板实现有助于深入掌握其特性和性能特征",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "TArray",
+      "predicate": "支持",
+      "object": "动态扩容",
+      "context": "TArray自动处理内存管理，这是其作为主要序列容器的核心特性",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T18:33:02.668Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 1697,
+    "contentLength": 1355,
+    "processingTimeMs": 43659
+  }
+}

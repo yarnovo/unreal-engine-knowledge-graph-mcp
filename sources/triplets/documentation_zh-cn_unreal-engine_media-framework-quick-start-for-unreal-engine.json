@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_media-framework-quick-start-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_media-framework-quick-start-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Media Framework",
+      "predicate": "包含",
+      "object": "Media Player",
+      "context": "Media Framework是虚幻引擎中处理媒体内容的系统，Media Player是其核心组件之一，用于播放媒体文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Media Player",
+      "predicate": "控制",
+      "object": "Media Texture",
+      "context": "Media Player通过Media Texture将视频内容渲染到材质上，是视频播放的关键环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Media Texture",
+      "predicate": "用于",
+      "object": "材质",
+      "context": "Media Texture作为材质中的纹理输入，使视频内容能够显示在3D模型表面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质",
+      "predicate": "应用于",
+      "object": "静态网格体",
+      "context": "包含Media Texture的材质最终应用于TV的静态网格体，实现视频在TV模型上的显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TV_BP",
+      "predicate": "包含",
+      "object": "Media Sound组件",
+      "context": "TV蓝图包含Media Sound组件，用于播放与媒体内容关联的音频",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TV_BP",
+      "predicate": "包含",
+      "object": "箱体碰撞",
+      "context": "TV蓝图包含箱体碰撞组件，用于检测玩家接近并触发交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "实现",
+      "object": "媒体播放控制",
+      "context": "通过蓝图脚本实现按键控制媒体播放的开始和停止，是交互功能的核心",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Media Player",
+      "predicate": "支持",
+      "object": "循环播放",
+      "context": "Media Player支持循环播放选项，使视频可以自动重复播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质",
+      "predicate": "使用",
+      "object": "纹理采样节点",
+      "context": "材质通过纹理采样节点连接Media Texture，实现视频内容的渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TV_BP",
+      "predicate": "继承自",
+      "object": "Actor类",
+      "context": "TV蓝图基于Actor类创建，这是虚幻引擎中可放置在关卡中的基本对象类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Media Framework",
+      "predicate": "关联",
+      "object": "蓝图可视化脚本",
+      "context": "Media Framework的功能常通过蓝图可视化脚本进行控制和扩展，两者有紧密的集成关系",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Media Framework",
+      "predicate": "关联",
+      "object": "材质系统",
+      "context": "Media Framework需要与材质系统配合使用，才能将视频内容渲染到3D模型表面",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "箱体碰撞",
+      "predicate": "触发",
+      "object": "交互事件",
+      "context": "箱体碰撞组件通过检测玩家接近来触发交互事件，是用户控制TV播放的关键组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体播放列表",
+      "predicate": "扩展",
+      "object": "Media Framework功能",
+      "context": "媒体播放列表可以扩展Media Framework的功能，实现类似电视频道切换的效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Electra媒体播放器",
+      "predicate": "要求",
+      "object": "特定采样器类型",
+      "context": "使用Electra媒体播放器时需要将纹理采样器类型设置为Color，这是特殊的技术要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:53:12.803Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11619 字符)",
+      "timestamp": "2025-06-15T19:52:11.603Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15681,
+    "contentLength": 11619,
+    "processingTimeMs": 61210
+  }
+}

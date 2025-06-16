@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_state-tree-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_state-tree-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "StateTree",
+      "predicate": "组合",
+      "object": "行为树",
+      "context": "StateTree结合了行为树的选择器功能，学习者需要理解行为树的基本概念才能掌握StateTree的选择器机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StateTree",
+      "predicate": "组合",
+      "object": "状态机",
+      "context": "StateTree整合了状态机的状态和过渡特性，这是理解StateTree工作原理的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StateTree",
+      "predicate": "包含",
+      "object": "选择器(Selectors)",
+      "context": "选择器是StateTree从行为树继承的核心组件，用于决策逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StateTree",
+      "predicate": "包含",
+      "object": "状态(States)",
+      "context": "状态是StateTree从状态机继承的基本元素，表示逻辑的不同阶段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StateTree",
+      "predicate": "包含",
+      "object": "过渡(Transitions)",
+      "context": "过渡机制控制状态间的切换，是StateTree动态行为的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StateTree",
+      "predicate": "支持",
+      "object": "StateTree调试器",
+      "context": "调试器是学习StateTree的重要工具，帮助理解运行时行为",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "StateTree",
+      "predicate": "支持",
+      "object": "外部StateTree",
+      "context": "外部StateTree扩展了使用场景，是高级应用的重要概念",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "StateTree",
+      "predicate": "适用于",
+      "object": "AI开发",
+      "context": "StateTree特别适合AI行为逻辑的实现，这是其主要应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "StateTree概述",
+      "predicate": "前置学习",
+      "object": "StateTree快速入门指南",
+      "context": "理解概述后，快速入门指南是实践的第一步",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "状态树选择器概览",
+      "predicate": "扩展",
+      "object": "StateTree概述",
+      "context": "选择器是StateTree的核心机制，需要单独深入学习",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:54:14.749Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2648,
+    "contentLength": 2092,
+    "processingTimeMs": 30754
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_statetree-quick-start-guide",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_statetree-quick-start-guide.md",
+  "triples": [
+    {
+      "subject": "StateTree",
+      "predicate": "组合",
+      "object": "选择器",
+      "context": "StateTree结合了行为树中的选择器功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StateTree",
+      "predicate": "组合",
+      "object": "状态",
+      "context": "StateTree结合了状态机中的状态功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StateTree",
+      "predicate": "组合",
+      "object": "过渡",
+      "context": "StateTree结合了状态机中的过渡功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StateTree",
+      "predicate": "用于",
+      "object": "BP_ShootingTarget",
+      "context": "StateTree作为组件用于射击目标Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_ShootingTarget",
+      "predicate": "包含",
+      "object": "StateTree组件",
+      "context": "射击目标蓝图包含StateTree组件实现AI逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_ShootingTarget",
+      "predicate": "包含",
+      "object": "静态网格体",
+      "context": "射击目标需要可视化表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ST_ShootingTarget",
+      "predicate": "包含",
+      "object": "静止状态",
+      "context": "基础状态用于处理目标待机逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ST_ShootingTarget",
+      "predicate": "包含",
+      "object": "死亡状态",
+      "context": "特殊状态处理目标被摧毁逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静止状态",
+      "predicate": "过渡到",
+      "object": "死亡状态",
+      "context": "当命中次数达到条件时状态转移",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "STT_Destroy",
+      "predicate": "用于",
+      "object": "死亡状态",
+      "context": "该任务专门处理Actor销毁逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_SplineActor",
+      "predicate": "提供",
+      "object": "移动路径",
+      "context": "样条线Actor为移动目标提供路径数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "STE_GetSpline",
+      "predicate": "获取",
+      "object": "BP_SplineActor",
+      "context": "求值器负责查找最近的样条线Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "STT_MoveAlongSpline",
+      "predicate": "依赖",
+      "object": "STE_GetSpline",
+      "context": "移动任务需要求值器提供的样条线数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动状态",
+      "predicate": "包含",
+      "object": "STT_MoveAlongSpline",
+      "context": "移动状态通过该任务实现沿路径移动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StateTree组件模式",
+      "predicate": "适用于",
+      "object": "Actor组件",
+      "context": "该模式专为作为Actor组件设计的StateTree",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GameplayStateTree插件",
+      "predicate": "扩展",
+      "object": "StateTree功能",
+      "context": "插件提供了StateTree的Gameplay相关扩展",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "整型比较条件",
+      "predicate": "用于",
+      "object": "状态过渡",
+      "context": "通过比较HitCount值触发状态转移",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "延迟任务",
+      "predicate": "前置",
+      "object": "销毁任务",
+      "context": "死亡状态中先延迟再执行销毁",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调试文本任务",
+      "predicate": "用于",
+      "object": "状态调试",
+      "context": "在死亡状态中输出调试信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第一人称模板",
+      "predicate": "提供",
+      "object": "射击功能",
+      "context": "项目模板已包含基础射击机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:54:35.009Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (27121 字符)",
+      "timestamp": "2025-06-15T20:53:44.005Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 35907,
+    "contentLength": 27121,
+    "processingTimeMs": 51014
+  }
+}

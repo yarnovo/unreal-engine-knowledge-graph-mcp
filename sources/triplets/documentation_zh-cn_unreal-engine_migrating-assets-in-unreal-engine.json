@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_migrating-assets-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_migrating-assets-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "迁移工具",
+      "predicate": "用于",
+      "object": "资产迁移",
+      "context": "迁移工具是虚幻引擎中专门用于复制资产及其依赖项的功能模块，帮助学习资产管理的核心工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产迁移",
+      "predicate": "依赖",
+      "object": "内容浏览器",
+      "context": "资产迁移操作必须通过内容浏览器选择资产开始，理解内容浏览器是资产管理的入口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产迁移",
+      "predicate": "生成",
+      "object": "资产报告",
+      "context": "迁移过程中会自动生成资产报告，显示所有将被复制的资产和依赖项，这是理解资产依赖关系的关键环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产报告",
+      "predicate": "包含",
+      "object": "依赖项",
+      "context": "资产报告会列出所有依赖项，帮助学习者理解资产之间的关联性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质",
+      "predicate": "依赖",
+      "object": "纹理",
+      "context": "材质资产通常依赖纹理资产，这是学习材质系统时需要理解的基础关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产迁移",
+      "predicate": "需要",
+      "object": "Content文件夹",
+      "context": "迁移的资产必须放在目标项目的Content文件夹中才能正常使用，这是虚幻引擎项目结构的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产迁移",
+      "predicate": "可能导致",
+      "object": "资产冲突",
+      "context": "当目标项目存在同名资产时会产生冲突，理解如何处理冲突是项目管理的重要技能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "资产迁移故障排除",
+      "predicate": "解决",
+      "object": "依赖项缺失",
+      "context": "资产未正确显示通常是因为依赖项未迁移，这是学习资产完整性检查的重要案例",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "迁移工具",
+      "predicate": "支持",
+      "object": "批量选择",
+      "context": "通过Ctrl和Shift键支持批量选择资产，这是提高工作效率的实用技巧",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "资产报告",
+      "predicate": "提供",
+      "object": "选择性迁移",
+      "context": "可以在资产报告中取消选择特定资产，但需要注意可能导致的依赖问题，这是学习资产关联性的实践场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:57:17.387Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5006,
+    "contentLength": 3098,
+    "processingTimeMs": 47945
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_uv-editor-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_uv-editor-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "UV编辑器",
+      "predicate": "包含",
+      "object": "工具栏",
+      "context": "工具栏是UV编辑器的核心组件之一，提供了保存、浏览、应用等基本操作功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UV编辑器",
+      "predicate": "包含",
+      "object": "2D视口",
+      "context": "2D视口是UV编辑器的主要工作区域，用于显示和编辑UV贴图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UV编辑器",
+      "predicate": "包含",
+      "object": "3D视口",
+      "context": "3D视口提供网格体上UV的实时视图，与2D视口配合使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UV编辑器",
+      "predicate": "扩展",
+      "object": "关卡编辑器",
+      "context": "UV编辑器提供了比关卡编辑器更专业的UV编辑工具和交互性更强的2D视图",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UV编辑器",
+      "predicate": "依赖",
+      "object": "建模模式",
+      "context": "理解建模模式的独特方面是使用UV编辑器的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UV编辑器",
+      "predicate": "用于",
+      "object": "UV贴图创建",
+      "context": "UV编辑器的主要功能是创建和修改UV贴图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UV编辑器",
+      "predicate": "支持",
+      "object": "UDIM管理",
+      "context": "UV编辑器提供了UDIM管理功能，可以标注和手动应用UDIM",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UV编辑器",
+      "predicate": "支持",
+      "object": "多资产工作流程",
+      "context": "UV编辑器支持同时处理多个资产的工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "工具栏",
+      "predicate": "包含",
+      "object": "通道工具",
+      "context": "通道工具是工具栏的一部分，用于管理UV贴图通道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具栏",
+      "predicate": "包含",
+      "object": "显示选项",
+      "context": "显示选项控制2D视口的外观，包括网格、标尺和背景的可视性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具",
+      "predicate": "包含",
+      "object": "缝制工具",
+      "context": "缝制工具用于连接两个对应的边缘，创建新的UV岛",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具",
+      "predicate": "包含",
+      "object": "拆分工具",
+      "context": "拆分工具用于手动分离网格体的UV坐标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具",
+      "predicate": "包含",
+      "object": "布局工具",
+      "context": "布局工具用于将UV岛状区整理到UV空间中，支持多种布局类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具",
+      "predicate": "包含",
+      "object": "AutoUV",
+      "context": "AutoUV工具可以自动解包和打包UV，作为UV贴图的起始点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AutoUV",
+      "predicate": "支持",
+      "object": "UVAtlas",
+      "context": "AutoUV支持UVAtlas方法，适用于有机对象并减少拉伸",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AutoUV",
+      "predicate": "支持",
+      "object": "Xatlas",
+      "context": "AutoUV支持Xatlas方法，适用于光照贴图和机械网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AutoUV",
+      "predicate": "支持",
+      "object": "PatchBuilder",
+      "context": "AutoUV支持PatchBuilder方法，适用于大型模型如Nanite",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UV贴图",
+      "predicate": "用于",
+      "object": "纹理映射",
+      "context": "UV贴图定义了纹理如何映射到3D模型表面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UV贴图",
+      "predicate": "用于",
+      "object": "光照烘焙",
+      "context": "多个UV通道可以用于光照烘焙，如静态网格体的光照贴图",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "2D视口",
+      "predicate": "显示",
+      "object": "单位正方形",
+      "context": "2D视口中的网格包含称为单位正方形的内容，默认是0-1范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "2D视口",
+      "predicate": "支持",
+      "object": "UDIM编号",
+      "context": "2D视口可以显示每个UDIM的编号，从1001开始",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3D视口",
+      "predicate": "提供",
+      "object": "实时UV预览",
+      "context": "3D视口显示3D网格体上UV的实时视图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3D视口",
+      "predicate": "支持",
+      "object": "焦点摄像机",
+      "context": "焦点摄像机功能可以对齐到当前选择的UV，是3D视口特有的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UV编辑器",
+      "predicate": "前置知识",
+      "object": "UV术语",
+      "context": "使用UV编辑器前需要理解与创建UV相关联的常见术语",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UV编辑器",
+      "predicate": "后续学习",
+      "object": "纹理",
+      "context": "掌握UV编辑器后，可以进一步学习纹理的应用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UV编辑器",
+      "predicate": "后续学习",
+      "object": "材质",
+      "context": "掌握UV编辑器后，可以进一步学习材质的创建",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:27:10.724Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11745 字符)",
+      "timestamp": "2025-06-15T21:26:02.763Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 18264,
+    "contentLength": 11745,
+    "processingTimeMs": 67971
+  }
+}

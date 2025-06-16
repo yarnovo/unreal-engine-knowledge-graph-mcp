@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_virtual-texturing-settings-and-properties-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_virtual-texturing-settings-and-properties-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚拟纹理系统",
+      "predicate": "包含",
+      "object": "流送虚拟纹理",
+      "context": "流送虚拟纹理是虚拟纹理系统的一个核心功能模块，用于动态加载纹理数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟纹理系统",
+      "predicate": "包含",
+      "object": "运行时虚拟纹理",
+      "context": "运行时虚拟纹理是虚拟纹理系统的另一个核心功能模块，用于实时生成纹理数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "控制",
+      "object": "虚拟纹理系统",
+      "context": "项目设置中的虚拟纹理选项控制整个虚拟纹理系统的启用和基本参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染设置",
+      "predicate": "属于",
+      "object": "项目设置",
+      "context": "渲染设置是项目设置中专门用于配置图形渲染参数的子类别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器设置",
+      "predicate": "属于",
+      "object": "项目设置",
+      "context": "编辑器设置是项目设置中专门用于配置编辑器行为的子类别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启用虚拟纹理支持",
+      "predicate": "影响",
+      "object": "虚拟纹理光照贴图",
+      "context": "启用虚拟纹理支持是使用虚拟纹理光照贴图的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理编辑器",
+      "predicate": "用于",
+      "object": "配置虚拟纹理流送",
+      "context": "纹理编辑器提供了设置单个纹理是否使用虚拟纹理流送的选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行时虚拟纹理资源",
+      "predicate": "被引用",
+      "object": "运行时虚拟纹理体积",
+      "context": "运行时虚拟纹理体积需要引用运行时虚拟纹理资源来定义其行为",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行时虚拟纹理采样材质节点",
+      "predicate": "依赖",
+      "object": "运行时虚拟纹理资源",
+      "context": "材质中的虚拟纹理采样节点需要指定具体的运行时虚拟纹理资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形Actor",
+      "predicate": "使用",
+      "object": "运行时虚拟纹理",
+      "context": "地形系统可以配置为使用运行时虚拟纹理来优化渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟纹理LOD偏差",
+      "predicate": "影响",
+      "object": "运行时虚拟纹理质量",
+      "context": "LOD偏差设置会影响运行时虚拟纹理的细节级别和性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚拟纹理内容设置",
+      "predicate": "需要匹配",
+      "object": "材质资源设置",
+      "context": "运行时虚拟纹理的内容设置必须与材质中的设置匹配才能正确工作",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启用自适应页表",
+      "predicate": "影响",
+      "object": "虚拟纹理性能",
+      "context": "自适应页表设置会影响虚拟纹理的内存使用和采样性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚拟纹理通道类型",
+      "predicate": "决定",
+      "object": "渲染路径",
+      "context": "虚拟纹理通道类型设置决定了图元是渲染到虚拟纹理还是主通道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟纹理最小覆盖",
+      "predicate": "控制",
+      "object": "剔除行为",
+      "context": "最小覆盖设置控制从虚拟纹理中剔除图元的阈值",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚拟纹理系统",
+      "predicate": "优化",
+      "object": "批处理效率",
+      "context": "虚拟纹理系统通过将光照适应单个纹理来提高批处理效率",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "图块大小",
+      "predicate": "影响",
+      "object": "虚拟纹理内存使用",
+      "context": "图块大小设置直接影响虚拟纹理的内存占用和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "反馈分辨率因子",
+      "predicate": "影响",
+      "object": "流送延迟",
+      "context": "较小的反馈分辨率因子可以减少虚拟纹理流送的延迟",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "自动虚拟纹理大小",
+      "predicate": "控制",
+      "object": "纹理自动转换",
+      "context": "该设置控制哪些尺寸的纹理会自动转换为虚拟纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟纹理各异向性过滤",
+      "predicate": "影响",
+      "object": "着色器开销",
+      "context": "启用各异向性过滤会增加使用虚拟纹理的着色器开销",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:30:36.798Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12363 字符)",
+      "timestamp": "2025-06-15T21:29:42.583Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 21982,
+    "contentLength": 12363,
+    "processingTimeMs": 54220
+  }
+}

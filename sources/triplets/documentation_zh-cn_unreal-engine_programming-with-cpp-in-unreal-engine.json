@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_programming-with-cpp-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_programming-with-cpp-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "C++类",
+      "predicate": "包含",
+      "object": "UFunction",
+      "context": "C++类中声明函数需要使用UFUNCTION宏，这是理解类结构的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C++类",
+      "predicate": "包含",
+      "object": "UProperty",
+      "context": "C++类中声明属性需要使用UPROPERTY宏，这是类成员变量的特殊声明方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C++类",
+      "predicate": "包含",
+      "object": "UStruct",
+      "context": "类中可以包含结构体作为数据组织方式，理解结构体有助于组织复杂类属性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UFunction",
+      "predicate": "实现",
+      "object": "游戏性行为",
+      "context": "UFUNCTION用于实现类的游戏性功能函数，是游戏逻辑的核心实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UProperty",
+      "predicate": "控制",
+      "object": "编辑器可见性",
+      "context": "UPROPERTY宏可以控制属性在虚幻编辑器中的显示和编辑行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UInterface",
+      "predicate": "扩展",
+      "object": "游戏性行为",
+      "context": "接口可以为不同类添加统一的额外游戏性行为，是重要的扩展机制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UStruct",
+      "predicate": "组织",
+      "object": "相关属性",
+      "context": "结构体用于组织和操作相关的属性集合，是数据管理的重要方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UPARAM",
+      "predicate": "用于",
+      "object": "蓝图暴露",
+      "context": "UPARAM宏主要用于将C++参数暴露给蓝图，是C++与蓝图交互的重要机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCLASS",
+      "predicate": "标识",
+      "object": "引擎可识别类",
+      "context": "UCLASS宏使虚幻引擎能够识别并管理C++类，是引擎集成的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "标准C++语法",
+      "predicate": "兼容",
+      "object": "虚幻引擎编程",
+      "context": "虚幻引擎支持使用标准C++语法定义类、函数和变量，这是基础编程知识",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏性类",
+      "predicate": "基于",
+      "object": "C++类",
+      "context": "游戏性类是构建在标准C++类基础上的特殊类，理解这种继承关系很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "宏关键词",
+      "predicate": "指定",
+      "object": "编辑器行为",
+      "context": "各种宏关键词可以指定类、函数等在编辑器中的具体行为，是引擎集成的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:30:32.308Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4358,
+    "contentLength": 3376,
+    "processingTimeMs": 40093
+  }
+}

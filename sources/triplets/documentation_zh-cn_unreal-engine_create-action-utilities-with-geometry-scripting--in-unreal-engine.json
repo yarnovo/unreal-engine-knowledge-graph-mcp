@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_create-action-utilities-with-geometry-scripting--in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_create-action-utilities-with-geometry-scripting--in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "几何体脚本",
+      "predicate": "用于",
+      "object": "创建操作工具",
+      "context": "几何体脚本可以与操作工具结合，创建高效的网格体编辑工作流",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "操作工具",
+      "predicate": "用于",
+      "object": "减少重复性任务",
+      "context": "操作工具可以帮助减少关卡中创建或编辑几何体时的重复性任务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "是",
+      "object": "几何体脚本的前提知识",
+      "context": "理解几何体脚本需要基本了解蓝图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体脚本插件",
+      "predicate": "需要",
+      "object": "启用",
+      "context": "使用几何体脚本功能需要先启用对应的插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor操作工具",
+      "predicate": "基于",
+      "object": "蓝图类",
+      "context": "创建操作工具需要先创建蓝图类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态网格体",
+      "predicate": "用于",
+      "object": "临时网格体编辑",
+      "context": "动态网格体可作为临时网格体进行编辑操作，避免直接修改原始静态网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "转换为",
+      "object": "动态网格体",
+      "context": "编辑前需要将静态网格体转换为动态网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态网格体",
+      "predicate": "转换回",
+      "object": "静态网格体",
+      "context": "编辑完成后需要将动态网格体转换回静态网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Apply Simplify to TriangleCount节点",
+      "predicate": "用于",
+      "object": "减少三角形数量",
+      "context": "该节点可以简化网格体至指定的三角形数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "建模模式",
+      "predicate": "用于",
+      "object": "创建测试几何体",
+      "context": "可以使用建模模式中的图元形状创建测试用的代理几何体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体脚本",
+      "predicate": "支持",
+      "object": "多种编辑操作",
+      "context": "除了简化网格体外，还可以进行弯曲变形、翻转法线等多种编辑操作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "脚本化操作工具",
+      "predicate": "可以",
+      "object": "限制特定Actor类",
+      "context": "可以控制脚本化操作只对特定类的Actor生效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态网格体池",
+      "predicate": "提供",
+      "object": "临时网格体资源",
+      "context": "动态网格体池可以请求和释放临时网格体资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体脚本",
+      "predicate": "依赖",
+      "object": "UDynamicMesh",
+      "context": "几何体脚本操作主要在UDynamicMesh上运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "操作工具",
+      "predicate": "可以",
+      "object": "批量处理资产",
+      "context": "操作工具可以同时处理多个选中的资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体脚本",
+      "predicate": "包含",
+      "object": "多种功能节点",
+      "context": "几何体脚本提供了多种功能节点用于网格体编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体Actor",
+      "predicate": "包含",
+      "object": "静态网格体组件",
+      "context": "静态网格体Actor包含静态网格体组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体组件",
+      "predicate": "引用",
+      "object": "静态网格体资产",
+      "context": "静态网格体组件引用静态网格体资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器工具蓝图",
+      "predicate": "用于",
+      "object": "创建操作工具",
+      "context": "可以通过创建编辑器工具蓝图来构建操作工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "For Each Loop节点",
+      "predicate": "用于",
+      "object": "遍历选中Actor",
+      "context": "可以使用For Each Loop节点遍历所有选中的Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:38:08.372Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (178627 字符)",
+      "timestamp": "2025-06-15T18:36:45.877Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 184591,
+    "contentLength": 178627,
+    "processingTimeMs": 82506
+  }
+}

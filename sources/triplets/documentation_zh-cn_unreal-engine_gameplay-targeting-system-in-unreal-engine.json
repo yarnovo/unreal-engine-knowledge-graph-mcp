@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_gameplay-targeting-system-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_gameplay-targeting-system-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Gameplay定位系统",
+      "predicate": "扩展",
+      "object": "Gameplay技能系统插件",
+      "context": "Gameplay定位系统是在Gameplay技能系统插件基础上扩展的功能，帮助学习者理解两者之间的继承关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay定位系统",
+      "predicate": "使用",
+      "object": "定位预设",
+      "context": "定位系统通过定位预设来定义和执行定位请求，这是系统的核心数据资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定位预设",
+      "predicate": "包含",
+      "object": "定位任务",
+      "context": "定位预设由一组定位任务组成，这些任务定义了定位请求的执行流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定位任务",
+      "predicate": "分类为",
+      "object": "选择、筛选、排序",
+      "context": "定位任务通常分为选择、筛选和排序三类，帮助学习者理解任务的功能划分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定位任务",
+      "predicate": "支持",
+      "object": "蓝图",
+      "context": "定位任务具有蓝图支持，可以通过蓝图编辑器进行自定义和扩展",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "即时定位请求",
+      "predicate": "执行方式",
+      "object": "UTargetingSubsystem::ExecuteTargetingRequest",
+      "context": "即时定位请求通过调用特定函数执行，会阻塞游戏线程直到完成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "异步定位请求",
+      "predicate": "执行方式",
+      "object": "UTargetingSubsystem::StartAsyncTargetingRequest",
+      "context": "异步定位请求通过调用特定函数执行，不会阻塞游戏线程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "异步定位请求",
+      "predicate": "适用于",
+      "object": "缓慢操作或等待Gameplay事件",
+      "context": "异步定位请求适用于需要等待服务器响应或特定Gameplay事件的情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UAsyncAction_PerformTargeting",
+      "predicate": "提供支持",
+      "object": "异步定位请求",
+      "context": "该蓝图节点提供了对异步定位请求的通用支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay定位系统",
+      "predicate": "关联",
+      "object": "Gameplay定位调试",
+      "context": "系统提供了专门的调试工具和命令，帮助开发者排查问题",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay定位系统",
+      "predicate": "关联",
+      "object": "Gameplay定位插件参考",
+      "context": "系统有详细的工程参考文档，供开发者深入理解实现细节",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定位任务",
+      "predicate": "支持",
+      "object": "内联属性编辑",
+      "context": "定位任务支持内联属性编辑，可以在不创建单独资产的情况下自定义行为",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "即时定位请求",
+      "predicate": "对比",
+      "object": "异步定位请求",
+      "context": "理解两种定位请求的执行方式和适用场景是掌握系统的重要方面",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:10:52.343Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6878,
+    "contentLength": 5076,
+    "processingTimeMs": 45329
+  }
+}

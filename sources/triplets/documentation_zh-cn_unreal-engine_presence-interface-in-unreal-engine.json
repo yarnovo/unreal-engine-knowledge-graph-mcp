@@ -1,0 +1,187 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_presence-interface-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_presence-interface-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "在线服务在线状态接口",
+      "predicate": "包含",
+      "object": "QueryPresence",
+      "context": "QueryPresence是接口提供的核心功能之一，用于查询用户在线状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务在线状态接口",
+      "predicate": "包含",
+      "object": "BatchQueryPresence",
+      "context": "BatchQueryPresence是接口提供的批量查询功能，扩展了单用户查询能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务在线状态接口",
+      "predicate": "包含",
+      "object": "UpdatePresence",
+      "context": "UpdatePresence是接口的核心状态更新功能，用于设置用户在线状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务在线状态接口",
+      "predicate": "包含",
+      "object": "PartialUpdatePresence",
+      "context": "PartialUpdatePresence是UpdatePresence的轻量级替代方案，支持部分更新",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务在线状态接口",
+      "predicate": "包含",
+      "object": "OnPresenceUpdated",
+      "context": "OnPresenceUpdated是接口提供的事件监听机制，用于响应状态变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FUserPresence",
+      "predicate": "使用",
+      "object": "EUserPresenceStatus",
+      "context": "FUserPresence结构体使用EUserPresenceStatus枚举来表示用户在线状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FUserPresence",
+      "predicate": "使用",
+      "object": "EUserPresenceJoinability",
+      "context": "FUserPresence结构体使用EUserPresenceJoinability枚举来表示用户可加入性状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FUserPresence",
+      "predicate": "使用",
+      "object": "EUserPresenceGameStatus",
+      "context": "FUserPresence结构体使用EUserPresenceGameStatus枚举来表示用户游戏状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务在线状态接口",
+      "predicate": "替代",
+      "object": "在线子系统在线状态接口",
+      "context": "文档明确说明在线服务是在线子系统的更新版本，提供类似功能但接口设计更现代",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UpdatePresence",
+      "predicate": "重命名自",
+      "object": "SetPresence",
+      "context": "文档说明SetPresence在旧版在线子系统中被重命名为UpdatePresence，更体现异步特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "QueryPresence",
+      "predicate": "扩展为",
+      "object": "BatchQueryPresence",
+      "context": "BatchQueryPresence是QueryPresence的批量版本，用于处理多用户查询场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UpdatePresence",
+      "predicate": "扩展为",
+      "object": "PartialUpdatePresence",
+      "context": "PartialUpdatePresence是UpdatePresence的轻量级版本，支持部分字段更新",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "在线服务在线状态接口",
+      "predicate": "基于",
+      "object": "在线服务插件",
+      "context": "该接口是在线服务插件的一部分，需要先理解在线服务的整体架构",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "EUserPresenceStatus",
+      "predicate": "包含",
+      "object": "Online",
+      "context": "Online是EUserPresenceStatus枚举的核心状态之一，表示用户在线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EUserPresenceStatus",
+      "predicate": "包含",
+      "object": "Offline",
+      "context": "Offline是EUserPresenceStatus枚举的基础状态，表示用户离线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EUserPresenceJoinability",
+      "predicate": "包含",
+      "object": "Public",
+      "context": "Public是EUserPresenceJoinability枚举的关键值，表示会话完全开放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EUserPresenceJoinability",
+      "predicate": "包含",
+      "object": "InviteOnly",
+      "context": "InviteOnly是重要的隐私控制选项，表示仅限邀请加入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FUserPresence",
+      "predicate": "包含",
+      "object": "RichPresenceString",
+      "context": "RichPresenceString是FUserPresence的可自定义字段，用于显示详细状态信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FUserPresence",
+      "predicate": "包含",
+      "object": "Properties",
+      "context": "Properties字段允许存储自定义键值对，扩展状态信息的表达能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务在线状态接口",
+      "predicate": "用于",
+      "object": "多人游戏社交功能",
+      "context": "该接口的核心应用场景是实现多人游戏的社交功能，如好友状态显示和加入控制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "QueryPresence",
+      "predicate": "触发",
+      "object": "OnPresenceUpdated",
+      "context": "当QueryPresence设置bListenToChanges参数时，会注册到OnPresenceUpdated事件",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T20:28:16.457Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12391 字符)",
+      "timestamp": "2025-06-15T20:27:06.116Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15817,
+    "contentLength": 12391,
+    "processingTimeMs": 70350
+  }
+}

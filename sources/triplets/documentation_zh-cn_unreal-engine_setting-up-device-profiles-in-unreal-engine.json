@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_setting-up-device-profiles-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_setting-up-device-profiles-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "设备描述",
+      "predicate": "用于",
+      "object": "设置设备配置",
+      "context": "设备描述是设置不同设备配置的核心工具，帮助开发者针对不同设备优化性能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DefaultDeviceProfiles.ini",
+      "predicate": "包含",
+      "object": "设备描述配置",
+      "context": "DefaultDeviceProfiles.ini文件是存储和管理设备描述配置的主要文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设备描述",
+      "predicate": "支持",
+      "object": "纹理池尺寸设置",
+      "context": "设备描述允许开发者设置纹理池尺寸等多种属性，优化不同设备的性能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS设备描述",
+      "predicate": "用于",
+      "object": "设定游戏分辨率",
+      "context": "iOS设备描述通过r.MobileContentScaleFactor属性调整游戏分辨率，适应不同设备",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.MobileContentScaleFactor",
+      "predicate": "控制",
+      "object": "游戏分辨率",
+      "context": "r.MobileContentScaleFactor属性直接控制iOS设备的游戏分辨率缩放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOSDeviceProfileSelector",
+      "predicate": "管理",
+      "object": "iOS设备描述",
+      "context": "iOSDeviceProfileSelector插件负责管理和选择适合的iOS设备描述",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Android设备描述",
+      "predicate": "基于",
+      "object": "层级式类目",
+      "context": "Android设备描述采用层级式类目结构，便于管理不同设备的配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AndroidDeviceProfileSelector",
+      "predicate": "管理",
+      "object": "Android设备描述",
+      "context": "AndroidDeviceProfileSelector插件负责管理和选择适合的Android设备描述",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内存桶",
+      "predicate": "用于",
+      "object": "指定平台性能",
+      "context": "内存桶机制允许开发者根据不同平台的内存性能指定不同的运行选项",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PlatformMemoryBuckets",
+      "predicate": "定义",
+      "object": "内存桶阈值",
+      "context": "PlatformMemoryBuckets部分定义了不同内存桶的最小内存阈值，用于性能分级",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内存桶",
+      "predicate": "影响",
+      "object": "纹理流送池大小",
+      "context": "内存桶设置直接影响纹理流送池的内存分配大小，优化资源使用",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内存桶",
+      "predicate": "控制",
+      "object": "纹理LOD设置",
+      "context": "内存桶可以控制纹理的LOD设置，根据设备性能调整纹理质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DeviceProfiles.ini",
+      "predicate": "关联",
+      "object": "内存桶设置",
+      "context": "DeviceProfiles.ini文件中可以指定哪些设备设置与特定内存桶相关联",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理LODGroup",
+      "predicate": "调整",
+      "object": "MaxLODSize",
+      "context": "纹理LODGroup设置可以根据内存桶调整MaxLODSize，优化内存使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "配置文件",
+      "predicate": "参考",
+      "object": "配置文件文档",
+      "context": "配置文件的使用和设置需要参考专门的配置文件文档，了解详细配置方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:45:27.275Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5144,
+    "contentLength": 3822,
+    "processingTimeMs": 53255
+  }
+}

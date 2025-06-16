@@ -1,0 +1,147 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-slate-postbuffers-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-slate-postbuffers-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Slate后缓冲区",
+      "predicate": "用于",
+      "object": "UI材质",
+      "context": "Slate后缓冲区可以对游戏场景进行取样，用于UI材质中创建视觉效果，类似于SceneColor在后期处理材质中的使用。",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate后缓冲区",
+      "predicate": "支持",
+      "object": "Slate后期处理",
+      "context": "Slate后缓冲区可以应用Slate后期处理类来处理广泛的后期处理效果，如模糊效果。",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate后缓冲区",
+      "predicate": "依赖",
+      "object": "项目设置",
+      "context": "Slate后缓冲区的配置需要在项目设置中进行，包括启用和选择后处理器类。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate后缓冲区",
+      "predicate": "支持",
+      "object": "HDR",
+      "context": "Slate后缓冲区支持HDR，但在使用HDR时需要注意材质取样方式。",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Slate后缓冲区",
+      "predicate": "包含",
+      "object": "后缓冲区更新控件",
+      "context": "后缓冲区更新控件用于在后缓冲区中捕获UI控件，确保UI元素在后缓冲区取样前被绘制。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate后缓冲区",
+      "predicate": "生成",
+      "object": "视觉效果",
+      "context": "Slate后缓冲区可以生成多种视觉效果，如模糊、渐晕、失真滤镜等。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate后处理器类",
+      "predicate": "继承",
+      "object": "USlateRHIPostBufferProcessor",
+      "context": "Slate后处理器类需要从USlateRHIPostBufferProcessor或其子类派生，以实现特定的后期处理效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate后处理器类",
+      "predicate": "用于",
+      "object": "模糊效果",
+      "context": "Slate后处理器类可以用于实现模糊效果，如高斯模糊。",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetSlatePost函数",
+      "predicate": "用于",
+      "object": "取样后缓冲区",
+      "context": "GetSlatePost函数用于在UI材质中对后缓冲区进行取样，如GetSlatePost0对Slate后缓冲区0进行取样。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UI材质",
+      "predicate": "使用",
+      "object": "GetSlatePost函数",
+      "context": "UI材质通过调用GetSlatePost函数来获取后缓冲区的取样，以实现各种视觉效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UI材质",
+      "predicate": "依赖",
+      "object": "材质域设置",
+      "context": "UI材质需要将材质域设置为“用户界面”才能正确使用后缓冲区。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后缓冲区更新控件",
+      "predicate": "控制",
+      "object": "UI控件捕获",
+      "context": "后缓冲区更新控件用于控制何时在后缓冲区中捕获UI控件，确保UI元素在后缓冲区取样前被绘制。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate FX子系统",
+      "predicate": "用于",
+      "object": "运行时修改后处理器",
+      "context": "Slate FX子系统可以在运行时修改Slate后处理器的值，如模糊强度。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate后缓冲区",
+      "predicate": "受限于",
+      "object": "性能开销",
+      "context": "Slate后缓冲区的性能开销会随着后期处理效果的复杂度增加，如模糊效果的强度。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Slate后缓冲区",
+      "predicate": "受限于",
+      "object": "缓冲区数量",
+      "context": "UE支持最多5个Slate后缓冲区，每个缓冲区可以独立配置和使用。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate后缓冲区",
+      "predicate": "受限于",
+      "object": "全局资源",
+      "context": "Slate后缓冲区和后处理器是全局资源，修改其值会影响所有使用该缓冲区的UI材质和控件。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:22:53.190Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12481 字符)",
+      "timestamp": "2025-06-15T21:22:04.676Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 20135,
+    "contentLength": 12481,
+    "processingTimeMs": 48516
+  }
+}

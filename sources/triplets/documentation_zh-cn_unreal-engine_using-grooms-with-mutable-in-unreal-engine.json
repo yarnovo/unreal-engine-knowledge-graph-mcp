@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-grooms-with-mutable-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-grooms-with-mutable-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Groom",
+      "predicate": "需要",
+      "object": "Grooms Extensions For Mutable插件",
+      "context": "要在项目中使用Groom和Mutable功能，必须启用Grooms Extensions For Mutable插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom",
+      "predicate": "绑定到",
+      "object": "骨骼网格体组件",
+      "context": "Groom组件需要绑定到由Mutable标记的骨骼网格体组件上才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom Constant节点",
+      "predicate": "用于",
+      "object": "指定Groom绑定",
+      "context": "通过创建Groom Constant节点可以指定要绑定的组件和Groom资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绑定资产",
+      "predicate": "必须匹配",
+      "object": "目标骨骼网格体",
+      "context": "绑定资产中的目标骨骼网格体必须与绑定的骨骼网格体组件中的相同",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom Constant节点",
+      "predicate": "连接到",
+      "object": "Object节点",
+      "context": "Groom Constant节点需要连接到Object节点才能生效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Group节点",
+      "predicate": "可以控制",
+      "object": "Groom Constant节点",
+      "context": "Group节点可以有条件地激活Groom Constant节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mutable生成的骨骼网格体",
+      "predicate": "必须匹配",
+      "object": "绑定资产的LOD数量",
+      "context": "Mutable生成的骨骼网格体的LOD数量必须与绑定资产中的源骨骼网格体的LOD数量相同",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "修饰符节点",
+      "predicate": "无法应用于",
+      "object": "Groom绑定的网格体组件",
+      "context": "当前版本中修饰符节点不能用于已绑定Groom的网格体组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom",
+      "predicate": "是",
+      "object": "实验性功能",
+      "context": "文档明确指出Groom与Mutable的集成是实验性功能，产品发布需谨慎使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Groom组件",
+      "predicate": "作为子级",
+      "object": "骨骼网格体组件",
+      "context": "Groom组件会作为被标记骨骼网格体组件的子级被动态创建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:17:34.420Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3999,
+    "contentLength": 3191,
+    "processingTimeMs": 28990
+  }
+}

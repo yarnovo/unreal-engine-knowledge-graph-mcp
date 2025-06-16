@@ -1,0 +1,203 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_remote-procedure-calls-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_remote-procedure-calls-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "远程程序调用(RPC)",
+      "predicate": "用于",
+      "object": "网络连接",
+      "context": "RPC帮助客户端和服务器通过网络连接相互调用函数，是网络通信的重要机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程程序调用(RPC)",
+      "predicate": "补充",
+      "object": "复制属性",
+      "context": "RPC是复制属性(Replicated/ReplicatedUsing)的重要补充机制，用于执行不可靠的Gameplay事件",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程程序调用(RPC)",
+      "predicate": "依赖",
+      "object": "Actor所有权",
+      "context": "RPC的执行位置由Actor所有权决定，理解所有权对正确使用RPC至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Client RPC",
+      "predicate": "属于",
+      "object": "RPC类型",
+      "context": "Client RPC是四种RPC类型之一，在所属客户端连接上执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Server RPC",
+      "predicate": "属于",
+      "object": "RPC类型",
+      "context": "Server RPC是四种RPC类型之一，在服务器上执行且必须从拥有Actor的客户端调用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Remote RPC",
+      "predicate": "属于",
+      "object": "RPC类型",
+      "context": "Remote RPC是四种RPC类型之一，在连接的远程端执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NetMulticast RPC",
+      "predicate": "属于",
+      "object": "RPC类型",
+      "context": "NetMulticast RPC是四种RPC类型之一，在服务器和所有相关客户端上执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RPC",
+      "predicate": "包含",
+      "object": "基函数",
+      "context": "所有RPC都由头文件中定义的基函数和源文件中实现的实现函数组成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RPC",
+      "predicate": "包含",
+      "object": "实现函数",
+      "context": "所有RPC都由头文件中定义的基函数和源文件中实现的实现函数组成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RPC实现",
+      "predicate": "依赖",
+      "object": "虚幻引擎反射系统",
+      "context": "RPC的实现依赖虚幻引擎的反射系统和复制系统管理底层细节",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "单播RPC",
+      "predicate": "包含",
+      "object": "Client RPC",
+      "context": "Client、Server和Remote RPC都属于单播RPC，在单台机器上执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单播RPC",
+      "predicate": "包含",
+      "object": "Server RPC",
+      "context": "Client、Server和Remote RPC都属于单播RPC，在单台机器上执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单播RPC",
+      "predicate": "包含",
+      "object": "Remote RPC",
+      "context": "Client、Server和Remote RPC都属于单播RPC，在单台机器上执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "组播RPC",
+      "predicate": "等同于",
+      "object": "NetMulticast RPC",
+      "context": "NetMulticast RPC是唯一的组播RPC类型，在多台机器上执行",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RPC",
+      "predicate": "具有",
+      "object": "可靠性",
+      "context": "RPC可以被标记为可靠或不可靠，影响其执行方式和顺序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可靠RPC",
+      "predicate": "对比",
+      "object": "不可靠RPC",
+      "context": "可靠RPC保证有序执行但消耗更多带宽，不可靠RPC不保证顺序但更节省资源",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Server RPC",
+      "predicate": "支持",
+      "object": "验证函数",
+      "context": "Server RPC可以添加验证函数实现信任和验证网络策略",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RPC",
+      "predicate": "支持",
+      "object": "发送策略",
+      "context": "可以为RPC指定不同的发送策略(Default/ForceSend/ForceQueue)影响其网络行为",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "RPC",
+      "predicate": "可用于",
+      "object": "蓝图",
+      "context": "除了C++外，RPC功能也可以在蓝图中实现，使用复制的蓝图事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图RPC",
+      "predicate": "继承",
+      "object": "RPC规则",
+      "context": "蓝图中的RPC遵循与C++中相同的规则和限制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "RPC",
+      "predicate": "适用于",
+      "object": "Gameplay事件",
+      "context": "RPC主要用于执行不可靠的Gameplay事件，如播放声音、生成粒子等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RPC执行",
+      "predicate": "依赖",
+      "object": "所属连接",
+      "context": "RPC的执行位置和有效性取决于调用Actor的所属连接状态",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "RPC",
+      "predicate": "基于",
+      "object": "Actor系统",
+      "context": "RPC必须从Actor或Actor组件调用，是虚幻引擎Actor系统的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:36:26.010Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13431 字符)",
+      "timestamp": "2025-06-15T20:35:10.500Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19051,
+    "contentLength": 13431,
+    "processingTimeMs": 75521
+  }
+}

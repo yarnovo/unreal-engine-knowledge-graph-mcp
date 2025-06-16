@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-cameras-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-cameras-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "摄像机Actor",
+      "predicate": "属于",
+      "object": "虚幻引擎",
+      "context": "摄像机Actor是虚幻引擎中用于创建和管理摄像机视角的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机Actor",
+      "predicate": "包含",
+      "object": "细节面板",
+      "context": "摄像机Actor的属性通过细节面板进行配置，这是学习摄像机设置的重要入口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "包含",
+      "object": "Camera Settings",
+      "context": "Camera Settings是细节面板中控制摄像机基础参数的核心模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Camera Settings",
+      "predicate": "控制",
+      "object": "投影类型",
+      "context": "通过Camera Settings可以设置不同的投影类型，这是理解摄像机工作原理的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机Actor",
+      "predicate": "实现",
+      "object": "玩家视角",
+      "context": "摄像机Actor可以配置为玩家视角，这是游戏开发中第一人称/第三人称视角的实现基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机Actor",
+      "predicate": "用于",
+      "object": "过场动画",
+      "context": "摄像机Actor是创建过场动画和电影效果的核心工具，与Sequencer系统配合使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机Actor",
+      "predicate": "支持",
+      "object": "后处理效果",
+      "context": "通过细节面板可以配置多种后处理效果，如泛光、景深等，增强视觉表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后处理效果",
+      "predicate": "包含",
+      "object": "泛光(Bloom)",
+      "context": "泛光是重要的后处理效果之一，模拟人眼对强光的视觉反应",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后处理效果",
+      "predicate": "包含",
+      "object": "景深(Depth Of Field)",
+      "context": "景深效果模拟真实摄像机的焦点特性，是电影化表现的重要手段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机Actor",
+      "predicate": "可与",
+      "object": "弹簧臂组件",
+      "context": "弹簧臂组件常与摄像机配合使用，实现第三人称视角的碰撞避免功能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机Actor",
+      "predicate": "可切换",
+      "object": "多摄像机视角",
+      "context": "游戏开发中经常需要在多个固定摄像机视角间切换，这是关卡设计的重要技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机Actor",
+      "predicate": "基于",
+      "object": "ACameraActor类",
+      "context": "在C++开发中，摄像机Actor基于ACameraActor类实现，这是理解其编程接口的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机Actor",
+      "predicate": "可扩展为",
+      "object": "蓝图类",
+      "context": "摄像机Actor可以创建为蓝图类，便于可视化编程和快速迭代",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "包含",
+      "object": "Auto Player Activation",
+      "context": "该设置控制摄像机如何自动关联到玩家控制器，是多人游戏开发的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "后处理效果",
+      "predicate": "包含",
+      "object": "环境光遮挡(Ambient Occlusion)",
+      "context": "环境光遮挡增强场景的阴影细节，是提升画面真实感的重要技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机Actor",
+      "predicate": "关联",
+      "object": "玩家控制器",
+      "context": "摄像机需要与玩家控制器配合才能实现玩家视角控制，这是游戏逻辑的重要组成部分",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "摄像机组件",
+      "predicate": "可添加到",
+      "object": "角色类",
+      "context": "摄像机组件可以添加到角色类中，实现角色特定的视角控制逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态摄像机",
+      "predicate": "用于",
+      "object": "固定视角场景",
+      "context": "静态摄像机适用于不需要移动的固定视角场景，如监控视角或特定叙事镜头",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态模糊",
+      "predicate": "属于",
+      "object": "后处理效果",
+      "context": "动态模糊是模拟快速运动视觉效果的重要后处理技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全局光照",
+      "predicate": "影响",
+      "object": "场景亮度",
+      "context": "全局光照设置直接影响场景的整体照明效果，是环境光照的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:14:24.247Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10405,
+    "contentLength": 7041,
+    "processingTimeMs": 55059
+  }
+}

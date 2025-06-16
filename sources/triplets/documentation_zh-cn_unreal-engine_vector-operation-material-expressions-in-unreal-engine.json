@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_vector-operation-material-expressions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_vector-operation-material-expressions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "AppendVector",
+      "predicate": "组合",
+      "object": "常量",
+      "context": "AppendVector可以将两个常量值组合成双通道向量，帮助学习者理解如何构建更复杂的向量数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AppendVector",
+      "predicate": "生成",
+      "object": "Constant2Vector",
+      "context": "通过AppendVector可以生成Constant2Vector，展示如何从简单数据构建复杂向量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ComponentMask",
+      "predicate": "选择",
+      "object": "通道",
+      "context": "ComponentMask允许选择特定通道，帮助学习者理解如何提取和处理向量中的特定分量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CrossProduct",
+      "predicate": "计算",
+      "object": "垂直向量",
+      "context": "CrossProduct用于计算两个向量的垂直向量，帮助学习者理解空间向量关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DeriveNormalZ",
+      "predicate": "派生",
+      "object": "切线空间法线",
+      "context": "DeriveNormalZ可以从X和Y分量派生切线空间法线的Z分量，展示法线计算的数学原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DotProduct",
+      "predicate": "计算",
+      "object": "向量投影",
+      "context": "DotProduct计算向量投影长度，帮助学习者理解向量相似性和衰减计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Normalize",
+      "predicate": "转换",
+      "object": "单位向量",
+      "context": "Normalize将向量转换为单位向量，展示向量标准化的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Transform",
+      "predicate": "转换",
+      "object": "坐标系",
+      "context": "Transform可以在不同坐标系间转换向量，帮助学习者理解空间变换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Transform",
+      "predicate": "用于",
+      "object": "立方体贴图取样",
+      "context": "Transform可将法线转换到全局空间用于立方体贴图取样，展示实际应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "TransformPosition",
+      "predicate": "转换",
+      "object": "全局空间坐标",
+      "context": "TransformPosition可将位置转换到全局空间，帮助学习者获取材质中的全局坐标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ComponentMask",
+      "predicate": "配合使用",
+      "object": "Transform",
+      "context": "ComponentMask常与Transform配合处理转换后的向量分量，展示表达式组合使用方式",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "向量操作表达式",
+      "predicate": "属于",
+      "object": "材质表达式",
+      "context": "这些向量操作类表达式都属于材质表达式系统，帮助学习者建立分类认知",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Normalize",
+      "predicate": "不需要用于",
+      "object": "法线材质输出",
+      "context": "文档明确指出插入法线材质输出的表达式不需要归一化，这是重要的使用注意事项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Transform",
+      "predicate": "不能正确处理",
+      "object": "不一致比例缩放",
+      "context": "这是Transform的重要限制条件，学习者需要特别注意",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:27:51.010Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10954,
+    "contentLength": 6938,
+    "processingTimeMs": 38776
+  }
+}

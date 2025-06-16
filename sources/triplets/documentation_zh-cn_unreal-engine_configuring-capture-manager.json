@@ -1,0 +1,69 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_configuring-capture-manager",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_configuring-capture-manager.md",
+  "triples": [
+    {
+      "subject": "Capture Manager",
+      "predicate": "包含",
+      "object": "Live Link Hub Settings",
+      "context": "Capture Manager在Live Link Hub中有特定设置，这些设置影响take的导入方式，理解这些设置有助于掌握Capture Manager在Live Link Hub中的功能配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Capture Manager",
+      "predicate": "包含",
+      "object": "Unreal Engine Editor Preferences",
+      "context": "Capture Manager在Unreal Engine编辑器中有特定偏好设置，这些设置影响其行为，了解这些偏好设置有助于在Unreal Engine中正确配置Capture Manager",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link Hub Settings",
+      "predicate": "影响",
+      "object": "take ingestion",
+      "context": "Live Link Hub中的设置直接影响take的导入过程，理解这种影响关系有助于调试和优化数据捕获流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Engine Editor Preferences",
+      "predicate": "影响",
+      "object": "take ingestion",
+      "context": "Unreal Engine编辑器中的偏好设置会影响take的导入行为，掌握这种关系有助于根据项目需求调整编辑器设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Capture Manager",
+      "predicate": "用于",
+      "object": "take ingestion",
+      "context": "Capture Manager的主要功能是管理take的导入过程，理解这一核心功能是学习Capture Manager的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link Hub",
+      "predicate": "包含",
+      "object": "Capture Manager settings",
+      "context": "Live Link Hub包含Capture Manager的特定设置，这种包含关系表明Live Link Hub是配置Capture Manager的一个环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Engine",
+      "predicate": "包含",
+      "object": "Capture Manager settings",
+      "context": "Unreal Engine包含Capture Manager的编辑器偏好设置，这种包含关系表明Unreal Engine是配置Capture Manager的另一个重要环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:30:02.639Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 1464,
+    "contentLength": 1280,
+    "processingTimeMs": 31303
+  }
+}

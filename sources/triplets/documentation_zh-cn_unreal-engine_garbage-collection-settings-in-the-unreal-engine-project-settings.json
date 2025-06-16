@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_garbage-collection-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_garbage-collection-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "垃圾回收",
+      "predicate": "包含",
+      "object": "通用设置",
+      "context": "通用设置是垃圾回收功能的基础配置部分，了解这部分有助于掌握垃圾回收的基本行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "垃圾回收",
+      "predicate": "包含",
+      "object": "优化设置",
+      "context": "优化设置是提升垃圾回收性能的高级配置，学习这些设置可以优化项目性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "垃圾回收",
+      "predicate": "包含",
+      "object": "调试设置",
+      "context": "调试设置用于检测垃圾回收相关问题，对开发调试非常重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "清除待杀死对象之间的间隔时间",
+      "predicate": "影响",
+      "object": "垃圾回收性能",
+      "context": "该参数控制垃圾回收的频率，直接影响内存管理效率",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "在GC时清空流送",
+      "predicate": "影响",
+      "object": "内存使用",
+      "context": "启用此选项会在垃圾回收时释放流送资源，影响内存占用但可能降低性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "允许并行GC",
+      "predicate": "提升",
+      "object": "垃圾回收效率",
+      "context": "并行GC利用多线程提高回收速度，是多核处理器上的重要优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启用增量BeginDestroy",
+      "predicate": "优化",
+      "object": "帧率稳定性",
+      "context": "增量销毁避免单帧性能波动，对保持流畅游戏体验很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "创建垃圾回收器UObject群集",
+      "predicate": "提升",
+      "object": "垃圾回收性能",
+      "context": "对象群集化处理可以减少GC遍历次数，是重要的优化技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产群集",
+      "predicate": "属于",
+      "object": "UObject群集",
+      "context": "资产群集是UObject群集的一种特殊类型，专门用于资产管理",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Actor群集",
+      "predicate": "属于",
+      "object": "UObject群集",
+      "context": "Actor群集是UObject群集的一种特殊类型，专门用于关卡中的Actor管理",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "蓝图群集",
+      "predicate": "属于",
+      "object": "UObject群集",
+      "context": "蓝图群集是UObject群集的一种特殊类型，专门用于蓝图系统",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "启用待杀死",
+      "predicate": "控制",
+      "object": "PendingKill对象处理",
+      "context": "该设置决定是否自动处理标记为PendingKill的对象，影响内存回收策略",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "验证FGCObject名称",
+      "predicate": "用于",
+      "object": "调试FGCObject",
+      "context": "该调试选项确保FGCObject派生类正确实现必要函数，帮助发现潜在问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "验证UObject是否非FGCObject",
+      "predicate": "用于",
+      "object": "检测类继承问题",
+      "context": "该调试选项帮助发现不正确的类继承关系，避免潜在的内存管理问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "永久对象池",
+      "predicate": "影响",
+      "object": "内存占用",
+      "context": "永久对象池大小设置直接影响应用程序的基础内存占用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UObject最大数量限制",
+      "predicate": "控制",
+      "object": "内存使用上限",
+      "context": "这些限制设置帮助控制应用程序的最大内存使用量，对性能优化很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "多线程破坏",
+      "predicate": "提升",
+      "object": "内存释放效率",
+      "context": "使用工作线程释放内存可以减轻主线程负担，提高整体性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "DisregardForGC",
+      "predicate": "优化",
+      "object": "专用服务器性能",
+      "context": "在专用服务器上禁用此优化可以减少内存占用，但可能影响性能",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "GC群集",
+      "predicate": "包含",
+      "object": "最小GC群集大小",
+      "context": "最小群集大小设置影响群集化策略的效果，是重要的性能调优参数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:11:16.907Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4335,
+    "contentLength": 2837,
+    "processingTimeMs": 69893
+  }
+}

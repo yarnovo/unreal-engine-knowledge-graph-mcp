@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_building-your-ui-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_building-your-ui-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "UMG UI设计器",
+      "predicate": "用于",
+      "object": "创建控件蓝图",
+      "context": "UMG UI设计器是创建和设计控件蓝图的主要工具，帮助学习者理解UI元素的视觉设计过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件蓝图",
+      "predicate": "包含",
+      "object": "UMG插槽",
+      "context": "控件蓝图由各种UMG插槽组成，理解插槽是掌握控件布局的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件组件",
+      "predicate": "基于",
+      "object": "控件蓝图",
+      "context": "控件组件是控件蓝图在3D场景中的实例化表现，这种关系帮助理解UI从设计到实现的转换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件交互组件",
+      "predicate": "控制",
+      "object": "控件组件",
+      "context": "控件交互组件专门用于与3D场景中的控件组件交互，这对理解VR/AR中的UI交互至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件模板",
+      "predicate": "扩展",
+      "object": "控件蓝图",
+      "context": "控件模板是预制的控件蓝图，学习模板可以加速UI开发流程",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UMG",
+      "predicate": "包含",
+      "object": "UMG UI设计器",
+      "context": "UMG是虚幻引擎的UI系统，设计器是其核心工具之一，理解这种包含关系有助于系统学习UI工作流",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG",
+      "predicate": "包含",
+      "object": "控件蓝图",
+      "context": "控件蓝图是UMG系统的基础构建块，这种关系对理解UI架构很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG插槽",
+      "predicate": "影响",
+      "object": "UI布局",
+      "context": "不同类型的UMG插槽决定了UI元素的布局方式，这是学习UI设计的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "控件蓝图",
+      "predicate": "实现",
+      "object": "UI功能逻辑",
+      "context": "控件蓝图不仅包含视觉元素，还包含UI的功能逻辑实现，这对全面理解UI开发很关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件组件",
+      "predicate": "用于",
+      "object": "3D场景UI",
+      "context": "控件组件专门用于在3D游戏场景中显示UI，区别于屏幕空间UI，这对理解不同UI类型很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:17:47.904Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2894,
+    "contentLength": 2404,
+    "processingTimeMs": 41423
+  }
+}

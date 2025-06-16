@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-materials-with-static-meshes-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-materials-with-static-meshes-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "静态网格体",
+      "predicate": "需要",
+      "object": "材质",
+      "context": "静态网格体在关卡中可见时，必须应用某种类型的材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "用于",
+      "object": "修改静态网格体实例材质",
+      "context": "通过细节面板可以更改关卡中特定静态网格体实例的材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体编辑器",
+      "predicate": "用于",
+      "object": "修改静态网格体默认材质",
+      "context": "在静态网格体编辑器中可以更改静态网格体的默认材质，影响所有后续实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "初学者内容包",
+      "predicate": "包含",
+      "object": "静态网格体资源",
+      "context": "初学者内容包提供了教程中需要的静态网格体资源，如SM_Chair",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "用于",
+      "object": "访问静态网格体资源",
+      "context": "内容浏览器是查找和管理静态网格体等资源的主要界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体实例",
+      "predicate": "继承",
+      "object": "静态网格体默认材质",
+      "context": "静态网格体实例默认使用静态网格体的默认材质，除非单独修改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "位于",
+      "object": "Props文件夹",
+      "context": "在初学者内容包中，静态网格体如SM_Chair通常位于Props文件夹中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体编辑器",
+      "predicate": "包含",
+      "object": "细节面板",
+      "context": "静态网格体编辑器中也有细节面板，用于编辑静态网格体的默认属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质",
+      "predicate": "应用于",
+      "object": "静态网格体",
+      "context": "材质决定了静态网格体的外观表现，是可视化的重要组成部分",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目创建",
+      "predicate": "需要",
+      "object": "初学者内容包",
+      "context": "为了跟随本教程，创建项目时需要包含初学者内容包",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:19:09.638Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8063,
+    "contentLength": 5103,
+    "processingTimeMs": 28332
+  }
+}

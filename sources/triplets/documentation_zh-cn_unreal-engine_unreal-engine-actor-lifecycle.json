@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-engine-actor-lifecycle",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-engine-actor-lifecycle.md",
+  "triples": [
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "UActorComponent",
+      "context": "Actor由多个组件组成，组件初始化是Actor生命周期的重要部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UWorld",
+      "predicate": "生成",
+      "object": "Actor",
+      "context": "UWorld::SpawnActor是生成Actor的主要方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor",
+      "predicate": "包含生命周期阶段",
+      "object": "BeginPlay",
+      "context": "BeginPlay是Actor生命周期中游戏逻辑开始执行的标志性阶段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor",
+      "predicate": "包含生命周期阶段",
+      "object": "EndPlay",
+      "context": "EndPlay标志着Actor生命周期的结束，处理清理逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor",
+      "predicate": "包含生命周期阶段",
+      "object": "PostInitializeComponents",
+      "context": "在组件初始化完成后调用，是Actor初始化的重要阶段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ULevel",
+      "predicate": "管理",
+      "object": "Actor初始化",
+      "context": "ULevel::RouteActorInitialize负责协调Actor的初始化流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "垃圾回收",
+      "predicate": "销毁",
+      "object": "Actor",
+      "context": "被标记为RF_PendingKill的Actor会在垃圾回收时被销毁",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UObject",
+      "predicate": "继承",
+      "object": "AActor",
+      "context": "AActor继承自UObject，共享基础对象功能如垃圾回收",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "延迟生成",
+      "predicate": "扩展",
+      "object": "Actor生成流程",
+      "context": "UWorld::SpawnActorDeferred允许在最终确定前配置Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流送",
+      "predicate": "触发",
+      "object": "Actor加载",
+      "context": "关卡流送会加载/卸载Actor，影响其生命周期",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor::Destroy",
+      "predicate": "触发",
+      "object": "AActor::EndPlay",
+      "context": "手动调用Destroy会启动包含EndPlay的销毁流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UActorComponent::InitializeComponent",
+      "predicate": "前置",
+      "object": "AActor::PostInitializeComponents",
+      "context": "组件初始化完成后才会调用Actor的PostInitializeComponents",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "垃圾回收群集",
+      "predicate": "优化",
+      "object": "垃圾回收性能",
+      "context": "群集处理减少了垃圾回收的时间和内存抖动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor::OnConstruction",
+      "predicate": "用于",
+      "object": "蓝图Actor构建",
+      "context": "蓝图Actor的组件创建和变量初始化在此阶段完成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UEngine::LoadMap",
+      "predicate": "触发",
+      "object": "从磁盘加载Actor",
+      "context": "加载地图时会从磁盘加载关卡中的Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FWeakObjectPtr",
+      "predicate": "替代",
+      "object": "手动检查PendingKill",
+      "context": "推荐使用FWeakObjectPtr来安全引用可能被销毁的Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PostLoad",
+      "predicate": "互斥",
+      "object": "PostActorCreated",
+      "context": "这两个初始化方法不会在同一个Actor生命周期中同时调用",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UAISystemBase",
+      "predicate": "准备",
+      "object": "Actor游戏逻辑",
+      "context": "InitializeActorsForPlay为Actor的游戏逻辑执行做准备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor::PreInitializeComponents",
+      "predicate": "前置",
+      "object": "UActorComponent::InitializeComponent",
+      "context": "在初始化组件之前会先调用PreInitializeComponents",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "垃圾回收设置",
+      "predicate": "影响",
+      "object": "Actor销毁行为",
+      "context": "项目设置中的垃圾回收配置可以改变Actor的销毁方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:07:49.808Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9949 字符)",
+      "timestamp": "2025-06-15T21:06:57.638Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13455,
+    "contentLength": 9949,
+    "processingTimeMs": 52173
+  }
+}

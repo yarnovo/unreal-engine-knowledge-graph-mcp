@@ -1,0 +1,85 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-distance-field-ambient-occlusion-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-distance-field-ambient-occlusion-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "距离场环境光遮蔽",
+      "predicate": "基于",
+      "object": "网格体距离场",
+      "context": "DFAO使用网格体距离场来计算可移动静态网格体的环境光遮蔽，这是其核心技术基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "距离场环境光遮蔽",
+      "predicate": "替代",
+      "object": "屏幕空间环境光遮蔽",
+      "context": "DFAO克服了SSAO只能在屏幕空间和可见深度工作的局限性，提供更全面的动态AO解决方案",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "距离场环境光遮蔽",
+      "predicate": "扩展",
+      "object": "预计算照明",
+      "context": "DFAO不仅适用于动态照明场景，还能增强预计算照明的效果，弥补其对静态对象的限制",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "天空光照",
+      "predicate": "控制",
+      "object": "距离场环境光遮蔽",
+      "context": "将天空光照设为可移动状态会自动启用DFAO，这是DFAO的主要激活方式",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "生成网格体距离场",
+      "predicate": "前置条件",
+      "object": "距离场环境光遮蔽",
+      "context": "必须在项目设置中启用网格体距离场生成才能使用DFAO功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "距离场环境光遮蔽",
+      "predicate": "影响",
+      "object": "场景真实感",
+      "context": "DFAO通过计算物体间的距离场遮蔽关系，显著提升场景的光照真实感和深度感知",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "天空光照",
+      "predicate": "包含设置",
+      "object": "距离场环境光遮蔽参数",
+      "context": "天空光照的细节面板包含DFAO的专属设置，如遮蔽精度、色调和对比度控制等",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "可移动静态网格体",
+      "predicate": "支持",
+      "object": "距离场环境光遮蔽",
+      "context": "DFAO特别适用于处理可移动静态网格体的动态遮蔽效果，这是其区别于预计算AO的关键优势",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "距离场环境光遮蔽",
+      "predicate": "属于",
+      "object": "动态照明系统",
+      "context": "DFAO是虚幻引擎动态照明解决方案的重要组成部分，与实时阴影等技术协同工作",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T21:16:28.323Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5269,
+    "contentLength": 3793,
+    "processingTimeMs": 33195
+  }
+}

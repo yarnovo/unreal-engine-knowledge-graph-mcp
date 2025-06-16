@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_ray-tracing-performance-guide-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_ray-tracing-performance-guide-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "光线追踪",
+      "predicate": "使用",
+      "object": "包围体层级（BVH）",
+      "context": "光线追踪通过BVH加速光线遍历，BVH是光线追踪性能优化的核心数据结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "包围体层级（BVH）",
+      "predicate": "包含",
+      "object": "顶层加速结构（TLAS）",
+      "context": "BVH分为两层结构，TLAS包含场景中所有网格体实例的引用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "包围体层级（BVH）",
+      "predicate": "包含",
+      "object": "底层加速结构（BLAS）",
+      "context": "BVH的底层结构BLAS存储网格体的具体几何数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光线追踪",
+      "predicate": "产生开销",
+      "object": "BLAS构建",
+      "context": "动态网格体需要每帧重建BLAS，这是主要性能开销之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光线追踪",
+      "predicate": "产生开销",
+      "object": "TLAS构建",
+      "context": "每帧都需要重建TLAS，影响渲染线程和GPU性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光线追踪",
+      "predicate": "产生开销",
+      "object": "光线遍历",
+      "context": "每条光线都需要遍历加速结构，计算击中点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "影响",
+      "object": "BLAS构建开销",
+      "context": "多边形数量多的骨骼网格体会显著增加BLAS构建开销",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界位置偏移（WPO）",
+      "predicate": "需要",
+      "object": "动态BLAS重建",
+      "context": "使用WPO的静态网格体需要动态更新BLAS",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基于引用的常驻系统",
+      "predicate": "优化",
+      "object": "光线追踪内存",
+      "context": "该系统只分配被TLAS引用的BLAS，减少内存占用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光线追踪模式",
+      "predicate": "包含",
+      "object": "内联模式",
+      "context": "内联模式只启用基本光线追踪功能，节省资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光线追踪模式",
+      "predicate": "包含",
+      "object": "完整模式",
+      "context": "完整模式支持所有光线追踪功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "剔除",
+      "predicate": "优化",
+      "object": "TLAS构建",
+      "context": "通过剔除不可见对象减少TLAS中的实例数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体重叠",
+      "predicate": "增加",
+      "object": "光线遍历开销",
+      "context": "重叠的网格体会导致光线需要遍历更多几何体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光线追踪质量切换节点",
+      "predicate": "优化",
+      "object": "击中着色开销",
+      "context": "该材质节点可以提供更简单的着色实现，降低光线追踪开销",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远场",
+      "predicate": "使用",
+      "object": "HLOD网格体",
+      "context": "远场渲染使用世界分区生成的HLOD网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "性能调试可视化",
+      "predicate": "显示",
+      "object": "光线追踪热图",
+      "context": "帮助开发者识别性能瓶颈区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "遍历调试可视化",
+      "predicate": "分析",
+      "object": "BVH遍历效率",
+      "context": "帮助开发者优化场景的BVH结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen",
+      "predicate": "使用",
+      "object": "硬件光线追踪",
+      "context": "Lumen全局光照和反射依赖光线追踪技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光线追踪调试可视化",
+      "predicate": "包含",
+      "object": "Picker模式",
+      "context": "用于检查特定几何体和实例的信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光线追踪调试可视化",
+      "predicate": "包含",
+      "object": "动态实例模式",
+      "context": "区分显示静态和动态实例，帮助性能分析",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:33:29.713Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15857 字符)",
+      "timestamp": "2025-06-15T20:32:31.632Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 25485,
+    "contentLength": 15857,
+    "processingTimeMs": 58085
+  }
+}

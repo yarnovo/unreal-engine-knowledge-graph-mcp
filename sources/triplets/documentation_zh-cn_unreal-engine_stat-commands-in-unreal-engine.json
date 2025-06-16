@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_stat-commands-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_stat-commands-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Stat命令",
+      "predicate": "用于",
+      "object": "性能分析",
+      "context": "Stat命令是虚幻引擎中用于实时监控和分析性能的工具，帮助开发者定位性能瓶颈",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PIE模式",
+      "predicate": "支持",
+      "object": "Stat命令",
+      "context": "开发者可以在编辑器运行(PIE)模式下使用Stat命令进行实时性能分析",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI",
+      "predicate": "包含",
+      "object": "AI_EQS",
+      "context": "AI_EQS是AI系统的一部分，专门用于环境查询系统的性能分析",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "GPU",
+      "predicate": "关联",
+      "object": "GPUParticles",
+      "context": "GPUParticles命令专门用于分析GPU粒子系统的性能表现",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡流送",
+      "predicate": "通过",
+      "object": "stat levels",
+      "context": "stat levels命令专门用于监控和分析关卡流送的状态和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StartFile",
+      "predicate": "配合",
+      "object": "StopFile",
+      "context": "StartFile和StopFile是一对命令，分别用于开始和停止性能数据的采集和记录",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "会话前端分析器",
+      "predicate": "分析",
+      "object": "StartFile生成的数据",
+      "context": "StartFile生成的性能数据可以导入会话前端分析器进行详细分析",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "stat unit",
+      "predicate": "显示",
+      "object": "线程性能",
+      "context": "stat unit命令可以显示Game线程、Draw线程和GPU的性能数据，帮助定位瓶颈",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态分辨率",
+      "predicate": "关联",
+      "object": "DynRes",
+      "context": "DynRes统计数据会显示动态分辨率的主要和次要屏幕百分比",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "渲染性能",
+      "predicate": "通过",
+      "object": "stat LightRendering",
+      "context": "stat LightRendering命令专门用于分析光照和阴影渲染的性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内存分析",
+      "predicate": "通过",
+      "object": "stat Memory",
+      "context": "stat Memory命令用于分析引擎各子系统的内存使用情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理系统",
+      "predicate": "分析",
+      "object": "stat Physics",
+      "context": "stat Physics命令专门用于分析物理系统的性能表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UI性能",
+      "predicate": "通过",
+      "object": "stat UI",
+      "context": "stat UI命令用于分析用户界面的性能表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频系统",
+      "predicate": "分析",
+      "object": "stat Audio",
+      "context": "stat Audio命令用于分析音频系统的性能表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导航系统",
+      "predicate": "分析",
+      "object": "stat Navigation",
+      "context": "stat Navigation命令用于分析导航系统的性能和内存使用情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子系统",
+      "predicate": "分析",
+      "object": "stat Particles",
+      "context": "stat Particles命令用于分析粒子系统的性能表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流送资源",
+      "predicate": "分析",
+      "object": "stat Streaming",
+      "context": "stat Streaming命令用于分析资源流送的基本统计数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "着色器编译",
+      "predicate": "分析",
+      "object": "stat ShaderCompiling",
+      "context": "stat ShaderCompiling命令用于分析着色器编译的性能表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "垃圾回收",
+      "predicate": "分析",
+      "object": "stat GC",
+      "context": "stat GC命令用于分析垃圾回收系统的性能表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络系统",
+      "predicate": "分析",
+      "object": "stat NET",
+      "context": "stat NET命令用于分析网络系统的性能表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:54:36.618Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11293 字符)",
+      "timestamp": "2025-06-15T20:53:43.996Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17404,
+    "contentLength": 11293,
+    "processingTimeMs": 52624
+  }
+}

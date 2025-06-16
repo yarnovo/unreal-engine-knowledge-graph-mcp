@@ -1,0 +1,323 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_BlueprintAPI",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_BlueprintAPI.md",
+  "triples": [
+    {
+      "subject": "Blueprint",
+      "predicate": "包含",
+      "object": "Blueprint Editor",
+      "context": "Blueprint Editor是用于编辑Blueprint的工具，学习Blueprint需要了解其编辑器功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blueprint",
+      "predicate": "包含",
+      "object": "Blueprint Upgrade Tools",
+      "context": "Blueprint Upgrade Tools用于升级Blueprint版本，是Blueprint维护的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Animation",
+      "predicate": "包含",
+      "object": "Animation Blueprint Library",
+      "context": "Animation Blueprint Library提供动画相关的Blueprint函数库，是动画系统的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Animation",
+      "predicate": "包含",
+      "object": "Anim Notify",
+      "context": "Anim Notify是动画系统中用于触发事件的重要机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI",
+      "predicate": "包含",
+      "object": "Blackboard",
+      "context": "Blackboard是AI系统中用于存储和共享数据的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI",
+      "predicate": "包含",
+      "object": "EQS",
+      "context": "EQS(Environment Query System)是AI决策的重要系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay",
+      "predicate": "包含",
+      "object": "Gameplay Abilities",
+      "context": "Gameplay Abilities系统是构建游戏玩法的基础框架",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay",
+      "predicate": "包含",
+      "object": "Gameplay Tags",
+      "context": "Gameplay Tags用于标记和分类游戏对象和行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Physics",
+      "predicate": "包含",
+      "object": "Chaos Physics",
+      "context": "Chaos是Unreal Engine的物理模拟系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Physics",
+      "predicate": "包含",
+      "object": "Physics Control",
+      "context": "Physics Control提供对物理模拟的精细控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG",
+      "predicate": "包含",
+      "object": "Widget",
+      "context": "Widget是UMG(Unreal Motion Graphics)系统中的基本UI元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG",
+      "predicate": "包含",
+      "object": "Canvas Panel",
+      "context": "Canvas Panel是UMG中用于布局UI的容器组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara",
+      "predicate": "包含",
+      "object": "Niagara Actor",
+      "context": "Niagara Actor是放置Niagara粒子系统的游戏对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara",
+      "predicate": "包含",
+      "object": "Niagara Sim Cache",
+      "context": "Niagara Sim Cache用于缓存和重放粒子模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Level Sequence",
+      "predicate": "包含",
+      "object": "Sequencer",
+      "context": "Sequencer是创建和编辑Level Sequence的工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Level Sequence",
+      "predicate": "包含",
+      "object": "Movie Scene",
+      "context": "Movie Scene是Level Sequence中存储动画数据的容器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Control Rig",
+      "predicate": "包含",
+      "object": "Rig VM",
+      "context": "Rig VM是Control Rig的虚拟机，执行动画控制逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Control Rig",
+      "predicate": "包含",
+      "object": "Rig Hierarchy",
+      "context": "Rig Hierarchy定义了Control Rig的骨骼层级结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Material",
+      "predicate": "包含",
+      "object": "Material Designer",
+      "context": "Material Designer是创建和编辑材质的工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Material",
+      "predicate": "包含",
+      "object": "Material Editing",
+      "context": "Material Editing提供材质编辑的相关功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blueprint",
+      "predicate": "基于",
+      "object": "Graph",
+      "context": "Blueprint使用Graph来表示逻辑流程和关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Animation",
+      "predicate": "基于",
+      "object": "Skeletal Mesh",
+      "context": "动画系统主要作用于Skeletal Mesh(骨骼网格体)",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Gameplay",
+      "predicate": "基于",
+      "object": "Actor",
+      "context": "游戏玩法通常围绕Actor(游戏中的基本对象)构建",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Physics",
+      "predicate": "基于",
+      "object": "Collision",
+      "context": "物理系统依赖于碰撞检测和响应",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UMG",
+      "predicate": "基于",
+      "object": "Slate",
+      "context": "UMG基于Slate UI框架构建",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Niagara",
+      "predicate": "替代",
+      "object": "Cascade",
+      "context": "Niagara是新一代粒子系统，替代了旧的Cascade系统",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Level Sequence",
+      "predicate": "用于",
+      "object": "Cinematics",
+      "context": "Level Sequence主要用于创建过场动画(Cinematics)",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Control Rig",
+      "predicate": "用于",
+      "object": "Animation",
+      "context": "Control Rig用于程序化动画控制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Material",
+      "predicate": "用于",
+      "object": "Rendering",
+      "context": "材质系统用于控制渲染外观",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Blueprint",
+      "predicate": "扩展",
+      "object": "C++",
+      "context": "Blueprint可以扩展C++实现的功能",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Animation",
+      "predicate": "扩展",
+      "object": "Physics",
+      "context": "物理动画扩展了传统骨骼动画",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Gameplay",
+      "predicate": "扩展",
+      "object": "AI",
+      "context": "AI系统扩展了游戏玩法的可能性",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Physics",
+      "predicate": "扩展",
+      "object": "Cloth",
+      "context": "布料模拟扩展了物理系统的功能",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "UMG",
+      "predicate": "扩展",
+      "object": "Common UI",
+      "context": "Common UI扩展了UMG的功能",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Niagara",
+      "predicate": "扩展",
+      "object": "Fluid Simulation",
+      "context": "Niagara可以扩展实现流体模拟",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Level Sequence",
+      "predicate": "扩展",
+      "object": "Movie Render Pipeline",
+      "context": "Movie Render Pipeline扩展了Level Sequence的渲染能力",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Control Rig",
+      "predicate": "扩展",
+      "object": "IK Rig",
+      "context": "IK Rig扩展了Control Rig的反向动力学功能",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Material",
+      "predicate": "扩展",
+      "object": "Nanite",
+      "context": "Nanite扩展了材质系统的细节表现能力",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T17:52:47.325Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (135571 字符)",
+      "timestamp": "2025-06-15T17:50:49.536Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 135755,
+    "contentLength": 135571,
+    "processingTimeMs": 117835
+  }
+}

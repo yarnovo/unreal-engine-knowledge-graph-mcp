@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_implementing-blueprint-interfaces-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_implementing-blueprint-interfaces-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "蓝图接口",
+      "predicate": "实现",
+      "object": "虚幻C++接口",
+      "context": "蓝图接口和虚幻C++接口都是实现接口的方式，帮助学习者理解不同实现方式的关联",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图接口",
+      "predicate": "包含",
+      "object": "MyInterfaceFunction",
+      "context": "MyInterfaceFunction是蓝图接口中的一个函数，学习者需要了解接口中的函数定义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图接口",
+      "predicate": "包含",
+      "object": "MyImplementableFunction",
+      "context": "MyImplementableFunction是蓝图接口中的一个可实现的函数，帮助学习者理解接口函数的实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图接口",
+      "predicate": "包含",
+      "object": "MyNativeFunction",
+      "context": "MyNativeFunction是蓝图接口中的一个原生函数，学习者需要了解原生函数和可实现函数的区别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MyInterfaceActor",
+      "predicate": "实现",
+      "object": "IMyInterface",
+      "context": "MyInterfaceActor类实现了IMyInterface接口，帮助学习者理解如何在C++中实现接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MyInterfaceActor",
+      "predicate": "继承",
+      "object": "AActor",
+      "context": "MyInterfaceActor继承自AActor类，学习者需要了解继承关系在接口实现中的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图类",
+      "predicate": "实现",
+      "object": "蓝图接口",
+      "context": "蓝图类可以通过类设置实现蓝图接口，帮助学习者掌握在蓝图中使用接口的方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图类",
+      "predicate": "继承",
+      "object": "MyInterfaceActor",
+      "context": "蓝图类可以继承自MyInterfaceActor，从而继承其接口实现，学习者需要了解继承与接口的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BlueprintNativeEvent",
+      "predicate": "区别于",
+      "object": "BlueprintImplementableEvent",
+      "context": "BlueprintNativeEvent和BlueprintImplementableEvent是两种不同的函数类型，学习者需要理解它们的区别和使用场景",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BlueprintNativeEvent",
+      "predicate": "可在",
+      "object": "C++中实现",
+      "context": "BlueprintNativeEvent可以在C++中实现，帮助学习者理解跨语言函数实现的灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BlueprintNativeEvent",
+      "predicate": "可在",
+      "object": "蓝图中实现",
+      "context": "BlueprintNativeEvent也可以在蓝图中实现，学习者需要掌握在不同环境中实现函数的方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图函数调用",
+      "predicate": "支持",
+      "object": "对象调用",
+      "context": "蓝图支持通过对象调用接口函数，帮助学习者理解不同的函数调用方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图函数调用",
+      "predicate": "支持",
+      "object": "接口调用",
+      "context": "蓝图支持通过接口调用函数，学习者需要掌握接口调用的方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图函数调用",
+      "predicate": "支持",
+      "object": "消息调用",
+      "context": "蓝图支持通过消息调用函数，学习者需要了解消息调用的特点和限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重载接口函数",
+      "predicate": "需要",
+      "object": "调用父函数",
+      "context": "在蓝图中重载接口函数时，可以选择调用父函数实现，帮助学习者理解函数重载的机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:31:31.715Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9696 字符)",
+      "timestamp": "2025-06-15T19:30:37.588Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12756,
+    "contentLength": 9696,
+    "processingTimeMs": 54141
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_color-grading-and-the-filmic-tonemapper-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_color-grading-and-the-filmic-tonemapper-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "颜色分级",
+      "predicate": "包含",
+      "object": "色调映射",
+      "context": "颜色分级涵盖了色调映射功能，帮助学习者理解颜色分级是一个更广泛的概念，包含色调映射作为其组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "色调映射",
+      "predicate": "用于",
+      "object": "HDR到LDR转换",
+      "context": "色调映射的主要功能是将高动态范围（HDR）颜色映射到显示器能够输出的低动态范围（LDR），这是后期处理的重要阶段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "学院色彩编码系统（ACES）",
+      "predicate": "符合",
+      "object": "胶片色调映射器",
+      "context": "虚幻引擎的胶片色调映射器符合ACES标准，确保颜色在不同格式和显示器之间保持一致，这对学习者理解行业标准很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "胶片色调映射器",
+      "predicate": "替代",
+      "object": "旧版色调映射器",
+      "context": "胶片色调映射器是旧版色调映射器的升级版本，提供了更真实的物理效果，学习者需要了解这一演进关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "胶片色调映射器",
+      "predicate": "模拟",
+      "object": "生胶片反应",
+      "context": "胶片色调映射器通过S形曲线模拟生胶片对光线的反应，这对学习者理解其工作原理很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自发光",
+      "predicate": "物理更正",
+      "object": "胶片色调映射器",
+      "context": "胶片色调映射器使自发光值在物理上更正确，颜色会随着自发光率的增大而变浅，类似于真实世界中的彩色光",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "曝光度",
+      "predicate": "物理更正",
+      "object": "胶片色调映射器",
+      "context": "胶片色调映射器使曝光度在物理上更正确，颜色保持原有形状而不失去细节，这对学习者理解曝光控制很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理体积",
+      "predicate": "包含",
+      "object": "胶片设置",
+      "context": "胶片设置是后期处理体积中的一个部分，学习者需要了解如何在后期处理中调整色调映射",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "胶片设置",
+      "predicate": "包含",
+      "object": "Slope",
+      "context": "Slope是胶片设置中的一个属性，用于调整色调映射的S曲线斜率，学习者需要了解各个参数的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "胶片设置",
+      "predicate": "包含",
+      "object": "Toe",
+      "context": "Toe是胶片设置中的一个属性，用于调整色调映射中的深色，学习者需要了解各个参数的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "胶片设置",
+      "predicate": "包含",
+      "object": "Shoulder",
+      "context": "Shoulder是胶片设置中的一个属性，用于调整色调映射中的亮色，学习者需要了解各个参数的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "胶片设置",
+      "predicate": "包含",
+      "object": "Black Clip",
+      "context": "Black Clip是胶片设置中的一个属性，用于设置黑色开始切断数值的位置，学习者需要了解各个参数的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "胶片设置",
+      "predicate": "包含",
+      "object": "White Clip",
+      "context": "White Clip是胶片设置中的一个属性，用于设置白色开始切断数值的位置，学习者需要了解各个参数的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "颜色校正",
+      "predicate": "用于",
+      "object": "增强场景颜色",
+      "context": "颜色校正用于变更或增强场景的总体照明颜色，帮助学习者理解其目的和应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "颜色校正",
+      "predicate": "替代",
+      "object": "查找表（LUT）",
+      "context": "颜色校正在线性空间中完成工作，解决了LUT在HDR显示器上的问题，学习者需要了解这一技术演进",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理体积",
+      "predicate": "包含",
+      "object": "颜色分级",
+      "context": "颜色分级是后期处理体积中的一个部分，学习者需要了解如何在后期处理中进行颜色调整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "颜色分级",
+      "predicate": "包含",
+      "object": "全局颜色校正",
+      "context": "全局颜色校正是颜色分级中的一个部分，建议首先使用这些属性进行初始润色，学习者需要了解工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "颜色分级",
+      "predicate": "包含",
+      "object": "阴影颜色校正",
+      "context": "阴影颜色校正是颜色分级中的一个部分，用于调整场景中阴影的颜色，学习者需要了解各个部分的调整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "颜色分级",
+      "predicate": "包含",
+      "object": "中间色调颜色校正",
+      "context": "中间色调颜色校正是颜色分级中的一个部分，用于调整场景的中间色调，学习者需要了解各个部分的调整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "颜色分级",
+      "predicate": "包含",
+      "object": "高亮颜色校正",
+      "context": "高亮颜色校正是颜色分级中的一个部分，用于调整场景的高亮部分，学习者需要了解各个部分的调整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高动态范围（HDR）显示输出",
+      "predicate": "相关",
+      "object": "颜色分级",
+      "context": "颜色分级在处理前保持颜色原有的色彩，确保在HDR显示器上正确显示颜色，学习者需要理解HDR与颜色分级的关系",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:27:59.828Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15996 字符)",
+      "timestamp": "2025-06-15T18:26:45.384Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 25107,
+    "contentLength": 15996,
+    "processingTimeMs": 74454
+  }
+}

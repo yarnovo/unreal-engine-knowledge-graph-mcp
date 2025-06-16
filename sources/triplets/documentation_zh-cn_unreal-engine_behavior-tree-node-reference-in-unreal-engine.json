@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_behavior-tree-node-reference-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_behavior-tree-node-reference-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "行为树节点",
+      "predicate": "包含",
+      "object": "根节点",
+      "context": "根节点是行为树的起始点，是行为树内的一个独特节点，拥有特殊规则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "行为树节点",
+      "predicate": "包含",
+      "object": "合成节点",
+      "context": "合成节点定义分支的根以及执行该分支的基本规则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "行为树节点",
+      "predicate": "包含",
+      "object": "任务节点",
+      "context": "任务节点是行为树的叶节点，是可执行的操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "行为树节点",
+      "predicate": "包含",
+      "object": "装饰器节点",
+      "context": "装饰器节点决定树中的分支或单个节点能否被执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "行为树节点",
+      "predicate": "包含",
+      "object": "服务节点",
+      "context": "服务节点附接至合成节点，按照定义的频率执行，用于检查和更新黑板",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "根节点",
+      "predicate": "不支持",
+      "object": "装饰器节点",
+      "context": "根节点不支持附接装饰器节点或服务节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "根节点",
+      "predicate": "不支持",
+      "object": "服务节点",
+      "context": "根节点不支持附接装饰器节点或服务节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "根节点",
+      "predicate": "关联",
+      "object": "黑板资源",
+      "context": "选中根节点会在详细信息面板中显示行为树的属性，可以设置行为树的黑板资源",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "服务节点",
+      "predicate": "用于",
+      "object": "黑板",
+      "context": "服务节点通常用于检查和更新黑板",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "实例化节点",
+      "predicate": "依赖",
+      "object": "bCreateNodeInstance",
+      "context": "将节点的bCreateNodeInstance变量设为true后，将使每个使用行为树的代理成为特殊的节点实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "黑板",
+      "predicate": "存储",
+      "object": "代理专属数据",
+      "context": "常见的解决方案是将变量存储在黑板上，以存储代理专属的数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "行为树节点",
+      "predicate": "存储",
+      "object": "自定义结构体或类",
+      "context": "可以创建自定义结构体或类，将变量存储在节点的内存中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UBTTask_MoveTo",
+      "predicate": "使用",
+      "object": "FBTMoveToTaskMemory",
+      "context": "UBTTask_MoveTo类利用FBTMoveToTaskMemory来存储变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "行为树节点",
+      "predicate": "共享",
+      "object": "节点实例",
+      "context": "行为树节点作为共享对象存在，使用同一行为树的所有代理将共享一组节点实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:11:43.172Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6033,
+    "contentLength": 3963,
+    "processingTimeMs": 47473
+  }
+}

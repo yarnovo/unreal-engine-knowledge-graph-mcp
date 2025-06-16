@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_vehicle-center-of-mass-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_vehicle-center-of-mass-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "质量重心",
+      "predicate": "影响",
+      "object": "载具操控",
+      "context": "质量重心的位置直接影响载具的操控特性，如转向不足或过度转向",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "质量重心",
+      "predicate": "用于",
+      "object": "载具",
+      "context": "质量重心主要用于载具，用于调整载具的重量分布",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "质量重心",
+      "predicate": "用于",
+      "object": "不规则形状的大型物理形体",
+      "context": "质量重心也可用于封装不规则形状的大型物理形体，帮助定义其质量分布",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "物理资源",
+      "predicate": "包含",
+      "object": "大型物理形体",
+      "context": "物理资源中通常使用大型物理形体来定义载具或大型物体的质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大型物理形体",
+      "predicate": "生成",
+      "object": "质量重心",
+      "context": "大型物理形体的中心将生成质量重心，影响载具的操控特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "质量重心前重",
+      "predicate": "导致",
+      "object": "转向不足",
+      "context": "质量重心前重会使载具倾向于转向不足，即拐弯时转向不足",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "质量重心后重",
+      "predicate": "导致",
+      "object": "过度转向",
+      "context": "质量重心后重会使载具倾向于过度转向，即转向比预期更急剧",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "质量重心中性平衡",
+      "predicate": "有助于",
+      "object": "操控载具",
+      "context": "质量重心的中性平衡有助于更容易地操控载具",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "质量重心位置",
+      "predicate": "影响",
+      "object": "载具空中操纵",
+      "context": "质量重心的位置会影响载具在空中的操纵，如跳跃时的稳定性",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "质量重心降低",
+      "predicate": "有助于",
+      "object": "载具稳定性",
+      "context": "降低质量重心并靠近尾部有助于稳定载具，尤其是在跳跃时",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "质量属性",
+      "predicate": "调试",
+      "object": "显示标志",
+      "context": "在关卡编辑器中，可以通过启用显示标志来调试与物理对象关联的质量属性和惯性张量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "惯性张量",
+      "predicate": "表示",
+      "object": "沿轴的惯性矩大小",
+      "context": "每个轴的粗细表示沿该轴的惯性矩大小，帮助开发者理解质量分布",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "街机风格竞速游戏",
+      "predicate": "依赖",
+      "object": "质量重心调整",
+      "context": "街机风格的竞速游戏依赖质量重心的调整来定义游戏的操控风格",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "模拟游戏",
+      "predicate": "依赖",
+      "object": "质量重心调整",
+      "context": "模拟游戏依赖质量重心的调整来实现更真实的载具物理特性",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T21:27:51.163Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3898,
+    "contentLength": 2576,
+    "processingTimeMs": 38929
+  }
+}

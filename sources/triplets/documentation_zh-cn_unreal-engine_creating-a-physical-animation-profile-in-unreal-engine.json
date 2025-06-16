@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_creating-a-physical-animation-profile-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_creating-a-physical-animation-profile-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "物理动画配置文件",
+      "predicate": "包含",
+      "object": "物理形体",
+      "context": "物理动画配置文件用于管理一组物理形体的物理动画属性，学习者需要理解这种包含关系来组织物理动画设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理资产",
+      "predicate": "包含",
+      "object": "物理动画配置文件",
+      "context": "物理资产中可以创建和管理多个物理动画配置文件，这是物理资产功能的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理资产编辑器",
+      "predicate": "用于",
+      "object": "创建物理动画配置文件",
+      "context": "物理资产编辑器是创建和编辑物理动画配置文件的主要工具界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架树",
+      "predicate": "显示",
+      "object": "物理形体",
+      "context": "骨架树面板用于查看和选择要纳入物理动画配置文件的物理形体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理图表",
+      "predicate": "显示",
+      "object": "物理形体",
+      "context": "物理图表是另一种查看和选择物理形体的方式，与骨架树互为补充",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视口",
+      "predicate": "显示",
+      "object": "物理形体",
+      "context": "视口提供物理形体的可视化选择方式，帮助开发者直观地选择目标形体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理动画配置文件",
+      "predicate": "应用于",
+      "object": "骨骼网格体",
+      "context": "物理动画配置文件最终会应用于骨骼网格体，控制其物理动画行为",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "物理资产",
+      "predicate": "关联",
+      "object": "骨骼网格体",
+      "context": "物理资产是为骨骼网格体创建的物理表示，两者需要配合使用",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "配置文件面板",
+      "predicate": "用于",
+      "object": "管理物理动画配置文件",
+      "context": "配置文件面板是物理资产编辑器中专门用于管理物理动画配置文件的界面区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理动画属性",
+      "predicate": "控制",
+      "object": "物理形体行为",
+      "context": "通过调整物理动画属性可以精确控制物理形体的物理动画表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理资产编辑器",
+      "predicate": "依赖",
+      "object": "内容侧滑菜单",
+      "context": "需要通过内容侧滑菜单找到或创建物理资产后才能使用物理资产编辑器",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "物理动画配置文件",
+      "predicate": "可被调用",
+      "object": "蓝图或C++",
+      "context": "创建好的物理动画配置文件可以通过蓝图或C++代码进行调用和控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:39:00.105Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5224,
+    "contentLength": 3706,
+    "processingTimeMs": 42227
+  }
+}

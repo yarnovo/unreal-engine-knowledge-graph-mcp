@@ -1,0 +1,259 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_emitter-update-group-reference-for-niagara-effects-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_emitter-update-group-reference-for-niagara-effects-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "发射器更新组",
+      "predicate": "包含",
+      "object": "光束模块",
+      "context": "光束模块是发射器更新组中的一个模块，用于设置光束的起点、终点和切线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器更新组",
+      "predicate": "包含",
+      "object": "Chaos模块",
+      "context": "Chaos模块是发射器更新组中的一个模块，用于在响应混沌事件时产生粒子",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器更新组",
+      "predicate": "包含",
+      "object": "发射器状态",
+      "context": "发射器状态模块用于管理发射器的生命周期、非活动响应、循环行为等设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器更新组",
+      "predicate": "包含",
+      "object": "位置模块",
+      "context": "位置模块用于根据用户定义的网格分辨率设置生成粒子",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器更新组",
+      "predicate": "包含",
+      "object": "MAX脚本模块",
+      "context": "MAX脚本模块用于生成并采样先前使用顶点动画工具创建的变换目标纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器更新组",
+      "predicate": "包含",
+      "object": "生成模块",
+      "context": "生成模块用于以不同方式生成粒子，如即时迸发、每帧生成、每单位生成等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器更新组",
+      "predicate": "包含",
+      "object": "工具模块",
+      "context": "工具模块用于设置发射器帧计数器等工具功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器更新组",
+      "predicate": "包含",
+      "object": "新建暂存区模块",
+      "context": "新建暂存区模块用于在暂存区面板中创建和连接自定义模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器更新组",
+      "predicate": "包含",
+      "object": "直接设置新值或现有值",
+      "context": "直接设置新值或现有值用于添加参数或新建参数到发射器更新组",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器状态",
+      "predicate": "包含",
+      "object": "生命周期模式",
+      "context": "生命周期模式设置确定是由发射器本身还是由系统管理生命周期",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器状态",
+      "predicate": "包含",
+      "object": "非活动响应",
+      "context": "非活动响应设置确定当发射器进入非活动状态时的行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器状态",
+      "predicate": "包含",
+      "object": "循环行为",
+      "context": "循环行为设置确定发射器的循环播放方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器状态",
+      "predicate": "包含",
+      "object": "可延展性模式",
+      "context": "可延展性模式设置确定发射器是从系统获取可延展性设置还是具有自身的唯一设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MAX脚本模块",
+      "predicate": "配合使用",
+      "object": "更新MS顶点动画工具变换目标模块",
+      "context": "MAX脚本模块应与更新MS顶点动画工具变换目标模块配合使用，以实现完整的顶点动画功能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成模块",
+      "predicate": "包含",
+      "object": "生成即时迸发",
+      "context": "生成即时迸发模块用于自发生成大量粒子",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成模块",
+      "predicate": "包含",
+      "object": "每帧生成",
+      "context": "每帧生成模块用于在各个帧中生成大量粒子",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成模块",
+      "predicate": "包含",
+      "object": "每单位生成",
+      "context": "每单位生成模块用于根据传播距离生成粒子",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成模块",
+      "predicate": "包含",
+      "object": "生成速率",
+      "context": "生成速率模块用于以特定速率持续生成粒子",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "直接设置新值或现有值",
+      "predicate": "包含",
+      "object": "添加参数",
+      "context": "添加参数用于从列出的参数中选择并添加到发射器生成组中的设置参数模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "直接设置新值或现有值",
+      "predicate": "包含",
+      "object": "新建参数",
+      "context": "新建参数用于向发射器更新组添加设置变量模块，以与常见模块图表外的Niagara参数交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Emitter.ExecutionState",
+      "predicate": "使用",
+      "object": "ENiagaraExecutionState",
+      "context": "Emitter.ExecutionState参数使用ENiagaraExecutionState枚举类型来管理系统或发射器的执行状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "System.ExecutionState",
+      "predicate": "使用",
+      "object": "ENiagaraExecutionState",
+      "context": "System.ExecutionState参数使用ENiagaraExecutionState枚举类型来管理系统状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Emitter.ExecutionStateSource",
+      "predicate": "使用",
+      "object": "ENiagaraExecutionStateSource",
+      "context": "Emitter.ExecutionStateSource参数使用ENiagaraExecutionStateSource枚举类型来指示执行状态设置的源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "System.ExecutionStateSource",
+      "predicate": "使用",
+      "object": "ENiagaraExecutionStateSource",
+      "context": "System.ExecutionStateSource参数使用ENiagaraExecutionStateSource枚举类型来指示系统执行状态设置的源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "位置模块",
+      "predicate": "使用",
+      "object": "ENiagaraExpansionMode",
+      "context": "位置模块使用ENiagaraExpansionMode枚举类型来确定扩展的起始点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光束模块",
+      "predicate": "设置",
+      "object": "光束的起点、终点和切线",
+      "context": "光束模块用于设置光束的起点、终点和切线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Chaos模块",
+      "predicate": "响应",
+      "object": "混沌事件",
+      "context": "Chaos模块导致粒子在响应混沌事件时产生",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器状态",
+      "predicate": "控制",
+      "object": "发射器生命周期",
+      "context": "发射器状态模块通过生命周期模式、非活动响应等设置控制发射器的生命周期",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "位置模块",
+      "predicate": "生成",
+      "object": "网格粒子",
+      "context": "位置模块根据用户定义的网格分辨率设置生成粒子",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成模块",
+      "predicate": "实现",
+      "object": "粒子生成方式",
+      "context": "生成模块通过不同的子模块实现多种粒子生成方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:58:29.540Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11187 字符)",
+      "timestamp": "2025-06-15T18:56:45.645Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19998,
+    "contentLength": 11187,
+    "processingTimeMs": 103908
+  }
+}

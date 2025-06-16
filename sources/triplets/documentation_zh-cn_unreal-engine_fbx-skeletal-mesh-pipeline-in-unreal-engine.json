@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_fbx-skeletal-mesh-pipeline-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_fbx-skeletal-mesh-pipeline-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "FBX导入管道",
+      "predicate": "支持",
+      "object": "骨架网格体",
+      "context": "FBX导入管道是虚幻引擎中用于导入骨架网格体的主要工具，了解这一关系有助于学习者掌握模型导入的基本流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体",
+      "predicate": "包含",
+      "object": "动画",
+      "context": "骨架网格体可以包含动画数据，这是角色动画实现的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体",
+      "predicate": "包含",
+      "object": "变形目标",
+      "context": "变形目标是骨架网格体的重要组成部分，用于实现面部表情等细节动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体",
+      "predicate": "包含",
+      "object": "材质",
+      "context": "材质是骨架网格体视觉效果的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体",
+      "predicate": "包含",
+      "object": "LOD",
+      "context": "LOD系统是优化骨架网格体性能的重要机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体",
+      "predicate": "基于",
+      "object": "骨架",
+      "context": "骨架是骨架网格体的基础结构，理解这一关系对角色动画制作至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架",
+      "predicate": "控制",
+      "object": "网格体变形",
+      "context": "骨架通过骨骼/关节的运动控制网格体的变形，这是角色动画的基本原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绑定",
+      "predicate": "实现",
+      "object": "骨架与网格体的连接",
+      "context": "绑定是将网格体顶点与骨骼/关节建立权重关系的过程，是动画制作的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Maya",
+      "predicate": "使用",
+      "object": "平滑绑定",
+      "context": "Maya中使用平滑绑定命令进行绑定，这是Maya工作流程的重要知识点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3ds Max",
+      "predicate": "使用",
+      "object": "皮肤修饰符",
+      "context": "3ds Max中使用皮肤修饰符进行绑定，这是3ds Max工作流程的重要知识点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体",
+      "predicate": "具有",
+      "object": "支点",
+      "context": "支点决定了骨架网格体的变换中心，对角色定位和动画有重要影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "三角剖分",
+      "predicate": "用于",
+      "object": "网格体优化",
+      "context": "三角剖分是网格体在图形硬件中处理前的必要步骤，影响最终渲染效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "法线贴图",
+      "predicate": "增强",
+      "object": "网格体细节",
+      "context": "法线贴图可以在不增加几何复杂度的情况下增强网格体表面细节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX导入选项",
+      "predicate": "控制",
+      "object": "导入过程",
+      "context": "FBX导入选项对话框中的设置直接影响导入结果，是必须掌握的重要配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOD系统",
+      "predicate": "优化",
+      "object": "渲染性能",
+      "context": "LOD系统通过在不同距离使用不同细节级别的网格体来优化渲染性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理资源工具(PhAT)",
+      "predicate": "用于",
+      "object": "碰撞体设置",
+      "context": "PhAT是设置骨架网格体物理碰撞的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX动画通道",
+      "predicate": "扩展",
+      "object": "骨架网格体功能",
+      "context": "FBX动画通道专门用于处理骨架网格体的动画导入，是动画工作流的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX变形目标通道",
+      "predicate": "扩展",
+      "object": "骨架网格体功能",
+      "context": "FBX变形目标通道专门用于处理面部表情等细节动画的导入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "用于",
+      "object": "资源管理",
+      "context": "内容浏览器是虚幻引擎中管理导入资源的核心界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Persona",
+      "predicate": "用于",
+      "object": "骨架网格体预览",
+      "context": "Persona是查看和编辑骨架网格体的专用工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:05:09.105Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (19106 字符)",
+      "timestamp": "2025-06-15T19:03:59.790Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 27838,
+    "contentLength": 19106,
+    "processingTimeMs": 69316
+  }
+}

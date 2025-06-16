@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_audio-synesthesia-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_audio-synesthesia-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "音频共感插件",
+      "predicate": "包含",
+      "object": "音频分析器",
+      "context": "音频共感插件自动创建音频分析器资源，用于分析音频数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频共感插件",
+      "predicate": "支持",
+      "object": "非实时分析",
+      "context": "插件专门提供NRT(非实时)分析功能，适用于编辑器环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AudioSynesthesiaNRT",
+      "predicate": "继承",
+      "object": "音频分析器",
+      "context": "AudioSynesthesiaNRT是音频分析器的具体实现类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LoudnessNRT",
+      "predicate": "属于",
+      "object": "AudioSynesthesiaNRT",
+      "context": "LoudnessNRT是AudioSynesthesiaNRT的一种具体分析器类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ConstantQNRT",
+      "predicate": "属于",
+      "object": "AudioSynesthesiaNRT",
+      "context": "ConstantQNRT是另一种AudioSynesthesiaNRT分析器类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnsetNRT",
+      "predicate": "属于",
+      "object": "AudioSynesthesiaNRT",
+      "context": "OnsetNRT是第三种AudioSynesthesiaNRT分析器类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LoudnessNRT",
+      "predicate": "使用",
+      "object": "LoudnessNRTSettings",
+      "context": "LoudnessNRT分析器通过LoudnessNRTSettings进行参数配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ConstantQNRT",
+      "predicate": "使用",
+      "object": "ConstantQNRTSettings",
+      "context": "ConstantQNRT分析器需要ConstantQNRTSettings进行配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnsetNRT",
+      "predicate": "使用",
+      "object": "OnsetNRTSettings",
+      "context": "OnsetNRT分析器依赖OnsetNRTSettings进行参数调整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频共感插件",
+      "predicate": "驱动",
+      "object": "游戏动画和效果",
+      "context": "插件分析的音频元数据可用于驱动与音效耦合的游戏元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LoudnessNRT",
+      "predicate": "测量",
+      "object": "感知响度",
+      "context": "该分析器专门测量人类感知的音频响度而非简单振幅",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ConstantQNRT",
+      "predicate": "分析",
+      "object": "频率波段强度",
+      "context": "该分析器测量音频中类似钢琴音符排列的波段强度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnsetNRT",
+      "predicate": "检测",
+      "object": "音频起始事件",
+      "context": "该分析器专门检测音符起始、敲击等音频起始事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频共感NRT",
+      "predicate": "适用于",
+      "object": "USoundWave",
+      "context": "该资源类型专门用于分析USoundWave音频资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频分析器",
+      "predicate": "生成",
+      "object": "音频元数据",
+      "context": "分析器处理音频后生成可用于脚本和蓝图的元数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "使用",
+      "object": "LoudnessNRT数据",
+      "context": "蓝图中可以访问分析器生成的响度数据驱动游戏逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AudioComponent",
+      "predicate": "关联",
+      "object": "LoudnessNRT分析器",
+      "context": "蓝图中AudioComponent需要关联分析器使用的音效文件",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "非实时分析",
+      "predicate": "优势",
+      "object": "性能优化",
+      "context": "在编辑器中预先分析避免运行时的高开销计算",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "音频共感插件",
+      "predicate": "状态",
+      "object": "Beta功能",
+      "context": "当前版本为测试功能，产品发布需谨慎使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:09:14.158Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10092,
+    "contentLength": 6954,
+    "processingTimeMs": 73098
+  }
+}

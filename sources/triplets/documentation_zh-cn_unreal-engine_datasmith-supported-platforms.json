@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_datasmith-supported-platforms",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_datasmith-supported-platforms.md",
+  "triples": [
+    {
+      "subject": "Datasmith",
+      "predicate": "支持",
+      "object": "64位Windows",
+      "context": "Datasmith在64位Windows平台上支持多种文件格式的导入和导出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "支持",
+      "object": "Mac OS X",
+      "context": "Datasmith在Mac OS X平台上支持部分文件格式的导入和导出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "支持",
+      "object": "Linux",
+      "context": "Datasmith在Linux平台上支持部分文件格式的导入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导入器",
+      "predicate": "依赖",
+      "object": "特定平台组件",
+      "context": "Datasmith导入器的某些功能依赖于特定平台的组件，这些组件不能作为虚幻引擎源代码的一部分进行再分发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导出插件",
+      "predicate": "支持",
+      "object": "SketchUp Pro",
+      "context": "Datasmith导出插件支持从SketchUp Pro导出内容到虚幻引擎",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导出插件",
+      "predicate": "支持",
+      "object": "3ds Max",
+      "context": "Datasmith导出插件支持从3ds Max导出内容到虚幻引擎，但仅限于Windows平台",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导出插件",
+      "predicate": "支持",
+      "object": "Revit",
+      "context": "Datasmith导出插件支持从Revit导出内容到虚幻引擎，从虚幻引擎5.3开始由Autodesk管理插件更新",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导出插件",
+      "predicate": "支持",
+      "object": "Rhino",
+      "context": "Datasmith导出插件支持从Rhino导出内容到虚幻引擎，支持Windows和Mac OS X平台",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "支持",
+      "object": "gITF",
+      "context": "虚幻引擎现在默认支持gITF格式，这是Datasmith功能的一部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导入器",
+      "predicate": "支持",
+      "object": ".udatasmith文件",
+      "context": "Datasmith导入器支持.udatasmith文件格式的导入，这是Datasmith的核心功能之一",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导入器",
+      "predicate": "支持",
+      "object": "CAD文件格式",
+      "context": "Datasmith导入器支持多种CAD文件格式的导入，但重新编译时可能不支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导入器",
+      "predicate": "不支持",
+      "object": "Alias .wire",
+      "context": "Datasmith导入器在Mac OS X和Linux平台上不支持Alias .wire格式的导入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导入器",
+      "predicate": "不支持",
+      "object": "Rhino",
+      "context": "Datasmith导入器在Mac OS X和Linux平台上不支持Rhino格式的导入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导入器",
+      "predicate": "不支持",
+      "object": "Cinema 4D",
+      "context": "Datasmith导入器在Linux平台上不支持Cinema 4D格式的导入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导入器",
+      "predicate": "不支持",
+      "object": "AxF",
+      "context": "Datasmith导入器在Mac OS X和Linux平台上不支持AxF格式的导入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导入器",
+      "predicate": "支持",
+      "object": "MDL",
+      "context": "Datasmith导入器在所有平台上都支持MDL格式的导入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导入器",
+      "predicate": "不支持",
+      "object": "IFC",
+      "context": "Datasmith导入器在Mac OS X平台上不支持IFC格式的导入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导入器",
+      "predicate": "支持",
+      "object": "Deltagen和VRED",
+      "context": "Datasmith导入器在所有平台上都支持Deltagen和VRED格式的导入，并且可以重新编译支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导出插件",
+      "predicate": "需要",
+      "object": "第三方SDK",
+      "context": "自行重新编译Datasmith导出插件时需要从Trimble或Autodesk下载并安装适用于源应用程序的SDK",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:46:50.259Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4373,
+    "contentLength": 3041,
+    "processingTimeMs": 62516
+  }
+}

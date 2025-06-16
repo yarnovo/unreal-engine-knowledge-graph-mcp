@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_online-subsystem-purchase-interface-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_online-subsystem-purchase-interface-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "购买接口",
+      "predicate": "支持",
+      "object": "游戏内购",
+      "context": "购买接口是游戏内购功能的核心实现组件，理解其功能是学习游戏内购机制的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "商店接口",
+      "predicate": "配合",
+      "object": "购买接口",
+      "context": "商店接口提供商品信息，购买接口处理交易流程，两者共同完成完整的购买流程",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "购买接口",
+      "predicate": "包含",
+      "object": "IsAllowedToPurchase函数",
+      "context": "该函数是购买权限检查的核心方法，理解其作用有助于掌握购买前的验证流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FPurchaseCheckoutRequest",
+      "predicate": "用于",
+      "object": "Checkout函数",
+      "context": "该数据结构是发起购买请求的必要参数，理解其结构对实现购买流程至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FOnPurchaseCheckoutComplete",
+      "predicate": "处理",
+      "object": "购买结果",
+      "context": "该委托负责处理购买完成后的回调，是异步购买流程的关键组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FPurchaseReceipt",
+      "predicate": "包含",
+      "object": "FReceiptOfferEntry",
+      "context": "收据数据结构包含购买商品详情，理解其层级关系有助于处理购买结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FinalizePurchase",
+      "predicate": "确认",
+      "object": "交易完成",
+      "context": "该函数是购买流程的最后一步，理解其调用时机对确保交易完整性很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "QueryReceipts",
+      "predicate": "获取",
+      "object": "购买历史",
+      "context": "该函数用于查询用户购买记录，是内购系统的重要功能点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线服务",
+      "predicate": "处理",
+      "object": "财务细节",
+      "context": "理解在线服务与购买接口的分工有助于掌握系统架构",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "游戏内购",
+      "predicate": "涉及",
+      "object": "真实货币交易",
+      "context": "明确区分游戏内货币与真实货币交易是理解内购系统的前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FLineItemInfo",
+      "predicate": "记录",
+      "object": "交易详情",
+      "context": "该数据结构包含具体交易信息，是处理购买收据的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "GetReceipts",
+      "predicate": "访问",
+      "object": "本地缓存收据",
+      "context": "该函数用于获取已缓存的购买记录，是查询系统的重要接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:09:24.304Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5067,
+    "contentLength": 3197,
+    "processingTimeMs": 44943
+  }
+}

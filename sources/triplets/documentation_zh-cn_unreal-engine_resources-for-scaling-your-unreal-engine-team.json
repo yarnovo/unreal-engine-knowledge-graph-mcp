@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_resources-for-scaling-your-unreal-engine-team",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_resources-for-scaling-your-unreal-engine-team.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "提供",
+      "object": "工具",
+      "context": "虚幻引擎提供多种工具帮助团队解决项目规模扩大带来的挑战",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "版本控制",
+      "predicate": "是",
+      "object": "游戏开发项目的重要组成部分",
+      "context": "版本控制是所有游戏开发项目的重要组成部分，用于管理代码和资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "多种版本控制工具",
+      "context": "虚幻引擎支持Perforce、Git、Subversion等版本控制工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Perforce",
+      "predicate": "是",
+      "object": "Epic Games主要使用的版本控制工具",
+      "context": "Epic Games主要使用Perforce，许多功能围绕Perforce集成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Game Sync",
+      "predicate": "用于",
+      "object": "分发项目",
+      "context": "UGS用于方便团队成员下载或编译项目的有效构建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "离线安装程序",
+      "predicate": "用于",
+      "object": "分发自定义引擎",
+      "context": "离线安装程序用于分发已分叉并自定义的引擎源代码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎模块",
+      "predicate": "用于",
+      "object": "减少C++编译时间",
+      "context": "将代码分类为模块可以减少需要重新编译的代码量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IWYU",
+      "predicate": "用于",
+      "object": "缩短编译时间",
+      "context": "包含你所使用的内容范式通过优化#include语句来缩短编译时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻自动化工具",
+      "predicate": "用于",
+      "object": "创建自动化构建",
+      "context": "UAT提供脚本帮助自动化编译过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "基于",
+      "object": "UAT",
+      "context": "BuildGraph是建立在UAT之上的更详细的自动构建系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "基于",
+      "object": "BuildGraph框架",
+      "context": "Horde是基于BuildGraph框架构建的持续集成套件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多进程烘焙",
+      "predicate": "用于",
+      "object": "加快烘焙速度",
+      "context": "启用多进程烘焙可以并发处理资产转换，加快烘焙速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟资产",
+      "predicate": "用于",
+      "object": "简化资产管理",
+      "context": "虚拟资产分离元数据和批量数据，减少同步时间和存储空间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "派生数据缓存",
+      "predicate": "用于",
+      "object": "存储派生数据",
+      "context": "DDC存储编译后的着色器等派生数据，避免重复编译",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Zen存储服务器",
+      "predicate": "推荐用于",
+      "object": "托管共享DDC",
+      "context": "Zen存储服务器是Epic推荐的共享DDC托管方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化测试框架",
+      "predicate": "用于",
+      "object": "早期检测漏洞",
+      "context": "自动化测试可以更早、更频繁地检测代码中的问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "版本控制",
+      "predicate": "支持",
+      "object": "文件隔离",
+      "context": "版本控制系统支持检出、锁定文件以防止冲突",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "内容浏览器集成",
+      "context": "版本控制可以集成到内容浏览器，直接在编辑器中管理文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UGS",
+      "predicate": "与",
+      "object": "Perforce交互",
+      "context": "Unreal Game Sync可以与Perforce交互管理项目构建",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UAT",
+      "predicate": "是",
+      "object": "底层打包机制",
+      "context": "UAT的BuildCookRun命令是打包构建的底层机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:38:35.538Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8175 字符)",
+      "timestamp": "2025-06-15T20:37:43.590Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13754,
+    "contentLength": 8175,
+    "processingTimeMs": 51952
+  }
+}

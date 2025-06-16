@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-engine-stats-system-overview",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-engine-stats-system-overview.md",
+  "triples": [
+    {
+      "subject": "统计数据系统",
+      "predicate": "用于",
+      "object": "性能优化",
+      "context": "统计数据系统的主要功能是收集和显示性能数据，帮助开发者优化游戏性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "统计数据系统",
+      "predicate": "包含",
+      "object": "统计数据类型",
+      "context": "统计数据系统支持多种统计数据类型，包括循环计数器、浮点/Dword计数器、浮点/Dword累加器和内存计数器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "统计数据类型",
+      "predicate": "包括",
+      "object": "循环计数器",
+      "context": "循环计数器是统计数据系统支持的一种数据类型，用于统计数据对象生命周期中的循环次数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "统计数据类型",
+      "predicate": "包括",
+      "object": "浮点/Dword计数器",
+      "context": "浮点/Dword计数器是统计数据系统支持的一种数据类型，每帧都会清空",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "统计数据类型",
+      "predicate": "包括",
+      "object": "浮点/Dword累加器",
+      "context": "浮点/Dword累加器是统计数据系统支持的一种数据类型，不会每帧清空，作为可重置的持久统计数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "统计数据类型",
+      "predicate": "包括",
+      "object": "内存计数器",
+      "context": "内存计数器是统计数据系统支持的一种数据类型，针对内存跟踪进行优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "统计数据系统",
+      "predicate": "使用",
+      "object": "DECLARE_STATS_GROUP",
+      "context": "DECLARE_STATS_GROUP用于声明默认启用的统计数据组，是统计数据系统的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "统计数据系统",
+      "predicate": "使用",
+      "object": "DECLARE_STATS_GROUP_VERBOSE",
+      "context": "DECLARE_STATS_GROUP_VERBOSE用于声明默认禁用的统计数据组，是统计数据系统的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "统计数据系统",
+      "predicate": "使用",
+      "object": "DECLARE_STATS_GROUP_MAYBE_COMPILED_OUT",
+      "context": "DECLARE_STATS_GROUP_MAYBE_COMPILED_OUT用于声明默认禁用的统计数据组，编译器可将该组剥离，是统计数据系统的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "统计数据系统",
+      "predicate": "支持",
+      "object": "单文件统计",
+      "context": "统计数据系统支持在单个cpp文件中使用统计数据，通过特定的声明方法实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "统计数据系统",
+      "predicate": "支持",
+      "object": "多文件统计",
+      "context": "统计数据系统支持在整个项目或范围较广的文件中访问统计数据，通过_EXTERN后缀的方法实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内存计数器",
+      "predicate": "基于",
+      "object": "EMemoryCounterRegion",
+      "context": "内存计数器使用EMemoryCounterRegion枚举定义内存池，如MCR_Physical、MCR_GPU等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "循环计数器",
+      "predicate": "用于",
+      "object": "性能数据收集",
+      "context": "循环计数器用于抓取代码块的执行时间，帮助分析性能瓶颈",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SCOPE_CYCLE_COUNTER",
+      "predicate": "实现",
+      "object": "性能数据收集",
+      "context": "SCOPE_CYCLE_COUNTER宏用于在代码块中自动记录循环计数，是性能分析的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "统计数据系统",
+      "predicate": "提供",
+      "object": "日志记录功能",
+      "context": "统计数据系统提供SCOPE_LOG_TIME等工具类和方法，用于记录和打印性能数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "统计数据系统",
+      "predicate": "支持",
+      "object": "浮点/Dword计数器操作",
+      "context": "系统提供INC_DWORD_STAT、SET_FLOAT_STAT等方法用于更新和管理计数器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Stat命令",
+      "predicate": "关联",
+      "object": "统计数据系统",
+      "context": "Stat命令是操作统计数据系统的控制台命令，需要先理解才能有效使用统计系统",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DECLARE_CYCLE_STAT_EXTERN",
+      "predicate": "扩展",
+      "object": "DECLARE_CYCLE_STAT",
+      "context": "_EXTERN版本允许在多个文件中共享统计数据的声明，是单文件版本的扩展",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "内存计数器",
+      "predicate": "区别于",
+      "object": "常规计数器",
+      "context": "内存计数器使用特定内存单位显示，并支持内存池概念，与常规计数器不同",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "QUICK_SCOPE_CYCLE_COUNTER",
+      "predicate": "简化",
+      "object": "性能分析",
+      "context": "该宏提供快速临时统计功能，简化了不需要长期跟踪的性能分析场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:10:53.129Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13519 字符)",
+      "timestamp": "2025-06-15T21:09:51.253Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17705,
+    "contentLength": 13519,
+    "processingTimeMs": 61881
+  }
+}

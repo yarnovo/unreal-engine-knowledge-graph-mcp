@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_consolidating-assets-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_consolidating-assets-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "替换引用工具",
+      "predicate": "用于",
+      "object": "资产合并",
+      "context": "替换引用工具是虚幻引擎中用于将多个资产合并成单个资产的主要工具，帮助开发者减少重复资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "替换引用工具",
+      "predicate": "依赖",
+      "object": "内容浏览器",
+      "context": "替换引用工具需要通过内容浏览器选择资产并调用，内容浏览器是该工具操作的基础界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产合并",
+      "predicate": "生成",
+      "object": "对象重定向器",
+      "context": "在资产合并过程中，被删除的资产位置会保留对象重定向器，用于将引用重定向到目标合并对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象重定向器",
+      "predicate": "用于",
+      "object": "修复引用",
+      "context": "对象重定向器在资产合并后用于修复卸载UAsset中的引用，确保引用正确指向目标合并对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "替换引用工具",
+      "predicate": "支持",
+      "object": "纹理和材质合并",
+      "context": "替换引用工具支持跨类型的纹理和材质合并，这是其功能的一个特殊例外",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产合并",
+      "predicate": "需要",
+      "object": "目标合并资产",
+      "context": "资产合并操作必须指定一个目标合并资产，所有其他资产的引用将被替换为该目标资产的引用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "替换引用工具",
+      "predicate": "包含",
+      "object": "合并资产按钮",
+      "context": "替换引用工具的对话框中包含合并资产按钮，用于执行实际的合并操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产合并",
+      "predicate": "可能导致",
+      "object": "部分合并",
+      "context": "在某些情况下，资产合并可能失败导致部分合并，即部分引用被替换而部分未被替换",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "替换引用工具",
+      "predicate": "不建议用于",
+      "object": "子编辑器",
+      "context": "在使用子编辑器（如蓝图编辑器）时使用替换引用工具可能导致编辑器进入无效状态或崩溃",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "资产合并",
+      "predicate": "建议配合",
+      "object": "修复重定向命令",
+      "context": "完成资产合并后，建议使用修复重定向命令来确保所有引用被正确修复",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "替换引用工具",
+      "predicate": "限制",
+      "object": "同类资产合并",
+      "context": "替换引用工具通常只能合并同一类型的资产，纹理和材质是例外",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产合并",
+      "predicate": "涉及",
+      "object": "删除资产",
+      "context": "资产合并过程中会删除被合并的资产，仅保留目标合并资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "替换引用工具",
+      "predicate": "提供",
+      "object": "保存选项",
+      "context": "替换引用工具提供保存已更改的包文件的选项，方便用户保存合并操作的结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:31:50.243Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10618,
+    "contentLength": 5512,
+    "processingTimeMs": 47383
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_slate-insights-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_slate-insights-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Slate Insights",
+      "predicate": "用于",
+      "object": "UI性能优化",
+      "context": "Slate Insights提供工具帮助开发者识别UI更新的根本原因，从而提高UI性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate Insights",
+      "predicate": "包含",
+      "object": "Slate帧视图",
+      "context": "Slate帧视图是Slate Insights的核心功能之一，用于分析UI控件的更新情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate帧视图",
+      "predicate": "分析",
+      "object": "UI控件更新",
+      "context": "Slate帧视图提供逐帧绘制的控件列表，帮助开发者调试和优化UI",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate帧视图",
+      "predicate": "包含",
+      "object": "无效追踪标记",
+      "context": "无效追踪标记是Slate帧视图的一个报告区域，用于分析控件无效的原因",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate帧视图",
+      "predicate": "包含",
+      "object": "更新追踪标记",
+      "context": "更新追踪标记是Slate帧视图的另一个报告区域，用于分析控件更新的原因",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "无效追踪标记",
+      "predicate": "报告",
+      "object": "控件无效原因",
+      "context": "无效追踪标记区域显示控件无效的具体原因，如布局变化、绘制需求等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "更新追踪标记",
+      "predicate": "报告",
+      "object": "控件更新原因",
+      "context": "更新追踪标记区域显示控件更新的具体原因，如Tick、定时器等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate Insights",
+      "predicate": "依赖",
+      "object": "Unreal Insights",
+      "context": "Slate Insights需要Unreal Insights来记录和分析追踪数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "用于",
+      "object": "追踪数据分析",
+      "context": "Unreal Insights是分析Slate Insights追踪数据的工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate Insights",
+      "predicate": "启用方式",
+      "object": "编辑器插件",
+      "context": "Slate Insights可以通过编辑器插件或uproject文件启用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate Insights",
+      "predicate": "启用方式",
+      "object": "uproject文件配置",
+      "context": "Slate Insights可以通过在uproject文件中配置插件来启用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件",
+      "predicate": "具有",
+      "object": "无效原因",
+      "context": "控件可能因为布局、绘制、子顺序等多种原因无效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件",
+      "predicate": "具有",
+      "object": "更新原因",
+      "context": "控件可能因为Tick、定时器、重新绘制等原因更新",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate Insights",
+      "predicate": "适用于",
+      "object": "UI调试",
+      "context": "Slate Insights专门用于帮助开发者调试UI性能问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate Insights",
+      "predicate": "适用于",
+      "object": "UI优化",
+      "context": "Slate Insights提供工具帮助开发者优化UI性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:49:34.346Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7701,
+    "contentLength": 5407,
+    "processingTimeMs": 42222
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_reference-viewer-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_reference-viewer-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "引用查看器",
+      "predicate": "显示",
+      "object": "资产图表",
+      "context": "引用查看器用于显示与选中资产相关的引用和被引用关系，帮助开发者理解资产间的依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "引用查看器",
+      "predicate": "通过",
+      "object": "内容浏览器",
+      "context": "引用查看器可以通过内容浏览器中的右键菜单启动，是内容浏览器功能的扩展",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "引用查看器",
+      "predicate": "包含",
+      "object": "搜索选项",
+      "context": "搜索选项允许开发者控制引用查看器的搜索深度和广度，是引用查看器的核心功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "搜索深度限制",
+      "predicate": "控制",
+      "object": "引用搜索深度",
+      "context": "搜索深度限制决定了引用查看器会显示多少层级的引用关系，影响开发者对复杂依赖关系的理解",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "搜索广度限制",
+      "predicate": "控制",
+      "object": "引用显示数量",
+      "context": "搜索广度限制决定了每层引用关系中显示的最大资产数量，帮助管理复杂项目的可视化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "引用查看器",
+      "predicate": "提供",
+      "object": "快捷菜单选项",
+      "context": "快捷菜单选项增强了引用查看器的交互性，允许开发者快速执行常见操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "引用查看器",
+      "predicate": "集成",
+      "object": "引用树工具",
+      "context": "引用树工具是引用查看器的扩展功能，提供了更详细的引用链分析",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "引用树",
+      "predicate": "显示",
+      "object": "引用链",
+      "context": "引用树专门用于展示资产间的完整引用链，帮助开发者追踪复杂的依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "引用树",
+      "predicate": "包含",
+      "object": "查看菜单",
+      "context": "查看菜单提供了重建树、展开/合并节点等功能，是引用树的重要操作界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "引用树",
+      "predicate": "包含",
+      "object": "选项菜单",
+      "context": "选项菜单允许开发者配置引用树的显示选项，如是否显示脚本引用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "引用树",
+      "predicate": "包含",
+      "object": "情景菜单",
+      "context": "情景菜单提供了针对特定资产的快捷操作，如打开编辑器或在内容浏览器中定位",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "关联",
+      "object": "引用查看器",
+      "context": "内容浏览器是启动引用查看器的主要入口，两者紧密集成共同构成了资产管理系统",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产树",
+      "predicate": "支持",
+      "object": "引用查看器",
+      "context": "资产树中的文件夹也可以启动引用查看器，显示文件夹内所有资产的引用关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "引用查看器",
+      "predicate": "快于",
+      "object": "引用树",
+      "context": "引用查看器通常比引用树打开速度更快，适合快速查看基本引用关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "引用树",
+      "predicate": "限制",
+      "object": "显示数量",
+      "context": "引用树出于性能考虑限制了每个叶子节点的显示数量，开发者需要了解这一限制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:34:31.531Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7730,
+    "contentLength": 4568,
+    "processingTimeMs": 43437
+  }
+}

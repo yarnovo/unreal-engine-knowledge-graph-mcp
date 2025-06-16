@@ -1,0 +1,205 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_textures-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_textures-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "纹理",
+      "predicate": "用于",
+      "object": "材质",
+      "context": "纹理主要用于材质，作为材质的输入参数参与各种计算，如基础颜色、遮罩等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理",
+      "predicate": "用于",
+      "object": "HUD",
+      "context": "纹理也可以用于HUD等其他用途",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质",
+      "predicate": "使用",
+      "object": "基础颜色纹理",
+      "context": "材质可能使用基础颜色纹理作为输入参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质",
+      "predicate": "使用",
+      "object": "高光纹理",
+      "context": "材质可能使用高光纹理作为输入参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质",
+      "predicate": "使用",
+      "object": "法线纹理",
+      "context": "材质可能使用法线纹理作为输入参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理",
+      "predicate": "包含",
+      "object": "RGBA值",
+      "context": "纹理自带RGBA值，可以参与材质的计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理",
+      "predicate": "支持格式",
+      "object": ".bmp",
+      "context": "虚幻引擎支持导入.bmp格式的纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理",
+      "predicate": "支持格式",
+      "object": ".jpeg",
+      "context": "虚幻引擎支持导入.jpeg格式的纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理",
+      "predicate": "支持格式",
+      "object": ".png",
+      "context": "虚幻引擎支持导入.png格式的纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理",
+      "predicate": "支持格式",
+      "object": ".dds",
+      "context": "虚幻引擎支持导入.dds格式的纹理（Cubemap或2D）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理",
+      "predicate": "支持格式",
+      "object": ".exr",
+      "context": "虚幻引擎支持导入.exr格式的HDR纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理",
+      "predicate": "尺寸要求",
+      "object": "2的幂",
+      "context": "纹理尺寸最好是2的幂（如32、64、128等），以便生成Mipmap和流送",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理图表编辑器",
+      "predicate": "用于",
+      "object": "创建纹理",
+      "context": "纹理图表编辑器提供基于节点的界面，供美术师程序化地创建和编辑纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理图表编辑器",
+      "predicate": "结合使用",
+      "object": "蓝图",
+      "context": "纹理图表可以与蓝图结合使用，形成独特的工作流程",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "纹理图表编辑器",
+      "predicate": "结合使用",
+      "object": "材质",
+      "context": "纹理图表可以与材质结合使用，形成独特的工作流程",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "纹理图表编辑器",
+      "predicate": "结合使用",
+      "object": "材质函数",
+      "context": "纹理图表可以与材质函数结合使用，形成独特的工作流程",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "纹理资产编辑器",
+      "predicate": "用于",
+      "object": "查看纹理",
+      "context": "纹理资产编辑器可以查看纹理资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理资产编辑器",
+      "predicate": "用于",
+      "object": "编辑纹理",
+      "context": "纹理资产编辑器可以编辑纹理资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理资产编辑器",
+      "predicate": "显示",
+      "object": "颜色通道",
+      "context": "在纹理资产编辑器中可以查看纹理的颜色通道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理资产编辑器",
+      "predicate": "配置",
+      "object": "压缩格式",
+      "context": "纹理资产编辑器可以配置纹理的压缩格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理资产编辑器",
+      "predicate": "调整",
+      "object": "亮度",
+      "context": "纹理资产编辑器可以调整纹理的亮度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理资产编辑器",
+      "predicate": "调整",
+      "object": "饱和度",
+      "context": "纹理资产编辑器可以调整纹理的饱和度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理流送",
+      "predicate": "用于",
+      "object": "加载纹理",
+      "context": "纹理流送系统用于在运行时在内存中加载和卸载纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟纹理",
+      "predicate": "用于",
+      "object": "优化纹理",
+      "context": "虚拟纹理是虚幻引擎中用于优化纹理使用的一种方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:01:47.654Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6153,
+    "contentLength": 4283,
+    "processingTimeMs": 59362
+  }
+}

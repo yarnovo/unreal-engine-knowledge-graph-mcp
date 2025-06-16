@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_installed-build-reference-guide-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_installed-build-reference-guide-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "安装构建版本",
+      "predicate": "包含",
+      "object": "预编译二进制文件",
+      "context": "安装构建版本包含适用于虚幻编辑器的预编译二进制文件，这是其核心组成部分之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "安装构建版本",
+      "predicate": "包含",
+      "object": "静态库",
+      "context": "安装构建版本包含适用于开发中的每个目标平台和发布配置的静态库，这是其功能完整性的重要保证",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "安装构建版本",
+      "predicate": "使用",
+      "object": "BuildGraph",
+      "context": "可以使用BuildGraph脚本编写系统创建安装构建版本，这是自动化构建的关键工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "位于",
+      "object": "InstalledBuild.xml",
+      "context": "BuildGraph的安装构建脚本位于已下载源代码的特定文件夹中，这是其配置文件的标准位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "安装构建版本",
+      "predicate": "依赖",
+      "object": "AutomationTool",
+      "context": "创建安装构建版本需要通过AutomationTool运行安装构建版本脚本，这是构建流程的核心依赖",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AutomationTool",
+      "predicate": "执行",
+      "object": "RunUAT.bat",
+      "context": "AutomationTool通过RunUAT.bat文件执行构建命令，这是其启动和执行的方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "安装构建版本",
+      "predicate": "支持",
+      "object": "多平台",
+      "context": "安装构建版本支持多种目标平台，如Win64、Linux、Mac等，这是其跨平台能力的体现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "安装构建版本",
+      "predicate": "包含",
+      "object": "衍生数据缓存（DDC）",
+      "context": "安装构建版本可以包含为引擎内容和模板构建的独立衍生数据缓存，这是优化构建流程的重要部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衍生数据缓存（DDC）",
+      "predicate": "用于",
+      "object": "优化构建流程",
+      "context": "衍生数据缓存可以显著减少构建时间，是安装构建版本优化的重要部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "安装构建版本",
+      "predicate": "使用",
+      "object": "InstalledEngineFilters.xml",
+      "context": "安装构建版本通过InstalledEngineFilters.xml文件定义需要包括或排除的文件，这是其文件管理的核心机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "安装构建版本",
+      "predicate": "注册",
+      "object": "引擎构建版本辨识符",
+      "context": "安装构建版本需要通过注册表或配置文件注册其辨识符，以便编辑器能够识别和打开项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "外部项目",
+      "predicate": "使用",
+      "object": "EngineAssociation字段",
+      "context": "外部项目通过.uproject文件中的EngineAssociation字段标识使用的编辑器版本，这是项目与引擎版本关联的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "安装构建版本",
+      "predicate": "适用于",
+      "object": "只读分发",
+      "context": "安装构建版本主要用于创建独立、只读的引擎内容、源代码和第三方库的分发，这是其主要用途",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "安装构建版本",
+      "predicate": "替代",
+      "object": "Epic Games启动程序安装",
+      "context": "安装构建版本可以作为Epic Games启动程序安装的替代方案，适用于需要自定义分发的情况",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "安装构建版本",
+      "predicate": "不适用于",
+      "object": "频繁引擎更改",
+      "context": "安装构建版本不适合需要频繁更改引擎的情况，因为它是为独立、只读分发设计的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:35:57.116Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 12442,
+    "contentLength": 7672,
+    "processingTimeMs": 59545
+  }
+}

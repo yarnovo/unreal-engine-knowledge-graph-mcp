@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_actor-network-dormancy-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_actor-network-dormancy-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Actor网络休眠",
+      "predicate": "优化",
+      "object": "服务器CPU时间",
+      "context": "网络休眠是多人游戏项目中可执行的重大服务器优化之一，每帧可节省数毫秒的服务器CPU时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor网络休眠",
+      "predicate": "适用于",
+      "object": "不常更改的复制Actor",
+      "context": "对于不常更改的复制Actor，网络休眠功能尤其有用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NetDriver",
+      "predicate": "管理",
+      "object": "复制Actor列表",
+      "context": "NetDriver负责收集与连接相关的所有复制Actor的列表，并决定哪些Actor需要复制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor网络休眠",
+      "predicate": "控制",
+      "object": "复制Actor列表",
+      "context": "网络休眠控制Actor是否会被添加到NetDriver收集的复制Actor列表中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ENetDormancy",
+      "predicate": "定义",
+      "object": "网络休眠状态",
+      "context": "ENetDormancy枚举类定义了五种网络休眠状态，用于控制Actor的休眠行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor::SetNetDormancy",
+      "predicate": "用于",
+      "object": "更改Actor休眠状态",
+      "context": "SetNetDormancy函数用于更改Actor的休眠状态，并通知NetDriver该更改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor::FlushNetDormancy",
+      "predicate": "用于",
+      "object": "唤醒休眠Actor",
+      "context": "FlushNetDormancy函数用于强制休眠Actor复制更改，而不实际更改其休眠状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor::ForceNetUpdate",
+      "predicate": "调用",
+      "object": "AActor::FlushNetDormancy",
+      "context": "ForceNetUpdate函数会调用FlushNetDormancy，并确保Actor在下一次网络更新时考虑进行复制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor网络休眠",
+      "predicate": "不同于",
+      "object": "Actor相关性",
+      "context": "休眠Actor仍存在于服务器和客户端上，而不像不相关的Actor会在客户端上被销毁",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制图表",
+      "predicate": "处理",
+      "object": "休眠Actor",
+      "context": "复制图表可以包括针对休眠Actor的特殊处理，以减少处理时间和内存使用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "LogNetDormancy",
+      "predicate": "用于",
+      "object": "调试网络休眠",
+      "context": "启用LogNetDormancy日志类别可以获取有关Actor休眠状态的详细信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "net.DormancyEnable",
+      "predicate": "控制",
+      "object": "全局休眠启用",
+      "context": "net.DormancyEnable控制台变量用于为所有Actor启用或禁用休眠功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图Actor",
+      "predicate": "自动调用",
+      "object": "AActor::FlushNetDormancy",
+      "context": "在蓝图Actor上设置复制的属性时，会自动调用FlushNetDormancy",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T17:53:41.109Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 13139,
+    "contentLength": 7949,
+    "processingTimeMs": 52265
+  }
+}

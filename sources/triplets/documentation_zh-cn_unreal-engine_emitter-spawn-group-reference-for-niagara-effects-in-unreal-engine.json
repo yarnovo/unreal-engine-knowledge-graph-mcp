@@ -1,0 +1,187 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_emitter-spawn-group-reference-for-niagara-effects-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_emitter-spawn-group-reference-for-niagara-effects-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "发射器生成组",
+      "predicate": "包含",
+      "object": "位置模块",
+      "context": "发射器生成组是Niagara特效中用于初始化发射器的模块集合，位置模块是其中的一个子模块，用于控制粒子的生成位置。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器生成组",
+      "predicate": "包含",
+      "object": "MAX脚本模块",
+      "context": "MAX脚本模块是发射器生成组的一部分，专门用于处理顶点动画工具生成的变换目标纹理。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器生成组",
+      "predicate": "包含",
+      "object": "生成模块",
+      "context": "生成模块是发射器生成组的一部分，用于控制粒子的生成速率和方式。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器生成组",
+      "predicate": "包含",
+      "object": "便签本模块",
+      "context": "便签本模块允许开发者在发射器生成组中创建自定义模块或动态输入，增强灵活性。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器生成组",
+      "predicate": "包含",
+      "object": "设置参数模块",
+      "context": "设置参数模块用于在发射器生成组中直接设置新值或现有值，是初始化发射器参数的重要工具。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在网格中生成粒子",
+      "predicate": "属于",
+      "object": "位置模块",
+      "context": "在网格中生成粒子是位置模块的一个功能，用于根据用户定义的网格分辨率生成粒子。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成MS顶点动画工具变换目标",
+      "predicate": "属于",
+      "object": "MAX脚本模块",
+      "context": "生成MS顶点动画工具变换目标是MAX脚本模块的一部分，用于生成和采样顶点动画工具创建的变换目标纹理。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "更新MS顶点动画工具变换目标",
+      "predicate": "属于",
+      "object": "MAX脚本模块",
+      "context": "更新MS顶点动画工具变换目标是MAX脚本模块的一部分，用于处理由生成MS顶点动画工具变换目标模块生成的粒子。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成MS顶点动画工具变换目标",
+      "predicate": "配合使用",
+      "object": "更新MS顶点动画工具变换目标",
+      "context": "这两个模块需要配合使用，前者生成粒子，后者处理粒子位置，共同完成顶点动画效果。",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "每单位生成",
+      "predicate": "属于",
+      "object": "生成模块",
+      "context": "每单位生成是生成模块的一个功能，根据传播距离生成粒子。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成速率",
+      "predicate": "属于",
+      "object": "生成模块",
+      "context": "生成速率是生成模块的一个功能，用于以特定速率持续生成粒子。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "便签本模块",
+      "predicate": "支持",
+      "object": "自定义模块",
+      "context": "便签本模块允许开发者创建自定义模块或动态输入，扩展Niagara特效的功能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设置参数模块",
+      "predicate": "用于",
+      "object": "初始化发射器参数",
+      "context": "设置参数模块用于在发射器生成阶段初始化或修改发射器的各种参数，如Emitter.Age、Emitter.LocalSpace等。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Emitter.LocalSpace",
+      "predicate": "控制",
+      "object": "粒子坐标空间",
+      "context": "Emitter.LocalSpace参数决定粒子位置是相对于场景原点还是拥有Niagara组件的位置，影响粒子的渲染位置。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Emitter.ExecutionState",
+      "predicate": "影响",
+      "object": "发射器状态",
+      "context": "Emitter.ExecutionState参数用于设置发射器的状态（如Active、Inactive等），控制发射器的行为。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "System.ExecutionState",
+      "predicate": "影响",
+      "object": "系统状态",
+      "context": "System.ExecutionState参数用于设置Niagara系统的状态，控制整个特效系统的行为。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频频谱",
+      "predicate": "用于",
+      "object": "驱动可视化",
+      "context": "音频频谱数据接口模块可以根据音频在特定频率下的响度来驱动粒子效果的可视化。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞查询",
+      "predicate": "配合使用",
+      "object": "碰撞模块",
+      "context": "碰撞查询数据接口常与碰撞模块配合使用，用于处理粒子与场景中其他物体的碰撞检测。",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "旋度噪点",
+      "predicate": "配合使用",
+      "object": "旋度噪点力模块",
+      "context": "旋度噪点数据接口与旋度噪点力模块配合使用，将不同类型的噪点注入粒子模拟中。",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ENiagaraCoordinateSpace",
+      "predicate": "用于",
+      "object": "区分坐标空间",
+      "context": "ENiagaraCoordinateSpace枚举用于在各种模块和动态输入中区分模拟、世界和本地坐标空间。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子属性读取器",
+      "predicate": "用于",
+      "object": "查询其他发射器粒子",
+      "context": "粒子属性读取器数据接口可用于查询来自其他发射器的粒子有效荷载值，提供跨发射器数据访问能力。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:58:11.422Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9057 字符)",
+      "timestamp": "2025-06-15T18:56:45.642Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15853,
+    "contentLength": 9057,
+    "processingTimeMs": 85790
+  }
+}

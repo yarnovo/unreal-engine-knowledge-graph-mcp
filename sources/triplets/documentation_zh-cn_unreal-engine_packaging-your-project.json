@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_packaging-your-project",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_packaging-your-project.md",
+  "triples": [
+    {
+      "subject": "打包",
+      "predicate": "转换为",
+      "object": "独立可执行文件",
+      "context": "打包是将虚幻引擎项目转换为独立可执行文件或应用程序的过程，帮助学习者理解打包的核心目的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "打包",
+      "predicate": "包含",
+      "object": "编译",
+      "context": "打包流程包含编译操作，编译是打包流程的一部分，帮助学习者理解打包的组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "打包",
+      "predicate": "包含",
+      "object": "烘焙",
+      "context": "打包流程包含烘焙操作，烘焙是打包流程的一部分，帮助学习者理解打包的组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "打包",
+      "predicate": "包含",
+      "object": "暂存",
+      "context": "打包流程包含暂存操作，暂存是打包流程的一部分，帮助学习者理解打包的组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编译",
+      "predicate": "生成",
+      "object": "二进制文件",
+      "context": "编译阶段将项目代码、插件和二进制文件编译为目标平台可运行的格式，帮助学习者理解编译的输出结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "烘焙",
+      "predicate": "转换",
+      "object": "资产",
+      "context": "烘焙阶段将项目资产转换为可在目标平台运行的格式，帮助学习者理解烘焙的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "暂存",
+      "predicate": "复制到",
+      "object": "暂存目录",
+      "context": "暂存阶段将编译后的代码和烘焙的内容复制到暂存目录，帮助学习者理解暂存的操作过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pak文件",
+      "predicate": "存储",
+      "object": "烘焙内容",
+      "context": "Pak文件是虚幻引擎用于存储烘焙内容的归档文件格式，帮助学习者理解Pak文件的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pak文件",
+      "predicate": "可拆分为",
+      "object": "文件块",
+      "context": "Pak文件可被拆分为更小的文件块，用于分离DLC内容或实现流式安装，帮助学习者理解文件块的用途",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编译配置",
+      "predicate": "决定",
+      "object": "编译方式",
+      "context": "编译配置决定项目的编译方式，影响性能、优化级别和调试工具的可用性，帮助学习者理解编译配置的重要性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "开发配置",
+      "predicate": "适用于",
+      "object": "开发期测试",
+      "context": "开发配置适合在开发期间进行测试，包含最小化调试信息，帮助学习者选择合适的编译配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发布配置",
+      "predicate": "适用于",
+      "object": "最终发行",
+      "context": "发布配置适合向用户发布项目，禁用调试工具并启用所有优化，帮助学习者选择合适的编译配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏默认地图",
+      "predicate": "加载于",
+      "object": "打包项目启动",
+      "context": "游戏默认地图是打包项目启动时加载的地图，帮助学习者理解设置默认地图的重要性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻自动化工具",
+      "predicate": "执行",
+      "object": "BuildCookRun",
+      "context": "虚幻自动化工具执行BuildCookRun命令，是所有编译操作的基础脚本，帮助学习者理解自动化工具的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目启动程序",
+      "predicate": "用于",
+      "object": "创建启动配置文件",
+      "context": "项目启动程序用于创建自定义启动配置文件，自动化控制多平台操作，帮助学习者理解项目启动程序的用途",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "打包",
+      "predicate": "支持",
+      "object": "目标平台",
+      "context": "打包支持多种目标平台，包括桌面、移动、主机和XR平台，帮助学习者了解打包的适用范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "目标平台",
+      "predicate": "需要",
+      "object": "额外SDK",
+      "context": "部分目标平台需要额外的SDK和虚幻引擎组件进行开发和打包，帮助学习者准备开发环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态烘焙",
+      "predicate": "适用于",
+      "object": "快速测试",
+      "context": "动态烘焙在运行时烘焙资产，适用于开发期间的快速测试，帮助学习者选择合适的烘焙方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "按常规烘焙",
+      "predicate": "适用于",
+      "object": "最终构建测试",
+      "context": "按常规烘焙在打包前烘焙资产，适用于最终构建测试，帮助学习者选择合适的烘焙方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:16:38.376Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (24338 字符)",
+      "timestamp": "2025-06-15T20:15:30.541Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 36435,
+    "contentLength": 24338,
+    "processingTimeMs": 67843
+  }
+}

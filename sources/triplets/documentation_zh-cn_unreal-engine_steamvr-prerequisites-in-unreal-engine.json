@@ -1,0 +1,77 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_steamvr-prerequisites-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_steamvr-prerequisites-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎项目",
+      "predicate": "兼容",
+      "object": "SteamVR",
+      "context": "文档说明如何使虚幻引擎项目兼容SteamVR，这是开发VR项目的基础要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SteamVR开发",
+      "predicate": "依赖",
+      "object": "Steam客户端",
+      "context": "开发使用SteamVR的项目必须先安装Steam客户端，这是访问SteamVR的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SteamVR",
+      "predicate": "运行于",
+      "object": "Steam平台",
+      "context": "SteamVR是Steam平台提供的VR工具，必须通过Steam平台运行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎VR开发",
+      "predicate": "需要",
+      "object": "SteamVR工具运行",
+      "context": "查看UE4项目时必须同时运行SteamVR工具，这是开发调试的必要条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SteamVR",
+      "predicate": "支持",
+      "object": "HTC Vive",
+      "context": "文档提到HTC Vive支持页面作为故障排除资源，表明SteamVR支持该设备",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "SteamVR故障排除",
+      "predicate": "参考",
+      "object": "SteamVR支持页面",
+      "context": "文档建议遇到问题时参考SteamVR官方支持页面，这是重要的学习资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎VR开发",
+      "predicate": "关联",
+      "object": "SteamVR故障排除",
+      "context": "了解SteamVR故障排除方法对虚幻引擎VR开发至关重要",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Steam客户端",
+      "predicate": "提供",
+      "object": "SteamVR访问",
+      "context": "Steam客户端是访问SteamVR的唯一官方途径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:55:11.356Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2546,
+    "contentLength": 2002,
+    "processingTimeMs": 24045
+  }
+}

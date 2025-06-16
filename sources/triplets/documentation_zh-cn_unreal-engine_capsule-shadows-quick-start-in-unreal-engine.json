@@ -1,0 +1,131 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_capsule-shadows-quick-start-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_capsule-shadows-quick-start-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "胶囊体阴影",
+      "predicate": "用于",
+      "object": "角色阴影",
+      "context": "胶囊体阴影用于为角色生成更高效的阴影效果，特别是在直接和间接光照环境下",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理资产",
+      "predicate": "生成",
+      "object": "胶囊体阴影",
+      "context": "物理资产中的胶囊体用于生成角色的阴影代表物，是胶囊体阴影的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体",
+      "predicate": "关联",
+      "object": "物理资产",
+      "context": "骨架网格体需要指定物理资产才能生成胶囊体阴影，两者在角色阴影系统中紧密关联",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理资产编辑器",
+      "predicate": "用于",
+      "object": "调整胶囊体",
+      "context": "物理资产编辑器(PhAT)用于调整和优化胶囊体的形状和位置，以获得更好的阴影效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "胶囊体直接阴影",
+      "predicate": "与",
+      "object": "胶囊体间接阴影",
+      "context": "这两种阴影设置可以独立启用，分别控制角色在直接光照和间接光照下的阴影表现",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "定向光源",
+      "predicate": "影响",
+      "object": "胶囊体阴影",
+      "context": "定向光源的强度和角度设置会影响胶囊体阴影的显示效果，特别是间接阴影的质量",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "第三人称模板",
+      "predicate": "包含",
+      "object": "SKMannequin",
+      "context": "使用第三人称模板创建的项目默认包含SKMannequin角色模型，这是本教程的基础资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光照重建",
+      "predicate": "影响",
+      "object": "胶囊体间接阴影",
+      "context": "重建场景光照是使胶囊体间接阴影正确显示的必要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "胶囊体阴影",
+      "predicate": "优于",
+      "object": "传统阴影",
+      "context": "胶囊体阴影相比传统阴影更高效，特别适合移动角色在动态光照环境下的阴影表现",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "阴影物理资产",
+      "predicate": "不同于",
+      "object": "碰撞物理资产",
+      "context": "用于阴影的物理资产可以比碰撞物理资产更简化，专注于阴影表现而非物理交互",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "胶囊体间接阴影最小可视性",
+      "predicate": "控制",
+      "object": "阴影强度",
+      "context": "这个参数可以调整软阴影与环境光照的混合程度，是优化阴影表现的重要设置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "物理资产",
+      "predicate": "需要",
+      "object": "胶囊体重叠",
+      "context": "物理资产中的胶囊体之间需要适当重叠，以避免阴影中出现缝隙",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架编辑器",
+      "predicate": "用于",
+      "object": "指定阴影物理资产",
+      "context": "骨架编辑器是将物理资产指定给骨架网格体的必要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图编辑器",
+      "predicate": "用于",
+      "object": "启用胶囊体阴影",
+      "context": "在角色蓝图的组件设置中启用胶囊体直接阴影和间接阴影选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:19:05.449Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8844 字符)",
+      "timestamp": "2025-06-15T18:18:19.831Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13756,
+    "contentLength": 8844,
+    "processingTimeMs": 45624
+  }
+}

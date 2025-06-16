@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_scalability-and-device-profiles-in-lyra-sample-game-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_scalability-and-device-profiles-in-lyra-sample-game-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "可扩展性设置",
+      "predicate": "影响",
+      "object": "项目性能和视觉质量",
+      "context": "可扩展性设置是调整项目性能和视觉质量的主要手段，学习者需要理解这些设置如何影响最终效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台变量",
+      "predicate": "实现",
+      "object": "可扩展性设置",
+      "context": "大部分性能和质量设置通过控制台变量实现，这是理解可扩展性机制的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设备描述",
+      "predicate": "定义",
+      "object": "运行项目的物理设备",
+      "context": "设备描述系统帮助开发者针对不同硬件配置进行优化，是多平台开发的关键概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可扩展性组",
+      "predicate": "包含",
+      "object": "相关性能设置集合",
+      "context": "理解可扩展性组的组织结构有助于学习者系统性地调整质量设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏用户设置",
+      "predicate": "存储",
+      "object": "用户可调整的设置",
+      "context": "UGameUserSettings类是用户设置管理的核心，需要掌握其工作原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理组设置",
+      "predicate": "控制",
+      "object": "运行时纹理应用",
+      "context": "纹理组设置影响内存使用和视觉效果，是性能优化的重要环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设置优先级系统",
+      "predicate": "决定",
+      "object": "配置应用顺序",
+      "context": "理解设置优先级层级对于解决配置冲突至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lyra示例游戏",
+      "predicate": "演示",
+      "object": "可扩展性配置实践",
+      "context": "Lyra提供了实际项目中组合各种可扩展性功能的范例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设备描述",
+      "predicate": "覆盖",
+      "object": "可扩展性组设置",
+      "context": "设备描述具有更高优先级，这是理解设置应用顺序的关键",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UGameUserSettings",
+      "predicate": "继承",
+      "object": "ULyraSettingsLocal",
+      "context": "Lyra通过子类化扩展了用户设置功能，展示了引擎的扩展机制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "控制台变量",
+      "predicate": "可通过",
+      "object": "命令行修改",
+      "context": "运行时修改变量的能力对调试和性能优化很有价值",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "纹理LOD组",
+      "predicate": "关联",
+      "object": "设备描述",
+      "context": "纹理设置与设备配置紧密相关，是跨平台优化的重要方面",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "BaseScalability.ini",
+      "predicate": "作为",
+      "object": "默认可扩展性配置",
+      "context": "理解引擎默认配置文件是自定义设置的基础",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "性能阈值",
+      "predicate": "影响",
+      "object": "自动质量选择",
+      "context": "调整阈值可以改变硬件基准测试的结果，影响自动质量设置",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "平台配置文件",
+      "predicate": "提供",
+      "object": "特定平台设置",
+      "context": "平台特定配置是实现多平台支持的必要手段",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:39:27.640Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (17143 字符)",
+      "timestamp": "2025-06-15T20:38:39.586Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 28377,
+    "contentLength": 17143,
+    "processingTimeMs": 48065
+  }
+}

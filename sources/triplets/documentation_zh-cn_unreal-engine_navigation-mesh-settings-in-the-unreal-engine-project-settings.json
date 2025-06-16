@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_navigation-mesh-settings-in-the-unreal-engine-project-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_navigation-mesh-settings-in-the-unreal-engine-project-settings.md",
+  "triples": [
+    {
+      "subject": "寻路网格体",
+      "predicate": "包含",
+      "object": "显示信息",
+      "context": "显示信息是寻路网格体的可视化调试功能，帮助开发者理解寻路网格体的结构和状态",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "包含",
+      "object": "图块生成调试",
+      "context": "图块生成调试功能用于分析和优化寻路网格体的生成过程",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "包含",
+      "object": "生成",
+      "context": "生成设置控制寻路网格体的基本参数和构建方式",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "包含",
+      "object": "查询",
+      "context": "查询设置影响寻路算法在网格体上的执行方式",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "包含",
+      "object": "运行时",
+      "context": "运行时设置控制寻路网格体在游戏运行时的行为",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "包含",
+      "object": "碰撞",
+      "context": "碰撞设置影响寻路网格体与场景几何体的交互方式",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "基于",
+      "object": "图块",
+      "context": "寻路网格体由多个图块组成，图块是寻路网格体的基本构建单元",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图块",
+      "predicate": "包含",
+      "object": "多边形",
+      "context": "每个图块由多个多边形组成，多边形定义了可导航区域",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "使用",
+      "object": "代理参数",
+      "context": "代理参数(如半径、高度)决定了哪些角色可以使用该寻路网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "支持",
+      "object": "寻路链接",
+      "context": "寻路链接允许在不相连的寻路网格体之间创建导航连接",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "支持",
+      "object": "动态更新",
+      "context": "运行时生成设置允许寻路网格体动态更新以适应场景变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "依赖",
+      "object": "区域分区方法",
+      "context": "区域分区方法(如分水岭、单色调)影响寻路网格体的生成质量和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "关联",
+      "object": "世界分区",
+      "context": "在世界分区地图中，寻路网格体可以与世界分区系统集成",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "影响",
+      "object": "路径查找算法",
+      "context": "寻路网格体的设置直接影响路径查找算法的效率和结果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "支持",
+      "object": "HLOD",
+      "context": "寻路网格体可以包含在HLOD系统中进行优化",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "关联",
+      "object": "数据层",
+      "context": "寻路网格体可以与数据层系统集成，实现基于条件的加载",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "使用",
+      "object": "体素化",
+      "context": "寻路网格体生成过程中使用体素化处理场景几何体",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "包含",
+      "object": "紧凑高度场",
+      "context": "紧凑高度场是寻路网格体生成过程中的中间数据结构",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "支持",
+      "object": "动态修饰体积",
+      "context": "动态修饰体积可以在运行时修改寻路网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "关联",
+      "object": "碰撞系统",
+      "context": "寻路网格体与碰撞系统交互以确定可行走表面",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:04:40.142Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9996 字符)",
+      "timestamp": "2025-06-15T20:03:27.282Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17182,
+    "contentLength": 9996,
+    "processingTimeMs": 72875
+  }
+}

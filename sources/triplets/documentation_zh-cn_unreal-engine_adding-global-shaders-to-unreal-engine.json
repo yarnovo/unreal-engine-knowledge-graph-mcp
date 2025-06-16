@@ -1,0 +1,147 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_adding-global-shaders-to-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_adding-global-shaders-to-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "全局着色器",
+      "predicate": "属于",
+      "object": "虚幻引擎着色器系统",
+      "context": "全局着色器是虚幻引擎着色器系统的一部分，用于实现不通过材质编辑器创建的着色效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全局着色器",
+      "predicate": "实现",
+      "object": "高级渲染效果",
+      "context": "全局着色器用于实现需要更高级功能的渲染效果，如后期处理效果和计算着色器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻着色器文件",
+      "predicate": "存储",
+      "object": "着色器源代码",
+      "context": ".usf文件用于存储和读取着色器的源代码信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FGlobalShader",
+      "predicate": "继承",
+      "object": "FShader",
+      "context": "FGlobalShader是虚幻引擎中所有全局着色器类的基类，继承自FShader",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DECLARE_EXPORTED_SHADER_TYPE",
+      "predicate": "用于",
+      "object": "着色器类型声明",
+      "context": "该宏用于声明全局着色器类型，生成序列化所需的导出内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IMPLEMENT_SHADER_TYPE",
+      "predicate": "注册",
+      "object": "着色器类型",
+      "context": "该宏将着色器类型注册到虚幻引擎的类型列表中，并映射到.usf文件和着色器入口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FShaderParameter",
+      "predicate": "绑定",
+      "object": "着色器参数",
+      "context": "FShaderParameter用于在运行时绑定和管理着色器参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ModifyCompilationEnvironment",
+      "predicate": "设置",
+      "object": "着色器编译环境",
+      "context": "该方法用于在编译着色器时修改编译环境，如添加自定义的着色器定义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全局着色器",
+      "predicate": "依赖",
+      "object": "ShaderDevelopmentMode",
+      "context": "开发全局着色器时需要启用ShaderDevelopmentMode以获取详细的编译日志",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "全局着色器",
+      "predicate": "适用于",
+      "object": "固定几何体渲染",
+      "context": "全局着色器专门用于在固定几何体上运行，无需与材质或网格体结合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "顶点着色器",
+      "predicate": "处理",
+      "object": "几何体顶点数据",
+      "context": "顶点着色器负责处理输入的几何体顶点数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素着色器",
+      "predicate": "生成",
+      "object": "最终像素颜色",
+      "context": "像素着色器负责计算并输出最终的像素颜色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FGlobalBoundShaderState",
+      "predicate": "管理",
+      "object": "着色器状态绑定",
+      "context": "该类用于管理全局着色器的绑定状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "recompileshaders changed",
+      "predicate": "用于",
+      "object": "快速迭代着色器",
+      "context": "该命令允许开发者在运行时快速重新编译修改过的着色器，便于迭代开发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全局着色器开发",
+      "predicate": "需要",
+      "object": "C++编程知识",
+      "context": "开发全局着色器需要具备C++编程能力，因为着色器是通过C++类实现的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全局着色器",
+      "predicate": "不同于",
+      "object": "材质编辑器着色器",
+      "context": "全局着色器与材质编辑器创建的着色器不同，它们直接在C++中实现并提供更底层的控制",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:55:05.215Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8059 字符)",
+      "timestamp": "2025-06-15T17:54:05.932Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 11423,
+    "contentLength": 8059,
+    "processingTimeMs": 59291
+  }
+}

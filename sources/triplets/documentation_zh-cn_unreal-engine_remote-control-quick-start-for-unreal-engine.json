@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_remote-control-quick-start-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_remote-control-quick-start-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "远程控制API",
+      "predicate": "属于",
+      "object": "虚幻引擎",
+      "context": "远程控制API是虚幻引擎的一个功能模块，用于实现外部应用程序与虚幻引擎的交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制API",
+      "predicate": "依赖",
+      "object": "远程控制插件",
+      "context": "使用远程控制API需要先启用远程控制插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制API",
+      "predicate": "使用",
+      "object": "HTTP协议",
+      "context": "远程控制API通过HTTP协议监听和响应请求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制API",
+      "predicate": "支持",
+      "object": "JSON格式",
+      "context": "远程控制API的请求和响应都使用JSON格式进行数据交换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制API",
+      "predicate": "提供",
+      "object": "对象属性访问",
+      "context": "可以通过API读取和修改虚幻引擎中对象的属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制API",
+      "predicate": "提供",
+      "object": "函数调用",
+      "context": "可以通过API调用虚幻引擎中对象公开的函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制服务器",
+      "predicate": "监听",
+      "object": "端口30010",
+      "context": "默认情况下，远程控制服务器在端口30010上监听请求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制服务器",
+      "predicate": "控制",
+      "object": "WebControl命令",
+      "context": "可以通过WebControl.StartServer等命令控制服务器的启动和停止",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图第三人称模板",
+      "predicate": "包含",
+      "object": "定向光源",
+      "context": "蓝图第三人称模板默认包含一个定向光源Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图第三人称模板",
+      "predicate": "包含",
+      "object": "天空球体",
+      "context": "蓝图第三人称模板默认包含一个天空球体Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LightComponent",
+      "predicate": "具有",
+      "object": "RelativeRotation属性",
+      "context": "光源组件具有RelativeRotation属性，控制光源的旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SceneComponent",
+      "predicate": "定义",
+      "object": "SetRelativeRotation函数",
+      "context": "SceneComponent类定义了SetRelativeRotation函数，用于设置组件的相对旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_Sky_Sphere",
+      "predicate": "定义",
+      "object": "RefreshMaterial函数",
+      "context": "BP_Sky_Sphere类定义了RefreshMaterial函数，用于更新天空材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制API",
+      "predicate": "适用于",
+      "object": "局域网环境",
+      "context": "出于安全考虑，远程控制API建议仅在局域网或VPN环境下使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制API",
+      "predicate": "需要",
+      "object": "HTTP客户端工具",
+      "context": "测试远程控制API需要使用如Postman或Insomnia等HTTP客户端工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制API",
+      "predicate": "基于",
+      "object": "REST架构",
+      "context": "远程控制API采用RESTful架构设计，通过HTTP方法进行操作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "远程控制API",
+      "predicate": "支持",
+      "object": "事务生成",
+      "context": "API调用可以生成事务，便于追踪和撤销操作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "远程控制API",
+      "predicate": "扩展",
+      "object": "虚幻编辑器功能",
+      "context": "远程控制API扩展了虚幻编辑器的功能，使其可以通过网络接口进行控制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "远程控制API",
+      "predicate": "替代",
+      "object": "部分手动操作",
+      "context": "通过API可以替代在编辑器中手动修改属性和调用函数的部分操作",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T20:36:04.699Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9923 字符)",
+      "timestamp": "2025-06-15T20:35:10.497Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14267,
+    "contentLength": 9923,
+    "processingTimeMs": 54210
+  }
+}

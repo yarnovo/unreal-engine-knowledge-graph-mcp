@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_buildgraph-script-conditions-reference-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_buildgraph-script-conditions-reference-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "BuildGraph脚本",
+      "predicate": "包含",
+      "object": "条件语句",
+      "context": "BuildGraph脚本使用条件语句来实现逻辑复杂性，帮助开发者控制构建流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "条件语句",
+      "predicate": "由...组成",
+      "object": "原子",
+      "context": "条件语句由原子构成，原子是条件判断的基本元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "条件语句",
+      "predicate": "由...组成",
+      "object": "运算符",
+      "context": "条件语句通过运算符连接原子，形成完整的逻辑表达式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "原子",
+      "predicate": "可以是",
+      "object": "数字",
+      "context": "原子可以是数字类型，用于数值比较",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "原子",
+      "predicate": "可以是",
+      "object": "字符串",
+      "context": "原子可以是字符串类型，用于字符串比较",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "原子",
+      "predicate": "可以是",
+      "object": "辨识符",
+      "context": "原子可以是辨识符类型，用于特殊标识比较",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "原子",
+      "predicate": "支持",
+      "object": "不区分大小写比较",
+      "context": "原子比较时不区分大小写，方便开发者使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运算符",
+      "predicate": "包含",
+      "object": "逻辑运算符",
+      "context": "运算符包含逻辑运算符(如and/or)，用于组合多个条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运算符",
+      "predicate": "包含",
+      "object": "比较运算符",
+      "context": "运算符包含比较运算符(如==/!=)，用于值比较",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运算符",
+      "predicate": "包含",
+      "object": "文件检查运算符",
+      "context": "运算符包含文件检查运算符(如Exists)，用于文件系统操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运算符",
+      "predicate": "具有",
+      "object": "优先权",
+      "context": "不同运算符具有不同的优先权，影响表达式求值顺序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph脚本",
+      "predicate": "用于",
+      "object": "自动化构建流程",
+      "context": "BuildGraph脚本主要用于实现虚幻引擎项目的自动化构建",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "条件语句",
+      "predicate": "实现",
+      "object": "构建流程控制",
+      "context": "通过条件语句可以实现构建流程的灵活控制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:16:13.243Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3055,
+    "contentLength": 2065,
+    "processingTimeMs": 42110
+  }
+}

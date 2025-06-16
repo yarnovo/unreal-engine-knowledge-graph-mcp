@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_core-redirects-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_core-redirects-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Core Redirects",
+      "predicate": "用于",
+      "object": "重命名代码成员",
+      "context": "Core Redirects用于在重命名类、属性、函数等代码成员时防止数据丢失，帮助学习者理解代码重构时的数据迁移机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Core Redirects",
+      "predicate": "配置于",
+      "object": "DefaultEngine.ini",
+      "context": "Core Redirects需要在项目的DefaultEngine.ini文件中配置，帮助学习者掌握配置位置和方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ClassRedirects",
+      "predicate": "属于",
+      "object": "Core Redirects",
+      "context": "ClassRedirects是Core Redirects的一种类型，用于重命名UCLASS，帮助学习者区分不同类型的重定向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EnumRedirects",
+      "predicate": "属于",
+      "object": "Core Redirects",
+      "context": "EnumRedirects是Core Redirects的一种类型，用于重命名UENUM和枚举值，帮助学习者理解枚举类型的重定向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FunctionRedirects",
+      "predicate": "属于",
+      "object": "Core Redirects",
+      "context": "FunctionRedirects是Core Redirects的一种类型，用于重命名UFUNCTION，帮助学习者掌握函数重定向的方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PropertyRedirects",
+      "predicate": "属于",
+      "object": "Core Redirects",
+      "context": "PropertyRedirects是Core Redirects的一种类型，用于重命名属性，帮助学习者理解属性重定向的配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StructRedirects",
+      "predicate": "属于",
+      "object": "Core Redirects",
+      "context": "StructRedirects是Core Redirects的一种类型，用于重命名USTRUCT，帮助学习者掌握结构体重定向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PackageRedirects",
+      "predicate": "属于",
+      "object": "Core Redirects",
+      "context": "PackageRedirects是Core Redirects的一种类型，用于重命名或删除包，帮助学习者理解包资源的管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MatchSubstring",
+      "predicate": "用于",
+      "object": "子字符串匹配",
+      "context": "MatchSubstring参数用于实现子字符串匹配，帮助学习者理解如何通过部分匹配实现批量重定向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DebugCoreRedirects",
+      "predicate": "用于",
+      "object": "调试Core Redirects",
+      "context": "DebugCoreRedirects命令行参数用于调试Core Redirects问题，帮助学习者掌握调试工具的使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Core Redirects",
+      "predicate": "支持",
+      "object": "多种重定向类型",
+      "context": "Core Redirects支持ClassRedirects、EnumRedirects等多种类型，帮助学习者全面了解其功能范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Core Redirects",
+      "predicate": "防止",
+      "object": "数据丢失",
+      "context": "Core Redirects的主要作用是防止在代码重构时的数据丢失，帮助学习者理解其核心价值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InstanceOnly",
+      "predicate": "用于",
+      "object": "实例重映射",
+      "context": "InstanceOnly参数用于仅重映射旧类的实例而不影响类引用，帮助学习者理解特定场景下的重定向需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ValueChanges",
+      "predicate": "用于",
+      "object": "值重命名",
+      "context": "ValueChanges用于重命名特定值，帮助学习者掌握细粒度的重定向配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Core Redirects",
+      "predicate": "基于",
+      "object": "反射系统",
+      "context": "Core Redirects基于虚幻引擎的反射系统工作，帮助学习者理解其底层机制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:37:57.289Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9530 字符)",
+      "timestamp": "2025-06-15T18:36:45.867Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14288,
+    "contentLength": 9530,
+    "processingTimeMs": 71424
+  }
+}

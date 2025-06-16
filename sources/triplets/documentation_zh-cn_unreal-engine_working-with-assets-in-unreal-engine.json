@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_working-with-assets-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_working-with-assets-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "内容浏览器",
+      "predicate": "用于",
+      "object": "创建资产",
+      "context": "内容浏览器是创建新资产的主要界面，学习者需要熟悉其操作才能开始资产创建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产",
+      "predicate": "包含于",
+      "object": "包",
+      "context": "理解资产与包的包含关系是掌握虚幻引擎资产管理系统的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "包含",
+      "object": "两个资产",
+      "context": "蓝图是特殊资产类型，了解其双资产结构对正确处理蓝图文件很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产引用",
+      "predicate": "影响",
+      "object": "资产管理",
+      "context": "理解引用关系是安全移动、重命名和删除资产的前提条件",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "引用查看界面",
+      "predicate": "用于",
+      "object": "查看资产引用",
+      "context": "该工具帮助学习者可视化资产间的依赖关系，是调试和重构的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "替换引用工具",
+      "predicate": "用于",
+      "object": "合并资产",
+      "context": "该工具帮助学习者将多个引用整合为单一引用，优化项目结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产路径",
+      "predicate": "决定",
+      "object": "资产引用",
+      "context": "路径系统是理解虚幻引擎如何定位和引用资产的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导出功能",
+      "predicate": "转换",
+      "object": "uasset格式",
+      "context": "了解导出流程帮助学习者在不同工具间迁移资产内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产操作",
+      "predicate": "包括",
+      "object": "移动/复制/删除",
+      "context": "这些基础操作是日常开发中必须掌握的资产管理技能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "删除资产",
+      "predicate": "需要检查",
+      "object": "引用关系",
+      "context": "安全删除资产前检查引用可以避免项目损坏，是重要的开发实践",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HLOD包",
+      "predicate": "包含",
+      "object": "多个资产",
+      "context": "了解HLOD的特殊性有助于处理大规模场景优化时的资产组织",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象路径名",
+      "predicate": "标识",
+      "object": "唯一资产",
+      "context": "掌握路径命名规则对编程引用和资产查找都很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制引用功能",
+      "predicate": "用于",
+      "object": "编程引用",
+      "context": "该功能帮助学习者快速获取代码中引用资产所需的准确路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产迁移",
+      "predicate": "不同于",
+      "object": "直接文件操作",
+      "context": "区分正规迁移和直接文件操作可以避免项目损坏，是重要的开发规范",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "高级复制",
+      "predicate": "包含",
+      "object": "引用解析",
+      "context": "理解高级复制的特性有助于处理复杂资产依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:33:37.276Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8261 字符)",
+      "timestamp": "2025-06-15T21:32:56.355Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13759,
+    "contentLength": 8261,
+    "processingTimeMs": 40925
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_fshadercache-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_fshadercache-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "FShaderCache",
+      "predicate": "减少",
+      "object": "着色器卡顿",
+      "context": "FShaderCache的主要功能是减少游戏中着色器的卡顿，帮助提升游戏性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FShaderCache",
+      "predicate": "支持",
+      "object": "OpenGLDrv",
+      "context": "FShaderCache支持OpenGLDrv RHI，这是其在特定平台上运行的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FShaderCache",
+      "predicate": "支持",
+      "object": "MetalRHI",
+      "context": "FShaderCache支持MetalRHI RHI，这是其在Mac等平台上运行的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FShaderCache",
+      "predicate": "适用于",
+      "object": "Mac平台",
+      "context": "FShaderCache可在Mac平台上使用，帮助优化该平台的着色器性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FShaderCache",
+      "predicate": "适用于",
+      "object": "Linux平台",
+      "context": "FShaderCache可在Linux平台上使用，帮助优化该平台的着色器性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FShaderCache",
+      "predicate": "适用于",
+      "object": "Windows平台",
+      "context": "FShaderCache可在Windows平台上使用，帮助优化该平台的着色器性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.UseShaderCaching",
+      "predicate": "控制",
+      "object": "FShaderCache功能",
+      "context": "r.UseShaderCaching控制台命令用于启用或禁用FShaderCache的着色器缓存功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.UseShaderDrawLog",
+      "predicate": "追踪",
+      "object": "RHI绘制状态",
+      "context": "r.UseShaderDrawLog命令用于追踪RHI绘制状态，帮助预绘制着色器状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.UseShaderPredraw",
+      "predicate": "消除",
+      "object": "首次使用卡顿",
+      "context": "r.UseShaderPredraw命令通过预绘制追踪的RHI绘制状态来消除首次使用的卡顿",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.UseShaderBinaryCache",
+      "predicate": "生成",
+      "object": "着色器字节码缓存文件",
+      "context": "r.UseShaderBinaryCache命令将所有着色器字节码累加到一个单独的缓存文件中，便于后续使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.UseAsyncShaderPrecompilation",
+      "predicate": "启用",
+      "object": "异步预编译",
+      "context": "r.UseAsyncShaderPrecompilation命令启用游戏进程中着色器代码的异步预编译，优化性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FShaderCache",
+      "predicate": "依赖",
+      "object": "GameVersion",
+      "context": "FShaderCache在缓存更新或失效时依赖GameVersion来标识新的缓存内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FShaderCache",
+      "predicate": "支持",
+      "object": "流送分批",
+      "context": "FShaderCache支持根据流送键进行分批处理，优化流送游戏或大缓存内容的性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FShaderCache::SetStreamingKey",
+      "predicate": "用于",
+      "object": "区域/流送分批",
+      "context": "FShaderCache::SetStreamingKey方法用于根据流送键分批处理绘制状态，优化性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FShaderCache::FlushOutstandingBatches",
+      "predicate": "处理",
+      "object": "剩余着色器",
+      "context": "FShaderCache::FlushOutstandingBatches方法用于在下一帧处理所有剩余的着色器，确保预绘制完成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FShaderCache::BeginAcceleratedBatching",
+      "predicate": "加速",
+      "object": "预绘制",
+      "context": "FShaderCache::BeginAcceleratedBatching方法用于加速预绘制过程，适用于非互动模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FShaderCache::EndAcceleratedBatching",
+      "predicate": "恢复",
+      "object": "正常预绘制",
+      "context": "FShaderCache::EndAcceleratedBatching方法用于恢复正常的预绘制分批处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:07:55.342Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7381,
+    "contentLength": 4441,
+    "processingTimeMs": 57467
+  }
+}

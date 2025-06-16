@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_setting-up-collisions-with-static-meshes-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_setting-up-collisions-with-static-meshes-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "静态网格体",
+      "predicate": "需要",
+      "object": "碰撞体积",
+      "context": "静态网格体需要设置碰撞体积来防止玩家或物体穿透",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞体积",
+      "predicate": "用于",
+      "object": "物理模拟",
+      "context": "设置碰撞体积是实现物理模拟的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体编辑器",
+      "predicate": "提供",
+      "object": "碰撞设置功能",
+      "context": "静态网格体编辑器提供多种碰撞设置选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简单碰撞体",
+      "predicate": "包括",
+      "object": "球体/胶囊体/盒体",
+      "context": "简单碰撞体包含三种基本几何形状",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "K-DOP碰撞",
+      "predicate": "是",
+      "object": "高级碰撞形状",
+      "context": "K-DOP提供比简单碰撞体更精确的碰撞检测",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动凸包碰撞",
+      "predicate": "提供",
+      "object": "最精确碰撞",
+      "context": "自动凸包碰撞可以生成最贴合网格体形状的碰撞体积",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞预设值",
+      "predicate": "控制",
+      "object": "物理交互行为",
+      "context": "碰撞预设值决定物体如何与其他物体交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模拟物理",
+      "predicate": "依赖",
+      "object": "碰撞体积",
+      "context": "启用物理模拟必须首先设置碰撞体积",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "可以具有",
+      "object": "复合碰撞体",
+      "context": "可以通过组合多个简单碰撞体创建复杂碰撞形状",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞体积",
+      "predicate": "影响",
+      "object": "游戏性能",
+      "context": "更复杂的碰撞体积会增加物理计算开销",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "静态网格体命名规则",
+      "predicate": "包含",
+      "object": "SM前缀",
+      "context": "SM前缀标识静态网格体资产，遵循命名规范",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "初学者内容",
+      "predicate": "包含",
+      "object": "示例静态网格体",
+      "context": "初学者内容包提供用于学习的示例网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞菜单",
+      "predicate": "位于",
+      "object": "静态网格体编辑器",
+      "context": "碰撞设置功能集中在编辑器的碰撞菜单中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "显示",
+      "object": "物理属性",
+      "context": "细节面板提供物理模拟相关参数的设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "凸包分解",
+      "predicate": "允许",
+      "object": "精度调整",
+      "context": "可以调整凸包分解参数来控制碰撞精度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:45:19.926Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (14636 字符)",
+      "timestamp": "2025-06-15T20:44:34.023Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 22032,
+    "contentLength": 14636,
+    "processingTimeMs": 45906
+  }
+}

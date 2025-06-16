@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_replicating-actor-components-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_replicating-actor-components-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Actor组件",
+      "predicate": "扩展",
+      "object": "Actor行为",
+      "context": "Actor组件可以扩展Actor的行为，这是其核心功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor组件",
+      "predicate": "附加到",
+      "object": "Actor",
+      "context": "Actor组件作为子对象附加到Actor上，这是其基本存在形式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态Actor组件",
+      "predicate": "属于",
+      "object": "Actor组件类型",
+      "context": "静态Actor组件是Actor组件的一种主要类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态Actor组件",
+      "predicate": "属于",
+      "object": "Actor组件类型",
+      "context": "动态Actor组件是Actor组件的另一种主要类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图Actor组件",
+      "predicate": "属于",
+      "object": "Actor组件类型",
+      "context": "蓝图Actor组件是Actor组件的第三种类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态Actor组件",
+      "predicate": "创建方式",
+      "object": "Actor构造函数",
+      "context": "静态组件在Actor的C++结构函数中创建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态Actor组件",
+      "predicate": "创建方式",
+      "object": "运行时创建",
+      "context": "动态Actor组件在运行时生成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor组件复制",
+      "predicate": "依赖",
+      "object": "Actor复制",
+      "context": "要复制Actor组件，必须先将其所属Actor设置为可复制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态Actor组件",
+      "predicate": "设置复制",
+      "object": "SetIsReplicatedByDefault",
+      "context": "静态Actor组件通过SetIsReplicatedByDefault方法设置复制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态Actor组件",
+      "predicate": "设置复制",
+      "object": "SetIsReplicated",
+      "context": "动态Actor组件通过SetIsReplicated方法设置复制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图Actor组件",
+      "predicate": "设置复制",
+      "object": "细节面板",
+      "context": "蓝图中的Actor组件通过细节面板中的复制选项设置复制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor组件",
+      "predicate": "支持",
+      "object": "RPC调用",
+      "context": "Actor组件可以像Actor那样调用远程过程调用(RPC)",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor组件",
+      "predicate": "包含",
+      "object": "子对象",
+      "context": "Actor组件可以拥有自己的复制子对象列表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor组件复制",
+      "predicate": "影响",
+      "object": "带宽开销",
+      "context": "每个被复制的Actor组件都会增加网络带宽开销",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor组件RPC",
+      "predicate": "开销高于",
+      "object": "ActorRPC",
+      "context": "从Actor组件调用RPC的开销高于直接从Actor调用RPC",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor组件",
+      "predicate": "使用相同API",
+      "object": "Actor子对象管理",
+      "context": "Actor组件使用和Actor相同的API接口来注册和注销其子对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态Actor组件",
+      "predicate": "创建方式",
+      "object": "蓝图编辑器组件模式",
+      "context": "静态组件也可以在蓝图编辑器的组件模式中创建",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动态Actor组件",
+      "predicate": "行为类似",
+      "object": "Actor",
+      "context": "动态Actor组件的工作方式类似Actor",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Actor组件子对象",
+      "predicate": "依赖",
+      "object": "组件复制条件",
+      "context": "子对象的复制条件依赖于其所属组件的复制条件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Actor组件",
+      "predicate": "参考",
+      "object": "角色移动组件",
+      "context": "文档建议参考角色移动组件来了解优化RPC调用的方法",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T20:37:23.009Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (20946 字符)",
+      "timestamp": "2025-06-15T20:36:27.537Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 23520,
+    "contentLength": 20946,
+    "processingTimeMs": 55483
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_cinematic-console-variable-track-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_cinematic-console-variable-track-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "控制台变量轨道",
+      "predicate": "用于",
+      "object": "过场动画序列",
+      "context": "控制台变量轨道专门用于在过场动画序列中调节渲染设置或其他设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台变量轨道",
+      "predicate": "基于",
+      "object": "Sequencer",
+      "context": "控制台变量轨道是Sequencer的一个功能模块，需要先了解Sequencer才能使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台变量轨道",
+      "predicate": "包含",
+      "object": "控制台变量分段",
+      "context": "控制台变量轨道通过分段来应用控制台变量到特定时间范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台变量分段",
+      "predicate": "支持",
+      "object": "多变量设置",
+      "context": "控制台变量分段允许通过逗号分隔的方式同时设置多个控制台变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台变量轨道",
+      "predicate": "替代方案",
+      "object": "影片渲染队列",
+      "context": "对于渲染序列的场景，影片渲染队列的控制台变量设置可能是更好的选择",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "控制台变量分段",
+      "predicate": "具有",
+      "object": "属性恢复功能",
+      "context": "分段结束后会自动恢复原来的控制台变量值，这是重要的学习点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "前置知识",
+      "object": "控制台变量轨道",
+      "context": "使用控制台变量轨道需要先掌握Sequencer的基本操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台变量轨道",
+      "predicate": "适用于",
+      "object": "实时项目",
+      "context": "文档明确指出该功能特别适合需要在序列中途修改设置的实时项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:21:22.245Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3899,
+    "contentLength": 2765,
+    "processingTimeMs": 35100
+  }
+}

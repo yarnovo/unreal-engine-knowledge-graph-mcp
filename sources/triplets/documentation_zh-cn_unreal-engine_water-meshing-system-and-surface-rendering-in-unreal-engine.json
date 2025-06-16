@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_water-meshing-system-and-surface-rendering-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_water-meshing-system-and-surface-rendering-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "水系统",
+      "predicate": "包含",
+      "object": "水面网格体",
+      "context": "水系统由水面网格体和水面材质构成，理解网格体是学习水系统的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水系统",
+      "predicate": "包含",
+      "object": "水面材质",
+      "context": "水面材质与水网格体共同决定水的表现效果，是水系统的核心组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水面网格体",
+      "predicate": "基于",
+      "object": "样条线系统",
+      "context": "水面网格体使用样条线定义水域区域，这是理解网格体生成原理的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Water Zone",
+      "predicate": "控制",
+      "object": "水体Actor",
+      "context": "Water Zone修改关卡中所有水体Actor的属性，是水面网格体的管理核心",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水体Actor",
+      "predicate": "包含",
+      "object": "江河",
+      "context": "江河是水体Actor的一种类型，理解分类有助于掌握不同类型水体的特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水体Actor",
+      "predicate": "包含",
+      "object": "湖泊",
+      "context": "湖泊是水体Actor的一种基础类型，具有典型的水体特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水体Actor",
+      "predicate": "包含",
+      "object": "海洋",
+      "context": "海洋水体具有特殊的大范围表现需求，是水体Actor的重要类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Water Zone",
+      "predicate": "定义",
+      "object": "LODScale",
+      "context": "LODScale是Water Zone控制细节级别过渡距离的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Water Zone",
+      "predicate": "定义",
+      "object": "曲面细分因子",
+      "context": "曲面细分因子决定网格体顶点密度，直接影响水面渲染质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水材质",
+      "predicate": "使用",
+      "object": "单层水着色模型",
+      "context": "默认水材质采用这种高效着色模型，理解它对材质创建很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水体Actor",
+      "predicate": "关联",
+      "object": "水下后期处理",
+      "context": "每个水体都配有水下后期处理材质，实现水面过渡效果",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "江河水体",
+      "predicate": "使用",
+      "object": "过渡性材质",
+      "context": "江河需要特殊材质实现与其他水体的自然过渡，这是水流表现的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水网格体",
+      "predicate": "采用",
+      "object": "四叉树结构",
+      "context": "四叉树结构实现LOD动态调整，是优化水面渲染性能的核心机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远距离网格体",
+      "predicate": "补充",
+      "object": "水网格体",
+      "context": "远距离网格体填补主网格体与地平线间的空白，保持视觉连续性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "曲面细分因子",
+      "predicate": "影响",
+      "object": "波浪表现",
+      "context": "更高的曲面细分能更好表现波浪细节，但会增加性能开销",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "水材质",
+      "predicate": "需要",
+      "object": "Used with Water标记",
+      "context": "自定义水材质必须启用此标记才能正确渲染，是材质创建的必要条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水体Actor材质",
+      "predicate": "基于",
+      "object": "Water_Material",
+      "context": "所有水体类型共享基础材质，通过实例化实现差异化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "水下后期处理",
+      "predicate": "依赖",
+      "object": "生成碰撞",
+      "context": "必须启用碰撞生成才能触发水下后期处理效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图块大小",
+      "predicate": "影响",
+      "object": "渲染效率",
+      "context": "图块大小设置需要在细节表现和性能之间取得平衡",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "LOD过渡",
+      "predicate": "采用",
+      "object": "网格变形",
+      "context": "不同于传统LOD切换，水系统使用平滑的网格变形过渡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:31:36.224Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13515 字符)",
+      "timestamp": "2025-06-15T21:30:43.321Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 21851,
+    "contentLength": 13515,
+    "processingTimeMs": 52911
+  }
+}

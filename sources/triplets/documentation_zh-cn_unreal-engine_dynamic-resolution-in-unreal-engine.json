@@ -1,0 +1,187 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_dynamic-resolution-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_dynamic-resolution-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "动态分辨率",
+      "predicate": "调节",
+      "object": "屏幕百分比",
+      "context": "动态分辨率通过调节屏幕百分比来适应GPU工作负载，维持目标帧率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态分辨率",
+      "predicate": "依赖",
+      "object": "GPU工作负载",
+      "context": "动态分辨率根据GPU工作负载的变化动态调整分辨率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态分辨率",
+      "predicate": "启用方式",
+      "object": "Game User Settings",
+      "context": "动态分辨率可以通过Game User Settings节点在蓝图或C++中启用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态分辨率",
+      "predicate": "控制方式",
+      "object": "运算模式",
+      "context": "运算模式设置动态分辨率在游戏中的覆盖和使用方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态分辨率",
+      "predicate": "使用",
+      "object": "控制台变量",
+      "context": "动态分辨率通过控制台变量设置屏幕百分比的最大值、最小值和帧预算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态分辨率",
+      "predicate": "调试工具",
+      "object": "Stat Unit",
+      "context": "Stat Unit用于调试动态分辨率相关的性能数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态分辨率",
+      "predicate": "调试工具",
+      "object": "Stat UnitGraph",
+      "context": "Stat UnitGraph显示动态分辨率选择的主要屏幕百分比曲线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态分辨率",
+      "predicate": "调试工具",
+      "object": "Stat Raw",
+      "context": "Stat Raw提供未经过滤的性能数据用于调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态分辨率",
+      "predicate": "支持平台",
+      "object": "Xbox One",
+      "context": "动态分辨率在Xbox One平台上得到支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态分辨率",
+      "predicate": "支持平台",
+      "object": "PlayStation 4",
+      "context": "动态分辨率在PlayStation 4平台上得到支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态分辨率",
+      "predicate": "支持平台",
+      "object": "Nintendo Switch",
+      "context": "动态分辨率在Nintendo Switch平台上得到支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态分辨率",
+      "predicate": "替换",
+      "object": "启发法",
+      "context": "动态分辨率的启发法可以通过C++代码替换，实现自定义逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态分辨率",
+      "predicate": "局限性",
+      "object": "多场景编辑器运行",
+      "context": "动态分辨率不支持配合多场景的'在编辑器中运行'功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态分辨率",
+      "predicate": "局限性",
+      "object": "VR支持",
+      "context": "动态分辨率在VR中需要启用TAAU才能工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态分辨率",
+      "predicate": "局限性",
+      "object": "高斯景深",
+      "context": "高斯景深在分辨率更改时会有问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态分辨率",
+      "predicate": "局限性",
+      "object": "距离场环境光遮蔽",
+      "context": "距离场环境光遮蔽在分辨率更改时会有问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态分辨率",
+      "predicate": "测试工具",
+      "object": "屏幕百分比滑块",
+      "context": "编辑器视口提供屏幕百分比滑块，用于测试不同分辨率下的内容表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态分辨率",
+      "predicate": "应急机制",
+      "object": "超预算应急",
+      "context": "当连续帧超出GPU预算时，动态分辨率会快速降低分辨率进行补偿",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态分辨率",
+      "predicate": "控制变量",
+      "object": "r.DynamicRes.MinScreenPercentage",
+      "context": "设置动态分辨率使用的最小屏幕百分比",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态分辨率",
+      "predicate": "控制变量",
+      "object": "r.DynamicRes.MaxScreenPercentage",
+      "context": "设置动态分辨率使用的最大屏幕百分比",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态分辨率",
+      "predicate": "控制变量",
+      "object": "r.DynamicRes.FrameTimeBudget",
+      "context": "设置动态分辨率的帧时间预算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:54:43.754Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13685 字符)",
+      "timestamp": "2025-06-15T18:53:31.295Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 22952,
+    "contentLength": 13685,
+    "processingTimeMs": 72471
+  }
+}

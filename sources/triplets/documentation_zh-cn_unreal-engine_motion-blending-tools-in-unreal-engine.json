@@ -1,0 +1,99 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_motion-blending-tools-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_motion-blending-tools-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "运动混合工具",
+      "predicate": "用于",
+      "object": "Sequencer动画轨道",
+      "context": "运动混合工具用于在Sequencer中对角色动画片段之间进行转换，提高混合质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动混合工具",
+      "predicate": "支持",
+      "object": "世界位移数据",
+      "context": "运动混合工具特别适用于处理包含世界位移数据的动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "片段匹配",
+      "predicate": "引用",
+      "object": "角色骨架骨骼",
+      "context": "片段匹配会引用角色骨架中的一个骨骼，并将该骨骼的位置和运动与相邻片段中包含位移数据的骨骼相匹配",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动混合工具",
+      "predicate": "包含",
+      "object": "片段匹配",
+      "context": "片段匹配是运动混合工具的核心功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动混合工具",
+      "predicate": "支持",
+      "object": "根运动偏移设置",
+      "context": "可以在关卡序列中的每个动画片段上手动分配根运动偏移，以改变混合的结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动混合工具",
+      "predicate": "支持",
+      "object": "调试设置",
+      "context": "运动混合工具提供多种调试工具，如显示骨架和颜色着色，用于观察和调试运动混合行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动混合工具",
+      "predicate": "支持",
+      "object": "无根骨骼混合",
+      "context": "即使动画不在根骨骼中存储角色位移，仍然可以使用根的首个子骨骼来混合动画的世界位移位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动混合工具",
+      "predicate": "集成",
+      "object": "Control Rig",
+      "context": "可以使用Additive FK Control Rig来手动键入角色的动画，而不覆盖运动混合的效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动混合工具",
+      "predicate": "适用于",
+      "object": "动画序列",
+      "context": "运动混合工具适用于包含世界位移数据的动画序列",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动混合工具",
+      "predicate": "支持",
+      "object": "多轴匹配",
+      "context": "运动混合工具支持X、Y、Z轴的平移和旋转匹配，以实现更精确的动画混合",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:00:08.528Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9224 字符)",
+      "timestamp": "2025-06-15T19:59:32.884Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13974,
+    "contentLength": 9224,
+    "processingTimeMs": 35656
+  }
+}

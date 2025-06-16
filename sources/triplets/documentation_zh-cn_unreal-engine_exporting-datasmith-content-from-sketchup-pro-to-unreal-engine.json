@@ -1,0 +1,77 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_exporting-datasmith-content-from-sketchup-pro-to-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_exporting-datasmith-content-from-sketchup-pro-to-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "SketchUp Pro",
+      "predicate": "支持导出",
+      "object": "Datasmith内容",
+      "context": "SketchUp Pro通过安装Datasmith导出器插件，可以将场景导出为Datasmith格式，便于后续导入虚幻引擎",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导出器插件",
+      "predicate": "添加功能",
+      "object": "SketchUp Pro",
+      "context": "安装Datasmith导出器插件后，SketchUp Pro将新增导出Datasmith内容的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导出器插件",
+      "predicate": "生成",
+      "object": ".udatasmith文件",
+      "context": "Datasmith导出器插件可以将SketchUp Pro场景导出为.udatasmith文件格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": ".udatasmith文件",
+      "predicate": "关联",
+      "object": "_Assets文件夹",
+      "context": "导出.udatasmith文件时，会同时生成一个同名的_Assets文件夹，两者需要保持在同一位置",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith内容",
+      "predicate": "可导入",
+      "object": "虚幻编辑器",
+      "context": "导出的Datasmith内容（.udatasmith文件）可以导入到虚幻编辑器中进行后续处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SketchUp Pro",
+      "predicate": "工作流程前置",
+      "object": "虚幻引擎",
+      "context": "SketchUp Pro用于创建和导出3D模型，是虚幻引擎工作流程的前置步骤",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Datasmith导出器插件",
+      "predicate": "依赖",
+      "object": "SketchUp Pro",
+      "context": "Datasmith导出器插件需要安装在SketchUp Pro中才能使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith内容",
+      "predicate": "包含",
+      "object": "3D模型数据",
+      "context": "Datasmith内容包含从SketchUp Pro导出的3D模型数据，用于在虚幻引擎中重建场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:01:41.843Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2803,
+    "contentLength": 2087,
+    "processingTimeMs": 44714
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_transforming-actors-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_transforming-actors-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "变换Actor",
+      "predicate": "包含",
+      "object": "手动变换",
+      "context": "变换Actor可以通过手动变换或交互式变换实现，手动变换是其中一种主要方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换Actor",
+      "predicate": "包含",
+      "object": "交互式变换",
+      "context": "变换Actor可以通过手动变换或交互式变换实现，交互式变换是其中一种主要方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "手动变换",
+      "predicate": "通过",
+      "object": "细节面板",
+      "context": "手动变换通过细节面板中的变换分段进行操作，学习者需要熟悉细节面板的位置和功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交互式变换",
+      "predicate": "使用",
+      "object": "小工具",
+      "context": "交互式变换使用小工具（gizmo）进行操作，这是可视化操作的核心工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "小工具",
+      "predicate": "分为",
+      "object": "平移小工具",
+      "context": "小工具根据功能分为平移、旋转和缩放三种类型，平移小工具用于移动Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "小工具",
+      "predicate": "分为",
+      "object": "旋转小工具",
+      "context": "小工具根据功能分为平移、旋转和缩放三种类型，旋转小工具用于旋转Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "小工具",
+      "predicate": "分为",
+      "object": "缩放小工具",
+      "context": "小工具根据功能分为平移、旋转和缩放三种类型，缩放小工具用于缩放Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平移小工具",
+      "predicate": "支持",
+      "object": "复制Actor",
+      "context": "平移小工具支持通过Alt键拖动来复制Actor，这是快速创建副本的重要功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换Actor",
+      "predicate": "涉及",
+      "object": "枢轴点",
+      "context": "变换Actor时枢轴点是变换的中心，理解枢轴点对精确控制变换至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "枢轴点",
+      "predicate": "可调整",
+      "object": "临时调整",
+      "context": "枢轴点可以临时调整位置，这是进行特殊变换的技术要点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "枢轴点",
+      "predicate": "可调整",
+      "object": "永久调整",
+      "context": "枢轴点可以永久设置为新的偏移位置，这是高级变换的技术要点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换Actor",
+      "predicate": "支持",
+      "object": "世界空间变换",
+      "context": "变换可以在世界空间坐标系下进行，这是基本的空间参考系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换Actor",
+      "predicate": "支持",
+      "object": "局部空间变换",
+      "context": "变换可以在Actor的局部空间坐标系下进行，这是相对于父节点的变换方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "显示",
+      "object": "位置属性",
+      "context": "细节面板显示Actor的位置属性，这是手动变换的基础参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "显示",
+      "object": "旋转属性",
+      "context": "细节面板显示Actor的旋转属性，这是手动变换的基础参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "显示",
+      "object": "缩放属性",
+      "context": "细节面板显示Actor的缩放属性，这是手动变换的基础参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交互式变换",
+      "predicate": "支持",
+      "object": "网格对齐",
+      "context": "交互式变换支持网格对齐功能，这是精确定位的重要辅助功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "定义",
+      "object": "Z轴为纵轴",
+      "context": "了解虚幻引擎的坐标系定义是进行3D变换的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换Actor",
+      "predicate": "关联",
+      "object": "Actor移动性",
+      "context": "变换操作与Actor的移动性设置相关，这是影响变换行为的重要属性",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "小工具",
+      "predicate": "颜色编码",
+      "object": "X轴红色",
+      "context": "小工具使用颜色编码帮助识别不同轴向，红色代表X轴",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "小工具",
+      "predicate": "颜色编码",
+      "object": "Y轴绿色",
+      "context": "小工具使用颜色编码帮助识别不同轴向，绿色代表Y轴",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "小工具",
+      "predicate": "颜色编码",
+      "object": "Z轴蓝色",
+      "context": "小工具使用颜色编码帮助识别不同轴向，蓝色代表Z轴",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:03:20.220Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9290 字符)",
+      "timestamp": "2025-06-15T21:02:21.333Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14960,
+    "contentLength": 9290,
+    "processingTimeMs": 58895
+  }
+}

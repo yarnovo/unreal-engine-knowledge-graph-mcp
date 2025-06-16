@@ -1,0 +1,77 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_color-material-expressions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_color-material-expressions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "去饱和度表达式",
+      "predicate": "属于",
+      "object": "颜色材质表达式",
+      "context": "去饱和度是颜色材质表达式的一种，学习者需要先了解颜色材质表达式的整体概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "去饱和度表达式",
+      "predicate": "包含",
+      "object": "亮度系数属性",
+      "context": "亮度系数是去饱和度表达式的关键属性，控制各颜色通道对去饱和效果的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "去饱和度表达式",
+      "predicate": "包含",
+      "object": "小数输入",
+      "context": "小数输入控制去饱和程度，是使用该表达式的必要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "去饱和度表达式",
+      "predicate": "基于",
+      "object": "数学公式",
+      "context": "文档提供了具体的数学公式实现，理解公式有助于深入掌握去饱和原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "去饱和度表达式",
+      "predicate": "用于",
+      "object": "材质创建",
+      "context": "该表达式是材质编辑器中的重要工具，用于控制材质颜色效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "去饱和度表达式",
+      "predicate": "关联",
+      "object": "着色器",
+      "context": "去饱和效果最终会编译为着色器代码，理解着色器有助于优化效果",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "亮度系数",
+      "predicate": "控制",
+      "object": "通道影响",
+      "context": "通过调整亮度系数可以控制不同颜色通道对最终灰度值的影响程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "小数输入",
+      "predicate": "决定",
+      "object": "去饱和程度",
+      "context": "输入值0.0-1.0直接控制从原始颜色到完全去饱和的过渡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:28:52.530Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 1829,
+    "contentLength": 1303,
+    "processingTimeMs": 33145
+  }
+}

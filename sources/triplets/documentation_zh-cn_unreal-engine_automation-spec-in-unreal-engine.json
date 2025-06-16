@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_automation-spec-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_automation-spec-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "规范",
+      "predicate": "基于",
+      "object": "行为驱动设计(BDD)",
+      "context": "规范是一种按照行为驱动设计方法构建的测试类型，帮助学习者理解测试设计的理论基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DEFINE_SPEC宏",
+      "predicate": "用于",
+      "object": "定义规范",
+      "context": "DEFINE_SPEC宏是定义规范的最简单方法，学习者需要掌握这个基础语法结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BEGIN_DEFINE_SPEC宏",
+      "predicate": "扩展",
+      "object": "DEFINE_SPEC宏",
+      "context": "BEGIN_DEFINE_SPEC宏允许定义自定义成员，是DEFINE_SPEC的扩展版本，学习者需要理解两者的区别和应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Describe函数",
+      "predicate": "组织",
+      "object": "测试期望",
+      "context": "Describe函数用于组织复杂测试期望的范围，帮助学习者构建结构化的测试代码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "It函数",
+      "predicate": "定义",
+      "object": "具体测试期望",
+      "context": "It函数用于定义具体的测试期望，是BDD测试中的核心元素，学习者需要掌握其用法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BeforeEach函数",
+      "predicate": "前置执行",
+      "object": "It测试",
+      "context": "BeforeEach在每个It测试前执行，学习者需要理解测试准备代码的组织方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AfterEach函数",
+      "predicate": "后置执行",
+      "object": "It测试",
+      "context": "AfterEach在每个It测试后执行，学习者需要理解测试清理代码的组织方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AsyncExecution",
+      "predicate": "支持",
+      "object": "多线程测试",
+      "context": "AsyncExecution特性支持在不同线程环境中执行测试，学习者需要了解并发测试的实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "潜在完成",
+      "predicate": "处理",
+      "object": "异步操作",
+      "context": "潜在完成特性用于处理需要多帧完成的异步操作，学习者需要掌握异步测试的实现方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "参数化测试",
+      "predicate": "实现",
+      "object": "数据驱动测试",
+      "context": "参数化测试允许创建数据驱动的测试用例，学习者需要掌握这种高效的测试方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Redefine函数",
+      "predicate": "刷新",
+      "object": "测试定义",
+      "context": "Redefine函数可以重新执行测试定义流程，学习者需要了解动态更新测试的方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "xIt函数",
+      "predicate": "禁用",
+      "object": "单个测试",
+      "context": "以x开头的函数变体可以方便地禁用测试，学习者需要掌握临时禁用测试的方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "规范测试",
+      "predicate": "适用于",
+      "object": "多种测试类型",
+      "context": "规范测试可以用于功能测试、集成测试和单元测试，学习者需要理解其广泛适用性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化测试框架",
+      "predicate": "包含",
+      "object": "规范测试类型",
+      "context": "规范是虚幻引擎自动化测试框架中的一种新测试类型，学习者需要理解其在框架中的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "规范测试",
+      "predicate": "促进",
+      "object": "自文档化测试",
+      "context": "规范测试的设计使其具有自文档化特性，帮助学习者编写更易理解的测试代码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Describe函数",
+      "predicate": "可以嵌套",
+      "object": "Describe函数",
+      "context": "Describe函数可以嵌套使用以构建层次化的测试结构，学习者需要掌握这种组织方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "规范测试",
+      "predicate": "隔离",
+      "object": "测试期望",
+      "context": "规范测试会隔离每个测试期望的执行，学习者需要理解这种隔离对测试维护的好处",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "规范测试文件",
+      "predicate": "建议使用",
+      "object": ".spec.cpp扩展名",
+      "context": "规范测试文件建议使用.spec.cpp扩展名，学习者需要遵循这一命名规范",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BDD方法",
+      "predicate": "强调",
+      "object": "公共API测试",
+      "context": "BDD方法强调测试公共API而非具体实现，学习者需要理解这一重要原则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化驱动程序",
+      "predicate": "可以结合",
+      "object": "AsyncExecution",
+      "context": "AsyncExecution特性特别适合与自动化驱动程序结合使用，学习者需要了解这种高级用法",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:10:54.183Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12690 字符)",
+      "timestamp": "2025-06-15T18:09:41.603Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19110,
+    "contentLength": 12690,
+    "processingTimeMs": 72589
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_add-a-collision-hull-to-a-static-mesh-using-the-auto-convex-collision-tool-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_add-a-collision-hull-to-a-static-mesh-using-the-auto-convex-collision-tool-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "自动凸包碰撞工具",
+      "predicate": "用于",
+      "object": "静态网格体",
+      "context": "自动凸包碰撞工具专门用于为静态网格体创建碰撞凸包，帮助学习者理解工具的主要应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动凸包碰撞工具",
+      "predicate": "基于",
+      "object": "V-HACD库",
+      "context": "自动凸包工具使用V-HACD库来生成更准确的碰撞凸包结果，帮助学习者了解工具的技术基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体编辑器",
+      "predicate": "包含",
+      "object": "自动凸包碰撞工具",
+      "context": "自动凸包碰撞工具位于静态网格体编辑器的碰撞菜单下，帮助学习者找到工具的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动凸包碰撞工具",
+      "predicate": "生成",
+      "object": "简单碰撞",
+      "context": "使用自动凸包碰撞工具可以生成简单碰撞，帮助学习者理解工具的输出结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "凸包数量",
+      "predicate": "影响",
+      "object": "碰撞精度",
+      "context": "凸包数量参数会影响生成的碰撞凸包的精度，帮助学习者理解参数调整的效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "凸包最大顶点数",
+      "predicate": "影响",
+      "object": "碰撞复杂度",
+      "context": "凸包最大顶点数参数会影响碰撞凸包的几何复杂度，帮助学习者理解参数调整的效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "凸包精确度",
+      "predicate": "影响",
+      "object": "碰撞质量",
+      "context": "凸包精确度参数会影响生成的碰撞凸包的质量，帮助学习者理解参数调整的效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "支持",
+      "object": "碰撞功能",
+      "context": "静态网格体支持添加碰撞功能，这是物理模拟和碰撞检测的基础，帮助学习者理解静态网格体的重要特性",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动凸包碰撞工具",
+      "predicate": "提供",
+      "object": "后台处理",
+      "context": "自动凸包碰撞工具提供后台处理功能，允许用户在生成碰撞时继续其他工作，帮助学习者了解工具的工作方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞凸包",
+      "predicate": "用于",
+      "object": "物理模拟",
+      "context": "碰撞凸包主要用于物理模拟和碰撞检测，帮助学习者理解其在游戏开发中的重要性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T17:53:31.809Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4462,
+    "contentLength": 3380,
+    "processingTimeMs": 42965
+  }
+}

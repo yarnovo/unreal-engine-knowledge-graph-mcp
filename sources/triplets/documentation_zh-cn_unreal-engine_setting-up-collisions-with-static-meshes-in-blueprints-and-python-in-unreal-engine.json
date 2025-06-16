@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_setting-up-collisions-with-static-meshes-in-blueprints-and-python-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_setting-up-collisions-with-static-meshes-in-blueprints-and-python-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "静态网格体",
+      "predicate": "需要",
+      "object": "碰撞网格体",
+      "context": "为了使静态网格体成为关卡中物理模拟的一部分，必须为其设置碰撞网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞网格体",
+      "predicate": "表示",
+      "object": "物理边界",
+      "context": "碰撞网格体表示静态网格体对象在物理模拟中的边界",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简化碰撞网格体",
+      "predicate": "提升",
+      "object": "物理系统性能",
+      "context": "通过尽量简化碰撞网格体可以提升物理系统的性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体编辑器",
+      "predicate": "用于",
+      "object": "创建碰撞表示",
+      "context": "可以在静态网格体编辑器中自动为静态网格体创建简单的碰撞表示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "支持",
+      "object": "自动设置碰撞",
+      "context": "可以使用蓝图在虚幻编辑器中自动设置静态网格体的碰撞",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python",
+      "predicate": "支持",
+      "object": "自动设置碰撞",
+      "context": "可以使用Python在虚幻编辑器中自动设置静态网格体的碰撞",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EditorStaticMeshLibrary",
+      "predicate": "包含",
+      "object": "碰撞管理函数",
+      "context": "EditorStaticMeshLibrary类中包含管理静态网格体碰撞所需的大部分函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简单碰撞形态",
+      "predicate": "添加方式",
+      "object": "Add Simple Collisions节点",
+      "context": "使用Add Simple Collisions节点可以为静态网格体添加新的简化碰撞形状",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "凸面碰撞",
+      "predicate": "生成方式",
+      "object": "Set Convex Decomposition Collisions节点",
+      "context": "使用Set Convex Decomposition Collisions节点可以根据静态网格体的可见几何体自动生成凸包碰撞形状",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞网格体",
+      "predicate": "可以基于",
+      "object": "LOD",
+      "context": "可以使用静态网格体的细节较少的LOD作为碰撞网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "关联",
+      "object": "物理模拟",
+      "context": "静态网格体需要设置碰撞才能参与物理模拟",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞网格体",
+      "predicate": "影响",
+      "object": "物理交互",
+      "context": "碰撞网格体的复杂度和保真度会影响物理交互的性能和效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "蓝图脚本",
+      "predicate": "需要",
+      "object": "Editor-only类",
+      "context": "要使用蓝图管理静态网格体碰撞，蓝图类必须派生自Editor-only类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞设置",
+      "predicate": "需要",
+      "object": "资源保存",
+      "context": "设置碰撞会修改静态网格体资源，需要保存才能保留更改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动碰撞生成",
+      "predicate": "适用于",
+      "object": "批量处理",
+      "context": "以编程方式创建碰撞网格体适用于需要批量设置大量静态网格体的情况",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:45:17.347Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10012 字符)",
+      "timestamp": "2025-06-15T20:44:34.022Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14912,
+    "contentLength": 10012,
+    "processingTimeMs": 43327
+  }
+}

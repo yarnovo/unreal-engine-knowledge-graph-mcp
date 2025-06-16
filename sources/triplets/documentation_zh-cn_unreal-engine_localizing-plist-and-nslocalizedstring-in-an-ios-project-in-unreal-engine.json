@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_localizing-plist-and-nslocalizedstring-in-an-ios-project-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_localizing-plist-and-nslocalizedstring-in-an-ios-project-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "iOS项目本地化",
+      "predicate": "包含",
+      "object": "InfoPlist.strings文件",
+      "context": "InfoPlist.strings文件用于翻译iOS项目的info.plist文件中的字符串，是iOS项目本地化的关键组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS项目本地化",
+      "predicate": "包含",
+      "object": "Localizable.strings文件",
+      "context": "Localizable.strings文件用于翻译iOS项目代码文件中的所有字符串，是iOS项目本地化的关键组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS项目本地化",
+      "predicate": "依赖",
+      "object": "ISO 639-2标准",
+      "context": "iOS项目本地化需要按照ISO 639-2标准命名语言文件夹，以确保正确识别语言",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "InfoPlist.strings文件",
+      "predicate": "用于",
+      "object": "翻译info.plist文件",
+      "context": "InfoPlist.strings文件专门用于翻译iOS项目的info.plist文件中的字符串",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Localizable.strings文件",
+      "predicate": "用于",
+      "object": "翻译代码文件字符串",
+      "context": "Localizable.strings文件专门用于翻译iOS项目代码文件中的所有字符串",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NSLocalizedString",
+      "predicate": "生成",
+      "object": "本地化字符串",
+      "context": "NSLocalizedString函数用于生成需要本地化的字符串，是iOS本地化的核心API",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎iOS项目",
+      "predicate": "需要",
+      "object": "iOS项目本地化",
+      "context": "虚幻引擎iOS项目在提交前需要完成本地化工作，包括plist和代码字符串的翻译",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "语言文件夹",
+      "predicate": "遵循",
+      "object": "{LanguageCode}.lproj命名规范",
+      "context": "iOS本地化要求每种语言的文件夹必须按照{LanguageCode}.lproj格式命名",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎打包",
+      "predicate": "包含",
+      "object": "本地化资源",
+      "context": "虚幻引擎在打包iOS项目时会自动包含Localizations目录下的本地化资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "iOS项目提交",
+      "predicate": "要求",
+      "object": "至少一种语言本地化",
+      "context": "提交iOS项目到App Store前必须完成至少一种语言的本地化工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:47:57.010Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3789,
+    "contentLength": 2718,
+    "processingTimeMs": 47999
+  }
+}

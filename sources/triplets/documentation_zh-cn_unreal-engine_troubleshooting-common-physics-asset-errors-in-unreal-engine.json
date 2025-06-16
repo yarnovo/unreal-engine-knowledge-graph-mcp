@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_troubleshooting-common-physics-asset-errors-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_troubleshooting-common-physics-asset-errors-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "物理形体",
+      "predicate": "导致",
+      "object": "爆炸",
+      "context": "当两个物理形体相互穿插时，物理系统会施加极大的力度将它们分开，导致爆炸现象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理约束",
+      "predicate": "绑定",
+      "object": "物理形体",
+      "context": "物理约束用于将两个对立的物理形体绑在一起，影响物理系统的行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "爆炸",
+      "predicate": "修复方法",
+      "object": "禁用碰撞",
+      "context": "修复爆炸问题的一种方法是禁用两个对立物理形体之间的碰撞",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "爆炸",
+      "predicate": "修复方法",
+      "object": "修改位置/比例",
+      "context": "修复爆炸问题的另一种方法是修改物理形体的位置和/或比例，使其不发生相互穿插",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理资产",
+      "predicate": "导致",
+      "object": "跳动",
+      "context": "物理资产的基本倒塌可能导致其在地面上摇晃和抽动，形成跳动现象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "无重力模拟",
+      "predicate": "用于",
+      "object": "检测约束偏离",
+      "context": "无重力状态模拟可用于显示物理约束是否出现偏离，帮助在物理资源落地之前进行修复",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "线性/角阻尼",
+      "predicate": "减少",
+      "object": "跳动",
+      "context": "在物理形体上设置少量线性和角阻尼可以减少跳动现象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分步",
+      "predicate": "解决",
+      "object": "跳动",
+      "context": "分步文档提供了一种物理模拟计算方案，可用于解决由非常小的物理形体引起的跳动问题",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "约束参考",
+      "predicate": "提供",
+      "object": "物理约束属性",
+      "context": "约束参考文档提供了关于物理约束属性的详细信息，有助于理解和调整物理约束",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理形体",
+      "predicate": "组成",
+      "object": "物理资产",
+      "context": "物理资产由多个物理形体组成，理解这一关系有助于整体把握物理模拟的结构",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:04:02.294Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3293,
+    "contentLength": 2015,
+    "processingTimeMs": 28503
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_camera-lens-calibration-overview",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_camera-lens-calibration-overview.md",
+  "triples": [
+    {
+      "subject": "摄像机校准插件",
+      "predicate": "包含",
+      "object": "镜头文件资产",
+      "context": "镜头文件资产是摄像机校准插件的核心组成部分，封装了摄像机和镜头的所有校准数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机校准插件",
+      "predicate": "支持",
+      "object": "镜头畸变管线",
+      "context": "插件提供强大的镜头畸变管线，用于将校准后的畸变数据应用于CG渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头文件资产",
+      "predicate": "存储",
+      "object": "畸变参数",
+      "context": "镜头文件存储了用于计算镜头畸变的参数，如K1、K2等Brown-Conrady模型参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头文件资产",
+      "predicate": "存储",
+      "object": "摄像机固有属性",
+      "context": "镜头文件存储了焦距、图像中心等摄像机固有属性，用于3D到2D的投射计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头文件资产",
+      "predicate": "存储",
+      "object": "节点偏移",
+      "context": "节点偏移数据确保虚拟摄像机与物理镜头的节点位置对齐",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头畸变管线",
+      "predicate": "包含",
+      "object": "镜头畸变处理程序",
+      "context": "处理程序是畸变管线的核心组件，负责生成畸变UV置换贴图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头畸变管线",
+      "predicate": "包含",
+      "object": "畸变数据生产者",
+      "context": "生产者负责向处理程序提供输入数据，如LiveLink流送的数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头畸变管线",
+      "predicate": "包含",
+      "object": "畸变数据消费者",
+      "context": "消费者接收处理程序生成的畸变数据并应用于渲染，如电影摄像机组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "电影摄像机Actor",
+      "predicate": "可添加",
+      "object": "镜头畸变组件",
+      "context": "镜头畸变组件允许电影摄像机直接评估镜头文件并应用畸变效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Composure CG层",
+      "predicate": "可使用",
+      "object": "畸变数据",
+      "context": "CG层可以指定畸变源，将畸变效果应用于场景捕获",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头文件资产编辑器",
+      "predicate": "提供",
+      "object": "校准工具",
+      "context": "编辑器提供多种工具用于填充和调整镜头文件数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "校准工具",
+      "predicate": "包括",
+      "object": "镜头畸变校准",
+      "context": "使用棋盘格或点方法等算法计算畸变参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "校准工具",
+      "predicate": "包括",
+      "object": "节点偏移校准",
+      "context": "使用点方法、Aruco标识等技术计算节点偏移",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "校准算法",
+      "predicate": "基于",
+      "object": "OpenCV",
+      "context": "镜头校准工具的核心算法依赖于OpenCV库实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "畸变后期处理",
+      "predicate": "需要",
+      "object": "过扫描",
+      "context": "过扫描确保畸变图像每个像素都有有效数据，是畸变处理的重要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiveLink",
+      "predicate": "支持",
+      "object": "实时数据流送",
+      "context": "LiveLink可以流送摄像机位置、畸变参数等实时数据用于校准",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟摄像机",
+      "predicate": "需要匹配",
+      "object": "物理摄像机",
+      "context": "虚拟摄像机的位置、方向和计时必须准确匹配物理摄像机以实现合成",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ST图",
+      "predicate": "用于",
+      "object": "畸变UV映射",
+      "context": "ST图可以直接输入到镜头文件，提供预计算的畸变UV坐标",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头畸变处理程序",
+      "predicate": "生成",
+      "object": "非畸变置换贴图",
+      "context": "处理程序可以生成逆向畸变贴图，用于校正输入媒体的畸变",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCameraLensDistortionAlgo",
+      "predicate": "可继承",
+      "object": "自定义校准算法",
+      "context": "开发者可以通过继承此类实现新的镜头畸变校准算法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:19:26.017Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10556 字符)",
+      "timestamp": "2025-06-15T18:18:19.829Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19464,
+    "contentLength": 10556,
+    "processingTimeMs": 66193
+  }
+}

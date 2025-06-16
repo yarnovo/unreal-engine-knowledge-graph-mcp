@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_nfor-denoiser-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_nfor-denoiser-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "NFOR降噪器",
+      "predicate": "属于",
+      "object": "虚幻引擎插件",
+      "context": "NFOR降噪器是虚幻引擎的一个插件，名为NFORDenoise，默认情况下所有项目都启用该插件。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NFOR降噪器",
+      "predicate": "用于",
+      "object": "路径追踪器",
+      "context": "NFOR降噪器是针对虚幻引擎路径追踪器的时空降噪引擎，旨在为离线路径追踪渲染提供高时间稳定性。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "路径追踪器",
+      "predicate": "依赖",
+      "object": "硬件光线追踪",
+      "context": "使用路径追踪器前，必须在项目设置中启用支持硬件光线追踪。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NFOR降噪器",
+      "predicate": "适用于",
+      "object": "影片渲染队列",
+      "context": "NFOR降噪器非常适合搭配影片渲染队列（MRQ）进行渲染，以产出高质量的输出。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NFOR降噪器",
+      "predicate": "基于",
+      "object": "非线性加权一阶回归",
+      "context": "NFOR降噪器的算法灵感来自于论文《用于蒙特卡洛渲染降噪的非线性加权一阶回归》。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NFOR降噪器",
+      "predicate": "替代",
+      "object": "OIDN降噪器",
+      "context": "在路径追踪器中，NFOR降噪器可以替代英特尔的开放式图像降噪（OIDN）插件的神经网络引擎（NNE）版本。",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "NFOR降噪器",
+      "predicate": "控制",
+      "object": "辐射过滤",
+      "context": "NFOR降噪器通过参数控制辐射过滤的搜索距离和斑块大小，影响降噪的平滑度和渲染时间。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "NFOR降噪器",
+      "predicate": "控制",
+      "object": "功能过滤",
+      "context": "NFOR降噪器通过参数控制功能缓冲区和alpha通道的降噪强度。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "NFOR降噪器",
+      "predicate": "需要",
+      "object": "较大的取样数量",
+      "context": "NFOR降噪器需要较大的取样数量才能有效工作。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NFOR降噪器",
+      "predicate": "无法去除",
+      "object": "萤火虫",
+      "context": "NFOR降噪器无法去除萤火虫（画面中的亮点噪点）。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染队列",
+      "predicate": "使用",
+      "object": "NFOR降噪器",
+      "context": "影片渲染队列可以通过设置控制台变量和路径追踪类别来使用NFOR降噪器。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "路径追踪器",
+      "predicate": "支持",
+      "object": "时间降噪",
+      "context": "路径追踪器支持时间降噪，NFOR降噪器是默认的时间降噪器。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NFOR降噪器",
+      "predicate": "生成",
+      "object": "流畅的摄像机动画",
+      "context": "NFOR降噪器能创建流畅的摄像机动画，并通过GPU加速进行降噪处理。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NFOR降噪器",
+      "predicate": "依赖",
+      "object": "GPU加速",
+      "context": "NFOR降噪器通过GPU加速对每个像素进行降噪处理。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:07:07.007Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9126,
+    "contentLength": 5956,
+    "processingTimeMs": 49985
+  }
+}

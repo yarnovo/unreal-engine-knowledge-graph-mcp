@@ -1,0 +1,69 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_audio-mixing-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_audio-mixing-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "音频混音",
+      "predicate": "包含",
+      "object": "音频调制",
+      "context": "音频调制是音频混音系统中的一个重要功能模块，学习音频混音需要理解音频调制的工作原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频混音",
+      "predicate": "使用",
+      "object": "音频总线",
+      "context": "音频总线是音频混音的基础架构，理解总线系统对掌握混音技术至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频混音",
+      "predicate": "基于",
+      "object": "音效类",
+      "context": "音效类定义了音频的基本属性和行为，是构建混音系统的基础分类体系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频总线",
+      "predicate": "控制",
+      "object": "音频信号路由",
+      "context": "音频总线主要负责音频信号的路由控制，这是理解音频处理流程的关键概念",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "音效类",
+      "predicate": "定义",
+      "object": "音频属性",
+      "context": "音效类系统定义了音量、音高等基本音频属性，这些属性直接影响混音效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频调制",
+      "predicate": "影响",
+      "object": "音效类参数",
+      "context": "音频调制系统可以动态调整音效类定义的参数，这是实现动态音频效果的关键机制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "音频总线",
+      "predicate": "关联",
+      "object": "音效类",
+      "context": "音频总线可以与特定音效类关联，这种关联关系决定了音频信号的处理流程",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T18:08:30.334Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 1672,
+    "contentLength": 1408,
+    "processingTimeMs": 29275
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_horde-agents-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_horde-agents-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Horde代理",
+      "predicate": "属于",
+      "object": "虚幻引擎",
+      "context": "Horde代理是虚幻引擎的一部分，用于构建管线的管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "池",
+      "predicate": "包含",
+      "object": "机器",
+      "context": "池是一组可以互换使用的机器，通常属于特定平台或硬件类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "池",
+      "predicate": "简化",
+      "object": "构建管线管理",
+      "context": "通过允许开发运维工程师配置从代理类型到物理机器的映射，池简化了构建管线的管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "池",
+      "predicate": "定义于",
+      "object": ".globals.json文件",
+      "context": "池在.globals.json文件中通过pools属性定义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理",
+      "predicate": "可添加到",
+      "object": "池",
+      "context": "代理可以通过Horde操作面板手动添加到池中，也可以在满足特定条件后自动添加到池中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "条件表达式",
+      "predicate": "用于",
+      "object": "池定义",
+      "context": "条件表达式用于定义池的自动添加条件，例如Platform == 'Win64' && RAM > 64gb",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealGameSync",
+      "predicate": "支持",
+      "object": "远程桌面连接",
+      "context": "UnrealGameSync可以配置为通过Horde操作面板中的链接打开远程桌面会话",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "凭证管理器",
+      "predicate": "用于",
+      "object": "配置远程桌面凭证",
+      "context": "凭证管理器用于配置远程桌面连接的登录凭证",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde操作面板",
+      "predicate": "提供",
+      "object": "远程桌面按钮",
+      "context": "Horde操作面板上的远程桌面按钮可以打开远程桌面会话",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ugs://链接",
+      "predicate": "由",
+      "object": "UnrealGameSync处理",
+      "context": "UnrealGameSync默认配置为处理ugs://链接，用于启动远程桌面应用程序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:19:17.725Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2970,
+    "contentLength": 2048,
+    "processingTimeMs": 38829
+  }
+}

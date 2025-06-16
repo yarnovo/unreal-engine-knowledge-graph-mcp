@@ -1,0 +1,123 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_play-a-video-file-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_play-a-video-file-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "媒体框架",
+      "predicate": "包含",
+      "object": "文件媒体源",
+      "context": "媒体框架是播放视频的核心工具，文件媒体源是其中用于播放本地视频文件的资源类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "文件媒体源",
+      "predicate": "用于",
+      "object": "播放本地视频文件",
+      "context": "文件媒体源专门用于引用和播放存储在设备上的视频文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体播放器",
+      "predicate": "控制",
+      "object": "文件媒体源",
+      "context": "媒体播放器负责打开和播放文件媒体源中的视频内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体纹理",
+      "predicate": "生成",
+      "object": "视频输出",
+      "context": "媒体纹理资源负责将媒体播放器的视频内容渲染到材质上",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质",
+      "predicate": "应用于",
+      "object": "静态网格体",
+      "context": "包含媒体纹理的材质可以应用到静态网格体上显示视频内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体声音",
+      "predicate": "关联",
+      "object": "媒体播放器",
+      "context": "媒体声音组件需要关联到媒体播放器以播放视频中的音频",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡蓝图",
+      "predicate": "调用",
+      "object": "媒体播放器",
+      "context": "关卡蓝图可以通过事件控制媒体播放器的行为，如开始播放视频",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容/电影文件夹",
+      "predicate": "专门用于",
+      "object": "存储视频文件",
+      "context": "该文件夹是虚幻引擎推荐的视频文件存储位置，确保视频能正确打包到项目中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图第三人称模板",
+      "predicate": "适用于",
+      "object": "视频播放教程",
+      "context": "该模板项目包含基础场景和角色，适合作为视频播放功能的学习起点",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "变换工具",
+      "predicate": "用于",
+      "object": "调整静态网格体",
+      "context": "在场景中放置视频播放平面时需要使用变换工具调整位置和大小",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "打开即播放选项",
+      "predicate": "控制",
+      "object": "自动播放行为",
+      "context": "该选项决定媒体源是否在打开时自动开始播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体框架",
+      "predicate": "支持",
+      "object": "多种媒体源类型",
+      "context": "除了文件媒体源，媒体框架还支持其他类型的媒体源",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "视频播放",
+      "predicate": "依赖",
+      "object": "媒体框架",
+      "context": "在虚幻引擎中实现视频播放功能必须使用媒体框架系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:25:23.366Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8767 字符)",
+      "timestamp": "2025-06-15T20:24:36.029Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12731,
+    "contentLength": 8767,
+    "processingTimeMs": 47343
+  }
+}

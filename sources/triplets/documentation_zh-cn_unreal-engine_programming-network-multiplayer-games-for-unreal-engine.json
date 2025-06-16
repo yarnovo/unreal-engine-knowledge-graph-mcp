@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_programming-network-multiplayer-games-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_programming-network-multiplayer-games-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Actor所有者",
+      "predicate": "关联",
+      "object": "所属连接",
+      "context": "理解Actor在网络游戏中的所有权关系是多人游戏开发的基础",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor复制",
+      "predicate": "包含",
+      "object": "Actor属性复制",
+      "context": "属性复制是Actor复制的重要组成部分，理解属性复制有助于掌握完整的复制机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor复制",
+      "predicate": "包含",
+      "object": "Actor组件复制",
+      "context": "组件复制是Actor复制的重要方面，理解组件复制有助于掌握完整的复制机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor复制",
+      "predicate": "包含",
+      "object": "复制子对象",
+      "context": "子对象复制是Actor复制的重要组成部分，理解子对象复制有助于掌握完整的复制机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "具有",
+      "object": "Role属性",
+      "context": "Role属性决定了Actor在网络中的角色，是理解网络同步的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "具有",
+      "object": "RemoteRole属性",
+      "context": "RemoteRole属性决定了Actor在远程机器上的角色，是理解网络同步的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor网络休眠",
+      "predicate": "优化",
+      "object": "多人游戏性能",
+      "context": "合理使用网络休眠可以显著提高多人游戏的网络性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor相关性",
+      "predicate": "决定",
+      "object": "复制范围",
+      "context": "理解Actor相关性可以帮助开发者优化网络流量，只复制必要的Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor优先级",
+      "predicate": "影响",
+      "object": "复制顺序",
+      "context": "设置合理的Actor优先级可以确保关键游戏元素优先被复制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程程序调用",
+      "predicate": "实现",
+      "object": "跨网络函数调用",
+      "context": "RPC是多人游戏中实现客户端-服务器通信的核心机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "在线信标",
+      "predicate": "提供",
+      "object": "轻量级网络交互",
+      "context": "信标机制适用于需要简单网络通信的场景，可以降低网络开销",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制执行顺序",
+      "predicate": "保证",
+      "object": "网络同步一致性",
+      "context": "理解复制执行顺序有助于避免网络同步问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor复制流程",
+      "predicate": "解释",
+      "object": "低级复制机制",
+      "context": "理解底层复制流程有助于解决复杂的网络同步问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor属性复制",
+      "predicate": "支持",
+      "object": "条件复制",
+      "context": "条件复制可以优化网络带宽使用，只复制发生变化的属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor组件复制",
+      "predicate": "涉及",
+      "object": "组件网络同步",
+      "context": "理解组件复制机制对于实现复杂的网络游戏对象至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:29:26.251Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4387,
+    "contentLength": 3601,
+    "processingTimeMs": 48629
+  }
+}

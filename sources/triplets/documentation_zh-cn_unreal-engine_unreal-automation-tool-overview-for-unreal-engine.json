@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-automation-tool-overview-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-automation-tool-overview-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "AutomationTool",
+      "predicate": "属于",
+      "object": "虚幻引擎",
+      "context": "AutomationTool是虚幻引擎提供的一个主机程序和实用程序库，用于执行无人值守过程脚本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AutomationTool",
+      "predicate": "用于",
+      "object": "构建",
+      "context": "AutomationTool可用于执行构建任务，帮助开发者自动化构建过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AutomationTool",
+      "predicate": "用于",
+      "object": "转化",
+      "context": "AutomationTool可用于执行转化任务，帮助开发者自动化资源转化过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AutomationTool",
+      "predicate": "用于",
+      "object": "运行游戏",
+      "context": "AutomationTool可用于运行游戏，帮助开发者自动化测试和部署过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AutomationTool",
+      "predicate": "用于",
+      "object": "运行自动化测试",
+      "context": "AutomationTool可用于运行自动化测试，帮助开发者提高测试效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AutomationTool",
+      "predicate": "基于",
+      "object": "C#",
+      "context": "AutomationTool使用C#来编制脚本，开发者需要了解C#才能有效使用该工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化项目",
+      "predicate": "包含",
+      "object": "BuildCommand",
+      "context": "自动化项目中的命令作为从BuildCommand基础类衍生的类实现，理解BuildCommand是创建自定义命令的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RunUAT.bat",
+      "predicate": "用于",
+      "object": "运行AutomationTool",
+      "context": "RunUAT.bat是在Windows上运行AutomationTool的批处理文件，是使用AutomationTool的入口点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RunUAT.sh",
+      "predicate": "用于",
+      "object": "运行AutomationTool",
+      "context": "RunUAT.sh是在Mac/Linux上运行AutomationTool的脚本文件，是跨平台使用AutomationTool的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AutomationTool",
+      "predicate": "支持",
+      "object": "Perforce",
+      "context": "AutomationTool支持Perforce版本控制系统，可通过特定选项和环境变量配置Perforce支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AutomationTool",
+      "predicate": "依赖",
+      "object": "自动化项目",
+      "context": "AutomationTool运行时需要查找并编译自动化项目来执行命令，理解自动化项目结构是使用该工具的前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化项目",
+      "predicate": "使用",
+      "object": "反射",
+      "context": "AutomationTool通过反射法找到要执行的命令，反射机制是该工具动态加载命令的核心技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AutomationTool",
+      "predicate": "适用于",
+      "object": "Build Farm",
+      "context": "AutomationTool特别适合在Build Farm上运行各种自动化操作，这是其主要的应用场景之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AutomationTool",
+      "predicate": "支持",
+      "object": "命令行参数",
+      "context": "AutomationTool支持通过命令行参数传递命令和选项，这是配置和运行自动化任务的主要方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AutomationTool",
+      "predicate": "支持",
+      "object": "Visual Studio调试",
+      "context": "AutomationTool可以通过Visual Studio调试程序运行，这对开发和调试自动化脚本非常有用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:06:45.879Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6026,
+    "contentLength": 4184,
+    "processingTimeMs": 47313
+  }
+}

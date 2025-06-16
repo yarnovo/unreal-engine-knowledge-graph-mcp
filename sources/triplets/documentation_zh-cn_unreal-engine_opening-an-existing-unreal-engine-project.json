@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_opening-an-existing-unreal-engine-project",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_opening-an-existing-unreal-engine-project.md",
+  "triples": [
+    {
+      "subject": "Epic Games启动程序",
+      "predicate": "包含",
+      "object": "项目库",
+      "context": "Epic Games启动程序中的项目库功能用于管理和展示本地所有虚幻引擎项目，帮助开发者快速访问项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目库",
+      "predicate": "显示",
+      "object": "项目信息",
+      "context": "项目库会显示每个项目的名称、缩略图和兼容的虚幻引擎版本，帮助开发者识别和管理项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目浏览器",
+      "predicate": "属于",
+      "object": "虚幻引擎",
+      "context": "项目浏览器是虚幻引擎的一部分，用于展示和管理本地项目，是开发者进入引擎后的第一个界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目浏览器",
+      "predicate": "显示",
+      "object": "最近项目",
+      "context": "项目浏览器默认显示最近项目面板，方便开发者快速访问最近工作过的项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "从磁盘打开项目",
+      "context": "虚幻引擎支持直接通过磁盘上的.uproject文件打开项目，适用于从其他计算机或互联网复制的项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": ".uproject文件",
+      "predicate": "标识",
+      "object": "虚幻引擎项目",
+      "context": ".uproject文件是虚幻引擎项目的核心标识文件，双击该文件可以打开对应的项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目版本兼容性",
+      "predicate": "影响",
+      "object": "项目打开",
+      "context": "使用不同版本的虚幻引擎打开项目可能导致数据损坏或丢失，强调版本兼容性的重要性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Epic Games启动程序",
+      "predicate": "提供",
+      "object": "项目上下文菜单",
+      "context": "启动程序中的项目右键菜单提供打开、在文件夹中显示、克隆、删除等功能，增强项目管理能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目浏览器",
+      "predicate": "提供",
+      "object": "自动加载选项",
+      "context": "项目浏览器中的'启动时始终加载最后一个项目'选项可以提升开发效率，适合持续开发同一项目的情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "从磁盘打开项目",
+      "predicate": "需要",
+      "object": "正确引擎版本",
+      "context": "从磁盘打开项目需要确保已安装创建项目时使用的虚幻引擎版本，否则需要手动选择兼容版本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目克隆",
+      "predicate": "用于",
+      "object": "项目备份",
+      "context": "克隆功能可以创建项目副本，在需要尝试不同引擎版本时保护原始项目安全",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "项目浏览器",
+      "predicate": "替代",
+      "object": "Epic Games启动程序的项目管理",
+      "context": "项目浏览器提供了与Epic Games启动程序类似的项目管理功能，但直接在引擎环境中运行",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "项目缩略图",
+      "predicate": "帮助",
+      "object": "项目识别",
+      "context": "项目缩略图在Epic Games启动程序和项目浏览器中都作为视觉标识，帮助开发者快速识别项目",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:11:19.082Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7448,
+    "contentLength": 4454,
+    "processingTimeMs": 48395
+  }
+}

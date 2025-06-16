@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_working-with-meshes-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_working-with-meshes-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "建模模式",
+      "predicate": "包含",
+      "object": "静态网格体",
+      "context": "建模模式提供了创建和编辑静态网格体的工具，帮助学习者在虚幻引擎中直接进行3D建模",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "建模模式",
+      "predicate": "包含",
+      "object": "动态网格体",
+      "context": "建模模式支持动态网格体的创建和编辑，动态网格体适用于快速原型设计和工作流程优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "建模模式",
+      "predicate": "包含",
+      "object": "体积",
+      "context": "建模模式允许创建和编辑体积Actor，用于改变关卡中特定区域的行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "属于",
+      "object": "Actor",
+      "context": "静态网格体是一种Actor类型，表示3D几何体，帮助学习者理解虚幻引擎中的对象类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态网格体",
+      "predicate": "表示",
+      "object": "静态网格体",
+      "context": "动态网格体直观表示静态网格体，但不作为资产保存，帮助学习者理解两种网格体的区别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态网格体",
+      "predicate": "不兼容",
+      "object": "Lumen",
+      "context": "动态网格体不支持Lumen光照系统，学习者需要了解其渲染限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态网格体",
+      "predicate": "不兼容",
+      "object": "Nanite",
+      "context": "动态网格体不支持Nanite虚拟几何体系统，学习者需要了解其性能限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "转换工具",
+      "predicate": "用于",
+      "object": "动态网格体与静态网格体转换",
+      "context": "转换工具可以在动态网格体和静态网格体之间进行转换，帮助学习者灵活处理不同工作流程需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预览网格体",
+      "predicate": "替换为",
+      "object": "动态网格体Actor",
+      "context": "编辑过程中原始网格体被替换为预览网格体（动态网格体Actor），帮助学习者理解编辑流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "建模模式项目设置",
+      "predicate": "控制",
+      "object": "资产生成位置",
+      "context": "项目设置中的建模模式选项决定了新资产的保存位置，帮助学习者配置工作环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "建模模式快速设置",
+      "predicate": "覆盖",
+      "object": "项目设置",
+      "context": "快速设置可以临时覆盖项目设置中的资产保存位置，帮助学习者灵活调整工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "MshDup工具",
+      "predicate": "用于",
+      "object": "静态网格体复制",
+      "context": "MshDup工具可以创建静态网格体的独立副本，帮助学习者保留原始资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "建模模式",
+      "predicate": "依赖",
+      "object": "建模模式概述",
+      "context": "充分理解建模模式需要先阅读建模模式概述文档，建立基础知识框架",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "体积",
+      "predicate": "用于",
+      "object": "改变关卡行为",
+      "context": "体积Actor可以改变关卡中特定区域的行为，帮助学习者理解关卡设计元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "建模工具",
+      "predicate": "生成",
+      "object": "预览网格体",
+      "context": "建模工具在编辑过程中会生成预览网格体，帮助学习者理解编辑流程中的中间状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "保存为",
+      "object": "资产",
+      "context": "静态网格体作为资产保存在内容浏览器中，帮助学习者理解虚幻引擎的资产管理方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态网格体",
+      "predicate": "保存于",
+      "object": "关卡",
+      "context": "动态网格体直接保存在关卡中而非内容浏览器，帮助学习者理解临时性工作资产的处理方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "建模模式",
+      "predicate": "提供",
+      "object": "形状工具",
+      "context": "建模模式提供形状工具用于创建基本几何体，帮助学习者构建3D模型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "建模模式",
+      "predicate": "提供",
+      "object": "创建工具",
+      "context": "建模模式提供创建工具用于生成新网格体，帮助学习者扩展3D建模能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输出类型",
+      "predicate": "决定",
+      "object": "资产创建方式",
+      "context": "输出类型设置决定了新资产的创建和保存方式，帮助学习者理解工作流程控制点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:35:12.165Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8864 字符)",
+      "timestamp": "2025-06-15T21:34:15.924Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14188,
+    "contentLength": 8864,
+    "processingTimeMs": 56243
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_movement-components-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_movement-components-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "移动组件",
+      "predicate": "提供",
+      "object": "移动功能",
+      "context": "移动组件是虚幻引擎中为Actor或角色提供移动功能的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色移动组件",
+      "predicate": "属于",
+      "object": "移动组件",
+      "context": "角色移动组件是移动组件的一种专门实现，用于处理角色的移动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色移动组件",
+      "predicate": "专用于",
+      "object": "角色",
+      "context": "角色移动组件专门用于角色类，不能用于其他类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色",
+      "predicate": "自动包含",
+      "object": "角色移动组件",
+      "context": "当创建继承自Characters的蓝图时，角色移动组件会自动添加",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色移动组件",
+      "predicate": "支持",
+      "object": "多种移动方式",
+      "context": "角色移动组件支持走、跑、跳、飞、跌落和游泳等多种移动方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色移动组件",
+      "predicate": "包含",
+      "object": "可设置属性",
+      "context": "角色移动组件包含多种可设置属性，如摩擦力、速度、浮力等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色移动组件",
+      "predicate": "使用",
+      "object": "根骨骼运动参数",
+      "context": "角色移动组件使用动画中的根骨骼运动参数，供物理系统使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "根骨骼运动",
+      "predicate": "关联",
+      "object": "角色移动组件",
+      "context": "了解根骨骼运动有助于深入理解角色移动组件的工作原理",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "发射物移动组件",
+      "predicate": "属于",
+      "object": "移动组件",
+      "context": "发射物移动组件是移动组件的一种专门实现，用于处理发射物的移动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射物移动组件",
+      "predicate": "更新",
+      "object": "组件位置",
+      "context": "发射物移动组件在Tick过程中更新另一个组件的位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射物移动组件",
+      "predicate": "支持",
+      "object": "碰撞后跳弹",
+      "context": "发射物移动组件支持碰撞后的跳弹功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射物移动组件",
+      "predicate": "支持",
+      "object": "跟踪功能",
+      "context": "发射物移动组件支持跟踪功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "旋转移动组件",
+      "predicate": "属于",
+      "object": "移动组件",
+      "context": "旋转移动组件是移动组件的一种专门实现，用于处理组件的持续旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "旋转移动组件",
+      "predicate": "实现",
+      "object": "持续旋转",
+      "context": "旋转移动组件允许组件以指定速率持续旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "旋转移动组件",
+      "predicate": "适用于",
+      "object": "飞机螺旋桨",
+      "context": "旋转移动组件适用于需要持续旋转的场景，如飞机螺旋桨",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "旋转移动组件",
+      "predicate": "适用于",
+      "object": "风车",
+      "context": "旋转移动组件适用于需要持续旋转的场景，如风车",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "旋转移动组件",
+      "predicate": "适用于",
+      "object": "行星旋转",
+      "context": "旋转移动组件适用于需要持续旋转的场景，如行星围绕恒星旋转",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:00:22.524Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3495,
+    "contentLength": 2285,
+    "processingTimeMs": 49650
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_aim-offset-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_aim-offset-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "瞄准偏移",
+      "predicate": "是一种",
+      "object": "混合空间",
+      "context": "瞄准偏移是一种特殊的混合空间，用于叠加多个动画，帮助学习者理解其基础类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "瞄准偏移",
+      "predicate": "用于",
+      "object": "多方向武器瞄准",
+      "context": "瞄准偏移主要用于创建多方向武器瞄准混合结构，帮助学习者理解其核心应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "瞄准偏移",
+      "predicate": "叠加",
+      "object": "基础动画",
+      "context": "瞄准偏移需要叠加在基础动画上，帮助学习者理解其工作方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "瞄准偏移",
+      "predicate": "依赖",
+      "object": "骨骼网格体角色",
+      "context": "创建瞄准偏移需要项目包含骨骼网格体角色和相应动画，帮助学习者理解其依赖条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "瞄准偏移",
+      "predicate": "使用",
+      "object": "网格体空间叠加",
+      "context": "瞄准偏移必须使用网格体空间叠加的动画，帮助学习者理解技术要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体空间叠加",
+      "predicate": "优于",
+      "object": "局部空间叠加",
+      "context": "网格体空间叠加能确保旋转方向一致，帮助学习者理解技术选择原因",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "瞄准偏移",
+      "predicate": "应用于",
+      "object": "动画蓝图",
+      "context": "瞄准偏移需要在动画蓝图中引用和设置，帮助学习者理解工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "瞄准偏移播放器",
+      "context": "动画蓝图通过瞄准偏移播放器引用瞄准偏移资产，帮助学习者理解组件关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "瞄准偏移",
+      "predicate": "需要",
+      "object": "偏转和俯仰值",
+      "context": "瞄准偏移需要逻辑驱动偏转和俯仰值，帮助学习者理解参数需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "瞄准偏移",
+      "predicate": "基于",
+      "object": "基础姿势",
+      "context": "瞄准偏移需要设置基础姿势才能预览效果，帮助学习者理解配置步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画序列",
+      "predicate": "配置为",
+      "object": "网格体空间叠加",
+      "context": "用于瞄准偏移的动画序列必须配置为网格体空间叠加，帮助学习者理解技术要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "瞄准偏移",
+      "predicate": "适用于",
+      "object": "角色静止状态",
+      "context": "瞄准偏移在角色静止时效果最佳，帮助学习者理解使用限制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "可以包含",
+      "object": "状态机",
+      "context": "动画蓝图可以使用状态机定义基础姿势，帮助学习者理解可选实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "瞄准偏移",
+      "predicate": "通过",
+      "object": "属性访问驱动",
+      "context": "瞄准偏移的参数可以通过属性访问从pawn获取，帮助学习者理解数据流",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T17:56:24.008Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8132 字符)",
+      "timestamp": "2025-06-15T17:55:28.073Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 11594,
+    "contentLength": 8132,
+    "processingTimeMs": 55944
+  }
+}

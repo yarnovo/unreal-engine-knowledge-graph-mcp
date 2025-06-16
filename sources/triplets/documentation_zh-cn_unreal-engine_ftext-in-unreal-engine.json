@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_ftext-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_ftext-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "FText",
+      "predicate": "是",
+      "object": "文本本地化的主要组件",
+      "context": "FText类是虚幻引擎中处理文本本地化的核心类，理解这一点有助于学习者掌握文本本地化的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FText",
+      "predicate": "支持",
+      "object": "创建本地化的文本文字",
+      "context": "FText提供创建本地化文本的功能，这是学习文本本地化的基础操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FText",
+      "predicate": "支持",
+      "object": "设置文本格式",
+      "context": "文本格式化是FText的重要功能，了解这一点有助于处理动态文本生成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FText",
+      "predicate": "支持",
+      "object": "根据数字生成文本",
+      "context": "数字到文本的转换是常见需求，FText提供专门支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FText",
+      "predicate": "支持",
+      "object": "根据日期时间生成文本",
+      "context": "日期时间格式化是国际化应用的重要功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FText",
+      "predicate": "支持",
+      "object": "生成衍生文本",
+      "context": "文本变形(如大小写转换)是文本处理的常见需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FText",
+      "predicate": "包含",
+      "object": "AsCultureInvariant函数",
+      "context": "了解文化无关文本的创建方式对处理不需要本地化的文本很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FText",
+      "predicate": "可转换为",
+      "object": "FString",
+      "context": "FText与FString的转换关系是文本处理中的基础概念，但需要注意数据丢失问题",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FText",
+      "predicate": "使用",
+      "object": "ETextComparisonLevel",
+      "context": "理解文本比较的不同级别有助于实现精确的文本比较功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FText",
+      "predicate": "用于",
+      "object": "Slate/UMG",
+      "context": "FText是UI开发中处理显示文本的标准方式，这对UI编程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FText",
+      "predicate": "用于",
+      "object": "HUD/画布",
+      "context": "在游戏HUD中使用FText需要特定的绘制方法，这是游戏UI开发的关键知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FText",
+      "predicate": "通过",
+      "object": "FCanvasTextItem显示",
+      "context": "了解如何通过FCanvasTextItem显示FText是HUD开发的重要技能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FText",
+      "predicate": "继承自",
+      "object": "FString",
+      "context": "理解FText与FString的继承关系有助于掌握文本处理类的层次结构",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "文本本地化",
+      "predicate": "依赖",
+      "object": "FText",
+      "context": "FText是实现文本本地化的基础类，理解这一依赖关系对国际化开发很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FText比较",
+      "predicate": "基于",
+      "object": "EqualTo函数",
+      "context": "了解FText的比较机制对实现正确的文本比较逻辑很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FText比较",
+      "predicate": "基于",
+      "object": "CompareTo函数",
+      "context": "不同的比较函数适用于不同的比较场景，这是文本处理的重要知识",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:07:53.699Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6365,
+    "contentLength": 4493,
+    "processingTimeMs": 55824
+  }
+}

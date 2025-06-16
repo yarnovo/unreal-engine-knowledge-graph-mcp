@@ -1,0 +1,149 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_high-dynamic-range-display-output-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_high-dynamic-range-display-output-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "高动态范围显示输出",
+      "predicate": "基于",
+      "object": "学院色彩编码系统",
+      "context": "HDR显示输出是转向ACES标准的一部分，这有助于确保色彩一致性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ACES Viewing Transform",
+      "predicate": "包含",
+      "object": "Look Modification Transform",
+      "context": "LMT是ACES Viewing Transform流程中的第一步，用于应用创意外观",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ACES Viewing Transform",
+      "predicate": "包含",
+      "object": "Reference Rendering Transform",
+      "context": "RRT是ACES Viewing Transform流程中的第二步，用于将颜色值转换为参考显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ACES Viewing Transform",
+      "predicate": "包含",
+      "object": "Output Device Transform",
+      "context": "ODT是ACES Viewing Transform流程中的最后一步，用于将HDR数据与不同设备进行比对",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HDR输出",
+      "predicate": "通过",
+      "object": "GameUserSettings",
+      "context": "可以通过GameUserSettings节点或控制台变量启用HDR输出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HDR输出",
+      "predicate": "依赖",
+      "object": "r.AllowHDR",
+      "context": "r.AllowHDR控制台变量用于创建兼容HDR的交换链",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HDR输出",
+      "predicate": "依赖",
+      "object": "r.HDR.EnableHDROutput",
+      "context": "r.HDR.EnableHDROutput控制台变量用于启用HDR输出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HDR输出",
+      "predicate": "依赖",
+      "object": "r.HDR.Display.OutputDevice",
+      "context": "r.HDR.Display.OutputDevice控制台变量用于设置输出显示的设备格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HDR输出",
+      "predicate": "依赖",
+      "object": "r.HDR.Display.ColorGamut",
+      "context": "r.HDR.Display.ColorGamut控制台变量用于设置输出显示的色域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HDR输出",
+      "predicate": "需要",
+      "object": "高速HDMI 2.0连接线",
+      "context": "使用高速HDMI 2.0连接线可以保证HDR输出的传输速度",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "HDR输出",
+      "predicate": "需要",
+      "object": "显示器HDR设置",
+      "context": "确保电视端启用了HDR设置，以获得正确的HDR输出",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "HDR输出",
+      "predicate": "支持",
+      "object": "LDR UI合成",
+      "context": "HDR输出支持实验性的LDR UI合成，以解决UI显示问题",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "LDR UI合成",
+      "predicate": "通过",
+      "object": "r.HDR.UI.CompositeMode",
+      "context": "r.HDR.UI.CompositeMode控制台变量用于启用HDR UI合成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LDR UI合成",
+      "predicate": "通过",
+      "object": "r.HDR.UI.Level",
+      "context": "r.HDR.UI.Level控制台变量用于调整合成UI的明亮度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HDR输出",
+      "predicate": "受限",
+      "object": "D3D11限制",
+      "context": "D3D11限制使HDR输出仅限于专属全屏支持",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "HDR输出",
+      "predicate": "支持",
+      "object": "D3D12",
+      "context": "D3D12支持可能可以延展为启用HDR输出的单独视口",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "HDR输出",
+      "predicate": "支持",
+      "object": "Mac实现",
+      "context": "Mac上的实现已支持HDR输出的单独视口",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:19:38.694Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9115,
+    "contentLength": 5739,
+    "processingTimeMs": 59799
+  }
+}

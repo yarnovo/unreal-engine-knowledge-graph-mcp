@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_actors-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_actors-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "组件",
+      "context": "Actor可以包含不同类型的组件，这些组件控制Actor的行为和表现，理解这一关系有助于学习如何构建复杂的Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "依赖",
+      "object": "SceneComponent",
+      "context": "Actor的变换（位置、旋转、缩放）依赖于其根SceneComponent，理解这一关系有助于学习Actor的定位和变换机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AActor",
+      "predicate": "继承",
+      "object": "Actor",
+      "context": "AActor是C++中所有Actor的基类，理解这一关系有助于学习如何在C++中扩展Actor功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "支持",
+      "object": "三维变换",
+      "context": "Actor支持平移、旋转和缩放等三维变换，理解这一关系有助于学习如何操作Actor的空间属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "用于",
+      "object": "关卡对象",
+      "context": "所有可以放入关卡的对象都是Actor，理解这一关系有助于学习关卡设计和对象管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "支持",
+      "object": "网络复制",
+      "context": "Actor支持属性复制和函数调用，理解这一关系有助于学习多人游戏开发中的网络同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "支持",
+      "object": "Tick",
+      "context": "Actor可以通过Tick函数每帧更新，理解这一关系有助于学习游戏循环和实时更新机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UActorComponent",
+      "predicate": "是",
+      "object": "基础组件",
+      "context": "UActorComponent是所有组件的基础类型，理解这一关系有助于学习组件系统的层次结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USceneComponent",
+      "predicate": "继承",
+      "object": "UActorComponent",
+      "context": "USceneComponent是拥有变换的UActorComponent，理解这一关系有助于学习组件如何提供空间信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UPrimitiveComponent",
+      "predicate": "继承",
+      "object": "USceneComponent",
+      "context": "UPrimitiveComponent是拥有图像表达的USceneComponent，理解这一关系有助于学习渲染和物理交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "拥有",
+      "object": "RootComponent",
+      "context": "每个Actor都有一个RootComponent属性，指定作为Actor根的组件，理解这一关系有助于学习Actor的层级结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "通过",
+      "object": "Destroy()销毁",
+      "context": "调用Destroy()可以显式销毁Actor，理解这一关系有助于学习资源管理和生命周期控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "通过",
+      "object": "SpawnActor()生成",
+      "context": "使用SpawnActor()函数可以生成Actor实例，理解这一关系有助于学习动态对象创建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "StaticMeshComponent",
+      "context": "Actor可以包含StaticMeshComponent来表现视觉网格，理解这一关系有助于学习3D模型的渲染",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "ParticleSystemComponent",
+      "context": "Actor可以包含ParticleSystemComponent来实现粒子效果，理解这一关系有助于学习特效系统",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "AudioComponent",
+      "context": "Actor可以包含AudioComponent来播放声音，理解这一关系有助于学习音频系统",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "BoxComponent",
+      "context": "Actor可以包含BoxComponent作为碰撞触发器，理解这一关系有助于学习物理和碰撞检测",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Actor",
+      "predicate": "基于",
+      "object": "组件层级",
+      "context": "Actor的功能基于其组件层级结构，理解这一关系有助于学习如何设计复杂的游戏对象",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Actor",
+      "predicate": "实现",
+      "object": "游戏逻辑",
+      "context": "Actor可以通过游戏逻辑代码（C++或蓝图）实现特定行为，理解这一关系有助于学习游戏编程",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T17:53:58.983Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5837,
+    "contentLength": 3755,
+    "processingTimeMs": 70139
+  }
+}

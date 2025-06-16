@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-create-control-rigs-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-create-control-rigs-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "控制绑定",
+      "predicate": "是",
+      "object": "虚幻引擎的动画解决方案",
+      "context": "控制绑定是虚幻引擎中直接为角色添加动画的核心技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定编辑器",
+      "predicate": "用于创建",
+      "object": "自定义控制点和操作器",
+      "context": "控制绑定编辑器是创建和编辑控制绑定的主要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定资产",
+      "predicate": "基于",
+      "object": "骨架网格体",
+      "context": "控制绑定资产需要从骨架网格体创建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FK控制点",
+      "predicate": "是",
+      "object": "控制点的一种类型",
+      "context": "FK控制点是控制绑定中最基础的控制点类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制点",
+      "predicate": "驱动",
+      "object": "骨骼",
+      "context": "通过绑定图表中的连接，控制点可以驱动骨骼运动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "用于为",
+      "object": "控制点添加动画",
+      "context": "Sequencer是控制绑定动画制作的主要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绑定层级",
+      "predicate": "显示",
+      "object": "角色骨架层级",
+      "context": "绑定层级面板用于查看和选择要控制的骨骼",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "绑定图表",
+      "predicate": "连接",
+      "object": "控制点和骨骼",
+      "context": "绑定图表是建立控制点与骨骼关系的核心工作区",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制点形状",
+      "predicate": "用于",
+      "object": "视口可视化",
+      "context": "调整控制点形状可以改善在视口中的选择和操作体验",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关键帧",
+      "predicate": "记录",
+      "object": "控制点动画",
+      "context": "在Sequencer中通过关键帧记录控制点的动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定",
+      "predicate": "使用",
+      "object": "控制绑定编辑器",
+      "context": "控制绑定的创建和编辑主要在控制绑定编辑器中完成",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定",
+      "predicate": "应用于",
+      "object": "Sequencer",
+      "context": "控制绑定最终需要在Sequencer中制作动画",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制点",
+      "predicate": "关联",
+      "object": "骨骼",
+      "context": "每个控制点通常对应一个特定的骨骼",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "存储",
+      "object": "控制绑定资产",
+      "context": "控制绑定资产创建后存储在内容浏览器中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "正向解算",
+      "predicate": "控制",
+      "object": "骨骼变换",
+      "context": "正向解算节点控制骨骼的变换流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:26:39.997Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9156,
+    "contentLength": 6384,
+    "processingTimeMs": 50387
+  }
+}

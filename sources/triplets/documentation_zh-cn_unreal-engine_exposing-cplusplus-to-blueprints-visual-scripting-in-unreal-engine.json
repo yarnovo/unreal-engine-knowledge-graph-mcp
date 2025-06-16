@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_exposing-cplusplus-to-blueprints-visual-scripting-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_exposing-cplusplus-to-blueprints-visual-scripting-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "C++",
+      "predicate": "执行速度快于",
+      "object": "蓝图",
+      "context": "文档明确指出蓝图执行速度比C++慢，这对性能敏感的操作选择有重要指导意义",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "适用于",
+      "object": "非程序员团队成员",
+      "context": "文档建议美术师等非程序员较多的团队优先使用蓝图，这对团队技术选型有指导价值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C++",
+      "predicate": "适用于",
+      "object": "复杂计算场景",
+      "context": "文档指出大型数据集操作、复杂算术等场景更适合用C++实现，这对算法实现方式选择有参考价值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "可扩展",
+      "object": "C++功能",
+      "context": "文档说明可以通过C++创建基础功能再由蓝图扩展，这是虚幻引擎推荐的混合编程模式",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "UFUNCTION宏",
+      "predicate": "用于",
+      "object": "C++函数暴露给蓝图",
+      "context": "文档详细展示了如何使用UFUNCTION宏将C++函数暴露给蓝图，这是跨语言编程的关键技术",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "BlueprintCallable标记",
+      "predicate": "使函数",
+      "object": "可在蓝图中调用",
+      "context": "文档说明BlueprintCallable标记是C++函数能被蓝图调用的必要条件，这对API设计很重要",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "BlueprintPure标记",
+      "predicate": "表示",
+      "object": "纯函数",
+      "context": "文档解释BlueprintPure标记可以避免执行引脚，这对优化蓝图节点设计有重要意义",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "UBlueprintFunctionLibrary",
+      "predicate": "用于创建",
+      "object": "共享函数库",
+      "context": "文档建议将通用函数放入继承自UBlueprintFunctionLibrary的类中，这是代码复用的最佳实践",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "群组系统",
+      "predicate": "更适合用",
+      "object": "C++实现",
+      "context": "文档以群组系统为例说明性能敏感和复杂度高的系统应优先使用C++",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "延迟函数",
+      "predicate": "需要",
+      "object": "Latent标记",
+      "context": "文档展示延迟函数需要特定元数据标记，这对异步操作实现有指导意义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "枚举参数",
+      "predicate": "建议使用",
+      "object": "ExpandEnumAsExecs",
+      "context": "文档建议处理枚举参数时使用特定元数据优化蓝图节点使用体验",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "函数参数变更",
+      "predicate": "需要",
+      "object": "DeprecatedFunction标记",
+      "context": "文档说明API变更时需要正确使用弃用标记，这对维护代码兼容性很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色类",
+      "predicate": "可在C++中定义",
+      "object": "基础行为",
+      "context": "文档举例说明角色基础类用C++实现而具体表现用蓝图扩展的推荐工作流",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "能力系统",
+      "predicate": "推荐",
+      "object": "C++基类+蓝图实现",
+      "context": "文档以能力系统为例说明核心机制用C++、具体表现用蓝图的混合开发模式",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T19:01:50.333Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8889,
+    "contentLength": 5963,
+    "processingTimeMs": 53203
+  }
+}

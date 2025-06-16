@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_parallel-rendering-overview-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_parallel-rendering-overview-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "渲染线程",
+      "predicate": "排队",
+      "object": "图形命令",
+      "context": "渲染线程负责将图形命令排队，以便后续在帧中运行，这是渲染流程的基础步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染线程",
+      "predicate": "作为前端",
+      "object": "命令列表",
+      "context": "渲染线程作为前端，将不受平台限制的图形命令排入命令列表，这是并行渲染的关键设计",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RHI线程",
+      "predicate": "转换",
+      "object": "图形命令",
+      "context": "RHI线程负责通过后端的相应图形API转换渲染线程排队的命令，实现并行执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FRHICommand",
+      "predicate": "衍生",
+      "object": "图形命令",
+      "context": "渲染线程排队的命令是从FRHICommand模板衍生的结构体实例，这是命令的具体实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IRHICommandContext",
+      "predicate": "提供",
+      "object": "RHICommandList",
+      "context": "在平移期间，系统向RHICommandList提供IRHICommandContext以用于操作，这是命令执行的关键接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GameThread",
+      "predicate": "同步",
+      "object": "RenderThread",
+      "context": "GameThread和RenderThread之间需要同步，以确保帧处理的正确顺序，这是渲染流程的重要保证",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RHI线程",
+      "predicate": "同步",
+      "object": "RenderThread",
+      "context": "RHI线程和RenderThread之间也需要同步，以确保命令的正确执行顺序",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FFrameEndSync",
+      "predicate": "仲裁",
+      "object": "同步过程",
+      "context": "FFrameEndSync和RHIThreadFence函数仲裁同步过程，确保命令提交顺序的一致性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.rhicmdusedeferredcontexts",
+      "predicate": "控制",
+      "object": "后端并行化",
+      "context": "r.rhicmdusedeferredcontexts控制台变量用于启用或禁用后端的并行化，这是调试并行渲染的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.rhicmduseparallelalgorithms",
+      "predicate": "控制",
+      "object": "前端并行化",
+      "context": "r.rhicmduseparallelalgorithms控制台变量用于启用或禁用前端的并行化，帮助开发者调试并行渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.rhithread.enable",
+      "predicate": "控制",
+      "object": "RHI线程",
+      "context": "r.rhithread.enable控制台变量用于完全启用或禁用RHI线程，这是调试并行渲染的关键选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "并行渲染",
+      "predicate": "基于",
+      "object": "命令列表系统",
+      "context": "并行渲染的实现基于命令列表系统，这是理解并行渲染架构的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "渲染线程",
+      "predicate": "直接发出",
+      "object": "锁定和解锁操作",
+      "context": "某些命令如锁定和解锁操作可由渲染线程直接发出，而不使用命令列表系统，这是命令处理的特殊情况",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "RHICommandContext",
+      "predicate": "负责",
+      "object": "状态阴影和验证",
+      "context": "RHICommandContext负责执行给定操作所需的状态阴影、验证和任何特定于API的细节，这是命令执行的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "并行渲染",
+      "predicate": "提高",
+      "object": "渲染效率",
+      "context": "并行渲染的主要目的是提高渲染效率，利用多线程和平台能力加速渲染过程",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T20:19:10.571Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5328,
+    "contentLength": 3038,
+    "processingTimeMs": 48935
+  }
+}

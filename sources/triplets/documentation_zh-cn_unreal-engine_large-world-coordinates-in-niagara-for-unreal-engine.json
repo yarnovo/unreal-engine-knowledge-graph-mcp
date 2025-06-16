@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_large-world-coordinates-in-niagara-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_large-world-coordinates-in-niagara-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "大型世界坐标",
+      "predicate": "实现于",
+      "object": "虚幻引擎",
+      "context": "大型世界坐标是虚幻引擎5.6中引入的功能，用于处理更大的世界空间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara",
+      "predicate": "使用",
+      "object": "大型世界坐标",
+      "context": "Niagara特效系统实现了特殊的大型世界坐标处理方式，不同于主引擎的实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大型世界坐标",
+      "predicate": "基于",
+      "object": "图块网格系统",
+      "context": "Niagara通过将世界划分为图块网格来处理大型坐标，每个位置包含图块信息和相对位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Particles.Position",
+      "predicate": "类型变化",
+      "object": "UE4到UE5",
+      "context": "在UE4中是向量类型，在UE5中变为位置类型，包含图块信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大型世界坐标",
+      "predicate": "可配置",
+      "object": "项目设置",
+      "context": "可以在项目设置中全局启用/禁用大型世界坐标支持",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara系统",
+      "predicate": "可单独配置",
+      "object": "大型世界坐标支持",
+      "context": "可以在单个Niagara系统属性中单独禁用大型世界坐标支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HLSL脚本",
+      "predicate": "需要适配",
+      "object": "大型世界坐标",
+      "context": "使用HLSL编写的自定义脚本需要更新以正确处理位置数据类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义模块",
+      "predicate": "需要更新",
+      "object": "大型世界坐标",
+      "context": "自定义Niagara模块可能需要将向量参数更新为位置类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "位置数据",
+      "predicate": "转换",
+      "object": "向量数据",
+      "context": "在节点图表中可以通过转换节点在位置和向量类型间转换，但可能丢失精度",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导出粒子数据接口",
+      "predicate": "需要更新",
+      "object": "大型世界坐标",
+      "context": "使用导出粒子数据接口的蓝图需要更新以处理图块偏移信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态材质参数",
+      "predicate": "需要适配",
+      "object": "大型世界坐标",
+      "context": "将位置数据导出到材质时需要特殊处理以保留图块信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义数据接口",
+      "predicate": "需要更新",
+      "object": "大型世界坐标",
+      "context": "处理位置数据的自定义数据接口需要更新为使用FNiagaraPosition类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义渲染器",
+      "predicate": "需要适配",
+      "object": "大型世界坐标",
+      "context": "读取位置数据的自定义渲染器需要使用LWC转换器正确处理世界空间位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FNiagaraPosition",
+      "predicate": "替代",
+      "object": "FVector",
+      "context": "在大型世界坐标系统中，FNiagaraPosition替代FVector用于存储位置数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Engine.Owner.LWCTile",
+      "predicate": "存储",
+      "object": "图块偏移信息",
+      "context": "该参数存储了当前所在的图块信息，用于大型世界坐标计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "位置数据类型",
+      "predicate": "包含",
+      "object": "图块信息",
+      "context": "位置数据类型除了相对位置外，还包含所在图块的信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界空间发射器",
+      "predicate": "行为变化",
+      "object": "大型世界坐标",
+      "context": "在大型世界坐标下，世界空间发射器的位置行为与UE4不同",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "本地空间发射器",
+      "predicate": "行为不变",
+      "object": "大型世界坐标",
+      "context": "本地空间发射器在大型世界坐标下的行为与UE4保持一致",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE_LWC_RENDER_TILE_SIZE",
+      "predicate": "控制",
+      "object": "图块大小",
+      "context": "该常量定义了大型世界坐标的图块大小，可用于测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FNiagaraLWCConverter",
+      "predicate": "用于",
+      "object": "位置转换",
+      "context": "该转换器用于在模拟位置和世界空间位置间进行转换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:42:05.010Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11675 字符)",
+      "timestamp": "2025-06-15T19:41:00.549Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17430,
+    "contentLength": 11675,
+    "processingTimeMs": 64471
+  }
+}

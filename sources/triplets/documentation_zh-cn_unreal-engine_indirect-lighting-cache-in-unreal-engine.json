@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_indirect-lighting-cache-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_indirect-lighting-cache-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "间接光照缓存",
+      "predicate": "解决",
+      "object": "动态对象接收间接光照",
+      "context": "间接光照缓存用于解决动态对象（如角色）接收间接光照的问题，这是光照贴图无法直接处理的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "间接光照缓存",
+      "predicate": "依赖",
+      "object": "Lightmass",
+      "context": "间接光照缓存使用Lightmass生成的光照采样来计算动态对象的间接光照",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lightmass",
+      "predicate": "生成",
+      "object": "光照采样",
+      "context": "Lightmass在光照构建时生成光照采样，这些采样用于间接光照缓存的计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "间接光照缓存",
+      "predicate": "内插",
+      "object": "光照采样",
+      "context": "当动态对象没有可用的光照数据时，间接光照缓存会从预计算的光照采样中进行内插",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lightmass Importance Volume",
+      "predicate": "限制",
+      "object": "光照采样放置",
+      "context": "光照采样被限制在Lightmass Importance Volume中，并且只放置在静态表面上",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lightmass Character Indirect Detail Volumes",
+      "predicate": "增加",
+      "object": "光照采样细节",
+      "context": "在缺少细节的区域（如升降电梯或飞行物周围），可以使用Lightmass Character Indirect Detail Volumes来增加光照采样的细节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "间接光照缓存",
+      "predicate": "适用于",
+      "object": "可移动对象",
+      "context": "间接光照缓存主要用于可移动对象（即移动性设为可移动的组件）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "间接光照缓存",
+      "predicate": "预览",
+      "object": "未构建光照",
+      "context": "间接光照缓存可以用于预览未构建光照的对象，特别适用于较小的物体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "间接光照缓存",
+      "predicate": "切换",
+      "object": "静态网格体",
+      "context": "当移动已构建光照的静态网格体时，它会自动切换到间接光照缓存，直到下次光照构建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "间接光照缓存",
+      "predicate": "包含",
+      "object": "定向间接光照",
+      "context": "体积光照采样保存定向间接光照，这使得法线贴图能够正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "间接光照缓存",
+      "predicate": "属于",
+      "object": "全局光照系统",
+      "context": "间接光照缓存是虚幻引擎全局光照系统的一部分，用于处理动态对象的间接光照",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "CPU Lightmass",
+      "predicate": "生成",
+      "object": "静态对象光照贴图",
+      "context": "CPU Lightmass用于在静态对象上生成间接光照的光照贴图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:35:43.591Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5050,
+    "contentLength": 3360,
+    "processingTimeMs": 46020
+  }
+}

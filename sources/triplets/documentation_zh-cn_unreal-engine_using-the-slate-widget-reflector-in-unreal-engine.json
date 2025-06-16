@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-the-slate-widget-reflector-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-the-slate-widget-reflector-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Slate UI框架",
+      "predicate": "用于构建",
+      "object": "虚幻编辑器UI",
+      "context": "Slate是构建虚幻编辑器用户界面的基础框架，理解Slate有助于深入掌握编辑器UI的工作原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件反射器",
+      "predicate": "调试工具",
+      "object": "Slate UI",
+      "context": "控件反射器是专门用于调试和分析Slate UI的工具，帮助开发者理解UI控件的渲染和行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件反射器",
+      "predicate": "包含功能区域",
+      "object": "控件层级区域",
+      "context": "控件层级区域是控件反射器的重要组成部分，用于可视化控件的父子关系和属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件反射器",
+      "predicate": "支持",
+      "object": "快照功能",
+      "context": "快照功能允许开发者捕获UI的当前状态，便于后续分析和调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "演示模式",
+      "predicate": "用于",
+      "object": "可视化输入事件",
+      "context": "演示模式中的鼠标点击和按键选项帮助开发者直观理解输入事件的处理过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图集",
+      "predicate": "包含",
+      "object": "纹理图集",
+      "context": "纹理图集是图集功能的一部分，用于查看和管理UI中使用的纹理资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图集",
+      "predicate": "包含",
+      "object": "字体图集",
+      "context": "字体图集是图集功能的另一部分，用于查看和管理UI中使用的字体资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate调试选项",
+      "predicate": "控制",
+      "object": "应用程序缩放",
+      "context": "通过Slate调试选项可以调整应用程序的缩放比例，这对UI适配和调试很有帮助",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "标记",
+      "predicate": "用于",
+      "object": "UI调试",
+      "context": "各种调试标记如无效调试、更新调试等，是深入分析UI行为的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件层级",
+      "predicate": "显示",
+      "object": "控件父子关系",
+      "context": "控件层级区域清晰地展示了UI控件之间的层级结构，这是理解UI布局的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "点击测试网格",
+      "predicate": "用于",
+      "object": "调试交互区域",
+      "context": "点击测试网格功能帮助开发者精确了解控件的可交互区域，优化用户体验",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "快照控件选取器",
+      "predicate": "保存",
+      "object": "UI状态",
+      "context": "快照功能可以保存UI的完整状态，便于在不同时间点进行比较和分析",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件事件",
+      "predicate": "记录",
+      "object": "用户交互",
+      "context": "控件事件系统记录用户在UI上的各种操作，是分析用户交互行为的重要数据来源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件反射器",
+      "predicate": "关联",
+      "object": "控制台Slate调试器",
+      "context": "控件反射器与控制台Slate调试器功能互补，共同提供全面的UI调试解决方案",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "InvalidationBox",
+      "predicate": "实现",
+      "object": "控件缓存",
+      "context": "控件缓存功能依赖于InvalidationBox缓存系统，理解这一机制有助于优化UI性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:25:50.224Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9915 字符)",
+      "timestamp": "2025-06-15T21:25:07.042Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14515,
+    "contentLength": 9915,
+    "processingTimeMs": 43185
+  }
+}

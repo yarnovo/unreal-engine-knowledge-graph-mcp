@@ -1,0 +1,157 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_control-shapes-and-control-shape-library-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_control-shapes-and-control-shape-library-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "控制点形状",
+      "predicate": "用于",
+      "object": "控制绑定",
+      "context": "控制点形状用于在控制绑定中可视化区分不同的控制点，帮助开发者更直观地进行动画控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制点形状",
+      "predicate": "包含属性",
+      "object": "形状",
+      "context": "控制点形状的形状属性决定了其在3D空间中的视觉表现形式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制点形状",
+      "predicate": "包含属性",
+      "object": "颜色",
+      "context": "颜色属性允许开发者自定义控制点的视觉颜色，提高场景中的辨识度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制点形状库",
+      "predicate": "存储",
+      "object": "控制点形状",
+      "context": "控制点形状库集中管理所有可用的控制点形状，便于复用和统一管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定",
+      "predicate": "引用",
+      "object": "控制点形状库",
+      "context": "控制绑定通过引用控制点形状库来获取可用的控制点形状资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制点形状库",
+      "predicate": "包含",
+      "object": "静态网格体",
+      "context": "控制点形状库中的形状使用静态网格体作为其3D表现形式的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制点形状库",
+      "predicate": "包含",
+      "object": "默认材质",
+      "context": "默认材质定义了控制点形状的基础渲染属性，影响其最终视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制点形状库",
+      "predicate": "包含",
+      "object": "材质颜色参数",
+      "context": "材质颜色参数允许通过代码动态修改控制点形状的颜色属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "用于",
+      "object": "控制点形状",
+      "context": "静态网格体是控制点形状在3D空间中的具体几何表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX文件",
+      "predicate": "导入为",
+      "object": "静态网格体",
+      "context": "开发者可以导入自定义的FBX文件作为新的控制点形状的静态网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定编辑器",
+      "predicate": "用于",
+      "object": "编辑控制点形状属性",
+      "context": "控制绑定编辑器是修改控制点形状各项属性的主要工作界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "显示",
+      "object": "控制点形状属性",
+      "context": "细节面板展示了当前选中控制点形状的所有可编辑属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制点形状库",
+      "predicate": "位于",
+      "object": "引擎/插件/控制绑定内容/控制点文件夹",
+      "context": "了解控制点形状库的默认存储位置有助于开发者快速找到相关资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器设置",
+      "predicate": "需要启用",
+      "object": "显示引擎内容和插件内容",
+      "context": "要访问默认的控制点形状库，必须先在内容浏览器中启用显示引擎和插件内容的选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制点形状",
+      "predicate": "继承",
+      "object": "变换属性",
+      "context": "控制点形状继承变换属性(位置、旋转、缩放)以实现空间定位",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制点形状库",
+      "predicate": "支持",
+      "object": "自定义扩展",
+      "context": "开发者可以通过导入新的静态网格体来扩展控制点形状库，满足特定项目需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定",
+      "predicate": "依赖",
+      "object": "控制点",
+      "context": "控制绑定功能的实现依赖于控制点的正确设置和使用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "控制点形状",
+      "predicate": "影响",
+      "object": "动画工作流程",
+      "context": "恰当的控制点形状设置可以显著提高动画制作的工作效率和准确性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:35:18.111Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8286,
+    "contentLength": 5622,
+    "processingTimeMs": 60811
+  }
+}

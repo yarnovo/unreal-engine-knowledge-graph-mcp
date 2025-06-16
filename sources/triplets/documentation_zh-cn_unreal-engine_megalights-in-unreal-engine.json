@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_megalights-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_megalights-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "MegaLights",
+      "predicate": "是",
+      "object": "虚幻引擎5中的直接光照路径",
+      "context": "MegaLights是虚幻引擎5中的一种全新直接光照路径，帮助学习者理解其核心定位",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "MegaLights",
+      "predicate": "支持",
+      "object": "光线追踪技术",
+      "context": "MegaLights利用光线追踪技术实现逼真的柔和阴影，这是其核心技术依赖",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "MegaLights",
+      "predicate": "取代",
+      "object": "延迟渲染器的多种通道",
+      "context": "MegaLights统一处理直接光照，取代了多种延迟渲染器通道，学习者需要理解这种架构变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MegaLights",
+      "predicate": "依赖",
+      "object": "光线追踪场景",
+      "context": "MegaLights的阴影质量取决于光线追踪场景的表现，这是关键技术依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MegaLights",
+      "predicate": "支持",
+      "object": "体积雾",
+      "context": "MegaLights与体积雾系统的集成关系，扩展学习者的光照系统知识",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MegaLights",
+      "predicate": "使用",
+      "object": "降噪器",
+      "context": "MegaLights使用降噪器处理随机光照输入，这是其质量保障的关键技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MegaLights",
+      "predicate": "与",
+      "object": "Lumen HWRT",
+      "context": "MegaLights与Lumen HWRT共享光线追踪场景开销，学习者需要理解引擎内部协同工作关系",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "MegaLights",
+      "predicate": "支持",
+      "object": "虚拟阴影贴图",
+      "context": "MegaLights可以作为虚拟阴影贴图的替代方案，但也可以与之共存，这是重要的技术选择知识",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "MegaLights",
+      "predicate": "基于",
+      "object": "Nanite回退网格体",
+      "context": "光线追踪场景使用自动简化的Nanite回退网格体，这是MegaLights的技术基础",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "MegaLights",
+      "predicate": "不兼容",
+      "object": "前向渲染器",
+      "context": "理解MegaLights的架构限制，帮助学习者避免技术选型错误",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MegaLights",
+      "predicate": "专为",
+      "object": "当前世代游戏主机",
+      "context": "MegaLights的目标平台信息，帮助学习者理解适用场景",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "MegaLights",
+      "predicate": "使用",
+      "object": "屏幕空间追踪",
+      "context": "MegaLights使用屏幕空间追踪处理小规模几何体，这是其混合追踪策略的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "MegaLights",
+      "predicate": "影响",
+      "object": "性能因素",
+      "context": "理解影响MegaLights性能的关键因素，包括渲染分辨率、光线追踪场景复杂度等",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "MegaLights",
+      "predicate": "支持",
+      "object": "光源函数图集",
+      "context": "MegaLights对光源函数的支持条件，扩展学习者的光照功能知识",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "MegaLights",
+      "predicate": "处理",
+      "object": "Alpha遮罩",
+      "context": "MegaLights对Alpha遮罩的特殊处理方式及性能影响，重要的技术细节",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "MegaLights",
+      "predicate": "控制",
+      "object": "样本数量",
+      "context": "通过控制台命令控制样本数量来提升质量，这是重要的性能优化知识",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "MegaLights",
+      "predicate": "取代",
+      "object": "阴影贴图距离场阴影",
+      "context": "MegaLights取代的传统阴影技术，帮助学习者理解技术演进",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MegaLights",
+      "predicate": "取代",
+      "object": "光线追踪阴影",
+      "context": "MegaLights整合了传统光线追踪阴影功能，统一光照处理流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MegaLights",
+      "predicate": "使用",
+      "object": "光线引导",
+      "context": "光线引导是MegaLights的重要技术组成部分，优化样本分配",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "MegaLights",
+      "predicate": "需要",
+      "object": "项目设置启用",
+      "context": "启用MegaLights的项目配置步骤，实际应用的重要知识",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    }
+  ],
+  "timestamp": "2025-06-15T19:53:21.040Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10930 字符)",
+      "timestamp": "2025-06-15T19:52:11.604Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19664,
+    "contentLength": 10930,
+    "processingTimeMs": 69446
+  }
+}

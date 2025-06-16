@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_graphics-programming-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_graphics-programming-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "渲染器模块",
+      "predicate": "管理",
+      "object": "场景",
+      "context": "渲染器模块负责管理和渲染场景，是图形编程的核心组件之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染器模块",
+      "predicate": "包含",
+      "object": "绘制规则",
+      "context": "渲染器模块包含所有绘制规则的定义，这是理解渲染流程的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染器模块",
+      "predicate": "包含",
+      "object": "着色器定义",
+      "context": "渲染器模块包含所有着色器的定义，这是图形编程的关键部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RHI模块",
+      "predicate": "是",
+      "object": "渲染API接口",
+      "context": "RHI模块是渲染API的接口层，理解它是进行底层图形编程的前提",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FShaderCache",
+      "predicate": "减少",
+      "object": "着色器卡顿",
+      "context": "FShaderCache机制可以减少游戏中的着色器卡顿，是性能优化的重要知识点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体绘制管道",
+      "predicate": "支持",
+      "object": "自定义网格体通道",
+      "context": "网格体绘制管道支持添加自定义网格体通道，这是扩展渲染功能的重要途径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染依赖图",
+      "predicate": "记录",
+      "object": "渲染命令",
+      "context": "渲染依赖图是一种记录渲染命令的数据结构，理解它对掌握现代渲染架构很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "异步计算",
+      "predicate": "提高",
+      "object": "GPU工作效率",
+      "context": "异步计算通过交错不同GPU任务来提高效率，是高级图形编程技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "着色器开发",
+      "predicate": "基于",
+      "object": "RHI模块",
+      "context": "着色器开发需要基于RHI模块提供的接口，这是图形编程的基础依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "并行渲染",
+      "predicate": "扩展",
+      "object": "渲染器模块",
+      "context": "并行渲染是对渲染器模块功能的扩展，可以提高渲染性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "插件中的Shader",
+      "predicate": "实现",
+      "object": "全局着色器",
+      "context": "插件中可以创建和实现全局着色器，这是扩展引擎渲染能力的方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "线程渲染",
+      "predicate": "优化",
+      "object": "渲染性能",
+      "context": "线程渲染通过多线程技术优化渲染性能，是高级图形编程概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图形编程",
+      "predicate": "包含",
+      "object": "着色器开发",
+      "context": "着色器开发是图形编程的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图形编程",
+      "predicate": "包含",
+      "object": "并行渲染",
+      "context": "并行渲染是图形编程中的高级技术方向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图形编程",
+      "predicate": "包含",
+      "object": "异步计算",
+      "context": "异步计算是图形编程中优化GPU使用的重要技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:15:32.233Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4684,
+    "contentLength": 3678,
+    "processingTimeMs": 48882
+  }
+}

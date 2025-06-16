@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_level-editor-modes-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_level-editor-modes-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "关卡编辑器",
+      "predicate": "包含",
+      "object": "编辑模式",
+      "context": "关卡编辑器通过不同的编辑模式来支持不同类型的编辑任务，理解这一包含关系有助于学习者掌握编辑器的模块化结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选择模式",
+      "predicate": "属于",
+      "object": "关卡编辑器模式",
+      "context": "选择模式是关卡编辑器的基础模式之一，了解这一归属关系是学习编辑器操作的第一步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形模式",
+      "predicate": "专门用于",
+      "object": "编辑地貌地形",
+      "context": "明确地形模式的专业用途，帮助学习者快速定位地形编辑工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "植被模式",
+      "predicate": "用于",
+      "object": "绘制实例化植被",
+      "context": "理解植被模式的功能定位，便于学习环境美术制作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体绘制模式",
+      "predicate": "支持",
+      "object": "顶点颜色和纹理绘制",
+      "context": "明确该模式的技术能力，帮助3D美术了解直接绘制工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "建模模式",
+      "predicate": "扩展",
+      "object": "几何体编辑功能",
+      "context": "建模模式提供了基础选择模式之外的几何体编辑能力，这种扩展关系对学习工作流很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "破碎模式",
+      "predicate": "用于",
+      "object": "创建可破坏物体",
+      "context": "理解该模式与物理模拟的关联，对学习破坏效果制作至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "笔刷编辑模式",
+      "predicate": "基于",
+      "object": "几何体笔刷",
+      "context": "明确该模式的技术基础，帮助理解BSP工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画模式",
+      "predicate": "控制",
+      "object": "动画编辑",
+      "context": "建立模式与动画工作流的关联，便于动画师定位工具",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "模式面板",
+      "predicate": "动态调整",
+      "object": "编辑模式",
+      "context": "理解UI的上下文敏感性，这对学习编辑器界面布局很重要",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "地形模式",
+      "predicate": "前置",
+      "object": "植被模式",
+      "context": "通常需要先创建地形再添加植被，这种工作流顺序对场景构建学习很重要",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "建模模式",
+      "predicate": "替代",
+      "object": "基础几何体编辑",
+      "context": "了解高级建模模式与传统笔刷编辑的关系，有助于工作流升级",
+      "direction": "unidirectional",
+      "confidence": 0.6
+    }
+  ],
+  "timestamp": "2025-06-15T19:42:57.977Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4885,
+    "contentLength": 3719,
+    "processingTimeMs": 40699
+  }
+}

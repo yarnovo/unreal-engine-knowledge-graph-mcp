@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_umg-viewmodel-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_umg-viewmodel-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "UMG Viewmodel",
+      "predicate": "用于",
+      "object": "UI开发",
+      "context": "UMG Viewmodel插件为UI开发提供了数据与视觉分离的实现途径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Viewmodel",
+      "predicate": "包含",
+      "object": "视图绑定",
+      "context": "Viewmodel通过视图绑定将UI字段与后端数据变量关联",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Viewmodel",
+      "predicate": "基于",
+      "object": "MVVM模式",
+      "context": "Viewmodel实现了MVVM(Model-View-ViewModel)设计模式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "视图绑定",
+      "predicate": "替代",
+      "object": "原始属性绑定",
+      "context": "视图绑定比原始属性绑定更高效，只在变量更新时更新控件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FieldNotify",
+      "predicate": "实现",
+      "object": "数据变更通知",
+      "context": "FieldNotify机制用于在变量或函数值变更时通知绑定控件",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "UMG控件",
+      "predicate": "使用",
+      "object": "Viewmodel",
+      "context": "UMG控件通过添加Viewmodel来访问和绑定数据变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MVVMViewModelBase",
+      "predicate": "继承",
+      "object": "UObject",
+      "context": "Viewmodel类继承自UObject并实现INotifyFieldValueChanged接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视图绑定方向",
+      "predicate": "包含",
+      "object": "单向至控件",
+      "context": "视图绑定支持多种方向，包括从Viewmodel到控件的单向绑定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视图绑定方向",
+      "predicate": "包含",
+      "object": "单向至Viewmodel",
+      "context": "视图绑定支持从控件到Viewmodel的反向绑定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视图绑定方向",
+      "predicate": "包含",
+      "object": "双向绑定",
+      "context": "视图绑定支持Viewmodel和控件之间的双向数据同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Viewmodel创建类型",
+      "predicate": "包含",
+      "object": "创建实例",
+      "context": "Viewmodel可以通过创建实例方式为每个控件实例独立初始化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Viewmodel创建类型",
+      "predicate": "包含",
+      "object": "全局Viewmodel集合",
+      "context": "Viewmodel可以添加到全局集合供多个控件共享",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "转换函数",
+      "predicate": "用于",
+      "object": "数据类型转换",
+      "context": "转换函数可将Viewmodel数据转换为适合UI控件显示的格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "嵌套Viewmodel",
+      "predicate": "实现",
+      "object": "复杂数据组织",
+      "context": "通过嵌套Viewmodel可以更好地组织复杂UI数据关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UMG Viewmodel插件",
+      "predicate": "依赖",
+      "object": "MVVM游戏子系统",
+      "context": "全局Viewmodel集合功能依赖于MVVM游戏子系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C++ Viewmodel",
+      "predicate": "实现",
+      "object": "INotifyFieldValueChanged",
+      "context": "C++中创建Viewmodel需要实现INotifyFieldValueChanged接口",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "FieldNotify变量",
+      "predicate": "触发",
+      "object": "FieldNotify函数",
+      "context": "FieldNotify变量可以配置为在变更时自动触发相关函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视图绑定菜单",
+      "predicate": "替代",
+      "object": "细节面板绑定",
+      "context": "视图绑定菜单提供了比细节面板更全面的绑定控制选项",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Viewmodel",
+      "predicate": "维护",
+      "object": "UI变量清单",
+      "context": "Viewmodel主要用途之一是维护UI所需变量的清单",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Viewmodel",
+      "predicate": "提供",
+      "object": "UI通信途径",
+      "context": "Viewmodel提供UI与应用程序其余部分之间的通信途径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:05:21.052Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (23578 字符)",
+      "timestamp": "2025-06-15T21:04:25.551Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 36848,
+    "contentLength": 23578,
+    "processingTimeMs": 55507
+  }
+}

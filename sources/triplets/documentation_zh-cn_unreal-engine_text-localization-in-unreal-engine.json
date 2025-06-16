@@ -1,0 +1,195 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_text-localization-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_text-localization-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "FText",
+      "predicate": "表示",
+      "object": "本地化字符串",
+      "context": "FText是虚幻引擎中用于表示需要本地化的字符串的主要类型",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "FText",
+      "predicate": "内部实现为",
+      "object": "TSharedRef<ITextData>",
+      "context": "FText在内部被实现为TSharedRef<ITextData>，这使得复制成本低廉",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FText",
+      "predicate": "包含",
+      "object": "FTextHistory",
+      "context": "FText包含文本历史记录(FTextHistory)，用于处理不同创建方式的文本差异",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FTextHistory",
+      "predicate": "支持",
+      "object": "文化重建",
+      "context": "文本历史记录支持文本的正确文化重建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FText",
+      "predicate": "可转换为",
+      "object": "FString",
+      "context": "FText可以转换为FString，但这是有损操作，会丢失本地化信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FText",
+      "predicate": "支持",
+      "object": "文化不变文本",
+      "context": "使用FText::AsCultureInvariant可以创建文化不变的文本实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "文本文字值",
+      "predicate": "包含",
+      "object": "命名空间、密钥和源字符串",
+      "context": "可本地化文本由命名空间、密钥和源字符串三个组件组成",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "NSLOCTEXT",
+      "predicate": "用于",
+      "object": "创建文本文字值",
+      "context": "NSLOCTEXT宏用于通过定义命名空间、密钥和源字符串创建本地化文本",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "LOCTEXT",
+      "predicate": "用于",
+      "object": "创建文本文字值",
+      "context": "LOCTEXT宏用于通过定义密钥和源字符串创建本地化文本，使用LOCTEXT_NAMESPACE定义命名空间",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "文本格式化",
+      "predicate": "使用",
+      "object": "格式占位符",
+      "context": "文本格式化使用花括号中的格式占位符来组合文本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FText::Format",
+      "predicate": "实现",
+      "object": "文本格式化",
+      "context": "FText::Format系列函数用于在C++中进行文本格式化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "参数修饰符",
+      "predicate": "扩展",
+      "object": "文本格式化功能",
+      "context": "参数修饰符可以在参数被添加到格式化字符串前对其进行预处理，扩展了格式化功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复数形式",
+      "predicate": "是",
+      "object": "参数修饰符",
+      "context": "复数形式是一种参数修饰符，允许基于数值变量使用不同文本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "性别形式",
+      "predicate": "是",
+      "object": "参数修饰符",
+      "context": "性别形式是一种参数修饰符，允许基于ETextGender值使用不同文本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "文本生成",
+      "predicate": "分为",
+      "object": "数值型、时间型和变换型",
+      "context": "文本生成有三种类型：数值型、时间型和变换型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FText::AsNumber",
+      "predicate": "实现",
+      "object": "数值型文本生成",
+      "context": "FText::AsNumber将数值类型转换为用户友好的文本表示形式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FText::AsDate",
+      "predicate": "实现",
+      "object": "时间型文本生成",
+      "context": "FText::AsDate将FDateTime值转换为用户友好的日期表示形式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FText::ToLower",
+      "predicate": "实现",
+      "object": "变换型文本生成",
+      "context": "FText::ToLower将FText实例转换为其小写形式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字符串表",
+      "predicate": "集中管理",
+      "object": "本地化文本",
+      "context": "字符串表提供集中管理已本地化文本的方法，方便重用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Polyglot数据",
+      "predicate": "允许",
+      "object": "运行时添加本地化数据",
+      "context": "Polyglot数据允许在运行时添加新的本地化数据或与外部系统连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FPolyglotTextData",
+      "predicate": "表示",
+      "object": "Polyglot数据",
+      "context": "FPolyglotTextData类型表示Polyglot数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ILocalizedTextSource",
+      "predicate": "是",
+      "object": "本地化文本源接口",
+      "context": "ILocalizedTextSource是文本本地化管理器发现和处理本地化文本数据的接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:00:22.634Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (20753 字符)",
+      "timestamp": "2025-06-15T20:59:16.561Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 31546,
+    "contentLength": 20753,
+    "processingTimeMs": 66076
+  }
+}

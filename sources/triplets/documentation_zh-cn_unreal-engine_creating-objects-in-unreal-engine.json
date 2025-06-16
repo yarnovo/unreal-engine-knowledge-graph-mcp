@@ -1,0 +1,149 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_creating-objects-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_creating-objects-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "NewObject",
+      "predicate": "是",
+      "object": "UObject工厂方法",
+      "context": "NewObject是最简单的UObject工厂方法，用于创建UObject实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NewObject",
+      "predicate": "接受参数",
+      "object": "UObject* Outer",
+      "context": "NewObject方法接受一个可选的外部UObject参数，用于设置新对象的外部对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NewObject",
+      "predicate": "接受参数",
+      "object": "UClass* Class",
+      "context": "NewObject方法接受一个可选的UClass参数，用于指定待创建对象的类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NewNamedObject",
+      "predicate": "扩展",
+      "object": "NewObject",
+      "context": "NewNamedObject在NewObject的基础上展开，允许为新实例指定名称、对象标记和模板对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NewNamedObject",
+      "predicate": "接受参数",
+      "object": "FName Name",
+      "context": "NewNamedObject方法接受一个FName参数，用于设置新对象的名称",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NewNamedObject",
+      "predicate": "接受参数",
+      "object": "EObjectFlags Flags",
+      "context": "NewNamedObject方法接受一个EObjectFlags参数，用于描述新对象的标记",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NewNamedObject",
+      "predicate": "接受参数",
+      "object": "UObject const* Template",
+      "context": "NewNamedObject方法接受一个可选的UObject模板参数，用于创建新对象时作为模板",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ConstructObject",
+      "predicate": "调用",
+      "object": "StaticConstructObject",
+      "context": "ConstructObject函数调用StaticConstructObject来分配对象并执行初始化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ConstructObject",
+      "predicate": "接受参数",
+      "object": "UClass* Class",
+      "context": "ConstructObject方法接受一个UClass参数，用于指定待创建对象的类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ConstructObject",
+      "predicate": "接受参数",
+      "object": "FObjectInstancingGraph* InstanceGraph",
+      "context": "ConstructObject方法接受一个可选的FObjectInstancingGraph参数，用于实例化新对象所拥有的组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EObjectFlags",
+      "predicate": "描述",
+      "object": "对象类型",
+      "context": "EObjectFlags枚举用于快速而简洁地描述对象的类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EObjectFlags",
+      "predicate": "描述",
+      "object": "垃圾回收行为",
+      "context": "EObjectFlags枚举用于描述垃圾回收如何处理对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EObjectFlags",
+      "predicate": "描述",
+      "object": "对象生命周期阶段",
+      "context": "EObjectFlags枚举用于描述对象在其生命周期中所处的阶段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RF_Public",
+      "predicate": "是",
+      "object": "EObjectFlags枚举值",
+      "context": "RF_Public是EObjectFlags的一个枚举值，表示对象在包含它的包外部是可见的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RF_Standalone",
+      "predicate": "是",
+      "object": "EObjectFlags枚举值",
+      "context": "RF_Standalone是EObjectFlags的一个枚举值，表示即使没有被任何东西引用，对象也会被保留以供编辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RF_ClassDefaultObject",
+      "predicate": "是",
+      "object": "EObjectFlags枚举值",
+      "context": "RF_ClassDefaultObject是EObjectFlags的一个枚举值，表示对象是其类的默认对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RF_Load",
+      "predicate": "是",
+      "object": "预定义的标记组",
+      "context": "RF_Load是一个预定义的标记组，包含从虚幻文件加载的标记",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:42:37.019Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6458,
+    "contentLength": 4366,
+    "processingTimeMs": 58510
+  }
+}

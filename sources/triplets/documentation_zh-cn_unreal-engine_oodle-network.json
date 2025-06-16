@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_oodle-network",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_oodle-network.md",
+  "triples": [
+    {
+      "subject": "Oodle网络",
+      "predicate": "用于",
+      "object": "网络流送",
+      "context": "Oodle网络专门用于网络流送的压缩，帮助学习者理解其核心应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Oodle网络",
+      "predicate": "依赖",
+      "object": "BaseEngine.ini配置",
+      "context": "Oodle网络的启用和配置需要通过修改BaseEngine.ini文件，这是集成的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Oodle网络",
+      "predicate": "包含",
+      "object": "OodleNetworkHandlerComponent",
+      "context": "Oodle网络的核心功能通过OodleNetworkHandlerComponent实现，这是其技术架构的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Oodle网络",
+      "predicate": "需要",
+      "object": "数据包捕获",
+      "context": "使用Oodle网络前需要捕获真实游戏数据包用于训练，这是其工作流程的必要前置条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Oodle网络",
+      "predicate": "生成",
+      "object": "字典文件",
+      "context": "通过训练步骤生成的字典文件是Oodle网络运行时压缩的关键资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Oodle网络训练器",
+      "predicate": "创建",
+      "object": "字典文件",
+      "context": "训练器是生成压缩字典的工具，理解这个关系有助于掌握Oodle网络的工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字典文件",
+      "predicate": "用于",
+      "object": "网络压缩",
+      "context": "字典文件是实际网络流送压缩的基础，这是Oodle网络的核心技术实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BaseEngine.ini",
+      "predicate": "配置",
+      "object": "Oodle网络参数",
+      "context": "配置文件包含bEnableOodle等关键参数，这是学习者需要掌握的核心配置项",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据包捕获",
+      "predicate": "影响",
+      "object": "压缩质量",
+      "context": "捕获的数据包质量直接决定最终压缩效果，这是学习者需要注意的关键点",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Oodle网络",
+      "predicate": "适用于",
+      "object": "多人游戏网络优化",
+      "context": "作为网络压缩解决方案，主要应用于多人游戏的网络性能优化场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Oodle网络插件",
+      "predicate": "属于",
+      "object": "虚幻引擎插件系统",
+      "context": "理解Oodle作为插件与引擎的关系，有助于掌握虚幻引擎的模块化架构",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "stat OodleNetwork",
+      "predicate": "监控",
+      "object": "压缩率",
+      "context": "该命令用于实时监控压缩效果，是调试和优化的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字典文件",
+      "predicate": "需要",
+      "object": "游戏打包",
+      "context": "字典文件必须包含在最终游戏包中，这是部署的重要环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Oodle网络",
+      "predicate": "支持",
+      "object": "条件性禁用",
+      "context": "通过ServerEnableMode等参数支持内存受限平台的灵活配置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "游戏更新",
+      "predicate": "需要",
+      "object": "重新训练字典",
+      "context": "游戏内容重大变更时需要重新训练，这是维护工作的重要知识点",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:11:25.178Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9033,
+    "contentLength": 6359,
+    "processingTimeMs": 54491
+  }
+}

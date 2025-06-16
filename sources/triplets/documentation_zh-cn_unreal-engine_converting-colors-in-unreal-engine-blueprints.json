@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_converting-colors-in-unreal-engine-blueprints",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_converting-colors-in-unreal-engine-blueprints.md",
+  "triples": [
+    {
+      "subject": "蓝图",
+      "predicate": "支持",
+      "object": "OpenColorIO颜色变换",
+      "context": "蓝图可以应用OpenColorIO颜色变换到输入纹理，帮助学习者理解蓝图在颜色处理中的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Apply Color Space Transform函数",
+      "predicate": "实现",
+      "object": "颜色空间转换",
+      "context": "该函数是执行颜色转换的核心功能，学习者需要掌握其使用方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OpenColorIO配置资产",
+      "predicate": "用于",
+      "object": "Apply Color Space Transform函数",
+      "context": "配置资产提供颜色转换所需的设置，是使用该函数的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图Actor",
+      "predicate": "包含",
+      "object": "事件更新函数",
+      "context": "蓝图Actor需要包含事件更新函数才能实现每帧的颜色转换操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "InputTexture变量",
+      "predicate": "存储",
+      "object": "输入纹理",
+      "context": "该变量用于存储需要转换的输入纹理数据，是颜色转换流程的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OutputTexture变量",
+      "predicate": "存储",
+      "object": "转换结果",
+      "context": "该变量存储转换后的渲染目标，学习者需要理解输出数据的存储方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ColorConversionSettings变量",
+      "predicate": "配置",
+      "object": "颜色转换参数",
+      "context": "该变量配置颜色转换的具体参数，影响转换效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图编辑器",
+      "predicate": "用于",
+      "object": "创建变量",
+      "context": "学习者需要在蓝图编辑器中创建必要的变量来完成颜色转换功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Event Tick节点",
+      "predicate": "触发",
+      "object": "Apply Color Space Transform函数",
+      "context": "事件更新函数驱动颜色转换的持续执行，理解时序控制很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MediaTexture",
+      "predicate": "可作为",
+      "object": "InputTexture",
+      "context": "视频源纹理也可以作为输入，扩展了学习者的应用场景理解",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "RenderTarget",
+      "predicate": "接收",
+      "object": "转换结果",
+      "context": "渲染目标是颜色转换的输出目的地，是流程中的重要环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OpenColorIO快速入门",
+      "predicate": "前置",
+      "object": "颜色转换实现",
+      "context": "学习创建配置资产是使用颜色转换功能的前提",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "用于",
+      "object": "配置转换参数",
+      "context": "学习者需要通过细节面板完成最终的参数配置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "编译保存",
+      "predicate": "完成",
+      "object": "蓝图修改",
+      "context": "这是应用修改的必要步骤，学习者需要养成习惯",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T18:36:23.817Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7208,
+    "contentLength": 5186,
+    "processingTimeMs": 46681
+  }
+}

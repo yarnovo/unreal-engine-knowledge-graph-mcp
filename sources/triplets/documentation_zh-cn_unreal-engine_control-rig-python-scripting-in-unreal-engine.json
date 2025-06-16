@@ -1,0 +1,211 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_control-rig-python-scripting-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_control-rig-python-scripting-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "控制绑定Python脚本",
+      "predicate": "用于",
+      "object": "工作流程自动化",
+      "context": "控制绑定Python脚本功能可以用于自动化工作流程，帮助开发者提高效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定Python脚本",
+      "predicate": "用于",
+      "object": "创建绑定工具",
+      "context": "Python脚本可以创建用于绑定流程的工具，扩展控制绑定的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定Python日志",
+      "predicate": "用于",
+      "object": "命令逆向工程",
+      "context": "Python日志可以记录操作命令，帮助开发者逆向工程和复制脚本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定Python日志",
+      "predicate": "支持",
+      "object": "脚本共享",
+      "context": "通过日志复制的脚本可以共享到其他项目，促进团队协作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定图表",
+      "predicate": "基于",
+      "object": "模型-视图-控制器模式",
+      "context": "控制绑定图表的实现采用了MVC设计模式，分离了模型、视图和控制器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RigUnit",
+      "predicate": "定义",
+      "object": "绑定函数",
+      "context": "RigUnit是为绑定定义功能的C++结构体，是控制绑定的基础构建块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "节点",
+      "predicate": "表示",
+      "object": "RigUnit",
+      "context": "节点是RigUnit的视觉效果表示，在图表中展示功能单元",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制器",
+      "predicate": "用于",
+      "object": "修改图表",
+      "context": "控制器是对图表做出更改的中心对象，负责管理图表的变更",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "层级",
+      "predicate": "存储",
+      "object": "绑定元素",
+      "context": "层级容器存储所有骨骼、控制点、空和曲线等绑定元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HierarchyController",
+      "predicate": "用于",
+      "object": "修改层级",
+      "context": "HierarchyController类似于图表控制器，但专门用于更改层级结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编译器",
+      "predicate": "转换",
+      "object": "控制绑定图表",
+      "context": "编译器将控制绑定图表转换为高性能的虚拟机运行时",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python编辑器脚本插件",
+      "predicate": "启用",
+      "object": "控制绑定Python功能",
+      "context": "Python功能通过Python编辑器脚本插件启用，是控制绑定脚本的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制绑定插件",
+      "predicate": "依赖",
+      "object": "Python编辑器脚本插件",
+      "context": "控制绑定插件自动启用Python编辑器脚本插件，因为它是必要依赖",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ControlRigBlueprint",
+      "predicate": "包含",
+      "object": "图表",
+      "context": "ControlRigBlueprint资产包含图表、控制器、编译器和VM等核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工厂",
+      "predicate": "创建",
+      "object": "ControlRigBlueprint",
+      "context": "工厂对象负责创建新的ControlRigBlueprint资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python上下文",
+      "predicate": "设置",
+      "object": "控制绑定资产",
+      "context": "Python上下文确定Python命令将影响哪个控制绑定资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复制Python脚本",
+      "predicate": "用于",
+      "object": "共享绑定逻辑",
+      "context": "复制整个绑定的Python脚本有助于在不同绑定间共享和比较逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼",
+      "predicate": "用于",
+      "object": "变形",
+      "context": "骨骼是骨架中用于变形的绑定元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制点",
+      "predicate": "用于",
+      "object": "交互",
+      "context": "控制点是用于用户交互的绑定元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "空",
+      "predicate": "用于",
+      "object": "中间变换",
+      "context": "空元素用于存储中间变换信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "曲线",
+      "predicate": "用于",
+      "object": "存储浮点通道",
+      "context": "曲线元素用于存储浮点通道数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "形状",
+      "predicate": "表示",
+      "object": "控制点视觉效果",
+      "context": "形状定义了控制点在视口中的视觉表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "参数",
+      "predicate": "用作",
+      "object": "绑定输入输出",
+      "context": "参数值可以用作绑定的输入或输出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变量",
+      "predicate": "可在运行时更改",
+      "object": "绑定状态",
+      "context": "变量可以在运行时更改并保留绑定执行后的状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:35:35.623Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11457 字符)",
+      "timestamp": "2025-06-15T18:34:17.310Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16013,
+    "contentLength": 11457,
+    "processingTimeMs": 78324
+  }
+}

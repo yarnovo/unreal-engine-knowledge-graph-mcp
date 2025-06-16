@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_depth-material-expressions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_depth-material-expressions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "DepthFade",
+      "predicate": "用于",
+      "object": "半透明对象",
+      "context": "DepthFade用于处理半透明对象与不透明对象相交时的接缝问题，帮助学习者理解该表达式的核心应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DepthFade",
+      "predicate": "依赖",
+      "object": "消退距离",
+      "context": "DepthFade的效果依赖于消退距离参数，学习者需要理解这个关键参数对最终效果的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PixelDepth",
+      "predicate": "输出",
+      "object": "像素深度",
+      "context": "PixelDepth直接输出像素与摄像机之间的距离，这是学习深度相关材质表达式的基础概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SceneDepth",
+      "predicate": "扩展",
+      "object": "PixelDepth",
+      "context": "SceneDepth在PixelDepth基础上扩展了功能，可以在任何位置进行深度取样，帮助学习者理解两者的区别与联系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SceneDepth",
+      "predicate": "专门用于",
+      "object": "半透明材质",
+      "context": "SceneDepth只能用于半透明材质，这是学习者在使用该表达式时需要特别注意的限制条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SceneDepth",
+      "predicate": "使用",
+      "object": "UV纹理坐标",
+      "context": "SceneDepth需要UV纹理坐标来确定取样位置，这是实现其功能的关键输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PixelDepth",
+      "predicate": "适用于",
+      "object": "地板材质",
+      "context": "文档示例展示了PixelDepth在地板材质中的应用，帮助学习者理解其实际使用场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "深度材质表达式",
+      "predicate": "包含",
+      "object": "DepthFade",
+      "context": "DepthFade是深度材质表达式的一种，帮助学习者建立分类认知",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "深度材质表达式",
+      "predicate": "包含",
+      "object": "PixelDepth",
+      "context": "PixelDepth是深度材质表达式的一种，帮助学习者建立分类认知",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "深度材质表达式",
+      "predicate": "包含",
+      "object": "SceneDepth",
+      "context": "SceneDepth是深度材质表达式的一种，帮助学习者建立分类认知",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DepthFade",
+      "predicate": "改善",
+      "object": "半透明渲染效果",
+      "context": "DepthFade专门用于改善半透明对象的渲染效果，这是学习者需要掌握的核心价值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SceneDepth",
+      "predicate": "生成",
+      "object": "规范化深度值",
+      "context": "SceneDepth输出0.0到1.0范围内的规范化深度值，这是学习者需要了解的重要输出特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:49:29.645Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4448,
+    "contentLength": 3169,
+    "processingTimeMs": 49116
+  }
+}

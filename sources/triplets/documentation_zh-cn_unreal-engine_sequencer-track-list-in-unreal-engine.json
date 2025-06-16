@@ -1,0 +1,251 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_sequencer-track-list-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_sequencer-track-list-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Sequencer",
+      "predicate": "包含",
+      "object": "轨道",
+      "context": "Sequencer通过轨道来访问Actor属性和其他元素，是构建动画的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Object绑定轨道",
+      "predicate": "属于",
+      "object": "轨道",
+      "context": "Object绑定轨道是Sequencer中用于绑定Actor和Object的特殊轨道类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画轨道",
+      "predicate": "属于",
+      "object": "轨道",
+      "context": "动画轨道是专门用于将动画序列添加到骨骼网格体的轨道类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音轨",
+      "predicate": "属于",
+      "object": "轨道",
+      "context": "音轨是用于非线性动画的动画混合工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件轨道",
+      "predicate": "属于",
+      "object": "轨道",
+      "context": "事件轨道支持创建自定义事件，在Sequencer蓝图层中编写脚本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体缓存轨道",
+      "predicate": "属于",
+      "object": "轨道",
+      "context": "几何体缓存轨道用于在Sequencer中播放和利用几何体轨迹资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "淡入淡出轨道",
+      "predicate": "属于",
+      "object": "轨道",
+      "context": "淡入淡出轨道用于将整个画面淡入淡出为纯色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡可视性轨道",
+      "predicate": "属于",
+      "object": "轨道",
+      "context": "关卡可视性轨道用于控制关卡可见性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质轨道",
+      "predicate": "属于",
+      "object": "轨道",
+      "context": "材质轨道用于在Sequencer中为材质制作动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间膨胀轨道",
+      "predicate": "属于",
+      "object": "轨道",
+      "context": "时间膨胀轨道用于调整过场动画的播放速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子序列轨道",
+      "predicate": "属于",
+      "object": "轨道",
+      "context": "子序列轨道用于整理多个美术师处理同一序列的工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体轨道",
+      "predicate": "属于",
+      "object": "轨道",
+      "context": "媒体轨道用于控制Sequencer中影片和图像的播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "镜头切换轨道",
+      "predicate": "属于",
+      "object": "轨道",
+      "context": "镜头切换轨道用于控制播放期间当前激活的电影摄像机Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "文件夹轨道",
+      "predicate": "属于",
+      "object": "轨道",
+      "context": "文件夹轨道用于整理Sequencer大纲视图中的轨道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换和属性轨道",
+      "predicate": "属于",
+      "object": "轨道",
+      "context": "变换和属性轨道用于为Actor的常见变量或属性制作动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台变量轨道",
+      "predicate": "属于",
+      "object": "轨道",
+      "context": "控制台变量轨道用于在实时动画中调整渲染设置和其他控制台变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可自定义的Sequencer轨道",
+      "predicate": "属于",
+      "object": "轨道",
+      "context": "可自定义的Sequencer轨道允许通过蓝图创建自定义轨道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Object绑定轨道",
+      "predicate": "绑定",
+      "object": "Actor",
+      "context": "Object绑定轨道将Actor绑定到Sequencer，提供控制其属性和组件的方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画轨道",
+      "predicate": "应用于",
+      "object": "骨骼网格体",
+      "context": "动画轨道专门用于将动画序列添加到骨骼网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "支持",
+      "object": "组件轨道",
+      "context": "Sequencer允许在主标题轨道下添加组件轨道，访问特定功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "轨道",
+      "predicate": "可被",
+      "object": "重命名",
+      "context": "大多数轨道可以被重命名以便于整理，重命名绑定到Actor的轨道也会重命名Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "轨道",
+      "predicate": "可被",
+      "object": "锁定",
+      "context": "轨道可以被锁定以防止编辑其关键帧和子轨道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "轨道",
+      "predicate": "可被",
+      "object": "固定",
+      "context": "轨道可以被固定，出现在Sequencer大纲顶部的单独分段中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "轨道",
+      "predicate": "可被",
+      "object": "禁用",
+      "context": "轨道可以被禁用，使其变为非活动状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "轨道",
+      "predicate": "可被",
+      "object": "单独启用",
+      "context": "轨道可以被单独启用，禁用其他轨道以便单独查看",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "轨道",
+      "predicate": "可被",
+      "object": "重新排序",
+      "context": "轨道可以在大纲视图中上下拖动进行重新排序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "提供",
+      "object": "搜索和筛选功能",
+      "context": "Sequencer提供搜索字段和筛选器按钮来查找特定轨道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大纲视图",
+      "predicate": "用于",
+      "object": "添加轨道",
+      "context": "通过大纲视图中的添加轨道按钮或右键菜单可以添加轨道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor",
+      "predicate": "可通过",
+      "object": "拖放添加",
+      "context": "Actor可以从大纲视图、内容浏览器或Place Actors面板拖放到Sequencer",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:42:22.232Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10136 字符)",
+      "timestamp": "2025-06-15T20:41:02.265Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14416,
+    "contentLength": 10136,
+    "processingTimeMs": 79976
+  }
+}

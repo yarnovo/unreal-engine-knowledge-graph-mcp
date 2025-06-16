@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_gameplay-targeting-system-reference-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_gameplay-targeting-system-reference-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "异步定位请求",
+      "predicate": "创建",
+      "object": "定位请求句柄",
+      "context": "异步定位请求开始时需要创建句柄来与数据存储交互，这是理解异步定位流程的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定位请求句柄",
+      "predicate": "交互",
+      "object": "定位数据存储",
+      "context": "句柄是用户与数据存储交互的媒介，理解这一关系有助于掌握数据存储的使用方式",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定位子系统",
+      "predicate": "跟踪",
+      "object": "异步定位请求",
+      "context": "定位子系统负责跟踪所有异步请求，这是系统架构的核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定位子系统",
+      "predicate": "作为入口点",
+      "object": "即时定位请求",
+      "context": "子系统同时处理即时请求，理解这一角色对系统整体认知很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定位数据存储",
+      "predicate": "基于",
+      "object": "通用数据结构体",
+      "context": "数据存储的底层实现基于通用结构体，这是扩展自定义存储的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定位任务",
+      "predicate": "构成",
+      "object": "定位预设",
+      "context": "任务是预设的组成部分，理解这一关系是构建自定义定位逻辑的前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定位任务",
+      "predicate": "分类为",
+      "object": "Selection/Sorting/Filter",
+      "context": "任务的三类分类法帮助学习者理解不同任务的功能定位",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TargetingSelectionTask_Trace",
+      "predicate": "实现",
+      "object": "射线追踪选择",
+      "context": "具体任务实现示例展示如何将抽象概念转化为具体功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TargetingFilterTask_SortByDistance",
+      "predicate": "使用",
+      "object": "TargetDefaultResultsData",
+      "context": "展示任务如何利用基础数据结构实现排序功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定位系统",
+      "predicate": "依赖",
+      "object": "3个必需数据存储",
+      "context": "系统运行的基本要求，对系统配置有重要意义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TargetingTaskSet",
+      "predicate": "包含",
+      "object": "多个定位任务",
+      "context": "任务集的组织方式体现模块化设计思想",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TargetingSourceContext",
+      "predicate": "存储",
+      "object": "源Actor信息",
+      "context": "上下文数据结构的设计模式值得学习",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义数据存储",
+      "predicate": "需要",
+      "object": "样板代码",
+      "context": "扩展系统时需要掌握的关键开发知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定位任务",
+      "predicate": "具有",
+      "object": "Init/Execute函数",
+      "context": "任务的标准接口定义，实现自定义任务必须了解",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TargetingFilterTask_BasicFilterTemplate",
+      "predicate": "提供",
+      "object": "ShouldFilterTarget虚函数",
+      "context": "模板类提供的扩展点展示良好的框架设计",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:10:55.112Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6316,
+    "contentLength": 3680,
+    "processingTimeMs": 48098
+  }
+}

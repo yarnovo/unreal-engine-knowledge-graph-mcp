@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_virtual-assets-quickstart-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_virtual-assets-quickstart-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚拟资产",
+      "predicate": "依赖",
+      "object": "派生数据缓存(DDC)",
+      "context": "虚拟资产需要共享派生数据缓存(DDC)作为快速缓存存储，这是虚拟化过程的基础设施要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟资产",
+      "predicate": "依赖",
+      "object": "Perforce",
+      "context": "项目必须使用Perforce作为源码控制系统才能启用虚拟资产功能，这是虚拟化的工作流程基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟资产",
+      "predicate": "使用",
+      "object": "虚幻虚拟化工具",
+      "context": "虚幻虚拟化工具是专门用于提交虚拟化变更列表的专用工具，扩展了虚拟资产的管理能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟资产",
+      "predicate": "配置方式",
+      "object": "DefaultEngine.ini",
+      "context": "虚拟资产的核心配置通过修改DefaultEngine.ini文件实现，这是学习虚拟化配置的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟资产",
+      "predicate": "验证方法",
+      "object": "DumpPackagePayloadInfo",
+      "context": "DumpPackagePayloadInfo命令是检查虚拟化有效负载的关键调试工具，帮助理解虚拟化结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟资产",
+      "predicate": "关联",
+      "object": "后端图表",
+      "context": "后端图表定义了虚拟化数据的存储层次结构，是理解虚拟资产存储架构的核心概念",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SourceControlCache",
+      "predicate": "属于",
+      "object": "后端图表",
+      "context": "SourceControlCache是后端图表中定义的持久存储后端，理解其角色有助于掌握虚拟化数据存储机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DDCCache",
+      "predicate": "属于",
+      "object": "后端图表",
+      "context": "DDCCache是后端图表中定义的快速缓存后端，与SourceControlCache形成存储层次结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟资产",
+      "predicate": "生成",
+      "object": "VirtualizedPayloads",
+      "context": "虚拟化过程会将批量数据分离到Saved/VirtualizedPayloads目录，这是虚拟化的直接产物",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器内检入工作流程",
+      "predicate": "前置条件",
+      "object": "虚拟资产",
+      "context": "设置编辑器内检入工作流程是启用虚拟资产的必要前提，这是学习路径中的关键步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟资产快速入门",
+      "predicate": "扩展学习",
+      "object": "虚拟资产概述",
+      "context": "完成快速入门后，虚拟资产概述文档提供更深入的配置指南，是自然的学习路径延伸",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟资产快速入门",
+      "predicate": "扩展学习",
+      "object": "调试虚拟资产",
+      "context": "调试虚拟资产文档是快速入门后的进阶学习内容，帮助解决虚拟化过程中的问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PersistentStorageHierarchy",
+      "predicate": "包含",
+      "object": "SourceControlCache",
+      "context": "PersistentStorageHierarchy配置节将SourceControlCache定义为持久存储后端，这是虚拟化数据存储的最终保障",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CacheStorageHierarchy",
+      "predicate": "包含",
+      "object": "DDCCache",
+      "context": "CacheStorageHierarchy配置节将DDCCache定义为快速缓存后端，影响虚拟化数据的获取优先级",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟资产",
+      "predicate": "验证指标",
+      "object": "文件大小变化",
+      "context": ".uasset文件大小显著减小是验证虚拟化成功的直观指标，帮助初学者确认操作效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:29:10.638Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7197,
+    "contentLength": 4617,
+    "processingTimeMs": 55897
+  }
+}

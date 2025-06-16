@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_tasks-systems-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_tasks-systems-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "任务系统",
+      "predicate": "改进",
+      "object": "TaskGraph",
+      "context": "任务系统是对TaskGraph的改进，两者使用相同的后端调度程序和工作线程，帮助学习者理解任务系统的演进背景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "任务系统",
+      "predicate": "支持",
+      "object": "异步执行",
+      "context": "任务系统核心功能是提供异步执行Gameplay代码的能力，这是学习异步编程的基础概念",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "任务系统",
+      "predicate": "构建",
+      "object": "定向无环图",
+      "context": "任务系统支持构建依赖任务的DAG，这是理解任务调度机制的关键概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FTask",
+      "predicate": "是",
+      "object": "任务句柄",
+      "context": "FTask作为任务的生命周期管理接口，是理解任务资源管理的核心概念",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "任务优先级",
+      "predicate": "影响",
+      "object": "任务执行顺序",
+      "context": "优先级机制是理解任务调度策略的重要知识点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "忙等待",
+      "predicate": "被替代",
+      "object": "超额订阅",
+      "context": "版本演进中关键机制变更，帮助学习者理解性能优化方向",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "先决条件",
+      "predicate": "构建",
+      "object": "任务依赖图",
+      "context": "先决条件机制是构建复杂任务流的基础，对学习任务编排至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "嵌套任务",
+      "predicate": "实现",
+      "object": "完成依赖性",
+      "context": "区别于执行依赖性的另一种任务关系，扩展学习者对任务同步的理解",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "管线",
+      "predicate": "实现",
+      "object": "绿色线程",
+      "context": "管线作为顺序执行的任务链，其概念类比帮助理解轻量级线程模型",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "任务事件",
+      "predicate": "用于",
+      "object": "同步原语",
+      "context": "任务事件作为特殊任务类型，是学习任务间信令机制的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Unreal Insights",
+      "predicate": "提供",
+      "object": "任务可视化",
+      "context": "调试工具与任务系统的关联，帮助学习者掌握性能分析方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TTask<ResultType>",
+      "predicate": "泛化",
+      "object": "FTask",
+      "context": "模板类与具体实现的关系，帮助理解任务返回值的设计模式",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "FPipe",
+      "predicate": "提供",
+      "object": "线程安全访问",
+      "context": "管线模式是实现资源线程安全的重要设计模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AddNested",
+      "predicate": "管理",
+      "object": "任务生命周期",
+      "context": "关键API与核心概念的关联，帮助掌握嵌套任务实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "备用线程",
+      "predicate": "属于",
+      "object": "超额订阅机制",
+      "context": "理解超额订阅具体实现的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T20:58:44.701Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10538 字符)",
+      "timestamp": "2025-06-15T20:58:02.740Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17272,
+    "contentLength": 10538,
+    "processingTimeMs": 41964
+  }
+}

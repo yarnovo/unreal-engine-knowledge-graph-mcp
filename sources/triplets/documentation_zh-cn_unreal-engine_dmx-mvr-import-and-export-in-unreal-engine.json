@@ -1,0 +1,147 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_dmx-mvr-import-and-export-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_dmx-mvr-import-and-export-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "MVR文件",
+      "predicate": "包含",
+      "object": "DMX相关设备",
+      "context": "MVR文件是娱乐行业中用于共享场景数据的格式，包含DMX相关设备和配接信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MVR文件",
+      "predicate": "包含",
+      "object": "GDTF签名文件",
+      "context": "MVR文件中的每个设备都有一个对应的GDTF签名文件，用于描述设备属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX库",
+      "predicate": "生成",
+      "object": "DMX MVR场景Actor",
+      "context": "将DMX库拖入关卡会生成DMX MVR场景Actor，包含所有DMX启用的蓝图Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX MVR场景Actor",
+      "predicate": "包含",
+      "object": "DMX启用的蓝图Actor",
+      "context": "场景Actor自动匹配MVR文件中描述的设备的蓝图Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX MVR设备Actor接口",
+      "predicate": "实现",
+      "object": "蓝图Actor",
+      "context": "任何蓝图Actor类都可以实现此接口以支持MVR文件导入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith MVR插件",
+      "predicate": "支持",
+      "object": "静态和场景几何体导入",
+      "context": "相比手动导入，使用Datasmith插件可以额外导入3D几何体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith场景Actor",
+      "predicate": "包含",
+      "object": "Actor场景几何体",
+      "context": "包含所有实例化的3D几何体、材质和纹理引用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith场景Actor",
+      "predicate": "包含",
+      "object": "DMX MVR场景Actor",
+      "context": "同时包含DMX启用的设备蓝图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MVR导出器",
+      "predicate": "用于",
+      "object": "共享DMX库",
+      "context": "可以将DMX库导出为MVR文件与灯光控制台和第三方软件共享",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GDTF签名文件",
+      "predicate": "匹配",
+      "object": "DMX启用的蓝图",
+      "context": "MVR导入时，每个设备会根据GDTF签名自动匹配最合适的蓝图",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX组件",
+      "predicate": "必需",
+      "object": "MVR设备Actor接口",
+      "context": "实现该接口的Actor必须包含且仅包含一个DMX组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Vectorworks Datasmith",
+      "predicate": "生成",
+      "object": "MVR和Datasmith文件",
+      "context": "可以从Vectorworks导出这两种文件用于Unreal Engine导入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX库",
+      "predicate": "包含",
+      "object": "设备类型",
+      "context": "存储了所有导入的设备类型定义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX库",
+      "predicate": "包含",
+      "object": "属性定义",
+      "context": "存储了DMX属性定义信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX库",
+      "predicate": "包含",
+      "object": "配接数据",
+      "context": "包含从Vectorworks导入的DMX配接信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MVR导出",
+      "predicate": "依赖",
+      "object": "GDTF签名文件",
+      "context": "只能导出包含未编辑GDTF签名文件的DMX库",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:53:09.029Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11030 字符)",
+      "timestamp": "2025-06-15T18:52:15.364Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 11138,
+    "contentLength": 11030,
+    "processingTimeMs": 53673
+  }
+}

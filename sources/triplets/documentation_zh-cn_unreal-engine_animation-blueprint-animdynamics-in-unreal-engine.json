@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-blueprint-animdynamics-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-blueprint-animdynamics-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "AnimDynamics节点",
+      "predicate": "属于",
+      "object": "动画蓝图",
+      "context": "AnimDynamics是动画蓝图中的一种特殊节点，用于实现物理模拟效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AnimDynamics节点",
+      "predicate": "替代",
+      "object": "RigidBody节点",
+      "context": "相比使用物理资产的RigidBody节点，AnimDynamics提供更轻量级的物理模拟方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AnimDynamics节点",
+      "predicate": "用于",
+      "object": "骨架网格体附属动画",
+      "context": "主要用于对角色的附属物品（如项链、天线等）添加物理模拟效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AnimDynamics节点",
+      "predicate": "支持",
+      "object": "约束系统",
+      "context": "提供线性、角和平面三种约束类型来控制物理模拟行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AnimDynamics节点",
+      "predicate": "包含",
+      "object": "单体模拟",
+      "context": "可以对单个刚体进行物理模拟，如控制鼓的摆动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AnimDynamics节点",
+      "predicate": "包含",
+      "object": "链条模拟",
+      "context": "可以模拟链条状物体的物理行为，需要更多计算资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AnimDynamics节点",
+      "predicate": "支持",
+      "object": "外部力量",
+      "context": "可以通过外部力向量对模拟对象施加额外影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AnimDynamics节点",
+      "predicate": "实现",
+      "object": "碰撞模拟",
+      "context": "通过平面和球体限制实现简单的碰撞预防功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "边界骨骼",
+      "predicate": "控制",
+      "object": "物理模拟范围",
+      "context": "作为物理模拟的参考点，定义模拟作用的骨骼范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "盒体约束",
+      "predicate": "限制",
+      "object": "物理运动范围",
+      "context": "通过定义盒体尺寸来约束物理模拟的运动范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "局部关节偏移",
+      "predicate": "定义",
+      "object": "约束参考点",
+      "context": "设置从边界骨骼出发的偏移量，确定约束的具体位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "链条模拟",
+      "predicate": "依赖",
+      "object": "解算器迭代",
+      "context": "需要更多解算器迭代次数来保证链条模拟的稳定性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "平面限制",
+      "predicate": "防止",
+      "object": "网格体穿透",
+      "context": "创建不可穿越的平面边界，防止模拟结构与角色其他部分重叠",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "球体限制",
+      "predicate": "提供",
+      "object": "碰撞边界",
+      "context": "通过内部或外部球体限制来控制物体的碰撞行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模拟空间",
+      "predicate": "决定",
+      "object": "物理计算基准",
+      "context": "设置模拟原点的参考坐标系，影响物理计算的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重力缩放",
+      "predicate": "影响",
+      "object": "物理模拟效果",
+      "context": "调整重力大小可以改变物理模拟的视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "弹性约束",
+      "predicate": "控制",
+      "object": "物理反弹",
+      "context": "通过弹性常量设置模拟对象的反弹强度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AnimDynamics节点",
+      "predicate": "关联",
+      "object": "骨架系统",
+      "context": "需要与角色的骨架系统配合工作，基于骨骼进行物理模拟",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AnimDynamics节点",
+      "predicate": "关联",
+      "object": "物理资产",
+      "context": "作为物理模拟的替代方案，与传统的物理资产系统有功能重叠",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "调试属性",
+      "predicate": "辅助",
+      "object": "参数调整",
+      "context": "通过可视化调试功能帮助开发者调整物理模拟参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:59:13.036Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15591 字符)",
+      "timestamp": "2025-06-15T17:58:01.430Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 25905,
+    "contentLength": 15591,
+    "processingTimeMs": 71615
+  }
+}

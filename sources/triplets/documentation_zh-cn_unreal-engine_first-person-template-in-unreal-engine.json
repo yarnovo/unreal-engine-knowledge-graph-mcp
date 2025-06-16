@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_first-person-template-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_first-person-template-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "提供",
+      "object": "第一人称模板",
+      "context": "虚幻引擎在创建新项目时提供多种模板，第一人称模板是其中之一，帮助开发者快速开始第一人称游戏开发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第一人称模板",
+      "predicate": "包含",
+      "object": "玩家角色蓝图",
+      "context": "第一人称模板内置了玩家角色蓝图，这是构建第一人称游戏体验的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第一人称模板",
+      "predicate": "包含",
+      "object": "步枪蓝图",
+      "context": "模板包含步枪蓝图，这是第一人称射击游戏的关键交互元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第一人称模板",
+      "predicate": "包含",
+      "object": "步枪子弹蓝图",
+      "context": "子弹蓝图与步枪蓝图配合使用，实现射击功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第一人称模板",
+      "predicate": "包含",
+      "object": "游戏模式蓝图",
+      "context": "游戏模式蓝图定义了游戏的基本规则和流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第一人称角色",
+      "predicate": "使用",
+      "object": "骨骼网格体",
+      "context": "第一人称角色的视觉表现依赖于骨骼网格体资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "步枪",
+      "predicate": "生成",
+      "object": "子弹",
+      "context": "步枪蓝图包含生成子弹的逻辑，这是射击功能的核心实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子弹",
+      "predicate": "施加",
+      "object": "物理冲击",
+      "context": "子弹可以对关卡中启用物理的Actor施加物理冲击，这是射击交互的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第一人称模板",
+      "predicate": "包含",
+      "object": "基本关卡几何体",
+      "context": "模板提供基本的关卡几何体，如斜坡和平台，用于快速搭建测试环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目浏览器",
+      "predicate": "用于",
+      "object": "创建第一人称项目",
+      "context": "开发者通过项目浏览器选择第一人称模板来创建新项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "初学者内容包",
+      "predicate": "扩展",
+      "object": "第一人称模板",
+      "context": "选择初学者内容包可以为第一人称项目提供更多预制资产，加速开发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "用于",
+      "object": "查找模板资产",
+      "context": "开发者通过内容浏览器可以找到模板提供的所有资产，如蓝图和网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第一人称模板",
+      "predicate": "适用于",
+      "object": "第一人称射击游戏开发",
+      "context": "该模板专门为第一人称射击游戏设计，包含相关核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件图表",
+      "predicate": "包含",
+      "object": "开发者注释",
+      "context": "蓝图的事件图表中包含注释和标注，帮助开发者理解功能实现逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第一人称模板",
+      "predicate": "基于",
+      "object": "虚幻引擎5",
+      "context": "该模板是虚幻引擎5提供的标准模板之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第一人称游戏",
+      "predicate": "区别于",
+      "object": "第三人称游戏",
+      "context": "第一人称和第三人称是两种不同的视角模式，模板设计也有所不同",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡设计师快速入门",
+      "predicate": "扩展",
+      "object": "第一人称模板应用",
+      "context": "该教程可以帮助开发者基于第一人称模板进一步充实关卡设计",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FBX骨骼网格体管道",
+      "predicate": "用于",
+      "object": "替换武器模型",
+      "context": "开发者可以参考该文档为第一人称模板导入和配置不同的武器模型",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Quixel Bridge",
+      "predicate": "提供",
+      "object": "关卡资产",
+      "context": "开发者可以使用Quixel Bridge中的免费资产来丰富第一人称模板的关卡",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "后期处理效果",
+      "predicate": "增强",
+      "object": "第一人称游戏视觉效果",
+      "context": "开发者可以为第一人称模板添加后期处理效果来提升视觉体验",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:06:25.003Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8644,
+    "contentLength": 5548,
+    "processingTimeMs": 63383
+  }
+}

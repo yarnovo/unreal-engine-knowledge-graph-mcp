@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_volumetric-cloud-material-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_volumetric-cloud-material-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "体积云材质",
+      "predicate": "驱动",
+      "object": "体积云组件",
+      "context": "体积云组件的外观和行为由体积云材质定义，理解这一关系有助于学习如何通过材质控制云效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "m_SimpleVolumetricCloud_Inst",
+      "predicate": "派生自",
+      "object": "m_SimpleVolumetricClouds",
+      "context": "了解材质实例的继承关系有助于学习如何创建自定义云材质变体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积云材质实例",
+      "predicate": "包含",
+      "object": "云布局参数",
+      "context": "云布局参数是控制云外观的基础，学习这些参数是掌握云材质的第一步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "云布局参数",
+      "predicate": "分为",
+      "object": "纹理参数和云类型参数",
+      "context": "理解参数分类有助于系统性地学习云材质控制方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "云类型",
+      "predicate": "对应",
+      "object": "颜色通道",
+      "context": "了解云类型与颜色通道的对应关系是理解云材质工作原理的关键",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Layout_CloudHeightProfile",
+      "predicate": "描述",
+      "object": "云层形状",
+      "context": "该纹理参数控制云的高度分布，是塑造云立体形态的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Layout_CloudGlobalPattern",
+      "predicate": "定义",
+      "object": "云的世界位置",
+      "context": "学习该参数有助于控制云在场景中的分布",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "云形状参数",
+      "predicate": "使用",
+      "object": "噪点体积纹理",
+      "context": "噪点纹理是塑造云细节的关键技术，理解这一关系对创建逼真云效果很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Noise_Texture3D",
+      "predicate": "分解",
+      "object": "云朵形状",
+      "context": "该纹理参数是控制云细节形态的核心参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "风暴参数",
+      "predicate": "依赖",
+      "object": "雨层云类型",
+      "context": "只有使用雨层云类型时才能启用风暴效果，这一关系对创建恶劣天气场景很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "多重散射参数",
+      "predicate": "控制",
+      "object": "光源散射",
+      "context": "理解这些参数有助于模拟真实世界中光在云中的散射效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Phase_Controls",
+      "predicate": "决定",
+      "object": "光线散射方向",
+      "context": "这些参数影响云的光照表现，是创建逼真云效果的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体积云材质5.5",
+      "predicate": "替换",
+      "object": "体积云材质5.4",
+      "context": "了解版本更新带来的材质变化对项目升级很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Engine Content文件夹",
+      "predicate": "包含",
+      "object": "体积云材质资源",
+      "context": "知道资源位置是查找和使用这些材质的前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "云类型",
+      "predicate": "包括",
+      "object": "层积云、高层云、卷层云、雨层云",
+      "context": "了解不同类型的云及其特性有助于创建多样化的天空效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Layout_WindControls",
+      "predicate": "控制",
+      "object": "风力强度",
+      "context": "该参数影响云的动态效果，对创建逼真的天气动画很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Cloud_AlbedoColor",
+      "predicate": "决定",
+      "object": "云的颜色",
+      "context": "理解该参数对控制云的基础外观很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Storm_LightningControls",
+      "predicate": "控制",
+      "object": "闪电效果",
+      "context": "这些参数专门用于创建风暴中的闪电效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质实例",
+      "predicate": "优于",
+      "object": "直接修改原始材质",
+      "context": "使用材质实例可以保留原始材质同时创建变体，这是推荐的工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:30:35.064Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10324 字符)",
+      "timestamp": "2025-06-15T21:29:42.589Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16656,
+    "contentLength": 10324,
+    "processingTimeMs": 52484
+  }
+}

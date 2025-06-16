@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_units-of-measurement-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_units-of-measurement-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "采用",
+      "object": "国际制(SI)测量单位",
+      "context": "虚幻引擎默认采用国际制单位作为基础测量标准，这是理解引擎物理系统的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "距离/长度",
+      "predicate": "使用",
+      "object": "厘米(cm)",
+      "context": "距离测量是3D空间的基础，厘米是虚幻引擎中空间计算的基本单位",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "包含",
+      "object": "单位设置",
+      "context": "单位设置是项目配置的重要组成部分，影响整个项目的物理计算和显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器",
+      "predicate": "提供",
+      "object": "单位修改功能",
+      "context": "了解如何在编辑器中修改单位对项目国际化或特殊需求很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SI单位",
+      "predicate": "包含",
+      "object": "英制单位",
+      "context": "虚幻引擎同时支持SI和英制单位，理解两者关系有助于单位转换",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "速度",
+      "predicate": "基于",
+      "object": "距离和时间",
+      "context": "速度单位(m/s)由基本单位米和秒组成，理解这种复合关系对物理计算很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "力",
+      "predicate": "关联",
+      "object": "质量",
+      "context": "力的计算(牛顿)依赖于质量单位(kg)，理解这种物理关系对物理引擎使用很关键",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "扭矩",
+      "predicate": "衍生自",
+      "object": "力和距离",
+      "context": "扭矩(N·m)是力和距离的乘积，这种关系对物理模拟特别是旋转效果很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素密度",
+      "predicate": "影响",
+      "object": "UI显示",
+      "context": "PPI(像素/英寸)设置直接影响用户界面在不同设备上的显示效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "时间单位",
+      "predicate": "用于",
+      "object": "动画和物理模拟",
+      "context": "从纳秒到年的各种时间单位选择对精确控制动画和物理模拟很关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角度单位",
+      "predicate": "包含",
+      "object": "度和弧度",
+      "context": "同时支持度和弧度两种角度单位，理解它们的转换对3D旋转计算很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数字信息单位",
+      "predicate": "用于",
+      "object": "资源管理",
+      "context": "从字节到TB的单位系统是管理游戏资源大小和内存使用的基础",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "光照单位",
+      "predicate": "组成",
+      "object": "光通量/发光强度/照度/亮度",
+      "context": "完整的光照系统由这四种相关但不同的单位组成，理解它们的区别对光照设计很关键",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复合单位",
+      "predicate": "构建于",
+      "object": "基本单位",
+      "context": "理解复合单位(如N·m)如何由基本单位(kg, m, s)组成对物理计算很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单位系统",
+      "predicate": "影响",
+      "object": "物理准确性",
+      "context": "选择合适的单位系统直接影响物理模拟的真实性和数值稳定性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:06:43.029Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8015,
+    "contentLength": 6051,
+    "processingTimeMs": 44463
+  }
+}

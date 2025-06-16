@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_visualizing-play-area-bounds-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_visualizing-play-area-bounds-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "游戏区域边界",
+      "predicate": "称为",
+      "object": "舞台",
+      "context": "文档中明确指出游戏区域边界有时被称为舞台，这有助于学习者理解术语的多样性",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏区域边界",
+      "predicate": "通过",
+      "object": "OpenXR API",
+      "context": "文档说明可以使用OpenXR API访问游戏区域边界，这是关键技术依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Play Area Bounds函数",
+      "predicate": "返回",
+      "object": "游戏区域边界",
+      "context": "该函数是获取游戏区域边界数据的主要方法，对理解边界可视化实现至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Play Area Bounds函数",
+      "predicate": "支持",
+      "object": "参考空间类型",
+      "context": "函数支持三种参考空间类型，这是理解不同空间坐标系的基础知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "参考空间类型",
+      "predicate": "包括",
+      "object": "齐眼高度",
+      "context": "列举参考空间的具体类型，帮助学习者了解可用的坐标系选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "参考空间类型",
+      "predicate": "包括",
+      "object": "地面高度",
+      "context": "列举参考空间的具体类型，帮助学习者了解可用的坐标系选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "参考空间类型",
+      "predicate": "包括",
+      "object": "舞台",
+      "context": "列举参考空间的具体类型，帮助学习者了解可用的坐标系选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR模板",
+      "predicate": "实现",
+      "object": "传送可视化",
+      "context": "VR模板提供了传送可视化的具体实现，是学习边界可视化的实用案例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "传送可视化",
+      "predicate": "使用",
+      "object": "Niagara系统",
+      "context": "文档说明传送可视化使用Niagara系统实现边界绘制，这是重要的技术实现细节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VRTeleportVisualizer蓝图",
+      "predicate": "位于",
+      "object": "Content/VRTemplate/Blueprints",
+      "context": "提供具体蓝图位置信息，方便学习者查找和参考实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VRTeleportVisualizer蓝图",
+      "predicate": "调用",
+      "object": "Get Play Area Bounds函数",
+      "context": "展示蓝图如何实际使用边界获取函数，是重要的调用关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara系统",
+      "predicate": "使用",
+      "object": "NS_PlayAreaBounds变量",
+      "context": "说明Niagara系统如何通过特定变量实现动态边界绘制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Oculus设备",
+      "predicate": "显示",
+      "object": "守卫边界",
+      "context": "特定设备的功能说明，帮助理解不同平台的实现差异",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "传送可视化",
+      "predicate": "基于",
+      "object": "游戏区域边界数据",
+      "context": "说明传送可视化功能如何依赖边界数据实现，展示功能间的依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "OpenXR运行时",
+      "predicate": "可能不支持",
+      "object": "游戏区域边界功能",
+      "context": "重要的兼容性说明，帮助学习者理解功能可用性条件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:30:24.089Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4528,
+    "contentLength": 3276,
+    "processingTimeMs": 41510
+  }
+}

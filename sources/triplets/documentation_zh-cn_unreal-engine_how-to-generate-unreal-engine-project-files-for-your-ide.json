@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-generate-unreal-engine-project-files-for-your-ide",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-generate-unreal-engine-project-files-for-your-ide.md",
+  "triples": [
+    {
+      "subject": "GenerateProjectFiles.bat",
+      "predicate": "生成",
+      "object": "项目文件",
+      "context": "GenerateProjectFiles.bat脚本用于生成IDE所需的项目文件，是学习虚幻引擎开发的第一步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GenerateProjectFiles.bat",
+      "predicate": "调用",
+      "object": "虚幻编译工具",
+      "context": "GenerateProjectFiles.bat通过调用虚幻编译工具来生成项目文件，理解这一调用关系有助于掌握虚幻引擎的编译系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编译工具",
+      "predicate": "使用",
+      "object": "模块和目标编译文件",
+      "context": "虚幻编译工具依赖模块和目标编译文件来寻找源文件，这是理解虚幻引擎编译过程的关键概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目文件",
+      "predicate": "包含",
+      "object": "IntelliSense数据",
+      "context": "项目文件包含IntelliSense数据，这对代码自动完成和错误提示非常重要，是开发效率的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目文件",
+      "predicate": "镜像",
+      "object": "源文件目录结构",
+      "context": "项目文件自动镜像源文件的目录结构，这有助于开发者更直观地浏览和管理源代码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编译工具",
+      "predicate": "支持",
+      "object": "多平台开发",
+      "context": "虚幻编译工具支持多平台开发，这是虚幻引擎跨平台能力的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GenerateProjectFiles.bat",
+      "predicate": "支持",
+      "object": "命令行参数",
+      "context": "GenerateProjectFiles.bat支持多种命令行参数，这些参数可以定制生成的项目文件，满足不同开发需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目文件",
+      "predicate": "视为",
+      "object": "中间物",
+      "context": "项目文件被视为纯中间物，不会被签入源代码管理，这减少了源码管理冲突的可能性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealVS扩展",
+      "predicate": "提供",
+      "object": "项目文件重新生成功能",
+      "context": "UnrealVS扩展提供了重新生成项目文件的功能，这可以绑定到快捷键，提高开发效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目文件",
+      "predicate": "包含",
+      "object": "着色器源代码",
+      "context": "项目文件自动包含着色器源代码等非C++文件，便于开发者在IDE中搜索和访问这些资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编译工具",
+      "predicate": "不需要",
+      "object": "项目文件",
+      "context": "虚幻编译工具实际上不需要项目文件来编译代码，这是理解虚幻引擎编译系统的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GenerateProjectFiles.bat",
+      "predicate": "生成",
+      "object": "UE5.sln",
+      "context": "GenerateProjectFiles.bat会生成UE5.sln解决方案文件，这是Visual Studio开发虚幻引擎项目的主要入口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目文件",
+      "predicate": "保存于",
+      "object": "Intermediate/ProjectFiles",
+      "context": "生成的项目文件保存在Intermediate/ProjectFiles目录中，了解这一位置有助于项目管理和调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "批编译功能",
+      "predicate": "用于",
+      "object": "编译多个配置",
+      "context": "VS中的批编译功能可以同时编译多个配置，这对需要测试不同编译配置的开发者很有帮助",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目生成器",
+      "predicate": "基于",
+      "object": "虚幻编译工具",
+      "context": "项目生成器是基于虚幻编译工具的特殊模式运行的，理解这一关系有助于掌握项目文件生成机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:26:42.649Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10999,
+    "contentLength": 5999,
+    "processingTimeMs": 53037
+  }
+}

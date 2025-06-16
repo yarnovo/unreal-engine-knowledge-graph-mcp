@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_proxy-geometry-tool-reference-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_proxy-geometry-tool-reference-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "代理几何体工具",
+      "predicate": "包含",
+      "object": "屏幕大小设置",
+      "context": "屏幕大小是代理几何体工具的核心参数之一，用于控制生成的代理网格体的显示精度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "包含",
+      "object": "合并距离设置",
+      "context": "合并距离是代理几何体工具的重要参数，用于控制网格体合并时的距离阈值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "包含",
+      "object": "材质设置",
+      "context": "材质设置是代理几何体工具的功能模块，用于控制材质简化过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "支持",
+      "object": "光照图UV生成",
+      "context": "代理几何体工具可以生成光照图UV，这对光照烘焙流程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "支持",
+      "object": "距离场计算",
+      "context": "代理几何体工具可以控制是否计算网格体的距离场，影响渲染效果和内存使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "支持",
+      "object": "顶点颜色保存",
+      "context": "代理几何体工具可以保留源网格体的顶点颜色信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "控制",
+      "object": "法线计算方法",
+      "context": "代理几何体工具提供了多种法线计算方法的选择，影响简化几何体的外观",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "控制",
+      "object": "硬边角度",
+      "context": "硬边角度设置影响简化几何体的边缘平滑度，是重要的视觉控制参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "支持",
+      "object": "体积剔除",
+      "context": "代理几何体工具支持使用剔除体积来排除不需要的几何体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "支持",
+      "object": "邻接缓冲区",
+      "context": "代理几何体工具可以控制是否在合并网格体中使用邻接缓冲区进行曲面细分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "支持",
+      "object": "并行材质处理",
+      "context": "通过r.ProxyLODMaterialInParallel命令可以控制是否并行处理材质工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "支持",
+      "object": "单线程简化",
+      "context": "通过r.ProxyLODSingleThreadSimplify命令可以切换到单线程简化模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "支持",
+      "object": "网格体重建",
+      "context": "通过r.ProxyLODRemeshOnly命令可以仅重建网格体而不进行简化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "支持",
+      "object": "切线空间生成",
+      "context": "通过r.ProxyLODUseTangentSpace命令可以控制切线空间的生成方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "支持",
+      "object": "间隙填充",
+      "context": "通过r.ProxyLODMaxDilationSteps命令可以控制间隙填充的质量和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "支持",
+      "object": "墙壁修复",
+      "context": "通过r.ProxyLODCorrectCollapsedWalls命令可以尝试修复互穿的墙壁",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "支持",
+      "object": "UV图表可视化",
+      "context": "通过r.ProxyLODChartColorVerts命令可以按UV图表着色顶点，用于调试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "支持",
+      "object": "简化模块选择",
+      "context": "通过r.ProxyLODMeshReductionModule命令可以选择特定的简化模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "支持",
+      "object": "纹理传输",
+      "context": "通过r.ProxyLODTransfer命令可以控制纹理传输的方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "支持",
+      "object": "LOD模型计算",
+      "context": "计算正确的LOD模型选项可以优化代理网格体的生成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:30:54.901Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5193,
+    "contentLength": 3011,
+    "processingTimeMs": 62683
+  }
+}

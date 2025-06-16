@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-google-play-achievements-in-unreal-engine-projects",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-google-play-achievements-in-unreal-engine-projects.md",
+  "triples": [
+    {
+      "subject": "Google Play 成就",
+      "predicate": "配置于",
+      "object": "Project Settings",
+      "context": "学习如何为虚幻引擎项目配置Google Play成就功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Project Settings",
+      "predicate": "包含",
+      "object": "Platforms:Android",
+      "context": "了解项目设置中与Android平台相关的配置选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Platforms:Android",
+      "predicate": "包含",
+      "object": "Google Play Services",
+      "context": "学习如何在Android平台配置Google Play服务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Google Play Services",
+      "predicate": "需要",
+      "object": "Games App ID",
+      "context": "了解配置Google Play服务所需的游戏App ID",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Google Play Services",
+      "predicate": "需要",
+      "object": "Google Play License Key",
+      "context": "了解配置Google Play服务所需的授权码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Google Play Services",
+      "predicate": "包含",
+      "object": "Achievement Map",
+      "context": "学习如何映射Google Play成就到虚幻项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Achievement Map",
+      "predicate": "映射",
+      "object": "Achievement ID",
+      "context": "了解如何在虚幻项目中映射Google Play成就ID",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Cache Achievements",
+      "predicate": "获取",
+      "object": "成就列表",
+      "context": "学习如何缓存成就列表以便后续使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Cached Achievement Progress",
+      "predicate": "依赖",
+      "object": "Cache Achievements",
+      "context": "了解获取缓存成就进度前需要先缓存成就",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Write Achievement Progress",
+      "predicate": "更新",
+      "object": "成就进度",
+      "context": "学习如何向平台成就系统写入进度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Show Platform Specific Achievement Screen",
+      "predicate": "显示",
+      "object": "成就画面",
+      "context": "学习如何显示当前平台的成就画面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Google Play 成就",
+      "predicate": "适用于",
+      "object": "Android平台",
+      "context": "了解Google Play成就功能主要适用于Android平台",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Achievement Map",
+      "predicate": "支持",
+      "object": "跨平台发布",
+      "context": "了解成就映射支持在Android和iOS平台上发布",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Write Achievement Progress",
+      "predicate": "处理",
+      "object": "一次性解锁成就",
+      "context": "学习如何处理一次性解锁的成就",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Write Achievement Progress",
+      "predicate": "处理",
+      "object": "递增成就",
+      "context": "学习如何处理递增的成就",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Global Game Instance",
+      "predicate": "使用",
+      "object": "Cache Achievements",
+      "context": "了解全局游戏实例如何使用缓存成就功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Global Game Instance",
+      "predicate": "使用",
+      "object": "Get Cached Achievement Progress",
+      "context": "了解全局游戏实例如何获取缓存成就进度",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Global Game Instance",
+      "predicate": "使用",
+      "object": "Write Achievement Progress",
+      "context": "了解全局游戏实例如何写入成就进度",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "GameOverButtons",
+      "predicate": "使用",
+      "object": "Show Platform Specific Achievement Screen",
+      "context": "了解游戏结束按钮如何显示成就画面",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:17:55.947Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8073,
+    "contentLength": 5935,
+    "processingTimeMs": 50518
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_horde-installation-tutorial-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_horde-installation-tutorial-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Horde服务器",
+      "predicate": "安装方式",
+      "object": "Windows安装",
+      "context": "文档详细说明了在Windows系统上通过运行特定MSI文件安装Horde服务器的方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde服务器",
+      "predicate": "安装方式",
+      "object": "Linux Docker部署",
+      "context": "文档提到Horde服务器也可以通过Docker在Linux上部署，这是另一种安装方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde服务器",
+      "predicate": "使用端口",
+      "object": "13340(HTTP)",
+      "context": "文档明确指出Horde服务器默认使用13340端口进行HTTP通信",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde服务器",
+      "predicate": "使用端口",
+      "object": "13342(HTTP/2)",
+      "context": "文档明确指出Horde服务器默认使用13342端口进行HTTP/2通信",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde服务器",
+      "predicate": "建议配置",
+      "object": "HTTPS",
+      "context": "文档建议为生产环境部署配置HTTPS以提高安全性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde代理",
+      "predicate": "依赖",
+      "object": "Horde服务器",
+      "context": "Horde代理需要连接到Horde服务器才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde代理",
+      "predicate": "安装方式",
+      "object": "Windows安装程序",
+      "context": "文档描述了通过下载Windows安装程序来安装Horde代理的步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde代理",
+      "predicate": "需要",
+      "object": "服务器地址",
+      "context": "安装Horde代理时需要输入Horde服务器的地址",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde代理",
+      "predicate": "需要",
+      "object": "工作目录",
+      "context": "安装Horde代理时需要指定一个空的工作目录用于远程执行沙盒",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde代理",
+      "predicate": "建议配置",
+      "object": "100GB可用空间",
+      "context": "文档建议为C++编译准备至少100GB可用空间的驱动器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde代理",
+      "predicate": "注册方式",
+      "object": "服务器注册",
+      "context": "安装完成后需要通过服务器注册流程验证代理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde系统",
+      "predicate": "包含",
+      "object": "Horde服务器",
+      "context": "Horde系统由服务器组件和代理组件组成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde系统",
+      "predicate": "包含",
+      "object": "Horde代理",
+      "context": "Horde系统由服务器组件和代理组件组成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde部署",
+      "predicate": "支持",
+      "object": "Kubernetes扩展",
+      "context": "文档提到Horde可以通过Kubernetes等容器编排系统进行水平扩展",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde部署",
+      "predicate": "支持",
+      "object": "Docker部署",
+      "context": "文档提到Horde可以通过Docker在Linux上部署",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:20:58.221Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4042,
+    "contentLength": 2910,
+    "processingTimeMs": 63507
+  }
+}

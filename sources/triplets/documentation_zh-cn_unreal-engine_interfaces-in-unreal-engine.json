@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_interfaces-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_interfaces-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻接口",
+      "predicate": "继承自",
+      "object": "UInterface",
+      "context": "虚幻接口类使用UINTERFACE宏声明，并继承自UInterface而不是UObject，这是接口类的基础结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻接口",
+      "predicate": "用于",
+      "object": "共享功能",
+      "context": "接口确保实现它的类具有一组共用的函数，适用于功能可能被大量复杂且差异显著的类共享的情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻接口",
+      "predicate": "依赖",
+      "object": "虚幻引擎反射系统",
+      "context": "接口类使用UINTERFACE宏和说明符（如Blueprintable）向反射系统公开，反射系统是接口功能实现的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C++接口声明",
+      "predicate": "包含",
+      "object": "UINTERFACE宏",
+      "context": "在C++中声明接口时使用UINTERFACE宏而不是UCLASS宏，这是接口声明的关键部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C++接口声明",
+      "predicate": "包含",
+      "object": "I前缀类",
+      "context": "实际的接口声明使用I前缀的类，包含所有接口函数，会被要实现接口的类继承",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "接口说明符",
+      "predicate": "控制",
+      "object": "接口行为",
+      "context": "接口说明符（如Blueprintable、MinimalAPI）决定了接口如何被反射系统处理以及在蓝图中的可用性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blueprintable",
+      "predicate": "允许",
+      "object": "蓝图实现接口",
+      "context": "Blueprintable说明符使接口可以在蓝图中实现，扩展了接口的使用范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MinimalAPI",
+      "predicate": "限制",
+      "object": "函数导出",
+      "context": "MinimalAPI说明符仅导出类的类型信息，不导出所有函数，优化编译时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C++中实现接口",
+      "predicate": "需要",
+      "object": "包含接口头文件",
+      "context": "在C++中实现接口需要包含接口的头文件并集成带I前缀的接口类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ATrap",
+      "predicate": "实现",
+      "object": "IReactToTriggerInterface",
+      "context": "ATrap类通过继承IReactToTriggerInterface并实现其函数来展示接口的实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "接口函数",
+      "predicate": "分为",
+      "object": "基函数、实现封装器、执行封装器",
+      "context": "接口函数分为三种类型，分别用于定义、C++实现和反射系统调用，帮助理解接口函数的多层次结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BlueprintImplementableEvent",
+      "predicate": "允许",
+      "object": "蓝图重载",
+      "context": "BlueprintImplementableEvent说明的函数只能在蓝图中重载，不能在C++中重载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BlueprintNativeEvent",
+      "predicate": "允许",
+      "object": "C++和蓝图重载",
+      "context": "BlueprintNativeEvent说明的函数可以在C++或蓝图中实现，提供了更大的灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Execute_函数",
+      "predicate": "用于",
+      "object": "安全调用蓝图事件",
+      "context": "在C++中调用Blueprintable接口的蓝图事件时，必须使用Execute_函数封装器以确保安全调用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ImplementsInterface",
+      "predicate": "用于",
+      "object": "检查接口实现",
+      "context": "ImplementsInterface函数用于确定一个类是否实现了特定接口，兼容C++和蓝图类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TScriptInterface",
+      "predicate": "用于",
+      "object": "安全存储接口指针",
+      "context": "TScriptInterface可以安全地存储对实现了特定接口的对象的引用，并获取原始对象或接口指针",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图可实现接口",
+      "predicate": "要求",
+      "object": "Blueprintable说明符",
+      "context": "蓝图要实现接口必须使用Blueprintable说明符，且接口函数必须是BlueprintNativeEvent或BlueprintImplementableEvent",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻接口",
+      "predicate": "适用于",
+      "object": "多态场景",
+      "context": "接口适用于需要多态行为的场景，如不同类型的对象（陷阱、敌人、奖励）共享相同功能但实现不同",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "接口函数",
+      "predicate": "支持",
+      "object": "多种实现方式",
+      "context": "接口函数支持仅限C++、蓝图可调用等多种实现方式，满足不同开发需求",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:37:26.547Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (14174 字符)",
+      "timestamp": "2025-06-15T19:36:09.220Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19724,
+    "contentLength": 14174,
+    "processingTimeMs": 77335
+  }
+}

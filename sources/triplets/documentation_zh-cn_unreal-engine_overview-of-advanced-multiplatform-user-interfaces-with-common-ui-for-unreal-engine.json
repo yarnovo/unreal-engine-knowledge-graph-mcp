@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_overview-of-advanced-multiplatform-user-interfaces-with-common-ui-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_overview-of-advanced-multiplatform-user-interfaces-with-common-ui-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Common UI",
+      "predicate": "用于",
+      "object": "制作多平台用户界面",
+      "context": "Common UI专门设计用于创建跨PC和主机的复杂UI系统，帮助开发者解决多平台UI开发中的共性问题",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Common UI",
+      "predicate": "基于",
+      "object": "Slate系统",
+      "context": "Common UI的节点层次结构与Slate系统的UI层次结构相匹配，这是理解其工作原理的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入路由",
+      "predicate": "实现",
+      "object": "选择性互动性",
+      "context": "输入路由机制确保只有特定UI控件能接收输入，这是实现多层菜单选择性交互的核心技术",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "节点",
+      "predicate": "组成",
+      "object": "输入路由系统",
+      "context": "节点是输入路由的基本组成单元，将UI控件转化为可管理的输入处理单元",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可激活控件",
+      "predicate": "属于",
+      "object": "节点",
+      "context": "可激活控件是特殊类型的节点，能够处理输入信号并管理激活状态，是交互逻辑的关键组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Common UI",
+      "predicate": "包含",
+      "object": "平台特定UI管理",
+      "context": "该功能允许自动适配不同主机的控制方式和UI元素，是多平台支持的关键特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可激活控件",
+      "predicate": "支持",
+      "object": "输入信号转发",
+      "context": "此特性使得控件可以构建复杂的输入处理链，对实现嵌套菜单交互至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Common UI",
+      "predicate": "继承自",
+      "object": "堡垒之夜UI系统",
+      "context": "了解这个渊源可以帮助开发者理解插件的设计哲学和实战验证背景",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "输入路由",
+      "predicate": "依赖",
+      "object": "CommonGameViewportClient",
+      "context": "该头文件包含输入路由的核心实现，是深入理解该机制的技术入口",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "节点树",
+      "predicate": "对应",
+      "object": "UI视觉层次",
+      "context": "这种对应关系是理解输入如何按照视觉层次传递的基础",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lyra示例项目",
+      "predicate": "展示",
+      "object": "Common UI高级用法",
+      "context": "作为官方示例项目，Lyra提供了生产环境中的最佳实践参考",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "可激活控件",
+      "predicate": "实现",
+      "object": "返回位置记忆",
+      "context": "通过保持下层控件激活状态，自然解决了返回时焦点恢复的难题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Common UI",
+      "predicate": "替代",
+      "object": "基础UMG功能",
+      "context": "当需要复杂多平台UI时，Common UI提供了更专业的解决方案",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:14:10.763Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8724,
+    "contentLength": 5754,
+    "processingTimeMs": 43736
+  }
+}

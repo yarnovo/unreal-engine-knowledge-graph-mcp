@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-datasmith-at-runtime-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-datasmith-at-runtime-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Datasmith运行时",
+      "predicate": "包含",
+      "object": "Datasmith功能",
+      "context": "Datasmith运行时是一组在运行时可用的Datasmith功能，帮助学习者在应用程序中动态使用Datasmith功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith运行时",
+      "predicate": "支持",
+      "object": "蓝图操作",
+      "context": "Datasmith运行时允许通过蓝图节点操作Datasmith功能，帮助学习者理解如何通过可视化编程控制Datasmith",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith运行时",
+      "predicate": "依赖",
+      "object": "Datasmith插件",
+      "context": "使用Datasmith运行时需要启用Datasmith Content、Datasmith Importer和Datasmith Runtime插件，这对学习者理解功能依赖关系很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith运行时",
+      "predicate": "实现",
+      "object": "Datasmith Direct Link",
+      "context": "Datasmith运行时可用于创建利用Datasmith Direct Link的自定义应用程序，帮助学习者理解运行时功能的应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith运行时",
+      "predicate": "适用于",
+      "object": "Windows和MacOS",
+      "context": "Datasmith运行时在Windows和MacOS上正式支持，Linux支持为试验性，这对学习者理解平台兼容性很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith运行时Actor",
+      "predicate": "用于",
+      "object": "设置导入选项",
+      "context": "Datasmith运行时Actor作为设置导入选项的目标对象，帮助学习者理解运行时内容导入的工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Make Datasmith Runtime Import Options",
+      "predicate": "生成",
+      "object": "Datasmith运行时导入选项",
+      "context": "该蓝图节点将导入参数转换为数据结构，帮助学习者理解如何配置运行时导入选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Load File",
+      "predicate": "加载",
+      "object": ".udatasmith文件",
+      "context": "该蓝图节点加载指定路径的Datasmith文件，帮助学习者理解运行时内容加载机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Direct Link Proxy",
+      "predicate": "获取",
+      "object": "直接链接代理",
+      "context": "该蓝图节点返回直接链接代理接口，是创建Direct Link连接的第一步，帮助学习者理解连接建立流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get List of Sources",
+      "predicate": "获取",
+      "object": "Datasmith直接链接源列表",
+      "context": "该蓝图节点获取可用的直接链接源列表，帮助学习者理解如何管理多个源连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Open Connection with Index",
+      "predicate": "建立",
+      "object": "直接链接连接",
+      "context": "该蓝图节点通过指定索引打开与源的连接，帮助学习者理解如何选择特定源建立连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor蓝图",
+      "predicate": "作为",
+      "object": "Datasmith内容锚点",
+      "context": "Actor蓝图用于包含导入的Datasmith内容，帮助学习者理解场景组织方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Spawn Actor From Class",
+      "predicate": "生成",
+      "object": "DatasmithRuntimeActor",
+      "context": "该蓝图节点在运行时生成Datasmith运行时Actor，帮助学习者理解动态实例化过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Make Transform",
+      "predicate": "定义",
+      "object": "生成变换",
+      "context": "该蓝图节点定义生成Actor的变换参数，帮助学习者理解场景空间定位",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "构建层级",
+      "predicate": "影响",
+      "object": "加载和渲染性能",
+      "context": "构建层级选项影响内容加载和渲染性能，帮助学习者理解性能优化选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞类型",
+      "predicate": "决定",
+      "object": "物理交互方式",
+      "context": "碰撞类型选项决定静态网格体的物理交互方式，帮助学习者理解物理系统配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导入元数据",
+      "predicate": "增加",
+      "object": "加载时间",
+      "context": "导入元数据选项会增加加载时间，帮助学习者理解功能与性能的权衡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DirectLinkUpdate函数",
+      "predicate": "触发",
+      "object": "直接链接连接",
+      "context": "该自定义函数用于在运行时触发直接链接更新，帮助学习者理解动态连接管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "源索引",
+      "predicate": "指定",
+      "object": "连接源",
+      "context": "源索引变量用于指定要连接的源应用程序，帮助学习者理解多源管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:15:36.358Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (14294 字符)",
+      "timestamp": "2025-06-15T21:14:40.100Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 20102,
+    "contentLength": 14294,
+    "processingTimeMs": 56263
+  }
+}

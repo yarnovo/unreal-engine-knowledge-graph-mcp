@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_horde-storage-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_horde-storage-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Horde存储",
+      "predicate": "包含",
+      "object": "Blob",
+      "context": "Horde存储的核心数据结构是Blob，理解Blob是理解Horde存储的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blob",
+      "predicate": "包含",
+      "object": "引用",
+      "context": "Blob通过引用与其他Blob建立关联，形成数据结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde存储",
+      "predicate": "替代",
+      "object": "GitSync",
+      "context": "Horde存储是GitSync工具的升级版本，用于更高效地管理二进制文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde存储",
+      "predicate": "基于",
+      "object": "内容寻址",
+      "context": "Horde存储采用内容寻址方式管理Blob，这是其核心设计理念之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IStorageClient",
+      "predicate": "实现",
+      "object": "BundleStorageClient",
+      "context": "BundleStorageClient是IStorageClient接口的标准实现，负责将Blob打包成数据包",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IStorageClient",
+      "predicate": "实现",
+      "object": "KeyValueStorageClient",
+      "context": "KeyValueStorageClient是IStorageClient的另一种实现，负责将Blob传递给底层存储后端",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IStorageBackend",
+      "predicate": "实现",
+      "object": "HttpStorageBackend",
+      "context": "HttpStorageBackend是IStorageBackend的一种实现，通过HTTP与Horde服务器通信",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IStorageBackend",
+      "predicate": "实现",
+      "object": "FileStorageBackend",
+      "context": "FileStorageBackend是IStorageBackend的一种实现，直接将数据写入磁盘",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IStorageBackend",
+      "predicate": "实现",
+      "object": "MemoryStorageBackend",
+      "context": "MemoryStorageBackend是IStorageBackend的一种实现，将数据存储在内存中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IObjectStore",
+      "predicate": "实现",
+      "object": "FileObjectStore",
+      "context": "FileObjectStore是IObjectStore的一种实现，负责将数据写入磁盘文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IObjectStore",
+      "predicate": "实现",
+      "object": "AwsObjectStore",
+      "context": "AwsObjectStore是IObjectStore的一种实现，负责与AWS S3交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IObjectStore",
+      "predicate": "实现",
+      "object": "AzureObjectStore",
+      "context": "AzureObjectStore是IObjectStore的一种实现，负责与Azure blob存储交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blob",
+      "predicate": "打包为",
+      "object": "数据包",
+      "context": "Blob被打包成数据包以便存储在底层对象存储中，这是Horde存储的重要优化手段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据包",
+      "predicate": "包含",
+      "object": "压缩信息包",
+      "context": "数据包由多个压缩信息包组成，每个信息包可能包含多个Blob",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IBlobHandle",
+      "predicate": "转换为",
+      "object": "BlobLocator",
+      "context": "Blob句柄可以与BlobLocator相互转换，这是Horde存储中Blob定位的重要机制",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "引用",
+      "predicate": "区别于",
+      "object": "别名",
+      "context": "引用是强引用并充当垃圾回收根节点，而别名是弱引用，理解两者的区别对正确使用Horde存储很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IBlobRef",
+      "predicate": "扩展",
+      "object": "IBlobHandle",
+      "context": "IBlobRef在IBlobHandle基础上增加了目标Blob的IoHash，这是内容寻址的关键接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde存储",
+      "predicate": "优化",
+      "object": "流式读写",
+      "context": "Horde存储针对流式读写操作进行了优化，这是其设计目标之一",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Horde存储",
+      "predicate": "支持",
+      "object": "点读",
+      "context": "Horde存储在优化流式读写的同时仍支持点读操作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "BlobData",
+      "predicate": "定义",
+      "object": "Blob属性",
+      "context": "BlobData类定义了Blob的核心属性，包括类型、负载和引用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:22:45.604Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8826,
+    "contentLength": 4712,
+    "processingTimeMs": 72762
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_overview-of-virtual-assets-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_overview-of-virtual-assets-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚拟资产",
+      "predicate": "解决",
+      "object": "大项目同步问题",
+      "context": "虚拟资产通过分离核心元数据和批量数据，减少同步时间和硬盘空间占用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟资产",
+      "predicate": "包含",
+      "object": "核心资产元数据",
+      "context": "核心元数据是虚拟资产的基础部分，用于在源码控制中同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟资产",
+      "predicate": "包含",
+      "object": "批量数据",
+      "context": "批量数据是资产的主要部分，存储在派生数据缓存中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟资产",
+      "predicate": "依赖",
+      "object": "源码控制",
+      "context": "虚拟资产需要与Perforce集成才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟资产",
+      "predicate": "可选依赖",
+      "object": "共享DDC",
+      "context": "共享派生数据缓存可以提升虚拟资产的性能，但不是必需的",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚拟资产",
+      "predicate": "需要",
+      "object": "互联网连接",
+      "context": "良好的网络连接是虚拟资产高效运作的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚拟资产",
+      "predicate": "实现方式",
+      "object": "虚幻虚拟化工具",
+      "context": "该工具用于手动将资产转换为虚拟资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟资产",
+      "predicate": "配置方式",
+      "object": "DefaultEngine.ini",
+      "context": "通过修改配置文件来启用和配置虚拟资产系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟资产",
+      "predicate": "适用于",
+      "object": "大型项目",
+      "context": "虚拟资产的优势在数据量大的项目中最为明显",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚拟资产",
+      "predicate": "部署方式",
+      "object": "批量虚拟化",
+      "context": "一次性虚拟化整个项目可以获得最佳同步性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚拟资产",
+      "predicate": "部署方式",
+      "object": "手动虚拟化",
+      "context": "针对特定文件夹或资产进行虚拟化，控制影响范围",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "派生数据缓存(DDC)",
+      "predicate": "用于",
+      "object": "存储批量数据",
+      "context": "DDC作为虚拟资产的缓存存储，加速数据访问",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "源码控制",
+      "predicate": "存储",
+      "object": "核心资产元数据",
+      "context": "源码控制系统负责管理虚拟资产的核心元数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后端图表",
+      "predicate": "定义",
+      "object": "虚拟资产存储结构",
+      "context": "后端图表配置了虚拟资产在Cache和Persistent存储中的分布",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻虚拟化工具",
+      "predicate": "支持",
+      "object": "变更列表虚拟化",
+      "context": "工具可以通过指定变更列表来批量转换资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:16:21.502Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9590 字符)",
+      "timestamp": "2025-06-15T20:15:30.539Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16088,
+    "contentLength": 9590,
+    "processingTimeMs": 50971
+  }
+}

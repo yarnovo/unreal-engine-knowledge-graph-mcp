@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_gameplay-classes-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_gameplay-classes-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "游戏性类",
+      "predicate": "包含",
+      "object": "类头文件",
+      "context": "每个游戏性类都由一个类头文件（.h）和一个类源文件（.cpp）构成，类头文件包含类和类成员的声明",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏性类",
+      "predicate": "包含",
+      "object": "类源文件",
+      "context": "每个游戏性类都由一个类头文件（.h）和一个类源文件（.cpp）构成，类源文件通过实现属于类的函数来定义类的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏性类",
+      "predicate": "使用前缀",
+      "object": "A",
+      "context": "前缀'A'表示从可生成的游戏性对象的基础类进行延伸，它们是Actor，可直接生成到世界场景中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏性类",
+      "predicate": "使用前缀",
+      "object": "U",
+      "context": "前缀'U'表示从所有游戏性对象的基础类进行延伸，它们无法被实例到世界场景中，必须从属于Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C++类向导",
+      "predicate": "用于",
+      "object": "添加类",
+      "context": "C++类向导将设置新类所需要的头文件和源文件，并随之更新游戏模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "类头文件",
+      "predicate": "包含",
+      "object": "ClassName.generated.h",
+      "context": "在每个游戏性类头文件的顶端，需要包含生成的头文件（自动创建）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "类声明",
+      "predicate": "使用宏",
+      "object": "UCLASS",
+      "context": "类声明使用UCLASS宏来传递描述符（如类说明符和元数据），用于创建被声明类的UClass",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "类声明",
+      "predicate": "使用宏",
+      "object": "GENERATED_BODY",
+      "context": "GENERATED_BODY宏必须被放置在类体的最前方，用于正常实现游戏性类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "类说明符",
+      "predicate": "控制",
+      "object": "类行为",
+      "context": "类说明符用于控制类相对于引擎和编辑器的各个方面的行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Abstract",
+      "predicate": "是",
+      "object": "类说明符",
+      "context": "Abstract说明符会将类声明为'抽象基类'，阻止用户向关卡中添加此类的Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blueprintable",
+      "predicate": "是",
+      "object": "类说明符",
+      "context": "Blueprintable说明符将此类公开为用于创建蓝图的可接受基类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "元数据说明符",
+      "predicate": "控制",
+      "object": "类与引擎和编辑器的交互",
+      "context": "元数据说明符用于控制类、接口、结构体等与引擎和编辑器各方面的交互方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "类实现",
+      "predicate": "依赖",
+      "object": "GENERATED_BODY宏",
+      "context": "所有的游戏性类必须使用GENERATED_BODY宏进行正常实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "类构造函数",
+      "predicate": "用于",
+      "object": "设置默认值",
+      "context": "UObjects使用Constructors设置属性和其他变量的默认值，并执行其他必要的初值设定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ConstructorHelpers",
+      "predicate": "提供",
+      "object": "构建函数静态属性和助手",
+      "context": "ConstructorHelpers是用于执行构建函数特定常规操作的助手模板，例如为资源或类寻找引用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FObjectFinder",
+      "predicate": "用于",
+      "object": "资源引用",
+      "context": "FObjectFinder通过StaticLoadObject为特定的UObject寻找引用，常用于引用存储在内容包中的资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FClassFinder",
+      "predicate": "用于",
+      "object": "类引用",
+      "context": "FClassFinder为特定的UClass寻找引用，如类未找到，则报告失败",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "组件",
+      "predicate": "创建于",
+      "object": "类构造函数",
+      "context": "在构造函数中可创建组件子对象并将其附着到actor的层级，生成一个actor时，将从CDO复制其组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UObject",
+      "predicate": "基于",
+      "object": "类默认对象（CDO）",
+      "context": "类构造函数初始化类默认对象（CDO），CDO是类的新实例所基于的原版",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:09:57.719Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13605 字符)",
+      "timestamp": "2025-06-15T19:08:49.378Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 23077,
+    "contentLength": 13605,
+    "processingTimeMs": 68355
+  }
+}

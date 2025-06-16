@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_programming-in-the-unreal-engine-architecture",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_programming-in-the-unreal-engine-architecture.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎模块",
+      "predicate": "组成",
+      "object": "虚幻引擎架构",
+      "context": "模块是虚幻引擎软件架构的基本构建块，理解模块有助于掌握引擎的整体架构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资产异步加载",
+      "predicate": "依赖",
+      "object": "资产注册表",
+      "context": "异步加载资产需要资产注册表提供资产发现和元数据信息",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "数据验证",
+      "predicate": "应用于",
+      "object": "数据资产",
+      "context": "数据验证系统可用于验证数据资产的正确性和完整性",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "引用资产",
+      "predicate": "关联",
+      "object": "资产异步加载",
+      "context": "引用资产的方式会影响异步加载的策略和实现",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "编程子系统",
+      "predicate": "包含",
+      "object": "任务系统",
+      "context": "任务系统是编程子系统的重要组成部分，用于管理并发任务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台变量和命令",
+      "predicate": "关联",
+      "object": "命令行参数",
+      "context": "控制台变量和命令行参数都是配置引擎行为的方式，学习时需要对比理解",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "配置文件",
+      "predicate": "替代",
+      "object": "命令行参数",
+      "context": "配置文件和命令行参数都可以用于引擎配置，但适用于不同场景",
+      "direction": "bidirectional",
+      "confidence": 0.6
+    },
+    {
+      "subject": "字符串处理",
+      "predicate": "应用于",
+      "object": "数据验证",
+      "context": "字符串处理功能在数据验证过程中用于处理文本数据的验证规则",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "资产和包的版本控制",
+      "predicate": "依赖",
+      "object": "Core Redirects",
+      "context": "版本控制功能需要Core Redirects来处理资产重定向问题",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "任务系统",
+      "predicate": "用于",
+      "object": "资产异步加载",
+      "context": "任务系统可用于实现资产异步加载的后台任务管理",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "数据资产",
+      "predicate": "基于",
+      "object": "资产注册表",
+      "context": "数据资产的管理和发现依赖于资产注册表的功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Core Redirects",
+      "predicate": "支持",
+      "object": "资产和包的版本控制",
+      "context": "Core Redirects为资产版本控制提供了重定向支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编程子系统",
+      "predicate": "包含",
+      "object": "控制台变量和命令",
+      "context": "控制台管理系统是编程子系统的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:29:14.996Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5204,
+    "contentLength": 4108,
+    "processingTimeMs": 37374
+  }
+}

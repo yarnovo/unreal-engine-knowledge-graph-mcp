@@ -1,0 +1,203 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_fbx-scene-import-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_fbx-scene-import-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "FBX场景导入",
+      "predicate": "支持",
+      "object": "静态网格体",
+      "context": "FBX场景导入功能支持导入静态网格体，这是3D场景中的基础组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX场景导入",
+      "predicate": "支持",
+      "object": "骨架网格体",
+      "context": "FBX场景导入功能支持导入骨架网格体，用于角色动画等场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX场景导入",
+      "predicate": "支持",
+      "object": "动画",
+      "context": "FBX场景导入功能支持导入动画数据，与骨架网格体配合使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX场景导入",
+      "predicate": "支持",
+      "object": "材质",
+      "context": "FBX场景导入提供基础材质支持，但可能与原始材质不完全匹配",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FBX场景导入",
+      "predicate": "支持",
+      "object": "纹理",
+      "context": "FBX场景导入功能支持导入纹理资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX场景导入",
+      "predicate": "支持",
+      "object": "刚性网格体",
+      "context": "FBX场景导入功能支持导入刚性网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX场景导入",
+      "predicate": "支持",
+      "object": "变形目标",
+      "context": "FBX场景导入功能支持导入变形目标，用于面部动画等效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX场景导入",
+      "predicate": "支持",
+      "object": "光源",
+      "context": "FBX场景导入功能支持导入光源数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX场景导入",
+      "predicate": "生成",
+      "object": "FBX场景导入数据资源",
+      "context": "导入FBX场景后会生成FBX场景导入数据资源，包含原始FBX场景与导入资源间的链接信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX场景导入选项对话框",
+      "predicate": "包含",
+      "object": "场景选项卡",
+      "context": "FBX场景导入选项对话框包含场景选项卡，用于控制每个资源的导入方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX场景导入选项对话框",
+      "predicate": "包含",
+      "object": "静态网格体选项卡",
+      "context": "FBX场景导入选项对话框包含静态网格体选项卡，用于控制静态网格体的导入选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX场景导入选项对话框",
+      "predicate": "包含",
+      "object": "骨架网格体选项卡",
+      "context": "FBX场景导入选项对话框包含骨架网格体选项卡，用于控制骨架网格体的导入选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX场景导入选项对话框",
+      "predicate": "包含",
+      "object": "材质选项卡",
+      "context": "FBX场景导入选项对话框包含材质选项卡，用于控制材质的导入和替换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "场景选项卡",
+      "predicate": "控制",
+      "object": "层级类型",
+      "context": "场景选项卡中的层级类型选项控制导入流程的最终输出形式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "层级类型",
+      "predicate": "包含",
+      "object": "蓝图资源",
+      "context": "层级类型包含蓝图资源选项，这是唯一支持完整场景重新导入的类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "层级类型",
+      "predicate": "包含",
+      "object": "Actor组件",
+      "context": "层级类型包含Actor组件选项，但不支持重新导入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "层级类型",
+      "predicate": "包含",
+      "object": "Actors",
+      "context": "层级类型包含Actors选项，将每个资源作为单独Actor导入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体选项卡",
+      "predicate": "支持",
+      "object": "选项覆盖",
+      "context": "静态网格体选项卡支持创建选项覆盖，可以快速应用于多个网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体选项卡",
+      "predicate": "支持",
+      "object": "选项覆盖",
+      "context": "骨架网格体选项卡也支持创建选项覆盖功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质选项卡",
+      "predicate": "允许",
+      "object": "材质替换",
+      "context": "材质选项卡允许用项目中的现有材质替换FBX文件中的材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "完整场景重新导入",
+      "predicate": "依赖",
+      "object": "蓝图资源",
+      "context": "完整场景重新导入功能必须依赖之前导入为蓝图资源的场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX场景重新导入选项对话框",
+      "predicate": "包含",
+      "object": "重新导入列表过滤器",
+      "context": "重新导入对话框包含过滤器按钮，可以快速查看添加、删除或更改的资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "重新导入场景选项卡",
+      "predicate": "包含",
+      "object": "重新导入层级选项",
+      "context": "重新导入场景选项卡包含重新导入层级选项，会影响蓝图组件列表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:05:15.077Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10142 字符)",
+      "timestamp": "2025-06-15T19:03:59.791Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15592,
+    "contentLength": 10142,
+    "processingTimeMs": 75289
+  }
+}

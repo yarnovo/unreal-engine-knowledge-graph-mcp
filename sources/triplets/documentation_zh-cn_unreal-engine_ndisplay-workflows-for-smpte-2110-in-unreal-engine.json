@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_ndisplay-workflows-for-smpte-2110-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_ndisplay-workflows-for-smpte-2110-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "nDisplay",
+      "predicate": "支持",
+      "object": "SMPTE 2110",
+      "context": "nDisplay可以与SMPTE 2110标准配合使用，实现高效的媒体流送和同步",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SMPTE 2110",
+      "predicate": "用于",
+      "object": "ICVFX摄像机流送",
+      "context": "SMPTE 2110标准用于ICVFX摄像机的媒体流送，实现高效的群集性能优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX摄像机流送",
+      "predicate": "依赖",
+      "object": "NVIDIA Rivermax",
+      "context": "ICVFX摄像机流送需要NVIDIA Rivermax进行SMPTE 2110媒体源的设置和输出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay配置",
+      "predicate": "包含",
+      "object": "群集节点",
+      "context": "nDisplay配置中需要定义多个群集节点，每个节点负责不同的渲染任务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "群集节点",
+      "predicate": "支持",
+      "object": "无头渲染",
+      "context": "群集节点可以配置为无头渲染模式，专门用于渲染摄像机视锥体而不需要显示输出",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "媒体共享",
+      "predicate": "基于",
+      "object": "SMPTE 2110组播",
+      "context": "媒体共享功能利用SMPTE 2110的组播功能在节点间传输摄像机流送",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "同步输出",
+      "predicate": "依赖",
+      "object": "PTP时间参考",
+      "context": "同步输出功能需要精确时间协议(PTP)来确保所有节点的流送同步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NVIDIA Rivermax输出",
+      "predicate": "实现",
+      "object": "ST 2110流送",
+      "context": "NVIDIA Rivermax输出配置可以将渲染结果通过ST 2110标准进行流送",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX摄像机",
+      "predicate": "关联",
+      "object": "媒体输入群组",
+      "context": "每台ICVFX摄像机需要配置媒体输入群组来接收共享的渲染流送",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LED墙输出",
+      "predicate": "替代",
+      "object": "同步卡",
+      "context": "使用ST 2110流送可以直接从网卡发送到LED墙，替代传统的同步卡方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "GPU Direct",
+      "predicate": "优化",
+      "object": "流送性能",
+      "context": "启用GPU Direct可以减少数据在GPU和网卡之间的传输延迟，优化流送性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "帧锁定模式",
+      "predicate": "影响",
+      "object": "流送同步",
+      "context": "不同的帧锁定模式设置会影响流送的同步性和延迟表现",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "分辨率",
+      "predicate": "决定",
+      "object": "带宽需求",
+      "context": "流送分辨率直接影响所需的网络带宽，如4K和8K流送有显著不同的带宽需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "节点窗口大小",
+      "predicate": "关联",
+      "object": "流送效率",
+      "context": "合理配置节点窗口大小可以优化流送效率，减少不必要的像素传输",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Rivermax媒体源",
+      "predicate": "用于",
+      "object": "接收ST 2110流送",
+      "context": "Rivermax媒体源配置用于接收使用ST 2110标准的共享渲染流送",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:05:46.040Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (18644 字符)",
+      "timestamp": "2025-06-15T20:04:50.519Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 27938,
+    "contentLength": 18644,
+    "processingTimeMs": 55528
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_adding-a-firstperson-camera-mesh-and-animation",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_adding-a-firstperson-camera-mesh-and-animation.md",
+  "triples": [
+    {
+      "subject": "第一人称摄像机",
+      "predicate": "控制",
+      "object": "变换属性",
+      "context": "第一人称摄像机通过变换属性的旋转值来控制方向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换属性",
+      "predicate": "包含",
+      "object": "旋转值",
+      "context": "变换属性包含旋转值，用于控制3D空间中的旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "旋转值",
+      "predicate": "包含",
+      "object": "俯仰、偏转、滚动",
+      "context": "旋转值由俯仰、偏转和滚动三个分量组成，分别控制不同轴的旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "俯仰",
+      "predicate": "控制",
+      "object": "X轴旋转",
+      "context": "俯仰控制沿X轴的旋转，使对象上下旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "偏转",
+      "predicate": "控制",
+      "object": "Y轴旋转",
+      "context": "偏转控制沿Y轴的旋转，使对象左右旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "滚动",
+      "predicate": "控制",
+      "object": "Z轴旋转",
+      "context": "滚动控制沿Z轴的旋转，使对象左右倾斜",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第一人称游戏",
+      "predicate": "主要使用",
+      "object": "偏转和俯仰",
+      "context": "第一人称游戏通常使用偏转和俯仰来控制摄像机移动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_FirstPersonCharacter",
+      "predicate": "包含",
+      "object": "Camera Input节点组",
+      "context": "BP_FirstPersonCharacter蓝图中的EventGraph包含Camera Input节点组，用于处理摄像机输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IA_Look输入操作",
+      "predicate": "生成",
+      "object": "FVector2d值",
+      "context": "IA_Look输入操作在被触发时会返回一个FVector2d值，用于控制摄像机旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Add Controller Yaw Input",
+      "predicate": "处理",
+      "object": "偏转输入",
+      "context": "Add Controller Yaw Input函数节点处理偏转输入，控制摄像机左右旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Add Controller Pitch Input",
+      "predicate": "处理",
+      "object": "俯仰输入",
+      "context": "Add Controller Pitch Input函数节点处理俯仰输入，控制摄像机上下旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_FirstPersonCharacter",
+      "predicate": "包含",
+      "object": "胶囊体组件",
+      "context": "BP_FirstPersonCharacter包含胶囊体组件，用于角色碰撞",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_FirstPersonCharacter",
+      "predicate": "包含",
+      "object": "骨骼网格体组件",
+      "context": "BP_FirstPersonCharacter包含骨骼网格体组件，用于角色动画和可视化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_FirstPersonCharacter",
+      "predicate": "包含",
+      "object": "角色移动组件",
+      "context": "BP_FirstPersonCharacter包含角色移动组件，用于角色移动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第一人称网格体",
+      "predicate": "子项",
+      "object": "FirstPersonCamera",
+      "context": "第一人称网格体包含一个名为FirstPersonCamera的子项摄像机组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FirstPersonCamera",
+      "predicate": "决定",
+      "object": "第一人称视角",
+      "context": "FirstPersonCamera摄像机组件决定玩家的第一人称视角",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Look函数",
+      "predicate": "处理",
+      "object": "摄像机旋转输入",
+      "context": "Look函数用于处理摄像机的旋转输入，控制角色环顾四周",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FirstPersonCameraComponent",
+      "predicate": "附加到",
+      "object": "FirstPersonMeshComponent",
+      "context": "FirstPersonCameraComponent摄像机组件附加到FirstPersonMeshComponent网格体组件上",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FirstPersonMeshComponent",
+      "predicate": "设置",
+      "object": "仅所属玩家可见",
+      "context": "FirstPersonMeshComponent网格体组件设置为仅所属玩家可见",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "第三人称网格体",
+      "predicate": "设置",
+      "object": "所属玩家不可见",
+      "context": "第三人称网格体设置为所属玩家不可见，仅对其他玩家可见",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FirstPersonCameraComponent",
+      "predicate": "偏移",
+      "object": "眼部位置",
+      "context": "FirstPersonCameraComponent摄像机组件的位置被微调到角色的眼部位置，以获得更准确的视野",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UAnimInstance",
+      "predicate": "控制",
+      "object": "动画逻辑",
+      "context": "UAnimInstance类实例控制动画逻辑，决定在骨骼网格体上播放哪些动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "派生自",
+      "object": "UAnimInstance",
+      "context": "动画蓝图派生自UAnimInstance类，用于定义角色的动画行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FirstPersonMeshComponent",
+      "predicate": "设置",
+      "object": "动画实例类",
+      "context": "FirstPersonMeshComponent网格体组件设置动画实例类，以播放第一人称动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:55:26.550Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (21427 字符)",
+      "timestamp": "2025-06-15T17:54:05.931Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 30192,
+    "contentLength": 21427,
+    "processingTimeMs": 80627
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_widget-blueprints-in-umg-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_widget-blueprints-in-umg-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "控件蓝图",
+      "predicate": "属于",
+      "object": "虚幻示意图形(UMG)",
+      "context": "控件蓝图是UMG系统的一部分，用于创建用户界面元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件蓝图",
+      "predicate": "创建于",
+      "object": "内容浏览器",
+      "context": "开发者通过内容浏览器创建新的控件蓝图资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件蓝图编辑器",
+      "predicate": "用于编辑",
+      "object": "控件蓝图",
+      "context": "控件蓝图编辑器是专门用于设计和编程控件蓝图的工具",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "设计器选项卡",
+      "predicate": "属于",
+      "object": "控件蓝图编辑器",
+      "context": "设计器选项卡是控件蓝图编辑器的主要工作区之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图形选项卡",
+      "predicate": "属于",
+      "object": "控件蓝图编辑器",
+      "context": "图形选项卡是控件蓝图编辑器的另一个主要工作区",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设计器选项卡",
+      "predicate": "包含",
+      "object": "视觉设计器",
+      "context": "视觉设计器是设计器选项卡中用于布局UI的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调色板",
+      "predicate": "提供",
+      "object": "UI控件",
+      "context": "调色板面板提供了可用的UI控件列表供开发者使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "层级面板",
+      "predicate": "显示",
+      "object": "控件层次结构",
+      "context": "层级面板展示了UI控件之间的父子关系结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "详情面板",
+      "predicate": "用于调整",
+      "object": "控件属性",
+      "context": "详情面板允许开发者查看和修改选中控件的各种属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画面板",
+      "predicate": "用于创建",
+      "object": "控件动画",
+      "context": "动画面板专门用于为UI控件创建关键帧动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设计器选项卡",
+      "predicate": "与",
+      "object": "图形选项卡",
+      "context": "两者是控件蓝图编辑器的两种互补工作模式，分别处理视觉设计和逻辑编程",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "控件蓝图",
+      "predicate": "继承自",
+      "object": "UWidget",
+      "context": "所有控件蓝图中的控件都继承自UWidget基类",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "工具栏",
+      "predicate": "包含",
+      "object": "常用功能",
+      "context": "工具栏提供了编译、保存等常用功能的快捷访问",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器模式",
+      "predicate": "控制",
+      "object": "工作区切换",
+      "context": "编辑器模式按钮允许在设计器和图形模式之间切换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:32:34.602Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4992,
+    "contentLength": 3548,
+    "processingTimeMs": 35332
+  }
+}

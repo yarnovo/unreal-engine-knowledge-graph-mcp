@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_convolution-reverb-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_convolution-reverb-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "卷积混响",
+      "predicate": "基于",
+      "object": "脉冲响应",
+      "context": "卷积混响技术依赖于脉冲响应来模拟真实环境的混响效果，理解这一关系有助于掌握卷积混响的核心原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "脉冲响应",
+      "predicate": "用于",
+      "object": "卷积混响",
+      "context": "脉冲响应是卷积混响的关键输入数据，学习如何获取和处理脉冲响应是使用卷积混响的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "卷积混响",
+      "predicate": "替代",
+      "object": "算法混响",
+      "context": "卷积混响提供了一种数据驱动的替代方案，相比传统算法混响能提供更高水平的真实感和沉浸感",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "卷积运算",
+      "predicate": "实现",
+      "object": "卷积混响",
+      "context": "卷积运算是卷积混响的数学基础，理解卷积运算有助于深入理解卷积混响的工作原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "快速傅里叶变换",
+      "predicate": "加速",
+      "object": "卷积运算",
+      "context": "FFT通过将时域卷积转换为频域乘积来显著提高计算效率，这是实现实时卷积混响的关键技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "合成和DSP效果插件",
+      "predicate": "包含",
+      "object": "卷积混响功能",
+      "context": "该插件是启用卷积混响功能的必要前提，了解插件架构有助于定位相关音频功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子混合效果预设",
+      "predicate": "应用",
+      "object": "卷积混响效果",
+      "context": "子混合效果预设是将卷积混响集成到音频管线中的具体实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬件加速",
+      "predicate": "优化",
+      "object": "卷积混响性能",
+      "context": "硬件加速选项可以显著提升卷积混响的运行效率，特别是在处理大型脉冲响应时",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "真实立体声",
+      "predicate": "影响",
+      "object": "脉冲响应处理",
+      "context": "这个设置决定了脉冲响应通道的解释方式，直接影响最终的混响空间感",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "标准化音量分贝",
+      "predicate": "控制",
+      "object": "脉冲响应响度",
+      "context": "这个参数确保不同脉冲响应之间的音量一致性，是混响平衡的重要调节手段",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "卷积混响",
+      "predicate": "属于",
+      "object": "次时代音频技术",
+      "context": "随着CPU性能提升和硬件加速支持，卷积混响已成为现代游戏音频的重要技术",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "脉冲响应",
+      "predicate": "采集自",
+      "object": "物理空间",
+      "context": "理解脉冲响应可以从真实环境采集的特性，有助于创建更真实的音频环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频信号",
+      "predicate": "处理通过",
+      "object": "卷积运算",
+      "context": "这是理解音频信号如何通过卷积获得混响效果的关键流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:36:23.700Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9637,
+    "contentLength": 5697,
+    "processingTimeMs": 46563
+  }
+}

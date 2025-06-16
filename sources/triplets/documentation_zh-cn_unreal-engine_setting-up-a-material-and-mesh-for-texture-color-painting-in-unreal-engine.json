@@ -1,0 +1,123 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_setting-up-a-material-and-mesh-for-texture-color-painting-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_setting-up-a-material-and-mesh-for-texture-color-painting-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "纹理颜色绘制模式",
+      "predicate": "使用",
+      "object": "静态网格体组件",
+      "context": "纹理颜色绘制模式需要静态网格体组件来生成和显示绘制纹理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MeshPaintTextureObject",
+      "predicate": "配合使用",
+      "object": "Texture Sample节点",
+      "context": "MeshPaintTextureObject材质表达式需要与Texture Sample节点配合使用，用于对生成的网格体绘制纹理取样",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Texture Sample节点",
+      "predicate": "连接",
+      "object": "主材质节点的基础颜色输入",
+      "context": "Texture Sample节点的RGB输出可以连接到主材质节点的基础颜色输入，直接使用网格体绘制纹理作为材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MeshPaintTextureReplace",
+      "predicate": "提供",
+      "object": "回退逻辑",
+      "context": "MeshPaintTextureReplace节点为材质提供了在无法使用网格体绘制纹理时的回退渲染路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体",
+      "predicate": "需要",
+      "object": "合适的UV设置",
+      "context": "静态网格体需要正确的UV设置才能确保纹理颜色绘制效果正确显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UV通道",
+      "predicate": "影响",
+      "object": "纹理绘制效果",
+      "context": "UV通道的设置直接影响纹理颜色绘制的效果，重叠或重复的UV会导致绘制效果异常",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成光照贴图UV",
+      "predicate": "创建",
+      "object": "适合纹理绘制的UV",
+      "context": "通过生成光照贴图UV可以创建适合纹理颜色绘制的UV布局，避免重叠问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体绘制纹理坐标索引",
+      "predicate": "匹配",
+      "object": "Texture Sample节点的UV输入",
+      "context": "网格体绘制纹理坐标索引需要与材质中Texture Sample节点的UV输入设置一致，确保正确取样",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Multiply节点",
+      "predicate": "用于",
+      "object": "集成绘制纹理到现有材质",
+      "context": "Multiply节点可以将网格体绘制纹理效果集成到现有的材质逻辑中，实现部分区域绘制效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体编辑器",
+      "predicate": "提供",
+      "object": "UV检查工具",
+      "context": "静态网格体编辑器提供了检查UV通道的工具，帮助开发者验证UV是否适合纹理绘制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "最低光照贴图分辨率",
+      "predicate": "影响",
+      "object": "UV图表布局",
+      "context": "最低光照贴图分辨率设置会影响生成的UV图表在UV空间中的布局密度和大小",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "纹理颜色绘制",
+      "predicate": "依赖",
+      "object": "唯一UV空间分配",
+      "context": "成功的纹理颜色绘制需要网格体的每个部分在UV空间中有唯一的分配，避免重叠",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体绘制纹理",
+      "predicate": "生成",
+      "object": "基于UV坐标",
+      "context": "网格体绘制纹理的生成和映射完全依赖于网格体的UV坐标设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:44:12.762Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9930 字符)",
+      "timestamp": "2025-06-15T20:43:31.770Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14974,
+    "contentLength": 9930,
+    "processingTimeMs": 40996
+  }
+}

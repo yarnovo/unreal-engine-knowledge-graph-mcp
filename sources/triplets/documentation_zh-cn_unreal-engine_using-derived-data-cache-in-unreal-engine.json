@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-derived-data-cache-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-derived-data-cache-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "派生数据缓存(DDC)",
+      "predicate": "用于",
+      "object": "虚幻引擎资产",
+      "context": "DDC用于存储和管理虚幻引擎资产所需的派生数据，帮助提高开发效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质",
+      "predicate": "生成",
+      "object": "着色器",
+      "context": "材质在渲染前需要生成着色器，这是派生数据的一种",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Zen存储服务器",
+      "predicate": "替代",
+      "object": "文件系统DDC",
+      "context": "UE 5.4及更高版本默认使用Zen存储服务器替代文件系统DDC",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享DDC",
+      "predicate": "适用于",
+      "object": "团队协作",
+      "context": "共享DDC允许多个团队成员共享派生数据，减少重复生成数据的开销",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "云DDC",
+      "predicate": "适用于",
+      "object": "分布式团队",
+      "context": "云DDC适合团队成员不在同一地点的情况，通过云服务共享派生数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DDC Pak",
+      "predicate": "包含",
+      "object": "引擎内容的派生数据",
+      "context": "DDC Pak文件包含预编译的派生数据，避免用户首次使用时需要重新生成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "派生数据缓存(DDC)",
+      "predicate": "支持",
+      "object": "多种存储类型",
+      "context": "DDC支持Zen存储、文件系统、PAK和S3等多种存储类型，适应不同使用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Zen存储服务器",
+      "predicate": "管理",
+      "object": "本地DDC数据",
+      "context": "Zen存储服务器负责管理本地DDC数据的存储和访问，替代传统的文件系统方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DefaultEngine.ini",
+      "predicate": "配置",
+      "object": "DDC设置",
+      "context": "开发者可以通过修改DefaultEngine.ini文件来配置DDC的各种参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编辑器",
+      "predicate": "依赖",
+      "object": "派生数据缓存(DDC)",
+      "context": "虚幻编辑器在运行时依赖DDC来获取和管理资产的派生数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "文件系统DDC",
+      "predicate": "升级为",
+      "object": "Zen存储DDC",
+      "context": "UE 5.4及更高版本将文件系统DDC升级为Zen存储DDC，提供更好的性能和可管理性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享DDC",
+      "predicate": "基于",
+      "object": "网络驱动器",
+      "context": "共享DDC通常基于网络驱动器实现，供团队成员共同访问",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "云DDC",
+      "predicate": "使用",
+      "object": "身份验证服务",
+      "context": "云DDC需要使用身份验证服务来确保数据安全访问",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "派生数据缓存(DDC)",
+      "predicate": "支持",
+      "object": "异步复制",
+      "context": "DDC支持异步复制数据到最快的本地缓存，提高后续访问速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻Zen存储",
+      "predicate": "提供",
+      "object": "垃圾回收功能",
+      "context": "Zen存储服务器自动处理未使用数据的清理和垃圾回收工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DDC Pak",
+      "predicate": "主要用于",
+      "object": "分发预构建数据",
+      "context": "DDC Pak文件主要用于分发预构建的派生数据，如引擎示例或商城内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "派生数据",
+      "predicate": "可重新生成",
+      "object": "源资产文件",
+      "context": "派生数据可以从源资产文件重新生成，因此DDC中的数据是可丢弃的",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编辑器",
+      "predicate": "支持",
+      "object": "多种DDC配置",
+      "context": "虚幻编辑器支持通过不同配置选项使用多种DDC设置，适应不同工作场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Zen存储服务器",
+      "predicate": "支持",
+      "object": "配置文件",
+      "context": "Zen存储服务器可以通过配置文件控制数据目录、垃圾回收等参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "派生数据缓存(DDC)",
+      "predicate": "优化",
+      "object": "开发效率",
+      "context": "DDC通过重用派生数据显著提高了开发效率，减少了重复生成数据的时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:16:50.884Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (17992 字符)",
+      "timestamp": "2025-06-15T21:15:55.129Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 28470,
+    "contentLength": 17992,
+    "processingTimeMs": 55757
+  }
+}

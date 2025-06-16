@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_logging-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_logging-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "日志记录",
+      "predicate": "用于",
+      "object": "调试",
+      "context": "日志记录是虚幻引擎中用于调试代码执行逻辑和检查数据值的核心工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE_LOG",
+      "predicate": "属于",
+      "object": "日志记录",
+      "context": "UE_LOG是虚幻引擎中用于将格式化消息记录到日志文件的核心宏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE_LOG",
+      "predicate": "包含",
+      "object": "日志详细级别",
+      "context": "UE_LOG宏的第二个参数是日志详细级别，用于控制日志的输出方式和重要性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "日志详细级别",
+      "predicate": "包含",
+      "object": "ELogVerbosity",
+      "context": "ELogVerbosity是定义日志详细级别的枚举，包括Fatal、Error、Warning等不同级别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE_LOG",
+      "predicate": "支持",
+      "object": "日志记录基础数据类型",
+      "context": "UE_LOG支持记录多种基础数据类型，如FString、布尔、整型、浮点、FVector等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "日志记录",
+      "predicate": "包含",
+      "object": "自定义日志类别",
+      "context": "开发者可以通过DECLARE_LOG_CATEGORY_EXTERN和DEFINE_LOG_CATEGORY宏定义自己的日志类别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE_LOGFMT",
+      "predicate": "扩展",
+      "object": "UE_LOG",
+      "context": "UE_LOGFMT是UE_LOG的扩展版本，支持结构化日志记录和具名参数，需要包含Logging/StructuredLog.h",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕调试消息",
+      "predicate": "替代",
+      "object": "日志记录",
+      "context": "屏幕调试消息是另一种信息传递方式，可以在游戏运行时直接在屏幕上显示调试信息",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "输出日志窗口",
+      "predicate": "用于",
+      "object": "查看日志",
+      "context": "输出日志窗口是虚幻编辑器中用于实时查看日志内容的工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "日志记录",
+      "predicate": "生成",
+      "object": "日志文件",
+      "context": "日志记录会生成保存在项目Saved/Logs目录下的.txt文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台命令",
+      "predicate": "控制",
+      "object": "日志详细级别",
+      "context": "通过-LogCmds=命令行参数可以动态调整不同日志类别的冗长度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FOutputDevice",
+      "predicate": "继承",
+      "object": "自定义输出类",
+      "context": "开发者可以通过继承FOutputDevice接口实现自定义的日志输出类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:47:52.234Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9751,
+    "contentLength": 6369,
+    "processingTimeMs": 43222
+  }
+}

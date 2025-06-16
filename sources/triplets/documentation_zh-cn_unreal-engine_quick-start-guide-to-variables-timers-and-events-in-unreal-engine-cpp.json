@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_quick-start-guide-to-variables-timers-and-events-in-unreal-engine-cpp",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_quick-start-guide-to-variables-timers-and-events-in-unreal-engine-cpp.md",
+  "triples": [
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "Countdown",
+      "context": "Countdown是继承自Actor的类，学习Actor是理解Countdown的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Countdown",
+      "predicate": "使用",
+      "object": "定时器",
+      "context": "Countdown类通过定时器实现倒数功能，理解定时器是掌握Countdown工作原理的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定时器",
+      "predicate": "生成",
+      "object": "定时器句柄",
+      "context": "定时器操作会返回定时器句柄，用于后续控制定时器，这是定时器管理的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Countdown",
+      "predicate": "包含",
+      "object": "UTextRenderComponent",
+      "context": "Countdown使用UTextRenderComponent组件显示文本，理解组件是构建Actor的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UPROPERTY",
+      "predicate": "公开",
+      "object": "变量",
+      "context": "UPROPERTY宏用于将C++变量公开到编辑器，这是引擎与编辑器交互的重要机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UFUNCTION",
+      "predicate": "公开",
+      "object": "函数",
+      "context": "UFUNCTION宏用于将C++函数公开给蓝图系统，实现C++与蓝图的交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BlueprintNativeEvent",
+      "predicate": "支持",
+      "object": "蓝图覆盖",
+      "context": "BlueprintNativeEvent类型的函数允许在蓝图中覆盖C++实现，是C++与蓝图协作的重要方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BeginPlay",
+      "predicate": "调用",
+      "object": "定时器",
+      "context": "BeginPlay是初始化定时器的合适位置，理解生命周期函数对游戏逻辑编排很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定时器",
+      "predicate": "触发",
+      "object": "事件",
+      "context": "定时器常用于触发周期性事件或延迟事件，这是游戏逻辑时序控制的核心机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C++类",
+      "predicate": "可扩展为",
+      "object": "蓝图类",
+      "context": "C++类可以通过创建蓝图子类进行扩展，这是虚幻引擎混合编程的核心模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "可覆盖",
+      "object": "C++函数",
+      "context": "蓝图可以覆盖标记为BlueprintNativeEvent的C++函数，实现行为定制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "组件",
+      "predicate": "附加到",
+      "object": "Actor",
+      "context": "组件必须附加到Actor上使用，理解这种层级关系是构建游戏对象的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EditAnywhere",
+      "predicate": "控制",
+      "object": "属性编辑权限",
+      "context": "UPROPERTY的EditAnywhere参数控制属性在编辑器中的可编辑性，是属性暴露的重要设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "定时器管理器",
+      "predicate": "管理",
+      "object": "定时器",
+      "context": "GetWorldTimerManager()获取的定时器管理器负责管理所有定时器，是定时系统的核心",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件",
+      "predicate": "用于",
+      "object": "Actor通信",
+      "context": "事件是实现Actor间通信的重要机制，理解事件对构建交互式游戏逻辑很关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Tick",
+      "predicate": "替代方案",
+      "object": "定时器",
+      "context": "定时器可以替代Tick实现周期性逻辑，避免每帧检查的性能开销",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "可视化扩展",
+      "object": "C++功能",
+      "context": "蓝图可以可视化地扩展C++实现的功能，为非程序员提供定制能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "父函数调用",
+      "predicate": "保留",
+      "object": "默认行为",
+      "context": "在蓝图覆盖C++函数时调用父函数可以保留默认行为，这是扩展而非替换的重要模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变量公开",
+      "predicate": "支持",
+      "object": "设计时配置",
+      "context": "将变量公开到编辑器允许设计时配置，而无需修改代码，提高工作流效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "函数公开",
+      "predicate": "支持",
+      "object": "蓝图调用",
+      "context": "将函数公开到蓝图系统允许非程序员调用和扩展C++功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:33:37.003Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (17150 字符)",
+      "timestamp": "2025-06-15T20:32:31.631Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 23476,
+    "contentLength": 17150,
+    "processingTimeMs": 65376
+  }
+}

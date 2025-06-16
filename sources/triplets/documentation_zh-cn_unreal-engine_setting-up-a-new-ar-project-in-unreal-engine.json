@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_setting-up-a-new-ar-project-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_setting-up-a-new-ar-project-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "AR项目",
+      "predicate": "基于",
+      "object": "虚幻引擎",
+      "context": "AR项目是在虚幻引擎中创建和配置的，理解这一关系有助于学习者明确开发环境和技术基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AR项目",
+      "predicate": "包含",
+      "object": "空白项目",
+      "context": "创建AR体验通常从设置空白项目开始，这是构建AR应用的基础步骤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "空白项目",
+      "predicate": "包含",
+      "object": "默认关卡",
+      "context": "空白项目会自动创建包含天空球体和大气雾的默认关卡，这是AR项目的基础场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AR项目",
+      "predicate": "需要",
+      "object": "Pawn",
+      "context": "Pawn是用户在AR世界中的物理表示，理解这一关系对构建AR交互至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AR项目",
+      "predicate": "需要",
+      "object": "游戏模式",
+      "context": "游戏模式定义了AR体验的规则，包括使用哪个Pawn，这是AR项目的核心配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏模式",
+      "predicate": "指定",
+      "object": "默认Pawn类",
+      "context": "游戏模式通过设置默认Pawn类来控制用户在AR世界中的表现形式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pawn",
+      "predicate": "包含",
+      "object": "摄像机组件",
+      "context": "AR体验中Pawn必须包含摄像机组件，这是用户视角的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AR项目",
+      "predicate": "需要",
+      "object": "AR会话",
+      "context": "AR会话是AR功能的核心实现，理解这一关系对AR开发至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AR会话",
+      "predicate": "依赖",
+      "object": "ARSessionConfig",
+      "context": "AR会话需要ARSessionConfig来定义所有AR特定功能，这是配置AR体验的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ARPawn",
+      "predicate": "实现",
+      "object": "Start AR Session",
+      "context": "ARPawn通过实现Start AR Session函数来启动AR体验，这是AR功能的核心实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ARPawn",
+      "predicate": "实现",
+      "object": "Stop AR Session",
+      "context": "ARPawn也需要实现Stop AR Session函数来控制AR会话的生命周期",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ARPawn",
+      "predicate": "设置",
+      "object": "跟踪原点",
+      "context": "设置跟踪原点是AR体验中的重要步骤，影响AR内容的定位方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "控制",
+      "object": "默认游戏模式",
+      "context": "通过项目设置可以指定默认游戏模式，这是配置AR体验的重要环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "控制",
+      "object": "默认地图",
+      "context": "项目设置允许指定编辑器和游戏启动时的默认地图，这对AR项目流程控制很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "手持AR模板",
+      "predicate": "替代",
+      "object": "空白AR项目",
+      "context": "对于快速启动，可以使用预配置的手持AR模板替代从头创建空白项目",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "用于",
+      "object": "创建AR组件",
+      "context": "蓝图系统是创建ARPawn和ARGameMode等AR组件的核心工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据资产",
+      "predicate": "用于",
+      "object": "创建ARSessionConfig",
+      "context": "ARSessionConfig是通过创建数据资产来配置的，这是AR功能配置的重要方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认关卡",
+      "predicate": "包含",
+      "object": "天空球体",
+      "context": "理解默认关卡的组成元素有助于开发者知道需要移除哪些对象来创建AR体验",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认关卡",
+      "predicate": "包含",
+      "object": "大气雾",
+      "context": "大气雾是默认关卡的组成部分，在AR项目中通常需要移除",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻项目浏览器",
+      "predicate": "用于",
+      "object": "创建空白项目",
+      "context": "虚幻项目浏览器是创建新AR项目的起点界面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:44:32.512Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10502,
+    "contentLength": 7998,
+    "processingTimeMs": 60746
+  }
+}

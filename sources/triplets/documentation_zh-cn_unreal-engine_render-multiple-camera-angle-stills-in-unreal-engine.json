@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_render-multiple-camera-angle-stills-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_render-multiple-camera-angle-stills-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "影片渲染队列",
+      "predicate": "用于",
+      "object": "渲染多镜头角度下的静止图像",
+      "context": "影片渲染队列可以批处理渲染多个摄像机中的静止图像，简化了多视点静止图像的创建过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静止图像设置工具",
+      "predicate": "基于",
+      "object": "影片渲染队列",
+      "context": "静止图像设置工具是影片渲染队列的一个插件，用于简化多摄像机静止图像的创建过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StillRenderSetupAutomation",
+      "predicate": "属于",
+      "object": "静止图像设置工具",
+      "context": "StillRenderSetupAutomation是静止图像设置工具中的一个编辑器工具控件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "电影摄像机Actor",
+      "predicate": "用于",
+      "object": "静止图像渲染",
+      "context": "电影摄像机Actor用于捕获静止图像的不同角度，是静止图像渲染的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡序列资产",
+      "predicate": "生成",
+      "object": "静止图像",
+      "context": "静止图像设置工具会为每个电影摄像机Actor创建关卡序列资产，用于生成静止图像",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "抗锯齿设置",
+      "predicate": "影响",
+      "object": "静止图像质量",
+      "context": "抗锯齿设置中的引擎预热时间会影响静止图像的渲染质量",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "访问",
+      "object": "静止图像设置工具",
+      "context": "静止图像设置工具需要通过内容浏览器中的插件内容文件夹访问",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器工具控件",
+      "predicate": "实现",
+      "object": "StillRenderSetupAutomation",
+      "context": "StillRenderSetupAutomation是一个编辑器工具控件，用于实现静止图像设置的自动化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染设置",
+      "predicate": "控制",
+      "object": "静止图像输出",
+      "context": "作业设置预设中的渲染设置可以控制静止图像的分辨率、样本计数等输出参数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "替代",
+      "object": "影片渲染队列",
+      "context": "影片渲染队列可以替代Sequencer中的复杂步骤来渲染多摄像机静止图像",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T20:36:58.995Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9892,
+    "contentLength": 6462,
+    "processingTimeMs": 31472
+  }
+}

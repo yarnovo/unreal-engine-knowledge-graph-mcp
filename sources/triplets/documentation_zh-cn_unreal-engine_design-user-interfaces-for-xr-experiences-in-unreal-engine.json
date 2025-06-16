@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_design-user-interfaces-for-xr-experiences-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_design-user-interfaces-for-xr-experiences-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "XR体验",
+      "predicate": "需要",
+      "object": "3D控件",
+      "context": "XR项目中的UI必须是3D的，以便用户可以在虚拟场景中与之交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HMD",
+      "predicate": "用于显示",
+      "object": "HUD",
+      "context": "可以通过Pawn的摄像机组件在头戴式显示设备上添加内容，创建HUD",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "XR体验",
+      "predicate": "包含",
+      "object": "游戏区域",
+      "context": "用户可以在XR设备上定义游戏区域的大小，并在项目中显示边界",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "立体图层",
+      "predicate": "用于",
+      "object": "HMD",
+      "context": "通过单独的渲染通道将纹理发送给头戴式显示器，避免受到后期处理的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "加载屏幕",
+      "predicate": "用于",
+      "object": "XR体验",
+      "context": "在基于HMD的应用中，加载屏幕可以作为关卡间的过渡效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "XR体验",
+      "predicate": "后续步骤",
+      "object": "交互式XR体验",
+      "context": "添加UI界面后，可以进一步添加用户输入功能，改善项目性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "XR体验",
+      "predicate": "后续步骤",
+      "object": "共享XR体验",
+      "context": "为多个用户打造沉浸式体验是XR开发的后续方向之一",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "XR体验",
+      "predicate": "后续步骤",
+      "object": "XR性能分析",
+      "context": "分析虚拟现实项目的工具和方法是优化XR体验的重要步骤",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "OpenXR",
+      "predicate": "支持",
+      "object": "立体图层",
+      "context": "OpenXR提供了立体图层的支持，可以在项目中直接使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OpenXR",
+      "predicate": "支持",
+      "object": "加载屏幕",
+      "context": "OpenXR支持将纹理用作加载界面，衔接XR项目中的不同关卡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:49:20.834Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7088,
+    "contentLength": 5504,
+    "processingTimeMs": 40304
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_details-panel-customizations-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_details-panel-customizations-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "细节面板自定义",
+      "predicate": "基于",
+      "object": "虚幻引擎反射系统",
+      "context": "细节面板自定义依赖于虚幻引擎反射系统提供的UProperty信息来决定属性显示方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IDetailCustomization",
+      "predicate": "用于",
+      "object": "UObject和UActor派生类",
+      "context": "IDetailCustomization接口专门用于自定义UObject和UActor派生类的细节面板",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IPropertyTypeCustomization",
+      "predicate": "用于",
+      "object": "结构体",
+      "context": "IPropertyTypeCustomization接口专门用于自定义结构体类型的细节面板显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IDetailCustomization",
+      "predicate": "包含方法",
+      "object": "CustomizeDetails",
+      "context": "IDetailCustomization接口的核心方法是CustomizeDetails，用于添加Slate代码重载细节面板",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IPropertyTypeCustomization",
+      "predicate": "包含方法",
+      "object": "CustomizeHeader",
+      "context": "IPropertyTypeCustomization接口的CustomizeHeader方法用于自定义属性类型的头文件部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IPropertyTypeCustomization",
+      "predicate": "包含方法",
+      "object": "CustomizeChildren",
+      "context": "IPropertyTypeCustomization接口的CustomizeChildren方法用于自定义属性类型的子项显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IDetailLayoutBuilder",
+      "predicate": "辅助",
+      "object": "IDetailCustomization",
+      "context": "IDetailLayoutBuilder提供工具函数辅助IDetailCustomization实现细节面板自定义",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "IDetailChildrenBuilder",
+      "predicate": "辅助",
+      "object": "IPropertyTypeCustomization",
+      "context": "IDetailChildrenBuilder提供工具函数辅助IPropertyTypeCustomization实现属性类型自定义",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "IPropertyHandle",
+      "predicate": "封装",
+      "object": "属性信息",
+      "context": "IPropertyHandle封装了细节系统中属性的相关信息，用于属性自定义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IPropertyTypeCustomizationUtils",
+      "predicate": "提供工具",
+      "object": "IPropertyTypeCustomization",
+      "context": "IPropertyTypeCustomizationUtils为属性类型自定义提供额外的工具函数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FFrameRateCustomization",
+      "predicate": "实现",
+      "object": "IPropertyTypeCustomization",
+      "context": "FFrameRateCustomization是IPropertyTypeCustomization的具体实现，用于自定义帧速率属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FGameplayTagCustomization",
+      "predicate": "实现",
+      "object": "IPropertyTypeCustomization",
+      "context": "FGameplayTagCustomization是IPropertyTypeCustomization的具体实现，用于自定义Gameplay标签属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板自定义",
+      "predicate": "涉及",
+      "object": "Slate",
+      "context": "细节面板自定义需要添加Slate代码来实现界面元素的修改",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "细节面板自定义",
+      "predicate": "属于",
+      "object": "工具编程",
+      "context": "细节面板自定义是虚幻引擎工具编程的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T18:50:49.539Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10967,
+    "contentLength": 7703,
+    "processingTimeMs": 54786
+  }
+}

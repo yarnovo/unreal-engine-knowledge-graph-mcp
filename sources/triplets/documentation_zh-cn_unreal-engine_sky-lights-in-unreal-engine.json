@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_sky-lights-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_sky-lights-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "天空光照",
+      "predicate": "属于",
+      "object": "光源类型",
+      "context": "天空光照是虚幻引擎中的一种光源类型，用于模拟天空的光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空光照",
+      "predicate": "支持",
+      "object": "移动性设置",
+      "context": "天空光照可以设置为静态、固定或可移动，影响其在游戏中的行为和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态天空光照",
+      "predicate": "依赖",
+      "object": "光照构建",
+      "context": "静态天空光照需要构建光照才能生效，适用于不需要动态变化的场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "固定天空光照",
+      "predicate": "使用",
+      "object": "Lightmass",
+      "context": "固定天空光照使用Lightmass进行烘焙阴影，支持在运行时动态调整部分属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可移动天空光照",
+      "predicate": "支持",
+      "object": "实时捕获",
+      "context": "可移动天空光照支持实时捕获场景，适用于动态变化的天空效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空光照",
+      "predicate": "包含",
+      "object": "实时捕获模式",
+      "context": "实时捕获模式是天空光照的一种功能，用于动态更新天空光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "实时捕获模式",
+      "predicate": "支持",
+      "object": "动态昼夜更替",
+      "context": "实时捕获模式支持动态昼夜更替模拟，通过实时反射场景元素实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空光照",
+      "predicate": "使用",
+      "object": "立方体贴图",
+      "context": "天空光照可以使用立方体贴图作为光源，提供高质量的天空光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空光照",
+      "predicate": "支持",
+      "object": "多次光照反射",
+      "context": "天空光照支持多次光照反射，通过调整Lightmass设置实现更真实的全局光照",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可移动天空光照",
+      "predicate": "依赖",
+      "object": "距离场环境光遮蔽",
+      "context": "可移动天空光照的阴影由距离场环境光遮蔽提供，支持动态场景变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "固定天空光照",
+      "predicate": "使用",
+      "object": "环境法线",
+      "context": "固定天空光照使用环境法线存储方向信息，提高缝隙中的光照质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空光照",
+      "predicate": "支持",
+      "object": "时间分段优化",
+      "context": "天空光照的实时捕获模式支持时间分段优化，降低每帧渲染成本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空光照",
+      "predicate": "适用于",
+      "object": "动态场景",
+      "context": "天空光照适用于动态场景，支持实时更新和动态调整",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空光照",
+      "predicate": "支持",
+      "object": "反射质量调整",
+      "context": "天空光照支持调整反射质量，通过立方体贴图分辨率设置平衡性能和质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空光照",
+      "predicate": "依赖",
+      "object": "天空大气组件",
+      "context": "实时捕获模式需要天空大气组件才能正常运行，提供动态天空光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空光照",
+      "predicate": "支持",
+      "object": "云层环境遮蔽",
+      "context": "天空光照支持云层环境遮蔽，模拟云层对天空光照的遮挡效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空光照",
+      "predicate": "用于",
+      "object": "全局光照",
+      "context": "天空光照用于全局光照，提供场景的间接照明效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空光照",
+      "predicate": "支持",
+      "object": "动态调整",
+      "context": "天空光照支持在运行时动态调整颜色、强度和立方体贴图等属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空光照",
+      "predicate": "适用于",
+      "object": "室内外场景",
+      "context": "天空光照适用于室内外场景，提供一致的光照和反射效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "天空光照",
+      "predicate": "支持",
+      "object": "局部阴影",
+      "context": "天空光照支持局部阴影，防止室内区域被天空光照照亮",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:49:48.234Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (14886 字符)",
+      "timestamp": "2025-06-15T20:48:52.133Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 24889,
+    "contentLength": 14886,
+    "processingTimeMs": 56110
+  }
+}

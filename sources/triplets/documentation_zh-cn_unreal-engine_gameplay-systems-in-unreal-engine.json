@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_gameplay-systems-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_gameplay-systems-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Gameplay框架",
+      "predicate": "包含",
+      "object": "Actor",
+      "context": "Gameplay框架是UE中处理通用Gameplay元素的核心系统，Actor是其中的基础对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay框架",
+      "predicate": "包含",
+      "object": "摄像机",
+      "context": "摄像机系统是Gameplay框架的重要组成部分，用于处理视角控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay框架",
+      "predicate": "包含",
+      "object": "组件",
+      "context": "组件系统允许开发者以模块化方式构建游戏对象功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay框架",
+      "predicate": "包含",
+      "object": "控制器",
+      "context": "控制器负责处理玩家输入和AI决策逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay框架",
+      "predicate": "包含",
+      "object": "游戏模式",
+      "context": "游戏模式定义了游戏规则和整体流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "人工智能系统",
+      "predicate": "使用",
+      "object": "行为树",
+      "context": "行为树是AI系统实现复杂决策逻辑的主要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "人工智能系统",
+      "predicate": "使用",
+      "object": "寻路系统",
+      "context": "寻路系统为AI实体提供导航能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理系统",
+      "predicate": "包含",
+      "object": "碰撞检测",
+      "context": "碰撞检测是物理系统的基础功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理系统",
+      "predicate": "包含",
+      "object": "Chaos破坏系统",
+      "context": "Chaos是UE的高级物理破坏模拟系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay技能系统",
+      "predicate": "适用于",
+      "object": "RPG游戏",
+      "context": "技能系统特别适合构建RPG类游戏的复杂技能机制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "网络和多玩家系统",
+      "predicate": "依赖",
+      "object": "数据同步",
+      "context": "多人游戏体验的核心是客户端间的数据同步机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "大型世界坐标",
+      "predicate": "改进",
+      "object": "浮点精度",
+      "context": "大型世界坐标系统通过双精度支持提高了引擎的浮点精度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据驱动型Gameplay元素",
+      "predicate": "支持",
+      "object": "在线服务模式",
+      "context": "数据驱动设计便于通过在线服务动态调整游戏参数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "载具系统",
+      "predicate": "基于",
+      "object": "物理模拟",
+      "context": "载具系统建立在物理模拟基础上实现真实运动效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay教程",
+      "predicate": "演示",
+      "object": "蓝图和C++实现",
+      "context": "教程展示了如何使用蓝图和C++实现常见游戏机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AI感知组件",
+      "predicate": "属于",
+      "object": "人工智能系统",
+      "context": "感知组件是AI系统实现环境感知的关键部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境查询系统",
+      "predicate": "辅助",
+      "object": "AI决策",
+      "context": "EQS系统帮助AI评估环境状态做出更好决策",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "物理材质",
+      "predicate": "影响",
+      "object": "碰撞响应",
+      "context": "物理材质决定了物体碰撞时的物理行为表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay定时器",
+      "predicate": "控制",
+      "object": "技能冷却",
+      "context": "定时器系统常用于管理游戏技能的冷却时间",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "状态树",
+      "predicate": "替代",
+      "object": "行为树",
+      "context": "状态树是UE提供的另一种AI行为建模方式，可作为行为树的替代方案",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T19:11:13.193Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9351,
+    "contentLength": 7191,
+    "processingTimeMs": 66179
+  }
+}

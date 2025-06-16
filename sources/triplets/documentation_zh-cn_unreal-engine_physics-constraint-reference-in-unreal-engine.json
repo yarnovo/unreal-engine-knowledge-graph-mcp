@@ -1,0 +1,221 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_physics-constraint-reference-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_physics-constraint-reference-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "物理约束",
+      "predicate": "包含",
+      "object": "约束行为",
+      "context": "约束行为是物理约束的一个属性类别，用于控制约束的物理行为特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理约束",
+      "predicate": "包含",
+      "object": "线性限度",
+      "context": "线性限度是物理约束的一个属性类别，用于控制沿XYZ轴的线性运动限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理约束",
+      "predicate": "包含",
+      "object": "角限度",
+      "context": "角限度是物理约束的一个属性类别，用于控制旋转运动的限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理约束",
+      "predicate": "包含",
+      "object": "线型马达",
+      "context": "线型马达是物理约束的一个属性类别，用于控制线性运动驱动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理约束",
+      "predicate": "包含",
+      "object": "角马达",
+      "context": "角马达是物理约束的一个属性类别，用于控制旋转运动驱动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理约束",
+      "predicate": "作用于",
+      "object": "Actor",
+      "context": "物理约束需要指定两个Actor作为约束对象，这是约束的基本工作方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "约束行为",
+      "predicate": "包含",
+      "object": "线性投射",
+      "context": "线性投射是约束行为的一种修正方式，用于解决平移误差",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "约束行为",
+      "predicate": "包含",
+      "object": "角投射",
+      "context": "角投射是约束行为的一种修正方式，用于解决旋转误差",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "约束行为",
+      "predicate": "包含",
+      "object": "冲击传播",
+      "context": "冲击传播是约束行为的一种特性，用于增加关节链的刚性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "线性限度",
+      "predicate": "控制",
+      "object": "XMotion",
+      "context": "XMotion属性控制沿X轴的线性约束类型（自由、受限或锁定）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "线性限度",
+      "predicate": "控制",
+      "object": "YMotion",
+      "context": "YMotion属性控制沿Y轴的线性约束类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "线性限度",
+      "predicate": "控制",
+      "object": "ZMotion",
+      "context": "ZMotion属性控制沿Z轴的线性约束类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角限度",
+      "predicate": "控制",
+      "object": "Swing1Motion",
+      "context": "Swing1Motion属性控制摇摆1轴的运动约束类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角限度",
+      "predicate": "控制",
+      "object": "Swing2Motion",
+      "context": "Swing2Motion属性控制摇摆2轴的运动约束类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角限度",
+      "predicate": "控制",
+      "object": "TwistMotion",
+      "context": "TwistMotion属性控制扭转轴的运动约束类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "线型马达",
+      "predicate": "包含",
+      "object": "位置目标",
+      "context": "位置目标是线型马达的一个属性，用于设置理想的线性位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "线型马达",
+      "predicate": "包含",
+      "object": "速度目标",
+      "context": "速度目标是线型马达的一个属性，用于设置理想的线性速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角马达",
+      "predicate": "包含",
+      "object": "角驱动模式",
+      "context": "角驱动模式决定角马达使用SLERP还是扭转与摇摆模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角马达",
+      "predicate": "包含",
+      "object": "目标朝向",
+      "context": "目标朝向是角马达的一个属性，用于设置理想的旋转朝向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理资源工具",
+      "predicate": "用于",
+      "object": "创建物理约束",
+      "context": "物理资源工具可用于创建骨骼约束，指定约束的骨骼名称",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "线性限度",
+      "predicate": "影响",
+      "object": "物理模拟稳定性",
+      "context": "线性限度的设置直接影响物理模拟的稳定性和真实感",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "角限度",
+      "predicate": "影响",
+      "object": "物理模拟稳定性",
+      "context": "角限度的设置直接影响物理模拟的稳定性和真实感",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "软约束",
+      "predicate": "用于",
+      "object": "线性限度",
+      "context": "软约束可以在线性限度中启用，使用弹簧效果实现更自然的物理行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "软约束",
+      "predicate": "用于",
+      "object": "角限度",
+      "context": "软约束可以在角限度中启用，使用弹簧效果实现更自然的旋转行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SLERP",
+      "predicate": "是",
+      "object": "角驱动模式",
+      "context": "SLERP是角马达的一种驱动模式，使用球面线性插值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "扭转与摇摆",
+      "predicate": "是",
+      "object": "角驱动模式",
+      "context": "扭转与摇摆是角马达的一种驱动模式，分解为椎体和roll约束",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:23:20.640Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11723,
+    "contentLength": 7351,
+    "processingTimeMs": 71747
+  }
+}

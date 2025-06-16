@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_an-overview-of-audio-stream-caching-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_an-overview-of-audio-stream-caching-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "音频流缓存",
+      "predicate": "改变",
+      "object": "音频加载方式",
+      "context": "音频流缓存改变了音频加载和从内存释放的方式，帮助学习者理解其核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频流缓存",
+      "predicate": "分离",
+      "object": "压缩音频数据",
+      "context": "在烘焙时，压缩音频数据从USoundWave资源分离出来，置于.pak文件末尾，帮助学习者理解缓存的数据结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频流缓存",
+      "predicate": "适用于",
+      "object": "开放世界场景游戏",
+      "context": "音频流缓存在开放世界场景游戏中很流行，帮助学习者理解其适用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "最大缓存大小",
+      "predicate": "限制",
+      "object": "压缩音频数据内存使用",
+      "context": "最大缓存大小是压缩音频数据使用内存的硬限制，帮助学习者理解缓存大小的关键作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缓存大小",
+      "predicate": "影响",
+      "object": "音频播放延迟",
+      "context": "缓存大小直接影响音频播放的延迟，帮助学习者理解性能调优的关键参数",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Prime Sound For Playback",
+      "predicate": "用于",
+      "object": "预加载音效",
+      "context": "Prime Sound For Playback功能用于预加载音效到缓存，帮助学习者掌握避免延迟的技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "加载后准备",
+      "predicate": "设置",
+      "object": "声波加载行为",
+      "context": "将声波的加载行为设为'加载后准备'可以优化播放性能，帮助学习者理解加载策略",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "加载后保留",
+      "predicate": "强制",
+      "object": "音效常驻内存",
+      "context": "'加载后保留'设置可以强制音效常驻内存，帮助学习者理解无延迟播放的实现方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Trim Audio Cache",
+      "predicate": "释放",
+      "object": "未使用音频数据块",
+      "context": "Trim Audio Cache函数用于释放未使用的音频数据块，帮助学习者掌握内存优化技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "au.streamcaching.MinimumCacheUsage",
+      "predicate": "控制",
+      "object": "数据块最大数量",
+      "context": "MinimumCacheUsage参数控制缓存中数据块的最大数量，帮助学习者理解缓存利用率调节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "au.streamcaching.ReadRequestPriority",
+      "predicate": "设置",
+      "object": "音频读取优先级",
+      "context": "ReadRequestPriority设置音频数据块加载的优先级，帮助学习者理解资源调度机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音频流缓存",
+      "predicate": "依赖",
+      "object": "IAsyncReadRequest",
+      "context": "音频数据块通过IAsyncReadRequest从磁盘读取，帮助学习者理解底层读取机制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "USoundWave",
+      "predicate": "包含",
+      "object": "标头和音效数据",
+      "context": "USoundWave资源包含标头和音效数据，帮助学习者理解音频资源结构",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "音频流缓存",
+      "predicate": "替代",
+      "object": "传统音频加载方式",
+      "context": "音频流缓存替代了传统的音频加载方式，帮助学习者理解技术演进",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "声音提示",
+      "predicate": "支持",
+      "object": "提前准备",
+      "context": "声音提示也支持提前准备到缓存中，帮助学习者扩展应用场景理解",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T17:56:29.078Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9420 字符)",
+      "timestamp": "2025-06-15T17:55:28.079Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 14508,
+    "contentLength": 9420,
+    "processingTimeMs": 61011
+  }
+}

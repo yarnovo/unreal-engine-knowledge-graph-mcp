@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_bump-mapping-without-tangent-space-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_bump-mapping-without-tangent-space-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "凹凸贴图",
+      "predicate": "替代",
+      "object": "置换贴图",
+      "context": "凹凸贴图通过调整着色计算创建凹凸表面的假象，无需增加几何体，比置换贴图更快速且避免小毛病",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "法线贴图",
+      "predicate": "属于",
+      "object": "凹凸贴图",
+      "context": "法线贴图是凹凸贴图的一种变种，存储每个像素的3D向量信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "法线贴图",
+      "predicate": "依赖",
+      "object": "切线空间",
+      "context": "法线贴图需要在切线空间中存储法线向量以便在任何旋转下重复使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ddx",
+      "predicate": "用于",
+      "object": "计算导数",
+      "context": "ddx材质表现用于计算输入值的近似导数，通过右减左像素实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ddy",
+      "predicate": "用于",
+      "object": "计算导数",
+      "context": "ddy材质表现用于计算输入值的近似导数，通过下减上像素实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ComputeFilterWidth",
+      "predicate": "使用",
+      "object": "ddx和ddy",
+      "context": "ComputeFilterWidth函数利用ddx和ddy计算数值在屏幕上的变化速度，用于淡出远处细节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PerturbNormalLQ",
+      "predicate": "使用",
+      "object": "ddx和ddy",
+      "context": "PerturbNormalLQ函数使用ddx和ddy将灰度凹凸贴图转换为世界空间法线，但精度较低",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PerturbNormalHQ",
+      "predicate": "替代",
+      "object": "PerturbNormalLQ",
+      "context": "PerturbNormalHQ通过多次计算标量函数提供比PerturbNormalLQ更高的精度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PreparePerturbNormalHQ",
+      "predicate": "支持",
+      "object": "PerturbNormalHQ",
+      "context": "PreparePerturbNormalHQ函数计算PerturbNormalHQ所需的三个样本位置，支持其高精度计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理",
+      "predicate": "提高",
+      "object": "性能",
+      "context": "使用纹理与凹凸映射材质函数共用可以提高性能，但可能导致穿帮",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "程序化着色器",
+      "predicate": "消耗",
+      "object": "性能",
+      "context": "程序化着色器对性能消耗较大且难以消除锯齿，建议谨慎使用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "切线空间",
+      "predicate": "依赖",
+      "object": "UV贴图",
+      "context": "切线空间贴图依赖于物体的UV贴图，因为纹理的X和Y方向定义了切线空间的两个向量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "不基于切线空间的凹凸贴图",
+      "predicate": "避免",
+      "object": "UV贴图问题",
+      "context": "不基于切线空间的凹凸贴图方法避免了UV贴图带来的复杂性和穿帮问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:17:58.860Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11477,
+    "contentLength": 7497,
+    "processingTimeMs": 52379
+  }
+}

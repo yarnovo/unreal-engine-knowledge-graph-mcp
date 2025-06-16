@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-the-common-bound-action-bar-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-the-common-bound-action-bar-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "通用绑定操作栏",
+      "predicate": "属于",
+      "object": "CommonUI",
+      "context": "通用绑定操作栏是CommonUI中的一个控件，用于显示当前活动的UI中的所有输入操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通用绑定操作栏",
+      "predicate": "用于",
+      "object": "输入操作映射",
+      "context": "通用绑定操作栏用于将输入操作映射到屏幕上的按钮，方便用户交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCommonBoundActionBar",
+      "predicate": "实现",
+      "object": "通用绑定操作栏",
+      "context": "UCommonBoundActionBar是实现通用绑定操作栏功能的类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCommonBoundActionBar",
+      "predicate": "依赖",
+      "object": "操作路由器",
+      "context": "UCommonBoundActionBar依赖操作路由器的委托来更新可用的操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "操作路由器",
+      "predicate": "属于",
+      "object": "UCommonUIActionRouterBase",
+      "context": "操作路由器是UCommonUIActionRouterBase的一部分，用于管理输入操作的更新",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCommonUIActionRouterBase",
+      "predicate": "依赖",
+      "object": "本地玩家子系统",
+      "context": "UCommonUIActionRouterBase是一个本地玩家子系统，依赖本地玩家来更新",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBindUIActionArgs",
+      "predicate": "控制",
+      "object": "操作栏显示",
+      "context": "FBindUIActionArgs中的bDisplayInActionBar属性控制输入操作是否会添加到操作栏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCommonUserWidget",
+      "predicate": "包含",
+      "object": "bDisplayInActionBar",
+      "context": "UCommonUserWidget及其派生类包含bDisplayInActionBar属性，用于控制操作栏显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCommonBoundActionButton",
+      "predicate": "派生自",
+      "object": "UCommonBoundActionButton",
+      "context": "开发者可以创建从UCommonBoundActionButton派生的类来实现自定义操作按钮",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通用输入操作控件",
+      "predicate": "显示",
+      "object": "按钮图标",
+      "context": "通用输入操作控件用于显示按钮图标，帮助用户识别输入操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "通用文本控件",
+      "predicate": "显示",
+      "object": "输入操作名称",
+      "context": "通用文本控件用于显示输入操作的友好名称，帮助用户理解操作功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCommonBoundActionButton",
+      "predicate": "绑定",
+      "object": "Text_ActionName",
+      "context": "UCommonBoundActionButton会基于Text_ActionName名称将文本控件绑定到InputAction的文本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可激活控件",
+      "predicate": "前置",
+      "object": "操作栏显示",
+      "context": "包含输入操作的控件必须已激活，才能在操作栏中显示这些操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCommonActivatableWidget",
+      "predicate": "支持",
+      "object": "自动激活",
+      "context": "UCommonActivatableWidget支持通过bAutoActivate设置实现控件的自动激活",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:23:42.344Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6048,
+    "contentLength": 3900,
+    "processingTimeMs": 40644
+  }
+}

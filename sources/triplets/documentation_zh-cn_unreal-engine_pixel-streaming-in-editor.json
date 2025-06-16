@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_pixel-streaming-in-editor",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_pixel-streaming-in-editor.md",
+  "triples": [
+    {
+      "subject": "像素流送工具栏",
+      "predicate": "控制",
+      "object": "像素流送",
+      "context": "像素流送工具栏是用于在编辑器中控制像素流送的主要手段，帮助学习者理解如何操作像素流送功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "像素流送插件",
+      "predicate": "启用",
+      "object": "像素流送工具栏",
+      "context": "要访问像素流送工具栏，必须启用像素流送插件，这是使用像素流送功能的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程信令服务器",
+      "predicate": "替代",
+      "object": "嵌入式信令服务器",
+      "context": "使用远程信令服务器可以替代嵌入式信令服务器，适用于需要更复杂配置的场景",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "嵌入式信令服务器",
+      "predicate": "使用",
+      "object": "默认端口",
+      "context": "嵌入式信令服务器默认使用特定端口，学习者需要了解这些默认值以便配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟摄像机",
+      "predicate": "属于",
+      "object": "像素流送功能",
+      "context": "虚拟摄像机是像素流送的试验性功能，扩展了像素流送的应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "编码解码器",
+      "predicate": "影响",
+      "object": "流质量",
+      "context": "编码解码器选项决定了流的编码方式，直接影响流的质量和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器流送",
+      "predicate": "基于",
+      "object": "像素流送模块",
+      "context": "编辑器流送利用基础像素流送模块，熟悉像素流送的用户能更快适应编辑器流送",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编辑器流送",
+      "predicate": "支持",
+      "object": "远程交互",
+      "context": "编辑器流送支持将虚幻引擎编辑器流送到网络浏览器，实现远程交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流送关卡编辑器",
+      "predicate": "是",
+      "object": "编辑器流送选项",
+      "context": "流送关卡编辑器是编辑器流送的一个选项，仅流送关卡视口而非完整编辑器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "云流送",
+      "predicate": "需要",
+      "object": "特定启动参数",
+      "context": "从云实例流送编辑器需要特定的启动参数，与常规像素流送有所不同",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:23:57.792Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8545,
+    "contentLength": 5739,
+    "processingTimeMs": 35636
+  }
+}

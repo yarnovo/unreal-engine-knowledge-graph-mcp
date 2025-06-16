@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_ambient-sound-actor-user-guide-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_ambient-sound-actor-user-guide-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "环境声Actor",
+      "predicate": "使用",
+      "object": "声波",
+      "context": "环境声Actor需要声波或Sound Cue资源来产生声音效果，这是其核心功能的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境声Actor",
+      "predicate": "使用",
+      "object": "Sound Cue",
+      "context": "Sound Cue可以替代声波作为环境声Actor的声音源，提供更复杂的声音控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境声Actor",
+      "predicate": "包含属性",
+      "object": "自动激活",
+      "context": "自动激活属性决定环境声Actor是否在游戏开始时自动播放，是重要的行为控制参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境声Actor",
+      "predicate": "包含属性",
+      "object": "音量乘数",
+      "context": "音量乘数属性允许调整环境声的整体音量，是声音设计的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境声Actor",
+      "predicate": "依赖",
+      "object": "衰减属性",
+      "context": "衰减属性控制声音随距离变化的音量变化，是环境声实现空间效果的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减属性",
+      "predicate": "包含",
+      "object": "MinRadius",
+      "context": "MinRadius定义声音保持最大音量的最小半径，是衰减系统的基础参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减属性",
+      "predicate": "包含",
+      "object": "MaxRadius",
+      "context": "MaxRadius定义声音完全消失的最大半径，与MinRadius共同控制声音衰减范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境声Actor",
+      "predicate": "关联",
+      "object": "音频体积",
+      "context": "音频体积可以与环境声Actor配合使用，提供更精细的区域声音控制",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "环境声Actor",
+      "predicate": "可添加至",
+      "object": "蓝图",
+      "context": "环境声Actor可以作为音频组件添加到蓝图中，实现程序化声音控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "包含事件",
+      "object": "OnAudioFinished",
+      "context": "OnAudioFinished事件允许在音频播放完成时触发自定义逻辑，增强声音交互性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sound Cue",
+      "predicate": "可编辑于",
+      "object": "Sound Cue编辑器",
+      "context": "Sound Cue资源可以在Sound Cue编辑器中进行编辑，创建复杂的声音效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境声Actor",
+      "predicate": "支持",
+      "object": "调制属性",
+      "context": "调制属性允许对音量、音高等参数进行动态调整，增强声音表现力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调制属性",
+      "predicate": "包含选项",
+      "object": "禁用",
+      "context": "禁用选项允许关闭调制功能，提供灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调制属性",
+      "predicate": "包含选项",
+      "object": "继承",
+      "context": "继承选项允许从父声音继承调制设置，简化配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "调制属性",
+      "predicate": "包含选项",
+      "object": "覆盖",
+      "context": "覆盖选项允许自定义调制参数，提供最大控制权",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境声Actor",
+      "predicate": "可通过",
+      "object": "内容浏览器添加",
+      "context": "通过内容浏览器拖放声音资源是创建环境声Actor的便捷方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境声Actor",
+      "predicate": "可通过",
+      "object": "放置Actor面板添加",
+      "context": "通过放置Actor面板添加是创建环境声Actor的标准方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "声波",
+      "predicate": "可设置为",
+      "object": "循环",
+      "context": "循环设置使声波能够重复播放，适用于持续环境音效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环境声Actor",
+      "predicate": "遵循",
+      "object": "距离音量规律",
+      "context": "环境声Actor默认遵循现实世界的距离音量规律，这是其空间音频的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T17:56:34.665Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 12106,
+    "contentLength": 7814,
+    "processingTimeMs": 66599
+  }
+}

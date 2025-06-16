@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-the-main-material-node-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-the-main-material-node-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "材质",
+      "predicate": "使用",
+      "object": "高级着色语言(HLSL)",
+      "context": "材质通过HLSL创建，这是控制图形硬件的专门编码语言",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质表达式",
+      "predicate": "包含",
+      "object": "HLSL片段",
+      "context": "材质表达式节点包含HLSL代码片段，用于创建材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主材质节点",
+      "predicate": "接收",
+      "object": "材质表达式",
+      "context": "主材质节点的输入接收材质表达式节点的组合，决定最终材质外观",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "主材质节点",
+      "predicate": "决定",
+      "object": "材质外观",
+      "context": "连接到主材质节点的输入组合决定了材质的最终外观",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基础颜色输入",
+      "predicate": "影响",
+      "object": "材质颜色",
+      "context": "基础颜色输入定义了材质的颜色属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "金属感输入",
+      "predicate": "控制",
+      "object": "材质金属属性",
+      "context": "金属感输入控制材质是否呈现金属特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粗糙度输入",
+      "predicate": "影响",
+      "object": "材质表面光滑度",
+      "context": "粗糙度输入影响材质表面的光滑程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎5",
+      "predicate": "采用",
+      "object": "基于物理的渲染(PBR)",
+      "context": "UE5使用PBR工作流程，使材质更接近真实世界的光线交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "细节面板",
+      "predicate": "控制",
+      "object": "主材质节点输入启用状态",
+      "context": "细节面板中的材质域、混合模式和着色模型属性决定哪些输入被启用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合模式",
+      "predicate": "影响",
+      "object": "输入启用状态",
+      "context": "更改混合模式会启用或禁用相关输入，如半透明模式会启用不透明度输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "着色模型",
+      "predicate": "决定",
+      "object": "专用输入启用",
+      "context": "选择特定着色模型会启用专用输入，如清除涂层模型会启用清除涂层相关输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "已禁用输入",
+      "predicate": "忽略",
+      "object": "连接节点",
+      "context": "连接到已禁用输入的节点在材质编译时会被忽略",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质编辑器",
+      "predicate": "预览",
+      "object": "材质效果",
+      "context": "材质编辑器实时预览连接到主材质节点的更改效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理材质",
+      "predicate": "定义",
+      "object": "物理交互属性",
+      "context": "物理材质定义材质在物理模拟中的交互特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "半透明属性",
+      "predicate": "控制",
+      "object": "光线透射效果",
+      "context": "半透明属性控制材质如何表现光线透射效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质用途",
+      "predicate": "指定",
+      "object": "适用对象类型",
+      "context": "用途标记指定材质适用的对象类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动设备材质",
+      "predicate": "优化",
+      "object": "移动平台表现",
+      "context": "移动分段设置优化材质在移动设备上的表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理材质",
+      "predicate": "应用于",
+      "object": "色调映射",
+      "context": "后期处理材质专门用于后期处理和色调映射效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质图表",
+      "predicate": "连接",
+      "object": "主材质节点",
+      "context": "材质表达式通过连接线连接到主材质节点的输入",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质预览",
+      "predicate": "反映",
+      "object": "节点连接变化",
+      "context": "材质编辑器视口实时预览反映对主材质节点连接的更改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:24:55.085Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8679 字符)",
+      "timestamp": "2025-06-15T21:24:03.943Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13903,
+    "contentLength": 8679,
+    "processingTimeMs": 51149
+  }
+}

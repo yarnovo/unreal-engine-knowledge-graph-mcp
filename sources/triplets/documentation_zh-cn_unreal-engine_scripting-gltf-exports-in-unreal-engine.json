@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_scripting-gltf-exports-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_scripting-gltf-exports-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Export to glTF函数",
+      "predicate": "支持",
+      "object": "蓝图",
+      "context": "Export to glTF函数可以通过蓝图进行调用和配置，帮助学习者理解如何在可视化脚本中使用该功能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Export to glTF函数",
+      "predicate": "支持",
+      "object": "Python",
+      "context": "Export to glTF函数可以通过Python脚本进行调用，适合需要自动化或批量处理的学习场景",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Export to glTF函数",
+      "predicate": "生成",
+      "object": "glTF文件",
+      "context": "该函数的主要功能是将虚幻引擎内容导出为glTF格式文件，这是学习3D资产导出的核心知识点",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "glTF文件",
+      "predicate": "包含",
+      "object": "JSON格式",
+      "context": "glTF文件可以保存为JSON格式，包含场景说明、纹理和二进制数据，帮助理解glTF文件结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "glTF文件",
+      "predicate": "包含",
+      "object": "Binary格式",
+      "context": "glTF文件也可以保存为.glb二进制格式，将所有数据合并为单个文件，这是学习不同导出格式的重要区别",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行时导出",
+      "predicate": "依赖",
+      "object": "GLTFBuilder API",
+      "context": "在运行时导出glTF文件时，可以使用GLTFBuilder API修改文件内容，这是学习运行时内容处理的高级知识点",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "运行时导出",
+      "predicate": "需要",
+      "object": "预烘焙材质",
+      "context": "由于运行时无法进行材质烘焙，需要预先创建glTF代理材质，这对学习材质处理流程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "用于",
+      "object": "配置导出选项",
+      "context": "通过蓝图可以配置导出路径、对象和选项，帮助学习者理解可视化脚本在导出流程中的应用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Python脚本",
+      "predicate": "用于",
+      "object": "批量导出",
+      "context": "Python脚本适合处理批量导出任务，这是学习自动化工作流的重要案例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "glTF导出器",
+      "predicate": "处理",
+      "object": "UStaticMesh",
+      "context": "导出器支持处理静态网格资产，这是学习3D模型导出的基础概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "glTF导出器",
+      "predicate": "处理",
+      "object": "USkeletalMesh",
+      "context": "导出器支持处理骨骼网格资产，扩展学习者对动画模型导出的理解",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "glTF导出器",
+      "predicate": "处理",
+      "object": "UWorld",
+      "context": "导出器可以处理整个关卡世界，这是学习场景导出的关键知识点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质烘焙",
+      "predicate": "不支持",
+      "object": "运行时导出",
+      "context": "理解运行时限制对学习导出工作流设计很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "glTF代理材质",
+      "predicate": "替代",
+      "object": "运行时材质",
+      "context": "学习如何通过代理材质解决运行时导出限制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:40:40.722Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6232,
+    "contentLength": 4288,
+    "processingTimeMs": 57596
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-engine-console-commands-reference",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-engine-console-commands-reference.md",
+  "triples": [
+    {
+      "subject": "Console Commands",
+      "predicate": "控制",
+      "object": "虚幻引擎功能",
+      "context": "控制台命令是开发者与虚幻引擎交互的主要方式，可以实时调整引擎参数和功能",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "AssetManager",
+      "predicate": "管理",
+      "object": "游戏资产",
+      "context": "AssetManager命令组提供对游戏资产的审计、依赖分析和加载/卸载控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Animation System",
+      "predicate": "包含",
+      "object": "AnimGraph",
+      "context": "a.*命令组涉及动画系统，其中AnimGraph是动画蓝图的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "Niagara",
+      "predicate": "扩展",
+      "object": "粒子系统",
+      "context": "fx.Niagara.*命令组展示了Niagara作为UE新一代粒子系统的扩展功能",
+      "direction": "unidirectional",
+      "confidence": 0.88
+    },
+    {
+      "subject": "World Partition",
+      "predicate": "替代",
+      "object": "传统关卡流送",
+      "context": "wp.*命令组展示了World Partition系统对传统关卡流送系统的替代方案",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "GeometryCollection",
+      "predicate": "实现",
+      "object": "破坏效果",
+      "context": "GeometryCollection.*命令用于调试和操作实现物理破坏效果的几何体集合",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "Slate",
+      "predicate": "构建",
+      "object": "UI框架",
+      "context": "Slate.*命令组暴露了UE底层UI框架的调试和控制接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Networking",
+      "predicate": "依赖",
+      "object": "Iris",
+      "context": "Net.Iris.*命令展示了UE5新网络系统Iris的核心调试功能",
+      "direction": "unidirectional",
+      "confidence": 0.82
+    },
+    {
+      "subject": "Virtual Texturing",
+      "predicate": "优化",
+      "object": "纹理内存",
+      "context": "r.VT.*命令组用于调试虚拟纹理系统，这是UE优化纹理内存的关键技术",
+      "direction": "unidirectional",
+      "confidence": 0.88
+    },
+    {
+      "subject": "Live Coding",
+      "predicate": "支持",
+      "object": "快速迭代",
+      "context": "LiveCoding命令支持不重启编辑器的情况下重新编译代码，加速开发迭代",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gameplay Debugger",
+      "predicate": "提供",
+      "object": "运行时诊断",
+      "context": "gdt.*命令组控制Gameplay Debugger工具，用于游戏运行时诊断",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "Audio System",
+      "predicate": "包含",
+      "object": "SoundCue",
+      "context": "au.*命令组涉及音频系统，其中SoundCue是音频设计的关键资产类型",
+      "direction": "unidirectional",
+      "confidence": 0.87
+    },
+    {
+      "subject": "Material System",
+      "predicate": "依赖",
+      "object": "Shader编译",
+      "context": "r.InvalidateCachedShaders命令展示了材质系统对shader编译管道的依赖",
+      "direction": "unidirectional",
+      "confidence": 0.83
+    },
+    {
+      "subject": "AI系统",
+      "predicate": "使用",
+      "object": "NavMesh",
+      "context": "ai.debug.nav.*命令用于调试AI导航使用的NavMesh系统",
+      "direction": "unidirectional",
+      "confidence": 0.86
+    },
+    {
+      "subject": "Async Loading",
+      "predicate": "管理",
+      "object": "资源加载",
+      "context": "TrackAsyncLoadRequests.*命令组提供了异步资源加载系统的调试接口",
+      "direction": "unidirectional",
+      "confidence": 0.89
+    }
+  ],
+  "timestamp": "2025-06-15T21:07:41.747Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (61890 字符)",
+      "timestamp": "2025-06-15T21:06:57.643Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 62045,
+    "contentLength": 61890,
+    "processingTimeMs": 44111
+  }
+}

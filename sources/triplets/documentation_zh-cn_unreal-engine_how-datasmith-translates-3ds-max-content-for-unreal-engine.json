@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-datasmith-translates-3ds-max-content-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-datasmith-translates-3ds-max-content-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Datasmith",
+      "predicate": "转换",
+      "object": "3ds Max内容",
+      "context": "Datasmith是虚幻引擎中用于将3ds Max场景转换为虚幻引擎可识别格式的工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith",
+      "predicate": "生成",
+      "object": "静态网格体资产",
+      "context": "Datasmith将3ds Max中的几何对象转换为虚幻引擎中的静态网格体资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体资产",
+      "predicate": "用于",
+      "object": "关卡",
+      "context": "静态网格体资产被放置在虚幻引擎的关卡中，构成场景的几何部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3ds Max实例",
+      "predicate": "转换为",
+      "object": "静态网格体实例",
+      "context": "3ds Max中的实例在虚幻引擎中被转换为同一静态网格体资产的多个实例，优化内存和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "枢轴点",
+      "predicate": "影响",
+      "object": "静态网格体Actor",
+      "context": "3ds Max中对象的枢轴点设置会影响虚幻引擎中静态网格体Actor的旋转和位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UV通道",
+      "predicate": "用于",
+      "object": "光照贴图",
+      "context": "UV通道在虚幻引擎中用于生成光照贴图，影响静态光照的构建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义碰撞形状",
+      "predicate": "优化",
+      "object": "物理模拟",
+      "context": "自定义碰撞形状可以提高虚幻引擎中物理模拟的性能和准确性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "顶点颜色",
+      "predicate": "保留",
+      "object": "静态网格体资产",
+      "context": "Datasmith在转换过程中保留3ds Max对象的顶点颜色，可用于材质和视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Forest Pack对象",
+      "predicate": "转换为",
+      "object": "HISM组件",
+      "context": "Forest Pack对象在虚幻引擎中被转换为分级实例化静态网格体（HISM）组件，优化渲染性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RailClone对象",
+      "predicate": "转换为",
+      "object": "HISM组件",
+      "context": "RailClone对象在虚幻引擎中被转换为分级实例化静态网格体（HISM）组件，优化渲染性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3ds Max光源",
+      "predicate": "转换为",
+      "object": "虚幻引擎光源",
+      "context": "3ds Max中的光源（如点光源、聚光灯）被转换为虚幻引擎中的对应光源类型，保留位置、强度和颜色等属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理摄像机",
+      "predicate": "保留",
+      "object": "曝光设置",
+      "context": "Datasmith保留3ds Max物理摄像机的曝光设置，并在虚幻引擎中应用相同的参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3ds Max材质",
+      "predicate": "转换为",
+      "object": "虚幻引擎材质",
+      "context": "3ds Max中的材质被转换为虚幻引擎的基于物理的渲染材质，尽可能保留视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "流程性纹理",
+      "predicate": "烘焙为",
+      "object": "纹理文件",
+      "context": "3ds Max中的流程性纹理被烘焙为.tga文件，用于虚幻引擎中的材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "元数据",
+      "predicate": "保留",
+      "object": "用户定义属性",
+      "context": "3ds Max中对象的用户定义属性（元数据）被保留并导入到虚幻引擎中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:22:27.604Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (26834 字符)",
+      "timestamp": "2025-06-15T19:21:32.852Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 42241,
+    "contentLength": 26834,
+    "processingTimeMs": 54761
+  }
+}

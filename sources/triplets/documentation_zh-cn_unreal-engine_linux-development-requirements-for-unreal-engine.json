@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_linux-development-requirements-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_linux-development-requirements-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Linux开发",
+      "predicate": "需要",
+      "object": "软件开发工具包（SDK）",
+      "context": "为Linux设备开发虚幻引擎项目需要特定的SDK和硬件要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Linux开发",
+      "predicate": "需要",
+      "object": "硬件要求",
+      "context": "为Linux设备开发虚幻引擎项目需要特定的SDK和硬件要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Ubuntu 22.04",
+      "predicate": "是",
+      "object": "推荐操作系统",
+      "context": "Ubuntu 22.04是虚幻引擎Linux开发的推荐操作系统之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Rocky Linux 8",
+      "predicate": "是",
+      "object": "推荐操作系统",
+      "context": "Rocky Linux 8是虚幻引擎Linux开发的推荐操作系统之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "clang 18.1.0",
+      "predicate": "是",
+      "object": "推荐编译器",
+      "context": "clang 18.1.0是虚幻引擎Linux开发的推荐编译器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Visual Studio Code",
+      "predicate": "是",
+      "object": "推荐IDE",
+      "context": "Visual Studio Code是虚幻引擎Linux开发的推荐IDE之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Rider",
+      "predicate": "是",
+      "object": "推荐IDE",
+      "context": "Rider是虚幻引擎Linux开发的推荐IDE之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交叉编译",
+      "predicate": "支持",
+      "object": "Windows开发",
+      "context": "交叉编译允许Windows开发者以Linux为目标进行开发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交叉编译",
+      "predicate": "不支持",
+      "object": "Mac开发",
+      "context": "交叉编译目前不支持Mac，Mac用户只能使用原生编译",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "原生工具链",
+      "predicate": "自动下载",
+      "object": "Setup.sh",
+      "context": "虚幻引擎的安装shell脚本Setup.sh会自动下载原生工具链",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "原生工具链",
+      "predicate": "保证",
+      "object": "编译器兼容性",
+      "context": "原生工具链保证编译器和连接器能够处理虚幻引擎的代码库",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen全局光照",
+      "predicate": "需要",
+      "object": "Shader Model 5（SM5）",
+      "context": "Lumen全局光照和软件光线追踪反射需要支持Shader Model 5的CPU",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen硬件光线追踪",
+      "predicate": "需要",
+      "object": "SM6",
+      "context": "Lumen硬件光线追踪需要在项目设置中启用SM6",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "路径追踪",
+      "predicate": "需要",
+      "object": "SM6",
+      "context": "路径追踪需要在项目设置中启用SM6",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Nanite虚拟化几何体",
+      "predicate": "需要",
+      "object": "VK_KHR_shader_atomic_int64 Vulkan拓展",
+      "context": "Nanite虚拟化几何体需要支持VK_KHR_shader_atomic_int64 Vulkan拓展的GPU",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Nanite虚拟化几何体",
+      "predicate": "需要",
+      "object": "SM6",
+      "context": "Nanite虚拟化几何体需要在项目设置中启用SM6",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟阴影贴图",
+      "predicate": "需要",
+      "object": "VK_KHR_shader_atomic_int64 Vulkan拓展",
+      "context": "虚拟阴影贴图需要支持VK_KHR_shader_atomic_int64 Vulkan拓展的GPU",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟阴影贴图",
+      "predicate": "需要",
+      "object": "SM6",
+      "context": "虚拟阴影贴图需要在项目设置中启用SM6",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交叉编译工具链",
+      "predicate": "基于",
+      "object": "clang 18.1.0",
+      "context": "UE5.5版本的交叉编译工具链基于clang 18.1.0",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "原生工具链",
+      "predicate": "基于",
+      "object": "clang 18.1.0",
+      "context": "UE5.5版本的原生工具链基于clang 18.1.0",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:45:44.080Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9332,
+    "contentLength": 7103,
+    "processingTimeMs": 64427
+  }
+}

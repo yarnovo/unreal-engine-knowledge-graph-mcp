@@ -1,0 +1,123 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_livelinkxr-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_livelinkxr-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "LiveLinkXR",
+      "predicate": "扩展",
+      "object": "实时链接（Live Link）",
+      "context": "LiveLinkXR是实时链接功能的扩展，专门用于支持XR设备的数据流送",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiveLinkXR",
+      "predicate": "依赖",
+      "object": "OpenXR",
+      "context": "LiveLinkXR当前仅支持OpenXR作为其底层XR运行时",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiveLinkXR",
+      "predicate": "支持",
+      "object": "Vive追踪器",
+      "context": "LiveLinkXR插件可以添加XR源如Vive追踪器进行实时数据追踪",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiveLinkXR",
+      "predicate": "包含",
+      "object": "BP_LiveLinkXR_DataHandler",
+      "context": "LiveLinkXR插件提供BP_LiveLinkXR_DataHandler蓝图用于处理接收的追踪数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_LiveLinkXR_DataHandler",
+      "predicate": "控制",
+      "object": "BP_LiveLinkXR_DebugVis",
+      "context": "数据处理器通过Toggle Debug Vis功能控制调试可视化对象的显示",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "LiveLinkXR",
+      "predicate": "需要",
+      "object": "SteamVR",
+      "context": "使用Vive追踪器必须运行SteamVR并设置为OpenXR运行时",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiveLinkXR",
+      "predicate": "提供",
+      "object": "校准功能",
+      "context": "插件提供校准功能用于设置追踪源相对于场景中Actor的坐标转换",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "实时链接（Live Link）",
+      "predicate": "支持",
+      "object": "插件扩展",
+      "context": "实时链接设计允许通过插件扩展功能而无需修改引擎核心",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Vive追踪器",
+      "predicate": "依赖",
+      "object": "SteamVR设置",
+      "context": "使用多个追踪器需要在SteamVR中配置每个追踪器的角色",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "BP_LiveLinkXR_DataHandler",
+      "predicate": "映射",
+      "object": "场景对象",
+      "context": "数据处理器可以将追踪数据映射到场景中的特定对象或Actor",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "LiveLinkXR",
+      "predicate": "关联",
+      "object": "无标头渲染",
+      "context": "通过-xrtrackingonly参数可实现不触发渲染器的纯追踪模式",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "校准功能",
+      "predicate": "基于",
+      "object": "LiveLink主题",
+      "context": "校准使用LiveLink主题中的转换数据计算新的世界原点",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "LiveLinkXR",
+      "predicate": "包含",
+      "object": "本地更新速率设置",
+      "context": "插件允许配置设备追踪数据的本地更新频率（Hz）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:46:46.393Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11822 字符)",
+      "timestamp": "2025-06-15T19:45:51.843Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16330,
+    "contentLength": 11822,
+    "processingTimeMs": 54555
+  }
+}

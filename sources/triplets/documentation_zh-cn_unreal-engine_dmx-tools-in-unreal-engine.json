@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_dmx-tools-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_dmx-tools-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "包含",
+      "object": "DMX工具",
+      "context": "虚幻引擎提供了多种DMX工具，帮助控制DMX装置，这是学习DMX功能的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX工具",
+      "predicate": "包含",
+      "object": "DMX Activity and Channel Monitors",
+      "context": "DMX Activity and Channel Monitors是DMX工具的一部分，用于跟踪DMX安装情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX工具",
+      "predicate": "包含",
+      "object": "DMX冲突监控器",
+      "context": "DMX冲突监控器是DMX工具的一部分，用于检查潜在的数据冲突",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX工具",
+      "predicate": "包含",
+      "object": "DMX Control Console",
+      "context": "DMX Control Console是DMX工具的一部分，用于通过库和补丁选择控制装置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX工具",
+      "predicate": "包含",
+      "object": "DMX Patch Tool",
+      "context": "DMX Patch Tool是DMX工具的一部分，用于快速应用DMX库和补丁",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX Control Console",
+      "predicate": "依赖",
+      "object": "DMX Libraries",
+      "context": "DMX Control Console需要使用DMX Libraries来控制装置，理解这一依赖关系有助于正确使用控制台",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "DMX Control Console",
+      "predicate": "依赖",
+      "object": "Patches",
+      "context": "DMX Control Console需要使用Patches来控制装置，理解这一依赖关系有助于正确使用控制台",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "DMX Patch Tool",
+      "predicate": "用于",
+      "object": "应用DMX Libraries",
+      "context": "DMX Patch Tool专门用于快速应用DMX Libraries，这是其主要功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX Patch Tool",
+      "predicate": "用于",
+      "object": "应用Patches",
+      "context": "DMX Patch Tool专门用于快速应用Patches，这是其主要功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX冲突监控器",
+      "predicate": "检查",
+      "object": "DMX数据冲突",
+      "context": "DMX冲突监控器的主要功能是检查虚幻引擎中DMX工具之间的潜在数据冲突",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX Activity and Channel Monitors",
+      "predicate": "跟踪",
+      "object": "DMX安装",
+      "context": "DMX Activity and Channel Monitors用于跟踪DMX安装情况，这是其核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX Libraries",
+      "predicate": "关联",
+      "object": "Patches",
+      "context": "DMX Libraries和Patches通常一起使用来控制DMX装置，理解它们的关联有助于DMX工作流程",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:54:24.968Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2250,
+    "contentLength": 1904,
+    "processingTimeMs": 53686
+  }
+}

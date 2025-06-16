@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_live-link-plugin-development-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_live-link-plugin-development-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Live Link插件",
+      "predicate": "包含",
+      "object": "Live Link源",
+      "context": "Live Link插件通过Live Link源提供动画数据，理解这一包含关系有助于学习者掌握插件的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link插件",
+      "predicate": "支持",
+      "object": "两种集成方式",
+      "context": "了解插件支持的两种集成方式（构建插件或集成消息总线端点）有助于开发者选择适合自己项目的方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link源",
+      "predicate": "需要",
+      "object": "源工厂",
+      "context": "源工厂是Live Link源的必要组成部分，理解这一需求关系对开发自定义源至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link源",
+      "predicate": "需要",
+      "object": "源对象",
+      "context": "源对象管理数据传输，是Live Link源的另一核心组件，这对理解数据流机制很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "源工厂",
+      "predicate": "派生自",
+      "object": "ULiveLinkSourceFactory",
+      "context": "明确基类关系有助于开发者正确实现自定义源工厂",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "源对象",
+      "predicate": "派生自",
+      "object": "ILiveLinkSource",
+      "context": "了解源对象的基类是实现自定义数据传输的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "消息总线源",
+      "predicate": "基于",
+      "object": "Live Link消息总线框架",
+      "context": "理解消息总线源的实现基础有助于开发者扩展第三方软件集成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link消息总线框架",
+      "predicate": "使用",
+      "object": "LiveLinkProvider",
+      "context": "掌握框架如何使用LiveLinkProvider对实现第三方软件集成很关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiveLinkProvider",
+      "predicate": "提供",
+      "object": "UpdateSubject函数",
+      "context": "了解Provider提供的核心函数对实现数据流送功能很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LiveLinkProvider",
+      "predicate": "提供",
+      "object": "UpdateSubjectFrame函数",
+      "context": "了解Provider提供的核心函数对实现数据流送功能很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单播断点",
+      "predicate": "用于",
+      "object": "指定接收数据的网卡",
+      "context": "理解单播断点的用途有助于解决多网卡环境下的网络配置问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Maya插件",
+      "predicate": "使用",
+      "object": "Live Link消息总线框架",
+      "context": "了解官方插件如何利用框架可以作为开发者实现自定义集成的参考",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MotionBuilder插件",
+      "predicate": "使用",
+      "object": "Live Link消息总线框架",
+      "context": "了解官方插件如何利用框架可以作为开发者实现自定义集成的参考",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FLiveLinkMessageBusSource",
+      "predicate": "属于",
+      "object": "消息总线源实现",
+      "context": "了解内置消息总线源的实现类有助于开发者参考官方实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ULiveLinkMessageBusSourceFactory",
+      "predicate": "属于",
+      "object": "消息总线源实现",
+      "context": "了解内置消息总线源的工厂类有助于开发者参考官方实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SLiveLinkMessageBusSourceEditor",
+      "predicate": "属于",
+      "object": "消息总线源实现",
+      "context": "了解内置消息总线源的编辑器类有助于开发者参考官方实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:46:58.893Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4894,
+    "contentLength": 3112,
+    "processingTimeMs": 67055
+  }
+}

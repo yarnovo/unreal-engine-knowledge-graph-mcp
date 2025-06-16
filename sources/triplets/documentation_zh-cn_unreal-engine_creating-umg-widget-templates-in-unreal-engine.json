@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_creating-umg-widget-templates-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_creating-umg-widget-templates-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "控件蓝图",
+      "predicate": "属于",
+      "object": "UMG",
+      "context": "控件蓝图是UMG（虚幻运动图形）系统的一部分，用于创建用户界面元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "用户控件",
+      "predicate": "实现",
+      "object": "控件蓝图",
+      "context": "每个控件蓝图都被视为用户控件，可以在其他控件蓝图中重复使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CustomButton",
+      "predicate": "用于",
+      "object": "HUD",
+      "context": "CustomButton是专门为HUD控件蓝图创建的可重用按钮组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "尺寸框",
+      "predicate": "包裹",
+      "object": "按钮",
+      "context": "尺寸框用于控制按钮的大小和布局，是按钮的容器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ButtonStyle变量",
+      "predicate": "控制",
+      "object": "按钮外观",
+      "context": "ButtonStyle变量用于定义和修改按钮的视觉样式，包括正常、悬停和按下状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件调度器",
+      "predicate": "处理",
+      "object": "按钮点击事件",
+      "context": "事件调度器允许为每个按钮实例创建独立的点击响应逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HUD控件蓝图",
+      "predicate": "包含",
+      "object": "垂直框",
+      "context": "垂直框是HUD的布局容器，用于组织和排列按钮等UI元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡蓝图",
+      "predicate": "创建",
+      "object": "HUD控件实例",
+      "context": "关卡蓝图在游戏开始时创建HUD控件实例并将其添加到视口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG",
+      "predicate": "支持",
+      "object": "控件模板",
+      "context": "UMG系统支持创建可重用的控件模板，提高UI开发效率",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件蓝图",
+      "predicate": "继承",
+      "object": "用户控件功能",
+      "context": "控件蓝图继承了用户控件的特性，可以在不同场景中重复使用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "按钮",
+      "predicate": "响应",
+      "object": "用户交互",
+      "context": "按钮控件专门用于处理用户的点击交互，触发相应的事件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件调度器",
+      "predicate": "实现",
+      "object": "实例特定逻辑",
+      "context": "通过事件调度器可以为每个按钮实例实现不同的功能逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HUD",
+      "predicate": "显示",
+      "object": "游戏UI",
+      "context": "HUD控件是游戏用户界面的主要呈现方式，包含各种交互元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图第三人称模板",
+      "predicate": "提供",
+      "object": "开发基础",
+      "context": "蓝图第三人称模板为UI开发提供了基础环境和测试场景",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "初学者内容包",
+      "predicate": "包含",
+      "object": "开发资源",
+      "context": "初学者内容包提供了UI开发所需的基本资源和素材",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:42:24.477Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10105,
+    "contentLength": 6971,
+    "processingTimeMs": 45967
+  }
+}

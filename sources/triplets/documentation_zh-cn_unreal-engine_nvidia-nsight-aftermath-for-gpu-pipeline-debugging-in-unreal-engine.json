@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_nvidia-nsight-aftermath-for-gpu-pipeline-debugging-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_nvidia-nsight-aftermath-for-gpu-pipeline-debugging-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "NVIDIA Nsight Aftermath",
+      "predicate": "支持",
+      "object": "GPU调试",
+      "context": "Nsight Aftermath是专门用于GPU调试的工具，帮助开发者在GPU崩溃后获取关键信息",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "NVIDIA Nsight Aftermath",
+      "predicate": "适用于",
+      "object": "Windows开发",
+      "context": "该工具专门为Windows平台上的NVIDIA GeForce GPU提供调试支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NVIDIA Nsight Aftermath",
+      "predicate": "集成于",
+      "object": "虚幻引擎",
+      "context": "虚幻引擎支持并集成了Nsight Aftermath库，开发者可以直接在引擎中使用",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "NVIDIA Nsight Aftermath",
+      "predicate": "生成",
+      "object": "GPU崩溃日志",
+      "context": "工具能在GPU崩溃后生成包含关键信息的日志，帮助定位问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NVIDIA Nsight Aftermath",
+      "predicate": "依赖",
+      "object": "NVIDIA GeForce GPU",
+      "context": "该工具需要NVIDIA GeForce GPU硬件支持才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NVIDIA Nsight Aftermath",
+      "predicate": "替代",
+      "object": "传统调试工具",
+      "context": "相比传统调试工具，Nsight Aftermath具有更轻量级的性能开销",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "GPU崩溃日志",
+      "predicate": "包含",
+      "object": "GPU状态信息",
+      "context": "日志中包含了崩溃发生时GPU的关键状态信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU崩溃日志",
+      "predicate": "用于",
+      "object": "问题诊断",
+      "context": "开发者可以通过分析日志内容来诊断GPU崩溃的根本原因",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.GPUCrashDebugging",
+      "predicate": "控制",
+      "object": "NVIDIA Nsight Aftermath",
+      "context": "该控制台变量用于启用或禁用Nsight Aftermath功能",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "D3D11RHI",
+      "predicate": "记录",
+      "object": "Aftermath日志",
+      "context": "D3D11渲染硬件接口负责记录与Aftermath相关的日志信息",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "Output Log",
+      "predicate": "显示",
+      "object": "Aftermath日志",
+      "context": "开发者可以通过输出日志窗口查看Aftermath生成的调试信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NVIDIA Nsight Aftermath",
+      "predicate": "影响",
+      "object": "渲染性能",
+      "context": "文档提到当标记数量过多时(如单物体阴影)，Aftermath可能会带来较大性能开销",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻引擎编辑器",
+      "predicate": "支持",
+      "object": "Nsight Aftermath标记",
+      "context": "开发者可以直接在虚幻编辑器中使用Aftermath的标记功能来跟踪问题",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T20:08:19.381Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4032,
+    "contentLength": 2952,
+    "processingTimeMs": 48286
+  }
+}

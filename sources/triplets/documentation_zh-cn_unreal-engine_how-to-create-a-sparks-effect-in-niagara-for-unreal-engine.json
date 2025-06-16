@@ -1,0 +1,187 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-create-a-sparks-effect-in-niagara-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-create-a-sparks-effect-in-niagara-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Niagara",
+      "predicate": "用于",
+      "object": "粒子效果创建",
+      "context": "Niagara是虚幻引擎中创建复杂粒子效果的核心系统",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "FX_Smoke",
+      "predicate": "作为模板",
+      "object": "FX_Sparks_Smoke",
+      "context": "通过复制FX_Smoke发射器创建火花效果中的烟雾发射器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SparksSystem",
+      "predicate": "包含",
+      "object": "FX_Sparks_Smoke",
+      "context": "火花系统由多个发射器组成，烟雾发射器是第一个创建的组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发射器状态模块",
+      "predicate": "控制",
+      "object": "发射器生命周期",
+      "context": "该模块决定发射器是独立运行还是受系统控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成率模块",
+      "predicate": "决定",
+      "object": "粒子生成频率",
+      "context": "控制每秒生成多少粒子，直接影响效果密度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "初始化粒子模块",
+      "predicate": "设置",
+      "object": "粒子基础属性",
+      "context": "定义粒子初始生命周期、颜色、大小等关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "添加速度模块",
+      "predicate": "控制",
+      "object": "粒子运动方向",
+      "context": "为粒子赋予初始速度向量，决定运动轨迹",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "形状位置模块",
+      "predicate": "定义",
+      "object": "粒子生成区域",
+      "context": "通过球体半径等参数控制粒子发射范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "缩放颜色模块",
+      "predicate": "影响",
+      "object": "粒子视觉效果",
+      "context": "控制粒子颜色随时间的变化规律",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Simple Sprite Burst模板",
+      "predicate": "用于创建",
+      "object": "FX_SparkBurst",
+      "context": "作为火花迸发效果的基础模板",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sprite渲染器",
+      "predicate": "依赖",
+      "object": "材质",
+      "context": "渲染效果需要指定材质如M_Spark",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "按质量计算尺寸模块",
+      "predicate": "关联",
+      "object": "物理模拟",
+      "context": "将粒子质量与视觉大小关联实现物理一致性",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "碰撞模块",
+      "predicate": "实现",
+      "object": "粒子物理交互",
+      "context": "使火花能与场景物体碰撞并反弹",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FX_Sparks_Radial",
+      "predicate": "扩展",
+      "object": "火花效果复杂度",
+      "context": "添加弧度火花发射器增强整体效果丰富度",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "速度对齐",
+      "predicate": "优化",
+      "object": "粒子视觉效果",
+      "context": "使粒子纹理始终朝向运动方向",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "重力模块",
+      "predicate": "影响",
+      "object": "粒子运动轨迹",
+      "context": "模拟重力对火花下坠的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "阻力模块",
+      "predicate": "控制",
+      "object": "粒子运动衰减",
+      "context": "模拟空气阻力使火花逐渐减速",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "按速度缩放模块",
+      "predicate": "增强",
+      "object": "动态视觉效果",
+      "context": "使快速运动的火花产生拖尾效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "初学者内容包",
+      "predicate": "提供",
+      "object": "基础素材",
+      "context": "包含教程所需的M_Spark等关键材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "系统概览面板",
+      "predicate": "用于",
+      "object": "发射器管理",
+      "context": "主界面用于选择和配置不同发射器模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态输入",
+      "predicate": "支持",
+      "object": "参数随机化",
+      "context": "通过随机范围向量等功能实现参数变化",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:25:43.017Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (40463 字符)",
+      "timestamp": "2025-06-15T19:24:31.748Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 50895,
+    "contentLength": 40463,
+    "processingTimeMs": 71275
+  }
+}

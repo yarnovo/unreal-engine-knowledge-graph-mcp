@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_dmx-data-conflict-monitoring-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_dmx-data-conflict-monitoring-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "DMX冲突监控器",
+      "predicate": "检查",
+      "object": "DMX数据冲突",
+      "context": "DMX冲突监控器用于检查所有启用的域和配接范围上的潜在DMX数据冲突，帮助开发者识别和解决数据冲突问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX冲突监控器",
+      "predicate": "依赖",
+      "object": "主工具栏",
+      "context": "DMX冲突监控器通过主工具栏中的DMX菜单打开，是访问该功能的主要入口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX冲突监控器",
+      "predicate": "包含",
+      "object": "播放/停止按钮",
+      "context": "播放/停止按钮是DMX冲突监控器的核心功能之一，用于启动和停止监控过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX冲突监控器",
+      "predicate": "包含",
+      "object": "选项配置",
+      "context": "选项配置允许用户设置自动暂停和打印到日志等功能，增强监控器的实用性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX冲突监控器",
+      "predicate": "显示",
+      "object": "发生DMX的对象",
+      "context": "DMX冲突监控器在运行时显示当前正在发送DMX的资产，帮助开发者快速定位问题源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX冲突监控器",
+      "predicate": "监控",
+      "object": "CPU使用情况",
+      "context": "DMX冲突监控器会显示当前CPU使用情况，因为冲突监控可能会占用大量CPU资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX冲突监控器",
+      "predicate": "记录",
+      "object": "冲突信息",
+      "context": "当检测到冲突时，DMX冲突监控器会记录冲突的详细信息，包括涉及的DMX工具和受影响的端口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX冲突监控器",
+      "predicate": "发送",
+      "object": "UE输出日志",
+      "context": "如果启用了打印到日志选项，DMX冲突监控器会将冲突信息发送到UE输出日志，便于开发者查看和分析",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX数据冲突",
+      "predicate": "由...引起",
+      "object": "DMX工具",
+      "context": "DMX数据冲突通常由不同的DMX工具（如控制台、像素映射器和蓝图）写入相同地址引起",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX工具",
+      "predicate": "包括",
+      "object": "控制台",
+      "context": "控制台是DMX工具的一种，可能与其他工具产生数据冲突",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX工具",
+      "predicate": "包括",
+      "object": "像素映射器",
+      "context": "像素映射器是DMX工具的一种，可能与其他工具产生数据冲突",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX工具",
+      "predicate": "包括",
+      "object": "蓝图",
+      "context": "蓝图是DMX工具的一种，可能与其他工具产生数据冲突",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DMX冲突监控器",
+      "predicate": "用于",
+      "object": "DMX数据管理",
+      "context": "DMX冲突监控器是DMX数据管理的重要工具，帮助开发者确保数据的一致性和正确性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "DMX冲突监控器",
+      "predicate": "适用于",
+      "object": "外部设备通信",
+      "context": "DMX冲突监控器在将引擎中的DMX数据发送到外部设备时特别有用，确保数据在传输过程中没有冲突",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:53:11.337Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3274,
+    "contentLength": 2242,
+    "processingTimeMs": 55981
+  }
+}

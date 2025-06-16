@@ -1,0 +1,173 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_automation-test-framework-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_automation-test-framework-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "自动化系统",
+      "predicate": "基于",
+      "object": "功能测试框架",
+      "context": "自动化系统是构建在功能测试框架之上的，理解这一基础关系有助于学习者掌握自动化系统的底层架构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化系统",
+      "predicate": "执行",
+      "object": "自动化测试",
+      "context": "自动化系统的主要功能是执行各种类型的自动化测试，这是其核心用途",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化测试",
+      "predicate": "包含",
+      "object": "单元测试",
+      "context": "单元测试是自动化测试的一种类型，了解这种包含关系有助于学习者分类理解不同类型的测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化测试",
+      "predicate": "包含",
+      "object": "功能测试",
+      "context": "功能测试是自动化测试的重要类型，用于验证系统层面的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化测试",
+      "predicate": "包含",
+      "object": "冒烟测试",
+      "context": "冒烟测试是快速验证基本功能的测试类型，了解这种关系有助于测试策略制定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化测试",
+      "predicate": "包含",
+      "object": "内容压力测试",
+      "context": "内容压力测试是用于系统稳定性验证的特殊测试类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化测试",
+      "predicate": "包含",
+      "object": "截屏比较测试",
+      "context": "截屏比较测试用于视觉回归测试，是QA流程的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化测试",
+      "predicate": "移至",
+      "object": "插件",
+      "context": "自动化测试现在以插件形式组织，这一变化影响测试的管理和部署方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RuntimeTests插件",
+      "predicate": "存储",
+      "object": "项目不确定性运行时测试",
+      "context": "了解不同类型测试对应的存储位置对测试组织和管理很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EditorTests插件",
+      "predicate": "存储",
+      "object": "项目不确定性编辑器测试",
+      "context": "编辑器相关测试有专门的存储位置，这对测试架构设计有指导意义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EngineTest游戏文件夹",
+      "predicate": "存储",
+      "object": "功能测试",
+      "context": "功能测试的存储位置信息对项目结构规划很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "插件浏览器",
+      "predicate": "启用",
+      "object": "自动化测试插件",
+      "context": "了解如何启用测试插件是使用自动化系统的第一步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化系统",
+      "predicate": "使用",
+      "object": "虚幻消息总线",
+      "context": "理解自动化系统与虚幻消息总线的关系有助于深入掌握其通信机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "测试自动化窗口",
+      "predicate": "用于",
+      "object": "运行自动化测试",
+      "context": "这是实际执行测试的主要界面，对日常使用很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Gauntlet自动化框架",
+      "predicate": "扩展",
+      "object": "自动化系统",
+      "context": "Gauntlet是自动化系统的扩展框架，了解这一关系有助于高级测试场景的实现",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "冒烟测试",
+      "predicate": "应在",
+      "object": "1秒内完成",
+      "context": "这是冒烟测试的重要性能标准，对测试设计有指导意义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化测试",
+      "predicate": "遵循",
+      "object": "测试设计准则",
+      "context": "理解这些准则有助于编写健壮、可维护的测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单元测试",
+      "predicate": "验证",
+      "object": "API级别功能",
+      "context": "明确单元测试的验证范围对测试编写很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "功能测试",
+      "predicate": "验证",
+      "object": "系统层面功能",
+      "context": "明确功能测试的验证范围有助于测试策略制定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "截屏比较测试",
+      "predicate": "用于",
+      "object": "识别渲染问题",
+      "context": "明确这类测试的用途有助于决定何时使用它们",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:10:44.007Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8844,
+    "contentLength": 5980,
+    "processingTimeMs": 62413
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-the-background-blur-widget-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-the-background-blur-widget-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "背景模糊控件",
+      "predicate": "属于",
+      "object": "UMG",
+      "context": "背景模糊控件是虚幻引擎UMG（Unreal Motion Graphics）系统中的一个UI组件，学习UMG需要了解其包含的各种控件类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "背景模糊控件",
+      "predicate": "包含",
+      "object": "子控件",
+      "context": "背景模糊控件可以包含一个子控件，这是理解UI层级结构的重要知识点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "背景模糊控件",
+      "predicate": "具有",
+      "object": "模糊强度属性",
+      "context": "模糊强度是背景模糊控件的核心属性，直接影响视觉效果和性能开销",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "背景模糊控件",
+      "predicate": "具有",
+      "object": "模糊半径属性",
+      "context": "模糊半径属性控制模糊效果的范围，是调整模糊效果的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "背景模糊控件",
+      "predicate": "具有",
+      "object": "低质量退回选项",
+      "context": "了解低质量退回选项有助于在不同性能需求的场景下优化UI渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "背景模糊控件",
+      "predicate": "应用于",
+      "object": "游戏暂停菜单",
+      "context": "文档中的示例展示了背景模糊控件在游戏暂停菜单中的典型应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "背景模糊控件",
+      "predicate": "通过",
+      "object": "蓝图脚本控制",
+      "context": "背景模糊控件的属性可以通过蓝图脚本动态调整，这是UI交互设计的重要知识点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模糊强度属性",
+      "predicate": "影响",
+      "object": "GPU性能开销",
+      "context": "理解模糊强度与性能的关系有助于进行合理的性能优化",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "低质量退回选项",
+      "predicate": "关联",
+      "object": "Slate.ForceBackgroundBlurLowQualityOverride",
+      "context": "了解这个CVar（控制台变量）可以帮助开发者强制启用低质量模式进行测试",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "背景模糊控件",
+      "predicate": "实现",
+      "object": "高斯模糊特效",
+      "context": "背景模糊控件的核心功能是实现高斯模糊后期特效，这是理解其工作原理的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "背景模糊控件",
+      "predicate": "用于",
+      "object": "UI视觉分层",
+      "context": "背景模糊常用于创建UI视觉层次，突出前景内容，这是UI设计的重要技巧",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "背景模糊控件",
+      "predicate": "关联",
+      "object": "可延展性设置",
+      "context": "背景模糊的质量设置与项目的可延展性设置相关，这是性能优化的重要考虑因素",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "背景模糊控件",
+      "predicate": "通过",
+      "object": "细节面板配置",
+      "context": "学习如何在细节面板中配置背景模糊控件是使用该控件的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "背景模糊控件",
+      "predicate": "示例",
+      "object": "游戏暂停功能实现",
+      "context": "文档中的完整示例展示了如何将背景模糊控件集成到游戏暂停功能中，这是实际应用的典型案例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:23:42.320Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4977,
+    "contentLength": 3311,
+    "processingTimeMs": 40620
+  }
+}

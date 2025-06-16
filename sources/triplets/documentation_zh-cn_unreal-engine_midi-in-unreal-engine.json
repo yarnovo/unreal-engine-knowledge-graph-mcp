@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_midi-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_midi-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "MIDI设备支持插件",
+      "predicate": "提供",
+      "object": "MIDI协议消息收发功能",
+      "context": "该插件是虚幻引擎与外部MIDI硬件通信的基础，学习者需要先了解插件功能才能进行后续开发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MIDI协议",
+      "predicate": "用于",
+      "object": "音频硬件设备间通信",
+      "context": "理解MIDI协议的本质是学习其在虚幻引擎中应用的前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效实用工具插件",
+      "predicate": "包含",
+      "object": "MIDI数据转换函数",
+      "context": "该插件扩展了MIDI数据的应用场景，学习者需要了解如何利用这些函数处理数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MIDI输出",
+      "predicate": "依赖",
+      "object": "MIDI设备管理器",
+      "context": "设备管理器是发送MIDI命令的核心组件，理解这种依赖关系对调试很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Create MIDIDevice Output Controller",
+      "predicate": "生成",
+      "object": "MIDI输出UObject",
+      "context": "这是MIDI输出工作流的关键步骤，学习者需要掌握该函数的用法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MIDI输入设备",
+      "predicate": "触发",
+      "object": "MIDI事件代理",
+      "context": "理解这种触发机制是构建响应式MIDI系统的关键",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "音频组件",
+      "predicate": "可用于",
+      "object": "创建音乐系统",
+      "context": "展示MIDI数据在音频系统中的高级应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Get Default MIDI Output Device ID",
+      "predicate": "属于",
+      "object": "MIDI设备查找函数集",
+      "context": "这些函数是MIDI工作流的第一步，学习者需要了解它们的区别和使用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Send MIDIEvent",
+      "predicate": "支持",
+      "object": "原始MIDI事件发送",
+      "context": "高级用户需要了解这个底层函数来实现自定义MIDI功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MIDI输入",
+      "predicate": "转换",
+      "object": "音频引擎参数",
+      "context": "这是MIDI数据在音频系统中的典型应用方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "支持",
+      "object": "流送MIDI数据",
+      "context": "这是引擎对MIDI支持的基本限制，学习者需要首先了解",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MIDI设备输出控制器",
+      "predicate": "需要",
+      "object": "变量缓存",
+      "context": "这是避免对象被垃圾回收的重要编程实践",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音符开启消息",
+      "predicate": "包含",
+      "object": "状态字节和数据字节",
+      "context": "理解MIDI消息结构是解析和处理数据的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制点更改消息",
+      "predicate": "属于",
+      "object": "高级MIDI数据",
+      "context": "这些高级消息类型为复杂音乐系统开发提供了可能",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T19:57:22.529Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6318,
+    "contentLength": 3976,
+    "processingTimeMs": 53087
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_take-recorder-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_take-recorder-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Take Recorder",
+      "predicate": "用于",
+      "object": "虚拟制片",
+      "context": "Take Recorder可以直接将Gameplay动画、现场表演和其他源录制到虚幻引擎中，实现高度迭代的工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Recorder",
+      "predicate": "集成",
+      "object": "Sequencer",
+      "context": "Take Recorder与Sequencer无缝集成，可以直接在Sequencer中使用录制的镜头试拍进行进一步编辑与合成",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Take Recorder",
+      "predicate": "支持",
+      "object": "Live Link",
+      "context": "Take Recorder支持通过Live Link连接动作捕获和其他现场表演录制动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Recorder",
+      "predicate": "包含",
+      "object": "工具栏",
+      "context": "Take Recorder用户界面包含工具栏，用于控制Sequencer集成、镜头试拍浏览和选项显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Recorder",
+      "predicate": "包含",
+      "object": "Slate",
+      "context": "Slate区域显示有关当前待定镜头试拍、当前时间和录制功能的信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Recorder",
+      "predicate": "包含",
+      "object": "源",
+      "context": "源分段用于指定要录制到序列中的源，可以从关卡中的Actor捕获，也可以从Live Link会话、其他序列、麦克风或世界状态捕获",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Recorder",
+      "predicate": "包含",
+      "object": "细节",
+      "context": "细节区域包含源以及Take Recorder的项目属性和设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Recorder",
+      "predicate": "支持",
+      "object": "动画录制",
+      "context": "Take Recorder可以录制游戏世界中角色或对象的动画和动作，用于创建自定义动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Recorder",
+      "predicate": "支持",
+      "object": "摄像机录制",
+      "context": "Take Recorder可以捕获摄像机移动、角度和焦距，用于创建动态摄像机镜头",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Recorder",
+      "predicate": "支持",
+      "object": "元数据",
+      "context": "Take Recorder可以与录制的镜头试拍一起存储元数据，如角色名称、镜头说明等，有助于整理和管理录制文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Recorder",
+      "predicate": "依赖",
+      "object": "插件",
+      "context": "Take Recorder是一种插件，需要启用后才能使用",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Take Recorder",
+      "predicate": "支持",
+      "object": "实时录制",
+      "context": "根据硬件和设置，Take Recorder可以实时操作，支持Gameplay期间对录制的表演立即进行反馈",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Recorder",
+      "predicate": "支持",
+      "object": "非破坏性工作流程",
+      "context": "非破坏性工作流程可确保原始动画和Gameplay数据保持不变，更改和调整后不会丢失之前的录制文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Recorder",
+      "predicate": "支持",
+      "object": "多个镜头试拍",
+      "context": "可以为相同场景或操作创建多个镜头试拍，灵活尝试不同的变体或表演",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Recorder",
+      "predicate": "支持",
+      "object": "表演捕获",
+      "context": "Take Recorder支持动作捕获（MoCap）系统之类的表演捕获解决方案，可使用外部硬件录制高质量的角色动画",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Recorder",
+      "predicate": "支持",
+      "object": "录制时间码",
+      "context": "Take Recorder可以录制时间码元数据，用于相对于场景、单独Actor和骨骼网格体骨骼的时间码",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Recorder",
+      "predicate": "支持",
+      "object": "子场景",
+      "context": "录制后可以查看子场景和资产，双击子场景分段可以打开Actor的序列并查看录制的关键帧",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Recorder",
+      "predicate": "支持",
+      "object": "编辑镜头试拍",
+      "context": "可以通过禁用自动锁定或解锁序列来编辑录制的数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Recorder",
+      "predicate": "支持",
+      "object": "预设",
+      "context": "可以将源列表保存为预设，以后进行复用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Recorder",
+      "predicate": "支持",
+      "object": "麦克风音频",
+      "context": "可以在录制会话期间录制设备的麦克风，完成后创建一个声音文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:57:41.490Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (23962 字符)",
+      "timestamp": "2025-06-15T20:56:39.007Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 39400,
+    "contentLength": 23962,
+    "processingTimeMs": 62490
+  }
+}

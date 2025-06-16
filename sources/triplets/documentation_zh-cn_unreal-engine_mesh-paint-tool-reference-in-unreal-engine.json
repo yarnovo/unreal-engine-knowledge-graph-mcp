@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_mesh-paint-tool-reference-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_mesh-paint-tool-reference-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "网格体绘制模式",
+      "predicate": "包含",
+      "object": "网格体绘制工具",
+      "context": "每种网格体绘制模式都包含一组工具，用于帮助绘制网格体并管理颜色数据",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体绘制工具",
+      "predicate": "支持",
+      "object": "顶点颜色绘制",
+      "context": "工具如选择、绘制、填充等支持顶点颜色绘制模式",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体绘制工具",
+      "predicate": "支持",
+      "object": "顶点权重绘制",
+      "context": "部分工具支持顶点权重绘制模式",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体绘制工具",
+      "predicate": "支持",
+      "object": "纹理颜色绘制",
+      "context": "工具如新增、删除等专门用于纹理颜色绘制模式",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体绘制工具",
+      "predicate": "支持",
+      "object": "纹理绘制",
+      "context": "部分工具支持直接在纹理上绘制",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "顶点颜色绘制",
+      "predicate": "依赖",
+      "object": "LOD级别",
+      "context": "顶点颜色可以应用于所有LOD级别",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "纹理颜色绘制",
+      "predicate": "生成",
+      "object": "网格体绘制纹理",
+      "context": "纹理颜色绘制会创建网格体绘制纹理资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "权重绘制",
+      "predicate": "依赖",
+      "object": "纹理混合材质",
+      "context": "权重绘制需要设置纹理混合材质才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "笔刷设置",
+      "predicate": "控制",
+      "object": "绘制效果",
+      "context": "笔刷的大小、强度、衰减等设置直接影响绘制效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟纹理",
+      "predicate": "用于",
+      "object": "网格体绘制纹理",
+      "context": "网格体绘制纹理使用虚拟纹理技术",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体编辑器",
+      "predicate": "配置",
+      "object": "纹理颜色绘制支持",
+      "context": "编辑器可以设置网格体是否支持纹理颜色绘制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "纹理权重类型",
+      "predicate": "决定",
+      "object": "可用纹理通道数量",
+      "context": "Alpha、RGB、ARGB等类型决定了可以混合的纹理数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可视化设置",
+      "predicate": "提供",
+      "object": "颜色通道查看",
+      "context": "可以单独查看RGB、Alpha或各颜色通道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资源使用设置",
+      "predicate": "显示",
+      "object": "内存使用情况",
+      "context": "显示顶点颜色和纹理资源的内存使用量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理绘制设置",
+      "predicate": "包含",
+      "object": "UV通道选择",
+      "context": "可以指定用于绘制的UV通道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "顶点绘制设置",
+      "predicate": "影响",
+      "object": "LOD处理",
+      "context": "可以指定在哪个LOD级别上应用顶点颜色",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "网格体绘制纹理",
+      "predicate": "基于",
+      "object": "虚拟纹理项目设置",
+      "context": "纹理的图块大小、压缩等由项目设置决定",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理颜色绘制",
+      "predicate": "可以转换为",
+      "object": "顶点颜色",
+      "context": "可以通过'传播到顶点颜色'设置将纹理颜色复制到顶点颜色",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "顶点颜色",
+      "predicate": "可以转换为",
+      "object": "纹理颜色",
+      "context": "可以通过'自顶点'工具将顶点颜色填充到纹理",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "笔刷形状",
+      "predicate": "可以自定义",
+      "object": "绘制效果",
+      "context": "可以使用纹理作为笔刷形状，取代默认圆形笔刷",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:54:41.555Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13275 字符)",
+      "timestamp": "2025-06-15T19:53:39.731Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 23216,
+    "contentLength": 13275,
+    "processingTimeMs": 61828
+  }
+}

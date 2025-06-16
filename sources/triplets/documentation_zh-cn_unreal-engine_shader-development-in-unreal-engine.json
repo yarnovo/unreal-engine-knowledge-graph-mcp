@@ -1,0 +1,115 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_shader-development-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_shader-development-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "着色器开发模式",
+      "predicate": "启用",
+      "object": "r.ShaderDevelopmentMode",
+      "context": "启用着色器开发模式可以激活着色器开发相关的日志和警告，帮助开发者调试着色器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "全局着色器",
+      "predicate": "执行操作",
+      "object": "固定几何体",
+      "context": "全局着色器专门用于对固定几何体（如全屏幕四边形）执行操作，不需要与材质交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质",
+      "predicate": "控制",
+      "object": "渲染方式",
+      "context": "材质通过一组状态和输入控制渲染方式，如混合模式和双面渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "顶点工厂",
+      "predicate": "支持",
+      "object": "不同网格类型",
+      "context": "顶点工厂使材质能够支持不同的网格类型，通过定义顶点着色器输入和中间数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FMaterialShaderMap",
+      "predicate": "包含",
+      "object": "材质着色器集合",
+      "context": "FMaterialShaderMap存储了材质所需的着色器集合，包括特定于材质和网格类型的着色器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质着色器",
+      "predicate": "编译",
+      "object": "FMaterialShaderType",
+      "context": "材质着色器使用FMaterialShaderType进行编译，需要访问材质的某些属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FMeshMaterialShaderType",
+      "predicate": "依赖",
+      "object": "材质属性和网格类型",
+      "context": "FMeshMaterialShaderType的着色器依赖于材质属性和网格类型，必须为每个材质/顶点工厂组合编译",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "特殊引擎材质",
+      "predicate": "使用",
+      "object": "bUsedAsSpecialEngineMaterial",
+      "context": "特殊引擎材质通过设置bUsedAsSpecialEngineMaterial可以与任何顶点工厂类型配合使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "着色器编译",
+      "predicate": "异步执行",
+      "object": "流式系统",
+      "context": "虚幻引擎使用流式系统异步编译着色器，提高编译效率和装入时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "着色器调试",
+      "predicate": "使用",
+      "object": "VisualizeTexture命令",
+      "context": "调试着色器的主要方法是修改着色器输出中间结果，并使用VisualizeTexture命令可视化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HLSL交叉编译器",
+      "predicate": "转换",
+      "object": "GLSL",
+      "context": "HLSL交叉编译器将HLSL转换为GLSL，使开发者只需编写一次着色器即可支持多个平台",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AsyncCompute",
+      "predicate": "提供",
+      "object": "硬件功能",
+      "context": "AsyncCompute是一项硬件功能，优化GPU硬件单元的利用率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:47:15.315Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9176 字符)",
+      "timestamp": "2025-06-15T20:46:38.908Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15708,
+    "contentLength": 9176,
+    "processingTimeMs": 36413
+  }
+}

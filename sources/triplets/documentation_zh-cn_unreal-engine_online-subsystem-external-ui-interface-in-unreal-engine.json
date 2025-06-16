@@ -1,0 +1,157 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_online-subsystem-external-ui-interface-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_online-subsystem-external-ui-interface-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "在线子系统",
+      "predicate": "包含",
+      "object": "外部UI接口",
+      "context": "在线子系统通过外部UI接口与各种在线服务的标准化用户界面进行交互，帮助开发者理解子系统如何管理不同服务的UI功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "外部UI接口",
+      "predicate": "支持",
+      "object": "ShowPlatformMessageBox",
+      "context": "ShowPlatformMessageBox是外部UI接口提供的一个功能，用于显示平台内置样式的消息，帮助学习者了解接口的具体功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "外部UI接口",
+      "predicate": "支持",
+      "object": "ShowProfileUI",
+      "context": "ShowProfileUI允许查看用户描述覆层，是外部UI接口的重要功能之一，帮助学习者理解如何实现用户信息展示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "外部UI接口",
+      "predicate": "支持",
+      "object": "ShowLoginUI",
+      "context": "ShowLoginUI使用在线服务的标准登陆UI，帮助学习者理解如何通过外部UI接口实现用户认证流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "外部UI接口",
+      "predicate": "支持",
+      "object": "ShowFriendsUI",
+      "context": "ShowFriendsUI呼出好友列表，帮助学习者理解如何通过外部UI接口管理好友关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "外部UI接口",
+      "predicate": "支持",
+      "object": "ShowInviteUI",
+      "context": "ShowInviteUI显示邀请到游戏会话的好友列表，帮助学习者理解如何实现多人游戏邀请功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "外部UI接口",
+      "predicate": "支持",
+      "object": "ShowSendMessageUI",
+      "context": "ShowSendMessageUI用于发送消息，帮助学习者理解如何实现用户间通信功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "外部UI接口",
+      "predicate": "支持",
+      "object": "ShowAchievementsUI",
+      "context": "ShowAchievementsUI呼出成就查看界面，帮助学习者理解如何展示和管理用户成就",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "外部UI接口",
+      "predicate": "支持",
+      "object": "ShowAccountCreationUI",
+      "context": "ShowAccountCreationUI用于创建账户，帮助学习者理解如何实现账户管理功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "外部UI接口",
+      "predicate": "支持",
+      "object": "ShowAccountUpgradeUI",
+      "context": "ShowAccountUpgradeUI用于升级账户，帮助学习者理解如何实现账户管理功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "外部UI接口",
+      "predicate": "支持",
+      "object": "ShowStoreUI",
+      "context": "ShowStoreUI带用户访问在线商店，帮助学习者理解如何集成商店功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "外部UI接口",
+      "predicate": "支持",
+      "object": "ShowWebURL",
+      "context": "ShowWebURL在默认浏览器中打开外部站点，帮助学习者理解如何实现网页跳转功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "身份接口",
+      "predicate": "关联",
+      "object": "ShowLoginUI",
+      "context": "ShowLoginUI与身份接口共同处理用户认证，帮助学习者理解认证流程的完整实现",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "好友接口",
+      "predicate": "关联",
+      "object": "ShowFriendsUI",
+      "context": "ShowFriendsUI与好友接口共同管理好友关系，帮助学习者理解好友系统的完整实现",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "会话接口",
+      "predicate": "关联",
+      "object": "ShowInviteUI",
+      "context": "ShowInviteUI与会话接口共同处理游戏邀请，帮助学习者理解多人游戏会话的实现",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "成就接口",
+      "predicate": "关联",
+      "object": "ShowAchievementsUI",
+      "context": "ShowAchievementsUI与成就接口共同管理用户成就，帮助学习者理解成就系统的完整实现",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FUniqueNetId",
+      "predicate": "用于",
+      "object": "ShowProfileUI",
+      "context": "ShowProfileUI使用FUniqueNetId标识用户，帮助学习者理解用户标识在UI功能中的应用",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "FShowWebUrlParams",
+      "predicate": "用于",
+      "object": "ShowWebURL",
+      "context": "ShowWebURL使用FShowWebUrlParams参数配置网页显示，帮助学习者理解如何定制网页跳转功能",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T20:09:36.742Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7697,
+    "contentLength": 4843,
+    "processingTimeMs": 57382
+  }
+}

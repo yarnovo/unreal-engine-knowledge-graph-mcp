@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_fading-lights-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_fading-lights-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "LightActor",
+      "predicate": "继承",
+      "object": "Actor",
+      "context": "LightActor是继承自Actor类的C++类，这是虚幻引擎中所有可放置对象的基础类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LightActor",
+      "predicate": "包含",
+      "object": "PointLightComponent",
+      "context": "LightActor包含点光源组件作为其核心功能组件，用于实现光源效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LightActor",
+      "predicate": "包含",
+      "object": "TimelineComponent",
+      "context": "LightActor包含时间轴组件，用于控制光源的动画效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LightActor",
+      "predicate": "包含",
+      "object": "BoxComponent",
+      "context": "LightActor包含盒体组件作为触发器，用于检测玩家重叠",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TimelineComponent",
+      "predicate": "控制",
+      "object": "PointLightComponent",
+      "context": "时间轴组件通过曲线控制点光源的亮度和颜色变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BoxComponent",
+      "predicate": "触发",
+      "object": "TimelineComponent",
+      "context": "当玩家与盒体组件重叠时，会触发时间轴组件的播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CurveFloat",
+      "predicate": "控制",
+      "object": "PointLight亮度",
+      "context": "浮点曲线用于定义点光源亮度随时间变化的规律",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CurveLinearColor",
+      "predicate": "控制",
+      "object": "PointLight颜色",
+      "context": "线性颜色曲线用于定义点光源颜色随时间变化的规律",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_LightActor",
+      "predicate": "基于",
+      "object": "LightActor",
+      "context": "BP_LightActor是基于LightActor类创建的蓝图类，继承了其所有功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PointLightComponent",
+      "predicate": "实现",
+      "object": "灯光闪烁效果",
+      "context": "点光源组件是实现灯光闪烁效果的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C++项目",
+      "predicate": "用于",
+      "object": "创建自定义Actor",
+      "context": "使用C++项目可以创建自定义的Actor类，如LightActor",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Visual Studio",
+      "predicate": "用于",
+      "object": "编辑C++代码",
+      "context": "Visual Studio是虚幻引擎默认的C++代码编辑器",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "用于",
+      "object": "管理项目资产",
+      "context": "内容浏览器是虚幻引擎中管理所有项目资产的主要界面",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "时间轴编辑器",
+      "predicate": "用于",
+      "object": "编辑曲线资产",
+      "context": "时间轴编辑器专门用于编辑CurveFloat和CurveLinearColor等曲线资产",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "世界大纲视图",
+      "predicate": "用于",
+      "object": "管理关卡中的Actor",
+      "context": "世界大纲视图用于查看和管理当前关卡中的所有Actor",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:03:41.466Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (16216 字符)",
+      "timestamp": "2025-06-15T19:02:36.171Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19259,
+    "contentLength": 16216,
+    "processingTimeMs": 65308
+  }
+}

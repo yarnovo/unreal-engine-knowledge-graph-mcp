@@ -1,0 +1,235 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-use-the-machine-learning-deformer-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-use-the-machine-learning-deformer-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "ML变形器框架",
+      "predicate": "包含",
+      "object": "ML变形器模型",
+      "context": "ML变形器框架通过不同的ML变形器模型来实现网格体变形功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ML变形器模型",
+      "predicate": "包括",
+      "object": "神经变形模型",
+      "context": "神经变形模型是ML变形器框架中的一种模型类型，用于处理肉感网格体和一般变形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ML变形器模型",
+      "predicate": "包括",
+      "object": "最近的相邻模型",
+      "context": "最近的相邻模型是ML变形器框架中的一种模型类型，专门用于布料变形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ML变形器模型",
+      "predicate": "包括",
+      "object": "顶点增量模型",
+      "context": "顶点增量模型是ML变形器框架中的示例模型，用于学习如何创建自定义变形器模型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "神经变形模型",
+      "predicate": "支持",
+      "object": "局部模式",
+      "context": "神经变形模型在局部模式下优化单个关节周围的变形，需要较少训练数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "神经变形模型",
+      "predicate": "支持",
+      "object": "全局模式",
+      "context": "神经变形模型在全局模式下从多个关节的协调运动中学习变形，需要更多训练数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ML变形器框架",
+      "predicate": "依赖",
+      "object": "插件系统",
+      "context": "ML变形器框架作为插件需要先启用才能使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ML变形器神经变形模型",
+      "predicate": "依赖",
+      "object": "插件系统",
+      "context": "ML变形器神经变形模型作为插件需要先启用才能使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ML变形器框架",
+      "predicate": "用于",
+      "object": "实时网格体变形",
+      "context": "ML变形器框架通过预生成的网格体变形模拟数据训练模型，实现实时高质量网格体变形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ML变形器框架",
+      "predicate": "减少",
+      "object": "计算成本",
+      "context": "ML变形器框架通过预训练模型避免了实时变形生成的高计算成本",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ML变形器工作流程",
+      "predicate": "包含",
+      "object": "Maya数据生成",
+      "context": "ML变形器工作流程需要在Maya中生成网格体变形模拟数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ML变形器工作流程",
+      "predicate": "包含",
+      "object": "虚幻引擎训练",
+      "context": "ML变形器工作流程需要在虚幻引擎中使用Maya生成的数据训练模型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Maya数据生成",
+      "predicate": "需要",
+      "object": "ML变形器-Maya数据生成插件",
+      "context": "在Maya中生成训练数据需要安装专门的ML变形器数据生成插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "训练数据生成",
+      "predicate": "生成",
+      "object": "FBX文件",
+      "context": "Maya中的训练数据生成过程会输出FBX文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "训练数据生成",
+      "predicate": "生成",
+      "object": "Alembic文件",
+      "context": "Maya中的训练数据生成过程会输出Alembic文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ML变形器资产",
+      "predicate": "关联",
+      "object": "骨骼网格体",
+      "context": "创建ML变形器资产时需要指定角色的骨骼网格体",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ML变形器资产",
+      "predicate": "关联",
+      "object": "动画序列",
+      "context": "创建ML变形器资产时需要指定训练用的动画序列",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ML变形器资产",
+      "predicate": "关联",
+      "object": "几何体缓存",
+      "context": "创建ML变形器资产时需要指定从Alembic文件导入的几何体缓存",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "神经变形模型",
+      "predicate": "使用",
+      "object": "骨骼组",
+      "context": "神经变形模型在局部模式下使用骨骼组来处理多个骨骼协同作用的变形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "神经变形模型",
+      "predicate": "使用",
+      "object": "曲线组",
+      "context": "神经变形模型在局部模式下使用曲线组来处理曲线协同作用的变形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ML变形器组件",
+      "predicate": "应用于",
+      "object": "角色蓝图",
+      "context": "要在关卡中使用ML变形器，需要在角色蓝图中添加ML变形器组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ML变形器组件",
+      "predicate": "引用",
+      "object": "ML变形器资产",
+      "context": "ML变形器组件需要引用训练好的ML变形器资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体组件",
+      "predicate": "使用",
+      "object": "变形器图表",
+      "context": "骨骼网格体组件需要使用变形器图表来实现ML变形器效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "训练过程",
+      "predicate": "影响",
+      "object": "变形质量",
+      "context": "训练过程中的参数设置直接影响最终的网格体变形质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "压缩设置",
+      "predicate": "影响",
+      "object": "内存使用",
+      "context": "ML变形器资产的压缩设置可以显著减少内存使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "压缩设置",
+      "predicate": "影响",
+      "object": "性能",
+      "context": "ML变形器资产的压缩设置可以显著提高运行时性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ML变形器框架",
+      "predicate": "替代",
+      "object": "传统变形系统",
+      "context": "ML变形器框架提供了比传统变形系统更高质量的网格体变形方案",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:28:28.259Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (25795 字符)",
+      "timestamp": "2025-06-15T19:27:03.715Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 40302,
+    "contentLength": 25795,
+    "processingTimeMs": 84555
+  }
+}

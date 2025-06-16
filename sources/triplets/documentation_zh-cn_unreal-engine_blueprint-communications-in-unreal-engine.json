@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_blueprint-communications-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_blueprint-communications-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "直接蓝图通信",
+      "predicate": "实现",
+      "object": "蓝图间交互",
+      "context": "直接蓝图通信允许一个蓝图直接访问另一个蓝图的事件、变量和函数，实现蓝图间的直接交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Shape_Cube",
+      "predicate": "包含",
+      "object": "OverlapOnlyPawn碰撞",
+      "context": "Shape_Cube蓝图包含OverlapOnlyPawn碰撞设置，使其可以作为触发器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Shape_Cube",
+      "predicate": "引用",
+      "object": "Blueprint_Effect_Sparks",
+      "context": "Shape_Cube通过变量引用Blueprint_Effect_Sparks蓝图，实现对其的控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "从类生成Actor",
+      "predicate": "生成",
+      "object": "Blueprint_Effect_Smoke",
+      "context": "使用从类生成Actor节点可以在运行时动态生成Blueprint_Effect_Smoke蓝图的实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图转换",
+      "predicate": "访问",
+      "object": "角色蓝图",
+      "context": "通过蓝图转换可以访问角色蓝图中的事件、变量和函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MyCharacter",
+      "predicate": "包含",
+      "object": "IsOnFire变量",
+      "context": "MyCharacter蓝图包含IsOnFire布尔变量，用于跟踪角色是否处于着火状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blueprint_Effect_Fire",
+      "predicate": "触发",
+      "object": "OnComponentBeginOverlap事件",
+      "context": "Blueprint_Effect_Fire蓝图通过OnComponentBeginOverlap事件检测角色进入火焰",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "事件调度器",
+      "predicate": "协调",
+      "object": "关卡蓝图",
+      "context": "事件调度器用于协调角色蓝图和关卡蓝图之间的通信",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StartFire事件调度器",
+      "predicate": "调用",
+      "object": "生成火焰效果",
+      "context": "StartFire事件调度器被调用时会触发生成火焰效果的操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图接口",
+      "predicate": "统一",
+      "object": "多个蓝图交互",
+      "context": "蓝图接口提供了一种统一的方式来与多个不同类型的蓝图进行交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CubeInterface",
+      "predicate": "定义",
+      "object": "MagicCube函数",
+      "context": "CubeInterface接口定义了MagicCube函数，供多个蓝图实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Shape_Cube",
+      "predicate": "存储",
+      "object": "目标Actor数组",
+      "context": "Shape_Cube蓝图通过数组变量存储受蓝图接口影响的目标Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_Interface",
+      "predicate": "传递",
+      "object": "玩家生命值",
+      "context": "BP_Interface接口用于在蓝图间传递玩家生命值等变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetHealth函数",
+      "predicate": "返回",
+      "object": "playerIsDead和playerHealth",
+      "context": "GetHealth函数通过接口返回playerIsDead和playerHealth两个变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MyCharacter",
+      "predicate": "实现",
+      "object": "BP_Interface",
+      "context": "MyCharacter蓝图实现了BP_Interface接口，提供玩家生命值数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blueprint_Effect_Fire",
+      "predicate": "使用",
+      "object": "GetHealth接口",
+      "context": "Blueprint_Effect_Fire蓝图通过GetHealth接口获取玩家生命值信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "直接蓝图通信",
+      "predicate": "前置",
+      "object": "蓝图转换",
+      "context": "理解直接蓝图通信是学习更复杂的蓝图转换技术的基础",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "蓝图转换",
+      "predicate": "扩展",
+      "object": "事件调度器",
+      "context": "蓝图转换技术可以扩展使用事件调度器来实现更灵活的蓝图通信",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "事件调度器",
+      "predicate": "替代",
+      "object": "直接蓝图通信",
+      "context": "在需要解耦的场景下，事件调度器可以替代直接蓝图通信",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "蓝图接口",
+      "predicate": "统一",
+      "object": "多种通信方式",
+      "context": "蓝图接口提供了一种统一的方式来整合直接通信、转换和事件调度器等多种通信方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:14:19.938Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (20479 字符)",
+      "timestamp": "2025-06-15T18:13:13.001Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 31183,
+    "contentLength": 20479,
+    "processingTimeMs": 66941
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_creating-layered-materials-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_creating-layered-materials-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "分层材质",
+      "predicate": "包含",
+      "object": "铬材质",
+      "context": "分层材质由铬和雪两层材质构成，理解分层材质需要先掌握基础材质创建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分层材质",
+      "predicate": "包含",
+      "object": "雪材质",
+      "context": "分层材质由铬和雪两层材质构成，雪材质处理表面朝上部分的显示效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分层材质",
+      "predicate": "使用",
+      "object": "WorldAlignedBlend",
+      "context": "WorldAlignedBlend函数用于实现基于世界坐标的材质混合，是分层效果的核心技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分层材质",
+      "predicate": "使用",
+      "object": "MatLayerBlend_Simple",
+      "context": "该函数专门用于处理材质层之间的过渡效果，是构建分层材质的必要组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "铬材质",
+      "predicate": "使用",
+      "object": "Make Material Attributes",
+      "context": "该节点用于构建材质属性集合，是创建任何材质的基础操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "铬材质",
+      "predicate": "基于",
+      "object": "T_ExampleLayers_Metal_1_BC",
+      "context": "该纹理提供基础颜色和粗糙度数据，是铬材质视觉表现的基础资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "铬材质",
+      "predicate": "基于",
+      "object": "T_ExampleLayers_Metal01_N",
+      "context": "法线贴图纹理为铬材质提供表面细节，增强真实感",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "雪材质",
+      "predicate": "使用",
+      "object": "FuzzyShading",
+      "context": "该材质函数专门模拟纤维状表面光照效果，对雪材质真实感至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "雪材质",
+      "predicate": "基于",
+      "object": "T_Cave_Ice_Tiling_D",
+      "context": "提供雪材质的基础颜色和粗糙度数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "雪材质",
+      "predicate": "基于",
+      "object": "T_Cave_Ice_Noise_N",
+      "context": "法线贴图为雪材质提供表面凹凸细节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质实例",
+      "predicate": "继承自",
+      "object": "分层材质",
+      "context": "材质实例通过参数覆盖实现材质变体，是分层材质的应用形式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "材质函数",
+      "predicate": "用于",
+      "object": "材质创建",
+      "context": "材质函数是可复用的材质节点网络，能显著提升复杂材质创建效率",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LERP",
+      "predicate": "用于",
+      "object": "材质混合",
+      "context": "线性插值是实现材质属性过渡的基础数学运算",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "AppendVector",
+      "predicate": "用于",
+      "object": "法线处理",
+      "context": "该节点用于重组法线贴图的通道数据，实现法线效果调整",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "材质编辑器",
+      "predicate": "用于",
+      "object": "材质开发",
+      "context": "所有材质和材质函数的创建和编辑都在材质编辑器中完成",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容浏览器",
+      "predicate": "管理",
+      "object": "材质资产",
+      "context": "材质、材质函数和材质实例都通过内容浏览器进行创建和管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:42:38.026Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (10369 字符)",
+      "timestamp": "2025-06-15T18:41:38.512Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 15389,
+    "contentLength": 10369,
+    "processingTimeMs": 59518
+  }
+}

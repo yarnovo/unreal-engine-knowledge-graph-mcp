@@ -1,0 +1,141 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_hardware-and-software-specifications-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_hardware-and-software-specifications-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎5",
+      "predicate": "需要",
+      "object": "Windows 10 64位",
+      "context": "虚幻引擎5需要Windows 10 64位版本1909.1350及以上版本才能运行，这是学习虚幻引擎5的基础环境要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎5",
+      "predicate": "兼容",
+      "object": "Windows 11",
+      "context": "了解Windows 11也兼容虚幻引擎5有助于学习者选择合适的操作系统",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎5",
+      "predicate": "推荐使用",
+      "object": "DirectX 12",
+      "context": "DirectX 12能提供更好的性能和多核处理支持，这对学习引擎性能优化很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen全局光照",
+      "predicate": "需要",
+      "object": "DirectX 12",
+      "context": "学习高级渲染功能Lumen需要了解其对DirectX 12的依赖关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Nanite虚拟化几何体",
+      "predicate": "需要",
+      "object": "DirectX 12 Agility SDK",
+      "context": "理解Nanite技术要求有助于学习者准备正确的开发环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎5开发",
+      "predicate": "推荐使用",
+      "object": "Visual Studio 2022",
+      "context": "了解推荐的开发工具对建立正确的工作流程很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎5",
+      "predicate": "依赖",
+      "object": "Microsoft Visual C++ 2015-2022可再发行程序包",
+      "context": "了解引擎的运行时依赖对解决安装和运行问题有帮助",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen硬件光线追踪",
+      "predicate": "需要",
+      "object": "SM6",
+      "context": "学习高级渲染功能需要了解其技术前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间超级分辨率",
+      "predicate": "支持",
+      "object": "Shader Model 5",
+      "context": "了解不同渲染功能对Shader Model的支持情况有助于性能优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎5",
+      "predicate": "不再支持",
+      "object": "32位平台",
+      "context": "了解平台支持变化对项目规划很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎5开发",
+      "predicate": "可选使用",
+      "object": "VS Code",
+      "context": "了解替代开发工具选项对偏好不同IDE的学习者有帮助",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻引擎5开发",
+      "predicate": "可选使用",
+      "object": "Rider编辑器",
+      "context": "了解替代开发工具选项对偏好不同IDE的学习者有帮助",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻引擎5编译",
+      "predicate": "推荐",
+      "object": "12到16核心计算机",
+      "context": "了解编译性能要求对设置开发环境很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Nanite虚拟化几何体",
+      "predicate": "关联",
+      "object": "虚拟阴影贴图",
+      "context": "这两个高级渲染功能通常一起使用，了解它们的关联有助于学习高级图形技术",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚幻引擎5",
+      "predicate": "需要",
+      "object": "最新显卡驱动程序",
+      "context": "保持显卡驱动更新是确保引擎正常运行的基本要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen全局光照",
+      "predicate": "需要",
+      "object": "NVIDIA RTX-2000系列或更高",
+      "context": "了解高级图形功能对硬件的要求有助于学习硬件选型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:18:27.248Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7895,
+    "contentLength": 5622,
+    "processingTimeMs": 59779
+  }
+}

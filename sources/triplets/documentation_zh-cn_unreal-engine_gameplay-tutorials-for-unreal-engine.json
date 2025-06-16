@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_gameplay-tutorials-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_gameplay-tutorials-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Actor",
+      "predicate": "包含",
+      "object": "组件",
+      "context": "Actor可以包含多个组件，这是构建游戏对象的基础方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色",
+      "predicate": "实现",
+      "object": "角色动作",
+      "context": "角色动作系统用于实现角色的移动和行为控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏模式",
+      "predicate": "控制",
+      "object": "Pawn",
+      "context": "游戏模式决定了玩家控制的Pawn类型和行为规则",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Pawn",
+      "predicate": "被持有",
+      "object": "玩家",
+      "context": "Pawn是可以被玩家持有控制的游戏实体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnHit事件",
+      "predicate": "用于",
+      "object": "碰撞检测",
+      "context": "OnHit事件是处理游戏对象碰撞交互的核心机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏模式",
+      "predicate": "管理",
+      "object": "玩家重生",
+      "context": "游戏模式负责管理玩家死亡后的重生逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "保存系统",
+      "predicate": "记录",
+      "object": "游戏状态",
+      "context": "保存系统用于记录和恢复游戏进度和状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图",
+      "predicate": "用于",
+      "object": "查找Actor",
+      "context": "蓝图系统提供了在场景中查找特定Actor的功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "C++",
+      "predicate": "用于",
+      "object": "查找Actor",
+      "context": "C++代码也可以实现场景中Actor的查找功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "角色动作系统",
+      "predicate": "依赖",
+      "object": "Pawn",
+      "context": "角色动作需要基于Pawn实体来实现",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "游戏模式",
+      "predicate": "决定",
+      "object": "游戏规则",
+      "context": "游戏模式定义了游戏的基本规则和流程",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "碰撞系统",
+      "predicate": "触发",
+      "object": "OnHit事件",
+      "context": "碰撞检测系统会触发OnHit事件来处理交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "组件",
+      "predicate": "扩展",
+      "object": "Actor功能",
+      "context": "通过添加不同组件可以扩展Actor的功能和行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:10:47.649Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3390,
+    "contentLength": 2752,
+    "processingTimeMs": 40635
+  }
+}

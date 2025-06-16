@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_eqs-node-reference-generators-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_eqs-node-reference-generators-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "EQS生成器",
+      "predicate": "属于",
+      "object": "场景查询系统(EQS)",
+      "context": "生成器是EQS的核心组件，用于产生测试项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actors of Class生成器",
+      "predicate": "用于",
+      "object": "查找特定类别的Actor",
+      "context": "该生成器专门用于在指定半径内搜索特定类别的Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Composite生成器",
+      "predicate": "组合",
+      "object": "多个生成器",
+      "context": "允许将多个生成器的输出合并用于测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Current Location生成器",
+      "predicate": "获取",
+      "object": "查询情境位置",
+      "context": "专门用于获取查询情境的当前位置进行测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义生成器",
+      "predicate": "继承自",
+      "object": "EnvQueryGenerator_BlueprintBase",
+      "context": "开发者可以通过继承基类创建自定义生成器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Points:Circle生成器",
+      "predicate": "生成",
+      "object": "圆形分布项目",
+      "context": "从中心点向外辐射生成圆形分布的项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Points:Cone生成器",
+      "predicate": "生成",
+      "object": "锥形分布项目",
+      "context": "从中心Actor向外生成锥形分布的项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Points:Donut生成器",
+      "predicate": "生成",
+      "object": "环形分布项目",
+      "context": "生成从中心向外辐射的环形分布项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Points:Grid生成器",
+      "predicate": "生成",
+      "object": "网格分布项目",
+      "context": "围绕指定情境生成网格状分布的项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Points:Pathing Grid生成器",
+      "predicate": "基于",
+      "object": "导航网格",
+      "context": "专门用于在导航网格上生成路径网格",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EQS生成器",
+      "predicate": "返回",
+      "object": "项目(Item)",
+      "context": "所有生成器的核心功能是产生测试用的项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EQS生成器",
+      "predicate": "连接",
+      "object": "行为树",
+      "context": "生成器的输出最终会返回到行为树进行决策",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义生成器",
+      "predicate": "包含",
+      "object": "Do Item Generation函数",
+      "context": "自定义生成器需要覆盖此函数来实现项目生成逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "C++生成器",
+      "predicate": "性能优于",
+      "object": "蓝图生成器",
+      "context": "文档明确指出C++实现的生成器执行效率更高",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成器",
+      "predicate": "支持",
+      "object": "数据绑定",
+      "context": "部分生成器支持与用户定义的数据绑定一起使用",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "生成器",
+      "predicate": "包含",
+      "object": "自动排序测试功能",
+      "context": "多数生成器都支持自动排序测试以提高性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "生成器",
+      "predicate": "使用",
+      "object": "查询情境",
+      "context": "生成器通常需要指定查询情境作为操作基准点",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Points:Pathing Grid",
+      "predicate": "依赖",
+      "object": "导航过滤器",
+      "context": "该生成器需要使用导航过滤器来确定可行走区域",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Points类生成器",
+      "predicate": "支持",
+      "object": "投射到导航网格",
+      "context": "多数Points类生成器支持将生成点投射到导航网格",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Composite生成器",
+      "predicate": "允许",
+      "object": "混合项目类型",
+      "context": "可以配置是否允许混合不同类型的生成器项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:59:35.458Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11525 字符)",
+      "timestamp": "2025-06-15T18:58:31.069Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 17526,
+    "contentLength": 11525,
+    "processingTimeMs": 64399
+  }
+}

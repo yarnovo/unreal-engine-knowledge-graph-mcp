@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_horde-permissions-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_horde-permissions-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Horde",
+      "predicate": "支持",
+      "object": "身份验证",
+      "context": "Horde提供了多种身份验证方式，这是系统安全的基础功能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "身份验证",
+      "predicate": "包含",
+      "object": "匿名模式",
+      "context": "匿名是Horde身份验证的三种模式之一，适合快速入门",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "身份验证",
+      "predicate": "包含",
+      "object": "OpenID Connect",
+      "context": "OIDC是Horde推荐的企业级身份验证方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "身份验证",
+      "predicate": "包含",
+      "object": "内置用户账号",
+      "context": "内置账号是小型工作室的替代方案，由Horde本地管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OpenID Connect",
+      "predicate": "适用于",
+      "object": "集中式身份验证",
+      "context": "OIDC特别适合已使用Google Workspaces等集中认证的工作室",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "内置用户账号",
+      "predicate": "适用于",
+      "object": "小型工作室",
+      "context": "文档明确指出这是小型工作室的可行选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "实现",
+      "object": "访问权限控制列表(ACL)",
+      "context": "ACL是Horde控制实体访问权限的核心机制",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ACL",
+      "predicate": "控制",
+      "object": "实体访问权限",
+      "context": "ACL通过条目定义用户可以执行的具体操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "管理员用户",
+      "predicate": "拥有",
+      "object": "全部操作权限",
+      "context": "管理员不受ACL限制，可以执行任何操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OIDC",
+      "predicate": "生成",
+      "object": "合成声明",
+      "context": "Horde会在OIDC返回的声明基础上添加额外声明",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "合成声明",
+      "predicate": "包含",
+      "object": "用户标识符",
+      "context": "如user-id-v3是Horde分配的唯一用户标识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ACL条目",
+      "predicate": "定义",
+      "object": "权限操作",
+      "context": "如示例中展示了如何定义ViewJob等具体操作权限",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Server.json",
+      "predicate": "配置",
+      "object": "管理员声明",
+      "context": "通过该文件设置AdminClaimType等管理员认证属性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "匿名模式",
+      "predicate": "前置",
+      "object": "生产部署配置",
+      "context": "文档强调匿名模式仅用于展示，生产环境必须配置正式认证",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T19:20:42.544Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6067,
+    "contentLength": 4333,
+    "processingTimeMs": 47829
+  }
+}

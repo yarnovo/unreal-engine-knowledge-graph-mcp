@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-in-app-purchases-in-unreal-engine-projects-for-mobile-devices",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-in-app-purchases-in-unreal-engine-projects-for-mobile-devices.md",
+  "triples": [
+    {
+      "subject": "应用程序内购买",
+      "predicate": "用于",
+      "object": "移动设备项目",
+      "context": "文档明确说明应用程序内购买功能是专门为移动设备项目设计的，帮助学习者理解该功能的适用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "应用程序内购买",
+      "predicate": "提供",
+      "object": "额外内容和功能",
+      "context": "核心功能说明，帮助学习者理解应用程序内购买的主要用途是为游戏提供增值服务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "读取应用程序内购买信息节点",
+      "predicate": "处理",
+      "object": "产品辨识符数组",
+      "context": "关键技术细节，说明该节点可以批量处理多个产品信息，与单个处理的购买节点形成对比",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "进行应用程序内购买节点",
+      "predicate": "采用",
+      "object": "单个产品辨识符",
+      "context": "与读取节点形成操作对比，帮助学习者理解两种不同场景下的设计差异",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "进行应用程序内购买节点",
+      "predicate": "是",
+      "object": "潜在节点",
+      "context": "重要特性说明，帮助学习者理解该节点需要等待服务器响应才能继续执行后续逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "恢复应用程序内购买节点",
+      "predicate": "返回",
+      "object": "所有购买信息数组",
+      "context": "功能说明，帮助学习者理解恢复操作会获取用户历史购买记录用于比对处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "产品请求结构体",
+      "predicate": "包含",
+      "object": "产品辨识符和消费品标志",
+      "context": "数据结构说明，帮助学习者理解进行购买时需要提供的关键信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "应用程序内购买信息结构体",
+      "predicate": "包含",
+      "object": "名称、描述、价格等数据",
+      "context": "数据结构说明，帮助学习者理解可以从平台获取的产品详细信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "安卓内购配置",
+      "predicate": "属于",
+      "object": "平台特定配置",
+      "context": "分类说明，帮助学习者理解不同平台需要单独配置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "在线子系统",
+      "predicate": "处理",
+      "object": "应用程序内购买功能",
+      "context": "架构说明，帮助学习者理解IAP功能在引擎中的所属系统",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "潜在版本",
+      "predicate": "区别于",
+      "object": "非潜在版本",
+      "context": "对比说明，帮助学习者理解是否需要等待服务器响应的两种实现方式",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "恢复购买",
+      "predicate": "对比",
+      "object": "游戏进程逻辑",
+      "context": "流程说明，帮助学习者理解恢复后需要与游戏内逻辑进行比对验证",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:17:45.102Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4638,
+    "contentLength": 3042,
+    "processingTimeMs": 39672
+  }
+}

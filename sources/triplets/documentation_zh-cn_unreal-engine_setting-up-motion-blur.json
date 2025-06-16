@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_setting-up-motion-blur",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_setting-up-motion-blur.md",
+  "triples": [
+    {
+      "subject": "动态模糊",
+      "predicate": "使用",
+      "object": "Velocity GBuffer",
+      "context": "动态模糊的实现依赖于Velocity GBuffer来存储每个像素的向量信息，这是理解动态模糊技术实现的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Velocity GBuffer",
+      "predicate": "存储",
+      "object": "像素向量",
+      "context": "Velocity GBuffer的核心功能是存储像素向量，这是动态模糊计算的基础数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态模糊",
+      "predicate": "存在限制",
+      "object": "次级动态模糊",
+      "context": "了解动态模糊无法处理阴影、反射等次级动态效果，有助于开发者合理设置效果预期",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态模糊",
+      "predicate": "可能产生",
+      "object": "移动伪影",
+      "context": "快速移动对象可能产生伪影，这是动态模糊技术的重要特性认知",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "影片渲染队列",
+      "predicate": "提升",
+      "object": "渲染质量",
+      "context": "影片渲染队列通过时间样本数提升渲染质量，这是高质量渲染的关键技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间样本数",
+      "predicate": "影响",
+      "object": "模拟时间步长",
+      "context": "时间样本数设置会改变传递给模拟的时间步长，这是理解时间采样与物理模拟关系的关键",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间样本数",
+      "predicate": "需要关闭",
+      "object": "在运行时锁定为显示率",
+      "context": "这两个设置的互斥关系是正确配置时间采样的重要知识点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "控制",
+      "object": "时间样本分布",
+      "context": "理解Sequencer如何控制时间样本分布对动画和模拟制作至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "不规则时间步长",
+      "predicate": "导致",
+      "object": "模拟伪影",
+      "context": "认识不规则时间步长与模拟伪影的关系有助于调试物理模拟问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格模拟",
+      "predicate": "敏感于",
+      "object": "时间步长变化",
+      "context": "网格模拟对时间步长的敏感性是物理模拟调试的重要知识点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "固定刷新增量时间",
+      "predicate": "应匹配",
+      "object": "Sequencer帧率",
+      "context": "这个匹配关系是解决网格模拟与Sequencer同步问题的关键配置",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "实时应用程序",
+      "predicate": "适用",
+      "object": "动态模糊",
+      "context": "区分动态模糊在实时应用和线性内容中的适用性差异",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "线性内容",
+      "predicate": "更适合使用",
+      "object": "时间样本渲染",
+      "context": "理解不同内容类型适合的渲染技术选择",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:45:11.497Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3265,
+    "contentLength": 1835,
+    "processingTimeMs": 37477
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_procedural-content-generation-pcg-biome-core-and-sample-plugins-reference-guide-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_procedural-content-generation-pcg-biome-core-and-sample-plugins-reference-guide-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "PCG框架",
+      "predicate": "包含",
+      "object": "PCG群系核心",
+      "context": "PCG群系核心是PCG框架的一个功能模块，用于程序化内容生成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PCG群系核心",
+      "predicate": "实现",
+      "object": "程序化内容生成",
+      "context": "PCG群系核心通过一系列处理步骤实现程序化内容生成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BiomeCore图表",
+      "predicate": "控制",
+      "object": "群系生成流程",
+      "context": "BiomeCore图表作为群系创建工具的核心，控制所有处理步骤的执行顺序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "群系缓存",
+      "predicate": "存储",
+      "object": "群系定义数据",
+      "context": "群系缓存用于在世界中空间化存储群系定义数据的PCG点网格",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "群系缓存",
+      "predicate": "依赖",
+      "object": "群系核心PCG组件",
+      "context": "群系缓存的分辨率由群系核心PCG组件的参数控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "根资产表",
+      "predicate": "优化",
+      "object": "点属性布局",
+      "context": "根资产表通过AssetID属性简化并优化了点属性布局",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发生器",
+      "predicate": "生成",
+      "object": "根点数据",
+      "context": "发生器是根点提供程序，负责生成群系资产将被分配到的点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发生器图表",
+      "predicate": "支持",
+      "object": "自定义逻辑",
+      "context": "发生器图表是独立的PCG图表，可以满足各种自定义逻辑需求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "群系资产",
+      "predicate": "映射",
+      "object": "群系定义",
+      "context": "群系资产通过群系定义与群系颜色进行映射",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基于优先级的对比",
+      "predicate": "影响",
+      "object": "点数据分层",
+      "context": "基于优先级的对比通过发生器优先级值对点数据进行分层处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "筛选器",
+      "predicate": "应用于",
+      "object": "根点和子点",
+      "context": "筛选器可以根据自定义计算图表或纹理投射列表筛选根点和子点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "递归和变换",
+      "predicate": "支持",
+      "object": "子资产层级",
+      "context": "递归和变换功能支持创建复杂的子资产层级结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "生成步骤",
+      "predicate": "包含",
+      "object": "Actor和网格体生成",
+      "context": "生成步骤包括生成Actor、静态网格体和程序集实例化器三种方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BiomeCore运行时",
+      "predicate": "用于",
+      "object": "精细资产的运行时生成",
+      "context": "BiomeCore运行时用于在摄像机周围生成精细资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "注入的数据",
+      "predicate": "增加",
+      "object": "美术控制",
+      "context": "注入的数据类型可以增加手动、半手动和更多美术控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "群系Actor",
+      "predicate": "包括",
+      "object": "群系体积和样条线",
+      "context": "群系Actor包括群系体积、样条线和群系设置Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "群系定义",
+      "predicate": "识别",
+      "object": "群系",
+      "context": "群系定义通过唯一颜色、名称和优先级识别群系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "群系资产",
+      "predicate": "包含",
+      "object": "变换图表和子资产引用",
+      "context": "群系资产包含变换图表和子资产引用，用于递归变换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "发生器子类型",
+      "predicate": "减少",
+      "object": "发生器图表数量",
+      "context": "发生器子类型可以减少创建复杂群系所需的发生器图表数量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "分区和分层生成",
+      "predicate": "优化",
+      "object": "性能",
+      "context": "分区和分层生成可以优化生成性能，特别是在大型世界中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:29:40.899Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (57248 字符)",
+      "timestamp": "2025-06-15T20:28:37.630Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 83990,
+    "contentLength": 57248,
+    "processingTimeMs": 63279
+  }
+}

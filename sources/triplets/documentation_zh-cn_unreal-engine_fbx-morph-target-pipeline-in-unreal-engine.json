@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_fbx-morph-target-pipeline-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_fbx-morph-target-pipeline-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "变换目标",
+      "predicate": "是",
+      "object": "特定网格体的顶点位置的快照",
+      "context": "帮助学习者理解变换目标的本质定义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换目标",
+      "predicate": "用于",
+      "object": "角色面部表情动画",
+      "context": "说明变换目标在角色动画中的典型应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换目标",
+      "predicate": "通过",
+      "object": "FBX导入",
+      "context": "说明变换目标进入虚幻引擎的主要方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换目标",
+      "predicate": "封装在",
+      "object": "动画序列",
+      "context": "说明变换目标在虚幻引擎中的组织方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换目标",
+      "predicate": "通过",
+      "object": "曲线访问",
+      "context": "说明如何控制变换目标的动画数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX导入管线",
+      "predicate": "使用",
+      "object": "FBX 2020.2",
+      "context": "说明虚幻引擎兼容的FBX版本要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Maya",
+      "predicate": "使用",
+      "object": "混合形状",
+      "context": "说明在Maya中创建变换目标的技术方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3ds Max",
+      "predicate": "使用",
+      "object": "变换器修饰符",
+      "context": "说明在3ds Max中创建变换目标的技术方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FBX导出",
+      "predicate": "需要启用",
+      "object": "动画和变形模型选项",
+      "context": "说明导出变换目标时的必要设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨架网格体",
+      "predicate": "包含",
+      "object": "变换目标",
+      "context": "说明变换目标在虚幻引擎中的归属关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换目标预览器",
+      "predicate": "用于",
+      "object": "调整变换目标强度",
+      "context": "说明虚幻引擎中调试变换目标的工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Maya混合形状节点",
+      "predicate": "决定",
+      "object": "虚幻引擎中的变换目标名称",
+      "context": "说明命名规则的来源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3ds Max变换器修饰符",
+      "predicate": "决定",
+      "object": "虚幻引擎中的变换目标名称",
+      "context": "说明命名规则的来源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换目标导入",
+      "predicate": "会覆盖",
+      "object": "现有变换目标",
+      "context": "说明导入时的注意事项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换目标",
+      "predicate": "增强",
+      "object": "角色动画可信度",
+      "context": "说明变换目标对动画质量的影响",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "FBX导入通道",
+      "predicate": "支持",
+      "object": "多骨架网格体多变换目标",
+      "context": "说明导入功能的扩展性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变换目标设置",
+      "predicate": "需要",
+      "object": "基本网格体和目标姿势",
+      "context": "说明创建变换目标的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混合形状权重",
+      "predicate": "控制",
+      "object": "目标姿势插值程度",
+      "context": "说明权重参数的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MorphTargetSet",
+      "predicate": "存储",
+      "object": "导入的变换目标",
+      "context": "说明虚幻引擎中变换目标的组织形式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Persona编辑器",
+      "predicate": "包含",
+      "object": "变换目标预览器",
+      "context": "说明调试变换目标的工具位置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:04:59.225Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8578 字符)",
+      "timestamp": "2025-06-15T19:03:59.793Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12606,
+    "contentLength": 8578,
+    "processingTimeMs": 59437
+  }
+}

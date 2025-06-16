@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_managing-the-active-culture-at-runtime",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_managing-the-active-culture-at-runtime.md",
+  "triples": [
+    {
+      "subject": "活跃的文化",
+      "predicate": "包含",
+      "object": "语言",
+      "context": "活跃的文化包含语言，语言用于确定应该使用的本地化数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "活跃的文化",
+      "predicate": "包含",
+      "object": "区域",
+      "context": "活跃的文化包含区域，区域用于控制国际化库中数字/日期/时间等的格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "活跃的文化",
+      "predicate": "包含",
+      "object": "资源组文化",
+      "context": "活跃的文化包含资源组文化，资源组允许创建一组资源类，这些资源类可以指定给与主项目语言不同的文化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FInternationalization",
+      "predicate": "存储",
+      "object": "活跃的文化基础信息",
+      "context": "FInternationalization单件存储活跃的文化基础信息，是管理文化的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UKismetInternationalizationLibrary",
+      "predicate": "提供",
+      "object": "包装函数",
+      "context": "UKismetInternationalizationLibrary提供包装函数，使开发者能够从C++和蓝图访问和设置文化信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetCurrentLanguage",
+      "predicate": "获取",
+      "object": "活跃的语言",
+      "context": "GetCurrentLanguage函数用于获取当前活跃的语言，帮助开发者了解当前语言设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SetCurrentCulture",
+      "predicate": "设置",
+      "object": "活跃的文化",
+      "context": "SetCurrentCulture函数用于设置活跃的文化，包括语言、区域和所有资源组",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FTextLocalizationManager",
+      "predicate": "存储",
+      "object": "可用语言基础信息",
+      "context": "FTextLocalizationManager单件存储可用语言的基础信息，是查询可用语言的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GetLocalizedCultures",
+      "predicate": "获取",
+      "object": "有本地化数据可用的文化列表",
+      "context": "GetLocalizedCultures函数用于获取有本地化数据可用的文化列表，帮助开发者了解可用的本地化选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DefaultGame.ini",
+      "predicate": "定义",
+      "object": "项目的默认设置",
+      "context": "DefaultGame.ini文件通常用于定义项目的默认设置，包括国际化相关的配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "本地化预览",
+      "predicate": "使用",
+      "object": "预览游戏语言",
+      "context": "本地化预览通过预览游戏语言设置进行配置，允许开发者在编辑器中预览不同语言的本地化数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "文化重映射",
+      "predicate": "映射",
+      "object": "文化代码",
+      "context": "文化重映射提供了一种将一个文化代码映射到另一个文化代码的方法，用于处理区域差异",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "文化限制",
+      "predicate": "启用或禁用",
+      "object": "特定文化",
+      "context": "文化限制允许开发者根据构建配置启用或禁用特定文化，用于控制发布版本中的语言选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "活跃的文化",
+      "predicate": "影响",
+      "object": "本地化数据",
+      "context": "活跃的文化直接影响本地化数据的选择和显示，是国际化功能的核心概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资源组文化",
+      "predicate": "独立于",
+      "object": "主项目语言",
+      "context": "资源组文化可以独立于主项目语言设置，允许更灵活的本地化资源管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:49:22.563Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10267,
+    "contentLength": 6970,
+    "processingTimeMs": 50734
+  }
+}

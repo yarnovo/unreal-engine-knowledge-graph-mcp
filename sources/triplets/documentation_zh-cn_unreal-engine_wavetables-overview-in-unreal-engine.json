@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_wavetables-overview-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_wavetables-overview-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "WaveTable",
+      "predicate": "存储于",
+      "object": "WaveTable Bank",
+      "context": "WaveTable数据存储在WaveTable Bank资产中，这是学习WaveTable合成的基础存储结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WaveTable Bank",
+      "predicate": "包含",
+      "object": "WaveTable曲线",
+      "context": "WaveTable库编辑器可以查看和编辑所有WaveTable曲线，理解曲线是掌握WaveTable合成的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WaveTable Bank",
+      "predicate": "支持",
+      "object": "两种采样模式",
+      "context": "固定分辨率和固定采样率模式分别适用于不同场景，这是WaveTable应用的重要基础概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WaveTable",
+      "predicate": "用于",
+      "object": "MetaSound",
+      "context": "WaveTable是MetaSound中实现wavetable合成和采样的核心方法，连接这两个概念对音频开发至关重要",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "MetaSound",
+      "predicate": "包含",
+      "object": "WaveTable节点",
+      "context": "MetaSound通过三类WaveTable节点(发生器/Envelopes/工具)实现高级音频合成功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WaveTable发生器节点",
+      "predicate": "扩展",
+      "object": "核心发生器节点",
+      "context": "WaveTable发生器比传统正弦/锯齿发生器更强大，这是音频合成的进阶知识",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "WaveTable Player",
+      "predicate": "需要",
+      "object": "固定采样率WaveTable库",
+      "context": "节点与采样模式的对应关系是正确使用WaveTable的重要技术细节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WaveTable Oscillator",
+      "predicate": "需要",
+      "object": "固定分辨率WaveTable库",
+      "context": "节点与采样模式的对应关系是正确使用WaveTable的重要技术细节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WaveTable Envelopes节点",
+      "predicate": "改进",
+      "object": "传统Envelopes节点",
+      "context": "理解WaveTable如何增强传统音频调制功能是进阶学习路径",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "Get WaveTable From Bank",
+      "predicate": "提供",
+      "object": "WaveTable混合功能",
+      "context": "该工具节点支持在固定分辨率库中进行WaveTable混合，是高级音频控制技术",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "曲线编辑器",
+      "predicate": "用于",
+      "object": "编辑WaveTable曲线",
+      "context": "掌握曲线编辑器工具是自定义WaveTable的必要技能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "双极属性",
+      "predicate": "影响",
+      "object": "波形生成范围",
+      "context": "理解双极设置(-1.0到1.0)与单极设置(0.0到1.0)的区别对正确生成波形很关键",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T21:32:34.200Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6574,
+    "contentLength": 4586,
+    "processingTimeMs": 34931
+  }
+}

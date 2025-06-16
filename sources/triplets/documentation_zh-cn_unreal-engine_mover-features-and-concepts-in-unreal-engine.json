@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_mover-features-and-concepts-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_mover-features-and-concepts-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "MoverComponent",
+      "predicate": "管理",
+      "object": "移动",
+      "context": "MoverComponent是管理移动的核心组件，理解它是学习Mover功能的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MoverComponent",
+      "predicate": "提供",
+      "object": "API",
+      "context": "MoverComponent提供API用于影响移动操作，这是开发者交互的主要接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动模式",
+      "predicate": "决定",
+      "object": "Actor移动方式",
+      "context": "移动模式是决定角色如何移动的核心机制，理解不同模式对掌握角色控制至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动模式",
+      "predicate": "执行",
+      "object": "分层移动建议",
+      "context": "分层移动需要依赖当前激活的移动模式来执行其建议动作，展示了两者的协作关系",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "分层移动",
+      "predicate": "生成",
+      "object": "建议动作",
+      "context": "分层移动通过生成建议动作来影响角色移动，这是实现复杂移动效果的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "过渡",
+      "predicate": "评估",
+      "object": "移动模式切换",
+      "context": "过渡机制帮助理解角色在不同移动状态间的转换逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "默认角色移动集",
+      "predicate": "模拟",
+      "object": "角色移动组件功能",
+      "context": "默认角色移动集为熟悉CMC的开发者提供过渡方案，是学习Mover的起点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "移动修饰符",
+      "predicate": "调整",
+      "object": "移动模拟参数",
+      "context": "移动修饰符提供在不产生实际移动的情况下调整参数的能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "瞬时效果",
+      "predicate": "改变",
+      "object": "移动模式",
+      "context": "瞬时效果展示了不依赖模式的特殊移动处理方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NavMoverComponent",
+      "predicate": "支持",
+      "object": "导航",
+      "context": "NavMoverComponent扩展了Mover的导航能力，是寻路相关功能的入口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "输入",
+      "predicate": "影响",
+      "object": "移动模拟",
+      "context": "理解输入如何影响移动是构建角色控制系统的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "同步状态",
+      "predicate": "描述",
+      "object": "Actor移动状态",
+      "context": "同步状态是理解网络同步和状态管理的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "共享设置",
+      "predicate": "被使用",
+      "object": "多个移动模式",
+      "context": "共享设置展示了不同移动模式间的参数复用机制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "后端",
+      "predicate": "驱动",
+      "object": "Mover Actor",
+      "context": "后端系统展示了Mover与其他引擎系统的集成方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MoverComponent",
+      "predicate": "包含",
+      "object": "移动模式",
+      "context": "MoverComponent作为容器管理各种移动模式，展示组件架构",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "默认角色移动集",
+      "predicate": "包含",
+      "object": "NavWalking模式",
+      "context": "默认移动集包含特定导航模式，展示预设功能的组成",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "分层移动",
+      "predicate": "可与",
+      "object": "移动模式共存",
+      "context": "分层移动与基础移动模式的共存关系展示了移动系统的层次结构",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "移动修饰符",
+      "predicate": "可批量修改",
+      "object": "移动设置",
+      "context": "移动修饰符的批量修改能力展示了参数管理的便捷方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基于物理的后端",
+      "predicate": "交互",
+      "object": "Chaos物理系统",
+      "context": "展示Mover如何与引擎物理系统集成",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:00:26.578Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6953,
+    "contentLength": 4141,
+    "processingTimeMs": 53703
+  }
+}

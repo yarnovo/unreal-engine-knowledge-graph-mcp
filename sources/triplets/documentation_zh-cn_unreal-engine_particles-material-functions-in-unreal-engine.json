@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_particles-material-functions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_particles-material-functions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "3dParticleOpacity",
+      "predicate": "属于",
+      "object": "粒子函数",
+      "context": "3dParticleOpacity是粒子函数类别下的一个具体函数，学习者需要先理解粒子函数的概念才能掌握具体函数的使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3dParticleOpacity",
+      "predicate": "用于",
+      "object": "粒子系统",
+      "context": "该函数专门用于粒子系统中实现粒子在远离摄像机时的渐隐效果，是粒子视觉效果控制的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "深度纹理",
+      "predicate": "输入于",
+      "object": "3dParticleOpacity",
+      "context": "深度纹理是该函数的关键输入参数，用于计算粒子与摄像机的距离关系，理解深度纹理对掌握函数原理至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态纹理深度比率",
+      "predicate": "影响",
+      "object": "3dParticleOpacity效果",
+      "context": "该参数通过调整粒子大小与深度的比例关系，直接影响函数的计算精度和最终视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "摄像机衰减组",
+      "predicate": "包含",
+      "object": "近摄像机衰减参数",
+      "context": "这组参数共同控制粒子在接近摄像机时的衰减行为，学习者需要整体理解这组参数的交互关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子阿尔法通道",
+      "predicate": "叠加于",
+      "object": "3dParticleOpacity输出",
+      "context": "该选项允许将粒子原始透明度与函数计算结果叠加，是理解多层材质效果的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "全局位置偏移",
+      "predicate": "模仿",
+      "object": "粒子编辑器中的摄像机偏移",
+      "context": "该输出功能与粒子编辑器的摄像机偏移效果相对应，帮助学习者建立工具间的一致理解",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "深度纹理衰减柔和",
+      "predicate": "控制",
+      "object": "不透明度过渡效果",
+      "context": "该参数专门控制粒子渐隐的平滑程度，是视觉效果微调的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "3dParticleOpacity",
+      "predicate": "生成",
+      "object": "最终不透明度计算",
+      "context": "函数的核心输出结果，学习者需要理解所有输入参数如何共同影响这个最终输出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "显式纹理深度设置",
+      "predicate": "替代",
+      "object": "动态纹理深度设置",
+      "context": "这两种模式提供了不同的深度计算方式，理解它们的区别有助于根据项目需求选择合适配置",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    }
+  ],
+  "timestamp": "2025-06-15T20:19:05.103Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5237,
+    "contentLength": 3003,
+    "processingTimeMs": 43466
+  }
+}

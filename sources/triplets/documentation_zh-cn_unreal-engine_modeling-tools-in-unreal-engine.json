@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_modeling-tools-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_modeling-tools-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "建模模式",
+      "predicate": "包含",
+      "object": "创建类别",
+      "context": "建模模式提供了创建和编辑几何体的工具，创建类别是其中的一个功能模块，帮助用户开始构建新网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "建模模式",
+      "predicate": "包含",
+      "object": "选择类别",
+      "context": "选择类别是建模模式中的一个工具集，用于编辑元素选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "建模模式",
+      "predicate": "包含",
+      "object": "变形类别",
+      "context": "变形类别提供塑造或扭曲网格体的工具，是建模模式的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "创建类别",
+      "predicate": "包含",
+      "object": "挤压多边形工具",
+      "context": "挤压多边形是创建类别中的一个工具，用于徒手或根据预定义形状绘制和挤压多边形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "创建类别",
+      "predicate": "包含",
+      "object": "挤压路径工具",
+      "context": "挤压路径工具用于绘制并挤压多路径以创建新的网格体，如墙壁和匝道",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选择类别",
+      "predicate": "包含",
+      "object": "删除工具",
+      "context": "删除工具是选择类别中的一个功能，用于删除当前网格体选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选择类别",
+      "predicate": "包含",
+      "object": "挤压工具",
+      "context": "挤压工具通过移动和拼接选定的面来挤出几何体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形类别",
+      "predicate": "包含",
+      "object": "顶点塑造工具",
+      "context": "顶点塑造工具用于通过调整顶点来塑造所选网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "变形类别",
+      "predicate": "包含",
+      "object": "动态塑造工具",
+      "context": "动态塑造工具通过重网格化将新的几何体动态添加到网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "建模模式",
+      "predicate": "支持",
+      "object": "静态网格体",
+      "context": "建模工具可用于处理静态网格体，帮助用户创建和编辑几何体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "建模模式",
+      "predicate": "支持",
+      "object": "动态网格体",
+      "context": "动态网格体是建模工具可以处理的一种Actor类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "建模模式",
+      "predicate": "支持",
+      "object": "体积",
+      "context": "体积是建模工具可以处理的一种Actor类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "创建类别",
+      "predicate": "使用",
+      "object": "预定义形状",
+      "context": "创建类别中的工具可以使用预定义的形状（如盒体、球体等）来构建新网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "体素类别",
+      "predicate": "转换",
+      "object": "网格体",
+      "context": "体素类别工具将网格体转换为体素以执行体积操作，然后再转换回网格体",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "烘焙类别",
+      "predicate": "生成",
+      "object": "纹理",
+      "context": "烘焙类别工具为网格体生成纹理数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UV类别",
+      "predicate": "编辑",
+      "object": "UV坐标",
+      "context": "UV类别工具用于编辑网格体的UV坐标，改变纹理映射到表面的方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "属性类别",
+      "predicate": "检查",
+      "object": "法线",
+      "context": "属性类别中的工具可以检查和调整网格体的法线等二级属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "杂项类别",
+      "predicate": "管理",
+      "object": "LOD",
+      "context": "杂项类别中的工具（如自动LOD）用于生成和管理静态网格体的LOD",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "建模模式",
+      "predicate": "基于",
+      "object": "Beta功能",
+      "context": "建模模式是一个Beta功能，在产品发布中需要谨慎使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体类别",
+      "predicate": "优化",
+      "object": "几何体",
+      "context": "网格体类别提供用于优化和编辑网格体几何体的工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:58:52.509Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11124 字符)",
+      "timestamp": "2025-06-15T19:57:51.511Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 18645,
+    "contentLength": 11124,
+    "processingTimeMs": 61009
+  }
+}

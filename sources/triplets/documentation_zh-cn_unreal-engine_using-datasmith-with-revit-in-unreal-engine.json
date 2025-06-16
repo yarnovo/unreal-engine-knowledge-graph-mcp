@@ -1,0 +1,219 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-datasmith-with-revit-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-datasmith-with-revit-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Datasmith",
+      "predicate": "支持",
+      "object": "Revit",
+      "context": "Datasmith提供专门的导出插件，用于将Revit内容导入到虚幻引擎中",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导入流程",
+      "predicate": "包含",
+      "object": "Revit特殊行为",
+      "context": "Revit导入流程遵循Datasmith基本流程，但增加了Revit特有的处理方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Revit工作流程",
+      "predicate": "需要",
+      "object": "Datasmith导出插件",
+      "context": "使用Datasmith导入Revit内容必须先安装Revit导出插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Revit内容",
+      "predicate": "导出为",
+      "object": "*.udatasmith文件",
+      "context": "Revit内容需要通过导出插件转换为Datasmith专用格式才能导入虚幻引擎",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导入器插件",
+      "predicate": "用于",
+      "object": "导入.udatasmith文件",
+      "context": "项目需要启用Datasmith导入器插件才能处理导出的Revit内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Revit 3D视图",
+      "predicate": "控制",
+      "object": "导出内容",
+      "context": "3D视图的可视性设置决定了哪些Revit元素会被导出",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可视性/图形覆盖",
+      "predicate": "用于",
+      "object": "控制对象可视性",
+      "context": "Revit中的可视性设置工具可以精确控制导出到虚幻引擎的对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "剖面框",
+      "predicate": "限制",
+      "object": "导出几何体",
+      "context": "只有剖面框内的Revit几何体会被导出到虚幻引擎",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Revit元素",
+      "predicate": "转换为",
+      "object": "静态网格体",
+      "context": "Revit中的每个可单独选择的元素在虚幻引擎中都转为单独的静态网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "相同族系对象",
+      "predicate": "实例化为",
+      "object": "同一静态网格体",
+      "context": "相同参数的同族Revit对象在虚幻引擎中会实例化为同一静态网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Revit曲面细分服务",
+      "predicate": "生成",
+      "object": "三角形网格体",
+      "context": "Datasmith依赖Revit的内置功能将几何体转换为适合实时渲染的网格",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Datasmith导出设置",
+      "predicate": "控制",
+      "object": "曲面细分级别",
+      "context": "可以手动调整Revit生成的网格体细分程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "链接模型",
+      "predicate": "包含在",
+      "object": "Datasmith场景",
+      "context": "Datasmith会尝试查找并包含Revit场景中引用的其他Revit文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Revit材质",
+      "predicate": "转换为",
+      "object": "虚幻材质实例",
+      "context": "每种Revit表面类型都会生成对应的虚幻材质实例，基于RevitMaster父材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Revit纹理",
+      "predicate": "导入到",
+      "object": "Textures文件夹",
+      "context": "Revit中使用的纹理会被导入并组织在特定目录中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Revit场景层级",
+      "predicate": "映射为",
+      "object": "虚幻Actor层级",
+      "context": "Datasmith在虚幻中创建的父子关系反映了Revit中的组织方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Revit光源",
+      "predicate": "保留",
+      "object": "物理单位",
+      "context": "从Revit导入的光源会保持其物理强度设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Revit 3D视图",
+      "predicate": "转换为",
+      "object": "CineCameraActor",
+      "context": "Revit中的摄像机视图会转为虚幻中的电影摄像机Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Revit类别",
+      "predicate": "对应",
+      "object": "虚幻层",
+      "context": "Revit中的对象类别会转为虚幻编辑器中的层，便于管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Revit属性",
+      "predicate": "存储为",
+      "object": "元数据",
+      "context": "Revit元素的属性会作为元数据附加到虚幻中的对应Actor上",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RPC对象",
+      "predicate": "导入为",
+      "object": "静态网格体",
+      "context": "Revit中的RPC内容会转为虚幻中的静态网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Revit基点",
+      "predicate": "表示为",
+      "object": "无几何体Actor",
+      "context": "Revit的基点和测量点会转为包含元数据的特殊Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "代理几何体工具",
+      "predicate": "可用于",
+      "object": "简化网格体",
+      "context": "当Revit导入的网格体过于复杂时，可以使用此工具优化",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "RevitMaster材质",
+      "predicate": "作为",
+      "object": "父材质",
+      "context": "所有从Revit导入的材质实例都基于这个内置材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UV设置",
+      "predicate": "保留",
+      "object": "纹理映射",
+      "context": "Revit中的纹理位置、旋转和比例设置会转换到虚幻材质中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:17:03.910Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (15740 字符)",
+      "timestamp": "2025-06-15T21:15:55.130Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 24494,
+    "contentLength": 15740,
+    "processingTimeMs": 68783
+  }
+}

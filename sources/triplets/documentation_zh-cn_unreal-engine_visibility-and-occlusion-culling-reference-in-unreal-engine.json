@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_visibility-and-occlusion-culling-reference-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_visibility-and-occlusion-culling-reference-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "项目设置",
+      "predicate": "包含",
+      "object": "剔除设置",
+      "context": "项目设置中的剔除设置影响整个项目的可视性和遮挡剔除行为，是学习引擎渲染优化的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "剔除设置",
+      "predicate": "控制",
+      "object": "遮挡剔除",
+      "context": "遮挡剔除是项目设置中重要的性能优化选项，理解其工作原理对渲染性能调优至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Actor设置",
+      "predicate": "包含",
+      "object": "最小绘制距离",
+      "context": "Actor的绘制距离设置是优化场景渲染的重要参数，直接影响场景中对象的可见性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "剔除距离体积",
+      "predicate": "影响",
+      "object": "Actor绘制距离",
+      "context": "剔除距离体积可以覆盖Actor的默认绘制距离设置，是场景优化的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算可视性场景设置",
+      "predicate": "控制",
+      "object": "预计算可视性",
+      "context": "这些设置决定了预计算可视性系统的行为，是理解静态场景优化的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算可视性覆盖体积",
+      "predicate": "修改",
+      "object": "预计算可视性",
+      "context": "这些体积允许开发者覆盖默认的预计算可视性结果，为特殊场景提供灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "遮挡剔除",
+      "predicate": "影响",
+      "object": "渲染性能",
+      "context": "理解遮挡剔除机制是优化游戏性能的重要环节，特别是在复杂场景中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算可视性",
+      "predicate": "替代",
+      "object": "实时遮挡剔除",
+      "context": "预计算可视性是一种静态优化技术，可以减轻实时遮挡计算的负担",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "最小屏幕半径设置",
+      "predicate": "影响",
+      "object": "早期Z通道",
+      "context": "这些设置控制着不同渲染阶段的对象剔除阈值，是高级渲染优化的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "剔除距离体积",
+      "predicate": "基于",
+      "object": "对象尺寸",
+      "context": "理解剔除距离体积如何根据对象尺寸工作，有助于创建更精确的优化方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算可视性场景设置",
+      "predicate": "影响",
+      "object": "照明构建时间",
+      "context": "这些设置需要在运行时性能和构建时间之间做出权衡，是光照优化的重要考量",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可视性单元格大小",
+      "predicate": "影响",
+      "object": "遮挡精度",
+      "context": "较小的单元格提供更精确的遮挡但增加内存使用，理解这种权衡对场景优化很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "视为遮挡背景",
+      "predicate": "优化",
+      "object": "天空盒渲染",
+      "context": "这个设置特别适用于优化天空盒等背景元素的渲染性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "用作遮挡物",
+      "predicate": "控制",
+      "object": "深度通道渲染",
+      "context": "理解哪些对象参与深度测试是优化遮挡剔除的重要知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预计算可视性覆盖体积",
+      "predicate": "包含",
+      "object": "覆盖可见Actor列表",
+      "context": "这些列表允许开发者精确控制特定区域的可视性行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:30:26.088Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9075,
+    "contentLength": 5491,
+    "processingTimeMs": 43509
+  }
+}

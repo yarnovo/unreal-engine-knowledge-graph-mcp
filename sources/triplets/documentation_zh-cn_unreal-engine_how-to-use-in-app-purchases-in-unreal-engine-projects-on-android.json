@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_how-to-use-in-app-purchases-in-unreal-engine-projects-on-android",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_how-to-use-in-app-purchases-in-unreal-engine-projects-on-android.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎安卓内购",
+      "predicate": "依赖",
+      "object": "Google Play开发者账号",
+      "context": "实现安卓内购功能需要先在Google Play开发者后台配置内购商品",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎安卓内购",
+      "predicate": "使用",
+      "object": "OnlineSubsystemGooglePlay模块",
+      "context": "代码项目需要添加OnlineSubsystemGooglePlay模块依赖才能实现内购功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎安卓内购",
+      "predicate": "需要配置",
+      "object": "AndroidEngine.ini文件",
+      "context": "必须正确配置AndroidEngine.ini文件中的OnlineSubsystem设置才能启用内购服务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "读取内购信息",
+      "predicate": "实现方式",
+      "object": "Read In-App Purchase Information节点",
+      "context": "通过该蓝图节点可以读取商品信息用于UI显示或游戏逻辑",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "完成内购交易",
+      "predicate": "实现方式",
+      "object": "Make In-App Purchase节点",
+      "context": "该蓝图节点用于发起实际购买交易，支持消费品和非消费品",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Make In-App Purchase节点",
+      "predicate": "区分",
+      "object": "潜在版本和非潜在版本",
+      "context": "潜在版本会等待服务响应，非潜在版本立即返回，开发者需要根据场景选择",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "安卓内购测试",
+      "predicate": "需要",
+      "object": "Google Play测试账户",
+      "context": "测试内购功能需要将APK上传到Google Play并使用测试账户",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内购商品ID",
+      "predicate": "命名规范",
+      "object": "小写字母",
+      "context": "Google Play要求内购商品ID必须全部使用小写字母，建议iOS和安卓保持一致",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内购实现",
+      "predicate": "需要权限",
+      "object": "com.android.vending.BILLING",
+      "context": "Android应用必须声明BILLING权限才能使用内购功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内购信息",
+      "predicate": "包含",
+      "object": "商品名称/描述/价格",
+      "context": "读取的内购信息结构体包含商品元数据，可用于UI展示",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:27:37.880Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 5883,
+    "contentLength": 4327,
+    "processingTimeMs": 34177
+  }
+}

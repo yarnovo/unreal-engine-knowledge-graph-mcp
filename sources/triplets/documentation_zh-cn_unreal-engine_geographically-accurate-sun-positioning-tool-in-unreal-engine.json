@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_geographically-accurate-sun-positioning-tool-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_geographically-accurate-sun-positioning-tool-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "太阳位置计算器插件",
+      "predicate": "基于",
+      "object": "数学方程",
+      "context": "太阳位置计算器插件使用数学方程来计算太阳在地球上空的位置，这对于理解插件的核心功能至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "太阳位置计算器插件",
+      "predicate": "协同工作",
+      "object": "BP_SkySphere",
+      "context": "太阳位置计算器插件需要与默认的BP_SkySphere协同工作来放置日轮和确定光源方向，这是插件使用的前提条件",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_SunPosition",
+      "predicate": "控制",
+      "object": "主定向光源方向",
+      "context": "BP_SunPosition Actor通过设置地理位置、日期和时间参数来控制主定向光源的方向，这是实现地理位置准确太阳定位的核心机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_SunPosition",
+      "predicate": "依赖",
+      "object": "可移动光源",
+      "context": "要在运行时修改阳光角度，定向光源必须设置为可移动性，这是运行时动态调整太阳位置的技术前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "太阳位置计算器插件",
+      "predicate": "用于",
+      "object": "建筑可视化",
+      "context": "文档特别提到该工具在大型建筑和施工项目中的应用，说明这是其主要使用场景之一",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "BP_SunPosition",
+      "predicate": "提供",
+      "object": "运行时API",
+      "context": "BP_SunPosition提供了Get/Set节点和Update Sun函数，允许在运行时通过蓝图脚本动态调整太阳位置，这是重要的功能扩展点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "北偏移设置",
+      "predicate": "影响",
+      "object": "方位基点校准",
+      "context": "北偏移设置用于校准关卡对象与指南针方位基点的关系，这是确保太阳位置准确性的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "太阳位置计算器",
+      "predicate": "属于",
+      "object": "虚幻引擎插件系统",
+      "context": "该工具作为插件存在于虚幻引擎的插件系统中，需要先启用才能使用，这是其技术架构定位",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get All Actors of Class",
+      "predicate": "用于",
+      "object": "BP_SunPosition引用获取",
+      "context": "在运行时获取BP_SunPosition引用需要使用Get All Actors of Class节点，这是重要的编程接口知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "日期时间参数",
+      "predicate": "决定",
+      "object": "太阳位置",
+      "context": "日期和时间参数的设置直接影响太阳在天空中的位置，这是理解太阳定位算法的关键变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:12:03.375Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9193,
+    "contentLength": 6191,
+    "processingTimeMs": 44947
+  }
+}

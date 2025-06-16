@@ -1,0 +1,171 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_metasound-builder-api-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_metasound-builder-api-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "MetaSound Builder API",
+      "predicate": "支持",
+      "object": "Blueprint和C++ API",
+      "context": "MetaSound Builder API允许开发者使用Blueprint和C++ API来程序化地创建MetaSounds，帮助理解API的多语言支持特性",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSound Builder API",
+      "predicate": "用于",
+      "object": "程序化创建MetaSounds",
+      "context": "核心功能是通过代码动态生成音频内容，这是学习API的主要应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "MetaSound Builder API",
+      "predicate": "包含",
+      "object": "BuilderSubsystem",
+      "context": "BuilderSubsystem是API的核心组件之一，理解它是掌握API架构的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSound Builder API",
+      "predicate": "包含",
+      "object": "FrontendDocumentBuilder",
+      "context": "FrontendDocumentBuilder是处理文档结构的核心组件，与BuilderSubsystem共同构成API基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSoundFrontendDocument",
+      "predicate": "存储",
+      "object": "MetaSoundGenerator构建信息",
+      "context": "该文档结构包含音频播放所需的全部图表信息，是理解MetaSound运行时行为的关键",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "MetaSoundFrontendDocument",
+      "predicate": "包含",
+      "object": "图形样式元数据",
+      "context": "除了音频数据，还管理可视化相关的显示信息，说明系统设计的完整性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSound Source Builder",
+      "predicate": "实现",
+      "object": "实时试听功能",
+      "context": "这是API最强大的特性之一，允许开发者即时听到图表修改效果，对音频调试至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "MetaSound Editor Subsystem",
+      "predicate": "专门用于",
+      "object": "编辑时操作",
+      "context": "区分运行时和编辑时功能是理解虚幻引擎架构的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSound Patch",
+      "predicate": "代表",
+      "object": "可共享工具图表",
+      "context": "与Source的区别在于功能定位，理解这点有助于正确选择音频组件类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSound Source",
+      "predicate": "代表",
+      "object": "独立音频源",
+      "context": "与Patch形成对比，是音频系统的基础构建块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Builder Graph Handles",
+      "predicate": "引用",
+      "object": "图表数据元素",
+      "context": "理解这些句柄是操作图表元素的基础，但要注意它们不可序列化的特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSound节点连接",
+      "predicate": "等效于",
+      "object": "编辑器连线操作",
+      "context": "将代码操作与可视化编辑行为对应起来，帮助理解抽象概念的具体表现",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "接口操作",
+      "predicate": "管理",
+      "object": "输入输出组",
+      "context": "通过接口批量管理参数是提高工作效率的重要模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "节点添加",
+      "predicate": "分为",
+      "object": "原生节点和引用节点",
+      "context": "区分两种添加方式有助于理解系统的扩展性设计",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Build To Asset功能",
+      "predicate": "对应",
+      "object": "资源序列化",
+      "context": "将内存中的构建结果持久化是工作流程的关键环节",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Live Updates功能",
+      "predicate": "属于",
+      "object": "Beta特性",
+      "context": "了解功能的稳定性状态对生产环境使用决策很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaSound Document Interface",
+      "predicate": "作为",
+      "object": "统一访问接口",
+      "context": "理解这个接口有助于掌握各种MetaSound对象的共同操作方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "节点顶点操作",
+      "predicate": "对应",
+      "object": "编辑器引脚操作",
+      "context": "在不同抽象层面对同一概念的不同命名，对理解系统架构很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "元素移除操作",
+      "predicate": "包含",
+      "object": "四种基本操作类型",
+      "context": "完整的CRUD操作集是系统设计完备性的体现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:54:44.725Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12575 字符)",
+      "timestamp": "2025-06-15T19:53:39.735Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12721,
+    "contentLength": 12575,
+    "processingTimeMs": 64998
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_interacting-with-the-collab-viewer-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_interacting-with-the-collab-viewer-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "协作查看器（Collab Viewer）",
+      "predicate": "包含",
+      "object": "工具栏",
+      "context": "工具栏是协作查看器界面的重要组成部分，提供了多种功能按钮，帮助学习者快速了解和使用协作查看器的核心功能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具栏",
+      "predicate": "支持",
+      "object": "飞行模式",
+      "context": "工具栏中的飞行模式按钮允许用户在场景中自由飞行，无视碰撞设置，适用于需要快速浏览场景的学习者。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具栏",
+      "predicate": "支持",
+      "object": "行走模式",
+      "context": "行走模式按钮启用后，角色受重力影响并与场景中的碰撞体积交互，适合需要模拟真实行走体验的学习者。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具栏",
+      "predicate": "支持",
+      "object": "环绕模式",
+      "context": "环绕模式允许用户围绕目标点进行轨道运动，适合需要从不同角度观察场景的学习者。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具栏",
+      "predicate": "支持",
+      "object": "VR模式",
+      "context": "VR模式按钮启用后，用户可以通过VR设备进行交互，适合需要沉浸式体验的学习者。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "协作查看器（Collab Viewer）",
+      "predicate": "包含",
+      "object": "交互式菜单",
+      "context": "交互式菜单提供了多种命令和模式，帮助学习者与场景中的内容进行交互，是协作查看器的核心功能之一。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交互式菜单",
+      "predicate": "包含",
+      "object": "变换（Transform）",
+      "context": "变换子菜单允许用户在场景中移动和重置对象，帮助学习者理解对象的位置和旋转控制。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交互式菜单",
+      "predicate": "包含",
+      "object": "注解（Annotation）",
+      "context": "注解子菜单提供了绘制和删除注解的功能，适合需要在场景中添加标记的学习者。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交互式菜单",
+      "predicate": "包含",
+      "object": "X射线（Xray）",
+      "context": "X射线子菜单允许用户应用透明材质或隔离对象，帮助学习者查看场景中的隐藏结构。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交互式菜单",
+      "predicate": "包含",
+      "object": "测量值（Measurement）",
+      "context": "测量值子菜单提供了添加和删除测量值的功能，适合需要进行精确测量的学习者。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "交互式菜单",
+      "predicate": "包含",
+      "object": "3D切割平面（3D Cut Plane）",
+      "context": "3D切割平面子菜单允许用户切割几何体，帮助学习者查看场景中的内部结构。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "协作查看器（Collab Viewer）",
+      "predicate": "支持",
+      "object": "世界缩放比例",
+      "context": "世界缩放比例功能允许用户调整场景的显示大小，适合需要模拟真实比例或观察细节的学习者。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "协作查看器（Collab Viewer）",
+      "predicate": "支持",
+      "object": "VR控制选项",
+      "context": "VR控制选项提供了在VR模式下进行传送和交互的功能，适合需要沉浸式体验的学习者。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR控制选项",
+      "predicate": "依赖",
+      "object": "VR头戴设备",
+      "context": "VR控制选项需要支持的VR头戴设备才能正常运行，学习者需要了解设备兼容性。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "协作查看器（Collab Viewer）",
+      "predicate": "支持",
+      "object": "书签（Bookmark）",
+      "context": "书签功能允许用户保存和快速传送到特定视口，适合需要频繁切换视角的学习者。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "书签（Bookmark）",
+      "predicate": "用于",
+      "object": "快速传送",
+      "context": "书签功能主要用于快速传送到预设位置，帮助学习者高效浏览场景。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "协作查看器（Collab Viewer）",
+      "predicate": "支持",
+      "object": "保存和加载会话",
+      "context": "保存和加载会话功能允许用户保存当前状态并在后续恢复，适合需要长期协作的学习者。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "飞行模式",
+      "predicate": "区别于",
+      "object": "行走模式",
+      "context": "飞行模式无视碰撞设置，而行走模式受重力影响并与碰撞体积交互，学习者需要根据需求选择合适的模式。",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "环绕模式",
+      "predicate": "区别于",
+      "object": "飞行模式",
+      "context": "环绕模式围绕目标点进行轨道运动，而飞行模式允许自由飞行，学习者需要根据观察需求选择合适的模式。",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "3D切割平面（3D Cut Plane）",
+      "predicate": "用于",
+      "object": "查看内部结构",
+      "context": "3D切割平面功能主要用于查看场景中的内部几何体结构，帮助学习者理解复杂场景的构造。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:37:31.034Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (12293 字符)",
+      "timestamp": "2025-06-15T19:36:09.215Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 18465,
+    "contentLength": 12293,
+    "processingTimeMs": 81822
+  }
+}

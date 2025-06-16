@@ -1,0 +1,163 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_physically-based-materials-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_physically-based-materials-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "基于物理的渲染",
+      "predicate": "简称",
+      "object": "PBR",
+      "context": "文档中明确提到基于物理的渲染的缩写为PBR，帮助学习者快速识别专业术语",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "PBR",
+      "predicate": "包含",
+      "object": "基础颜色",
+      "context": "基础颜色是PBR材质的关键属性之一，定义了材质的总体颜色",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PBR",
+      "predicate": "包含",
+      "object": "粗糙度",
+      "context": "粗糙度控制材质表面的反射特性，是PBR工作流程的核心参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PBR",
+      "predicate": "包含",
+      "object": "金属感",
+      "context": "金属感决定材质是否表现为金属特性，是PBR材质分类的基础参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PBR",
+      "predicate": "包含",
+      "object": "高光度",
+      "context": "高光度控制表面反射强度，与粗糙度共同影响PBR材质的视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基础颜色",
+      "predicate": "用于",
+      "object": "非金属材质",
+      "context": "文档提供了非金属材质的基础颜色测量值表，说明该属性对非金属的重要性",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "基础颜色",
+      "predicate": "用于",
+      "object": "金属材质",
+      "context": "文档特别列出常见金属的基础颜色RGB值，表明该属性对金属材质的定义作用",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "粗糙度",
+      "predicate": "影响",
+      "object": "反射效果",
+      "context": "粗糙度值决定表面反射是镜面反射(0)还是漫反射(1)，直接影响材质视觉效果",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "粗糙度",
+      "predicate": "与",
+      "object": "高光度",
+      "context": "文档专门章节说明两者关系，粗糙度控制反射分布而高光度控制反射强度",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "金属感",
+      "predicate": "建议值",
+      "object": "0或1",
+      "context": "文档强调金属感应视为二进制属性，纯材质应设为0(非金属)或1(金属)",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "高光度",
+      "predicate": "默认值",
+      "object": "0.5",
+      "context": "文档指出虚幻引擎默认高光度为0.5，对应约4%反射率，适合大多数材质",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "空腔贴图",
+      "predicate": "修改",
+      "object": "高光度",
+      "context": "空腔贴图可用于微调高光度值，特别是表现微小几何细节的阴影效果",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "材质创建",
+      "predicate": "前置知识",
+      "object": "基本材质概念",
+      "context": "文档建议新手先学习基本材质概念页面，再研究PBR材质",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PBR材质",
+      "predicate": "优势",
+      "object": "光照一致性",
+      "context": "文档指出PBR材质在所有光照环境下表现一致，这是其核心优势之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粗糙度贴图",
+      "predicate": "用于",
+      "object": "表面瑕疵表现",
+      "context": "文档说明粗糙度贴图可表现污迹、磨损等表面瑕疵，增强材质真实感",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "金属感贴图",
+      "predicate": "要求",
+      "object": "黑白遮罩",
+      "context": "文档强调金属感贴图应使用纯黑白值，避免中间灰度，确保材质边界清晰",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎材质系统",
+      "predicate": "基于",
+      "object": "PBR原则",
+      "context": "整篇文档说明虚幻引擎材质系统实现PBR工作流程，这是其技术基础",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "非真实感渲染",
+      "predicate": "也可使用",
+      "object": "PBR材质",
+      "context": "文档指出PBR原则甚至适用于非真实感渲染，如Pixar和Disney的动画电影",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    }
+  ],
+  "timestamp": "2025-06-15T20:21:56.357Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13662 字符)",
+      "timestamp": "2025-06-15T20:21:01.248Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 18978,
+    "contentLength": 13662,
+    "processingTimeMs": 55121
+  }
+}

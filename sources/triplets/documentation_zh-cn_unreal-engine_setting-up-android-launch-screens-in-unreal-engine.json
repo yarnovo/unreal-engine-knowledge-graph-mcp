@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_setting-up-android-launch-screens-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_setting-up-android-launch-screens-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "项目设置",
+      "predicate": "包含",
+      "object": "安卓平台设置",
+      "context": "项目设置是虚幻引擎中配置各种项目参数的中央位置，其中包含专门针对安卓平台的设置选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "安卓平台设置",
+      "predicate": "包含",
+      "object": "运行画面设置",
+      "context": "安卓平台设置中包含专门用于配置运行画面的子模块，这是安卓应用启动流程的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行画面设置",
+      "predicate": "控制",
+      "object": "显示启动画面",
+      "context": "通过运行画面设置中的'显示启动画面'复选框可以控制是否在应用启动时显示运行画面",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行画面设置",
+      "predicate": "配置",
+      "object": "启动头像",
+      "context": "运行画面设置允许开发者配置纵向启动画面(启动头像)，这是安卓应用在不同设备方向上的重要视觉元素",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运行画面设置",
+      "predicate": "配置",
+      "object": "启动环境",
+      "context": "运行画面设置允许开发者配置横向启动画面(启动环境)，与纵向画面共同构成完整的启动体验",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "APK打包设置",
+      "predicate": "影响",
+      "object": "运行画面选择",
+      "context": "APK打包中的朝向设置会影响需要选择哪些运行画面(纵向或横向)，这是开发者在配置运行画面时需要考虑的重要因素",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "安卓项目",
+      "predicate": "需要",
+      "object": "运行画面配置",
+      "context": "为安卓项目设置适当的运行画面是发布到安卓平台的重要步骤，影响用户首次启动应用的体验",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "下载背景纵向画面",
+      "predicate": "用于",
+      "object": "OBB下载背景",
+      "context": "下载背景纵向画面专门用于设备在纵向状态时作为OBB下载的背景，是安卓平台特有的资源管理功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "下载背景横向画面",
+      "predicate": "用于",
+      "object": "OBB下载背景",
+      "context": "下载背景横向画面专门用于设备在横向状态时作为OBB下载的背景，与纵向画面形成互补",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Engine/Build/Android/Java/res/drawable",
+      "predicate": "提供",
+      "object": "运行画面范例",
+      "context": "引擎特定路径下提供了纵向和横向图片范例，帮助开发者理解运行画面所需的格式和规格",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启动头像",
+      "predicate": "支持",
+      "object": "多种纵向朝向",
+      "context": "启动头像支持包括标准纵向、反转纵向、感应纵向等多种设备朝向，确保在不同设备上都能正确显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "启动环境",
+      "predicate": "支持",
+      "object": "多种横向朝向",
+      "context": "启动环境支持包括标准横向、反转横向、感应横向等多种设备朝向，与纵向画面共同覆盖所有可能的设备方向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:44:18.455Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4310,
+    "contentLength": 3056,
+    "processingTimeMs": 46688
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_horde-server-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_horde-server-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Horde服务器",
+      "predicate": "依赖",
+      "object": "MongoDB",
+      "context": "Horde服务器需要MongoDB作为数据库存储，用于存储操作数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde服务器",
+      "predicate": "依赖",
+      "object": "Redis",
+      "context": "Horde服务器使用Redis进行缓存和临时数据存储",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde服务器",
+      "predicate": "支持",
+      "object": "Docker",
+      "context": "Horde服务器可以通过Docker容器在Linux上运行，这是Epic推荐的方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde服务器",
+      "predicate": "支持",
+      "object": "Docker Compose",
+      "context": "Horde服务器可以使用Docker Compose简化安装和配置过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde服务器",
+      "predicate": "基于",
+      "object": "ASP.NET",
+      "context": "Horde服务器是一个ASP.NET应用程序，使用.NET Core技术栈",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde服务器",
+      "predicate": "使用",
+      "object": "Serilog",
+      "context": "Horde服务器使用Serilog进行日志记录",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde服务器",
+      "predicate": "使用",
+      "object": "OpenTelemetry",
+      "context": "Horde服务器使用OpenTelemetry进行遥测数据收集",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde服务器",
+      "predicate": "支持",
+      "object": "OpenID Connect",
+      "context": "Horde服务器支持通过OIDC进行外部身份验证",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde服务器",
+      "predicate": "配置通过",
+      "object": "Server.json",
+      "context": "Horde服务器的设置主要通过Server.json文件进行配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde服务器",
+      "predicate": "支持",
+      "object": "HTTPS",
+      "context": "Horde服务器可以通过HTTPS协议提供数据，需要配置证书",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde服务器",
+      "predicate": "使用",
+      "object": "Kestrel",
+      "context": "Horde服务器使用Kestrel作为.NET Core web服务器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde服务器",
+      "predicate": "支持",
+      "object": "RunModes",
+      "context": "Horde服务器可以配置不同的RunMode来分离请求流量和后台操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Docker Compose",
+      "predicate": "简化",
+      "object": "Horde服务器部署",
+      "context": "Docker Compose通过预配置容器简化了Horde服务器的部署过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildGraph",
+      "predicate": "用于",
+      "object": "编译Horde服务器",
+      "context": "BuildGraph脚本用于编译Horde服务器的Docker镜像和Windows安装程序",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde服务器",
+      "predicate": "支持",
+      "object": "负载均衡",
+      "context": "Horde服务器可以在负载均衡器后面运行多个实例，只需指向相同的数据库",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde服务器",
+      "predicate": "使用",
+      "object": "gRPC",
+      "context": "Horde服务器通过gRPC与代理通信，使用HTTP/2协议",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde服务器",
+      "predicate": "支持",
+      "object": "环境变量配置",
+      "context": "Horde服务器支持通过环境变量重载配置属性，使用ASP.NET标准语法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MongoDB",
+      "predicate": "需要配置",
+      "object": "readPreference=primary",
+      "context": "使用MongoDB副本集时，必须配置readPreference=primary以避免死锁",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde服务器",
+      "predicate": "支持",
+      "object": "多种部署环境",
+      "context": "Horde服务器支持通过ASPNETCORE_ENVIRONMENT变量配置不同部署环境",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OIDC配置",
+      "predicate": "需要",
+      "object": "OidcAuthority",
+      "context": "配置外部OIDC提供程序需要设置OidcAuthority等参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:22:34.663Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11064 字符)",
+      "timestamp": "2025-06-15T19:21:32.846Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 16040,
+    "contentLength": 11064,
+    "processingTimeMs": 61821
+  }
+}

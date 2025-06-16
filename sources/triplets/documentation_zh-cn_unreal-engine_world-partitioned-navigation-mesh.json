@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_world-partitioned-navigation-mesh",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_world-partitioned-navigation-mesh.md",
+  "triples": [
+    {
+      "subject": "世界分区",
+      "predicate": "包含",
+      "object": "寻路网格体",
+      "context": "世界分区系统管理寻路网格体的加载和卸载，帮助学习者理解大型世界中的导航数据管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "分为",
+      "object": "寻路网格体数据块Actor",
+      "context": "寻路网格体被分割为多个数据块Actor，便于动态加载和卸载，帮助学习者理解寻路数据的模块化管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区寻路网格体",
+      "predicate": "支持",
+      "object": "静态生成模式",
+      "context": "静态模式是寻路网格体的一种生成方式，帮助学习者理解不同生成模式的应用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区寻路网格体",
+      "predicate": "支持",
+      "object": "动态生成模式",
+      "context": "动态模式允许运行时生成寻路网格体，帮助学习者理解动态寻路的实现机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态生成模式",
+      "predicate": "限制于",
+      "object": "加载的空间",
+      "context": "动态图块构建仅限于加载的空间，帮助学习者理解动态寻路的性能优化策略",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基础寻路网格体",
+      "predicate": "包含",
+      "object": "数据层以外的寻路相关对象",
+      "context": "基础寻路网格体的组成内容，帮助学习者理解哪些对象会影响寻路数据的生成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基础寻路网格体",
+      "predicate": "包含",
+      "object": "编辑器数据层中的所有对象",
+      "context": "编辑器数据层中的对象也会被包含在基础寻路网格体中，帮助学习者理解数据层对寻路的影响",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区寻路网格体",
+      "predicate": "使用",
+      "object": "外部打包",
+      "context": "寻路数据Actor在外部打包，避免弄脏主地图，帮助学习者理解数据管理的优化方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "开放世界模板",
+      "predicate": "启用",
+      "object": "世界分区",
+      "context": "开放世界模板默认启用世界分区，帮助学习者快速创建适合大型世界的项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "NavMeshBoundsVolume",
+      "predicate": "定义",
+      "object": "可运行空间",
+      "context": "NavMeshBoundsVolume用于定义寻路网格体的生成范围，帮助学习者理解寻路体积的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RecastNavMesh-Default",
+      "predicate": "配置为",
+      "object": "世界分区寻路网格体",
+      "context": "通过启用Is World Partitioned Navmesh选项，将RecastNavMesh配置为支持世界分区，帮助学习者理解寻路系统的配置方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路数据块网格大小",
+      "predicate": "影响",
+      "object": "NavDataChunk Actor数量",
+      "context": "较小的网格大小会增加NavDataChunk Actor的数量，帮助学习者理解寻路数据的粒度控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区",
+      "predicate": "基于",
+      "object": "距离的关卡流送",
+      "context": "世界分区系统根据与流送源的距离加载和卸载单元，帮助学习者理解大型世界的动态加载机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "用于",
+      "object": "AI导航",
+      "context": "寻路网格体是AI导航的基础，帮助学习者理解AI如何在游戏世界中移动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据层",
+      "predicate": "影响",
+      "object": "基础寻路网格体",
+      "context": "数据层中的对象会被包含在基础寻路网格体中，帮助学习者理解数据层与寻路的关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区寻路网格体",
+      "predicate": "适用于",
+      "object": "大型开放世界",
+      "context": "世界分区寻路网格体专门为大型开放世界设计，帮助学习者理解其适用场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "固定的图块池大小",
+      "predicate": "限制",
+      "object": "内存占用",
+      "context": "启用固定的图块池大小可以限制寻路网格体的内存使用，帮助学习者理解性能优化方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动更新寻路",
+      "predicate": "影响",
+      "object": "编辑器工作流",
+      "context": "禁用自动更新寻路可以改善大型世界的工作流，帮助学习者理解编辑器性能优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区寻路数据构建器",
+      "predicate": "用于",
+      "object": "编辑器外构建寻路",
+      "context": "可以在编辑器外使用构建器生成寻路数据，帮助学习者理解批量处理的工具链",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路脏污",
+      "predicate": "触发",
+      "object": "寻路图块重新构建",
+      "context": "寻路相关Actor的修改会标记脏污并触发重建，帮助学习者理解寻路数据的更新机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:35:16.969Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (13852 字符)",
+      "timestamp": "2025-06-15T21:34:15.933Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 21126,
+    "contentLength": 13852,
+    "processingTimeMs": 61046
+  }
+}

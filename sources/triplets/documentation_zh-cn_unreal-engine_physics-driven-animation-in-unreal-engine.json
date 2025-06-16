@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_physics-driven-animation-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_physics-driven-animation-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "基于物理的动画",
+      "predicate": "应用于",
+      "object": "角色及骨架网格物体",
+      "context": "文档明确指出基于物理的动画技术可以应用于角色和骨架网格物体，帮助学习者理解该技术的应用范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基于物理的动画",
+      "predicate": "依赖",
+      "object": "物理资源(Physics Asset)",
+      "context": "文档强调在骨架网格物体上应用物理需要设置物理资源，这是实现物理动画的基础条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理资源(Physics Asset)",
+      "predicate": "通过",
+      "object": "物理资源工具(PhAT)",
+      "context": "文档建议参考物理资源工具(PhAT)的相关文档来创建和编辑物理资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基于物理的动画",
+      "predicate": "实现",
+      "object": "Set All Bodies Simulate Physics节点",
+      "context": "该节点是激活物理模拟的关键工具，帮助学习者理解如何启动物理效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基于物理的动画",
+      "predicate": "控制",
+      "object": "Set All Bodies Below Physics Blend Weight节点",
+      "context": "该节点控制物理效果与关键帧动画的混合程度，是调节物理动画效果的核心",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Set All Bodies Simulate Physics节点",
+      "predicate": "作用于",
+      "object": "骨架层次结构",
+      "context": "该节点从指定骨骼开始递归激活其下所有骨骼的物理模拟，帮助理解其工作原理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Set All Bodies Below Physics Blend Weight节点",
+      "predicate": "调节",
+      "object": "物理混合权重",
+      "context": "该节点通过调节0.0-1.0的值控制物理效果的影响程度，是动画混合的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基于碰撞的反应",
+      "predicate": "使用",
+      "object": "Set All Bodies Simulate Physics节点",
+      "context": "文档说明碰撞反应需要先激活受影响骨骼的物理模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "基于碰撞的反应",
+      "predicate": "使用",
+      "object": "Set All Bodies Below Physics Blend Weight节点",
+      "context": "碰撞反应需要通过该节点控制物理效果的混合过程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "包含",
+      "object": "事件图表",
+      "context": "文档提到可以在动画蓝图的事件图表中应用物理动画节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理驱动的动画",
+      "predicate": "混入",
+      "object": "关键帧动画",
+      "context": "核心概念说明物理模拟结果可以与关键帧动画混合，产生更自然的效果",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Content Examples项目",
+      "predicate": "展示",
+      "object": "PhysicalAnimation.umap",
+      "context": "文档推荐通过该示例项目学习物理动画的实际应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:22:45.718Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6089,
+    "contentLength": 3857,
+    "processingTimeMs": 36824
+  }
+}

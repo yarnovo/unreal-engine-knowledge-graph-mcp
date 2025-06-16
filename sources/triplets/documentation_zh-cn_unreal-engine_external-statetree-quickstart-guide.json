@@ -1,0 +1,115 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_external-statetree-quickstart-guide",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_external-statetree-quickstart-guide.md",
+  "triples": [
+    {
+      "subject": "StateTree",
+      "predicate": "支持",
+      "object": "外部StateTree链接",
+      "context": "StateTree支持链接其他StateTree资产，实现模块化开发",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "STT_RotateTarget",
+      "predicate": "实现",
+      "object": "目标旋转功能",
+      "context": "STT_RotateTarget任务通过添加旋转组件实现目标旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ST_Reaction",
+      "predicate": "包含",
+      "object": "STT_RotateTarget",
+      "context": "ST_Reaction状态树包含旋转目标任务",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ST_ShootingTarget",
+      "predicate": "链接",
+      "object": "ST_Reaction",
+      "context": "主状态树通过外部链接方式集成反应状态树",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_ShootingTarget",
+      "predicate": "发送",
+      "object": "StateTree事件",
+      "context": "蓝图通过SendStateTreeEvent触发状态树转换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "STT_MoveAlongSpline",
+      "predicate": "使用",
+      "object": "DistanceTraveled变量",
+      "context": "移动任务改为使用蓝图中的变量而非本地变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StateTree任务",
+      "predicate": "继承自",
+      "object": "StateTreeTaskBlueprintBase",
+      "context": "所有StateTree任务都需基于此基类创建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RotatingMovementComponent",
+      "predicate": "控制",
+      "object": "Actor旋转",
+      "context": "该组件专门用于控制Actor的旋转行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "状态过渡",
+      "predicate": "基于",
+      "object": "Gameplay标签",
+      "context": "状态转换可以通过Gameplay标签事件触发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "外部StateTree",
+      "predicate": "扩展",
+      "object": "StateTree功能",
+      "context": "链接外部StateTree可以实现功能复用和模块化扩展",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "HitReaction状态",
+      "predicate": "依赖",
+      "object": "击中事件",
+      "context": "该状态需要接收击中事件才能触发",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "StateTree快速入门指南",
+      "predicate": "前置",
+      "object": "本指南",
+      "context": "需要先完成基础指南才能理解本指南内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:03:27.247Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (16414 字符)",
+      "timestamp": "2025-06-15T19:02:36.163Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 22108,
+    "contentLength": 16414,
+    "processingTimeMs": 51090
+  }
+}

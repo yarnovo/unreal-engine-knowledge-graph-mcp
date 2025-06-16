@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_virtual-reality-spectator-screen-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_virtual-reality-spectator-screen-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "VR旁观者屏幕",
+      "predicate": "用于",
+      "object": "观察VR玩家",
+      "context": "VR旁观者屏幕功能允许开发者在电脑显示器上观察VR玩家的互动，有助于收集用户反馈",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR旁观者屏幕",
+      "predicate": "支持",
+      "object": "HTC Vive",
+      "context": "文档明确列出HTC Vive作为支持VR旁观者屏幕的平台之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR旁观者屏幕",
+      "predicate": "支持",
+      "object": "Oculus Rift",
+      "context": "Oculus Rift是官方支持VR旁观者屏幕的主要VR设备之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR旁观者屏幕",
+      "predicate": "支持",
+      "object": "Steam VR",
+      "context": "Steam VR平台兼容虚幻引擎的VR旁观者屏幕功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR旁观者屏幕",
+      "predicate": "不支持",
+      "object": "移动VR设备",
+      "context": "文档明确指出移动VR设备平台难以支持此功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设置旁观者屏幕纹理",
+      "predicate": "属于",
+      "object": "旁观者窗口蓝图节点",
+      "context": "该节点是控制VR旁观者屏幕的核心蓝图接口之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "设置旁观者屏幕模式",
+      "predicate": "控制",
+      "object": "VR旁观者屏幕显示模式",
+      "context": "此蓝图节点直接控制旁观者屏幕的显示模式切换",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TexturePlusEye布局",
+      "predicate": "是",
+      "object": "旁观者屏幕显示模式",
+      "context": "这是文档中详细描述的一种特殊显示布局模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SceneCaptureComponent2D",
+      "predicate": "生成",
+      "object": "渲染目标",
+      "context": "文档提到渲染目标可以来自SceneCaptureComponent2D，但需要注意其高计算开销",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "VR旁观者屏幕",
+      "predicate": "具有",
+      "object": "多种显示模式",
+      "context": "文档详细列出了7种不同的观众画面模式及其平台支持情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Distorted模式",
+      "predicate": "专用于",
+      "object": "Oculus Rift",
+      "context": "文档特别说明这是Oculus特有的调试模式，显示色差等内容",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "优化观众画面模式",
+      "predicate": "建议",
+      "object": "30 fps限制",
+      "context": "文档推荐将观众画面输出限制为30 fps以避免VR帧率问题",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "VR旁观者屏幕",
+      "predicate": "可用于",
+      "object": "调试",
+      "context": "多种显示模式(如SingleEyeLetterboxed)被明确说明主要用于调试目的",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "vr.SpectatorScreenMode",
+      "predicate": "控制",
+      "object": "观众画面模式切换",
+      "context": "通过控制台命令可以直接切换不同的观众画面显示模式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "渲染目标",
+      "predicate": "可能引起",
+      "object": "应用程序崩溃",
+      "context": "文档警告如果渲染目标被销毁同时又被指定为观众纹理，可能导致崩溃",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T21:28:56.616Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 9373,
+    "contentLength": 6086,
+    "processingTimeMs": 41874
+  }
+}

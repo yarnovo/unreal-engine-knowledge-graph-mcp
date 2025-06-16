@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_gameplay-ability-tasks-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_gameplay-ability-tasks-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "技能任务",
+      "predicate": "继承自",
+      "object": "UAbilityTask",
+      "context": "技能任务是UAbilityTask类的特殊形式，理解继承关系有助于掌握技能任务的底层实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "技能任务",
+      "predicate": "用于",
+      "object": "游戏性技能系统",
+      "context": "技能任务是专门为游戏性技能系统设计的组件，这是其核心应用场景",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "技能任务",
+      "predicate": "实现",
+      "object": "异步工作",
+      "context": "技能任务的核心功能是在游戏性技能执行过程中执行异步工作，这是其关键技术特征",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "技能任务",
+      "predicate": "使用",
+      "object": "委托",
+      "context": "技能任务通过调用委托来影响执行流，这是其与代码交互的重要机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "技能任务",
+      "predicate": "控制",
+      "object": "执行流",
+      "context": "技能任务能够通过委托或输出执行引脚控制执行流，这是其核心功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "技能任务",
+      "predicate": "支持",
+      "object": "跨帧执行",
+      "context": "技能任务使技能能够跨多个帧执行，这是其区别于即时功能的重要特性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "技能任务",
+      "predicate": "终止方式",
+      "object": "EndTask函数",
+      "context": "理解技能任务可以通过调用EndTask函数自行终止是管理任务生命周期的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "技能任务",
+      "predicate": "同步机制",
+      "object": "间接同步",
+      "context": "技能任务通过网络复制的信息间接保持同步，这是其网络行为的重要特征",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "播放蒙太奇并等待事件",
+      "predicate": "是",
+      "object": "技能任务",
+      "context": "这是技能任务的具体实现示例，帮助理解抽象概念的具体应用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "技能任务",
+      "predicate": "应用于",
+      "object": "近战攻击",
+      "context": "近战攻击是技能任务的典型应用场景，展示了其在游戏开发中的实际用途",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "游戏性技能",
+      "predicate": "包含",
+      "object": "技能任务",
+      "context": "技能任务是游戏性技能的组成部分，理解这种包含关系对系统架构很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "技能任务",
+      "predicate": "依赖",
+      "object": "游戏性技能",
+      "context": "技能任务的生命周期与游戏性技能紧密相关，理解这种依赖关系对内存管理很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ARPG",
+      "predicate": "实现",
+      "object": "近战技能",
+      "context": "ARPG样本展示了如何使用技能任务实现近战技能，这是重要的学习参考",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:09:34.575Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3077,
+    "contentLength": 1721,
+    "processingTimeMs": 45211
+  }
+}

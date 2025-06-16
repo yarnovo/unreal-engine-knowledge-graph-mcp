@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_asynchronous-asset-loading-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_asynchronous-asset-loading-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "FSoftObjectPath",
+      "predicate": "用于",
+      "object": "异步加载",
+      "context": "FSoftObjectPath用于引用资源而不立即加载，是实现异步加载的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSoftObjectPtr",
+      "predicate": "基于",
+      "object": "FSoftObjectPath",
+      "context": "TSoftObjectPtr是FSoftObjectPath的封装，增加了类型安全限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSoftObjectPtr",
+      "predicate": "支持",
+      "object": "类限制",
+      "context": "TSoftObjectPtr可以限制编辑器UI仅允许选择特定类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "资源注册表",
+      "predicate": "存储",
+      "object": "资源元数据",
+      "context": "资源注册表用于存储和查询未加载资源的元数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象库",
+      "predicate": "使用",
+      "object": "资源注册表",
+      "context": "对象库利用资源注册表来管理一组相关资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象库",
+      "predicate": "支持",
+      "object": "异步加载",
+      "context": "对象库可以仅加载资源元数据而不加载实际资源，支持异步加载流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FStreamableManager",
+      "predicate": "实现",
+      "object": "异步加载",
+      "context": "FStreamableManager是虚幻引擎中实现资源异步加载的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FStreamableManager",
+      "predicate": "使用",
+      "object": "FSoftObjectPath",
+      "context": "FStreamableManager接受FSoftObjectPath作为输入来异步加载资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RequestAsyncLoad",
+      "predicate": "是",
+      "object": "异步加载方法",
+      "context": "RequestAsyncLoad是FStreamableManager提供的异步加载接口",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "异步加载",
+      "predicate": "改善",
+      "object": "性能",
+      "context": "异步加载可以减少游戏卡顿和内存占用，提高游戏性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AssetRegistrySearchable",
+      "predicate": "标记",
+      "object": "可搜索属性",
+      "context": "AssetRegistrySearchable标记使属性可以在资源注册表中被搜索",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FAssetData",
+      "predicate": "包含",
+      "object": "资源信息",
+      "context": "FAssetData包含未加载资源的元数据和可搜索属性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "异步加载",
+      "predicate": "需要",
+      "object": "委托机制",
+      "context": "异步加载通常使用委托机制在加载完成后执行回调",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "硬指针",
+      "predicate": "导致",
+      "object": "立即加载",
+      "context": "使用硬UObject指针会导致引用资源在父对象加载时立即加载",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "软引用",
+      "predicate": "替代",
+      "object": "硬指针",
+      "context": "软引用(FSoftObjectPath/TSoftObjectPtr)可以替代硬指针实现按需加载",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:07:40.139Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8481,
+    "contentLength": 4971,
+    "processingTimeMs": 49871
+  }
+}

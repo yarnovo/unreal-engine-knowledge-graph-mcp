@@ -1,0 +1,149 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-string-tables-for-text-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-string-tables-for-text-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "字符串表",
+      "predicate": "用于",
+      "object": "文本本地化",
+      "context": "字符串表提供了一种集中管理已本地化文本的方法，便于在项目中重复使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字符串表",
+      "predicate": "创建方式",
+      "object": "C++定义",
+      "context": "字符串表可以通过C++宏定义创建，如LOCTABLE_NEW",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字符串表",
+      "predicate": "创建方式",
+      "object": "CSV文件",
+      "context": "字符串表可以通过CSV文件导入创建，使用LOCTABLE_FROMFILE_X宏",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字符串表",
+      "predicate": "创建方式",
+      "object": "资源创建",
+      "context": "字符串表可以作为资源在内容浏览器中创建",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOCTABLE_NEW",
+      "predicate": "用于",
+      "object": "创建空白字符串表",
+      "context": "LOCTABLE_NEW宏用于在C++中创建一个空白的字符串表实例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOCTABLE_FROMFILE_X",
+      "predicate": "用于",
+      "object": "从CSV加载字符串表",
+      "context": "LOCTABLE_FROMFILE_X宏用于从CSV文件创建并填充字符串表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOCTABLE_SETSTRING",
+      "predicate": "用于",
+      "object": "设置字符串表条目",
+      "context": "LOCTABLE_SETSTRING宏用于在字符串表中设置条目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LOCTABLE_SETMETA",
+      "predicate": "用于",
+      "object": "设置字符串表元数据",
+      "context": "LOCTABLE_SETMETA宏用于为字符串表条目设置元数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CSV文件",
+      "predicate": "包含",
+      "object": "Key和SourceString列",
+      "context": "CSV文件必须包含Key和SourceString两列，其他列作为元数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字符串表资源",
+      "predicate": "是",
+      "object": "二进制文件",
+      "context": "字符串表资源是二进制的，合并冲突时难以解析",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字符串表",
+      "predicate": "引用方式",
+      "object": "C++引用",
+      "context": "在C++中可以使用LOCTABLE宏或FText::FromStringTable函数引用字符串表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字符串表",
+      "predicate": "引用方式",
+      "object": "INI文件引用",
+      "context": "在INI文件中可以使用LOCTABLE宏语法引用字符串表",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字符串表",
+      "predicate": "引用方式",
+      "object": "资源引用",
+      "context": "可以使用FText属性引用字符串表资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字符串表重定向",
+      "predicate": "实现方式",
+      "object": "INI文件重定向",
+      "context": "可以在INI文件中重定向整个字符串表或单个条目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字符串表重定向",
+      "predicate": "实现方式",
+      "object": "资源重定向",
+      "context": "移动或重命名字符串表资源会创建资源重定向器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "字符串表编辑器",
+      "predicate": "用于",
+      "object": "管理字符串表资源",
+      "context": "字符串表编辑器可以管理字符串表资源，但当前不支持编辑元数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "打包设置",
+      "predicate": "包含",
+      "object": "Additional Non-Asset Directories to Package",
+      "context": "建议将CSV字符串表添加到打包设置中的Additional Non-Asset Directories to Package",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:23:47.908Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 8294,
+    "contentLength": 5776,
+    "processingTimeMs": 46209
+  }
+}

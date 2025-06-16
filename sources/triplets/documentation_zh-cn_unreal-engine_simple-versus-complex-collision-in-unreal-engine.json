@@ -1,0 +1,149 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_simple-versus-complex-collision-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_simple-versus-complex-collision-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "简单碰撞",
+      "predicate": "对比",
+      "object": "复杂碰撞",
+      "context": "帮助学习者理解虚幻引擎中两种主要碰撞形态的区别和应用场景",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简单碰撞",
+      "predicate": "包含",
+      "object": "盒体",
+      "context": "明确简单碰撞的基本组成形状，帮助学习者识别简单碰撞类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简单碰撞",
+      "predicate": "包含",
+      "object": "球体",
+      "context": "明确简单碰撞的基本组成形状，帮助学习者识别简单碰撞类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简单碰撞",
+      "predicate": "包含",
+      "object": "胶囊体",
+      "context": "明确简单碰撞的基本组成形状，帮助学习者识别简单碰撞类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简单碰撞",
+      "predicate": "包含",
+      "object": "凸包",
+      "context": "明确简单碰撞的基本组成形状，帮助学习者识别简单碰撞类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "复杂碰撞",
+      "predicate": "基于",
+      "object": "三角网格图",
+      "context": "说明复杂碰撞的技术实现基础，帮助理解其精确性来源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞复杂度",
+      "predicate": "设置于",
+      "object": "静态网格体编辑器",
+      "context": "指明关键参数的配置位置，指导学习者实际操作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Project Default",
+      "predicate": "使用",
+      "object": "简单碰撞",
+      "context": "说明默认配置的行为模式，帮助理解基础工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Project Default",
+      "predicate": "使用",
+      "object": "复杂碰撞",
+      "context": "说明默认配置的行为模式，帮助理解基础工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Simple And Complex",
+      "predicate": "支持",
+      "object": "常规场景查询",
+      "context": "说明该选项的具体应用场景，指导性能优化选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Simple And Complex",
+      "predicate": "支持",
+      "object": "复杂场景查询",
+      "context": "说明该选项的具体应用场景，指导精度需求选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Use Simple Collision As Complex",
+      "predicate": "优化",
+      "object": "内存使用",
+      "context": "解释该设置的技术优势，帮助进行性能调优决策",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Use Complex Collision As Simple",
+      "predicate": "限制",
+      "object": "物理模拟",
+      "context": "说明该设置的重要限制条件，避免错误使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理解算器",
+      "predicate": "选择使用",
+      "object": "简单碰撞",
+      "context": "揭示引擎底层工作机制，帮助理解碰撞检测流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理解算器",
+      "predicate": "选择使用",
+      "object": "复杂碰撞",
+      "context": "揭示引擎底层工作机制，帮助理解碰撞检测流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Use Complex Collision As Simple",
+      "predicate": "实现",
+      "object": "精确碰撞检测",
+      "context": "通过椅子示例说明该设置的实际效果，强化理解",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简单碰撞",
+      "predicate": "导致",
+      "object": "滑动效果",
+      "context": "通过椅子示例说明简单碰撞的物理表现特征",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:47:23.031Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3048,
+    "contentLength": 1952,
+    "processingTimeMs": 44128
+  }
+}

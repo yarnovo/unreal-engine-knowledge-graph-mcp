@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_wine-enabled-containers-quick-start-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_wine-enabled-containers-quick-start-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Wine容器镜像",
+      "predicate": "用于",
+      "object": "Linux上的Windows开发和云部署工作流程",
+      "context": "Wine容器镜像专门设计用于在Linux环境下运行Windows开发和云部署工作流程，帮助开发者在非Windows系统上使用虚幻引擎",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Wine容器镜像",
+      "predicate": "依赖",
+      "object": "Docker",
+      "context": "构建和运行Wine容器镜像需要Docker作为基础工具，这是容器化技术的基本要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Wine容器镜像",
+      "predicate": "包含",
+      "object": "虚幻引擎",
+      "context": "容器镜像中集成了虚幻引擎，使得可以在容器内运行引擎相关功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Wine容器镜像",
+      "predicate": "支持",
+      "object": "蓝图脚本项目",
+      "context": "当前容器镜像仅支持打包纯蓝图项目，不支持包含C++代码的项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Wine资源库",
+      "predicate": "提供",
+      "object": "构建脚本",
+      "context": "Epic Games提供的Wine资源库包含构建容器镜像所需的脚本和资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻自动化工具",
+      "predicate": "用于",
+      "object": "项目打包",
+      "context": "在容器内使用虚幻自动化工具进行项目的构建和打包工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Docker",
+      "predicate": "需要",
+      "object": "特定版本要求",
+      "context": "文档明确要求Docker Engine版本不低于23.0.0，这是技术前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Python",
+      "predicate": "用于",
+      "object": "运行构建脚本",
+      "context": "构建过程依赖Python环境来执行构建脚本，版本要求不低于3.7",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Wine基础镜像",
+      "predicate": "基于",
+      "object": "打补丁的Wine版本",
+      "context": "基础镜像包含经过特殊补丁的Wine 9.0.0版本，以增强兼容性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "容器镜像构建",
+      "predicate": "前置需求",
+      "object": "Windows版虚幻引擎",
+      "context": "构建包含虚幻引擎的容器镜像需要先获取Windows版虚幻引擎的安装文件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻引擎项目",
+      "predicate": "打包限制",
+      "object": "仅蓝图项目",
+      "context": "当前容器化方案明确限制只能打包不包含C++代码的纯蓝图项目",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Docker运行命令",
+      "predicate": "使用",
+      "object": "卷挂载参数",
+      "context": "打包项目时需要将本地项目目录挂载到容器内，这是Docker的标准用法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Wine",
+      "predicate": "实现",
+      "object": "Windows应用兼容层",
+      "context": "Wine提供了在Linux上运行Windows应用程序的兼容层，这是整个技术方案的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "容器镜像",
+      "predicate": "解决",
+      "object": "跨平台开发问题",
+      "context": "该方案主要解决在Linux系统上进行Windows平台虚幻引擎开发的问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "构建过程",
+      "predicate": "可能遇到",
+      "object": "长路径问题",
+      "context": "文档特别提醒在Windows系统下复制文件时可能遇到路径长度限制问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:33:40.177Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11121,
+    "contentLength": 7643,
+    "processingTimeMs": 43826
+  }
+}

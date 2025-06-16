@@ -1,0 +1,155 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_using-calibration-test-patterns-with-ndisplay-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_using-calibration-test-patterns-with-ndisplay-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "nDisplay",
+      "predicate": "包含",
+      "object": "显示群集测试图形Actor",
+      "context": "nDisplay插件包含显示群集测试图形Actor，用于生成和显示校准测试图形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "显示群集测试图形Actor",
+      "predicate": "生成",
+      "object": "校准测试图形",
+      "context": "显示群集测试图形Actor用于生成多种2D测试图形，帮助检测显示问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "校准测试图形",
+      "predicate": "用于",
+      "object": "检测显示问题",
+      "context": "测试图形的规律性有助于发现显示问题，如撕裂、同步问题、接缝和颜色变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay.Calibration.Pattern",
+      "predicate": "控制",
+      "object": "校准测试图形",
+      "context": "通过控制台命令nDisplay.Calibration.Pattern可以激活和配置特定的测试图形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "群集事件",
+      "predicate": "触发",
+      "object": "校准测试图形",
+      "context": "通过向nDisplay网络发送群集事件可以激活测试图形，事件类别为nDisplay，类型为Calibration",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TPSCircles",
+      "predicate": "属于",
+      "object": "校准测试图形",
+      "context": "TPSCircles是nDisplay预装的测试图形之一，用于检测显示问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TPSColoredBars",
+      "predicate": "属于",
+      "object": "校准测试图形",
+      "context": "TPSColoredBars是nDisplay预装的测试图形之一，用于检测显示问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TPSGrayBars",
+      "predicate": "属于",
+      "object": "校准测试图形",
+      "context": "TPSGrayBars是nDisplay预装的测试图形之一，用于检测显示问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TPSGridCircles",
+      "predicate": "属于",
+      "object": "校准测试图形",
+      "context": "TPSGridCircles是nDisplay预装的测试图形之一，用于检测显示问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TPAChevron",
+      "predicate": "属于",
+      "object": "校准测试图形",
+      "context": "TPAChevron是nDisplay预装的测试图形之一，用于检测显示问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TPAGrid",
+      "predicate": "属于",
+      "object": "校准测试图形",
+      "context": "TPAGrid是nDisplay预装的测试图形之一，用于检测显示问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TPAMirroredChevron",
+      "predicate": "属于",
+      "object": "校准测试图形",
+      "context": "TPAMirroredChevron是nDisplay预装的测试图形之一，用于检测显示问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TPARadar",
+      "predicate": "属于",
+      "object": "校准测试图形",
+      "context": "TPARadar是nDisplay预装的测试图形之一，用于检测显示问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TPAStrips",
+      "predicate": "属于",
+      "object": "校准测试图形",
+      "context": "TPAStrips是nDisplay预装的测试图形之一，用于检测显示问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "后期处理材质",
+      "predicate": "用于",
+      "object": "自定义测试图形",
+      "context": "可以通过创建后期处理材质并将其添加到显示群集测试图形Actor中，来实现自定义测试图形",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay",
+      "predicate": "支持",
+      "object": "多视口显示",
+      "context": "nDisplay用于在多块LED屏幕上分布多个视口，测试图形可以平铺显示在这些视口上",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "校准测试图形",
+      "predicate": "适用于",
+      "object": "多视口同步检测",
+      "context": "测试图形有助于检测多视口间的同步问题和显示一致性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T21:14:16.312Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8384 字符)",
+      "timestamp": "2025-06-15T21:13:29.196Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 11843,
+    "contentLength": 8384,
+    "processingTimeMs": 47124
+  }
+}

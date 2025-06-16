@@ -1,0 +1,93 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_testing-physics-assets-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_testing-physics-assets-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "物理资产工具",
+      "predicate": "用于",
+      "object": "测试物理资产",
+      "context": "物理资产工具是虚幻引擎中专门用于测试和编辑物理资产的模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模拟选项",
+      "predicate": "包含",
+      "object": "无重力模式",
+      "context": "模拟选项提供了无重力模式，用于在零重力环境下测试物理资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模拟选项",
+      "predicate": "包含",
+      "object": "选定模拟",
+      "context": "模拟选项提供了选定模拟功能，用于测试特定的物理形体链",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "无重力模式",
+      "predicate": "用于",
+      "object": "检测物理形体穿透",
+      "context": "无重力模式特别适合检测物理形体间的相互穿透问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "无重力模式",
+      "predicate": "用于",
+      "object": "检测约束限制",
+      "context": "无重力模式可用于检测物理约束是否超出其限制范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "选定模拟",
+      "predicate": "用于",
+      "object": "测试关节链",
+      "context": "选定模拟功能专门用于测试特定的物理形体链，如角色手臂的关节链",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理形体",
+      "predicate": "组成",
+      "object": "物理资产",
+      "context": "物理资产由多个物理形体组成，理解这种组成关系对资产测试很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理约束",
+      "predicate": "控制",
+      "object": "物理形体运动",
+      "context": "物理约束定义了物理形体之间的运动关系和限制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理资产测试",
+      "predicate": "依赖",
+      "object": "模拟功能",
+      "context": "有效的物理资产测试依赖于模拟功能的正确使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理资产",
+      "predicate": "基于",
+      "object": "物理引擎",
+      "context": "物理资产的功能实现基于虚幻引擎的物理引擎系统",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T20:58:31.618Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2050,
+    "contentLength": 1440,
+    "processingTimeMs": 28880
+  }
+}

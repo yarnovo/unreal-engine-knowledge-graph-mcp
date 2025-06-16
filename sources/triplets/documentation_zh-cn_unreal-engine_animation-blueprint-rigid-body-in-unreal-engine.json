@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_animation-blueprint-rigid-body-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_animation-blueprint-rigid-body-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "RigidBody节点",
+      "predicate": "属于",
+      "object": "动画蓝图",
+      "context": "RigidBody节点是动画蓝图中的一个功能节点，用于实现轻量级物理运动模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RigidBody节点",
+      "predicate": "依赖",
+      "object": "物理资产",
+      "context": "RigidBody节点需要使用角色的物理资产来执行物理模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RigidBody节点",
+      "predicate": "扩展",
+      "object": "Anim Dynamics节点",
+      "context": "RigidBody节点提供了比Anim Dynamics节点更丰富的物理模拟功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RigidBody节点",
+      "predicate": "用于",
+      "object": "骨骼网格体",
+      "context": "RigidBody节点主要用于模拟骨骼网格体上的辅助结构的运动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理资产",
+      "predicate": "包含",
+      "object": "物理形体",
+      "context": "物理资产由多个物理形体组成，用于定义碰撞和物理模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理形体",
+      "predicate": "支持",
+      "object": "碰撞",
+      "context": "物理形体可以启用碰撞，用于模拟物体间的交互",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理形体",
+      "predicate": "支持",
+      "object": "模拟",
+      "context": "物理形体可以设置为模拟模式，参与物理模拟",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理形体",
+      "predicate": "支持",
+      "object": "运动",
+      "context": "物理形体可以设置为运动模式，不参与物理模拟但影响其他形体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RigidBody节点",
+      "predicate": "支持",
+      "object": "空间转换",
+      "context": "RigidBody节点需要在组件空间中运行，可能需要进行空间转换",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "RigidBody节点",
+      "predicate": "支持",
+      "object": "Reset Dynamics",
+      "context": "RigidBody节点可以与Reset Dynamics蓝图节点配合使用，重置模拟",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RigidBody节点",
+      "predicate": "控制",
+      "object": "模拟空间",
+      "context": "RigidBody节点可以设置不同的模拟空间（组件空间、世界空间、基础骨骼空间）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RigidBody节点",
+      "predicate": "支持",
+      "object": "基础骨骼参考",
+      "context": "当模拟空间设置为基础骨骼空间时，可以指定基础骨骼作为参考点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理资产编辑器",
+      "predicate": "用于",
+      "object": "编辑物理资产",
+      "context": "物理资产编辑器是创建和修改物理资产的主要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "关联",
+      "object": "骨架",
+      "context": "骨骼网格体基于骨架构建，定义了角色的骨骼结构",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "使用",
+      "object": "动画序列",
+      "context": "动画蓝图可以引用动画序列来控制角色动画",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "使用",
+      "object": "蒙太奇",
+      "context": "动画蓝图可以引用动画蒙太奇来实现复杂的动画组合",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "RigidBody节点",
+      "predicate": "适用于",
+      "object": "辅助结构模拟",
+      "context": "RigidBody节点特别适合模拟角色的辅助结构如马尾辫、链子等的运动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理形体",
+      "predicate": "具有",
+      "object": "质量属性",
+      "context": "物理形体的质量属性影响模拟的物理行为，可以调整以减少颤动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理形体",
+      "predicate": "具有",
+      "object": "阻尼属性",
+      "context": "线性阻尼和角阻尼属性可以控制物理形体的运动阻力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RigidBody节点",
+      "predicate": "支持",
+      "object": "模拟空间设置",
+      "context": "RigidBody节点提供模拟空间设置，可以精细控制模拟行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:00:42.482Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (14081 字符)",
+      "timestamp": "2025-06-15T17:59:22.065Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 22709,
+    "contentLength": 14081,
+    "processingTimeMs": 80430
+  }
+}

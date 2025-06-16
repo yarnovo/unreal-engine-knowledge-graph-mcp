@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_automation-system-user-guide-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_automation-system-user-guide-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "自动化系统",
+      "predicate": "位于",
+      "object": "虚幻引擎",
+      "context": "自动化系统是虚幻引擎的一部分，帮助开发者进行自动化测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化选项卡",
+      "predicate": "属于",
+      "object": "会话前端窗口",
+      "context": "自动化选项卡是会话前端窗口的一部分，用于运行和管理自动化测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "会话前端",
+      "predicate": "包含",
+      "object": "自动化选项卡",
+      "context": "会话前端窗口包含多个功能选项卡，其中自动化选项卡专门用于自动化测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻前端",
+      "predicate": "包含",
+      "object": "会话前端",
+      "context": "虚幻前端是一个独立应用程序，集成了会话前端、设备管理器和项目启动器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化测试",
+      "predicate": "依赖",
+      "object": "测试插件",
+      "context": "自动化测试功能需要先启用相关的测试插件才能使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "会话浏览器",
+      "predicate": "用于",
+      "object": "连接编辑器实例",
+      "context": "会话浏览器用于选择特定的编辑器实例以运行自动化测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "工具栏",
+      "predicate": "控制",
+      "object": "自动化测试执行",
+      "context": "工具栏提供各种按钮来控制自动化测试的启动、刷新和过滤",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "测试窗口",
+      "predicate": "显示",
+      "object": "测试结果",
+      "context": "测试窗口用于展示已运行测试的详细信息和结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导出功能",
+      "predicate": "用于",
+      "object": "测试结果导出",
+      "context": "导出功能允许将测试结果保存为CSV文件以便进一步分析",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "屏幕截图比较",
+      "predicate": "扩展",
+      "object": "自动化测试功能",
+      "context": "屏幕截图比较选项卡提供额外的功能对比能力，增强自动化测试",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "设备组",
+      "predicate": "用于",
+      "object": "测试分组",
+      "context": "设备组功能允许按不同标准对测试进行分组管理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "预设值",
+      "predicate": "用于",
+      "object": "测试配置复用",
+      "context": "预设值功能允许保存和复用特定的测试配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化系统",
+      "predicate": "支持",
+      "object": "多设备测试",
+      "context": "自动化系统支持在连接的不同设备上运行测试",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化测试",
+      "predicate": "包含",
+      "object": "关卡测试",
+      "context": "自动化测试包含专门的关卡测试功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自动化系统",
+      "predicate": "提供",
+      "object": "错误过滤",
+      "context": "系统提供错误和警告过滤功能帮助分析测试结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T18:10:36.080Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8700 字符)",
+      "timestamp": "2025-06-15T18:09:41.604Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 11910,
+    "contentLength": 8700,
+    "processingTimeMs": 54486
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_open-world-tools-property-reference-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_open-world-tools-property-reference-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "植被类型",
+      "predicate": "包含",
+      "object": "网格体",
+      "context": "植被类型是开放世界工具中的核心概念，网格体是其子属性之一，定义了植被的静态网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "植被类型",
+      "predicate": "包含",
+      "object": "放置",
+      "context": "放置属性控制植被实例在场景中的具体位置和方向，是植被类型的重要组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "植被类型",
+      "predicate": "包含",
+      "object": "程序化",
+      "context": "程序化属性控制植被的生成和扩散规则，是植被类型的关键组成部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "植被类型",
+      "predicate": "包含",
+      "object": "实例设置",
+      "context": "实例设置属性控制植被实例的渲染和交互行为，是植被类型的重要配置部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "植被类型",
+      "predicate": "包含",
+      "object": "可扩展性",
+      "context": "可扩展性属性控制植被在不同性能条件下的表现，是植被类型的优化配置部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体",
+      "predicate": "使用",
+      "object": "静态网格体",
+      "context": "网格体属性定义了植被实例使用的静态网格体资产",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体",
+      "predicate": "支持",
+      "object": "组件类",
+      "context": "组件类属性允许使用自定义的FoliagedInstancedStaticMeshComponent子类来实现特殊行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "放置",
+      "predicate": "控制",
+      "object": "Z偏移",
+      "context": "Z偏移属性控制植被实例在垂直方向上的位置变化范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "放置",
+      "predicate": "控制",
+      "object": "分配到法线",
+      "context": "分配到法线属性控制植被实例是否根据表面法线调整角度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "放置",
+      "predicate": "控制",
+      "object": "随机偏转",
+      "context": "随机偏转属性控制植被实例是否应用随机Y轴旋转",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "程序化",
+      "predicate": "控制",
+      "object": "碰撞半径",
+      "context": "碰撞半径决定植被实例之间的重叠检测范围",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "程序化",
+      "predicate": "控制",
+      "object": "步数",
+      "context": "步数属性控制植被年龄增长和种子扩散的模拟次数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "程序化",
+      "predicate": "控制",
+      "object": "初始种子密度",
+      "context": "初始种子密度控制植被在初始阶段的分布密度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "实例设置",
+      "predicate": "控制",
+      "object": "移动性",
+      "context": "移动性属性决定植被组件的静态/动态行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "实例设置",
+      "predicate": "控制",
+      "object": "投射阴影",
+      "context": "投射阴影属性控制植被是否参与阴影计算",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "地形草地类型",
+      "predicate": "包含",
+      "object": "草地变体",
+      "context": "草地变体是地形草地类型的核心配置部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "草地变体",
+      "predicate": "使用",
+      "object": "草地网格体",
+      "context": "草地网格体属性定义了草地实例使用的静态网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "程序化植被生成器",
+      "predicate": "包含",
+      "object": "程序化植被模拟",
+      "context": "程序化植被模拟是程序化植被生成器的核心功能模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "程序化植被模拟",
+      "predicate": "使用",
+      "object": "植被类型",
+      "context": "程序化植被模拟基于配置的植被类型进行生成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "程序化植被模拟",
+      "predicate": "控制",
+      "object": "图块大小",
+      "context": "图块大小决定了程序化生成的区域单位尺寸",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:11:30.114Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8646 字符)",
+      "timestamp": "2025-06-15T20:10:30.694Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 13806,
+    "contentLength": 8646,
+    "processingTimeMs": 59427
+  }
+}

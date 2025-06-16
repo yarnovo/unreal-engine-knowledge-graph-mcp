@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_coordinates-material-expressions-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_coordinates-material-expressions-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "ActorPositionWS",
+      "predicate": "输出",
+      "object": "世界场景空间位置",
+      "context": "ActorPositionWS表达式用于获取对象在世界空间中的位置，这对于基于位置改变材质效果非常有用。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CameraPositionWS",
+      "predicate": "输出",
+      "object": "摄像机世界空间位置",
+      "context": "CameraPositionWS表达式用于获取摄像机在世界空间中的位置，可以用于基于摄像机位置改变材质效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "LightmapUVs",
+      "predicate": "输出",
+      "object": "光照贴图UV纹理坐标",
+      "context": "LightmapUVs表达式用于获取光照贴图的UV坐标，这对于光照贴图的应用至关重要。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ObjectOrientation",
+      "predicate": "输出",
+      "object": "对象局部正Z轴方向",
+      "context": "ObjectOrientation表达式用于获取对象的局部正Z轴方向，可以用于基于对象方向改变材质效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ObjectPositionWS",
+      "predicate": "输出",
+      "object": "对象边界的世界场景空间中心位置",
+      "context": "ObjectPositionWS表达式用于获取对象边界的世界空间中心位置，这对于基于对象位置改变材质效果非常有用。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ObjectRadius",
+      "predicate": "输出",
+      "object": "对象半径",
+      "context": "ObjectRadius表达式用于获取对象的半径，可以用于基于对象大小改变材质效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Panner",
+      "predicate": "生成",
+      "object": "平移UV纹理坐标",
+      "context": "Panner表达式用于生成平移的UV纹理坐标，可以用于创建移动纹理效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Panner",
+      "predicate": "依赖",
+      "object": "Time表达式",
+      "context": "Panner表达式通常依赖Time表达式来提供时间输入，以控制平移效果。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "粒子位置WS",
+      "predicate": "输出",
+      "object": "世界场景空间中粒子位置",
+      "context": "粒子位置WS表达式用于获取每个粒子在世界空间中的位置，可以用于基于粒子位置改变材质效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PixelNormalWS",
+      "predicate": "输出",
+      "object": "像素法线方向",
+      "context": "PixelNormalWS表达式用于获取像素的法线方向，可以用于基于法线改变材质效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Rotator",
+      "predicate": "生成",
+      "object": "旋转UV纹理坐标",
+      "context": "Rotator表达式用于生成旋转的UV纹理坐标，可以用于创建旋转纹理效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Rotator",
+      "predicate": "依赖",
+      "object": "Time表达式",
+      "context": "Rotator表达式通常依赖Time表达式来提供时间输入，以控制旋转效果。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "SceneTexelSize",
+      "predicate": "用于",
+      "object": "多分辨率系统边缘检测",
+      "context": "SceneTexelSize表达式用于在多分辨率系统中进行边缘检测，确保不同分辨率下结果一致。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "ScreenPosition",
+      "predicate": "输出",
+      "object": "屏幕空间位置",
+      "context": "ScreenPosition表达式用于获取当前渲染像素的屏幕空间位置，可以用于基于屏幕位置改变材质效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TextureCoordinate",
+      "predicate": "输出",
+      "object": "UV纹理坐标",
+      "context": "TextureCoordinate表达式用于获取UV纹理坐标，可以用于访问不同的UV通道或进行平铺操作。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VertexNormalWS",
+      "predicate": "输出",
+      "object": "世界空间顶点法线",
+      "context": "VertexNormalWS表达式用于获取世界空间的顶点法线，可以用于操控网格体的顶点位置。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VertexTangentWS",
+      "predicate": "输出",
+      "object": "世界空间顶点切线",
+      "context": "VertexTangentWS表达式用于获取世界空间的顶点切线，可以用于操控网格体的顶点位置。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ViewSize",
+      "predicate": "输出",
+      "object": "当前视图大小",
+      "context": "ViewSize表达式用于获取当前视图的大小（以像素为单位），可以用于基于屏幕分辨率改变材质效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WorldPosition",
+      "predicate": "输出",
+      "object": "全局空间像素位置",
+      "context": "WorldPosition表达式用于获取当前像素在全局空间中的位置，可以用于基于全局位置改变材质效果。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "WorldPosition",
+      "predicate": "用于",
+      "object": "纹理坐标匹配",
+      "context": "WorldPosition表达式可以用作纹理坐标，使不相关的网格在彼此邻近时进行纹理坐标匹配。",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:36:44.354Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (8327 字符)",
+      "timestamp": "2025-06-15T18:35:37.148Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 12522,
+    "contentLength": 8327,
+    "processingTimeMs": 67215
+  }
+}

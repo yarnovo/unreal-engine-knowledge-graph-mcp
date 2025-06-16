@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_in-camera-vfx-production-test-sample-project-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_in-camera-vfx-production-test-sample-project-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "ICVFX制片测试",
+      "predicate": "基于",
+      "object": "虚幻引擎",
+      "context": "ICVFX制片测试是一个虚拟制片示例，使用了虚幻引擎和LED摄影棚技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX制片测试",
+      "predicate": "使用",
+      "object": "LED摄影棚",
+      "context": "项目展示了如何在LED摄影棚环境中使用虚幻引擎进行虚拟制片",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX制片测试",
+      "predicate": "涉及",
+      "object": "多用户设置",
+      "context": "项目展示了多用户协作工作流程，允许多名美术师同时处理场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU Lightmass",
+      "predicate": "用于",
+      "object": "光照烘焙",
+      "context": "GPU Lightmass用于快速烘焙场景光照，并通过多用户会话共享",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay",
+      "predicate": "支持",
+      "object": "mGPU渲染",
+      "context": "nDisplay可以在多屏幕群集上使用mGPU渲染内部视锥体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "nDisplay",
+      "predicate": "应用",
+      "object": "色彩校正",
+      "context": "可以将色彩校正和OCIO配置文件应用至nDisplay渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制",
+      "predicate": "允许",
+      "object": "实时调整",
+      "context": "远程控制Web应用程序允许从平板电脑上对片场进行快速更改",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OpenColorIO (OCIO)",
+      "predicate": "用于",
+      "object": "色彩管理",
+      "context": "OCIO用于在整个管线中保持准确而一致的色彩",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "关卡快照",
+      "predicate": "用于",
+      "object": "场景配置保存",
+      "context": "关卡快照用于保存和恢复特定镜头的场景配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Switchboard",
+      "predicate": "管理",
+      "object": "nDisplay设备",
+      "context": "Switchboard用于管理和控制nDisplay设备",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "舞台监视器",
+      "predicate": "用于",
+      "object": "事件监控",
+      "context": "舞台监视器工具用于从一个应用程序中的所有nDisplay群集节点接收事件报告",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ICVFX制片测试",
+      "predicate": "包含",
+      "object": "环境示例",
+      "context": "项目包含三种拍摄环境：CaveEntrance、CavePath和SpaceJunkyard",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子关卡",
+      "predicate": "用于",
+      "object": "团队协作",
+      "context": "通过将环境划分为多个子关卡，不同美术师可以同时处理不同部分",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "远程控制预设",
+      "predicate": "包含",
+      "object": "功能按钮",
+      "context": "远程控制预设包含了照明、色彩分级和舞台位置调整等功能按钮",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控制台变量",
+      "predicate": "用于",
+      "object": "性能优化",
+      "context": "控制台变量用于调整设置以提高nDisplay渲染性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:34:31.344Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (32997 字符)",
+      "timestamp": "2025-06-15T19:33:45.425Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 48999,
+    "contentLength": 32997,
+    "processingTimeMs": 45928
+  }
+}

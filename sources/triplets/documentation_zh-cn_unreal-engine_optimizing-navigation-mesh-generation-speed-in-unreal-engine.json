@@ -1,0 +1,133 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_optimizing-navigation-mesh-generation-speed-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_optimizing-navigation-mesh-generation-speed-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "寻路系统",
+      "predicate": "包含",
+      "object": "寻路网格体",
+      "context": "寻路系统通过寻路网格体为AI代理提供寻路功能，理解这一包含关系有助于学习者掌握系统的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "划分为",
+      "object": "图块",
+      "context": "寻路网格体划分为图块以便运行时重建局部部件，理解这一结构关系对优化性能至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单元格大小",
+      "predicate": "影响",
+      "object": "寻路精度",
+      "context": "单元格大小直接影响寻路精度和处理成本，这对学习性能优化时的权衡决策很重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单元格高度",
+      "predicate": "影响",
+      "object": "寻路精度",
+      "context": "与单元格大小类似，单元格高度也是影响寻路精度的重要参数",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "图块大小",
+      "predicate": "影响",
+      "object": "重建成本",
+      "context": "理解图块大小与重建成本的关系有助于优化运行时性能",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "简单碰撞",
+      "predicate": "提高",
+      "object": "生成速度",
+      "context": "使用简单碰撞可以显著提高寻路网格体生成速度，这对学习优化技巧很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Can Ever Affect Navigation",
+      "predicate": "控制",
+      "object": "寻路影响",
+      "context": "该属性控制Actor是否影响寻路网格体，理解这一关系有助于优化场景设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "bInitialBuildingLocked",
+      "predicate": "控制",
+      "object": "自动生成",
+      "context": "该属性用于控制寻路网格体的自动生成锁定状态，是高级优化技术的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态障碍物",
+      "predicate": "优化",
+      "object": "局部重建",
+      "context": "将对象标记为动态障碍物可以优化寻路网格体的局部重建，而非重建整个图块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "数据区块流送",
+      "predicate": "适用于",
+      "object": "静态寻路网格体",
+      "context": "该技术专门用于优化子关卡中静态寻路网格体的加载，理解这一适用关系对场景管理很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MaxSimultaneousTileGenerationJobsCount",
+      "predicate": "控制",
+      "object": "多线程生成",
+      "context": "该属性控制多线程寻路网格体生成的并发数量，是性能优化的重要参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "单元格大小",
+      "predicate": "与",
+      "object": "图块大小",
+      "context": "单元格大小和图块大小需要协调设置以获得最佳性能，理解这一关系对优化很重要",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "基于",
+      "object": "碰撞几何结构",
+      "context": "寻路网格体是从世界的碰撞几何结构生成的，理解这一基础关系对调试和优化很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "项目设置",
+      "predicate": "包含",
+      "object": "寻路网格体设置",
+      "context": "项目设置中包含寻路网格体的各种参数配置，这是学习引擎配置的重要路径",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RecastNavMesh-Default",
+      "predicate": "是",
+      "object": "寻路网格体Actor",
+      "context": "这是默认的寻路网格体Actor，可以在世界大纲视图中选择和配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:12:57.430Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 12033,
+    "contentLength": 7907,
+    "processingTimeMs": 46748
+  }
+}

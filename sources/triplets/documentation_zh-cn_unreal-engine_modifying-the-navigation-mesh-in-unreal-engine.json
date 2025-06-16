@@ -1,0 +1,77 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_modifying-the-navigation-mesh-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_modifying-the-navigation-mesh-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "寻路系统",
+      "predicate": "包含",
+      "object": "寻路网格体",
+      "context": "寻路系统通过寻路网格体实现路径查找功能，理解这一包含关系有助于掌握系统架构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路网格体",
+      "predicate": "基于",
+      "object": "碰撞几何体",
+      "context": "寻路网格体的生成依赖于场景中的碰撞几何体，这是理解导航数据来源的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "寻路系统",
+      "predicate": "支持",
+      "object": "人工智能代理",
+      "context": "寻路系统专门为AI代理提供路径查找功能，这是AI行为实现的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "修改导航网格",
+      "predicate": "前置",
+      "object": "准备指南",
+      "context": "准备指南是学习修改导航网格的必要前置步骤，建立学习路径的先后顺序",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "示例项目",
+      "predicate": "包含",
+      "object": "LevelMod_Navigation_0",
+      "context": "示例项目中包含完整示例关卡，这是实践学习的直接资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "导航系统",
+      "predicate": "同义",
+      "object": "寻路系统",
+      "context": "文档中交替使用这两个术语，建立概念等价关系有助于术语统一",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "开发者论坛",
+      "predicate": "扩展",
+      "object": "寻路系统文档",
+      "context": "论坛作为官方文档的补充资源，可扩展学习渠道",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "学习库",
+      "predicate": "补充",
+      "object": "官方文档",
+      "context": "社区学习资源与官方文档形成互补学习体系",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:58:24.964Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 2249,
+    "contentLength": 1663,
+    "processingTimeMs": 33463
+  }
+}

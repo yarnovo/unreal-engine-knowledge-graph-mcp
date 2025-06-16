@@ -1,0 +1,117 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_import-a-metahuman-to-the-game-animation-sample-project-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_import-a-metahuman-to-the-game-animation-sample-project-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "游戏动画示例项目",
+      "predicate": "包含",
+      "object": "MetaHuman角色",
+      "context": "项目自带示例MetaHuman角色，帮助学习者理解如何将MetaHuman集成到动画系统中",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "游戏动画示例项目",
+      "predicate": "演示",
+      "object": "运动匹配技术",
+      "context": "该项目是学习虚幻引擎中运动匹配技术的典型示例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaHuman",
+      "predicate": "使用",
+      "object": "动画蓝图",
+      "context": "MetaHuman角色需要指定动画蓝图(如ABP_GenericRetarget)才能正确工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色蓝图",
+      "predicate": "继承",
+      "object": "CBP_SandboxCharacter_Metahuman_Kellan",
+      "context": "通过复制现有角色蓝图来创建新的MetaHuman角色是标准工作流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "身体网格体组件",
+      "predicate": "需要",
+      "object": "组件标签",
+      "context": "为身体网格体添加RTG_UEFN_to_Metahuman_nrw标签是Retarget AnimBP工作的必要条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "构造脚本",
+      "predicate": "控制",
+      "object": "主姿势组件",
+      "context": "构造脚本负责重新绑定身体引用变量和设置主姿势组件，这对角色动画系统至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "游戏动画控件",
+      "predicate": "管理",
+      "object": "可玩角色",
+      "context": "通过游戏动画控件可以切换不同的可玩角色，这是项目的重要功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaHuman Creator",
+      "predicate": "生成",
+      "object": "MetaHuman角色",
+      "context": "创建自定义MetaHuman角色需要先使用MetaHuman Creator工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画系统",
+      "predicate": "依赖",
+      "object": "骨骼网格体组件",
+      "context": "动画系统需要正确设置的骨骼网格体组件才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "EnableMasterPose函数",
+      "predicate": "设置",
+      "object": "主姿势组件",
+      "context": "该函数负责将身体网格体组件设置为其他组件的主姿势组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "胶囊体组件",
+      "predicate": "对齐",
+      "object": "MetaHuman网格体",
+      "context": "需要将MetaHuman网格体与胶囊体组件正确对齐才能确保角色移动和碰撞检测正常工作",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "LODSync组件",
+      "predicate": "管理",
+      "object": "细节层次",
+      "context": "LODSync组件负责管理角色不同细节层次的同步",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "游戏动画示例项目",
+      "predicate": "适用于",
+      "object": "动画系统学习",
+      "context": "该项目特别适合学习虚幻引擎中的高级动画系统实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:31:22.712Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7999,
+    "contentLength": 5367,
+    "processingTimeMs": 45137
+  }
+}

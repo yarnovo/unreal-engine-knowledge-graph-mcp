@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_live-link-freed--in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_live-link-freed--in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Live Link FreeD",
+      "predicate": "支持",
+      "object": "FreeD数据协议",
+      "context": "Live Link FreeD插件支持FreeD协议，用于摄像机追踪数据的传输",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FreeD数据协议",
+      "predicate": "用于",
+      "object": "摄像机追踪",
+      "context": "FreeD协议专门用于传输摄像机的变换位置、旋转和镜头数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FreeD数据协议",
+      "predicate": "支持",
+      "object": "PTZ摄像机",
+      "context": "FreeD协议受特定PTZ摄像机支持，如Panasonic AW-UE150和Sony BRC-X1000",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link FreeD",
+      "predicate": "依赖",
+      "object": "Live Link插件",
+      "context": "使用Live Link FreeD前需要先启用Live Link插件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link FreeD",
+      "predicate": "生成",
+      "object": "Live Link主题",
+      "context": "连接摄像机后，Live Link FreeD会生成对应的主题用于数据传输",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link控制器",
+      "predicate": "控制",
+      "object": "摄像机Actor",
+      "context": "Live Link控制器组件用于将Live Link数据应用到场景中的摄像机Actor",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link预设",
+      "predicate": "保存",
+      "object": "摄像机配置",
+      "context": "可以将特定摄像机的配置保存为Live Link预设以便重复使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编码器数据设置",
+      "predicate": "包含",
+      "object": "对焦距离数据",
+      "context": "编码器数据设置包含对焦距离、焦距和用户定义数据的配置选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编码器数据设置",
+      "predicate": "包含",
+      "object": "焦距数据",
+      "context": "编码器数据设置包含对焦距离、焦距和用户定义数据的配置选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "编码器数据设置",
+      "predicate": "包含",
+      "object": "用户定义数据",
+      "context": "编码器数据设置包含对焦距离、焦距和用户定义数据的配置选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "实物摄像机设置",
+      "predicate": "匹配",
+      "object": "摄像机Actor设置",
+      "context": "需要调整摄像机Actor的参数以匹配实物摄像机的镜头和光圈设置",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FreeD协议",
+      "predicate": "传输",
+      "object": "8轴数据",
+      "context": "FreeD协议用于传输摄像机的变换位置、旋转和镜头的8轴数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link窗口",
+      "predicate": "显示",
+      "object": "帧数据",
+      "context": "可以通过Live Link窗口查看接收到的摄像机帧数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "摄像机手册",
+      "predicate": "参考",
+      "object": "FreeD支持情况",
+      "context": "需要参考摄像机手册了解具体型号对FreeD协议的支持情况",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T19:45:19.095Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 11273,
+    "contentLength": 7397,
+    "processingTimeMs": 39441
+  }
+}

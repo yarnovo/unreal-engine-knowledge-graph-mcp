@@ -1,0 +1,261 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_take-archive-device",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_take-archive-device.md",
+  "triples": [
+    {
+      "subject": "Take Archive Device",
+      "predicate": "支持",
+      "object": "视频数据",
+      "context": "Take Archive Device可以导入视频数据，帮助学习者理解该设备的多媒体处理能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Archive Device",
+      "predicate": "支持",
+      "object": "音频数据",
+      "context": "Take Archive Device可以导入音频数据，帮助学习者理解该设备的多媒体处理能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Archive Device",
+      "predicate": "支持",
+      "object": "深度数据",
+      "context": "Take Archive Device可以导入深度数据，帮助学习者理解该设备的多媒体处理能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Archive Device",
+      "predicate": "支持",
+      "object": "校准数据",
+      "context": "Take Archive Device可以导入校准数据，帮助学习者理解该设备的多媒体处理能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Archive Device",
+      "predicate": "使用",
+      "object": "Take Metadata Files (.cptake)",
+      "context": "Take Archive Device依赖.cptake元数据文件来识别和处理数据，帮助学习者理解设备的工作机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Archive Device",
+      "predicate": "兼容",
+      "object": "Capture Manager",
+      "context": "Take Archive Device向后兼容Capture Manager创建的内容，帮助学习者理解设备间的兼容性关系",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Archive Device",
+      "predicate": "兼容",
+      "object": "MetaHuman Animator",
+      "context": "Take Archive Device向后兼容MetaHuman Animator创建的内容，帮助学习者理解设备间的兼容性关系",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Metadata Files (.cptake)",
+      "predicate": "基于",
+      "object": "JSON格式",
+      "context": ".cptake文件使用JSON格式编码，帮助学习者理解元数据文件的结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Metadata Files (.cptake)",
+      "predicate": "包含",
+      "object": "UniqueId",
+      "context": ".cptake文件必须包含UniqueId字段，帮助学习者理解元数据文件的基本结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Metadata Files (.cptake)",
+      "predicate": "包含",
+      "object": "TakeNumber",
+      "context": ".cptake文件必须包含TakeNumber字段，帮助学习者理解元数据文件的基本结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Metadata Files (.cptake)",
+      "predicate": "包含",
+      "object": "Slate",
+      "context": ".cptake文件必须包含Slate字段，帮助学习者理解元数据文件的基本结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Metadata Files (.cptake)",
+      "predicate": "包含",
+      "object": "Device",
+      "context": ".cptake文件必须包含Device字段，帮助学习者理解元数据文件的基本结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Metadata Files (.cptake)",
+      "predicate": "可选包含",
+      "object": "Video",
+      "context": ".cptake文件可选包含Video媒体内容，帮助学习者理解元数据文件的灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Metadata Files (.cptake)",
+      "predicate": "可选包含",
+      "object": "Depth",
+      "context": ".cptake文件可选包含Depth媒体内容，帮助学习者理解元数据文件的灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Metadata Files (.cptake)",
+      "predicate": "可选包含",
+      "object": "Audio",
+      "context": ".cptake文件可选包含Audio媒体内容，帮助学习者理解元数据文件的灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Take Metadata Files (.cptake)",
+      "predicate": "可选包含",
+      "object": "Calibration",
+      "context": ".cptake文件可选包含Calibration媒体内容，帮助学习者理解元数据文件的灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaHuman Animator",
+      "predicate": "兼容",
+      "object": "StereoHMC",
+      "context": "StereoHMC是与MetaHuman Animator兼容的设备类型，帮助学习者理解设备兼容性",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaHuman Animator",
+      "predicate": "兼容",
+      "object": "iPhone",
+      "context": "iPhone是与MetaHuman Animator兼容的设备类型，帮助学习者理解设备兼容性",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Live Link Face",
+      "predicate": "可转换为",
+      "object": ".cptake格式",
+      "context": "Live Link Face的内容可以转换为.cptake格式，帮助学习者理解不同格式间的转换关系",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Video",
+      "predicate": "支持格式",
+      "object": "mov",
+      "context": "Video支持mov格式，帮助学习者理解支持的视频格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Video",
+      "predicate": "支持格式",
+      "object": "mp4",
+      "context": "Video支持mp4格式，帮助学习者理解支持的视频格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Video",
+      "predicate": "支持格式",
+      "object": "png",
+      "context": "Video支持png格式，帮助学习者理解支持的视频格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Video",
+      "predicate": "支持格式",
+      "object": "jpg",
+      "context": "Video支持jpg格式，帮助学习者理解支持的视频格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Video",
+      "predicate": "支持格式",
+      "object": "jpeg",
+      "context": "Video支持jpeg格式，帮助学习者理解支持的视频格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Depth",
+      "predicate": "支持格式",
+      "object": "mha_depth",
+      "context": "Depth支持mha_depth格式，帮助学习者理解支持的深度数据格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Depth",
+      "predicate": "支持格式",
+      "object": "exr",
+      "context": "Depth支持exr格式，帮助学习者理解支持的深度数据格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Audio",
+      "predicate": "支持格式",
+      "object": "wav",
+      "context": "Audio支持wav格式，帮助学习者理解支持的音频格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Audio",
+      "predicate": "支持格式",
+      "object": "mov",
+      "context": "Audio支持mov格式，帮助学习者理解支持的音频格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Audio",
+      "predicate": "支持格式",
+      "object": "mp4",
+      "context": "Audio支持mp4格式，帮助学习者理解支持的音频格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Calibration",
+      "predicate": "支持格式",
+      "object": "opencv",
+      "context": "Calibration支持opencv格式，帮助学习者理解支持的校准数据格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Calibration",
+      "predicate": "支持格式",
+      "object": "mhaical",
+      "context": "Calibration支持mhaical格式，帮助学习者理解支持的校准数据格式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:58:01.226Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 4360,
+    "contentLength": 4131,
+    "processingTimeMs": 82226
+  }
+}

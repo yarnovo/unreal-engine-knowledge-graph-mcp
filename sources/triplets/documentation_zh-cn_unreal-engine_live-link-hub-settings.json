@@ -1,0 +1,109 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_live-link-hub-settings",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_live-link-hub-settings.md",
+  "triples": [
+    {
+      "subject": "Live Link Hub",
+      "predicate": "包含",
+      "object": "Capture Manager",
+      "context": "Capture Manager是Live Link Hub中的一个设置模块，学习者需要了解这是Live Link Hub的核心功能之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Capture Manager",
+      "predicate": "控制",
+      "object": "Working Directory",
+      "context": "Capture Manager管理Working Directory的设置，这是数据转换过程中的关键存储位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Capture Manager",
+      "predicate": "控制",
+      "object": "Download Directory",
+      "context": "Capture Manager管理Download Directory的设置，这是从远程设备下载数据的存储位置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Capture Manager",
+      "predicate": "支持",
+      "object": "Third Party Encoder",
+      "context": "Capture Manager支持第三方编码器（如FFmpeg）的使用，这是处理特殊数据格式的重要功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Third Party Encoder",
+      "predicate": "替代",
+      "object": "Windows Media Foundation",
+      "context": "当默认的Windows Media Foundation不支持特定数据格式时，可以使用第三方编码器替代",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FFmpeg",
+      "predicate": "是",
+      "object": "Third Party Encoder",
+      "context": "FFmpeg是文档中提到的具体第三方编码器实现，学习者需要了解其与Live Link Hub的集成方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Working Directory",
+      "predicate": "存储",
+      "object": "转换数据",
+      "context": "Working Directory用于存储数据转换过程中的临时文件，这是数据处理流程的关键环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Download Directory",
+      "predicate": "存储",
+      "object": "远程设备数据",
+      "context": "Download Directory专门用于存储从远程设备（如Live Link Face设备）下载的数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Parallel Jobs",
+      "predicate": "影响",
+      "object": "数据摄入效率",
+      "context": "Parallel Jobs设置决定了同时处理的任务数量，直接影响数据摄入的效率",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Third Party Encoder",
+      "predicate": "需要",
+      "object": "FFmpeg安装",
+      "context": "使用第三方编码器功能需要先安装FFmpeg，这是功能启用的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Third Party Encoder",
+      "predicate": "支持",
+      "object": "自定义命令参数",
+      "context": "第三方编码器支持自定义视频和音频命令参数，这为高级用户提供了灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Naming tokens",
+      "predicate": "用于",
+      "object": "自动填充目录路径",
+      "context": "命名令牌可以自动填充Working Directory和Download Directory的部分路径，这是路径管理的便捷功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:46:44.430Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 3717,
+    "contentLength": 3531,
+    "processingTimeMs": 52593
+  }
+}

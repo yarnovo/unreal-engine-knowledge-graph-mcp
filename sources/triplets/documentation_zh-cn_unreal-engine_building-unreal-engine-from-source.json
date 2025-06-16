@@ -1,0 +1,149 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_building-unreal-engine-from-source",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_building-unreal-engine-from-source.md",
+  "triples": [
+    {
+      "subject": "从源代码构建虚幻引擎",
+      "predicate": "依赖",
+      "object": "Microsoft Visual Studio",
+      "context": "在Windows平台上构建虚幻引擎需要先安装Microsoft Visual Studio，这是编译引擎的必要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "从源代码构建虚幻引擎",
+      "predicate": "依赖",
+      "object": "XCode",
+      "context": "在macOS平台上构建虚幻引擎需要先安装XCode，这是编译引擎的必要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "从源代码构建虚幻引擎",
+      "predicate": "依赖",
+      "object": "Ubuntu",
+      "context": "在Linux平台上构建虚幻引擎推荐使用最新版Ubuntu，其他Linux分发版可能不受支持",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "GenerateProjectFiles.bat",
+      "predicate": "用于",
+      "object": "生成项目文件",
+      "context": "在Windows平台上运行GenerateProjectFiles.bat可以生成项目文件，这是构建虚幻引擎的第一步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GenerateProjectFiles.command",
+      "predicate": "用于",
+      "object": "生成项目文件",
+      "context": "在macOS平台上运行GenerateProjectFiles.command可以生成项目文件，这是构建虚幻引擎的第一步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GenerateProjectFiles.sh",
+      "predicate": "用于",
+      "object": "生成项目文件",
+      "context": "在Linux平台上运行GenerateProjectFiles.sh可以生成项目文件，这是构建虚幻引擎的第一步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE5.sln",
+      "predicate": "用于",
+      "object": "加载项目到Visual Studio",
+      "context": "在Windows平台上双击UE5.sln可以将项目加载到Visual Studio，这是构建虚幻引擎的第二步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UE4.xcodeproj",
+      "predicate": "用于",
+      "object": "加载项目到XCode",
+      "context": "在macOS平台上双击UE4.xcodeproj可以将项目加载到XCode，这是构建虚幻引擎的第二步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "开发编辑器",
+      "predicate": "是",
+      "object": "解决方案配置",
+      "context": "在构建虚幻引擎时需要将解决方案配置设置为开发编辑器，这是构建引擎的必要步骤",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Win64",
+      "predicate": "是",
+      "object": "解决方案平台",
+      "context": "在Windows平台上构建虚幻引擎时需要将解决方案平台设置为Win64，这是构建引擎的必要步骤",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UnrealEditor - Mac",
+      "predicate": "是",
+      "object": "构建目标",
+      "context": "在macOS平台上构建虚幻引擎时需要将构建目标设置为UnrealEditor - Mac，这是构建引擎的必要步骤",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "构建虚幻引擎",
+      "predicate": "需要",
+      "object": "磁盘空间",
+      "context": "构建虚幻引擎需要至少100GB的磁盘空间，这是构建引擎的基本要求",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "构建虚幻引擎",
+      "predicate": "推荐",
+      "object": "8GB内存和8核处理器",
+      "context": "为了缩短编译时间，推荐在内存至少为8GB且处理器至少为8核的机器上构建虚幻引擎",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "运行编辑器",
+      "predicate": "需要",
+      "object": "构建虚幻引擎",
+      "context": "在运行虚幻引擎编辑器之前需要先成功构建虚幻引擎，这是运行编辑器的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "理解基础知识",
+      "predicate": "是",
+      "object": "学习虚幻引擎的起点",
+      "context": "文档推荐初学者先阅读理解基础知识文档，这是学习虚幻引擎的起点",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "编程快速入门",
+      "predicate": "适用于",
+      "object": "程序员学习虚幻引擎",
+      "context": "编程快速入门教程适合程序员快速上手使用虚幻引擎进行开发",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "关卡设计师快速入门",
+      "predicate": "适用于",
+      "object": "关卡设计师学习虚幻引擎",
+      "context": "关卡设计师快速入门教程适合关卡设计师快速上手使用虚幻引擎进行关卡设计",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T18:18:14.159Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 7980,
+    "contentLength": 6040,
+    "processingTimeMs": 67679
+  }
+}

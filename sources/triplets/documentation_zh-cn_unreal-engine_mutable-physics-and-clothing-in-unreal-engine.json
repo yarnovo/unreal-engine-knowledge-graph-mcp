@@ -1,0 +1,125 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_mutable-physics-and-clothing-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_mutable-physics-and-clothing-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Mutable插件",
+      "predicate": "支持",
+      "object": "物理资产合并",
+      "context": "Mutable插件支持物理资产合并功能，帮助开发者处理不同比例的网格体组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理资产合并",
+      "predicate": "依赖",
+      "object": "编译选项",
+      "context": "启用物理资产合并需要在编译选项中设置，这是使用该功能的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PhysicsAsset",
+      "predicate": "包含",
+      "object": "形体设置",
+      "context": "PhysicsAsset由形体设置组成，理解形体设置是掌握物理资产的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PhysicsAsset",
+      "predicate": "包含",
+      "object": "约束",
+      "context": "约束是PhysicsAsset的重要组成部分，影响物理模拟效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mutable插件",
+      "predicate": "支持",
+      "object": "布料模拟数据传输",
+      "context": "这是Mutable插件的核心功能之一，使生成的骨骼网格体具有布料效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "布料模拟",
+      "predicate": "依赖",
+      "object": "编译选项",
+      "context": "启用布料功能需要在编译选项中设置，这是使用布料模拟的前提",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "布料资产",
+      "predicate": "控制",
+      "object": "模拟属性",
+      "context": "布料资产配置影响模拟属性如迭代或细分，这是布料效果调优的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模拟网格体",
+      "predicate": "关联",
+      "object": "渲染网格体",
+      "context": "理解两者关联关系对处理布料模拟的删除操作至关重要",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "可自定义对象",
+      "predicate": "用于",
+      "object": "预览布料模拟",
+      "context": "这是调试和可视化布料效果的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体查看器",
+      "predicate": "提供",
+      "object": "详细可视化",
+      "context": "当需要更详细的布料模拟可视化时需要使用此工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "布料模拟",
+      "predicate": "不支持",
+      "object": "网格体部分扩展",
+      "context": "这是当前功能的限制之一，影响布料资产的使用方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "布料模拟",
+      "predicate": "不支持",
+      "object": "多重影响",
+      "context": "了解此限制可以避免在布料权重设置上浪费时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PhysicsAsset合并",
+      "predicate": "使用",
+      "object": "参考骨骼网格体",
+      "context": "合并时以参考骨骼网格体中的PhysicsAsset为模板，这是合并过程的重要知识",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "形体设置",
+      "predicate": "聚合",
+      "object": "形状",
+      "context": "合并PhysicsAsset时形体设置会聚合，影响最终物理效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-15T20:02:57.257Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 6630,
+    "contentLength": 3952,
+    "processingTimeMs": 47772
+  }
+}

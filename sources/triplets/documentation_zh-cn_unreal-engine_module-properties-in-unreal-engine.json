@@ -1,0 +1,179 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_module-properties-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_module-properties-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎",
+      "predicate": "由组成",
+      "object": "模块",
+      "context": "理解虚幻引擎的基本架构，引擎由多个模块组成，这是学习引擎结构的基础",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "模块",
+      "predicate": "通过声明",
+      "object": ".build.cs文件",
+      "context": "学习如何定义和配置模块，这是创建自定义模块的第一步",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": ".build.cs文件",
+      "predicate": "继承自",
+      "object": "ModuleRules",
+      "context": "理解模块配置的基础类，这是模块属性设置的核心机制",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "模块",
+      "predicate": "包含",
+      "object": "PublicDependencyModuleNames",
+      "context": "学习模块间的依赖关系管理，这是构建复杂项目的重要概念",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块",
+      "predicate": "包含",
+      "object": "PrivateDependencyModuleNames",
+      "context": "区分公共和私有依赖是模块设计的关键概念",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚幻编译工具(UBT)",
+      "predicate": "处理",
+      "object": ".build.cs文件",
+      "context": "理解构建流程的核心组件，这是编译过程的关键环节",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "模块",
+      "predicate": "使用",
+      "object": "PCH(预编译头文件)",
+      "context": "学习编译优化技术，这对大型项目性能至关重要",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "PublicIncludePaths",
+      "predicate": "用于",
+      "object": "模块间头文件共享",
+      "context": "理解模块间接口共享机制，这是模块化设计的基础",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "PrivateIncludePaths",
+      "predicate": "用于",
+      "object": "模块内部实现",
+      "context": "学习模块封装原理，保持接口与实现分离",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "StaticAnalyzerCheckers",
+      "predicate": "控制",
+      "object": "代码静态分析",
+      "context": "了解代码质量检查工具配置，提高代码健壮性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "bUseUnity",
+      "predicate": "影响",
+      "object": "编译速度",
+      "context": "学习编译优化选项，这对大型项目开发效率很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "模块",
+      "predicate": "可以包含",
+      "object": "PublicAdditionalLibraries",
+      "context": "学习如何集成第三方库，这是扩展引擎功能的重要方式",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "模块类型(ModuleType)",
+      "predicate": "决定",
+      "object": "模块编译行为",
+      "context": "理解不同类型模块的差异，如运行时模块与编辑器模块",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "CppStandard",
+      "predicate": "指定",
+      "object": "模块使用的C++标准",
+      "context": "学习如何控制语言特性使用，这对跨平台兼容性很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "bEnforceIWYU",
+      "predicate": "强制执行",
+      "object": "包含规则(IWYU)",
+      "context": "学习代码组织最佳实践，提高编译效率和代码可维护性",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "模块",
+      "predicate": "可以定义",
+      "object": "PublicDefinitions",
+      "context": "学习如何在模块层面管理预处理器定义，这是配置跨模块编译选项的关键",
+      "direction": "bidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "DynamicallyLoadedModuleNames",
+      "predicate": "指定",
+      "object": "运行时加载的模块",
+      "context": "理解模块的动态加载机制，这对插件系统设计很重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "模块",
+      "predicate": "可以配置",
+      "object": "OptimizeCode",
+      "context": "学习如何针对不同构建目标优化代码，这对发布版本性能调优很重要",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "模块",
+      "predicate": "可以设置",
+      "object": "bWarningsAsErrors",
+      "context": "学习如何严格控制代码质量，这对团队协作项目很重要",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "PublicDelayLoadDLLs",
+      "predicate": "用于",
+      "object": "延迟加载DLL",
+      "context": "学习高级模块加载技术，优化应用程序启动性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-15T19:59:01.430Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11494 字符)",
+      "timestamp": "2025-06-15T19:57:51.515Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19306,
+    "contentLength": 11494,
+    "processingTimeMs": 69928
+  }
+}
