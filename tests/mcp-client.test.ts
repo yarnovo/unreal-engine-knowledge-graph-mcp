@@ -130,12 +130,15 @@ describe.skipIf(isCI)('虚幻引擎知识图谱 MCP 服务端测试', () => {
     });
   });
 
-  it('应该能搜索概念名称', async () => {
-    console.log("\n🔍 测试搜索概念名称...");
+  it('应该能搜索概念名称（双语）', async () => {
+    console.log("\n🔍 测试搜索概念名称（双语）...");
     const result = await client.callTool({
       name: "search_concepts",
       arguments: {
-        searchTerm: "蓝图",
+        searchTerm: {
+          cn: "蓝图",
+          en: "Blueprint"
+        },
         limit: 10
       },
     });
@@ -147,24 +150,27 @@ describe.skipIf(isCI)('虚幻引擎知识图谱 MCP 服务端测试', () => {
     expect(content.content[0].type).toBe("text");
 
     const data = JSON.parse(content.content[0].text);
-    expect(data.searchTerm).toBe("蓝图");
+    expect(data.searchTerms).toEqual({cn: "蓝图", en: "Blueprint"});
     expect(data.concepts).toBeDefined();
     expect(Array.isArray(data.concepts)).toBe(true);
     expect(data.count).toBeDefined();
     expect(data.limit).toBe(10);
 
-    console.log(`搜索"蓝图"相关概念:`);
+    console.log(`搜索"蓝图/Blueprint"相关概念:`);
     data.concepts.forEach((concept: string, index: number) => {
       console.log(`  ${index + 1}. ${concept}`);
     });
   });
 
-  it('应该能搜索概念关系（知识三元组）', async () => {
-    console.log("\n🔗 测试搜索概念关系（知识三元组）...");
+  it('应该能搜索概念关系（知识三元组，双语）', async () => {
+    console.log("\n🔗 测试搜索概念关系（知识三元组，双语）...");
     const result = await client.callTool({
       name: "search_concept_relations",
       arguments: {
-        concept: "虚幻引擎",
+        concept: {
+          cn: "虚幻引擎",
+          en: "Unreal Engine"
+        },
         limit: 15
       },
     });
@@ -176,7 +182,7 @@ describe.skipIf(isCI)('虚幻引擎知识图谱 MCP 服务端测试', () => {
     expect(content.content[0].type).toBe("text");
 
     const data = JSON.parse(content.content[0].text);
-    console.log(`搜索"虚幻引擎"的概念关系:`);
+    console.log(`搜索"虚幻引擎/Unreal Engine"的概念关系:`);
     console.log(`  - 概念: ${data.concept}`);
     console.log(`  - 找到: ${data.found}`);
     
@@ -194,16 +200,19 @@ describe.skipIf(isCI)('虚幻引擎知识图谱 MCP 服务端测试', () => {
       console.log(`  - 建议: ${JSON.stringify(data.suggestions)}`);
     }
 
-    expect(data.concept).toBe("虚幻引擎");
+    expect(data.searchTerms).toEqual({cn: "虚幻引擎", en: "Unreal Engine"});
     expect(data.found).toBeDefined();
   });
 
-  it('应该能根据关系谓词搜索知识三元组', async () => {
-    console.log("\n🔗 测试根据关系谓词搜索知识三元组...");
+  it('应该能根据关系谓词搜索知识三元组（双语）', async () => {
+    console.log("\n🔗 测试根据关系谓词搜索知识三元组（双语）...");
     const result = await client.callTool({
       name: "search_by_predicate",
       arguments: {
-        predicate: "支持",
+        predicate: {
+          cn: "支持",
+          en: "supports"
+        },
         limit: 10
       },
     });
@@ -215,14 +224,14 @@ describe.skipIf(isCI)('虚幻引擎知识图谱 MCP 服务端测试', () => {
     expect(content.content[0].type).toBe("text");
 
     const data = JSON.parse(content.content[0].text);
-    expect(data.predicate).toBe("支持");
+    expect(data.searchTerms).toEqual({cn: "支持", en: "supports"});
     expect(data.triples).toBeDefined();
     expect(Array.isArray(data.triples)).toBe(true);
     expect(data.count).toBeDefined();
     expect(data.totalCount).toBeDefined();
     expect(data.limit).toBe(10);
 
-    console.log(`搜索"支持"关系谓词:`);
+    console.log(`搜索"支持/supports"关系谓词:`);
     console.log(`  - 返回三元组数: ${data.count}`);
     console.log(`  - 总三元组数: ${data.totalCount}`);
     console.log("  - 知识三元组列表:");
@@ -237,12 +246,15 @@ describe.skipIf(isCI)('虚幻引擎知识图谱 MCP 服务端测试', () => {
     });
   });
 
-  it('应该能处理不存在的概念查询', async () => {
-    console.log("\n❓ 测试查询不存在的概念...");
+  it('应该能处理不存在的概念查询（双语）', async () => {
+    console.log("\n❓ 测试查询不存在的概念（双语）...");
     const result = await client.callTool({
       name: "search_concept_relations",
       arguments: {
-        concept: "不存在的概念XYZ123",
+        concept: {
+          cn: "不存在的概念XYZ123",
+          en: "NonExistentConceptXYZ123"
+        },
         limit: 10
       },
     });
@@ -254,14 +266,14 @@ describe.skipIf(isCI)('虚幻引擎知识图谱 MCP 服务端测试', () => {
     expect(content.content[0].type).toBe("text");
 
     const data = JSON.parse(content.content[0].text);
-    expect(data.concept).toBe("不存在的概念XYZ123");
+    expect(data.searchTerms).toEqual({cn: "不存在的概念XYZ123", en: "NonExistentConceptXYZ123"});
     expect(data.found).toBe(false);
     expect(data.message).toBeDefined();
     expect(data.suggestions).toBeDefined();
     expect(Array.isArray(data.suggestions)).toBe(true);
 
     console.log(`查询不存在概念的结果:`);
-    console.log(`  - 概念: ${data.concept}`);
+    console.log(`  - 搜索词: ${JSON.stringify(data.searchTerms)}`);
     console.log(`  - 找到: ${data.found}`);
     console.log(`  - 消息: ${data.message}`);
     console.log(`  - 建议: ${JSON.stringify(data.suggestions)}`);

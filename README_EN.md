@@ -23,7 +23,8 @@ This project provides an MCP server based on Neo4j graph database, specifically 
 - 🎯 **Relationship Type Queries**: Search concept relationships by type (e.g., contains, supports, depends)
 - 🧠 **Intelligent Concept Discovery**: Deep relationship mining based on graph database
 - 📊 **Knowledge Graph Statistics**: Real-time statistics of graph database
-- 🔍 **Concept Name Search**: Fuzzy search for concept names with Chinese support
+- 🔍 **Concept Name Search**: Fuzzy search for concept names with bilingual Chinese-English support
+- 🌐 **Bilingual Support**: All query tools support Chinese-English bilingual input and intelligent merging
 
 ## Using in MCP Host
 
@@ -87,7 +88,7 @@ Create or edit `.vscode/mcp.json` configuration file in project root:
 
 ### search_concept_relations
 
-Search related concepts and relationships for a specified concept.
+Search related concepts and relationships for a specified concept with bilingual Chinese-English support.
 
 **Use Cases:**
 - 🎯 **Concept Learning Expansion**: "I want to learn about Blueprint System, what related concepts exist?"
@@ -96,19 +97,25 @@ Search related concepts and relationships for a specified concept.
 
 **Example Prompts:**
 ```
-Help me search for "Blueprint System" related concepts, I want to understand its relationships with other features
-Find what core features "Unreal Engine" contains
-Search for "Material Editor" related learning content
+Help me search for "蓝图系统" and "Blueprint System" related concepts, I want to understand its relationships with other features
+Find what core features "虚幻引擎" and "Unreal Engine" contain
+Search for "材质编辑器" and "Material Editor" related learning content
 ```
 
 **Parameters:**
-- `concept` (required): The concept name to query
+- `concept` (required): The concept name to query (bilingual Chinese-English)
+  - `cn` (required): Chinese concept name
+  - `en` (required): English concept name
 - `limit` (optional): Maximum number of relationships to return, default 20
 
 **Return Data Format:**
 ```json
 {
-  "concept": "Unreal Engine",
+  "searchTerms": {
+    "cn": "虚幻引擎",
+    "en": "Unreal Engine"
+  },
+  "concept": "虚幻引擎 / Unreal Engine",
   "found": true,
   "totalRelations": 12,
   "relatedConcepts": [
@@ -125,7 +132,7 @@ Search for "Material Editor" related learning content
 
 ### search_concepts
 
-Fuzzy search for concept names.
+Fuzzy search for concept names with bilingual Chinese-English support.
 
 **Use Cases:**
 - 🔍 **Quick Concept Lookup**: "I remember there was a 'particle' related feature, what was it called?"
@@ -134,21 +141,26 @@ Fuzzy search for concept names.
 
 **Example Prompts:**
 ```
-Search for all concepts containing "particle"
+Search for all concepts containing "粒子" and "Particle"
 Find features related to "2D"
-Search for "editor" related tools
+Search for "编辑器" and "Editor" related tools
 ```
 
 **Parameters:**
-- `searchTerm` (required): Search keyword
+- `searchTerm` (required): Search keyword (bilingual Chinese-English)
+  - `cn` (required): Chinese search keyword
+  - `en` (required): English search keyword
 - `limit` (optional): Maximum number of concepts to return, default 10
 
 **Return Data Format:**
 ```json
 {
-  "searchTerm": "Blueprint",
-  "concepts": ["Blueprint System", "Blueprint Editor"],
-  "count": 2,
+  "searchTerms": {
+    "cn": "蓝图",
+    "en": "Blueprint"
+  },
+  "concepts": ["蓝图系统", "Blueprint System", "蓝图编辑器", "Blueprint Editor"],
+  "count": 4,
   "limit": 10
 }
 ```
@@ -162,16 +174,33 @@ Get list of all available concepts.
 
 ### search_by_predicate
 
-Search knowledge triples by relationship predicate.
+Search knowledge triples by relationship predicate with bilingual Chinese-English support.
+
+**Use Cases:**
+- 🔗 **Relationship Type Exploration**: "Which features 'support' other features?"
+- 🏗️ **Dependency Analysis**: "View all 'depends' relationships to understand feature dependencies"
+- 📦 **Containment Queries**: "Which components 'contain' other sub-components?"
+
+**Example Prompts:**
+```
+Find all "支持" and "supports" relationships, I want to understand feature support situations
+Search "依赖" and "depends" relationships, analyze dependency structures between features
+Show "包含" and "contains" relationships, understand component composition structures
+```
 
 **Parameters:**
-- `predicate` (required): Relationship predicate (e.g., contains, supports, depends)
+- `predicate` (required): Relationship predicate (bilingual Chinese-English)
+  - `cn` (required): Chinese relationship predicate, e.g., 包含、支持、依赖
+  - `en` (required): English relationship predicate, e.g., contains, supports, depends
 - `limit` (optional): Maximum number of triples to return, default 20
 
 **Return Data Format:**
 ```json
 {
-  "predicate": "supports",
+  "searchTerms": {
+    "cn": "支持",
+    "en": "supports"
+  },
   "triples": [
     {
       "subject": "Blueprint System",
