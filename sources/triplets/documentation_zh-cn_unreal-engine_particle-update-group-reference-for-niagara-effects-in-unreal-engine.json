@@ -1,0 +1,187 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_particle-update-group-reference-for-niagara-effects-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_particle-update-group-reference-for-niagara-effects-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "粒子更新组",
+      "predicate": "包含",
+      "object": "光束模块",
+      "context": "光束模块是粒子更新组中的一个功能模块，用于处理光束相关的粒子效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光束模块",
+      "predicate": "包含",
+      "object": "光束宽度缩放",
+      "context": "光束宽度缩放是光束模块中的一个子模块，用于根据用户定义的缩放因子调整光束宽度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "光束模块",
+      "predicate": "包含",
+      "object": "更新光束",
+      "context": "更新光束是光束模块中的一个子模块，用于沿贝塞尔样条或直线放置粒子",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "更新光束",
+      "predicate": "用于",
+      "object": "条带渲染器",
+      "context": "更新光束模块可以与条带渲染器一起使用，创建经典式光束效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "粒子更新组",
+      "predicate": "包含",
+      "object": "碰撞模块",
+      "context": "碰撞模块是粒子更新组中的一个功能模块，用于处理粒子与场景的碰撞",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "碰撞模块",
+      "predicate": "依赖",
+      "object": "解算器模块",
+      "context": "碰撞模块必须放在解算器模块前面才能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子与碰撞平面对齐",
+      "predicate": "需要",
+      "object": "Sprite渲染器设置",
+      "context": "使用粒子与碰撞平面对齐模块时，Sprite渲染器中的对齐和朝向模式必须设置为特定值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "约束模块",
+      "predicate": "包含",
+      "object": "钟摆约束",
+      "context": "钟摆约束是约束模块中的一个子模块，用于实现非物理性正确的钟摆效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "钟摆约束",
+      "predicate": "依赖",
+      "object": "钟摆设置",
+      "context": "使用钟摆约束模块前必须先拥有钟摆设置模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "钟摆约束",
+      "predicate": "交互",
+      "object": "重力模块",
+      "context": "钟摆约束可以与重力模块交互，实现与重力的相互作用",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "事件模块",
+      "predicate": "生成",
+      "object": "碰撞事件",
+      "context": "事件模块可以生成碰撞事件，供其他发射器中的事件处理函数使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "力模块",
+      "predicate": "包含",
+      "object": "重力",
+      "context": "重力是力模块中的一个子模块，用于向粒子施加重力效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "力模块",
+      "predicate": "包含",
+      "object": "旋涡力",
+      "context": "旋涡力是力模块中的一个子模块，用于创建绕轴旋转的力效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "位置模块",
+      "predicate": "包含",
+      "object": "网格位置",
+      "context": "网格位置是位置模块中的一个子模块，用于在网格上生成均匀分布的粒子",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网格体模块",
+      "predicate": "包含",
+      "object": "采样骨架网格体骨架",
+      "context": "采样骨架网格体骨架是网格体模块中的一个子模块，用于对骨架网格体的骨骼或插槽进行采样",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "朝向模块",
+      "predicate": "包含",
+      "object": "将Sprite与网格体朝向对齐",
+      "context": "将Sprite与网格体朝向对齐是朝向模块中的一个子模块，用于调整Sprite的朝向",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "物理模块",
+      "predicate": "包含",
+      "object": "添加旋转速度",
+      "context": "添加旋转速度是物理模块中的一个子模块，用于向粒子添加旋转速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "纹理模块",
+      "predicate": "包含",
+      "object": "采样纹理",
+      "context": "采样纹理是纹理模块中的一个子模块，用于对特定UV位置的纹理进行采样",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "速度模块",
+      "predicate": "包含",
+      "object": "添加速度",
+      "context": "添加速度是速度模块中的一个子模块，用于向粒子指定速度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "粒子更新组",
+      "predicate": "执行顺序",
+      "object": "堆栈顶部到底部",
+      "context": "粒子更新组中的模块按照从堆栈顶部到底部的顺序执行",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara系统",
+      "predicate": "支持",
+      "object": "自定义模块",
+      "context": "用户可以为Niagara系统或发射器的任意部分创建自定义模块",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-16T05:27:46.471Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (22628 字符)",
+      "timestamp": "2025-06-16T05:26:55.495Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 39801,
+    "contentLength": 22628,
+    "processingTimeMs": 51023
+  }
+}

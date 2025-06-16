@@ -1,0 +1,176 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_adding-character-animation-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_adding-character-animation-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "角色动画",
+      "predicate": "属于",
+      "object": "第一人称射击游戏开发",
+      "context": "角色动画是FPS游戏开发中的核心组成部分，直接影响玩家体验",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "实现",
+      "object": "角色动画",
+      "context": "动画蓝图是虚幻引擎中实现和控制角色动画的主要工具",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "AnimInstance",
+      "predicate": "作为父类",
+      "object": "动画蓝图",
+      "context": "创建动画蓝图时需要选择AnimInstance作为父类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "状态机",
+      "predicate": "组成",
+      "object": "动画蓝图",
+      "context": "状态机是动画蓝图的核心组成部分，用于管理不同动画状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画状态",
+      "predicate": "包含",
+      "object": "待机/奔跑/跳跃等状态",
+      "context": "典型的FPS角色动画包含多种基础状态及其过渡",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "事件图表",
+      "predicate": "控制",
+      "object": "动画状态变量",
+      "context": "通过事件图表可以实时更新控制动画状态的变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色蓝图",
+      "predicate": "关联",
+      "object": "动画蓝图",
+      "context": "角色蓝图需要关联动画蓝图才能正确显示角色动画",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "FBX导入",
+      "predicate": "前置",
+      "object": "创建动画蓝图",
+      "context": "需要先导入FBX格式的动画资源才能创建动画蓝图",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HeroFPP_Skeleton",
+      "predicate": "用于",
+      "object": "动画绑定",
+      "context": "导入动画时需要选择正确的骨架进行绑定",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "IsRunning变量",
+      "predicate": "控制",
+      "object": "奔跑状态过渡",
+      "context": "布尔变量用于控制角色在待机和奔跑状态间的过渡",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "IsFalling变量",
+      "predicate": "控制",
+      "object": "跳跃状态过渡",
+      "context": "布尔变量用于检测角色是否处于跳跃/下落状态",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "动画过渡",
+      "predicate": "基于",
+      "object": "时间条件",
+      "context": "部分动画过渡(如跳跃循环到结束)需要基于时间条件触发",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "角色移动组件",
+      "predicate": "提供",
+      "object": "运动状态数据",
+      "context": "通过获取角色移动组件可以判断当前运动状态(如是否在下落)",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "速度矢量",
+      "predicate": "用于",
+      "object": "判断奔跑状态",
+      "context": "通过计算速度矢量长度可以判断角色是否在移动",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画状态机",
+      "predicate": "连接",
+      "object": "最终动画姿势",
+      "context": "状态机的输出需要连接到Final Animation Pose节点",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "FPSMesh",
+      "predicate": "应用",
+      "object": "动画蓝图",
+      "context": "角色模型组件需要指定使用的动画蓝图",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "依赖",
+      "object": "项目设置",
+      "context": "创建动画蓝图前需要正确设置项目(如导入角色模型)",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画过渡状态",
+      "predicate": "需要",
+      "object": "条件判断",
+      "context": "每个过渡状态都需要设置进入条件(如变量判断或时间判断)",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Play节点",
+      "predicate": "驱动",
+      "object": "动画状态",
+      "context": "每个动画状态都需要包含对应的Play节点来播放特定动画",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    }
+  ],
+  "timestamp": "2025-06-16T05:23:12.584Z",
+  "warnings": [
+    {
+      "type": "preprocessing_info",
+      "message": "移除了 100 个Blueprint对象块，内容长度减少 92.8%",
+      "timestamp": "2025-06-16T05:22:24.569Z"
+    },
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (18738 字符)",
+      "timestamp": "2025-06-16T05:22:24.569Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 267336,
+    "contentLength": 18738,
+    "processingTimeMs": 48027
+  }
+}

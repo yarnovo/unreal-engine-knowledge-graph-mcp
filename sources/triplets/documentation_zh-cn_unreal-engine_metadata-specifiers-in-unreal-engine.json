@@ -1,0 +1,275 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_metadata-specifiers-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_metadata-specifiers-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "元数据说明符",
+      "predicate": "应用于",
+      "object": "类",
+      "context": "元数据说明符可以用于控制类与引擎和编辑器的交互方式，帮助学习者理解如何通过元数据定制类的行为。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "元数据说明符",
+      "predicate": "应用于",
+      "object": "接口",
+      "context": "元数据说明符可以用于控制接口与引擎和编辑器的交互方式，帮助学习者理解如何通过元数据定制接口的行为。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "元数据说明符",
+      "predicate": "应用于",
+      "object": "结构体",
+      "context": "元数据说明符可以用于控制结构体与引擎和编辑器的交互方式，帮助学习者理解如何通过元数据定制结构体的行为。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "元数据说明符",
+      "predicate": "应用于",
+      "object": "列举",
+      "context": "元数据说明符可以用于控制列举与引擎和编辑器的交互方式，帮助学习者理解如何通过元数据定制列举的行为。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "元数据说明符",
+      "predicate": "应用于",
+      "object": "函数",
+      "context": "元数据说明符可以用于控制函数与引擎和编辑器的交互方式，帮助学习者理解如何通过元数据定制函数的行为。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "元数据说明符",
+      "predicate": "应用于",
+      "object": "属性",
+      "context": "元数据说明符可以用于控制属性与引擎和编辑器的交互方式，帮助学习者理解如何通过元数据定制属性的行为。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BlueprintSpawnableComponent",
+      "predicate": "属于",
+      "object": "类元数据说明符",
+      "context": "BlueprintSpawnableComponent是一个类元数据说明符，用于标记组件类可由蓝图生成，帮助学习者理解如何使组件类在蓝图中可用。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BlueprintThreadSafe",
+      "predicate": "属于",
+      "object": "类元数据说明符",
+      "context": "BlueprintThreadSafe是一个类元数据说明符，用于标记蓝图函数库中的函数在非游戏线程上可调用，帮助学习者理解如何实现线程安全的蓝图函数。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DeprecatedNode",
+      "predicate": "属于",
+      "object": "类元数据说明符",
+      "context": "DeprecatedNode是一个类元数据说明符，用于标记行为树节点已废弃，帮助学习者理解如何标记废弃的节点并提供警告信息。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DisplayName",
+      "predicate": "属于",
+      "object": "类元数据说明符",
+      "context": "DisplayName是一个类元数据说明符，用于自定义类在蓝图中的显示名称，帮助学习者理解如何为类提供更友好的名称。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "位标记",
+      "predicate": "属于",
+      "object": "列举元数据说明符",
+      "context": "位标记是一个列举元数据说明符，用于标记列举可以作为位掩码使用，帮助学习者理解如何将列举用于位操作。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "实验性",
+      "predicate": "属于",
+      "object": "列举元数据说明符",
+      "context": "实验性是一个列举元数据说明符，用于标记列举类型为试验性，帮助学习者理解如何标记不稳定的功能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CannotImplementInterfaceInBlueprint",
+      "predicate": "属于",
+      "object": "接口元数据说明符",
+      "context": "CannotImplementInterfaceInBlueprint是一个接口元数据说明符，用于限制接口在蓝图中的实现，帮助学习者理解如何控制接口的使用范围。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HasNativeBreak",
+      "predicate": "属于",
+      "object": "结构体元数据说明符",
+      "context": "HasNativeBreak是一个结构体元数据说明符，用于指定结构体的自定义Break节点，帮助学习者理解如何为结构体提供自定义的分解功能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HasNativeMake",
+      "predicate": "属于",
+      "object": "结构体元数据说明符",
+      "context": "HasNativeMake是一个结构体元数据说明符，用于指定结构体的自定义Make节点，帮助学习者理解如何为结构体提供自定义的构造功能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AdvancedDisplay",
+      "predicate": "属于",
+      "object": "函数元数据说明符",
+      "context": "AdvancedDisplay是一个函数元数据说明符，用于标记函数的某些参数为高级参数，帮助学习者理解如何控制函数参数的显示方式。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BlueprintAutocast",
+      "predicate": "属于",
+      "object": "函数元数据说明符",
+      "context": "BlueprintAutocast是一个函数元数据说明符，用于自动生成类型转换节点，帮助学习者理解如何简化类型转换操作。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Latent",
+      "predicate": "属于",
+      "object": "函数元数据说明符",
+      "context": "Latent是一个函数元数据说明符，用于标记延迟操作，帮助学习者理解如何实现延迟执行的函数。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EditCondition",
+      "predicate": "属于",
+      "object": "属性元数据说明符",
+      "context": "EditCondition是一个属性元数据说明符，用于控制属性的编辑条件，帮助学习者理解如何动态启用或禁用属性的编辑。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ExposeOnSpawn",
+      "predicate": "属于",
+      "object": "属性元数据说明符",
+      "context": "ExposeOnSpawn是一个属性元数据说明符，用于控制属性是否在Spawn Actor节点中显示，帮助学习者理解如何定制生成Actor时的属性可见性。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MakeEditWidget",
+      "predicate": "属于",
+      "object": "属性元数据说明符",
+      "context": "MakeEditWidget是一个属性元数据说明符，用于在视口中显示可编辑的控件，帮助学习者理解如何为属性提供可视化的编辑功能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCLASS",
+      "predicate": "使用",
+      "object": "元数据说明符",
+      "context": "UCLASS宏可以包含元数据说明符，帮助学习者理解如何在类定义中使用元数据。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UENUM",
+      "predicate": "使用",
+      "object": "元数据说明符",
+      "context": "UENUM宏可以包含元数据说明符，帮助学习者理解如何在列举定义中使用元数据。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UINTERFACE",
+      "predicate": "使用",
+      "object": "元数据说明符",
+      "context": "UINTERFACE宏可以包含元数据说明符，帮助学习者理解如何在接口定义中使用元数据。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "USTRUCT",
+      "predicate": "使用",
+      "object": "元数据说明符",
+      "context": "USTRUCT宏可以包含元数据说明符，帮助学习者理解如何在结构体定义中使用元数据。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UFUNCTION",
+      "predicate": "使用",
+      "object": "元数据说明符",
+      "context": "UFUNCTION宏可以包含元数据说明符，帮助学习者理解如何在函数定义中使用元数据。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UPROPERTY",
+      "predicate": "使用",
+      "object": "元数据说明符",
+      "context": "UPROPERTY宏可以包含元数据说明符，帮助学习者理解如何在属性定义中使用元数据。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMETA",
+      "predicate": "使用",
+      "object": "元数据说明符",
+      "context": "UMETA标签可以用于列举值，帮助学习者理解如何在列举值中使用元数据。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "元数据说明符",
+      "predicate": "控制",
+      "object": "编辑器行为",
+      "context": "元数据说明符可以控制类、接口、结构体等与编辑器的交互方式，帮助学习者理解如何通过元数据定制编辑器行为。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "元数据说明符",
+      "predicate": "控制",
+      "object": "引擎行为",
+      "context": "元数据说明符可以控制类、接口、结构体等与引擎的交互方式，帮助学习者理解如何通过元数据定制引擎行为。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "元数据说明符",
+      "predicate": "用于",
+      "object": "蓝图",
+      "context": "元数据说明符可以用于定制蓝图中的类、函数、属性等的行为，帮助学习者理解如何通过元数据增强蓝图功能。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "元数据说明符",
+      "predicate": "用于",
+      "object": "脚本语言",
+      "context": "元数据说明符可以用于控制类、属性、函数在脚本语言中的导出行为，帮助学习者理解如何通过元数据定制脚本交互。",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-16T05:28:22.992Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (11278 字符)",
+      "timestamp": "2025-06-16T05:26:55.456Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 19108,
+    "contentLength": 11278,
+    "processingTimeMs": 87544
+  }
+}

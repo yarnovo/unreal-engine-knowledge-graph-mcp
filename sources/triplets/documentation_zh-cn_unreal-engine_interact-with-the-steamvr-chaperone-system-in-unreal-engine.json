@@ -1,0 +1,131 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_interact-with-the-steamvr-chaperone-system-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_interact-with-the-steamvr-chaperone-system-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "SteamVR Chaperone系统",
+      "predicate": "用于",
+      "object": "显示虚拟现实交互区的边界",
+      "context": "帮助学习者理解Chaperone系统的基本功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SteamVR Chaperone系统",
+      "predicate": "依赖",
+      "object": "Room Scale VR设置",
+      "context": "学习者需要知道Chaperone系统正常工作需要的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SteamVR Chaperone系统",
+      "predicate": "包含",
+      "object": "边界可视化提示",
+      "context": "理解系统如何通过可视化方式提醒用户接近边界",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "玩家Pawn蓝图",
+      "predicate": "用于",
+      "object": "与SteamVR Chaperone系统交互",
+      "context": "学习者需要知道实现交互的主要开发组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Static Mesh Component",
+      "predicate": "用于",
+      "object": "生成VR交互区角落的标记",
+      "context": "理解如何通过静态网格体可视化交互区边界",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SteamVRChaperone变量",
+      "predicate": "连接",
+      "object": "Get Bounds节点",
+      "context": "学习者需要掌握获取边界点数据的关键蓝图连接方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ForEachLoop",
+      "predicate": "遍历",
+      "object": "SteamVRChaperone边界点",
+      "context": "理解处理边界点数据的核心循环逻辑",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动控制器扳机键",
+      "predicate": "触发",
+      "object": "边界可视化",
+      "context": "学习者需要知道交互的触发机制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MinimumAreaRectangle",
+      "predicate": "用于",
+      "object": "计算VR交互区形状",
+      "context": "理解如何确定交互区的几何形状",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "DrawDebugBox",
+      "predicate": "可视化",
+      "object": "VR交互区边界",
+      "context": "掌握调试可视化的重要节点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "运动控制器组件设置",
+      "predicate": "前置",
+      "object": "SteamVR Chaperone交互",
+      "context": "文档明确指出这是先修知识",
+      "direction": "unidirectional",
+      "confidence": 1
+    },
+    {
+      "subject": "HTC Vive",
+      "predicate": "提供",
+      "object": "Room Scale设置方法",
+      "context": "学习者可能需要参考的外部资源",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Lighthouse Basestation静态网格体",
+      "predicate": "用于",
+      "object": "边界标记",
+      "context": "理解示例中使用的具体资源",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "VR Preview",
+      "predicate": "用于",
+      "object": "测试Chaperone交互",
+      "context": "学习者需要知道的测试方法",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-16T05:22:57.139Z",
+  "warnings": [
+    {
+      "type": "preprocessing_info",
+      "message": "移除了 64 个Blueprint对象块，内容长度减少 97.7%",
+      "timestamp": "2025-06-16T05:22:24.608Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 213680,
+    "contentLength": 4879,
+    "processingTimeMs": 32582
+  }
+}

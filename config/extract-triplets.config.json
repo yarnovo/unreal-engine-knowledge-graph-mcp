@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "description": "标准配置 - 支持灵活关系发现的知识三元组提取",
+  "description": "标准配置 - 支持灵活关系发现的知识三元组提取，使用 micromatch glob 语法进行文件模式匹配",
   "excludeFiles": [],
   "excludePatterns": ["**/*API*.md"],
   "includePatterns": [],
@@ -16,6 +16,38 @@
     "timeoutMs": 30000,
     "concurrency": 15,
     "batchDelayMs": 1500
+  },
+  "chunking": {
+    "enabled": true,
+    "maxContextTokens": 65536,
+    "minTokensPerChunk": 1000,
+    "overlapRatio": 0.1,
+    "encoding": "o200k_base"
+  },
+  "preprocessing": {
+    "enabled": true,
+    "scriptsPath": "./scripts/preprocessors",
+    "rules": [
+      {
+        "name": "remove-blueprint-objects",
+        "description": "移除Blueprint对象定义块",
+        "filePatterns": [
+          "*adding-character-animation-in-unreal-engine*",
+          "*configuring-a-virtual-camera-component-in-unreal-engine*", 
+          "*creating-a-scriptable-tool-in-unreal-engine*",
+          "*creating-custom-dataprep-blocks-in-unreal-engine*",
+          "*interact-with-the-steamvr-chaperone-system-in-unreal-engine*",
+          "*metadata-specifiers-in-unreal-engine*",
+          "*osc-plugin-overview-for-unreal-engine*",
+          "*particle-update-group-reference-for-niagara-effects-in-unreal-engine*",
+          "*sound-attenuation-in-unreal-engine*",
+          "*unreal-engine-5-6-release-notes*",
+          "*unreal-engine-console-variables-reference*"
+        ],
+        "scriptPath": "remove-blueprint-objects",
+        "enabled": true
+      }
+    ]
   },
   "output": {
     "includeWarnings": true,

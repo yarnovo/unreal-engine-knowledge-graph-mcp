@@ -1,0 +1,307 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_horde-settings-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_horde-settings-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Horde",
+      "predicate": "包含",
+      "object": "Server Settings",
+      "context": "Horde系统的所有服务器设置都存储在Server.json文件中，这是理解Horde系统配置的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Server Settings",
+      "predicate": "包含",
+      "object": "runModes",
+      "context": "runModes是服务器运行模式配置，决定了服务器处理的工作负载类型，是服务器部署的关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "runModes",
+      "predicate": "基于",
+      "object": "RunMode (Enum)",
+      "context": "runModes参数使用RunMode枚举类型定义服务器运行模式，理解枚举值有助于配置多服务器部署",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Server Settings",
+      "predicate": "包含",
+      "object": "authMethod",
+      "context": "authMethod定义了Horde系统的认证方式，是系统安全性的核心配置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "authMethod",
+      "predicate": "基于",
+      "object": "AuthMethod (Enum)",
+      "context": "authMethod参数使用AuthMethod枚举类型定义认证方式，理解不同认证类型的适用场景很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "包含",
+      "object": "ServerPluginsConfig",
+      "context": "ServerPluginsConfig配置了Horde服务器的各种插件，是系统功能扩展的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ServerPluginsConfig",
+      "predicate": "包含",
+      "object": "ComputeServerConfig",
+      "context": "ComputeServerConfig是计算插件的配置，理解它对管理计算资源和代理很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ComputeServerConfig",
+      "predicate": "使用",
+      "object": "FleetManagerType (Enum)",
+      "context": "ComputeServerConfig使用FleetManagerType枚举管理不同类型的计算资源管理器，这对云资源管理很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ComputeServerConfig",
+      "predicate": "使用",
+      "object": "PoolSizeStrategy (Enum)",
+      "context": "ComputeServerConfig使用PoolSizeStrategy枚举定义代理池大小策略，这对资源优化很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ServerPluginsConfig",
+      "predicate": "包含",
+      "object": "BuildServerConfig",
+      "context": "BuildServerConfig是构建插件的配置，理解它对管理构建任务和版本控制集成很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildServerConfig",
+      "predicate": "使用",
+      "object": "PerforceConnectionSettings",
+      "context": "BuildServerConfig使用PerforceConnectionSettings管理与Perforce版本控制系统的连接",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PerforceConnectionSettings",
+      "predicate": "包含",
+      "object": "PerforceCredentials",
+      "context": "PerforceConnectionSettings包含PerforceCredentials用于认证，这是版本控制集成的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BuildServerConfig",
+      "predicate": "包含",
+      "object": "CommitSettings",
+      "context": "CommitSettings配置了提交服务的行为，理解它对数据复制和存储优化很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CommitSettings",
+      "predicate": "包含",
+      "object": "BundleOptions",
+      "context": "BundleOptions定义了对象打包的配置选项，这对数据存储效率很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BundleOptions",
+      "predicate": "使用",
+      "object": "BundleVersion (Enum)",
+      "context": "BundleOptions使用BundleVersion枚举指定打包版本，理解版本差异对数据兼容性很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BundleOptions",
+      "predicate": "使用",
+      "object": "BundleCompressionFormat (Enum)",
+      "context": "BundleOptions使用BundleCompressionFormat枚举选择压缩格式，这对存储和传输效率很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CommitSettings",
+      "predicate": "包含",
+      "object": "ChunkingOptions",
+      "context": "ChunkingOptions定义了数据分块的配置，这对大数据处理很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ChunkingOptions",
+      "predicate": "包含",
+      "object": "LeafChunkedDataNodeOptions",
+      "context": "LeafChunkedDataNodeOptions配置了叶子节点的分块行为，理解它对数据存储结构很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ChunkingOptions",
+      "predicate": "包含",
+      "object": "InteriorChunkedDataNodeOptions",
+      "context": "InteriorChunkedDataNodeOptions配置了内部节点的分块行为，理解它对数据存储结构很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ServerPluginsConfig",
+      "predicate": "包含",
+      "object": "StorageServerConfig",
+      "context": "StorageServerConfig是存储系统的配置，理解它对数据管理和缓存策略很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "StorageServerConfig",
+      "predicate": "包含",
+      "object": "BackendConfig",
+      "context": "BackendConfig定义了不同存储后端的配置，理解它对多存储系统集成很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BackendConfig",
+      "predicate": "使用",
+      "object": "StorageBackendType (Enum)",
+      "context": "BackendConfig使用StorageBackendType枚举选择存储后端类型，理解不同类型的特点很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BackendConfig",
+      "predicate": "使用",
+      "object": "AwsCredentialsType (Enum)",
+      "context": "BackendConfig使用AwsCredentialsType枚举定义AWS凭证类型，这对云存储安全很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ServerPluginsConfig",
+      "predicate": "包含",
+      "object": "ToolsServerConfig",
+      "context": "ToolsServerConfig是工具插件的配置，理解它对管理捆绑工具很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ToolsServerConfig",
+      "predicate": "包含",
+      "object": "BundledToolConfig",
+      "context": "BundledToolConfig定义了单个捆绑工具的配置，理解它对工具分发很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BundledToolConfig",
+      "predicate": "包含",
+      "object": "AclConfig",
+      "context": "AclConfig定义了工具的访问控制权限，理解它对安全管理很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AclConfig",
+      "predicate": "包含",
+      "object": "AclEntryConfig",
+      "context": "AclEntryConfig定义了单个ACL条目，理解它对细粒度权限控制很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AclConfig",
+      "predicate": "包含",
+      "object": "AclProfileConfig",
+      "context": "AclProfileConfig定义了权限预设组，理解它对批量权限管理很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Horde",
+      "predicate": "包含",
+      "object": "Agent Settings",
+      "context": "Agent Settings配置了Horde代理的行为，理解它对管理分布式计算节点很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Agent Settings",
+      "predicate": "包含",
+      "object": "ServerProfile",
+      "context": "ServerProfile定义了代理连接的服务器信息，理解它对多服务器环境管理很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Agent Settings",
+      "predicate": "包含",
+      "object": "OpenTelemetrySettings",
+      "context": "OpenTelemetrySettings配置了代理的遥测数据收集，理解它对监控和调试很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OpenTelemetrySettings",
+      "predicate": "包含",
+      "object": "OpenTelemetryProtocolExporterSettings",
+      "context": "OpenTelemetryProtocolExporterSettings定义了遥测数据导出协议，理解它对数据收集系统集成很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Server Settings",
+      "predicate": "包含",
+      "object": "OpenTelemetrySettings",
+      "context": "服务器端的OpenTelemetrySettings与代理端相对应，理解这对全系统监控很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ComputeServerConfig",
+      "predicate": "依赖",
+      "object": "AwsCredentialsType (Enum)",
+      "context": "当使用AWS计算资源时，ComputeServerConfig需要正确的AWS凭证类型配置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "BuildServerConfig",
+      "predicate": "使用",
+      "object": "CommitSettings",
+      "context": "构建系统使用提交设置来管理版本控制数据的存储和复制",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "StorageServerConfig",
+      "predicate": "依赖",
+      "object": "BundleOptions",
+      "context": "存储系统的数据打包方式依赖于BundleOptions中定义的配置",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-16T04:07:14.391Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (40816 字符)",
+      "timestamp": "2025-06-16T04:05:50.667Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 40918,
+    "contentLength": 40816,
+    "processingTimeMs": 83776
+  }
+}

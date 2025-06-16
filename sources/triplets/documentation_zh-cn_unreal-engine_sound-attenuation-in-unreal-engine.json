@@ -1,0 +1,411 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_sound-attenuation-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_sound-attenuation-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "音效衰减",
+      "predicate": "包含",
+      "object": "衰减（体积）",
+      "context": "音效衰减设置资产的核心组成部分，控制音效随距离变化的音量衰减",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效衰减",
+      "predicate": "包含",
+      "object": "衰减（空间化）",
+      "context": "控制音效在游戏场景中的空间定位方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效衰减",
+      "predicate": "包含",
+      "object": "衰减（空气吸收）",
+      "context": "模拟高频随距离衰减更快的物理现象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效衰减",
+      "predicate": "包含",
+      "object": "衰减（聚焦）",
+      "context": "根据聆听者视角控制音效突出效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效衰减",
+      "predicate": "包含",
+      "object": "衰减混响发送",
+      "context": "控制音效与混响效果的交互方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效衰减",
+      "predicate": "包含",
+      "object": "衰减遮挡",
+      "context": "模拟物体阻挡导致的音效变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效衰减",
+      "predicate": "包含",
+      "object": "衰减（优先级）",
+      "context": "控制声道限制时的音效播放优先级",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效衰减",
+      "predicate": "包含",
+      "object": "衰减（子混音）",
+      "context": "批量管理音效到子混音的发送",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减（体积）",
+      "predicate": "包含",
+      "object": "衰减函数",
+      "context": "定义音量随距离变化的衰减曲线类型",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减函数",
+      "predicate": "包含",
+      "object": "线性",
+      "context": "音量线性衰减，适合大型背景音效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减函数",
+      "predicate": "包含",
+      "object": "对数",
+      "context": "近距离变化大，适合需要精确定位的音效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减函数",
+      "predicate": "包含",
+      "object": "反函数",
+      "context": "近距离变化更明显，适合突出靠近效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减函数",
+      "predicate": "包含",
+      "object": "对数反函数",
+      "context": "远距离变化大，适合保持远距离音量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减函数",
+      "predicate": "包含",
+      "object": "自然音效",
+      "context": "模拟现实世界声音衰减行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减函数",
+      "predicate": "包含",
+      "object": "自定义",
+      "context": "允许用户自定义衰减曲线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减（体积）",
+      "predicate": "包含",
+      "object": "衰减形状",
+      "context": "定义音效衰减区域的几何形状",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减形状",
+      "predicate": "包含",
+      "object": "球体",
+      "context": "默认形状，模拟现实声音传播",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减形状",
+      "predicate": "包含",
+      "object": "胶囊体",
+      "context": "适合管道类连续音效",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减形状",
+      "predicate": "包含",
+      "object": "盒体",
+      "context": "适合匹配房间形状的环境声",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减形状",
+      "predicate": "包含",
+      "object": "椎体",
+      "context": "适合定向音效如广播扬声器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减（空间化）",
+      "predicate": "包含",
+      "object": "空间化方法",
+      "context": "决定音效空间定位的计算方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "空间化方法",
+      "predicate": "包含",
+      "object": "平移",
+      "context": "标准平移方法，适合扬声器播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "空间化方法",
+      "predicate": "包含",
+      "object": "双声道",
+      "context": "使用双声道插件，适合耳机播放",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减（空气吸收）",
+      "predicate": "包含",
+      "object": "吸收方法",
+      "context": "控制空气吸收效果的插值方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "吸收方法",
+      "predicate": "包含",
+      "object": "线性",
+      "context": "使用内置线性/对数缩放函数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "吸收方法",
+      "predicate": "包含",
+      "object": "自定义",
+      "context": "允许创建自定义频率缩放曲线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减混响发送",
+      "predicate": "包含",
+      "object": "混响发送方法",
+      "context": "决定混响发送量的计算方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混响发送方法",
+      "predicate": "包含",
+      "object": "线性",
+      "context": "基于距离线性插值混响发送量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混响发送方法",
+      "predicate": "包含",
+      "object": "自定义曲线",
+      "context": "使用自定义曲线控制混响发送量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "混响发送方法",
+      "predicate": "包含",
+      "object": "手动",
+      "context": "使用恒定混响发送量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减（优先级）",
+      "predicate": "包含",
+      "object": "优先级衰减方法",
+      "context": "控制优先级随距离衰减的方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "优先级衰减方法",
+      "predicate": "包含",
+      "object": "线性",
+      "context": "基于距离线性插值优先级",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "优先级衰减方法",
+      "predicate": "包含",
+      "object": "自定义曲线",
+      "context": "使用自定义曲线控制优先级衰减",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "优先级衰减方法",
+      "predicate": "包含",
+      "object": "手动",
+      "context": "使用静态优先级值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减（子混音）",
+      "predicate": "包含",
+      "object": "子混音发送方法",
+      "context": "控制子混音发送量的计算方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子混音发送方法",
+      "predicate": "包含",
+      "object": "线性",
+      "context": "基于距离线性插值发送量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子混音发送方法",
+      "predicate": "包含",
+      "object": "自定义曲线",
+      "context": "使用自定义曲线控制发送量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "子混音发送方法",
+      "predicate": "包含",
+      "object": "手动",
+      "context": "使用恒定发送量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减（体积）",
+      "predicate": "影响",
+      "object": "音效音量",
+      "context": "控制音效随距离变化的音量衰减行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减（空间化）",
+      "predicate": "影响",
+      "object": "音效定位",
+      "context": "决定音效在3D空间中的定位表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减（空气吸收）",
+      "predicate": "影响",
+      "object": "音效频率响应",
+      "context": "模拟高频随距离衰减更快的物理现象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减（聚焦）",
+      "predicate": "影响",
+      "object": "音效突出度",
+      "context": "根据玩家视角动态调整音效表现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减混响发送",
+      "predicate": "影响",
+      "object": "环境混响效果",
+      "context": "控制音效与场景混响的融合程度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减遮挡",
+      "predicate": "影响",
+      "object": "音效穿透性",
+      "context": "模拟物体阻挡导致的音效变化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减（优先级）",
+      "predicate": "影响",
+      "object": "音效播放权重",
+      "context": "决定声道限制时音效的播放优先级",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "衰减（子混音）",
+      "predicate": "影响",
+      "object": "音效路由",
+      "context": "控制音效发送到特定子混音的比例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效衰减",
+      "predicate": "应用于",
+      "object": "游戏音频设计",
+      "context": "为游戏音效提供全面的距离衰减控制方案",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "音效衰减",
+      "predicate": "基于",
+      "object": "物理声学原理",
+      "context": "模拟现实世界中的声音传播特性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "音效衰减",
+      "predicate": "集成于",
+      "object": "虚幻引擎音频系统",
+      "context": "作为引擎音频管线的核心组件之一",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-16T05:28:36.616Z",
+  "warnings": [
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (30734 字符)",
+      "timestamp": "2025-06-16T05:26:55.456Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 47938,
+    "contentLength": 30734,
+    "processingTimeMs": 101168
+  }
+}

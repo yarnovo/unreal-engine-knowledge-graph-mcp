@@ -1,0 +1,139 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_osc-plugin-overview-for-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_osc-plugin-overview-for-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "OSC插件",
+      "predicate": "实现",
+      "object": "开放音效控制协议",
+      "context": "OSC插件在虚幻引擎中实现了开放音效控制(OSC)协议，使开发者能够处理网络音频数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OSC插件",
+      "predicate": "提供",
+      "object": "蓝图API",
+      "context": "OSC插件提供了丰富的蓝图API，使开发者可以通过蓝图创建和管理OSC功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OSC服务器",
+      "predicate": "接收",
+      "object": "OSC消息",
+      "context": "OSC服务器负责接收并处理发送到虚幻引擎实例的OSC消息和包",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OSC客户端",
+      "predicate": "发送",
+      "object": "OSC消息",
+      "context": "OSC客户端用于发送OSC消息和包到其他客户端或服务器",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OSC地址",
+      "predicate": "组成",
+      "object": "OSC消息",
+      "context": "OSC地址是OSC消息的重要组成部分，定义了消息的路径和方法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OSC包",
+      "predicate": "包含",
+      "object": "OSC消息",
+      "context": "OSC包可以包含多个OSC消息或其他OSC包，形成数据包层次结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图API",
+      "predicate": "支持",
+      "object": "OSC消息处理",
+      "context": "蓝图API提供了多种方法来处理OSC消息，包括发送、接收和解析",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OSC插件",
+      "predicate": "依赖",
+      "object": "虚幻引擎插件系统",
+      "context": "OSC插件需要先通过虚幻引擎的插件系统启用才能使用其功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OSC地址",
+      "predicate": "对应",
+      "object": "对象路径",
+      "context": "OSC地址可以与虚幻引擎中的对象路径相互转换，便于对象查找和操作",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "OSC服务器",
+      "predicate": "支持",
+      "object": "组播回路",
+      "context": "OSC服务器支持组播回路功能，可以同时解析多个OSC消息和包",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OSC客户端",
+      "predicate": "配置",
+      "object": "IP地址和端口",
+      "context": "OSC客户端需要配置目标IP地址和端口才能正确发送消息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OSC插件",
+      "predicate": "基于",
+      "object": "OSC 1.0协议",
+      "context": "OSC插件的实现基于OSC 1.0协议标准，确保了与其他系统的兼容性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图API",
+      "predicate": "包含",
+      "object": "事件绑定功能",
+      "context": "蓝图API提供了多种事件绑定方法，使开发者可以灵活处理不同类型的OSC消息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OSC消息",
+      "predicate": "携带",
+      "object": "音频数据",
+      "context": "虽然OSC消息主要用于音频数据传输，但也可以携带其他类型的数据",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "控制台变量",
+      "predicate": "用于",
+      "object": "OSC插件诊断",
+      "context": "提供了一系列控制台变量用于OSC插件的调试和诊断",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-16T05:23:02.631Z",
+  "warnings": [
+    {
+      "type": "preprocessing_info",
+      "message": "移除了 70 个Blueprint对象块，内容长度减少 96.5%",
+      "timestamp": "2025-06-16T05:22:24.613Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 219285,
+    "contentLength": 7473,
+    "processingTimeMs": 38074
+  }
+}

@@ -1,0 +1,460 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-engine-5-6-release-notes",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-engine-5-6-release-notes.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎5.6",
+      "predicate": "包含",
+      "object": "Lumen硬件光线追踪优化",
+      "context": "Lumen硬件光线追踪优化是虚幻引擎5.6的核心渲染功能之一，学习者需要理解其在性能优化中的作用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen硬件光线追踪优化",
+      "predicate": "提升",
+      "object": "渲染性能",
+      "context": "该优化能提供更强的性能，匹配软件光线追踪模式的帧预算，对学习实时渲染技术很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RHI-渲染器并行化",
+      "predicate": "基于",
+      "object": "多线程功能",
+      "context": "重构后的RHI API充分利用硬件多线程能力，是学习现代图形API并行化的典型案例",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Substrate材质",
+      "predicate": "替代",
+      "object": "旧版材质系统",
+      "context": "Substrate作为新一代材质框架，学习其模块化设计对理解材质创作范式转变至关重要",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "第一人称渲染",
+      "predicate": "解决",
+      "object": "穿模问题",
+      "context": "Beta版功能通过独立FOV和空间处理解决常见的第一人称穿模问题，对角色开发有直接学习价值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "GPU分析器2.0",
+      "predicate": "统一",
+      "object": "分析系统",
+      "context": "新版分析器整合Stats、ProfileGPU和Insights数据流，是学习GPU性能分析的重要工具",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区",
+      "predicate": "支持",
+      "object": "子世界分区HLOD",
+      "context": "子世界分区HLOD的独立编译特性是学习大型开放世界流送技术的关键概念",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "地形分批合并",
+      "predicate": "优化",
+      "object": "GPU内存使用",
+      "context": "通过区域细分解决大规模地形编辑的内存问题，对学习地形系统优化有实际参考价值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MetaHuman Creator",
+      "predicate": "集成",
+      "object": "参数化身体系统",
+      "context": "身体系统的参数化设计是学习数字角色创建流程的重要进化点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "程序化内容生成(PCG)",
+      "predicate": "扩展",
+      "object": "GPU计算支持",
+      "context": "新增的GPU草和微散射功能展示了PCG与GPU计算的结合方向，对学习程序化生成技术很关键",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画重定向",
+      "predicate": "依赖",
+      "object": "操作堆栈",
+      "context": "新版可排序操作堆栈架构是学习高级动画重定向技术的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "整合",
+      "object": "Gameplay摄像机系统",
+      "context": "5.5引入的Gameplay摄像机系统现可与Sequencer联动，对过场动画制作学习很重要",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Zen服务器",
+      "predicate": "支持",
+      "object": "增量烘焙",
+      "context": "Zen服务器存储烘焙输出的能力是学习现代内容迭代流程的核心组件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Mass框架",
+      "predicate": "优化",
+      "object": "实体编译器",
+      "context": "试验性的Mass实体编译器简化了ECS模式下的实体创建，对学习数据导向设计很关键",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚拟制片",
+      "predicate": "引入",
+      "object": "动捕管理器",
+      "context": "端到端的动捕工作流工具对学习虚拟制片全流程有重要指导意义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动态设计",
+      "predicate": "新增",
+      "object": "克隆器和效果器",
+      "context": "纹理位移和自由放置等新功能扩展了程序化动画创作的可能性，值得学习",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "建模工具",
+      "predicate": "包含",
+      "object": "纹理工具(Beta)",
+      "context": "纹理图表工具的实例化和数组支持对学习材质程序化生成很有价值",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "内容管线",
+      "predicate": "改进",
+      "object": "交换工作流程",
+      "context": "优化的冲突分析和预设分组功能是学习现代资产管道管理的重要案例",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "模板系统",
+      "predicate": "新增",
+      "object": "变体功能",
+      "context": "按游戏类型定制的模板变体大大降低了不同品类项目的学习曲线",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMGEditor",
+      "predicate": "修复",
+      "object": "IPropertyBindingExtension",
+      "context": "修复了IPropertyBindingExtension中的不一致问题，确保属性绑定功能正常工作",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SInputKeySelector",
+      "predicate": "支持",
+      "object": "多修饰键分配",
+      "context": "SInputKeySelector现在支持分配多个修饰键，增强输入配置灵活性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CommonUI",
+      "predicate": "扩展",
+      "object": "Activatable Widgets",
+      "context": "Activatable Widgets现在可以覆盖Back Action的显示名称，提供更多UI定制选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG",
+      "predicate": "支持",
+      "object": "重命名部件引用修复",
+      "context": "支持修复未加载蓝图中的重命名部件和动画的引用，确保资源重命名后引用不丢失",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UCommonBoundActionBar",
+      "predicate": "替代",
+      "object": "FTickableGameObject",
+      "context": "移除了FTickableGameObject，改为在绑定动作更新和输入模式变化时设置ticker",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CommonUI",
+      "predicate": "支持",
+      "object": "多本地玩家输入注册",
+      "context": "支持在单个widget上为多个本地玩家注册输入，增强多人游戏UI支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Output Log窗口",
+      "predicate": "改进",
+      "object": "文本输入部件",
+      "context": "Output Log窗口的文本输入部件现在会填充可用空间，改善用户体验",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UContentBrowserDataSubsystem",
+      "predicate": "新增",
+      "object": "空文件夹隐藏逻辑定制",
+      "context": "新增机制允许自定义空文件夹隐藏逻辑，即使启用了显示空文件夹选项",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FEditorViewportClient",
+      "predicate": "扩展",
+      "object": "小对象聚焦",
+      "context": "允许聚焦小于10cm的对象，将硬编码下限替换为可修改的成员变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FDataflowConstructionViewportClient",
+      "predicate": "设置",
+      "object": "最小对象尺寸",
+      "context": "将最小对象尺寸设置为0.1cm，以适应0-1范围内的坐标处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FEditorViewportClient",
+      "predicate": "扩展",
+      "object": "GetMinimumOrthoZoom",
+      "context": "使GetMinimumOrthoZoom成为虚函数，允许子类自定义实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "FDataflowConstructionViewportClient",
+      "predicate": "覆盖",
+      "object": "GetMinimumOrthoZoom",
+      "context": "设置自定义GetMinimumOrthoZoom，忽略ULevelEditorViewportSettings::MinimumOrthographicZoom",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate",
+      "predicate": "修改",
+      "object": "FPointerEvent",
+      "context": "使用Gesture构造的FPointerEvent现在被视为TouchEvent，统一触摸事件处理",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG Extensions",
+      "predicate": "修正",
+      "object": "UserWidget Extension Preconstruct",
+      "context": "修正UserWidget Extension Preconstruct在扩展后添加时被调用的时机",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Widget Previews",
+      "predicate": "更新",
+      "object": "预览尺寸显示",
+      "context": "更新Widget预览以尊重UMG设计器中指定的预览尺寸，并在角落显示当前预览尺寸",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "UMG",
+      "predicate": "新增",
+      "object": "列表/平铺视图导航选项",
+      "context": "为列表/平铺视图添加选项，将导航与项目选择解耦，提供更灵活的交互方式",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SCustomDialog",
+      "predicate": "增强",
+      "object": "按钮状态控制",
+      "context": "现在可以控制每个按钮的启用状态和工具提示，提供更精细的对话框交互控制",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CommonUI",
+      "predicate": "新增",
+      "object": "ActivatableWidgetContainer重置池",
+      "context": "添加布尔选项在释放Slate资源时重置widget池，通常在加载新地图时使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CommonUI.DumpActivatableTree命令",
+      "predicate": "增强",
+      "object": "Action Domains调试支持",
+      "context": "增强Action Domains的调试支持，帮助开发者分析activatable tree结构",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "CommonUI",
+      "predicate": "扩展",
+      "object": "BoundActionButton",
+      "context": "BoundActionButton现在支持对鼠标按下也要求保持动作，扩展输入处理能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Reference Viewer",
+      "predicate": "改进",
+      "object": "插件名称显示",
+      "context": "Reference Viewer现在显示友好的插件名称，提高资源引用关系的可读性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Material Designer",
+      "predicate": "包含",
+      "object": "Live Preview",
+      "context": "Material Designer新增实时预览切换按钮，帮助学习者理解材质实时编译效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ClonerEffector",
+      "predicate": "支持",
+      "object": "粒子生成限制",
+      "context": "ClonerEffector添加粒子生成帧数/总数限制，防止性能问题，对学习特效优化很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Rundown",
+      "predicate": "扩展",
+      "object": "场景状态事件",
+      "context": "Rundown通过RC控制器行为支持场景状态事件，扩展了播放控制功能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Motion Design插件",
+      "predicate": "升级为",
+      "object": "Beta版本",
+      "context": "多个Motion Design插件进入Beta阶段，标记核心功能成熟度",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Text3D",
+      "predicate": "暴露",
+      "object": "材质扩展属性",
+      "context": "Text3D向Material Designer暴露材质扩展属性，实现3D文本与材质的深度集成",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Substrate材质",
+      "predicate": "支持",
+      "object": "Lumen反射",
+      "context": "Substrate材质支持Lumen反射中的彩色折射光，提升物理准确性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Nanite",
+      "predicate": "优化",
+      "object": "实例剔除",
+      "context": "Nanite改进层次化实例剔除性能，对大规模场景优化有重要意义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Virtual Shadow Maps",
+      "predicate": "新增",
+      "object": "接收者遮罩",
+      "context": "VSM添加接收者遮罩功能，优化密集场景的剔除效率",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "First Person Rendering",
+      "predicate": "支持",
+      "object": "HWRT效果",
+      "context": "第一人称渲染初步支持硬件光线追踪效果，扩展渲染可能性",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "GPU Profiler 2.0",
+      "predicate": "分析",
+      "object": "RHI并行化",
+      "context": "新版GPU分析器帮助理解渲染器并行化性能特征",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "World Partition",
+      "predicate": "支持",
+      "object": "子世界HLOD",
+      "context": "世界分区支持子世界HLOD，优化大型世界流送性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Landscape",
+      "predicate": "改进",
+      "object": "分批合并",
+      "context": "地形系统改进分批合并性能，对编辑层工作流很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Sequencer",
+      "predicate": "整合",
+      "object": "Gameplay摄像机",
+      "context": "Sequencer实验性整合Gameplay摄像机，实现过场与玩法无缝过渡",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Control Rig",
+      "predicate": "新增",
+      "object": "重定向操作堆栈",
+      "context": "Control Rig添加重定向操作堆栈，简化动画重定向流程",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara",
+      "predicate": "支持",
+      "object": "异类体积",
+      "context": "Niagara新增异类体积支持，扩展特效创作可能性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    }
+  ],
+  "timestamp": "2025-06-16T06:35:36.025Z",
+  "warnings": [
+    {
+      "type": "api_error",
+      "message": "切片 4 处理失败: Expected ',' or '}' after property value in JSON at position 6444 (line 207 column 59)",
+      "filename": "documentation_zh-cn_unreal-engine_unreal-engine-5-6-release-notes",
+      "timestamp": "2025-06-16T06:35:36.024Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 770285,
+    "contentLength": 705392,
+    "processingTimeMs": 317443
+  }
+}

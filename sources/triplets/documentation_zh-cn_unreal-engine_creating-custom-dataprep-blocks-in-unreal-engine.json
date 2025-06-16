@@ -1,0 +1,168 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_creating-custom-dataprep-blocks-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_creating-custom-dataprep-blocks-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Dataprep系统",
+      "predicate": "包含",
+      "object": "预制筛选器和操作",
+      "context": "Dataprep系统自带多种预制筛选器和操作，用于满足常见的3D数据准备需求，帮助学习者理解系统的基础功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义Dataprep块",
+      "predicate": "扩展",
+      "object": "Dataprep系统功能",
+      "context": "当预制块无法满足需求时，可以创建自定义Dataprep块来扩展系统功能，这对学习者理解系统可扩展性很重要",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Dataprep编辑器插件",
+      "predicate": "启用",
+      "object": "使用Dataprep操作",
+      "context": "要在蓝图中使用Dataprep操作，必须先启用Dataprep编辑器插件，这是学习者使用该功能的前提条件",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "蓝图类",
+      "predicate": "基于",
+      "object": "Dataprep基类",
+      "context": "创建自定义Dataprep块需要选择适当的Dataprep基类作为父类，这是学习者理解继承关系的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DataprepBoolFetcher",
+      "predicate": "用于",
+      "object": "基于布尔条件的过滤器",
+      "context": "当需要基于特定布尔条件选择对象时使用此类，帮助学习者区分不同类型的过滤器基类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DataprepOperation",
+      "predicate": "用于",
+      "object": "修改Actor或资产",
+      "context": "此类用于实现修改现有对象的操作，与DataprepEditingOperation形成对比，帮助学习者理解操作类型差异",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DataprepEditingOperation",
+      "predicate": "用于",
+      "object": "添加/删除对象",
+      "context": "此类不仅修改对象还能添加或删除对象，与DataprepOperation形成对比，是学习者理解操作范围的重要概念",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "公共变量",
+      "predicate": "转换为",
+      "object": "Dataprep块设置",
+      "context": "蓝图类中的公共变量会转换为Dataprep块的可自定义设置，这是学习者理解参数传递机制的关键",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Fetch函数",
+      "predicate": "必须覆盖",
+      "object": "自定义过滤器",
+      "context": "创建自定义过滤器必须覆盖Fetch函数，这是学习者实现过滤功能的核心要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "On Execution事件",
+      "predicate": "必须覆盖",
+      "object": "自定义操作",
+      "context": "创建自定义操作必须覆盖On Execution事件，这是学习者实现操作功能的核心要求",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Dataprep情境",
+      "predicate": "包含",
+      "object": "可修改的对象列表",
+      "context": "理解Dataprep情境包含的对象列表是学习者掌握操作执行范围的基础",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Break DataprepContext节点",
+      "predicate": "用于",
+      "object": "获取情境中的对象数组",
+      "context": "该节点是从Dataprep情境中提取对象的关键工具，学习者需要掌握其用法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Dataprep编辑操作函数",
+      "predicate": "专门用于",
+      "object": "修改Dataprep临时场景",
+      "context": "这些专用函数是安全修改Dataprep临时场景的唯一方式，学习者需要了解其特殊性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "自定义Dataprep块",
+      "predicate": "出现在",
+      "object": "Dataprep编辑器控制板",
+      "context": "了解自定义块如何出现在编辑器中，帮助学习者掌握开发流程的最终结果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Additional Keyword函数",
+      "predicate": "影响",
+      "object": "控制板搜索功能",
+      "context": "覆盖此函数可以增强自定义块的可发现性，是提升用户体验的重要知识点",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Tooltip Text函数",
+      "predicate": "控制",
+      "object": "块提示信息",
+      "context": "覆盖此函数可以提供有意义的提示信息，帮助学习者理解文档化的重要性",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "静态网格体Actor分配示例",
+      "predicate": "展示",
+      "object": "自定义操作实现",
+      "context": "这个具体示例帮助学习者理解如何将理论知识转化为实际实现",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "对象添加到层示例",
+      "predicate": "展示",
+      "object": "编辑操作实现",
+      "context": "这个具体示例展示如何使用编辑操作修改场景组织结构，具有实践指导意义",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-16T05:23:12.464Z",
+  "warnings": [
+    {
+      "type": "preprocessing_info",
+      "message": "移除了 86 个Blueprint对象块，内容长度减少 96.1%",
+      "timestamp": "2025-06-16T05:22:24.616Z"
+    },
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (9088 字符)",
+      "timestamp": "2025-06-16T05:22:24.616Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 240015,
+    "contentLength": 9088,
+    "processingTimeMs": 47907
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_creating-a-scriptable-tool-in-unreal-engine",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_creating-a-scriptable-tool-in-unreal-engine.md",
+  "triples": [
+    {
+      "subject": "Scriptable Tool",
+      "predicate": "requires",
+      "object": "Blueprints",
+      "context": "Scriptable Tools are created from Blueprint Classes or Editor Utility Blueprints, indicating a foundational dependency on Blueprints for tool creation.",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Scriptable Tool",
+      "predicate": "depends on",
+      "object": "Scriptable Tools Editor Mode Plugin",
+      "context": "To use Scriptable Tools, the Scriptable Tools Editor Mode plugin must be enabled, showing a direct dependency for functionality.",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Scriptable Tool",
+      "predicate": "uses",
+      "object": "Geometry Script Plugin",
+      "context": "Several functions in Scriptable Tools use Geometry Script, requiring the Geometry Script plugin to be enabled for full functionality.",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EditorScriptableModularBehaviorTool",
+      "predicate": "replaces",
+      "object": "EditorScriptableClickDragTool",
+      "context": "The EditorScriptableClickDragTool is deprecated and replaced by the EditorScriptableModularBehaviorTool, indicating an upgrade path for tool development.",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Scriptable Tool",
+      "predicate": "implements",
+      "object": "OnScriptSetup function",
+      "context": "The OnScriptSetup function is overridden in Scriptable Tools to provide control over various aspects of the tool, showing a key implementation detail.",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Scriptable Tool",
+      "predicate": "includes",
+      "object": "Add Single Click Behavior",
+      "context": "Scriptable Tools can include behaviors like Add Single Click Behavior to handle user interactions, demonstrating modular functionality.",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "IfHitByClick function",
+      "predicate": "uses",
+      "object": "Line Trace by Channel",
+      "context": "The IfHitByClick function uses Line Trace by Channel to determine if a mouse click selected a mesh, showing a functional dependency.",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "OnHitByClick function",
+      "predicate": "spawns",
+      "object": "Dynamic Mesh Actor",
+      "context": "The OnHitByClick function spawns a Dynamic Mesh Actor at the location of a hit object, illustrating a key action in the tool's workflow.",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Dynamic Mesh Actor",
+      "predicate": "contains",
+      "object": "Dynamic Mesh Component",
+      "context": "A Dynamic Mesh Actor contains a Dynamic Mesh Component, which is used to add geometry like spheres to the actor.",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Append Sphere Box node",
+      "predicate": "adds",
+      "object": "Sphere",
+      "context": "The Append Sphere Box node adds a sphere as the dynamic mesh for the actor, showing a direct relationship in mesh creation.",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Scriptable Tool",
+      "predicate": "supports",
+      "object": "Property Sets",
+      "context": "Scriptable Tools support Property Sets to add customizable settings like radius, enhancing tool functionality.",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BP_MakeSphere_Settings",
+      "predicate": "defines",
+      "object": "Radius variable",
+      "context": "The BP_MakeSphere_Settings Blueprint defines a Radius variable that can be adjusted in the tool's UI, showing a configuration aspect.",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Scriptable Tool",
+      "predicate": "requires",
+      "object": "Third Person Template",
+      "context": "The tutorial recommends using the Third Person Template to create a new project for testing the Scriptable Tool, indicating a suggested setup dependency.",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Scriptable Tool",
+      "predicate": "uses",
+      "object": "Editor Utility Blueprint",
+      "context": "Scriptable Tools can be created using Editor Utility Blueprints, which allow access to editor subsystems and editor-only functionality.",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Get Ray Start End node",
+      "predicate": "converts",
+      "object": "Click Pos World Ray",
+      "context": "The Get Ray Start End node converts the Click Pos World Ray into start and end points in world space, showing a data transformation step.",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Format Text node",
+      "predicate": "combines",
+      "object": "Text and Variables",
+      "context": "The Format Text node combines static text with variable values, providing a powerful way to display dynamic information.",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Add Property Set of Type node",
+      "predicate": "creates",
+      "object": "BP_MakeSphere_Settings instance",
+      "context": "The Add Property Set of Type node creates an instance of BP_MakeSphere_Settings, enabling the use of its properties in the Scriptable Tool.",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Scriptable Tool",
+      "predicate": "generates",
+      "object": "Dynamic Mesh Spheres",
+      "context": "The Scriptable Tool generates dynamic mesh spheres on click in the level, demonstrating its primary functionality.",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Scriptable Tool",
+      "predicate": "provides",
+      "object": "Tool Palette UI",
+      "context": "The Scriptable Tool provides a UI in the Tool Palette for user interaction, showing its integration into the editor's interface.",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-16T05:23:15.474Z",
+  "warnings": [
+    {
+      "type": "preprocessing_info",
+      "message": "移除了 44 个Blueprint对象块，内容长度减少 91.6%",
+      "timestamp": "2025-06-16T05:22:24.612Z"
+    },
+    {
+      "type": "large_file",
+      "message": "文档内容较长，可能增加API调用成本 (23483 字符)",
+      "timestamp": "2025-06-16T05:22:24.613Z"
+    }
+  ],
+  "metadata": {
+    "fileSize": 278158,
+    "contentLength": 23483,
+    "processingTimeMs": 50917
+  }
+}

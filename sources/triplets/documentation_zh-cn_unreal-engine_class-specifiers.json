@@ -1,0 +1,165 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_class-specifiers",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_class-specifiers.md",
+  "triples": [
+    {
+      "subject": "类说明符",
+      "predicate": "控制",
+      "object": "类行为",
+      "context": "类说明符用于控制类在引擎和编辑器中的行为，帮助开发者定义类的特性和功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Abstract",
+      "predicate": "阻止",
+      "object": "关卡中添加Actor",
+      "context": "Abstract说明符将类声明为抽象基类，阻止用户向关卡中添加此类的Actor，适用于单独存在无意义的类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AdvancedClassDisplay",
+      "predicate": "强制",
+      "object": "属性显示在高级部分",
+      "context": "AdvancedClassDisplay说明符强制类的所有属性仅在细节面板的'高级'部分中显示，适用于需要隐藏复杂属性的场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AutoCollapseCategories",
+      "predicate": "使无效",
+      "object": "AutoExpandCategories",
+      "context": "AutoCollapseCategories说明符使父类上的AutoExpandCategories说明符的效果无效，帮助开发者控制类别的显示行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Blueprintable",
+      "predicate": "公开",
+      "object": "创建蓝图的基类",
+      "context": "Blueprintable说明符将类公开为用于创建蓝图的可接受基类，帮助开发者扩展类的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BlueprintType",
+      "predicate": "公开",
+      "object": "蓝图变量类型",
+      "context": "BlueprintType说明符将类公开为可用于蓝图中的变量的类型，帮助开发者在蓝图中使用该类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Config",
+      "predicate": "存储",
+      "object": "配置文件数据",
+      "context": "Config说明符指示类可在配置文件中存储数据，帮助开发者管理类的配置信息",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DependsOn",
+      "predicate": "依赖",
+      "object": "其他类",
+      "context": "DependsOn说明符列出所有依赖的类，确保这些类先于当前类被编译，适用于使用其他类中声明的结构体或枚举的场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "EditInlineNew",
+      "predicate": "允许",
+      "object": "创建对象",
+      "context": "EditInlineNew说明符允许从属性窗口创建此类的对象，而非仅引用现有对象，帮助开发者快速创建和配置对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "HideCategories",
+      "predicate": "隐藏",
+      "object": "分类",
+      "context": "HideCategories说明符隐藏指定的分类，帮助开发者简化属性窗口的显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MinimalAPI",
+      "predicate": "限制",
+      "object": "导出功能",
+      "context": "MinimalAPI说明符限制类的导出功能，仅导出类型信息供其他模块使用，帮助缩短编译时间",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Placeable",
+      "predicate": "允许",
+      "object": "编辑器放置",
+      "context": "Placeable说明符允许在编辑器中创建并放置此类的对象，帮助开发者快速构建场景",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Transient",
+      "predicate": "阻止",
+      "object": "保存到磁盘",
+      "context": "Transient说明符阻止类的对象保存到磁盘，适用于不持久的原生类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Within",
+      "predicate": "限制",
+      "object": "对象存在范围",
+      "context": "Within说明符限制类的对象必须在指定类的实例内存在，帮助开发者管理对象的生命周期",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "元数据说明符",
+      "predicate": "控制",
+      "object": "编辑器行为",
+      "context": "元数据说明符用于控制类、接口、结构体等与编辑器的交互行为，帮助开发者优化编辑体验",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "BlueprintSpawnableComponent",
+      "predicate": "允许",
+      "object": "蓝图生成组件",
+      "context": "BlueprintSpawnableComponent元标签允许组件类由蓝图生成，帮助开发者扩展组件的功能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DeprecationMessage",
+      "predicate": "提供",
+      "object": "废弃警告",
+      "context": "DeprecationMessage元标签提供类废弃时的警告信息，帮助开发者识别并替换废弃的类",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "DisplayName",
+      "predicate": "替换",
+      "object": "蓝图节点名称",
+      "context": "DisplayName元标签替换蓝图中的节点名称，帮助开发者自定义节点显示",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ToolTip",
+      "predicate": "覆盖",
+      "object": "自动生成的提示文本",
+      "context": "ToolTip元标签覆盖自动生成的提示文本，帮助开发者提供更详细的说明",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-16T04:06:37.205Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 10516,
+    "contentLength": 5718,
+    "processingTimeMs": 46591
+  }
+}

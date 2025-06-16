@@ -1,0 +1,917 @@
+{
+  "filename": "documentation_zh-cn_unreal-engine_unreal-engine-console-variables-reference",
+  "sourceFile": "C:\\Users\\yarnb\\unreal-engine-knowledge-graph-mcp\\sources\\docs\\documentation_zh-cn_unreal-engine_unreal-engine-console-variables-reference.md",
+  "triples": [
+    {
+      "subject": "虚幻引擎控制台变量",
+      "predicate": "控制",
+      "object": "动画系统",
+      "context": "控制台变量用于调整动画系统的各种参数，如启用/禁用特定动画节点、优化设置等",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ISPC优化",
+      "predicate": "应用于",
+      "object": "动画姿势计算",
+      "context": "多个动画相关变量（如a.BlendCurves.ISPC）使用ISPC优化来提高性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "AnimNode",
+      "predicate": "包含",
+      "object": "多种动画节点类型",
+      "context": "文档中列出了多种动画节点类型（如AimOffsetLookAt、LegIK、ControlRig等）及其控制变量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画录制系统",
+      "predicate": "依赖",
+      "object": "控制台变量配置",
+      "context": "AnimRecorder相关变量控制录制长度、空间坐标系等关键参数",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "GPU粒子系统",
+      "predicate": "受控于",
+      "object": "FX控制台变量",
+      "context": "FX.AllowGPUParticles等变量控制GPU粒子的启用/禁用和优化设置",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Niagara系统",
+      "predicate": "扩展",
+      "object": "粒子效果功能",
+      "context": "Niagara相关变量提供了比传统粒子系统更高级的控制选项",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "控制绑定(ControlRig)",
+      "predicate": "集成于",
+      "object": "动画系统",
+      "context": "ControlRig相关变量显示其与动画节点的深度集成",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "网络复制系统",
+      "predicate": "影响",
+      "object": "动画同步",
+      "context": "网络相关变量（如net.*）会影响动画状态在多玩家环境中的同步",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "材质系统",
+      "predicate": "关联",
+      "object": "粒子渲染",
+      "context": "材质相关变量影响粒子效果的视觉表现",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "性能优化",
+      "predicate": "通过",
+      "object": "控制台变量调整",
+      "context": "大量变量专门用于优化性能（如各种ISPC选项、并行处理设置等）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "动画蓝图",
+      "predicate": "利用",
+      "object": "控制台变量调试",
+      "context": "a.Compiler.CachePoseNodeUpdateOrderDebug等变量专门用于动画蓝图调试",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "物理系统",
+      "predicate": "交互",
+      "object": "动画系统",
+      "context": "物理相关变量（如a.ParallelBlendPhysics）影响动画与物理的交互方式",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "LOD系统",
+      "predicate": "控制",
+      "object": "动画细节级别",
+      "context": "LOD相关变量影响动画在不同距离下的表现细节",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "虚拟纹理",
+      "predicate": "影响",
+      "object": "材质表现",
+      "context": "VT相关变量影响材质在动画表面的渲染质量",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "音频系统",
+      "predicate": "同步",
+      "object": "动画事件",
+      "context": "音频相关变量控制动画事件触发的音频行为",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "虚幻引擎",
+      "predicate": "包含",
+      "object": "网络系统",
+      "context": "网络系统是虚幻引擎的核心模块之一，负责处理多人游戏中的网络通信和同步",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "网络系统",
+      "predicate": "包含",
+      "object": "PacketHandler",
+      "context": "PacketHandler是网络系统中处理数据包的核心组件，用于调试和优化网络传输",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "PacketHandler",
+      "predicate": "支持",
+      "object": "CRC校验",
+      "context": "通过net.PacketHandlerCRCDump可以启用数据包的CRC校验，用于网络调试",
+      "direction": "unidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "网络系统",
+      "predicate": "包含",
+      "object": "RPC系统",
+      "context": "RPC(远程过程调用)是网络系统的重要功能，用于在客户端和服务器间调用函数",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RPC系统",
+      "predicate": "依赖",
+      "object": "可靠传输",
+      "context": "可靠RPC需要依赖可靠传输机制确保函数调用不丢失",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "物理系统",
+      "predicate": "包含",
+      "object": "Chaos物理引擎",
+      "context": "Chaos是虚幻引擎中的新一代物理引擎，取代了之前的PhysX",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Chaos物理引擎",
+      "predicate": "支持",
+      "object": "几何体集合",
+      "context": "几何体集合是Chaos中用于处理破坏效果的核心数据结构",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "几何体集合",
+      "predicate": "实现",
+      "object": "集群破碎",
+      "context": "几何体集合通过集群机制实现复杂的破碎效果模拟",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "渲染系统",
+      "predicate": "包含",
+      "object": "光照系统",
+      "context": "光照系统是渲染系统的核心组成部分，负责场景光照计算",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "光照系统",
+      "predicate": "支持",
+      "object": "Lumen全局光照",
+      "context": "Lumen是虚幻引擎的动态全局光照解决方案，支持实时光照计算",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen全局光照",
+      "predicate": "依赖",
+      "object": "网格体距离场",
+      "context": "Lumen软件光线追踪需要依赖网格体距离场数据进行光线求交计算",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "渲染系统",
+      "predicate": "包含",
+      "object": "抗锯齿技术",
+      "context": "抗锯齿技术是渲染系统的重要组成部分，用于消除图形锯齿",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "抗锯齿技术",
+      "predicate": "包含",
+      "object": "TSR",
+      "context": "TSR(时间超级分辨率)是虚幻引擎5引入的新型抗锯齿技术",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "TSR",
+      "predicate": "替代",
+      "object": "TAA",
+      "context": "TSR在虚幻引擎5中作为TAA的升级替代方案，提供更好的图像质量",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "动画系统",
+      "predicate": "包含",
+      "object": "布料模拟",
+      "context": "布料模拟是动画系统的重要组成部分，用于实现逼真的布料效果",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "布料模拟",
+      "predicate": "依赖",
+      "object": "Chaos物理引擎",
+      "context": "虚幻引擎中的布料模拟基于Chaos物理引擎实现",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "网络复制",
+      "predicate": "依赖",
+      "object": "属性同步",
+      "context": "网络复制系统依赖属性同步机制在客户端和服务器间同步对象状态",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "属性同步",
+      "predicate": "实现",
+      "object": "推送模型",
+      "context": "推送模型是属性同步的一种优化机制，只同步发生变化的属性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "渲染系统",
+      "predicate": "包含",
+      "object": "Nanite虚拟几何体",
+      "context": "Nanite是虚幻引擎5引入的虚拟几何体系统，支持海量几何细节",
+      "direction": "bidirectional",
+      "confidence": 0.95
+    },
+    {
+      "subject": "Nanite虚拟几何体",
+      "predicate": "依赖",
+      "object": "硬件光栅化",
+      "context": "Nanite依赖现代GPU的硬件光栅化能力实现高效渲染",
+      "direction": "unidirectional",
+      "confidence": 0.85
+    },
+    {
+      "subject": "r.ScreenPercentage.MinResolution",
+      "predicate": "控制",
+      "object": "渲染像素下限",
+      "context": "设置渲染像素的绝对数量下限，影响渲染质量和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.SeparateTranslucency",
+      "predicate": "影响",
+      "object": "景深效果",
+      "context": "控制半透明材质是否在单独渲染目标中渲染，影响景深合成效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.SeparateTranslucencyScreenPercentage",
+      "predicate": "调节",
+      "object": "半透明渲染分辨率",
+      "context": "控制单独半透明通道的渲染分辨率百分比，影响性能和质量平衡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.SetRes",
+      "predicate": "设置",
+      "object": "显示分辨率",
+      "context": "配置游戏视图的显示分辨率和显示模式（窗口/全屏）",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.ShaderCodeLibrary",
+      "predicate": "管理",
+      "object": "着色器编译",
+      "context": "控制着色器代码库的压缩、预加载和可视化行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.SkinnedMesh",
+      "predicate": "影响",
+      "object": "蒙皮网格体渲染",
+      "context": "控制蒙皮网格体的LOD信息更新和流送半径变化检测",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.StencilForLODDither",
+      "predicate": "实现",
+      "object": "LOD过渡效果",
+      "context": "通过模板测试或clip指令实现LOD抖动效果，影响EarlyZ优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.Upscale.Quality",
+      "predicate": "决定",
+      "object": "上采样方法",
+      "context": "选择屏幕百分比和窗口全屏缩放的3D渲染上采样质量算法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.VelocityOutputPass",
+      "predicate": "控制",
+      "object": "速度缓冲区写入时机",
+      "context": "决定何时写入速度缓冲区，影响运动模糊和时间抗锯齿效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.DBuffer",
+      "predicate": "影响",
+      "object": "贴花渲染",
+      "context": "启用DBuffer贴花材质混合模式，影响静态光照和天空光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.Decal",
+      "predicate": "控制",
+      "object": "贴花效果",
+      "context": "调整贴花的消退、屏幕大小和模板优化等参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.DepthOfFieldQuality",
+      "predicate": "调节",
+      "object": "景深质量",
+      "context": "控制景深效果的质量级别和性能开销",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.DistanceFieldShadowing",
+      "predicate": "启用",
+      "object": "距离场阴影",
+      "context": "控制是否允许距离场阴影功能，影响可移动对象的阴影质量",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.Emitter",
+      "predicate": "优化",
+      "object": "粒子系统性能",
+      "context": "通过池化和跳过插值等机制优化粒子发射器性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.EyeAdaptationQuality",
+      "predicate": "控制",
+      "object": "眼部适应效果",
+      "context": "定义眼部适应质量级别，平衡视觉效果和性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.GPUSkin",
+      "predicate": "管理",
+      "object": "GPU蒙皮",
+      "context": "控制GPU蒙皮的骨骼影响限制、索引格式和变形器使用",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.HairStrands",
+      "predicate": "控制",
+      "object": "毛发渲染系统",
+      "context": "全面控制毛发渲染的各个子系统，包括发束、发片和网格体",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.HeterogeneousVolumes",
+      "predicate": "启用",
+      "object": "异类体积渲染",
+      "context": "控制异类体积集成器的启用和各种渲染参数",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.Lumen",
+      "predicate": "管理",
+      "object": "全局光照系统",
+      "context": "全面控制Lumen全局光照和反射的各个子系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.Material",
+      "predicate": "控制",
+      "object": "材质系统",
+      "context": "管理材质编译、精度和功能支持等核心行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.Mobile",
+      "predicate": "优化",
+      "object": "移动端渲染",
+      "context": "全面控制移动平台的渲染质量、性能和各种功能支持",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.MotionBlurQuality",
+      "predicate": "调节",
+      "object": "动态模糊效果",
+      "context": "定义动态模糊的质量级别和性能开销",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.Nanite",
+      "predicate": "控制",
+      "object": "虚拟几何体系统",
+      "context": "管理Nanite虚拟几何体的渲染、剔除和流送行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "r.ScreenPercentage",
+      "predicate": "关联",
+      "object": "r.Upscale",
+      "context": "屏幕百分比设置影响上采样方法的选择和质量",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "r.SeparateTranslucency",
+      "predicate": "依赖",
+      "object": "r.DepthOfField",
+      "context": "单独半透明渲染影响景深效果的合成方式",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "r.VelocityOutputPass",
+      "predicate": "影响",
+      "object": "r.MotionBlur",
+      "context": "速度缓冲区写入时机影响运动模糊效果的质量",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "r.HairStrands",
+      "predicate": "使用",
+      "object": "r.HeterogeneousVolumes",
+      "context": "毛发渲染可以利用异类体积系统进行光线追踪",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "r.Lumen",
+      "predicate": "依赖",
+      "object": "r.Nanite",
+      "context": "Lumen全局光照系统可以利用Nanite提供的高精度几何体信息",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "MeshDrawCommands",
+      "predicate": "支持",
+      "object": "ParallelPassSetup",
+      "context": "网格体绘制命令支持并行设置通道，提高渲染效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MeshDrawCommands",
+      "predicate": "控制",
+      "object": "Stats",
+      "context": "网格体绘制命令控制统计数据的显示，帮助性能分析",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MeshDrawCommands",
+      "predicate": "依赖",
+      "object": "UseCachedCommands",
+      "context": "网格体绘制命令的性能依赖于是否使用缓存命令",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "Nanite",
+      "predicate": "实现",
+      "object": "虚拟阴影贴图",
+      "context": "Nanite技术实现虚拟阴影贴图，提供高质量阴影",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Nanite",
+      "predicate": "支持",
+      "object": "动态实例化",
+      "context": "Nanite支持动态实例化，优化渲染性能",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "RayTracing",
+      "predicate": "扩展",
+      "object": "PathTracing",
+      "context": "光线追踪扩展为路径追踪，提供更真实的光照效果",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "RayTracing",
+      "predicate": "依赖",
+      "object": "Denoiser",
+      "context": "光线追踪效果的质量依赖于降噪器的性能",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "SkinCache",
+      "predicate": "优化",
+      "object": "GPU计算蒙皮",
+      "context": "皮肤缓存优化GPU计算蒙皮过程，提高动画渲染效率",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SkinCache",
+      "predicate": "支持",
+      "object": "RecomputeTangents",
+      "context": "皮肤缓存支持重新计算切线，提高几何精度",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "SkyAtmosphere",
+      "predicate": "生成",
+      "object": "AerialPerspectiveLUT",
+      "context": "天空大气系统生成空中透视LUT，用于大气散射效果",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SkyAtmosphere",
+      "predicate": "影响",
+      "object": "SkyLight",
+      "context": "天空大气效果直接影响天空光照的渲染质量",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "VirtualShadowMaps",
+      "predicate": "替代",
+      "object": "传统阴影贴图",
+      "context": "虚拟阴影贴图逐步替代传统阴影贴图，提供更高分辨率的阴影",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "VirtualShadowMaps",
+      "predicate": "依赖",
+      "object": "Nanite",
+      "context": "虚拟阴影贴图的高效运行依赖于Nanite的几何处理能力",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ShaderPipelineCache",
+      "predicate": "优化",
+      "object": "PSO编译",
+      "context": "着色器管线缓存优化PSO编译过程，减少运行时卡顿",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SparseVolumeTexture",
+      "predicate": "用于",
+      "object": "体积特效",
+      "context": "稀疏体积纹理专门用于高效渲染体积特效如烟雾和火焰",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "MotionBlur",
+      "predicate": "依赖",
+      "object": "VelocityPass",
+      "context": "动态模糊效果依赖于速度通道提供的运动向量数据",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen",
+      "predicate": "替代",
+      "object": "传统全局光照",
+      "context": "Lumen全局光照系统逐步替代传统光照贴图方案",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "ReflectionEnvironment",
+      "predicate": "结合",
+      "object": "SSR",
+      "context": "反射环境系统结合屏幕空间反射实现混合反射效果",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "PhysicsField",
+      "predicate": "影响",
+      "object": "粒子模拟",
+      "context": "物理场系统直接影响粒子模拟的行为和效果",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Substrate",
+      "predicate": "扩展",
+      "object": "材质系统",
+      "context": "Substrate材质框架扩展了引擎的材质表达能力",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "半透明表面阴影质量",
+      "predicate": "影响",
+      "object": "性能",
+      "context": "高质量模式会显著影响性能，帮助学习者理解图形质量与性能的权衡",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟阴影贴图",
+      "predicate": "使用",
+      "object": "HZB遮蔽剔除",
+      "context": "HZB遮蔽剔除是虚拟阴影贴图的关键优化技术，帮助理解现代阴影渲染技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Nanite虚拟阴影贴图",
+      "predicate": "区别于",
+      "object": "非Nanite虚拟阴影贴图",
+      "context": "区分两种虚拟阴影贴图的实现差异，理解Nanite技术的特殊性",
+      "direction": "bidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "支持",
+      "object": "GPU皮肤缓存",
+      "context": "骨骼网格体渲染依赖GPU皮肤缓存系统，展示动画渲染管线的重要组件",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "天空大气",
+      "predicate": "生成",
+      "object": "多重散射近似",
+      "context": "天空大气效果通过多重散射近似实现，帮助理解大气渲染的物理基础",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "体积雾",
+      "predicate": "依赖",
+      "object": "时间重新投影",
+      "context": "体积雾效果使用时间重新投影技术来优化性能，展示实时渲染中的时序复用技术",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "屏幕空间反射",
+      "predicate": "可替代",
+      "object": "TAA通道",
+      "context": "实验性功能展示屏幕空间反射技术的演进方向",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "Substrate材质",
+      "predicate": "支持",
+      "object": "光线追踪",
+      "context": "Substrate材质系统与光线追踪的集成关系，展示高级材质特性",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚拟纹理",
+      "predicate": "优化",
+      "object": "内存使用",
+      "context": "虚拟纹理通过多种内存管理技术优化资源使用，理解大规模场景渲染技术",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间抗锯齿",
+      "predicate": "影响",
+      "object": "渲染质量",
+      "context": "时间抗锯齿的不同质量设置直接影响最终画面质量，帮助理解抗锯齿技术选择",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Lumen全局光照",
+      "predicate": "使用",
+      "object": "屏幕空间追踪",
+      "context": "Lumen技术栈中不同追踪方法的组合使用，理解混合光照解决方案",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "可变速率着色",
+      "predicate": "适用于",
+      "object": "性能优化",
+      "context": "VRS技术在不同渲染通道中的应用，展示自适应渲染技术",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "距离场阴影",
+      "predicate": "替代",
+      "object": "传统阴影贴图",
+      "context": "距离场技术在现代渲染管线中的作用，理解阴影技术的演进",
+      "direction": "bidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "半透明渲染",
+      "predicate": "依赖",
+      "object": "光照体积纹理",
+      "context": "半透明效果与光照体积的交互关系，理解复杂材质的光照处理",
+      "direction": "unidirectional",
+      "confidence": 0.7
+    },
+    {
+      "subject": "虚拟阴影贴图",
+      "predicate": "可视化",
+      "object": "调试模式",
+      "context": "虚拟阴影贴图提供的多种可视化工具，帮助学习调试渲染问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "ShowFlag",
+      "predicate": "控制",
+      "object": "显示标志",
+      "context": "ShowFlag用于控制编辑器或游戏中特定视觉元素的显示/隐藏状态",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "SigMan",
+      "predicate": "管理",
+      "object": "对象显示",
+      "context": "SigMan.FilterTag用于过滤显示具有特定标签的对象",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "骨骼网格体",
+      "predicate": "使用",
+      "object": "实验性分块算法",
+      "context": "SkeletalMesh.UseExperimentalChunking控制是否在LOD编译时使用实验性分块算法",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate",
+      "predicate": "支持",
+      "object": "UI渲染",
+      "context": "Slate是虚幻引擎的UI框架，控制各种UI渲染参数和行为",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "Slate",
+      "predicate": "影响",
+      "object": "性能",
+      "context": "Slate.AllowSlateToSleep等参数控制UI系统对性能的影响",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "SlateDebugger",
+      "predicate": "用于",
+      "object": "调试UI问题",
+      "context": "SlateDebugger提供多种工具用于分析和调试UI相关问题",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "源码管理",
+      "predicate": "集成",
+      "object": "Perforce",
+      "context": "SourceControl.Perforce相关参数控制与Perforce版本控制系统的集成",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "世界分区",
+      "predicate": "管理",
+      "object": "流送系统",
+      "context": "wp.Runtime参数控制世界分区系统的流送行为和性能优化",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "虚拟现实",
+      "predicate": "影响",
+      "object": "渲染设置",
+      "context": "vr参数控制VR特有的渲染设置如动态模糊、实例化立体声等",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "UMG",
+      "predicate": "基于",
+      "object": "Slate",
+      "context": "UMG是构建在Slate之上的可视化UI创作系统",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "控件组件",
+      "predicate": "使用",
+      "object": "UMG",
+      "context": "WidgetComponent参数控制UMG控件在3D世界中的渲染",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "任务图表",
+      "predicate": "调度",
+      "object": "多线程任务",
+      "context": "TaskGraph参数控制引擎中多线程任务的调度和优先级",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    },
+    {
+      "subject": "时间管理",
+      "predicate": "影响",
+      "object": "帧率控制",
+      "context": "t参数控制引擎的时间管理和帧率相关设置",
+      "direction": "bidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "虚拟内存",
+      "predicate": "优化",
+      "object": "脚本执行",
+      "context": "vm参数控制虚拟内存系统对脚本执行的优化",
+      "direction": "unidirectional",
+      "confidence": 0.8
+    },
+    {
+      "subject": "语音系统",
+      "predicate": "控制",
+      "object": "VOIP",
+      "context": "voice参数控制语音通信系统的各种设置",
+      "direction": "unidirectional",
+      "confidence": 0.9
+    }
+  ],
+  "timestamp": "2025-06-16T06:37:37.660Z",
+  "warnings": [],
+  "metadata": {
+    "fileSize": 1035863,
+    "contentLength": 621451,
+    "processingTimeMs": 439077
+  }
+}
