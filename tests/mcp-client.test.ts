@@ -20,7 +20,7 @@ describe.skipIf(isCI)('虚幻引擎知识图谱 MCP 服务端测试', () => {
     console.log("🚀 开始测试虚幻引擎知识图谱 MCP 服务端...");
 
     // 创建客户端传输，连接到编译后的服务端
-    const serverPath = join(__dirname, "..", "dist", "src", "index.js");
+    const serverPath = join(__dirname, "..", "dist", "bin", "index.js");
     console.log(`📁 服务端路径: ${serverPath}`);
 
     transport = new StdioClientTransport({
