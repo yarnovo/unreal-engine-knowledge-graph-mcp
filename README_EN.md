@@ -20,11 +20,9 @@ This project provides an MCP server based on Neo4j graph database, specifically 
 ## Features
 
 - 🔗 **Concept Relationship Search**: Discover related concepts and learning paths for any concept
-- 🎯 **Relationship Type Queries**: Search concept relationships by type (e.g., contains, supports, depends)
 - 🧠 **Intelligent Concept Discovery**: Deep relationship mining based on graph database
-- 📊 **Knowledge Graph Statistics**: Real-time statistics of graph database
 - 🔍 **Concept Name Search**: Fuzzy search for concept names with bilingual Chinese-English support
-- 🌐 **Bilingual Support**: All query tools support Chinese-English bilingual input and intelligent merging
+- 📊 **Relationship Statistics**: Get concept relationship count statistics, sorted by importance
 
 ## Using in MCP Host
 
@@ -167,138 +165,43 @@ Search for "编辑器" and "Editor" related tools
 
 ### get_all_concepts
 
-Get list of all available concepts.
+Get list of all available concepts with relationship statistics (sorted by relationship count, prioritizing core concepts).
+
+**Use Cases:**
+- 📋 **Core Concept Priority Browsing**: "What are the most important concepts in the Unreal Engine knowledge graph?"
+- 🎯 **Learning Plan Development**: "I want to learn by importance order, which are the core concepts?"
+- 📊 **Concept Relationship Analysis**: "How many associations do these concepts have, which are most central?"
+
+**Example Prompts:**
+```
+Show the most important Unreal Engine concepts, sorted by relationship count
+List the top 50 core concepts, I want to know which are most important
+Get concept list with relationship statistics to help me plan my learning
+```
 
 **Parameters:**
 - `limit` (optional): Maximum number of concepts to return, default 100
 
-### search_by_predicate
-
-Search knowledge triples by relationship predicate with bilingual Chinese-English support.
-
-**Use Cases:**
-- 🔗 **Relationship Type Exploration**: "Which features 'support' other features?"
-- 🏗️ **Dependency Analysis**: "View all 'depends' relationships to understand feature dependencies"
-- 📦 **Containment Queries**: "Which components 'contain' other sub-components?"
-
-**Example Prompts:**
-```
-Find all "支持" and "supports" relationships, I want to understand feature support situations
-Search "依赖" and "depends" relationships, analyze dependency structures between features
-Show "包含" and "contains" relationships, understand component composition structures
-```
-
-**Parameters:**
-- `predicate` (required): Relationship predicate (bilingual Chinese-English)
-  - `cn` (required): Chinese relationship predicate, e.g., 包含、支持、依赖
-  - `en` (required): English relationship predicate, e.g., contains, supports, depends
-- `limit` (optional): Maximum number of triples to return, default 20
-
 **Return Data Format:**
 ```json
 {
-  "searchTerms": {
-    "cn": "支持",
-    "en": "supports"
-  },
-  "triples": [
+  "concepts": [
     {
-      "subject": "Blueprint System",
-      "predicate": "supports",
-      "object": "Event-Driven Programming",
-      "context": "Blueprints can respond to various game events",
-      "direction": "unidirectional",
-      "confidence": 0.85
+      "concept": "Blueprint System",
+      "relationCount": 25,
+      "incomingCount": 12,
+      "outgoingCount": 13
+    },
+    {
+      "concept": "Unreal Engine",
+      "relationCount": 20,
+      "incomingCount": 8,
+      "outgoingCount": 12
     }
   ],
-  "count": 5,
-  "totalCount": 15,
-  "limit": 20
-}
-```
-
-### search_by_confidence
-
-Search knowledge triples by confidence score, returning high-quality concept relationships.
-
-**Use Cases:**
-- ⭐ **High-Quality Relationship Filtering**: "Give me the most reliable concept relationships with high confidence"
-- 🎯 **Precise Learning Content**: "I only want to see core relationships with confidence above 0.8"
-- 📚 **Premium Resource Priority**: "Filter out the most trustworthy learning materials"
-
-**Example Prompts:**
-```
-Show high-quality relationships with confidence above 0.9
-Find core concept relationships with confidence greater than 0.8
-Filter the most reliable learning content with high confidence
-```
-
-**Parameters:**
-- `minConfidence` (optional): Minimum confidence threshold (0.0-1.0), default 0.5
-- `limit` (optional): Maximum number of triples to return, default 20
-
-**Return Data Format:**
-```json
-{
-  "minConfidence": 0.7,
-  "triples": [
-    {
-      "subject": "Unreal Engine",
-      "predicate": "contains",
-      "object": "Blueprint System",
-      "context": "Built-in visual scripting system of Unreal Engine",
-      "direction": "unidirectional",
-      "confidence": 0.95
-    }
-  ],
-  "count": 8,
-  "totalCount": 25,
-  "limit": 20
-}
-```
-
-### get_confidence_stats
-
-Get confidence statistics from the knowledge graph.
-
-**Return Data Format:**
-```json
-{
-  "confidenceStats": {
-    "avgConfidence": 0.742,
-    "highConfidenceCount": 45,
-    "mediumConfidenceCount": 38,
-    "lowConfidenceCount": 12,
-    "confidenceDistribution": [
-      {"range": "0.9-1.0", "count": 15},
-      {"range": "0.8-0.9", "count": 30},
-      {"range": "0.7-0.8", "count": 25},
-      {"range": "0.6-0.7", "count": 13},
-      {"range": "0.5-0.6", "count": 10},
-      {"range": "0.0-0.5", "count": 2}
-    ]
-  },
-  "neo4jAvailable": true
-}
-```
-
-### get_knowledge_graph_stats
-
-Get knowledge graph statistics.
-
-**Return Data Format:**
-```json
-{
-  "statistics": {
-    "entityCount": 14,
-    "documentCount": 1,
-    "tripleCount": 12,
-    "predicateTypes": [
-      {"predicate": "supports", "count": 3},
-      {"predicate": "contains", "count": 2}
-    ]
-  },
-  "neo4jAvailable": true
+  "count": 2,
+  "limit": 100,
+  "note": "Concepts sorted by relationship count from high to low, including incoming, outgoing, and total relationship statistics"
 }
 ```
 
@@ -416,7 +319,7 @@ The system uses standard knowledge graph triple structure to store concept relat
 │   ├── extract-triplets.ts     # Concept relationship extraction
 │   ├── import-to-neo4j.ts      # Data import to Neo4j
 │   └── test-connection.ts      # Database connection test
-├── src/                        # Source code
+├── bin/                        # Source code
 │   ├── index.ts                # MCP server implementation
 │   └── neo4j-search.ts         # Neo4j search engine
 ├── sources/                    # Data files
@@ -467,11 +370,11 @@ You can manually create concept relationship JSON files:
 {
   "filename": "custom-relations",
   "sourceFile": "custom/relations.md",
-  "relations": [
+  "triples": [
     {
-      "conceptA": "Custom Concept A",
-      "relation": "associates",
-      "conceptB": "Custom Concept B",
+      "subject": "Custom Concept A",
+      "predicate": "associates",
+      "object": "Custom Concept B",
       "context": "This is a custom concept relationship",
       "direction": "bidirectional"
     }

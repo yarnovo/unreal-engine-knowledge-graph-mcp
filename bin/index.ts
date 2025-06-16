@@ -235,7 +235,7 @@ server.tool(
 // 获取所有概念列表
 server.tool(
   "get_all_concepts",
-  "获取所有虚幻引擎概念列表",
+  "获取所有虚幻引擎概念列表及其关系统计信息（按关系数量排序，优先显示核心概念）",
   {
     limit: z.number().optional().default(100).describe("返回的最大概念数量"),
   },
@@ -245,7 +245,7 @@ server.tool(
   },
   async (args) => {
     try {
-      console.log(`📋 获取所有概念列表，限制数量: ${args.limit}`);
+      console.log(`📋 获取所有概念列表及统计信息，限制数量: ${args.limit}`);
       
       const concepts = await neo4jSearch.getAllConcepts(args.limit);
       
@@ -256,7 +256,8 @@ server.tool(
             text: JSON.stringify({
               concepts,
               count: concepts.length,
-              limit: args.limit
+              limit: args.limit,
+              note: "概念按关系数量从大到小排序，包含入度、出度和总关系数统计"
             }, null, 2),
           },
         ],
@@ -269,219 +270,6 @@ server.tool(
             type: "text",
             text: JSON.stringify({
               concepts: [],
-              error: error instanceof Error ? error.message : String(error)
-            }, null, 2),
-          },
-        ],
-        isError: true,
-      };
-    }
-  }
-);
-
-// 根据关系谓词搜索知识三元组
-server.tool(
-  "search_by_predicate",
-  "根据关系谓词搜索知识三元组，支持中英文双语查询",
-  {
-    predicate: z.object({
-      cn: z.string().describe("中文关系谓词，如：包含、支持、依赖等"),
-      en: z.string().describe("英文关系谓词，如：contains、supports、depends等")
-    }).describe("关系谓词（中英文）"),
-    limit: z.number().optional().default(20).describe("返回的最大三元组数量"),
-  },
-  {
-    readOnlyHint: true,
-    openWorldHint: false,
-  },
-  async (args) => {
-    try {
-      const { cn, en } = args.predicate;
-      
-      console.log(`🔍 根据关系谓词搜索: 中文="${cn}", 英文="${en}"`);
-      
-      // 分别查询中英文关系谓词
-      const promises = [
-        neo4jSearch.searchByPredicate(cn, args.limit),
-        neo4jSearch.searchByPredicate(en, args.limit)
-      ];
-
-      const results = await Promise.all(promises);
-      
-      // 合并结果
-      const allTriples = results.flatMap(r => r.triples);
-      const uniqueTriples = removeDuplicates(allTriples, item => 
-        `${item.subject}-${item.predicate}-${item.object}`
-      );
-      
-      // 限制返回数量
-      const limitedTriples = uniqueTriples.slice(0, args.limit);
-      const totalCount = Math.max(...results.map(r => r.totalCount));
-      
-      return {
-        content: [
-          {
-            type: "text",
-            text: JSON.stringify({
-              searchTerms: args.predicate,
-              triples: limitedTriples,
-              count: limitedTriples.length,
-              totalCount: totalCount,
-              limit: args.limit
-            }, null, 2),
-          },
-        ],
-      };
-    } catch (error) {
-      console.error("❌ 关系谓词搜索失败:", error);
-      return {
-        content: [
-          {
-            type: "text",
-            text: JSON.stringify({
-              searchTerms: args.predicate,
-              triples: [],
-              error: error instanceof Error ? error.message : String(error)
-            }, null, 2),
-          },
-        ],
-        isError: true,
-      };
-    }
-  }
-);
-
-// 根据置信度搜索知识三元组
-server.tool(
-  "search_by_confidence",
-  "根据置信度搜索知识三元组，返回高质量的概念关系",
-  {
-    minConfidence: z.number().min(0).max(1).optional().default(0.5).describe("最小置信度阈值（0.0-1.0）"),
-    limit: z.number().optional().default(20).describe("返回的最大三元组数量"),
-  },
-  {
-    readOnlyHint: true,
-    openWorldHint: false,
-  },
-  async (args) => {
-    try {
-      console.log(`🔍 根据置信度搜索: >= ${args.minConfidence}`);
-      
-      const result = await neo4jSearch.searchByConfidence(args.minConfidence, args.limit);
-      
-      return {
-        content: [
-          {
-            type: "text",
-            text: JSON.stringify({
-              minConfidence: args.minConfidence,
-              triples: result.triples,
-              count: result.triples.length,
-              totalCount: result.totalCount,
-              limit: args.limit
-            }, null, 2),
-          },
-        ],
-      };
-    } catch (error) {
-      console.error("❌ 置信度搜索失败:", error);
-      return {
-        content: [
-          {
-            type: "text",
-            text: JSON.stringify({
-              minConfidence: args.minConfidence,
-              triples: [],
-              error: error instanceof Error ? error.message : String(error)
-            }, null, 2),
-          },
-        ],
-        isError: true,
-      };
-    }
-  }
-);
-
-// 获取置信度统计信息
-server.tool(
-  "get_confidence_stats",
-  "获取知识图谱中置信度的统计信息",
-  {},
-  {
-    readOnlyHint: true,
-    openWorldHint: false,
-  },
-  async () => {
-    try {
-      console.log(`📊 获取置信度统计信息`);
-      
-      const stats = await neo4jSearch.getConfidenceStats();
-      
-      return {
-        content: [
-          {
-            type: "text",
-            text: JSON.stringify({
-              confidenceStats: stats,
-              neo4jAvailable: true
-            }, null, 2),
-          },
-        ],
-      };
-    } catch (error) {
-      console.error("❌ 获取置信度统计失败:", error);
-      return {
-        content: [
-          {
-            type: "text",
-            text: JSON.stringify({
-              confidenceStats: null,
-              neo4jAvailable: false,
-              error: error instanceof Error ? error.message : String(error)
-            }, null, 2),
-          },
-        ],
-        isError: true,
-      };
-    }
-  }
-);
-
-// 获取知识图谱统计信息
-server.tool(
-  "get_knowledge_graph_stats",
-  "获取知识图谱的统计信息",
-  {},
-  {
-    readOnlyHint: true,
-    openWorldHint: false,
-  },
-  async () => {
-    try {
-      console.log(`📊 获取知识图谱统计信息`);
-      
-      const stats = await neo4jSearch.getStatistics();
-      
-      return {
-        content: [
-          {
-            type: "text",
-            text: JSON.stringify({
-              statistics: stats,
-              neo4jAvailable: true
-            }, null, 2),
-          },
-        ],
-      };
-    } catch (error) {
-      console.error("❌ 获取统计信息失败:", error);
-      return {
-        content: [
-          {
-            type: "text",
-            text: JSON.stringify({
-              statistics: null,
-              neo4jAvailable: false,
               error: error instanceof Error ? error.message : String(error)
             }, null, 2),
           },

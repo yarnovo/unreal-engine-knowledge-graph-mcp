@@ -24,11 +24,6 @@ interface ConceptSearchResult {
   totalRelations: number;
 }
 
-interface TripleSearchResult {
-  triples: KnowledgeTriple[];
-  totalCount: number;
-}
-
 class Neo4jSearchEngine {
   private driver: Driver;
   private isConnected: boolean = false;
@@ -137,9 +132,14 @@ class Neo4jSearchEngine {
   }
 
   /**
-   * 获取所有概念列表
+   * 获取所有概念列表及其关系统计信息（按关系数量排序，优先返回核心概念）
    */
-  async getAllConcepts(limit: number = 100): Promise<string[]> {
+  async getAllConcepts(limit: number = 100): Promise<Array<{
+    concept: string;
+    relationCount: number;
+    incomingCount: number;
+    outgoingCount: number;
+  }>> {
     if (!await this.isAvailable()) {
       throw new Error('Neo4j数据库不可用');
     }
@@ -149,232 +149,27 @@ class Neo4jSearchEngine {
     try {
       const result = await session.run(`
         MATCH (e:Entity)
-        RETURN e.name as concept
-        ORDER BY e.name
+        OPTIONAL MATCH (e)-[r_out:RELATES_TO]->()
+        OPTIONAL MATCH ()-[r_in:RELATES_TO]->(e)
+        WITH e, 
+             count(DISTINCT r_out) as outgoingCount,
+             count(DISTINCT r_in) as incomingCount,
+             count(DISTINCT r_out) + count(DISTINCT r_in) as totalCount
+        WHERE totalCount > 0
+        RETURN e.name as concept, 
+               totalCount as relationCount,
+               incomingCount,
+               outgoingCount
+        ORDER BY totalCount DESC, e.name
         LIMIT toInteger($limit)
       `, { limit });
 
-      return result.records.map(record => record.get('concept'));
-    } finally {
-      await session.close();
-    }
-  }
-
-  /**
-   * 获取关系谓词统计
-   */
-  async getPredicateTypes(): Promise<Array<{predicate: string, count: number}>> {
-    if (!await this.isAvailable()) {
-      throw new Error('Neo4j数据库不可用');
-    }
-
-    const session = this.driver.session();
-    
-    try {
-      const result = await session.run(`
-        MATCH ()-[r:RELATES_TO]->()
-        RETURN r.predicate as predicate, count(r) as count
-        ORDER BY count DESC
-      `);
-
       return result.records.map(record => ({
-        predicate: record.get('predicate'),
-        count: record.get('count').toNumber()
+        concept: record.get('concept'),
+        relationCount: record.get('relationCount').toNumber(),
+        incomingCount: record.get('incomingCount').toNumber(),
+        outgoingCount: record.get('outgoingCount').toNumber()
       }));
-    } finally {
-      await session.close();
-    }
-  }
-
-  /**
-   * 根据关系谓词搜索
-   */
-  async searchByPredicate(predicateType: string, limit: number = 20): Promise<TripleSearchResult> {
-    if (!await this.isAvailable()) {
-      throw new Error('Neo4j数据库不可用');
-    }
-
-    const session = this.driver.session();
-    
-    try {
-      const result = await session.run(`
-        MATCH (s:Entity)-[r:RELATES_TO {predicate: $predicateType}]->(o:Entity)
-        RETURN s.name as subject, r.predicate as predicate, o.name as object, 
-               r.context as context, r.document as document, r.direction as direction, r.confidence as confidence
-        ORDER BY s.name, o.name
-        LIMIT toInteger($limit)
-      `, { predicateType, limit });
-
-      const triples = result.records.map(record => ({
-        subject: record.get('subject'),
-        predicate: record.get('predicate'),
-        object: record.get('object'),
-        context: record.get('context'),
-        document: record.get('document'),
-        direction: record.get('direction') || 'unidirectional',
-        confidence: record.get('confidence')
-      }));
-
-      // 获取总数
-      const countResult = await session.run(`
-        MATCH ()-[r:RELATES_TO {predicate: $predicateType}]->()
-        RETURN count(r) as total
-      `, { predicateType });
-
-      return {
-        triples,
-        totalCount: countResult.records[0].get('total').toNumber()
-      };
-    } finally {
-      await session.close();
-    }
-  }
-
-  /**
-   * 根据置信度搜索知识三元组
-   */
-  async searchByConfidence(minConfidence: number = 0.5, limit: number = 20): Promise<TripleSearchResult> {
-    if (!await this.isAvailable()) {
-      throw new Error('Neo4j数据库不可用');
-    }
-
-    const session = this.driver.session();
-    
-    try {
-      const result = await session.run(`
-        MATCH (s:Entity)-[r:RELATES_TO]->(o:Entity)
-        WHERE r.confidence >= $minConfidence
-        RETURN s.name as subject, r.predicate as predicate, o.name as object, 
-               r.context as context, r.document as document, r.direction as direction, r.confidence as confidence
-        ORDER BY r.confidence DESC, s.name, o.name
-        LIMIT toInteger($limit)
-      `, { minConfidence, limit });
-
-      const triples = result.records.map(record => ({
-        subject: record.get('subject'),
-        predicate: record.get('predicate'),
-        object: record.get('object'),
-        context: record.get('context'),
-        document: record.get('document'),
-        direction: record.get('direction') || 'unidirectional',
-        confidence: record.get('confidence')
-      }));
-
-      // 获取满足条件的总数
-      const countResult = await session.run(`
-        MATCH ()-[r:RELATES_TO]->()
-        WHERE r.confidence >= $minConfidence
-        RETURN count(r) as total
-      `, { minConfidence });
-
-      return {
-        triples,
-        totalCount: countResult.records[0].get('total').toNumber()
-      };
-    } finally {
-      await session.close();
-    }
-  }
-
-  /**
-   * 获取置信度统计信息
-   */
-  async getConfidenceStats(): Promise<{
-    avgConfidence: number;
-    highConfidenceCount: number;  // >= 0.8
-    mediumConfidenceCount: number; // 0.5-0.8
-    lowConfidenceCount: number;   // < 0.5
-    confidenceDistribution: Array<{range: string, count: number}>;
-  }> {
-    if (!await this.isAvailable()) {
-      throw new Error('Neo4j数据库不可用');
-    }
-
-    const session = this.driver.session();
-    
-    try {
-      // 获取平均置信度
-      const avgResult = await session.run(`
-        MATCH ()-[r:RELATES_TO]->()
-        WHERE r.confidence IS NOT NULL
-        RETURN avg(r.confidence) as avgConfidence
-      `);
-
-      // 获取置信度分布统计
-      const statsResult = await session.run(`
-        MATCH ()-[r:RELATES_TO]->()
-        WHERE r.confidence IS NOT NULL
-        RETURN 
-          count(CASE WHEN r.confidence >= 0.8 THEN 1 END) as highConfidence,
-          count(CASE WHEN r.confidence >= 0.5 AND r.confidence < 0.8 THEN 1 END) as mediumConfidence,
-          count(CASE WHEN r.confidence < 0.5 THEN 1 END) as lowConfidence
-      `);
-
-      // 获取详细置信度分布
-      const distributionResult = await session.run(`
-        MATCH ()-[r:RELATES_TO]->()
-        WHERE r.confidence IS NOT NULL
-        WITH 
-          count(CASE WHEN r.confidence >= 0.9 THEN 1 END) as range_90_100,
-          count(CASE WHEN r.confidence >= 0.8 AND r.confidence < 0.9 THEN 1 END) as range_80_90,
-          count(CASE WHEN r.confidence >= 0.7 AND r.confidence < 0.8 THEN 1 END) as range_70_80,
-          count(CASE WHEN r.confidence >= 0.6 AND r.confidence < 0.7 THEN 1 END) as range_60_70,
-          count(CASE WHEN r.confidence >= 0.5 AND r.confidence < 0.6 THEN 1 END) as range_50_60,
-          count(CASE WHEN r.confidence < 0.5 THEN 1 END) as range_0_50
-        RETURN range_90_100, range_80_90, range_70_80, range_60_70, range_50_60, range_0_50
-      `);
-
-      const avgConfidenceValue = avgResult.records[0].get('avgConfidence');
-      const avgConfidence = avgConfidenceValue ? Number(avgConfidenceValue) : 0;
-      const statsRecord = statsResult.records[0];
-      const distributionRecord = distributionResult.records[0];
-
-      return {
-        avgConfidence: Number(avgConfidence.toFixed(3)),
-        highConfidenceCount: statsRecord.get('highConfidence').toNumber(),
-        mediumConfidenceCount: statsRecord.get('mediumConfidence').toNumber(),
-        lowConfidenceCount: statsRecord.get('lowConfidence').toNumber(),
-        confidenceDistribution: [
-          { range: '0.9-1.0', count: distributionRecord.get('range_90_100').toNumber() },
-          { range: '0.8-0.9', count: distributionRecord.get('range_80_90').toNumber() },
-          { range: '0.7-0.8', count: distributionRecord.get('range_70_80').toNumber() },
-          { range: '0.6-0.7', count: distributionRecord.get('range_60_70').toNumber() },
-          { range: '0.5-0.6', count: distributionRecord.get('range_50_60').toNumber() },
-          { range: '0.0-0.5', count: distributionRecord.get('range_0_50').toNumber() }
-        ]
-      };
-    } finally {
-      await session.close();
-    }
-  }
-
-  /**
-   * 获取数据库统计信息
-   */
-  async getStatistics(): Promise<{
-    entityCount: number;
-    documentCount: number;
-    tripleCount: number;
-    predicateTypes: Array<{predicate: string, count: number}>;
-  }> {
-    if (!await this.isAvailable()) {
-      throw new Error('Neo4j数据库不可用');
-    }
-
-    const session = this.driver.session();
-    
-    try {
-      const entityCount = await session.run('MATCH (e:Entity) RETURN count(e) as count');
-      const documentCount = await session.run('MATCH (d:Document) RETURN count(d) as count');
-      const tripleCount = await session.run('MATCH ()-[r:RELATES_TO]->() RETURN count(r) as count');
-      const predicateTypes = await this.getPredicateTypes();
-
-      return {
-        entityCount: entityCount.records[0].get('count').toNumber(),
-        documentCount: documentCount.records[0].get('count').toNumber(),
-        tripleCount: tripleCount.records[0].get('count').toNumber(),
-        predicateTypes
-      };
     } finally {
       await session.close();
     }
@@ -391,4 +186,4 @@ export function getNeo4jSearchEngine(): Neo4jSearchEngine {
   return searchEngineInstance;
 }
 
-export { Neo4jSearchEngine, ConceptSearchResult, KnowledgeTriple, TripleSearchResult }; 
+export { Neo4jSearchEngine, ConceptSearchResult, KnowledgeTriple }; 
